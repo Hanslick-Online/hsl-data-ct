@@ -95,7 +95,7 @@
     
     <xsl:template match="tei:seriesStmt">
         <xsl:copy>
-            <p xmlns="http://www.tei-c.org/ns/1.0">Maschinenlesbares Transkript der Kritiken von Eduard Hanslick.</p>
+            <p xmlns="http://www.tei-c.org/ns/1.0">Maschinenlesbares Transkript der Rezensionen der ersten Auflage von Eduard Hanslicks Ästhetik-Traktat „Vom Musikalisch-Schönen“.</p>
         </xsl:copy>
     </xsl:template>
     
@@ -105,15 +105,14 @@
                 <biblStruct xmlns="http://www.tei-c.org/ns/1.0">
                     <analytic xmlns="http://www.tei-c.org/ns/1.0">
                         <title xmlns="http://www.tei-c.org/ns/1.0"><xsl:value-of select="//tei:body/tei:div/tei:ab[2]//text()"/></title>
-                        <author xmlns="http://www.tei-c.org/ns/1.0" ref="#hsl_person_id_1">Hanslick, Eduard</author>
+                        <author xmlns="http://www.tei-c.org/ns/1.0" />
                     </analytic>
                     <monogr xmlns="http://www.tei-c.org/ns/1.0">
-                        <title type="main">Neue Freie Presse</title>
+                        <title type="main" />
                         <title type="sub"><xsl:value-of select="//tei:body/tei:div/tei:ab[1]//text()"/></title>
                         <respStmt>
                             <resp>Herausgegeben von</resp>
-                            <name type="person">Etienne, Michael</name>
-                            <name type="person">Friedländer, Max</name>
+                            <name type="person" />
                         </respStmt>
                         <imprint>
                             <pubPlace><xsl:value-of select="//tei:body/tei:div/tei:ab[2]/tei:rs[@type='place']"/></pubPlace>
@@ -129,15 +128,15 @@
         <xsl:copy>
             <title xmlns="http://www.tei-c.org/ns/1.0" level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
             <title xmlns="http://www.tei-c.org/ns/1.0" level="a"><xsl:value-of select="//tei:body/tei:div/tei:ab[2]//text()"/></title>
-            <author xmlns="http://www.tei-c.org/ns/1.0" ref="#hsl_person_id_1">Hanslick, Eduard</author>
+            <author xmlns="http://www.tei-c.org/ns/1.0" />
             <editor xmlns="http://www.tei-c.org/ns/1.0">
                 <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
             </editor>
             <funder xmlns="http://www.tei-c.org/ns/1.0">
-                <name>FWF Der Wissenschaftsfond.</name>
+                <name ref="http://d-nb.info/gnd/4540825-7">Stadt Wien (MA7)</name>
                 <address>
-                    <street>Georg-Coch-Platz 2</street>
-                    <postCode>1010 Wien</postCode>
+                    <street>Friedrich-Schmidt-Platz 5</street>
+                    <postCode>1080 Wien</postCode>
                     <placeName>
                         <country>Österreich</country>
                         <settlement>Wien</settlement>
@@ -153,9 +152,9 @@
             </respStmt>
             <respStmt>
                 <resp>Projektmitarbeiterinnen</resp>
-                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                 <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                 <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+                <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
         </editionStmt>
     </xsl:template>
