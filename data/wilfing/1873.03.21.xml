@@ -3,8 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-      Morgenblatt</title>
+            <title level="a">Nr. 3080. Wien, Freitag, den 21. März 1873</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -73,22 +72,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-      Morgenblatt</title>
+                     <title>Nr. 3080. Wien, Freitag, den 21. März 1873</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-      Neue Freie Presse</title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1873-03-21"></date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -106,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2024-04-17">Transkribus OCR und Lektorat.</change>
+         <change who="delsner" when="2025-04-19">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2025-04-25">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -968,253 +967,238 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1684651685312_952_tl_1" n="N001"/><head type="h1">Feuilleton.</head>
+            <lb facs="#facs_1_region_1684651685312_952_tl_2" n="N002"/><head type="h2">Adelina <rs type="person" ref="#hsl_person_id_209">Patti</rs> und die <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Oper in <rs type="place" ref="#hsl_place_id_55">Wien</rs>.</head>
             <p>
-               <lb facs="#facs_1_line_1742710209370_36" n="N001"/>Nr. 3080. Wien, Freitag, den 21. März 1873</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684651685312_952_tl_1" n="N001"/>Feuilleton.
-      <lb facs="#facs_1_region_1684651685312_952_tl_2" n="N002"/>Adelina <rs type="person">Patti</rs> und die <rs type="place">italienisch</rs>e Oper in <rs type="place">Wien</rs>.
       <lb facs="#facs_1_region_1684651685312_952_tl_3" n="N003"/>Ed. H. Der Frühling hat uns auch diesmal wieder
-      <lb facs="#facs_1_region_1684651685312_952_tl_4" n="N004"/>Adelina <rs type="person">Patti</rs> gebracht. Sie singt an der Spitze der <rs type="person">Merelli</rs>'¬
-      <lb facs="#facs_1_region_1684651685312_952_tl_5" n="N005"/>schen Gesellschaft im Theater an der Wien und ist bisher
-      <lb facs="#facs_1_region_1684651685312_952_tl_6" n="N006"/>in zwei Opern aufgetreten: „<rs type="bibl">La Traviata</rs>“ und „<rs type="bibl">II Tro¬</rs>
-               <lb facs="#facs_1_region_1684651685312_952_tl_7" n="N007"/>
-               <rs type="bibl">vatore</rs>“. Bei der Besprechung so außerordentlicher Erschei¬
-      <lb facs="#facs_1_region_1684651685312_952_tl_8" n="N008"/>nungen wie die <hi rendition="#em">
-                  <rs type="person">Patti</rs>
-               </hi> überkommt uns jedesmal ein rechtes
+      <lb facs="#facs_1_region_1684651685312_952_tl_4" n="N004"/>Adelina <rs type="person" ref="#hsl_person_id_209">Patti</rs> gebracht. Sie singt an der Spitze der <rs type="person" ref="#hsl_person_id_1580">Merelli</rs>’
+      <lb facs="#facs_1_region_1684651685312_952_tl_5" n="N005" break="no"/>schen Gesellschaft im Theater an der Wien und ist bisher
+      <lb facs="#facs_1_region_1684651685312_952_tl_6" n="N006"/>in zwei Opern aufgetreten: „<rs type="bibl" ref="#hsl_work_id_122">La Traviata</rs>“ und „<rs type="bibl" ref="#hsl_work_id_171">II Tro
+      <lb facs="#facs_1_region_1684651685312_952_tl_7" n="N007" break="no"/>vatore</rs>“. Bei der Besprechung so außerordentlicher Erschei
+      <lb facs="#facs_1_region_1684651685312_952_tl_8" n="N008" break="no"/>nungen wie die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_209">Patti</rs></hi> überkommt uns jedesmal ein rechtes
       <lb facs="#facs_1_region_1684651685312_952_tl_9" n="N009"/>Bedauern über die enthusiastische Terminologie, welche sich
       <lb facs="#facs_1_region_1684651685312_952_tl_10" n="N010"/>allenthalben in der Theaterkritik abgenützt und längst alle
       <lb facs="#facs_1_region_1684651685312_952_tl_11" n="N011"/>Superlative entwerthet hat, so daß Ausdrücke wie „Triumph“,
       <lb facs="#facs_1_region_1684651685312_952_tl_12" n="N012"/>„Fest“ und dergleichen beinahe zum täglichen Brot geworden
       <lb facs="#facs_1_region_1684651685312_952_tl_13" n="N013"/>sind. Sagen wir es denn mit ruhiger Ueberlegung und im
-      <lb facs="#facs_1_region_1684651685312_952_tl_14" n="N014"/>strengsten Verstande: Jedes Auftreten der <hi rendition="#em">
-                  <rs type="person">Patti</rs>
-               </hi> ist ein
-      <lb facs="#facs_1_region_1684651685312_952_tl_15" n="N015"/>Triumph für sie und für die Hörer ein Fest. So bezau¬
-      <lb facs="#facs_1_region_1684651685312_952_tl_16" n="N016"/>dernd wirkt ihre Gesangskunst, daß sie uns mit jeder be¬
-      <lb facs="#facs_1_region_1684651685312_952_tl_17" n="N017"/>liebigen Arie festbannt und mancher Oper in die Arme
+      <lb facs="#facs_1_region_1684651685312_952_tl_14" n="N014"/>strengsten Verstande: Jedes Auftreten der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_209">Patti</rs></hi> ist ein
+      <lb facs="#facs_1_region_1684651685312_952_tl_15" n="N015"/>Triumph für sie und für die Hörer ein Fest. So bezau
+      <lb facs="#facs_1_region_1684651685312_952_tl_16" n="N016" break="no"/>dernd wirkt ihre Gesangskunst, daß sie uns mit jeder be
+      <lb facs="#facs_1_region_1684651685312_952_tl_17" n="N017" break="no"/>liebigen Arie festbannt und mancher Oper in die Arme
       <lb facs="#facs_1_region_1684651685312_952_tl_18" n="N018"/>treibt, der wir sonst lieber aus dem Wege gehen. So hörten
-      <lb facs="#facs_1_region_1684651685312_952_tl_19" n="N019"/>wir mit Genuß <rs type="person">Verdi</rs>'s „<rs type="bibl">Trovatore</rs>“, wenigstens so lange
-      <lb facs="#facs_1_region_1684651685312_952_tl_20" n="N020"/>
-               <rs type="person">Leonore</rs> auf der Bühne ist. In dieser Rolle war die <rs type="person">Patti</rs>
-               <lb facs="#facs_1_region_1684651685312_952_tl_21" n="N021"/>hier noch nicht aufgetreten, wie sie denn überhaupt erst später
-      <lb facs="#facs_1_region_1684651685312_952_tl_22" n="N022"/>von den heiteren und halbernsten lyrischen Partien (<rs type="person">Lucia</rs>
-               <lb facs="#facs_1_region_1684651685312_952_tl_23" n="N023"/>und <rs type="person">Sonnambula</rs> als Grenzmarken) zu jenen starken, aus¬
-      <lb facs="#facs_1_region_1684651685312_952_tl_24" n="N024"/>geprägt dramatischen Rollen überging, mit welchen sie jetzt
-      <lb facs="#facs_1_region_1684651685312_952_tl_25" n="N025"/>in den „<rs type="bibl">Hugenotten</rs>“, in „<rs type="bibl">Trovatore</rs>“, in <rs type="person">Gounod</rs>'s „<rs type="bibl">Faust</rs>“
-      <lb facs="#facs_1_region_1684651685312_952_tl_26" n="N026"/>und „<rs type="bibl">Romeo</rs>“ die größten Erfolge feiert. Ihre <rs type="person">Leonore</rs> ist
+      <lb facs="#facs_1_region_1684651685312_952_tl_19" n="N019"/>wir mit Genuß <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s „<rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>“, wenigstens so lange
+      <lb facs="#facs_1_region_1684651685312_952_tl_20" n="N020"/><rs type="person" ref="#hsl_person_id_3378">Leonore</rs> auf der Bühne ist. In dieser Rolle war die <rs type="person" ref="#hsl_person_id_209">Patti</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684651685312_952_tl_21" n="N021"/>hier noch nicht aufgetreten, wie sie denn überhaupt erst später
+      <lb facs="#facs_1_region_1684651685312_952_tl_22" n="N022"/>von den heiteren und halbernsten lyrischen Partien (<rs type="person" ref="#hsl_person_id_505">Lucia</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684651685312_952_tl_23" n="N023"/>und <rs type="person" ref="#hsl_person_id_437">Sonnambula</rs> als Grenzmarken) zu jenen starken, aus
+      <lb facs="#facs_1_region_1684651685312_952_tl_24" n="N024" break="no"/>geprägt dramatischen Rollen überging, mit welchen sie jetzt
+      <lb facs="#facs_1_region_1684651685312_952_tl_25" n="N025"/>in den „<rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs>“, in „<rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>“, in <rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s „<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“
+      <lb facs="#facs_1_region_1684651685312_952_tl_26" n="N026"/>und „<rs type="bibl" ref="#hsl_work_id_56">Romeo</rs>“ die größten Erfolge feiert. Ihre <rs type="person" ref="#hsl_person_id_3378">Leonore</rs> ist
       <lb facs="#facs_1_line_1742710289793_61" n="N027"/>eine bis in die kleinste Einzelheit vollendete Leistung von
       <lb facs="#facs_1_region_1684651685312_952_tl_27" n="N028"/>überraschendem Effect. Schade, daß diese Rolle, wie die
       <lb facs="#facs_1_region_1684651685312_952_tl_28" n="N029"/>ganze Oper, sehr ungleich in der Composition ist. Scenen
       <lb facs="#facs_1_region_1684651685312_952_tl_29" n="N030"/>von stark pulsirendem, echt dramatischem Leben wechseln im
-      <lb facs="#facs_1_region_1684651685312_952_tl_30" n="N031"/>„<rs type="bibl">Trovatore</rs>“ mit kindischem Klingklang und trivialen Kneipen¬
-      <lb facs="#facs_1_region_1684651685312_952_tl_31" n="N032"/>melodien. Der Graf <rs type="person">Luna</rs> bleibt in dieser Hinsicht noch am
-      <lb facs="#facs_1_region_1684651685312_952_tl_32" n="N033"/>meisten intact, hingegen <rs type="person">Azucena</rs>, <rs type="person">Manrico</rs> und <rs type="person">Leonore</rs>!
+      <lb facs="#facs_1_region_1684651685312_952_tl_30" n="N031"/>„<rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>“ mit kindischem Klingklang und trivialen Kneipen
+      <lb facs="#facs_1_region_1684651685312_952_tl_31" n="N032" break="no"/>melodien. Der Graf <rs type="person" ref="#hsl_person_id_5686">Luna</rs> bleibt in dieser Hinsicht noch am
+      <lb facs="#facs_1_region_1684651685312_952_tl_32" n="N033"/>meisten intact, hingegen <rs type="person" ref="#hsl_person_id_506">Azucena</rs>, <rs type="person" ref="#hsl_person_id_2952">Manrico</rs> und <rs type="person" ref="#hsl_person_id_3378">Leonore</rs>!
       <lb facs="#facs_1_region_1684651685312_952_tl_33" n="N034"/>Letztere gleicht in ihren Arien so genau den Sirenen
-      <lb facs="#facs_1_region_1684651685312_952_tl_34" n="N035"/>der alten Mythologie, daß jeder Schulmeister un¬
-      <lb facs="#facs_1_line_1742710350496_103" n="N036"/>fehlbar sein <rs type="person">Horaz</rs>'sches „Desinit in piscem“ citirt.</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_line_1742710435273_143" n="N001"/>Sowol die erste als die zweite Arie <rs type="person">Leonore</rs>ns be¬
-      <lb facs="#facs_1_region_1684651681230_949_tl_1" n="N002"/>ginnt mit einem Andante von üppiger und doch ausdrucks¬
-      <lb facs="#facs_1_region_1684651681230_949_tl_2" n="N003"/>voller Melodie, das sich zu großer Steigerung erhebt; auf
-      <lb facs="#facs_1_region_1684651681230_949_tl_3" n="N004"/>beide folgen aber Allegrosätze von abstoßender Trivialität.*)
+      <lb facs="#facs_1_region_1684651685312_952_tl_34" n="N035"/>der alten Mythologie, daß jeder Schulmeister un
+      <lb facs="#facs_1_line_1742710350496_103" n="N036" break="no"/>fehlbar sein <rs type="person" ref="#hsl_person_id_5733">Horaz</rs>’sches „Desinit in piscem“ citirt.</p>
+            <cb n="2"/>
+            <p prev="true">
+      <lb facs="#facs_1_line_1742710435273_143" n="N001"/>Sowol die erste als die zweite Arie <rs type="person" ref="#hsl_person_id_3378">Leonore</rs>ns be
+      <lb facs="#facs_1_region_1684651681230_949_tl_1" n="N002" break="no"/>ginnt mit einem Andante von üppiger und doch ausdrucks
+      <lb facs="#facs_1_region_1684651681230_949_tl_2" n="N003" break="no"/>voller Melodie, das sich zu großer Steigerung erhebt; auf
+      <lb facs="#facs_1_region_1684651681230_949_tl_3" n="N004"/>beide folgen aber Allegrosätze von abstoßender Trivialität.
+            <note type="footnote" n="*)">
+            <lb facs="#facs_1_line_1742710389928_121" n="N034"/>In der Original-Partitur hat <rs type="person" ref="#hsl_person_id_3378">Leonore</rs>ns Arie im vierten
+            <lb facs="#facs_1_line_1742710394041_124" n="N035"/>Acte (unmittelbar nach dem Miserere) ein Allegro in F-dur („Tu
+            <lb facs="#facs_1_line_1742710397584_127" n="N036"/>vedrai“), welches in <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Vorstellungen und auch von der
+            <lb facs="#facs_1_line_1742710401208_130" n="N037"/><rs type="person" ref="#hsl_person_id_209">Patti</rs> weggelassen wird. Hier bildet ihr Allegro in dem nachfolgen
+            <lb facs="#facs_1_line_1742710404608_133" n="N038" break="no"/>den Duett („Contende in giubilo“) gleichsam den verspäteten Ersatz.
+            </note>
       <lb facs="#facs_1_region_1684651681230_949_tl_4" n="N005"/>Diese unmittelbare Aufeinanderfolge eines tiefschmerzlichen
       <lb facs="#facs_1_region_1684651681230_949_tl_5" n="N006"/>Adagios und eines ausgelassenen Allegro brillante war in
-      <lb facs="#facs_1_region_1684651681230_949_tl_6" n="N007"/>den früheren Opern <rs type="person">Verdi</rs>'s unverbrüchliches Gesetz. Wenn
+      <lb facs="#facs_1_region_1684651681230_949_tl_6" n="N007"/>den früheren Opern <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s unverbrüchliches Gesetz. Wenn
       <lb facs="#facs_1_region_1684651681230_949_tl_7" n="N008"/>solch plötzlicher Uebergang gar nicht anders zu motiviren
       <lb facs="#facs_1_region_1684651681230_949_tl_8" n="N009"/>war, so mußte nach dem Adagio ein Diener eintreten und
-      <lb facs="#facs_1_region_1684651681230_949_tl_9" n="N010"/>der Heldin (zum Beispiel der <rs type="person">Amalia</rs> in den „<rs type="bibl">Masnadieri</rs>“)
+      <lb facs="#facs_1_region_1684651681230_949_tl_9" n="N010"/>der Heldin (zum Beispiel der <rs type="person" ref="#hsl_person_id_6649">Amalia</rs> in den „<rs type="bibl" ref="#hsl_work_id_178">Masnadieri</rs>“)
       <lb facs="#facs_1_region_1684651681230_949_tl_10" n="N011"/>einen Brief von sehr angenehmem Inhalt überbringen, dem
       <lb facs="#facs_1_region_1684651681230_949_tl_11" n="N012"/>zu Ehren nun der Polka- oder Galopp-Jubelsang losgehen
-      <lb facs="#facs_1_region_1684651681230_949_tl_12" n="N013"/>konnte. In <rs type="person">Verdi</rs>'s neueren Werken (vom „<rs type="bibl">Maskenball</rs>“,
-      <lb facs="#facs_1_region_1684651681230_949_tl_13" n="N014"/>„<rs type="bibl">Forza del Destino</rs>“, „<rs type="bibl">Don Carlos</rs>“ bis „<rs type="bibl">Aïda</rs>“) ist die
-      <lb facs="#facs_1_region_1684651681230_949_tl_14" n="N015"/>Manier vollständig getilgt; im „<rs type="bibl">Trovatore</rs>“ feiert sie noch
-      <lb facs="#facs_1_region_1684651681230_949_tl_15" n="N016"/>mit <rs type="person">Manrico</rs>'s und <rs type="person">Leonore</rs>ns Arien ihre fidelsten Orgien.
-      <lb facs="#facs_1_region_1684651681230_949_tl_16" n="N017"/>Adelina <rs type="person">Patti</rs> hat durch die Gestalt, die sie der <rs type="person">Verdi</rs>'schen
-      <lb facs="#facs_1_region_1684651681230_949_tl_17" n="N018"/>
-               <rs type="person">Leonore</rs> musikalisch wie dramatisch gab, neuerdings ihre
+      <lb facs="#facs_1_region_1684651681230_949_tl_12" n="N013"/>konnte. In <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s neueren Werken (vom „<rs type="bibl" ref="#hsl_work_id_35">Maskenball</rs>“,
+      <lb facs="#facs_1_region_1684651681230_949_tl_13" n="N014"/>„<rs type="bibl" ref="#hsl_work_id_385">Forza del Destino</rs>“, „<rs type="bibl" ref="#hsl_work_id_208">Don Carlos</rs>“ bis „<rs type="bibl" ref="#hsl_work_id_982">Aïda</rs>“) ist die
+      <lb facs="#facs_1_region_1684651681230_949_tl_14" n="N015"/>Manier vollständig getilgt; im „<rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>“ feiert sie noch
+      <lb facs="#facs_1_region_1684651681230_949_tl_15" n="N016"/>mit <rs type="person" ref="#hsl_person_id_2952">Manrico</rs>’s und <rs type="person" ref="#hsl_person_id_3378">Leonore</rs>ns Arien ihre fidelsten Orgien.
+      <lb facs="#facs_1_region_1684651681230_949_tl_16" n="N017"/>Adelina <rs type="person" ref="#hsl_person_id_209">Patti</rs> hat durch die Gestalt, die sie der <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’schen
+      <lb facs="#facs_1_region_1684651681230_949_tl_17" n="N018"/><rs type="person" ref="#hsl_person_id_3378">Leonore</rs> musikalisch wie dramatisch gab, neuerdings ihre
       <lb facs="#facs_1_region_1684651681230_949_tl_18" n="N019"/>große künstlerische Macht erwiesen. Die langsamen Sätze der
       <lb facs="#facs_1_region_1684651681230_949_tl_19" n="N020"/>beiden Arien fang sie breit und ausdrucksvoll, durchaus in
       <lb facs="#facs_1_region_1684651681230_949_tl_20" n="N021"/>großem, edlem Styl; hier fiel uns zugleich die größere Fülle
       <lb facs="#facs_1_region_1684651681230_949_tl_21" n="N022"/>und Schönheit der tieferen Töne auf, welche bei dem ersten
       <lb facs="#facs_1_region_1684651681230_949_tl_22" n="N023"/>Gastspiel der Sängerin noch etwas unreif klangen und jetzt
-      <lb facs="#facs_1_region_1684651681230_949_tl_23" n="N024"/>an die Tonfarbe einer <rs type="place">Cremoneser</rs> Viola mahnen. In den
-      <lb facs="#facs_1_region_1684651681230_949_tl_24" n="N025"/>Allegros war es zweierlei, wodurch sie uns über das Be¬
-      <lb facs="#facs_1_region_1684651681230_949_tl_25" n="N026"/>denkliche der Composition siegreich hinüberhalf: zuerst eine
+      <lb facs="#facs_1_region_1684651681230_949_tl_23" n="N024"/>an die Tonfarbe einer <rs type="place" ref="#hsl_place_id_183">Cremoneser</rs> Viola mahnen. In den
+      <lb facs="#facs_1_region_1684651681230_949_tl_24" n="N025"/>Allegros war es zweierlei, wodurch sie uns über das Be
+      <lb facs="#facs_1_region_1684651681230_949_tl_25" n="N026" break="no"/>denkliche der Composition siegreich hinüberhalf: zuerst eine
       <lb facs="#facs_1_region_1684651681230_949_tl_26" n="N027"/>blendende Virtuosität, die den Componisten in tiefen Schatten
       <lb facs="#facs_1_region_1684651681230_949_tl_27" n="N028"/>rückte. Man muß das silberhelle Schmettern dieser
       <lb facs="#facs_1_region_1684651681230_949_tl_28" n="N029"/>unvergleichlichen und unfehlbaren Stimme gehört haben,
       <lb facs="#facs_1_region_1684651681230_949_tl_29" n="N030"/>welche mit den erstaunlichsten Schwierigkeiten spielt und die
-      <lb facs="#facs_1_region_1684651681230_949_tl_30" n="N031"/>entlegensten Intonationen, die höchsten Noten mit einer Sicher¬
-      <lb facs="#facs_1_region_1684651681230_949_tl_31" n="N032"/>heit anschlägt, wie die Tasten eines Claviers. Sodann
-      <lb facs="#facs_1_region_1684651681230_949_tl_32" n="N033"/>wußte sie durch die Art der musikalischen Phrasirung, durch
-      <lb facs="#facs_1_line_1742710389928_121" n="N034"/>*) In der Original-Partitur hat <rs type="person">Leonore</rs>ns Arie im vierten
-      <lb facs="#facs_1_line_1742710394041_124" n="N035"/>Acte (unmittelbar nach dem Miserere) ein Allegro in F-dur („Tu
-      <lb facs="#facs_1_line_1742710397584_127" n="N036"/>vedrai“), welches in <rs type="place">deutsch</rs>en Vorstellungen und auch von der
-      <lb facs="#facs_1_line_1742710401208_130" n="N037"/>
-               <rs type="person">Patti</rs> weggelassen wird. Hier bildet ihr Allegro in dem nachfolgen¬
-      <lb facs="#facs_1_line_1742710404608_133" n="N038"/>den Duett („Contende in giubilo“) gleichsam den verspäteten Ersatz.</p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_line_1742710437968_146" n="N001"/>Miene und Geberde das Gemeine dieser Allegro-Motive zu
+      <lb facs="#facs_1_region_1684651681230_949_tl_30" n="N031"/>entlegensten Intonationen, die höchsten Noten mit einer Sicher
+      <lb facs="#facs_1_region_1684651681230_949_tl_31" n="N032" break="no"/>heit anschlägt, wie die Tasten eines Claviers. Sodann
+      <lb facs="#facs_1_region_1684651681230_949_tl_32" n="N033"/>wußte sie durch die Art der musikalischen Phrasirung, durch</p>
+            <cb n="3"/>
+            <p prev="true">
+      <lb facs="#facs_1_line_1742710437968_146" n="N001"/>Miene und Geberde das Gemeine dieser Allegro-Motive zu
       <lb facs="#facs_1_region_1684651677368_946_tl_2" n="N002"/>mildern und bis zu einem gewissen Grade zu adeln. Die
       <lb facs="#facs_1_region_1684651677368_946_tl_3" n="N003"/>meisten Sängerinnen verbreiten mit ihrem: „Ich lächle
       <lb facs="#facs_1_region_1684651677368_946_tl_4" n="N004"/>unter Thrä—ä—ä—ä—nen und der Tod ist mir die
       <lb facs="#facs_1_region_1684651677368_946_tl_5" n="N005"/>höchste Lust“ unbedingte Heiterkeit, weil sie eben in ihrer
       <lb facs="#facs_1_region_1684651677368_946_tl_6" n="N006"/>Tonbildung und Mimik nur die Farbe herausfordernder
       <lb facs="#facs_1_line_1742710247532_49" n="N007"/>Lustigkeit für diese Melodien finden. Aber in einer solchen
-      <lb facs="#facs_1_region_1684651677368_946_tl_7" n="N008"/>Situation wie die <rs type="person">Leonore</rs>ns im zweiten und vollends im
+      <lb facs="#facs_1_region_1684651677368_946_tl_7" n="N008"/>Situation wie die <rs type="person" ref="#hsl_person_id_3378">Leonore</rs>ns im zweiten und vollends im
       <lb facs="#facs_1_region_1684651677368_946_tl_8" n="N009"/>vierten Acte lacht man nicht, wenn man eine dramatische
       <lb facs="#facs_1_region_1684651677368_946_tl_9" n="N010"/>Künstlerin ist, mag der Componist hingeschrieben haben,
-      <lb facs="#facs_1_region_1684651677368_946_tl_10" n="N011"/>was er wolle. <rs type="person">Leonore</rs> sieht, nachdem sie das Schrecklichste
+      <lb facs="#facs_1_region_1684651677368_946_tl_10" n="N011"/>was er wolle. <rs type="person" ref="#hsl_person_id_3378">Leonore</rs> sieht, nachdem sie das Schrecklichste
       <lb facs="#facs_1_region_1684651677368_946_tl_11" n="N012"/>erduldet und Alles geopfert hat, selbst schon von der Hand
-      <lb facs="#facs_1_line_1742710270522_55" n="N013"/>des Todes gezeichnet, die Hoffnung aufflackern, daß wenig¬
-      <lb facs="#facs_1_region_1684651677368_946_tl_12" n="N014"/>stens ihr <rs type="person">Geliebter</rs> gerettet werde. Die Freude darüber hat
-      <lb facs="#facs_1_region_1684651677368_946_tl_13" n="N015"/>Adelina <rs type="person">Patti</rs> weit richtiger und edler in ihren Mienen aus¬
-      <lb facs="#facs_1_region_1684651677368_946_tl_14" n="N016"/>gedrückt, als der Componist in seinen Tönen: die letzte,
+      <lb facs="#facs_1_line_1742710270522_55" n="N013"/>des Todes gezeichnet, die Hoffnung aufflackern, daß wenig
+      <lb facs="#facs_1_region_1684651677368_946_tl_12" n="N014" break="no"/>stens ihr <rs type="person" ref="#hsl_person_id_2952">Geliebter</rs> gerettet werde. Die Freude darüber hat
+      <lb facs="#facs_1_region_1684651677368_946_tl_13" n="N015"/>Adelina <rs type="person" ref="#hsl_person_id_209">Patti</rs> weit richtiger und edler in ihren Mienen aus
+      <lb facs="#facs_1_region_1684651677368_946_tl_14" n="N016" break="no"/>gedrückt, als der Componist in seinen Tönen: die letzte,
       <lb facs="#facs_1_region_1684651677368_946_tl_15" n="N017"/>schmerzliche Freude einer zu Tode Gefolterten, nicht die
       <lb facs="#facs_1_region_1684651677368_946_tl_16" n="N018"/>Lustigkeit einer Kokette im Ballsaal. Es ist nicht Alles,
-      <lb facs="#facs_1_region_1684651677368_946_tl_17" n="N019"/>aber doch viel, was an solcher Stelle ein Blick, eine Ge¬
-      <lb facs="#facs_1_region_1684651677368_946_tl_18" n="N020"/>berde vermag. Freilich läßt sich das nicht von jeder Darstel¬
-      <lb facs="#facs_1_region_1684651677368_946_tl_19" n="N021"/>lerin beliebig aneignen, so wenig wie das marmorblasse,
+      <lb facs="#facs_1_region_1684651677368_946_tl_17" n="N019"/>aber doch viel, was an solcher Stelle ein Blick, eine Ge
+      <lb facs="#facs_1_region_1684651677368_946_tl_18" n="N020" break="no"/>berde vermag. Freilich läßt sich das nicht von jeder Darstel
+      <lb facs="#facs_1_region_1684651677368_946_tl_19" n="N021" break="no"/>lerin beliebig aneignen, so wenig wie das marmorblasse,
       <lb facs="#facs_1_region_1684651677368_946_tl_20" n="N022"/>scharfgeschnittene Antlitz mit den zwei schwarzen Flammen,
       <lb facs="#facs_1_region_1684651677368_946_tl_21" n="N023"/>die mit jedem Aufschwung der Melodie an Größe und
       <lb facs="#facs_1_region_1684651677368_946_tl_22" n="N024"/>Gluth zu wachsen scheinen. Dabei begreift man kaum, wie
       <lb facs="#facs_1_region_1684651677368_946_tl_23" n="N025"/>so zartem Körper diese Kraft und Ausdauer innewohnen können;
-      <lb facs="#facs_1_region_1684651677368_946_tl_24" n="N026"/>die <rs type="person">Patti</rs> bewältigte den physisch und geistig aufreibenden
-      <lb facs="#facs_1_region_1684651677368_946_tl_25" n="N027"/>vierten Act nicht nur mühelos, sondern wiederholte über¬
-      <lb facs="#facs_1_region_1684651677368_946_tl_26" n="N028"/>dies den ganzen Es-moll-Satz. Mit gespanntem Interesse
+      <lb facs="#facs_1_region_1684651677368_946_tl_24" n="N026"/>die <rs type="person" ref="#hsl_person_id_209">Patti</rs> bewältigte den physisch und geistig aufreibenden
+      <lb facs="#facs_1_region_1684651677368_946_tl_25" n="N027"/>vierten Act nicht nur mühelos, sondern wiederholte über
+      <lb facs="#facs_1_region_1684651677368_946_tl_26" n="N028" break="no"/>dies den ganzen Es-moll-Satz. Mit gespanntem Interesse
       <lb facs="#facs_1_region_1684651677368_946_tl_27" n="N029"/>wird man ihr Spiel in dieser Scene verfolgen. In den
-      <lb facs="#facs_1_line_1742710311929_67" n="N030"/>drei ersten Acten ist <rs type="person">Leonore</rs> eine gewöhnliche Theaterfigur,
-      <lb facs="#facs_1_region_1684651677368_946_tl_28" n="N031"/>die fast wie ein Versetzstück beliebig in andere Opern über¬
-      <lb facs="#facs_1_region_1684651677368_946_tl_29" n="N032"/>tragen werden könnte. Erst mit dem vierten Acte gewinnt
-      <lb facs="#facs_1_region_1684651677368_946_tl_30" n="N033"/>sie selbstständige dramatische Bedeutung. <rs type="person">Leonore</rs> hat sich
-      <lb facs="#facs_1_region_1684651677368_946_tl_31" n="N034"/>dem Thurme, in welchem <rs type="person">Manrico</rs> gefangen sitzt, zu nähern
+      <lb facs="#facs_1_line_1742710311929_67" n="N030"/>drei ersten Acten ist <rs type="person" ref="#hsl_person_id_3378">Leonore</rs> eine gewöhnliche Theaterfigur,
+      <lb facs="#facs_1_region_1684651677368_946_tl_28" n="N031"/>die fast wie ein Versetzstück beliebig in andere Opern über
+      <lb facs="#facs_1_region_1684651677368_946_tl_29" n="N032" break="no"/>tragen werden könnte. Erst mit dem vierten Acte gewinnt
+      <lb facs="#facs_1_region_1684651677368_946_tl_30" n="N033"/>sie selbstständige dramatische Bedeutung. <rs type="person" ref="#hsl_person_id_3378">Leonore</rs> hat sich
+      <lb facs="#facs_1_region_1684651677368_946_tl_31" n="N034"/>dem Thurme, in welchem <rs type="person" ref="#hsl_person_id_2952">Manrico</rs> gefangen sitzt, zu nähern
       <lb facs="#facs_1_region_1684651677368_946_tl_32" n="N035"/>gewußt; es ertönt der Chor der Mönche, welche für den
       <lb facs="#facs_1_region_1684651677368_946_tl_33" n="N036"/>zum Tode Verurtheilten das Miserere anstimmen. Bei den
-      <lb facs="#facs_1_region_1684651677368_946_tl_34" n="N037"/>ersten Tönen dieses Grabgesanges schauert die <rs type="person">Patti</rs> zusam¬
-      <lb facs="#facs_1_line_1742710366872_108" n="N038"/>men, wickelt sich ängstlich in den schwarzen Schleier und</p>
+      <lb facs="#facs_1_region_1684651677368_946_tl_34" n="N037"/>ersten Tönen dieses Grabgesanges schauert die <rs type="person" ref="#hsl_person_id_209">Patti</rs> zusam
+      <lb facs="#facs_1_line_1742710366872_108" n="N038" break="no"/>men, wickelt sich ängstlich in den schwarzen Schleier und</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684651812262_958_tl_1" n="N001"/>duckt wie ein furchtsam Kind unter ein Portale. Der
-      <lb facs="#facs_2_region_1684651812262_958_tl_2" n="N002"/>Chor verstummt für einen Augenblick, Schmerz und Ent¬
-      <lb facs="#facs_2_region_1684651812262_958_tl_3" n="N003"/>setzen kommen nun in ihr zum vollen Ausbruch, sinken aber
+            <cb n="4"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684651812262_958_tl_1" n="N001"/>duckt wie ein furchtsam Kind unter ein Portale. Der
+      <lb facs="#facs_2_region_1684651812262_958_tl_2" n="N002"/>Chor verstummt für einen Augenblick, Schmerz und Ent
+      <lb facs="#facs_2_region_1684651812262_958_tl_3" n="N003" break="no"/>setzen kommen nun in ihr zum vollen Ausbruch, sinken aber
       <lb facs="#facs_2_region_1684651812262_958_tl_4" n="N004"/>bald (in den vom Componisten glücklich vorgezeichneten
-      <lb facs="#facs_2_region_1684651812262_958_tl_5" n="N005"/>schluchzenden Figuren von je zwei verbundenen Noten) all¬
-      <lb facs="#facs_2_region_1684651812262_958_tl_6" n="N006"/>mälig ermattet zusammen. Da ertönt das Lied des <rs type="person">Trou¬</rs>
-               <lb facs="#facs_2_region_1684651812262_958_tl_7" n="N007"/>
-               <rs type="person">badour</rs>s, <rs type="person">Leonore</rs> erkennt seine Stimme. Der wechselnde
-      <lb facs="#facs_2_region_1684651812262_958_tl_8" n="N008"/>Ausdruck in den Mienen der <rs type="person">Patti</rs> ist hier von sprechender
-      <lb facs="#facs_2_line_1742710512576_170" n="N009"/>Gewalt. Wie sie erst unbeweglich lauscht, dann zur Kerker¬
-      <lb facs="#facs_2_region_1684651812262_958_tl_9" n="N010"/>thür eilt, das Ohr ans Schlüsselloch legt, sich auf den
+      <lb facs="#facs_2_region_1684651812262_958_tl_5" n="N005"/>schluchzenden Figuren von je zwei verbundenen Noten) all
+      <lb facs="#facs_2_region_1684651812262_958_tl_6" n="N006" break="no"/>mälig ermattet zusammen. Da ertönt das Lied des <rs type="person" ref="#hsl_person_id_2952">Trou
+      <lb facs="#facs_2_region_1684651812262_958_tl_7" n="N007" break="no"/>badour</rs>s, <rs type="person" ref="#hsl_person_id_3378">Leonore</rs> erkennt seine Stimme. Der wechselnde
+      <lb facs="#facs_2_region_1684651812262_958_tl_8" n="N008"/>Ausdruck in den Mienen der <rs type="person" ref="#hsl_person_id_209">Patti</rs> ist hier von sprechender
+      <lb facs="#facs_2_line_1742710512576_170" n="N009"/>Gewalt. Wie sie erst unbeweglich lauscht, dann zur Kerker
+      <lb facs="#facs_2_region_1684651812262_958_tl_9" n="N010" break="no"/>thür eilt, das Ohr ans Schlüsselloch legt, sich auf den
       <lb facs="#facs_2_region_1684651812262_958_tl_10" n="N011"/>Fußspitzen zum Gitterfenster zu heben versucht, endlich halb
-      <lb facs="#facs_2_region_1684651812262_958_tl_11" n="N012"/>unbewußt an dem Schloß herumtastet, ob nicht doch viel¬
-      <lb facs="#facs_2_region_1684651812262_958_tl_12" n="N013"/>leicht ein Eindringen möglich — das Alles ist überraschend
-      <lb facs="#facs_2_region_1684651812262_958_tl_13" n="N014"/>wahr und schön gedacht. Das folgende Duett mit <rs type="person">Luna</rs>,
-      <lb facs="#facs_2_region_1684651812262_958_tl_14" n="N015"/>das in den gewöhnlichen „<rs type="bibl">Trovatore</rs>“-Vorstellungen häufig
+      <lb facs="#facs_2_region_1684651812262_958_tl_11" n="N012"/>unbewußt an dem Schloß herumtastet, ob nicht doch viel
+      <lb facs="#facs_2_region_1684651812262_958_tl_12" n="N013" break="no"/>leicht ein Eindringen möglich — das Alles ist überraschend
+      <lb facs="#facs_2_region_1684651812262_958_tl_13" n="N014"/>wahr und schön gedacht. Das folgende Duett mit <rs type="person" ref="#hsl_person_id_5686">Luna</rs>,
+      <lb facs="#facs_2_region_1684651812262_958_tl_14" n="N015"/>das in den gewöhnlichen „<rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>“-Vorstellungen häufig
       <lb facs="#facs_2_region_1684651812262_958_tl_15" n="N016"/>bis zur Unbedeutendheit herabsinkt, obgleich darin eine
-      <lb facs="#facs_2_region_1684651812262_958_tl_16" n="N017"/>starke dramatische Ader anschlägt, trat durch den leiden¬
-      <lb facs="#facs_2_region_1684651812262_958_tl_17" n="N018"/>schaftlichen Vortrag der <rs type="person">Patti</rs> in ein helles Licht und
+      <lb facs="#facs_2_region_1684651812262_958_tl_16" n="N017"/>starke dramatische Ader anschlägt, trat durch den leiden
+      <lb facs="#facs_2_region_1684651812262_958_tl_17" n="N018" break="no"/>schaftlichen Vortrag der <rs type="person" ref="#hsl_person_id_209">Patti</rs> in ein helles Licht und
       <lb facs="#facs_2_region_1684651812262_958_tl_18" n="N019"/>wirkte packend. In der Schlußscene des vierten Actes
-      <lb facs="#facs_2_region_1684651812262_958_tl_19" n="N020"/>(im Kerker) wurde <rs type="person">Leonore</rs> durch das ergreifende, in
+      <lb facs="#facs_2_region_1684651812262_958_tl_19" n="N020"/>(im Kerker) wurde <rs type="person" ref="#hsl_person_id_3378">Leonore</rs> durch das ergreifende, in
       <lb facs="#facs_2_region_1684651812262_958_tl_20" n="N021"/>den Vergiftungsqualen allerdings etwas gewaltsame Spiel
-      <lb facs="#facs_2_region_1684651812262_958_tl_21" n="N022"/>der <rs type="person">Patti</rs> zur Hauptfigur. Eine kurze schöne Cantilene in
+      <lb facs="#facs_2_region_1684651812262_958_tl_21" n="N022"/>der <rs type="person" ref="#hsl_person_id_209">Patti</rs> zur Hauptfigur. Eine kurze schöne Cantilene in
       <lb facs="#facs_2_region_1684651812262_958_tl_22" n="N023"/>Es-dur („Prima che d’altri vivere“) klang uns durch den
-      <lb facs="#facs_2_region_1684651812262_958_tl_23" n="N024"/>Vortrag der <rs type="person">Patti</rs> wie neu, wozu allerdings auch der Um¬
-      <lb facs="#facs_2_region_1684651812262_958_tl_24" n="N025"/>stand beitrug, daß wir sie in der Regel nur im Fortgehen,
+      <lb facs="#facs_2_region_1684651812262_958_tl_23" n="N024"/>Vortrag der <rs type="person" ref="#hsl_person_id_209">Patti</rs> wie neu, wozu allerdings auch der Um
+      <lb facs="#facs_2_region_1684651812262_958_tl_24" n="N025" break="no"/>stand beitrug, daß wir sie in der Regel nur im Fortgehen,
       <lb facs="#facs_2_region_1684651812262_958_tl_25" n="N026"/>von der Theater-Garderobe aus, zu hören gewohnt sind.
-      <lb facs="#facs_2_region_1684651812262_958_tl_26" n="N027"/>Diese langgezogene, wehmüthige Melodie legte sich verklä¬
-      <lb facs="#facs_2_region_1684651812262_958_tl_27" n="N028"/>rend auf all die Gräuel, welche der letzte Act dieser Oper
+      <lb facs="#facs_2_region_1684651812262_958_tl_26" n="N027"/>Diese langgezogene, wehmüthige Melodie legte sich verklä
+      <lb facs="#facs_2_region_1684651812262_958_tl_27" n="N028" break="no"/>rend auf all die Gräuel, welche der letzte Act dieser Oper
       <lb facs="#facs_2_region_1684651812262_958_tl_28" n="N029"/>unbarmherzig aufeinanderthürmt. So reiht sich denn diese
-      <lb facs="#facs_2_region_1684651812262_958_tl_29" n="N030"/>zweite Rolle der <rs type="person">Patti</rs>, als kunstvollste Ausführung des Ge¬
-      <lb facs="#facs_2_region_1684651812262_958_tl_30" n="N031"/>gebenen, ebenbürtig an ihre erste, die „<rs type="person">Traviata</rs>“. An wohl¬
-      <lb facs="#facs_2_region_1684651812262_958_tl_31" n="N032"/>thuender und unmittelbar überzeugender Wirkung steht sie
+      <lb facs="#facs_2_region_1684651812262_958_tl_29" n="N030"/>zweite Rolle der <rs type="person" ref="#hsl_person_id_209">Patti</rs>, als kunstvollste Ausführung des Ge
+      <lb facs="#facs_2_region_1684651812262_958_tl_30" n="N031" break="no"/>gebenen, ebenbürtig an ihre erste, die „<rs type="person" ref="#hsl_person_id_2597">Traviata</rs>“. An wohl
+      <lb facs="#facs_2_region_1684651812262_958_tl_31" n="N032" break="no"/>thuender und unmittelbar überzeugender Wirkung steht sie
       <lb facs="#facs_2_region_1684651812262_958_tl_32" n="N033"/>unter dieser nur gerade so weit, als die Rolle selbst sammt
-      <lb facs="#facs_2_region_1684651812262_958_tl_33" n="N034"/>dem ganzen „<rs type="bibl">Trovatore</rs>“ an Wahrheit, Natürlichkeit und
-      <lb facs="#facs_2_region_1684651812262_958_tl_34" n="N035"/>musikalischem Reiz der „<rs type="bibl">Traviata</rs>“ nachsteht. Ueber die Styl¬
-      <lb facs="#facs_2_region_1684651812262_958_tl_35" n="N036"/>losigkeit und Gewaltsamkeit des „<rs type="bibl">Trovatore</rs>“ hinaus bedeutet
-      <lb facs="#facs_2_region_1684651812262_958_tl_36" n="N037"/>die „<rs type="bibl">Traviata</rs>“ jedenfalls einen musikalischen Fortschritt,
+      <lb facs="#facs_2_region_1684651812262_958_tl_33" n="N034"/>dem ganzen „<rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>“ an Wahrheit, Natürlichkeit und
+      <lb facs="#facs_2_region_1684651812262_958_tl_34" n="N035"/>musikalischem Reiz der „<rs type="bibl" ref="#hsl_work_id_122">Traviata</rs>“ nachsteht. Ueber die Styl
+      <lb facs="#facs_2_region_1684651812262_958_tl_35" n="N036" break="no"/>losigkeit und Gewaltsamkeit des „<rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>“ hinaus bedeutet
+      <lb facs="#facs_2_region_1684651812262_958_tl_36" n="N037"/>die „<rs type="bibl" ref="#hsl_work_id_122">Traviata</rs>“ jedenfalls einen musikalischen Fortschritt,
       <lb facs="#facs_2_region_1684651812262_958_tl_37" n="N038"/>sowie auch ihre Herkunft aus einem äußerst geschickten und</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_line_1742710538080_176" n="N001"/>wirksamen Theaterstück ihr dramatisch zum Vortheile ge¬
-      <lb facs="#facs_2_region_1684651816062_961_tl_1" n="N002"/>reicht. Personen und Handlung der „<rs type="bibl">Traviata</rs>“ entwickeln
-      <lb facs="#facs_2_region_1684651816062_961_tl_2" n="N003"/>sich vor unseren Augen, sind uns verständlich und bemäch¬
-      <lb facs="#facs_2_region_1684651816062_961_tl_3" n="N004"/>tigen sich mehr oder minder unserer Theilnahme, während
-      <lb facs="#facs_2_region_1684651816062_961_tl_4" n="N005"/>die Charaktere und Situationen im „<rs type="bibl">Trovatore</rs>“, wie aus
+            <cb n="5"/>
+            <p prev="true">
+      <lb facs="#facs_2_line_1742710538080_176" n="N001"/>wirksamen Theaterstück ihr dramatisch zum Vortheile ge
+      <lb facs="#facs_2_region_1684651816062_961_tl_1" n="N002" break="no"/>reicht. Personen und Handlung der „<rs type="bibl" ref="#hsl_work_id_122">Traviata</rs>“ entwickeln
+      <lb facs="#facs_2_region_1684651816062_961_tl_2" n="N003"/>sich vor unseren Augen, sind uns verständlich und bemäch
+      <lb facs="#facs_2_region_1684651816062_961_tl_3" n="N004" break="no"/>tigen sich mehr oder minder unserer Theilnahme, während
+      <lb facs="#facs_2_region_1684651816062_961_tl_4" n="N005"/>die Charaktere und Situationen im „<rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>“, wie aus
       <lb facs="#facs_2_line_1742710471544_157" n="N006"/>der Pistole geschossen, als brennendes Werg auf die Scene
       <lb facs="#facs_2_region_1684651816062_961_tl_5" n="N007"/>fliegen und obendrein die Vorhandlung so unverständlich ist,
       <lb facs="#facs_2_region_1684651816062_961_tl_6" n="N008"/>daß selten ein Zuschauer dahinterkommt, welcher von den
       <lb facs="#facs_2_region_1684651816062_961_tl_7" n="N009"/>beiden jungen Herren das gestohlene und verbrannte und
       <lb facs="#facs_2_line_1742710491145_164" n="N010"/>welcher das nicht gestohlene und nicht verbrannte Kind sei.
-      <lb facs="#facs_2_region_1684651816062_961_tl_8" n="N011"/>Von den neben der <rs type="person">Patti</rs> beschäftigten Sängern der
-      <lb facs="#facs_2_region_1684651816062_961_tl_9" n="N012"/>
-               <rs type="person">Merelli</rs>'schen Gesellschaft war dem <rs type="place">Wien</rs>er Publicum nur
-      <lb facs="#facs_2_region_1684651816062_961_tl_10" n="N013"/>die Darstellerin der <rs type="person">Azucena</rs> neu: Barbara <hi rendition="#em">
-                  <rs type="person">Marchisio</rs>
-               </hi>.
-      <lb facs="#facs_2_region_1684651816062_961_tl_11" n="N014"/>Vor etwa zwölf Jahren hörte ich die beiden <rs type="person">Marchisio</rs> in
-      <lb facs="#facs_2_region_1684651816062_961_tl_12" n="N015"/>der <rs type="place">Paris</rs>er Großen Oper, wohin sich Alles drängte, um in
-      <lb facs="#facs_2_region_1684651816062_961_tl_13" n="N016"/>
-               <rs type="person">Rossini</rs>'s abgestandener „<rs type="bibl">Semiramis</rs>“ das berühmte Schwe¬
-      <lb facs="#facs_2_region_1684651816062_961_tl_14" n="N017"/>sterpaar zu hören. Ihr Haupteffect war der Vortrag des
-      <lb facs="#facs_2_region_1684651816062_961_tl_15" n="N018"/>famosen Duettes zwischen <rs type="person">Arsace</rs> und <rs type="person">Semiramis</rs>, das in
+            </p><p>
+      <lb facs="#facs_2_region_1684651816062_961_tl_8" n="N011"/>Von den neben der <rs type="person" ref="#hsl_person_id_209">Patti</rs> beschäftigten Sängern der
+      <lb facs="#facs_2_region_1684651816062_961_tl_9" n="N012"/><rs type="person" ref="#hsl_person_id_1580">Merelli</rs>’schen Gesellschaft war dem <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicum nur
+      <lb facs="#facs_2_region_1684651816062_961_tl_10" n="N013"/>die Darstellerin der <rs type="person" ref="#hsl_person_id_506">Azucena</rs> neu: Barbara <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6650">Marchisio</rs></hi>.
+      <lb facs="#facs_2_region_1684651816062_961_tl_11" n="N014"/>Vor etwa zwölf Jahren hörte ich die beiden <rs type="person" ref="#hsl_person_id_6650 #hsl_person_id_6651">Marchisio</rs> in
+      <lb facs="#facs_2_region_1684651816062_961_tl_12" n="N015"/>der <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Großen Oper, wohin sich Alles drängte, um in
+      <lb facs="#facs_2_region_1684651816062_961_tl_13" n="N016"/><rs type="person" ref="#hsl_person_id_241">Rossini</rs>’s abgestandener „<rs type="bibl" ref="#hsl_work_id_52">Semiramis</rs>“ das berühmte <rs type="person" ref="#hsl_person_id_6650 #hsl_person_id_6651">Schwe
+      <lb facs="#facs_2_region_1684651816062_961_tl_14" n="N017" break="no"/>sterpaar</rs> zu hören. Ihr Haupteffect war der Vortrag des
+      <lb facs="#facs_2_region_1684651816062_961_tl_15" n="N018"/>famosen Duettes zwischen <rs type="person" ref="#hsl_person_id_5839">Arsace</rs> und <rs type="person" ref="#hsl_person_id_6652">Semiramis</rs>, das in
       <lb facs="#facs_2_region_1684651816062_961_tl_16" n="N019"/>der That wie aus Einer Kehle floß. Wenn man gefragt
-      <lb facs="#facs_2_region_1684651816062_961_tl_17" n="N020"/>wurde, welche von beiden Sängerinnen die beste sei, <rs type="person" continued="true">Car¬</rs>
-               <lb facs="#facs_2_region_1684651816062_961_tl_18" n="N021"/>
-               <rs type="person" continued="true">lotta</rs> oder <rs type="person">Barbara</rs>, so mußte man antworten: Beide zu¬
-      <lb facs="#facs_2_region_1684651816062_961_tl_19" n="N022"/>sammen. Denn sie waren mit einander eingesungen, wie
+      <lb facs="#facs_2_region_1684651816062_961_tl_17" n="N020"/>wurde, welche von beiden Sängerinnen die beste sei, <rs type="person" ref="#hsl_person_id_6651">Car
+      <lb facs="#facs_2_region_1684651816062_961_tl_18" n="N021" break="no"/>lotta</rs> oder <rs type="person" ref="#hsl_person_id_6650">Barbara</rs>, so mußte man antworten: Beide zu
+      <lb facs="#facs_2_region_1684651816062_961_tl_19" n="N022" break="no"/>sammen. Denn sie waren mit einander eingesungen, wie
       <lb facs="#facs_2_region_1684651816062_961_tl_20" n="N023"/>zwei ideale Spieluhren. Leider hat der Tod dieses seltene
-      <lb facs="#facs_2_region_1684651816062_961_tl_21" n="N024"/>Duett zerstört und <rs type="person">Carlotta</rs>, die Sopranistin, vor der Zeit
-      <lb facs="#facs_2_region_1684651816062_961_tl_22" n="N025"/>der Kunst und ihrer Familie entrissen.*) <rs type="person">Barbara</rs> ist nun
-      <lb facs="#facs_2_region_1684651816062_961_tl_23" n="N026"/>allein nach <rs type="place">Wien</rs> gekommen, leider nur mehr mit den Resten
+      <lb facs="#facs_2_region_1684651816062_961_tl_21" n="N024"/>Duett zerstört und <rs type="person" ref="#hsl_person_id_6651">Carlotta</rs>, die Sopranistin, vor der Zeit
+      <lb facs="#facs_2_region_1684651816062_961_tl_22" n="N025"/>der Kunst und ihrer Familie entrissen.
+            <note type="footnote" n="**)">
+            <lb facs="#facs_2_region_1684651816062_961_tl_33" n="N036"/>Sie war die Gattin eines Wieners, des tüchtigen Sängers
+            <lb facs="#facs_2_region_1684651816062_961_tl_34" n="N037"/>Eugen <rs type="person" ref="#hsl_person_id_6654">Coselli-Kuh</rs>, und Schwägerin des Schriftstellers Professor
+            <lb facs="#facs_2_line_1742710707952_270" n="N038"/>Emil <rs type="person" ref="#hsl_person_id_6653">Kuh</rs>.
+            </note>
+            <rs type="person" ref="#hsl_person_id_6650">Barbara</rs> ist nun
+      <lb facs="#facs_2_region_1684651816062_961_tl_23" n="N026"/>allein nach <rs type="place" ref="#hsl_place_id_55">Wien</rs> gekommen, leider nur mehr mit den Resten
       <lb facs="#facs_2_region_1684651816062_961_tl_24" n="N027"/>ihrer Stimme, eines blos in der tieferen Mittellage noch
-      <lb facs="#facs_2_region_1684651816062_961_tl_25" n="N028"/>wohlklingenden Contra-Alts, welcher schon vom zweigestri¬
-      <lb facs="#facs_2_region_1684651816062_961_tl_26" n="N029"/>chenen d an schrill wird und bei stärkerem Kraftaufwand
+      <lb facs="#facs_2_region_1684651816062_961_tl_25" n="N028"/>wohlklingenden Contra-Alts, welcher schon vom zweigestri
+      <lb facs="#facs_2_region_1684651816062_961_tl_26" n="N029" break="no"/>chenen d an schrill wird und bei stärkerem Kraftaufwand
       <lb facs="#facs_2_region_1684651816062_961_tl_27" n="N030"/>leicht distonirt. Die vorzügliche Gesangstechnik und das
-      <lb facs="#facs_2_region_1684651816062_961_tl_28" n="N031"/>dramatische Talent dieser Künstlerin kamen trotzdem zur Gel¬
-      <lb facs="#facs_2_region_1684651816062_961_tl_29" n="N032"/>tung; nachdem Frau <rs type="person">Marchisio</rs> anfangs sehr kühl aufgenom¬
-      <lb facs="#facs_2_region_1684651816062_961_tl_30" n="N033"/>men worden, fand sie am Schluß des zweiten Actes und im
+      <lb facs="#facs_2_region_1684651816062_961_tl_28" n="N031"/>dramatische Talent dieser Künstlerin kamen trotzdem zur Gel
+      <lb facs="#facs_2_region_1684651816062_961_tl_29" n="N032" break="no"/>tung; nachdem Frau <rs type="person" ref="#hsl_person_id_6650">Marchisio</rs> anfangs sehr kühl aufgenom
+      <lb facs="#facs_2_region_1684651816062_961_tl_30" n="N033" break="no"/>men worden, fand sie am Schluß des zweiten Actes und im
       <lb facs="#facs_2_region_1684651816062_961_tl_31" n="N034"/>dritten um so reichlicheren Beifall. In Maske und Spiel
-      <lb facs="#facs_2_region_1684651816062_961_tl_32" n="N035"/>that sie uns etwas zu viel des Guten an greller Charakte¬
-      <lb facs="#facs_2_region_1684651816062_961_tl_33" n="N036"/>*) Sie war die Gattin eines Wieners, des tüchtigen Sängers
-      <lb facs="#facs_2_region_1684651816062_961_tl_34" n="N037"/>Eugen <rs type="person">Coselli-Kuh</rs>, und Schwägerin des Schriftstellers Professor
-      <lb facs="#facs_2_line_1742710707952_270" n="N038"/>Emil <rs type="person">Kuh</rs>.</p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1684651823898_964_tl_1" n="N001"/>risirung dieser an sich schon hinreichend widerwärtigen Zigeu¬
-      <lb facs="#facs_2_region_1684651823898_964_tl_2" n="N002"/>nermutter. In Herrn <hi rendition="#em">
-                  <rs type="person">Graziani</rs>
-               </hi> haben wir mit aufrich¬
-      <lb facs="#facs_2_region_1684651823898_964_tl_3" n="N003"/>tigem Vergnügen den vortrefflichen Bariton vom vorigen
+      <lb facs="#facs_2_region_1684651816062_961_tl_32" n="N035"/>that sie uns etwas zu viel des Guten an greller Charakte</p>
+            <cb n="6"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684651823898_964_tl_1" n="N001" break="no"/>risirung dieser an sich schon hinreichend widerwärtigen Zigeu
+      <lb facs="#facs_2_region_1684651823898_964_tl_2" n="N002" break="no"/>nermutter. In Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4212">Graziani</rs></hi> haben wir mit aufrich
+      <lb facs="#facs_2_region_1684651823898_964_tl_3" n="N003" break="no"/>tigem Vergnügen den vortrefflichen Bariton vom vorigen
       <lb facs="#facs_2_region_1684651823898_964_tl_4" n="N004"/>Jahre wieder begrüßt. Bei so meisterhafter Behandlung
       <lb facs="#facs_2_region_1684651823898_964_tl_5" n="N005"/>des Tonansatzes, bei so edlem Vortrag und durchdachtem
-      <lb facs="#facs_2_region_1684651823898_964_tl_6" n="N006"/>Spiel vermißt man nicht allzusehr die mangelnde Jugend¬
-      <lb facs="#facs_2_region_1684651823898_964_tl_7" n="N007"/>frische der Stimme. Den Vater <rs type="person">Germont</rs> in der „<rs type="bibl">Traviata</rs>“
-      <lb facs="#facs_2_region_1684651823898_964_tl_8" n="N008"/>singt und spielt <rs type="person">Graziani</rs> besser, als wir es von den früheren Dar¬
-      <lb facs="#facs_2_region_1684651823898_964_tl_9" n="N009"/>stellern dieses salbungsvollen „vecchio genitor“ gewohnt sind.
-      <lb facs="#facs_2_region_1684651823898_964_tl_10" n="N010"/>Im „<rs type="bibl">Trovatore</rs>“ gerieth sein Vortrag von <rs type="person">Luna</rs>'s B-dur-
+      <lb facs="#facs_2_region_1684651823898_964_tl_6" n="N006"/>Spiel vermißt man nicht allzusehr die mangelnde Jugend
+      <lb facs="#facs_2_region_1684651823898_964_tl_7" n="N007" break="no"/>frische der Stimme. Den Vater <rs type="person" ref="#hsl_person_id_5687">Germont</rs> in der „<rs type="bibl" ref="#hsl_work_id_122">Traviata</rs>“
+      <lb facs="#facs_2_region_1684651823898_964_tl_8" n="N008"/>singt und spielt <rs type="person" ref="#hsl_person_id_4212">Graziani</rs> besser, als wir es von den früheren Dar
+      <lb facs="#facs_2_region_1684651823898_964_tl_9" n="N009" break="no"/>stellern dieses salbungsvollen „vecchio genitor“ gewohnt sind.
+      <lb facs="#facs_2_region_1684651823898_964_tl_10" n="N010"/>Im „<rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>“ gerieth sein Vortrag von <rs type="person" ref="#hsl_person_id_5686">Luna</rs>’s B-dur-
       <lb facs="#facs_2_region_1684651823898_964_tl_11" n="N011"/>Arie, vielleicht in Folge stimmlicher Indisposition, etwas
       <lb facs="#facs_2_region_1684651823898_964_tl_12" n="N012"/>überfein und süßlich falsettirend. Im vierten Acte erhob er
       <lb facs="#facs_2_region_1684651823898_964_tl_13" n="N013"/>sich zu größerer dramatischer Kraft und Bestimmtheit; das
       <lb facs="#facs_2_region_1684651823898_964_tl_14" n="N014"/>Haupterforderniß dieser Theaterfigur, vornehme Haltung,
-      <lb facs="#facs_2_region_1684651823898_964_tl_15" n="N015"/>besitzt <rs type="person">Graziani</rs> bekanntlich in beneidenswerthem Maße. Der
-      <lb facs="#facs_2_region_1684651823898_964_tl_16" n="N016"/>Tenorist <hi rendition="#em">
-                  <rs type="person">Nicolini</rs>
-               </hi> wird vom Publicum sehr gefeiert, wie
-      <lb facs="#facs_2_region_1684651823898_964_tl_17" n="N017"/>uns bedünken will, mehr als er verdient. Wärme und Leb¬
-      <lb facs="#facs_2_region_1684651823898_964_tl_18" n="N018"/>haftigkeit kann man ihm nicht absprechen, aber er sucht seine
+      <lb facs="#facs_2_region_1684651823898_964_tl_15" n="N015"/>besitzt <rs type="person" ref="#hsl_person_id_4212">Graziani</rs> bekanntlich in beneidenswerthem Maße. Der
+      <lb facs="#facs_2_region_1684651823898_964_tl_16" n="N016"/>Tenorist <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6471">Nicolini</rs></hi> wird vom Publicum sehr gefeiert, wie
+      <lb facs="#facs_2_region_1684651823898_964_tl_17" n="N017"/>uns bedünken will, mehr als er verdient. Wärme und Leb
+      <lb facs="#facs_2_region_1684651823898_964_tl_18" n="N018" break="no"/>haftigkeit kann man ihm nicht absprechen, aber er sucht seine
       <lb facs="#facs_2_region_1684651823898_964_tl_19" n="N019"/>Effecte fast nur im Loslegen bei carikirtem Hervorheben
-      <lb facs="#facs_2_region_1684651823898_964_tl_20" n="N020"/>der einzelnen Phrase. Seine ehemals an <rs type="person">Mario</rs> erinnernde
+      <lb facs="#facs_2_region_1684651823898_964_tl_20" n="N020"/>der einzelnen Phrase. Seine ehemals an <rs type="person" ref="#hsl_person_id_863">Mario</rs> erinnernde
       <lb facs="#facs_2_region_1684651823898_964_tl_21" n="N021"/>Stimme, ein kräftiger Tenor von entschieden baritonalem
       <lb facs="#facs_2_region_1684651823898_964_tl_22" n="N022"/>Timbre, hat den Schmelz und die Frische bereits eingebüßt
       <lb facs="#facs_2_region_1684651823898_964_tl_23" n="N023"/>und tremolirt unausgesetzt. Es ist unbegreiflich, daß dieser
-      <lb facs="#facs_2_region_1684651823898_964_tl_24" n="N024"/>Sänger nicht von der <rs type="person">Patti</rs> einiges dramatisches Benehmen,
-      <lb facs="#facs_2_region_1684651823898_964_tl_25" n="N025"/>von <rs type="person">Graziani</rs> nicht einige Mäßigung und Zartheit gelernt
-      <lb facs="#facs_2_region_1684651823898_964_tl_26" n="N026"/>hat. <rs type="person">Nicolini</rs> ist vor Allem „schöner Mann“, Italiener
+      <lb facs="#facs_2_region_1684651823898_964_tl_24" n="N024"/>Sänger nicht von der <rs type="person" ref="#hsl_person_id_209">Patti</rs> einiges dramatisches Benehmen,
+      <lb facs="#facs_2_region_1684651823898_964_tl_25" n="N025"/>von <rs type="person" ref="#hsl_person_id_4212">Graziani</rs> nicht einige Mäßigung und Zartheit gelernt
+      <lb facs="#facs_2_region_1684651823898_964_tl_26" n="N026"/>hat. <rs type="person" ref="#hsl_person_id_6471">Nicolini</rs> ist vor Allem „schöner Mann“, Italiener
       <lb facs="#facs_2_region_1684651823898_964_tl_27" n="N027"/>durch und durch und von der fixen Idee besessen, daß jede
       <lb facs="#facs_2_region_1684651823898_964_tl_28" n="N028"/>Oper eigentlich blos aus dem Publicum und seiner werthen
       <lb facs="#facs_2_region_1684651823898_964_tl_29" n="N029"/>Person bestehe. Demzufolge singt er immer nur das
@@ -1224,51 +1208,39 @@
       <lb facs="#facs_2_region_1684651823898_964_tl_33" n="N033"/>auf die Brüstung der ersten Sperrsitzreihe zu steigen), streckt
       <lb facs="#facs_2_region_1684651823898_964_tl_34" n="N034"/>die Arme stramm vor sich aus, wackelt mit den Knien,
       <lb facs="#facs_2_region_1684651823898_964_tl_35" n="N035"/>reißt Mund und Augen weit auf und singt nun seine hohen
-      <lb facs="#facs_2_region_1684651823898_964_tl_36" n="N036"/>A und B wie in höchster Lebensgefahr. Einen solchen aben¬
-      <lb facs="#facs_2_region_1684651823898_964_tl_37" n="N037"/>teuerlichen Anblick gewährt er z. B. im dritten Acte des
-      <lb facs="#facs_2_region_1684651823898_964_tl_38" n="N038"/>„<rs type="bibl">Trovatore</rs>“, wo er seine Trompeten-Arie ins Publicum</p>
+      <lb facs="#facs_2_region_1684651823898_964_tl_36" n="N036"/>A und B wie in höchster Lebensgefahr. Einen solchen aben
+      <lb facs="#facs_2_region_1684651823898_964_tl_37" n="N037" break="no"/>teuerlichen Anblick gewährt er z. B. im dritten Acte des
+      <lb facs="#facs_2_region_1684651823898_964_tl_38" n="N038"/>„<rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>“, wo er seine Trompeten-Arie ins Publicum</p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1684651842879_970_tl_1" n="N001"/>schreit, während Adelina <rs type="person">Patti</rs> sich als <rs type="person">Leonore</rs> herbeiläßt,
+            <cb n="7"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1684651842879_970_tl_1" n="N001"/>schreit, während Adelina <rs type="person" ref="#hsl_person_id_209">Patti</rs> sich als <rs type="person" ref="#hsl_person_id_3378">Leonore</rs> herbeiläßt,
       <lb facs="#facs_3_region_1684651842879_970_tl_2" n="N002"/>ihm passive Assistenz zu leisten. Im Zusammenspiele mit
-      <lb facs="#facs_3_region_1684651842879_970_tl_3" n="N003"/>
-               <hi rendition="#em">
-                  <rs type="person">Carrion</rs>
-               </hi> hatte die <hi rendition="#em">
-                  <rs type="person">Patti</rs>
-               </hi> während des Trinkliedes und
-      <lb facs="#facs_3_region_1684651842879_970_tl_4" n="N004"/>im zweiten Finale der „<rs type="bibl">Traviata</rs>“ reizende Züge stummen
-      <lb facs="#facs_3_region_1684651842879_970_tl_5" n="N005"/>Spieles, welche Herr <hi rendition="#em">
-                  <rs type="person">Nicolini</rs>
-               </hi> vereitelt, indem er sich
-      <lb facs="#facs_3_region_1684651842879_970_tl_6" n="N006"/>nicht um sie kümmert. Nach seiner „<rs type="person">Trovatore</rs>“-Arie wurde
-      <lb facs="#facs_3_region_1684651842879_970_tl_7" n="N007"/>Herr <rs type="person">Nicolini</rs> vier- bis fünfmal herausgejubelt; es machte
-      <lb facs="#facs_3_region_1684651842879_970_tl_8" n="N008"/>uns einen traurigen Eindruck. Für die <rs type="person">Patti</rs> ist diese Gleich¬
-      <lb facs="#facs_3_region_1684651842879_970_tl_9" n="N009"/>stellung mit einem musikalischen Coulissenreißer gewiß nicht
+      <lb facs="#facs_3_region_1684651842879_970_tl_3" n="N003"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_803">Carrion</rs></hi> hatte die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_209">Patti</rs></hi> während des Trinkliedes und
+      <lb facs="#facs_3_region_1684651842879_970_tl_4" n="N004"/>im zweiten Finale der „<rs type="bibl" ref="#hsl_work_id_122">Traviata</rs>“ reizende Züge stummen
+      <lb facs="#facs_3_region_1684651842879_970_tl_5" n="N005"/>Spieles, welche Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6471">Nicolini</rs></hi> vereitelt, indem er sich
+      <lb facs="#facs_3_region_1684651842879_970_tl_6" n="N006"/>nicht um sie kümmert. Nach seiner „<rs type="person" ref="#hsl_person_id_2952">Trovatore</rs>“-Arie wurde
+      <lb facs="#facs_3_region_1684651842879_970_tl_7" n="N007"/>Herr <rs type="person" ref="#hsl_person_id_6471">Nicolini</rs> vier- bis fünfmal herausgejubelt; es machte
+      <lb facs="#facs_3_region_1684651842879_970_tl_8" n="N008"/>uns einen traurigen Eindruck. Für die <rs type="person" ref="#hsl_person_id_209">Patti</rs> ist diese Gleich
+      <lb facs="#facs_3_region_1684651842879_970_tl_9" n="N009" break="no"/>stellung mit einem musikalischen Coulissenreißer gewiß nicht
       <lb facs="#facs_3_region_1684651842879_970_tl_10" n="N010"/>schmeichelhaft, für das Publicum aber noch weit weniger.
-      <lb facs="#facs_3_region_1684651842879_970_tl_11" n="N011"/>Das Ensemble der <rs type="place">italienisch</rs>en Opernvorstellungen läßt
+            </p><p>
+      <lb facs="#facs_3_region_1684651842879_970_tl_11" n="N011"/>Das Ensemble der <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Opernvorstellungen läßt
       <lb facs="#facs_3_region_1684651842879_970_tl_12" n="N012"/>Vieles zu wünschen; wer da weiß, daß neben den drei bis
       <lb facs="#facs_3_region_1684651842879_970_tl_13" n="N013"/>vier hochbezahlten ersten Kräften die kleineren überall um so
       <lb facs="#facs_3_region_1684651842879_970_tl_14" n="N014"/>mittelmäßiger sind, bescheidet sich ohnehin. Sehr anständig
-      <lb facs="#facs_3_region_1684651842879_970_tl_15" n="N015"/>ist der Bassist <hi rendition="#em">
-                  <rs type="person">Vidal</rs>
-               </hi> (er gibt im „<rs type="bibl">Trovatore</rs>“ den mazurka¬
-      <lb facs="#facs_3_region_1684651842879_970_tl_16" n="N016"/>singenden Haushofmeister mit dem riesigen Gedächtniß für
+      <lb facs="#facs_3_region_1684651842879_970_tl_15" n="N015"/>ist der Bassist <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6657">Vidal</rs></hi> (er gibt im „<rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>“ den mazurka
+      <lb facs="#facs_3_region_1684651842879_970_tl_16" n="N016" break="no"/>singenden <rs type="person" ref="#hsl_person_id_2956">Haushofmeister</rs> mit dem riesigen Gedächtniß für
       <lb facs="#facs_3_region_1684651842879_970_tl_17" n="N017"/>verbrannte und gestohlene Kinder); erträglich Signora
-      <lb facs="#facs_3_region_1684651842879_970_tl_18" n="N018"/>
-               <hi rendition="#em">
-                  <rs type="person">Aninska</rs>
-               </hi> als Vertraute; hingegen eine lächerliche Cari¬
-      <lb facs="#facs_3_region_1684651842879_970_tl_19" n="N019"/>catur jener schnapsverdächtige hochgeborne „Freund“, an
-      <lb facs="#facs_3_region_1684651842879_970_tl_20" n="N020"/>dessen Arm <rs type="person">Violetta</rs> im zweiten Finale erscheint. Die Chöre
+      <lb facs="#facs_3_region_1684651842879_970_tl_18" n="N018"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_6655">Aninska</rs></hi> als <rs type="person" ref="#hsl_person_id_6656">Vertraute</rs>; hingegen eine lächerliche Cari
+      <lb facs="#facs_3_region_1684651842879_970_tl_19" n="N019" break="no"/>catur jener schnapsverdächtige hochgeborne „Freund“, an
+      <lb facs="#facs_3_region_1684651842879_970_tl_20" n="N020"/>dessen Arm <rs type="person" ref="#hsl_person_id_2597">Violetta</rs> im zweiten Finale erscheint. Die Chöre
       <lb facs="#facs_3_region_1684651842879_970_tl_21" n="N021"/>sind schwach besetzt und mangelhaft studirt, das Orchester
       <lb facs="#facs_3_region_1684651842879_970_tl_22" n="N022"/>stimmt unrein, besonders in den Holzbläsern und Pauken.
       <lb facs="#facs_3_region_1684651842879_970_tl_23" n="N023"/>Nicht unbillig scheint es uns, von einer Bühne, welche viele
-      <lb facs="#facs_3_region_1684651842879_970_tl_24" n="N024"/>Tausende auf die Ausschmückung einer zweifelhaften Ope¬
-      <lb facs="#facs_3_region_1684651842879_970_tl_25" n="N025"/>rette verwendet, ein halbwegs anständiges Gewand für die
-      <lb facs="#facs_3_region_1684651842879_970_tl_26" n="N026"/>
-               <rs type="person">Patti</rs>-Vorstellungen zu verlangen. Das Schlimmste jedoch
+      <lb facs="#facs_3_region_1684651842879_970_tl_24" n="N024"/>Tausende auf die Ausschmückung einer zweifelhaften Ope
+      <lb facs="#facs_3_region_1684651842879_970_tl_25" n="N025" break="no"/>rette verwendet, ein halbwegs anständiges Gewand für die
+      <lb facs="#facs_3_region_1684651842879_970_tl_26" n="N026"/><rs type="person" ref="#hsl_person_id_209">Patti</rs>-Vorstellungen zu verlangen. Das Schlimmste jedoch
       <lb facs="#facs_3_region_1684651842879_970_tl_27" n="N027"/>ist die im Theater an der Wien grassirende Fallsucht des
       <lb facs="#facs_3_region_1684651842879_970_tl_28" n="N028"/>„Zwischenvorhangs“. Daß diese Einrichtung eine ästhetische
       <lb facs="#facs_3_region_1684651842879_970_tl_29" n="N029"/>Barbarei ist, zieht kaum mehr ein Dramaturg in Zweifel;
@@ -1276,10 +1248,10 @@
       <lb facs="#facs_3_region_1684651842879_970_tl_31" n="N031"/>den einzelnen Scenen nicht länger verhängt bleiben, als für
       <lb facs="#facs_3_region_1684651842879_970_tl_32" n="N032"/>den Decorationen-Wechsel unumgänglich nothwendig ist. Im
       <lb facs="#facs_3_region_1684651842879_970_tl_33" n="N033"/>Theater an der Wien hat das gar kein Absehen; wir wissen
-      <lb facs="#facs_3_region_1684651842879_970_tl_34" n="N034"/>nicht mehr, wie viel selbstständige Aufzüge aus dem vier¬
-      <lb facs="#facs_3_region_1684651842879_970_tl_35" n="N035"/>actigen „<rs type="bibl">Trovatore</rs>“ gemacht wurden. Das zerstört jede
-      <lb facs="#facs_3_region_1684651842879_970_tl_36" n="N036"/>Illusion, macht das Publicum ungeduldig und dehnt oben¬
-      <lb facs="#facs_3_region_1684651842879_970_tl_37" n="N037"/>drein Opern von bescheidener Ausdehnung zu martervoller
+      <lb facs="#facs_3_region_1684651842879_970_tl_34" n="N034"/>nicht mehr, wie viel selbstständige Aufzüge aus dem vier
+      <lb facs="#facs_3_region_1684651842879_970_tl_35" n="N035" break="no"/>actigen „<rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>“ gemacht wurden. Das zerstört jede
+      <lb facs="#facs_3_region_1684651842879_970_tl_36" n="N036"/>Illusion, macht das Publicum ungeduldig und dehnt oben
+      <lb facs="#facs_3_region_1684651842879_970_tl_37" n="N037" break="no"/>drein Opern von bescheidener Ausdehnung zu martervoller
       <lb facs="#facs_3_region_1684651842879_970_tl_38" n="N038"/>Länge aus.</p>
          </div>
       </body>
