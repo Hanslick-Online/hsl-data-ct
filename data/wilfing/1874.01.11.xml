@@ -3,8 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-      Morgenblatt</title>
+            <title level="a">Nr. 3369. Wien, Sonntag, den 11. Januar 1874</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -73,22 +72,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-      Morgenblatt</title>
+                     <title>Nr. 3369. Wien, Sonntag, den 11. Januar 1874</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-      Neue Freie Presse</title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1874-01-11">11.01.1874</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -106,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2025-04-19">Transkribus OCR und Lektorat.</change>
+         <change who="delsner" when="2025-04-22">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2025-05-08">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -749,7 +748,7 @@
                   rendition="Line"
                   xml:id="facs_2_line_1743574486789_433"/>
          </zone>
-         <zone points="1519,2263 1519,2252"
+         <zone points="1524,2238 2230,2238 2230,3426 1524,3426"
                rendition="TextRegion"
                xml:id="facs_2_region_1684649158793_392">
       </zone>
@@ -1008,358 +1007,303 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1684649134252_374_tl_1" n="N001"/><head type="h1">„<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“</head>
+            <lb facs="#facs_1_line_1743574000302_294" n="N002"/><head type="h2">Oper in vier Acten von Robert <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi>. (Erste Aufführung im Hofopern
+            <lb facs="#facs_1_line_1743574009319_297" n="N003" break="no"/>theater am 8. Januar <date>1874</date>.)</head>
             <p>
-               <lb facs="#facs_1_line_1743573982638_289" n="N001"/>Nr. 3369. Wien, Sonntag, den 11. Januar 1874</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684649134252_374_tl_1" n="N001"/>„<rs type="bibl">Genovefa</rs>“
-      <lb facs="#facs_1_line_1743574000302_294" n="N002"/>Oper in vier Acten von Robert <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi>. (Erste Aufführung im Hofopern¬
-      <lb facs="#facs_1_line_1743574009319_297" n="N003"/>theater am 8. Januar <date month="0" day="0" year="0">1874</date>.)
       <lb facs="#facs_1_region_1684649134252_374_tl_4" n="N004"/>Ed. H. Aus einem ganzen Haufen von projectirten
-      <lb facs="#facs_1_region_1684649134252_374_tl_5" n="N005"/>Opernstoffen hatte <rs type="person">Schumann</rs> gerade einen der unpraktischesten
-      <lb facs="#facs_1_region_1684649134252_374_tl_6" n="N006"/>zur wirklichen Ausführung gewählt: die „<rs type="bibl">Genovefa</rs>“. Das
-      <lb facs="#facs_1_region_1684649134252_374_tl_7" n="N007"/>entsprach dem Romantiker in <rs type="person">Schumann</rs>; <rs type="place">deutsch</rs>-mittelalteriges
+      <lb facs="#facs_1_region_1684649134252_374_tl_5" n="N005"/>Opernstoffen hatte <rs type="person" ref="#hsl_person_id_282">Schumann</rs> gerade einen der unpraktischesten
+      <lb facs="#facs_1_region_1684649134252_374_tl_6" n="N006"/>zur wirklichen Ausführung gewählt: die „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“. Das
+      <lb facs="#facs_1_region_1684649134252_374_tl_7" n="N007"/>entsprach dem Romantiker in <rs type="person" ref="#hsl_person_id_282">Schumann</rs>; <rs type="place" ref="#hsl_place_id_14">deutsch</rs>-mittelalteriges
       <lb facs="#facs_1_region_1684649134252_374_tl_8" n="N008"/>Wesen, christliche Frömmigkeit, mystische Wunder, endlich
       <lb facs="#facs_1_region_1684649134252_374_tl_9" n="N009"/>sogar Anklänge ans Volkslied — alle vier Elemente der
-      <lb facs="#facs_1_region_1684649134252_374_tl_10" n="N010"/>
-               <rs type="place">deutsch</rs>en Romantik treffen hier zusammen. „Nach <hi rendition="#em">
-                  <rs type="person">Tieck</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684649134252_374_tl_11" n="N011"/>und <hi rendition="#em">
-                  <rs type="person">Hebbel</rs>
-               </hi>,“ heißt es auf dem Titelblatte des Textbuches;
-      <lb facs="#facs_1_region_1684649134252_374_tl_12" n="N012"/>thatsächlich hielt sich <rs type="person">Schumann</rs> ungleich weniger an <rs type="person">Tieck</rs>'s
-      <lb facs="#facs_1_region_1684649134252_374_tl_13" n="N013"/>
-               <rs type="bibl">Gedicht</rs>, als an <rs type="person">Hebbel</rs>'s <rs type="bibl">Drama</rs>, dem nicht nur im All¬
-      <lb facs="#facs_1_region_1684649134252_374_tl_14" n="N014"/>gemeinen die Disposition (natürlich mit dem von <rs type="person">Hebbel</rs>
-               <lb facs="#facs_1_region_1684649134252_374_tl_15" n="N015"/>später zugefügten glücklichen Ausgang), sondern auch zahl¬
-      <lb facs="#facs_1_region_1684649134252_374_tl_16" n="N016"/>reiche Textstellen wörtlich entnommen sind — nicht zum Vor¬
-      <lb facs="#facs_1_region_1684649134252_374_tl_17" n="N017"/>theil der Oper, welche mehr musikalisches Element in <hi rendition="#em">
-                  <rs type="person">Tieck</rs>'s</hi>
-               <lb facs="#facs_1_region_1684649134252_374_tl_18" n="N018"/>„<rs type="bibl">Genovefa</rs>“ vorgefunden hätte. Welch schönes Motiv liegt
+      <lb facs="#facs_1_region_1684649134252_374_tl_10" n="N010"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Romantik treffen hier zusammen. „Nach <hi rendition="#em"><rs type="person" ref="#hsl_person_id_306">Tieck</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684649134252_374_tl_11" n="N011"/>und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_115">Hebbel</rs></hi>,“ heißt es auf dem Titelblatte des Textbuches;
+      <lb facs="#facs_1_region_1684649134252_374_tl_12" n="N012"/>thatsächlich hielt sich <rs type="person" ref="#hsl_person_id_282">Schumann</rs> ungleich weniger an <rs type="person" ref="#hsl_person_id_306">Tieck</rs>’s
+      <lb facs="#facs_1_region_1684649134252_374_tl_13" n="N013"/><rs type="bibl" ref="#hsl_work_id_703">Gedicht</rs>, als an <rs type="person" ref="#hsl_person_id_115">Hebbel</rs>’s <rs type="bibl" ref="#hsl_work_id_4741">Drama</rs>, dem nicht nur im All
+      <lb facs="#facs_1_region_1684649134252_374_tl_14" n="N014" break="no"/>gemeinen die Disposition (natürlich mit dem von <rs type="person" ref="#hsl_person_id_115">Hebbel</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684649134252_374_tl_15" n="N015"/>später zugefügten glücklichen Ausgang), sondern auch zahl
+      <lb facs="#facs_1_region_1684649134252_374_tl_16" n="N016" break="no"/>reiche Textstellen wörtlich entnommen sind — nicht zum Vor
+      <lb facs="#facs_1_region_1684649134252_374_tl_17" n="N017" break="no"/>theil der Oper, welche mehr musikalisches Element in <hi rendition="#em"><rs type="person" ref="#hsl_person_id_306">Tieck</rs>’s</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684649134252_374_tl_18" n="N018"/>„<rs type="bibl" ref="#hsl_work_id_703">Genovefa</rs>“ vorgefunden hätte. Welch schönes Motiv liegt
       <lb facs="#facs_1_region_1684649134252_374_tl_19" n="N019"/>nicht in jenem Trauerliede unglücklicher Liebe: „Dicht von
-      <lb facs="#facs_1_region_1684649134252_374_tl_20" n="N020"/>Felsen eingeschlossen“, welches bei <rs type="person">Tieck</rs> gleich anfangs von
-      <lb facs="#facs_1_region_1684649134252_374_tl_21" n="N021"/>zwei Hirten dem <hi rendition="#em">
-                  <rs type="person">Golo</rs>
-               </hi> vorgesungen wird und prophetisch
+      <lb facs="#facs_1_region_1684649134252_374_tl_20" n="N020"/>Felsen eingeschlossen“, welches bei <rs type="person" ref="#hsl_person_id_306">Tieck</rs> gleich anfangs von
+      <lb facs="#facs_1_region_1684649134252_374_tl_21" n="N021"/>zwei Hirten dem <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6739">Golo</rs></hi> vorgesungen wird und prophetisch
       <lb facs="#facs_1_region_1684649134252_374_tl_22" n="N022"/>sein Schicksal verkündet, ihn durch alle Stadien seiner bis
       <lb facs="#facs_1_region_1684649134252_374_tl_23" n="N023"/>zur Raserei auflodernden Leidenschaft und seiner Verbrechen
-      <lb facs="#facs_1_region_1684649134252_374_tl_24" n="N024"/>begleitet bis zu seinem versöhnenden Tode. <rs type="person">Schumann</rs> mochte
+      <lb facs="#facs_1_region_1684649134252_374_tl_24" n="N024"/>begleitet bis zu seinem versöhnenden Tode. <rs type="person" ref="#hsl_person_id_282">Schumann</rs> mochte
       <lb facs="#facs_1_region_1684649134252_374_tl_25" n="N025"/>sich vor der Banalität des „rothen Fadens“ gescheut haben;
       <lb facs="#facs_1_region_1684649134252_374_tl_26" n="N026"/>aber es kommt doch sehr viel darauf an, von wem und aus
-      <lb facs="#facs_1_region_1684649134252_374_tl_27" n="N027"/>welchem Musikstoffe solcher Faden gesponnen wird. Begreif¬
-      <lb facs="#facs_1_region_1684649134252_374_tl_28" n="N028"/>licherweise fiel der Bühnenrücksicht auch zum Opfer, was an
-      <lb facs="#facs_1_region_1684649134252_374_tl_29" n="N029"/>der <rs type="person">Genovefa</rs>-Legende das Rührendste und Poetischeste ist:
-      <lb facs="#facs_1_region_1684649134252_374_tl_30" n="N030"/>der Aufenthalt der von den Mördern verschonten <rs type="person">Genovefa</rs>
-               <lb facs="#facs_1_region_1684649134252_374_tl_31" n="N031"/>in tiefer Waldeinsamkeit, wo sie sieben Jahre lang mit dem
+      <lb facs="#facs_1_region_1684649134252_374_tl_27" n="N027"/>welchem Musikstoffe solcher Faden gesponnen wird. Begreif
+      <lb facs="#facs_1_region_1684649134252_374_tl_28" n="N028" break="no"/>licherweise fiel der Bühnenrücksicht auch zum Opfer, was an
+      <lb facs="#facs_1_region_1684649134252_374_tl_29" n="N029"/>der <rs type="person" ref="#hsl_person_id_6729">Genovefa</rs>-Legende das Rührendste und Poetischeste ist:
+      <lb facs="#facs_1_region_1684649134252_374_tl_30" n="N030"/>der Aufenthalt der von den Mördern verschonten <rs type="person" ref="#hsl_person_id_6729">Genovefa</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684649134252_374_tl_31" n="N031"/>in tiefer Waldeinsamkeit, wo sie sieben Jahre lang mit dem
       <lb facs="#facs_1_region_1684649134252_374_tl_32" n="N032"/>kleinen Schmerzenreich und der Hirschkuh lebt, bis ihr von Reue
       <lb facs="#facs_1_region_1684649134252_374_tl_33" n="N033"/>und Schwermuth gefolterter Gemal auf einer Jagd zufällig die
-      <lb facs="#facs_1_region_1684649134252_374_tl_34" n="N034"/>Todtgeglaubte entdeckt und überglücklich auf sein Schloß zurück¬
-      <lb facs="#facs_1_region_1684649134252_374_tl_35" n="N035"/>führt. <rs type="person">Schumann</rs>'s Textbuch ist dürftig und interesselos, nament¬
-      <lb facs="#facs_1_region_1684649134252_374_tl_36" n="N036"/>lich in der Charakteristik der Hauptpersonen; ohne die legen¬
-      <lb facs="#facs_1_line_1743574352685_393" n="N037"/>denhafte Verklärung <rs type="person">Tieck</rs>'s und ohne die scharfe psycholo¬</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_line_1743574167526_334" n="N001"/>gische Motivirung <rs type="person">Hebbel</rs>'s wird hier <rs type="person">Golo</rs> zum gewöhnlichen
-      <lb facs="#facs_1_region_1684649138267_377_tl_1" n="N002"/>Theaterschuft, <rs type="person">Genovefa</rs> zur langweiligsten Dulderin, Graf
-      <lb facs="#facs_1_region_1684649138267_377_tl_2" n="N003"/>
-               <rs type="person">Siegfried</rs> zum hilflosen Schwachkopf. <rs type="person">Tieck</rs>'s alte Versucherin
-      <lb facs="#facs_1_line_1743574186974_340" n="N004"/>
-               <rs type="person">Gertrud</rs> und <rs type="person">Hebbel</rs>'s böses <rs type="person">Schwesternpaar</rs> hat <rs type="person">Schumann</rs>
-               <lb facs="#facs_1_region_1684649138267_377_tl_3" n="N005"/>in Eine Solohexe, <rs type="person">Margarethe</rs>, zusammengeschmolzen, die
+      <lb facs="#facs_1_region_1684649134252_374_tl_34" n="N034"/>Todtgeglaubte entdeckt und überglücklich auf sein Schloß zurück
+      <lb facs="#facs_1_region_1684649134252_374_tl_35" n="N035" break="no"/>führt. <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s Textbuch ist dürftig und interesselos, nament
+      <lb facs="#facs_1_region_1684649134252_374_tl_36" n="N036" break="no"/>lich in der Charakteristik der Hauptpersonen; ohne die legen
+      <lb facs="#facs_1_line_1743574352685_393" n="N037" break="no"/>denhafte Verklärung <rs type="person" ref="#hsl_person_id_306">Tieck</rs>’s und ohne die scharfe psycholo</p>
+            <cb n="2"/>
+            <p prev="true">
+      <lb facs="#facs_1_line_1743574167526_334" n="N001" break="no"/>gische Motivirung <rs type="person" ref="#hsl_person_id_115">Hebbel</rs>’s wird hier <rs type="person" ref="#hsl_person_id_3192">Golo</rs> zum gewöhnlichen
+      <lb facs="#facs_1_region_1684649138267_377_tl_1" n="N002"/>Theaterschuft, <rs type="person" ref="#hsl_person_id_6740">Genovefa</rs> zur langweiligsten Dulderin, Graf
+      <lb facs="#facs_1_region_1684649138267_377_tl_2" n="N003"/><rs type="person" ref="#hsl_person_id_2716">Siegfried</rs> zum hilflosen Schwachkopf. <rs type="person" ref="#hsl_person_id_306">Tieck</rs>’s alte Versucherin
+      <lb facs="#facs_1_line_1743574186974_340" n="N004"/><rs type="person" ref="#hsl_person_id_6741">Gertrud</rs> und <rs type="person" ref="#hsl_person_id_115">Hebbel</rs>’s böses <rs type="person" ref="#hsl_person_id_6743 #hsl_person_id_6744">Schwesternpaar</rs> hat <rs type="person" ref="#hsl_person_id_282">Schumann</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684649138267_377_tl_3" n="N005"/>in Eine Solohexe, <rs type="person" ref="#hsl_person_id_6742">Margarethe</rs>, zusammengeschmolzen, die
       <lb facs="#facs_1_line_1743574210519_349" n="N006"/>sich nicht merklich von ihren zahlreichen Operncolleginnen
-      <lb facs="#facs_1_region_1684649138267_377_tl_4" n="N007"/>unterscheidet. Widerwärtige Vorgänge aus <rs type="person">Hebbel</rs>'s <rs type="bibl">Drama</rs>
-               <lb facs="#facs_1_region_1684649138267_377_tl_5" n="N008"/>wiederholen sich genau in der Oper mit noch abstoßenderer
-      <lb facs="#facs_1_line_1743574070263_304" n="N009"/>Wirkung, z. B. die Scene, wo das Burggesindel in <rs type="place">Geno¬</rs>
-               <lb facs="#facs_1_line_1743574228302_356" n="N010"/>
-               <rs type="place">vefa</rs>'s Schlafzimmer dringt, den unschuldigen alten <rs type="person">Drago</rs>
-               <lb facs="#facs_1_line_1743574252949_363" n="N011"/>herauszerrt und tödtet, schließlich die <rs type="person">Pfalzgräfin</rs> unter wüstem
+      <lb facs="#facs_1_region_1684649138267_377_tl_4" n="N007"/>unterscheidet. Widerwärtige Vorgänge aus <rs type="person" ref="#hsl_person_id_115">Hebbel</rs>’s <rs type="bibl" ref="#hsl_work_id_4741">Drama</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684649138267_377_tl_5" n="N008"/>wiederholen sich genau in der Oper mit noch abstoßenderer
+      <lb facs="#facs_1_line_1743574070263_304" n="N009"/>Wirkung, z. B. die Scene, wo das Burggesindel in <rs type="person" ref="#hsl_person_id_6740">Geno
+      <lb facs="#facs_1_line_1743574228302_356" n="N010" break="no"/>vefa</rs>’s Schlafzimmer dringt, den unschuldigen alten <rs type="person" ref="#hsl_person_id_6745">Drago</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_line_1743574252949_363" n="N011"/>herauszerrt und tödtet, schließlich die <rs type="person" ref="#hsl_person_id_6740">Pfalzgräfin</rs> unter wüstem
       <lb facs="#facs_1_region_1684649138267_377_tl_6" n="N012"/>Halloh davonschleppt. Die Lösung ist gewaltsam überstürzt:
-      <lb facs="#facs_1_region_1684649138267_377_tl_7" n="N013"/>kaum hat <rs type="person">Siegfried</rs> den <rs type="person">Golo</rs> zur Tödtung <rs type="person">Genovefa</rs>'s abge¬
-      <lb facs="#facs_1_region_1684649138267_377_tl_8" n="N014"/>schickt, als er auch schon, geführt von der reumüthigen <rs type="person">Hexe</rs>,
-      <lb facs="#facs_1_region_1684649138267_377_tl_9" n="N015"/>im Walde ankommt, um <rs type="person">Genovefa</rs> zu retten. Mit diesem
+      <lb facs="#facs_1_region_1684649138267_377_tl_7" n="N013"/>kaum hat <rs type="person" ref="#hsl_person_id_2716">Siegfried</rs> den <rs type="person" ref="#hsl_person_id_3192">Golo</rs> zur Tödtung <rs type="person" ref="#hsl_person_id_6740">Genovefa</rs>’s abge
+      <lb facs="#facs_1_region_1684649138267_377_tl_8" n="N014" break="no"/>schickt, als er auch schon, geführt von der reumüthigen <rs type="person" ref="#hsl_person_id_6742">Hexe</rs>,
+      <lb facs="#facs_1_region_1684649138267_377_tl_9" n="N015"/>im Walde ankommt, um <rs type="person" ref="#hsl_person_id_6740">Genovefa</rs> zu retten. Mit diesem
       <lb facs="#facs_1_line_1743574271286_369" n="N016"/>Wiederfinden im Walde — wir müssen lange genug darin
       <lb facs="#facs_1_region_1684649138267_377_tl_10" n="N017"/>verweilen — könnte die Oper füglich schließen; aber die
-      <lb facs="#facs_1_region_1684649138267_377_tl_11" n="N018"/>Scene wird nochmals verwandelt, um die Ankunft der Ge¬
-      <lb facs="#facs_1_region_1684649138267_377_tl_12" n="N019"/>retteten auf der Burg unter Choralklängen und Glocken¬
-      <lb facs="#facs_1_region_1684649138267_377_tl_13" n="N020"/>läuten zu feiern.
-      <lb facs="#facs_1_line_1743574289541_377" n="N021"/>Zu diesem Textbuche hat <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi> eine Musik ge¬
-      <lb facs="#facs_1_region_1684649138267_377_tl_14" n="N022"/>schrieben, die, von keuscher Empfindung durchdrungen, von
-      <lb facs="#facs_1_region_1684649138267_377_tl_15" n="N023"/>edlem Ausdruck getragen, vor Allem danach strebt, mit unbe¬
-      <lb facs="#facs_1_region_1684649138267_377_tl_16" n="N024"/>stechlicher Treue das Wort des Dichters zu interpretiren.
+      <lb facs="#facs_1_region_1684649138267_377_tl_11" n="N018"/>Scene wird nochmals verwandelt, um die Ankunft der Ge
+      <lb facs="#facs_1_region_1684649138267_377_tl_12" n="N019" break="no"/>retteten auf der Burg unter Choralklängen und Glocken
+      <lb facs="#facs_1_region_1684649138267_377_tl_13" n="N020" break="no"/>läuten zu feiern.
+            </p><p>
+      <lb facs="#facs_1_line_1743574289541_377" n="N021"/>Zu diesem Textbuche hat <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi> eine Musik ge
+      <lb facs="#facs_1_region_1684649138267_377_tl_14" n="N022" break="no"/>schrieben, die, von keuscher Empfindung durchdrungen, von
+      <lb facs="#facs_1_region_1684649138267_377_tl_15" n="N023"/>edlem Ausdruck getragen, vor Allem danach strebt, mit unbe
+      <lb facs="#facs_1_region_1684649138267_377_tl_16" n="N024" break="no"/>stechlicher Treue das Wort des Dichters zu interpretiren.
       <lb facs="#facs_1_line_1743574089093_311" n="N025"/>Leider krankt seine Musik an dem Einen unheilbaren Uebel,
-      <lb facs="#facs_1_line_1743574107838_317" n="N026"/>undramatisch zu sein. <rs type="person">Schumann</rs>'s ganze Natur, auf ein
+      <lb facs="#facs_1_line_1743574107838_317" n="N026"/>undramatisch zu sein. <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s ganze Natur, auf ein
       <lb facs="#facs_1_region_1684649138267_377_tl_17" n="N027"/>tief innerliches Arbeiten und ein höchst subjectives, bis
       <lb facs="#facs_1_region_1684649138267_377_tl_18" n="N028"/>zur Grübelei verfeinertes Empfinden gestellt, war
       <lb facs="#facs_1_region_1684649138267_377_tl_19" n="N029"/>undramatisch, unfähig, sich an die Charaktere eines
       <lb facs="#facs_1_region_1684649138267_377_tl_20" n="N030"/>Dramas so zu entäußern, daß diese als lebendige, scharf
-      <lb facs="#facs_1_region_1684649138267_377_tl_21" n="N031"/>ausgeprägte Personen vor uns stehen und gehen. Alle Cha¬
-      <lb facs="#facs_1_region_1684649138267_377_tl_22" n="N032"/>raktere in der „<rs type="bibl">Genovefa</rs>“ und deren verschiedenste Seelen¬
-      <lb facs="#facs_1_line_1743574308773_385" n="N033"/>zustände erblicken wir gleichmäßig gefärbt durch das Prisma
-      <lb facs="#facs_1_region_1684649138267_377_tl_23" n="N034"/>der <rs type="person">Schumann</rs>'schen Subjectivität. Nehmen wir beispielsweise
+      <lb facs="#facs_1_region_1684649138267_377_tl_21" n="N031"/>ausgeprägte Personen vor uns stehen und gehen. Alle Cha
+      <lb facs="#facs_1_region_1684649138267_377_tl_22" n="N032" break="no"/>raktere in der „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“ und deren verschiedenste Seelen
+      <lb facs="#facs_1_line_1743574308773_385" n="N033" break="no"/>zustände erblicken wir gleichmäßig gefärbt durch das Prisma
+      <lb facs="#facs_1_region_1684649138267_377_tl_23" n="N034"/>der <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’schen Subjectivität. Nehmen wir beispielsweise
       <lb facs="#facs_1_region_1684649138267_377_tl_24" n="N035"/>Gold heraus, die treibende Kraft des Ganzen. Wie ärmlich
       <lb facs="#facs_1_region_1684649138267_377_tl_25" n="N036"/>flackert in seinem Gesang die Liebesgluth die in heller Lohe
       <lb facs="#facs_1_region_1684649138267_377_tl_26" n="N037"/>aufschlagen soll! Mit welcher matten Beschaulichkeit raubt
-      <lb facs="#facs_1_region_1684649138267_377_tl_27" n="N038"/>er der schlafenden <rs type="person">Genovefa</rs> den Kuß — bei <rs type="person">Hebbel</rs> eine
+      <lb facs="#facs_1_region_1684649138267_377_tl_27" n="N038"/>er der schlafenden <rs type="person" ref="#hsl_person_id_6740">Genovefa</rs> den Kuß — bei <rs type="person" ref="#hsl_person_id_115">Hebbel</rs> eine
       <lb facs="#facs_1_line_1743574140919_323" n="N039"/>Scene von so glühender Sinnlichkeit, daß die Luft wie vom
-      <lb facs="#facs_1_line_1743574366069_398" n="N040"/>Samum zu erzittern scheint. Nun hat <rs type="person">Golo</rs> mit <rs type="person">Genovefa</rs>
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1684649141863_380_tl_1" n="N001"/>noch zwei Duette (im zweiten und im vierten Act), die jedem
-      <lb facs="#facs_1_region_1684649141863_380_tl_2" n="N002"/>echt dramatischen Componisten die feurigsten Melodien ab¬
-      <lb facs="#facs_1_region_1684649141863_380_tl_3" n="N003"/>gepreßt und ihn außerdem gedrängt hätten, beide Scenen
-      <lb facs="#facs_1_region_1684649141863_380_tl_4" n="N004"/>durch außerordentliche Steigerung und charakteristischen Gegen¬
-      <lb facs="#facs_1_region_1684649141863_380_tl_5" n="N005"/>satz auseinanderzuhalten. Bei <rs type="person">Schumann</rs> erscheint die erste
-      <lb facs="#facs_1_region_1684649141863_380_tl_6" n="N006"/>kühne Liebeswerbung <rs type="person">Golo</rs>'s und seine verzweifelte letzte in
+      <lb facs="#facs_1_line_1743574366069_398" n="N040"/>Samum zu erzittern scheint. Nun hat <rs type="person" ref="#hsl_person_id_3192">Golo</rs> mit <rs type="person" ref="#hsl_person_id_6740">Genovefa</rs><space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1684649141863_380_tl_1" n="N001"/>noch zwei Duette (im zweiten und im vierten Act), die jedem
+      <lb facs="#facs_1_region_1684649141863_380_tl_2" n="N002"/>echt dramatischen Componisten die feurigsten Melodien ab
+      <lb facs="#facs_1_region_1684649141863_380_tl_3" n="N003" break="no"/>gepreßt und ihn außerdem gedrängt hätten, beide Scenen
+      <lb facs="#facs_1_region_1684649141863_380_tl_4" n="N004"/>durch außerordentliche Steigerung und charakteristischen Gegen
+      <lb facs="#facs_1_region_1684649141863_380_tl_5" n="N005" break="no"/>satz auseinanderzuhalten. Bei <rs type="person" ref="#hsl_person_id_282">Schumann</rs> erscheint die erste
+      <lb facs="#facs_1_region_1684649141863_380_tl_6" n="N006"/>kühne Liebeswerbung <rs type="person" ref="#hsl_person_id_3192">Golo</rs>’s und seine verzweifelte letzte in
       <lb facs="#facs_1_region_1684649141863_380_tl_7" n="N007"/>demselben trüben Dämmerlicht und declamatorischen Zickzack.
-      <lb facs="#facs_1_region_1684649141863_380_tl_8" n="N008"/>Es ließen sich ohne Schaden ganze lange Stellen aus <rs type="person">Golo</rs>'s
-      <lb facs="#facs_1_region_1684649141863_380_tl_9" n="N009"/>oder <rs type="person">Siegfried</rs>'s Rolle in jene <rs type="person">Genovefa</rs>'s übertragen und
+      <lb facs="#facs_1_region_1684649141863_380_tl_8" n="N008"/>Es ließen sich ohne Schaden ganze lange Stellen aus <rs type="person" ref="#hsl_person_id_3192">Golo</rs>’s
+      <lb facs="#facs_1_region_1684649141863_380_tl_9" n="N009"/>oder <rs type="person" ref="#hsl_person_id_2716">Siegfried</rs>’s Rolle in jene <rs type="person" ref="#hsl_person_id_6740">Genovefa</rs>’s übertragen und
       <lb facs="#facs_1_region_1684649141863_380_tl_10" n="N010"/>umgekehrt, so gleichmäßig ist die Behandlung. Man hört
       <lb facs="#facs_1_region_1684649141863_380_tl_11" n="N011"/>diesen Mangel meistens durch den Ausspruch erklären, die
-      <lb facs="#facs_1_region_1684649141863_380_tl_12" n="N012"/>Musik zur „<rs type="bibl">Genovefa</rs>“ sei zu lyrisch. <hi rendition="#em">Mehr</hi> lyrisch als dra¬
-      <lb facs="#facs_1_region_1684649141863_380_tl_13" n="N013"/>matisch ist sie jedenfalls, aber für meine Empfindung nicht
+      <lb facs="#facs_1_region_1684649141863_380_tl_12" n="N012"/>Musik zur „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“ sei zu lyrisch. <hi rendition="#em">Mehr</hi> lyrisch als dra
+      <lb facs="#facs_1_region_1684649141863_380_tl_13" n="N013" break="no"/>matisch ist sie jedenfalls, aber für meine Empfindung nicht
       <lb facs="#facs_1_region_1684649141863_380_tl_14" n="N014"/>einmal lyrisch genug, d. h. nicht hinreichend volles und
       <lb facs="#facs_1_region_1684649141863_380_tl_15" n="N015"/>starkes Aussprechen des subjectiven Gefühls. Sie hat
       <lb facs="#facs_1_region_1684649141863_380_tl_16" n="N016"/>vielmehr einen stark epischen Charakter und klingt
       <lb facs="#facs_1_region_1684649141863_380_tl_17" n="N017"/>nicht wie das unmittelbare Erlebniß und Geständniß
-      <lb facs="#facs_1_region_1684649141863_380_tl_18" n="N018"/>
-               <rs type="person">Golo</rs>'s, <rs type="person">Siegfried</rs>'s, <rs type="person">Genovefa</rs>'s, sondern ungefähr als
+      <lb facs="#facs_1_region_1684649141863_380_tl_18" n="N018"/><rs type="person" ref="#hsl_person_id_3192">Golo</rs>’s, <rs type="person" ref="#hsl_person_id_2716">Siegfried</rs>’s, <rs type="person" ref="#hsl_person_id_6740">Genovefa</rs>’s, sondern ungefähr als
       <lb facs="#facs_1_region_1684649141863_380_tl_19" n="N019"/>wenn ein Erzähler diese Vorgänge schildern würde.
-      <lb facs="#facs_1_region_1684649141863_380_tl_20" n="N020"/>Es ist derselbe Gesangsstyl, in welchem in der „<rs type="bibl">Peri</rs>“
-      <lb facs="#facs_1_region_1684649141863_380_tl_21" n="N021"/>oder „<rs type="bibl">Pilgerfahrt</rs>“ erzählt wird. Dieser am unrechten Orte
+      <lb facs="#facs_1_region_1684649141863_380_tl_20" n="N020"/>Es ist derselbe Gesangsstyl, in welchem in der „<rs type="bibl" ref="#hsl_work_id_239">Peri</rs>“
+      <lb facs="#facs_1_region_1684649141863_380_tl_21" n="N021"/>oder „<rs type="bibl" ref="#hsl_work_id_233">Pilgerfahrt</rs>“ erzählt wird. Dieser am unrechten Orte
       <lb facs="#facs_1_region_1684649141863_380_tl_22" n="N022"/>eingenistete epische Ton ist die Ursache, warum wir in
-      <lb facs="#facs_1_region_1684649141863_380_tl_23" n="N023"/>
-               <rs type="person">Schumann</rs>'s „<rs type="bibl">Genovefa</rs>“ fast nirgends die volle Anschaulich¬
-      <lb facs="#facs_1_region_1684649141863_380_tl_24" n="N024"/>keit eines Vorganges, nirgends die niederzwingende Kraft
+      <lb facs="#facs_1_region_1684649141863_380_tl_23" n="N023"/><rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“ fast nirgends die volle Anschaulich
+      <lb facs="#facs_1_region_1684649141863_380_tl_24" n="N024" break="no"/>keit eines Vorganges, nirgends die niederzwingende Kraft
       <lb facs="#facs_1_region_1684649141863_380_tl_25" n="N025"/>der Leidenschaft erleben. Die Personen dieser Oper haben
       <lb facs="#facs_1_region_1684649141863_380_tl_26" n="N026"/>alle etwas eigenthümlich Gebundenes, Verhaltenes; ihr
       <lb facs="#facs_1_region_1684649141863_380_tl_27" n="N027"/>Gesang überzeugt uns nicht, es ist, als suchten sie ihre
-      <lb facs="#facs_1_region_1684649141863_380_tl_28" n="N028"/>Freude und ihren Schmerz sich erst einzureden und an¬
-      <lb facs="#facs_1_line_1743743159625_75" n="N029"/>zusingen.
-      <lb facs="#facs_1_region_1684649141863_380_tl_29" n="N030"/>Auf <rs type="person">Schumann</rs>'s „<rs type="bibl">Genovefa</rs>“ paßt ein Bild, das ein¬
-      <lb facs="#facs_1_region_1684649141863_380_tl_30" n="N031"/>mal Otto <hi rendition="#em">
-                  <rs type="person">Ludwig</rs>
-               </hi> in seiner Verurtheilung eines <rs type="person">Hebbel</rs>'schen
+      <lb facs="#facs_1_region_1684649141863_380_tl_28" n="N028"/>Freude und ihren Schmerz sich erst einzureden und an
+      <lb facs="#facs_1_line_1743743159625_75" n="N029" break="no"/>zusingen.
+            </p><p>
+      <lb facs="#facs_1_region_1684649141863_380_tl_29" n="N030"/>Auf <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“ paßt ein Bild, das ein
+      <lb facs="#facs_1_region_1684649141863_380_tl_30" n="N031" break="no"/>mal Otto <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3721">Ludwig</rs></hi> in seiner Verurtheilung eines <rs type="person" ref="#hsl_person_id_115">Hebbel</rs>’schen
       <lb facs="#facs_1_region_1684649141863_380_tl_31" n="N032"/>Dramas gebraucht: „Wie eine Lavafluth schwerfällig unter
       <lb facs="#facs_1_region_1684649141863_380_tl_32" n="N033"/>der im Laufe zu Schlackenmassen gerinnenden Decke wälzt
       <lb facs="#facs_1_region_1684649141863_380_tl_33" n="N034"/>das Stück sich fort; immer gerinnt die Handlung unterwegs
       <lb facs="#facs_1_region_1684649141863_380_tl_34" n="N035"/>zur Erzählung.“ In der Behandlung ist nichts ausgespart;
       <lb facs="#facs_1_region_1684649141863_380_tl_35" n="N036"/>kein Anwachsen, keine Unterordnung, kein Ruhepunkt, keine
-      <lb facs="#facs_1_region_1684649141863_380_tl_36" n="N037"/>Beschleunigung. Und doch schrieb <rs type="person">Schumann</rs> in wunderlicher
-      <lb facs="#facs_1_region_1684649141863_380_tl_37" n="N038"/>Selbsttäuschung an einen Freund, in seiner „<rs type="bibl">Genovefa</rs>“ sei
+      <lb facs="#facs_1_region_1684649141863_380_tl_36" n="N037"/>Beschleunigung. Und doch schrieb <rs type="person" ref="#hsl_person_id_282">Schumann</rs> in wunderlicher
+      <lb facs="#facs_1_region_1684649141863_380_tl_37" n="N038"/>Selbsttäuschung an einen Freund, in seiner „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“ sei
       <lb facs="#facs_1_region_1684649141863_380_tl_38" n="N039"/>„jeder Tact durch und durch dramatisch“. In wörtlichem
-      <lb facs="#facs_1_region_1684649141863_380_tl_39" n="N040"/>Sinne mag man das gelten lassen: jeder Tact für sich allein</p>
+      <lb facs="#facs_1_region_1684649141863_380_tl_39" n="N040"/>Sinne mag man das gelten lassen: jeder Tact für sich allein<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684649153090_386_tl_1" n="N001"/>ist allenfalls dramatisch, könnte es wenigstens sein in an¬
-      <lb facs="#facs_2_region_1684649153090_386_tl_2" n="N002"/>derer Umgebung, aber der einzelne Tact verschwindet in dem
+            <cb n="4"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684649153090_386_tl_1" n="N001"/>ist allenfalls dramatisch, könnte es wenigstens sein in an
+      <lb facs="#facs_2_region_1684649153090_386_tl_2" n="N002" break="no"/>derer Umgebung, aber der einzelne Tact verschwindet in dem
       <lb facs="#facs_2_region_1684649153090_386_tl_3" n="N003"/>Eindrucke des ganzen Musikstückes, des ganzen Actes, der
-      <lb facs="#facs_2_region_1684649153090_386_tl_4" n="N004"/>ganzen Oper. Der einzelne Tact! Das ist bei <rs type="person">Schumann</rs>
-               <lb facs="#facs_2_region_1684649153090_386_tl_5" n="N005"/>ein feiner Strich in einem Aquarellbild; man füge deren
+      <lb facs="#facs_2_region_1684649153090_386_tl_4" n="N004"/>ganzen Oper. Der einzelne Tact! Das ist bei <rs type="person" ref="#hsl_person_id_282">Schumann</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684649153090_386_tl_5" n="N005"/>ein feiner Strich in einem Aquarellbild; man füge deren
       <lb facs="#facs_2_region_1684649153090_386_tl_6" n="N006"/>noch so viele säuberlich an einander, sie bleiben wirkungslos
       <lb facs="#facs_2_region_1684649153090_386_tl_7" n="N007"/>dort, wo al fresco gemalt werden muß.
-      <lb facs="#facs_2_region_1684649153090_386_tl_8" n="N008"/>Treten wir näher an die einzelnen musikalischen Fak¬
-      <lb facs="#facs_2_region_1684649153090_386_tl_9" n="N009"/>toren der <rs type="bibl">„Genovefa“-Musik</rs>, so gewahren wir an der Melodie
+            </p><p>
+      <lb facs="#facs_2_region_1684649153090_386_tl_8" n="N008"/>Treten wir näher an die einzelnen musikalischen Fak
+      <lb facs="#facs_2_region_1684649153090_386_tl_9" n="N009" break="no"/>toren der <rs type="bibl" ref="#hsl_work_id_191">„Genovefa“-Musik</rs>, so gewahren wir an der Melodie
       <lb facs="#facs_2_region_1684649153090_386_tl_10" n="N010"/>fast durchweg den Mangel an Plastik. Die gesungenen
       <lb facs="#facs_2_region_1684649153090_386_tl_11" n="N011"/>Töne krystallisiren sich nicht zu einer festen, dem Hörer sich
-      <lb facs="#facs_2_region_1684649153090_386_tl_12" n="N012"/>einprägenden Gestalt. Man weiß aus „<rs type="bibl">Der Rose Pilger¬</rs>
-               <lb facs="#facs_2_line_1743574513997_444" n="N013"/>
-               <rs type="bibl">fahrt</rs>“ und anderen <rs type="person">Schumann</rs>'schen Cantaten, wie sehr das
-      <lb facs="#facs_2_region_1684649153090_386_tl_13" n="N014"/>ununterbrochene Gewinsel eines halb recitativischen, halb me¬
-      <lb facs="#facs_2_region_1684649153090_386_tl_14" n="N015"/>lodiösen Arioso den Hörer erschlafft; in der Oper wird diese
-      <lb facs="#facs_2_region_1684649153090_386_tl_15" n="N016"/>Wirkung noch fühlbarer als im Concertsaal. Noch auf¬
-      <lb facs="#facs_2_region_1684649153090_386_tl_16" n="N017"/>fallender ist die Dürftigkeit der Rhythmik: fast durchweg
-      <lb facs="#facs_2_region_1684649153090_386_tl_17" n="N018"/>zweitheilige Tact-Arten und Rhythmen. Wo man die Parti¬
-      <lb facs="#facs_2_region_1684649153090_386_tl_18" n="N019"/>tur aufschlägt, erblickt man in den Singstimmen Reihenfol¬
-      <lb facs="#facs_2_region_1684649153090_386_tl_19" n="N020"/>gen von gleichen oder gleichmäßig getheilten Notenwerthen,
+      <lb facs="#facs_2_region_1684649153090_386_tl_12" n="N012"/>einprägenden Gestalt. Man weiß aus „<rs type="bibl" ref="#hsl_work_id_233">Der Rose Pilger
+      <lb facs="#facs_2_line_1743574513997_444" n="N013" break="no"/>fahrt</rs>“ und anderen <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’schen Cantaten, wie sehr das
+      <lb facs="#facs_2_region_1684649153090_386_tl_13" n="N014"/>ununterbrochene Gewinsel eines halb recitativischen, halb me
+      <lb facs="#facs_2_region_1684649153090_386_tl_14" n="N015" break="no"/>lodiösen Arioso den Hörer erschlafft; in der Oper wird diese
+      <lb facs="#facs_2_region_1684649153090_386_tl_15" n="N016"/>Wirkung noch fühlbarer als im Concertsaal. Noch auf
+      <lb facs="#facs_2_region_1684649153090_386_tl_16" n="N017" break="no"/>fallender ist die Dürftigkeit der Rhythmik: fast durchweg
+      <lb facs="#facs_2_region_1684649153090_386_tl_17" n="N018"/>zweitheilige Tact-Arten und Rhythmen. Wo man die Parti
+      <lb facs="#facs_2_region_1684649153090_386_tl_18" n="N019" break="no"/>tur aufschlägt, erblickt man in den Singstimmen Reihenfol
+      <lb facs="#facs_2_region_1684649153090_386_tl_19" n="N020" break="no"/>gen von gleichen oder gleichmäßig getheilten Notenwerthen,
       <lb facs="#facs_2_region_1684649153090_386_tl_20" n="N021"/>meistens Viertel; schon der äußere Anblick befremdet durch
       <lb facs="#facs_2_region_1684649153090_386_tl_21" n="N022"/>den Mangel an wechselnden Notengruppen und rhythmischen
       <lb facs="#facs_2_region_1684649153090_386_tl_22" n="N023"/>Contrasten. Mit Ausnahme des flüchtig hereindringenden
-      <lb facs="#facs_2_region_1684649153090_386_tl_23" n="N024"/>Trinkchors im zweiten Act ist <rs type="person">Siegfried</rs>'s Arie: „Nun blicke
+      <lb facs="#facs_2_region_1684649153090_386_tl_23" n="N024"/>Trinkchors im zweiten Act ist <rs type="person" ref="#hsl_person_id_2716">Siegfried</rs>’s Arie: „Nun blicke
       <lb facs="#facs_2_region_1684649153090_386_tl_24" n="N025"/>ich wieder“ das einzige Stück von lebhaftem, markirtem
       <lb facs="#facs_2_region_1684649153090_386_tl_25" n="N026"/>Rhythmus. Auch dieses hat, wie die meisten Musikstücke der
-      <lb facs="#facs_2_region_1684649153090_386_tl_26" n="N027"/>Oper, keinen förmlichen Abschluß; sie endigen fast alle ton¬
-      <lb facs="#facs_2_region_1684649153090_386_tl_27" n="N028"/>los abbrechend aus tieferen Noten, oft auf dem Dominant-
+      <lb facs="#facs_2_region_1684649153090_386_tl_26" n="N027"/>Oper, keinen förmlichen Abschluß; sie endigen fast alle ton
+      <lb facs="#facs_2_region_1684649153090_386_tl_27" n="N028" break="no"/>los abbrechend aus tieferen Noten, oft auf dem Dominant-
       <lb facs="#facs_2_region_1684649153090_386_tl_28" n="N029"/>Accord, als verschwinde der Sänger unversehens in einer
       <lb facs="#facs_2_region_1684649153090_386_tl_29" n="N030"/>Falte des weit aufgebauschten Orchesters. Letzteres herrscht
-      <lb facs="#facs_2_region_1684649153090_386_tl_30" n="N031"/>allenthalben vor und erstickt leider durch seine wogende Un¬
-      <lb facs="#facs_2_region_1684649153090_386_tl_31" n="N032"/>ruhe die feine Malerei des „einzelnen Tactes“. Wir sind
-      <lb facs="#facs_2_region_1684649153090_386_tl_32" n="N033"/>heutzutage an das zudringlichste Orchester gewöhnt und be¬
-      <lb facs="#facs_2_region_1684649153090_386_tl_33" n="N034"/>freunden uns damit, wenn es nur weise Licht und Schatten
-      <lb facs="#facs_2_region_1684649153090_386_tl_34" n="N035"/>vertheilt; <rs type="person">Schumann</rs>'s Orchester verbreitet aber einen gleich¬
-      <lb facs="#facs_2_region_1684649153090_386_tl_35" n="N036"/>mäßig fahlen Nebel, der, bald leichter, bald dichter, doch
-      <lb facs="#facs_2_region_1684649153090_386_tl_36" n="N037"/>nur selten ganz freien Ausblick gestattet. Daß <rs type="person">Schumann</rs>
-               <lb facs="#facs_2_region_1684649153090_386_tl_37" n="N038"/>vorwiegend gewöhnt war, instrumental, in absoluter Musik,
-      <lb facs="#facs_2_region_1684649153090_386_tl_38" n="N039"/>zu denken, verrathen auch die Gesangspartien in der „<rs type="bibl">Ge¬</rs>
-               <lb facs="#facs_2_region_1684649153090_386_tl_39" n="N040"/>
-               <rs type="bibl">novefa</rs>“, welche, vom Text abgezogen, oft klingen wie Stücke</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1684649156199_389_tl_2" n="N001"/>aus einem Quartett oder einer Symphonie. Das werthvollste
+      <lb facs="#facs_2_region_1684649153090_386_tl_30" n="N031"/>allenthalben vor und erstickt leider durch seine wogende Un
+      <lb facs="#facs_2_region_1684649153090_386_tl_31" n="N032" break="no"/>ruhe die feine Malerei des „einzelnen Tactes“. Wir sind
+      <lb facs="#facs_2_region_1684649153090_386_tl_32" n="N033"/>heutzutage an das zudringlichste Orchester gewöhnt und be
+      <lb facs="#facs_2_region_1684649153090_386_tl_33" n="N034" break="no"/>freunden uns damit, wenn es nur weise Licht und Schatten
+      <lb facs="#facs_2_region_1684649153090_386_tl_34" n="N035"/>vertheilt; <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s Orchester verbreitet aber einen gleich
+      <lb facs="#facs_2_region_1684649153090_386_tl_35" n="N036" break="no"/>mäßig fahlen Nebel, der, bald leichter, bald dichter, doch
+      <lb facs="#facs_2_region_1684649153090_386_tl_36" n="N037"/>nur selten ganz freien Ausblick gestattet. Daß <rs type="person" ref="#hsl_person_id_282">Schumann</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684649153090_386_tl_37" n="N038"/>vorwiegend gewöhnt war, instrumental, in absoluter Musik,
+      <lb facs="#facs_2_region_1684649153090_386_tl_38" n="N039"/>zu denken, verrathen auch die Gesangspartien in der „<rs type="bibl" ref="#hsl_work_id_191">Ge
+      <lb facs="#facs_2_region_1684649153090_386_tl_39" n="N040" break="no"/>novefa</rs>“, welche, vom Text abgezogen, oft klingen wie Stücke<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684649156199_389_tl_2" n="N001"/>aus einem Quartett oder einer Symphonie. Das werthvollste
       <lb facs="#facs_2_line_1743574400213_407" n="N002"/>Stück der Oper ist auch dasjenige, was mit der Scene gar
-      <lb facs="#facs_2_line_1743574422884_413" n="N003"/>nichts zu thun hat: die Ouvertüre. Unter den Gesangs¬
-      <lb facs="#facs_2_region_1684649156199_389_tl_3" n="N004"/>nummern geben wir dem zweistimmigen Volkslied: „Wenn
-      <lb facs="#facs_2_region_1684649156199_389_tl_4" n="N005"/>ich ein Vöglein wär'“ unbedenklich den Preis. Wie wohl¬
-      <lb facs="#facs_2_region_1684649156199_389_tl_5" n="N006"/>thuend wirkt dieser herzliche, ungekünstelte Gesang! Ein so
+      <lb facs="#facs_2_line_1743574422884_413" n="N003"/>nichts zu thun hat: die Ouvertüre. Unter den Gesangs
+      <lb facs="#facs_2_region_1684649156199_389_tl_3" n="N004" break="no"/>nummern geben wir dem zweistimmigen Volkslied: „Wenn
+      <lb facs="#facs_2_region_1684649156199_389_tl_4" n="N005"/>ich ein Vöglein wär’“ unbedenklich den Preis. Wie wohl
+      <lb facs="#facs_2_region_1684649156199_389_tl_5" n="N006" break="no"/>thuend wirkt dieser herzliche, ungekünstelte Gesang! Ein so
       <lb facs="#facs_2_region_1684649156199_389_tl_6" n="N007"/>rein und schön musikalischer Moment wie dieser kommt in
-      <lb facs="#facs_2_region_1684649156199_389_tl_7" n="N008"/>der „<rs type="bibl">Genovefa</rs>“ kein zweitesmal vor. Doch ist gleich darauf
-      <lb facs="#facs_2_region_1684649156199_389_tl_8" n="N009"/>die Arie <rs type="person">Siegfried</rs>'s zu nennen, in welcher ein fröhliches,
+      <lb facs="#facs_2_region_1684649156199_389_tl_7" n="N008"/>der „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“ kein zweitesmal vor. Doch ist gleich darauf
+      <lb facs="#facs_2_region_1684649156199_389_tl_8" n="N009"/>die Arie <rs type="person" ref="#hsl_person_id_2716">Siegfried</rs>’s zu nennen, in welcher ein fröhliches,
       <lb facs="#facs_2_region_1684649156199_389_tl_9" n="N010"/>warmes Blut pulsirt. Außerdem dürfte nur noch der erste
       <lb facs="#facs_2_region_1684649156199_389_tl_10" n="N011"/>Kreuzfahrerchor und Einiges aus der Hexenscene im dritten
-      <lb facs="#facs_2_region_1684649156199_389_tl_11" n="N012"/>Acte an <rs type="person">Schumann</rs>'s beste Zeit erinnern. Bei aller Ver¬
-      <lb facs="#facs_2_region_1684649156199_389_tl_12" n="N013"/>ehrung für <rs type="person">Schumann</rs>, ja gerade aus wahrer, gefühlter Ver¬
-      <lb facs="#facs_2_region_1684649156199_389_tl_13" n="N014"/>ehrung für <rs type="person">Schumann</rs> kann ich dem Urtheil seines Biographen
-      <lb facs="#facs_2_line_1743574442309_420" n="N015"/>
-               <rs type="person">Wasielewski</rs> nicht beistimmen, daß die Musik zur „<rs type="bibl">Genovefa</rs>“
+      <lb facs="#facs_2_region_1684649156199_389_tl_11" n="N012"/>Acte an <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s beste Zeit erinnern. Bei aller Ver
+      <lb facs="#facs_2_region_1684649156199_389_tl_12" n="N013" break="no"/>ehrung für <rs type="person" ref="#hsl_person_id_282">Schumann</rs>, ja gerade aus wahrer, gefühlter Ver
+      <lb facs="#facs_2_region_1684649156199_389_tl_13" n="N014" break="no"/>ehrung für <rs type="person" ref="#hsl_person_id_282">Schumann</rs> kann ich dem Urtheil seines Biographen
+      <lb facs="#facs_2_line_1743574442309_420" n="N015"/><rs type="person" ref="#hsl_person_id_1158">Wasielewski</rs> nicht beistimmen, daß die Musik zur „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“
       <lb facs="#facs_2_region_1684649156199_389_tl_14" n="N016"/>„einen seltenen Reichthum an schöpferischer Kraft offenbart“.
-      <lb facs="#facs_2_region_1684649156199_389_tl_15" n="N017"/>Ich finde in diesem Werke, ganz abgesehen von seinen drama¬
-      <lb facs="#facs_2_region_1684649156199_389_tl_16" n="N018"/>tischen oder undramatischen Eigenschaften, ein entschiedenes
+      <lb facs="#facs_2_region_1684649156199_389_tl_15" n="N017"/>Ich finde in diesem Werke, ganz abgesehen von seinen drama
+      <lb facs="#facs_2_region_1684649156199_389_tl_16" n="N018" break="no"/>tischen oder undramatischen Eigenschaften, ein entschiedenes
       <lb facs="#facs_2_region_1684649156199_389_tl_17" n="N019"/>Erlahmen von schöpferischer Kraft und kann dasselbe als
       <lb facs="#facs_2_region_1684649156199_389_tl_18" n="N020"/>rein musikalische Erfindung in keinem Betracht seinen früher
-      <lb facs="#facs_2_region_1684649156199_389_tl_19" n="N021"/>erschienenen herrlichen Quartetten, Symphonien, Clavier¬
-      <lb facs="#facs_2_region_1684649156199_389_tl_20" n="N022"/>stücken und Liedern gleichstellen. Wäre „<rs type="bibl">Genovefa</rs>“ blos un¬
-      <lb facs="#facs_2_line_1743574530653_450" n="N023"/>dramatisch, aber sonst mit dem ganzen zauberischen Reich¬
-      <lb facs="#facs_2_region_1684649156199_389_tl_22" n="N024"/>thum <rs type="person">Schumann</rs>'scher Erfindung ausgestattet, sie würde, wenn
+      <lb facs="#facs_2_region_1684649156199_389_tl_19" n="N021"/>erschienenen herrlichen Quartetten, Symphonien, Clavier
+      <lb facs="#facs_2_region_1684649156199_389_tl_20" n="N022" break="no"/>stücken und Liedern gleichstellen. Wäre „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“ blos un
+      <lb facs="#facs_2_line_1743574530653_450" n="N023" break="no"/>dramatisch, aber sonst mit dem ganzen zauberischen Reich
+      <lb facs="#facs_2_region_1684649156199_389_tl_22" n="N024" break="no"/>thum <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’scher Erfindung ausgestattet, sie würde, wenn
       <lb facs="#facs_2_region_1684649156199_389_tl_23" n="N025"/>nicht auf allen Bühnen, doch gewiß in jedem Concertsaal,
-      <lb facs="#facs_2_region_1684649156199_389_tl_24" n="N026"/>in jedem Hause gesungen werden. Aber „<rs type="bibl">Genovefa</rs>“ trägt
+      <lb facs="#facs_2_region_1684649156199_389_tl_24" n="N026"/>in jedem Hause gesungen werden. Aber „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“ trägt
       <lb facs="#facs_2_region_1684649156199_389_tl_25" n="N027"/>schon merklich die grübelnden, zerstreuten, gramseligen Züge
-      <lb facs="#facs_2_region_1684649156199_389_tl_26" n="N028"/>von <rs type="person">Schumann</rs>'s dritter Periode; bis in das Detail der
+      <lb facs="#facs_2_region_1684649156199_389_tl_26" n="N028"/>von <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s dritter Periode; bis in das Detail der
       <lb facs="#facs_2_region_1684649156199_389_tl_27" n="N029"/>überwuchernden Vorhalte, Synkopen, Orgelpunkte und der
       <lb facs="#facs_2_region_1684649156199_389_tl_28" n="N030"/>kraftlos gewordenen Rhythmik und Melodik lassen sie sich
-      <lb facs="#facs_2_region_1684649156199_389_tl_29" n="N031"/>nachweisen. Freilich auch daneben eine Unzahl kleiner genia¬
-      <lb facs="#facs_2_region_1684649156199_389_tl_30" n="N032"/>ler Charakterzüge, die aber in der Partitur meist wirkungs¬
-      <lb facs="#facs_2_region_1684649156199_389_tl_31" n="N033"/>los verathmen.
-      <lb facs="#facs_2_region_1684649156199_389_tl_32" n="N034"/>Während die Opern von specifisch dramatischen Talen¬
-      <lb facs="#facs_2_region_1684649156199_389_tl_33" n="N035"/>ten uns häufig bei der Aufführung durch Effecte über¬
-      <lb facs="#facs_2_region_1684649156199_389_tl_34" n="N036"/>raschen, welche man aus den Noten kaum prophezeit hätte,
-      <lb facs="#facs_2_region_1684649156199_389_tl_35" n="N037"/>verspricht die Partitur der „<rs type="bibl">Genovefa</rs>“ dem Leser hie und
+      <lb facs="#facs_2_region_1684649156199_389_tl_29" n="N031"/>nachweisen. Freilich auch daneben eine Unzahl kleiner genia
+      <lb facs="#facs_2_region_1684649156199_389_tl_30" n="N032" break="no"/>ler Charakterzüge, die aber in der Partitur meist wirkungs
+      <lb facs="#facs_2_region_1684649156199_389_tl_31" n="N033" break="no"/>los verathmen.
+            </p><p>
+      <lb facs="#facs_2_region_1684649156199_389_tl_32" n="N034"/>Während die Opern von specifisch dramatischen Talen
+      <lb facs="#facs_2_region_1684649156199_389_tl_33" n="N035" break="no"/>ten uns häufig bei der Aufführung durch Effecte über
+      <lb facs="#facs_2_region_1684649156199_389_tl_34" n="N036" break="no"/>raschen, welche man aus den Noten kaum prophezeit hätte,
+      <lb facs="#facs_2_region_1684649156199_389_tl_35" n="N037"/>verspricht die Partitur der „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“ dem Leser hie und
       <lb facs="#facs_2_region_1684649156199_389_tl_36" n="N038"/>da Wirkungen, die dann thatsächlich ausbleiben. So dachte
       <lb facs="#facs_2_region_1684649156199_389_tl_37" n="N039"/>ich mir, um nur Ein Beispiel anzuführen, den Kriegerchor
-      <lb facs="#facs_2_line_1743574486789_433" n="N040"/>„Karl Martell“ im ersten Act als eine effectvollere Num¬</p>
-            <cb n="7"/>
-            <p/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_2_region_1684649163686_395_tl_1" n="N001"/>mer; aber durch die anhaltend tiefe Lage der Tenorstimme
-      <lb facs="#facs_2_region_1684649163686_395_tl_2" n="N002"/>verblaßt das Ganze wirkungslos. Unzählige seine Inten¬
-      <lb facs="#facs_2_region_1684649163686_395_tl_3" n="N003"/>tionen mögen in dieser Partitur stecken, aber sie kommen
-      <lb facs="#facs_2_region_1684649163686_395_tl_4" n="N004"/>nicht heraus. Wie viele <rs type="place">französisch</rs>e und <rs type="place">italienisch</rs>e Opern-
-      <lb facs="#facs_2_region_1684649163686_395_tl_5" n="N005"/>Componisten, die künstlerisch tief unter <rs type="person">Schumann</rs> stehen,
-      <lb facs="#facs_2_region_1684649163686_395_tl_6" n="N006"/>schreiben bessere Opern! Was sie hinschreiben und beab¬
-      <lb facs="#facs_2_region_1684649163686_395_tl_7" n="N007"/>sichtigen, das kommt eben auch heraus.
-      <lb facs="#facs_2_region_1684649163686_395_tl_8" n="N008"/>Ein besonders kunsthistorisches Interesse erregt <rs type="person" continued="true">Schu¬</rs>
-               <lb facs="#facs_2_region_1684649163686_395_tl_9" n="N009"/>
-               <rs type="person" continued="true">mann</rs>'s „<rs type="bibl">Genovefa</rs>“ durch ihren Zusammenhang mit Richard
-      <lb facs="#facs_2_region_1684649163686_395_tl_10" n="N010"/>
-               <rs type="person">Wagner</rs>'s Principien. Daß <rs type="person">Schumann</rs>, abgesehen von dieser
+      <lb facs="#facs_2_line_1743574486789_433" n="N040"/>„Karl Martell“ im ersten Act als eine effectvollere Num</p>
+            <cb n="6"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684649163686_395_tl_1" n="N001" break="no"/>mer; aber durch die anhaltend tiefe Lage der Tenorstimme
+      <lb facs="#facs_2_region_1684649163686_395_tl_2" n="N002"/>verblaßt das Ganze wirkungslos. Unzählige seine Inten
+      <lb facs="#facs_2_region_1684649163686_395_tl_3" n="N003" break="no"/>tionen mögen in dieser Partitur stecken, aber sie kommen
+      <lb facs="#facs_2_region_1684649163686_395_tl_4" n="N004"/>nicht heraus. Wie viele <rs type="place" ref="#hsl_place_id_21">französisch</rs>e und <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Opern-
+      <lb facs="#facs_2_region_1684649163686_395_tl_5" n="N005"/>Componisten, die künstlerisch tief unter <rs type="person" ref="#hsl_person_id_282">Schumann</rs> stehen,
+      <lb facs="#facs_2_region_1684649163686_395_tl_6" n="N006"/>schreiben bessere Opern! Was sie hinschreiben und beab
+      <lb facs="#facs_2_region_1684649163686_395_tl_7" n="N007" break="no"/>sichtigen, das kommt eben auch heraus.
+            </p><p>
+      <lb facs="#facs_2_region_1684649163686_395_tl_8" n="N008"/>Ein besonders kunsthistorisches Interesse erregt <rs type="person" ref="#hsl_person_id_282">Schu
+      <lb facs="#facs_2_region_1684649163686_395_tl_9" n="N009" break="no"/>mann</rs>’s „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“ durch ihren Zusammenhang mit Richard
+      <lb facs="#facs_2_region_1684649163686_395_tl_10" n="N010"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Principien. Daß <rs type="person" ref="#hsl_person_id_282">Schumann</rs>, abgesehen von dieser
       <lb facs="#facs_2_region_1684649163686_395_tl_11" n="N011"/>alleinigen Ausnahme, nicht den „Zukunftsmusikern“ beizuzählen
       <lb facs="#facs_2_region_1684649163686_395_tl_12" n="N012"/>sei (wie ich vor zwanzig Jahren so oft zu beweisen veranlaßt
       <lb facs="#facs_2_region_1684649163686_395_tl_13" n="N013"/>war), das ist wol heute, wo seine Instrumentalwerke sowie
-      <lb facs="#facs_2_region_1684649163686_395_tl_14" n="N014"/>seine Aussprüche gegen Programm-Musik etc. allgemein ver¬
-      <lb facs="#facs_2_line_1743574552126_457" n="N015"/>breitet sind , als angenommen zu betrachten. Allein in der
-      <lb facs="#facs_2_line_1743574558022_462" n="N016"/>„<rs type="bibl">Genovefa</rs>“ gravitirt er unverkennbar gegen <rs type="person">Wagner</rs> hin:
+      <lb facs="#facs_2_region_1684649163686_395_tl_14" n="N014"/>seine Aussprüche gegen Programm-Musik etc. allgemein ver
+      <lb facs="#facs_2_line_1743574552126_457" n="N015" break="no"/>breitet sind , als angenommen zu betrachten. Allein in der
+      <lb facs="#facs_2_line_1743574558022_462" n="N016"/>„<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“ gravitirt er unverkennbar gegen <rs type="person" ref="#hsl_person_id_319">Wagner</rs> hin:
       <lb facs="#facs_2_region_1684649163686_395_tl_19" n="N017"/>durch den declamatorischen Charakter des Gesanges, durch die
       <lb facs="#facs_2_region_1684649163686_395_tl_20" n="N018"/>Auflösung der traditionellen festen Musikformen, endlich
       <lb facs="#facs_2_region_1684649163686_395_tl_21" n="N019"/>durch die selbstständige Führung des Orchesters. In allen
-      <lb facs="#facs_2_region_1684649163686_395_tl_22" n="N020"/>diesen Punkten geht „<rs type="bibl">Genovefa</rs>“ in ihrer Art einen Schritt
-      <lb facs="#facs_2_line_1743574564118_467" n="N021"/>weiter als „<rs type="bibl">Tannhäuser</rs>“, aber lange nicht so weit als
-      <lb facs="#facs_2_region_1684649163686_395_tl_25" n="N022"/>„<rs type="bibl">Tristan</rs>“ oder die „<rs type="bibl">Meistersinger</rs>“. Dieses Zusammen¬
-      <lb facs="#facs_2_region_1684649156199_389_tl_21" n="N023"/>treffen ist kein zufälliges oder rein ideelles; eine directe
-      <lb facs="#facs_2_region_1684649163686_395_tl_26" n="N024"/>Einwirkung <rs type="person">Wagner</rs>'scher Musik hat mindestens beigetragen.
+      <lb facs="#facs_2_region_1684649163686_395_tl_22" n="N020"/>diesen Punkten geht „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“ in ihrer Art einen Schritt
+      <lb facs="#facs_2_line_1743574564118_467" n="N021"/>weiter als „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“, aber lange nicht so weit als
+      <lb facs="#facs_2_region_1684649163686_395_tl_25" n="N022"/>„<rs type="bibl" ref="#hsl_work_id_417">Tristan</rs>“ oder die „<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“. Dieses Zusammen
+      <lb facs="#facs_2_region_1684649156199_389_tl_21" n="N023" break="no"/>treffen ist kein zufälliges oder rein ideelles; eine directe
+      <lb facs="#facs_2_region_1684649163686_395_tl_26" n="N024"/>Einwirkung <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’scher Musik hat mindestens beigetragen.
       <lb facs="#facs_2_region_1684649163686_395_tl_27" n="N025"/>Lebhaft erinnere ich mich des Abends, wo ich im Sommer
-      <lb facs="#facs_2_region_1684649163686_395_tl_28" n="N026"/>
-               <date month="0" day="0" year="0">1846</date> mit <rs type="person">Schumann</rs> und seiner <rs type="person">Frau</rs> den „<rs type="bibl">Tannhäuser</rs>“
-      <lb facs="#facs_2_region_1684649163686_395_tl_29" n="N027"/>unter Richard <rs type="person">Wagner</rs>'s Leitung im <rs type="place">Dresden</rs>er Hoftheater
-      <lb facs="#facs_2_region_1684649163686_395_tl_30" n="N028"/>hörte. <rs type="person">Schumann</rs>, den ich Tags vorher bei der Lectüre der
-      <lb facs="#facs_2_region_1684649163686_395_tl_31" n="N029"/>„<rs type="bibl">Tannhäuser</rs>“-Partitur angetroffen, verfolgte die Auffüh¬
-      <lb facs="#facs_2_region_1684649163686_395_tl_32" n="N030"/>rung mit gespannter Aufmerksamkeit, fand zwar die Musik
+      <lb facs="#facs_2_region_1684649163686_395_tl_28" n="N026"/><date>1846</date> mit <rs type="person" ref="#hsl_person_id_282">Schumann</rs> und seiner <rs type="person" ref="#hsl_person_id_281">Frau</rs> den „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“
+      <lb facs="#facs_2_region_1684649163686_395_tl_29" n="N027"/>unter Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Leitung im <rs type="place" ref="#hsl_place_id_15">Dresden</rs>er Hoftheater
+      <lb facs="#facs_2_region_1684649163686_395_tl_30" n="N028"/>hörte. <rs type="person" ref="#hsl_person_id_282">Schumann</rs>, den ich Tags vorher bei der Lectüre der
+      <lb facs="#facs_2_region_1684649163686_395_tl_31" n="N029"/>„<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“-Partitur angetroffen, verfolgte die Auffüh
+      <lb facs="#facs_2_region_1684649163686_395_tl_32" n="N030" break="no"/>rung mit gespannter Aufmerksamkeit, fand zwar die Musik
       <lb facs="#facs_2_region_1684649163686_395_tl_33" n="N031"/>hin und wieder „gering“ oder „gemein“, lobte aber mit
       <lb facs="#facs_2_region_1684649163686_395_tl_34" n="N032"/>Wärme die „Behandlung des Dramatischen“. Gerade zwei
-      <lb facs="#facs_2_region_1684649163686_395_tl_35" n="N033"/>Jahre später (August <date month="0" day="0" year="0">1848</date>) vollendete er seine „<rs type="bibl">Genovefa</rs>“.
+      <lb facs="#facs_2_region_1684649163686_395_tl_35" n="N033"/>Jahre später (August <date>1848</date>) vollendete er seine „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“.
       <lb facs="#facs_2_region_1684649163686_395_tl_36" n="N034"/>Die fundamentale Verschiedenheit seiner Begabung von
-      <lb facs="#facs_2_region_1684649163686_395_tl_37" n="N035"/>jener <rs type="person">Wagner</rs>'s schien ihm somit nicht allzusehr aufzufal¬
-      <lb facs="#facs_2_region_1684649163686_395_tl_38" n="N036"/>len, und doch muß jeder Unbefangene nach den ersten
-      <lb facs="#facs_2_region_1684649163686_395_tl_39" n="N037"/>Nummern des „<rs type="bibl">Tannhäuser</rs>“ und der „<rs type="bibl">Genovefa</rs>“ im
-      <lb facs="#facs_2_region_1684649163686_395_tl_40" n="N038"/>Klaren darüber sein, daß <rs type="person">Wagner</rs> ein eminent dramatisches
-      <lb facs="#facs_2_region_1684649163686_395_tl_41" n="N039"/>Talent ist und <rs type="person">Schumann</rs> das Gegentheil. Man kann ein
-      <lb facs="#facs_2_line_1743574469478_427" n="N040"/>genialer Tondichter sein und doch der Bühne zeitlebens</p>
+      <lb facs="#facs_2_region_1684649163686_395_tl_37" n="N035"/>jener <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s schien ihm somit nicht allzusehr aufzufal
+      <lb facs="#facs_2_region_1684649163686_395_tl_38" n="N036" break="no"/>len, und doch muß jeder Unbefangene nach den ersten
+      <lb facs="#facs_2_region_1684649163686_395_tl_39" n="N037"/>Nummern des „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ und der „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“ im
+      <lb facs="#facs_2_region_1684649163686_395_tl_40" n="N038"/>Klaren darüber sein, daß <rs type="person" ref="#hsl_person_id_319">Wagner</rs> ein eminent dramatisches
+      <lb facs="#facs_2_region_1684649163686_395_tl_41" n="N039"/>Talent ist und <rs type="person" ref="#hsl_person_id_282">Schumann</rs> das Gegentheil. Man kann ein
+      <lb facs="#facs_2_line_1743574469478_427" n="N040"/>genialer Tondichter sein und doch der Bühne zeitlebens<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1684649174669_401_tl_1" n="N001"/>fremd bleiben. Schätzen wir uns glücklich und preisen
-      <lb facs="#facs_3_region_1684649174669_401_tl_2" n="N002"/>
-               <rs type="person">Schumann</rs>, daß er durch den unerschöpflich reichen Schatz
-      <lb facs="#facs_3_region_1684649174669_401_tl_3" n="N003"/>seiner Gaben auch ohne die „<rs type="bibl">Genovefa</rs>“ uns der ganze
-      <lb facs="#facs_3_region_1684649174669_401_tl_4" n="N004"/>und echte <rs type="person">Schumann</rs> bleibt, den die Nation für immer
+            <cb n="7"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1684649174669_401_tl_1" n="N001"/>fremd bleiben. Schätzen wir uns glücklich und preisen
+      <lb facs="#facs_3_region_1684649174669_401_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_282">Schumann</rs>, daß er durch den unerschöpflich reichen Schatz
+      <lb facs="#facs_3_region_1684649174669_401_tl_3" n="N003"/>seiner Gaben auch ohne die „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“ uns der ganze
+      <lb facs="#facs_3_region_1684649174669_401_tl_4" n="N004"/>und echte <rs type="person" ref="#hsl_person_id_282">Schumann</rs> bleibt, den die Nation für immer
       <lb facs="#facs_3_region_1684649174669_401_tl_5" n="N005"/>fest an ihr Herz geschlossen.
+            </p><p>
       <lb facs="#facs_3_region_1684649174669_401_tl_6" n="N006"/>Trotz aller Zweifel an der theatralischen Lebensfähigkeit
-      <lb facs="#facs_3_region_1684649174669_401_tl_7" n="N007"/>der „<rs type="bibl">Genovefa</rs>“ schulden wir der Direction des Hofopern¬
-      <lb facs="#facs_3_region_1684649174669_401_tl_8" n="N008"/>theaters die aufrichtigste und wärmste Anerkennung dafür,
+      <lb facs="#facs_3_region_1684649174669_401_tl_7" n="N007"/>der „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“ schulden wir der Direction des Hofopern
+      <lb facs="#facs_3_region_1684649174669_401_tl_8" n="N008" break="no"/>theaters die aufrichtigste und wärmste Anerkennung dafür,
       <lb facs="#facs_3_region_1684649174669_401_tl_9" n="N009"/>daß sie mit vollem Bewußtsein von dem mäßigen Effect der
       <lb facs="#facs_3_region_1684649174669_401_tl_10" n="N010"/>Oper dieselbe zur Aufführung brachte, um eine Ehrenschuld
-      <lb facs="#facs_3_region_1684649174669_401_tl_11" n="N011"/>gegen <rs type="person">Schumann</rs> einzulösen. Wien, das sich seit Jahren
-      <lb facs="#facs_3_region_1684649174669_401_tl_12" n="N012"/>durch einen so lebhaften <rs type="person">Schumann</rs>-Cultus auszeichnet, hatte
+      <lb facs="#facs_3_region_1684649174669_401_tl_11" n="N011"/>gegen <rs type="person" ref="#hsl_person_id_282">Schumann</rs> einzulösen. Wien, das sich seit Jahren
+      <lb facs="#facs_3_region_1684649174669_401_tl_12" n="N012"/>durch einen so lebhaften <rs type="person" ref="#hsl_person_id_282">Schumann</rs>-Cultus auszeichnet, hatte
       <lb facs="#facs_3_region_1684649174669_401_tl_13" n="N013"/>guten Anspruch, auch die einzige Oper des theuren Meisters
-      <lb facs="#facs_3_region_1684649174669_401_tl_14" n="N014"/>kennen zu lernen. Es gereicht Herrn Director <hi rendition="#em">
-                  <rs type="person">Herbeck</rs>
-               </hi> zur
+      <lb facs="#facs_3_region_1684649174669_401_tl_14" n="N014"/>kennen zu lernen. Es gereicht Herrn Director <hi rendition="#em"><rs type="person" ref="#hsl_person_id_121">Herbeck</rs></hi> zur
       <lb facs="#facs_3_region_1684649174669_401_tl_15" n="N015"/>Ehre, daß er das Werk mit einer Sorgfalt vorbereitete und
       <lb facs="#facs_3_line_1743705510987_37" n="N016"/>mit einer Pracht ausstattete, wie sie schwerlich ein zweites
-      <lb facs="#facs_3_region_1684649174669_401_tl_18" n="N017"/>Theater erreichen wird. Wenn sich „<rs type="bibl">Genovefa</rs>“ in <rs type="place">Wien</rs>
-               <lb facs="#facs_3_region_1684649174669_401_tl_19" n="N018"/>länger als anderswo auf dem Repertoire erhält, so wird
-      <lb facs="#facs_3_region_1684649174669_401_tl_20" n="N019"/>sie es zum großen Theile dieser Aufführung und Ausstat¬
-      <lb facs="#facs_3_region_1684649174669_401_tl_21" n="N020"/>tung verdanken. Von den vier Hauptrollen waren die zwei
-      <lb facs="#facs_3_region_1684649174669_401_tl_22" n="N021"/>weiblichen vortrefflich besetzt: Frau <hi rendition="#em">
-                  <rs type="person">Dustmann</rs>
-               </hi> sang und
-      <lb facs="#facs_3_region_1684649174669_401_tl_23" n="N022"/>spielte die <rs type="person">Genovefa</rs> mit der ihr eigenen vollen Hingebung
+      <lb facs="#facs_3_region_1684649174669_401_tl_18" n="N017"/>Theater erreichen wird. Wenn sich „<rs type="bibl" ref="#hsl_work_id_191">Genovefa</rs>“ in <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684649174669_401_tl_19" n="N018"/>länger als anderswo auf dem Repertoire erhält, so wird
+      <lb facs="#facs_3_region_1684649174669_401_tl_20" n="N019"/>sie es zum großen Theile dieser Aufführung und Ausstat
+      <lb facs="#facs_3_region_1684649174669_401_tl_21" n="N020" break="no"/>tung verdanken. Von den vier Hauptrollen waren die zwei
+      <lb facs="#facs_3_region_1684649174669_401_tl_22" n="N021"/>weiblichen vortrefflich besetzt: Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_67">Dustmann</rs></hi> sang und
+      <lb facs="#facs_3_region_1684649174669_401_tl_23" n="N022"/>spielte die <rs type="person" ref="#hsl_person_id_6740">Genovefa</rs> mit der ihr eigenen vollen Hingebung
       <lb facs="#facs_3_region_1684649174669_401_tl_24" n="N023"/>und flocht damit ein neues Blatt in ihren reichen Lorbeerkranz
-      <lb facs="#facs_3_region_1684649174669_401_tl_25" n="N024"/>Frau <hi rendition="#em">
-                  <rs type="person">Friedrich-Materna</rs>
-               </hi> sah in ihrer charakteristischen
-      <lb facs="#facs_3_region_1684649174669_401_tl_26" n="N025"/>Maske als <rs type="person">Margaretha</rs> prachtvoll aus und führte die schwie¬
-      <lb facs="#facs_3_region_1684649174669_401_tl_27" n="N026"/>rige Rolle mit voller Energie durch. Nicht ganz auf gleicher
-      <lb facs="#facs_3_region_1684649174669_401_tl_28" n="N027"/>Hohe standen die Herren. Wir können Herrn <hi rendition="#em">
-                  <rs type="person">Walter</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684649174669_401_tl_29" n="N028"/>seine geringe Sympathie für die häkelige und undankbare
-      <lb facs="#facs_3_region_1684649174669_401_tl_30" n="N029"/>Rolle des <rs type="person">Golo</rs> nicht verübeln; obendrein war er nicht bei
-      <lb facs="#facs_3_region_1684649174669_401_tl_31" n="N030"/>Stimme und auch nicht bei Spiel. Herr <hi rendition="#em">
-                  <rs type="person">Scaria</rs>
-               </hi>, überall
+      <lb facs="#facs_3_region_1684649174669_401_tl_25" n="N024"/>Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1031">Friedrich-Materna</rs></hi> sah in ihrer charakteristischen
+      <lb facs="#facs_3_region_1684649174669_401_tl_26" n="N025"/>Maske als <rs type="person" ref="#hsl_person_id_6742">Margaretha</rs> prachtvoll aus und führte die schwie
+      <lb facs="#facs_3_region_1684649174669_401_tl_27" n="N026" break="no"/>rige Rolle mit voller Energie durch. Nicht ganz auf gleicher
+      <lb facs="#facs_3_region_1684649174669_401_tl_28" n="N027"/>Hohe standen die Herren. Wir können Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_320">Walter</rs></hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684649174669_401_tl_29" n="N028"/>seine geringe Sympathie für die häkelige und undankbare
+      <lb facs="#facs_3_region_1684649174669_401_tl_30" n="N029"/>Rolle des <rs type="person" ref="#hsl_person_id_3192">Golo</rs> nicht verübeln; obendrein war er nicht bei
+      <lb facs="#facs_3_region_1684649174669_401_tl_31" n="N030"/>Stimme und auch nicht bei Spiel. Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2922">Scaria</rs></hi>, überall
       <lb facs="#facs_3_region_1684649174669_401_tl_32" n="N031"/>unschätzbar durch seine Stimmkraft und deutliche Aussprache,
-      <lb facs="#facs_3_region_1684649174669_401_tl_33" n="N032"/>verfiel als <rs type="person">Siegfried</rs> leider in seine beiden bedenklichen Ge¬
-      <lb facs="#facs_3_region_1684649174669_401_tl_34" n="N033"/>wohnheiten: das Uebertreiben der Tonstärke und das
+      <lb facs="#facs_3_region_1684649174669_401_tl_33" n="N032"/>verfiel als <rs type="person" ref="#hsl_person_id_2716">Siegfried</rs> leider in seine beiden bedenklichen Ge
+      <lb facs="#facs_3_region_1684649174669_401_tl_34" n="N033" break="no"/>wohnheiten: das Uebertreiben der Tonstärke und das
       <lb facs="#facs_3_region_1684649174669_401_tl_35" n="N034"/>Schleppen der Tempi. Sehr lobenswerth wirkten die Herren
-      <lb facs="#facs_3_region_1684649174669_401_tl_36" n="N035"/>
-               <hi rendition="#em">
-                  <rs type="person">Mayerhofer</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Hablawetz</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Draxler</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Lay</rs>
-               </hi> in
+      <lb facs="#facs_3_region_1684649174669_401_tl_36" n="N035"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_183">Mayerhofer</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5410">Hablawetz</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7">Draxler</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_155">Lay</rs></hi> in
       <lb facs="#facs_3_region_1684649174669_401_tl_37" n="N036"/>den kleineren Rollen mit. Besondere Anerkennung verdienen
       <lb facs="#facs_3_region_1684649174669_401_tl_38" n="N037"/>schließlich die trefflichen Leistungen des Orchesters unter Herrn
-      <lb facs="#facs_3_region_1684649174669_401_tl_39" n="N038"/>
-               <hi rendition="#em">
-                  <rs type="person">Dessoff</rs>'s</hi> Leitung und jene der Decorations-Maler
-      <lb facs="#facs_3_region_1684649174669_401_tl_40" n="N039"/>
-               <hi rendition="#em">
-                  <rs type="person">Brioschi</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Kautzky</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Burghart</rs>
-               </hi>.</p>
+      <lb facs="#facs_3_region_1684649174669_401_tl_39" n="N038"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_56">Dessoff</rs>’s</hi> Leitung und jene der Decorations-Maler
+      <lb facs="#facs_3_region_1684649174669_401_tl_40" n="N039"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_42">Brioschi</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5810">Kautzky</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5576">Burghart</rs></hi>.</p>
          </div>
       </body>
    </text>
