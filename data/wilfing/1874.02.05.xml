@@ -3,8 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-      Morgenblatt</title>
+            <title level="a">Nr. 3393. Wien, Donnerstag, den 5. Februar 1874</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -73,22 +72,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-      Morgenblatt</title>
+                     <title>Nr. 3393. Wien, Donnerstag, den 5. Februar 1874</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-      Neue Freie Presse</title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1874-02-05"></date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -106,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+            <change who="awilfingl" when="2025-04-^9">Transkribus OCR und Lektorat.</change>
+            <change who="delsner" when="2025-04-22">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+            <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+            <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1010,28 +1009,17 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1684648332691_94_tl_1" n="N001"/><head type="h1">Musik.</head>
+            <lb facs="#facs_1_region_1684648332691_94_tl_2" n="N002"/><head type="h2">(Komische Oper. — Hofoperntheater.)</head>
             <p>
-               <lb facs="#facs_1_line_1743920230152_797" n="N001"/>Nr. 3393. Wien, Donnerstag, den 5. Februar 1874</p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684648332691_94_tl_1" n="N001"/>Musik.
-      <lb facs="#facs_1_region_1684648332691_94_tl_2" n="N002"/>(Komische Oper. — Hofoperntheater.)
-      <lb facs="#facs_1_region_1684648332691_94_tl_3" n="N003"/>Ed. H. Die Komische Oper steht gegenwärtig im Vor¬
-      <lb facs="#facs_1_region_1684648332691_94_tl_4" n="N004"/>dergrunde des musikalischen Interesses. Seit unserem letzten
+      <lb facs="#facs_1_region_1684648332691_94_tl_3" n="N003"/>Ed. H. Die Komische Oper steht gegenwärtig im Vor
+      <lb facs="#facs_1_region_1684648332691_94_tl_4" n="N004" break="no"/>dergrunde des musikalischen Interesses. Seit unserem letzten
       <lb facs="#facs_1_region_1684648332691_94_tl_5" n="N005"/>Berichte hat sie zwei Novitäten-Abende gebracht: eine kleine
-      <lb facs="#facs_1_region_1684648332691_94_tl_6" n="N006"/>Operette mit darauffolgendem Ballet, dann „<rs type="bibl">Das Glöckchen</rs>
-               <lb facs="#facs_1_region_1684648332691_94_tl_7" n="N007"/>
-               <rs type="bibl">des Eremiten</rs>“ von <hi rendition="#em">
-                  <rs type="person">Maillart</rs>
-               </hi>. Die einactige Operette
-      <lb facs="#facs_1_region_1684648332691_94_tl_8" n="N008"/>heißt „<hi rendition="#em">
-                  <rs type="bibl">Gute Nacht, Nachbar</rs>
-               </hi>“ und ist von Charles
-      <lb facs="#facs_1_region_1684648332691_94_tl_9" n="N009"/>
-               <hi rendition="#em">
-                  <rs type="person">Poise</rs>
-               </hi>, einem jüngeren Verfertiger musikalischer Nipp¬
-      <lb facs="#facs_1_region_1684648332691_94_tl_10" n="N010"/>sachen in <rs type="place">Paris</rs>, componirt. Auf der mittendurch getheilten
+      <lb facs="#facs_1_region_1684648332691_94_tl_6" n="N006"/>Operette mit darauffolgendem Ballet, dann „<rs type="bibl" ref="#hsl_work_id_646">Das Glöckchen
+      <lb facs="#facs_1_region_1684648332691_94_tl_7" n="N007"/>des Eremiten</rs>“ von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1104">Maillart</rs></hi>. Die einactige Operette
+      <lb facs="#facs_1_region_1684648332691_94_tl_8" n="N008"/>heißt „<hi rendition="#em"><rs type="bibl">Gute Nacht, Nachbar</rs></hi>“ und ist von Charles
+      <lb facs="#facs_1_region_1684648332691_94_tl_9" n="N009"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_6783">Poise</rs></hi>, einem jüngeren Verfertiger musikalischer Nipp
+      <lb facs="#facs_1_region_1684648332691_94_tl_10" n="N010" break="no"/>sachen in <rs type="place" ref="#hsl_place_id_44">Paris</rs>, componirt. Auf der mittendurch getheilten
       <lb facs="#facs_1_region_1684648332691_94_tl_11" n="N011"/>Bühne plaudert rechts ein junger <rs type="person">Handelsmann</rs>, links eine
       <lb facs="#facs_1_region_1684648332691_94_tl_12" n="N012"/>kleine <rs type="person">Putzmacherin</rs> — Nachbarn, die nichts von einander
       <lb facs="#facs_1_region_1684648332691_94_tl_13" n="N013"/>wissen. Gemeinsame Noth bringt sie zusammen: er will eine
@@ -1042,331 +1030,283 @@
       <lb facs="#facs_1_region_1684648332691_94_tl_17" n="N018"/>Ideal. Es gibt nun einige heitere Mißverständnisse mit
       <lb facs="#facs_1_line_1743920311344_817" n="N019"/>obligatem Herüber- und Hinüberlaufen, der Schluß stellt
       <lb facs="#facs_1_region_1684648332691_94_tl_18" n="N020"/>eine Heirat in Aussicht. Das Ganze ist ein Stückchen echt
-      <lb facs="#facs_1_region_1684648332691_94_tl_19" n="N021"/>
-               <rs type="place">Paris</rs>er Mansarden-Poesie, recht launig erfunden und nicht
+      <lb facs="#facs_1_region_1684648332691_94_tl_19" n="N021"/><rs type="place" ref="#hsl_place_id_44">Paris</rs>er Mansarden-Poesie, recht launig erfunden und nicht
       <lb facs="#facs_1_region_1684648332691_94_tl_20" n="N022"/>ohne Anmuth ausgeführt. Die Kleinigkeit leidet nur an
-      <lb facs="#facs_1_region_1684648332691_94_tl_21" n="N023"/>unverzeihlicher Breite; die beiden Leutchen halten ihre All¬
-      <lb facs="#facs_1_region_1684648332691_94_tl_22" n="N024"/>tagsmonologe mit lästiger Redseligkeit, und was die Musik
+      <lb facs="#facs_1_region_1684648332691_94_tl_21" n="N023"/>unverzeihlicher Breite; die beiden Leutchen halten ihre All
+      <lb facs="#facs_1_region_1684648332691_94_tl_22" n="N024" break="no"/>tagsmonologe mit lästiger Redseligkeit, und was die Musik
       <lb facs="#facs_1_region_1684648332691_94_tl_23" n="N025"/>betrifft, so wiederholt sie ihre kaum minder alltäglichen
       <lb facs="#facs_1_region_1684648332691_94_tl_24" n="N026"/>Themen ein halbdutzendmal in jeder Nummer. Text und
-      <lb facs="#facs_1_region_1684648332691_94_tl_25" n="N027"/>Musik müssen gekürzt werden, soll diese Operette dem Re¬
-      <lb facs="#facs_1_line_1743920329056_823" n="N028"/>pertoire erhalten bleiben. Und das verdient sie schon wegen
+      <lb facs="#facs_1_region_1684648332691_94_tl_25" n="N027"/>Musik müssen gekürzt werden, soll diese Operette dem Re
+      <lb facs="#facs_1_line_1743920329056_823" n="N028" break="no"/>pertoire erhalten bleiben. Und das verdient sie schon wegen
       <lb facs="#facs_1_region_1684648332691_94_tl_26" n="N029"/>des vortrefflichen Zusammenspiels von Herrn und Frau
-      <lb facs="#facs_1_region_1684648332691_94_tl_27" n="N030"/>
-               <hi rendition="#em">
-                  <rs type="person">Swoboda</rs>
-               </hi>.
-      <lb facs="#facs_1_region_1684648332691_94_tl_28" n="N031"/>Die Ballet-Pantomime „<hi rendition="#em">
-                  <rs type="bibl">Gretna-Green</rs>
-               </hi>“ ist gleich¬
-      <lb facs="#facs_1_region_1684648332691_94_tl_29" n="N032"/>falls <rs type="place">französisch</rs>en Ursprungs und vom Balletmeister Fr.
-      <lb facs="#facs_1_region_1684648332691_94_tl_30" n="N033"/>
-               <rs type="person">Opfermann</rs> für unsere Komische Oper eingerichtet. Die
+      <lb facs="#facs_1_region_1684648332691_94_tl_27" n="N030"/><hi rendition="#em"><rs type="person">Swoboda</rs></hi>.
+            </p><p>     
+      <lb facs="#facs_1_region_1684648332691_94_tl_28" n="N031"/>Die Ballet-Pantomime „<hi rendition="#em"><rs type="bibl">Gretna-Green</rs></hi>“ ist gleich
+      <lb facs="#facs_1_region_1684648332691_94_tl_29" n="N032" break="no"/>falls <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Ursprungs und vom Balletmeister Fr.
+      <lb facs="#facs_1_region_1684648332691_94_tl_30" n="N033"/><rs type="person">Opfermann</rs> für unsere Komische Oper eingerichtet. Die
       <lb facs="#facs_1_region_1684648332691_94_tl_31" n="N034"/>abenteuerlichen Schnellheiraten vor dem Schmied zu Gretna-
-      <lb facs="#facs_1_region_1684648332691_94_tl_32" n="N035"/>Green sind kein übles Motiv, hier schleicht aber die Hand¬
-      <lb facs="#facs_1_region_1684648332691_94_tl_33" n="N036"/>lung doch zu einförmig vorwärts, ohne komische Effecte oder
-      <lb facs="#facs_1_region_1684648332691_94_tl_34" n="N037"/>sonstige Ueberraschungen. Einzelne Tänze darin sehen sich gut</p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_line_1743920347080_829" n="N001"/>an, und die Musik (wir erinnern an das fein instrumentirte
+      <lb facs="#facs_1_region_1684648332691_94_tl_32" n="N035"/>Green sind kein übles Motiv, hier schleicht aber die Hand
+      <lb facs="#facs_1_region_1684648332691_94_tl_33" n="N036" break="no"/>lung doch zu einförmig vorwärts, ohne komische Effecte oder
+      <lb facs="#facs_1_region_1684648332691_94_tl_34" n="N037"/>sonstige Ueberraschungen. Einzelne Tänze darin sehen sich gut<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+      <lb facs="#facs_1_line_1743920347080_829" n="N001"/>an, und die Musik (wir erinnern an das fein instrumentirte
       <lb facs="#facs_1_region_1684648336678_97_tl_1" n="N002"/>Walzertempo „Collin-maillard“) gehört zu den besseren
       <lb facs="#facs_1_region_1684648336678_97_tl_2" n="N003"/>Ballet-Compositionen. Im Arrangement von „<rs type="bibl">Gretna-Green</rs>“
-      <lb facs="#facs_1_region_1684648336678_97_tl_3" n="N004"/>erwies sich Herr <hi rendition="#em">
-                  <rs type="person">Opfermann</rs>
-               </hi> als geschickter Balletmeister;
+      <lb facs="#facs_1_region_1684648336678_97_tl_3" n="N004"/>erwies sich Herr <hi rendition="#em"><rs type="person">Opfermann</rs></hi> als geschickter Balletmeister;
       <lb facs="#facs_1_region_1684648336678_97_tl_4" n="N005"/>als Tänzer und Mimiker steht er auf bescheidenerem Niveau.
-      <lb facs="#facs_1_region_1684648336678_97_tl_5" n="N006"/>Unter den Damen ragte durch Virtuosität des Tanzes Fräu¬
-      <lb facs="#facs_1_region_1684648336678_97_tl_6" n="N007"/>lein Henriette <hi rendition="#em">
-                  <rs type="person">Lamare</rs>
-               </hi> hervor, welche bereits <date month="0" day="0" year="0">1860</date> im
+      <lb facs="#facs_1_region_1684648336678_97_tl_5" n="N006"/>Unter den Damen ragte durch Virtuosität des Tanzes Fräu
+      <lb facs="#facs_1_region_1684648336678_97_tl_6" n="N007" break="no"/>lein Henriette <hi rendition="#em"><rs type="person">Lamare</rs></hi> hervor, welche bereits <date>1860</date> im
       <lb facs="#facs_1_region_1684648336678_97_tl_7" n="N008"/>Hofoperntheater als Solotänzerin beliebt war. Die übrigen
       <lb facs="#facs_1_region_1684648336678_97_tl_8" n="N009"/>Tänzerinnen repräsentirten die beiden Hauptelemente ihres
       <lb facs="#facs_1_region_1684648336678_97_tl_9" n="N010"/>Kunstzweiges, jugendlichen Reiz und technische Meisterschaft,
       <lb facs="#facs_1_region_1684648336678_97_tl_10" n="N011"/>in sehr verschieden abgestuften Mischungsverhältnissen. An
-      <lb facs="#facs_1_region_1684648336678_97_tl_11" n="N012"/>Beifall fehlte es Keiner von ihnen. Die erste Ballet-Produc¬
-      <lb facs="#facs_1_region_1684648336678_97_tl_12" n="N013"/>tion der Komischen Oper ist sehr anständig ausgefallen,
+      <lb facs="#facs_1_region_1684648336678_97_tl_11" n="N012"/>Beifall fehlte es Keiner von ihnen. Die erste Ballet-Produc
+      <lb facs="#facs_1_region_1684648336678_97_tl_12" n="N013" break="no"/>tion der Komischen Oper ist sehr anständig ausgefallen,
       <lb facs="#facs_1_region_1684648336678_97_tl_13" n="N014"/>glänzend nicht. Sie bestärkt mich in den Bedenken,
       <lb facs="#facs_1_region_1684648336678_97_tl_14" n="N015"/>welche ich von allem Anfang gegen die Aufnahme eines
-      <lb facs="#facs_1_region_1684648336678_97_tl_15" n="N016"/>completen, selbstständigen Ballets in den Status der Ko¬
-      <lb facs="#facs_1_region_1684648336678_97_tl_16" n="N017"/>mischen Oper gehegt. Schon vom Standpunkt des Geschäftes
-      <lb facs="#facs_1_region_1684648336678_97_tl_17" n="N018"/>ist es ein kostspieliger Luxusartikel, der sich schwerlich ren¬
-      <lb facs="#facs_1_region_1684648336678_97_tl_18" n="N019"/>tiren dürfte. Selbst im Hofoperntheater zahlen sich die Ballette
-      <lb facs="#facs_1_region_1684648336678_97_tl_19" n="N020"/>nicht aus, nicht einmal jene epochemachenden, die (wie „<rs type="bibl">Fan¬</rs>
-               <lb facs="#facs_1_region_1684648336678_97_tl_20" n="N021"/>
-               <rs type="bibl">tasca</rs>“, „<rs type="bibl">Flick und Flock</rs>", „<rs type="bibl">Ellinor</rs>“) sich eines nachhaltig
+      <lb facs="#facs_1_region_1684648336678_97_tl_15" n="N016"/>completen, selbstständigen Ballets in den Status der Ko
+      <lb facs="#facs_1_region_1684648336678_97_tl_16" n="N017" break="no"/>mischen Oper gehegt. Schon vom Standpunkt des Geschäftes
+      <lb facs="#facs_1_region_1684648336678_97_tl_17" n="N018"/>ist es ein kostspieliger Luxusartikel, der sich schwerlich ren
+      <lb facs="#facs_1_region_1684648336678_97_tl_18" n="N019" break="no"/>tiren dürfte. Selbst im Hofoperntheater zahlen sich die Ballette
+      <lb facs="#facs_1_region_1684648336678_97_tl_19" n="N020"/>nicht aus, nicht einmal jene epochemachenden, die (wie „<rs type="bibl">Fan
+      <lb facs="#facs_1_region_1684648336678_97_tl_20" n="N021" break="no"/>tasca</rs>“, „<rs type="bibl">Flick und Flock</rs>“, „<rs type="bibl">Ellinor</rs>“) sich eines nachhaltig
       <lb facs="#facs_1_region_1684648336678_97_tl_21" n="N022"/>starken Besuchs erfreuen. Die unausgesetzten Nachschaffungen
       <lb facs="#facs_1_line_1743920364184_835" n="N023"/>in den Costümen und Requisiten machen sie zu einer
       <lb facs="#facs_1_region_1684648336678_97_tl_22" n="N024"/>Quelle fortlaufender Auslagen. Nur indirect rentirt
       <lb facs="#facs_1_region_1684648336678_97_tl_23" n="N025"/>sich das Ballet im Hofoperntheater, dadurch nämlich,
       <lb facs="#facs_1_region_1684648336678_97_tl_24" n="N026"/>daß es unentbehrlich ist für die Vorstellung großer
       <lb facs="#facs_1_region_1684648336678_97_tl_25" n="N027"/>Opern. Bei der Komischen Oper findet das Gegentheil
-      <lb facs="#facs_1_line_1743920383463_843" n="N028"/>statt. Die <rs type="place">italienisch</rs>e wie die <rs type="place">französisch</rs>e komische Oper
+      <lb facs="#facs_1_line_1743920383463_843" n="N028"/>statt. Die <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e wie die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e komische Oper
       <lb facs="#facs_1_region_1684648336678_97_tl_26" n="N029"/>kennt keine Ballet-Einlagen, ja es gehört von Haus aus zu
-      <lb facs="#facs_1_region_1684648336678_97_tl_27" n="N030"/>den Statuten der Opéra Comique in <rs type="place">Paris</rs>, nie Ballette
-      <lb facs="#facs_1_region_1684648336678_97_tl_28" n="N031"/>zu verwenden. Auch in der <rs type="place">deutsch</rs>en komischen Oper treffen
+      <lb facs="#facs_1_region_1684648336678_97_tl_27" n="N030"/>den Statuten der Opéra Comique in <rs type="place" ref="#hsl_place_id_44">Paris</rs>, nie Ballette
+      <lb facs="#facs_1_region_1684648336678_97_tl_28" n="N031"/>zu verwenden. Auch in der <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en komischen Oper treffen
       <lb facs="#facs_1_region_1684648336678_97_tl_29" n="N032"/>wir obligaten Tanz nur ganz ausnahmsweise, wie in „<rs type="bibl">Czar</rs>
-               <lb facs="#facs_1_region_1684648336678_97_tl_30" n="N033"/>
-               <rs type="bibl">und Zimmermann</rs>“ und den „<rs type="bibl">Lustigen Weibern</rs>“. Solche
+      <lb facs="#facs_1_region_1684648336678_97_tl_30" n="N033"/><rs type="bibl">und Zimmermann</rs>“ und den „<rs type="bibl">Lustigen Weibern</rs>“. Solche
       <lb facs="#facs_1_region_1684648336678_97_tl_31" n="N034"/>an rechter Stelle eingewobene Tänze wirken meistens sehr
       <lb facs="#facs_1_region_1684648336678_97_tl_32" n="N035"/>erfrischend und würden sich mit Vortheil noch in manche
       <lb facs="#facs_1_region_1684648336678_97_tl_33" n="N036"/>komische Oper einlegen lassen. Dazu reicht eben ein kleines
-      <lb facs="#facs_1_region_1684648336678_97_tl_34" n="N037"/>Balletpersonal ohne kostspielige Solotänzerinnen und männ¬
-      <lb facs="#facs_1_region_1684648336678_97_tl_35" n="N038"/>liche Drehkreisel aus. In großen, durch Maschinerie und
+      <lb facs="#facs_1_region_1684648336678_97_tl_34" n="N037"/>Balletpersonal ohne kostspielige Solotänzerinnen und männ
+      <lb facs="#facs_1_region_1684648336678_97_tl_35" n="N038" break="no"/>liche Drehkreisel aus. In großen, durch Maschinerie und
       <lb facs="#facs_1_region_1684648336678_97_tl_36" n="N039"/>Decorationenpracht wirkenden Balletten wird natürlich die
-      <lb facs="#facs_1_line_1743920272200_805" n="N040"/>Komische Oper mit dem Hofoperntheater nicht rivalisiren</p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1684648341046_100_tl_1" n="N001"/>wollen.*) Es bleiben ihr also nur das engbegrenzte idyllische
+      <lb facs="#facs_1_line_1743920272200_805" n="N040"/>Komische Oper mit dem Hofoperntheater nicht rivalisiren<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
+      <lb facs="#facs_1_region_1684648341046_100_tl_1" n="N001"/>wollen.
+            <note type="footnote" n="*)">
+            <lb facs="#facs_1_line_1743920412504_894" n="N033"/>Welchen Aufwand von Arbeit und Mühe solche Ballette,
+            <lb facs="#facs_1_line_1743920415098_897" n="N034"/>abgesehen vom Kostenpunkte, erfordern, mag man beispielsweise an
+            <lb facs="#facs_1_line_1743920417727_900" n="N035"/>dem Ballet „<rs type="bibl">Ellinor</rs>“ ersehen, von welchem im Hofoperntheater
+            <lb facs="#facs_1_line_1743920420712_903" n="N036"/>56 Vormittags- und 13 Nachmittagsproben (zusammen durch 170
+            <lb facs="#facs_1_line_1743920423559_906" n="N037"/>Stunden) abgehalten wurden; außerdem noch 11 Nachtproben, die
+            <lb facs="#facs_1_line_1743920426208_909" n="N038"/>bis 2 Uhr Morgens dauerten. Während dieser Zeit ist die vom
+            <lb facs="#facs_1_line_1743920428688_912" n="N039"/>Balletpersonal occupirte Bühne für Opernproben verloren. Die
+            <lb facs="#facs_1_line_1743920430784_915" n="N040"/>Kosten eines Ballets wie „<rs type="bibl">Ellinor</rs>“ betragen nicht viel weniger als
+            <lb facs="#facs_1_line_1743920432319_918" n="N041"/>100,000 fl.
+            </note>
+            Es bleiben ihr also nur das engbegrenzte idyllische
       <lb facs="#facs_1_region_1684648341046_100_tl_2" n="N002"/>Ballet und die komische Ballet-Pantomime, letztere auch nur
       <lb facs="#facs_1_region_1684648341046_100_tl_3" n="N003"/>falls sie über gute Komiker verfügt, welche in diesem Fach
       <lb facs="#facs_1_region_1684648341046_100_tl_4" n="N004"/>bekanntlich gar selten sind. Der Gedanke, es solle das
-      <lb facs="#facs_1_region_1684648341046_100_tl_5" n="N005"/>Ballet der komischen Oper sich zu jenem der großen ver¬
-      <lb facs="#facs_1_region_1684648341046_100_tl_6" n="N006"/>halten, wie der musikalische Stoff der einen zu dem der
+      <lb facs="#facs_1_region_1684648341046_100_tl_5" n="N005"/>Ballet der komischen Oper sich zu jenem der großen ver
+      <lb facs="#facs_1_region_1684648341046_100_tl_6" n="N006" break="no"/>halten, wie der musikalische Stoff der einen zu dem der
       <lb facs="#facs_1_region_1684648341046_100_tl_7" n="N007"/>andern, leidet an einem Rechnungsfehler. Die komische
       <lb facs="#facs_1_region_1684648341046_100_tl_8" n="N008"/>Oper ist eine selbstständige, gleichberechtigte, über eine reiche
       <lb facs="#facs_1_region_1684648341046_100_tl_9" n="N009"/>Literatur verfügende Kunstgattung. Das selbstständige Ballet,
       <lb facs="#facs_1_region_1684648341046_100_tl_10" n="N010"/>hier wie dort, verlangt hingegen schon seinem Begriffe nach
       <lb facs="#facs_1_region_1684648341046_100_tl_11" n="N011"/>ein gewisses Maß von Prachtentfaltung und Massenwirkung.
-      <lb facs="#facs_1_region_1684648341046_100_tl_12" n="N012"/>Der Vorrath an unterhaltenden, nicht ausstattungsbedürf¬
-      <lb facs="#facs_1_region_1684648341046_100_tl_13" n="N013"/>tigen kleinen Ballet-Idyllen und Balletpossen ist viel zu
+      <lb facs="#facs_1_region_1684648341046_100_tl_12" n="N012"/>Der Vorrath an unterhaltenden, nicht ausstattungsbedürf
+      <lb facs="#facs_1_region_1684648341046_100_tl_13" n="N013" break="no"/>tigen kleinen Ballet-Idyllen und Balletpossen ist viel zu
       <lb facs="#facs_1_region_1684648341046_100_tl_14" n="N014"/>klein und das ganze Genre viel zu dürftig, um ein durch
       <lb facs="#facs_1_region_1684648341046_100_tl_15" n="N015"/>große Prachtballette verwöhntes Residenz-Publicum nachhaltig
       <lb facs="#facs_1_region_1684648341046_100_tl_16" n="N016"/>anzulocken. Kurz, die Sache scheint mir bedenklich; wollen
       <lb facs="#facs_1_region_1684648341046_100_tl_17" n="N017"/>wir abwarten, ob die Ballet-Erfolge der Komischen Oper
       <lb facs="#facs_1_region_1684648341046_100_tl_18" n="N018"/>Recht behalten.
-      <lb facs="#facs_1_region_1684648341046_100_tl_19" n="N019"/>Auf diesen etwas zweifelhaften, gemischten Theater¬
-      <lb facs="#facs_1_region_1684648341046_100_tl_20" n="N020"/>abend folgte ein durchweg gelungener: die vortreffliche Auf¬
-      <lb facs="#facs_1_region_1684648341046_100_tl_21" n="N021"/>führung der komischen Oper „<rs type="person" continued="true">
-                  <rs type="bibl">Das Glöckchen des</rs>
-               </rs>
-               <lb facs="#facs_1_region_1684648341046_100_tl_22" n="N022"/>
-               <rs type="person" continued="true">
-                  <rs type="bibl">Eremiten</rs>
-               </rs>“ von Aimé <hi rendition="#em">
-                  <rs type="person">Maillart</rs>
-               </hi>. Diese Oper (sie heißt
+            </p><p>
+      <lb facs="#facs_1_region_1684648341046_100_tl_19" n="N019"/>Auf diesen etwas zweifelhaften, gemischten Theater
+      <lb facs="#facs_1_region_1684648341046_100_tl_20" n="N020" break="no"/>abend folgte ein durchweg gelungener: die vortreffliche Auf
+      <lb facs="#facs_1_region_1684648341046_100_tl_21" n="N021" break="no"/>führung der komischen Oper „<rs type="bibl">Das Glöckchen des
+      <lb facs="#facs_1_region_1684648341046_100_tl_22" n="N022"/>Eremiten</rs>“ von Aimé <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1104">Maillart</rs></hi>. Diese Oper (sie heißt
       <lb facs="#facs_1_region_1684648341046_100_tl_23" n="N023"/>im Original „<rs type="bibl">Les Dragons de Villars</rs>“) erschien zuerst im
-      <lb facs="#facs_1_region_1684648341046_100_tl_24" n="N024"/>September <date month="0" day="0" year="0">1856</date> in dem <rs type="place">Paris</rs>er Théâtre Lyrique, in <rs type="place">Wien</rs>
-               <lb facs="#facs_1_region_1684648341046_100_tl_25" n="N025"/>hörten wir sie <date month="0" day="0" year="0">1861</date> im Hofoperntheater. Damals habe ich
+      <lb facs="#facs_1_region_1684648341046_100_tl_24" n="N024"/>September <date>1856</date> in dem <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Théâtre Lyrique, in <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_1_region_1684648341046_100_tl_25" n="N025"/>hörten wir sie <date>1861</date> im Hofoperntheater. Damals habe ich
       <lb facs="#facs_1_region_1684648341046_100_tl_26" n="N026"/>die Vorzüge dieser Novität mehr im Tone nachsichtigen
       <lb facs="#facs_1_region_1684648341046_100_tl_27" n="N027"/>Wohlwollens, als herzhafter Anerkennung besprochen; heute
       <lb facs="#facs_1_region_1684648341046_100_tl_28" n="N028"/>muß ich das Lob höher intoniren. Das Werk selbst hat
-      <lb facs="#facs_1_region_1684648341046_100_tl_29" n="N029"/>freilich in diesen dreizehn Jahren nicht an Reichthum zu¬
-      <lb facs="#facs_1_region_1684648341046_100_tl_30" n="N030"/>genommen, aber unsere Armuth im Fach des musikalischen
+      <lb facs="#facs_1_region_1684648341046_100_tl_29" n="N029"/>freilich in diesen dreizehn Jahren nicht an Reichthum zu
+      <lb facs="#facs_1_region_1684648341046_100_tl_30" n="N030" break="no"/>genommen, aber unsere Armuth im Fach des musikalischen
       <lb facs="#facs_1_region_1684648341046_100_tl_31" n="N031"/>Lustspieles hat zugenommen. So anspruchslos, wenn man
-      <lb facs="#facs_1_region_1684648341046_100_tl_32" n="N032"/>will unbedeutend, diese Partitur auch sei, wir haben seither
-      <lb facs="#facs_1_line_1743920412504_894" n="N033"/>*) Welchen Aufwand von Arbeit und Mühe solche Ballette,
-      <lb facs="#facs_1_line_1743920415098_897" n="N034"/>abgesehen vom Kostenpunkte, erfordern, mag man beispielsweise an
-      <lb facs="#facs_1_line_1743920417727_900" n="N035"/>dem Ballet „<rs type="bibl">Ellinor</rs>“ ersehen, von welchem im Hofoperntheater
-      <lb facs="#facs_1_line_1743920420712_903" n="N036"/>56 Vormittags- und 13 Nachmittagsproben (zusammen durch 170
-      <lb facs="#facs_1_line_1743920423559_906" n="N037"/>Stunden) abgehalten wurden; außerdem noch 11 Nachtproben, die
-      <lb facs="#facs_1_line_1743920426208_909" n="N038"/>bis 2 Uhr Morgens dauerten. Während dieser Zeit ist die vom
-      <lb facs="#facs_1_line_1743920428688_912" n="N039"/>Balletpersonal occupirte Bühne für Opernproben verloren. Die
-      <lb facs="#facs_1_line_1743920430784_915" n="N040"/>Kosten eines Ballets wie „<rs type="bibl">Ellinor</rs>“ betragen nicht viel weniger als
-      <lb facs="#facs_1_line_1743920432319_918" n="N041"/>100,000 fl.</p>
+      <lb facs="#facs_1_region_1684648341046_100_tl_32" n="N032"/>will unbedeutend, diese Partitur auch sei, wir haben seither<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684648352606_106_tl_1" n="N001"/>in <rs type="place">Wien</rs> (die einzige „<rs type="bibl">Mignon</rs>“ ausgenommen) keine neue
+            <cb n="4"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684648352606_106_tl_1" n="N001"/>in <rs type="place" ref="#hsl_place_id_55">Wien</rs> (die einzige „<rs type="bibl">Mignon</rs>“ ausgenommen) keine neue
       <lb facs="#facs_2_region_1684648352606_106_tl_2" n="N002"/>komische Oper gehört, welche als Ganzes bessere oder nur
-      <lb facs="#facs_2_region_1684648352606_106_tl_3" n="N003"/>gleich gute Wirkung machte. In <rs type="place">Deutschland</rs> dürfte es sich
+      <lb facs="#facs_2_region_1684648352606_106_tl_3" n="N003"/>gleich gute Wirkung machte. In <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> dürfte es sich
       <lb facs="#facs_2_region_1684648352606_106_tl_4" n="N004"/>kaum anders verhalten. Diese betrübende Thatsache läßt das
-      <lb facs="#facs_2_region_1684648352606_106_tl_5" n="N005"/>„<rs type="bibl">Glöckchen</rs>“ in relativ viel hellerem Lichte erscheinen. Das
-      <lb facs="#facs_2_region_1684648352606_106_tl_6" n="N006"/>Textbuch ist vortrefflich gemacht, es gibt heiteren, gemüth¬
-      <lb facs="#facs_2_region_1684648352606_106_tl_7" n="N007"/>lichen Bildern einen ernsten historischen Hintergrund: die
+      <lb facs="#facs_2_region_1684648352606_106_tl_5" n="N005"/>„<rs type="bibl" ref="#hsl_work_id_646">Glöckchen</rs>“ in relativ viel hellerem Lichte erscheinen. Das
+      <lb facs="#facs_2_region_1684648352606_106_tl_6" n="N006"/>Textbuch ist vortrefflich gemacht, es gibt heiteren, gemüth
+      <lb facs="#facs_2_region_1684648352606_106_tl_7" n="N007" break="no"/>lichen Bildern einen ernsten historischen Hintergrund: die
       <lb facs="#facs_2_region_1684648352606_106_tl_8" n="N008"/>Cevennenkriege und die Verfolgung der protestantischen
       <lb facs="#facs_2_region_1684648352606_106_tl_9" n="N009"/>Camisarden durch die Dragoner des Marschalls <rs type="person">Villars</rs>.
-      <lb facs="#facs_2_region_1684648352606_106_tl_10" n="N010"/>Ohne übermäßig complicirtes Intriguenspiel hat das „<rs type="bibl">Glöck¬</rs>
-               <lb facs="#facs_2_region_1684648352606_106_tl_11" n="N011"/>
-               <rs type="bibl">chen</rs>“ doch eine lebhaft fortschreitende, trefflich gegliederte
+      <lb facs="#facs_2_region_1684648352606_106_tl_10" n="N010"/>Ohne übermäßig complicirtes Intriguenspiel hat das „<rs type="bibl" ref="#hsl_work_id_646">Glöck
+      <lb facs="#facs_2_region_1684648352606_106_tl_11" n="N011" break="no"/>chen</rs>“ doch eine lebhaft fortschreitende, trefflich gegliederte
       <lb facs="#facs_2_region_1684648352606_106_tl_12" n="N012"/>Handlung, munteren Dialog und zwanglos herbeigeführte
-      <lb facs="#facs_2_region_1684648352606_106_tl_13" n="N013"/>wirksame Situationen. Die Spannung auf den Aus¬
-      <lb facs="#facs_2_region_1684648352606_106_tl_14" n="N014"/>gang der Sache ist so geschickt erhalten, daß kaum
+      <lb facs="#facs_2_region_1684648352606_106_tl_13" n="N013"/>wirksame Situationen. Die Spannung auf den Aus
+      <lb facs="#facs_2_region_1684648352606_106_tl_14" n="N014" break="no"/>gang der Sache ist so geschickt erhalten, daß kaum
       <lb facs="#facs_2_region_1684648352606_106_tl_15" n="N015"/>Ein Zuschauer vor der Schlußscene seinen Platz verläßt.
-      <lb facs="#facs_2_region_1684648352606_106_tl_16" n="N016"/>In der Hauptfigur, der <rs type="person">Rose Friquet</rs>, bringt das „<rs type="bibl">Glöckchen</rs>“
+      <lb facs="#facs_2_region_1684648352606_106_tl_16" n="N016"/>In der Hauptfigur, der <rs type="person">Rose Friquet</rs>, bringt das „<rs type="bibl" ref="#hsl_work_id_646">Glöckchen</rs>“
       <lb facs="#facs_2_region_1684648352606_106_tl_17" n="N017"/>einen sehr anziehenden, frischen Charakter, der zwar seine
-      <lb facs="#facs_2_region_1684648352606_106_tl_18" n="N018"/>Herkunft der „<rs type="bibl">Petite Fadette</rs>“ George <rs type="person">Sand</rs>'s verdankt,
-      <lb facs="#facs_2_region_1684648352606_106_tl_19" n="N019"/>aber auf dem Gebiete der Oper neu und eigenthümlich er¬
-      <lb facs="#facs_2_region_1684648352606_106_tl_20" n="N020"/>scheint. Gegen <rs type="person">Meyerbeer</rs>'s „<rs type="bibl">Dinorah</rs>“, welche gleichfalls
+      <lb facs="#facs_2_region_1684648352606_106_tl_18" n="N018"/>Herkunft der „<rs type="bibl">Petite Fadette</rs>“ George <rs type="person">Sand</rs>’s verdankt,
+      <lb facs="#facs_2_region_1684648352606_106_tl_19" n="N019"/>aber auf dem Gebiete der Oper neu und eigenthümlich er
+      <lb facs="#facs_2_region_1684648352606_106_tl_20" n="N020" break="no"/>scheint. Gegen <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s „<rs type="bibl">Dinorah</rs>“, welche gleichfalls
       <lb facs="#facs_2_region_1684648352606_106_tl_21" n="N021"/>aus der „Grille“ herausgemeißelt ist, aber als pathologische
-      <lb facs="#facs_2_region_1684648352606_106_tl_22" n="N022"/>Caricatur, ist die <rs type="person">Rose Friquet</rs> eine echt poetische Erschei¬
-      <lb facs="#facs_2_region_1684648352606_106_tl_23" n="N023"/>nung. Der kürzlich verstorbene Componist des „<rs type="bibl">Glöckchens</rs>“,
-      <lb facs="#facs_2_region_1684648352606_106_tl_24" n="N024"/>Aimé <hi rendition="#em">
-                  <rs type="person">Maillart</rs>
-               </hi> (geboren <date month="0" day="0" year="0">1817</date>), gehört zu den zahlreichen
-      <lb facs="#facs_2_region_1684648352606_106_tl_25" n="N025"/>Epigonen der <rs type="person">Auber</rs>'schen Schule. Ohne hervorstechende
+      <lb facs="#facs_2_region_1684648352606_106_tl_22" n="N022"/>Caricatur, ist die <rs type="person">Rose Friquet</rs> eine echt poetische Erschei
+      <lb facs="#facs_2_region_1684648352606_106_tl_23" n="N023" break="no"/>nung. Der kürzlich verstorbene Componist des „<rs type="bibl" ref="#hsl_work_id_646">Glöckchens</rs>“,
+      <lb facs="#facs_2_region_1684648352606_106_tl_24" n="N024"/>Aimé <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1104">Maillart</rs></hi> (geboren <date>1817</date>), gehört zu den zahlreichen
+      <lb facs="#facs_2_region_1684648352606_106_tl_25" n="N025"/>Epigonen der <rs type="person">Auber</rs>’schen Schule. Ohne hervorstechende
       <lb facs="#facs_2_region_1684648352606_106_tl_26" n="N026"/>Originalität, ohne bedeutende dramatische Energie, besitzt er
-      <lb facs="#facs_2_region_1684648352606_106_tl_27" n="N027"/>doch jene werthvollen, traditionell <rs type="place">französisch</rs>en Eigenschaften,
+      <lb facs="#facs_2_region_1684648352606_106_tl_27" n="N027"/>doch jene werthvollen, traditionell <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Eigenschaften,
       <lb facs="#facs_2_region_1684648352606_106_tl_28" n="N028"/>welche auch das geringere musikalische Talent befähigen, auf
       <lb facs="#facs_2_region_1684648352606_106_tl_29" n="N029"/>Grund eines guten Textbuches zu reussiren: vollkommene
       <lb facs="#facs_2_region_1684648352606_106_tl_30" n="N030"/>Kenntniß des Bühnengemäßen, technische Gewandtheit und
-      <lb facs="#facs_2_region_1684648352606_106_tl_31" n="N031"/>Sicherheit, Anmuth, Esprit, endlich über alledem den wohl¬
-      <lb facs="#facs_2_region_1684648352606_106_tl_32" n="N032"/>thuenden Hauch einer formellen Bildung. Von höherer musi¬
-      <lb facs="#facs_2_region_1684648352606_106_tl_33" n="N033"/>kalischer Bedeutung ist kaum eine einzige Nummer der
+      <lb facs="#facs_2_region_1684648352606_106_tl_31" n="N031"/>Sicherheit, Anmuth, Esprit, endlich über alledem den wohl
+      <lb facs="#facs_2_region_1684648352606_106_tl_32" n="N032" break="no"/>thuenden Hauch einer formellen Bildung. Von höherer musi
+      <lb facs="#facs_2_region_1684648352606_106_tl_33" n="N033" break="no"/>kalischer Bedeutung ist kaum eine einzige Nummer der
       <lb facs="#facs_2_region_1684648352606_106_tl_34" n="N034"/>Partitur; aber in ihrem lebhaften, zwanglosen Anschließen
       <lb facs="#facs_2_region_1684648352606_106_tl_35" n="N035"/>an das Dramatische wirkt diese Musik durchaus gefällig,
       <lb facs="#facs_2_region_1684648352606_106_tl_36" n="N036"/>in vielen Nummern höchst anziehend. Man betrachte einmal,
       <lb facs="#facs_2_region_1684648352606_106_tl_37" n="N037"/>wie geschickt und wirksam das Glöckchenterzett im zweiten
       <lb facs="#facs_2_region_1684648352606_106_tl_38" n="N038"/>Acte mit Rücksicht auf die scenische Disposition componirt
       <lb facs="#facs_2_region_1684648352606_106_tl_39" n="N039"/>ist. Außerdem sind die Duette der <rs type="person">Rose Friquet</rs> mit
-      <lb facs="#facs_2_line_1743920626024_948" n="N040"/>
-               <rs type="person">Belamy</rs> im ersten, mit <rs type="person">Sylvain</rs> im zweiten Acte („moi,</p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1684648356362_109_tl_1" n="N001"/>jolie?“) von gewinnender Anmuth. Mehr als Einmal dringt
+      <lb facs="#facs_2_line_1743920626024_948" n="N040"/><rs type="person">Belamy</rs> im ersten, mit <rs type="person">Sylvain</rs> im zweiten Acte („moi,<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684648356362_109_tl_1" n="N001"/>jolie?“) von gewinnender Anmuth. Mehr als Einmal dringt
       <lb facs="#facs_2_region_1684648356362_109_tl_2" n="N002"/>ein Sonnenstrahl warmer Empfindung aus den Melodien
       <lb facs="#facs_2_region_1684648356362_109_tl_3" n="N003"/>des <rs type="person">Sylvain</rs>, der <rs type="person">Rose</rs>. Im dritten Acte ist der geschwätzige
       <lb facs="#facs_2_region_1684648356362_109_tl_4" n="N004"/>Weiberchor von bester Wirkung; desgleichen die große Arie
-      <lb facs="#facs_2_region_1684648356362_109_tl_5" n="N005"/>der <rs type="person">Rose Friquet</rs>, welche nur durch ihr trivial-<rs type="place">italienisch</rs>es
+      <lb facs="#facs_2_region_1684648356362_109_tl_5" n="N005"/>der <rs type="person">Rose Friquet</rs>, welche nur durch ihr trivial-<rs type="place" ref="#hsl_place_id_28">italienisch</rs>es
       <lb facs="#facs_2_region_1684648356362_109_tl_6" n="N006"/>Schluß-Allegro beeinträchtigt wird. Unbedeutende, flache
-      <lb facs="#facs_2_region_1684648356362_109_tl_7" n="N007"/>Stellen gibt es freilich auch, mitunter selbst ein böses Reiter¬
-      <lb facs="#facs_2_region_1684648356362_109_tl_8" n="N008"/>budenstückchen, wie der Dragonerchor; dennoch überwiegt das
+      <lb facs="#facs_2_region_1684648356362_109_tl_7" n="N007"/>Stellen gibt es freilich auch, mitunter selbst ein böses Reiter
+      <lb facs="#facs_2_region_1684648356362_109_tl_8" n="N008" break="no"/>budenstückchen, wie der Dragonerchor; dennoch überwiegt das
       <lb facs="#facs_2_region_1684648356362_109_tl_9" n="N009"/>Gute, und wir nehmen von der ganzen Oper den Eindruck
       <lb facs="#facs_2_region_1684648356362_109_tl_10" n="N010"/>des Anständigen, Feinen und Gefälligen mit nach Hause.
+            </p><p>
       <lb facs="#facs_2_region_1684648356362_109_tl_11" n="N011"/>Die Aufführung verdient das aufrichtigste Lob. Die
-      <lb facs="#facs_2_region_1684648356362_109_tl_12" n="N012"/>
-               <rs type="person">Rose Friquet</rs> der Frau <hi rendition="#em">
-                  <rs type="person">Swoboda-Fischer</rs>
-               </hi> hat uns
+      <lb facs="#facs_2_region_1684648356362_109_tl_12" n="N012"/><rs type="person">Rose Friquet</rs> der Frau <hi rendition="#em"><rs type="person">Swoboda-Fischer</rs></hi> hat uns
       <lb facs="#facs_2_region_1684648356362_109_tl_13" n="N013"/>geradezu überrascht. Sie gibt die Rolle mit frischem, keck
       <lb facs="#facs_2_region_1684648356362_109_tl_14" n="N014"/>zutreffendem Realismus, ohne jemals die weiße Linie des
-      <lb facs="#facs_2_region_1684648356362_109_tl_15" n="N015"/>Schönen zu verletzen. Noch mehr als diese Scenen natur¬
-      <lb facs="#facs_2_region_1684648356362_109_tl_16" n="N016"/>wüchsigen Uebermuthes im ersten Act fesselt in der Dar¬
-      <lb facs="#facs_2_region_1684648356362_109_tl_17" n="N017"/>stellung der Frau <rs type="person">Swoboda</rs> die im weiteren Verlaufe immer
+      <lb facs="#facs_2_region_1684648356362_109_tl_15" n="N015"/>Schönen zu verletzen. Noch mehr als diese Scenen natur
+      <lb facs="#facs_2_region_1684648356362_109_tl_16" n="N016" break="no"/>wüchsigen Uebermuthes im ersten Act fesselt in der Dar
+      <lb facs="#facs_2_region_1684648356362_109_tl_17" n="N017" break="no"/>stellung der Frau <rs type="person">Swoboda</rs> die im weiteren Verlaufe immer
       <lb facs="#facs_2_region_1684648356362_109_tl_18" n="N018"/>stärker hervorbrechende Gemüthswärme, Wahrheit und Treue
       <lb facs="#facs_2_region_1684648356362_109_tl_19" n="N019"/>des verkannten Mädchens. Hier macht die Künstlerin den
-      <lb facs="#facs_2_region_1684648356362_109_tl_20" n="N020"/>rührendsten Eindruck durch jenen Ton natürlicher Treu¬
-      <lb facs="#facs_2_line_1743920604695_942" n="N021"/>herzigkeit, den sie so sehr in ihrer Gewalt hat oder, richtiger
-      <lb facs="#facs_2_region_1684648356362_109_tl_21" n="N022"/>gesagt, der ihr eigen und angeboren ist. Frau <rs type="person">Swoboda</rs>
-               <lb facs="#facs_2_region_1684648356362_109_tl_22" n="N023"/>muß die letzten Jahre, seit wir sie nicht mehr spielen ge¬
-      <lb facs="#facs_2_region_1684648356362_109_tl_23" n="N024"/>sehen, zu großen Fortschritten benützt haben; ich hätte ihr
+      <lb facs="#facs_2_region_1684648356362_109_tl_20" n="N020"/>rührendsten Eindruck durch jenen Ton natürlicher Treu
+      <lb facs="#facs_2_line_1743920604695_942" n="N021" break="no"/>herzigkeit, den sie so sehr in ihrer Gewalt hat oder, richtiger
+      <lb facs="#facs_2_region_1684648356362_109_tl_21" n="N022"/>gesagt, der ihr eigen und angeboren ist. Frau <rs type="person">Swoboda</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684648356362_109_tl_22" n="N023"/>muß die letzten Jahre, seit wir sie nicht mehr spielen ge
+      <lb facs="#facs_2_region_1684648356362_109_tl_23" n="N024" break="no"/>sehen, zu großen Fortschritten benützt haben; ich hätte ihr
       <lb facs="#facs_2_region_1684648356362_109_tl_24" n="N025"/>vordem eine Leistung wie <rs type="person">Rose Friquet</rs> nicht zugetraut. Daß
       <lb facs="#facs_2_region_1684648356362_109_tl_25" n="N026"/>dieser Culminationspunkt ihrer Darstellungskunst nicht mehr
       <lb facs="#facs_2_region_1684648356362_109_tl_26" n="N027"/>ganz mit der Blüthezeit ihrer Stimme zusammenfällt, ist
       <lb facs="#facs_2_region_1684648356362_109_tl_27" n="N028"/>das Einzige, was ich bedauere. Es pflegt nun einmal so zu
       <lb facs="#facs_2_region_1684648356362_109_tl_28" n="N029"/>gehen im Leben talentvoller Sänger, die erst später auf ihren
       <lb facs="#facs_2_region_1684648356362_109_tl_29" n="N030"/>rechten Platz gelangen. Das Forciren der hohen Töne möge
-      <lb facs="#facs_2_region_1684648356362_109_tl_30" n="N031"/>Frau <rs type="person">Swoboda</rs>, wo es nur immer angeht, vermeiden, des¬
-      <lb facs="#facs_2_region_1684648356362_109_tl_31" n="N032"/>gleichen jede concertmäßige Coloratur, Triller und Passagen,
+      <lb facs="#facs_2_region_1684648356362_109_tl_30" n="N031"/>Frau <rs type="person">Swoboda</rs>, wo es nur immer angeht, vermeiden, des
+      <lb facs="#facs_2_region_1684648356362_109_tl_31" n="N032" break="no"/>gleichen jede concertmäßige Coloratur, Triller und Passagen,
       <lb facs="#facs_2_region_1684648356362_109_tl_32" n="N033"/>welche bei ihr meistens scharf und naturalistisch herauskommen.
       <lb facs="#facs_2_region_1684648356362_109_tl_33" n="N034"/>So hat in der Operette „<rs type="bibl">Gute Nacht, Nachbar</rs>“ die ganz
       <lb facs="#facs_2_region_1684648356362_109_tl_34" n="N035"/>überflüssige Bravour-Variation des Wiegenliedes mit ihren
       <lb facs="#facs_2_region_1684648356362_109_tl_35" n="N036"/>hohen Staccatos der sonst so trefflichen Leistung Frau
-      <lb facs="#facs_2_region_1684648356362_109_tl_36" n="N037"/>
-               <rs type="person">Swoboda</rs>'s einen Moment lang geschadet. Wenn Frau
-      <lb facs="#facs_2_region_1684648356362_109_tl_37" n="N038"/>
-               <rs type="person">Swoboda</rs> dieser Gefahr eingedenk bleibt, wird sie in der
+      <lb facs="#facs_2_region_1684648356362_109_tl_36" n="N037"/><rs type="person">Swoboda</rs>’s einen Moment lang geschadet. Wenn Frau
+      <lb facs="#facs_2_region_1684648356362_109_tl_37" n="N038"/><rs type="person">Swoboda</rs> dieser Gefahr eingedenk bleibt, wird sie in der
       <lb facs="#facs_2_region_1684648356362_109_tl_38" n="N039"/>Komischen Oper eine unvergleichliche Wirksamkeit und
-      <lb facs="#facs_2_region_1684648356362_109_tl_39" n="N040"/>Beliebtheit erreichen. Fräulein <hi rendition="#em">
-                  <rs type="person">Wiedermann</rs>
-               </hi> sang die</p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1684648360153_112_tl_1" n="N001"/>Pächterin <rs type="person">Georgette</rs> mit glücklichstem Erfolge. Ihr Filigran¬
-      <lb facs="#facs_2_region_1684648360153_112_tl_2" n="N002"/>stimmchen verschwindet im Ensemble, aber ihre Gewandtheit,
+      <lb facs="#facs_2_region_1684648356362_109_tl_39" n="N040"/>Beliebtheit erreichen. Fräulein <hi rendition="#em"><rs type="person">Wiedermann</rs></hi> sang die<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+      <lb facs="#facs_2_region_1684648360153_112_tl_1" n="N001"/>Pächterin <rs type="person">Georgette</rs> mit glücklichstem Erfolge. Ihr Filigran
+      <lb facs="#facs_2_region_1684648360153_112_tl_2" n="N002" break="no"/>stimmchen verschwindet im Ensemble, aber ihre Gewandtheit,
       <lb facs="#facs_2_region_1684648360153_112_tl_3" n="N003"/>ihre Anmuth, ihr Verstand leuchten allenthalben heraus.
-      <lb facs="#facs_2_region_1684648360153_112_tl_4" n="N004"/>Diese kaum flügge gewordene <rs type="place">Wien</rs>er Conservatoristin dürfte
+      <lb facs="#facs_2_region_1684648360153_112_tl_4" n="N004"/>Diese kaum flügge gewordene <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Conservatoristin dürfte
       <lb facs="#facs_2_region_1684648360153_112_tl_5" n="N005"/>der Spieloper bald hervorragende Dienste leisten; sie ist ein
       <lb facs="#facs_2_region_1684648360153_112_tl_6" n="N006"/>Talent. Ich bin sehr sparsam mit dieser Bezeichnung, die
-      <lb facs="#facs_2_region_1684648360153_112_tl_7" n="N007"/>nur zu oft der bloßen Dressur oder günstigen äußeren Mit¬
-      <lb facs="#facs_2_region_1684648360153_112_tl_8" n="N008"/>teln beigelegt wird. Sehr gespannt war ich auf Herrn <hi rendition="#em">
-                  <rs type="person">Erl</rs>'s</hi>
-               <lb facs="#facs_2_region_1684648360153_112_tl_9" n="N009"/>
-               <rs type="person">Sylvain</rs>, weil diese Rolle gar nichts für jene Specialität
-      <lb facs="#facs_2_region_1684648360153_112_tl_10" n="N010"/>darbietet, welche den Erfolg seines <rs type="person">Almaviva</rs> entschied, näm¬
-      <lb facs="#facs_2_region_1684648360153_112_tl_11" n="N011"/>lich die Coloratur. Obwol Herr <rs type="person">Erl</rs> sich nicht die kleinste
+      <lb facs="#facs_2_region_1684648360153_112_tl_7" n="N007"/>nur zu oft der bloßen Dressur oder günstigen äußeren Mit
+      <lb facs="#facs_2_region_1684648360153_112_tl_8" n="N008" break="no"/>teln beigelegt wird. Sehr gespannt war ich auf Herrn <hi rendition="#em"><rs type="person">Erl</rs>’s</hi><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684648360153_112_tl_9" n="N009"/><rs type="person">Sylvain</rs>, weil diese Rolle gar nichts für jene Specialität
+      <lb facs="#facs_2_region_1684648360153_112_tl_10" n="N010"/>darbietet, welche den Erfolg seines <rs type="person">Almaviva</rs> entschied, näm
+      <lb facs="#facs_2_region_1684648360153_112_tl_11" n="N011" break="no"/>lich die Coloratur. Obwol Herr <rs type="person">Erl</rs> sich nicht die kleinste
       <lb facs="#facs_2_region_1684648360153_112_tl_12" n="N012"/>Verzierung anzubringen erlaubte, was ihm zur hohen Ehre
       <lb facs="#facs_2_region_1684648360153_112_tl_13" n="N013"/>gereicht, reussirte er doch vollständig mit dieser schlichten,
       <lb facs="#facs_2_region_1684648360153_112_tl_14" n="N014"/>sentimentalen Partie. Die jugendliche Blüthe seines Organs
       <lb facs="#facs_2_region_1684648360153_112_tl_15" n="N015"/>wirkte im Vereine mit dem maßvollen, warm empfundenen
       <lb facs="#facs_2_region_1684648360153_112_tl_16" n="N016"/>Vortrage so wohlthuend, daß man selbst in der pathetischen
-      <lb facs="#facs_2_region_1684648360153_112_tl_17" n="N017"/>Anklagescene im dritten Acte die fehlende materielle Stimm¬
-      <lb facs="#facs_2_region_1684648360153_112_tl_18" n="N018"/>kraft kaum vermißte. <rs type="person">Erl</rs>'s Stimme glich da einem dünnen
+      <lb facs="#facs_2_region_1684648360153_112_tl_17" n="N017"/>Anklagescene im dritten Acte die fehlende materielle Stimm
+      <lb facs="#facs_2_region_1684648360153_112_tl_18" n="N018" break="no"/>kraft kaum vermißte. <rs type="person">Erl</rs>’s Stimme glich da einem dünnen
       <lb facs="#facs_2_region_1684648360153_112_tl_19" n="N019"/>Krystallgefäß, das durch eine Flamme von innen erleuchtet
       <lb facs="#facs_2_region_1684648360153_112_tl_20" n="N020"/>wird. Ich freue mich an jeder neuen Leistung dieses jungen
       <lb facs="#facs_2_region_1684648360153_112_tl_21" n="N021"/>Sängers, theils weil sie an sich des Guten so viel
       <lb facs="#facs_2_region_1684648360153_112_tl_22" n="N022"/>enthält, theils weil sie eine Bürgschaft dessen ist, was
       <lb facs="#facs_2_line_1743923021724_1448" n="N023"/>Herr <rs type="person">Erl</rs> einst leisten kann und hoffentlich auch leisten
-      <lb facs="#facs_2_region_1684648360153_112_tl_23" n="N024"/>wird. In der Rolle des galanten Sergeanten <rs type="person">Belamy</rs>
-               <lb facs="#facs_2_region_1684648360153_112_tl_24" n="N025"/>machte <hi rendition="#em">
-                  <rs type="person">Hermany</rs>'s</hi> schmucke Persönlichkeit, sein wohlklin¬
-      <lb facs="#facs_2_region_1684648360153_112_tl_25" n="N026"/>gender Bariton und angenehmer Vortrag den besten Ein¬
-      <lb facs="#facs_2_region_1684648360153_112_tl_26" n="N027"/>druck. Nur für die ersten Couplets fehlte ihm Humor und
+      <lb facs="#facs_2_region_1684648360153_112_tl_23" n="N024"/>wird. In der Rolle des galanten Sergeanten <rs type="person">Belamy</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_2_region_1684648360153_112_tl_24" n="N025"/>machte <hi rendition="#em"><rs type="person">Hermany</rs>’s</hi> schmucke Persönlichkeit, sein wohlklin
+      <lb facs="#facs_2_region_1684648360153_112_tl_25" n="N026" break="no"/>gender Bariton und angenehmer Vortrag den besten Ein
+      <lb facs="#facs_2_region_1684648360153_112_tl_26" n="N027" break="no"/>druck. Nur für die ersten Couplets fehlte ihm Humor und
       <lb facs="#facs_2_region_1684648360153_112_tl_27" n="N028"/>Temperament. So singt nicht der kecke Dragoner, sondern
       <lb facs="#facs_2_region_1684648360153_112_tl_28" n="N029"/>gerade der von ihm verspottete bedächtige Infanterist, wo nicht gar
       <lb facs="#facs_2_region_1684648360153_112_tl_29" n="N030"/>der Stabsarzt. Alles Lob verdient das charakteristische,
-      <lb facs="#facs_2_region_1684648360153_112_tl_30" n="N031"/>sorgfältige Spiel des Herrn <hi rendition="#em">
-                  <rs type="person">Ausim</rs>
-               </hi> als Pächter <rs type="person">Thibaut</rs>;
-      <lb facs="#facs_2_region_1684648360153_112_tl_31" n="N032"/>desgleichen das tüchtige Eingreifen des Bassisten <hi rendition="#em">
-                  <rs type="person" continued="true">Seidel¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684648360153_112_tl_32" n="N033"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">mann</rs>
-               </hi> in dem großen Finale des zweiten Actes. Die Oper
-      <lb facs="#facs_2_region_1684648360153_112_tl_33" n="N034"/>ist unter Herrn <hi rendition="#em">
-                  <rs type="person">Proch</rs>'s</hi> Leitung gut studirt und sehr
-      <lb facs="#facs_2_region_1684648360153_112_tl_34" n="N035"/>hübsch ausgestattet. Kein Zweifel, daß das „<rs type="bibl">Glöckchen des</rs>
-               <lb facs="#facs_2_region_1684648360153_112_tl_35" n="N036"/>
-               <rs type="bibl">Eremiten</rs>“ noch sehr oft vor zahlreichen Gemeinden in der
+      <lb facs="#facs_2_region_1684648360153_112_tl_30" n="N031"/>sorgfältige Spiel des Herrn <hi rendition="#em"><rs type="person">Ausim</rs></hi> als Pächter <rs type="person">Thibaut</rs>;
+      <lb facs="#facs_2_region_1684648360153_112_tl_31" n="N032"/>desgleichen das tüchtige Eingreifen des Bassisten <hi rendition="#em"><rs type="person">Seidel
+      <lb facs="#facs_2_region_1684648360153_112_tl_32" n="N033" break="no"/>mann</rs></hi> in dem großen Finale des zweiten Actes. Die Oper
+      <lb facs="#facs_2_region_1684648360153_112_tl_33" n="N034"/>ist unter Herrn <hi rendition="#em"><rs type="person">Proch</rs>’s</hi> Leitung gut studirt und sehr
+      <lb facs="#facs_2_region_1684648360153_112_tl_34" n="N035"/>hübsch ausgestattet. Kein Zweifel, daß das „<rs type="bibl" ref="#hsl_work_id_646">Glöckchen des
+      <lb facs="#facs_2_region_1684648360153_112_tl_35" n="N036"/>Eremiten</rs>“ noch sehr oft vor zahlreichen Gemeinden in der
       <lb facs="#facs_2_region_1684648360153_112_tl_36" n="N037"/>Komischen Oper erklingen wird.
-      <lb facs="#facs_2_region_1684648360153_112_tl_37" n="N038"/>Im <hi rendition="#em">Hofoperntheater</hi> hat <rs type="person">Meyerbeer</rs>'s „<rs type="bibl">Robert</rs>
-               <lb facs="#facs_2_region_1684648360153_112_tl_38" n="N039"/>
-               <rs type="bibl">der Teufel</rs>“ kürzlich durch eine neue <rs type="person">Isabella</rs> und eine neue
-      <lb facs="#facs_2_line_1743920643552_953" n="N040"/>
-               <rs type="person">Alice</rs> starke Anziehungskraft geübt. Frau <hi rendition="#em">
-                  <rs type="person">Wilt</rs>
-               </hi>, welche oft</p>
+            </p><p>
+      <lb facs="#facs_2_region_1684648360153_112_tl_37" n="N038"/>Im <hi rendition="#em">Hofoperntheater</hi> hat <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s „<rs type="bibl" ref="#hsl_work_id_58">Robert
+      <lb facs="#facs_2_region_1684648360153_112_tl_38" n="N039"/>der Teufel</rs>“ kürzlich durch eine neue <rs type="person" ref="#hsl_person_id_596">Isabella</rs> und eine neue
+      <lb facs="#facs_2_line_1743920643552_953" n="N040"/><rs type="person" ref="#hsl_person_id_4750">Alice</rs> starke Anziehungskraft geübt. Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_327">Wilt</rs></hi>, welche oft<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1684648813865_263_tl_1" n="N001"/>bewiesen, daß sie im Bereich der Gesangstechnik keine Un¬
-      <lb facs="#facs_3_region_1684648813865_263_tl_2" n="N002"/>möglichkeiten kennt, lieferte mit der <rs type="person">Isabella</rs> ein würdiges
-      <lb facs="#facs_3_region_1684648813865_263_tl_3" n="N003"/>Seitenstück zu ihrer <rs type="person">Margarethe</rs> von <rs type="place">Valois</rs>. Ja diese
+            <cb n="7"/>
+            <p prev="true">
+      <lb facs="#facs_3_region_1684648813865_263_tl_1" n="N001"/>bewiesen, daß sie im Bereich der Gesangstechnik keine Un
+      <lb facs="#facs_3_region_1684648813865_263_tl_2" n="N002" break="no"/>möglichkeiten kennt, lieferte mit der <rs type="person" ref="#hsl_person_id_596">Isabella</rs> ein würdiges
+      <lb facs="#facs_3_region_1684648813865_263_tl_3" n="N003"/>Seitenstück zu ihrer <rs type="person" ref="#hsl_person_id_4962">Margarethe</rs> von <rs type="place" ref="#hsl_place_id_768">Valois</rs>. Ja diese
       <lb facs="#facs_3_region_1684648813865_263_tl_4" n="N004"/>neueste Rolle überragt jene vorhergegangene noch bedeutend.
-      <lb facs="#facs_3_region_1684648813865_263_tl_5" n="N005"/>
-               <rs type="person">Margarethe</rs> in den „<rs type="bibl">Hugenotten</rs>“ ist eine reine Coloratur-
+      <lb facs="#facs_3_region_1684648813865_263_tl_5" n="N005"/><rs type="person" ref="#hsl_person_id_4962">Margarethe</rs> in den „<rs type="bibl">Hugenotten</rs>“ ist eine reine Coloratur-
       <lb facs="#facs_3_region_1684648813865_263_tl_6" n="N006"/>Partie, welcher musikalisch die breiten Cantilenen und die
       <lb facs="#facs_3_region_1684648813865_263_tl_7" n="N007"/>Kraftstellen ebenso vollständig abgehen, wie dramatisch die
       <lb facs="#facs_3_region_1684648813865_263_tl_8" n="N008"/>starke Gemüthsbewegung. Da kann eine Bravoursängerin
-      <lb facs="#facs_3_region_1684648813865_263_tl_9" n="N009"/>mit wenig Stimme und noch weniger Leidenschaft vollkom¬
-      <lb facs="#facs_3_region_1684648813865_263_tl_10" n="N010"/>men ausreichen, ja Stimmkraft und Leidenschaft finden nicht
+      <lb facs="#facs_3_region_1684648813865_263_tl_9" n="N009"/>mit wenig Stimme und noch weniger Leidenschaft vollkom
+      <lb facs="#facs_3_region_1684648813865_263_tl_10" n="N010" break="no"/>men ausreichen, ja Stimmkraft und Leidenschaft finden nicht
       <lb facs="#facs_3_region_1684648813865_263_tl_11" n="N011"/>einmal Gelegenheit, entscheidend einzutreten. Anders im
-      <lb facs="#facs_3_region_1684648813865_263_tl_12" n="N012"/>„<rs type="bibl">Robert</rs>“; da steht nur die Eingangs-Arie <rs type="person">Isabella</rs>'s im
+      <lb facs="#facs_3_region_1684648813865_263_tl_12" n="N012"/>„<rs type="bibl" ref="#hsl_work_id_58">Robert</rs>“; da steht nur die Eingangs-Arie <rs type="person" ref="#hsl_person_id_596">Isabella</rs>’s im
       <lb facs="#facs_3_region_1684648813865_263_tl_13" n="N013"/>Bann der Virtuosität, und auch sie nicht so ausschließlich
-      <lb facs="#facs_3_region_1684648813865_263_tl_14" n="N014"/>wie die Partie der Königin <rs type="person">Margarethe</rs>. <rs type="person">Isabella</rs>
-               <lb facs="#facs_3_region_1684648813865_263_tl_15" n="N015"/>liebt, die <rs type="person">Königin</rs> kokettirt. Im vierten Act streift
-      <lb facs="#facs_3_region_1684648813865_263_tl_16" n="N016"/>
-               <rs type="person">Isabella</rs> das Concertmäßige vollends ab und wird zur
+      <lb facs="#facs_3_region_1684648813865_263_tl_14" n="N014"/>wie die Partie der Königin <rs type="person" ref="#hsl_person_id_4962">Margarethe</rs>. <rs type="person" ref="#hsl_person_id_596">Isabella</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684648813865_263_tl_15" n="N015"/>liebt, die <rs type="person">Königin</rs> kokettirt. Im vierten Act streift
+      <lb facs="#facs_3_region_1684648813865_263_tl_16" n="N016"/><rs type="person" ref="#hsl_person_id_596">Isabella</rs> das Concertmäßige vollends ab und wird zur
       <lb facs="#facs_3_region_1684648813865_263_tl_17" n="N017"/>eminent dramatischen Partie, welche das volle Aufgebot
       <lb facs="#facs_3_region_1684648813865_263_tl_18" n="N018"/>einer mächtigen Stimme und eines starken Gefühls erfordert.
-      <lb facs="#facs_3_region_1684648813865_263_tl_19" n="N019"/>Aus diesem Grunde eignet sich <rs type="person">Isabella</rs> noch ungleich mehr
-      <lb facs="#facs_3_region_1684648813865_263_tl_20" n="N020"/>als <rs type="person">Margarethe</rs> für die Individualität der <hi rendition="#em">
-                  <rs type="person">Wilt</rs>
-               </hi>, und
-      <lb facs="#facs_3_region_1684648813865_263_tl_21" n="N021"/>„<rs type="bibl">Robert</rs>“ bedurfte dieser Künstlerin noch dringender als die
+      <lb facs="#facs_3_region_1684648813865_263_tl_19" n="N019"/>Aus diesem Grunde eignet sich <rs type="person" ref="#hsl_person_id_596">Isabella</rs> noch ungleich mehr
+      <lb facs="#facs_3_region_1684648813865_263_tl_20" n="N020"/>als <rs type="person" ref="#hsl_person_id_4962">Margarethe</rs> für die Individualität der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_327">Wilt</rs></hi>, und
+      <lb facs="#facs_3_region_1684648813865_263_tl_21" n="N021"/>„<rs type="bibl" ref="#hsl_work_id_58">Robert</rs>“ bedurfte dieser Künstlerin noch dringender als die
       <lb facs="#facs_3_region_1684648813865_263_tl_22" n="N022"/>„<rs type="bibl">Hugenotten</rs>“. Da meistens nur Coloratur-Sängerinnen der
       <lb facs="#facs_3_region_1684648813865_263_tl_23" n="N023"/>strengen Observanz, das heißt schwachstimmige, die Rolle
-      <lb facs="#facs_3_region_1684648813865_263_tl_24" n="N024"/>
-               <rs type="person">Isabella</rs>'s innehaben, so ist begreiflich, daß kaum je zuvor
+      <lb facs="#facs_3_region_1684648813865_263_tl_24" n="N024"/><rs type="person" ref="#hsl_person_id_596">Isabella</rs>’s innehaben, so ist begreiflich, daß kaum je zuvor
       <lb facs="#facs_3_region_1684648813865_263_tl_25" n="N025"/>die Gnaden-Arie so gewaltig einschlug, wie aus dem Munde
-      <lb facs="#facs_3_region_1684648813865_263_tl_26" n="N026"/>der Wilt. Abgesehen von den gar zu gewaltsam heraus¬
-      <lb facs="#facs_3_region_1684648813865_263_tl_27" n="N027"/>gestoßenen Endnoten der aufsteigenden Staccatogänge in der
+      <lb facs="#facs_3_region_1684648813865_263_tl_26" n="N026"/>der <rs type="person" ref="#hsl_person_id_327">Wilt</rs>. Abgesehen von den gar zu gewaltsam heraus
+      <lb facs="#facs_3_region_1684648813865_263_tl_27" n="N027" break="no"/>gestoßenen Endnoten der aufsteigenden Staccatogänge in der
       <lb facs="#facs_3_region_1684648813865_263_tl_28" n="N028"/>ersten Arie, war die ganze Gesangsleistung die einer Meisterin.
-      <lb facs="#facs_3_region_1684648813865_263_tl_29" n="N029"/>Daß diese außerordentliche <rs type="person">Isabella</rs> einer bisher als <rs type="person">Alice</rs>
-               <lb facs="#facs_3_region_1684648813865_263_tl_30" n="N030"/>gefeierten Sängerin auch eine außerordentliche Aufnahme
+      <lb facs="#facs_3_region_1684648813865_263_tl_29" n="N029"/>Daß diese außerordentliche <rs type="person" ref="#hsl_person_id_596">Isabella</rs> einer bisher als <rs type="person" ref="#hsl_person_id_4750">Alice</rs><space quantity="1" unit="char"/>
+      <lb facs="#facs_3_region_1684648813865_263_tl_30" n="N030"/>gefeierten Sängerin auch eine außerordentliche Aufnahme
       <lb facs="#facs_3_region_1684648813865_263_tl_31" n="N031"/>fand, bedarf nicht ausdrücklicher Versicherung. Fräulein
-      <lb facs="#facs_3_region_1684648813865_263_tl_32" n="N032"/>
-               <hi rendition="#em">
-                  <rs type="person">Dillner</rs>
-               </hi> hatte unter solchen Verhältnissen einen doppelt
-      <lb facs="#facs_3_region_1684648813865_263_tl_33" n="N033"/>schwierigen Stand in der anstrengenden Rolle der <rs type="person">Alice</rs>;
-      <lb facs="#facs_3_region_1684648813865_263_tl_34" n="N034"/>sie behauptete sich darin tapfer und erfolgreich. Die musika¬
-      <lb facs="#facs_3_region_1684648813865_263_tl_35" n="N035"/>lische und schauspielerische Routine Fräulein <rs type="person">Dillner</rs>'s, ihre
+      <lb facs="#facs_3_region_1684648813865_263_tl_32" n="N032"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_61">Dillner</rs></hi> hatte unter solchen Verhältnissen einen doppelt
+      <lb facs="#facs_3_region_1684648813865_263_tl_33" n="N033"/>schwierigen Stand in der anstrengenden Rolle der <rs type="person" ref="#hsl_person_id_4750">Alice</rs>;
+      <lb facs="#facs_3_region_1684648813865_263_tl_34" n="N034"/>sie behauptete sich darin tapfer und erfolgreich. Die musika
+      <lb facs="#facs_3_region_1684648813865_263_tl_35" n="N035" break="no"/>lische und schauspielerische Routine Fräulein <rs type="person" ref="#hsl_person_id_61">Dillner</rs>’s, ihre
       <lb facs="#facs_3_region_1684648813865_263_tl_36" n="N036"/>unschätzbare Eigenschaft, immer vollständig bei der Sache zu
-      <lb facs="#facs_3_region_1684648813865_263_tl_37" n="N037"/>sein, mußten für diese Partie zu besonderem Vortheil aus¬
-      <lb facs="#facs_3_region_1684648813865_263_tl_38" n="N038"/>schlagen. Wir hatten oft Anlaß, den künstlerischen Ernst und
+      <lb facs="#facs_3_region_1684648813865_263_tl_37" n="N037"/>sein, mußten für diese Partie zu besonderem Vortheil aus
+      <lb facs="#facs_3_region_1684648813865_263_tl_38" n="N038" break="no"/>schlagen. Wir hatten oft Anlaß, den künstlerischen Ernst und
       <lb facs="#facs_3_region_1684648813865_263_tl_39" n="N039"/>Eifer, die seltene Vielseitigkeit dieser Künstlerin zu loben —
       <lb facs="#facs_3_region_1684648813865_263_tl_40" n="N040"/>ihre Alice gibt uns dazu ein neues Recht.</p>
          </div>
