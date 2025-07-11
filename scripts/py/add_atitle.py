@@ -2,6 +2,10 @@
 from acdh_tei_pyutils.tei import TeiReader, ET
 from sys import argv
 NS_TEI = "http://www.tei-c.org/ns/1.0"
+from pathlib import Path
+
+savepath = Path("data") / "modified_metadata"
+
 
 input_files = argv[1:]
     
@@ -13,17 +17,19 @@ def extract_title_s(document):
     title = "Title S"
     return title
 
-def extract_title_j(document):
-    title = "Die Neue Freie Presse"
+def extract_title_j(document, title="Neue Freie Presse"):
     return title
             
 for document_file in input_files:
+    orig_file = Path(document_file)
+    output_file = savepath / orig_file.name
     document = TeiReader(document_file)
     titles = {
         "j": extract_title_j(document),
         "a":  extract_title_a(document),
         "s": extract_title_s(document)
     }
+    
     titlestmt = document.any_xpath("//tei:fileDesc/tei:titleStmt")[0]
     title_elements = titlestmt.xpath("./tei:title", namespaces={"tei": NS_TEI})
     
@@ -36,8 +42,7 @@ for document_file in input_files:
   
     for title in title_elements:
         level = title.get("level")
-        print(level)
-        title.text = titles[level]
-        print(title.text)
+        if not title.text:
+            title.text = titles[level]
     
-    document.tree_to_file("out.xml")
+    document.tree_to_file(str(output_file))
