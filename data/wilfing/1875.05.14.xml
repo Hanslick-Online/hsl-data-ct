@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 3849. Wien, Freitag, den 14. Mai 1875</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -71,24 +69,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 3849. Wien, Freitag, den 14. Mai 1875</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1875-05-14"></date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,9 +102,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2023-07-12">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzl" when="2025-07-31">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2025-08-04">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -836,307 +832,242 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+               <lb facs="#facs_1_region_1684603463632_4123_tl_1" n="N001"/><head type="h1">Musikalische Briefe aus <rs type="place" ref="#hsl_place_id_44">Paris</rs>. III.</head>
+               <lb facs="#facs_1_region_1684603463632_4123_tl_2" n="N002"/><head type="h2">(Opéra Comique. — Aeltere Opern von <rs type="person" ref="#hsl_person_id_103">Grétry</rs>, <rs type="person" ref="#hsl_person_id_133">Isouard</rs> und <rs type="person" ref="#hsl_person_id_36">Boieldieu</rs>. — Der
+               <lb facs="#facs_1_line_1748586524983_1092" n="N003"/>Nachwuchs.)</head>
+               <lb facs="#facs_1_region_1684603463632_4123_tl_3" n="N004"/><head type="h3"><hi rendition="#em"><rs type="place" ref="#hsl_place_id_44">Paris</rs></hi>, im Mai <date>1875</date>.</head>
             <p>
-               <lb facs="#facs_1_line_1748585321825_730" n="N001"/>Nr. 3849. Wien, Freitag, den 14. Mai 1875
-            </p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684603463632_4123_tl_1" n="N001"/>Musikalische Briefe aus <rs type="place">Paris</rs>. III.
-               <lb facs="#facs_1_region_1684603463632_4123_tl_2" n="N002"/>(Opéra Comique. — Aeltere Opern von <rs type="person">Gétry</rs>, <rs type="person">Isouard</rs> und <rs type="person">Boieldieu</rs>. — Der
-               <lb facs="#facs_1_line_1748586524983_1092" n="N003"/>Nachwuchs.)
-               <lb facs="#facs_1_region_1684603463632_4123_tl_3" n="N004"/>
-               <hi rendition="#em">
-                  <rs type="place">Paris</rs>
-               </hi>, im Mai <date month="0" day="0" year="0">1875</date>.
                <lb facs="#facs_1_region_1684603463632_4123_tl_4" n="N005"/>Ed. H. Von hohem Interesse waren mir, trotz der
-               <lb facs="#facs_1_region_1684603463632_4123_tl_5" n="N006"/>mittelmäßigen Aufführung, die alten Opern: „<rs type="bibl">Richard</rs>
-               <lb facs="#facs_1_region_1684603463632_4123_tl_6" n="N007"/>
-               <rs type="bibl">Coeur-de-Lion</rs>“ von <hi rendition="#em">
-                  <rs type="person">Grétry</rs>
-               </hi> und „<rs type="bibl">Joconde</rs>“ von
-               <lb facs="#facs_1_region_1684603463632_4123_tl_7" n="N008"/>
-               <hi rendition="#em">
-                  <rs type="person">Isouard</rs>
-               </hi>, welche an einem und demselben Abend (sechs
-               <lb facs="#facs_1_region_1684603463632_4123_tl_8" n="N009"/>Acte!) gegeben wurden. Man dürfte sie kaum mehr an¬
-               <lb facs="#facs_1_region_1684603463632_4123_tl_9" n="N010"/>derswo als in <rs type="place">Paris</rs> noch zu hören bekommen. Die Opéra
+               <lb facs="#facs_1_region_1684603463632_4123_tl_5" n="N006"/>mittelmäßigen Aufführung, die alten Opern: „<rs type="bibl" ref="#hsl_work_id_3126">Richard
+               <lb facs="#facs_1_region_1684603463632_4123_tl_6" n="N007"/>Coeur-de-Lion</rs>“ von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_103">Grétry</rs></hi> und „<rs type="bibl" ref="#hsl_work_id_4853">Joconde</rs>“ von
+               <lb facs="#facs_1_region_1684603463632_4123_tl_7" n="N008"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_133">Isouard</rs></hi>, welche an einem und demselben Abend (sechs
+               <lb facs="#facs_1_region_1684603463632_4123_tl_8" n="N009"/>Acte!) gegeben wurden. Man dürfte sie kaum mehr an
+               <lb facs="#facs_1_region_1684603463632_4123_tl_9" n="N010" break="no"/>derswo als in <rs type="place" ref="#hsl_place_id_44">Paris</rs> noch zu hören bekommen. Die Opéra
                <lb facs="#facs_1_region_1684603463632_4123_tl_10" n="N011"/>Comique bewahrt ihren alten Meistern eine lobenswerthe
-               <lb facs="#facs_1_region_1684603463632_4123_tl_11" n="N012"/>nationale Pietät und widmet ihnen in der Regel den Sonn¬
-               <lb facs="#facs_1_region_1684603463632_4123_tl_12" n="N013"/>tag, spielt sie also nur selten, läßt sie aber niemals ganz
-               <lb facs="#facs_1_region_1684603463632_4123_tl_13" n="N014"/>in Vergessenheit gerathen. In der <rs type="place">Paris</rs>er Großen Oper
+               <lb facs="#facs_1_region_1684603463632_4123_tl_11" n="N012"/>nationale Pietät und widmet ihnen in der Regel den Sonn
+               <lb facs="#facs_1_region_1684603463632_4123_tl_12" n="N013" break="no"/>tag, spielt sie also nur selten, läßt sie aber niemals ganz
+               <lb facs="#facs_1_region_1684603463632_4123_tl_13" n="N014"/>in Vergessenheit gerathen. In der <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Großen Oper
                <lb facs="#facs_1_region_1684603463632_4123_tl_14" n="N015"/>fehlt dieser conservative Zug, sie erinnert sich nicht einmal
-               <lb facs="#facs_1_region_1684603463632_4123_tl_15" n="N016"/>mehr <rs type="person">Spontini</rs>'s und geht hinter <rs type="person">Rossini</rs>'s „<rs type="bibl">Tell</rs>“ und
-               <lb facs="#facs_1_region_1684603463632_4123_tl_16" n="N017"/>
-               <rs type="person">Meyerbeer</rs>'s „<rs type="bibl">Robert</rs>“, also das Jahr <date month="0" day="0" year="0">1830</date>, nicht zurück.
-               <lb facs="#facs_1_region_1684603463632_4123_tl_17" n="N018"/>Wie in der <rs type="place">französisch</rs>en Nation der Drang nach Neuem mit
+               <lb facs="#facs_1_region_1684603463632_4123_tl_15" n="N016"/>mehr <rs type="person" ref="#hsl_person_id_294">Spontini</rs>’s und geht hinter <rs type="person" ref="#hsl_person_id_241">Rossini</rs>’s „<rs type="bibl" ref="#hsl_work_id_186">Tell</rs>“ und
+               <lb facs="#facs_1_region_1684603463632_4123_tl_16" n="N017"/><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s „<rs type="bibl" ref="#hsl_work_id_58">Robert</rs>“, also das Jahr <date>1830</date>, nicht zurück.
+               <lb facs="#facs_1_region_1684603463632_4123_tl_17" n="N018"/>Wie in der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Nation der Drang nach Neuem mit
                <lb facs="#facs_1_region_1684603463632_4123_tl_18" n="N019"/>der Pietät für das Alte Hand in Hand geht, zeigt am besten
                <lb facs="#facs_1_region_1684603463632_4123_tl_19" n="N020"/>das Théâtre Français, welches wöchentlich zwei, auch drei
-               <lb facs="#facs_1_region_1684603463632_4123_tl_20" n="N021"/>Lustspiele von <rs type="person">Molière</rs> zum lebhaftesten Ergötzen des dicht¬
-               <lb facs="#facs_1_region_1684603463632_4123_tl_21" n="N022"/>gedrängten Publicums darstellt. Und <rs type="person">Molière</rs> schrieb doch zu
+               <lb facs="#facs_1_region_1684603463632_4123_tl_20" n="N021"/>Lustspiele von <rs type="person" ref="#hsl_person_id_864">Molière</rs> zum lebhaftesten Ergötzen des dicht
+               <lb facs="#facs_1_region_1684603463632_4123_tl_21" n="N022" break="no"/>gedrängten Publicums darstellt. Und <rs type="person" ref="#hsl_person_id_864">Molière</rs> schrieb doch zu
                <lb facs="#facs_1_region_1684603463632_4123_tl_22" n="N023"/>einer Zeit, da wir Deutschen noch keine Literatur hatten oder
                <lb facs="#facs_1_region_1684603463632_4123_tl_23" n="N024"/>wenigstens keine, die man heutzutage anders als aus
-               <lb facs="#facs_1_region_1684603463632_4123_tl_24" n="N025"/>Literatur-Geschichten kennen lernt. Tragödien von <rs type="person">Racine</rs>
-               <lb facs="#facs_1_region_1684603463632_4123_tl_25" n="N026"/>und <rs type="person">Voltaire</rs>, Lustspiele von <rs type="person">Sédaine</rs>, <rs type="person">Marivaux</rs>, <rs type="person" continued="true">Beau¬</rs>
-               <lb facs="#facs_1_region_1684603463632_4123_tl_26" n="N027"/>
-               <rs type="person" continued="true">marchais</rs> erscheinen zeitweilig noch immer auf der Bühne
+               <lb facs="#facs_1_region_1684603463632_4123_tl_24" n="N025"/>Literatur-Geschichten kennen lernt. Tragödien von <rs type="person" ref="#hsl_person_id_223">Racine</rs><space quantity="1" unit="char"/>
+               <lb facs="#facs_1_region_1684603463632_4123_tl_25" n="N026"/>und <rs type="person" ref="#hsl_person_id_1391">Voltaire</rs>, Lustspiele von <rs type="person" ref="#hsl_person_id_3455">Sédaine</rs>, <rs type="person" ref="#hsl_person_id_6980">Marivaux</rs>, <rs type="person" ref="#hsl_person_id_11">Beau
+               <lb facs="#facs_1_region_1684603463632_4123_tl_26" n="N027" break="no"/>marchais</rs> erscheinen zeitweilig noch immer auf der Bühne
                <lb facs="#facs_1_region_1684603463632_4123_tl_27" n="N028"/>des Téâtre Français, auch des Odeon. Für die Tonkunst
                <lb facs="#facs_1_region_1684603463632_4123_tl_28" n="N029"/>gibt es keine Bildergalerien, keine Museen, wie für die
-               <lb facs="#facs_1_region_1684603463632_4123_tl_29" n="N030"/>Schätze der alten Maler- und Bildhauerkunst. Die Sonn¬
-               <lb facs="#facs_1_region_1684603463632_4123_tl_30" n="N031"/>tage der Opéra Comique vertreten hier, nach den modernen
+               <lb facs="#facs_1_region_1684603463632_4123_tl_29" n="N030"/>Schätze der alten Maler- und Bildhauerkunst. Die Sonn
+               <lb facs="#facs_1_region_1684603463632_4123_tl_30" n="N031" break="no"/>tage der Opéra Comique vertreten hier, nach den modernen
                <lb facs="#facs_1_region_1684603463632_4123_tl_31" n="N032"/>Genüssen der Woche, die Stelle eines solchen Museums.
-               <lb facs="#facs_1_line_1748585427751_770" n="N033"/>Im Jahre <date month="0" day="0" year="0">1867</date> gab es in <rs type="place">Paris</rs> noch zwei andere lyrische
-            </p>
-            <cb n="3"/>
-            <p>
+               <lb facs="#facs_1_line_1748585427751_770" n="N033"/>Im Jahre <date>1867</date> gab es in <rs type="place" ref="#hsl_place_id_44">Paris</rs> noch zwei andere lyrische<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
                <lb facs="#facs_1_line_1748585389760_757" n="N001"/>Bühnen, welche eine Specialität in der Wiederbelebung
                <lb facs="#facs_1_region_1684603466717_4126_tl_2" n="N002"/>älterer Opern, auch anderer Nationen, suchten. Vor Allem
-               <lb facs="#facs_1_region_1684603466717_4126_tl_3" n="N003"/>das Théâtre Lyrique, in welchem ich den „<rs type="bibl">Freischütz</rs>“, „<rs type="bibl">Abu</rs>
-               <lb facs="#facs_1_region_1684603466717_4126_tl_4" n="N004"/>
-               <rs type="bibl">Hassan</rs>“, „<rs type="bibl">Die Entführung aus dem Serail</rs>“ sah, und Les
-               <lb facs="#facs_1_region_1684603466717_4126_tl_5" n="N005"/>Fantaisies Parisiennes, ein kleines Theater auf dem <rs type="place" continued="true">italie¬</rs>
-               <lb facs="#facs_1_region_1684603466717_4126_tl_6" n="N006"/>
-               <rs type="place" continued="true">nisch</rs>en Boulevard, welches ältere Singspiele, wie „<rs type="bibl">Le Sorcier</rs>“
-               <lb facs="#facs_1_line_1748585402743_762" n="N007"/>von <hi rendition="#em">
-                  <rs type="person">Philidor</rs>
-               </hi>, „<rs type="bibl">L'arbro enchanté</rs>“ von <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person" continued="true">Mo¬</rs>
-               </hi>
-               <lb facs="#facs_1_line_1748585407712_766" n="N008"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">zart</rs>'s</hi> „<rs type="bibl">Gans von Kairo</rs>“, <hi rendition="#em">
-                  <rs type="person">Boieldieu</rs>'s</hi> „<rs type="bibl">Calife de</rs>
-               <lb facs="#facs_1_region_1684603466717_4126_tl_11" n="N009"/>
-               <rs type="bibl">Bagdad</rs>“ (eine Dame verlangte jüngst in der Musikhandlung
+               <lb facs="#facs_1_region_1684603466717_4126_tl_3" n="N003"/>das Théâtre Lyrique, in welchem ich den „<rs type="bibl" ref="#hsl_work_id_236">Freischütz</rs>“, „<rs type="bibl" ref="#hsl_work_id_842">Abu
+               <lb facs="#facs_1_region_1684603466717_4126_tl_4" n="N004"/>Hassan</rs>“, „<rs type="bibl" ref="#hsl_work_id_1292">Die Entführung aus dem Serail</rs>“ sah, und Les
+               <lb facs="#facs_1_region_1684603466717_4126_tl_5" n="N005"/>Fantaisies Parisiennes, ein kleines Theater auf dem <rs type="place" ref="#hsl_place_id_28">italie
+               <lb facs="#facs_1_region_1684603466717_4126_tl_6" n="N006" break="no"/>nisch</rs>en Boulevard, welches ältere Singspiele, wie „<rs type="bibl" ref="#hsl_work_id_4856">Le Sorcier</rs>“
+               <lb facs="#facs_1_line_1748585402743_762" n="N007"/>von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_214">Philidor</rs></hi>, „<rs type="bibl" ref="#hsl_work_id_4854">L’arbre enchanté</rs>“ von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mo
+               <lb facs="#facs_1_line_1748585407712_766" n="N008" break="no"/>zart</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_3484">Gans von Kairo</rs>“, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_36">Boieldieu</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_4855">Calife de
+               <lb facs="#facs_1_region_1684603466717_4126_tl_11" n="N009"/>Bagdad</rs>“ (eine Dame verlangte jüngst in der Musikhandlung
                <lb facs="#facs_1_region_1684603466717_4126_tl_12" n="N010"/>„Le canif de Balzac“) mit Glück hervorsuchte. Diese beiden
                <lb facs="#facs_1_region_1684603466717_4126_tl_13" n="N011"/>Theater sind zu Grunde gegangen, durch Bankerott das eine, das
                <lb facs="#facs_1_region_1684603466717_4126_tl_14" n="N012"/>andere durch Feuer und Granaten. Es existirt zwar an der
                <lb facs="#facs_1_region_1684603466717_4126_tl_15" n="N013"/>Stelle des letzteren ein neues Théâtre Lyrique-Dramatique,
                <lb facs="#facs_1_region_1684603466717_4126_tl_16" n="N014"/>das aber keine Opern gibt und in sehr geringem Ansehen
-               <lb facs="#facs_1_region_1684603466717_4126_tl_17" n="N015"/>steht. Kein Zweifel, daß der Franzose, im Theater wenig¬
-               <lb facs="#facs_1_region_1684603466717_4126_tl_18" n="N016"/>stens, mit seiner künstlerischen Vergangenheit inniger zusam¬
-               <lb facs="#facs_1_region_1684603466717_4126_tl_19" n="N017"/>menhängt, als der Deutsche. Der Franzose von heute fühlt
-               <lb facs="#facs_1_region_1684603466717_4126_tl_20" n="N018"/>sich den Singspielen von <rs type="person">Grétry</rs> und <rs type="person">Monsigny</rs> ungleich näher
-               <lb facs="#facs_1_region_1684603466717_4126_tl_21" n="N019"/>verwandt, als wir unseren späteren Componisten <rs type="person">Dittersdorf</rs>,
-               <lb facs="#facs_1_region_1684603466717_4126_tl_22" n="N020"/>
-               <rs type="person">Weyl</rs>, <rs type="person">Winter</rs>, <rs type="person">Gyrowetz</rs>. Das macht, weil die ältere Opéra
+               <lb facs="#facs_1_region_1684603466717_4126_tl_17" n="N015"/>steht. Kein Zweifel, daß der Franzose, im Theater wenig
+               <lb facs="#facs_1_region_1684603466717_4126_tl_18" n="N016" break="no"/>stens, mit seiner künstlerischen Vergangenheit inniger zusam
+               <lb facs="#facs_1_region_1684603466717_4126_tl_19" n="N017" break="no"/>menhängt, als der Deutsche. Der Franzose von heute fühlt
+               <lb facs="#facs_1_region_1684603466717_4126_tl_20" n="N018"/>sich den Singspielen von <rs type="person" ref="#hsl_person_id_103">Grétry</rs> und <rs type="person" ref="#hsl_person_id_187">Monsigny</rs> ungleich näher
+               <lb facs="#facs_1_region_1684603466717_4126_tl_21" n="N019"/>verwandt, als wir unseren späteren Componisten <rs type="person" ref="#hsl_person_id_897">Dittersdorf</rs>,
+               <lb facs="#facs_1_region_1684603466717_4126_tl_22" n="N020"/><rs type="person" ref="#hsl_person_id_6984">Weyl</rs>, <rs type="person" ref="#hsl_person_id_2198">Winter</rs>, <rs type="person" ref="#hsl_person_id_942">Gyrowetz</rs>. Das macht, weil die ältere Opéra
                <lb facs="#facs_1_line_1748585462968_783" n="N021"/>Comique der Franzosen von Haus aus ungleich nationaler
-               <lb facs="#facs_1_region_1684603466717_4126_tl_23" n="N022"/>auftrat, weil sie <rs type="place">französisch</rs>er war, als die unsere <rs type="place">deutsch</rs>.
-               <lb facs="#facs_1_region_1684603466717_4126_tl_24" n="N023"/>Von <hi rendition="#em">
-                  <rs type="person">Grétry</rs>'s</hi> zahlreichen Opern sind der „<rs type="bibl">Blaubart</rs>“
-               <lb facs="#facs_1_region_1684603466717_4126_tl_25" n="N024"/>und „<rs type="bibl">Richard Löwenherz</rs>“ diejenigen, welche in <rs type="place">Deutschland</rs>
+               <lb facs="#facs_1_region_1684603466717_4126_tl_23" n="N022"/>auftrat, weil sie <rs type="place" ref="#hsl_place_id_21">französisch</rs>er war, als die unsere <rs type="place" ref="#hsl_place_id_14">deutsch</rs>.
+               <lb facs="#facs_1_region_1684603466717_4126_tl_24" n="N023"/>Von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_103">Grétry</rs>’s</hi> zahlreichen Opern sind der „<rs type="bibl" ref="#hsl_work_id_2061">Blaubart</rs>“
+               <lb facs="#facs_1_region_1684603466717_4126_tl_25" n="N024"/>und „<rs type="bibl" ref="#hsl_work_id_3126">Richard Löwenherz</rs>“ diejenigen, welche in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_1_region_1684603466717_4126_tl_26" n="N025"/>sich am längsten erhalten hatten; seit 30—40 Jahren sind
                <lb facs="#facs_1_region_1684603466717_4126_tl_27" n="N026"/>sie so ziemlich verschwunden. Sie würden der gegenwärtigen
-               <lb facs="#facs_1_region_1684603466717_4126_tl_28" n="N027"/>Generation, in <rs type="place">Wien</rs> zumal, als etwas vollständig Veralte¬
-               <lb facs="#facs_1_region_1684603466717_4126_tl_29" n="N028"/>tes erscheinen, an das wir nicht mehr anzuknüpfen wissen.
-               <lb facs="#facs_1_region_1684603466717_4126_tl_30" n="N029"/>Anders in <rs type="place">Paris</rs>, wo diesen Werken nicht nur die Pietät zu
+               <lb facs="#facs_1_region_1684603466717_4126_tl_28" n="N027"/>Generation, in <rs type="place" ref="#hsl_place_id_55">Wien</rs> zumal, als etwas vollständig Veralte
+               <lb facs="#facs_1_region_1684603466717_4126_tl_29" n="N028" break="no"/>tes erscheinen, an das wir nicht mehr anzuknüpfen wissen.
+               <lb facs="#facs_1_region_1684603466717_4126_tl_30" n="N029"/>Anders in <rs type="place" ref="#hsl_place_id_44">Paris</rs>, wo diesen Werken nicht nur die Pietät zu
                <lb facs="#facs_1_region_1684603466717_4126_tl_31" n="N030"/>Hilfe kommt (sie allein reicht niemals aus), sondern die
                <lb facs="#facs_1_region_1684603466717_4126_tl_32" n="N031"/>lebendig erhaltene Tradition sowol der Sänger als des
                <lb facs="#facs_1_region_1684603466717_4126_tl_33" n="N032"/>Publicums. Auch im Leben der Bühnendichtung gibt es eine
-               <lb facs="#facs_1_region_1684603466717_4126_tl_34" n="N033"/>Art Verjährung, wie im bürgerlichen Rechte, sogar der Zeit¬
-               <lb facs="#facs_1_region_1684603466717_4126_tl_35" n="N034"/>raum von 30 Jahren spielt da eine ähnliche Rolle. Die
+               <lb facs="#facs_1_region_1684603466717_4126_tl_34" n="N033"/>Art Verjährung, wie im bürgerlichen Rechte, sogar der Zeit
+               <lb facs="#facs_1_region_1684603466717_4126_tl_35" n="N034" break="no"/>raum von 30 Jahren spielt da eine ähnliche Rolle. Die
                <lb facs="#facs_1_region_1684603466717_4126_tl_36" n="N035"/>Opéra Comique befleißt sich, diese Verjährung oft und
                <lb facs="#facs_1_region_1684603466717_4126_tl_37" n="N036"/>regelmäßig zu unterbrechen und das Publicum dadurch
-               <lb facs="#facs_1_region_1684603466717_4126_tl_38" n="N037"/>im geistigen Besitze zu erhalten. Solche Continuität
-            </p>
-            <cb n="4"/>
-            <p>
+               <lb facs="#facs_1_region_1684603466717_4126_tl_38" n="N037"/>im geistigen Besitze zu erhalten. Solche Continuität<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
                <lb facs="#facs_1_region_1684603469845_4129_tl_1" n="N001"/>des künstlerischen Eindruckes ist wichtiger, als man
                <lb facs="#facs_1_region_1684603469845_4129_tl_2" n="N002"/>bei uns meint. Der Franzose, welcher heute zum
-               <lb facs="#facs_1_region_1684603469845_4129_tl_3" n="N003"/>„<rs type="bibl">Richard Löwenherz</rs>“ seine Töchter führt, hat ihn
+               <lb facs="#facs_1_region_1684603469845_4129_tl_3" n="N003"/>„<rs type="bibl" ref="#hsl_work_id_3126">Richard Löwenherz</rs>“ seine Töchter führt, hat ihn
                <lb facs="#facs_1_region_1684603469845_4129_tl_4" n="N004"/>vor zwanzig Jahren mit seiner Frau und vor vierzig mit
                <lb facs="#facs_1_region_1684603469845_4129_tl_5" n="N005"/>seiner Mutter gehört. Bei uns fehlt dieser Zusammenhang,
                <lb facs="#facs_1_region_1684603469845_4129_tl_6" n="N006"/>und unserem Publicum würde es kaum anders ergehen als
-               <lb facs="#facs_1_region_1684603469845_4129_tl_7" n="N007"/>mir, dem bei lebhaftester Verehrung für <rs type="person">Grétry</rs> „<rs type="bibl">Richard</rs>
-               <lb facs="#facs_1_region_1684603469845_4129_tl_8" n="N008"/>
-               <rs type="bibl">Löwenherz</rs>“ doch gar zu einfach und knapp erschien in musi¬
-               <lb facs="#facs_1_region_1684603469845_4129_tl_9" n="N009"/>kalischer Hinsicht. Nur ein sehr kleines, bescheidenes Theater
-               <lb facs="#facs_1_region_1684603469845_4129_tl_10" n="N010"/>mit vorwiegend „gemüthlichem“ Publicum dürfte es in <rs type="place" continued="true">Deutsch¬</rs>
-               <lb facs="#facs_1_region_1684603469845_4129_tl_11" n="N011"/>
-               <rs type="place" continued="true">land</rs> noch damit wagen. Ganz anders erscheint <rs type="person">Grétry</rs>'s
+               <lb facs="#facs_1_region_1684603469845_4129_tl_7" n="N007"/>mir, dem bei lebhaftester Verehrung für <rs type="person" ref="#hsl_person_id_103">Grétry</rs> „<rs type="bibl" ref="#hsl_work_id_3126">Richard
+               <lb facs="#facs_1_region_1684603469845_4129_tl_8" n="N008"/>Löwenherz</rs>“ doch gar zu einfach und knapp erschien in musi
+               <lb facs="#facs_1_region_1684603469845_4129_tl_9" n="N009" break="no"/>kalischer Hinsicht. Nur ein sehr kleines, bescheidenes Theater
+               <lb facs="#facs_1_region_1684603469845_4129_tl_10" n="N010"/>mit vorwiegend „gemüthlichem“ Publicum dürfte es in <rs type="place" ref="#hsl_place_id_14">Deutsch
+               <lb facs="#facs_1_region_1684603469845_4129_tl_11" n="N011" break="no"/>land</rs> noch damit wagen. Ganz anders erscheint <rs type="person" ref="#hsl_person_id_103">Grétry</rs>’s
                <lb facs="#facs_1_region_1684603469845_4129_tl_12" n="N012"/>Werth und Bedeutung vom geschichtlichen Standpunkte. Das
-               <lb facs="#facs_1_region_1684603469845_4129_tl_13" n="N013"/>Publicum mißt einen älteren Autor doch nur an seinen Nach¬
-               <lb facs="#facs_1_region_1684603469845_4129_tl_14" n="N014"/>folgern, wobei er häufig zu kurz kommt — der Historiker
+               <lb facs="#facs_1_region_1684603469845_4129_tl_13" n="N013"/>Publicum mißt einen älteren Autor doch nur an seinen Nach
+               <lb facs="#facs_1_region_1684603469845_4129_tl_14" n="N014" break="no"/>folgern, wobei er häufig zu kurz kommt — der Historiker
                <lb facs="#facs_1_region_1684603469845_4129_tl_15" n="N015"/>mißt ihn an seinen Vorgängern. Und welch großen Fortschritt
-               <lb facs="#facs_1_region_1684603469845_4129_tl_16" n="N016"/>bezeichnet da <rs type="person">Grétry</rs>! Durch die Gunst eines langen Lebens
-               <lb facs="#facs_1_region_1684603469845_4129_tl_17" n="N017"/>und glänzender Erfolge hat <rs type="person">Grétry</rs> diesen Fortschritt ge¬
-               <lb facs="#facs_1_region_1684603469845_4129_tl_18" n="N018"/>sichert und fruchtbar gemacht für seine Nachfolger, welche
+               <lb facs="#facs_1_region_1684603469845_4129_tl_16" n="N016"/>bezeichnet da <rs type="person" ref="#hsl_person_id_103">Grétry</rs>! Durch die Gunst eines langen Lebens
+               <lb facs="#facs_1_region_1684603469845_4129_tl_17" n="N017"/>und glänzender Erfolge hat <rs type="person" ref="#hsl_person_id_103">Grétry</rs> diesen Fortschritt ge
+               <lb facs="#facs_1_region_1684603469845_4129_tl_18" n="N018" break="no"/>sichert und fruchtbar gemacht für seine Nachfolger, welche
                <lb facs="#facs_1_region_1684603469845_4129_tl_19" n="N019"/>daran anknüpfen konnten, anknüpfen mußten. In seinen
-               <lb facs="#facs_1_region_1684603469845_4129_tl_20" n="N020"/>Memoiren sagt <rs type="person">Grétry</rs>, sein Streben sei, die melodiöse Schön¬
-               <lb facs="#facs_1_region_1684603469845_4129_tl_21" n="N021"/>heit der Italiener mit dem dramatischen Geist der Franzosen
-               <lb facs="#facs_1_region_1684603469845_4129_tl_22" n="N022"/>zu verschmelzen, sein höchstes Ideal, der <rs type="person">Pergolese</rs>
-               <rs type="place" continued="true">Frank¬</rs>
-               <lb facs="#facs_1_region_1684603469845_4129_tl_23" n="N023"/>
-               <rs type="place" continued="true">reich</rs>s zu werden. Unser <hi rendition="#em">
-                  <rs type="person">Dittersdorf</rs>
-               </hi> wünschte seinerseits
-               <lb facs="#facs_1_region_1684603469845_4129_tl_24" n="N024"/>„ein <rs type="place">deutsch</rs>er <rs type="person">Grétry</rs> zu werden“. In diesen zwei Geständ¬
-               <lb facs="#facs_1_region_1684603469845_4129_tl_25" n="N025"/>nissen liegt wie im Keim die ganze Entwicklungsgeschichte
-               <lb facs="#facs_1_region_1684603469845_4129_tl_26" n="N026"/>der älteren komischen Oper. <rs type="person">Pergolese</rs>, <rs type="person">Grétry</rs>, <rs type="person">Dittersdorf</rs>:
-               <lb facs="#facs_1_region_1684603469845_4129_tl_27" n="N027"/>
-               <rs type="place">Italien</rs> zuerst als Quelle, <rs type="place">Frankreich</rs> zunächst daraus schöpfend
-               <lb facs="#facs_1_region_1684603469845_4129_tl_28" n="N028"/>und den Eimer weiterreichend an <rs type="place">Deutschland</rs>. <rs type="person">Grétry</rs>, <rs type="person" continued="true">Phi¬</rs>
-               <lb facs="#facs_1_region_1684603469845_4129_tl_29" n="N029"/>
-               <rs type="person" continued="true">lidor</rs>, <rs type="person">Monsigny</rs>, <rs type="person">Dalayrac</rs> beherrschten im vorigen Jahrhun¬
-               <lb facs="#facs_1_region_1684603469845_4129_tl_30" n="N030"/>dert das Repertoire aller <rs type="place">deutsch</rs>en Bühnen, und selbst wo
+               <lb facs="#facs_1_region_1684603469845_4129_tl_20" n="N020"/>Memoiren sagt <rs type="person" ref="#hsl_person_id_103">Grétry</rs>, sein Streben sei, die melodiöse Schön
+               <lb facs="#facs_1_region_1684603469845_4129_tl_21" n="N021" break="no"/>heit der Italiener mit dem dramatischen Geist der Franzosen
+               <lb facs="#facs_1_region_1684603469845_4129_tl_22" n="N022"/>zu verschmelzen, sein höchstes Ideal, der <rs type="person" ref="#hsl_person_id_211">Pergolese</rs><rs type="place" ref="#hsl_place_id_21">Frank
+               <lb facs="#facs_1_region_1684603469845_4129_tl_23" n="N023" break="no"/>reich</rs>s zu werden. Unser <hi rendition="#em"><rs type="person" ref="#hsl_person_id_897">Dittersdorf</rs></hi> wünschte seinerseits
+               <lb facs="#facs_1_region_1684603469845_4129_tl_24" n="N024"/>„ein <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er <rs type="person" ref="#hsl_person_id_103">Grétry</rs> zu werden“. In diesen zwei Geständ
+               <lb facs="#facs_1_region_1684603469845_4129_tl_25" n="N025" break="no"/>nissen liegt wie im Keim die ganze Entwicklungsgeschichte
+               <lb facs="#facs_1_region_1684603469845_4129_tl_26" n="N026"/>der älteren komischen Oper. <rs type="person" ref="#hsl_person_id_211">Pergolese</rs>, <rs type="person" ref="#hsl_person_id_103">Grétry</rs>, <rs type="person" ref="#hsl_person_id_897">Dittersdorf</rs>:
+               <lb facs="#facs_1_region_1684603469845_4129_tl_27" n="N027"/><rs type="place" ref="#hsl_place_id_28">Italien</rs> zuerst als Quelle, <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> zunächst daraus schöpfend
+               <lb facs="#facs_1_region_1684603469845_4129_tl_28" n="N028"/>und den Eimer weiterreichend an <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>. <rs type="person" ref="#hsl_person_id_103">Grétry</rs>, <rs type="person" ref="#hsl_person_id_214">Phi
+               <lb facs="#facs_1_region_1684603469845_4129_tl_29" n="N029" break="no"/>lidor</rs>, <rs type="person" ref="#hsl_person_id_187">Monsigny</rs>, <rs type="person" ref="#hsl_person_id_2415">Dalayrac</rs> beherrschten im vorigen Jahrhun
+               <lb facs="#facs_1_region_1684603469845_4129_tl_30" n="N030" break="no"/>dert das Repertoire aller <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Bühnen, und selbst wo
                <lb facs="#facs_1_region_1684603469845_4129_tl_31" n="N031"/>die Musik unserer Singspiele von Deutschen herrührte, das
-               <lb facs="#facs_1_region_1684603469845_4129_tl_32" n="N032"/>Libretto war damals in neun von zehn Fällen eine Bearbei¬
-               <lb facs="#facs_1_region_1684603469845_4129_tl_33" n="N033"/>tung nach dem <rs type="place">Französisch</rs>en.
-               <lb facs="#facs_1_region_1684603469845_4129_tl_34" n="N034"/>Wenn man <rs type="person">Grétry</rs>'s Memoiren liest, glaubt man oft
-               <lb facs="#facs_1_region_1684603469845_4129_tl_35" n="N035"/>
-               <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi> sprechen zu hören, so klar ist sein Bewußtsein, so
+               <lb facs="#facs_1_region_1684603469845_4129_tl_32" n="N032"/>Libretto war damals in neun von zehn Fällen eine Bearbei
+               <lb facs="#facs_1_region_1684603469845_4129_tl_33" n="N033" break="no"/>tung nach dem <rs type="place" ref="#hsl_place_id_21">Französisch</rs>en.
+            </p><p>
+               <lb facs="#facs_1_region_1684603469845_4129_tl_34" n="N034"/>Wenn man <rs type="person" ref="#hsl_person_id_103">Grétry</rs>’s Memoiren liest, glaubt man oft
+               <lb facs="#facs_1_region_1684603469845_4129_tl_35" n="N035"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi> sprechen zu hören, so klar ist sein Bewußtsein, so
                <lb facs="#facs_1_region_1684603469845_4129_tl_36" n="N036"/>streng seine Anforderung in Bezug auf die Wahrheit des
-               <lb facs="#facs_1_line_1748585444279_777" n="N037"/>dramatischen Ausdrucks. Wie <rs type="person">Gluck</rs>, so verwendete <rs type="person">Grétry</rs>
-            </p>
+               <lb facs="#facs_1_line_1748585444279_777" n="N037"/>dramatischen Ausdrucks. Wie <rs type="person" ref="#hsl_person_id_99">Gluck</rs>, so verwendete <rs type="person" ref="#hsl_person_id_103">Grétry</rs><space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
+            <cb n="4"/>
+            <p prev="true">
                <lb facs="#facs_2_region_1684603482426_4136_tl_1" n="N001"/>die äußerste Sorgfalt auf die Correctheit der Declamation.
-               <lb facs="#facs_2_line_1748585503745_793" n="N002"/>Von späteren Franzosen hat namentlich <hi rendition="#em">
-                  <rs type="person">Auber</rs>
-               </hi> sich große
-               <lb facs="#facs_2_region_1684603482426_4136_tl_2" n="N003"/>Leichtfertigkeit in diesem Punkt erlaubt, und es ist ein Ver¬
-               <lb facs="#facs_2_region_1684603482426_4136_tl_3" n="N004"/>dienst <hi rendition="#em">
-                  <rs type="person">Gounod</rs>'s</hi>, wieder ein Beispiel correcter <rs type="place">französisch</rs>er
-               <lb facs="#facs_2_region_1684603482426_4136_tl_4" n="N005"/>Declamation zu geben. <rs type="person">Grétry</rs>'s Analysen seiner eigenen
+               <lb facs="#facs_2_line_1748585503745_793" n="N002"/>Von späteren Franzosen hat namentlich <hi rendition="#em"><rs type="person" ref="#hsl_person_id_16">Auber</rs></hi> sich große
+               <lb facs="#facs_2_region_1684603482426_4136_tl_2" n="N003"/>Leichtfertigkeit in diesem Punkt erlaubt, und es ist ein Ver
+               <lb facs="#facs_2_region_1684603482426_4136_tl_3" n="N004" break="no"/>dienst <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s</hi>, wieder ein Beispiel correcter <rs type="place" ref="#hsl_place_id_21">französisch</rs>er
+               <lb facs="#facs_2_region_1684603482426_4136_tl_4" n="N005"/>Declamation zu geben. <rs type="person" ref="#hsl_person_id_103">Grétry</rs>’s Analysen seiner eigenen
                <lb facs="#facs_2_region_1684603482426_4136_tl_5" n="N006"/>Oper gehören zu den lehrreichsten dieser Art; bis in den
                <lb facs="#facs_2_region_1684603482426_4136_tl_6" n="N007"/>einzelnen Tact, die einzelne Note gibt er Rechenschaft, warum
                <lb facs="#facs_2_region_1684603482426_4136_tl_7" n="N008"/>er eine Stelle so und nicht anders componirt habe. Als er
-               <lb facs="#facs_2_region_1684603482426_4136_tl_8" n="N009"/>bei Erscheinen seines „<rs type="bibl">Richard Löwenherz</rs>“, <date month="0" day="0" year="0">1785</date>, ob der
-               <lb facs="#facs_2_region_1684603482426_4136_tl_9" n="N010"/>ausgezeichnet musikalischen Eignung des Textbuches beglück¬
-               <lb facs="#facs_2_region_1684603482426_4136_tl_10" n="N011"/>wünscht wurde, ließ er diesen Vorzug nur bezüglich der be¬
-               <lb facs="#facs_2_region_1684603482426_4136_tl_11" n="N012"/>rühmten Romanze gelten, durch welche der treue <rs type="person">Blondel</rs>
-               <lb facs="#facs_2_region_1684603482426_4136_tl_12" n="N013"/>den <rs type="person">König</rs> rettet. Die ganze Oper sollte nach <rs type="person">Grétry</rs>'s streng
+               <lb facs="#facs_2_region_1684603482426_4136_tl_8" n="N009"/>bei Erscheinen seines „<rs type="bibl" ref="#hsl_work_id_3126">Richard Löwenherz</rs>“, <date>1785</date>, ob der
+               <lb facs="#facs_2_region_1684603482426_4136_tl_9" n="N010"/>ausgezeichnet musikalischen Eignung des Textbuches beglück
+               <lb facs="#facs_2_region_1684603482426_4136_tl_10" n="N011" break="no"/>wünscht wurde, ließ er diesen Vorzug nur bezüglich der be
+               <lb facs="#facs_2_region_1684603482426_4136_tl_11" n="N012" break="no"/>rühmten Romanze gelten, durch welche der treue <rs type="person" ref="#hsl_person_id_6986">Blondel</rs><space quantity="1" unit="char"/>
+               <lb facs="#facs_2_region_1684603482426_4136_tl_12" n="N013"/>den <rs type="person" ref="#hsl_person_id_6985">König</rs> rettet. Die ganze Oper sollte nach <rs type="person" ref="#hsl_person_id_103">Grétry</rs>’s streng
                <lb facs="#facs_2_region_1684603482426_4136_tl_13" n="N014"/>dramatischer Anschauung nur declamirt und blos jene
                <lb facs="#facs_2_line_1748585527183_799" n="N015"/>Romanze gesungen werden. Er gesteht, daß er gegen diese seine
                <lb facs="#facs_2_region_1684603482426_4136_tl_14" n="N016"/>Ueberzeugung dem musikalischen Bedürfniß des Publicums
-               <lb facs="#facs_2_region_1684603482426_4136_tl_15" n="N017"/>Concessionen gemacht habe, hält aber dennoch die Unterschei¬
-               <lb facs="#facs_2_region_1684603482426_4136_tl_16" n="N018"/>dung fest, die er mit den geistreich lakonischen Worten prä¬
-               <lb facs="#facs_2_region_1684603482426_4136_tl_17" n="N019"/>cisirt: „Il y a chanter pour parler, et chanter pour chanter.“
-               <lb facs="#facs_2_region_1684603482426_4136_tl_18" n="N020"/>Die Romanze <rs type="person">Blondel</rs>'s kommt im Verlauf der Oper neun¬
-               <lb facs="#facs_2_region_1684603482426_4136_tl_19" n="N021"/>mal vor, ganz oder stückweise (ein „Leitmotiv“, hundert Jahre
-               <lb facs="#facs_2_region_1684603482426_4136_tl_20" n="N022"/>vor R. <rs type="person">Wagner</rs>!), jedesmal anders, blos gespielt oder ge¬
-               <lb facs="#facs_2_region_1684603482426_4136_tl_21" n="N023"/>sungen, von einer oder von mehreren Stimmen, mit einfachster
-               <lb facs="#facs_2_region_1684603482426_4136_tl_22" n="N024"/>oder mit reicher Begleitung u. s. w. Jede dieser Verände¬
-               <lb facs="#facs_2_line_1748585544903_805" n="N025"/>rungen rechtfertigt <rs type="person">Grétry</rs> mit dem Scharfsinn eines Advo¬
-               <lb facs="#facs_2_line_1748585562672_811" n="N026"/>caten. In seinen Anforderungen an die Ausdrucksfähigkeit der
-               <lb facs="#facs_2_region_1684603482426_4136_tl_23" n="N027"/>Musik ging <rs type="person">Grétry</rs> offenbar zu weit, sie wurde ihm fast
+               <lb facs="#facs_2_region_1684603482426_4136_tl_15" n="N017"/>Concessionen gemacht habe, hält aber dennoch die Unterschei
+               <lb facs="#facs_2_region_1684603482426_4136_tl_16" n="N018" break="no"/>dung fest, die er mit den geistreich lakonischen Worten prä
+               <lb facs="#facs_2_region_1684603482426_4136_tl_17" n="N019" break="no"/>cisirt: „Il y a chanter pour parler, et chanter pour chanter.“
+               <lb facs="#facs_2_region_1684603482426_4136_tl_18" n="N020"/>Die Romanze <rs type="person" ref="#hsl_person_id_6986">Blondel</rs>’s kommt im Verlauf der Oper neun
+               <lb facs="#facs_2_region_1684603482426_4136_tl_19" n="N021" break="no"/>mal vor, ganz oder stückweise (ein „Leitmotiv“, hundert Jahre
+               <lb facs="#facs_2_region_1684603482426_4136_tl_20" n="N022"/>vor R. <rs type="person" ref="#hsl_person_id_319">Wagner</rs>!), jedesmal anders, blos gespielt oder ge
+               <lb facs="#facs_2_region_1684603482426_4136_tl_21" n="N023" break="no"/>sungen, von einer oder von mehreren Stimmen, mit einfachster
+               <lb facs="#facs_2_region_1684603482426_4136_tl_22" n="N024"/>oder mit reicher Begleitung u. s. w. Jede dieser Verände
+               <lb facs="#facs_2_line_1748585544903_805" n="N025" break="no"/>rungen rechtfertigt <rs type="person" ref="#hsl_person_id_103">Grétry</rs> mit dem Scharfsinn eines Advo
+               <lb facs="#facs_2_line_1748585562672_811" n="N026" break="no"/>caten. In seinen Anforderungen an die Ausdrucksfähigkeit der
+               <lb facs="#facs_2_region_1684603482426_4136_tl_23" n="N027"/>Musik ging <rs type="person" ref="#hsl_person_id_103">Grétry</rs> offenbar zu weit, sie wurde ihm fast
                <lb facs="#facs_2_region_1684603482426_4136_tl_24" n="N028"/>zur fixen Idee und verleitete ihn, jeden Gemüthszustand,
-               <lb facs="#facs_2_region_1684603482426_4136_tl_25" n="N029"/>auch „l'optimisme“, „l'entêtement“ und dergleichen musika¬
-               <lb facs="#facs_2_region_1684603482426_4136_tl_26" n="N030"/>lisch photographiren zu wollen. Zum Glück trug seine musi¬
-               <lb facs="#facs_2_region_1684603482426_4136_tl_27" n="N031"/>kalische Natur in der Praxis den Sieg davon über seine
+               <lb facs="#facs_2_region_1684603482426_4136_tl_25" n="N029"/>auch „l’optimisme“, „l’entêtement“ und dergleichen musika
+               <lb facs="#facs_2_region_1684603482426_4136_tl_26" n="N030" break="no"/>lisch photographiren zu wollen. Zum Glück trug seine musi
+               <lb facs="#facs_2_region_1684603482426_4136_tl_27" n="N031" break="no"/>kalische Natur in der Praxis den Sieg davon über seine
                <lb facs="#facs_2_region_1684603482426_4136_tl_28" n="N032"/>geistreichen theoretischen Schrullen. Was uns heute noch in
-               <lb facs="#facs_2_region_1684603482426_4136_tl_29" n="N033"/>
-               <rs type="person">Grétry</rs>'s <rs type="bibl">Memoiren</rs> fesselt, ist nicht blos der klare, an
+               <lb facs="#facs_2_region_1684603482426_4136_tl_29" n="N033"/><rs type="person" ref="#hsl_person_id_103">Grétry</rs>’s <rs type="bibl" ref="#hsl_work_id_3201">Memoiren</rs> fesselt, ist nicht blos der klare, an
                <lb facs="#facs_2_region_1684603482426_4136_tl_30" n="N034"/>Kunstverstand seine Zeitgenossen überragende Denker, sondern
                <lb facs="#facs_2_region_1684603482426_4136_tl_31" n="N035"/>ebensosehr der lebensfrische, liebenswürdige Mensch. Seine
                <lb facs="#facs_2_region_1684603482426_4136_tl_32" n="N036"/>musikalischen Verdienste erschienen den Zeitgenossen verklärt
                <lb facs="#facs_2_region_1684603482426_4136_tl_33" n="N037"/>durch den Zauber seiner Persönlichkeit, endlich durch den
-               <lb facs="#facs_2_line_1748585620951_823" n="N038"/>traurigen Ausgang seines vielbewegten Lebens. Seine drei
-            </p>
-            <cb n="6"/>
-            <p>
+               <lb facs="#facs_2_line_1748585620951_823" n="N038"/>traurigen Ausgang seines vielbewegten Lebens. Seine drei<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
                <lb facs="#facs_2_region_1684603485913_4139_tl_1" n="N001"/>Töchter, blühende, hochbegabte Mädchen, starben rasch nach
-               <lb facs="#facs_2_region_1684603485913_4139_tl_2" n="N002"/>einander; durch die Revolution verlor er sein kleines Ver¬
-               <lb facs="#facs_2_region_1684603485913_4139_tl_3" n="N003"/>mögen, sein Einkommen. Alt, einsam und verarmt stand der
+               <lb facs="#facs_2_region_1684603485913_4139_tl_2" n="N002"/>einander; durch die Revolution verlor er sein kleines Ver
+               <lb facs="#facs_2_region_1684603485913_4139_tl_3" n="N003" break="no"/>mögen, sein Einkommen. Alt, einsam und verarmt stand der
                <lb facs="#facs_2_line_1748585670351_835" n="N004"/>Mann da. Aber der Eine Trost verblieb ihm, daß seine
-               <lb facs="#facs_2_line_1748585693703_841" n="N005"/>Melodien im Volke lebten. <rs type="person">Blondel</rs>'s Romanze aus „<rs type="bibl">Richard</rs>
-               <lb facs="#facs_2_region_1684603485913_4139_tl_4" n="N006"/>
-               <rs type="bibl">Löwenherz</rs>“ ward das Bundeslied der <rs type="place">französisch</rs>en Edel¬
-               <lb facs="#facs_2_region_1684603485913_4139_tl_5" n="N007"/>leute, welche <rs type="person">Louis XVI.</rs> aus den Banden der Constitution
-               <lb facs="#facs_2_region_1684603485913_4139_tl_6" n="N008"/>retten wollten und damit nur seinen Untergang beschleu¬
-               <lb facs="#facs_2_region_1684603485913_4139_tl_7" n="N009"/>nigten. Und als <rs type="person">Napoleon</rs>'s Soldaten aus dem furchtbaren
-               <lb facs="#facs_2_region_1684603485913_4139_tl_8" n="N010"/>
-               <rs type="place">russisch</rs>en Feldzug nach <rs type="place">Frankreich</rs> heimkehrten, da stimmten
-               <lb facs="#facs_2_region_1684603485913_4139_tl_9" n="N011"/>sie auf dem traurigen Rückmarsch <rs type="person">Grétry</rs>'s Melodie an:
-               <lb facs="#facs_2_region_1684603485913_4139_tl_10" n="N012"/>„Où pent-on être mieux, qu'au sein de sa famille!“
-               <lb facs="#facs_2_region_1684603485913_4139_tl_11" n="N013"/>
-               <rs type="person">Grétry</rs> starb im Herbst <date month="0" day="0" year="0">1815</date>, vierundsiebzig Jahre alt, in
-               <lb facs="#facs_2_region_1684603485913_4139_tl_12" n="N014"/>der Eremitage zu <rs type="place">Montmorency</rs>, demselben stillen, ländlichen
-               <lb facs="#facs_2_region_1684603485913_4139_tl_13" n="N015"/>Asyl, das vor ihm J. J. <rs type="person">Rousseau</rs> bewohnt und geliebt hatte.
-               <lb facs="#facs_2_region_1684603485913_4139_tl_14" n="N016"/>
-               <rs type="person">Grétry</rs>'s Geist und Styl wirkt heute noch fort in <rs type="place" continued="true">Frank¬</rs>
-               <lb facs="#facs_2_region_1684603485913_4139_tl_15" n="N017"/>
-               <rs type="place" continued="true">reich</rs>. Kein anderer Zweig der Bühnendichtung weist eine
-               <lb facs="#facs_2_line_1748585714311_852" n="N018"/>solche Continuität des Styls, eine so geschlossene Fortent¬
-               <lb facs="#facs_2_region_1684603485913_4139_tl_16" n="N019"/>wicklung auf, wie die Opéra Comique der Franzosen. Von
-               <lb facs="#facs_2_region_1684603485913_4139_tl_17" n="N020"/>
-               <rs type="person">Grétry</rs> zu <rs type="person">Isouard</rs> und <rs type="person">Boieldieu</rs>, zu <rs type="person">Auber</rs>, <rs type="person">Adam</rs> u. s. f.
-               <lb facs="#facs_2_region_1684603485913_4139_tl_18" n="N021"/>Die Aufführung des „<hi rendition="#em">
-                  <rs type="bibl">Joconde</rs>
-               </hi>“ von <rs type="person">Isouard</rs> am selben
-               <lb facs="#facs_2_region_1684603485913_4139_tl_19" n="N022"/>Abend mit <rs type="person">Grétry</rs>'s „<rs type="bibl">Richard</rs>“ gewann durch dieses Ver¬
-               <lb facs="#facs_2_region_1684603485913_4139_tl_20" n="N023"/>hältniß ein doppeltes Interesse. Das Textbuch zu „<rs type="bibl">Jeconde</rs>“
-               <lb facs="#facs_2_region_1684603485913_4139_tl_21" n="N024"/>ist vortrefflich, und ein liebenswürdig chevaleresker Zug durch¬
-               <lb facs="#facs_2_region_1684603485913_4139_tl_22" n="N025"/>weht die Musik. Mehrere Ensemble-Nummern im zweiten
-               <lb facs="#facs_2_region_1684603485913_4139_tl_23" n="N026"/>und dritten Act machen heute noch die schönste Wirkung, frei¬
-               <lb facs="#facs_2_region_1684603485913_4139_tl_24" n="N027"/>lich zumeist durch das Verdienst des Dichters, der hier ganz
-               <lb facs="#facs_2_region_1684603485913_4139_tl_25" n="N028"/>allerliebste Situationen geschaffen hat. In den ersten komi¬
-               <lb facs="#facs_2_region_1684603485913_4139_tl_26" n="N029"/>schen Opern der Franzosen war die Musik gleich Null, sie
+               <lb facs="#facs_2_line_1748585693703_841" n="N005"/>Melodien im Volke lebten. <rs type="person" ref="#hsl_person_id_6986">Blondel</rs>’s Romanze aus „<rs type="bibl" ref="#hsl_work_id_3126">Richard
+               <lb facs="#facs_2_region_1684603485913_4139_tl_4" n="N006"/>Löwenherz</rs>“ ward das Bundeslied der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Edel
+               <lb facs="#facs_2_region_1684603485913_4139_tl_5" n="N007" break="no"/>leute, welche <rs type="person" ref="#hsl_person_id_2644">Louis XVI.</rs> aus den Banden der Constitution
+               <lb facs="#facs_2_region_1684603485913_4139_tl_6" n="N008"/>retten wollten und damit nur seinen Untergang beschleu
+               <lb facs="#facs_2_region_1684603485913_4139_tl_7" n="N009" break="no"/>nigten. Und als <rs type="person" ref="#hsl_person_id_39">Napoleon</rs>’s Soldaten aus dem furchtbaren
+               <lb facs="#facs_2_region_1684603485913_4139_tl_8" n="N010"/><rs type="place" ref="#hsl_place_id_48">russisch</rs>en Feldzug nach <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> heimkehrten, da stimmten
+               <lb facs="#facs_2_region_1684603485913_4139_tl_9" n="N011"/>sie auf dem traurigen Rückmarsch <rs type="person" ref="#hsl_person_id_103">Grétry</rs>’s Melodie an:
+               <lb facs="#facs_2_region_1684603485913_4139_tl_10" n="N012"/>„Où pent-on être mieux, qu’au sein de sa famille!“
+               <lb facs="#facs_2_region_1684603485913_4139_tl_11" n="N013"/><rs type="person" ref="#hsl_person_id_103">Grétry</rs> starb im Herbst <date>1815</date>, vierundsiebzig Jahre alt, in
+               <lb facs="#facs_2_region_1684603485913_4139_tl_12" n="N014"/>der Eremitage zu <rs type="place" ref="#hsl_place_id_799">Montmorency</rs>, demselben stillen, ländlichen
+               <lb facs="#facs_2_region_1684603485913_4139_tl_13" n="N015"/>Asyl, das vor ihm J. J. <rs type="person" ref="#hsl_person_id_415">Rousseau</rs> bewohnt und geliebt hatte.
+            </p><p>
+               <lb facs="#facs_2_region_1684603485913_4139_tl_14" n="N016"/><rs type="person" ref="#hsl_person_id_103">Grétry</rs>’s Geist und Styl wirkt heute noch fort in <rs type="place" ref="#hsl_place_id_21">Frank
+               <lb facs="#facs_2_region_1684603485913_4139_tl_15" n="N017" break="no"/>reich</rs>. Kein anderer Zweig der Bühnendichtung weist eine
+               <lb facs="#facs_2_line_1748585714311_852" n="N018"/>solche Continuität des Styls, eine so geschlossene Fortent
+               <lb facs="#facs_2_region_1684603485913_4139_tl_16" n="N019" break="no"/>wicklung auf, wie die Opéra Comique der Franzosen. Von
+               <lb facs="#facs_2_region_1684603485913_4139_tl_17" n="N020"/><rs type="person" ref="#hsl_person_id_103">Grétry</rs> zu <rs type="person" ref="#hsl_person_id_133">Isouard</rs> und <rs type="person" ref="#hsl_person_id_36">Boieldieu</rs>, zu <rs type="person" ref="#hsl_person_id_16">Auber</rs>, <rs type="person" ref="#hsl_person_id_12">Adam</rs> u. s. f.
+               <lb facs="#facs_2_region_1684603485913_4139_tl_18" n="N021"/>Die Aufführung des „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_4853">Joconde</rs></hi>“ von <rs type="person" ref="#hsl_person_id_133">Isouard</rs> am selben
+               <lb facs="#facs_2_region_1684603485913_4139_tl_19" n="N022"/>Abend mit <rs type="person" ref="#hsl_person_id_103">Grétry</rs>’s „<rs type="bibl" ref="#hsl_work_id_3126">Richard</rs>“ gewann durch dieses Ver
+               <lb facs="#facs_2_region_1684603485913_4139_tl_20" n="N023" break="no"/>hältniß ein doppeltes Interesse. Das Textbuch zu „<rs type="bibl" ref="#hsl_work_id_4853">Joconde</rs>“
+               <lb facs="#facs_2_region_1684603485913_4139_tl_21" n="N024"/>ist vortrefflich, und ein liebenswürdig chevaleresker Zug durch
+               <lb facs="#facs_2_region_1684603485913_4139_tl_22" n="N025" break="no"/>weht die Musik. Mehrere Ensemble-Nummern im zweiten
+               <lb facs="#facs_2_region_1684603485913_4139_tl_23" n="N026"/>und dritten Act machen heute noch die schönste Wirkung, frei
+               <lb facs="#facs_2_region_1684603485913_4139_tl_24" n="N027" break="no"/>lich zumeist durch das Verdienst des Dichters, der hier ganz
+               <lb facs="#facs_2_region_1684603485913_4139_tl_25" n="N028"/>allerliebste Situationen geschaffen hat. In den ersten komi
+               <lb facs="#facs_2_region_1684603485913_4139_tl_26" n="N029" break="no"/>schen Opern der Franzosen war die Musik gleich Null, sie
                <lb facs="#facs_2_region_1684603485913_4139_tl_27" n="N030"/>wuchs mit der Zeit an Ausdehnung und Bedeutung, aber
                <lb facs="#facs_2_region_1684603485913_4139_tl_28" n="N031"/>das große Gewicht, das man den Textbüchern beilegte, blieb
                <lb facs="#facs_2_region_1684603485913_4139_tl_29" n="N032"/>ihnen bis heute unbenommen. Es freut mich jedesmal, wenn
                <lb facs="#facs_2_region_1684603485913_4139_tl_30" n="N033"/>ich im Foyer der Opéra Comique neben den Büsten der
                <lb facs="#facs_2_region_1684603485913_4139_tl_31" n="N034"/>großen Componisten auch jene ihrer Textdichter erblicke, von
-               <lb facs="#facs_2_region_1684603485913_4139_tl_32" n="N035"/>
-               <rs type="person">Sedaine</rs> und <rs type="person">Etienne</rs> bis auf Eugène <rs type="person">Scribe</rs>. In <rs type="place" continued="true">Deutsch¬</rs>
-               <lb facs="#facs_2_region_1684603485913_4139_tl_33" n="N036"/>
-               <rs type="place" continued="true">land</rs> hat seinerzeit <rs type="person">Isouard</rs>'s musikalisch geringfügigere „<rs type="bibl">Cen¬</rs>
-               <lb facs="#facs_2_region_1684603485913_4139_tl_34" n="N037"/>
-               <rs type="bibl">drillon</rs>“ die stärksten Sympathien gefunden; die gemüthvolle
-               <lb facs="#facs_2_region_1684603485913_4139_tl_35" n="N038"/>Herzlichkeit des <rs type="person">Aschenbrödel</rs>-Märchens, dem sich die schlichte
-            </p>
-            <cb n="7"/>
-            <p>
+               <lb facs="#facs_2_region_1684603485913_4139_tl_32" n="N035"/><rs type="person" ref="#hsl_person_id_3455">Sedaine</rs> und <rs type="person" ref="#hsl_person_id_780">Etienne</rs> bis auf Eugène <rs type="person" ref="#hsl_person_id_284">Scribe</rs>. In <rs type="place" ref="#hsl_place_id_14">Deutsch
+               <lb facs="#facs_2_region_1684603485913_4139_tl_33" n="N036" break="no"/>land</rs> hat seinerzeit <rs type="person" ref="#hsl_person_id_133">Isouard</rs>’s musikalisch geringfügigere „<rs type="bibl" ref="#hsl_work_id_461">Cen
+               <lb facs="#facs_2_region_1684603485913_4139_tl_34" n="N037" break="no"/>drillon</rs>“ die stärksten Sympathien gefunden; die gemüthvolle
+               <lb facs="#facs_2_region_1684603485913_4139_tl_35" n="N038"/>Herzlichkeit des <rs type="person" ref="#hsl_person_id_781">Aschenbrödel</rs>-Märchens, dem sich die schlichte<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
                <lb facs="#facs_2_region_1684603489264_4142_tl_1" n="N001"/>liedmäßige Musik vortrefflich anschmiegt, war den Deutschen
-               <lb facs="#facs_2_region_1684603489264_4142_tl_2" n="N002"/>blutsverwandter als die lockeren Abenteuer des Trouba¬
-               <lb facs="#facs_2_region_1684603489264_4142_tl_3" n="N003"/>dours <rs type="person">Joconde</rs> und seines fürstlichen Kameraden. Diese
-               <lb facs="#facs_2_region_1684603489264_4142_tl_4" n="N004"/>zwei Opern bilden den fast isolirten Höhenpunkt in <rs type="person">Isouard</rs>'s
+               <lb facs="#facs_2_region_1684603489264_4142_tl_2" n="N002"/>blutsverwandter als die lockeren Abenteuer des Trouba
+               <lb facs="#facs_2_region_1684603489264_4142_tl_3" n="N003" break="no"/>dours <rs type="person" ref="#hsl_person_id_6987">Joconde</rs> und seines fürstlichen Kameraden. Diese
+               <lb facs="#facs_2_region_1684603489264_4142_tl_4" n="N004"/>zwei Opern bilden den fast isolirten Höhenpunkt in <rs type="person" ref="#hsl_person_id_133">Isouard</rs>’s
                <lb facs="#facs_2_region_1684603489264_4142_tl_5" n="N005"/>Schaffen, wir können sein Talent und seine Meisterschaft
                <lb facs="#facs_2_region_1684603489264_4142_tl_6" n="N006"/>heute unmöglich mehr so hoch anschlagen. Sein im selben
-               <lb facs="#facs_2_region_1684603489264_4142_tl_7" n="N007"/>Jahre <date month="0" day="0" year="0">1775</date> geborener Rivale <hi rendition="#em">
-                  <rs type="person">Boieldieu</rs>
-               </hi> hat ihn weit
-               <lb facs="#facs_2_region_1684603489264_4142_tl_8" n="N008"/>überflügelt. Die „<rs type="bibl">Weiße Dame</rs>“, die <rs type="person">Boieldieu</rs> in seinem
+               <lb facs="#facs_2_region_1684603489264_4142_tl_7" n="N007"/>Jahre <date>1775</date> geborener Rivale <hi rendition="#em"><rs type="person" ref="#hsl_person_id_36">Boieldieu</rs></hi> hat ihn weit
+               <lb facs="#facs_2_region_1684603489264_4142_tl_8" n="N008"/>überflügelt. Die „<rs type="bibl" ref="#hsl_work_id_1361">Weiße Dame</rs>“, die <rs type="person" ref="#hsl_person_id_36">Boieldieu</rs> in seinem
                <lb facs="#facs_2_region_1684603489264_4142_tl_9" n="N009"/>fünfzigsten Jahre, nahe dem Ende seiner Laufbahn, geschrieben,
-               <lb facs="#facs_2_region_1684603489264_4142_tl_10" n="N010"/>ist noch heute die feinste Blüthe <rs type="place">französisch</rs>en Musikgeistes,
-               <lb facs="#facs_2_region_1684603489264_4142_tl_11" n="N011"/>die weiße Rose der Opéra Comique. Was <rs type="person">Boieldieu</rs> als jun¬
-               <lb facs="#facs_2_region_1684603489264_4142_tl_12" n="N012"/>ger Mann componirte, dünkt uns jetzt dürr und veraltet
-               <lb facs="#facs_2_region_1684603489264_4142_tl_13" n="N013"/>— aber im Spätherbst seines Lebens, wie reich und blü¬
-               <lb facs="#facs_2_region_1684603489264_4142_tl_14" n="N014"/>hend hat sich da sein Talent entwickelt! <rs type="person">Boieldieu</rs> ist alt
-               <lb facs="#facs_2_region_1684603489264_4142_tl_15" n="N015"/>geboren und jung gestorben. Das ganze musikalische <rs type="place" continued="true">Frank¬</rs>
-               <lb facs="#facs_2_region_1684603489264_4142_tl_16" n="N016"/>
-               <rs type="place" continued="true">reich</rs> rüstet sich jetzt zur Feier von <rs type="person">Boieldieu</rs>'s hundertstem
-               <lb facs="#facs_2_region_1684603489264_4142_tl_17" n="N017"/>Geburtstage, die in seiner Vaterstadt <rs type="place">Rouen</rs> demnächst fest¬
-               <lb facs="#facs_2_region_1684603489264_4142_tl_18" n="N018"/>lich begangen wird. Eigentlich fiele dieses Jubiläum auf den
+               <lb facs="#facs_2_region_1684603489264_4142_tl_10" n="N010"/>ist noch heute die feinste Blüthe <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Musikgeistes,
+               <lb facs="#facs_2_region_1684603489264_4142_tl_11" n="N011"/>die weiße Rose der Opéra Comique. Was <rs type="person" ref="#hsl_person_id_36">Boieldieu</rs> als jun
+               <lb facs="#facs_2_region_1684603489264_4142_tl_12" n="N012" break="no"/>ger Mann componirte, dünkt uns jetzt dürr und veraltet
+               <lb facs="#facs_2_region_1684603489264_4142_tl_13" n="N013"/>— aber im Spätherbst seines Lebens, wie reich und blü
+               <lb facs="#facs_2_region_1684603489264_4142_tl_14" n="N014" break="no"/>hend hat sich da sein Talent entwickelt! <rs type="person" ref="#hsl_person_id_36">Boieldieu</rs> ist alt
+               <lb facs="#facs_2_region_1684603489264_4142_tl_15" n="N015"/>geboren und jung gestorben. Das ganze musikalische <rs type="place" ref="#hsl_place_id_21">Frank
+               <lb facs="#facs_2_region_1684603489264_4142_tl_16" n="N016" break="no"/>reich</rs> rüstet sich jetzt zur Feier von <rs type="person" ref="#hsl_person_id_36">Boieldieu</rs>’s hundertstem
+               <lb facs="#facs_2_region_1684603489264_4142_tl_17" n="N017"/>Geburtstage, die in seiner Vaterstadt <rs type="place" ref="#hsl_place_id_784">Rouen</rs> demnächst fest
+               <lb facs="#facs_2_region_1684603489264_4142_tl_18" n="N018" break="no"/>lich begangen wird. Eigentlich fiele dieses Jubiläum auf den
                <lb facs="#facs_2_region_1684603489264_4142_tl_19" n="N019"/>16. December; man hat es für den Juni vorausgenommen,
                <lb facs="#facs_2_region_1684603489264_4142_tl_20" n="N020"/>um es heiterer und allgemeiner zu machen. Vier Tage wird
-               <lb facs="#facs_2_region_1684603489264_4142_tl_21" n="N021"/>das Fest dauern. Adrien <rs type="person">Boieldieu</rs>, der Neffe des großen
-               <lb facs="#facs_2_region_1684603489264_4142_tl_22" n="N022"/>Componisten, liefert eine <rs type="bibl">Messe solennelle</rs> dazu, Ambroise
-               <lb facs="#facs_2_region_1684603489264_4142_tl_23" n="N023"/>
-               <rs type="person">Thomas</rs> eine <rs type="bibl">Cantate</rs>, welche unter freiem Himmel von
+               <lb facs="#facs_2_region_1684603489264_4142_tl_21" n="N021"/>das Fest dauern. Adrien <rs type="person" ref="#hsl_person_id_6989">Boieldieu</rs>, der Neffe des großen
+               <lb facs="#facs_2_region_1684603489264_4142_tl_22" n="N022"/>Componisten, liefert eine <rs type="bibl" ref="#hsl_work_id_4859">Messe solennelle</rs> dazu, Ambroise
+               <lb facs="#facs_2_region_1684603489264_4142_tl_23" n="N023"/><rs type="person" ref="#hsl_person_id_305">Thomas</rs> eine <rs type="bibl" ref="#hsl_work_id_4857">Cantate</rs>, welche unter freiem Himmel von
                <lb facs="#facs_2_region_1684603489264_4142_tl_24" n="N024"/>einer starken Militärmusik und einer Unmasse von Sängern
                <lb facs="#facs_2_region_1684603489264_4142_tl_25" n="N025"/>aufgeführt wird. Möge das schöne Fest nach Wunsch und
-               <lb facs="#facs_2_region_1684603489264_4142_tl_26" n="N026"/>Gebühr gelingen und aus den mitwirkenden jungen Musi¬
-               <lb facs="#facs_2_line_1748585592615_817" n="N027"/>kern ein künftiger <rs type="person">Boieldieu</rs> auftauchen!
+               <lb facs="#facs_2_region_1684603489264_4142_tl_26" n="N026"/>Gebühr gelingen und aus den mitwirkenden jungen Musi
+               <lb facs="#facs_2_line_1748585592615_817" n="N027" break="no"/>kern ein künftiger <rs type="person" ref="#hsl_person_id_36">Boieldieu</rs> auftauchen!
+            </p><p>
                <lb facs="#facs_2_region_1684603489264_4142_tl_27" n="N028"/>Die Opéra Comique schmachtet nach einem originellen,
                <lb facs="#facs_2_region_1684603489264_4142_tl_28" n="N029"/>fruchtbaren Talente, das halbwegs den verwaisten Platz
-               <lb facs="#facs_2_region_1684603489264_4142_tl_29" n="N030"/>
-               <rs type="person">Auber</rs>'s einzunehmen vermöchte. Bis jetzt will dieser Messias
+               <lb facs="#facs_2_region_1684603489264_4142_tl_29" n="N030"/><rs type="person" ref="#hsl_person_id_16">Auber</rs>’s einzunehmen vermöchte. Bis jetzt will dieser Messias
                <lb facs="#facs_2_region_1684603489264_4142_tl_30" n="N031"/>sich nirgends ankündigen. Das Talent der Componisten, die
                <lb facs="#facs_2_region_1684603489264_4142_tl_31" n="N032"/>Kunst der Sänger, die Theilnahme des Publicums — Alles
                <lb facs="#facs_2_region_1684603489264_4142_tl_32" n="N033"/>scheint dem Versiegen nahe. Erst gestern ist eine neue
-               <lb facs="#facs_2_region_1684603489264_4142_tl_33" n="N034"/>komische <rs type="bibl">Oper</rs> von <hi rendition="#em">
-                  <rs type="person">Paladihle</rs>
-               </hi> (dem Componisten der be¬
-               <lb facs="#facs_2_region_1684603489264_4142_tl_34" n="N035"/>kannten Mandolinata „<rs type="bibl">L’amour africain</rs>“) hier durchgefal¬
-               <lb facs="#facs_2_region_1684603489264_4142_tl_35" n="N036"/>len. Was die übrigen Componisten uns für Aussichten er¬
-               <lb facs="#facs_2_region_1684603489264_4142_tl_36" n="N037"/>öffnen an den großen und kleinen lyrischen Bühnen von
-               <lb facs="#facs_2_line_1748585638447_829" n="N038"/>
-               <rs type="place">Paris</rs>, sollen Sie aus meinem nächsten Briefe entnehmen.
+               <lb facs="#facs_2_region_1684603489264_4142_tl_33" n="N034"/>komische <rs type="bibl" ref="#hsl_work_id_4858">Oper</rs> von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2687">Paladilhe</rs></hi> (dem Componisten der be
+               <lb facs="#facs_2_region_1684603489264_4142_tl_34" n="N035" break="no"/>kannten Mandolinata „<rs type="bibl" ref="#hsl_work_id_4394">L’amour africain</rs>“) hier durchgefal
+               <lb facs="#facs_2_region_1684603489264_4142_tl_35" n="N036" break="no"/>len. Was die übrigen Componisten uns für Aussichten er
+               <lb facs="#facs_2_region_1684603489264_4142_tl_36" n="N037" break="no"/>öffnen an den großen und kleinen lyrischen Bühnen von
+               <lb facs="#facs_2_line_1748585638447_829" n="N038"/><rs type="place" ref="#hsl_place_id_44">Paris</rs>, sollen Sie aus meinem nächsten Briefe entnehmen.
             </p>
          </div>
       </body>
