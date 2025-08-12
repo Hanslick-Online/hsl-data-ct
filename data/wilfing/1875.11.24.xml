@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 4040. Wien, Mittwoch, den 24. November 1875</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -71,24 +69,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 4040. Wien, Mittwoch, den 24. November 1875</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1875-11-24">24.11.1875</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,9 +102,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2025-07-15">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzl" when="2025-07-31">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2025-08-12">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -979,43 +975,35 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1684683513439_1721_tl_1" n="N001"/><head type="h1"><hi rendition="#em">Hofoperntheater</hi>.</head>
+            <lb facs="#facs_1_region_1684683513439_1721_tl_2" n="N002"/><head type="h2">(„<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ von Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>.)</head>
             <p>
-               <lb facs="#facs_1_line_1749617002043_23" n="N001"/>Nr. 4040. Wien, Mittwoch, den 24. November 1875
-            </p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684683513439_1721_tl_1" n="N001"/>
-               <hi rendition="#em">Hofoperntheater</hi>.
-               <lb facs="#facs_1_region_1684683513439_1721_tl_2" n="N002"/>(„<rs type="bibl">Tannhäuser</rs>“ von Richard <rs type="person">Wagner</rs>.)
                <lb facs="#facs_1_region_1684683513439_1721_tl_3" n="N003"/>Ed. H. Das Hofoperntheater gab gestern unter großem
-               <lb facs="#facs_1_region_1684683513439_1721_tl_4" n="N004"/>Andrange von Besuchern R. <hi rendition="#em">
-                  <rs type="person">Wagner</rs>'s</hi> „<rs type="bibl">Tannhäuser</rs>“ —
+               <lb facs="#facs_1_region_1684683513439_1721_tl_4" n="N004"/>Andrange von Besuchern R. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ —
                <lb facs="#facs_1_region_1684683513439_1721_tl_5" n="N005"/>zum erstenmale „nach der neuen Bearbeitung“. Das Neue
                <lb facs="#facs_1_region_1684683513439_1721_tl_6" n="N006"/>derselben besteht zunächst in der bedeutenden Erweiterung
                <lb facs="#facs_1_region_1684683513439_1721_tl_7" n="N007"/>und Umgestaltung der ganzen Scene im Venusberg (erster
                <lb facs="#facs_1_region_1684683513439_1721_tl_8" n="N008"/>Act), sodann in einer Anzahl schon in der Original-Partitur
                <lb facs="#facs_1_region_1684683513439_1721_tl_9" n="N009"/>enthaltener, aber bisher unaufgeführt gebliebener Stellen.
-               <lb facs="#facs_1_region_1684683513439_1721_tl_10" n="N010"/>Die neue Venusberg-Musik wurde bekanntlich <date month="0" day="0" year="0">1861</date> für die
-               <lb facs="#facs_1_region_1684683513439_1721_tl_11" n="N011"/>Große Oper in <rs type="place">Paris</rs> nachcomponirt, wo man von <rs type="person">Wagner</rs>
-               <lb facs="#facs_1_region_1684683513439_1721_tl_12" n="N012"/>die Einfügung eines Ballets in den „<rs type="bibl">Tannhäuser</rs>“ wünschte.
+               <lb facs="#facs_1_region_1684683513439_1721_tl_10" n="N010"/>Die neue Venusberg-Musik wurde bekanntlich <date>1861</date> für die
+               <lb facs="#facs_1_region_1684683513439_1721_tl_11" n="N011"/>Große Oper in <rs type="place" ref="#hsl_place_id_44">Paris</rs> nachcomponirt, wo man von <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
+               <lb facs="#facs_1_region_1684683513439_1721_tl_12" n="N012"/>die Einfügung eines Ballets in den „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ wünschte.
                <lb facs="#facs_1_region_1684683513439_1721_tl_13" n="N013"/>Er fand dafür im ersten Act „an dem üppigen Hofe der
-               <lb facs="#facs_1_region_1684683513439_1721_tl_14" n="N014"/>
-               <rs type="person">Venus</rs> die allergeeignetste Veranlassung zu einer choreographi¬
-               <lb facs="#facs_1_region_1684683513439_1721_tl_15" n="N015"/>schen Scene von ergiebigster Bedeutung“. Im Zusammen¬
-               <lb facs="#facs_1_region_1684683513439_1721_tl_16" n="N016"/>hange mit dieser breiten Entfaltung der ersten Scene steht
-               <lb facs="#facs_1_region_1684683513439_1721_tl_17" n="N017"/>auch die neue, sehr zweckmäßige Reduction der <hi rendition="#em">Ouver¬</hi>
-               <lb facs="#facs_1_region_1684683513439_1721_tl_18" n="N018"/>
-               <hi rendition="#em">türe</hi>. Der Componist hat den ganzen Schlußsatz derselben
+               <lb facs="#facs_1_region_1684683513439_1721_tl_14" n="N014"/><rs type="person" ref="#hsl_person_id_667">Venus</rs> die allergeeignetste Veranlassung zu einer choreographi
+               <lb facs="#facs_1_region_1684683513439_1721_tl_15" n="N015" break="no"/>schen Scene von ergiebigster Bedeutung“. Im Zusammen
+               <lb facs="#facs_1_region_1684683513439_1721_tl_16" n="N016" break="no"/>hange mit dieser breiten Entfaltung der ersten Scene steht
+               <lb facs="#facs_1_region_1684683513439_1721_tl_17" n="N017"/>auch die neue, sehr zweckmäßige Reduction der <hi rendition="#em">Ouver
+               <lb facs="#facs_1_region_1684683513439_1721_tl_18" n="N018" break="no"/>türe</hi>. Der Componist hat den ganzen Schlußsatz derselben
                <lb facs="#facs_1_region_1684683513439_1721_tl_19" n="N019"/>cassirt und läßt die Repetition des Venusberg-Motivs gleich
                <lb facs="#facs_1_region_1684683513439_1721_tl_20" n="N020"/>— bei aufgezogenem Vorhang — die Action auf der Bühne
                <lb facs="#facs_1_region_1684683513439_1721_tl_21" n="N021"/>begleiten. Dadurch geräth die Ouvertüre mit ihrem weitaus
                <lb facs="#facs_1_region_1684683513439_1721_tl_22" n="N022"/>besten Theile in unmittelbaren Contact mit der Scene, und
                <lb facs="#facs_1_region_1684683513439_1721_tl_23" n="N023"/>ihr wohlfeiler Spectakelschluß, der geigenumheulte und —
-               <lb facs="#facs_1_region_1684683513439_1721_tl_24" n="N024"/>umwinselte Pilgerchor, bleibt uns erspart. Die Com¬
-               <lb facs="#facs_1_region_1684683513439_1721_tl_25" n="N025"/>position der ersten Scene sprießt fast durchgehends aus
+               <lb facs="#facs_1_region_1684683513439_1721_tl_24" n="N024"/>umwinselte Pilgerchor, bleibt uns erspart. Die Com
+               <lb facs="#facs_1_region_1684683513439_1721_tl_25" n="N025" break="no"/>position der ersten Scene sprießt fast durchgehends aus
                <lb facs="#facs_1_line_1749617102875_44" n="N026"/>den Motiven der älteren Venusberg-Musik, die nach
                <lb facs="#facs_1_region_1684683513439_1721_tl_26" n="N027"/>allen Dimensionen erweitert und in dem späteren
-               <lb facs="#facs_1_region_1684683513439_1721_tl_27" n="N028"/>combinatorischen Orchesterstyl <rs type="person">Wagner</rs>'s reich entwickelt ist.
+               <lb facs="#facs_1_region_1684683513439_1721_tl_27" n="N028"/>combinatorischen Orchesterstyl <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s reich entwickelt ist.
                <lb facs="#facs_1_region_1684683513439_1721_tl_28" n="N029"/>Eigentliche Tanzmelodien, im Sinne unserer guten und
                <lb facs="#facs_1_region_1684683513439_1721_tl_29" n="N030"/>schlechten Balletmusik, treten nirgends hervor; das Ganze
                <lb facs="#facs_1_region_1684683513439_1721_tl_30" n="N031"/>tauscht als freie Phantasie über alle erdenklichen Themen der
@@ -1023,56 +1011,54 @@
                <lb facs="#facs_1_region_1684683513439_1721_tl_32" n="N033"/>frühere Venusberg-Musik, das sinnlich Berauschendste und
                <lb facs="#facs_1_region_1684683513439_1721_tl_33" n="N034"/>Gewagteste, was bis dahin auf der Bühne erlebt war, ist
                <lb facs="#facs_1_region_1684683513439_1721_tl_34" n="N035"/>eine bürgerliche Sonntagsunterhaltung gegen dieses neue
-               <lb facs="#facs_1_region_1684683513439_1721_tl_35" n="N036"/>Bacchanale von Nymphen und Faunen. Solch zügellose Ent¬
-            </p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1684683516612_1724_tl_1" n="N001"/>fesselung der Begierden, wie sie hier in den Massen-Evolu¬
-               <lb facs="#facs_1_region_1684683516612_1724_tl_2" n="N002"/>tionen grinsender und ächzender Liebespaare sich producirt,
+               <lb facs="#facs_1_region_1684683513439_1721_tl_35" n="N036"/>Bacchanale von Nymphen und Faunen. Solch zügellose Ent</p>
+            <cb n="2"/>
+            <p prev="true">
+               <lb facs="#facs_1_region_1684683516612_1724_tl_1" n="N001" break="no"/>fesselung der Begierden, wie sie hier in den Massen-Evolu
+               <lb facs="#facs_1_region_1684683516612_1724_tl_2" n="N002" break="no"/>tionen grinsender und ächzender Liebespaare sich producirt,
                <lb facs="#facs_1_region_1684683516612_1724_tl_3" n="N003"/>dürfte selbst für den liberalsten Geschmack zu weit gehen.
                <lb facs="#facs_1_region_1684683516612_1724_tl_4" n="N004"/>Sie ist geradezu unästhetisch. Während dieses getanzten oder
                <lb facs="#facs_1_region_1684683516612_1724_tl_5" n="N005"/>gerasten Wollusttaumels sind natürlich alle Instrumente in
                <lb facs="#facs_1_region_1684683516612_1724_tl_6" n="N006"/>Aufruhr, selbst Castagnetten klappern drein. Einige in den
                <lb facs="#facs_1_region_1684683516612_1724_tl_7" n="N007"/>Tanz eingefügte allegorische Velleitäten dünken uns keine
-               <lb facs="#facs_1_region_1684683516612_1724_tl_8" n="N008"/>glückliche Zugabe; theils sind sie nicht hinreichend verständ¬
-               <lb facs="#facs_1_region_1684683516612_1724_tl_9" n="N009"/>lich, theils sind sie es zu sehr. Zur ersten Kategorie gehören
+               <lb facs="#facs_1_region_1684683516612_1724_tl_8" n="N008"/>glückliche Zugabe; theils sind sie nicht hinreichend verständ
+               <lb facs="#facs_1_region_1684683516612_1724_tl_9" n="N009" break="no"/>lich, theils sind sie es zu sehr. Zur ersten Kategorie gehören
                <lb facs="#facs_1_region_1684683516612_1724_tl_10" n="N010"/>drei mit den Beinen telegraphirende, dann aber das Gesicht
                <lb facs="#facs_1_region_1684683516612_1724_tl_11" n="N011"/>schamhaft verhüllende Solotänzerinnen, unter welchen „die
-               <lb facs="#facs_1_region_1684683516612_1724_tl_12" n="N012"/>drei Grazien“ verstanden sein sollen. Zur zweiten: die Er¬
-               <lb facs="#facs_1_region_1684683516612_1724_tl_13" n="N013"/>scheinung des gewaltigen Schwanes mit beweglichem Hals
-               <lb facs="#facs_1_region_1684683516612_1724_tl_14" n="N014"/>und Fittig, welcher eine schmachtend hingegossene <rs type="person">Leda</rs> immer
-               <lb facs="#facs_1_region_1684683516612_1724_tl_15" n="N015"/>dringender umschnäbelt. Es wäre an den menschlichen Cour¬
-               <lb facs="#facs_1_region_1684683516612_1724_tl_16" n="N016"/>machern, zu welchen wir die vier im Vordergrunde cancani¬
-               <lb facs="#facs_1_region_1684683516612_1724_tl_17" n="N017"/>renden Faune mit Bocksfüßen nur ungern zählen, wahrlich
+               <lb facs="#facs_1_region_1684683516612_1724_tl_12" n="N012"/>drei Grazien“ verstanden sein sollen. Zur zweiten: die Er
+               <lb facs="#facs_1_region_1684683516612_1724_tl_13" n="N013" break="no"/>scheinung des gewaltigen Schwanes mit beweglichem Hals
+               <lb facs="#facs_1_region_1684683516612_1724_tl_14" n="N014"/>und Fittig, welcher eine schmachtend hingegossene <rs type="person" ref="#hsl_person_id_5079">Leda</rs> immer
+               <lb facs="#facs_1_region_1684683516612_1724_tl_15" n="N015"/>dringender umschnäbelt. Es wäre an den menschlichen Cour
+               <lb facs="#facs_1_region_1684683516612_1724_tl_16" n="N016" break="no"/>machern, zu welchen wir die vier im Vordergrunde cancani
+               <lb facs="#facs_1_region_1684683516612_1724_tl_17" n="N017" break="no"/>renden Faune mit Bocksfüßen nur ungern zählen, wahrlich
                <lb facs="#facs_1_region_1684683516612_1724_tl_18" n="N018"/>genug gewesen.
-               <lb facs="#facs_1_region_1684683516612_1724_tl_19" n="N019"/>Nicht blos die Tänze im Venusberg, auch die gesun¬
-               <lb facs="#facs_1_region_1684683516612_1724_tl_20" n="N020"/>genen Scenen zwischen <rs type="person">Venus</rs> und <rs type="person">Tannhäuser</rs> sind wesent¬
-               <lb facs="#facs_1_region_1684683516612_1724_tl_21" n="N021"/>lich erweitert. Voll feiner, geistreicher Züge, interessiren alle
+            </p><p>
+               <lb facs="#facs_1_region_1684683516612_1724_tl_19" n="N019"/>Nicht blos die Tänze im Venusberg, auch die gesun
+               <lb facs="#facs_1_region_1684683516612_1724_tl_20" n="N020" break="no"/>genen Scenen zwischen <rs type="person" ref="#hsl_person_id_667">Venus</rs> und <rs type="person" ref="#hsl_person_id_663">Tannhäuser</rs> sind wesent
+               <lb facs="#facs_1_region_1684683516612_1724_tl_21" n="N021" break="no"/>lich erweitert. Voll feiner, geistreicher Züge, interessiren alle
                <lb facs="#facs_1_region_1684683516612_1724_tl_22" n="N022"/>diese Zuthaten den Musiker noch speciell durch den neuen,
-               <lb facs="#facs_1_region_1684683516612_1724_tl_23" n="N023"/>ganz dem „<rs type="bibl">Tristan</rs>“ und den „<rs type="bibl">Meistersingern</rs>“ angehören¬
-               <lb facs="#facs_1_region_1684683516612_1724_tl_24" n="N024"/>den Styl, dessen unendliche Melodie hier in die einfachere,
-               <lb facs="#facs_1_region_1684683516612_1724_tl_25" n="N025"/>ältere Ausdrucksweise <rs type="person">Wagner</rs>'s hineinwächst, allerdings ohne
-               <lb facs="#facs_1_region_1684683516612_1724_tl_26" n="N026"/>sich recht organisch damit zu verbinden. Ob die gegenwär¬
-               <lb facs="#facs_1_region_1684683516612_1724_tl_27" n="N027"/>tige weitere Ausführung und Individualisirung der <rs type="person">Venus</rs>-
+               <lb facs="#facs_1_region_1684683516612_1724_tl_23" n="N023"/>ganz dem „<rs type="bibl" ref="#hsl_work_id_417">Tristan</rs>“ und den „<rs type="bibl" ref="#hsl_work_id_217">Meistersingern</rs>“ angehören
+               <lb facs="#facs_1_region_1684683516612_1724_tl_24" n="N024" break="no"/>den Styl, dessen unendliche Melodie hier in die einfachere,
+               <lb facs="#facs_1_region_1684683516612_1724_tl_25" n="N025"/>ältere Ausdrucksweise <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s hineinwächst, allerdings ohne
+               <lb facs="#facs_1_region_1684683516612_1724_tl_26" n="N026"/>sich recht organisch damit zu verbinden. Ob die gegenwär
+               <lb facs="#facs_1_region_1684683516612_1724_tl_27" n="N027" break="no"/>tige weitere Ausführung und Individualisirung der <rs type="person" ref="#hsl_person_id_667">Venus</rs>-
                <lb facs="#facs_1_region_1684683516612_1724_tl_28" n="N028"/>Rolle dramatisch nothwendig war, scheint uns fraglich. Frau
-               <lb facs="#facs_1_region_1684683516612_1724_tl_29" n="N029"/>
-               <rs type="person">Venus</rs> ist und bleibt eine „Teufeline“, die in der früheren
-               <lb facs="#facs_1_region_1684683516612_1724_tl_30" n="N030"/>skizzenhaften Behandlung <rs type="person">Wagner</rs>'s deutlich genug hervor¬
-               <lb facs="#facs_1_region_1684683516612_1724_tl_31" n="N031"/>trat, während sie jetzt, abwechselnd bittend, flehend, drohend,
-               <lb facs="#facs_1_region_1684683516612_1724_tl_32" n="N032"/>bereuend, allzu menschlich sentimental wird, mehr eine trost¬
-               <lb facs="#facs_1_region_1684683516612_1724_tl_33" n="N033"/>lose <rs type="person">Donna Elvira</rs> in ihrer Sehnsucht nach dem Einzig¬
-               <lb facs="#facs_1_region_1684683516612_1724_tl_34" n="N034"/>geliebten, als eine dämonische Allerwelts-Verführerin. Zahl¬
-               <lb facs="#facs_1_region_1684683516612_1724_tl_35" n="N035"/>reiche kleine Abänderungen des früheren Materials wecken
-               <lb facs="#facs_1_region_1684683516612_1724_tl_36" n="N036"/>in dieser Scene die vergleichende Aufmerksamkeit des Mu¬
-               <lb facs="#facs_1_region_1684683516612_1724_tl_37" n="N037"/>sikers, so zum Beispiel die Herabsetzung des <rs type="person">Tannhäuser</rs>-
+               <lb facs="#facs_1_region_1684683516612_1724_tl_29" n="N029"/><rs type="person" ref="#hsl_person_id_667">Venus</rs> ist und bleibt eine „Teufeline“, die in der früheren
+               <lb facs="#facs_1_region_1684683516612_1724_tl_30" n="N030"/>skizzenhaften Behandlung <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s deutlich genug hervor
+               <lb facs="#facs_1_region_1684683516612_1724_tl_31" n="N031" break="no"/>trat, während sie jetzt, abwechselnd bittend, flehend, drohend,
+               <lb facs="#facs_1_region_1684683516612_1724_tl_32" n="N032"/>bereuend, allzu menschlich sentimental wird, mehr eine trost
+               <lb facs="#facs_1_region_1684683516612_1724_tl_33" n="N033" break="no"/>lose <rs type="person" ref="#hsl_person_id_1475">Donna Elvira</rs> in ihrer Sehnsucht nach dem Einzig
+               <lb facs="#facs_1_region_1684683516612_1724_tl_34" n="N034" break="no"/>geliebten, als eine dämonische Allerwelts-Verführerin. Zahl
+               <lb facs="#facs_1_region_1684683516612_1724_tl_35" n="N035" break="no"/>reiche kleine Abänderungen des früheren Materials wecken
+               <lb facs="#facs_1_region_1684683516612_1724_tl_36" n="N036"/>in dieser Scene die vergleichende Aufmerksamkeit des Mu
+               <lb facs="#facs_1_region_1684683516612_1724_tl_37" n="N037" break="no"/>sikers, so zum Beispiel die Herabsetzung des <rs type="person" ref="#hsl_person_id_663">Tannhäuser</rs>-
                <lb facs="#facs_1_region_1684683516612_1724_tl_38" n="N038"/>Liedes von Des-dur nach D, das Accompagnement seiner
-               <lb facs="#facs_1_line_1749617147755_57" n="N039"/>dritten Strophe durch nervöse Synkopen, statt der früheren
-            </p>
-            <cb n="4"/>
-            <p>
+               <lb facs="#facs_1_line_1749617147755_57" n="N039"/>dritten Strophe durch nervöse Synkopen, statt der früheren<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
                <lb facs="#facs_1_region_1684683519716_1727_tl_1" n="N001"/>gleichen Achtelnoten, die Aenderung des Tactes in
                <lb facs="#facs_1_region_1684683519716_1727_tl_2" n="N002"/>„Naht euch dem Lande!“, dann in der Melodie
-               <lb facs="#facs_1_region_1684683519716_1727_tl_3" n="N003"/>der <rs type="person">Venus</rs>: „Geliebter, komm'!“ (drei Viertel statt
+               <lb facs="#facs_1_region_1684683519716_1727_tl_3" n="N003"/>der <rs type="person" ref="#hsl_person_id_667">Venus</rs>: „Geliebter, komm’!“ (drei Viertel statt
                <lb facs="#facs_1_region_1684683519716_1727_tl_4" n="N004"/>vier Viertel), welche jetzt schmeichelnde Flöten-Arpeggien
                <lb facs="#facs_1_line_1749617071784_37" n="N005"/>umspielen u. s. w. Mit dieser ganz umgearbeiteten, zu mehr
                <lb facs="#facs_1_region_1684683519716_1727_tl_5" n="N006"/>als doppeltem Umfange erweiterten Scene im Venusberg ist
@@ -1080,234 +1066,194 @@
                <lb facs="#facs_1_region_1684683519716_1727_tl_7" n="N008"/>wenige kleine, meist glücklich erdachte Details sind neu im
                <lb facs="#facs_1_region_1684683519716_1727_tl_8" n="N009"/>weiteren Verlauf der Oper, wie das verlängerte Vor- und
                <lb facs="#facs_1_region_1684683519716_1727_tl_9" n="N010"/>Zwischenspiel des Englischhorns zu dem Hirtenlied und die
-               <lb facs="#facs_1_region_1684683519716_1727_tl_10" n="N011"/>scharf einschneidende Violinfigur nach <rs type="person">Tannhäuser</rs>'s Ausruf:
-               <lb facs="#facs_1_region_1684683519716_1727_tl_11" n="N012"/>„Nach <rs type="place">Rom</rs>!“ im zweiten Finale. Alles Uebrige, was wir
-               <lb facs="#facs_1_region_1684683519716_1727_tl_12" n="N013"/>in der jüngsten „<rs type="bibl">Tannhäuser</rs>“-Vorstellung zum erstenmal
-               <lb facs="#facs_1_region_1684683519716_1727_tl_13" n="N014"/>hörten, ist nicht neu componirt, sondern aus der ursprüng¬
-               <lb facs="#facs_1_region_1684683519716_1727_tl_14" n="N015"/>lichen Partitur durch Tilgung der üblichen, damals von
-               <lb facs="#facs_1_region_1684683519716_1727_tl_15" n="N016"/>
-               <rs type="person">Wagner</rs> selbst angegebenen „Striche“ wiederhergestellt. Da¬
-               <lb facs="#facs_1_region_1684683519716_1727_tl_16" n="N017"/>hin gehört im ersten Acte die zweite Strophe des <rs type="person">Tann¬</rs>
-               <lb facs="#facs_1_region_1684683519716_1727_tl_17" n="N018"/>
-               <rs type="person">häuser</rs>-Liedes, von dem früher nur die erste und dritte
+               <lb facs="#facs_1_region_1684683519716_1727_tl_10" n="N011"/>scharf einschneidende Violinfigur nach <rs type="person" ref="#hsl_person_id_663">Tannhäuser</rs>’s Ausruf:
+               <lb facs="#facs_1_region_1684683519716_1727_tl_11" n="N012"/>„Nach <rs type="place" ref="#hsl_place_id_47">Rom</rs>!“ im zweiten Finale. Alles Uebrige, was wir
+               <lb facs="#facs_1_region_1684683519716_1727_tl_12" n="N013"/>in der jüngsten „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“-Vorstellung zum erstenmal
+               <lb facs="#facs_1_region_1684683519716_1727_tl_13" n="N014"/>hörten, ist nicht neu componirt, sondern aus der ursprüng
+               <lb facs="#facs_1_region_1684683519716_1727_tl_14" n="N015" break="no"/>lichen Partitur durch Tilgung der üblichen, damals von
+               <lb facs="#facs_1_region_1684683519716_1727_tl_15" n="N016"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> selbst angegebenen „Striche“ wiederhergestellt. Da
+               <lb facs="#facs_1_region_1684683519716_1727_tl_16" n="N017" break="no"/>hin gehört im ersten Acte die zweite Strophe des <rs type="person" ref="#hsl_person_id_663">Tann
+               <lb facs="#facs_1_region_1684683519716_1727_tl_17" n="N018" break="no"/>häuser</rs>-Liedes, von dem früher nur die erste und dritte
                <lb facs="#facs_1_region_1684683519716_1727_tl_18" n="N019"/>gesungen wurden, dann beim Abzug der Jagd im Finale
                <lb facs="#facs_1_region_1684683519716_1727_tl_19" n="N020"/>ein kurzes, lebhaftes Nachspiel mit zwölf Waldhörnern auf
                <lb facs="#facs_1_region_1684683519716_1727_tl_20" n="N021"/>der Bühne. Im zweiten Act erscheint das Liebesduett
-               <lb facs="#facs_1_region_1684683519716_1727_tl_21" n="N022"/>zwischen <rs type="person">Tannhäuser</rs> und <rs type="person">Elisabeth</rs> (keine Perle der Oper)
+               <lb facs="#facs_1_region_1684683519716_1727_tl_21" n="N022"/>zwischen <rs type="person" ref="#hsl_person_id_663">Tannhäuser</rs> und <rs type="person" ref="#hsl_person_id_522">Elisabeth</rs> (keine Perle der Oper)
                <lb facs="#facs_1_region_1684683519716_1727_tl_22" n="N023"/>ansehnlich verlängert durch Wiederaufnahme einer Stelle bei
-               <lb facs="#facs_1_region_1684683519716_1727_tl_23" n="N024"/>
-               <rs type="person">Wolfram</rs>'s Dazutreten („So flieht für dieses Leben“). Be¬
-               <lb facs="#facs_1_region_1684683519716_1727_tl_24" n="N025"/>deutender sind die Restitutionen im Finale dieses Actes.
-               <lb facs="#facs_1_region_1684683519716_1727_tl_25" n="N026"/>
-               <rs type="person">Tannhäuser</rs> singt jetzt die Stelle: „Zum Heil den Sündi¬
-               <lb facs="#facs_1_region_1684683519716_1727_tl_26" n="N027"/>gen zu führen“, jedoch Solo, ohne die abgerissenen Da¬
-               <lb facs="#facs_1_region_1684683519716_1727_tl_27" n="N028"/>zwischenreden der Ritter. Auf diese schwierig auszuführende
+               <lb facs="#facs_1_region_1684683519716_1727_tl_23" n="N024"/><rs type="person" ref="#hsl_person_id_671">Wolfram</rs>’s Dazutreten („So flieht für dieses Leben“). Be
+               <lb facs="#facs_1_region_1684683519716_1727_tl_24" n="N025" break="no"/>deutender sind die Restitutionen im Finale dieses Actes.
+               <lb facs="#facs_1_region_1684683519716_1727_tl_25" n="N026"/><rs type="person" ref="#hsl_person_id_663">Tannhäuser</rs> singt jetzt die Stelle: „Zum Heil den Sündi
+               <lb facs="#facs_1_region_1684683519716_1727_tl_26" n="N027" break="no"/>gen zu führen“, jedoch Solo, ohne die abgerissenen Da
+               <lb facs="#facs_1_region_1684683519716_1727_tl_27" n="N028" break="no"/>zwischenreden der Ritter. Auf diese schwierig auszuführende
                <lb facs="#facs_1_region_1684683519716_1727_tl_28" n="N029"/>und leicht störende Art von Chorbegleitung verzichtet der
                <lb facs="#facs_1_region_1684683519716_1727_tl_29" n="N030"/>Componist jetzt auch weislich bei der zweiten hier wieder
-               <lb facs="#facs_1_line_1749617117707_50" n="N031"/>aufgenommenen Stelle, dem H-dur-Satz <rs type="person">Elisabeth</rs>'s: „Lass'
-               <lb facs="#facs_1_region_1684683519716_1727_tl_32" n="N032"/>hin zu dir ihn wallen.“ Im dritten Act ist das bisher ge¬
-               <lb facs="#facs_1_region_1684683519716_1727_tl_33" n="N033"/>kürzte Gebet der <rs type="person">Elisabeth</rs> zu seiner vollen Länge wieder
-               <lb facs="#facs_1_region_1684683519716_1727_tl_34" n="N034"/>hergestellt und die Schlußscene durch einen nachträglich ein¬
-               <lb facs="#facs_1_region_1684683519716_1727_tl_35" n="N035"/>gefügten Chor der jüngeren Pilger (Sopran- und Alt¬
-               <lb facs="#facs_1_region_1684683519716_1727_tl_36" n="N036"/>stimmen) erheblich verlängert.
-               <lb facs="#facs_1_region_1684683519716_1727_tl_37" n="N037"/>Richard <rs type="person">Wagner</rs> gibt uns im fünften Band seiner „<rs type="bibl">Ge¬</rs>
-               <lb facs="#facs_1_region_1684683519716_1727_tl_38" n="N038"/>
-               <rs type="bibl">sammelten Schriften</rs>“ ausführliche Mittheilung über die Be¬
-               <lb facs="#facs_1_region_1684683519716_1727_tl_39" n="N039"/>deutung dieser gestrichenen Stellen, deren unverkürzte Wieder¬
-            </p>
+               <lb facs="#facs_1_line_1749617117707_50" n="N031"/>aufgenommenen Stelle, dem H-dur-Satz <rs type="person" ref="#hsl_person_id_522">Elisabeth</rs>’s: „Lass’
+               <lb facs="#facs_1_region_1684683519716_1727_tl_32" n="N032"/>hin zu dir ihn wallen.“ Im dritten Act ist das bisher ge
+               <lb facs="#facs_1_region_1684683519716_1727_tl_33" n="N033" break="no"/>kürzte Gebet der <rs type="person" ref="#hsl_person_id_522">Elisabeth</rs> zu seiner vollen Länge wieder
+               <lb facs="#facs_1_region_1684683519716_1727_tl_34" n="N034"/>hergestellt und die Schlußscene durch einen nachträglich ein
+               <lb facs="#facs_1_region_1684683519716_1727_tl_35" n="N035" break="no"/>gefügten Chor der jüngeren Pilger (Sopran- und Alt
+               <lb facs="#facs_1_region_1684683519716_1727_tl_36" n="N036" break="no"/>stimmen) erheblich verlängert.
+            </p><p>
+               <lb facs="#facs_1_region_1684683519716_1727_tl_37" n="N037"/>Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> gibt uns im fünften Band seiner „<rs type="bibl" ref="#hsl_work_id_3376">Ge
+               <lb facs="#facs_1_region_1684683519716_1727_tl_38" n="N038" break="no"/>sammelten Schriften</rs>“ ausführliche Mittheilung über die Be
+               <lb facs="#facs_1_region_1684683519716_1727_tl_39" n="N039" break="no"/>deutung dieser gestrichenen Stellen, deren unverkürzte Wieder</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684683542542_1733_tl_1" n="N001"/>aufnahme er nun „streng fordert“. Die eine Scene habe er
-               <lb facs="#facs_2_region_1684683542542_1733_tl_2" n="N002"/>dazumal in <rs type="place">Dresden</rs> wegen einer mittelmäßigen Darstellerin
-               <lb facs="#facs_2_region_1684683542542_1733_tl_3" n="N003"/>der <rs type="person">Venus</rs>, die andere wegen des unzureichenden dramati¬
-               <lb facs="#facs_2_region_1684683542542_1733_tl_4" n="N004"/>schen Talents seines ersten „<rs type="person">Tannhäuser</rs>“ streichen müssen;
+            <cb n="4"/>
+            <p prev="true">
+               <lb facs="#facs_2_region_1684683542542_1733_tl_1" n="N001" break="no"/>aufnahme er nun „streng fordert“. Die eine Scene habe er
+               <lb facs="#facs_2_region_1684683542542_1733_tl_2" n="N002"/>dazumal in <rs type="place" ref="#hsl_place_id_15">Dresden</rs> wegen einer mittelmäßigen Darstellerin
+               <lb facs="#facs_2_region_1684683542542_1733_tl_3" n="N003"/>der <rs type="person" ref="#hsl_person_id_667">Venus</rs>, die andere wegen des unzureichenden dramati
+               <lb facs="#facs_2_region_1684683542542_1733_tl_4" n="N004" break="no"/>schen Talents seines ersten „<rs type="person" ref="#hsl_person_id_663">Tannhäuser</rs>“ streichen müssen;
                <lb facs="#facs_2_region_1684683542542_1733_tl_5" n="N005"/>nun jene Ursachen entfallen seien, hätten auch die Kürzungen
                <lb facs="#facs_2_region_1684683542542_1733_tl_6" n="N006"/>keinen Sinn und keine Berechtigung mehr. Unseres Wissens
-               <lb facs="#facs_2_region_1684683542542_1733_tl_7" n="N007"/>haben jene Ursachen in <rs type="place">Wien</rs> und auf anderen Bühnen über¬
-               <lb facs="#facs_2_region_1684683542542_1733_tl_8" n="N008"/>haupt nicht gewaltet, und der einzige Grund der Kürzungen
+               <lb facs="#facs_2_region_1684683542542_1733_tl_7" n="N007"/>haben jene Ursachen in <rs type="place" ref="#hsl_place_id_55">Wien</rs> und auf anderen Bühnen über
+               <lb facs="#facs_2_region_1684683542542_1733_tl_8" n="N008" break="no"/>haupt nicht gewaltet, und der einzige Grund der Kürzungen
                <lb facs="#facs_2_region_1684683542542_1733_tl_9" n="N009"/>war die übermäßige Länge der Oper. Dieser Grund ist
                <lb facs="#facs_2_region_1684683542542_1733_tl_10" n="N010"/>aber nicht hinweggefallen. Wir begreifen den Verdruß,
-               <lb facs="#facs_2_region_1684683542542_1733_tl_11" n="N011"/>welchen ein Autor über die Kürzungen seines Werkes empfin¬
-               <lb facs="#facs_2_region_1684683542542_1733_tl_12" n="N012"/>det — er will seine Ideen vollständig realisirt sehen und
+               <lb facs="#facs_2_region_1684683542542_1733_tl_11" n="N011"/>welchen ein Autor über die Kürzungen seines Werkes empfin
+               <lb facs="#facs_2_region_1684683542542_1733_tl_12" n="N012" break="no"/>det — er will seine Ideen vollständig realisirt sehen und
                <lb facs="#facs_2_region_1684683542542_1733_tl_13" n="N013"/>nicht so und so viel Seiten Partitur umsonst geschrieben
                <lb facs="#facs_2_region_1684683542542_1733_tl_14" n="N014"/>haben. Aber verdient nicht auch der Verdruß der Theater-
                <lb facs="#facs_2_region_1684683542542_1733_tl_15" n="N015"/>Directoren einiges Mitgefühl? „Streicht nicht!“ rufen die
-               <lb facs="#facs_2_region_1684683542542_1733_tl_16" n="N016"/>Opern-Componisten. „Setzt uns nicht in die fatale Noth¬
-               <lb facs="#facs_2_region_1684683542542_1733_tl_17" n="N017"/>wendigkeit, streichen zu müssen!“ erwidern die Directoren. In
+               <lb facs="#facs_2_region_1684683542542_1733_tl_16" n="N016"/>Opern-Componisten. „Setzt uns nicht in die fatale Noth
+               <lb facs="#facs_2_region_1684683542542_1733_tl_17" n="N017" break="no"/>wendigkeit, streichen zu müssen!“ erwidern die Directoren. In
                <lb facs="#facs_2_region_1684683542542_1733_tl_18" n="N018"/>der That bleibt es schwer begreiflich, wie selbst die gewitzigtesten
                <lb facs="#facs_2_region_1684683542542_1733_tl_19" n="N019"/>Componisten durch übermäßige Ausdehnung ihrer Opern
                <lb facs="#facs_2_region_1684683542542_1733_tl_20" n="N020"/>immer wieder gegen ihr eigenes Fleisch wüthen. Wird denn
-               <lb facs="#facs_2_region_1684683542542_1733_tl_21" n="N021"/>irgend eine der großen Opern von <rs type="person">Meyerbeer</rs>, <rs type="person">Halévy</rs> und
-               <lb facs="#facs_2_region_1684683542542_1733_tl_22" n="N022"/>
-               <rs type="person">Gounod</rs> unverkürzt gegeben? Nicht einmal in <rs type="place">Paris</rs>, wo
-               <lb facs="#facs_2_region_1684683542542_1733_tl_23" n="N023"/>man doch an viel längere Theater-Abende als bei uns ge¬
-               <lb facs="#facs_2_region_1684683542542_1733_tl_24" n="N024"/>wöhnt ist. <rs type="person">Wagner</rs> gab ein wohlthätiges Beispiel, indem er
-               <lb facs="#facs_2_region_1684683542542_1733_tl_25" n="N025"/>(nach dem „<rs type="bibl">Rienzi</rs>“) die fünfactige Oper definitiv aufgab
+               <lb facs="#facs_2_region_1684683542542_1733_tl_21" n="N021"/>irgend eine der großen Opern von <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>, <rs type="person" ref="#hsl_person_id_106">Halévy</rs> und
+               <lb facs="#facs_2_region_1684683542542_1733_tl_22" n="N022"/><rs type="person" ref="#hsl_person_id_102">Gounod</rs> unverkürzt gegeben? Nicht einmal in <rs type="place" ref="#hsl_place_id_44">Paris</rs>, wo
+               <lb facs="#facs_2_region_1684683542542_1733_tl_23" n="N023"/>man doch an viel längere Theater-Abende als bei uns ge
+               <lb facs="#facs_2_region_1684683542542_1733_tl_24" n="N024" break="no"/>wöhnt ist. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> gab ein wohlthätiges Beispiel, indem er
+               <lb facs="#facs_2_region_1684683542542_1733_tl_25" n="N025"/>(nach dem „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“) die fünfactige Oper definitiv aufgab
                <lb facs="#facs_2_region_1684683542542_1733_tl_26" n="N026"/>und zur dreiactigen zurückkehrte. Aber diese drei Acte dehnt
                <lb facs="#facs_2_region_1684683542542_1733_tl_27" n="N027"/>auch er über die normale Empfänglichkeitsgrenze selbst des
                <lb facs="#facs_2_region_1684683542542_1733_tl_28" n="N028"/>theilnehmendsten Publicums aus. Zwang ihn nicht die
-               <lb facs="#facs_2_region_1684683542542_1733_tl_29" n="N029"/>Riesenlänge seines „<rs type="bibl">Rienzi</rs>“, nachträglich selbst die Partitur
+               <lb facs="#facs_2_region_1684683542542_1733_tl_29" n="N029"/>Riesenlänge seines „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“, nachträglich selbst die Partitur
                <lb facs="#facs_2_region_1684683542542_1733_tl_30" n="N030"/>um ein gutes Drittheil zu kürzen? Nützt es dem Eindruck
-               <lb facs="#facs_2_region_1684683542542_1733_tl_31" n="N031"/>der „<rs type="bibl">Meistersinger</rs>“, daß bei vollständiger Aufführung die
+               <lb facs="#facs_2_region_1684683542542_1733_tl_31" n="N031"/>der „<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“, daß bei vollständiger Aufführung die
                <lb facs="#facs_2_region_1684683542542_1733_tl_32" n="N032"/>Zuhörer, todmüde, den schönsten Theil des Werkes (die
                <lb facs="#facs_2_region_1684683542542_1733_tl_33" n="N033"/>zweite Hälfte des letzten Actes) nicht mehr zu verfolgen und
                <lb facs="#facs_2_region_1684683542542_1733_tl_34" n="N034"/>zu genießen im Stande sind? Und haben wir nicht erst
-               <lb facs="#facs_2_region_1684683542542_1733_tl_35" n="N035"/>gestern im „<rs type="bibl">Tannhäuser</rs>“ wieder dieselbe Wahrnehmung
+               <lb facs="#facs_2_region_1684683542542_1733_tl_35" n="N035"/>gestern im „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ wieder dieselbe Wahrnehmung
                <lb facs="#facs_2_region_1684683542542_1733_tl_36" n="N036"/>gemacht, daß ein ansehnlicher Theil des Publicums sich um
                <lb facs="#facs_2_region_1684683542542_1733_tl_37" n="N037"/>zehn Uhr entfernte, trotz des Respectes vor dem anwesenden
-               <lb facs="#facs_2_region_1684683542542_1733_tl_38" n="N038"/>Meister?
-            </p>
-            <cb n="6"/>
+               <lb facs="#facs_2_region_1684683542542_1733_tl_38" n="N038"/>Meister?</p>
+            <cb n="5"/>
             <p>
-               <lb facs="#facs_2_region_1684683545997_1736_tl_1" n="N001"/>Was die restituirten Partien des „<rs type="bibl">Tannhäuser</rs>“ be¬
-               <lb facs="#facs_2_region_1684683545997_1736_tl_2" n="N002"/>trifft, so will uns ihre vom Componisten verfochtene Unent¬
-               <lb facs="#facs_2_region_1684683545997_1736_tl_3" n="N003"/>behrlichkeit nicht überall gleichmäßig einleuchten. Sei es um
+               <lb facs="#facs_2_region_1684683545997_1736_tl_1" n="N001"/>Was die restituirten Partien des „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ be
+               <lb facs="#facs_2_region_1684683545997_1736_tl_2" n="N002" break="no"/>trifft, so will uns ihre vom Componisten verfochtene Unent
+               <lb facs="#facs_2_region_1684683545997_1736_tl_3" n="N003" break="no"/>behrlichkeit nicht überall gleichmäßig einleuchten. Sei es um
                <lb facs="#facs_2_region_1684683545997_1736_tl_4" n="N004"/>das wenige Secunden dauernde lebhafte Nachspiel zum ersten
                <lb facs="#facs_2_region_1684683545997_1736_tl_5" n="N005"/>Finale, sei es um die dramatisch motivirten und musikalisch
-               <lb facs="#facs_2_region_1684683545997_1736_tl_6" n="N006"/>wirksamen Stellen <rs type="person">Tannhäuser</rs>'s und <rs type="person">Elisabeth</rs>'s im Finale
-               <lb facs="#facs_2_line_1749617209875_66" n="N007"/>des zweiten Actes. Wenn aber <rs type="person">Wagner</rs> die Weglassung einer
-               <lb facs="#facs_2_region_1684683545997_1736_tl_7" n="N008"/>von den drei Strophen des <rs type="person">Tannhäuser</rs>-Liedes im ersten
+               <lb facs="#facs_2_region_1684683545997_1736_tl_6" n="N006"/>wirksamen Stellen <rs type="person" ref="#hsl_person_id_663">Tannhäuser</rs>’s und <rs type="person" ref="#hsl_person_id_522">Elisabeth</rs>’s im Finale
+               <lb facs="#facs_2_line_1749617209875_66" n="N007"/>des zweiten Actes. Wenn aber <rs type="person" ref="#hsl_person_id_319">Wagner</rs> die Weglassung einer
+               <lb facs="#facs_2_region_1684683545997_1736_tl_7" n="N008"/>von den drei Strophen des <rs type="person" ref="#hsl_person_id_663">Tannhäuser</rs>-Liedes im ersten
                <lb facs="#facs_2_region_1684683545997_1736_tl_8" n="N009"/>Act so sinnlos findet, daß er „weit eher dazu rathen möchte,
                <lb facs="#facs_2_region_1684683545997_1736_tl_9" n="N010"/>die Aufführung <hi rendition="#em">der ganzen Oper</hi> aufzugeben“, so kann
                <lb facs="#facs_2_region_1684683545997_1736_tl_10" n="N011"/>wol Niemand dieser starken Uebertreibung beipflichten. Wir
                <lb facs="#facs_2_region_1684683545997_1736_tl_11" n="N012"/>haben uns bisher, ohne das geringste Mißverständniß dieser
-               <lb facs="#facs_2_region_1684683545997_1736_tl_12" n="N013"/>Scene, vollkommen damit begnügt, das <rs type="person">Tannhäuser</rs>-Lied
-               <lb facs="#facs_2_region_1684683545997_1736_tl_13" n="N014"/>(wol die banalste Melodie, welche <rs type="person">Wagner</rs> je geschrieben)
+               <lb facs="#facs_2_region_1684683545997_1736_tl_12" n="N013"/>Scene, vollkommen damit begnügt, das <rs type="person" ref="#hsl_person_id_663">Tannhäuser</rs>-Lied
+               <lb facs="#facs_2_region_1684683545997_1736_tl_13" n="N014"/>(wol die banalste Melodie, welche <rs type="person" ref="#hsl_person_id_319">Wagner</rs> je geschrieben)
                <lb facs="#facs_2_region_1684683545997_1736_tl_14" n="N015"/>statt dreimal nur zweimal zu hören. Ebenso zweifelhaft
-               <lb facs="#facs_2_region_1684683545997_1736_tl_15" n="N016"/>erscheint der Gewinn, den <rs type="person">Wagner</rs> durch die Ver¬
-               <lb facs="#facs_2_line_1749617438610_119" n="N017"/>längerung von <rs type="person">Elisabeth</rs>'s Gebet uns verspricht. Die
+               <lb facs="#facs_2_region_1684683545997_1736_tl_15" n="N016"/>erscheint der Gewinn, den <rs type="person" ref="#hsl_person_id_319">Wagner</rs> durch die Ver
+               <lb facs="#facs_2_line_1749617438610_119" n="N017" break="no"/>längerung von <rs type="person" ref="#hsl_person_id_522">Elisabeth</rs>’s Gebet uns verspricht. Die
                <lb facs="#facs_2_region_1684683545997_1736_tl_16" n="N018"/>monotone Rhythmik und feierlich schleppende Melodie
                <lb facs="#facs_2_region_1684683545997_1736_tl_17" n="N019"/>dieses Gesanges wirkt, auf das Doppelte ihrer früheren
-               <lb facs="#facs_2_region_1684683545997_1736_tl_18" n="N020"/>Länge ausgedehnt, ungemein ermüdend. „Die todesduf¬
-               <lb facs="#facs_2_region_1684683545997_1736_tl_19" n="N021"/>tige Blume“, wie <rs type="person">Wagner</rs> das Pathos der <rs type="person">Elisabeth</rs>
+               <lb facs="#facs_2_region_1684683545997_1736_tl_18" n="N020"/>Länge ausgedehnt, ungemein ermüdend. „Die todesduf
+               <lb facs="#facs_2_region_1684683545997_1736_tl_19" n="N021" break="no"/>tige Blume“, wie <rs type="person" ref="#hsl_person_id_319">Wagner</rs> das Pathos der <rs type="person" ref="#hsl_person_id_522">Elisabeth</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_2_region_1684683545997_1736_tl_20" n="N022"/>nennt, entfaltet sich hier zur todesduftigen Langweile. Man
-               <lb facs="#facs_2_region_1684683545997_1736_tl_21" n="N023"/>darf nicht vergessen, daß diesem langen Adagio lauter lang¬
-               <lb facs="#facs_2_region_1684683545997_1736_tl_22" n="N024"/>same, schwermüthige Musikstücke vorangehen und nachfolgen.
+               <lb facs="#facs_2_region_1684683545997_1736_tl_21" n="N023"/>darf nicht vergessen, daß diesem langen Adagio lauter lang
+               <lb facs="#facs_2_region_1684683545997_1736_tl_22" n="N024" break="no"/>same, schwermüthige Musikstücke vorangehen und nachfolgen.
                <lb facs="#facs_2_line_1749617291573_72" n="N025"/>Unter diesen Umständen scheint uns dem Eindruck des dritten
                <lb facs="#facs_2_region_1684683545997_1736_tl_23" n="N026"/>Actes besser gedient durch eine bescheidene Kürzung, als durch
-               <lb facs="#facs_2_line_1749617315843_80" n="N027"/>das Hinzufügen noch eines Pilgerchors, der, nach der eigent¬
-               <lb facs="#facs_2_region_1684683545997_1736_tl_24" n="N028"/>lichen Schlußscene, auf keine Aufmerksamkeit mehr zählen
-               <lb facs="#facs_2_region_1684683545997_1736_tl_25" n="N029"/>kann. Die Vorstellung des neu bearbeiteten „<rs type="bibl">Tannhäuser</rs>“
-               <lb facs="#facs_2_region_1684683545997_1736_tl_26" n="N030"/>währte volle vier Stunden. Wir konnten, ganz objectiv ge¬
-               <lb facs="#facs_2_line_1749617338580_86" n="N031"/>sprochen, nicht wahrnehmen, daß die neuen oder wiederher¬
-               <lb facs="#facs_2_region_1684683545997_1736_tl_27" n="N032"/>gestellten Zusätze einen bedeutenden Eindruck auf die Zu¬
-               <lb facs="#facs_2_region_1684683545997_1736_tl_28" n="N033"/>hörer gemacht und diese ihre Lieblings-Oper dadurch wesent¬
-               <lb facs="#facs_2_region_1684683545997_1736_tl_29" n="N034"/>lich verschönert gefunden hätten. Uebrigens betont in
-               <lb facs="#facs_2_line_1749617366603_92" n="N035"/>
-               <hi rendition="#em">
-                  <rs type="person">Wagner</rs>
-               </hi> selbst, daß „bei Wiederholungen sich niemals
+               <lb facs="#facs_2_line_1749617315843_80" n="N027"/>das Hinzufügen noch eines Pilgerchors, der, nach der eigent
+               <lb facs="#facs_2_region_1684683545997_1736_tl_24" n="N028" break="no"/>lichen Schlußscene, auf keine Aufmerksamkeit mehr zählen
+               <lb facs="#facs_2_region_1684683545997_1736_tl_25" n="N029"/>kann. Die Vorstellung des neu bearbeiteten „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“
+               <lb facs="#facs_2_region_1684683545997_1736_tl_26" n="N030"/>währte volle vier Stunden. Wir konnten, ganz objectiv ge
+               <lb facs="#facs_2_line_1749617338580_86" n="N031" break="no"/>sprochen, nicht wahrnehmen, daß die neuen oder wiederher
+               <lb facs="#facs_2_region_1684683545997_1736_tl_27" n="N032" break="no"/>gestellten Zusätze einen bedeutenden Eindruck auf die Zu
+               <lb facs="#facs_2_region_1684683545997_1736_tl_28" n="N033" break="no"/>hörer gemacht und diese ihre Lieblings-Oper dadurch wesent
+               <lb facs="#facs_2_region_1684683545997_1736_tl_29" n="N034" break="no"/>lich verschönert gefunden hätten. Uebrigens betont in
+               <lb facs="#facs_2_line_1749617366603_92" n="N035"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi> selbst, daß „bei Wiederholungen sich niemals
                <lb facs="#facs_2_region_1684683545997_1736_tl_30" n="N036"/>nachholt, was für das charakteristische Gelingen einer
                <lb facs="#facs_2_line_1749617382467_98" n="N037"/>dramatischen Darstellung bei den ersten Aufführungen
-               <lb facs="#facs_2_region_1684683545997_1736_tl_31" n="N038"/>unterlassen ward“. „Der erste Eindruck,“ sagt er
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1684683552679_1739_tl_1" n="N001"/>mit ausdrücklicher Beziehung auf diese „<rs type="bibl">Tannhäuser</rs>“-Nach¬
-               <lb facs="#facs_2_region_1684683552679_1739_tl_2" n="N002"/>träge, „setzt sich für das Publicum wie für den Darsteller
-               <lb facs="#facs_2_region_1684683552679_1739_tl_3" n="N003"/>als etwas Gegebenes, Bestimmtes fest, an dem jede Aende¬
-               <lb facs="#facs_2_region_1684683552679_1739_tl_4" n="N004"/>rung, selbst zum Besseren, in der Folge immer als Störung
+               <lb facs="#facs_2_region_1684683545997_1736_tl_31" n="N038"/>unterlassen ward“. „Der erste Eindruck,“ sagt er<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+                  <lb facs="#facs_2_region_1684683552679_1739_tl_1" n="N001"/>mit ausdrücklicher Beziehung auf diese „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“-Nach
+               <lb facs="#facs_2_region_1684683552679_1739_tl_2" n="N002" break="no"/>träge, „setzt sich für das Publicum wie für den Darsteller
+               <lb facs="#facs_2_region_1684683552679_1739_tl_3" n="N003"/>als etwas Gegebenes, Bestimmtes fest, an dem jede Aende
+               <lb facs="#facs_2_region_1684683552679_1739_tl_4" n="N004" break="no"/>rung, selbst zum Besseren, in der Folge immer als Störung
                <lb facs="#facs_2_region_1684683552679_1739_tl_5" n="N005"/>erscheint.“ Die Mehrzahl des Publicums schien nach dem
-               <lb facs="#facs_2_region_1684683552679_1739_tl_6" n="N006"/>„verneuerten“ „<rs type="bibl">Tannhäuser</rs>“ in dieser Empfindung mit dem
+               <lb facs="#facs_2_region_1684683552679_1739_tl_6" n="N006"/>„verneuerten“ „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ in dieser Empfindung mit dem
                <lb facs="#facs_2_region_1684683552679_1739_tl_7" n="N007"/>Meister zusammenzutreffen. Dieser hat übrigens selbst eine
                <lb facs="#facs_2_region_1684683552679_1739_tl_8" n="N008"/>bisher immer und überall gesungene Stelle im Sängerkrieg
-               <lb facs="#facs_2_region_1684683552679_1739_tl_9" n="N009"/>gestrichen: die Replik <rs type="person">Walther</rs>'s von der Vogelweide. Sie
-               <lb facs="#facs_2_region_1684683552679_1739_tl_10" n="N010"/>bleibt seit gestern weg, und statt an <rs type="person">Walther</rs> adressirt
-               <lb facs="#facs_2_region_1684683552679_1739_tl_11" n="N011"/>
-               <rs type="person">Tannhäuser</rs> seine heftige Duplik gleich an <rs type="person">Wolfram</rs> mit
-               <lb facs="#facs_2_region_1684683552679_1739_tl_12" n="N012"/>den Worten: „O <hi rendition="#em">
-                  <rs type="person">Wolfram</rs>
-               </hi>, der du also sangest, du hast
-               <lb facs="#facs_2_region_1684683552679_1739_tl_13" n="N013"/>die Liebe arg entstellt!“ Der ohnehin sehr redselige Sänger¬
-               <lb facs="#facs_2_region_1684683552679_1739_tl_14" n="N014"/>krieg wird aber durch diese neueste Kürzung keineswegs arg
-               <lb facs="#facs_2_region_1684683552679_1739_tl_15" n="N015"/>entstellt, im Gegentheil. Von <rs type="person">Wagner</rs> selbst angeordnet, ist
+               <lb facs="#facs_2_region_1684683552679_1739_tl_9" n="N009"/>gestrichen: die Replik <rs type="person" ref="#hsl_person_id_319">Walther</rs>’s von der Vogelweide. Sie
+               <lb facs="#facs_2_region_1684683552679_1739_tl_10" n="N010"/>bleibt seit gestern weg, und statt an <rs type="person" ref="#hsl_person_id_319">Walther</rs> adressirt
+               <lb facs="#facs_2_region_1684683552679_1739_tl_11" n="N011"/><rs type="person" ref="#hsl_person_id_663">Tannhäuser</rs> seine heftige Duplik gleich an <rs type="person" ref="#hsl_person_id_671">Wolfram</rs> mit
+               <lb facs="#facs_2_region_1684683552679_1739_tl_12" n="N012"/>den Worten: „O <hi rendition="#em"><rs type="person" ref="#hsl_person_id_671">Wolfram</rs></hi>, der du also sangest, du hast
+               <lb facs="#facs_2_region_1684683552679_1739_tl_13" n="N013"/>die Liebe arg entstellt!“ Der ohnehin sehr redselige Sänger
+               <lb facs="#facs_2_region_1684683552679_1739_tl_14" n="N014" break="no"/>krieg wird aber durch diese neueste Kürzung keineswegs arg
+               <lb facs="#facs_2_region_1684683552679_1739_tl_15" n="N015"/>entstellt, im Gegentheil. Von <rs type="person" ref="#hsl_person_id_319">Wagner</rs> selbst angeordnet, ist
                <lb facs="#facs_2_region_1684683552679_1739_tl_16" n="N016"/>sie eine sehr bemerkenswerthe Anerkennung des Satzes, daß
                <lb facs="#facs_2_region_1684683552679_1739_tl_17" n="N017"/>die Unfehlbarkeit und Unverletzlichkeit sehr langer Opern-
                <lb facs="#facs_2_region_1684683552679_1739_tl_18" n="N018"/>Partituren doch nicht unter allen Umständen ein Dogma sei.
+            </p><p>
                <lb facs="#facs_2_region_1684683552679_1739_tl_19" n="N019"/>Die Aufführung der Oper glänzte durch Präcision und
                <lb facs="#facs_2_region_1684683552679_1739_tl_20" n="N020"/>Correctheit der Darstellung, wie durch außerordentlichen
-               <lb facs="#facs_2_region_1684683552679_1739_tl_21" n="N021"/>scenischen Effect. <hi rendition="#em">
-                  <rs type="person">Wagner</rs>'s</hi> persönliche Einwirkung ist
-               <lb facs="#facs_2_line_1749617399994_106" n="N022"/>dabei nicht hoch genug anzuschlagen. Wie er mit der Anord¬
-               <lb facs="#facs_2_region_1684683552679_1739_tl_22" n="N023"/>nung seines <rs type="place">Bayreuth</rs>er Festspiels classischen Vorbildern sich
+               <lb facs="#facs_2_region_1684683552679_1739_tl_21" n="N021"/>scenischen Effect. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s</hi> persönliche Einwirkung ist
+               <lb facs="#facs_2_line_1749617399994_106" n="N022"/>dabei nicht hoch genug anzuschlagen. Wie er mit der Anord
+               <lb facs="#facs_2_region_1684683552679_1739_tl_22" n="N023" break="no"/>nung seines <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>er Festspiels classischen Vorbildern sich
                <lb facs="#facs_2_region_1684683552679_1739_tl_23" n="N024"/>nähert, so that er es — vielleicht unbeabsichtigt — auch hier
-               <lb facs="#facs_2_region_1684683552679_1739_tl_24" n="N025"/>in <rs type="place">Wien</rs>. Bei den alten Griechen übte der Dichter eines
+               <lb facs="#facs_2_region_1684683552679_1739_tl_24" n="N025"/>in <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Bei den alten Griechen übte der Dichter eines
                <lb facs="#facs_2_region_1684683552679_1739_tl_25" n="N026"/>Dramas, der meistens auch selbst mitspielte, dasselbe mit
                <lb facs="#facs_2_region_1684683552679_1739_tl_26" n="N027"/>den Schauspielern musikalisch, declamatorisch und scenisch
-               <lb facs="#facs_2_region_1684683552679_1739_tl_27" n="N028"/>vollständig ein, er „lehrte das Drama“, wie man sich aus¬
-               <lb facs="#facs_2_region_1684683552679_1739_tl_28" n="N029"/>drückte. Ebenso hat <rs type="person">Wagner</rs> am Hofoperntheater seinen
-               <lb facs="#facs_2_region_1684683552679_1739_tl_29" n="N030"/>„<rs type="bibl">Tannhäuser</rs>“ „gelehrt“, nicht nur den Sängern und Musi¬
-               <lb facs="#facs_2_region_1684683552679_1739_tl_30" n="N031"/>kern, sondern auch den Statisten, dem Decorationsmaler,
+               <lb facs="#facs_2_region_1684683552679_1739_tl_27" n="N028"/>vollständig ein, er „lehrte das Drama“, wie man sich aus
+               <lb facs="#facs_2_region_1684683552679_1739_tl_28" n="N029" break="no"/>drückte. Ebenso hat <rs type="person" ref="#hsl_person_id_319">Wagner</rs> am Hofoperntheater seinen
+               <lb facs="#facs_2_region_1684683552679_1739_tl_29" n="N030"/>„<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ „gelehrt“, nicht nur den Sängern und Musi
+               <lb facs="#facs_2_region_1684683552679_1739_tl_30" n="N031" break="no"/>kern, sondern auch den Statisten, dem Decorationsmaler,
                <lb facs="#facs_2_region_1684683552679_1739_tl_31" n="N032"/>dem Balletmeister. Sie Alle sprechen mit Bewunderung von
-               <lb facs="#facs_2_region_1684683552679_1739_tl_32" n="N033"/>dem unvergleichlichen Regisseur-Talent <rs type="person">Wagner</rs>'s und von
+               <lb facs="#facs_2_region_1684683552679_1739_tl_32" n="N033"/>dem unvergleichlichen Regisseur-Talent <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s und von
                <lb facs="#facs_2_region_1684683552679_1739_tl_33" n="N034"/>der dramatischen Meisterschaft, mit der er den Darstellern
                <lb facs="#facs_2_region_1684683552679_1739_tl_34" n="N035"/>die Hauptstellen selbst vorgesungen und vorgespielt habe. Die
-               <lb facs="#facs_2_region_1684683552679_1739_tl_35" n="N036"/>Früchte dieser für die Künstler sehr anstrengenden, aber lehr¬
-               <lb facs="#facs_2_region_1684683552679_1739_tl_36" n="N037"/>reichen Proben haben wir am Abend der Vorstellung reich¬
-               <lb facs="#facs_2_line_1749617421890_113" n="N038"/>lich geerntet. Die Direction hat durch künstlerisches Verständ¬
-            </p>
+               <lb facs="#facs_2_region_1684683552679_1739_tl_35" n="N036"/>Früchte dieser für die Künstler sehr anstrengenden, aber lehr
+               <lb facs="#facs_2_region_1684683552679_1739_tl_36" n="N037" break="no"/>reichen Proben haben wir am Abend der Vorstellung reich
+               <lb facs="#facs_2_line_1749617421890_113" n="N038" break="no"/>lich geerntet. Die Direction hat durch künstlerisches Verständ</p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1684683566111_1745_tl_1" n="N001"/>niß und durch freigebigste Anschaffung neuer Costüme und Deco¬
-               <lb facs="#facs_3_region_1684683566111_1745_tl_2" n="N002"/>rationen dem Autor meisterlich in die Hände gearbeitet. Der Ve¬
-               <lb facs="#facs_3_region_1684683566111_1745_tl_3" n="N003"/>nusberg, die Wartburg-Decoration, die Erscheinung der <rs type="person">Venus</rs>
-               <lb facs="#facs_3_region_1684683566111_1745_tl_4" n="N004"/>im dritten Acte und Anderes sind an sich schon Sehenswürdig¬
-               <lb facs="#facs_3_region_1684683566111_1745_tl_5" n="N005"/>keiten. Und in dieser würdigen decorativen Umgebung entfaltet
+            <cb n="7"/>
+            <p prev="true">
+               <lb facs="#facs_3_region_1684683566111_1745_tl_1" n="N001" break="no"/>niß und durch freigebigste Anschaffung neuer Costüme und Deco
+               <lb facs="#facs_3_region_1684683566111_1745_tl_2" n="N002" break="no"/>rationen dem Autor meisterlich in die Hände gearbeitet. Der Ve
+               <lb facs="#facs_3_region_1684683566111_1745_tl_3" n="N003" break="no"/>nusberg, die Wartburg-Decoration, die Erscheinung der <rs type="person" ref="#hsl_person_id_667">Venus</rs><space quantity="1" unit="char"/>
+               <lb facs="#facs_3_region_1684683566111_1745_tl_4" n="N004"/>im dritten Acte und Anderes sind an sich schon Sehenswürdig
+               <lb facs="#facs_3_region_1684683566111_1745_tl_5" n="N005" break="no"/>keiten. Und in dieser würdigen decorativen Umgebung entfaltet
                <lb facs="#facs_3_region_1684683566111_1745_tl_6" n="N006"/>sich jetzt eine Fülle glänzenden Lebens. Die Besetzung der Oper
-               <lb facs="#facs_3_region_1684683566111_1745_tl_7" n="N007"/>zeugte von besonderer Sorgfalt: Herr <hi rendition="#em">
-                  <rs type="person">Adams</rs>
-               </hi>, Herr
-               <lb facs="#facs_3_region_1684683566111_1745_tl_8" n="N008"/>
-               <hi rendition="#em">
-                  <rs type="person">Nollet</rs>
-               </hi>, Fräulein <hi rendition="#em">
-                  <rs type="person">Siegstädt</rs>
-               </hi> und Andere wirkten dies¬
-               <lb facs="#facs_3_region_1684683566111_1745_tl_9" n="N009"/>mal in kleineren Partien mit. Vortrefflich sang und spielte
-               <lb facs="#facs_3_region_1684683566111_1745_tl_10" n="N010"/>Frau <hi rendition="#em">
-                  <rs type="person">Ehnn</rs>
-               </hi> die <rs type="person">Elisabeth</rs>. Erreicht sie auch in den
-               <lb facs="#facs_3_region_1684683566111_1745_tl_11" n="N011"/>Ensembles nicht die imposante Stimmkraft ihrer Vorgän¬
-               <lb facs="#facs_3_region_1684683566111_1745_tl_12" n="N012"/>gerin <hi rendition="#em">
-                  <rs type="person">Wilt</rs>
-               </hi>, so ist sie in Auffassung und Ausdruck um so
-               <lb facs="#facs_3_region_1684683566111_1745_tl_13" n="N013"/>zarter und poetischer — wenn man überhaupt einen Com¬
-               <lb facs="#facs_3_region_1684683566111_1745_tl_14" n="N014"/>parativ da brauchen darf, wo kein Positiv vorliegt. Die
-               <lb facs="#facs_3_region_1684683566111_1745_tl_15" n="N015"/>Leistungen der Frau <hi rendition="#em">
-                  <rs type="person">Materna</rs>
-               </hi>, der Herren <hi rendition="#em">
-                  <rs type="person">Labatt</rs>
-               </hi>,
-               <lb facs="#facs_3_region_1684683566111_1745_tl_16" n="N016"/>
-               <hi rendition="#em">
-                  <rs type="person">Scaria</rs>
-               </hi> und v. <hi rendition="#em">
-                  <rs type="person">Bignio</rs>
-               </hi> sind längst rühmlich bekannt.
+               <lb facs="#facs_3_region_1684683566111_1745_tl_7" n="N007"/>zeugte von besonderer Sorgfalt: Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4109">Adams</rs></hi>, Herr
+               <lb facs="#facs_3_region_1684683566111_1745_tl_8" n="N008"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1568">Nollet</rs></hi>, Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_806">Siegstädt</rs></hi> und Andere wirkten dies
+               <lb facs="#facs_3_region_1684683566111_1745_tl_9" n="N009" break="no"/>mal in kleineren Partien mit. Vortrefflich sang und spielte
+               <lb facs="#facs_3_region_1684683566111_1745_tl_10" n="N010"/>Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4123">Ehnn</rs></hi> die <rs type="person" ref="#hsl_person_id_522">Elisabeth</rs>. Erreicht sie auch in den
+               <lb facs="#facs_3_region_1684683566111_1745_tl_11" n="N011"/>Ensembles nicht die imposante Stimmkraft ihrer Vorgän
+               <lb facs="#facs_3_region_1684683566111_1745_tl_12" n="N012" break="no"/>gerin <hi rendition="#em"><rs type="person" ref="#hsl_person_id_327">Wilt</rs></hi>, so ist sie in Auffassung und Ausdruck um so
+               <lb facs="#facs_3_region_1684683566111_1745_tl_13" n="N013"/>zarter und poetischer — wenn man überhaupt einen Com
+               <lb facs="#facs_3_region_1684683566111_1745_tl_14" n="N014" break="no"/>parativ da brauchen darf, wo kein Positiv vorliegt. Die
+               <lb facs="#facs_3_region_1684683566111_1745_tl_15" n="N015"/>Leistungen der Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1031">Materna</rs></hi>, der Herren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4981">Labatt</rs></hi>,
+               <lb facs="#facs_3_region_1684683566111_1745_tl_16" n="N016"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2922">Scaria</rs></hi> und v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_33">Bignio</rs></hi> sind längst rühmlich bekannt.
                <lb facs="#facs_3_region_1684683566111_1745_tl_17" n="N017"/>Letzterer war Tags vorher beim Studium des ersten Finales
-               <lb facs="#facs_3_region_1684683566111_1745_tl_18" n="N018"/>vom Pferde gestürzt (<rs type="person">Wagner</rs>'s berittene Minnesänger müssen
-               <lb facs="#facs_3_region_1684683566111_1745_tl_19" n="N019"/>nicht blos tact-, sondern auch sattelfest sein) und sang, ob¬
-               <lb facs="#facs_3_region_1684683566111_1745_tl_20" n="N020"/>wol noch Reconvalescent, den <rs type="person">Wolfram</rs> so edel und aus¬
-               <lb facs="#facs_3_region_1684683566111_1745_tl_21" n="N021"/>drucksvoll wie immer. Capellmeister <hi rendition="#em">Hanns <rs type="person">Richter</rs>
-               </hi>,
-               <lb facs="#facs_3_region_1684683566111_1745_tl_22" n="N022"/>dessen <rs type="person">herkulisch</rs>e Natur den Anstrengungen der letzten Wochen
-               <lb facs="#facs_3_region_1684683566111_1745_tl_23" n="N023"/>glücklich trotzt, dirigirte die Oper mit der ihn auszeichnen¬
-               <lb facs="#facs_3_region_1684683566111_1745_tl_24" n="N024"/>den Sicherheit, Kraft und Ruhe. Die Tempi nahm er, na¬
-               <lb facs="#facs_3_region_1684683566111_1745_tl_25" n="N025"/>kürlich genau nach <rs type="person">Wagner</rs>'s Angabe, an manchen Stellen
+               <lb facs="#facs_3_region_1684683566111_1745_tl_18" n="N018"/>vom Pferde gestürzt (<rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s berittene Minnesänger müssen
+               <lb facs="#facs_3_region_1684683566111_1745_tl_19" n="N019"/>nicht blos tact-, sondern auch sattelfest sein) und sang, ob
+               <lb facs="#facs_3_region_1684683566111_1745_tl_20" n="N020" break="no"/>wol noch Reconvalescent, den <rs type="person" ref="#hsl_person_id_671">Wolfram</rs> so edel und aus
+               <lb facs="#facs_3_region_1684683566111_1745_tl_21" n="N021" break="no"/>drucksvoll wie immer. Capellmeister <hi rendition="#em">Hanns <rs type="person" ref="#hsl_person_id_1399">Richter</rs></hi>,
+               <lb facs="#facs_3_region_1684683566111_1745_tl_22" n="N022"/>dessen <rs type="person" ref="#hsl_person_id_587">herkulisch</rs>e Natur den Anstrengungen der letzten Wochen
+               <lb facs="#facs_3_region_1684683566111_1745_tl_23" n="N023"/>glücklich trotzt, dirigirte die Oper mit der ihn auszeichnen
+               <lb facs="#facs_3_region_1684683566111_1745_tl_24" n="N024" break="no"/>den Sicherheit, Kraft und Ruhe. Die Tempi nahm er, na
+               <lb facs="#facs_3_region_1684683566111_1745_tl_25" n="N025" break="no"/>kürlich genau nach <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Angabe, an manchen Stellen
                <lb facs="#facs_3_region_1684683566111_1745_tl_26" n="N026"/>merklich langsamer, so im ersten Theil der Ouvertüre, im
-               <lb facs="#facs_3_region_1684683566111_1745_tl_27" n="N027"/>
-               <rs type="person">Tannhäuser</rs>-Lied, im Sängerkrieg (<rs type="person">Wolfram</rs>), am auffallend¬
-               <lb facs="#facs_3_region_1684683566111_1745_tl_28" n="N028"/>sten wol und von unserer Gewohnheit abweichendsten in
-               <lb facs="#facs_3_region_1684683566111_1745_tl_29" n="N029"/>
-               <rs type="person">Tannhäuser</rs>'s Erzählung von der Pilgerfahrt. Es versteht
+               <lb facs="#facs_3_region_1684683566111_1745_tl_27" n="N027"/><rs type="person" ref="#hsl_person_id_663">Tannhäuser</rs>-Lied, im Sängerkrieg (<rs type="person" ref="#hsl_person_id_671">Wolfram</rs>), am auffallend
+               <lb facs="#facs_3_region_1684683566111_1745_tl_28" n="N028" break="no"/>sten wol und von unserer Gewohnheit abweichendsten in
+               <lb facs="#facs_3_region_1684683566111_1745_tl_29" n="N029"/><rs type="person" ref="#hsl_person_id_663">Tannhäuser</rs>’s Erzählung von der Pilgerfahrt. Es versteht
                <lb facs="#facs_3_region_1684683566111_1745_tl_30" n="N030"/>sich, daß das Haus in allen Räumen gefüllt und der
                <lb facs="#facs_3_region_1684683566111_1745_tl_31" n="N031"/>Applaus sehr lebhaft war. Die Darsteller der Hauptrollen
                <lb facs="#facs_3_region_1684683566111_1745_tl_32" n="N032"/>wurden nach jedem Act gerufen. Der eigentliche Held des
-               <lb facs="#facs_3_region_1684683566111_1745_tl_33" n="N033"/>Abends, <hi rendition="#em">Richard <rs type="person">Wagner</rs>
-               </hi>
-               <rs type="person"/>, entsprach diesem stürmisch
+               <lb facs="#facs_3_region_1684683566111_1745_tl_33" n="N033"/>Abends, <hi rendition="#em">Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi>, entsprach diesem stürmisch
                <lb facs="#facs_3_region_1684683566111_1745_tl_34" n="N034"/>geäußerten Wunsche des Publicums erst nach dem Schluß
                <lb facs="#facs_3_region_1684683566111_1745_tl_35" n="N035"/>der Oper und dankte von der Bühne aus in einer kleinen
                <lb facs="#facs_3_region_1684683566111_1745_tl_36" n="N036"/>Anrede für die Wärme und Auszeichnung, mit welcher die
