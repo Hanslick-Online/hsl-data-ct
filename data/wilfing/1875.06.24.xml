@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 3889. Wien, Donnerstag, den 24. Juni 1875</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -71,24 +69,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 3889. Wien, Donnerstag, den 24. Juni 1875</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1875-06-24">24.06.1875</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,9 +102,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2023-07-13">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzl" when="2025-07-31">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2025-08-19">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1308,142 +1304,125 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1684684343195_2057_tl_1" n="N001"/><head type="h1"><hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs> in <rs type="place" ref="#hsl_place_id_55">Wien</rs></hi>.</head>
+            <lb facs="#facs_1_region_1684684343195_2057_tl_2" n="N002"/><head type="h2">(Das <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs>. „<rs type="bibl" ref="#hsl_work_id_982">Aïda</rs>“.)</head>
             <p>
-               <lb facs="#facs_1_line_1749013332699_144" n="N001"/>Nr. 3889. Wien, Donnerstag, den 24. Juni 1875
-            </p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684684343195_2057_tl_1" n="N001"/>
-               <hi rendition="#em">
-                  <rs type="person">Verdi</rs> in <rs type="place">Wien</rs>
-               </hi>.
-               <lb facs="#facs_1_region_1684684343195_2057_tl_2" n="N002"/>(Das <rs type="bibl">Requiem</rs>. „<rs type="bibl">Aïda</rs>“.)
-               <lb facs="#facs_1_region_1684684343195_2057_tl_3" n="N003"/>Ed. H. Das <rs type="place">italienisch</rs>e Nachspiel unserer Musiksaison
-               <lb facs="#facs_1_region_1684684343195_2057_tl_4" n="N004"/>ist verklungen. Lorbeergekrönt hat <rs type="person">Verdi</rs> mit seinen Sängern
-               <lb facs="#facs_1_region_1684684343195_2057_tl_5" n="N005"/>
-               <rs type="place">Wien</rs> verlassen, und tiefe Stille liegt wieder auf unserem
+               <lb facs="#facs_1_region_1684684343195_2057_tl_3" n="N003"/>Ed. H. Das <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Nachspiel unserer Musiksaison
+               <lb facs="#facs_1_region_1684684343195_2057_tl_4" n="N004"/>ist verklungen. Lorbeergekrönt hat <rs type="person" ref="#hsl_person_id_312">Verdi</rs> mit seinen Sängern
+               <lb facs="#facs_1_region_1684684343195_2057_tl_5" n="N005"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> verlassen, und tiefe Stille liegt wieder auf unserem
                <lb facs="#facs_1_region_1684684343195_2057_tl_6" n="N006"/>Opernhause. Nach friedlichen Siegen ein Waffenstillstand
-               <lb facs="#facs_1_region_1684684343195_2057_tl_7" n="N007"/>für zwei Monate. Viermal dirigirte <rs type="person">Verdi</rs> sein <rs type="bibl">Requiem</rs>, zwei¬
-               <lb facs="#facs_1_region_1684684343195_2057_tl_8" n="N008"/>mal seine „<rs type="bibl">Aïda</rs>“ im Hofoperntheater, jedesmal triumphirend
+               <lb facs="#facs_1_region_1684684343195_2057_tl_7" n="N007"/>für zwei Monate. Viermal dirigirte <rs type="person" ref="#hsl_person_id_312">Verdi</rs> sein <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs>, zwei
+               <lb facs="#facs_1_region_1684684343195_2057_tl_8" n="N008" break="no"/>mal seine „<rs type="bibl" ref="#hsl_work_id_982">Aïda</rs>“ im Hofoperntheater, jedesmal triumphirend
                <lb facs="#facs_1_region_1684684343195_2057_tl_9" n="N009"/>über die Ungunst heißer Sommerszeit und hoher Eintrittspreise.
-               <lb facs="#facs_1_region_1684684343195_2057_tl_10" n="N010"/>Das Publicum empfing das <rs type="bibl">Requiem</rs> mit ungetheilter Be¬
-               <lb facs="#facs_1_region_1684684343195_2057_tl_11" n="N011"/>geisterung, unsere gebildetsten Kenner und Liebhaber, worunter
-               <lb facs="#facs_1_region_1684684343195_2057_tl_12" n="N012"/>ein stattliches Contingent geschworner <rs type="person">Verdi</rs>-Gegner, stimm¬
-               <lb facs="#facs_1_region_1684684343195_2057_tl_13" n="N013"/>ten rückhaltlos in den allgemeinen Beifall ein. Es ist eine
-               <lb facs="#facs_1_region_1684684343195_2057_tl_14" n="N014"/>Freude, solch allgemeine herzliche Hingabe an einen künstle¬
-               <lb facs="#facs_1_region_1684684343195_2057_tl_15" n="N015"/>rischen Eindruck zu beobachten, eine Freude, die uns dies¬
-               <lb facs="#facs_1_region_1684684343195_2057_tl_16" n="N016"/>mal noch erhöht ward durch das einstimmig anerkennende
-               <lb facs="#facs_1_region_1684684343195_2057_tl_17" n="N017"/>Urtheil der <rs type="place">Wien</rs>er Journalistik. <rs type="person">Verdi</rs>, selbst im Opern¬
-               <lb facs="#facs_1_region_1684684343195_2057_tl_18" n="N018"/>fach so schlecht angeschrieben in <rs type="place">deutsch</rs>en Landen, mußte als
+               <lb facs="#facs_1_region_1684684343195_2057_tl_10" n="N010"/>Das Publicum empfing das <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs> mit ungetheilter Be
+               <lb facs="#facs_1_region_1684684343195_2057_tl_11" n="N011" break="no"/>geisterung, unsere gebildetsten Kenner und Liebhaber, worunter
+               <lb facs="#facs_1_region_1684684343195_2057_tl_12" n="N012"/>ein stattliches Contingent geschworner <rs type="person" ref="#hsl_person_id_312">Verdi</rs>-Gegner, stimm
+               <lb facs="#facs_1_region_1684684343195_2057_tl_13" n="N013" break="no"/>ten rückhaltlos in den allgemeinen Beifall ein. Es ist eine
+               <lb facs="#facs_1_region_1684684343195_2057_tl_14" n="N014"/>Freude, solch allgemeine herzliche Hingabe an einen künstle
+               <lb facs="#facs_1_region_1684684343195_2057_tl_15" n="N015" break="no"/>rischen Eindruck zu beobachten, eine Freude, die uns dies
+               <lb facs="#facs_1_region_1684684343195_2057_tl_16" n="N016" break="no"/>mal noch erhöht ward durch das einstimmig anerkennende
+               <lb facs="#facs_1_region_1684684343195_2057_tl_17" n="N017"/>Urtheil der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Journalistik. <rs type="person" ref="#hsl_person_id_312">Verdi</rs>, selbst im Opern
+               <lb facs="#facs_1_region_1684684343195_2057_tl_18" n="N018" break="no"/>fach so schlecht angeschrieben in <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Landen, mußte als
                <lb facs="#facs_1_region_1684684343195_2057_tl_19" n="N019"/>Kirchen-Componist auf schneidigste Opposition gefaßt sein,
                <lb facs="#facs_1_region_1684684343195_2057_tl_20" n="N020"/>umsomehr, als es zu den Lieblingspassionen teutonischer
                <lb facs="#facs_1_region_1684684343195_2057_tl_21" n="N021"/>Kritik gehört, dem Publicum seine Freuden nachträglich
-               <lb facs="#facs_1_region_1684684343195_2057_tl_22" n="N022"/>durch ein gnadeloses Mäkeln an Nebendingen und Kleinig¬
-               <lb facs="#facs_1_region_1684684343195_2057_tl_23" n="N023"/>keiten zu verleiden. In unserer Zeit der lauen Achtungs¬
-               <lb facs="#facs_1_region_1684684343195_2057_tl_24" n="N024"/>erfolge ist aber ein rechter Herzenserfolg so selten, daß auch
+               <lb facs="#facs_1_region_1684684343195_2057_tl_22" n="N022"/>durch ein gnadeloses Mäkeln an Nebendingen und Kleinig
+               <lb facs="#facs_1_region_1684684343195_2057_tl_23" n="N023" break="no"/>keiten zu verleiden. In unserer Zeit der lauen Achtungs
+               <lb facs="#facs_1_region_1684684343195_2057_tl_24" n="N024" break="no"/>erfolge ist aber ein rechter Herzenserfolg so selten, daß auch
                <lb facs="#facs_1_region_1684684343195_2057_tl_25" n="N025"/>der Kritiker ihn — so glauben wir — gerne mitfeiern mag,
                <lb facs="#facs_1_region_1684684343195_2057_tl_26" n="N026"/>sollten auch einige Ungehörigkeiten bei dem Fest unterlaufen
-               <lb facs="#facs_1_line_1749013467995_167" n="N027"/>und einige Enthusiasten allzu schwärmerisch toastiren. <rs type="person">Verdi</rs>'s
-               <lb facs="#facs_1_region_1684684343195_2057_tl_27" n="N028"/>
-               <rs type="bibl">Requiem</rs> ist ein schönes, tüchtiges Werk, eine warme, aus
-               <lb facs="#facs_1_region_1684684343195_2057_tl_28" n="N029"/>dem Herzen strömende Musik von würdigem Ernst, sorg¬
-               <lb facs="#facs_1_region_1684684343195_2057_tl_29" n="N030"/>fältiger Ausführung und seltener Klangschönheit. Ein Werk,
+               <lb facs="#facs_1_line_1749013467995_167" n="N027"/>und einige Enthusiasten allzu schwärmerisch toastiren. <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s
+               <lb facs="#facs_1_region_1684684343195_2057_tl_27" n="N028"/><rs type="bibl" ref="#hsl_work_id_721">Requiem</rs> ist ein schönes, tüchtiges Werk, eine warme, aus
+               <lb facs="#facs_1_region_1684684343195_2057_tl_28" n="N029"/>dem Herzen strömende Musik von würdigem Ernst, sorg
+               <lb facs="#facs_1_region_1684684343195_2057_tl_29" n="N030" break="no"/>fältiger Ausführung und seltener Klangschönheit. Ein Werk,
                <lb facs="#facs_1_region_1684684343195_2057_tl_30" n="N031"/>das seinem Schöpfer Ehre macht, dem man solch
-               <lb facs="#facs_1_region_1684684343195_2057_tl_31" n="N032"/>künstlerische Vertiefung und Concentration nicht zuge¬
-               <lb facs="#facs_1_region_1684684343195_2057_tl_32" n="N033"/>traut hätte. Manches, was aus Anlaß der „<rs type="bibl">Aïda</rs>“
-               <lb facs="#facs_1_region_1684684343195_2057_tl_33" n="N034"/>über diese unerwartete Läuterung der <rs type="person">Verdi</rs>'schen Muse ge¬
-               <lb facs="#facs_1_region_1684684343195_2057_tl_34" n="N035"/>sagt wurde, paßt auch hieher, nur möchte ich gleich be¬
-               <lb facs="#facs_1_region_1684684343195_2057_tl_35" n="N036"/>merken, daß mir „<rs type="bibl">Aïda</rs>“ in Erfindung und Ausführung
-               <lb facs="#facs_1_region_1684684343195_2057_tl_36" n="N037"/>viel bedeutender erscheint, als das <rs type="bibl">Requiem</rs>. <rs type="person">Verdi</rs> ist eben
+               <lb facs="#facs_1_region_1684684343195_2057_tl_31" n="N032"/>künstlerische Vertiefung und Concentration nicht zuge
+               <lb facs="#facs_1_region_1684684343195_2057_tl_32" n="N033" break="no"/>traut hätte. Manches, was aus Anlaß der „<rs type="bibl" ref="#hsl_work_id_982">Aïda</rs>“
+               <lb facs="#facs_1_region_1684684343195_2057_tl_33" n="N034"/>über diese unerwartete Läuterung der <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’schen Muse ge
+               <lb facs="#facs_1_region_1684684343195_2057_tl_34" n="N035" break="no"/>sagt wurde, paßt auch hieher, nur möchte ich gleich be
+               <lb facs="#facs_1_region_1684684343195_2057_tl_35" n="N036" break="no"/>merken, daß mir „<rs type="bibl" ref="#hsl_work_id_982">Aïda</rs>“ in Erfindung und Ausführung
+               <lb facs="#facs_1_region_1684684343195_2057_tl_36" n="N037"/>viel bedeutender erscheint, als das <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs>. <rs type="person" ref="#hsl_person_id_312">Verdi</rs> ist eben
                <lb facs="#facs_1_line_1749013493611_182" n="N038"/>geborner Theater-Componist, seine Musik von Haus aus
-               <lb facs="#facs_1_line_1749013512994_189" n="N039"/>dramatisch; wenn er in einem Requiem beweist, was er
-            </p>
-            <cb n="3"/>
-            <p>
+               <lb facs="#facs_1_line_1749013512994_189" n="N039"/>dramatisch; wenn er in einem Requiem beweist, was er<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
                <lb facs="#facs_1_region_1684684346995_2060_tl_1" n="N001"/>auf fremdem Boden vermag, so bleibt er doch weit stärker
-               <lb facs="#facs_1_region_1684684346995_2060_tl_2" n="N002"/>auf seinem eigenen. Er kann auch im <rs type="bibl">Requiem</rs> den dramati¬
-               <lb facs="#facs_1_region_1684684346995_2060_tl_3" n="N003"/>schen Componisten nicht verleugnen; Trauer und Bitte, Ent¬
-               <lb facs="#facs_1_region_1684684346995_2060_tl_4" n="N004"/>setzen und hoffende Zuversicht, sie sprechen hier eine leiden¬
-               <lb facs="#facs_1_region_1684684346995_2060_tl_5" n="N005"/>schaftlichere und individuellere Sprache, als wir sie in der
-               <lb facs="#facs_1_region_1684684346995_2060_tl_6" n="N006"/>Kirche zu hören gewohnt sind. Die „Kirchlichkeit“ des <rs type="person">Verdi</rs>'¬
-               <lb facs="#facs_1_region_1684684346995_2060_tl_7" n="N007"/>schen <rs type="bibl">Requiem</rs>s ist es zunächst, was Anfechtung erfährt. Und
+               <lb facs="#facs_1_region_1684684346995_2060_tl_2" n="N002"/>auf seinem eigenen. Er kann auch im <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs> den dramati
+               <lb facs="#facs_1_region_1684684346995_2060_tl_3" n="N003" break="no"/>schen Componisten nicht verleugnen; Trauer und Bitte, Ent
+               <lb facs="#facs_1_region_1684684346995_2060_tl_4" n="N004" break="no"/>setzen und hoffende Zuversicht, sie sprechen hier eine leiden
+               <lb facs="#facs_1_region_1684684346995_2060_tl_5" n="N005" break="no"/>schaftlichere und individuellere Sprache, als wir sie in der
+               <lb facs="#facs_1_region_1684684346995_2060_tl_6" n="N006"/>Kirche zu hören gewohnt sind. Die „Kirchlichkeit“ des <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’
+               <lb facs="#facs_1_region_1684684346995_2060_tl_7" n="N007" break="no"/>schen <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs>s ist es zunächst, was Anfechtung erfährt. Und
                <lb facs="#facs_1_region_1684684346995_2060_tl_8" n="N008"/>doch gibt es wenig Forderungen, über welche zu richten so
-               <lb facs="#facs_1_region_1684684346995_2060_tl_9" n="N009"/>bedenklich, so unsicher wäre, wie diese. Die subjective Reli¬
-               <lb facs="#facs_1_region_1684684346995_2060_tl_10" n="N010"/>giosität des Künstlers muß man von vornherein aus dem
+               <lb facs="#facs_1_region_1684684346995_2060_tl_9" n="N009"/>bedenklich, so unsicher wäre, wie diese. Die subjective Reli
+               <lb facs="#facs_1_region_1684684346995_2060_tl_10" n="N010" break="no"/>giosität des Künstlers muß man von vornherein aus dem
                <lb facs="#facs_1_region_1684684346995_2060_tl_11" n="N011"/>Spiele lassen; die Kritik ist keine Inquisition. Zudem bietet
                <lb facs="#facs_1_region_1684684346995_2060_tl_12" n="N012"/>die Gläubigkeit des Tondichters keineswegs Gewähr für die
                <lb facs="#facs_1_region_1684684346995_2060_tl_13" n="N013"/>religiöse Würde seines Werkes und umgekehrt. Kann man
-               <lb facs="#facs_1_region_1684684346995_2060_tl_14" n="N014"/>die Frömmigkeit <rs type="person">Haydn</rs>'s und <rs type="person">Mozart</rs>'s anzweifeln? Gewiß
-               <lb facs="#facs_1_region_1684684346995_2060_tl_15" n="N015"/>nicht. Und dennoch dünkt uns ein großer Theil ihrer Kirchen¬
-               <lb facs="#facs_1_region_1684684346995_2060_tl_16" n="N016"/>musik sehr, sehr weltlich. Verglichen mit dem Jahrmarkts¬
-               <lb facs="#facs_1_region_1684684346995_2060_tl_17" n="N017"/>jubel so manches „Gloria“, mit den Opernschnörkeln so
+               <lb facs="#facs_1_region_1684684346995_2060_tl_14" n="N014"/>die Frömmigkeit <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s und <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s anzweifeln? Gewiß
+               <lb facs="#facs_1_region_1684684346995_2060_tl_15" n="N015"/>nicht. Und dennoch dünkt uns ein großer Theil ihrer Kirchen
+               <lb facs="#facs_1_region_1684684346995_2060_tl_16" n="N016" break="no"/>musik sehr, sehr weltlich. Verglichen mit dem Jahrmarkts
+               <lb facs="#facs_1_region_1684684346995_2060_tl_17" n="N017" break="no"/>jubel so manches „Gloria“, mit den Opernschnörkeln so
                <lb facs="#facs_1_region_1684684346995_2060_tl_18" n="N018"/>manches „Benedictus“ und „Agnus“ dieser Meister, klingt
-               <lb facs="#facs_1_region_1684684346995_2060_tl_19" n="N019"/>
-               <rs type="person">Verdi</rs>'s <rs type="bibl">Requiem</rs> noch heilig. Aehnlich verhält es sich mit
+               <lb facs="#facs_1_region_1684684346995_2060_tl_19" n="N019"/><rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs> noch heilig. Aehnlich verhält es sich mit
                <lb facs="#facs_1_region_1684684346995_2060_tl_20" n="N020"/>der Kirchenmusik vieler berühmter älterer Italiener, deren
-               <lb facs="#facs_1_region_1684684346995_2060_tl_21" n="N021"/>„Classicität“ auf Treu' und Glauben angenommen und, mit
+               <lb facs="#facs_1_region_1684684346995_2060_tl_21" n="N021"/>„Classicität“ auf Treu’ und Glauben angenommen und, mit
                <lb facs="#facs_1_region_1684684346995_2060_tl_22" n="N022"/>jedem Decennium weniger geprüft, weitergegeben wird.
-               <lb facs="#facs_1_region_1684684346995_2060_tl_23" n="N023"/>
-               <rs type="person">Pergolese</rs>, <rs type="person">Lotti</rs>, <rs type="person">Jomelli</rs>, <rs type="person">Salieri</rs> und so viele andere
-               <lb facs="#facs_1_region_1684684346995_2060_tl_24" n="N024"/>Celebritäten <rs type="place">Italien</rs>s, deren großes Talent und deren Kunst¬
-               <lb facs="#facs_1_region_1684684346995_2060_tl_25" n="N025"/>fertigkeit wir hochschätzen — was für zopfigen Zierrath
+               <lb facs="#facs_1_region_1684684346995_2060_tl_23" n="N023"/><rs type="person" ref="#hsl_person_id_211">Pergolese</rs>, <rs type="person" ref="#hsl_person_id_3623">Lotti</rs>, <rs type="person" ref="#hsl_person_id_141">Jomelli</rs>, <rs type="person" ref="#hsl_person_id_754">Salieri</rs> und so viele andere
+               <lb facs="#facs_1_region_1684684346995_2060_tl_24" n="N024"/>Celebritäten <rs type="place" ref="#hsl_place_id_28">Italien</rs>s, deren großes Talent und deren Kunst
+               <lb facs="#facs_1_region_1684684346995_2060_tl_25" n="N025" break="no"/>fertigkeit wir hochschätzen — was für zopfigen Zierrath
                <lb facs="#facs_1_region_1684684346995_2060_tl_26" n="N026"/>und weichliche Opernmelodien haben sie nicht bona fide in
                <lb facs="#facs_1_region_1684684346995_2060_tl_27" n="N027"/>ihre Kirchen-Compositionen aufgenommen! Wir müßten, um
                <lb facs="#facs_1_region_1684684346995_2060_tl_28" n="N028"/>auf die ungetrübte, unverweltlichte Reinheit katholischer
-               <lb facs="#facs_1_region_1684684346995_2060_tl_29" n="N029"/>Kirchenmusik zu gelangen, bis auf <rs type="person">Palestrina</rs> zurückgehen
-               <lb facs="#facs_1_region_1684684346995_2060_tl_30" n="N030"/>oder vielmehr — da ja auch <rs type="person">Palestrina</rs> vom streng kirch¬
-               <lb facs="#facs_1_line_1749013402515_153" n="N031"/>lichen Standpunkt manchen Vorwurf erfahren — bis auf den
+               <lb facs="#facs_1_region_1684684346995_2060_tl_29" n="N029"/>Kirchenmusik zu gelangen, bis auf <rs type="person" ref="#hsl_person_id_927">Palestrina</rs> zurückgehen
+               <lb facs="#facs_1_region_1684684346995_2060_tl_30" n="N030"/>oder vielmehr — da ja auch <rs type="person" ref="#hsl_person_id_927">Palestrina</rs> vom streng kirch
+               <lb facs="#facs_1_line_1749013402515_153" n="N031" break="no"/>lichen Standpunkt manchen Vorwurf erfahren — bis auf den
                <lb facs="#facs_1_region_1684684346995_2060_tl_31" n="N032"/>nackten gregorianischen Kirchengesang. Die Hauptsache bleibt,
                <lb facs="#facs_1_region_1684684346995_2060_tl_32" n="N033"/>daß der Componist mit der Ehrfurcht vor seiner Aufgabe
                <lb facs="#facs_1_region_1684684346995_2060_tl_33" n="N034"/>die Treue gegen sich selbst bewahre. Dieses Zeugniß der
-               <lb facs="#facs_1_region_1684684346995_2060_tl_34" n="N035"/>Ehrlichkeit muß man <rs type="person">Verdi</rs> zugestehen; kein Satz seines
-               <lb facs="#facs_1_line_1749013569019_204" n="N036"/>
-               <rs type="bibl">Requiem</rs>s, der leichtfertig, erlogen oder frivol wäre. Er ver¬
-               <lb facs="#facs_1_region_1684684346995_2060_tl_35" n="N037"/>fährt ungleich ernster, strenger, als <hi rendition="#em">
-                  <rs type="person">Rossini</rs>
-               </hi> in seinem
-               <lb facs="#facs_1_region_1684684346995_2060_tl_36" n="N038"/>„<rs type="bibl">Stabat mater</rs>“, so wenig die Verwandtschaft dieser zwei
+               <lb facs="#facs_1_region_1684684346995_2060_tl_34" n="N035"/>Ehrlichkeit muß man <rs type="person" ref="#hsl_person_id_312">Verdi</rs> zugestehen; kein Satz seines
+               <lb facs="#facs_1_line_1749013569019_204" n="N036"/><rs type="bibl" ref="#hsl_work_id_721">Requiem</rs>s, der leichtfertig, erlogen oder frivol wäre. Er ver
+               <lb facs="#facs_1_region_1684684346995_2060_tl_35" n="N037" break="no"/>fährt ungleich ernster, strenger, als <hi rendition="#em"><rs type="person" ref="#hsl_person_id_241">Rossini</rs></hi> in seinem
+               <lb facs="#facs_1_region_1684684346995_2060_tl_36" n="N038"/>„<rs type="bibl" ref="#hsl_work_id_373">Stabat mater</rs>“, so wenig die Verwandtschaft dieser zwei
                <lb facs="#facs_1_region_1684684346995_2060_tl_37" n="N039"/>Werke zu leugnen ist. Beide Tondichter haben sich eben bis
                <lb facs="#facs_1_region_1684684346995_2060_tl_38" n="N040"/>in ihre alten Tage ausschließlich im Opernstyl bewegt; daß
-               <lb facs="#facs_1_region_1684684346995_2060_tl_39" n="N041"/>
-               <rs type="person">Rossini</rs>'s eigentliches Feld stets die komische Oper gewesen,
-               <lb facs="#facs_1_region_1684684346995_2060_tl_40" n="N042"/>
-               <rs type="person">Verdi</rs>'s hingegen die ernste, pathetische, gedeiht dem Letzteren
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1684684350214_2063_tl_1" n="N001"/>zum Vortheil in seinem <rs type="bibl">Requiem</rs>. An süßem Reiz der
-               <lb facs="#facs_1_region_1684684350214_2063_tl_2" n="N002"/>Melodien ist <rs type="person">Rossini</rs>'s „<rs type="bibl">Stabat</rs>“ dem <rs type="person">Verdi</rs>'schen <rs type="bibl">Requiem</rs>
+               <lb facs="#facs_1_region_1684684346995_2060_tl_39" n="N041"/><rs type="person" ref="#hsl_person_id_241">Rossini</rs>’s eigentliches Feld stets die komische Oper gewesen,
+               <lb facs="#facs_1_region_1684684346995_2060_tl_40" n="N042"/><rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s hingegen die ernste, pathetische, gedeiht dem Letzteren<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
+               <lb facs="#facs_1_region_1684684350214_2063_tl_1" n="N001"/>zum Vortheil in seinem <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs>. An süßem Reiz der
+               <lb facs="#facs_1_region_1684684350214_2063_tl_2" n="N002"/>Melodien ist <rs type="person" ref="#hsl_person_id_241">Rossini</rs>’s „<rs type="bibl" ref="#hsl_work_id_373">Stabat</rs>“ dem <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’schen <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_1_region_1684684350214_2063_tl_3" n="N003"/>überlegen, wenn man diesen Ausdruck gebrauchen darf, wo
-               <lb facs="#facs_1_region_1684684350214_2063_tl_4" n="N004"/>eigentlich von einem Unterliegen zu sprechen wäre. <rs type="person">Verdi</rs>
-               <lb facs="#facs_1_region_1684684350214_2063_tl_5" n="N005"/>hat, an die bessere <rs type="place">neapolitanisch</rs>e Kirchenmusik anknüpfend,
-               <lb facs="#facs_1_line_1749013445787_161" n="N006"/>weder die reicheren Kunstmittel seiner Zeit, noch das leb¬
-               <lb facs="#facs_1_region_1684684350214_2063_tl_6" n="N007"/>haftere Feuer seines Naturells verleugnet; er hat wie so
+               <lb facs="#facs_1_region_1684684350214_2063_tl_4" n="N004"/>eigentlich von einem Unterliegen zu sprechen wäre. <rs type="person" ref="#hsl_person_id_312">Verdi</rs><space quantity="1" unit="char"/>
+               <lb facs="#facs_1_region_1684684350214_2063_tl_5" n="N005"/>hat, an die bessere <rs type="place" ref="#hsl_place_id_40">neapolitanisch</rs>e Kirchenmusik anknüpfend,
+               <lb facs="#facs_1_line_1749013445787_161" n="N006"/>weder die reicheren Kunstmittel seiner Zeit, noch das leb
+               <lb facs="#facs_1_region_1684684350214_2063_tl_6" n="N007" break="no"/>haftere Feuer seines Naturells verleugnet; er hat wie so
                <lb facs="#facs_1_region_1684684350214_2063_tl_7" n="N008"/>mancher fromme Maler auf dem Heiligenbild sein eigenes
                <lb facs="#facs_1_region_1684684350214_2063_tl_8" n="N009"/>Porträt angebracht. Auch die religiöse Andacht wechselt in
                <lb facs="#facs_1_region_1684684350214_2063_tl_9" n="N010"/>ihrem Ausdruck; sie hat ihre Länder, ihre Zeiten. Was uns
-               <lb facs="#facs_1_region_1684684350214_2063_tl_10" n="N011"/>in <rs type="person">Verdi</rs>'s <rs type="bibl">Requiem</rs> zu leidenschaftlich, zu sinnlich erscheinen
+               <lb facs="#facs_1_region_1684684350214_2063_tl_10" n="N011"/>in <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs> zu leidenschaftlich, zu sinnlich erscheinen
                <lb facs="#facs_1_region_1684684350214_2063_tl_11" n="N012"/>mag, ist eben aus der Gefühlsweise <hi rendition="#em">seines</hi> Volkes heraus
                <lb facs="#facs_1_region_1684684350214_2063_tl_12" n="N013"/>empfunden, und der Italiener hat doch ein gutes Recht, zu
-               <lb facs="#facs_1_region_1684684350214_2063_tl_13" n="N014"/>fragen, ob er denn mit dem lieben <rs type="person">Gott</rs> nicht <rs type="place">Italienisch</rs>
+               <lb facs="#facs_1_region_1684684350214_2063_tl_13" n="N014"/>fragen, ob er denn mit dem lieben <rs type="person" ref="#hsl_person_id_416">Gott</rs> nicht <rs type="place" ref="#hsl_place_id_28">Italienisch</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_1_region_1684684350214_2063_tl_14" n="N015"/>reden dürfe?
-               <lb facs="#facs_1_region_1684684350214_2063_tl_15" n="N016"/>Spricht aus einem modernen Kirchenstück ehrliche Ueber¬
-               <lb facs="#facs_1_region_1684684350214_2063_tl_16" n="N017"/>zeugung und ernste Schönheit, dann mögen wir uns zufrie¬
-               <lb facs="#facs_1_region_1684684350214_2063_tl_17" n="N018"/>dengeben; die Frage nach der specifisch kirchlichen Quali¬
-               <lb facs="#facs_1_region_1684684350214_2063_tl_18" n="N019"/>fication wird täglich immer bedenklicher und haltloser. Es
+            </p><p>
+               <lb facs="#facs_1_region_1684684350214_2063_tl_15" n="N016"/>Spricht aus einem modernen Kirchenstück ehrliche Ueber
+               <lb facs="#facs_1_region_1684684350214_2063_tl_16" n="N017" break="no"/>zeugung und ernste Schönheit, dann mögen wir uns zufrie
+               <lb facs="#facs_1_region_1684684350214_2063_tl_17" n="N018" break="no"/>dengeben; die Frage nach der specifisch kirchlichen Quali
+               <lb facs="#facs_1_region_1684684350214_2063_tl_18" n="N019" break="no"/>fication wird täglich immer bedenklicher und haltloser. Es
                <lb facs="#facs_1_region_1684684350214_2063_tl_19" n="N020"/>ist Zeit, sich einmal darüber klar zu werden. Angesichts von
                <lb facs="#facs_1_region_1684684350214_2063_tl_20" n="N021"/>geistlichen Compositionen denken wir heutzutage doch vor
                <lb facs="#facs_1_region_1684684350214_2063_tl_21" n="N022"/>Allem an das <hi rendition="#em">Kunstwerk</hi>; was die Kirche als solche
-               <lb facs="#facs_1_region_1684684350214_2063_tl_22" n="N023"/>daran zu loben oder zu tadeln finde, ist uns sehr gleichgil¬
-               <lb facs="#facs_1_region_1684684350214_2063_tl_23" n="N024"/>tig. Das Interesse der Kirche wird immer auf die Unter¬
-               <lb facs="#facs_1_region_1684684350214_2063_tl_24" n="N025"/>ordnung des künstlerischen Ausdruckes unter den dogmati¬
-               <lb facs="#facs_1_region_1684684350214_2063_tl_25" n="N026"/>schen abzielen und von dem Künstler verlangen, daß er
+               <lb facs="#facs_1_region_1684684350214_2063_tl_22" n="N023"/>daran zu loben oder zu tadeln finde, ist uns sehr gleichgil
+               <lb facs="#facs_1_region_1684684350214_2063_tl_23" n="N024" break="no"/>tig. Das Interesse der Kirche wird immer auf die Unter
+               <lb facs="#facs_1_region_1684684350214_2063_tl_24" n="N025" break="no"/>ordnung des künstlerischen Ausdruckes unter den dogmati
+               <lb facs="#facs_1_region_1684684350214_2063_tl_25" n="N026" break="no"/>schen abzielen und von dem Künstler verlangen, daß er
                <lb facs="#facs_1_region_1684684350214_2063_tl_26" n="N027"/>durch die selbstständige Schönheit seines Werkes nicht die
                <lb facs="#facs_1_region_1684684350214_2063_tl_27" n="N028"/>Aufmerksamkeit der Gemeinde allzusehr ablenke von dem
-               <lb facs="#facs_1_region_1684684350214_2063_tl_28" n="N029"/>kirchlichen Vorgang. Wir Kinder der Zeit erblicken hinge¬
-               <lb facs="#facs_1_region_1684684350214_2063_tl_29" n="N030"/>gen in dem „Stabat mater“, dem Requiem, selbst im Meß¬
-               <lb facs="#facs_1_region_1684684350214_2063_tl_30" n="N031"/>text eine Dichtung, allerdings eine durch Inhalt und Tra¬
-               <lb facs="#facs_1_region_1684684350214_2063_tl_31" n="N032"/>dition geheiligte Dichtung, welche der Componist als Stoff
+               <lb facs="#facs_1_region_1684684350214_2063_tl_28" n="N029"/>kirchlichen Vorgang. Wir Kinder der Zeit erblicken hinge
+               <lb facs="#facs_1_region_1684684350214_2063_tl_29" n="N030" break="no"/>gen in dem „Stabat mater“, dem Requiem, selbst im Meß
+               <lb facs="#facs_1_region_1684684350214_2063_tl_30" n="N031" break="no"/>text eine Dichtung, allerdings eine durch Inhalt und Tra
+               <lb facs="#facs_1_region_1684684350214_2063_tl_31" n="N032" break="no"/>dition geheiligte Dichtung, welche der Componist als Stoff
                <lb facs="#facs_1_region_1684684350214_2063_tl_32" n="N033"/>für seine Kunst verwendet. Was er daraus schafft, gilt uns
                <lb facs="#facs_1_region_1684684350214_2063_tl_33" n="N034"/>für ein Werk freier Kunst, welches das Recht seiner Existenz
                <lb facs="#facs_1_region_1684684350214_2063_tl_34" n="N035"/>in sich selbst, in seiner künstlerischen Größe und Schönheit
@@ -1451,43 +1430,29 @@
                <lb facs="#facs_1_region_1684684350214_2063_tl_36" n="N037"/>mit Einem Worte bei solchen Schöpfungen unserer modernen
                <lb facs="#facs_1_region_1684684350214_2063_tl_37" n="N038"/>Meister an den Musiksaal, nicht an die Kirche, und diese
                <lb facs="#facs_1_region_1684684350214_2063_tl_38" n="N039"/>Meister denken ebenso. Das war ganz anders in früheren
-               <lb facs="#facs_1_region_1684684350214_2063_tl_39" n="N040"/>Zeiten. <rs type="person">Haydn</rs> und <rs type="person">Mozart</rs> kam es niemals in den Sinn,
+               <lb facs="#facs_1_region_1684684350214_2063_tl_39" n="N040"/>Zeiten. <rs type="person" ref="#hsl_person_id_114">Haydn</rs> und <rs type="person" ref="#hsl_person_id_189">Mozart</rs> kam es niemals in den Sinn,
                <lb facs="#facs_1_region_1684684350214_2063_tl_40" n="N041"/>daß ihre Messen anderswo als im Gotteshause aufzuführen
-               <lb facs="#facs_1_line_1749013541780_195" n="N042"/>seien. Sie schrieben ihre Kirchenmusik für den Gebrauch der
-            </p>
+               <lb facs="#facs_1_line_1749013541780_195" n="N042"/>seien. Sie schrieben ihre Kirchenmusik für den Gebrauch der<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684684360245_2069_tl_1" n="N001"/>Kirche. Erst <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi>, mit dem auch auf diesem Punkte
-               <lb facs="#facs_2_region_1684684360245_2069_tl_2" n="N002"/>eine neue Zeit hereinbricht, hat — <date month="0" day="0" year="0">1824</date> — drei Sätze seiner
-               <lb facs="#facs_2_region_1684684360245_2069_tl_3" n="N003"/>„<rs type="bibl">Missa solennis</rs>“ zuerst im Kärntnerthor-Theater aufführen
-               <lb facs="#facs_2_region_1684684360245_2069_tl_4" n="N004"/>lassen. Er hatte zwar die <rs type="bibl">Messe</rs>, wie bekannt, ursprünglich
-               <lb facs="#facs_2_region_1684684360245_2069_tl_5" n="N005"/>für eine große kirchliche Feier bestimmt, aber der musika¬
-               <lb facs="#facs_2_region_1684684360245_2069_tl_6" n="N006"/>lische Reichthum der Composition wuchs ihm so mächtig über
+            <cb n="4"/>
+            <p prev="true">
+               <lb facs="#facs_2_region_1684684360245_2069_tl_1" n="N001"/>Kirche. Erst <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi>, mit dem auch auf diesem Punkte
+               <lb facs="#facs_2_region_1684684360245_2069_tl_2" n="N002"/>eine neue Zeit hereinbricht, hat — <date>1824</date> — drei Sätze seiner
+               <lb facs="#facs_2_region_1684684360245_2069_tl_3" n="N003"/>„<rs type="bibl" ref="#hsl_work_id_87">Missa solennis</rs>“ zuerst im Kärntnerthor-Theater aufführen
+               <lb facs="#facs_2_region_1684684360245_2069_tl_4" n="N004"/>lassen. Er hatte zwar die <rs type="bibl" ref="#hsl_work_id_87">Messe</rs>, wie bekannt, ursprünglich
+               <lb facs="#facs_2_region_1684684360245_2069_tl_5" n="N005"/>für eine große kirchliche Feier bestimmt, aber der musika
+               <lb facs="#facs_2_region_1684684360245_2069_tl_6" n="N006" break="no"/>lische Reichthum der Composition wuchs ihm so mächtig über
                <lb facs="#facs_2_region_1684684360245_2069_tl_7" n="N007"/>den kirchlichen Rahmen hinaus, daß er damit selbst seine
-               <lb facs="#facs_2_region_1684684360245_2069_tl_8" n="N008"/>Zuflucht zum Concertsaal nahm. Und so wie <rs type="person">Beethoven</rs>'s
-               <lb facs="#facs_2_region_1684684360245_2069_tl_9" n="N009"/>
-               <rs type="bibl">Festmesse</rs>, haben auch die leicht aufzuzählenden Kirchen-Compo¬
-               <lb facs="#facs_2_region_1684684360245_2069_tl_10" n="N010"/>sitionen, welche wir von namhaften modernen Meistern be¬
-               <lb facs="#facs_2_line_1749013659483_234" n="N011"/>sitzen, ihre Heimat im Concertsaal gefunden: <hi rendition="#em">
-                  <rs type="person">Rossini</rs>'s</hi>
-               <lb facs="#facs_2_line_1749013663899_238" n="N012"/>„<rs type="bibl">Stabat</rs>“, <hi rendition="#em">
-                  <rs type="person">Liszt</rs>'s</hi> „<rs type="bibl">Graner Messe</rs>“, die <rs type="bibl">Requiem</rs>s von
-               <lb facs="#facs_2_region_1684684360245_2069_tl_15" n="N013"/>R. <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Brahms</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Lachner</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Verdi</rs>
-               </hi>. Auf
+               <lb facs="#facs_2_region_1684684360245_2069_tl_8" n="N008"/>Zuflucht zum Concertsaal nahm. Und so wie <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s
+               <lb facs="#facs_2_region_1684684360245_2069_tl_9" n="N009"/><rs type="bibl" ref="#hsl_work_id_87">Festmesse</rs>, haben auch die leicht aufzuzählenden Kirchen-Compo
+               <lb facs="#facs_2_region_1684684360245_2069_tl_10" n="N010" break="no"/>sitionen, welche wir von namhaften modernen Meistern be
+               <lb facs="#facs_2_line_1749013659483_234" n="N011" break="no"/>sitzen, ihre Heimat im Concertsaal gefunden: <hi rendition="#em"><rs type="person" ref="#hsl_person_id_241">Rossini</rs>’s</hi><space quantity="1" unit="char"/>
+               <lb facs="#facs_2_line_1749013663899_238" n="N012"/>„<rs type="bibl" ref="#hsl_work_id_373">Stabat</rs>“, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_164">Liszt</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_722">Graner Messe</rs>“, die <rs type="bibl" ref="#hsl_work_id_279 #hsl_work_id_1088 #hsl_work_id_4867 #hsl_work_id_721">Requiem</rs>s von
+               <lb facs="#facs_2_region_1684684360245_2069_tl_15" n="N013"/>R. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_151">Lachner</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs></hi>. Auf
                <lb facs="#facs_2_region_1684684360245_2069_tl_16" n="N014"/>zwanzig Concert-Productionen dieser Werke kommt vielleicht
                <lb facs="#facs_2_region_1684684360245_2069_tl_17" n="N015"/>Eine Kirchenaufführung, und diese gilt dann ausdrücklich
-               <lb facs="#facs_2_region_1684684360245_2069_tl_18" n="N016"/>als Concert in der Kirche, das sich zunächst an die Musik¬
-               <lb facs="#facs_2_region_1684684360245_2069_tl_19" n="N017"/>freunde wendet, nicht an die Beter. In dem Maße als die
+               <lb facs="#facs_2_region_1684684360245_2069_tl_18" n="N016"/>als Concert in der Kirche, das sich zunächst an die Musik
+               <lb facs="#facs_2_region_1684684360245_2069_tl_19" n="N017" break="no"/>freunde wendet, nicht an die Beter. In dem Maße als die
                <lb facs="#facs_2_region_1684684360245_2069_tl_20" n="N018"/>Kirche ihre führende Macht im Leben eingebüßt und ihre
                <lb facs="#facs_2_region_1684684360245_2069_tl_21" n="N019"/>Autorität auf einen immer kleineren Kreis von Geistern
                <lb facs="#facs_2_region_1684684360245_2069_tl_22" n="N020"/>eingeschränkt hat, entwickelte sich auch in den Künstlern,
@@ -1503,109 +1468,96 @@
                <lb facs="#facs_2_region_1684684360245_2069_tl_32" n="N030"/>darüber, daß weder die Kirche für ihre gottesdienstlichen
                <lb facs="#facs_2_region_1684684360245_2069_tl_33" n="N031"/>Zwecke genialer Tondichter bedarf, noch umgekehrt. Man
                <lb facs="#facs_2_region_1684684360245_2069_tl_34" n="N032"/>gesteht sich ein, daß für die Kirche das Alte ausreicht und
-               <lb facs="#facs_2_region_1684684360245_2069_tl_35" n="N033"/>das praktisch Tüchtige, ja Gewöhnliche oder Alltägliche den¬
-               <lb facs="#facs_2_region_1684684360245_2069_tl_36" n="N034"/>selben, wo nicht besseren Dienst leiste, als Neues. Speciell
+               <lb facs="#facs_2_region_1684684360245_2069_tl_35" n="N033"/>das praktisch Tüchtige, ja Gewöhnliche oder Alltägliche den
+               <lb facs="#facs_2_region_1684684360245_2069_tl_36" n="N034" break="no"/>selben, wo nicht besseren Dienst leiste, als Neues. Speciell
                <lb facs="#facs_2_region_1684684360245_2069_tl_37" n="N035"/>für die Kirche und nur für die Kirche componirt heutzutage
                <lb facs="#facs_2_region_1684684360245_2069_tl_38" n="N036"/>der musikalische Lehr- und Nährstand, die Chorregenten,
                <lb facs="#facs_2_region_1684684360245_2069_tl_39" n="N037"/>Domcapellmeister und sonstigen geschulten Routiniers, deren
                <lb facs="#facs_2_region_1684684360245_2069_tl_40" n="N038"/>kleines Talent die große Oeffentlichkeit nicht verträgt. Unsere
                <lb facs="#facs_2_region_1684684360245_2069_tl_41" n="N039"/>großen Tondichter componiren wol hin und wieder ein Stück
                <lb facs="#facs_2_region_1684684360245_2069_tl_42" n="N040"/>aus der Kirche, aber im Grunde nicht <hi rendition="#em">für</hi> die Kirche.
-               <lb facs="#facs_2_region_1684684360245_2069_tl_43" n="N041"/>Auch <hi rendition="#em">
-                  <rs type="person">Verdi</rs>
-               </hi> hat sein <rs type="bibl">Requiem</rs>, nachdem es einmal
-               <lb facs="#facs_2_region_1684684360245_2069_tl_44" n="N042"/>zu Ehren des berühmten Dichters der „Promessi sposi“,
-            </p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1684684363123_2072_tl_1" n="N001"/>Alessandro <rs type="person">Manzoni</rs>, im <rs type="place">Mailänder</rs> Dome seine Schuldig¬
-               <lb facs="#facs_2_region_1684684363123_2072_tl_2" n="N002"/>keit gethan, auf Reisen genommen, um es in den Concert¬
-               <lb facs="#facs_2_line_1749013743890_265" n="N003"/>sälen von <rs type="place">Paris</rs>, <rs type="place">London</rs> und <rs type="place">Wien</rs> derjenigen Gemeinde
+            </p><p>
+               <lb facs="#facs_2_region_1684684360245_2069_tl_43" n="N041"/>Auch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs></hi> hat sein <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs>, nachdem es einmal
+               <lb facs="#facs_2_region_1684684360245_2069_tl_44" n="N042"/>zu Ehren des berühmten Dichters der „<rs type="bibl" ref="#hsl_work_id_4868">Promessi sposi</rs>“,<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+               <lb facs="#facs_2_region_1684684363123_2072_tl_1" n="N001"/>Alessandro <rs type="person" ref="#hsl_person_id_7022">Manzoni</rs>, im <rs type="place" ref="#hsl_place_id_73">Mailänder</rs> Dome seine Schuldig
+               <lb facs="#facs_2_region_1684684363123_2072_tl_2" n="N002" break="no"/>keit gethan, auf Reisen genommen, um es in den Concert
+               <lb facs="#facs_2_line_1749013743890_265" n="N003" break="no"/>sälen von <rs type="place" ref="#hsl_place_id_44">Paris</rs>, <rs type="place" ref="#hsl_place_id_34">London</rs> und <rs type="place" ref="#hsl_place_id_55">Wien</rs> derjenigen Gemeinde
                <lb facs="#facs_2_line_1749013615355_213" n="N004"/>vorzuführen, welcher es in Wahrheit gewidmet war; der
                <lb facs="#facs_2_line_1749013630794_221" n="N005"/>musikalischen. Die besten Partien des Werkes sind jene, in
-               <lb facs="#facs_2_region_1684684363123_2072_tl_3" n="N006"/>welchen <rs type="person">Verdi</rs> seinem Gefühl und Talent am wenigsten
+               <lb facs="#facs_2_region_1684684363123_2072_tl_3" n="N006"/>welchen <rs type="person" ref="#hsl_person_id_312">Verdi</rs> seinem Gefühl und Talent am wenigsten
                <lb facs="#facs_2_region_1684684363123_2072_tl_4" n="N007"/>Zwang auferlegt hat; am schwächsten gerieth alles dasjenige,
-               <lb facs="#facs_2_region_1684684363123_2072_tl_5" n="N008"/>was sich der strengen Observanz gewisser kirchlicher Tradi¬
-               <lb facs="#facs_2_line_1749013650322_227" n="N009"/>tionen anbequemt: das Contrapunktische und vor Allem die
-               <lb facs="#facs_2_region_1684684363123_2072_tl_6" n="N010"/>Fugen. Es standen ihrer ursprünglich drei in dem <rs type="bibl">Requiem</rs>;
-               <lb facs="#facs_2_region_1684684363123_2072_tl_7" n="N011"/>die erste, auf die Worte „Liber scriptus“, hat der Com¬
-               <lb facs="#facs_2_region_1684684363123_2072_tl_8" n="N012"/>ponist, sehr zum Vortheil des Ganzen, nachträglich cassirt
-               <lb facs="#facs_2_region_1684684363123_2072_tl_9" n="N013"/>und durch ein sehr wirksames Solo für Mezzosopran er¬
-               <lb facs="#facs_2_region_1684684363123_2072_tl_10" n="N014"/>setzt. Die zwei anderen Fugen: „Sanctus“, doppel¬
-               <lb facs="#facs_2_region_1684684363123_2072_tl_11" n="N015"/>chörig, und „Libera me“ (Schlußfuge), stehen von den
+               <lb facs="#facs_2_region_1684684363123_2072_tl_5" n="N008"/>was sich der strengen Observanz gewisser kirchlicher Tradi
+               <lb facs="#facs_2_line_1749013650322_227" n="N009" break="no"/>tionen anbequemt: das Contrapunktische und vor Allem die
+               <lb facs="#facs_2_region_1684684363123_2072_tl_6" n="N010"/>Fugen. Es standen ihrer ursprünglich drei in dem <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs>;
+               <lb facs="#facs_2_region_1684684363123_2072_tl_7" n="N011"/>die erste, auf die Worte „Liber scriptus“, hat der Com
+               <lb facs="#facs_2_region_1684684363123_2072_tl_8" n="N012" break="no"/>ponist, sehr zum Vortheil des Ganzen, nachträglich cassirt
+               <lb facs="#facs_2_region_1684684363123_2072_tl_9" n="N013"/>und durch ein sehr wirksames Solo für Mezzosopran er
+               <lb facs="#facs_2_region_1684684363123_2072_tl_10" n="N014" break="no"/>setzt. Die zwei anderen Fugen: „Sanctus“, doppel
+               <lb facs="#facs_2_region_1684684363123_2072_tl_11" n="N015" break="no"/>chörig, und „Libera me“ (Schlußfuge), stehen von den
                <lb facs="#facs_2_region_1684684363123_2072_tl_12" n="N016"/>übrigen Sätzen des Requiems schon durch die sehr
                <lb facs="#facs_2_region_1684684363123_2072_tl_13" n="N017"/>unbedeutende, wohlfeile Erfindung ihrer Themen ab, sodann
                <lb facs="#facs_2_region_1684684363123_2072_tl_14" n="N018"/>durch das Steife und Trockene der Ausführung. Sie kommen
                <lb facs="#facs_2_region_1684684363123_2072_tl_15" n="N019"/>nie in einen frischen, freien Fluß, erreichen nirgends einen
-               <lb facs="#facs_2_region_1684684363123_2072_tl_16" n="N020"/>mächtigen Höhenpunkt. Es ist kein Wunder, wenn ein <rs type="place" continued="true">italie¬</rs>
-               <lb facs="#facs_2_region_1684684363123_2072_tl_17" n="N021"/>
-               <rs type="place" continued="true">nisch</rs>er Operncomponist, der bis zu seinem sechzigsten Jahre
+               <lb facs="#facs_2_region_1684684363123_2072_tl_16" n="N020"/>mächtigen Höhenpunkt. Es ist kein Wunder, wenn ein <rs type="place" ref="#hsl_place_id_28">italie
+               <lb facs="#facs_2_region_1684684363123_2072_tl_17" n="N021" break="no"/>nisch</rs>er Operncomponist, der bis zu seinem sechzigsten Jahre
                <lb facs="#facs_2_region_1684684363123_2072_tl_18" n="N022"/>an keine Fuge gedacht, solcher Aufgabe gegenüber einige
                <lb facs="#facs_2_region_1684684363123_2072_tl_19" n="N023"/>Aengstlichkeit empfindet und etwa von vier zu vier Tacten
                <lb facs="#facs_2_region_1684684363123_2072_tl_20" n="N024"/>in seinem Schema nachsicht, „was jetzt kommt“. Etwas von
                <lb facs="#facs_2_region_1684684363123_2072_tl_21" n="N025"/>solchem Zwang athmen die meisten modernen Fugen im
-               <lb facs="#facs_2_region_1684684363123_2072_tl_22" n="N026"/>Gegensatz zu jenen von <rs type="person">Bach</rs> und <rs type="person">Händel</rs>, die fast immer
+               <lb facs="#facs_2_region_1684684363123_2072_tl_22" n="N026"/>Gegensatz zu jenen von <rs type="person" ref="#hsl_person_id_18">Bach</rs> und <rs type="person" ref="#hsl_person_id_108">Händel</rs>, die fast immer
                <lb facs="#facs_2_region_1684684363123_2072_tl_23" n="N027"/>schon in der Erfindung der Themen eine geniale Freiheit
-               <lb facs="#facs_2_region_1684684363123_2072_tl_24" n="N028"/>offenbaren und in der Durchführung eine überzeugende Ge¬
-               <lb facs="#facs_2_region_1684684363123_2072_tl_25" n="N029"/>walt und Natürlichkeit. Jenen Meistern war der fugirte Styl
+               <lb facs="#facs_2_region_1684684363123_2072_tl_24" n="N028"/>offenbaren und in der Durchführung eine überzeugende Ge
+               <lb facs="#facs_2_region_1684684363123_2072_tl_25" n="N029" break="no"/>walt und Natürlichkeit. Jenen Meistern war der fugirte Styl
                <lb facs="#facs_2_region_1684684363123_2072_tl_26" n="N030"/>eine vollkommen natürliche Sprache (ähnlich wie manchen
                <lb facs="#facs_2_region_1684684363123_2072_tl_27" n="N031"/>älteren Dichtern und Dichterschulen die schwierigsten antiken
                <lb facs="#facs_2_region_1684684363123_2072_tl_28" n="N032"/>Versmaße), sie konnten mit souveräner Freiheit darin denken
-               <lb facs="#facs_2_line_1749013680475_242" n="N033"/>und dichten. Wer von Haus aus polyphon denkt und erfin¬
-               <lb facs="#facs_2_region_1684684363123_2072_tl_29" n="N034"/>det, hat gut fugiren. Später ist die Fuge immer mehr zum
+               <lb facs="#facs_2_line_1749013680475_242" n="N033"/>und dichten. Wer von Haus aus polyphon denkt und erfin
+               <lb facs="#facs_2_region_1684684363123_2072_tl_29" n="N034" break="no"/>det, hat gut fugiren. Später ist die Fuge immer mehr zum
                <lb facs="#facs_2_region_1684684363123_2072_tl_30" n="N035"/>bloßen Formalismus eingeschrumpft, aber ihn auszufüllen
                <lb facs="#facs_2_region_1684684363123_2072_tl_31" n="N036"/>gilt in der Kirchenmusik noch immer als unerläßliche Pflicht
-               <lb facs="#facs_2_region_1684684363123_2072_tl_32" n="N037"/>des Componisten. An sich hat die Fugenform nicht das Min¬
-               <lb facs="#facs_2_region_1684684363123_2072_tl_33" n="N038"/>deste zu schaffen mit dem Ausdruck religiöser Andacht (wie
-               <lb facs="#facs_2_region_1684684363123_2072_tl_34" n="N039"/>das <rs type="person">Jahn</rs> in seiner <rs type="bibl">Mozart-Biographie</rs> sehr hübsch ausgeführt
+               <lb facs="#facs_2_region_1684684363123_2072_tl_32" n="N037"/>des Componisten. An sich hat die Fugenform nicht das Min
+               <lb facs="#facs_2_region_1684684363123_2072_tl_33" n="N038" break="no"/>deste zu schaffen mit dem Ausdruck religiöser Andacht (wie
+               <lb facs="#facs_2_region_1684684363123_2072_tl_34" n="N039"/>das <rs type="person" ref="#hsl_person_id_135">Jahn</rs> in seiner <rs type="bibl" ref="#hsl_work_id_485">Mozart-Biographie</rs> sehr hübsch ausgeführt
                <lb facs="#facs_2_region_1684684363123_2072_tl_35" n="N040"/>hat), trotzdem machen unsere Componisten keine Kirchenmusik
                <lb facs="#facs_2_region_1684684363123_2072_tl_36" n="N041"/>ohne Fuge; das klingt oft recht widerwillig, wie ein Citat aus
-               <lb facs="#facs_2_line_1749013718571_257" n="N042"/>
-               <rs type="person">Cicero</rs>
-               <rs type="bibl">De officiis</rs>. Selbst <hi rendition="#em">
-                  <rs type="person">Mendelssohn</rs>
-               </hi>, der die Künste
-            </p>
-            <cb n="7"/>
-            <p>
+               <lb facs="#facs_2_line_1749013718571_257" n="N042"/><rs type="person" ref="#hsl_person_id_7112">Cicero</rs><space unit="char" quantity="1"/><rs type="bibl" ref="#hsl_work_id_4904">De officiis</rs>. Selbst <hi rendition="#em"><rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs></hi>, der die Künste<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
                <lb facs="#facs_2_region_1684684366199_2075_tl_1" n="N001"/>gelehrter Musik mit größerer Meisterschaft, jedenfalls mit
                <lb facs="#facs_2_region_1684684366199_2075_tl_2" n="N002"/>mehr Klarheit und Anmuth handhabte, als die meisten
-               <lb facs="#facs_2_region_1684684366199_2075_tl_3" n="N003"/>Modernen, scheint immer etwas von dem specifischen Ge¬
-               <lb facs="#facs_2_region_1684684366199_2075_tl_4" n="N004"/>wichte seines Talentes zu verlieren, wenn er ausgeführte
+               <lb facs="#facs_2_region_1684684366199_2075_tl_3" n="N003"/>Modernen, scheint immer etwas von dem specifischen Ge
+               <lb facs="#facs_2_region_1684684366199_2075_tl_4" n="N004" break="no"/>wichte seines Talentes zu verlieren, wenn er ausgeführte
                <lb facs="#facs_2_region_1684684366199_2075_tl_5" n="N005"/>Fugen schreibt. Ueber seine fünfstimmige B-dur-Fuge im
-               <lb facs="#facs_2_region_1684684366199_2075_tl_6" n="N006"/>„<rs type="bibl">Paulus</rs>“ äußerte <rs type="person">Mendelssohn</rs> selbst zu M. <rs type="person">Hauptmann</rs>,
+               <lb facs="#facs_2_region_1684684366199_2075_tl_6" n="N006"/>„<rs type="bibl" ref="#hsl_work_id_67">Paulus</rs>“ äußerte <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs> selbst zu M. <rs type="person" ref="#hsl_person_id_687">Hauptmann</rs>,
                <lb facs="#facs_2_region_1684684366199_2075_tl_7" n="N007"/>er habe sie geschrieben, „weil die Leute in Oratorien immer
-               <lb facs="#facs_2_region_1684684366199_2075_tl_8" n="N008"/>eine ordentliche Fuge hören wollen und glauben, der Com¬
-               <lb facs="#facs_2_region_1684684366199_2075_tl_9" n="N009"/>ponist könne es nicht, wenn er keine bringt“. Aus ähnli¬
-               <lb facs="#facs_2_region_1684684366199_2075_tl_10" n="N010"/>chem Grunde hat sicherlich auch <rs type="person">Verdi</rs> die Fugen in seinem
-               <lb facs="#facs_2_region_1684684366199_2075_tl_11" n="N011"/>
-               <rs type="bibl">Requiem</rs> geschrieben, nur sind sie nicht so gut ausgefallen
-               <lb facs="#facs_2_region_1684684366199_2075_tl_12" n="N012"/>wie die <rs type="person">Mendelssohn</rs>'schen. Diese kleinen Sandstrecken in
-               <lb facs="#facs_2_region_1684684366199_2075_tl_13" n="N013"/>
-               <rs type="person">Verdi</rs>'s <rs type="bibl">Requiem</rs> liegen glücklicherweise inmitten eines blü¬
-               <lb facs="#facs_2_region_1684684366199_2075_tl_14" n="N014"/>henden Gartens. Gleich der A-moll-Satz zu Anfang
+               <lb facs="#facs_2_region_1684684366199_2075_tl_8" n="N008"/>eine ordentliche Fuge hören wollen und glauben, der Com
+               <lb facs="#facs_2_region_1684684366199_2075_tl_9" n="N009" break="no"/>ponist könne es nicht, wenn er keine bringt“. Aus ähnli
+               <lb facs="#facs_2_region_1684684366199_2075_tl_10" n="N010" break="no"/>chem Grunde hat sicherlich auch <rs type="person" ref="#hsl_person_id_312">Verdi</rs> die Fugen in seinem
+               <lb facs="#facs_2_region_1684684366199_2075_tl_11" n="N011"/><rs type="bibl" ref="#hsl_work_id_721">Requiem</rs> geschrieben, nur sind sie nicht so gut ausgefallen
+               <lb facs="#facs_2_region_1684684366199_2075_tl_12" n="N012"/>wie die <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>’schen. Diese kleinen Sandstrecken in
+               <lb facs="#facs_2_region_1684684366199_2075_tl_13" n="N013"/><rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs> liegen glücklicherweise inmitten eines blü
+               <lb facs="#facs_2_region_1684684366199_2075_tl_14" n="N014" break="no"/>henden Gartens. Gleich der A-moll-Satz zu Anfang
                <lb facs="#facs_2_region_1684684366199_2075_tl_15" n="N015"/>(Requiem aeternam) ist ungemein schön in dem Ausdrucke
                <lb facs="#facs_2_region_1684684366199_2075_tl_16" n="N016"/>ruhiger, gefaßter Trauer, und wie ein milder Sonnenstrahl
                <lb facs="#facs_2_region_1684684366199_2075_tl_17" n="N017"/>fällt das A-dur-Motiv „et lux“ ein. Das „Dies irae“,
                <lb facs="#facs_2_region_1684684366199_2075_tl_18" n="N018"/>effectvoll mit ziemlich grellen Farben gemalt, erinnert an
-               <lb facs="#facs_2_region_1684684366199_2075_tl_19" n="N019"/>die bekannten Fresken im Campo Santo zu <rs type="place">Pisa</rs>, welche
+               <lb facs="#facs_2_region_1684684366199_2075_tl_19" n="N019"/>die bekannten Fresken im Campo Santo zu <rs type="place" ref="#hsl_place_id_76">Pisa</rs>, welche
                <lb facs="#facs_2_region_1684684366199_2075_tl_20" n="N020"/>alle Schrecken des jüngsten Gerichtes, des Fegefeuers und
                <lb facs="#facs_2_region_1684684366199_2075_tl_21" n="N021"/>der Hölle mit so erbarmungsloser Anschaulichkeit darstellen.
                <lb facs="#facs_2_region_1684684366199_2075_tl_22" n="N022"/>Das „Tuba mirum“ durch einander antwortende, an die vier
                <lb facs="#facs_2_region_1684684366199_2075_tl_23" n="N023"/>Ecken des Orchesters postirte Trompeten- und Posaunenrufe
-               <lb facs="#facs_2_region_1684684366199_2075_tl_24" n="N024"/>zu versinnlichen, ist eine Idee, die <rs type="person">Verdi</rs> dem <rs type="bibl">Requiem</rs>
-               <lb facs="#facs_2_region_1684684366199_2075_tl_25" n="N025"/>von <hi rendition="#em">
-                  <rs type="person">Berlioz</rs>
-               </hi> verdankt. Ihm gebührt jedoch das Verdienst,
+               <lb facs="#facs_2_region_1684684366199_2075_tl_24" n="N024"/>zu versinnlichen, ist eine Idee, die <rs type="person" ref="#hsl_person_id_312">Verdi</rs> dem <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs><space quantity="1" unit="char"/>
+               <lb facs="#facs_2_region_1684684366199_2075_tl_25" n="N025"/>von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_28">Berlioz</rs></hi> verdankt. Ihm gebührt jedoch das Verdienst,
                <lb facs="#facs_2_region_1684684366199_2075_tl_26" n="N026"/>sie nicht nur selbstständig behandelt, sondern durch maßvolle
-               <lb facs="#facs_2_region_1684684366199_2075_tl_27" n="N027"/>Reducirung erst möglich gemacht zu haben; denn <rs type="person">Berlioz</rs>'
-               <lb facs="#facs_2_region_1684684366199_2075_tl_28" n="N028"/>
-               <rs type="bibl">Requiem</rs>, durch die Ungeheuerlichkeit der aufgewendeten
+               <lb facs="#facs_2_region_1684684366199_2075_tl_27" n="N027"/>Reducirung erst möglich gemacht zu haben; denn <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’
+               <lb facs="#facs_2_region_1684684366199_2075_tl_28" n="N028"/><rs type="bibl" ref="#hsl_work_id_721">Requiem</rs>, durch die Ungeheuerlichkeit der aufgewendeten
                <lb facs="#facs_2_region_1684684366199_2075_tl_29" n="N029"/>Mittel selbst zur ewigen Ruhe verurtheilt, verwendet zu
-               <lb facs="#facs_2_region_1684684366199_2075_tl_30" n="N030"/>diesem Effecte vier verschiedene Orchester von Blech-Instrumen¬
-               <lb facs="#facs_2_region_1684684366199_2075_tl_31" n="N031"/>ten und acht Paar Pauken! Von dem rollenden Donner
-               <lb facs="#facs_2_region_1684684366199_2075_tl_32" n="N032"/>des „Rex tremendae majestatis“ hebt sich die innig fle¬
-               <lb facs="#facs_2_region_1684684366199_2075_tl_33" n="N033"/>hende Melodie „Salve me“ ungemein schön ab; es folgt
+               <lb facs="#facs_2_region_1684684366199_2075_tl_30" n="N030"/>diesem Effecte vier verschiedene Orchester von Blech-Instrumen
+               <lb facs="#facs_2_region_1684684366199_2075_tl_31" n="N031" break="no"/>ten und acht Paar Pauken! Von dem rollenden Donner
+               <lb facs="#facs_2_region_1684684366199_2075_tl_32" n="N032"/>des „Rex tremendae majestatis“ hebt sich die innig fle
+               <lb facs="#facs_2_region_1684684366199_2075_tl_33" n="N033" break="no"/>hende Melodie „Salve me“ ungemein schön ab; es folgt
                <lb facs="#facs_2_region_1684684366199_2075_tl_34" n="N034"/>das durch den bezaubernden Zusammenklang der beiden
                <lb facs="#facs_2_region_1684684366199_2075_tl_35" n="N035"/>Frauenstimmen so einschmeichelnde Duo „Recordare“, ein
                <lb facs="#facs_2_region_1684684366199_2075_tl_36" n="N036"/>Strom von Wohllaut, wenn auch knapp an dem Gestade
@@ -1613,184 +1565,144 @@
                <lb facs="#facs_2_region_1684684366199_2075_tl_38" n="N038"/>des „Dies irae“ lodernd in die Höhe. Ein Tenorsolo in
                <lb facs="#facs_2_region_1684684366199_2075_tl_39" n="N039"/>Es-dur („Qui Mariam absolvisti“) erinnert durch seinen
                <lb facs="#facs_2_region_1684684366199_2075_tl_40" n="N040"/>Wechsel zwischen der großen und übermäßigen Quinte in der
-               <lb facs="#facs_2_region_1684684366199_2075_tl_41" n="N041"/>Begleitung an ähnliche Wendungen in der „<rs type="bibl">Aïda</rs>“; dieser
-               <lb facs="#facs_2_line_1749013704803_248" n="N042"/>unschuldige Anklang ist aber auch die einzige Reminiscenz
-            </p>
+               <lb facs="#facs_2_region_1684684366199_2075_tl_41" n="N041"/>Begleitung an ähnliche Wendungen in der „<rs type="bibl" ref="#hsl_work_id_982">Aïda</rs>“; dieser
+               <lb facs="#facs_2_line_1749013704803_248" n="N042"/>unschuldige Anklang ist aber auch die einzige Reminiscenz<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1684684395497_2084_tl_1" n="N001"/>an jene Oper, die mir in <rs type="person">Verdi</rs>'s <rs type="bibl">Requiem</rs> auffiel. Beide
-               <lb facs="#facs_3_region_1684684392072_2081_tl_1" n="N002"/>Werke stehen so selbstständig und eigenthümlich neben einan¬
-               <lb facs="#facs_3_region_1684684392072_2081_tl_2" n="N003"/>der, wie es eben zwei Compositionen desselben Autors ver¬
-               <lb facs="#facs_3_region_1684684392072_2081_tl_3" n="N004"/>mögen. Es sei noch das vierstimmige Offertorium „Domine
-               <lb facs="#facs_3_region_1684684392072_2081_tl_4" n="N005"/>Jesu“, mit dem einfachen und doch rhythmisch so beleben¬
-               <lb facs="#facs_3_line_1749013836931_294" n="N006"/>den Mittelsatze „Quam olim Abrahae“, als ein Satz von
+            <cb n="7"/>
+            <p prev="true">
+               <lb facs="#facs_3_region_1684684395497_2084_tl_1" n="N001"/>an jene Oper, die mir in <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs> auffiel. Beide
+               <lb facs="#facs_3_region_1684684392072_2081_tl_1" n="N002"/>Werke stehen so selbstständig und eigenthümlich neben einan
+               <lb facs="#facs_3_region_1684684392072_2081_tl_2" n="N003" break="no"/>der, wie es eben zwei Compositionen desselben Autors ver
+               <lb facs="#facs_3_region_1684684392072_2081_tl_3" n="N004" break="no"/>mögen. Es sei noch das vierstimmige Offertorium „Domine
+               <lb facs="#facs_3_region_1684684392072_2081_tl_4" n="N005"/>Jesu“, mit dem einfachen und doch rhythmisch so beleben
+               <lb facs="#facs_3_line_1749013836931_294" n="N006" break="no"/>den Mittelsatze „Quam olim Abrahae“, als ein Satz von
                <lb facs="#facs_3_region_1684684392072_2081_tl_5" n="N007"/>schön gegliederter Architektur und ungemeinem Klangzauber
-               <lb facs="#facs_3_region_1684684392072_2081_tl_6" n="N008"/>hervorgehoben; dann das „Agnus Dei“, dessen etwas psal¬
-               <lb facs="#facs_3_region_1684684392072_2081_tl_7" n="N009"/>modische Sopran-Melodie durch das Mitsingen der Altstimme
-               <lb facs="#facs_3_region_1684684392072_2081_tl_8" n="N010"/>in der tieferen Octave ein sehr stimmungsvolles Halbdunkel ge¬
-               <lb facs="#facs_3_region_1684684392072_2081_tl_9" n="N011"/>winnt; endlich das rührende, sanfte Ausklingen des ganzen
+               <lb facs="#facs_3_region_1684684392072_2081_tl_6" n="N008"/>hervorgehoben; dann das „Agnus Dei“, dessen etwas psal
+               <lb facs="#facs_3_region_1684684392072_2081_tl_7" n="N009" break="no"/>modische Sopran-Melodie durch das Mitsingen der Altstimme
+               <lb facs="#facs_3_region_1684684392072_2081_tl_8" n="N010"/>in der tieferen Octave ein sehr stimmungsvolles Halbdunkel ge
+               <lb facs="#facs_3_region_1684684392072_2081_tl_9" n="N011" break="no"/>winnt; endlich das rührende, sanfte Ausklingen des ganzen
                <lb facs="#facs_3_region_1684684392072_2081_tl_10" n="N012"/>Werkes auf die immer leiser hingehauchten Worte „Libera me“!
-               <lb facs="#facs_3_region_1684684392072_2081_tl_11" n="N013"/>
-               <rs type="person">Verdi</rs>'s <rs type="bibl">Requiem</rs> enthält neben großen Schönheiten
+            </p><p>
+               <lb facs="#facs_3_region_1684684392072_2081_tl_11" n="N013"/><rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs> enthält neben großen Schönheiten
                <lb facs="#facs_3_region_1684684392072_2081_tl_12" n="N014"/>auch manche schwache Stelle, sogar einiges Unschöne (wie
                <lb facs="#facs_3_region_1684684392072_2081_tl_13" n="N015"/>die mit sonderbarer Absichtlichkeit angebrachten Parallel-
-               <lb facs="#facs_3_region_1684684392072_2081_tl_14" n="N016"/>Quinten in dem Baßsolo „Confutatis“); allein der überwie¬
-               <lb facs="#facs_3_line_1749013856491_300" n="N017"/>gend günstige Eindruck des Ganzen trägt uns darüber hin¬
-               <lb facs="#facs_3_region_1684684392072_2081_tl_15" n="N018"/>weg. Dieses <rs type="bibl">Requiem</rs> bleibt doch ein echtes und schönes
-               <lb facs="#facs_3_region_1684684392072_2081_tl_16" n="N019"/>Stück <rs type="place">italienisch</rs>er Kunst. In der Physiologie dieser Kunst
-               <lb facs="#facs_3_line_1749013876186_306" n="N020"/>und im Charakter des Katholicismus ist ein gewisses Ueber¬
-               <lb facs="#facs_3_line_1749013898098_312" n="N021"/>wiegen der Sinnlichkeit und des glänzenden südlichen Pathos
-               <lb facs="#facs_3_line_1749013918794_318" n="N022"/>begründet. Genug, daß in <rs type="person">Verdi</rs>'s <rs type="bibl">Requiem</rs> nicht, wie in so
-               <lb facs="#facs_3_region_1684684392072_2081_tl_17" n="N023"/>vielen, mitunter hochgefeierten <rs type="place">italienisch</rs>en Kirchenmusiken,
-               <lb facs="#facs_3_region_1684684392072_2081_tl_18" n="N024"/>der Geist in der Fülle blühenden Fleisches erstickt. <rs type="place">Italien</rs>
+               <lb facs="#facs_3_region_1684684392072_2081_tl_14" n="N016"/>Quinten in dem Baßsolo „Confutatis“); allein der überwie
+               <lb facs="#facs_3_line_1749013856491_300" n="N017" break="no"/>gend günstige Eindruck des Ganzen trägt uns darüber hin
+               <lb facs="#facs_3_region_1684684392072_2081_tl_15" n="N018" break="no"/>weg. Dieses <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs> bleibt doch ein echtes und schönes
+               <lb facs="#facs_3_region_1684684392072_2081_tl_16" n="N019"/>Stück <rs type="place" ref="#hsl_place_id_28">italienisch</rs>er Kunst. In der Physiologie dieser Kunst
+               <lb facs="#facs_3_line_1749013876186_306" n="N020"/>und im Charakter des Katholicismus ist ein gewisses Ueber
+               <lb facs="#facs_3_line_1749013898098_312" n="N021" break="no"/>wiegen der Sinnlichkeit und des glänzenden südlichen Pathos
+               <lb facs="#facs_3_line_1749013918794_318" n="N022"/>begründet. Genug, daß in <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs> nicht, wie in so
+               <lb facs="#facs_3_region_1684684392072_2081_tl_17" n="N023"/>vielen, mitunter hochgefeierten <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Kirchenmusiken,
+               <lb facs="#facs_3_region_1684684392072_2081_tl_18" n="N024"/>der Geist in der Fülle blühenden Fleisches erstickt. <rs type="place" ref="#hsl_place_id_28">Italien</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_3_line_1749013941595_324" n="N025"/>darf sich dieses Werkes rühmen, und wir dürfen uns dessen
                <lb facs="#facs_3_region_1684684392072_2081_tl_19" n="N026"/>aufrichtig mitfreuen, ohne darum in Uebertreibungen zu
-               <lb facs="#facs_3_line_1749013960249_330" n="N027"/>verfallen, wie die, es sei dieses <rs type="bibl">Requiem</rs> „die bedeutendste
-               <lb facs="#facs_3_region_1684684392072_2081_tl_20" n="N028"/>Tondichtung des Jahrhunderts“. Nicht einmal die bedeu¬
-               <lb facs="#facs_3_region_1684684392072_2081_tl_21" n="N029"/>tendste Kirchenmusik dieses Decenniums! Denn so kindlich
-               <lb facs="#facs_3_region_1684684392072_2081_tl_22" n="N030"/>wird wol Niemand sein, <rs type="person">Verdi</rs>'s <rs type="person">Manzoni</rs>-<rs type="bibl">Messe</rs> mit dem
-               <lb facs="#facs_3_region_1684684392072_2081_tl_23" n="N031"/>„<rs type="bibl">Deutschen Requiem</rs>“ von <rs type="person">Brahms</rs> auf Eine Höhe zu stellen.
+               <lb facs="#facs_3_line_1749013960249_330" n="N027"/>verfallen, wie die, es sei dieses <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs> „die bedeutendste
+               <lb facs="#facs_3_region_1684684392072_2081_tl_20" n="N028"/>Tondichtung des Jahrhunderts“. Nicht einmal die bedeu
+               <lb facs="#facs_3_region_1684684392072_2081_tl_21" n="N029" break="no"/>tendste Kirchenmusik dieses Decenniums! Denn so kindlich
+               <lb facs="#facs_3_region_1684684392072_2081_tl_22" n="N030"/>wird wol Niemand sein, <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s <rs type="person" ref="#hsl_person_id_7022">Manzoni</rs>-<rs type="bibl" ref="#hsl_work_id_721">Messe</rs> mit dem
+               <lb facs="#facs_3_region_1684684392072_2081_tl_23" n="N031"/>„<rs type="bibl" ref="#hsl_work_id_1088">Deutschen Requiem</rs>“ von <rs type="person" ref="#hsl_person_id_41">Brahms</rs> auf Eine Höhe zu stellen.
                <lb facs="#facs_3_region_1684684392072_2081_tl_24" n="N032"/>Zum Glücke nöthigt uns nichts zu solcher Vergleichung, und
-               <lb facs="#facs_3_region_1684684392072_2081_tl_25" n="N033"/>wir können jedem in seinem eigenen Style ehrlich und be¬
-               <lb facs="#facs_3_region_1684684392072_2081_tl_26" n="N034"/>deutend Schaffenden seine Ehre geben.
+               <lb facs="#facs_3_region_1684684392072_2081_tl_25" n="N033"/>wir können jedem in seinem eigenen Style ehrlich und be
+               <lb facs="#facs_3_region_1684684392072_2081_tl_26" n="N034" break="no"/>deutend Schaffenden seine Ehre geben.
+            </p><p>
                <lb facs="#facs_3_region_1684684392072_2081_tl_27" n="N035"/>Es ist in allen Berichten mit Recht hervorgehoben,
-               <lb facs="#facs_3_region_1684684392072_2081_tl_28" n="N036"/>welch großen Antheil an dem Erfolge des <rs type="bibl">Requiem</rs>s die vor¬
-               <lb facs="#facs_3_region_1684684392072_2081_tl_29" n="N037"/>treffliche Ausführung hatte. Das bewunderungswürdige
+               <lb facs="#facs_3_region_1684684392072_2081_tl_28" n="N036"/>welch großen Antheil an dem Erfolge des <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs>s die vor
+               <lb facs="#facs_3_region_1684684392072_2081_tl_29" n="N037" break="no"/>treffliche Ausführung hatte. Das bewunderungswürdige
                <lb facs="#facs_3_region_1684684392072_2081_tl_30" n="N038"/>Orchester und der vortreffliche Chor des Hofoperntheaters
                <lb facs="#facs_3_region_1684684392072_2081_tl_31" n="N039"/>(letzterer verstärkt durch die jugendfrischen Stimmen unseres
-               <lb facs="#facs_3_region_1684684392072_2081_tl_32" n="N040"/>Akademischen Gesangvereins) leisteten ihr Bestes in der Be¬
-               <lb facs="#facs_3_region_1684684392072_2081_tl_33" n="N041"/>gleitung eines Gesangsquartetts, das in unvergleichlicher
-            </p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_line_1749013815931_286" n="N001"/>Ausführung dieses Werkes bereits <rs type="place">europäisch</rs>e Berühmtheit
-               <lb facs="#facs_3_line_1749014005362_345" n="N002"/>erlangt hat. Es sind dies die Sängerinnen <hi rendition="#em">
-                  <rs type="person">Stolz</rs>
-               </hi> und
-               <lb facs="#facs_3_line_1749014029386_351" n="N003"/>
-               <hi rendition="#em">
-                  <rs type="person">Waldmann</rs>
-               </hi> (Beide Oesterreicherinnen), die Sänger <hi rendition="#em">
-                  <rs type="person" continued="true">Ma¬</rs>
-               </hi>
-               <lb facs="#facs_3_line_1749014046562_357" n="N004"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">sini</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Medini</rs>
-               </hi>; im Ensemble sind sie Ein Herz und
+               <lb facs="#facs_3_region_1684684392072_2081_tl_32" n="N040"/>Akademischen Gesangvereins) leisteten ihr Bestes in der Be
+               <lb facs="#facs_3_region_1684684392072_2081_tl_33" n="N041" break="no"/>gleitung eines Gesangsquartetts, das in unvergleichlicher<space quantity="1" unit="char"/></p>
+            <cb n="8"/>
+            <p prev="true">
+               <lb facs="#facs_3_line_1749013815931_286" n="N001"/>Ausführung dieses Werkes bereits <rs type="place" ref="#hsl_place_id_19">europäisch</rs>e Berühmtheit
+               <lb facs="#facs_3_line_1749014005362_345" n="N002"/>erlangt hat. Es sind dies die Sängerinnen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7107">Stolz</rs></hi> und
+               <lb facs="#facs_3_line_1749014029386_351" n="N003"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_361">Waldmann</rs></hi> (Beide Oesterreicherinnen), die Sänger <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4396">Ma
+               <lb facs="#facs_3_line_1749014046562_357" n="N004" break="no"/>sini</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7106">Medini</rs></hi>; im Ensemble sind sie Ein Herz und
                <lb facs="#facs_3_region_1684684395497_2084_tl_2" n="N005"/>Eine Kehle. Nur in Einem Punkte fand ich deren Leistungen
                <lb facs="#facs_3_region_1684684395497_2084_tl_3" n="N006"/>nicht vorwurfsfrei: ihr Vortrag war häufig zu theatralisch.
                <lb facs="#facs_3_region_1684684395497_2084_tl_4" n="N007"/>Gewisse Schluchzer, Bebungen und leidenschaftliche Accente
                <lb facs="#facs_3_region_1684684395497_2084_tl_5" n="N008"/>passen (selbst im Concertsaale) nicht für kirchliche Musik,
-               <lb facs="#facs_3_line_1749014063658_363" n="N009"/>nicht zu dem Texte des <rs type="bibl">Requiem</rs>s. Wenn eine Sängerin
-               <lb facs="#facs_3_region_1684684395497_2084_tl_6" n="N010"/>
-               <rs type="person">Jesum Christum</rs> anruft, so darf man nicht meinen, sie
+               <lb facs="#facs_3_line_1749014063658_363" n="N009"/>nicht zu dem Texte des <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs>s. Wenn eine Sängerin
+               <lb facs="#facs_3_region_1684684395497_2084_tl_6" n="N010"/><rs type="person" ref="#hsl_person_id_463">Jesum Christum</rs> anruft, so darf man nicht meinen, sie
                <lb facs="#facs_3_region_1684684395497_2084_tl_7" n="N011"/>schmachte nach ihrem Geliebten. Ich erinnere nur an das
                <lb facs="#facs_3_line_1749014085347_370" n="N012"/>herzbrechend sentimentale Schluchzen, mit welchem Fräulein
-               <lb facs="#facs_3_region_1684684395497_2084_tl_8" n="N013"/>
-               <hi rendition="#em">
-                  <rs type="person">Waldmann</rs>
-               </hi> die einfachen Worte: „Liber scriptus
-               <lb facs="#facs_3_region_1684684395497_2084_tl_9" n="N014"/>proferetur“ vortrug. Auch der Tenorist <hi rendition="#em">
-                  <rs type="person">Masini</rs>
-               </hi> gefiel sich
+               <lb facs="#facs_3_region_1684684395497_2084_tl_8" n="N013"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_361">Waldmann</rs></hi> die einfachen Worte: „Liber scriptus
+               <lb facs="#facs_3_region_1684684395497_2084_tl_9" n="N014"/>proferetur“ vortrug. Auch der Tenorist <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4396">Masini</rs></hi> gefiel sich
                <lb facs="#facs_3_region_1684684395497_2084_tl_10" n="N015"/>einigemale in dem unvermittelten Aussetzen eines Pianissimo
                <lb facs="#facs_3_region_1684684395497_2084_tl_11" n="N016"/>auf ein Forte u. dgl. Man wird vielleicht einwenden, daß
-               <lb facs="#facs_3_region_1684684395497_2084_tl_12" n="N017"/>
-               <rs type="person">Verdi</rs>'s Musik dazu verleite. Dann wäre es Pflicht der
+               <lb facs="#facs_3_region_1684684395497_2084_tl_12" n="N017"/><rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s Musik dazu verleite. Dann wäre es Pflicht der
                <lb facs="#facs_3_line_1749013778674_274" n="N018"/>Sänger, durch strengeren Vortrag die Melodie zu festigen,
                <lb facs="#facs_3_region_1684684395497_2084_tl_13" n="N019"/>anstatt sie durch theatralische Sentimentalität noch zu lockern
-               <lb facs="#facs_3_region_1684684395497_2084_tl_14" n="N020"/>und zu verweltlichen. Indessen ließ gerade diese Vortrags¬
-               <lb facs="#facs_3_region_1684684395497_2084_tl_15" n="N021"/>weise vermuthen, daß <rs type="person">Verdi</rs>'s Sänger erst auf der Bühne
+               <lb facs="#facs_3_region_1684684395497_2084_tl_14" n="N020"/>und zu verweltlichen. Indessen ließ gerade diese Vortrags
+               <lb facs="#facs_3_region_1684684395497_2084_tl_15" n="N021" break="no"/>weise vermuthen, daß <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s Sänger erst auf der Bühne
                <lb facs="#facs_3_region_1684684395497_2084_tl_16" n="N022"/>ihr ganzes Talent entfalten, ihren vollen Effect erzielen
-               <lb facs="#facs_3_region_1684684395497_2084_tl_17" n="N023"/>würden. Und wirklich erlebten wir das in der <rs type="place">italienisch</rs>en
-               <lb facs="#facs_3_region_1684684395497_2084_tl_18" n="N024"/>Vorstellung der „<rs type="bibl">Aïda</rs>“, welche unter <rs type="person">Verdi</rs>'s Direction
-               <lb facs="#facs_3_region_1684684395497_2084_tl_19" n="N025"/>den Aufführungen des <rs type="bibl">Requiem</rs>s folgte. Es war einer der
-               <lb facs="#facs_3_region_1684684395497_2084_tl_20" n="N026"/>genußreichsten Abende, welche wir dem Hofoperntheater ver¬
-               <lb facs="#facs_3_region_1684684395497_2084_tl_21" n="N027"/>danken. Drei neue Factoren wirkten zu diesem Resultate zu¬
-               <lb facs="#facs_3_region_1684684395497_2084_tl_22" n="N028"/>sammen: zuerst die Besetzung der Hauptrollen durch die ge¬
-               <lb facs="#facs_3_region_1684684395497_2084_tl_23" n="N029"/>nannten Gäste, sodann die <rs type="place">italienisch</rs>e Sprache, endlich die
-               <lb facs="#facs_3_region_1684684395497_2084_tl_24" n="N030"/>persönliche Einwirkung <rs type="person">Verdi</rs>'s vom Dirigentenpulte aus.
-               <lb facs="#facs_3_region_1684684395497_2084_tl_25" n="N031"/>Unter den Sängern verdient Fräulein <hi rendition="#em">
-                  <rs type="person">Waldmann</rs>
-               </hi> als
-               <lb facs="#facs_3_region_1684684395497_2084_tl_26" n="N032"/>
-               <rs type="person">Amneris</rs> den ersten Preis. In entzückendem Wohllaute
+               <lb facs="#facs_3_region_1684684395497_2084_tl_17" n="N023"/>würden. Und wirklich erlebten wir das in der <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en
+               <lb facs="#facs_3_region_1684684395497_2084_tl_18" n="N024"/>Vorstellung der „<rs type="bibl" ref="#hsl_work_id_982">Aïda</rs>“, welche unter <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s Direction
+               <lb facs="#facs_3_region_1684684395497_2084_tl_19" n="N025"/>den Aufführungen des <rs type="bibl" ref="#hsl_work_id_721">Requiem</rs>s folgte. Es war einer der
+               <lb facs="#facs_3_region_1684684395497_2084_tl_20" n="N026"/>genußreichsten Abende, welche wir dem Hofoperntheater ver
+               <lb facs="#facs_3_region_1684684395497_2084_tl_21" n="N027" break="no"/>danken. Drei neue Factoren wirkten zu diesem Resultate zu
+               <lb facs="#facs_3_region_1684684395497_2084_tl_22" n="N028" break="no"/>sammen: zuerst die Besetzung der Hauptrollen durch die ge
+               <lb facs="#facs_3_region_1684684395497_2084_tl_23" n="N029" break="no"/>nannten Gäste, sodann die <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Sprache, endlich die
+               <lb facs="#facs_3_region_1684684395497_2084_tl_24" n="N030"/>persönliche Einwirkung <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s vom Dirigentenpulte aus.
+               <lb facs="#facs_3_region_1684684395497_2084_tl_25" n="N031"/>Unter den Sängern verdient Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_361">Waldmann</rs></hi> als
+               <lb facs="#facs_3_region_1684684395497_2084_tl_26" n="N032"/><rs type="person" ref="#hsl_person_id_1743">Amneris</rs> den ersten Preis. In entzückendem Wohllaute
                <lb facs="#facs_3_region_1684684395497_2084_tl_27" n="N033"/>strömte ihre weiche, üppige Stimme dahin, überall vergeistigt
-               <lb facs="#facs_3_region_1684684395497_2084_tl_28" n="N034"/>und belebt durch den sprechendsten dramatischen Aus¬
-               <lb facs="#facs_3_region_1684684395497_2084_tl_29" n="N035"/>druck und ein ebenso vornehmes als leidenschaftliches
-               <lb facs="#facs_3_region_1684684395497_2084_tl_30" n="N036"/>Spiel. Wie sang sie in der ersten Scene die bei¬
-               <lb facs="#facs_3_line_1749013973203_337" n="N037"/>den vom Componisten nur recitativisch behandelten
+               <lb facs="#facs_3_region_1684684395497_2084_tl_28" n="N034"/>und belebt durch den sprechendsten dramatischen Aus
+               <lb facs="#facs_3_region_1684684395497_2084_tl_29" n="N035" break="no"/>druck und ein ebenso vornehmes als leidenschaftliches
+               <lb facs="#facs_3_region_1684684395497_2084_tl_30" n="N036"/>Spiel. Wie sang sie in der ersten Scene die bei
+               <lb facs="#facs_3_line_1749013973203_337" n="N037" break="no"/>den vom Componisten nur recitativisch behandelten
                <lb facs="#facs_3_line_1749013976820_341" n="N038"/>Worte: „Desiderii, speranze!“ In solchen Einzelheiten
-               <lb facs="#facs_3_region_1684684395497_2084_tl_35" n="N039"/>verräth sich das dramatische Blut. Fräulein <hi rendition="#em">
-                  <rs type="person">Stolz</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684684395497_2084_tl_36" n="N040"/>(<rs type="person">Aïda</rs>) schien — wenigstens in der von mir gehörten zweiten
-               <lb facs="#facs_3_line_1749013797836_280" n="N041"/>Aufführung — nicht im vollen Besitz ihrer schönen Stimme,
-            </p>
-            <cb n="10"/>
-            <p>
+               <lb facs="#facs_3_region_1684684395497_2084_tl_35" n="N039"/>verräth sich das dramatische Blut. Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7107">Stolz</rs></hi><space quantity="1" unit="char"/>
+               <lb facs="#facs_3_region_1684684395497_2084_tl_36" n="N040"/>(<rs type="person" ref="#hsl_person_id_6513">Aïda</rs>) schien — wenigstens in der von mir gehörten zweiten
+               <lb facs="#facs_3_line_1749013797836_280" n="N041"/>Aufführung — nicht im vollen Besitz ihrer schönen Stimme,<space quantity="1" unit="char"/></p>
+            <cb n="9"/>
+            <p prev="true">
                <lb facs="#facs_3_region_1684684399334_2087_tl_1" n="N001"/>so daß sie in dieser Hinsicht, bis auf ihre herrlichen tiefen
-               <lb facs="#facs_3_region_1684684399334_2087_tl_2" n="N002"/>Töne, hinter Frau <hi rendition="#em">
-                  <rs type="person">Wilt</rs>
-               </hi> zurückstand. An dramatischem Geist
-               <lb facs="#facs_3_region_1684684399334_2087_tl_3" n="N003"/>und Leben wurde hingegen unsere <rs type="place">deutsch</rs>e <rs type="person">Aïda</rs> bedeutend
-               <lb facs="#facs_3_region_1684684399334_2087_tl_4" n="N004"/>überragt von der <hi rendition="#em">
-                  <rs type="person">Stolz</rs>
-               </hi>. Der Tenorist <hi rendition="#em">
-                  <rs type="person">Masini</rs>
-               </hi>, als
+               <lb facs="#facs_3_region_1684684399334_2087_tl_2" n="N002"/>Töne, hinter Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_327">Wilt</rs></hi> zurückstand. An dramatischem Geist
+               <lb facs="#facs_3_region_1684684399334_2087_tl_3" n="N003"/>und Leben wurde hingegen unsere <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e <rs type="person" ref="#hsl_person_id_6513">Aïda</rs> bedeutend
+               <lb facs="#facs_3_region_1684684399334_2087_tl_4" n="N004"/>überragt von der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7107">Stolz</rs></hi>. Der Tenorist <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4396">Masini</rs></hi>, als
                <lb facs="#facs_3_region_1684684399334_2087_tl_5" n="N005"/>Schauspieler mittelmäßig, bezauberte das Publicum durch
                <lb facs="#facs_3_region_1684684399334_2087_tl_6" n="N006"/>süßen Schmelz der Stimme und seelenvollen Vortrag. Herr
-               <lb facs="#facs_3_region_1684684399334_2087_tl_7" n="N007"/>
-               <hi rendition="#em">
-                  <rs type="person">Medini</rs>
-               </hi> (<rs type="person">Ramphis</rs>) bewährte sich als sehr tüchtiger
+               <lb facs="#facs_3_region_1684684399334_2087_tl_7" n="N007"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_7106">Medini</rs></hi> (<rs type="person" ref="#hsl_person_id_7113">Ramphis</rs>) bewährte sich als sehr tüchtiger
                <lb facs="#facs_3_region_1684684399334_2087_tl_8" n="N008"/>Sänger; seinem ausgiebigen, aber hohlklingenden Baß blieb
-               <lb facs="#facs_3_region_1684684399334_2087_tl_9" n="N009"/>freilich die Wirkung versagt, welche <hi rendition="#em">
-                  <rs type="person">Rokitansky</rs>'s</hi>
+               <lb facs="#facs_3_region_1684684399334_2087_tl_9" n="N009"/>freilich die Wirkung versagt, welche <hi rendition="#em"><rs type="person" ref="#hsl_person_id_240">Rokitansky</rs>’s</hi><space quantity="1" unit="char"/>
                <lb facs="#facs_3_region_1684684399334_2087_tl_10" n="N010"/>Stimme in dieser Partie erreicht. Von unseren einheimischen
-               <lb facs="#facs_3_region_1684684399334_2087_tl_11" n="N011"/>Künstlern theilte Herr <hi rendition="#em">
-                  <rs type="person">Bignio</rs>
-               </hi> als <rs type="person">Amonasro</rs> die Ehren
+               <lb facs="#facs_3_region_1684684399334_2087_tl_11" n="N011"/>Künstlern theilte Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_33">Bignio</rs></hi> als <rs type="person" ref="#hsl_person_id_4649">Amonasro</rs> die Ehren
                <lb facs="#facs_3_region_1684684399334_2087_tl_12" n="N012"/>der fremden Gäste. Und wenn sie auch Alle etwas weniger
-               <lb facs="#facs_3_region_1684684399334_2087_tl_13" n="N013"/>gut gesungen hätten — sie sangen <rs type="place">italienisch</rs>! Wie sehr
-               <lb facs="#facs_3_region_1684684399334_2087_tl_14" n="N014"/>„<rs type="bibl">Aïda</rs>“ durch den <rs type="place">italienisch</rs>en Originaltext gewinnt, ist
-               <lb facs="#facs_3_region_1684684399334_2087_tl_15" n="N015"/>kaum zu sagen. Mehr als jede andere <rs type="place">italienisch</rs>e Oper,
-               <lb facs="#facs_3_region_1684684399334_2087_tl_16" n="N016"/>denn die <rs type="place">deutsch</rs>e Uebersetzung der „<rs type="bibl">Aïda</rs>“ gehört zu den
-               <lb facs="#facs_3_region_1684684399334_2087_tl_17" n="N017"/>schlechtesten, die wir kennen.*) Was aber die Leistungen der
+               <lb facs="#facs_3_region_1684684399334_2087_tl_13" n="N013"/>gut gesungen hätten — sie sangen <rs type="place" ref="#hsl_place_id_28">italienisch</rs>! Wie sehr
+               <lb facs="#facs_3_region_1684684399334_2087_tl_14" n="N014"/>„<rs type="bibl" ref="#hsl_work_id_982">Aïda</rs>“ durch den <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Originaltext gewinnt, ist
+               <lb facs="#facs_3_region_1684684399334_2087_tl_15" n="N015"/>kaum zu sagen. Mehr als jede andere <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Oper,
+               <lb facs="#facs_3_region_1684684399334_2087_tl_16" n="N016"/>denn die <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Uebersetzung der „<rs type="bibl" ref="#hsl_work_id_982">Aïda</rs>“ gehört zu den
+               <lb facs="#facs_3_region_1684684399334_2087_tl_17" n="N017"/>schlechtesten, die wir kennen.
+                  <note type="footnote" n="*)">
+                  <lb facs="#facs_3_line_1749014106658_395" n="N033"/>*) Man traut seinem Auge nicht, wenn man in diesem Libretto
+                  <lb facs="#facs_3_line_1749014111498_398" n="N034"/>auf Dinge wie die folgenden stößt: „Holde <rs type="person" ref="#hsl_person_id_6513">Aïda</rs>, himmelentflam
+                  <lb facs="#facs_3_line_1749014116314_401" n="N035" break="no"/>mend, zauberndes Wesen von Blumen und Licht, du bist die Kö
+                  <lb facs="#facs_3_line_1749014119818_404" n="N036" break="no"/>nigin meiner Gedanken, gibst meinem Leben einzig Gewicht . . . .
+                  <lb facs="#facs_3_line_1749014123090_407" n="N037"/>Jene Blässe voll Verstörung ist geheime, fiebernde Gluth . . . . Haß
+                  <lb facs="#facs_3_line_1749014126179_410" n="N038"/>nur und Rache nur nehmen mich ein . . . . Ich mit meiner Gluth,
+                  <lb facs="#facs_3_line_1749014132410_413" n="N039"/>der warmen, steige in das Grab hinein . . . . Als Gattin dessen,
+                  <lb facs="#facs_3_line_1749014135243_416" n="N040"/>den so sehr du lebest, wird unermeßlicher Jubel dich umweh’n.“ Auf
+                  <lb facs="#facs_3_line_1749014137954_419" n="N041"/>das Wort „Herzens“ reimt unser Poet „des Schmerzens“. Und solches
+                  <lb facs="#facs_3_line_1749014140427_422" n="N042"/>Kauderwälsch muß man in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> singen und — anhören!
+                  </note><space unit="char" quantity="1"/>
+                  Was aber die Leistungen der
                <lb facs="#facs_3_region_1684684399334_2087_tl_18" n="N018"/>einzelnen Sänger erst zu ihrer vollen Wirkung hob und die
-               <lb facs="#facs_3_region_1684684399334_2087_tl_19" n="N019"/>
-               <rs type="place">italienisch</rs>e Vorstellung vor unseren <rs type="place">deutsch</rs>en „<rs type="bibl">Aïda</rs>“-Abenden
+               <lb facs="#facs_3_region_1684684399334_2087_tl_19" n="N019"/><rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Vorstellung vor unseren <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en „<rs type="bibl" ref="#hsl_work_id_982">Aïda</rs>“-Abenden
                <lb facs="#facs_3_region_1684684399334_2087_tl_20" n="N020"/>auszeichnete, ist die vollendete Exactheit, das dramatische und
                <lb facs="#facs_3_region_1684684399334_2087_tl_21" n="N021"/>musikalische Zusammenwirken, die zündende Begeisterung,
                <lb facs="#facs_3_region_1684684399334_2087_tl_22" n="N022"/>welche das ganze Ensemble beherrschte und von der ersten
                <lb facs="#facs_3_region_1684684399334_2087_tl_23" n="N023"/>Sängerin bis zum letzten Choristen sich elektrisch fortzupflanzen
-               <lb facs="#facs_3_region_1684684399334_2087_tl_24" n="N024"/>schien. Das ist <hi rendition="#em">
-                  <rs type="person">Verdi</rs>'s</hi> Verdienst, welcher die Oper (mit
+               <lb facs="#facs_3_region_1684684399334_2087_tl_24" n="N024"/>schien. Das ist <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s</hi> Verdienst, welcher die Oper (mit
                <lb facs="#facs_3_region_1684684399334_2087_tl_25" n="N025"/>vielfach modificirten Tempi) neu eingeübt hatte und mit
-               <lb facs="#facs_3_region_1684684399334_2087_tl_26" n="N026"/>einer für den Sänger unschätzbaren, für den Zuschauer wohl¬
-               <lb facs="#facs_3_region_1684684399334_2087_tl_27" n="N027"/>thuenden ruhigen Energie dirigirte, ein Muster besonnener,
+               <lb facs="#facs_3_region_1684684399334_2087_tl_26" n="N026"/>einer für den Sänger unschätzbaren, für den Zuschauer wohl
+               <lb facs="#facs_3_region_1684684399334_2087_tl_27" n="N027" break="no"/>thuenden ruhigen Energie dirigirte, ein Muster besonnener,
                <lb facs="#facs_3_region_1684684399334_2087_tl_28" n="N028"/>zusammengefaßter Kraft. Allem, was da sang, spielte und
                <lb facs="#facs_3_region_1684684399334_2087_tl_29" n="N029"/>zuhörte, sah man die Freude an; aber die größte Freude
-               <lb facs="#facs_3_region_1684684399334_2087_tl_30" n="N030"/>empfand wol an diesen Abenden <hi rendition="#em">
-                  <rs type="person">Verdi</rs>
-               </hi> selbst, dem wir sie
-               <lb facs="#facs_3_region_1684684399334_2087_tl_31" n="N031"/>von Herzen gönnen, sammt einer langen, freundlichen Er¬
-               <lb facs="#facs_3_region_1684684399334_2087_tl_32" n="N032"/>innerung daran.
-               <lb facs="#facs_3_line_1749014106658_395" n="N033"/>*) Man traut seinem Auge nicht, wenn man in diesem Libretto
-               <lb facs="#facs_3_line_1749014111498_398" n="N034"/>auf Dinge wie die folgenden stößt: „Holde <rs type="person">Aïda</rs>, himmelentflam¬
-               <lb facs="#facs_3_line_1749014116314_401" n="N035"/>mend, zauberndes Wesen von Blumen und Licht, du bist die Kö¬
-               <lb facs="#facs_3_line_1749014119818_404" n="N036"/>nigin meiner Gedanken, gibst meinem Leben einzig Gewicht . . . .
-               <lb facs="#facs_3_line_1749014123090_407" n="N037"/>Jene Blässe voll Verstörung ist geheime, fiebernde Gluth . . . . Haß
-               <lb facs="#facs_3_line_1749014126179_410" n="N038"/>nur und Rache nur nehmen mich ein . . . . Ich mit meiner Gluth,
-               <lb facs="#facs_3_line_1749014132410_413" n="N039"/>der warmen, steige in das Grab hinein . . . . Als Gattin dessen,
-               <lb facs="#facs_3_line_1749014135243_416" n="N040"/>den so sehr du lebest, wird unermeßlicher Jubel dich umweh'n.“ Auf
-               <lb facs="#facs_3_line_1749014137954_419" n="N041"/>das Wort „Herzens“ reimt unser Poet „des Schmerzens“. Und solches
-               <lb facs="#facs_3_line_1749014140427_422" n="N042"/>Kauderwälsch muß man in <rs type="place">Deutschland</rs> singen und — anhören!
-            </p>
+               <lb facs="#facs_3_region_1684684399334_2087_tl_30" n="N030"/>empfand wol an diesen Abenden <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs></hi> selbst, dem wir sie
+               <lb facs="#facs_3_region_1684684399334_2087_tl_31" n="N031"/>von Herzen gönnen, sammt einer langen, freundlichen Er
+               <lb facs="#facs_3_region_1684684399334_2087_tl_32" n="N032" break="no"/>innerung daran.</p>
          </div>
       </body>
    </text>
