@@ -166,12 +166,14 @@
         <xsl:variable name="base" select="replace(tokenize(base-uri(/), '/')[last()], '_tei.xml', '_image_name.xml')"/>
         <xsl:variable name="items" select="doc(concat('../data/facs/', $base))"/>
         <xsl:variable name="pos" select="number(tokenize(parent::tei:surface/@xml:id, '_')[last()])"/>
-        <xsl:copy>
-            <xsl:apply-templates select="node()|@*"/>
+        <graphic xmlns="http://www.tei-c.org/ns/1.0">
+            <xsl:for-each select="@*[name() != 'url']">
+                <xsl:copy/>
+            </xsl:for-each>
             <xsl:attribute name="url">
                 <xsl:value-of select="$items//item[$pos]"/>
             </xsl:attribute>
-        </xsl:copy>
+        </graphic>
     </xsl:template>
     
     <xsl:template match="tei:body/tei:div/tei:ab[1]"/>
