@@ -181,9 +181,8 @@
     
     <xsl:template match="tei:body/tei:div">
         <div xmlns="http://www.tei-c.org/ns/1.0">
-            <xsl:for-each-group select="." group-starting-with="tei:pb">
-                <xsl:apply-templates/>
-            </xsl:for-each-group>
+            <!-- Avoid potential duplicate processing by directly selecting elements we want to process -->
+            <xsl:apply-templates select="*[position() > 2]"/>
         </div>
     </xsl:template>
     <xsl:variable name="ab" select="//tei:ab"/>
@@ -205,6 +204,17 @@
     </xsl:template>
     <xsl:template match="tei:person_fictional">
         <rs xmlns="http://www.tei-c.org/ns/1.0" type="person"><xsl:apply-templates/></rs>
+    </xsl:template>
+    
+    <!-- Create a specific template for tei:surface to handle graphics properly -->
+    <xsl:template match="tei:surface">
+        <surface xmlns="http://www.tei-c.org/ns/1.0">
+            <xsl:apply-templates select="@*"/>
+            <!-- Process exactly one graphic element -->
+            <xsl:apply-templates select="tei:graphic[1]"/>
+            <!-- Process all other elements that aren't graphic -->
+            <xsl:apply-templates select="*[not(self::tei:graphic)]"/>
+        </surface>
     </xsl:template>
     
 </xsl:stylesheet>
