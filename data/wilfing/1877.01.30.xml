@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 4464. Wien, Dienstag, den 30. Januar 1877</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -38,7 +36,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,24 +69,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 4464. Wien, Dienstag, den 30. Januar 1877</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1877-01-30"></date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,9 +102,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2025-10-05">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2025-10-21">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -864,89 +860,74 @@
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
             <p>
-               <lb facs="#facs_1_line_1753856628232_1068" n="N001"/>Nr. 4464. Wien, Dienstag, den 30. Januar 1877
+               <lb facs="#facs_1_line_1753856628232_1068" n="N001"/>
             </p>
             <cb n="2"/>
             <p>
-               <lb facs="#facs_1_region_1684664834178_3452_tl_1" n="N001"/>
-               <hi rendition="#em">Musik</hi>.
+               <lb facs="#facs_1_region_1684664834178_3452_tl_1" n="N001"/><hi rendition="#em">Musik</hi>.
                <lb facs="#facs_1_region_1684664834178_3452_tl_2" n="N002"/>(Hofoperntheater. — Concert von R. <rs type="person">Heuberger</rs>. — Komische Oper: „<rs type="bibl">Der Geist des</rs>
-               <lb facs="#facs_1_line_1753856664671_1073" n="N003"/>
-               <rs type="bibl">Wojwoden</rs>.“)
-               <lb facs="#facs_1_region_1684664834178_3452_tl_3" n="N004"/>Ed. H. <hi rendition="#em">Christine <rs type="person">Nilsson</rs>
-               </hi>
-               <rs type="person"/> hat <rs type="place">Wien</rs> verlassen,
+               <lb facs="#facs_1_line_1753856664671_1073" n="N003"/><rs type="bibl">Wojwoden</rs>.“)
+                  <lb facs="#facs_1_region_1684664834178_3452_tl_3" n="N004"/>Ed. H. <hi rendition="#em">Christine <rs type="person">Nilsson</rs></hi> hat <rs type="place" ref="#hsl_place_id_55">Wien</rs> verlassen,
                <lb facs="#facs_1_region_1684664834178_3452_tl_4" n="N005"/>nachdem sie binnen wenigen Abenden sich fest und redlich in
                <lb facs="#facs_1_region_1684664834178_3452_tl_5" n="N006"/>Aller Herzen eingesungen. Wir geben nicht allzu viel auf das
-               <lb facs="#facs_1_region_1684664834178_3452_tl_6" n="N007"/>blumen- und lorbeerbelastete Beifallsspectakel einer „Bene¬
-               <lb facs="#facs_1_line_1753856685991_1081" n="N008"/>fice-Vorstellung“ — dergleichen läßt sich <hi rendition="#em">machen</hi>, und
+               <lb facs="#facs_1_region_1684664834178_3452_tl_6" n="N007"/>blumen- und lorbeerbelastete Beifallsspectakel einer „Bene
+               <lb facs="#facs_1_line_1753856685991_1081" n="N008" break="no"/>fice-Vorstellung“ — dergleichen läßt sich <hi rendition="#em">machen</hi>, und
                <lb facs="#facs_1_region_1684664834178_3452_tl_8" n="N009"/>Lorbeerkränze sind auch für unwürdige Häupter zu kaufen —
-               <lb facs="#facs_1_region_1684664834178_3452_tl_9" n="N010"/>aber ein durch lange Theaterpraxis geschärfter Sinn unter¬
-               <lb facs="#facs_1_region_1684664834178_3452_tl_10" n="N011"/>scheidet leicht den gefühlten Enthusiasmus vom arrangirten
-               <lb facs="#facs_1_region_1684664834178_3452_tl_11" n="N012"/>und weiß recht gut, was sich <hi rendition="#em">nicht</hi> machen läßt. Ein Her¬
-               <lb facs="#facs_1_region_1684664834178_3452_tl_12" n="N013"/>zenszug von Dankbarkeit und Liebe klang durch die Rufe,
+               <lb facs="#facs_1_region_1684664834178_3452_tl_9" n="N010"/>aber ein durch lange Theaterpraxis geschärfter Sinn unter
+               <lb facs="#facs_1_region_1684664834178_3452_tl_10" n="N011" break="no"/>scheidet leicht den gefühlten Enthusiasmus vom arrangirten
+               <lb facs="#facs_1_region_1684664834178_3452_tl_11" n="N012"/>und weiß recht gut, was sich <hi rendition="#em">nicht</hi> machen läßt. Ein Her
+               <lb facs="#facs_1_region_1684664834178_3452_tl_12" n="N013" break="no"/>zenszug von Dankbarkeit und Liebe klang durch die Rufe,
                <lb facs="#facs_1_region_1684664834178_3452_tl_13" n="N014"/>duftete aus den Blumen, mit welchen die Wiener Abschied
-               <lb facs="#facs_1_region_1684664834178_3452_tl_14" n="N015"/>nahmen von der <rs type="place">schwedisch</rs>en Sängerin. Man war sich deut¬
-               <lb facs="#facs_1_region_1684664834178_3452_tl_15" n="N016"/>lich bewußt, daß die <rs type="person">Nilsson</rs> einen tieferen und edleren Ein¬
-               <lb facs="#facs_1_region_1684664834178_3452_tl_16" n="N017"/>druck hinterlasse, als den eines oberflächlichen Amusements,
+               <lb facs="#facs_1_region_1684664834178_3452_tl_14" n="N015"/>nahmen von der <rs type="place">schwedisch</rs>en Sängerin. Man war sich deut
+               <lb facs="#facs_1_region_1684664834178_3452_tl_15" n="N016" break="no"/>lich bewußt, daß die <rs type="person">Nilsson</rs> einen tieferen und edleren Ein
+               <lb facs="#facs_1_region_1684664834178_3452_tl_16" n="N017" break="no"/>druck hinterlasse, als den eines oberflächlichen Amusements,
                <lb facs="#facs_1_region_1684664834178_3452_tl_17" n="N018"/>einen Eindruck, der dem Einzelnen eine Bereicherung für das
-               <lb facs="#facs_1_region_1684664834178_3452_tl_18" n="N019"/>Leben der Allgemeinheit, eine Veredlung des Geschmackes be¬
-               <lb facs="#facs_1_region_1684664834178_3452_tl_19" n="N020"/>deute. Wie selten begegnen uns solche reine, adelige Naturen,
-               <lb facs="#facs_1_region_1684664834178_3452_tl_20" n="N021"/>von denen wir sagen müssen, daß sie allenfalls in Einzel¬
-               <lb facs="#facs_1_region_1684664834178_3452_tl_21" n="N022"/>heiten zu überbieten, im Ganzen aber nicht zu übertreffen,
-               <lb facs="#facs_1_region_1684664834178_3452_tl_22" n="N023"/>nicht nachzumachen sind. Unsere Berichte haben etwas aus¬
-               <lb facs="#facs_1_region_1684664834178_3452_tl_23" n="N024"/>führlicher bei dem Spiele der <rs type="person">Nilsson</rs> verweilt, pflegt doch
+               <lb facs="#facs_1_region_1684664834178_3452_tl_18" n="N019"/>Leben der Allgemeinheit, eine Veredlung des Geschmackes be
+               <lb facs="#facs_1_region_1684664834178_3452_tl_19" n="N020" break="no"/>deute. Wie selten begegnen uns solche reine, adelige Naturen,
+               <lb facs="#facs_1_region_1684664834178_3452_tl_20" n="N021"/>von denen wir sagen müssen, daß sie allenfalls in Einzel
+               <lb facs="#facs_1_region_1684664834178_3452_tl_21" n="N022" break="no"/>heiten zu überbieten, im Ganzen aber nicht zu übertreffen,
+               <lb facs="#facs_1_region_1684664834178_3452_tl_22" n="N023"/>nicht nachzumachen sind. Unsere Berichte haben etwas aus
+               <lb facs="#facs_1_region_1684664834178_3452_tl_23" n="N024" break="no"/>führlicher bei dem Spiele der <rs type="person">Nilsson</rs> verweilt, pflegt doch
                <lb facs="#facs_1_region_1684664834178_3452_tl_24" n="N025"/>das allgemeine Interesse zuerst zu fragen: Wie hat ein
                <lb facs="#facs_1_region_1684664834178_3452_tl_25" n="N026"/>fremder Künstler diese Rolle, wie jene aufgefaßt
                <lb facs="#facs_1_region_1684664834178_3452_tl_26" n="N027"/>und in den Hauptmomenten ausgeführt? Trotzdem ist die
-               <lb facs="#facs_1_region_1684664834178_3452_tl_27" n="N028"/>charakterisirende Kunst, mit welcher sie die verschiedenen Rol¬
-               <lb facs="#facs_1_region_1684664834178_3452_tl_28" n="N029"/>len trennt, uns nicht so wesentlich und werthvoll wie das
-               <lb facs="#facs_1_region_1684664834178_3452_tl_29" n="N030"/>
-               <hi rendition="#em">Gemeinsame</hi> derselben; dramatisch: die Grazie und seelen¬
-               <lb facs="#facs_1_region_1684664834178_3452_tl_30" n="N031"/>volle Bescheidenheit des Spiels, musikalisch: die vollendete
+               <lb facs="#facs_1_region_1684664834178_3452_tl_27" n="N028"/>charakterisirende Kunst, mit welcher sie die verschiedenen Rol
+               <lb facs="#facs_1_region_1684664834178_3452_tl_28" n="N029" break="no"/>len trennt, uns nicht so wesentlich und werthvoll wie das
+               <lb facs="#facs_1_region_1684664834178_3452_tl_29" n="N030"/><hi rendition="#em">Gemeinsame</hi> derselben; dramatisch: die Grazie und seelen
+               <lb facs="#facs_1_region_1684664834178_3452_tl_30" n="N031" break="no"/>volle Bescheidenheit des Spiels, musikalisch: die vollendete
                <lb facs="#facs_1_region_1684664834178_3452_tl_31" n="N032"/>Schönheit des Gesanges. Mag sie <rs type="person">Gretchen</rs> oder <rs type="person">Ophelia</rs>
-               <lb facs="#facs_1_region_1684664834178_3452_tl_32" n="N033"/>sein, bewegt von Freude oder von Leid, stets ist es ein wun¬
-               <lb facs="#facs_1_region_1684664834178_3452_tl_33" n="N034"/>dervolles Singen, das von ihren Lippen strömt. Das feinste
-               <lb facs="#facs_1_region_1684664834178_3452_tl_34" n="N035"/>Gehör, wie wir es ja auch bei den <rs type="place">schwedisch</rs>en Quartett¬
-               <lb facs="#facs_1_line_1753856724327_1094" n="N036"/>sängerinnen bewundert, hat sie als Pathengeschenk ihrer Hei¬
-            </p>
+               <lb facs="#facs_1_region_1684664834178_3452_tl_32" n="N033"/>sein, bewegt von Freude oder von Leid, stets ist es ein wun
+               <lb facs="#facs_1_region_1684664834178_3452_tl_33" n="N034" break="no"/>dervolles Singen, das von ihren Lippen strömt. Das feinste
+               <lb facs="#facs_1_region_1684664834178_3452_tl_34" n="N035"/>Gehör, wie wir es ja auch bei den <rs type="place">schwedisch</rs>en Quartett
+               <lb facs="#facs_1_line_1753856724327_1094" n="N036" break="no"/>sängerinnen bewundert, hat sie als Pathengeschenk ihrer Hei</p>
             <cb n="3"/>
             <p>
-               <lb facs="#facs_1_region_1684664836973_3455_tl_1" n="N001"/>mat mitbekommen. <hi rendition="#em">Jenny <rs type="person">Lind</rs>
-               </hi> klagte manchmal, daß
-               <lb facs="#facs_1_region_1684664836973_3455_tl_2" n="N002"/>
-               <rs type="place">deutsch</rs>e Sängerinnen so viel mit dem Herzen und dem Kopfe
+               <lb facs="#facs_1_region_1684664836973_3455_tl_1" n="N001" break="no"/>mat mitbekommen. <hi rendition="#em">Jenny <rs type="person">Lind</rs></hi> klagte manchmal, daß
+               <lb facs="#facs_1_region_1684664836973_3455_tl_2" n="N002"/><rs type="place">deutsch</rs>e Sängerinnen so viel mit dem Herzen und dem Kopfe
                <lb facs="#facs_1_region_1684664836973_3455_tl_3" n="N003"/>singen und so wenig mit dem Ohr. Die Intonation der
-               <lb facs="#facs_1_region_1684664836973_3455_tl_4" n="N004"/>
-               <rs type="person">Nilsson</rs> ist immer so entzückend rein, daß wir eine gute
-               <lb facs="#facs_1_region_1684664836973_3455_tl_5" n="N005"/>Violinspielerin in ihr vermuthen würden, wenn wir nicht zu¬
-               <lb facs="#facs_1_region_1684664836973_3455_tl_6" n="N006"/>fällig wüßten, daß sie es wirklich ist. Wie ihrem Tonansatz,
-               <lb facs="#facs_1_region_1684664836973_3455_tl_7" n="N007"/>so lauschen wir auch immer ihrer Aussprache, im <rs type="place" continued="true">Fran¬</rs>
-               <lb facs="#facs_1_region_1684664836973_3455_tl_8" n="N008"/>
-               <rs type="place" continued="true">zösisch</rs>en wie im <rs type="place">Italienisch</rs>en ein Muster von Correctheit
+               <lb facs="#facs_1_region_1684664836973_3455_tl_4" n="N004"/><rs type="person">Nilsson</rs> ist immer so entzückend rein, daß wir eine gute
+               <lb facs="#facs_1_region_1684664836973_3455_tl_5" n="N005"/>Violinspielerin in ihr vermuthen würden, wenn wir nicht zu
+               <lb facs="#facs_1_region_1684664836973_3455_tl_6" n="N006" break="no"/>fällig wüßten, daß sie es wirklich ist. Wie ihrem Tonansatz,
+               <lb facs="#facs_1_region_1684664836973_3455_tl_7" n="N007"/>so lauschen wir auch immer ihrer Aussprache, im <rs type="place" continued="true">Fran
+                     <lb facs="#facs_1_region_1684664836973_3455_tl_8" n="N008" break="no"/>zösisch</rs>en wie im <rs type="place" ref="#hsl_place_id_28">Italienisch</rs>en ein Muster von Correctheit
                <lb facs="#facs_1_region_1684664836973_3455_tl_9" n="N009"/>und Deutlichkeit. Ihr musikalischer Schönheitssinn bewahrt
                <lb facs="#facs_1_line_1753856781471_1119" n="N010"/>sie vor dem sinn- und geschmacklosen Beben der Stimme,
-               <lb facs="#facs_1_line_1753856685991_1080" n="N011"/>vor dem Verrücken der Tactverhältnisse, vor dem krampfhaf¬
-               <lb facs="#facs_1_region_1684664836973_3455_tl_10" n="N012"/>ten Hinaufschrauben oder Herausstechen einzelner Töne und
-               <lb facs="#facs_1_region_1684664836973_3455_tl_11" n="N013"/>ähnlicher Contrebande, welche selbst berühmte Sänge¬
-               <lb facs="#facs_1_region_1684664836973_3455_tl_12" n="N014"/>rinnen als angeblich „dramatisch“ ihrem Vortrag ein¬
-               <lb facs="#facs_1_region_1684664836973_3455_tl_13" n="N015"/>schmuggeln. Diesen rein künstlerischen, unaffectirten Ge¬
-               <lb facs="#facs_1_region_1684664836973_3455_tl_14" n="N016"/>sang der <rs type="person">Nilsson</rs> in seinem vollen Werth so rückhalt¬
-               <lb facs="#facs_1_region_1684664836973_3455_tl_15" n="N017"/>los gewürdigt zu haben, gereicht unserm ein wenig an
+               <lb facs="#facs_1_line_1753856685991_1080" n="N011"/>vor dem Verrücken der Tactverhältnisse, vor dem krampfhaf
+               <lb facs="#facs_1_region_1684664836973_3455_tl_10" n="N012" break="no"/>ten Hinaufschrauben oder Herausstechen einzelner Töne und
+               <lb facs="#facs_1_region_1684664836973_3455_tl_11" n="N013"/>ähnlicher Contrebande, welche selbst berühmte Sänge
+               <lb facs="#facs_1_region_1684664836973_3455_tl_12" n="N014" break="no"/>rinnen als angeblich „dramatisch“ ihrem Vortrag ein
+               <lb facs="#facs_1_region_1684664836973_3455_tl_13" n="N015" break="no"/>schmuggeln. Diesen rein künstlerischen, unaffectirten Ge
+               <lb facs="#facs_1_region_1684664836973_3455_tl_14" n="N016" break="no"/>sang der <rs type="person">Nilsson</rs> in seinem vollen Werth so rückhalt
+               <lb facs="#facs_1_region_1684664836973_3455_tl_15" n="N017" break="no"/>los gewürdigt zu haben, gereicht unserm ein wenig an
                <lb facs="#facs_1_region_1684664836973_3455_tl_16" n="N018"/>materielle Effecte gewöhnten Publicum zum Verdienste.
                <lb facs="#facs_1_region_1684664836973_3455_tl_17" n="N019"/>Als lebendiges Beispiel für alle singenden Menschenkinder,
                <lb facs="#facs_1_region_1684664836973_3455_tl_18" n="N020"/>die überhaupt hörend zu lernen verstehen, ist die <rs type="person">Nilsson</rs>
                <lb facs="#facs_1_region_1684664836973_3455_tl_19" n="N021"/>unschätzbar. Ein Narr macht Hunderte verrückt, aber Ein
                <lb facs="#facs_1_region_1684664836973_3455_tl_20" n="N022"/>Weiser erhält auch Hunderte bei Verstand. Und diese Eine
-               <lb facs="#facs_1_region_1684664836973_3455_tl_21" n="N023"/>große Eigenschaft hat Christine <hi rendition="#em">
-                  <rs type="person">Nilsson</rs>
-               </hi> mit Adelina
-               <lb facs="#facs_1_region_1684664836973_3455_tl_22" n="N024"/>
-               <hi rendition="#em">
-                  <rs type="person">Patti</rs>
-               </hi> gemein: Beide sind wahre Conservatorien, sind Er¬
-               <lb facs="#facs_1_region_1684664836973_3455_tl_23" n="N025"/>halter und Fortpflanzer des schönen Gesanges. Mit Pa¬
-               <lb facs="#facs_1_region_1684664836973_3455_tl_24" n="N026"/>rallelen zwischen der <rs type="person">Patti</rs> und der <rs type="person">Nilsson</rs> verschonen wir
+               <lb facs="#facs_1_region_1684664836973_3455_tl_21" n="N023"/>große Eigenschaft hat Christine <hi rendition="#em"><rs type="person">Nilsson</rs></hi> mit Adelina
+               <lb facs="#facs_1_region_1684664836973_3455_tl_22" n="N024"/><hi rendition="#em"><rs type="person">Patti</rs></hi> gemein: Beide sind wahre Conservatorien, sind Er
+               <lb facs="#facs_1_region_1684664836973_3455_tl_23" n="N025" break="no"/>halter und Fortpflanzer des schönen Gesanges. Mit Pa
+               <lb facs="#facs_1_region_1684664836973_3455_tl_24" n="N026" break="no"/>rallelen zwischen der <rs type="person">Patti</rs> und der <rs type="person">Nilsson</rs> verschonen wir
                <lb facs="#facs_1_region_1684664836973_3455_tl_25" n="N027"/>den Leser; die Vergleiche mit Sonne und Mond, mit Süd
                <lb facs="#facs_1_region_1684664836973_3455_tl_26" n="N028"/>und Nord, mit Rose und Lilie kann der Genügsame so
                <lb facs="#facs_1_region_1684664836973_3455_tl_27" n="N029"/>leicht sich selber machen und noch weiter ausspinnen bis auf
@@ -955,12 +936,11 @@
                <lb facs="#facs_1_region_1684664836973_3455_tl_30" n="N032"/>verschieden, wie ihre ganze Persönlichkeit, ihr Blick, ihr Ton
                <lb facs="#facs_1_region_1684664836973_3455_tl_31" n="N033"/>verschieden ist, aber Eines sind sie Beide: Königinnen des
                <lb facs="#facs_1_region_1684664836973_3455_tl_32" n="N034"/>Gesanges. Durch Pracht und Mannichfalt der Farben und
-               <lb facs="#facs_1_region_1684664836973_3455_tl_33" n="N035"/>das Brillantfeuerwerk ihrer Bravour ist die <rs type="person">Patti</rs> im Vor¬
-               <lb facs="#facs_1_region_1684664836973_3455_tl_34" n="N036"/>theil — im holden Ausdruck inniger Empfindungen die <rs type="person">Nilsson</rs>.
+               <lb facs="#facs_1_region_1684664836973_3455_tl_33" n="N035"/>das Brillantfeuerwerk ihrer Bravour ist die <rs type="person">Patti</rs> im Vor
+               <lb facs="#facs_1_region_1684664836973_3455_tl_34" n="N036" break="no"/>theil — im holden Ausdruck inniger Empfindungen die <rs type="person">Nilsson</rs>.
                <lb facs="#facs_1_region_1684664836973_3455_tl_35" n="N037"/>Dabei denke man sich Letztere ja nicht als die Sängerin des
                <lb facs="#facs_1_region_1684664836973_3455_tl_36" n="N038"/>blassen Mondlichts und der zerfließenden Sentimentalität. Ihre
-               <lb facs="#facs_1_line_1753856757999_1106" n="N039"/>Gestalten haben im Gegentheil eine sehr bestimmte Zeichnung,
-            </p>
+               <lb facs="#facs_1_line_1753856757999_1106" n="N039"/>Gestalten haben im Gegentheil eine sehr bestimmte Zeichnung,</p>
             <cb n="4"/>
             <p>
                <lb facs="#facs_1_region_1684664840361_3458_tl_1" n="N001"/>ihr musikalischer Vortrag fein und scharf gezogene Contouren.
@@ -968,158 +948,121 @@
                <lb facs="#facs_1_region_1684664840361_3458_tl_3" n="N003"/>reine, durch kein Prisma gebrochene Licht. Sie hat vielleicht
                <lb facs="#facs_1_region_1684664840361_3458_tl_4" n="N004"/>nicht die energische Persönlichkeit für eine durchaus heroisch
                <lb facs="#facs_1_region_1684664840361_3458_tl_5" n="N005"/>angelegte Rolle, aber bedeutende Kraft in einzelnen Momenten;
-               <lb facs="#facs_1_region_1684664840361_3458_tl_6" n="N006"/>da sehen wir Blicke und Armbewegungen von wahrhaft nieder¬
-               <lb facs="#facs_1_region_1684664840361_3458_tl_7" n="N007"/>zwingender Gewalt. Geistige Ueberlegenheit und scharfer
-               <lb facs="#facs_1_region_1684664840361_3458_tl_8" n="N008"/>Kunstverstand sprechen aus jeder ihrer Rollen. Jenes eigen¬
-               <lb facs="#facs_1_region_1684664840361_3458_tl_9" n="N009"/>thümliche, ungebrochen helle Licht, das, gleichmäßig über ihrer
+               <lb facs="#facs_1_region_1684664840361_3458_tl_6" n="N006"/>da sehen wir Blicke und Armbewegungen von wahrhaft nieder
+               <lb facs="#facs_1_region_1684664840361_3458_tl_7" n="N007" break="no"/>zwingender Gewalt. Geistige Ueberlegenheit und scharfer
+               <lb facs="#facs_1_region_1684664840361_3458_tl_8" n="N008"/>Kunstverstand sprechen aus jeder ihrer Rollen. Jenes eigen
+               <lb facs="#facs_1_region_1684664840361_3458_tl_9" n="N009" break="no"/>thümliche, ungebrochen helle Licht, das, gleichmäßig über ihrer
                <lb facs="#facs_1_line_1753856781471_1118" n="N010"/>Gestalt ruhend, den Zauber und die Gefahr derselben bildet,
                <lb facs="#facs_1_region_1684664840361_3458_tl_11" n="N011"/>fließt nicht aus einem Mangel ihrer Kunst, sondern aus der
-               <lb facs="#facs_1_region_1684664840361_3458_tl_12" n="N012"/>Individualität ihrer Stimme und ihrer Erscheinung. Zu aus¬
-               <lb facs="#facs_1_region_1684664840361_3458_tl_13" n="N013"/>geprägt und vollendet erscheint die <rs type="person">Nilsson</rs> in den ihr ganz
-               <lb facs="#facs_1_region_1684664840361_3458_tl_14" n="N014"/>homogenen Rollen (<rs type="person">Ophelia</rs>, <rs type="person">Gretchen</rs>), um eine sehr viel¬
-               <lb facs="#facs_1_region_1684664840361_3458_tl_15" n="N015"/>seitige Darstellerin sein zu können. Von Sängern und Sän¬
-               <lb facs="#facs_1_region_1684664840361_3458_tl_16" n="N016"/>gerinnen ist eine Vielseitigkeit und Verwandlungskunst, wie
+               <lb facs="#facs_1_region_1684664840361_3458_tl_12" n="N012"/>Individualität ihrer Stimme und ihrer Erscheinung. Zu aus
+               <lb facs="#facs_1_region_1684664840361_3458_tl_13" n="N013" break="no"/>geprägt und vollendet erscheint die <rs type="person">Nilsson</rs> in den ihr ganz
+               <lb facs="#facs_1_region_1684664840361_3458_tl_14" n="N014"/>homogenen Rollen (<rs type="person">Ophelia</rs>, <rs type="person">Gretchen</rs>), um eine sehr viel
+               <lb facs="#facs_1_region_1684664840361_3458_tl_15" n="N015" break="no"/>seitige Darstellerin sein zu können. Von Sängern und Sän
+               <lb facs="#facs_1_region_1684664840361_3458_tl_16" n="N016" break="no"/>gerinnen ist eine Vielseitigkeit und Verwandlungskunst, wie
                <lb facs="#facs_1_region_1684664840361_3458_tl_17" n="N017"/>sie großen Schauspielern eigen, überhaupt nicht gefordert
-               <lb facs="#facs_1_region_1684664840361_3458_tl_18" n="N018"/>und innerhalb der so viel enger gezogenen Grenzen des Ge¬
-               <lb facs="#facs_1_region_1684664840361_3458_tl_19" n="N019"/>sanges kaum erreichbar. Wenn ein <hi rendition="#em">
-                  <rs type="person">Schröder</rs>
-               </hi>, Ludwig
-               <lb facs="#facs_1_region_1684664840361_3458_tl_20" n="N020"/>
-               <hi rendition="#em">
-                  <rs type="person">Devrient</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Seydelmann</rs>
-               </hi>, <hi rendition="#em">La <rs type="person">Roche</rs>
-               </hi> abwechselnd
+               <lb facs="#facs_1_region_1684664840361_3458_tl_18" n="N018"/>und innerhalb der so viel enger gezogenen Grenzen des Ge
+               <lb facs="#facs_1_region_1684664840361_3458_tl_19" n="N019" break="no"/>sanges kaum erreichbar. Wenn ein <hi rendition="#em"><rs type="person">Schröder</rs></hi>, Ludwig
+               <lb facs="#facs_1_region_1684664840361_3458_tl_20" n="N020"/><hi rendition="#em"><rs type="person">Devrient</rs></hi>, <hi rendition="#em"><rs type="person">Seydelmann</rs></hi>, <hi rendition="#em">La <rs type="person">Roche</rs></hi> abwechselnd
                <lb facs="#facs_1_region_1684664840361_3458_tl_21" n="N021"/>tragische und derbkomische Rollen gleich ausgezeichnet spielten,
-               <lb facs="#facs_1_region_1684664840361_3458_tl_22" n="N022"/>so hat die Oper große Charakteristiker von gleicher Viel¬
-               <lb facs="#facs_1_region_1684664840361_3458_tl_23" n="N023"/>seitigkeit höchstens ausnahmsweise und annähernd er¬
-               <lb facs="#facs_1_region_1684664840361_3458_tl_24" n="N024"/>lebt. Bei Opernsängern bleibt in allen Rollen doch
+               <lb facs="#facs_1_region_1684664840361_3458_tl_22" n="N022"/>so hat die Oper große Charakteristiker von gleicher Viel
+               <lb facs="#facs_1_region_1684664840361_3458_tl_23" n="N023" break="no"/>seitigkeit höchstens ausnahmsweise und annähernd er
+               <lb facs="#facs_1_region_1684664840361_3458_tl_24" n="N024" break="no"/>lebt. Bei Opernsängern bleibt in allen Rollen doch
                <lb facs="#facs_1_region_1684664840361_3458_tl_25" n="N025"/>die eigene Persönlichkeit weit mehr vorwaltend. Bei
                <lb facs="#facs_1_region_1684664840361_3458_tl_26" n="N026"/>Frau <rs type="person">Nilsson</rs> ist sie das, wie wir gesehen, ganz entschieden.
                <lb facs="#facs_1_region_1684664840361_3458_tl_27" n="N027"/>Dabei bleibt es erfreulich, ja oft erstaunlich, wie sie jedem
-               <lb facs="#facs_1_region_1684664840361_3458_tl_28" n="N028"/>darzustellenden Charakter in seine innersten Motive nachzu¬
-               <lb facs="#facs_1_region_1684664840361_3458_tl_29" n="N029"/>gehen weiß, sich von jedem Zuge Rechenschaft legt und Fremd¬
-               <lb facs="#facs_1_region_1684664840361_3458_tl_30" n="N030"/>artiges nur innerhalb der Grenzen des Richtigen sich assi¬
-               <lb facs="#facs_1_region_1684664840361_3458_tl_31" n="N031"/>milirt. Zu solchem ihr Fremdartigen gehört <hi rendition="#em">
-                  <rs type="person">Mignon</rs>
-               </hi>.
+               <lb facs="#facs_1_region_1684664840361_3458_tl_28" n="N028"/>darzustellenden Charakter in seine innersten Motive nachzu
+               <lb facs="#facs_1_region_1684664840361_3458_tl_29" n="N029" break="no"/>gehen weiß, sich von jedem Zuge Rechenschaft legt und Fremd
+               <lb facs="#facs_1_region_1684664840361_3458_tl_30" n="N030" break="no"/>artiges nur innerhalb der Grenzen des Richtigen sich assi
+               <lb facs="#facs_1_region_1684664840361_3458_tl_31" n="N031" break="no"/>milirt. Zu solchem ihr Fremdartigen gehört <hi rendition="#em"><rs type="person">Mignon</rs></hi>.
                <lb facs="#facs_1_region_1684664840361_3458_tl_32" n="N032"/>Blond, kräftig und groß gewachsen hat <rs type="person">Goethe</rs> seine <rs type="person">Mignon</rs>
                <lb facs="#facs_1_region_1684664840361_3458_tl_33" n="N033"/>sich nicht gedacht, und wir denken sie uns auch nicht so.
-               <lb facs="#facs_1_region_1684664840361_3458_tl_34" n="N034"/>Allein viel mehr noch als bei <hi rendition="#em">
-                  <rs type="person">Gounod</rs>'s</hi>
-               <rs type="person">Gretchen</rs> müssen
-               <lb facs="#facs_1_region_1684664840361_3458_tl_35" n="N035"/>wir bei der <rs type="person">Mignon</rs> des Ambroise <hi rendition="#em">
-                  <rs type="person">Thomas</rs>
-               </hi> von der
-               <lb facs="#facs_1_region_1684664840361_3458_tl_36" n="N036"/>
-               <rs type="person">Goethe</rs>'schen Urgestalt absehen. Nur im ersten Act der Oper
-               <lb facs="#facs_1_region_1684664840361_3458_tl_37" n="N037"/>trägt <rs type="person">Mignon</rs> wirklich die Züge des <rs type="person">Goethe</rs>'schen Originals.
+               <lb facs="#facs_1_region_1684664840361_3458_tl_34" n="N034"/>Allein viel mehr noch als bei <hi rendition="#em"><rs type="person">Gounod</rs>’s</hi><rs type="person">Gretchen</rs> müssen
+               <lb facs="#facs_1_region_1684664840361_3458_tl_35" n="N035"/>wir bei der <rs type="person">Mignon</rs> des Ambroise <hi rendition="#em"><rs type="person">Thomas</rs></hi> von der
+               <lb facs="#facs_1_region_1684664840361_3458_tl_36" n="N036"/><rs type="person">Goethe</rs>’schen Urgestalt absehen. Nur im ersten Act der Oper
+               <lb facs="#facs_1_region_1684664840361_3458_tl_37" n="N037"/>trägt <rs type="person">Mignon</rs> wirklich die Züge des <rs type="person">Goethe</rs>’schen Originals.
                <lb facs="#facs_1_region_1684664840361_3458_tl_38" n="N038"/>Die <rs type="person">Nilsson</rs> konnte uns zwar unser Bild von <rs type="person">Mignon</rs> nicht
-               <lb facs="#facs_1_line_1753856757999_1105" n="N039"/>verkörpern, sie setzte aber bald ein anderes, eigenes an dessen
-            </p>
+               <lb facs="#facs_1_line_1753856757999_1105" n="N039"/>verkörpern, sie setzte aber bald ein anderes, eigenes an dessen</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="5"/>
             <p>
                <lb facs="#facs_2_region_1684664850380_3464_tl_1" n="N001"/>Stelle, an das wir glauben mußten. „Eigen, eigen — aber
-               <lb facs="#facs_2_region_1684664850380_3464_tl_2" n="N002"/>schön!“ wie <rs type="person">Rafael</rs> in <rs type="person">Oehlenschläger</rs>'s <rs type="bibl">Drama</rs> von der
-               <lb facs="#facs_2_region_1684664850380_3464_tl_3" n="N003"/>
-               <rs type="bibl">Madonna</rs> des <rs type="person">Correggio</rs> sagt. Die <rs type="person">Mignon</rs> der <rs type="person">Nilsson</rs> hat
-               <lb facs="#facs_2_region_1684664850380_3464_tl_4" n="N004"/>unter den Zigeunern den Adel ihrer Geburt, die edlen For¬
-               <lb facs="#facs_2_region_1684664850380_3464_tl_5" n="N005"/>men ihrer ersten Erziehung nicht eingebüßt, ja sie hat (wie
+               <lb facs="#facs_2_region_1684664850380_3464_tl_2" n="N002"/>schön!“ wie <rs type="person">Rafael</rs> in <rs type="person">Oehlenschläger</rs>’s <rs type="bibl">Drama</rs> von der
+               <lb facs="#facs_2_region_1684664850380_3464_tl_3" n="N003"/><rs type="bibl">Madonna</rs> des <rs type="person">Correggio</rs> sagt. Die <rs type="person">Mignon</rs> der <rs type="person">Nilsson</rs> hat
+               <lb facs="#facs_2_region_1684664850380_3464_tl_4" n="N004"/>unter den Zigeunern den Adel ihrer Geburt, die edlen For
+               <lb facs="#facs_2_region_1684664850380_3464_tl_5" n="N005" break="no"/>men ihrer ersten Erziehung nicht eingebüßt, ja sie hat (wie
                <lb facs="#facs_2_region_1684664850380_3464_tl_6" n="N006"/>ihr Lied „Kennst du das Land“ und die Gebetscene im
                <lb facs="#facs_2_region_1684664850380_3464_tl_7" n="N007"/>dritten Acte motiviren) Erinnerungen an ihre schöne Kindheit
-               <lb facs="#facs_2_region_1684664850380_3464_tl_8" n="N008"/>bewahrt. Der ungeberdige wilde Trotz <rs type="person">Mignon</rs>'s in
+               <lb facs="#facs_2_region_1684664850380_3464_tl_8" n="N008"/>bewahrt. Der ungeberdige wilde Trotz <rs type="person">Mignon</rs>’s in
                <lb facs="#facs_2_region_1684664850380_3464_tl_9" n="N009"/>der ersten Scene wird bei der <rs type="person">Nilsson</rs> zu einer
                <lb facs="#facs_2_region_1684664850380_3464_tl_10" n="N010"/>fast stolzen Opposition; aufrechten Hauptes, furchtlos
                <lb facs="#facs_2_region_1684664850380_3464_tl_11" n="N011"/>sogar den ängstlich abwehrenden <rs type="person">Lothario</rs> beschwichtigend, stellt
                <lb facs="#facs_2_region_1684664850380_3464_tl_12" n="N012"/>sie sich dem rohen Principal gegenüber, als wollte sie sagen:
-               <lb facs="#facs_2_region_1684664850380_3464_tl_13" n="N013"/>Du kannst mich tödten, aber ich tanze nicht! Ueberaus ein¬
-               <lb facs="#facs_2_region_1684664850380_3464_tl_14" n="N014"/>fach und schön sang sie den ganzen ersten Act. Im zweiten
+               <lb facs="#facs_2_region_1684664850380_3464_tl_13" n="N013"/>Du kannst mich tödten, aber ich tanze nicht! Ueberaus ein
+               <lb facs="#facs_2_region_1684664850380_3464_tl_14" n="N014" break="no"/>fach und schön sang sie den ganzen ersten Act. Im zweiten
                <lb facs="#facs_2_region_1684664850380_3464_tl_15" n="N015"/>umgab sie die aus so disparaten Elementen zusammengesetzte
                <lb facs="#facs_2_region_1684664850380_3464_tl_16" n="N016"/>„Styrienne“ mit einem Schimmer von Grazie, welcher das
                <lb facs="#facs_2_region_1684664850380_3464_tl_17" n="N017"/>Ganze zugleich erklärte und verklärte. Die colorirten Stellen,
-               <lb facs="#facs_2_region_1684664850380_3464_tl_18" n="N018"/>insbesondere die absteigenden Scalen, perlten so unvergleich¬
-               <lb facs="#facs_2_region_1684664850380_3464_tl_19" n="N019"/>lich, daß wir, wie bei der Schmuck-Arie <rs type="person">Gretchen</rs>s, fast be¬
-               <lb facs="#facs_2_region_1684664850380_3464_tl_20" n="N020"/>dauerten, ihre Gesangs-Virtuosität nicht häufiger zu verneh¬
-               <lb facs="#facs_2_region_1684664850380_3464_tl_21" n="N021"/>men. Aber die <rs type="person">Nilsson</rs> singt keine Verzierung, die der Com¬
-               <lb facs="#facs_2_region_1684664850380_3464_tl_22" n="N022"/>ponist nicht hingeschrieben, und selbst die vorgezeichneten so
+               <lb facs="#facs_2_region_1684664850380_3464_tl_18" n="N018"/>insbesondere die absteigenden Scalen, perlten so unvergleich
+               <lb facs="#facs_2_region_1684664850380_3464_tl_19" n="N019" break="no"/>lich, daß wir, wie bei der Schmuck-Arie <rs type="person">Gretchen</rs>s, fast be
+               <lb facs="#facs_2_region_1684664850380_3464_tl_20" n="N020" break="no"/>dauerten, ihre Gesangs-Virtuosität nicht häufiger zu verneh
+               <lb facs="#facs_2_region_1684664850380_3464_tl_21" n="N021" break="no"/>men. Aber die <rs type="person">Nilsson</rs> singt keine Verzierung, die der Com
+               <lb facs="#facs_2_region_1684664850380_3464_tl_22" n="N022" break="no"/>ponist nicht hingeschrieben, und selbst die vorgezeichneten so
                <lb facs="#facs_2_region_1684664850380_3464_tl_23" n="N023"/>bescheiden als möglich. Für die Eifersucht gegen <rs type="person">Philine</rs>n (im
-               <lb facs="#facs_2_region_1684664850380_3464_tl_24" n="N024"/>zweiten Act) fand Frau <rs type="person">Nilsson</rs> den überzeugendsten Aus¬
-               <lb facs="#facs_2_region_1684664850380_3464_tl_25" n="N025"/>druck und belebte die Scene durch einige ihr allein ange¬
-               <lb facs="#facs_2_region_1684664850380_3464_tl_26" n="N026"/>hörige sehr glückliche Details. Der dritte Act, in Handlung
+               <lb facs="#facs_2_region_1684664850380_3464_tl_24" n="N024"/>zweiten Act) fand Frau <rs type="person">Nilsson</rs> den überzeugendsten Aus
+               <lb facs="#facs_2_region_1684664850380_3464_tl_25" n="N025" break="no"/>druck und belebte die Scene durch einige ihr allein ange
+               <lb facs="#facs_2_region_1684664850380_3464_tl_26" n="N026" break="no"/>hörige sehr glückliche Details. Der dritte Act, in Handlung
                <lb facs="#facs_2_region_1684664850380_3464_tl_27" n="N027"/>und Musik ein kläglicher Abfall nach den beiden ersten,
                <lb facs="#facs_2_region_1684664850380_3464_tl_28" n="N028"/>wurde von Frau <rs type="person">Nilsson</rs> mit dem „tragischen Ausgange“
                <lb facs="#facs_2_region_1684664850380_3464_tl_29" n="N029"/>gespielt. Der einzige Sonnenblick, der tröstlich in das Lamento
-               <lb facs="#facs_2_region_1684664850380_3464_tl_30" n="N030"/>dieses dritten Actes fällt, das schließliche Erscheinen <rs type="person">Phi¬</rs>
-               <lb facs="#facs_2_region_1684664850380_3464_tl_31" n="N031"/>
-               <rs type="person">line</rs>ns mit <rs type="person">Friedrich</rs> und <rs type="person">Laërtes</rs> und der fröhliche Chor
+               <lb facs="#facs_2_region_1684664850380_3464_tl_30" n="N030"/>dieses dritten Actes fällt, das schließliche Erscheinen <rs type="person">Phi
+               <lb facs="#facs_2_region_1684664850380_3464_tl_31" n="N031" break="no"/>line</rs>ns mit <rs type="person">Friedrich</rs> und <rs type="person">Laërtes</rs> und der fröhliche Chor
                <lb facs="#facs_2_region_1684664850380_3464_tl_32" n="N032"/>der Landleute, ist damit ohne Erbarmen gelöscht. Dieser
                <lb facs="#facs_2_region_1684664850380_3464_tl_33" n="N033"/>ursprünglich aus Furcht vor den <rs type="person">goethe</rs>festen <hi rendition="#em">Deutschen</hi>
-               <lb facs="#facs_2_region_1684664850380_3464_tl_34" n="N034"/>nachcomponirte Schluß mit <rs type="person">Mignon</rs>'s Tod oder Ohnmacht
+               <lb facs="#facs_2_region_1684664850380_3464_tl_34" n="N034"/>nachcomponirte Schluß mit <rs type="person">Mignon</rs>’s Tod oder Ohnmacht
                <lb facs="#facs_2_region_1684664850380_3464_tl_35" n="N035"/>(man weiß es nicht recht) wurde von den allzeit pathetischen
-               <lb facs="#facs_2_region_1684664850380_3464_tl_36" n="N036"/>
-               <hi rendition="#em">Italienern</hi> mit Freuden adoptirt und hat seither den
+               <lb facs="#facs_2_region_1684664850380_3464_tl_36" n="N036"/><hi rendition="#em">Italienern</hi> mit Freuden adoptirt und hat seither den
                <lb facs="#facs_2_line_1753856826751_1133" n="N037"/>versöhnenden Originalschluß der Opéra comique fast überall
                <lb facs="#facs_2_line_1753856830447_1137" n="N038"/>verdrängt. Der neue „tragische“ Abschluß wird hoffentlich
-               <lb facs="#facs_2_line_1753856835887_1142" n="N039"/>bei uns nicht beibehalten werden, er ist nur langweiliger und
-            </p>
+               <lb facs="#facs_2_line_1753856835887_1142" n="N039"/>bei uns nicht beibehalten werden, er ist nur langweiliger und</p>
             <cb n="6"/>
             <p>
                <lb facs="#facs_2_region_1684664853821_3467_tl_1" n="N001"/>geistloser als der ursprüngliche „gute Ausgang“. Die
-               <lb facs="#facs_2_region_1684664853821_3467_tl_2" n="N002"/>
-               <hi rendition="#em">
-                  <rs type="person">Nilsson</rs>
-               </hi> sang diesen dritten Act wie ein Engel; aber gegen
+               <lb facs="#facs_2_region_1684664853821_3467_tl_2" n="N002"/><hi rendition="#em"><rs type="person">Nilsson</rs></hi> sang diesen dritten Act wie ein Engel; aber gegen
                <lb facs="#facs_2_region_1684664853821_3467_tl_3" n="N003"/>die Dummheit singen Engel selbst vergebens.
-               <lb facs="#facs_2_region_1684664853821_3467_tl_4" n="N004"/>Für die Abschiedsvorstellung der <rs type="person">Nilsson</rs> war ein Pot¬
-               <lb facs="#facs_2_region_1684664853821_3467_tl_5" n="N005"/>pourri zusammengestellt worden: der dritte Act (Garten¬
-               <lb facs="#facs_2_region_1684664853821_3467_tl_6" n="N006"/>scene) aus „<rs type="bibl">Faust</rs>“, der dritte aus <rs type="person">Rossini</rs>'s „<rs type="bibl">Othello</rs>“, der
-               <lb facs="#facs_2_region_1684664853821_3467_tl_7" n="N007"/>vierte aus den „<rs type="bibl">Hugenotten</rs>“, dazwischen als recht willkom¬
-               <lb facs="#facs_2_region_1684664853821_3467_tl_8" n="N008"/>mene heitere Abwechslung zwei der beliebtesten Ballet-Diver¬
-               <lb facs="#facs_2_region_1684664853821_3467_tl_9" n="N009"/>tissements. Trotz der großen Anstrengung dieses Abends
+               <lb facs="#facs_2_region_1684664853821_3467_tl_4" n="N004"/>Für die Abschiedsvorstellung der <rs type="person">Nilsson</rs> war ein Pot
+               <lb facs="#facs_2_region_1684664853821_3467_tl_5" n="N005" break="no"/>pourri zusammengestellt worden: der dritte Act (Garten
+               <lb facs="#facs_2_region_1684664853821_3467_tl_6" n="N006" break="no"/>scene) aus „<rs type="bibl">Faust</rs>“, der dritte aus <rs type="person">Rossini</rs>’s „<rs type="bibl">Othello</rs>“, der
+               <lb facs="#facs_2_region_1684664853821_3467_tl_7" n="N007"/>vierte aus den „<rs type="bibl">Hugenotten</rs>“, dazwischen als recht willkom
+               <lb facs="#facs_2_region_1684664853821_3467_tl_8" n="N008" break="no"/>mene heitere Abwechslung zwei der beliebtesten Ballet-Diver
+               <lb facs="#facs_2_region_1684664853821_3467_tl_9" n="N009" break="no"/>tissements. Trotz der großen Anstrengung dieses Abends
                <lb facs="#facs_2_region_1684664853821_3467_tl_10" n="N010"/>blieb Frau <rs type="person">Nilsson</rs> bis zur letzten Note frisch und kräftig
                <lb facs="#facs_2_region_1684664853821_3467_tl_11" n="N011"/>bei Stimme und spielte das große Duett <rs type="person">Valentine</rs>ns mit
-               <lb facs="#facs_2_region_1684664853821_3467_tl_12" n="N012"/>
-               <rs type="person">Raoul</rs> noch schöner und ausdrucksvoller als das erstemal.
-               <lb facs="#facs_2_region_1684664853821_3467_tl_13" n="N013"/>Sie wurde darin von Herrn <hi rendition="#em">
-                  <rs type="person">Müller</rs>
-               </hi>, unserem besten
-               <lb facs="#facs_2_region_1684664853821_3467_tl_14" n="N014"/>
-               <rs type="person">Raoul</rs>, vortrefflich unterstützt. Als <rs type="person">Faust</rs> fand Herr
-               <lb facs="#facs_2_region_1684664853821_3467_tl_15" n="N015"/>
-               <hi rendition="#em">
-                  <rs type="person">Walter</rs>
-               </hi>, als <rs type="person">Othello</rs> Herr <hi rendition="#em">
-                  <rs type="person">Labatt</rs>
-               </hi> reichlichen Beifall.
+               <lb facs="#facs_2_region_1684664853821_3467_tl_12" n="N012"/><rs type="person">Raoul</rs> noch schöner und ausdrucksvoller als das erstemal.
+               <lb facs="#facs_2_region_1684664853821_3467_tl_13" n="N013"/>Sie wurde darin von Herrn <hi rendition="#em"><rs type="person">Müller</rs></hi>, unserem besten
+               <lb facs="#facs_2_region_1684664853821_3467_tl_14" n="N014"/><rs type="person">Raoul</rs>, vortrefflich unterstützt. Als <rs type="person">Faust</rs> fand Herr
+               <lb facs="#facs_2_region_1684664853821_3467_tl_15" n="N015"/><hi rendition="#em"><rs type="person">Walter</rs></hi>, als <rs type="person">Othello</rs> Herr <hi rendition="#em"><rs type="person">Labatt</rs></hi> reichlichen Beifall.
                <lb facs="#facs_2_line_1753856906159_1181" n="N016"/>Mitten unter concertirenden Geigern und Pianisten
                <lb facs="#facs_2_region_1684664853821_3467_tl_16" n="N017"/>tauchte diesmal ein concertirender Tondichter auf: Herr
-               <lb facs="#facs_2_region_1684664853821_3467_tl_17" n="N018"/>
-               <hi rendition="#em">Richard <rs type="person">Heuberger</rs>
-               </hi>, Chormeister des Akademischen
+               <lb facs="#facs_2_region_1684664853821_3467_tl_17" n="N018"/><hi rendition="#em">Richard <rs type="person">Heuberger</rs></hi>, Chormeister des Akademischen
                <lb facs="#facs_2_region_1684664853821_3467_tl_18" n="N019"/>Gesangvereins. Es gibt für einen Kritiker, der seit vielen
                <lb facs="#facs_2_region_1684664853821_3467_tl_19" n="N020"/>Jahren der musikalischen Production den Puls fühlt, nichts
-               <lb facs="#facs_2_region_1684664853821_3467_tl_20" n="N021"/>Angenehmeres, als wenn einmal wieder ein Symptom be¬
-               <lb facs="#facs_2_region_1684664853821_3467_tl_21" n="N022"/>schleunigter Lebensthätigkeit sich zeigt. Ist es doch keine
+               <lb facs="#facs_2_region_1684664853821_3467_tl_20" n="N021"/>Angenehmeres, als wenn einmal wieder ein Symptom be
+               <lb facs="#facs_2_region_1684664853821_3467_tl_21" n="N022" break="no"/>schleunigter Lebensthätigkeit sich zeigt. Ist es doch keine
                <lb facs="#facs_2_region_1684664853821_3467_tl_22" n="N023"/>Phrase, sondern bittere Wahrheit, daß wir an schöpferischen
                <lb facs="#facs_2_region_1684664853821_3467_tl_23" n="N024"/>Talenten in der Musik heutzutage arm sind, die alte Garde
-               <lb facs="#facs_2_region_1684664853821_3467_tl_24" n="N025"/>sich lichtet, der Nachwuchs immer spärlicher wird. Da be¬
-               <lb facs="#facs_2_region_1684664853821_3467_tl_25" n="N026"/>grüßt man denn mit Freude, oft mit allzu vorschneller
+               <lb facs="#facs_2_region_1684664853821_3467_tl_24" n="N025"/>sich lichtet, der Nachwuchs immer spärlicher wird. Da be
+               <lb facs="#facs_2_region_1684664853821_3467_tl_25" n="N026" break="no"/>grüßt man denn mit Freude, oft mit allzu vorschneller
                <lb facs="#facs_2_region_1684664853821_3467_tl_26" n="N027"/>Freude, jeden halbwegs talentvollen Jünger, dessen glückliche
                <lb facs="#facs_2_region_1684664853821_3467_tl_27" n="N028"/>Anfänge Gutes und Neues theils bringen, theils verheißen.
                <lb facs="#facs_2_region_1684664853821_3467_tl_28" n="N029"/>Dies ist der Fall mit dem brünetten, schlanken Sohn der
-               <lb facs="#facs_2_region_1684664853821_3467_tl_29" n="N030"/>
-               <rs type="place">Steiermark</rs>, Richard <hi rendition="#em">
-                  <rs type="person">Heuberger</rs>
-               </hi>. Er ist begabt und auf
+               <lb facs="#facs_2_region_1684664853821_3467_tl_29" n="N030"/><rs type="place">Steiermark</rs>, Richard <hi rendition="#em"><rs type="person">Heuberger</rs></hi>. Er ist begabt und auf
                <lb facs="#facs_2_line_1753856869143_1157" n="N031"/>dem rechten Wege, verdient also aufrichtige Ermunterung.
                <lb facs="#facs_2_region_1684664853821_3467_tl_31" n="N032"/>Viel hat er noch zu lernen; aber wenigstens steckt er nicht
                <lb facs="#facs_2_region_1684664853821_3467_tl_32" n="N033"/>in Manieren und Fehlern, die er erst verlernen müßte. Am
                <lb facs="#facs_2_region_1684664853821_3467_tl_33" n="N034"/>wenigsten befriedigte uns sein Clavier-Quintett, dem es nicht
                <lb facs="#facs_2_region_1684664853821_3467_tl_34" n="N035"/>an hübschen Einfällen und Anfängen fehlt, wol aber an
-               <lb facs="#facs_2_region_1684664853821_3467_tl_35" n="N036"/>Selbstständigkeit der Erfindung, an Stetigkeit und zusammen¬
-               <lb facs="#facs_2_region_1684664853821_3467_tl_36" n="N037"/>haltender Kraft der Ausführung. Ueberdies dehnt der
+               <lb facs="#facs_2_region_1684664853821_3467_tl_35" n="N036"/>Selbstständigkeit der Erfindung, an Stetigkeit und zusammen
+               <lb facs="#facs_2_region_1684664853821_3467_tl_36" n="N037" break="no"/>haltender Kraft der Ausführung. Ueberdies dehnt der
                <lb facs="#facs_2_line_1753856890903_1169" n="N038"/>Componist alle Sätze viel zu weit aus: er redet
                <lb facs="#facs_2_line_1753856835887_1141" n="N039"/>noch lange, nachdem er schon Alles gesagt hat. Viel
             </p>
@@ -1127,52 +1070,38 @@
             <p>
                <lb facs="#facs_2_region_1684664857887_3470_tl_1" n="N001"/>rückhaltloser können wir seine Vocal-Compositionen, Chöre
                <lb facs="#facs_2_region_1684664857887_3470_tl_2" n="N002"/>und Lieder, loben. Zwei Frauenchöre („<rs type="bibl">Mitternacht</rs>“ und
-               <lb facs="#facs_2_region_1684664857887_3470_tl_3" n="N003"/>„<rs type="bibl">Herbstlied</rs>“) verrathen poetische Auffassung und echt musi¬
-               <lb facs="#facs_2_region_1684664857887_3470_tl_4" n="N004"/>kalischen Sinn für wohlklingenden stimmgemäßen Vocalsatz.
+               <lb facs="#facs_2_region_1684664857887_3470_tl_3" n="N003"/>„<rs type="bibl">Herbstlied</rs>“) verrathen poetische Auffassung und echt musi
+               <lb facs="#facs_2_region_1684664857887_3470_tl_4" n="N004" break="no"/>kalischen Sinn für wohlklingenden stimmgemäßen Vocalsatz.
                <lb facs="#facs_2_region_1684664857887_3470_tl_5" n="N005"/>Noch eindringlicher wirkte ein größerer gemischter Chor,
                <lb facs="#facs_2_line_1753856899112_1176" n="N006"/>„<rs type="bibl">Sommermorgen</rs>“. Einen frischen Burschenton schlägt der
                <lb facs="#facs_2_region_1684664857887_3470_tl_8" n="N007"/>Männerchor „<rs type="bibl">Lied fahrender Schüler</rs>“ an. Von warmer
                <lb facs="#facs_2_region_1684664857887_3470_tl_9" n="N008"/>Empfindung, wenn auch nicht überall von kräftiger Eigenart
                <lb facs="#facs_2_region_1684664857887_3470_tl_10" n="N009"/>sind mehrere Lieder von <rs type="person">Heuberger</rs>, welche eine stimmbegabte
-               <lb facs="#facs_2_region_1684664857887_3470_tl_11" n="N010"/>junge Sängerin, Fräulein <hi rendition="#em">
-                  <rs type="person">Widl</rs>
-               </hi>, sehr beifällig vortrug.
+               <lb facs="#facs_2_region_1684664857887_3470_tl_11" n="N010"/>junge Sängerin, Fräulein <hi rendition="#em"><rs type="person">Widl</rs></hi>, sehr beifällig vortrug.
                <lb facs="#facs_2_region_1684664857887_3470_tl_12" n="N011"/>Vor zwei Dingen möchten wir, auf Grund der genannten
                <lb facs="#facs_2_region_1684664857887_3470_tl_13" n="N012"/>Gesänge, den Componisten warnen: vor allzu großer Länge uns
-               <lb facs="#facs_2_region_1684664857887_3470_tl_14" n="N013"/>vor rhythmischer Monotonie. Wo vollends beide Fehler zu¬
-               <lb facs="#facs_2_region_1684664857887_3470_tl_15" n="N014"/>sammentreffen, erscheint jeder in doppelter Vergrößerung.
+               <lb facs="#facs_2_region_1684664857887_3470_tl_14" n="N013"/>vor rhythmischer Monotonie. Wo vollends beide Fehler zu
+               <lb facs="#facs_2_region_1684664857887_3470_tl_15" n="N014" break="no"/>sammentreffen, erscheint jeder in doppelter Vergrößerung.
                <lb facs="#facs_2_region_1684664857887_3470_tl_16" n="N015"/>Herr <rs type="person">Heuberger</rs> erntete reichlichen Beifall. Er hat nunmehr
                <lb facs="#facs_2_line_1753856906159_1180" n="N016"/>ein ihm wohlwollend entgegenkommendes Publicum gefunden
-               <lb facs="#facs_2_region_1684664857887_3470_tl_18" n="N017"/>und, was noch seltener ist, einen rührigen Verleger, der be¬
-               <lb facs="#facs_2_region_1684664857887_3470_tl_19" n="N018"/>reits eine Reihe <rs type="person">Heuberger</rs>'scher Compositionen in schöner
-               <lb facs="#facs_2_region_1684664857887_3470_tl_20" n="N019"/>Ausstattung publicirt hat: <hi rendition="#em">
-                  <rs type="person">Buchholz</rs>
-               </hi> in <rs type="place">Wien</rs>.
+               <lb facs="#facs_2_region_1684664857887_3470_tl_18" n="N017"/>und, was noch seltener ist, einen rührigen Verleger, der be
+               <lb facs="#facs_2_region_1684664857887_3470_tl_19" n="N018" break="no"/>reits eine Reihe <rs type="person">Heuberger</rs>’scher Compositionen in schöner
+                  <lb facs="#facs_2_region_1684664857887_3470_tl_20" n="N019"/>Ausstattung publicirt hat: <hi rendition="#em"><rs type="person">Buchholz</rs></hi> in <rs type="place" ref="#hsl_place_id_55">Wien</rs>.
                <lb facs="#facs_2_region_1684664857887_3470_tl_21" n="N020"/>Schließlich sind wir auch in der durch ihre Seltenheit
                <lb facs="#facs_2_region_1684664857887_3470_tl_22" n="N021"/>doppelt erfreulichen Lage, einen neuen, sehr begabten Operetten-
                <lb facs="#facs_2_region_1684664857887_3470_tl_23" n="N022"/>Componisten und einen echten Erfolg unserer Komischen Oper
-               <lb facs="#facs_2_region_1684664857887_3470_tl_24" n="N023"/>signalisiren zu können. Die gestern daselbst zur ersten Auf¬
-               <lb facs="#facs_2_region_1684664857887_3470_tl_25" n="N024"/>führung gelangte Novität heißt „<hi rendition="#em">
-                  <rs type="bibl">Der Geist des Woj¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684664857887_3470_tl_26" n="N025"/>
-               <hi rendition="#em">
-                  <rs type="bibl">woden</rs>
-               </hi>“, Text nach dem <rs type="place">Polnisch</rs>en von Anton <hi rendition="#em">
-                  <rs type="person">Langer</rs>
-               </hi>,
-               <lb facs="#facs_2_region_1684664857887_3470_tl_27" n="N026"/>Musik von Louis <hi rendition="#em">
-                  <rs type="person">Großman</rs>
-               </hi>. Es herrscht in dieser komischen
+               <lb facs="#facs_2_region_1684664857887_3470_tl_24" n="N023"/>signalisiren zu können. Die gestern daselbst zur ersten Auf
+               <lb facs="#facs_2_region_1684664857887_3470_tl_25" n="N024" break="no"/>führung gelangte Novität heißt „<hi rendition="#em"><rs type="bibl">Der Geist des Woj
+               <lb facs="#facs_2_region_1684664857887_3470_tl_26" n="N025" break="no"/>woden</rs></hi>“, Text nach dem <rs type="place">Polnisch</rs>en von Anton <hi rendition="#em"><rs type="person">Langer</rs></hi>,
+               <lb facs="#facs_2_region_1684664857887_3470_tl_27" n="N026"/>Musik von Louis <hi rendition="#em"><rs type="person">Großman</rs></hi>. Es herrscht in dieser komischen
                <lb facs="#facs_2_region_1684664857887_3470_tl_28" n="N027"/>Oper eine durchaus frische, gesunde, melodiöse Erfindung,
                <lb facs="#facs_2_region_1684664857887_3470_tl_29" n="N028"/>die, weit entfernt von naturalistischer Unbeholfenheit, eine
-               <lb facs="#facs_2_region_1684664857887_3470_tl_30" n="N029"/>tüchtige musikalische Bildung und vollendete technische Ge¬
-               <lb facs="#facs_2_region_1684664857887_3470_tl_31" n="N030"/>wandtheit verräth. „<rs type="bibl">Der Geist des Wojwoden</rs>“ hat in
-               <lb facs="#facs_2_line_1753856869143_1156" n="N031"/>
-               <rs type="place">Warschau</rs> über vierzig Wiederholungen erlebt und dürfte auch
-               <lb facs="#facs_2_region_1684664857887_3470_tl_32" n="N032"/>hier ein Zugstück werden. Zugleich ist es die beste Vor¬
-               <lb facs="#facs_2_region_1684664857887_3470_tl_33" n="N033"/>stellung, welche wir in der Komischen Oper unter deren ge¬
-               <lb facs="#facs_2_region_1684664857887_3470_tl_34" n="N034"/>genwärtiger Direction gesehen. Sobald wir wieder über den
+               <lb facs="#facs_2_region_1684664857887_3470_tl_30" n="N029"/>tüchtige musikalische Bildung und vollendete technische Ge
+               <lb facs="#facs_2_region_1684664857887_3470_tl_31" n="N030" break="no"/>wandtheit verräth. „<rs type="bibl">Der Geist des Wojwoden</rs>“ hat in
+                  <lb facs="#facs_2_line_1753856869143_1156" n="N031"/><rs type="place" ref="#hsl_place_id_440">Warschau</rs> über vierzig Wiederholungen erlebt und dürfte auch
+               <lb facs="#facs_2_region_1684664857887_3470_tl_32" n="N032"/>hier ein Zugstück werden. Zugleich ist es die beste Vor
+               <lb facs="#facs_2_region_1684664857887_3470_tl_33" n="N033" break="no"/>stellung, welche wir in der Komischen Oper unter deren ge
+               <lb facs="#facs_2_region_1684664857887_3470_tl_34" n="N034" break="no"/>genwärtiger Direction gesehen. Sobald wir wieder über den
                <lb facs="#facs_2_region_1684664857887_3470_tl_35" n="N035"/>Anfang eines Feuilletons und nicht, wie heute, blos über den
                <lb facs="#facs_2_region_1684664857887_3470_tl_36" n="N036"/>Schluß desselben zu verfügen haben, wollen wir den Geist
                <lb facs="#facs_2_region_1684664857887_3470_tl_37" n="N037"/>des Wojwoden zu etwas längerer Unterhaltung nochmals
