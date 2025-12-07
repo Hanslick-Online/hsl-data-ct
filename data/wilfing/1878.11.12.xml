@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 5105. Wien, Dienstag, den 12. November 1878</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,24 +70,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 5105. Wien, Dienstag, den 12. November 1878</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1878-11-12">12.11.1878</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2025-11-28">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2025-11-29">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2025-12-07">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -902,315 +899,264 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1684667593855_256_tl_1" n="N001"/><head type="h1">Hofoperntheater.</head>
+            <lb facs="#facs_1_region_1684667593855_256_tl_2" n="N002"/><head type="h2">(„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_1315">Siegfried</rs></hi>“, von <hi rendition="#em">Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi>.)</head>
             <p>
-               <lb facs="#facs_1_line_1760272957457_2851" n="N001"/>Nr. 5105. Wien, Dienstag, den 12. November 1878
-            </p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684667593855_256_tl_1" n="N001"/>Hofoperntheater.
-               <lb facs="#facs_1_region_1684667593855_256_tl_2" n="N002"/>(„<hi rendition="#em">
-                  <rs type="bibl">Siegfried</rs>
-               </hi>“, von <hi rendition="#em">Richard <rs type="person">Wagner</rs>
-               </hi>.)
-               <lb facs="#facs_1_region_1684667593855_256_tl_3" n="N003"/>Ed. H. Nach „<rs type="bibl">Rheingold</rs>“ und der „<rs type="bibl">Walküre</rs>“ haben
+               <lb facs="#facs_1_region_1684667593855_256_tl_3" n="N003"/>Ed. H. Nach „<rs type="bibl" ref="#hsl_work_id_238">Rheingold</rs>“ und der „<rs type="bibl" ref="#hsl_work_id_649">Walküre</rs>“ haben
                <lb facs="#facs_1_region_1684667593855_256_tl_4" n="N004"/>wir vorgestern im Hofoperntheater den dritten Theil des
-               <lb facs="#facs_1_region_1684667593855_256_tl_5" n="N005"/>
-               <rs type="person">Wagner</rs>'schen <rs type="bibl">Nibelungen-Drama</rs>s: „<rs type="bibl">Siegfried</rs>“, gesehen —
-               <lb facs="#facs_1_region_1684667593855_256_tl_6" n="N006"/>die „<rs type="bibl">Götterdämmerung</rs>“ steht nahe bevor. Ganz entgegen
-               <lb facs="#facs_1_region_1684667593855_256_tl_7" n="N007"/>der ursprünglichen Versicherung <rs type="person">Wagner</rs>'s, es könne und dürfe
-               <lb facs="#facs_1_line_1760273024434_2860" n="N008"/>diese Tetralogie nur in dem <rs type="place">Bayreuth</rs>er „Bühnenfestspiel¬
-               <lb facs="#facs_1_region_1684667593855_256_tl_8" n="N009"/>haus“ dargestellt werden, sehen wir sie seit Jahr und Tag
-               <lb facs="#facs_1_region_1684667593855_256_tl_9" n="N010"/>wie eine riesige Wanderspinne ganz <rs type="place">Deutschland</rs> mit ihren
+               <lb facs="#facs_1_region_1684667593855_256_tl_5" n="N005"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’schen <rs type="bibl" ref="#hsl_work_id_418">Nibelungen-Drama</rs>s: „<rs type="bibl" ref="#hsl_work_id_1315">Siegfried</rs>“, gesehen —
+               <lb facs="#facs_1_region_1684667593855_256_tl_6" n="N006"/>die „<rs type="bibl" ref="#hsl_work_id_1316">Götterdämmerung</rs>“ steht nahe bevor. Ganz entgegen
+               <lb facs="#facs_1_region_1684667593855_256_tl_7" n="N007"/>der ursprünglichen Versicherung <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s, es könne und dürfe
+               <lb facs="#facs_1_line_1760273024434_2860" n="N008"/>diese Tetralogie nur in dem <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>er „Bühnenfestspiel
+               <lb facs="#facs_1_region_1684667593855_256_tl_8" n="N009" break="no"/>haus“ dargestellt werden, sehen wir sie seit Jahr und Tag
+               <lb facs="#facs_1_region_1684667593855_256_tl_9" n="N010"/>wie eine riesige Wanderspinne ganz <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> mit ihren
                <lb facs="#facs_1_region_1684667593855_256_tl_10" n="N011"/>weißen Fäden überziehen. Ueberall begleiten unermeßlicher
-               <lb facs="#facs_1_region_1684667593855_256_tl_11" n="N012"/>Andrang und Enthusiasmus die ersten Vorstellungen, erhal¬
-               <lb facs="#facs_1_region_1684667593855_256_tl_12" n="N013"/>ten sich aber, wie es scheint, nicht auf die Dauer. Ein an¬
-               <lb facs="#facs_1_region_1684667593855_256_tl_13" n="N014"/>sehnlicher Theil des Publicums findet, nachdem es seine erste
-               <lb facs="#facs_1_region_1684667593855_256_tl_14" n="N015"/>Neugierde gestillt, daß es doch ein gar zu anstrengender, ja auf¬
-               <lb facs="#facs_1_region_1684667593855_256_tl_15" n="N016"/>reibender Genuß sei, dem man sich nur selten gewachsen
-               <lb facs="#facs_1_region_1684667593855_256_tl_16" n="N017"/>fühle. Ein kleinerer Theil gesteht sogar aufrichtig, die Total¬
-               <lb facs="#facs_1_region_1684667593855_256_tl_17" n="N018"/>wirkung eines solchen <rs type="bibl">Nibelungen</rs>-Abends oder gar mehrerer
+               <lb facs="#facs_1_region_1684667593855_256_tl_11" n="N012"/>Andrang und Enthusiasmus die ersten Vorstellungen, erhal
+               <lb facs="#facs_1_region_1684667593855_256_tl_12" n="N013" break="no"/>ten sich aber, wie es scheint, nicht auf die Dauer. Ein an
+               <lb facs="#facs_1_region_1684667593855_256_tl_13" n="N014" break="no"/>sehnlicher Theil des Publicums findet, nachdem es seine erste
+               <lb facs="#facs_1_region_1684667593855_256_tl_14" n="N015"/>Neugierde gestillt, daß es doch ein gar zu anstrengender, ja auf
+               <lb facs="#facs_1_region_1684667593855_256_tl_15" n="N016" break="no"/>reibender Genuß sei, dem man sich nur selten gewachsen
+               <lb facs="#facs_1_region_1684667593855_256_tl_16" n="N017"/>fühle. Ein kleinerer Theil gesteht sogar aufrichtig, die Total
+               <lb facs="#facs_1_region_1684667593855_256_tl_17" n="N018" break="no"/>wirkung eines solchen <rs type="bibl" ref="#hsl_work_id_418">Nibelungen</rs>-Abends oder gar mehrerer
                <lb facs="#facs_1_region_1684667593855_256_tl_18" n="N019"/>hinter einander sei überhaupt kein Genuß zu nennen, sondern
                <lb facs="#facs_1_region_1684667593855_256_tl_19" n="N020"/>eine Qual. Zu dieser unglücklichen Fraction gehöre auch ich.
                <lb facs="#facs_1_region_1684667593855_256_tl_20" n="N021"/>Als ein rein persönliches Erlebniß möchte ich, aufrichtig und
                <lb facs="#facs_1_region_1684667593855_256_tl_21" n="N022"/>ohne alle kritische Anmaßung, meinen Lesern diesen Eindruck
                <lb facs="#facs_1_region_1684667593855_256_tl_22" n="N023"/>bekennen. Der Kritiker kann ja nicht den Anspruch erheben,
                <lb facs="#facs_1_line_1760273147192_2897" n="N024"/>über so ungewöhnliche, die öffentliche Meinung gewaltsam spaltende
-               <lb facs="#facs_1_region_1684667593855_256_tl_23" n="N025"/>Kunsterscheinungen endgiltig abzuurtheilen; er gibt nur ein indivi¬
-               <lb facs="#facs_1_region_1684667593855_256_tl_24" n="N026"/>duelles Urtheil, für dessen Wahrhaftigkeit, nicht Richtigkeit, er sei¬
-               <lb facs="#facs_1_region_1684667593855_256_tl_25" n="N027"/>nen Lesern verantwortlich ist. Ueber <rs type="person">Wagner</rs>'s Musikdrama stehen
+               <lb facs="#facs_1_region_1684667593855_256_tl_23" n="N025"/>Kunsterscheinungen endgiltig abzuurtheilen; er gibt nur ein indivi
+               <lb facs="#facs_1_region_1684667593855_256_tl_24" n="N026" break="no"/>duelles Urtheil, für dessen Wahrhaftigkeit, nicht Richtigkeit, er sei
+               <lb facs="#facs_1_region_1684667593855_256_tl_25" n="N027" break="no"/>nen Lesern verantwortlich ist. Ueber <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Musikdrama stehen
                <lb facs="#facs_1_region_1684667593855_256_tl_26" n="N028"/>sich bekanntlich die Urtheile der Kritik schroff gegenüber, fast
                <lb facs="#facs_1_region_1684667593855_256_tl_27" n="N029"/>wie Ankläger und Vertheidiger im Proceß; der Gerichtshof,
                <lb facs="#facs_1_region_1684667593855_256_tl_28" n="N030"/>welcher dem Einen oder dem Andern Recht gibt, ist die Zeit,
-               <lb facs="#facs_1_region_1684667593855_256_tl_29" n="N031"/>oft ein ziemlich langer Verlauf der Zeit. In dem unmittel¬
-               <lb facs="#facs_1_region_1684667593855_256_tl_30" n="N032"/>baren Wirbel der Gegenwart vermag der Kritiker kaum Ande¬
-               <lb facs="#facs_1_region_1684667593855_256_tl_31" n="N033"/>res und gewiß nichts Heilsameres zu thun, als nach gewissen¬
-               <lb facs="#facs_1_region_1684667593855_256_tl_32" n="N034"/>hafter Vorbereitung sich selbst unter dem Eindruck des Werkes
+               <lb facs="#facs_1_region_1684667593855_256_tl_29" n="N031"/>oft ein ziemlich langer Verlauf der Zeit. In dem unmittel
+               <lb facs="#facs_1_region_1684667593855_256_tl_30" n="N032" break="no"/>baren Wirbel der Gegenwart vermag der Kritiker kaum Ande
+               <lb facs="#facs_1_region_1684667593855_256_tl_31" n="N033" break="no"/>res und gewiß nichts Heilsameres zu thun, als nach gewissen
+               <lb facs="#facs_1_region_1684667593855_256_tl_32" n="N034" break="no"/>hafter Vorbereitung sich selbst unter dem Eindruck des Werkes
                <lb facs="#facs_1_region_1684667593855_256_tl_33" n="N035"/>zu beobachten und diesen aufrichtig zu schildern. Obwol der
-               <lb facs="#facs_1_region_1684667593855_256_tl_34" n="N036"/>erste Eindruck meistens der entscheidende und richtige ist, er¬
-               <lb facs="#facs_1_line_1760273199687_2909" n="N037"/>ließ ich mir doch weder die Mühe noch die Selbstverleug¬
-               <lb facs="#facs_1_line_1760274034224_3280" n="N038"/>nung, an dessen nachträglicher Rectificirung, gleichsam an
-            </p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1684667597425_259_tl_1" n="N001"/>meiner <rs type="bibl">Nibelungen</rs>-Erziehung zu arbeiten. Eine erste Vor¬
-               <lb facs="#facs_1_region_1684667597425_259_tl_2" n="N002"/>stellung hört der Kritiker nicht ohne Aufregung; das An¬
-               <lb facs="#facs_1_region_1684667597425_259_tl_3" n="N003"/>spannen der ganzen Aufmerksamkeit, begleitet von dem un¬
-               <lb facs="#facs_1_region_1684667597425_259_tl_4" n="N004"/>wirschen Gedanken, morgen darüber schreiben zu müssen,
+               <lb facs="#facs_1_region_1684667593855_256_tl_34" n="N036"/>erste Eindruck meistens der entscheidende und richtige ist, er
+               <lb facs="#facs_1_line_1760273199687_2909" n="N037" break="no"/>ließ ich mir doch weder die Mühe noch die Selbstverleug
+               <lb facs="#facs_1_line_1760274034224_3280" n="N038" break="no"/>nung, an dessen nachträglicher Rectificirung, gleichsam an<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+               <lb facs="#facs_1_region_1684667597425_259_tl_1" n="N001"/>meiner <rs type="bibl" ref="#hsl_work_id_418">Nibelungen</rs>-Erziehung zu arbeiten. Eine erste Vor
+               <lb facs="#facs_1_region_1684667597425_259_tl_2" n="N002" break="no"/>stellung hört der Kritiker nicht ohne Aufregung; das An
+               <lb facs="#facs_1_region_1684667597425_259_tl_3" n="N003" break="no"/>spannen der ganzen Aufmerksamkeit, begleitet von dem un
+               <lb facs="#facs_1_region_1684667597425_259_tl_4" n="N004" break="no"/>wirschen Gedanken, morgen darüber schreiben zu müssen,
                <lb facs="#facs_1_region_1684667597425_259_tl_5" n="N005"/>macht ihn ein wenig reizbar. Kommen noch andere, äußere
-               <lb facs="#facs_1_region_1684667597425_259_tl_6" n="N006"/>Widerwärtigkeiten hinzu, wie in den Tagen von <rs type="place">Bayreuth</rs>,
+               <lb facs="#facs_1_region_1684667597425_259_tl_6" n="N006"/>Widerwärtigkeiten hinzu, wie in den Tagen von <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>,
                <lb facs="#facs_1_region_1684667597425_259_tl_7" n="N007"/>so mag vielleicht jene Reizbarkeit zur Gereiztheit werden und
                <lb facs="#facs_1_region_1684667597425_259_tl_8" n="N008"/>trübt unwillkürlich seine Aufnahmsfähigkeit, wie eine leicht
                <lb facs="#facs_1_region_1684667597425_259_tl_9" n="N009"/>angehauchte photographische Platte. Ich dispensire mich in
                <lb facs="#facs_1_region_1684667597425_259_tl_10" n="N010"/>solchen Fällen niemals von der Gewissenserforschung, ob der
                <lb facs="#facs_1_line_1760273024434_2859" n="N011"/>Fehler, der Grund des Mißfallens nicht in mir
-               <lb facs="#facs_1_region_1684667597425_259_tl_12" n="N012"/>selber steckte. Das Himmelhoch-Aufjauchzen von tau¬
-               <lb facs="#facs_1_region_1684667597425_259_tl_13" n="N013"/>send <rs type="person">Wagner</rs>-Enthusiasten und sein Niederschlag in
+               <lb facs="#facs_1_region_1684667597425_259_tl_12" n="N012"/>selber steckte. Das Himmelhoch-Aufjauchzen von tau
+               <lb facs="#facs_1_region_1684667597425_259_tl_13" n="N013" break="no"/>send <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Enthusiasten und sein Niederschlag in
                <lb facs="#facs_1_region_1684667597425_259_tl_14" n="N014"/>zahllosen Vergötterungs-Broschüren macht überdies leicht irre.
                <lb facs="#facs_1_region_1684667597425_259_tl_15" n="N015"/>Dazu das stets bereite Spottwort der Enthusiasten: „Ja,
                <lb facs="#facs_1_region_1684667597425_259_tl_16" n="N016"/>tadeln ist leicht!“ Nein, ihr Herren, tadeln ist nicht leicht
                <lb facs="#facs_1_line_1760273062630_2871" n="N017"/>und noch weniger angenehm mitten in einer entzückten
                <lb facs="#facs_1_region_1684667597425_259_tl_18" n="N018"/>Menge, deren Wonnen man ja so gerne mitempfände. So
-               <lb facs="#facs_1_region_1684667597425_259_tl_19" n="N019"/>besuchte ich denn, von <rs type="place">Bayreuth</rs> zurückgekehrt, in den letzten
-               <lb facs="#facs_1_region_1684667597425_259_tl_20" n="N020"/>Jahren wiederholt die trefflichen „<rs type="bibl">Rheingold</rs>“- und „<rs type="bibl">Wal¬</rs>
-               <lb facs="#facs_1_region_1684667597425_259_tl_21" n="N021"/>
-               <rs type="bibl">küre</rs>“-Vorstellungen im <rs type="place">Wien</rs>er Operntheater; ich wollte sie
+               <lb facs="#facs_1_region_1684667597425_259_tl_19" n="N019"/>besuchte ich denn, von <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs> zurückgekehrt, in den letzten
+               <lb facs="#facs_1_region_1684667597425_259_tl_20" n="N020"/>Jahren wiederholt die trefflichen „<rs type="bibl" ref="#hsl_work_id_238">Rheingold</rs>“- und „<rs type="bibl" ref="#hsl_work_id_649">Wal
+               <lb facs="#facs_1_region_1684667597425_259_tl_21" n="N021" break="no"/>küre</rs>“-Vorstellungen im <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Operntheater; ich wollte sie
                <lb facs="#facs_1_region_1684667597425_259_tl_22" n="N022"/>behaglich und unbefangen wieder hören, lediglich zur eigenen
                <lb facs="#facs_1_region_1684667597425_259_tl_23" n="N023"/>Besserung und womöglich zum eigenen Vergnügen. Allein
                <lb facs="#facs_1_line_1760273114235_2882" n="N024"/>— Besserung und Vergnügen wollten sich nicht einstellen.
                <lb facs="#facs_1_region_1684667597425_259_tl_25" n="N025"/>Es war schon ein bemerkenswerthes fatales Anzeichen, daß
                <lb facs="#facs_1_region_1684667597425_259_tl_26" n="N026"/>ich mich jedesmal zwingen mußte zum wiederholten Anhören
-               <lb facs="#facs_1_line_1760273147192_2896" n="N027"/>jener Werke. Lassen doch alle echten Kunstwerke, selbst an¬
-               <lb facs="#facs_1_region_1684667597425_259_tl_28" n="N028"/>fangs befremdende oder widerstrebende, in uns das Ver¬
-               <lb facs="#facs_1_region_1684667597425_259_tl_29" n="N029"/>langen zurück, sie nochmals zu hören. Vollends die Ton¬
-               <lb facs="#facs_1_region_1684667597425_259_tl_30" n="N030"/>dichtungen von classischer reiner Schönheit — hört man sie
-               <lb facs="#facs_1_region_1684667597425_259_tl_31" n="N031"/>je genug? Hier aber mußte ich mir gestehen, daß ich außer¬
-               <lb facs="#facs_1_region_1684667597425_259_tl_32" n="N032"/>ordentlich lange und sehr glücklich leben könnte, ohne je wie¬
-               <lb facs="#facs_1_region_1684667597425_259_tl_33" n="N033"/>der eines der vier <rs type="place">Bayreuth</rs>er Musikdramen zu sehen. So oft
-               <lb facs="#facs_1_region_1684667597425_259_tl_34" n="N034"/>ich seit der ersten „<rs type="bibl">Rheingold</rs>“-Aufführung in <rs type="place">München</rs>, also
-               <lb facs="#facs_1_region_1684667597425_259_tl_35" n="N035"/>seit neun Jahren, an verschiedenen Bühnen eine „<rs type="bibl">Nibelungen</rs>“-
+               <lb facs="#facs_1_line_1760273147192_2896" n="N027"/>jener Werke. Lassen doch alle echten Kunstwerke, selbst an
+               <lb facs="#facs_1_region_1684667597425_259_tl_28" n="N028" break="no"/>fangs befremdende oder widerstrebende, in uns das Ver
+               <lb facs="#facs_1_region_1684667597425_259_tl_29" n="N029" break="no"/>langen zurück, sie nochmals zu hören. Vollends die Ton
+               <lb facs="#facs_1_region_1684667597425_259_tl_30" n="N030" break="no"/>dichtungen von classischer reiner Schönheit — hört man sie
+               <lb facs="#facs_1_region_1684667597425_259_tl_31" n="N031"/>je genug? Hier aber mußte ich mir gestehen, daß ich außer
+               <lb facs="#facs_1_region_1684667597425_259_tl_32" n="N032" break="no"/>ordentlich lange und sehr glücklich leben könnte, ohne je wie
+               <lb facs="#facs_1_region_1684667597425_259_tl_33" n="N033" break="no"/>der eines der vier <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>er Musikdramen zu sehen. So oft
+               <lb facs="#facs_1_region_1684667597425_259_tl_34" n="N034"/>ich seit der ersten „<rs type="bibl" ref="#hsl_work_id_238">Rheingold</rs>“-Aufführung in <rs type="place" ref="#hsl_place_id_39">München</rs>, also
+               <lb facs="#facs_1_region_1684667597425_259_tl_35" n="N035"/>seit neun Jahren, an verschiedenen Bühnen eine „<rs type="bibl" ref="#hsl_work_id_418">Nibelungen</rs>“-
                <lb facs="#facs_1_region_1684667597425_259_tl_36" n="N036"/>Oper hörte mit dem redlichen Vorsatze, alles Schöne darin
-               <lb facs="#facs_1_region_1684667597425_259_tl_37" n="N037"/>lebhaft zu empfinden und mir dankbar einzuprägen — er¬
-               <lb facs="#facs_1_region_1684667597425_259_tl_38" n="N038"/>lebte ich das Gegentheil: die glänzendsten Stellen verloren,
+               <lb facs="#facs_1_region_1684667597425_259_tl_37" n="N037"/>lebhaft zu empfinden und mir dankbar einzuprägen — er
+               <lb facs="#facs_1_region_1684667597425_259_tl_38" n="N038" break="no"/>lebte ich das Gegentheil: die glänzendsten Stellen verloren,
                <lb facs="#facs_1_region_1684667597425_259_tl_39" n="N039"/>da sie doch meistens als überraschender Orchester-Effect wirken, bei
                <lb facs="#facs_1_line_1760273199686_2908" n="N040"/>wiederholtem Hören von ihrem ursprünglichen Reiz, und
-               <lb facs="#facs_1_line_1760274062265_3292" n="N041"/>alles Uebrige berührte mich nur immer unangenehmer. Es
-            </p>
-            <cb n="4"/>
-            <p>
+               <lb facs="#facs_1_line_1760274062265_3292" n="N041"/>alles Uebrige berührte mich nur immer unangenehmer. Es<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
                <lb facs="#facs_1_region_1684667601362_262_tl_1" n="N001"/>ist dies, wie ich wiederholen muß, einfach ein individuelles
-               <lb facs="#facs_1_region_1684667601362_262_tl_2" n="N002"/>Bekenntniß; ich mißgönne oder mißdeute Niemandem das Ent¬
-               <lb facs="#facs_1_region_1684667601362_262_tl_3" n="N003"/>zücken an dieser Musik, noch weniger beabsichtige ich, irgend
+               <lb facs="#facs_1_region_1684667601362_262_tl_2" n="N002"/>Bekenntniß; ich mißgönne oder mißdeute Niemandem das Ent
+               <lb facs="#facs_1_region_1684667601362_262_tl_3" n="N003" break="no"/>zücken an dieser Musik, noch weniger beabsichtige ich, irgend
                <lb facs="#facs_1_region_1684667601362_262_tl_4" n="N004"/>wen zu bekehren. Mich selbst wollte ich bekehren, und ohne
                <lb facs="#facs_1_region_1684667601362_262_tl_5" n="N005"/>Scheu hätte ich meine neugewonnene Ueberzeugung bekannt,
                <lb facs="#facs_1_region_1684667601362_262_tl_6" n="N006"/>gerne selbst den Partezettel meines Irrthums ausgegeben,
                <lb facs="#facs_1_region_1684667601362_262_tl_7" n="N007"/>wenn dieser wirklich in mir gestorben wäre. Für unfehlbar
                <lb facs="#facs_1_region_1684667601362_262_tl_8" n="N008"/>halten sich doch nur Narren — und noch Jemand. Allein,
-               <lb facs="#facs_1_region_1684667601362_262_tl_9" n="N009"/>es half Alles nichts, und trotz aller glänzenden und geist¬
-               <lb facs="#facs_1_region_1684667601362_262_tl_10" n="N010"/>reichen Einzelheiten erschienen mir <rs type="person">Wagner</rs>'s <rs type="bibl">Nibelungen</rs>-
+               <lb facs="#facs_1_region_1684667601362_262_tl_9" n="N009"/>es half Alles nichts, und trotz aller glänzenden und geist
+               <lb facs="#facs_1_region_1684667601362_262_tl_10" n="N010" break="no"/>reichen Einzelheiten erschienen mir <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s <rs type="bibl" ref="#hsl_work_id_418">Nibelungen</rs>-
                <lb facs="#facs_1_region_1684667601362_262_tl_11" n="N011"/>Opern jedesmal unwahrer, unnatürlicher, unschöner. Immer
                <lb facs="#facs_1_region_1684667601362_262_tl_12" n="N012"/>klarer wird mir die Ueberzeugung, immer drückender die
-               <lb facs="#facs_1_region_1684667601362_262_tl_13" n="N013"/>Empfindung, daß hier eine ungewöhnliche Begabung sich eigen¬
-               <lb facs="#facs_1_region_1684667601362_262_tl_14" n="N014"/>sinnig eingesponnen hat in ein falsches System, das die Oper
+               <lb facs="#facs_1_region_1684667601362_262_tl_13" n="N013"/>Empfindung, daß hier eine ungewöhnliche Begabung sich eigen
+               <lb facs="#facs_1_region_1684667601362_262_tl_14" n="N014" break="no"/>sinnig eingesponnen hat in ein falsches System, das die Oper
                <lb facs="#facs_1_region_1684667601362_262_tl_15" n="N015"/>nicht reformirt, sondern umbringt. Diesem System des neuen
                <lb facs="#facs_1_region_1684667601362_262_tl_16" n="N016"/>„Musikdramas“ zuliebe, wol auch im Gefühle versiegender
                <lb facs="#facs_1_line_1760273062630_2870" n="N017"/>Melodien-Ader, will derselbe Tondichter, der in den besten
                <lb facs="#facs_1_region_1684667601362_262_tl_17" n="N018"/>Stücken seiner früheren Opern echt dramatischen Ausdruck
                <lb facs="#facs_1_region_1684667601362_262_tl_18" n="N019"/>mit musikalischer Schönheit zu vermälen wußte, uns fortan
-               <lb facs="#facs_1_region_1684667601362_262_tl_19" n="N020"/>
-               <hi rendition="#em">blos</hi> mit „dramatischer Wahrheit“ ergötzen, einer dürren,
+               <lb facs="#facs_1_region_1684667601362_262_tl_19" n="N020"/><hi rendition="#em">blos</hi> mit „dramatischer Wahrheit“ ergötzen, einer dürren,
                <lb facs="#facs_1_region_1684667601362_262_tl_20" n="N021"/>reizlosen Wahrheit, deren Wirkung nur Langeweile ist.
                <lb facs="#facs_1_region_1684667601362_262_tl_21" n="N022"/>„Scandalöse Langeweile“ heißt das qualificirte Wort,
-               <lb facs="#facs_1_region_1684667601362_262_tl_22" n="N023"/>das aus <hi rendition="#em">
-                  <rs type="person">Speidel</rs>'s</hi> letzter <rs type="bibl">Kritik</rs> wie ein Aërolith
+               <lb facs="#facs_1_region_1684667601362_262_tl_22" n="N023"/>das aus <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2407">Speidel</rs>’s</hi> letzter Kritik wie ein Aërolith
                <lb facs="#facs_1_line_1760273114235_2881" n="N024"/>ins Lager der Wagnerianer herabfiel. Nicht unempfindlich
-               <lb facs="#facs_1_region_1684667601362_262_tl_23" n="N025"/>für die einzelnen Schönheiten im „<rs type="bibl">Siegfried</rs>“, verließ ich doch
+               <lb facs="#facs_1_region_1684667601362_262_tl_23" n="N025"/>für die einzelnen Schönheiten im „<rs type="bibl" ref="#hsl_work_id_1315">Siegfried</rs>“, verließ ich doch
                <lb facs="#facs_1_region_1684667601362_262_tl_24" n="N026"/>die Vorstellung mit dem unbezwinglichen Gefühl, nicht sowol
                <lb facs="#facs_1_region_1684667601362_262_tl_25" n="N027"/>einen Genuß als eine Marter hinter mir zu haben. Ja, eine
-               <lb facs="#facs_1_region_1684667601362_262_tl_26" n="N028"/>Marter ist's, durch fünf Stunden eine armselige, theilweise
-               <lb facs="#facs_1_region_1684667601362_262_tl_27" n="N029"/>widerwärtige Handlung in einem entsetzlichen <rs type="place">Deutsch</rs> von
+               <lb facs="#facs_1_region_1684667601362_262_tl_26" n="N028"/>Marter ist’s, durch fünf Stunden eine armselige, theilweise
+               <lb facs="#facs_1_region_1684667601362_262_tl_27" n="N029"/>widerwärtige Handlung in einem entsetzlichen <rs type="place" ref="#hsl_place_id_14">Deutsch</rs> von
                <lb facs="#facs_1_region_1684667601362_262_tl_28" n="N030"/>abgedankten Göttern, häßlichen Zwergen und lächerlichen
                <lb facs="#facs_1_region_1684667601362_262_tl_29" n="N031"/>Zauberthieren mühsam fortschleppen zu sehen. Eine Marter
-               <lb facs="#facs_1_region_1684667601362_262_tl_30" n="N032"/>ist's, einer zwischen Trunkenheit und Oede auf- und nieder¬
-               <lb facs="#facs_1_region_1684667601362_262_tl_31" n="N033"/>steigenden Musik lauschen zu müssen, die in peinlich ruhe¬
-               <lb facs="#facs_1_region_1684667601362_262_tl_32" n="N034"/>loser Modulation, in ewig überreizter Chromatik und En¬
-               <lb facs="#facs_1_region_1684667601362_262_tl_33" n="N035"/>harmonik, in dem jammernden Einerlei schneidiger Nonen¬
-               <lb facs="#facs_1_region_1684667601362_262_tl_34" n="N036"/>und Undecimen-Accorde an unseren Nerven zerrt. Eine
-               <lb facs="#facs_1_region_1684667601362_262_tl_35" n="N037"/>Marter ist's, eine lange Oper ohne Chor, ohne Ensembles
-               <lb facs="#facs_1_region_1684667601362_262_tl_36" n="N038"/>und Finales, ja, bis hart gegen den Schluß, ohne Frauen¬
-               <lb facs="#facs_1_region_1684667601362_262_tl_37" n="N039"/>stimmen hören zu müssen — eine Oper, in der die Sänger
-               <lb facs="#facs_1_region_1684667601362_262_tl_38" n="N040"/>nicht singen, sondern in den unnatürlichsten Intervallen¬
-               <lb facs="#facs_1_line_1760274062265_3291" n="N041"/>sprüngen declamiren und uns dennoch nur mit Hilfe un¬
-            </p>
+               <lb facs="#facs_1_region_1684667601362_262_tl_30" n="N032"/>ist’s, einer zwischen Trunkenheit und Oede auf- und nieder
+               <lb facs="#facs_1_region_1684667601362_262_tl_31" n="N033" break="no"/>steigenden Musik lauschen zu müssen, die in peinlich ruhe
+               <lb facs="#facs_1_region_1684667601362_262_tl_32" n="N034" break="no"/>loser Modulation, in ewig überreizter Chromatik und En
+               <lb facs="#facs_1_region_1684667601362_262_tl_33" n="N035" break="no"/>harmonik, in dem jammernden Einerlei schneidiger Nonen
+               <lb facs="#facs_1_region_1684667601362_262_tl_34" n="N036" break="no"/>und Undecimen-Accorde an unseren Nerven zerrt. Eine
+               <lb facs="#facs_1_region_1684667601362_262_tl_35" n="N037"/>Marter ist’s, eine lange Oper ohne Chor, ohne Ensembles
+               <lb facs="#facs_1_region_1684667601362_262_tl_36" n="N038"/>und Finales, ja, bis hart gegen den Schluß, ohne Frauen
+               <lb facs="#facs_1_region_1684667601362_262_tl_37" n="N039" break="no"/>stimmen hören zu müssen — eine Oper, in der die Sänger
+               <lb facs="#facs_1_region_1684667601362_262_tl_38" n="N040"/>nicht singen, sondern in den unnatürlichsten Intervallen
+               <lb facs="#facs_1_line_1760274062265_3291" n="N041" break="no"/>sprüngen declamiren und uns dennoch nur mit Hilfe un</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1684667613351_268_tl_1" n="N001"/>ausgesetzten Textbuchlesens erkennen lassen, <hi rendition="#em">was</hi> sie decla¬
-               <lb facs="#facs_2_region_1684667613351_268_tl_2" n="N002"/>miren. Und eine Marter, lieber Leser, ist es schließlich, über
+            <cb n="4"/>
+            <p prev="true">
+               <lb facs="#facs_2_region_1684667613351_268_tl_1" n="N001" break="no"/>ausgesetzten Textbuchlesens erkennen lassen, <hi rendition="#em">was</hi> sie decla
+               <lb facs="#facs_2_region_1684667613351_268_tl_2" n="N002" break="no"/>miren. Und eine Marter, lieber Leser, ist es schließlich, über
                <lb facs="#facs_2_line_1760273372677_2941" n="N003"/>das Alles zum soundsovieltenmale auch noch schreiben zu
                <lb facs="#facs_2_region_1684667613351_268_tl_3" n="N004"/>müssen.
+            </p><p>
                <lb facs="#facs_2_region_1684667613351_268_tl_4" n="N005"/>Letztere Prüfung darf ich mir diesmal etwas abkürzen.
-               <lb facs="#facs_2_region_1684667613351_268_tl_5" n="N006"/>Das <rs type="place">Wien</rs>er Publicum kennt aus „<rs type="bibl">Rheingold</rs>“ und „<rs type="bibl">Wal¬</rs>
-               <lb facs="#facs_2_region_1684667613351_268_tl_6" n="N007"/>
-               <rs type="bibl">küre</rs>“ vollständig den poetischen und den musikalischen Styl
-               <lb facs="#facs_2_region_1684667613351_268_tl_7" n="N008"/>des „<rs type="bibl">Siegfried</rs>“; die dürftige Handlung ist schnell erzählt,
+               <lb facs="#facs_2_region_1684667613351_268_tl_5" n="N006"/>Das <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicum kennt aus „<rs type="bibl" ref="#hsl_work_id_238">Rheingold</rs>“ und „<rs type="bibl" ref="#hsl_work_id_649">Wal
+               <lb facs="#facs_2_region_1684667613351_268_tl_6" n="N007" break="no"/>küre</rs>“ vollständig den poetischen und den musikalischen Styl
+               <lb facs="#facs_2_region_1684667613351_268_tl_7" n="N008"/>des „<rs type="bibl" ref="#hsl_work_id_1315">Siegfried</rs>“; die dürftige Handlung ist schnell erzählt,
                <lb facs="#facs_2_region_1684667613351_268_tl_8" n="N009"/>das musikalisch Hervorragendste bald genannt.
-               <lb facs="#facs_2_region_1684667613351_268_tl_9" n="N010"/>Der erste Act spielt in der Höhle des Zwerges <rs type="person">Mime</rs>,
-               <lb facs="#facs_2_region_1684667613351_268_tl_10" n="N011"/>welcher den jungen <rs type="person">Siegfried,</rs> die Frucht der Geschwister-Ehe
-               <lb facs="#facs_2_region_1684667613351_268_tl_11" n="N012"/>
-               <rs type="person">Siegmund</rs>'s und <rs type="person">Sieglinde</rs>ns, gepflegt und auferzogen hat.
-               <lb facs="#facs_2_region_1684667613351_268_tl_12" n="N013"/>
-               <rs type="person">Siegfried</rs> zwingt <rs type="person">Mime</rs>n, ihm das Geheimniß seiner Her¬
-               <lb facs="#facs_2_region_1684667613351_268_tl_13" n="N014"/>kunft zu enthüllen und die Stücke des Schwertes Nothung,
+            </p><p>
+               <lb facs="#facs_2_region_1684667613351_268_tl_9" n="N010"/>Der erste Act spielt in der Höhle des Zwerges <rs type="person" ref="#hsl_person_id_1687">Mime</rs>,
+               <lb facs="#facs_2_region_1684667613351_268_tl_10" n="N011"/>welcher den jungen <rs type="person" ref="#hsl_person_id_1684">Siegfried,</rs> die Frucht der Geschwister-Ehe
+               <lb facs="#facs_2_region_1684667613351_268_tl_11" n="N012"/><rs type="person" ref="#hsl_person_id_1690">Siegmund</rs>’s und <rs type="person" ref="#hsl_person_id_1691">Sieglinde</rs>ns, gepflegt und auferzogen hat.
+               <lb facs="#facs_2_region_1684667613351_268_tl_12" n="N013"/><rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> zwingt <rs type="person" ref="#hsl_person_id_1687">Mime</rs>n, ihm das Geheimniß seiner Her
+               <lb facs="#facs_2_region_1684667613351_268_tl_13" n="N014" break="no"/>kunft zu enthüllen und die Stücke des Schwertes Nothung,
                <lb facs="#facs_2_line_1760273399179_2953" n="N015"/>die er zusammenfügt, auszufolgen. Der ganze, anderthalb
                <lb facs="#facs_2_region_1684667613351_268_tl_14" n="N016"/>Stunden dauernde Act ist Ein langer Dialog zwischen dem
-               <lb facs="#facs_2_region_1684667613351_268_tl_15" n="N017"/>widerwärtig kriechenden, listigen <rs type="person">Mime</rs> und dem wald¬
-               <lb facs="#facs_2_region_1684667613351_268_tl_16" n="N018"/>ursprünglich ungezogenen, im Schimpfen hoch ausgezeichneten
-               <lb facs="#facs_2_region_1684667613351_268_tl_17" n="N019"/>
-               <rs type="person">Siegfried</rs>. Dieser Dialog wird nur Einmal durch das Er¬
-               <lb facs="#facs_2_region_1684667613351_268_tl_18" n="N020"/>scheinen <rs type="person">Wotan</rs>'s unterbrochen, der als „<rs type="person">Wanderer</rs>“ zu
-               <lb facs="#facs_2_region_1684667613351_268_tl_19" n="N021"/>
-               <rs type="person">Mime</rs> kommt, diesem drei Fragen zur Beantwortung vorlegt
-               <lb facs="#facs_2_region_1684667613351_268_tl_20" n="N022"/>und hierauf wieder drei von diesem gestellte Fragen beant¬
-               <lb facs="#facs_2_region_1684667613351_268_tl_21" n="N023"/>wortet. Die ganze Scene, dramatisch vollkommen überflüssig,
+               <lb facs="#facs_2_region_1684667613351_268_tl_15" n="N017"/>widerwärtig kriechenden, listigen <rs type="person" ref="#hsl_person_id_1687">Mime</rs> und dem wald
+               <lb facs="#facs_2_region_1684667613351_268_tl_16" n="N018" break="no"/>ursprünglich ungezogenen, im Schimpfen hoch ausgezeichneten
+               <lb facs="#facs_2_region_1684667613351_268_tl_17" n="N019"/><rs type="person" ref="#hsl_person_id_1684">Siegfried</rs>. Dieser Dialog wird nur Einmal durch das Er
+               <lb facs="#facs_2_region_1684667613351_268_tl_18" n="N020" break="no"/>scheinen <rs type="person" ref="#hsl_person_id_1680">Wotan</rs>’s unterbrochen, der als „<rs type="person" ref="#hsl_person_id_1680">Wanderer</rs>“ zu
+               <lb facs="#facs_2_region_1684667613351_268_tl_19" n="N021"/><rs type="person" ref="#hsl_person_id_1687">Mime</rs> kommt, diesem drei Fragen zur Beantwortung vorlegt
+               <lb facs="#facs_2_region_1684667613351_268_tl_20" n="N022"/>und hierauf wieder drei von diesem gestellte Fragen beant
+               <lb facs="#facs_2_region_1684667613351_268_tl_21" n="N023" break="no"/>wortet. Die ganze Scene, dramatisch vollkommen überflüssig,
                <lb facs="#facs_2_region_1684667613351_268_tl_22" n="N024"/>ist von erdrückender Langweiligkeit. Die Zuhörer sind auf
                <lb facs="#facs_2_line_1760273334564_2932" n="N025"/>die Unterhaltung angewiesen, die versteckten Leitmotive aus
                <lb facs="#facs_2_region_1684667613351_268_tl_24" n="N026"/>dem Orchester heraus zu errathen. („Wo ist die Katze, wo ist
                <lb facs="#facs_2_region_1684667613351_268_tl_25" n="N027"/>der Bär?“) Zur Illustration des Schwertschmiedens bringt
                <lb facs="#facs_2_region_1684667613351_268_tl_26" n="N028"/>das Orchester einige bewunderungswürdige Tonmalereien.
-               <lb facs="#facs_2_region_1684667613351_268_tl_27" n="N029"/>Dem vielbelobten „Schmiedelied“ <rs type="person">Siegfried</rs>'s vermag ich
-               <lb facs="#facs_2_region_1684667613351_268_tl_28" n="N030"/>wenig Geschmack abzugewinnen; es hat mehr vom Begräbniß¬
-               <lb facs="#facs_2_region_1684667613351_268_tl_29" n="N031"/>gesang als vom fröhlichen Lied. Naive, natürliche Fröhlichkeit
-               <lb facs="#facs_2_region_1684667613351_268_tl_30" n="N032"/>kennt <rs type="person">Wagner</rs> nicht. Ebensowenig trifft er den Ausdruck des
-               <lb facs="#facs_2_region_1684667613351_268_tl_31" n="N033"/>Komischen, wie wir von <rs type="person">Beckmesser</rs> her wissen; in der Com¬
-               <lb facs="#facs_2_region_1684667613351_268_tl_32" n="N034"/>position des Mime ist ihm die Unterscheidungskraft zwischen
+               <lb facs="#facs_2_region_1684667613351_268_tl_27" n="N029"/>Dem vielbelobten „Schmiedelied“ <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs>’s vermag ich
+               <lb facs="#facs_2_region_1684667613351_268_tl_28" n="N030"/>wenig Geschmack abzugewinnen; es hat mehr vom Begräbniß
+               <lb facs="#facs_2_region_1684667613351_268_tl_29" n="N031" break="no"/>gesang als vom fröhlichen Lied. Naive, natürliche Fröhlichkeit
+               <lb facs="#facs_2_region_1684667613351_268_tl_30" n="N032"/>kennt <rs type="person" ref="#hsl_person_id_319">Wagner</rs> nicht. Ebensowenig trifft er den Ausdruck des
+               <lb facs="#facs_2_region_1684667613351_268_tl_31" n="N033"/>Komischen, wie wir von <rs type="person" ref="#hsl_person_id_1913">Beckmesser</rs> her wissen; in der Com
+               <lb facs="#facs_2_region_1684667613351_268_tl_32" n="N034" break="no"/>position des Mime ist ihm die Unterscheidungskraft zwischen
                <lb facs="#facs_2_region_1684667613351_268_tl_33" n="N035"/>Komischem und Langweiligem vollends abhanden gekommen.
                <lb facs="#facs_2_region_1684667613351_268_tl_34" n="N036"/>Der zweite Act führt uns in eine Waldgegend nächst
-               <lb facs="#facs_2_region_1684667613351_268_tl_35" n="N037"/>der Höhle des <rs type="person">Lindwurm</rs>s. Auf eine Scene <rs type="person">Alberich</rs>'s mit
-               <lb facs="#facs_2_region_1684667613351_268_tl_36" n="N038"/>
-               <rs type="person">Mime</rs>, ein Musterbild der gezwungenen, sprachwidrigen
+               <lb facs="#facs_2_region_1684667613351_268_tl_35" n="N037"/>der Höhle des <rs type="person" ref="#hsl_person_id_3167">Lindwurm</rs>s. Auf eine Scene <rs type="person" ref="#hsl_person_id_1686">Alberich</rs>’s mit
+               <lb facs="#facs_2_region_1684667613351_268_tl_36" n="N038"/><rs type="person" ref="#hsl_person_id_1687">Mime</rs>, ein Musterbild der gezwungenen, sprachwidrigen
                <lb facs="#facs_2_region_1684667613351_268_tl_37" n="N039"/>Declamation dieser Beiden, folgt der Glanzpunkt der ganzen
-               <lb facs="#facs_2_region_1684667613351_268_tl_38" n="N040"/>Partitur: „Das Waldweben.“ <rs type="person">Siegfried</rs> ruht unter einem
-               <lb facs="#facs_2_line_1760273459473_2981" n="N041"/>Baume und horcht dem Rauschen der Blätter, dem Gesang
-            </p>
-            <cb n="6"/>
-            <p>
+               <lb facs="#facs_2_region_1684667613351_268_tl_38" n="N040"/>Partitur: „Das Waldweben.“ <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> ruht unter einem
+               <lb facs="#facs_2_line_1760273459473_2981" n="N041"/>Baume und horcht dem Rauschen der Blätter, dem Gesang<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
                <lb facs="#facs_2_region_1684667616992_271_tl_1" n="N001"/>der Vögel. Diese blendende und stimmungsvolle Tonmalerei
-               <lb facs="#facs_2_line_1760273500219_3003" n="N002"/>zeigt die ganze Meisterschaft <rs type="person">Wagner</rs>'s auf diesem Gebiete
+               <lb facs="#facs_2_line_1760273500219_3003" n="N002"/>zeigt die ganze Meisterschaft <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s auf diesem Gebiete
                <lb facs="#facs_2_line_1760273372677_2940" n="N003"/>und macht unwiderstehliche Wirkung. Nun kommt der Riese
-               <lb facs="#facs_2_region_1684667616992_271_tl_3" n="N004"/>
-               <rs type="person">Fafner</rs> als Lindwurm, brüllend und feuerspeiend, zugleich
-               <lb facs="#facs_2_region_1684667616992_271_tl_4" n="N005"/>singend, auf <rs type="person">Siegfried</rs> zu. Die Scene ist von <rs type="person">Wagner</rs> mit
+               <lb facs="#facs_2_region_1684667616992_271_tl_3" n="N004"/><rs type="person" ref="#hsl_person_id_3167">Fafner</rs> als Lindwurm, brüllend und feuerspeiend, zugleich
+               <lb facs="#facs_2_region_1684667616992_271_tl_4" n="N005"/>singend, auf <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> zu. Die Scene ist von <rs type="person" ref="#hsl_person_id_319">Wagner</rs> mit
                <lb facs="#facs_2_region_1684667616992_271_tl_5" n="N006"/>dem größten Ernst componirt, wirkt aber, besonders am
-               <lb facs="#facs_2_region_1684667616992_271_tl_6" n="N007"/>Schluß, wo der verreckende <rs type="person">Lindwurm</rs> sentimental wird und
-               <lb facs="#facs_2_region_1684667616992_271_tl_7" n="N008"/>seinem Mörder <rs type="person">Siegfried</rs> vertrauensvolle Mittheilungen
-               <lb facs="#facs_2_region_1684667616992_271_tl_8" n="N009"/>macht, äußerst komisch. Ein Waldvogel, dessen Sprache <rs type="person">Sieg¬</rs>
-               <lb facs="#facs_2_line_1760273534913_3021" n="N010"/>
-               <rs type="person">fried</rs> nun versteht, weist ihm den Weg zu der vom Feuer¬
-               <lb facs="#facs_2_region_1684667616992_271_tl_9" n="N011"/>zauber umloderten, schlafenden <rs type="person">Brünhilde</rs>. Der Gesang des
-               <lb facs="#facs_2_region_1684667616992_271_tl_10" n="N012"/>
-               <rs type="person">Waldvogel</rs>s zeigt sehr einleuchtend, wie viel natürlicher <rs type="person" continued="true">Wag¬</rs>
-               <lb facs="#facs_2_line_1760273561137_3033" n="N013"/>
-               <rs type="person" continued="true">ner</rs> das Orchester singen zu machen weiß, als die Menschen¬
-               <lb facs="#facs_2_line_1760273582614_3045" n="N014"/>stimme. Der dritte Act führt <rs type="person">Siegfried</rs> zu <rs type="person">Brün¬</rs>
-               <lb facs="#facs_2_line_1760273399179_2952" n="N015"/>
-               <rs type="person">hilde</rs>n. Vorher haben wir noch zwei schwere Scenen
-               <lb facs="#facs_2_line_1760273602759_3055" n="N016"/>zu überstehen. <rs type="person">Wotan</rs> erscheint im Felsgeklüfte und be¬
-               <lb facs="#facs_2_line_1760273425129_2964" n="N017"/>schwört die <rs type="person">Erda</rs> aus der Tiefe; er befragt sie
+               <lb facs="#facs_2_region_1684667616992_271_tl_6" n="N007"/>Schluß, wo der verreckende <rs type="person" ref="#hsl_person_id_3167">Lindwurm</rs> sentimental wird und
+               <lb facs="#facs_2_region_1684667616992_271_tl_7" n="N008"/>seinem Mörder <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> vertrauensvolle Mittheilungen
+               <lb facs="#facs_2_region_1684667616992_271_tl_8" n="N009"/>macht, äußerst komisch. Ein Waldvogel, dessen Sprache <rs type="person" ref="#hsl_person_id_1684">Sieg
+               <lb facs="#facs_2_line_1760273534913_3021" n="N010" break="no"/>fried</rs> nun versteht, weist ihm den Weg zu der vom Feuer
+               <lb facs="#facs_2_region_1684667616992_271_tl_9" n="N011" break="no"/>zauber umloderten, schlafenden <rs type="person" ref="#hsl_person_id_1683">Brünhilde</rs>. Der Gesang des
+               <lb facs="#facs_2_region_1684667616992_271_tl_10" n="N012"/><rs type="person" ref="#hsl_person_id_7756">Waldvogel</rs>s zeigt sehr einleuchtend, wie viel natürlicher <rs type="person" ref="#hsl_person_id_319">Wag
+               <lb facs="#facs_2_line_1760273561137_3033" n="N013" break="no"/>ner</rs> das Orchester singen zu machen weiß, als die Menschen
+               <lb facs="#facs_2_line_1760273582614_3045" n="N014" break="no"/>stimme. Der dritte Act führt <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> zu <rs type="person" ref="#hsl_person_id_1683">Brün
+               <lb facs="#facs_2_line_1760273399179_2952" n="N015" break="no"/>hilde</rs>n. Vorher haben wir noch zwei schwere Scenen
+               <lb facs="#facs_2_line_1760273602759_3055" n="N016"/>zu überstehen. <rs type="person" ref="#hsl_person_id_1680">Wotan</rs> erscheint im Felsgeklüfte und be
+               <lb facs="#facs_2_line_1760273425129_2964" n="N017" break="no"/>schwört die <rs type="person" ref="#hsl_person_id_1682">Erda</rs> aus der Tiefe; er befragt sie
                <lb facs="#facs_2_line_1760273450115_2975" n="N018"/>um wichtige Dinge, die „Urwissende“ weiß aber gar
-               <lb facs="#facs_2_line_1760273628250_3070" n="N019"/>nichts und versinkt ungefähr wie bei <rs type="person">Raimund</rs> der „Vater
-               <lb facs="#facs_2_region_1684667616992_271_tl_16" n="N020"/>
-               <rs type="person">Zephyses</rs>“. Es scheint mir sehr zweifelhaft, ob mehr als
-               <lb facs="#facs_2_region_1684667616992_271_tl_17" n="N021"/>zehn Menschen im Theater über diese „<rs type="person">Erda</rs>“ eigentlich im
-               <lb facs="#facs_2_region_1684667616992_271_tl_18" n="N022"/>Klaren sind; ich gehöre nicht darunter. Nun erscheint <rs type="person">Sieg¬</rs>
-               <lb facs="#facs_2_region_1684667616992_271_tl_19" n="N023"/>
-               <rs type="person">fried</rs>; zwischen ihm und <rs type="person">Wotan</rs>, der ihm den Weg zu
-               <lb facs="#facs_2_line_1760273660698_3081" n="N024"/>
-               <rs type="person">Brünhilde</rs>n versperren will, erhebt sich ein Streit in ziem¬
-               <lb facs="#facs_2_line_1760273334564_2931" n="N025"/>lich ungenirten Ausdrücken. Schließlich zerhaut <rs type="person">Siegfried</rs> den
-               <lb facs="#facs_2_region_1684667616992_271_tl_20" n="N026"/>Speer <rs type="person">Wotan</rs>'s, worauf dieser bejammernswerthe Gott sich
+               <lb facs="#facs_2_line_1760273628250_3070" n="N019"/>nichts und versinkt ungefähr wie bei <rs type="person" ref="#hsl_person_id_3684">Raimund</rs> der „Vater
+               <lb facs="#facs_2_region_1684667616992_271_tl_16" n="N020"/><rs type="person" ref="#hsl_person_id_7757">Zephyses</rs>“. Es scheint mir sehr zweifelhaft, ob mehr als
+               <lb facs="#facs_2_region_1684667616992_271_tl_17" n="N021"/>zehn Menschen im Theater über diese „<rs type="person" ref="#hsl_person_id_1682">Erda</rs>“ eigentlich im
+               <lb facs="#facs_2_region_1684667616992_271_tl_18" n="N022"/>Klaren sind; ich gehöre nicht darunter. Nun erscheint <rs type="person" ref="#hsl_person_id_1684">Sieg
+               <lb facs="#facs_2_region_1684667616992_271_tl_19" n="N023" break="no"/>fried</rs>; zwischen ihm und <rs type="person" ref="#hsl_person_id_1680">Wotan</rs>, der ihm den Weg zu
+               <lb facs="#facs_2_line_1760273660698_3081" n="N024"/><rs type="person" ref="#hsl_person_id_1683">Brünhilde</rs>n versperren will, erhebt sich ein Streit in ziem
+               <lb facs="#facs_2_line_1760273334564_2931" n="N025" break="no"/>lich ungenirten Ausdrücken. Schließlich zerhaut <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> den
+               <lb facs="#facs_2_region_1684667616992_271_tl_20" n="N026"/>Speer <rs type="person" ref="#hsl_person_id_1680">Wotan</rs>’s, worauf dieser bejammernswerthe Gott sich
                <lb facs="#facs_2_region_1684667616992_271_tl_21" n="N027"/>hilfloser als je davonschleicht. Ein Orchester-Zwischenspiel von
                <lb facs="#facs_2_line_1760273682827_3093" n="N028"/>aufrührerischer Kraft, das in blendendem Klangzauber die
                <lb facs="#facs_2_region_1684667616992_271_tl_22" n="N029"/>Motive des Feuerzaubers und Walkürenritts heraufbeschwört,
                <lb facs="#facs_2_region_1684667616992_271_tl_23" n="N030"/>führt uns gleichsam durch Feuer und glühenden Rauch zu
-               <lb facs="#facs_2_region_1684667616992_271_tl_24" n="N031"/>
-               <rs type="person">Brünhilde</rs>ns Lagerstätte. Die Scene zwischen <rs type="person">Siegfried</rs>
-               <lb facs="#facs_2_line_1760273706786_3104" n="N032"/>und <rs type="person">Brünhilde</rs> ist trotz der ausgiebigen Striche, die man
+               <lb facs="#facs_2_region_1684667616992_271_tl_24" n="N031"/><rs type="person" ref="#hsl_person_id_1683">Brünhilde</rs>ns Lagerstätte. Die Scene zwischen <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs><space quantity="1" unit="char"/>
+               <lb facs="#facs_2_line_1760273706786_3104" n="N032"/>und <rs type="person" ref="#hsl_person_id_1683">Brünhilde</rs> ist trotz der ausgiebigen Striche, die man
                <lb facs="#facs_2_region_1684667616992_271_tl_25" n="N033"/>sich hier mit vollem Recht erlaubte, von ermüdender Länge.
-               <lb facs="#facs_2_region_1684667616992_271_tl_26" n="N034"/>Ueberaus zart schildert die Musik <rs type="person">Brünhilde</rs>ns Erwachen,
+               <lb facs="#facs_2_region_1684667616992_271_tl_26" n="N034"/>Ueberaus zart schildert die Musik <rs type="person" ref="#hsl_person_id_1683">Brünhilde</rs>ns Erwachen,
                <lb facs="#facs_2_region_1684667616992_271_tl_27" n="N035"/>auch in dem E-dur-Satze des Liebesduetts („Ewig bin ich“)
                <lb facs="#facs_2_region_1684667616992_271_tl_28" n="N036"/>blüht die Melodie etwas voller und inniger auf; leider sinkt
-               <lb facs="#facs_2_line_1760273747080_3117" n="N037"/>das Duett gegen den Schluß durch die unbegreifliche Ein¬
-               <lb facs="#facs_2_region_1684667616992_271_tl_29" n="N038"/>führung eines steifen, in Quarten absteigenden Motivs tief
-               <lb facs="#facs_2_region_1684667616992_271_tl_30" n="N039"/>(C-dur alla breve) herab. Widerlich berühren die bei <rs type="person">Wagner</rs>
+               <lb facs="#facs_2_line_1760273747080_3117" n="N037"/>das Duett gegen den Schluß durch die unbegreifliche Ein
+               <lb facs="#facs_2_region_1684667616992_271_tl_29" n="N038" break="no"/>führung eines steifen, in Quarten absteigenden Motivs tief
+               <lb facs="#facs_2_region_1684667616992_271_tl_30" n="N039"/>(C-dur alla breve) herab. Widerlich berühren die bei <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_2_region_1684667616992_271_tl_31" n="N040"/>so beliebten exaltirten Accente einer bis an die äußersten
-               <lb facs="#facs_2_line_1760273480891_2990" n="N041"/>Grenzen lodernden, unersättlichen Sinnlichkeit, dieses brün¬
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1684667621408_274_tl_1" n="N001"/>stige Stöhnen, Aechzen, Aufschreien und Zusammensinken. Der
-               <lb facs="#facs_2_line_1760273500219_3002" n="N002"/>Text dieser Liebesscene wird in seiner Ueberschwenglichkeit mit¬
-               <lb facs="#facs_2_region_1684667621408_274_tl_3" n="N003"/>unter zu barem Unsinn. („Göttliche <hi rendition="#em">Ruhe rast</hi> mir in
+               <lb facs="#facs_2_line_1760273480891_2990" n="N041"/>Grenzen lodernden, unersättlichen Sinnlichkeit, dieses brün</p>
+            <cb n="6"/>
+            <p prev="true">
+               <lb facs="#facs_2_region_1684667621408_274_tl_1" n="N001" break="no"/>stige Stöhnen, Aechzen, Aufschreien und Zusammensinken. Der
+               <lb facs="#facs_2_line_1760273500219_3002" n="N002"/>Text dieser Liebesscene wird in seiner Ueberschwenglichkeit mit
+               <lb facs="#facs_2_region_1684667621408_274_tl_3" n="N003" break="no"/>unter zu barem Unsinn. („Göttliche <hi rendition="#em">Ruhe rast</hi> mir in
                <lb facs="#facs_2_region_1684667621408_274_tl_4" n="N004"/>Wogen“ u. dgl.) Dem Dichter und Componisten dieser Scene
-               <lb facs="#facs_2_region_1684667621408_274_tl_5" n="N005"/>steht es gut an, in dem letzten Heft seiner „<rs type="bibl">Bayreuther</rs>
-               <lb facs="#facs_2_region_1684667621408_274_tl_6" n="N006"/>
-               <rs type="bibl">Blätter</rs>“ über den „<hi rendition="#em">schwülstigen <rs type="person">Schumann</rs>
-               </hi>“ zu
+               <lb facs="#facs_2_region_1684667621408_274_tl_5" n="N005"/>steht es gut an, in dem letzten Heft seiner „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther
+               <lb facs="#facs_2_region_1684667621408_274_tl_6" n="N006"/>Blätter</rs>“ über den „<hi rendition="#em">schwülstigen <rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi>“ zu
                <lb facs="#facs_2_region_1684667621408_274_tl_7" n="N007"/>spotten!
-               <lb facs="#facs_2_region_1684667621408_274_tl_8" n="N008"/>Von der Aufführung des „<rs type="bibl">Siegfried</rs>“ im Hofopern¬
-               <lb facs="#facs_2_region_1684667621408_274_tl_9" n="N009"/>theater kann man nur in Ausdrücken der Bewunderung
+            </p><p>
+               <lb facs="#facs_2_region_1684667621408_274_tl_8" n="N008"/>Von der Aufführung des „<rs type="bibl" ref="#hsl_work_id_1315">Siegfried</rs>“ im Hofopern
+               <lb facs="#facs_2_region_1684667621408_274_tl_9" n="N009" break="no"/>theater kann man nur in Ausdrücken der Bewunderung
                <lb facs="#facs_2_line_1760273534912_3020" n="N010"/>sprechen. Sie ist so vollendet, daß keine andere Bühne damit
                <lb facs="#facs_2_region_1684667621408_274_tl_11" n="N011"/>wird rivalisiren können. Zuerst sind als die wichtigsten
                <lb facs="#facs_2_region_1684667621408_274_tl_12" n="N012"/>Factoren des Erfolges zu nennen: das Orchester und die
-               <lb facs="#facs_2_line_1760273561137_3032" n="N013"/>scenische Ausstattung. Wenn man die glänzendsten, be¬
-               <lb facs="#facs_2_line_1760273582614_3044" n="N014"/>rühmtesten Stellen in „<rs type="bibl">Rheingold</rs>“, „<rs type="bibl">Walküre</rs>“ oder „<rs type="bibl">Sieg¬</rs>
-               <lb facs="#facs_2_region_1684667621408_274_tl_15" n="N015"/>
-               <rs type="bibl">fried</rs>“ genau analysirt, wird man fast immer finden, daß
-               <lb facs="#facs_2_line_1760273602758_3054" n="N016"/>ihr Effect aus dem Zusammenwirken des <hi rendition="#em">Orchesters</hi>
-               <lb facs="#facs_2_region_1684667621408_274_tl_17" n="N017"/>(insbesondere seiner Tonmalerei) und der <hi rendition="#em">Scenerie</hi>
+               <lb facs="#facs_2_line_1760273561137_3032" n="N013"/>scenische Ausstattung. Wenn man die glänzendsten, be
+               <lb facs="#facs_2_line_1760273582614_3044" n="N014" break="no"/>rühmtesten Stellen in „<rs type="bibl" ref="#hsl_work_id_238">Rheingold</rs>“, „<rs type="bibl" ref="#hsl_work_id_649">Walküre</rs>“ oder „<rs type="bibl" ref="#hsl_work_id_1315">Sieg
+               <lb facs="#facs_2_region_1684667621408_274_tl_15" n="N015" break="no"/>fried</rs>“ genau analysirt, wird man fast immer finden, daß
+               <lb facs="#facs_2_line_1760273602758_3054" n="N016"/>ihr Effect aus dem Zusammenwirken des <hi rendition="#em">Orchesters</hi><space quantity="1" unit="char"/>
+               <lb facs="#facs_2_region_1684667621408_274_tl_17" n="N017"/>(insbesondere seiner Tonmalerei) und der <hi rendition="#em">Scenerie</hi><space quantity="1" unit="char"/>
                <lb facs="#facs_2_region_1684667621408_274_tl_18" n="N018"/>(Decoration, Beleuchtung, Maschinerie) hervorgeht. Was und
                <lb facs="#facs_2_line_1760273628250_3069" n="N019"/>wie die Hauptpersonen dabei singen, erscheint daneben als
                <lb facs="#facs_2_region_1684667621408_274_tl_20" n="N020"/>unwesentlich. Unser Orchester also hat sich unter der Leitung
-               <lb facs="#facs_2_region_1684667621408_274_tl_21" n="N021"/>Herrn H. <hi rendition="#em">
-                  <rs type="person">Richter</rs>'s</hi> abermals mit Ruhm bedeckt. Die
+               <lb facs="#facs_2_region_1684667621408_274_tl_21" n="N021"/>Herrn H. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1399">Richter</rs>’s</hi> abermals mit Ruhm bedeckt. Die
                <lb facs="#facs_2_region_1684667621408_274_tl_22" n="N022"/>Decorationen und das Maschinenwesen sind unübertrefflich;
-               <lb facs="#facs_2_region_1684667621408_274_tl_23" n="N023"/>der <rs type="person">Lindwurm</rs>, dessen verschiedene Bewegungen elf Arbeiter
+               <lb facs="#facs_2_region_1684667621408_274_tl_23" n="N023"/>der <rs type="person" ref="#hsl_person_id_3167">Lindwurm</rs>, dessen verschiedene Bewegungen elf Arbeiter
                <lb facs="#facs_2_line_1760273660698_3080" n="N024"/>in Athem halten, wäre beinahe gerufen worden. Von den
-               <lb facs="#facs_2_region_1684667621408_274_tl_25" n="N025"/>Gesangspartien ist <rs type="person">Siegfried</rs> die wichtigste, zugleich die an¬
-               <lb facs="#facs_2_region_1684667621408_274_tl_26" n="N026"/>strengendste Tenor-Partie, die je geschrieben wurde. Herr
-               <lb facs="#facs_2_region_1684667621408_274_tl_27" n="N027"/>
-               <hi rendition="#em">
-                  <rs type="person">Jäger</rs>
-               </hi> führte sie in Gesang und Spiel sehr glücklich durch.
-               <lb facs="#facs_2_line_1760273682827_3092" n="N028"/>Durch seine hohe schlanke Gestalt dafür wie geschaffen, ver¬
-               <lb facs="#facs_2_region_1684667621408_274_tl_29" n="N029"/>steht er überdies frei und natürlich zu agiren. Seine Stimme
-               <lb facs="#facs_2_region_1684667621408_274_tl_30" n="N030"/>hat wenig Reiz und ist bereits etwas angegriffen, wahrschein¬
-               <lb facs="#facs_2_region_1684667621408_274_tl_31" n="N031"/>lich in Folge des vielen <rs type="person">Siegfried</rs>-Singens. Desto rühmlicher
-               <lb facs="#facs_2_line_1760273706785_3103" n="N032"/>wirkt Herr <rs type="person">Jäger</rs> durch Energie des Vortrages und Deut¬
-               <lb facs="#facs_2_region_1684667621408_274_tl_33" n="N033"/>lichkeit der Aussprache. Von unseren heimischen Künstlern
-               <lb facs="#facs_2_region_1684667621408_274_tl_34" n="N034"/>zeichneten sich ganz besonders Frau <hi rendition="#em">
-                  <rs type="person">Materna</rs>
-               </hi> (<rs type="person">Brünhilde</rs>),
-               <lb facs="#facs_2_region_1684667621408_274_tl_35" n="N035"/>die Herren <hi rendition="#em">
-                  <rs type="person">Beck</rs>
-               </hi> (<rs type="person">Alberich</rs>), <hi rendition="#em">
-                  <rs type="person">Schmitt</rs>
-               </hi> (<rs type="person">Mime</rs>) und
-               <lb facs="#facs_2_region_1684667621408_274_tl_36" n="N036"/>
-               <hi rendition="#em">
-                  <rs type="person">Scaria</rs>
-               </hi> (<rs type="person">Wotan</rs>) aus. Die kleineren, aber keineswegs
-               <lb facs="#facs_2_line_1760273747080_3116" n="N037"/>leichten oder unwichtigen Partien der <rs type="person">Erda</rs>, des <rs type="person">Wald¬</rs>
-               <lb facs="#facs_2_region_1684667621408_274_tl_38" n="N038"/>
-               <rs type="person">vogel</rs>s und des <rs type="person">Lindwurm</rs>s sangen Fräulein <hi rendition="#em">
-                  <rs type="person">Stahl</rs>
-               </hi>,
-               <lb facs="#facs_2_region_1684667621408_274_tl_39" n="N039"/>Fräulein <hi rendition="#em">
-                  <rs type="person">Kraus</rs>
-               </hi> und Herr <hi rendition="#em">
-                  <rs type="person">Hablawetz</rs>
-               </hi> mit bestem Ge¬
-               <lb facs="#facs_2_region_1684667621408_274_tl_40" n="N040"/>lingen. Der äußere Erfolg dieser ersten „<rs type="bibl">Siegfried</rs>“-Vor¬
-               <lb facs="#facs_2_line_1760273480890_2989" n="N041"/>stellung konnte brillanter nicht sein.
+               <lb facs="#facs_2_region_1684667621408_274_tl_25" n="N025"/>Gesangspartien ist <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> die wichtigste, zugleich die an
+               <lb facs="#facs_2_region_1684667621408_274_tl_26" n="N026" break="no"/>strengendste Tenor-Partie, die je geschrieben wurde. Herr
+               <lb facs="#facs_2_region_1684667621408_274_tl_27" n="N027"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2317">Jäger</rs></hi> führte sie in Gesang und Spiel sehr glücklich durch.
+               <lb facs="#facs_2_line_1760273682827_3092" n="N028"/>Durch seine hohe schlanke Gestalt dafür wie geschaffen, ver
+               <lb facs="#facs_2_region_1684667621408_274_tl_29" n="N029" break="no"/>steht er überdies frei und natürlich zu agiren. Seine Stimme
+               <lb facs="#facs_2_region_1684667621408_274_tl_30" n="N030"/>hat wenig Reiz und ist bereits etwas angegriffen, wahrschein
+               <lb facs="#facs_2_region_1684667621408_274_tl_31" n="N031" break="no"/>lich in Folge des vielen <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs>-Singens. Desto rühmlicher
+               <lb facs="#facs_2_line_1760273706785_3103" n="N032"/>wirkt Herr <rs type="person" ref="#hsl_person_id_2317">Jäger</rs> durch Energie des Vortrages und Deut
+               <lb facs="#facs_2_region_1684667621408_274_tl_33" n="N033" break="no"/>lichkeit der Aussprache. Von unseren heimischen Künstlern
+               <lb facs="#facs_2_region_1684667621408_274_tl_34" n="N034"/>zeichneten sich ganz besonders Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1031">Materna</rs></hi> (<rs type="person" ref="#hsl_person_id_1683">Brünhilde</rs>),
+               <lb facs="#facs_2_region_1684667621408_274_tl_35" n="N035"/>die Herren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs></hi> (<rs type="person" ref="#hsl_person_id_1686">Alberich</rs>), <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2770">Schmitt</rs></hi> (<rs type="person" ref="#hsl_person_id_1687">Mime</rs>) und
+               <lb facs="#facs_2_region_1684667621408_274_tl_36" n="N036"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2922">Scaria</rs></hi> (<rs type="person" ref="#hsl_person_id_1680">Wotan</rs>) aus. Die kleineren, aber keineswegs
+               <lb facs="#facs_2_line_1760273747080_3116" n="N037"/>leichten oder unwichtigen Partien der <rs type="person" ref="#hsl_person_id_1682">Erda</rs>, des <rs type="person" ref="#hsl_person_id_7756">Wald
+               <lb facs="#facs_2_region_1684667621408_274_tl_38" n="N038" break="no"/>vogel</rs>s und des <rs type="person" ref="#hsl_person_id_3167">Lindwurm</rs>s sangen Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7470">Stahl</rs></hi>,
+               <lb facs="#facs_2_region_1684667621408_274_tl_39" n="N039"/>Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7562">Kraus</rs></hi> und Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5410">Hablawetz</rs></hi> mit bestem Ge
+               <lb facs="#facs_2_region_1684667621408_274_tl_40" n="N040" break="no"/>lingen. Der äußere Erfolg dieser ersten „<rs type="bibl" ref="#hsl_work_id_1315">Siegfried</rs>“-Vor
+               <lb facs="#facs_2_line_1760273480890_2989" n="N041" break="no"/>stellung konnte brillanter nicht sein.
             </p>
          </div>
       </body>
