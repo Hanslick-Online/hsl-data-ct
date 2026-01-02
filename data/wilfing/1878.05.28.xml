@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 4939. Wien, Dienstag, den 28. Mai 1878</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,24 +70,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 4939. Wien, Dienstag, den 28. Mai 1878</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1878-05-28">28.05.1878</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2025-11-21">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2025-11-29">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-01-02">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1157,169 +1154,139 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1684670083364_763_tl_1" n="N001"/><head type="h1">Musikalische Briefe aus <rs type="place" ref="#hsl_place_id_44">Paris</rs>. I.</head>
+            <lb facs="#facs_1_region_1684670083364_763_tl_3" n="N002"/><head type="h2"><hi rendition="#em"><rs type="place" ref="#hsl_place_id_44">Paris</rs></hi>, 22. Mai.</head>
             <p>
-               <lb facs="#facs_1_line_1759559746949_1125" n="N001"/>Nr. 4939. Wien, Dienstag, den 28. Mai 1878
-            </p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684670083364_763_tl_1" n="N001"/>Musikalische Briefe aus <rs type="place">Paris</rs>. I.
-               <lb facs="#facs_1_region_1684670083364_763_tl_3" n="N002"/>
-               <hi rendition="#em">
-                  <rs type="place">Paris</rs>
-               </hi>, 22. Mai.
                <lb facs="#facs_1_region_1684670083364_763_tl_4" n="N003"/>Ed. H. Die Musikberichte „von der Weltausstellung“
                <lb facs="#facs_1_region_1684670083364_763_tl_5" n="N004"/>müssen sich vorläufig noch ganz abseits von letzterer halten.
-               <lb facs="#facs_1_region_1684670083364_763_tl_6" n="N005"/>Auf dem <rs type="place">Marsfeld</rs>e musiciren einzig und allein die <rs type="place" continued="true">ungari¬</rs>
-               <lb facs="#facs_1_region_1684670083364_763_tl_7" n="N006"/>
-               <rs type="place" continued="true">sch</rs>en Zigeuner. Unermüdlich geigen sie in schwermüthiger
+               <lb facs="#facs_1_region_1684670083364_763_tl_6" n="N005"/>Auf dem <rs type="place" ref="#hsl_place_id_990">Marsfeld</rs>e musiciren einzig und allein die <rs type="place" ref="#hsl_place_id_53">ungari
+               <lb facs="#facs_1_region_1684670083364_763_tl_7" n="N006" break="no"/>sch</rs>en Zigeuner. Unermüdlich geigen sie in schwermüthiger
                <lb facs="#facs_1_region_1684670083364_763_tl_8" n="N007"/>Lustigkeit von Früh bis Abends ihre Weisen, stets umringt
-               <lb facs="#facs_1_region_1684670083364_763_tl_9" n="N008"/>von einem Kreis neugieriger Musikfreunde. Ob diese in¬
-               <lb facs="#facs_1_region_1684670083364_763_tl_10" n="N009"/>teressanten Naturmusiker auch gute Geschäfte machen, weiß
+               <lb facs="#facs_1_region_1684670083364_763_tl_9" n="N008"/>von einem Kreis neugieriger Musikfreunde. Ob diese in
+               <lb facs="#facs_1_region_1684670083364_763_tl_10" n="N009" break="no"/>teressanten Naturmusiker auch gute Geschäfte machen, weiß
                <lb facs="#facs_1_region_1684670083364_763_tl_11" n="N010"/>ich nicht; mir schien, wenn es ans Absammeln ging, immer
-               <lb facs="#facs_1_region_1684670083364_763_tl_12" n="N011"/>ein Gewitter im Anzug, so eilig stoben die Zuhörer aus¬
-               <lb facs="#facs_1_region_1684670083364_763_tl_13" n="N012"/>einander. Auf dem <rs type="place">Trocadero</rs>, dem eigentlichen Hauptquartier
+               <lb facs="#facs_1_region_1684670083364_763_tl_12" n="N011"/>ein Gewitter im Anzug, so eilig stoben die Zuhörer aus
+               <lb facs="#facs_1_region_1684670083364_763_tl_13" n="N012" break="no"/>einander. Auf dem <rs type="place" ref="#hsl_place_id_1063">Trocadero</rs>, dem eigentlichen Hauptquartier
                <lb facs="#facs_1_region_1684670083364_763_tl_14" n="N013"/>der „Auditions musicales“, ist es noch vollkommen stille.
                <lb facs="#facs_1_line_1759580116652_7" n="N014"/>Beide Concertsäle dieser modernen Akropolis, der große wie
                <lb facs="#facs_1_region_1684670083364_763_tl_16" n="N015"/>der kleine, harren geduldig ihrer Vollendung und dürften am
                <lb facs="#facs_1_region_1684670083364_763_tl_17" n="N016"/>1. Juni, dem Tag des ersten Concerts, schwerlich noch in
-               <lb facs="#facs_1_region_1684670083364_763_tl_18" n="N017"/>vollständiger Toilette dastehen. Bis heute war es nicht ein¬
-               <lb facs="#facs_1_region_1684670083364_763_tl_19" n="N018"/>mal möglich, eine vorbereitende Probe mit Ausschluß aller
+               <lb facs="#facs_1_region_1684670083364_763_tl_18" n="N017"/>vollständiger Toilette dastehen. Bis heute war es nicht ein
+               <lb facs="#facs_1_region_1684670083364_763_tl_19" n="N018" break="no"/>mal möglich, eine vorbereitende Probe mit Ausschluß aller
                <lb facs="#facs_1_region_1684670083364_763_tl_20" n="N019"/>Oeffentlichkeit daselbst zu veranstalten.
-               <lb facs="#facs_1_region_1684670083364_763_tl_21" n="N020"/>Eine Weltausstellung in <rs type="place">Paris</rs> müßte jedoch, wie wir
-               <lb facs="#facs_1_region_1684670083364_763_tl_22" n="N021"/>vermeinten, sich nicht blos auf den Ausstellungsplatz be¬
-               <lb facs="#facs_1_region_1684670083364_763_tl_23" n="N022"/>schränken; die Theater selbst sollten in gewissem Sinne als
+            </p><p>
+               <lb facs="#facs_1_region_1684670083364_763_tl_21" n="N020"/>Eine Weltausstellung in <rs type="place" ref="#hsl_place_id_44">Paris</rs> müßte jedoch, wie wir
+               <lb facs="#facs_1_region_1684670083364_763_tl_22" n="N021"/>vermeinten, sich nicht blos auf den Ausstellungsplatz be
+               <lb facs="#facs_1_region_1684670083364_763_tl_23" n="N022" break="no"/>schränken; die Theater selbst sollten in gewissem Sinne als
                <lb facs="#facs_1_region_1684670083364_763_tl_24" n="N023"/>Aussteller auftreten und ihr Bestes, namentlich das Neueste
-               <lb facs="#facs_1_region_1684670083364_763_tl_25" n="N024"/>ihres Besten, den Fremden produciren. Was die Opern¬
-               <lb facs="#facs_1_region_1684670083364_763_tl_26" n="N025"/>bühnen betrifft, so scheinen sie nicht dieser Ansicht; sie bieten
-               <lb facs="#facs_1_region_1684670083364_763_tl_27" n="N026"/>uns keineswegs, nach <rs type="person">Goethe</rs>'s Lieblingsausdruck, „goldene
+               <lb facs="#facs_1_region_1684670083364_763_tl_25" n="N024"/>ihres Besten, den Fremden produciren. Was die Opern
+               <lb facs="#facs_1_region_1684670083364_763_tl_26" n="N025" break="no"/>bühnen betrifft, so scheinen sie nicht dieser Ansicht; sie bieten
+               <lb facs="#facs_1_region_1684670083364_763_tl_27" n="N026"/>uns keineswegs, nach <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s Lieblingsausdruck, „goldene
                <lb facs="#facs_1_region_1684670083364_763_tl_28" n="N027"/>Früchte in silbernen Schalen“, sondern abgestandene Gerichte
                <lb facs="#facs_1_region_1684670083364_763_tl_29" n="N028"/>in recht zweifelhafter Zubereitung. Und doch besitzt die Große
                <lb facs="#facs_1_region_1684670083364_763_tl_30" n="N029"/>wie die Komische Oper je Eine Novität, deren Bekanntschaft
-               <lb facs="#facs_1_region_1684670083364_763_tl_31" n="N030"/>allen Fremden von besonderem Interesse wäre: „<rs type="bibl">Le roi de</rs>
-               <lb facs="#facs_1_region_1684670083364_763_tl_32" n="N031"/>
-               <rs type="bibl">Lahore</rs>“ von Jules <hi rendition="#em">
-                  <rs type="person">Massenet</rs>
-               </hi>, das glänzendste Prunk¬
-               <lb facs="#facs_1_region_1684670083364_763_tl_33" n="N032"/>stück der Großen Oper, und <hi rendition="#em">
-                  <rs type="person">Gounod</rs>'s</hi> neuestes Werk
-               <lb facs="#facs_1_region_1684670083364_763_tl_34" n="N033"/>„<rs type="bibl">Cinq-Mars</rs>“ in der Opéra Comique. Beide Novitäten sind
-               <lb facs="#facs_1_region_1684670083364_763_tl_35" n="N034"/>sonderbarerweise knapp vor der Weltausstellung vom Re¬
-               <lb facs="#facs_1_region_1684670083364_763_tl_36" n="N035"/>pertoire abgesetzt worden, anstatt — wie im Jahre <date month="0" day="0" year="0">1867</date>
-               <lb facs="#facs_1_region_1684670083364_763_tl_37" n="N036"/>
-               <hi rendition="#em">
-                  <rs type="person">Verdi</rs>'s</hi> „<rs type="bibl">Don Carlos</rs>“ und „<rs type="bibl">Mignon</rs>“ von Ambroise
-               <lb facs="#facs_1_line_1759580260174_71" n="N037"/>
-               <rs type="person">Thomas</rs> — dieselbe zu eröffnen. Die Große Oper bewegt
-            </p>
-            <cb n="3"/>
-            <p>
+               <lb facs="#facs_1_region_1684670083364_763_tl_31" n="N030"/>allen Fremden von besonderem Interesse wäre: „<rs type="bibl" ref="#hsl_work_id_1755">Le roi de
+               <lb facs="#facs_1_region_1684670083364_763_tl_32" n="N031"/>Lahore</rs>“ von Jules <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1302">Massenet</rs></hi>, das glänzendste Prunk
+               <lb facs="#facs_1_region_1684670083364_763_tl_33" n="N032" break="no"/>stück der Großen Oper, und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s</hi> neuestes Werk
+               <lb facs="#facs_1_region_1684670083364_763_tl_34" n="N033"/>„<rs type="bibl" ref="#hsl_work_id_2974">Cinq-Mars</rs>“ in der Opéra Comique. Beide Novitäten sind
+               <lb facs="#facs_1_region_1684670083364_763_tl_35" n="N034"/>sonderbarerweise knapp vor der Weltausstellung vom Re
+               <lb facs="#facs_1_region_1684670083364_763_tl_36" n="N035" break="no"/>pertoire abgesetzt worden, anstatt — wie im Jahre <date>1867</date><space quantity="1" unit="char"/>
+               <lb facs="#facs_1_region_1684670083364_763_tl_37" n="N036"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_208">Don Carlos</rs>“ und „<rs type="bibl" ref="#hsl_work_id_894">Mignon</rs>“ von Ambroise
+               <lb facs="#facs_1_line_1759580260174_71" n="N037"/><rs type="person" ref="#hsl_person_id_305">Thomas</rs> — dieselbe zu eröffnen. Die Große Oper bewegt<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
                <lb facs="#facs_1_region_1684670086708_766_tl_1" n="N001"/>sich seit dem 1. Mai träge in dem kleinen Kreis von fünf
-               <lb facs="#facs_1_region_1684670086708_766_tl_2" n="N002"/>Opern: „<rs type="bibl">Faust</rs>“, „<rs type="bibl">Afrikanerin</rs>,“ „<rs type="bibl">Prophet</rs>“, „<rs type="bibl">Tell</rs>“ und
-               <lb facs="#facs_1_region_1684670086708_766_tl_3" n="N003"/>„<rs type="bibl">Freischütz</rs>“, letzterer als langes Vorspiel zu dem Ballet
-               <lb facs="#facs_1_region_1684670086708_766_tl_4" n="N004"/>„<rs type="bibl">Sylvia</rs>“. <hi rendition="#em">
-                  <rs type="person">Gounod</rs>'s</hi> neue große Oper „<rs type="bibl">Polyeucte</rs>“ kommt
+               <lb facs="#facs_1_region_1684670086708_766_tl_2" n="N002"/>Opern: „<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“, „<rs type="bibl" ref="#hsl_work_id_142">Afrikanerin</rs>,“ „<rs type="bibl" ref="#hsl_work_id_113">Prophet</rs>“, „<rs type="bibl" ref="#hsl_work_id_186">Tell</rs>“ und
+               <lb facs="#facs_1_region_1684670086708_766_tl_3" n="N003"/>„<rs type="bibl" ref="#hsl_work_id_236">Freischütz</rs>“, letzterer als langes Vorspiel zu dem Ballet
+               <lb facs="#facs_1_region_1684670086708_766_tl_4" n="N004"/>„<rs type="bibl" ref="#hsl_work_id_4956">Sylvia</rs>“. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s</hi> neue große Oper „<rs type="bibl" ref="#hsl_work_id_1220">Polyeucte</rs>“ kommt
                <lb facs="#facs_1_line_1759580175358_32" n="N005"/>erst im Juli zur Aufführung. In der Opéra Comique
-               <lb facs="#facs_1_line_1759580206163_42" n="N006"/>wechselt <rs type="person">Meyerbeer</rs>'s „<rs type="bibl">Nordstern</rs>“ mit einer unnöthig auf¬
-               <lb facs="#facs_1_region_1684670086708_766_tl_9" n="N007"/>gewärmten älteren Oper „<rs type="bibl">La Statue</rs>“ von Ernest <hi rendition="#em">
-                  <rs type="person">Reyer</rs>
-               </hi>,
+               <lb facs="#facs_1_line_1759580206163_42" n="N006"/>wechselt <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s „<rs type="bibl" ref="#hsl_work_id_139">Nordstern</rs>“ mit einer unnöthig auf
+               <lb facs="#facs_1_region_1684670086708_766_tl_9" n="N007" break="no"/>gewärmten älteren Oper „<rs type="bibl" ref="#hsl_work_id_3198">La Statue</rs>“ von Ernest <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1312">Reyer</rs></hi>,
                <lb facs="#facs_1_region_1684670086708_766_tl_10" n="N008"/>welche diese vorübergehende Wiederbelebung weniger ihrem
                <lb facs="#facs_1_region_1684670086708_766_tl_11" n="N009"/>Werthe, als der einflußreichen Stellung ihres Autors (Musik-
-               <lb facs="#facs_1_region_1684670086708_766_tl_12" n="N010"/>Kritikers im <rs type="bibl">Journal des Débats</rs>) verdankt. Dazwischen
-               <lb facs="#facs_1_region_1684670086708_766_tl_13" n="N011"/>werden zeitweilig einmal die „<rs type="bibl">Krondiamanten</rs>“ von <rs type="person">Auber</rs>,
-               <lb facs="#facs_1_region_1684670086708_766_tl_14" n="N012"/>einmal der „<rs type="bibl">Blitz</rs>“ von <rs type="person">Halévy</rs> eingeworfen, mit Besetzungen,
+               <lb facs="#facs_1_region_1684670086708_766_tl_12" n="N010"/>Kritikers im <rs type="bibl" ref="#hsl_work_id_639">Journal des Débats</rs>) verdankt. Dazwischen
+               <lb facs="#facs_1_region_1684670086708_766_tl_13" n="N011"/>werden zeitweilig einmal die „<rs type="bibl" ref="#hsl_work_id_108">Krondiamanten</rs>“ von <rs type="person" ref="#hsl_person_id_16">Auber</rs>,
+               <lb facs="#facs_1_region_1684670086708_766_tl_14" n="N012"/>einmal der „<rs type="bibl" ref="#hsl_work_id_138">Blitz</rs>“ von <rs type="person" ref="#hsl_person_id_106">Halévy</rs> eingeworfen, mit Besetzungen,
                <lb facs="#facs_1_region_1684670086708_766_tl_15" n="N013"/>welche tief unter jenen der letzten Jahre, geschweige einer
                <lb facs="#facs_1_region_1684670086708_766_tl_16" n="N014"/>noch früheren Zeit stehen. Wir kommen wol gelegentlich noch
                <lb facs="#facs_1_region_1684670086708_766_tl_17" n="N015"/>darauf zurück.
+            </p><p>
                <lb facs="#facs_1_region_1684670086708_766_tl_18" n="N016"/>Die Große Oper, oder wie sie mit ihrem officiellen (das
                <lb facs="#facs_1_line_1759580219556_51" n="N017"/>Theatralische gar nicht bezeichnenden) Titel heißt: die
                <lb facs="#facs_1_line_1759580116651_6" n="N018"/>„Académie nationale de musique“, braucht sich freilich
                <lb facs="#facs_1_region_1684670086708_766_tl_20" n="N019"/>wenig zu kümmern um das, was sie aufführt: die Zuhörer
-               <lb facs="#facs_1_region_1684670086708_766_tl_21" n="N020"/>strömen herbei, weniger um zu hören, als um das pracht¬
-               <lb facs="#facs_1_region_1684670086708_766_tl_22" n="N021"/>volle Haus in allen seinen Räumen zu besichtigen. Dieses
+               <lb facs="#facs_1_region_1684670086708_766_tl_21" n="N020"/>strömen herbei, weniger um zu hören, als um das pracht
+               <lb facs="#facs_1_region_1684670086708_766_tl_22" n="N021" break="no"/>volle Haus in allen seinen Räumen zu besichtigen. Dieses
                <lb facs="#facs_1_region_1684670086708_766_tl_24" n="N022"/>Haus selbst ist das eigentliche Repertoire der „Großen Oper“
                <lb facs="#facs_1_region_1684670086708_766_tl_25" n="N023"/>und scheint noch lange nicht abgespielt. Goldene Tage für
-               <lb facs="#facs_1_region_1684670086708_766_tl_26" n="N024"/>die Direction, die allabendlich 18- bis 20,000 Francs ein¬
-               <lb facs="#facs_1_region_1684670086708_766_tl_27" n="N025"/>nimmt! Die Opéra Comique hingegen, welche durch die
+               <lb facs="#facs_1_region_1684670086708_766_tl_26" n="N024"/>die Direction, die allabendlich 18- bis 20,000 Francs ein
+               <lb facs="#facs_1_region_1684670086708_766_tl_27" n="N025" break="no"/>nimmt! Die Opéra Comique hingegen, welche durch die
                <lb facs="#facs_1_region_1684670086708_766_tl_28" n="N026"/>bloße Pracht ihres Gewandes nicht zu locken vermag, muß
                <lb facs="#facs_1_region_1684670086708_766_tl_29" n="N027"/>doch endlich, wenn die Bänke licht und lichter werden, auf
                <lb facs="#facs_1_region_1684670086708_766_tl_30" n="N028"/>irgend eine musikalische Anziehungskraft bedacht sein. Diesem
                <lb facs="#facs_1_region_1684670086708_766_tl_31" n="N029"/>glücklichen Umstand verdanken wir es, daß sie endlich ihr
                <lb facs="#facs_1_region_1684670086708_766_tl_32" n="N030"/>langweilig stereotypes Repertoire unterbrochen und gestern
                <lb facs="#facs_1_region_1684670086708_766_tl_33" n="N031"/>eine interessante Novität gebracht hat: die vieractige Oper
-               <lb facs="#facs_1_region_1684670086708_766_tl_34" n="N032"/>„<hi rendition="#em">
-                  <rs type="bibl">Psyché</rs>
-               </hi>“ von <hi rendition="#em">Ambroise <rs type="person">Thomas</rs>
-               </hi>. Novität im
-               <lb facs="#facs_1_region_1684670086708_766_tl_35" n="N033"/>strengen Sinne ist diese „<rs type="bibl">Psyché</rs>“ allerdings auch nicht, viel¬
-               <lb facs="#facs_1_region_1684670086708_766_tl_36" n="N034"/>mehr eine Wiedererweckung und theilweise Neubearbeitung
-               <lb facs="#facs_1_region_1684670086708_766_tl_37" n="N035"/>der älteren gleichnamigen Oper, welche im Jahre <date month="0" day="0" year="0">1857</date> mit
+               <lb facs="#facs_1_region_1684670086708_766_tl_34" n="N032"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_2527">Psyché</rs></hi>“ von <hi rendition="#em">Ambroise <rs type="person" ref="#hsl_person_id_305">Thomas</rs></hi>. Novität im
+               <lb facs="#facs_1_region_1684670086708_766_tl_35" n="N033"/>strengen Sinne ist diese „<rs type="bibl" ref="#hsl_work_id_2527">Psyché</rs>“ allerdings auch nicht, viel
+               <lb facs="#facs_1_region_1684670086708_766_tl_36" n="N034" break="no"/>mehr eine Wiedererweckung und theilweise Neubearbeitung
+               <lb facs="#facs_1_region_1684670086708_766_tl_37" n="N035"/>der älteren gleichnamigen Oper, welche im Jahre <date>1857</date> mit
                <lb facs="#facs_1_region_1684670086708_766_tl_38" n="N036"/>schwachem Erfolg auf die Bretter gelangte. Der Kritiker
-               <lb facs="#facs_1_region_1684670086708_766_tl_39" n="N037"/>Felix <hi rendition="#em">
-                  <rs type="person">Clément</rs>
-               </hi> sprach damals das muthige Wort: eine
-               <lb facs="#facs_1_region_1684670086708_766_tl_40" n="N038"/>Niederlage wie die der „<rs type="bibl">Psyché</rs>“ sei für Ambroise <rs type="person">Thomas</rs>
+               <lb facs="#facs_1_region_1684670086708_766_tl_39" n="N037"/>Felix <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7768">Clément</rs></hi> sprach damals das muthige Wort: eine
+               <lb facs="#facs_1_region_1684670086708_766_tl_40" n="N038"/>Niederlage wie die der „<rs type="bibl" ref="#hsl_work_id_2527">Psyché</rs>“ sei für Ambroise <rs type="person" ref="#hsl_person_id_305">Thomas</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_1_region_1684670086708_766_tl_41" n="N039"/>so ehrenvoll wie ein Erfolg, weil sie nicht den Tondichter
                <lb facs="#facs_1_region_1684670086708_766_tl_42" n="N040"/>anklage, sondern seine Richter. Man hatte dem Componisten
-               <lb facs="#facs_1_line_1759580277773_82" n="N041"/>des „<rs type="bibl">Kadi</rs>“ die ideale Haltung seiner neuen Oper verübelt;
-            </p>
-            <cb n="4"/>
-            <p>
+               <lb facs="#facs_1_line_1759580277773_82" n="N041"/>des „<rs type="bibl" ref="#hsl_work_id_1611">Kadi</rs>“ die ideale Haltung seiner neuen Oper verübelt;<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
                <lb facs="#facs_1_region_1684670089590_769_tl_1" n="N001"/>für die Kenner und musikalischen Gourmands hingegen war die
-               <lb facs="#facs_1_region_1684670089590_769_tl_2" n="N002"/>seither verschollene Partitur der „<rs type="bibl">Psyché</rs>“ ein heimlicher Lieb¬
-               <lb facs="#facs_1_region_1684670089590_769_tl_3" n="N003"/>ling geblieben, auf dessen spätere Auferstehung und Würdi¬
-               <lb facs="#facs_1_region_1684670089590_769_tl_4" n="N004"/>gung sie eifrig hofften. Diese Zuversicht ist belohnt worden
+               <lb facs="#facs_1_region_1684670089590_769_tl_2" n="N002"/>seither verschollene Partitur der „<rs type="bibl" ref="#hsl_work_id_2527">Psyché</rs>“ ein heimlicher Lieb
+               <lb facs="#facs_1_region_1684670089590_769_tl_3" n="N003" break="no"/>ling geblieben, auf dessen spätere Auferstehung und Würdi
+               <lb facs="#facs_1_region_1684670089590_769_tl_4" n="N004" break="no"/>gung sie eifrig hofften. Diese Zuversicht ist belohnt worden
                <lb facs="#facs_1_region_1684670089590_769_tl_5" n="N005"/>durch die erfolgreiche Wiederaufführung der Oper am
                <lb facs="#facs_1_line_1759580192386_36" n="N006"/>gestrigen Abend.
-               <lb facs="#facs_1_region_1684670089590_769_tl_6" n="N007"/>Die Wahl eines mythologischen, dabei eminent symbo¬
-               <lb facs="#facs_1_region_1684670089590_769_tl_7" n="N008"/>lischen Stoffes wie „<rs type="person">Amor</rs> und <rs type="person">Psyche</rs>“ erscheint uns
+            </p><p>
+               <lb facs="#facs_1_region_1684670089590_769_tl_6" n="N007"/>Die Wahl eines mythologischen, dabei eminent symbo
+               <lb facs="#facs_1_region_1684670089590_769_tl_7" n="N008" break="no"/>lischen Stoffes wie „<rs type="person" ref="#hsl_person_id_3189">Amor</rs> und <rs type="person" ref="#hsl_person_id_7745">Psyche</rs>“ erscheint uns
                <lb facs="#facs_1_region_1684670089590_769_tl_8" n="N009"/>modernen Theaterfreunden gar seltsam. Zu dem Geschmack
                <lb facs="#facs_1_region_1684670089590_769_tl_9" n="N010"/>der Renaissance- und Rococozeit stimmte er ausnehmend;
-               <lb facs="#facs_1_region_1684670089590_769_tl_10" n="N011"/>in <rs type="place">Frankreich</rs> namentlich, wo das ganz im Mythologischen
+               <lb facs="#facs_1_region_1684670089590_769_tl_10" n="N011"/>in <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> namentlich, wo das ganz im Mythologischen
                <lb facs="#facs_1_region_1684670089590_769_tl_11" n="N012"/>und Pastoralen webende Ballet mit der Oper völlig verquickt
-               <lb facs="#facs_1_region_1684670089590_769_tl_12" n="N013"/>war, blieb lange Zeit hindurch die Geschichte von <rs type="person">Amor</rs> und
-               <lb facs="#facs_1_region_1684670089590_769_tl_13" n="N014"/>
-               <rs type="person">Psyche</rs> einer der beliebtesten Stoffe. Insbesondere seit dem
-               <lb facs="#facs_1_region_1684670089590_769_tl_14" n="N015"/>Erscheinen des <rs type="bibl">Roman</rs>s von <rs type="person">La Fontaine</rs> (<date month="0" day="0" year="0">1669</date>) sehen wir
-               <lb facs="#facs_1_region_1684670089590_769_tl_15" n="N016"/>die <rs type="place">französisch</rs>e Bühne mit dieser durch den berühmten Er¬
-               <lb facs="#facs_1_line_1759580219556_50" n="N017"/>zähler verjüngten Fabel beschäftigt. <hi rendition="#em">
-                  <rs type="person">Molière</rs>
-               </hi> verfaßte mit
-               <lb facs="#facs_1_region_1684670089590_769_tl_16" n="N018"/>
-               <rs type="person">Quinault</rs> eine fünfactige Ballett-Tragödie „<rs type="bibl">Psyché</rs>“, zu
-               <lb facs="#facs_1_region_1684670089590_769_tl_17" n="N019"/>welcher <hi rendition="#em">
-                  <rs type="person">Lully</rs>
-               </hi> die Musik schrieb. Nach dem Tode <rs type="person">Molière</rs>'s
-               <lb facs="#facs_1_region_1684670089590_769_tl_18" n="N020"/>kam <rs type="person">Lully</rs> auf den Stoff neuerdings zurück und componirte
-               <lb facs="#facs_1_region_1684670089590_769_tl_19" n="N021"/>(mit Thomas <rs type="person">Corneille</rs>) seine fünfactige Tragédie lyrique
-               <lb facs="#facs_1_region_1684670089590_769_tl_20" n="N022"/>„<rs type="bibl">Psyché</rs>“. Wir wollen die lange Reihe der dasselbe Sujet
-               <lb facs="#facs_1_region_1684670089590_769_tl_21" n="N023"/>behandelnden Opern im achtzehnten Jahrhundert nicht auf¬
-               <lb facs="#facs_1_region_1684670089590_769_tl_22" n="N024"/>zählen und erwähnen nur als Curiosität, daß in einer
-               <lb facs="#facs_1_region_1684670089590_769_tl_23" n="N025"/>derselben, die <date month="0" day="0" year="0">1762</date> vor dem Hof in <rs type="place">Fontainebleau</rs> gespielt
+               <lb facs="#facs_1_region_1684670089590_769_tl_12" n="N013"/>war, blieb lange Zeit hindurch die Geschichte von <rs type="person" ref="#hsl_person_id_3189">Amor</rs> und
+               <lb facs="#facs_1_region_1684670089590_769_tl_13" n="N014"/><rs type="person" ref="#hsl_person_id_7745">Psyche</rs> einer der beliebtesten Stoffe. Insbesondere seit dem
+               <lb facs="#facs_1_region_1684670089590_769_tl_14" n="N015"/>Erscheinen des <rs type="bibl" ref="#hsl_work_id_5574">Roman</rs>s von <rs type="person" ref="#hsl_person_id_7878">La Fontaine</rs> (<date>1669</date>) sehen wir
+               <lb facs="#facs_1_region_1684670089590_769_tl_15" n="N016"/>die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Bühne mit dieser durch den berühmten Er
+               <lb facs="#facs_1_line_1759580219556_50" n="N017" break="no"/>zähler verjüngten Fabel beschäftigt. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_864">Molière</rs></hi> verfaßte mit
+               <lb facs="#facs_1_region_1684670089590_769_tl_16" n="N018"/><rs type="person" ref="#hsl_person_id_222">Quinault</rs> eine fünfactige Ballett-Tragödie „<rs type="bibl" ref="#hsl_work_id_5575">Psyché</rs>“, zu
+               <lb facs="#facs_1_region_1684670089590_769_tl_17" n="N019"/>welcher <hi rendition="#em"><rs type="person" ref="#hsl_person_id_168">Lully</rs></hi> die Musik schrieb. Nach dem Tode <rs type="person" ref="#hsl_person_id_864">Molière</rs>’s
+               <lb facs="#facs_1_region_1684670089590_769_tl_18" n="N020"/>kam <rs type="person" ref="#hsl_person_id_168">Lully</rs> auf den Stoff neuerdings zurück und componirte
+               <lb facs="#facs_1_region_1684670089590_769_tl_19" n="N021"/>(mit Thomas <rs type="person" ref="#hsl_person_id_7879">Corneille</rs>) seine fünfactige Tragédie lyrique
+               <lb facs="#facs_1_region_1684670089590_769_tl_20" n="N022"/>„<rs type="bibl" ref="#hsl_work_id_5576">Psyché</rs>“. Wir wollen die lange Reihe der dasselbe Sujet
+               <lb facs="#facs_1_region_1684670089590_769_tl_21" n="N023"/>behandelnden Opern im achtzehnten Jahrhundert nicht auf
+               <lb facs="#facs_1_region_1684670089590_769_tl_22" n="N024" break="no"/>zählen und erwähnen nur als Curiosität, daß in einer
+               <lb facs="#facs_1_region_1684670089590_769_tl_23" n="N025"/>derselben, die <date>1762</date> vor dem Hof in <rs type="place" ref="#hsl_place_id_464">Fontainebleau</rs> gespielt
                <lb facs="#facs_1_region_1684670089590_769_tl_24" n="N026"/>wurde, eine ganz mit Edelsteinen garnirte Decoration vorkam.
                <lb facs="#facs_1_region_1684670089590_769_tl_25" n="N027"/>Je näher wir dem neunzehnten Jahrhundert rücken, desto
-               <lb facs="#facs_1_region_1684670089590_769_tl_26" n="N028"/>seltener werden die dramatischen Einkleidungen der <rs type="person">Psyche</rs>-
-               <lb facs="#facs_1_region_1684670089590_769_tl_27" n="N029"/>Fabel; kaum daß sie noch in einigen unbedeutenden <rs type="place" continued="true">fran¬</rs>
-               <lb facs="#facs_1_region_1684670089590_769_tl_28" n="N030"/>
-               <rs type="place" continued="true">zösisch</rs>en Vaudevilles nachspukt. Die Gegenwart ist den
+               <lb facs="#facs_1_region_1684670089590_769_tl_26" n="N028"/>seltener werden die dramatischen Einkleidungen der <rs type="person" ref="#hsl_person_id_7745">Psyche</rs>-
+               <lb facs="#facs_1_region_1684670089590_769_tl_27" n="N029"/>Fabel; kaum daß sie noch in einigen unbedeutenden <rs type="place" ref="#hsl_place_id_21">fran
+               <lb facs="#facs_1_region_1684670089590_769_tl_28" n="N030" break="no"/>zösisch</rs>en Vaudevilles nachspukt. Die Gegenwart ist den
                <lb facs="#facs_1_region_1684670089590_769_tl_29" n="N031"/>mythologischen Stoffen im Drama gänzlich abhold; wir
                <lb facs="#facs_1_region_1684670089590_769_tl_30" n="N032"/>vermissen darin ebensosehr die lebendige Individualität der
                <lb facs="#facs_1_region_1684670089590_769_tl_31" n="N033"/>Personen, wie den spannenden Fortgang der Handlung. Man
                <lb facs="#facs_1_region_1684670089590_769_tl_32" n="N034"/>wird es kaum eine glückliche Idee nennen, heutzutage eine
-               <lb facs="#facs_1_region_1684670089590_769_tl_33" n="N035"/>Oper „<rs type="person">Psyche</rs>“ zu componiren. In den psychologischen Vor¬
-               <lb facs="#facs_1_region_1684670089590_769_tl_34" n="N036"/>gang, welcher in dem Tondichter diesen Entschluß reifte,
-               <lb facs="#facs_1_region_1684670089590_769_tl_35" n="N037"/>können wir uns allerdings hineindenken. Ambroise <rs type="person">Thomas</rs>
+               <lb facs="#facs_1_region_1684670089590_769_tl_33" n="N035"/>Oper „<rs type="person" ref="#hsl_person_id_7745">Psyche</rs>“ zu componiren. In den psychologischen Vor
+               <lb facs="#facs_1_region_1684670089590_769_tl_34" n="N036" break="no"/>gang, welcher in dem Tondichter diesen Entschluß reifte,
+               <lb facs="#facs_1_region_1684670089590_769_tl_35" n="N037"/>können wir uns allerdings hineindenken. Ambroise <rs type="person" ref="#hsl_person_id_305">Thomas</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_1_region_1684670089590_769_tl_36" n="N038"/>hatte seine Erfolge ausschließlich komischen Opern verdankt,
-               <lb facs="#facs_1_region_1684670089590_769_tl_37" n="N039"/>und ganz besonders seiner allerkomischesten: dem „<rs type="bibl">Kadi</rs>“
-               <lb facs="#facs_1_region_1684670089590_769_tl_38" n="N040"/>(<rs type="bibl">Le Caïd</rs>). Eine im Grunde sehr ernstgestimmte und ideali¬
-               <lb facs="#facs_1_line_1759580277772_81" n="N041"/>stische Natur, mochte Ambroise <rs type="person">Thomas</rs> sich danach sehnen,
-            </p>
+               <lb facs="#facs_1_region_1684670089590_769_tl_37" n="N039"/>und ganz besonders seiner allerkomischesten: dem „<rs type="bibl" ref="#hsl_work_id_1611">Kadi</rs>“
+               <lb facs="#facs_1_region_1684670089590_769_tl_38" n="N040"/>(<rs type="bibl" ref="#hsl_work_id_1611">Le Caïd</rs>). Eine im Grunde sehr ernstgestimmte und ideali
+               <lb facs="#facs_1_line_1759580277772_81" n="N041" break="no"/>stische Natur, mochte Ambroise <rs type="person" ref="#hsl_person_id_305">Thomas</rs> sich danach sehnen,<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
+            <cb n="4"/>
+            <p prev="true">
                <lb facs="#facs_2_region_1684670099314_775_tl_1" n="N001"/>einmal in einen rein idealen Stoff, wie in eine klare Quelle
-               <lb facs="#facs_2_region_1684670099314_775_tl_2" n="N002"/>unterzutauchen. Diese von den Salzen und Farben des all¬
-               <lb facs="#facs_2_region_1684670099314_775_tl_3" n="N003"/>täglichen Theater-Amusements ungetrübte Quelle erblickte er
+               <lb facs="#facs_2_region_1684670099314_775_tl_2" n="N002"/>unterzutauchen. Diese von den Salzen und Farben des all
+               <lb facs="#facs_2_region_1684670099314_775_tl_3" n="N003" break="no"/>täglichen Theater-Amusements ungetrübte Quelle erblickte er
                <lb facs="#facs_2_region_1684670099314_775_tl_4" n="N004"/>in der classischen Mythologie. Der zarteste Mythus der
                <lb facs="#facs_2_region_1684670099314_775_tl_5" n="N005"/>Griechen müßte wol die zarteste Musik zulassen; ein Lied,
                <lb facs="#facs_2_region_1684670099314_775_tl_6" n="N006"/>das die <hi rendition="#em">Liebe</hi> und die <hi rendition="#em">Seele</hi> selbst zusammen singen,
@@ -1332,61 +1299,53 @@
                <lb facs="#facs_2_region_1684670099314_775_tl_13" n="N013"/>aufgeht, erscheint darum noch nicht geeignet, die Realität des
                <lb facs="#facs_2_region_1684670099314_775_tl_14" n="N014"/>Bühnenlebens zu vertragen. Die redlichsten Bemühungen
                <lb facs="#facs_2_region_1684670099314_775_tl_15" n="N015"/>moderner Librettodichter und Componisten, uns in dem
-               <lb facs="#facs_2_region_1684670099314_775_tl_16" n="N016"/>idealen Traumleben von <rs type="person">Amor</rs> und <rs type="person">Psyche</rs> zu erhalten,
+               <lb facs="#facs_2_region_1684670099314_775_tl_16" n="N016"/>idealen Traumleben von <rs type="person" ref="#hsl_person_id_3189">Amor</rs> und <rs type="person" ref="#hsl_person_id_7745">Psyche</rs> zu erhalten,
                <lb facs="#facs_2_line_1759580346412_117" n="N017"/>werden nicht dem Geist der Zeit widerstehen können, der sie
                <lb facs="#facs_2_region_1684670099314_775_tl_18" n="N018"/>selbst wie uns beherrscht. Es wird wol mehr als Ein heißer
                <lb facs="#facs_2_region_1684670099314_775_tl_19" n="N019"/>Oeltropfen uns unsanft aus dem Traum erwecken.
-               <lb facs="#facs_2_region_1684670099314_775_tl_20" n="N020"/>Die Herren Jules <hi rendition="#em">
-                  <rs type="person">Barbier</rs>
-               </hi> und M. <hi rendition="#em">
-                  <rs type="person">Carré</rs>
-               </hi> (be¬
-               <lb facs="#facs_2_region_1684670099314_775_tl_21" n="N021"/>kanntlich auch die Textdichter der Opern „<rs type="bibl">Faust</rs>“, „<rs type="bibl">Mignon</rs>“,
-               <lb facs="#facs_2_region_1684670099314_775_tl_22" n="N022"/>„<rs type="bibl">Hamlet</rs>“) haben die Handlung folgenderweise gestaltet: Der
-               <lb facs="#facs_2_region_1684670099314_775_tl_23" n="N023"/>Königstochter <rs type="person">Psyche</rs> werden ob ihrer Schönheit göttliche
+            </p><p>
+               <lb facs="#facs_2_region_1684670099314_775_tl_20" n="N020"/>Die Herren Jules <hi rendition="#em"><rs type="person" ref="#hsl_person_id_90">Barbier</rs></hi> und M. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_84">Carré</rs></hi> (be
+               <lb facs="#facs_2_region_1684670099314_775_tl_21" n="N021" break="no"/>kanntlich auch die Textdichter der Opern „<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“, „<rs type="bibl" ref="#hsl_work_id_894">Mignon</rs>“,
+               <lb facs="#facs_2_region_1684670099314_775_tl_22" n="N022"/>„<rs type="bibl" ref="#hsl_work_id_895">Hamlet</rs>“) haben die Handlung folgenderweise gestaltet: Der
+               <lb facs="#facs_2_region_1684670099314_775_tl_23" n="N023"/>Königstochter <rs type="person" ref="#hsl_person_id_7880">Psyche</rs> werden ob ihrer Schönheit göttliche
                <lb facs="#facs_2_region_1684670099314_775_tl_24" n="N024"/>Ehren erwiesen. Darüber erzürnt und eifersüchtig, sendet
-               <lb facs="#facs_2_region_1684670099314_775_tl_25" n="N025"/>
-               <rs type="person">Venus</rs> den Götterboten <rs type="person">Mercur</rs> zur Erde, um <rs type="person">Psyche</rs> zu
-               <lb facs="#facs_2_region_1684670099314_775_tl_26" n="N026"/>verderben. Auf Anstiften <rs type="person">Mercur</rs>'s soll <rs type="person">Psyche</rs>, angeblich um
+               <lb facs="#facs_2_region_1684670099314_775_tl_25" n="N025"/><rs type="person" ref="#hsl_person_id_1390">Venus</rs> den Götterboten <rs type="person" ref="#hsl_person_id_7882">Mercur</rs> zur Erde, um <rs type="person" ref="#hsl_person_id_7880">Psyche</rs> zu
+               <lb facs="#facs_2_region_1684670099314_775_tl_26" n="N026"/>verderben. Auf Anstiften <rs type="person" ref="#hsl_person_id_7882">Mercur</rs>’s soll <rs type="person" ref="#hsl_person_id_7880">Psyche</rs>, angeblich um
                <lb facs="#facs_2_line_1759580368875_128" n="N027"/>die Seestürme zu besänftigen und die Götter zu versöhnen,
-               <lb facs="#facs_2_region_1684670099314_775_tl_28" n="N028"/>als Opfer den Wellen preisgegeben werden. <rs type="person">Eros</rs>, der beim
-               <lb facs="#facs_2_region_1684670099314_775_tl_29" n="N029"/>ersten Anblick <rs type="person">Psyche</rs>'s leidenschaftlich für sie erglüht, rettet
-               <lb facs="#facs_2_region_1684670099314_775_tl_30" n="N030"/>sie, indem er sie durch <rs type="person">Zephyr</rs> in die Lüfte entführen läßt.
-               <lb facs="#facs_2_region_1684670099314_775_tl_31" n="N031"/>Der zweite Act spielt im Palast des <rs type="person">Eros</rs>. <rs type="person">Mercur</rs> meldet,
-               <lb facs="#facs_2_region_1684670099314_775_tl_32" n="N032"/>daß <rs type="person">Venus</rs> in die Vermälung ihres <rs type="person">Sohn</rs>es mit <rs type="person">Psyche</rs> unter
+               <lb facs="#facs_2_region_1684670099314_775_tl_28" n="N028"/>als Opfer den Wellen preisgegeben werden. <rs type="person" ref="#hsl_person_id_4105">Eros</rs>, der beim
+               <lb facs="#facs_2_region_1684670099314_775_tl_29" n="N029"/>ersten Anblick <rs type="person" ref="#hsl_person_id_7880">Psyche</rs>’s leidenschaftlich für sie erglüht, rettet
+               <lb facs="#facs_2_region_1684670099314_775_tl_30" n="N030"/>sie, indem er sie durch <rs type="person" ref="#hsl_person_id_5428">Zephyr</rs> in die Lüfte entführen läßt.
+               <lb facs="#facs_2_region_1684670099314_775_tl_31" n="N031"/>Der zweite Act spielt im Palast des <rs type="person" ref="#hsl_person_id_4105">Eros</rs>. <rs type="person" ref="#hsl_person_id_7882">Mercur</rs> meldet,
+               <lb facs="#facs_2_region_1684670099314_775_tl_32" n="N032"/>daß <rs type="person" ref="#hsl_person_id_1390">Venus</rs> in die Vermälung ihres <rs type="person" ref="#hsl_person_id_4105">Sohn</rs>es mit <rs type="person" ref="#hsl_person_id_7880">Psyche</rs> unter
                <lb facs="#facs_2_line_1759580390861_139" n="N033"/>der Bedingung einwillige, daß Letztere ihren Gemal niemals
-               <lb facs="#facs_2_line_1759580412467_150" n="N034"/>von Angesicht sehe, also nur bei dunkler Nacht mit ihm ver¬
-               <lb facs="#facs_2_region_1684670099314_775_tl_35" n="N035"/>kehre. Für die scenische Wahrscheinlichkeit ist das eine schwie¬
-               <lb facs="#facs_2_region_1684670099314_775_tl_36" n="N036"/>rige Aufgabe. So oft <rs type="person">Eros</rs> auftritt, verfinstert sich die Bühne,
+               <lb facs="#facs_2_line_1759580412467_150" n="N034"/>von Angesicht sehe, also nur bei dunkler Nacht mit ihm ver
+               <lb facs="#facs_2_region_1684670099314_775_tl_35" n="N035" break="no"/>kehre. Für die scenische Wahrscheinlichkeit ist das eine schwie
+               <lb facs="#facs_2_region_1684670099314_775_tl_36" n="N036" break="no"/>rige Aufgabe. So oft <rs type="person" ref="#hsl_person_id_4105">Eros</rs> auftritt, verfinstert sich die Bühne,
                <lb facs="#facs_2_region_1684670099314_775_tl_37" n="N037"/>aber dieser Nothbehelf reicht nicht aus, denn da wir den
-               <lb facs="#facs_2_region_1684670099314_775_tl_38" n="N038"/>
-               <rs type="person">Eros</rs> trotzdem so deutlich sehen, wie alle Mitspielenden, so
+               <lb facs="#facs_2_region_1684670099314_775_tl_38" n="N038"/><rs type="person" ref="#hsl_person_id_4105">Eros</rs> trotzdem so deutlich sehen, wie alle Mitspielenden, so
                <lb facs="#facs_2_region_1684670099314_775_tl_39" n="N039"/>bleibt der Vorgang fast unverständlich. Im Theater glauben
                <lb facs="#facs_2_region_1684670099314_775_tl_40" n="N040"/>wir nicht leicht, was wir nicht sehen, am schwersten aber das
-               <lb facs="#facs_2_line_1759580438100_163" n="N041"/>Gegentheil von dem, was wir wirklich sehen. Von <rs type="person">Mercur</rs>
-            </p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1684670103290_778_tl_1" n="N001"/>verleitet, schleicht sich <rs type="person">Psyche</rs> im dritten Acte zu dem schlafen¬
-               <lb facs="#facs_2_region_1684670103290_778_tl_2" n="N002"/>den <rs type="person">Eros</rs>, der vom Schein ihrer Lampe (hier ohne den heißen
+               <lb facs="#facs_2_line_1759580438100_163" n="N041"/>Gegentheil von dem, was wir wirklich sehen. Von <rs type="person" ref="#hsl_person_id_7882">Mercur</rs><space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+               <lb facs="#facs_2_region_1684670103290_778_tl_1" n="N001"/>verleitet, schleicht sich <rs type="person" ref="#hsl_person_id_7880">Psyche</rs> im dritten Acte zu dem schlafen
+               <lb facs="#facs_2_region_1684670103290_778_tl_2" n="N002" break="no"/>den <rs type="person" ref="#hsl_person_id_4105">Eros</rs>, der vom Schein ihrer Lampe (hier ohne den heißen
                <lb facs="#facs_2_region_1684670103290_778_tl_3" n="N003"/>Oeltropfen) erwacht und sofort versinkt. Im vierten und
                <lb facs="#facs_2_region_1684670103290_778_tl_4" n="N004"/>letzten Acte finden wir die ob ihres Fehltrittes verzweifelnde
-               <lb facs="#facs_2_region_1684670103290_778_tl_5" n="N005"/>
-               <rs type="person">Psyche</rs> in einer Wildniß wieder; <rs type="person">Eros</rs>, als Schäfer ver¬
-               <lb facs="#facs_2_region_1684670103290_778_tl_6" n="N006"/>kleidet, rettet sie vor den Bedrohungen <rs type="person">Mercur</rs>'s. Sie er¬
-               <lb facs="#facs_2_region_1684670103290_778_tl_7" n="N007"/>kennt <rs type="person">Eros</rs> an der Stimme; er will ihr entfliehen, sinkt ihr
+               <lb facs="#facs_2_region_1684670103290_778_tl_5" n="N005"/><rs type="person" ref="#hsl_person_id_7880">Psyche</rs> in einer Wildniß wieder; <rs type="person" ref="#hsl_person_id_4105">Eros</rs>, als Schäfer ver
+               <lb facs="#facs_2_region_1684670103290_778_tl_6" n="N006" break="no"/>kleidet, rettet sie vor den Bedrohungen <rs type="person" ref="#hsl_person_id_7882">Mercur</rs>’s. Sie er
+               <lb facs="#facs_2_region_1684670103290_778_tl_7" n="N007" break="no"/>kennt <rs type="person" ref="#hsl_person_id_4105">Eros</rs> an der Stimme; er will ihr entfliehen, sinkt ihr
                <lb facs="#facs_2_line_1759580308347_96" n="N008"/>aber schließlich, von Leidenschaft übermannt, an die Brust
-               <lb facs="#facs_2_region_1684670103290_778_tl_8" n="N009"/>und gesteht ihr neuerdings seine Liebe. Von seinem Kuß ge¬
-               <lb facs="#facs_2_region_1684670103290_778_tl_9" n="N010"/>tödtet, sinkt <rs type="person">Psyche</rs> leblos nieder. Durch die Gnade der
+               <lb facs="#facs_2_region_1684670103290_778_tl_8" n="N009"/>und gesteht ihr neuerdings seine Liebe. Von seinem Kuß ge
+               <lb facs="#facs_2_region_1684670103290_778_tl_9" n="N010" break="no"/>tödtet, sinkt <rs type="person" ref="#hsl_person_id_7880">Psyche</rs> leblos nieder. Durch die Gnade der
                <lb facs="#facs_2_line_1759580326859_105" n="N011"/>Götter erwacht sie wieder zum Leben. Arm in Arm mit
-               <lb facs="#facs_2_region_1684670103290_778_tl_10" n="N012"/>
-               <rs type="person">Eros</rs> blickt sie zum Himmel auf, wo <rs type="person">Aphrodite</rs> in ihrem
+               <lb facs="#facs_2_region_1684670103290_778_tl_10" n="N012"/><rs type="person" ref="#hsl_person_id_4105">Eros</rs> blickt sie zum Himmel auf, wo <rs type="person" ref="#hsl_person_id_700">Aphrodite</rs> in ihrem
                <lb facs="#facs_2_line_1759580519947_189" n="N013"/>Muschelwagen, von Amoretten umgeben, erscheint und dem
-               <lb facs="#facs_2_region_1684670103290_778_tl_12" n="N014"/>wieder vereinten <rs type="person">Liebespaar</rs> ihre Verzeihung zuwinkt.
+               <lb facs="#facs_2_region_1684670103290_778_tl_12" n="N014"/>wieder vereinten <rs type="person" ref="#hsl_person_id_4105 #hsl_person_id_7880">Liebespaar</rs> ihre Verzeihung zuwinkt.
+            </p><p>
                <lb facs="#facs_2_region_1684670103290_778_tl_13" n="N015"/>Der Leser ersieht aus dieser knappen Skizze, worin und
-               <lb facs="#facs_2_region_1684670103290_778_tl_14" n="N016"/>wie weit die Librettisten der „<rs type="bibl">Psyche</rs>“ von der Erzählung des
-               <lb facs="#facs_2_line_1759580346412_116" n="N017"/>
-               <rs type="person">Apulejus</rs> und von dem <rs type="person">Rafael</rs>'schen <rs type="bibl">Bilder-Cyklus</rs> in der
+               <lb facs="#facs_2_region_1684670103290_778_tl_14" n="N016"/>wie weit die Librettisten der „<rs type="bibl" ref="#hsl_work_id_2527">Psyche</rs>“ von der <rs type="bibl" ref="#hsl_work_id_5578">Erzählung</rs> des
+               <lb facs="#facs_2_line_1759580346412_116" n="N017"/><rs type="person" ref="#hsl_person_id_7883">Apulejus</rs> und von dem <rs type="person" ref="#hsl_person_id_380">Rafael</rs>’schen <rs type="bibl" ref="#hsl_work_id_5577">Bilder-Cyklus</rs> in der
                <lb facs="#facs_2_region_1684670103290_778_tl_15" n="N018"/>Farnesina abstehen. Der Musik bieten sie einige poetische
                <lb facs="#facs_2_region_1684670103290_778_tl_16" n="N019"/>Situationen, welche das zarte, distinguirte Talent unseres
                <lb facs="#facs_2_region_1684670103290_778_tl_17" n="N020"/>Componisten lebhaft anregten. Doch breitet das rein lyrische
@@ -1398,183 +1357,152 @@
                <lb facs="#facs_2_region_1684670103290_778_tl_23" n="N026"/>Orchester nicht selten sind, aber doch nicht allmächtig genug
                <lb facs="#facs_2_line_1759580368875_127" n="N027"/>gegen die undramatische Eintönigkeit des Ganzen. Die Oper
                <lb facs="#facs_2_region_1684670103290_778_tl_24" n="N028"/>entbehrt der kräftigen Contraste; wir wandeln in lauter
-               <lb facs="#facs_2_region_1684670103290_778_tl_25" n="N029"/>Lichtschimmer und lechzen nach einigen schwarzen Schlag¬
-               <lb facs="#facs_2_region_1684670103290_778_tl_26" n="N030"/>schatten. Die intensivste Wirkung erreicht der Componist im
+               <lb facs="#facs_2_region_1684670103290_778_tl_25" n="N029"/>Lichtschimmer und lechzen nach einigen schwarzen Schlag
+               <lb facs="#facs_2_region_1684670103290_778_tl_26" n="N030" break="no"/>schatten. Die intensivste Wirkung erreicht der Componist im
                <lb facs="#facs_2_region_1684670103290_778_tl_27" n="N031"/>vierten Acte, wo er für die Seelenqual der verlassenen
-               <lb facs="#facs_2_region_1684670103290_778_tl_28" n="N032"/>
-               <rs type="person">Psyche</rs> und für das schmerzlich-glückliche Wiederfinden der
+               <lb facs="#facs_2_region_1684670103290_778_tl_28" n="N032"/><rs type="person" ref="#hsl_person_id_7880">Psyche</rs> und für das schmerzlich-glückliche Wiederfinden der
                <lb facs="#facs_2_line_1759580390861_138" n="N033"/>beiden Liebenden lebhafte und starke Accente findet. Hier
                <lb facs="#facs_2_line_1759580412467_149" n="N034"/>wächst der Tondichter dem Librettisten entschieden über den
                <lb facs="#facs_2_region_1684670103290_778_tl_29" n="N035"/>Kopf. Leider kommt er damit etwas spät, und wir scheiden
                <lb facs="#facs_2_region_1684670103290_778_tl_30" n="N036"/>schließlich lyrikübersättigt, lichtscheu und göttermüde von dieser
-               <lb facs="#facs_2_region_1684670103290_778_tl_31" n="N037"/>vieractigen „<rs type="bibl">Psyche</rs>“. Sie nennt sich auch in der neuen
+               <lb facs="#facs_2_region_1684670103290_778_tl_31" n="N037"/>vieractigen „<rs type="bibl" ref="#hsl_work_id_2527">Psyche</rs>“. Sie nennt sich auch in der neuen
                <lb facs="#facs_2_region_1684670103290_778_tl_32" n="N038"/>Bearbeitung eine „komische Oper“, obwol das Wenige, was
                <lb facs="#facs_2_region_1684670103290_778_tl_33" n="N039"/>in der Urgestalt noch daran erinnerte, jetzt beseitigt ist. Zwei
-               <lb facs="#facs_2_region_1684670103290_778_tl_34" n="N040"/>realistische Nebenfiguren, die beiden von <rs type="person">Psyche</rs> verschmähten
-               <lb facs="#facs_2_line_1759580454323_172" n="N041"/>
-               <rs type="person">Freier</rs> (ehedem von den trefflichen Komikern <hi rendition="#em">
-                  <rs type="person">Ste.-Foy</rs>
-               </hi>
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1684670106734_781_tl_1" n="N001"/>und <hi rendition="#em">
-                  <rs type="person">Prilleux</rs>
-               </hi> gespielt) sind gestrichen, die Rollen der beiden
-               <lb facs="#facs_2_region_1684670106734_781_tl_2" n="N002"/>neidischen <rs type="person">Schwestern</rs>
-               <rs type="person">Psyche</rs>'s stark gekürzt und dem
-               <lb facs="#facs_2_region_1684670106734_781_tl_3" n="N003"/>
-               <rs type="person">Mercurius</rs> nur anfangs einige Züge von heiterer
-               <lb facs="#facs_2_region_1684670106734_781_tl_4" n="N004"/>Ironie gelassen. Endlich hat der Componist den ge¬
-               <lb facs="#facs_2_region_1684670106734_781_tl_5" n="N005"/>sprochenen Dialog der ersten Bearbeitung durchwegs in
+               <lb facs="#facs_2_region_1684670103290_778_tl_34" n="N040"/>realistische Nebenfiguren, die beiden von <rs type="person" ref="#hsl_person_id_7880">Psyche</rs> verschmähten
+               <lb facs="#facs_2_line_1759580454323_172" n="N041"/><rs type="person" ref="#hsl_person_id_7890 #hsl_person_id_7891">Freier</rs> (ehedem von den trefflichen Komikern <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6627">Ste.-Foy</rs></hi><space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+               <lb facs="#facs_2_region_1684670106734_781_tl_1" n="N001"/>und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7884">Prilleux</rs></hi> gespielt) sind gestrichen, die Rollen der beiden
+               <lb facs="#facs_2_region_1684670106734_781_tl_2" n="N002"/>neidischen <rs type="person" ref="#hsl_person_id_7892 #hsl_person_id_7893">Schwestern</rs><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_7880">Psyche</rs>’s stark gekürzt und dem
+               <lb facs="#facs_2_region_1684670106734_781_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_7882">Mercurius</rs> nur anfangs einige Züge von heiterer
+               <lb facs="#facs_2_region_1684670106734_781_tl_4" n="N004"/>Ironie gelassen. Endlich hat der Componist den ge
+               <lb facs="#facs_2_region_1684670106734_781_tl_5" n="N005" break="no"/>sprochenen Dialog der ersten Bearbeitung durchwegs in
                <lb facs="#facs_2_region_1684670106734_781_tl_6" n="N006"/>Recitative und Ariosos verwandelt. Dadurch ist die Oper
                <lb facs="#facs_2_region_1684670106734_781_tl_7" n="N007"/>stylistisch einheitlicher und idealer geworden, aber gewiß nicht
-               <lb facs="#facs_2_region_1684670106734_781_tl_8" n="N008"/>lebendiger oder wirksamer. Die Vermehrung des musikali¬
-               <lb facs="#facs_2_region_1684670106734_781_tl_9" n="N009"/>schen Theils macht den jetzt ununterbrochenen Strom der
+               <lb facs="#facs_2_region_1684670106734_781_tl_8" n="N008"/>lebendiger oder wirksamer. Die Vermehrung des musikali
+               <lb facs="#facs_2_region_1684670106734_781_tl_9" n="N009" break="no"/>schen Theils macht den jetzt ununterbrochenen Strom der
                <lb facs="#facs_2_region_1684670106734_781_tl_10" n="N010"/>Lyrik noch langsamer fließen. Daß in den neueren Werken
                <lb facs="#facs_2_region_1684670106734_781_tl_11" n="N011"/>der Opéra Comique der gesprochene Dialog gänzlich
                <lb facs="#facs_2_region_1684670106734_781_tl_12" n="N012"/>oder doch nahezu verbannt wird, scheint mir kein Vortheil.
                <lb facs="#facs_2_line_1759580519947_188" n="N013"/>Der Dialog machte bisher die Opéra Comique zu einer
-               <lb facs="#facs_2_region_1684670106734_781_tl_13" n="N014"/>Schule, ja zur einzigen Schule guten Sprechens für Opern¬
-               <lb facs="#facs_2_region_1684670106734_781_tl_14" n="N015"/>sänger. Es war mitunter deren einzige Kunst, die werden sie
+               <lb facs="#facs_2_region_1684670106734_781_tl_13" n="N014"/>Schule, ja zur einzigen Schule guten Sprechens für Opern
+               <lb facs="#facs_2_region_1684670106734_781_tl_14" n="N015" break="no"/>sänger. Es war mitunter deren einzige Kunst, die werden sie
                <lb facs="#facs_2_region_1684670106734_781_tl_15" n="N016"/>jetzt auch noch verlernen. Seit der Vorliebe für ernste Stoffe,
-               <lb facs="#facs_2_region_1684670106734_781_tl_16" n="N017"/>dem Aufgeben des gesprochenen Dialogs und der zunehmen¬
-               <lb facs="#facs_2_region_1684670106734_781_tl_17" n="N018"/>den Verwendung des Ballets in der Komischen Oper ist die
-               <lb facs="#facs_2_region_1684670106734_781_tl_18" n="N019"/>Grenze zwischen dieser und der Großen Oper bis zur Un¬
-               <lb facs="#facs_2_region_1684670106734_781_tl_19" n="N020"/>kenntlichkeit verwischt. Kaum verdient die heutige Opéra
+               <lb facs="#facs_2_region_1684670106734_781_tl_16" n="N017"/>dem Aufgeben des gesprochenen Dialogs und der zunehmen
+               <lb facs="#facs_2_region_1684670106734_781_tl_17" n="N018" break="no"/>den Verwendung des Ballets in der Komischen Oper ist die
+               <lb facs="#facs_2_region_1684670106734_781_tl_18" n="N019"/>Grenze zwischen dieser und der Großen Oper bis zur Un
+               <lb facs="#facs_2_region_1684670106734_781_tl_19" n="N020" break="no"/>kenntlichkeit verwischt. Kaum verdient die heutige Opéra
                <lb facs="#facs_2_region_1684670106734_781_tl_20" n="N021"/>Comique noch diesen Namen, sie ist jetzt eigentlich eine zweite
                <lb facs="#facs_2_region_1684670106734_781_tl_21" n="N022"/>„Große Oper“ oder wird es doch von Tag zu Tag
                <lb facs="#facs_2_region_1684670106734_781_tl_22" n="N023"/>mehr. Wir beklagen dies um der ganzen so anmuthigen und
-               <lb facs="#facs_2_region_1684670106734_781_tl_23" n="N024"/>echt <rs type="place">französisch</rs>en Kunstgattung willen und speciell in Bezug
-               <lb facs="#facs_2_region_1684670106734_781_tl_24" n="N025"/>auf Ambroise <rs type="person">Thomas</rs>, der sein Bestes in der älteren Form
+               <lb facs="#facs_2_region_1684670106734_781_tl_23" n="N024"/>echt <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Kunstgattung willen und speciell in Bezug
+               <lb facs="#facs_2_region_1684670106734_781_tl_24" n="N025"/>auf Ambroise <rs type="person" ref="#hsl_person_id_305">Thomas</rs>, der sein Bestes in der älteren Form
                <lb facs="#facs_2_region_1684670106734_781_tl_25" n="N026"/>der Opéra Comique und im Genre des Mezzo-carattere
-               <lb facs="#facs_2_region_1684670106734_781_tl_26" n="N027"/>geschrieben hat: „<rs type="bibl">Der Kadi</rs>“, „<rs type="bibl">Ein Sommernachtstraum</rs>“,
-               <lb facs="#facs_2_region_1684670106734_781_tl_27" n="N028"/>„<rs type="bibl">Der Roman Elvira's</rs>“, „<rs type="bibl">Raymond</rs>“ und vor Allem
-               <lb facs="#facs_2_region_1684670106734_781_tl_28" n="N029"/>„<rs type="bibl">Mignon</rs>“. Letztere selbst ist wieder besser und eigenthüm¬
-               <lb facs="#facs_2_region_1684670106734_781_tl_29" n="N030"/>licher in ihrer <rs type="place">französisch</rs>en Originalgestalt mit gesprochenem
-               <lb facs="#facs_2_region_1684670106734_781_tl_30" n="N031"/>Dialog und gutem Ausgang, als in der späteren <rs type="place" continued="true">italieni¬</rs>
-               <lb facs="#facs_2_region_1684670106734_781_tl_31" n="N032"/>
-               <rs type="place" continued="true">sch</rs>en Bearbeitung mit Recitativen und tragischem Ende.
-               <lb facs="#facs_2_region_1684670106734_781_tl_32" n="N033"/>Der Director der Opéra Comique, Herr <hi rendition="#em">
-                  <rs type="person">Carvalho</rs>
-               </hi>,
-               <lb facs="#facs_2_region_1684670106734_781_tl_33" n="N034"/>hat sich angestrengt, die Oper „<rs type="bibl">Psyché</rs>“ nicht blos glänzend
+               <lb facs="#facs_2_region_1684670106734_781_tl_26" n="N027"/>geschrieben hat: „<rs type="bibl" ref="#hsl_work_id_1611">Der Kadi</rs>“, „<rs type="bibl" ref="#hsl_work_id_2446">Ein Sommernachtstraum</rs>“,
+               <lb facs="#facs_2_region_1684670106734_781_tl_27" n="N028"/>„<rs type="bibl" ref="#hsl_work_id_4708">Der Roman Elvira’s</rs>“, „<rs type="bibl" ref="#hsl_work_id_2447">Raymond</rs>“ und vor Allem
+               <lb facs="#facs_2_region_1684670106734_781_tl_28" n="N029"/>„<rs type="bibl" ref="#hsl_work_id_894">Mignon</rs>“. Letztere selbst ist wieder besser und eigenthüm
+               <lb facs="#facs_2_region_1684670106734_781_tl_29" n="N030" break="no"/>licher in ihrer <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Originalgestalt mit gesprochenem
+               <lb facs="#facs_2_region_1684670106734_781_tl_30" n="N031"/>Dialog und gutem Ausgang, als in der späteren <rs type="place" ref="#hsl_place_id_28">italieni
+               <lb facs="#facs_2_region_1684670106734_781_tl_31" n="N032" break="no"/>sch</rs>en Bearbeitung mit Recitativen und tragischem Ende.
+            </p><p>
+               <lb facs="#facs_2_region_1684670106734_781_tl_32" n="N033"/>Der Director der Opéra Comique, Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5906">Carvalho</rs></hi>,
+               <lb facs="#facs_2_region_1684670106734_781_tl_33" n="N034"/>hat sich angestrengt, die Oper „<rs type="bibl" ref="#hsl_work_id_2527">Psyché</rs>“ nicht blos glänzend
                <lb facs="#facs_2_region_1684670106734_781_tl_34" n="N035"/>auszustatten, sondern auch besser zu besetzen, als die übrigen
-               <lb facs="#facs_2_region_1684670106734_781_tl_35" n="N036"/>Opern seines jetzigen Repertoires. Die Sängerinnen De¬
-               <lb facs="#facs_2_region_1684670106734_781_tl_36" n="N037"/>moiselle <hi rendition="#em">
-                  <rs type="person">Heilbronn</rs>
-               </hi> und Madame <hi rendition="#em">
-                  <rs type="person">Engalli</rs>
-               </hi>, deren
+               <lb facs="#facs_2_region_1684670106734_781_tl_35" n="N036"/>Opern seines jetzigen Repertoires. Die Sängerinnen De
+               <lb facs="#facs_2_region_1684670106734_781_tl_36" n="N037" break="no"/>moiselle <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5401">Heilbronn</rs></hi> und Madame <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7889">Engalli</rs></hi>, deren
                <lb facs="#facs_2_region_1684670106734_781_tl_37" n="N038"/>Namen wir bisher nicht auf den Affichen begegneten, scheinen
-               <lb facs="#facs_2_region_1684670106734_781_tl_38" n="N039"/>eigens für die Novität engagirt worden zu sein. Die <hi rendition="#em">
-                  <rs type="person" continued="true">Heil¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1684670106734_781_tl_39" n="N040"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">bronn</rs>
-               </hi> — dem <rs type="place">Wien</rs>er Publicum aus der <rs type="place">italienisch</rs>en
-               <lb facs="#facs_2_line_1759580454323_171" n="N041"/>Stagione <date month="0" day="0" year="0">1876</date> vortheilhaft bekannt — sang die <rs type="person">Psyche</rs> mit
-            </p>
+               <lb facs="#facs_2_region_1684670106734_781_tl_38" n="N039"/>eigens für die Novität engagirt worden zu sein. Die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5401">Heil
+               <lb facs="#facs_2_region_1684670106734_781_tl_39" n="N040" break="no"/>bronn</rs></hi> — dem <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicum aus der <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en
+               <lb facs="#facs_2_line_1759580454323_171" n="N041"/>Stagione <date>1876</date> vortheilhaft bekannt — sang die <rs type="person" ref="#hsl_person_id_7880">Psyche</rs> mit<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
+            <cb n="7"/>
+            <p prev="true">
                <lb facs="#facs_3_line_1759580614700_206" n="N001"/>etwas ermüdeter Stimme, aber mit vornehmem, graziösem
                <lb facs="#facs_3_region_1684670116259_787_tl_2" n="N002"/>Ausdruck; an gefälliger Repräsentation dürfte sie in dieser
                <lb facs="#facs_3_region_1684670116259_787_tl_3" n="N003"/>Rolle von Wenigen übertroffen werden. Als ein recht frischer,
-               <lb facs="#facs_3_region_1684670116259_787_tl_4" n="N004"/>degagirter <rs type="person">Eros</rs> stand ihr Madame <hi rendition="#em">
-                  <rs type="person">Engalli</rs>
-               </hi> zur Seite,
-               <lb facs="#facs_3_region_1684670116259_787_tl_5" n="N005"/>bekanntlich eine junge <rs type="place">russisch</rs>e Fürstin von lebhaftem dra¬
-               <lb facs="#facs_3_region_1684670116259_787_tl_6" n="N006"/>matischen Temperament. Sie besitzt einen kräftigen, nur in
+               <lb facs="#facs_3_region_1684670116259_787_tl_4" n="N004"/>degagirter <rs type="person" ref="#hsl_person_id_4105">Eros</rs> stand ihr Madame <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7889">Engalli</rs></hi> zur Seite,
+               <lb facs="#facs_3_region_1684670116259_787_tl_5" n="N005"/>bekanntlich eine junge <rs type="place" ref="#hsl_place_id_48">russisch</rs>e Fürstin von lebhaftem dra
+               <lb facs="#facs_3_region_1684670116259_787_tl_6" n="N006" break="no"/>matischen Temperament. Sie besitzt einen kräftigen, nur in
                <lb facs="#facs_3_region_1684670116259_787_tl_7" n="N007"/>der Höhe etwas gepreßten Mezzosopran und singt sehr gut
-               <lb facs="#facs_3_region_1684670116259_787_tl_8" n="N008"/>für eine Fürstin. Neben diesen beiden Hauptpersonen er¬
-               <lb facs="#facs_3_region_1684670116259_787_tl_9" n="N009"/>scheinen die übrigen Rollen durchaus untergeordnet, allen¬
-               <lb facs="#facs_3_line_1759580642604_223" n="N010"/>falls mit Ausnahme des <rs type="person">Mercur</rs>, der an dem Baritonisten
-               <lb facs="#facs_3_line_1759583887612_883" n="N011"/>
-               <hi rendition="#em">
-                  <rs type="person">Morlet</rs>
-               </hi> einen sehr gewandten Darsteller und tüchtigen
-               <lb facs="#facs_3_line_1759583889772_886" n="N012"/>Sänger findet. Diese drei Sänger, sowie die neuen Deco¬
-               <lb facs="#facs_3_region_1684670116259_787_tl_10" n="N013"/>rationen, Costüme und das Ballet ernteten laute Anerkennung.
+               <lb facs="#facs_3_region_1684670116259_787_tl_8" n="N008"/>für eine Fürstin. Neben diesen beiden Hauptpersonen er
+               <lb facs="#facs_3_region_1684670116259_787_tl_9" n="N009" break="no"/>scheinen die übrigen Rollen durchaus untergeordnet, allen
+               <lb facs="#facs_3_line_1759580642604_223" n="N010" break="no"/>falls mit Ausnahme des <rs type="person" ref="#hsl_person_id_7882">Mercur</rs>, der an dem Baritonisten
+               <lb facs="#facs_3_line_1759583887612_883" n="N011"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_7894">Morlet</rs></hi> einen sehr gewandten Darsteller und tüchtigen
+               <lb facs="#facs_3_line_1759583889772_886" n="N012"/>Sänger findet. Diese drei Sänger, sowie die neuen Deco
+               <lb facs="#facs_3_region_1684670116259_787_tl_10" n="N013" break="no"/>rationen, Costüme und das Ballet ernteten laute Anerkennung.
                <lb facs="#facs_3_region_1684670116259_787_tl_11" n="N014"/>Wenn wir von dem stattlichen scenischen Gewand sprechen,
-               <lb facs="#facs_3_region_1684670116259_787_tl_12" n="N015"/>worin <rs type="person">Psyche</rs> sich in der Opéra Comique präsentirt, so müssen
-               <lb facs="#facs_3_region_1684670116259_787_tl_13" n="N016"/>wir auch der Sorgfalt gedenken, welche Herr <hi rendition="#em">
-                  <rs type="person">Heugel</rs>
-               </hi>, der
-               <lb facs="#facs_3_line_1759580634171_218" n="N017"/>thätige und geschmackvolle Verleger von „<rs type="bibl">Mignon</rs>“ und
-               <lb facs="#facs_3_region_1684670116259_787_tl_16" n="N018"/>„<rs type="bibl">Hamlet</rs>“, auf die neue Edition der „<rs type="bibl">Psyche</rs>“ verwendet
+               <lb facs="#facs_3_region_1684670116259_787_tl_12" n="N015"/>worin <rs type="person" ref="#hsl_person_id_7880">Psyche</rs> sich in der Opéra Comique präsentirt, so müssen
+               <lb facs="#facs_3_region_1684670116259_787_tl_13" n="N016"/>wir auch der Sorgfalt gedenken, welche Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6713">Heugel</rs></hi>, der
+               <lb facs="#facs_3_line_1759580634171_218" n="N017"/>thätige und geschmackvolle Verleger von „<rs type="bibl" ref="#hsl_work_id_894">Mignon</rs>“ und
+               <lb facs="#facs_3_region_1684670116259_787_tl_16" n="N018"/>„<rs type="bibl" ref="#hsl_work_id_895">Hamlet</rs>“, auf die neue Edition der „<rs type="bibl" ref="#hsl_work_id_2527">Psyche</rs>“ verwendet
                <lb facs="#facs_3_region_1684670116259_787_tl_17" n="N019"/>hat. Die Lieblingsnummern daraus: die erste Romanze des
-               <lb facs="#facs_3_region_1684670116259_787_tl_18" n="N020"/>
-               <rs type="person">Eros</rs>, dessen Duett mit <rs type="person">Psyche</rs>, die Couplets des <rs type="person">Mercur</rs>, der
+               <lb facs="#facs_3_region_1684670116259_787_tl_18" n="N020"/><rs type="person" ref="#hsl_person_id_4105">Eros</rs>, dessen Duett mit <rs type="person" ref="#hsl_person_id_7880">Psyche</rs>, die Couplets des <rs type="person" ref="#hsl_person_id_7882">Mercur</rs>, der
                <lb facs="#facs_3_region_1684670116259_787_tl_19" n="N021"/>Nymphenchor (sämmtlich da capo gesungen), wurden in den
                <lb facs="#facs_3_region_1684670116259_787_tl_20" n="N022"/>Musikhandlungen schon nach der Generalprobe eifrig begehrt.
+            </p><p>
                <lb facs="#facs_3_region_1684670116259_787_tl_21" n="N023"/>Diese Generalprobe geschah vor dichtbesetzten Logen und
                <lb facs="#facs_3_region_1684670116259_787_tl_22" n="N024"/>Bänken, wie es hier immer der Fall ist und niemals der
                <lb facs="#facs_3_region_1684670116259_787_tl_23" n="N025"/>Fall sein sollte. Die Passion der Pariser für Generalproben
                <lb facs="#facs_3_region_1684670116259_787_tl_24" n="N026"/>ist bekannt, und wenn zu der gewöhnlichen Neugierde noch
-               <lb facs="#facs_3_region_1684670116259_787_tl_25" n="N027"/>die Sympathie für einen Componisten wie Ambroise <rs type="person">Thomas</rs>
+               <lb facs="#facs_3_region_1684670116259_787_tl_25" n="N027"/>die Sympathie für einen Componisten wie Ambroise <rs type="person" ref="#hsl_person_id_305">Thomas</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_3_region_1684670116259_787_tl_26" n="N028"/>hinzutritt, vermag der Theater-Director sich der zahllosen,
-               <lb facs="#facs_3_region_1684670116259_787_tl_27" n="N029"/>mit den erdenklichsten Empfehlungen und Protectionen be¬
-               <lb facs="#facs_3_region_1684670116259_787_tl_28" n="N030"/>waffneten Gesuche gar nicht zu erwehren. Das Unzweck¬
-               <lb facs="#facs_3_region_1684670116259_787_tl_29" n="N031"/>mäßige, ja Zweckvereitelnde einer solchen Publicität ist in
-               <lb facs="#facs_3_region_1684670116259_787_tl_30" n="N032"/>
-               <rs type="place">Paris</rs> oft genug zur Sprache gekommen, und die ältere <rs type="place" continued="true">fran¬</rs>
-               <lb facs="#facs_3_region_1684670116259_787_tl_31" n="N033"/>
-               <rs type="place" continued="true">zösisch</rs>e Theatergeschichte verzeichnet diesfalls verschiedene in¬
-               <lb facs="#facs_3_region_1684670116259_787_tl_32" n="N034"/>teressante Verordnungen, die von sehr richtiger Einsicht
+               <lb facs="#facs_3_region_1684670116259_787_tl_27" n="N029"/>mit den erdenklichsten Empfehlungen und Protectionen be
+               <lb facs="#facs_3_region_1684670116259_787_tl_28" n="N030" break="no"/>waffneten Gesuche gar nicht zu erwehren. Das Unzweck
+               <lb facs="#facs_3_region_1684670116259_787_tl_29" n="N031" break="no"/>mäßige, ja Zweckvereitelnde einer solchen Publicität ist in
+               <lb facs="#facs_3_region_1684670116259_787_tl_30" n="N032"/><rs type="place" ref="#hsl_place_id_44">Paris</rs> oft genug zur Sprache gekommen, und die ältere <rs type="place" ref="#hsl_place_id_21">fran
+               <lb facs="#facs_3_region_1684670116259_787_tl_31" n="N033" break="no"/>zösisch</rs>e Theatergeschichte verzeichnet diesfalls verschiedene in
+               <lb facs="#facs_3_region_1684670116259_787_tl_32" n="N034" break="no"/>teressante Verordnungen, die von sehr richtiger Einsicht
                <lb facs="#facs_3_region_1684670116259_787_tl_33" n="N035"/>zeugen, aber dem Widerstand des Publicums niemals
                <lb facs="#facs_3_region_1684670116259_787_tl_34" n="N036"/>auf die Dauer gewachsen waren. Zur Zeit, als die Oper
-               <lb facs="#facs_3_region_1684670116259_787_tl_35" n="N037"/>unmittelbar unter königlicher Verwaltung stand, regelte letz¬
-               <lb facs="#facs_3_region_1684670116259_787_tl_36" n="N038"/>tere jedes Detail des Theaterlebens, darunter auch die Ge¬
-               <lb facs="#facs_3_region_1684670116259_787_tl_37" n="N039"/>neralproben. Das Reglement von <date month="0" day="0" year="0">1776</date> untersagte die Zu¬
-               <lb facs="#facs_3_region_1684670116259_787_tl_38" n="N040"/>lassung des Publicums zu denselben, doch durfte das Comité
-               <lb facs="#facs_3_line_1759580677163_246" n="N041"/>Karten an achtzig Personen höchstens ausfolgen, und zwar
-            </p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_line_1759580614700_205" n="N001"/>nur „an Künstler und wahre Kenner, welche nützliche Rath¬
-               <lb facs="#facs_3_region_1684670119458_790_tl_1" n="N002"/>schläge zu geben vermöchten“. Ein förmliches Recht, den
+               <lb facs="#facs_3_region_1684670116259_787_tl_35" n="N037"/>unmittelbar unter königlicher Verwaltung stand, regelte letz
+               <lb facs="#facs_3_region_1684670116259_787_tl_36" n="N038" break="no"/>tere jedes Detail des Theaterlebens, darunter auch die Ge
+               <lb facs="#facs_3_region_1684670116259_787_tl_37" n="N039" break="no"/>neralproben. Das Reglement von <date>1776</date> untersagte die Zu
+               <lb facs="#facs_3_region_1684670116259_787_tl_38" n="N040" break="no"/>lassung des Publicums zu denselben, doch durfte das Comité
+               <lb facs="#facs_3_line_1759580677163_246" n="N041"/>Karten an achtzig Personen höchstens ausfolgen, und zwar<space quantity="1" unit="char"/></p>
+            <cb n="8"/>
+            <p prev="true">
+               <lb facs="#facs_3_line_1759580614700_205" n="N001"/>nur „an Künstler und wahre Kenner, welche nützliche Rath
+               <lb facs="#facs_3_region_1684670119458_790_tl_1" n="N002" break="no"/>schläge zu geben vermöchten“. Ein förmliches Recht, den
                <lb facs="#facs_3_region_1684670119458_790_tl_2" n="N003"/>letzten Proben beizuwohnen, stand nur den Ministern zu,
                <lb facs="#facs_3_region_1684670119458_790_tl_3" n="N004"/>weßhalb jene auch den Namen „Répétitions des ministres“
                <lb facs="#facs_3_region_1684670119458_790_tl_4" n="N005"/>führten. Um der Neugierde des Publicums zu genügen und
                <lb facs="#facs_3_region_1684670119458_790_tl_5" n="N006"/>zugleich die Einnahmen der Oper zu vermehren, gestattete
-               <lb facs="#facs_3_region_1684670119458_790_tl_6" n="N007"/>der <rs type="person">König</rs> im Jahre <date month="0" day="0" year="0">1786</date> mittelst eigener Ordonnanz den
+               <lb facs="#facs_3_region_1684670119458_790_tl_6" n="N007"/>der <rs type="person" ref="#hsl_person_id_2644">König</rs> im Jahre <date>1786</date> mittelst eigener Ordonnanz den
                <lb facs="#facs_3_region_1684670119458_790_tl_7" n="N008"/>Zutritt des Publicums zu den Generalproben gegen ein
                <lb facs="#facs_3_region_1684670119458_790_tl_8" n="N009"/>Entrée von drei Livres für die Person; die Einnahme sollte
                <lb facs="#facs_3_line_1759580642604_222" n="N010"/>unter die Sänger vertheilt werden. Aber diese Speculation
                <lb facs="#facs_3_region_1684670119458_790_tl_10" n="N011"/>scheiterte; das Publicum kam von dem Augenblicke an nicht
-               <lb facs="#facs_3_region_1684670119458_790_tl_11" n="N012"/>mehr, wo es kommen <hi rendition="#em">durfte</hi> — der alte Reiz der ver¬
-               <lb facs="#facs_3_region_1684670119458_790_tl_12" n="N013"/>botenen Frucht! Nur Einer interessanten königlichen Ordon¬
-               <lb facs="#facs_3_region_1684670119458_790_tl_13" n="N014"/>nanz vom Jahre <date month="0" day="0" year="0">1787</date> wollen wir noch erwähnen: sie er¬
-               <lb facs="#facs_3_region_1684670119458_790_tl_14" n="N015"/>mächtigte drei Zeitungs-Redacteure, den Generalproben un¬
-               <lb facs="#facs_3_region_1684670119458_790_tl_15" n="N016"/>entgeltlich beizuwohnen, unter der absoluten Bedingung, daß
+               <lb facs="#facs_3_region_1684670119458_790_tl_11" n="N012"/>mehr, wo es kommen <hi rendition="#em">durfte</hi> — der alte Reiz der ver
+               <lb facs="#facs_3_region_1684670119458_790_tl_12" n="N013" break="no"/>botenen Frucht! Nur Einer interessanten königlichen Ordon
+               <lb facs="#facs_3_region_1684670119458_790_tl_13" n="N014" break="no"/>nanz vom Jahre <date>1787</date> wollen wir noch erwähnen: sie er
+               <lb facs="#facs_3_region_1684670119458_790_tl_14" n="N015" break="no"/>mächtigte drei Zeitungs-Redacteure, den Generalproben un
+               <lb facs="#facs_3_region_1684670119458_790_tl_15" n="N016" break="no"/>entgeltlich beizuwohnen, unter der absoluten Bedingung, daß
                <lb facs="#facs_3_region_1684670119458_790_tl_16" n="N017"/>sie in ihrem Blatte „weder vom Text noch von der Musik,
                <lb facs="#facs_3_region_1684670119458_790_tl_17" n="N018"/>noch von den Decorationen und den Künstlern sprechen
                <lb facs="#facs_3_region_1684670119458_790_tl_18" n="N019"/>dürften“.
+            </p><p>
                <lb facs="#facs_3_region_1684670119458_790_tl_19" n="N020"/>Das Verhalten des Publicums bei der Generalprobe
-               <lb facs="#facs_3_region_1684670119458_790_tl_20" n="N021"/>und ersten Vorstellung der „<rs type="bibl">Psyché</rs>“ sprach auf das erfreu¬
-               <lb facs="#facs_3_region_1684670119458_790_tl_21" n="N022"/>lichste für die Liebe und Verehrung, die Ambroise <rs type="person">Thomas</rs>
+               <lb facs="#facs_3_region_1684670119458_790_tl_20" n="N021"/>und ersten Vorstellung der „<rs type="bibl" ref="#hsl_work_id_2527">Psyché</rs>“ sprach auf das erfreu
+               <lb facs="#facs_3_region_1684670119458_790_tl_21" n="N022" break="no"/>lichste für die Liebe und Verehrung, die Ambroise <rs type="person" ref="#hsl_person_id_305">Thomas</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_3_region_1684670119458_790_tl_22" n="N023"/>hier in allen Classen der Gesellschaft genießt. Es wäre nur
                <lb facs="#facs_3_region_1684670119458_790_tl_23" n="N024"/>in seinem Interesse zu wünschen, es hegte die Regierung
                <lb facs="#facs_3_region_1684670119458_790_tl_24" n="N025"/>etwas weniger Hochschätzung für ihn. Sie überhäuft den
                <lb facs="#facs_3_region_1684670119458_790_tl_25" n="N026"/>Mann dergestalt mit der Last ihres ehrenden Vertrauens,
                <lb facs="#facs_3_region_1684670119458_790_tl_26" n="N027"/>daß es seit Jahren keine musikalische Commission, keine
-               <lb facs="#facs_3_region_1684670119458_790_tl_27" n="N028"/>irgendwie die Tonkunst berührende, artistische oder pädago¬
-               <lb facs="#facs_3_region_1684670119458_790_tl_28" n="N029"/>gische Enquête, keine Prüfung, kein Preisgericht und keine
-               <lb facs="#facs_3_region_1684670119458_790_tl_29" n="N030"/>Preisvertheilung gibt, in welcher Ambroise <rs type="person">Thomas</rs> nicht als
+               <lb facs="#facs_3_region_1684670119458_790_tl_27" n="N028"/>irgendwie die Tonkunst berührende, artistische oder pädago
+               <lb facs="#facs_3_region_1684670119458_790_tl_28" n="N029" break="no"/>gische Enquête, keine Prüfung, kein Preisgericht und keine
+               <lb facs="#facs_3_region_1684670119458_790_tl_29" n="N030"/>Preisvertheilung gibt, in welcher Ambroise <rs type="person" ref="#hsl_person_id_305">Thomas</rs> nicht als
                <lb facs="#facs_3_region_1684670119458_790_tl_30" n="N031"/>Vorsitzender bestellt würde. In gewöhnlichen Zeitläuften schon
                <lb facs="#facs_3_region_1684670119458_790_tl_31" n="N032"/>raubt diese bureaukratische Thätigkeit dem (als Director des
                <lb facs="#facs_3_region_1684670119458_790_tl_32" n="N033"/>Conservatoriums hinreichend beschäftigten) Tondichter die
-               <lb facs="#facs_3_region_1684670119458_790_tl_33" n="N034"/>beste Zeit. Wie sehr sich diese Lasten gelegentlich einer Welt¬
-               <lb facs="#facs_3_region_1684670119458_790_tl_34" n="N035"/>ausstellung vermehren, deren musikalischen Theil Ambroise
-               <lb facs="#facs_3_region_1684670119458_790_tl_35" n="N036"/>
-               <rs type="person">Thomas</rs> in Hunderten von Sitzungen vorbereiten und dann
-               <lb facs="#facs_3_region_1684670119458_790_tl_36" n="N037"/>ausführen helfen soll, läßt sich denken. Vor lauter Commis¬
-               <lb facs="#facs_3_region_1684670119458_790_tl_37" n="N038"/>sioniren kommt er kaum mehr zum Componiren; das „Ver¬
-               <lb facs="#facs_3_region_1684670119458_790_tl_38" n="N039"/>trauen der Regierung“ ist schuld, daß <rs type="person">Thomas</rs>, dessen ganze
+               <lb facs="#facs_3_region_1684670119458_790_tl_33" n="N034"/>beste Zeit. Wie sehr sich diese Lasten gelegentlich einer Welt
+               <lb facs="#facs_3_region_1684670119458_790_tl_34" n="N035" break="no"/>ausstellung vermehren, deren musikalischen Theil Ambroise
+               <lb facs="#facs_3_region_1684670119458_790_tl_35" n="N036"/><rs type="person" ref="#hsl_person_id_305">Thomas</rs> in Hunderten von Sitzungen vorbereiten und dann
+               <lb facs="#facs_3_region_1684670119458_790_tl_36" n="N037"/>ausführen helfen soll, läßt sich denken. Vor lauter Commis
+               <lb facs="#facs_3_region_1684670119458_790_tl_37" n="N038" break="no"/>sioniren kommt er kaum mehr zum Componiren; das „Ver
+               <lb facs="#facs_3_region_1684670119458_790_tl_38" n="N039" break="no"/>trauen der Regierung“ ist schuld, daß <rs type="person" ref="#hsl_person_id_305">Thomas</rs>, dessen ganze
                <lb facs="#facs_3_region_1684670119458_790_tl_39" n="N040"/>Lebensfreude im künstlerischen Schaffen besteht, seit der
-               <lb facs="#facs_3_line_1759580677162_245" n="N041"/>„<rs type="bibl">Mignon</rs>“ (<date month="0" day="0" year="0">1866</date>) nur eine einzige Oper geschrieben hat.
+               <lb facs="#facs_3_line_1759580677162_245" n="N041"/>„<rs type="bibl" ref="#hsl_work_id_894">Mignon</rs>“ (<date>1866</date>) nur eine einzige Oper geschrieben hat.
             </p>
          </div>
       </body>
