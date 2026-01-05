@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 4953. Wien, Mittwoch, den 12. Juni 1878</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,24 +70,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 4953. Wien, Mittwoch, den 12. Juni 1878</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1878-06-12">12.06.1878</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2025-11-21">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2025-11-29">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2025-12-13">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1392,140 +1389,113 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1684669977815_713_tl_2" n="N001"/><head type="h1">Musikalische Briefe aus <rs type="place" ref="#hsl_place_id_44">Paris</rs>. II.</head>
+            <lb facs="#facs_1_region_1684669977815_713_tl_4" n="N002"/><head type="h2">(Concert im großen Trocadero-Saal.)</head>
+            <lb facs="#facs_1_region_1684669977815_713_tl_5" n="N003"/><head type="h3"><hi rendition="#em"><rs type="place" ref="#hsl_place_id_44">Paris</rs></hi>, 7. Juni.</head>
             <p>
-               <lb facs="#facs_1_line_1759588194938_34" n="N001"/>Nr. 4953. Wien, Mittwoch, den 12. Juni 1878
-            </p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684669977815_713_tl_2" n="N001"/>Musikalische Briefe aus <rs type="place">Paris</rs>. II.
-               <lb facs="#facs_1_region_1684669977815_713_tl_4" n="N002"/>(Concert im großen Trocadero-Saal.)
-               <lb facs="#facs_1_region_1684669977815_713_tl_5" n="N003"/>
-               <hi rendition="#em">
-                  <rs type="place">Paris</rs>
-               </hi>, 7. Juni.
                <lb facs="#facs_1_region_1684669977815_713_tl_6" n="N004"/>Ed. H. Gestern endlich wurde der große Festsaal des
-               <lb facs="#facs_1_line_1759588208771_42" n="N005"/>Trocadero-Palastes mit dem ersten „Concert officiel“ ein¬
-               <lb facs="#facs_1_region_1684669977815_713_tl_9" n="N006"/>geweiht. Es begann nach 2 Uhr und endete um halb Fünf.
+               <lb facs="#facs_1_line_1759588208771_42" n="N005"/>Trocadero-Palastes mit dem ersten „Concert officiel“ ein
+               <lb facs="#facs_1_region_1684669977815_713_tl_9" n="N006" break="no"/>geweiht. Es begann nach 2 Uhr und endete um halb Fünf.
                <lb facs="#facs_1_region_1684669977815_713_tl_10" n="N007"/>Ein Auditorium von 4000 Personen — wol das zahlreichste,
-               <lb facs="#facs_1_region_1684669977815_713_tl_11" n="N008"/>das außer dem Krystallpalast von <rs type="place">Sydenham</rs> ein Concert¬
-               <lb facs="#facs_1_region_1684669977815_713_tl_12" n="N009"/>saal vereinigt — füllte diesen imposanten Raum. Ein groß¬
-               <lb facs="#facs_1_region_1684669977815_713_tl_13" n="N010"/>artiger Anblick, dem höchstens jener letzte Glanz fehlte, wel¬
-               <lb facs="#facs_1_region_1684669977815_713_tl_14" n="N011"/>chen einzig die Kerzen- oder Gasbeleuchtung geben kann.
-               <lb facs="#facs_1_region_1684669977815_713_tl_15" n="N012"/>Aber auch so, bei Tageslicht, bleibt der Eindruck überwälti¬
-               <lb facs="#facs_1_region_1684669977815_713_tl_16" n="N013"/>gend genug, um die stolze Prophezeiung der Franzosen zu
+               <lb facs="#facs_1_region_1684669977815_713_tl_11" n="N008"/>das außer dem Krystallpalast von <rs type="place" ref="#hsl_place_id_1029">Sydenham</rs> ein Concert
+               <lb facs="#facs_1_region_1684669977815_713_tl_12" n="N009" break="no"/>saal vereinigt — füllte diesen imposanten Raum. Ein groß
+               <lb facs="#facs_1_region_1684669977815_713_tl_13" n="N010" break="no"/>artiger Anblick, dem höchstens jener letzte Glanz fehlte, wel
+               <lb facs="#facs_1_region_1684669977815_713_tl_14" n="N011" break="no"/>chen einzig die Kerzen- oder Gasbeleuchtung geben kann.
+               <lb facs="#facs_1_region_1684669977815_713_tl_15" n="N012"/>Aber auch so, bei Tageslicht, bleibt der Eindruck überwälti
+               <lb facs="#facs_1_region_1684669977815_713_tl_16" n="N013" break="no"/>gend genug, um die stolze Prophezeiung der Franzosen zu
                <lb facs="#facs_1_region_1684669977815_713_tl_17" n="N014"/>rechtfertigen: es werde dieser Festsaal für die Ausstellung
-               <lb facs="#facs_1_region_1684669977815_713_tl_18" n="N015"/>werden, was <rs type="person">Garnier</rs>'s „Grand escalier“ für die <rs type="place">Paris</rs>er
+               <lb facs="#facs_1_region_1684669977815_713_tl_18" n="N015"/>werden, was <rs type="person" ref="#hsl_person_id_7014">Garnier</rs>’s „Grand escalier“ für die <rs type="place" ref="#hsl_place_id_44">Paris</rs>er
                <lb facs="#facs_1_line_1759588258765_63" n="N016"/>Oper ist: eine unerbittliche Sehenswürdigkeit für Alle, die
-               <lb facs="#facs_1_region_1684669977815_713_tl_19" n="N017"/>in <rs type="place">Paris</rs> leben oder nach <rs type="place">Paris</rs> kommen. Wir treten durch
+               <lb facs="#facs_1_region_1684669977815_713_tl_19" n="N017"/>in <rs type="place" ref="#hsl_place_id_44">Paris</rs> leben oder nach <rs type="place" ref="#hsl_place_id_44">Paris</rs> kommen. Wir treten durch
                <lb facs="#facs_1_region_1684669977815_713_tl_20" n="N018"/>eine der zahlreichen Thüren zuerst in ein weites Parterre von
                <lb facs="#facs_1_region_1684669977815_713_tl_21" n="N019"/>1500 bequemen Fauteuils. Hinter und über demselben erhebt
-               <lb facs="#facs_1_region_1684669977815_713_tl_22" n="N020"/>sich eine Pfeilerreihe (in Schwarz und Gold), welche 42 ge¬
-               <lb facs="#facs_1_region_1684669977815_713_tl_23" n="N021"/>deckte Logen einfaßt, und darüber wieder ein in 50 offene
+               <lb facs="#facs_1_region_1684669977815_713_tl_22" n="N020"/>sich eine Pfeilerreihe (in Schwarz und Gold), welche 42 ge
+               <lb facs="#facs_1_region_1684669977815_713_tl_23" n="N021" break="no"/>deckte Logen einfaßt, und darüber wieder ein in 50 offene
                <lb facs="#facs_1_region_1684669977815_713_tl_24" n="N022"/>Logen sich theilender Balcon. Dieser wird seinerseits beherrscht
                <lb facs="#facs_1_region_1684669977815_713_tl_25" n="N023"/>von einem Amphitheater von 2000 Sitzen. Ueber diesem
-               <lb facs="#facs_1_region_1684669977815_713_tl_26" n="N024"/>Amphitheater, das dem Saale einen Anflug von antik-<rs type="place">römisch</rs>em
+               <lb facs="#facs_1_region_1684669977815_713_tl_26" n="N024"/>Amphitheater, das dem Saale einen Anflug von antik-<rs type="place" ref="#hsl_place_id_47">römisch</rs>em
                <lb facs="#facs_1_region_1684669977815_713_tl_27" n="N025"/>Theaterbau gibt, strömt das Tageslicht durch neun colossale
-               <lb facs="#facs_1_region_1684669977815_713_tl_28" n="N026"/>Fenster ein, unter welchen neun, auf elegante Säulchen ge¬
-               <lb facs="#facs_1_region_1684669977815_713_tl_29" n="N027"/>stützte Tribünen (der höchste Platz) hervorspringen. Zehn
+               <lb facs="#facs_1_region_1684669977815_713_tl_28" n="N026"/>Fenster ein, unter welchen neun, auf elegante Säulchen ge
+               <lb facs="#facs_1_region_1684669977815_713_tl_29" n="N027" break="no"/>stützte Tribünen (der höchste Platz) hervorspringen. Zehn
                <lb facs="#facs_1_region_1684669977815_713_tl_30" n="N028"/>riesige Sphinxe halten ebenso viel Schilde mit den Namen:
-               <lb facs="#facs_1_region_1684669977815_713_tl_31" n="N029"/>
-               <rs type="person">Bach</rs>, <rs type="person">Händel</rs>, <rs type="person">Haydn</rs>, <rs type="person">Mozart</rs>, <rs type="person">Beethoven</rs>, <rs type="person">Weber</rs>, <rs type="person" continued="true">Men¬</rs>
-               <lb facs="#facs_1_region_1684669977815_713_tl_32" n="N030"/>
-               <rs type="person" continued="true">delssohn</rs>, <rs type="person">Cherubini</rs>, <rs type="person">Berlioz</rs>, Félicien <rs type="person">David</rs>. Mit lobens¬
-               <lb facs="#facs_1_region_1684669977815_713_tl_33" n="N031"/>werther Gerechtigkeit ist somit die <rs type="place">deutsch</rs>e Instrumental¬
-               <lb facs="#facs_1_region_1684669977815_713_tl_34" n="N032"/>musik durch sieben Meister repräsentirt, während die <rs type="place" continued="true">italie¬</rs>
-               <lb facs="#facs_1_region_1684669977815_713_tl_35" n="N033"/>
-               <rs type="place" continued="true">nisch</rs>e nur einen, die <rs type="place">französisch</rs>e nur zwei Namen erhielt.
-               <lb facs="#facs_1_region_1684669977815_713_tl_36" n="N034"/>Daß Félicien <hi rendition="#em">
-                  <rs type="person">David</rs>
-               </hi> einen Platz nicht beanspruchen darf,
-               <lb facs="#facs_1_region_1684669977815_713_tl_37" n="N035"/>wo Robert <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi> fehlt, leuchtet freilich jedem Musiker
+               <lb facs="#facs_1_region_1684669977815_713_tl_31" n="N029"/><rs type="person" ref="#hsl_person_id_18">Bach</rs>, <rs type="person" ref="#hsl_person_id_108">Händel</rs>, <rs type="person" ref="#hsl_person_id_114">Haydn</rs>, <rs type="person" ref="#hsl_person_id_189">Mozart</rs>, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, <rs type="person" ref="#hsl_person_id_321">Weber</rs>, <rs type="person" ref="#hsl_person_id_21">Men
+               <lb facs="#facs_1_region_1684669977815_713_tl_32" n="N030" break="no"/>delssohn</rs>, <rs type="person" ref="#hsl_person_id_47">Cherubini</rs>, <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>, Félicien <rs type="person" ref="#hsl_person_id_969">David</rs>. Mit lobens
+               <lb facs="#facs_1_region_1684669977815_713_tl_33" n="N031" break="no"/>werther Gerechtigkeit ist somit die <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Instrumental
+               <lb facs="#facs_1_region_1684669977815_713_tl_34" n="N032" break="no"/>musik durch sieben Meister repräsentirt, während die <rs type="place" ref="#hsl_place_id_28">italie
+               <lb facs="#facs_1_region_1684669977815_713_tl_35" n="N033" break="no"/>nisch</rs>e nur einen, die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e nur zwei Namen erhielt.
+               <lb facs="#facs_1_region_1684669977815_713_tl_36" n="N034"/>Daß Félicien <hi rendition="#em"><rs type="person" ref="#hsl_person_id_969">David</rs></hi> einen Platz nicht beanspruchen darf,
+               <lb facs="#facs_1_region_1684669977815_713_tl_37" n="N035"/>wo Robert <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi> fehlt, leuchtet freilich jedem Musiker
                <lb facs="#facs_1_region_1684669977815_713_tl_38" n="N036"/>ein, doch wollen wir die Franzosen, deren Nationalstolz
                <lb facs="#facs_1_region_1684669977815_713_tl_39" n="N037"/>hier schon ein Uebriges gethan, darob nicht verklagen. Aus
                <lb facs="#facs_1_region_1684669977815_713_tl_40" n="N038"/>den Seitenwänden in halber Höhe sehen wir zwei große Logen
                <lb facs="#facs_1_region_1684669977815_713_tl_41" n="N039"/>vorspringen, deren eine dem Präsidenten der Republik, die
                <lb facs="#facs_1_region_1684669977815_713_tl_42" n="N040"/>andere dem Handelsminister bestimmt ist. Den Fries des
-               <lb facs="#facs_1_region_1684669977815_713_tl_43" n="N041"/>großen, die Estrade überwölbenden Bogens schmückt ein weit¬
-            </p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1684669980877_716_tl_1" n="N001"/>läufiges Frescogemälde, „la France harmonique“ vorstellend
-               <lb facs="#facs_1_region_1684669980877_716_tl_2" n="N002"/>(ein Ausdruck Victor <rs type="person">Hugo</rs>'s), welche die Abgesandten aller
+               <lb facs="#facs_1_region_1684669977815_713_tl_43" n="N041"/>großen, die Estrade überwölbenden Bogens schmückt ein weit</p>
+            <cb n="2"/>
+            <p prev="true">
+               <lb facs="#facs_1_region_1684669980877_716_tl_1" n="N001" break="no"/>läufiges Frescogemälde, „la France harmonique“ vorstellend
+               <lb facs="#facs_1_region_1684669980877_716_tl_2" n="N002"/>(ein Ausdruck Victor <rs type="person" ref="#hsl_person_id_131">Hugo</rs>’s), welche die Abgesandten aller
                <lb facs="#facs_1_region_1684669980877_716_tl_3" n="N003"/>Nationen um sich versammelt. Die Nische, welche sich dem
                <lb facs="#facs_1_region_1684669980877_716_tl_4" n="N004"/>Publicum gegenüber öffnet, ist geräumig genug, um 400
                <lb facs="#facs_1_region_1684669980877_716_tl_5" n="N005"/>Musiker und dahinter eine große Orgel zu fassen. Letztere,
-               <lb facs="#facs_1_region_1684669980877_716_tl_6" n="N006"/>eine Arbeit des berühmten <hi rendition="#em">
-                  <rs type="person">Cavaillé-Col</rs>
-               </hi>, bekommen
-               <lb facs="#facs_1_region_1684669980877_716_tl_7" n="N007"/>wir noch nicht so bald zu hören; eine Orgel gehört bekannt¬
-               <lb facs="#facs_1_line_1759588221906_48" n="N008"/>lich zu den Dingen, die niemals zur bestimmten Zeit fer¬
-               <lb facs="#facs_1_region_1684669980877_716_tl_10" n="N009"/>tig sind.*)
-               <lb facs="#facs_1_region_1684669980877_716_tl_11" n="N010"/>Der Capellmeister der Trocadero-Concerte, Herr <hi rendition="#em">
-                  <rs type="person" continued="true">Co¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684669980877_716_tl_12" n="N011"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">lonne</rs>
-               </hi>, ein noch junger Mann, erhebt den Tactstock und
-               <lb facs="#facs_1_line_1759588232794_52" n="N012"/>beginnt mit dem ersten Theil der „<rs type="bibl">Wüste</rs>“ von Félicien
-               <lb facs="#facs_1_region_1684669980877_716_tl_15" n="N013"/>
-               <hi rendition="#em">
-                  <rs type="person">David</rs>
-               </hi>. Diese „Symphonie-Ode“, welche durch ihre fremd¬
-               <lb facs="#facs_1_region_1684669980877_716_tl_16" n="N014"/>artig <rs type="place">orientalisch</rs>e Färbung, durch die anmuthige Klarheit ihrer
+               <lb facs="#facs_1_region_1684669980877_716_tl_6" n="N006"/>eine Arbeit des berühmten <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2781">Cavaillé-Col</rs></hi>, bekommen
+               <lb facs="#facs_1_region_1684669980877_716_tl_7" n="N007"/>wir noch nicht so bald zu hören; eine Orgel gehört bekannt
+               <lb facs="#facs_1_line_1759588221906_48" n="N008" break="no"/>lich zu den Dingen, die niemals zur bestimmten Zeit fer
+               <lb facs="#facs_1_region_1684669980877_716_tl_10" n="N009" break="no"/>tig sind.
+                  <note type="footnote" n="*)">
+                  <lb facs="#facs_1_line_1759588303889_92" n="N040"/>*) Das Orchester ist folgenderweise zusammengesetzt: Erste
+                  <lb facs="#facs_1_line_1759588308745_95" n="N041"/>Violinen 26, zweite Violinen 26, Bratschen 18, Violoncelle 18,
+                  <lb facs="#facs_1_line_1759588311569_98" n="N042"/>Contrabässe 18, Flöten 4, Oboen und Englisch-Horn 3, Clarinetten
+                  <lb facs="#facs_1_line_1759588314361_101" n="N043"/>sammt Baßclarinette 5, Saxophons 4, Fagotte 4, Hörner 8, Trom
+                  <lb facs="#facs_1_line_1759588317506_104" n="N044" break="no"/>peten 4, Posaunen 3, Ophikleïde 1, Harfen 8, Schlag-Instrumente 4.
+                  <lb facs="#facs_1_line_1759588319922_107" n="N045"/>Zusammen 154 Instrumentalisten, dazu 200 Sänger. Gesammt
+                  <lb facs="#facs_1_line_1759588321411_110" n="N046" break="no"/>zahl: 354.
+                  </note>
+            </p><p>
+               <lb facs="#facs_1_region_1684669980877_716_tl_11" n="N010"/>Der Capellmeister der Trocadero-Concerte, Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7816">Co
+               <lb facs="#facs_1_region_1684669980877_716_tl_12" n="N011" break="no"/>lonne</rs></hi>, ein noch junger Mann, erhebt den Tactstock und
+               <lb facs="#facs_1_line_1759588232794_52" n="N012"/>beginnt mit dem ersten Theil der „<rs type="bibl" ref="#hsl_work_id_3153">Wüste</rs>“ von Félicien
+               <lb facs="#facs_1_region_1684669980877_716_tl_15" n="N013"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_969">David</rs></hi>. Diese „Symphonie-Ode“, welche durch ihre fremd
+               <lb facs="#facs_1_region_1684669980877_716_tl_16" n="N014" break="no"/>artig <rs type="place" ref="#hsl_place_id_526">orientalisch</rs>e Färbung, durch die anmuthige Klarheit ihrer
                <lb facs="#facs_1_region_1684669980877_716_tl_17" n="N015"/>Form und ihrer Melodie vor fünfunddreißig Jahren auch in
-               <lb facs="#facs_1_region_1684669980877_716_tl_18" n="N016"/>ganz <rs type="place">Deutschland</rs> Beifall fand, machte diesmal nur durch
+               <lb facs="#facs_1_region_1684669980877_716_tl_18" n="N016"/>ganz <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> Beifall fand, machte diesmal nur durch
                <lb facs="#facs_1_region_1684669980877_716_tl_19" n="N017"/>das bekannte Marschlied einen an ihre ehemaligen Siege
                <lb facs="#facs_1_region_1684669980877_716_tl_20" n="N018"/>erinnernden Effect; im Uebrigen erschien uns diese Musik
-               <lb facs="#facs_1_region_1684669980877_716_tl_21" n="N019"/>recht gealtert und verblüht. Indessen, es kümmerte sich dies¬
-               <lb facs="#facs_1_line_1759588258765_62" n="N020"/>mal Niemand besonders um das, was gespielt wurde — die
+               <lb facs="#facs_1_region_1684669980877_716_tl_21" n="N019"/>recht gealtert und verblüht. Indessen, es kümmerte sich dies
+               <lb facs="#facs_1_line_1759588258765_62" n="N020" break="no"/>mal Niemand besonders um das, was gespielt wurde — die
                <lb facs="#facs_1_region_1684669980877_716_tl_23" n="N021"/>erste Frage, die allgemeinste Discussion galt der Akustik des
                <lb facs="#facs_1_region_1684669980877_716_tl_24" n="N022"/>Saales. „Wie hat es geklungen?“ hörten wir unzähligemale
                <lb facs="#facs_1_region_1684669980877_716_tl_25" n="N023"/>fragen. Nun, nicht so schlecht, als manche Schwarzseher oder
                <lb facs="#facs_1_region_1684669980877_716_tl_26" n="N024"/>Schwarzhörer prophezeien wollten, aber auch lange nicht so
-               <lb facs="#facs_1_region_1684669980877_716_tl_27" n="N025"/>gut, wie die Architekten des Saales es zu erreichen vermein¬
-               <lb facs="#facs_1_region_1684669980877_716_tl_28" n="N026"/>ten. Letztere, die Herren <hi rendition="#em">
-                  <rs type="person">Davioud</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Bourdais</rs>
-               </hi>,
+               <lb facs="#facs_1_region_1684669980877_716_tl_27" n="N025"/>gut, wie die Architekten des Saales es zu erreichen vermein
+               <lb facs="#facs_1_region_1684669980877_716_tl_28" n="N026" break="no"/>ten. Letztere, die Herren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7817">Davioud</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7818">Bourdais</rs></hi>,
                <lb facs="#facs_1_line_1759588337708_119" n="N027"/>sind in der Construction dieses Concertsaales mit der größten
-               <lb facs="#facs_1_region_1684669980877_716_tl_29" n="N028"/>wissenschaftlichen Genauigkeit und auf Grund neuer akusti¬
-               <lb facs="#facs_1_region_1684669980877_716_tl_30" n="N029"/>scher Experimente vorgegangen. Sie hatten die schwierige
+               <lb facs="#facs_1_region_1684669980877_716_tl_29" n="N028"/>wissenschaftlichen Genauigkeit und auf Grund neuer akusti
+               <lb facs="#facs_1_region_1684669980877_716_tl_30" n="N029" break="no"/>scher Experimente vorgegangen. Sie hatten die schwierige
                <lb facs="#facs_1_region_1684669980877_716_tl_31" n="N030"/>Aufgabe, einen Musiksaal zu erbauen, der ungewöhnlich groß
                <lb facs="#facs_1_region_1684669980877_716_tl_32" n="N031"/>und dennoch tadellos akustisch sein sollte. Man bedenke, daß
-               <lb facs="#facs_1_region_1684669980877_716_tl_33" n="N032"/>der Durchschnitt dieses Saales fünfzig Meter beträgt, wäh¬
-               <lb facs="#facs_1_region_1684669980877_716_tl_34" n="N033"/>rend der Zuschauerraum eines gewöhnlichen Theaters etwa
+               <lb facs="#facs_1_region_1684669980877_716_tl_33" n="N032"/>der Durchschnitt dieses Saales fünfzig Meter beträgt, wäh
+               <lb facs="#facs_1_region_1684669980877_716_tl_34" n="N033" break="no"/>rend der Zuschauerraum eines gewöhnlichen Theaters etwa
                <lb facs="#facs_1_region_1684669980877_716_tl_35" n="N034"/>fünfzehn Meter mißt. Der Trocadero-Saal hat die Form eines
-               <lb facs="#facs_1_region_1684669980877_716_tl_36" n="N035"/>Hufeisens, dessen offenes Ende von der das Orchester um¬
-               <lb facs="#facs_1_region_1684669980877_716_tl_37" n="N036"/>fassenden Nische geschlossen ist. Ueber die günstige Akustik
+               <lb facs="#facs_1_region_1684669980877_716_tl_36" n="N035"/>Hufeisens, dessen offenes Ende von der das Orchester um
+               <lb facs="#facs_1_region_1684669980877_716_tl_37" n="N036" break="no"/>fassenden Nische geschlossen ist. Ueber die günstige Akustik
                <lb facs="#facs_1_region_1684669980877_716_tl_38" n="N037"/>des Saales wollten die Architekten natürlich früher schlüssig
                <lb facs="#facs_1_region_1684669980877_716_tl_39" n="N038"/>sein, ehe er vollendet und seine Form nicht mehr zu ändern
-               <lb facs="#facs_1_region_1684669980877_716_tl_40" n="N039"/>wäre. Sie machten denn vorläufig interessante Experimente,
-               <lb facs="#facs_1_line_1759588303889_92" n="N040"/>*) Das Orchester ist folgenderweise zusammengesetzt: Erste
-               <lb facs="#facs_1_line_1759588308745_95" n="N041"/>Violinen 26, zweite Violinen 26, Bratschen 18, Violoncelle 18,
-               <lb facs="#facs_1_line_1759588311569_98" n="N042"/>Contrabässe 18, Flöten 4, Oboen und Englisch-Horn 3, Clarinetten
-               <lb facs="#facs_1_line_1759588314361_101" n="N043"/>sammt Baßclarinette 5, Saxophons 4, Fagotte 4, Hörner 8, Trom¬
-               <lb facs="#facs_1_line_1759588317506_104" n="N044"/>peten 4, Posaunen 3, Ophikleïde 1, Harfen 8, Schlag-Instrumente 4.
-               <lb facs="#facs_1_line_1759588319922_107" n="N045"/>Zusammen 154 Instrumentalisten, dazu 200 Sänger. Gesammt¬
-               <lb facs="#facs_1_line_1759588321411_110" n="N046"/>zahl: 354.
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1684669984168_719_tl_1" n="N001"/>von dem obersten Grundsatze ausgehend, daß die Schall¬
-               <lb facs="#facs_1_region_1684669984168_719_tl_2" n="N002"/>wellen von den Wänden eines Saales in derselben Weise
+               <lb facs="#facs_1_region_1684669980877_716_tl_40" n="N039"/>wäre. Sie machten denn vorläufig interessante Experimente,<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
+               <lb facs="#facs_1_region_1684669984168_719_tl_1" n="N001"/>von dem obersten Grundsatze ausgehend, daß die Schall
+               <lb facs="#facs_1_region_1684669984168_719_tl_2" n="N002" break="no"/>wellen von den Wänden eines Saales in derselben Weise
                <lb facs="#facs_1_region_1684669984168_719_tl_3" n="N003"/>zurückgeworfen werden, wie die Lichtstrahlen von denselben
                <lb facs="#facs_1_region_1684669984168_719_tl_4" n="N004"/>Wänden reflectirt werden. Es wurde ein Miniatur-Modell
                <lb facs="#facs_1_region_1684669984168_719_tl_5" n="N005"/>des Trocadero-Saales mit größter Genauigkeit in denselben
-               <lb facs="#facs_1_region_1684669984168_719_tl_6" n="N006"/>Proportionen construirt, worin die das Orchester ein¬
-               <lb facs="#facs_1_region_1684669984168_719_tl_7" n="N007"/>schließende Wölbung anstatt aus einem schallzurückwerfenden
+               <lb facs="#facs_1_region_1684669984168_719_tl_6" n="N006"/>Proportionen construirt, worin die das Orchester ein
+               <lb facs="#facs_1_region_1684669984168_719_tl_7" n="N007" break="no"/>schließende Wölbung anstatt aus einem schallzurückwerfenden
                <lb facs="#facs_1_region_1684669984168_719_tl_8" n="N008"/>Material aus einem lichtzurückstrahlenden gemacht, nämlich
                <lb facs="#facs_1_region_1684669984168_719_tl_9" n="N009"/>mit polirtem Kupferblech verkleidet war. Man stellte ein
                <lb facs="#facs_1_region_1684669984168_719_tl_10" n="N010"/>Licht in den mathematischen Mittelpunkt des Orchesters, auf
-               <lb facs="#facs_1_region_1684669984168_719_tl_11" n="N011"/>den Platz des Solosängers, und beobachtete, daß die Stufen¬
-               <lb facs="#facs_1_region_1684669984168_719_tl_12" n="N012"/>sitze, auf denen die Zuhörer platznehmen sollten, allein die
+               <lb facs="#facs_1_region_1684669984168_719_tl_11" n="N011"/>den Platz des Solosängers, und beobachtete, daß die Stufen
+               <lb facs="#facs_1_region_1684669984168_719_tl_12" n="N012" break="no"/>sitze, auf denen die Zuhörer platznehmen sollten, allein die
                <lb facs="#facs_1_region_1684669984168_719_tl_13" n="N013"/>Lichtstrahlen empfingen, welche die Wölbung zurückstrahlte.
                <lb facs="#facs_1_region_1684669984168_719_tl_14" n="N014"/>In Folge dieser Experimente (die selbstverständlich in ganz
                <lb facs="#facs_1_region_1684669984168_719_tl_15" n="N015"/>verdunkeltem Raume stattfanden) fanden die Architekten sich
@@ -1533,116 +1503,113 @@
                <lb facs="#facs_1_region_1684669984168_719_tl_17" n="N017"/>hier der Schall erstickt werde. Hingegen wurden die Wände
                <lb facs="#facs_1_region_1684669984168_719_tl_18" n="N018"/>der Wölbung, unter der das Orchester steht, durch passendes
                <lb facs="#facs_1_region_1684669984168_719_tl_19" n="N019"/>Material schallzurückwerfend gemacht, so daß sie den Ton
-               <lb facs="#facs_1_region_1684669984168_719_tl_20" n="N020"/>den Zuhörern zusenden, wie ein die Lichtstrahlen reflectiren¬
-               <lb facs="#facs_1_region_1684669984168_719_tl_21" n="N021"/>der Spiegel. Damit war die Gefahr des <hi rendition="#em">Echos</hi> noch nicht
+               <lb facs="#facs_1_region_1684669984168_719_tl_20" n="N020"/>den Zuhörern zusenden, wie ein die Lichtstrahlen reflectiren
+               <lb facs="#facs_1_region_1684669984168_719_tl_21" n="N021" break="no"/>der Spiegel. Damit war die Gefahr des <hi rendition="#em">Echos</hi> noch nicht
                <lb facs="#facs_1_region_1684669984168_719_tl_22" n="N022"/>beseitigt, der größte Uebelstand in solchen Räumen. Jeder
-               <lb facs="#facs_1_region_1684669984168_719_tl_23" n="N023"/>Zuhörer soll den directen und den reflectirten Ton <hi rendition="#em">zu¬</hi>
-               <lb facs="#facs_1_region_1684669984168_719_tl_24" n="N024"/>
-               <hi rendition="#em">gleich</hi> vernehmen. Wenn der Zeitraum zwischen der Auf¬
-               <lb facs="#facs_1_region_1684669984168_719_tl_25" n="N025"/>nahme des directen Tones und des reflectirten (der Resonanz)
+               <lb facs="#facs_1_region_1684669984168_719_tl_23" n="N023"/>Zuhörer soll den directen und den reflectirten Ton <hi rendition="#em">zu
+               <lb facs="#facs_1_region_1684669984168_719_tl_24" n="N024" break="no"/>gleich</hi> vernehmen. Wenn der Zeitraum zwischen der Auf
+               <lb facs="#facs_1_region_1684669984168_719_tl_25" n="N025" break="no"/>nahme des directen Tones und des reflectirten (der Resonanz)
                <lb facs="#facs_1_region_1684669984168_719_tl_26" n="N026"/>mehr als das Zehntel einer Secunde beträgt, so werden
                <lb facs="#facs_1_line_1759588337708_118" n="N027"/>beide Töne, anstatt im Gehör zu Einem zusammenzufallen,
                <lb facs="#facs_1_region_1684669984168_719_tl_28" n="N028"/>abgesondert vernommen werden, also ein Echo bilden. Da
-               <lb facs="#facs_1_region_1684669984168_719_tl_29" n="N029"/>der Ton eine Distanz von 340 Metern in der Secunde durch¬
-               <lb facs="#facs_1_region_1684669984168_719_tl_30" n="N030"/>mißt, sollen blos diejenigen Töne gesammelt und zurück¬
-               <lb facs="#facs_1_region_1684669984168_719_tl_31" n="N031"/>geworfen werden, welche von einander höchstens durch einen
-               <lb facs="#facs_1_region_1684669984168_719_tl_32" n="N032"/>Zwischenraum von 34 Metern getrennt sind. Die Licht-Expe¬
-               <lb facs="#facs_1_region_1684669984168_719_tl_33" n="N033"/>rimente in dem kleinen Saalmodell zeigten, daß die vom
-               <lb facs="#facs_1_region_1684669984168_719_tl_34" n="N034"/>Orchester entferntesten Zuschauerbänke ganz ebenso stark be¬
-               <lb facs="#facs_1_region_1684669984168_719_tl_35" n="N035"/>leuchtet waren, wie die vorderen Reihen — eine Gleichheit,
+               <lb facs="#facs_1_region_1684669984168_719_tl_29" n="N029"/>der Ton eine Distanz von 340 Metern in der Secunde durch
+               <lb facs="#facs_1_region_1684669984168_719_tl_30" n="N030" break="no"/>mißt, sollen blos diejenigen Töne gesammelt und zurück
+               <lb facs="#facs_1_region_1684669984168_719_tl_31" n="N031" break="no"/>geworfen werden, welche von einander höchstens durch einen
+               <lb facs="#facs_1_region_1684669984168_719_tl_32" n="N032"/>Zwischenraum von 34 Metern getrennt sind. Die Licht-Expe
+               <lb facs="#facs_1_region_1684669984168_719_tl_33" n="N033" break="no"/>rimente in dem kleinen Saalmodell zeigten, daß die vom
+               <lb facs="#facs_1_region_1684669984168_719_tl_34" n="N034"/>Orchester entferntesten Zuschauerbänke ganz ebenso stark be
+               <lb facs="#facs_1_region_1684669984168_719_tl_35" n="N035" break="no"/>leuchtet waren, wie die vorderen Reihen — eine Gleichheit,
                <lb facs="#facs_1_region_1684669984168_719_tl_36" n="N036"/>welche die Architekten sehr mißfällig überraschen mußte, weil
                <lb facs="#facs_1_region_1684669984168_719_tl_37" n="N037"/>ja die entferntesten Zuhörer, gleichsam als Ersatz für ihre
                <lb facs="#facs_1_region_1684669984168_719_tl_38" n="N038"/>Entfernung, eine größere Quantität reflectirten Schalles
                <lb facs="#facs_1_region_1684669984168_719_tl_39" n="N039"/>empfangen. In Folge dieser Beobachtung änderten sie den
-               <lb facs="#facs_1_region_1684669984168_719_tl_40" n="N040"/>Bogen der Wölbung, welche den Ton zurückwerfen soll, der¬
-               <lb facs="#facs_1_region_1684669984168_719_tl_41" n="N041"/>gestalt ab, daß diese die Schallwellen den letzten Bänken des
+               <lb facs="#facs_1_region_1684669984168_719_tl_40" n="N040"/>Bogen der Wölbung, welche den Ton zurückwerfen soll, der
+               <lb facs="#facs_1_region_1684669984168_719_tl_41" n="N041" break="no"/>gestalt ab, daß diese die Schallwellen den letzten Bänken des
                <lb facs="#facs_1_region_1684669984168_719_tl_42" n="N042"/>Amphitheaters reichlicher als den ersten zusende. Was man
                <lb facs="#facs_1_region_1684669984168_719_tl_43" n="N043"/>dergestalt durch die Analogie mit den Lichtstrahlen als das
-               <lb facs="#facs_1_region_1684669984168_719_tl_44" n="N044"/>Richtige herausgefunden hatte für die Akustik, wurde hinter¬
-               <lb facs="#facs_1_region_1684669984168_719_tl_45" n="N045"/>her durch zwei Mittel realisirt; Dämpfung des Schalles in
-            </p>
+               <lb facs="#facs_1_region_1684669984168_719_tl_44" n="N044"/>Richtige herausgefunden hatte für die Akustik, wurde hinter
+               <lb facs="#facs_1_region_1684669984168_719_tl_45" n="N045" break="no"/>her durch zwei Mittel realisirt; Dämpfung des Schalles in<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
+            <cb n="4"/>
+            <p prev="true">
                <lb facs="#facs_2_line_1759588387874_132" n="N001"/>den näher gelegenen Theilen des Auditoriums durch Tapeten
                <lb facs="#facs_2_region_1684669995377_725_tl_2" n="N002"/>und Seidenpolsterung, sodann eine stärkere Repercussion von
-               <lb facs="#facs_2_region_1684669995377_725_tl_3" n="N003"/>den das Orchester umgebenden Wänden und der es über¬
-               <lb facs="#facs_2_region_1684669995377_725_tl_4" n="N004"/>wölbenden Muschel.
-               <lb facs="#facs_2_region_1684669995377_725_tl_5" n="N005"/>Ich habe diese Experimente in ihren Hauptpunkten wie¬
-               <lb facs="#facs_2_region_1684669995377_725_tl_6" n="N006"/>dererzählt, zunächst weil sie hier Aufsehen machten durch sinn¬
-               <lb facs="#facs_2_region_1684669995377_725_tl_7" n="N007"/>reiche Erfindung und wissenschaftliche Genauigkeit. Sodann
-               <lb facs="#facs_2_region_1684669995377_725_tl_8" n="N008"/>aber, weil diese gerühmten Licht-Experimente wider Vermu¬
-               <lb facs="#facs_2_region_1684669995377_725_tl_9" n="N009"/>then der Architekten noch etwas ganz Anderes beleuchten,
+               <lb facs="#facs_2_region_1684669995377_725_tl_3" n="N003"/>den das Orchester umgebenden Wänden und der es über
+               <lb facs="#facs_2_region_1684669995377_725_tl_4" n="N004" break="no"/>wölbenden Muschel.
+            </p><p>
+               <lb facs="#facs_2_region_1684669995377_725_tl_5" n="N005"/>Ich habe diese Experimente in ihren Hauptpunkten wie
+               <lb facs="#facs_2_region_1684669995377_725_tl_6" n="N006" break="no"/>dererzählt, zunächst weil sie hier Aufsehen machten durch sinn
+               <lb facs="#facs_2_region_1684669995377_725_tl_7" n="N007" break="no"/>reiche Erfindung und wissenschaftliche Genauigkeit. Sodann
+               <lb facs="#facs_2_region_1684669995377_725_tl_8" n="N008"/>aber, weil diese gerühmten Licht-Experimente wider Vermu
+               <lb facs="#facs_2_region_1684669995377_725_tl_9" n="N009" break="no"/>then der Architekten noch etwas ganz Anderes beleuchten,
                <lb facs="#facs_2_region_1684669995377_725_tl_10" n="N010"/>nämlich die Kluft, welche noch immer zwischen Theorie und
                <lb facs="#facs_2_region_1684669995377_725_tl_11" n="N011"/>Praxis der Akustik der Gebäude liegt. Denn das Concert im
-               <lb facs="#facs_2_region_1684669995377_725_tl_12" n="N012"/>Trocadero-Saale hat die Berechnungen der gelehrten Architek¬
-               <lb facs="#facs_2_region_1684669995377_725_tl_13" n="N013"/>ten theilweise Lügen gestraft und bestätigt, daß in der Regel
+               <lb facs="#facs_2_region_1684669995377_725_tl_12" n="N012"/>Trocadero-Saale hat die Berechnungen der gelehrten Architek
+               <lb facs="#facs_2_region_1684669995377_725_tl_13" n="N013" break="no"/>ten theilweise Lügen gestraft und bestätigt, daß in der Regel
                <lb facs="#facs_2_region_1684669995377_725_tl_14" n="N014"/>diejenigen Musiksäle die mangelhafteste Akustik haben, wo zu
                <lb facs="#facs_2_region_1684669995377_725_tl_15" n="N015"/>viel oder zu wenig dafür gesorgt wurde. Der neue Saal ist
                <lb facs="#facs_2_region_1684669995377_725_tl_16" n="N016"/>in der That leider nicht frei von Echo; man vernimmt es
-               <lb facs="#facs_2_region_1684669995377_725_tl_17" n="N017"/>namentlich nach starken, kurz abgestoßenen Accorden, am deut¬
-               <lb facs="#facs_2_region_1684669995377_725_tl_18" n="N018"/>lichsten in den letzten Bänken. Am besten klingen die Streich-
-               <lb facs="#facs_2_region_1684669995377_725_tl_19" n="N019"/>Instrumente, die Bläser etwas hart, aber deutlich, die Sing¬
-               <lb facs="#facs_2_region_1684669995377_725_tl_20" n="N020"/>stimmen des Chores hingegen schwimmen in bewegteren
+               <lb facs="#facs_2_region_1684669995377_725_tl_17" n="N017"/>namentlich nach starken, kurz abgestoßenen Accorden, am deut
+               <lb facs="#facs_2_region_1684669995377_725_tl_18" n="N018" break="no"/>lichsten in den letzten Bänken. Am besten klingen die Streich-
+               <lb facs="#facs_2_region_1684669995377_725_tl_19" n="N019"/>Instrumente, die Bläser etwas hart, aber deutlich, die Sing
+               <lb facs="#facs_2_region_1684669995377_725_tl_20" n="N020" break="no"/>stimmen des Chores hingegen schwimmen in bewegteren
                <lb facs="#facs_2_region_1684669995377_725_tl_21" n="N021"/>Sätzen bedenklich durcheinander. Langsame Sätze, in welchen
                <lb facs="#facs_2_line_1759588415362_147" n="N022"/>der Ton Zeit hat, sich auszubreiten, kommen insbesondere in
                <lb facs="#facs_2_region_1684669995377_725_tl_23" n="N023"/>den Piano-Stellen gut heraus; rasche, figurirte Sätze, Forte-
-               <lb facs="#facs_2_region_1684669995377_725_tl_24" n="N024"/>und Fortissimo-Stellen verlieren mehr oder minder an Deut¬
-               <lb facs="#facs_2_region_1684669995377_725_tl_25" n="N025"/>lichkeit. In den raschen und fugirten Stellen der <rs type="bibl">Cantate</rs>
-               <lb facs="#facs_2_region_1684669995377_725_tl_26" n="N026"/>von <rs type="person">Saint-Saëns</rs> erwies sich der aus 200 Sängern beste¬
-               <lb facs="#facs_2_region_1684669995377_725_tl_27" n="N027"/>hende Chor schon zu stark für die klare Verständlichkeit der
+               <lb facs="#facs_2_region_1684669995377_725_tl_24" n="N024"/>und Fortissimo-Stellen verlieren mehr oder minder an Deut
+               <lb facs="#facs_2_region_1684669995377_725_tl_25" n="N025" break="no"/>lichkeit. In den raschen und fugirten Stellen der <rs type="bibl" ref="#hsl_work_id_5528">Cantate</rs><space quantity="1" unit="char"/>
+               <lb facs="#facs_2_region_1684669995377_725_tl_26" n="N026"/>von <rs type="person" ref="#hsl_person_id_1658">Saint-Saëns</rs> erwies sich der aus 200 Sängern beste
+               <lb facs="#facs_2_region_1684669995377_725_tl_27" n="N027" break="no"/>hende Chor schon zu stark für die klare Verständlichkeit der
                <lb facs="#facs_2_region_1684669995377_725_tl_28" n="N028"/>Polyphonie; die in so großem Raume erwartete Kraft und
                <lb facs="#facs_2_region_1684669995377_725_tl_29" n="N029"/>Tonfülle erreicht er trotzdem nicht. Die hiesigen Musiker
                <lb facs="#facs_2_region_1684669995377_725_tl_30" n="N030"/>sind darüber einig, daß die Zahl der Choristen auf
                <lb facs="#facs_2_region_1684669995377_725_tl_31" n="N031"/>300 erhöht werden sollte. Dann aber dürften sie
                <lb facs="#facs_2_region_1684669995377_725_tl_32" n="N032"/>wol nur Andantesätze in ganzen und halben Noten singen,
-               <lb facs="#facs_2_region_1684669995377_725_tl_33" n="N033"/>um rein und deutlich zu bleiben. Das Nachhallen und Durch¬
-               <lb facs="#facs_2_region_1684669995377_725_tl_34" n="N034"/>einanderschwirren großer, complicirter Tonmassen wird mehr
+               <lb facs="#facs_2_region_1684669995377_725_tl_33" n="N033"/>um rein und deutlich zu bleiben. Das Nachhallen und Durch
+               <lb facs="#facs_2_region_1684669995377_725_tl_34" n="N034" break="no"/>einanderschwirren großer, complicirter Tonmassen wird mehr
                <lb facs="#facs_2_region_1684669995377_725_tl_35" n="N035"/>oder minder in allen übermäßig weiten und hohen Räumen
                <lb facs="#facs_2_region_1684669995377_725_tl_36" n="N036"/>vorkommen. Wie jede künstlerische Wirkung, so ist auch die
-               <lb facs="#facs_2_region_1684669995377_725_tl_37" n="N037"/>musikalische an ein gewisses Maß ihrer Mittel und Dimen¬
-               <lb facs="#facs_2_region_1684669995377_725_tl_38" n="N038"/>sionen gewiesen, das sie ohne Einbuße an Schönheit und
-               <lb facs="#facs_2_region_1684669995377_725_tl_39" n="N039"/>Klarheit nicht überschreiten darf. Trotz der angeblich unfehl¬
-               <lb facs="#facs_2_region_1684669995377_725_tl_40" n="N040"/>baren Licht-Experimente haben die Architekten des Trocadero-
+               <lb facs="#facs_2_region_1684669995377_725_tl_37" n="N037"/>musikalische an ein gewisses Maß ihrer Mittel und Dimen
+               <lb facs="#facs_2_region_1684669995377_725_tl_38" n="N038" break="no"/>sionen gewiesen, das sie ohne Einbuße an Schönheit und
+               <lb facs="#facs_2_region_1684669995377_725_tl_39" n="N039"/>Klarheit nicht überschreiten darf. Trotz der angeblich unfehl
+               <lb facs="#facs_2_region_1684669995377_725_tl_40" n="N040" break="no"/>baren Licht-Experimente haben die Architekten des Trocadero-
                <lb facs="#facs_2_region_1684669995377_725_tl_41" n="N041"/>Saales die Aufgabe <hi rendition="#em">nicht</hi> gelöst: einen außerordentlich
                <lb facs="#facs_2_region_1684669995377_725_tl_42" n="N042"/>großen und dabei doch vollkommen akustischen Concertsaal
-               <lb facs="#facs_2_region_1684669995377_725_tl_43" n="N043"/>zu bauen. Herr <hi rendition="#em">Charles <rs type="person">Blanc</rs>
-               </hi>, der gelehrte <rs type="place">Paris</rs>er
-               <lb facs="#facs_2_region_1684669995377_725_tl_44" n="N044"/>Akademiker, welcher jener Stellvertretung akustischer Experi¬
-               <lb facs="#facs_2_line_1759588449627_164" n="N045"/>mente durch optische seine beifällige Aufmerksamkeit geschenkt,
-            </p>
-            <cb n="6"/>
-            <p>
+               <lb facs="#facs_2_region_1684669995377_725_tl_43" n="N043"/>zu bauen. Herr <hi rendition="#em">Charles <rs type="person" ref="#hsl_person_id_7819">Blanc</rs></hi>, der gelehrte <rs type="place" ref="#hsl_place_id_44">Paris</rs>er
+               <lb facs="#facs_2_region_1684669995377_725_tl_44" n="N044"/>Akademiker, welcher jener Stellvertretung akustischer Experi
+               <lb facs="#facs_2_line_1759588449627_164" n="N045" break="no"/>mente durch optische seine beifällige Aufmerksamkeit geschenkt,<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
                <lb facs="#facs_2_line_1759588387874_131" n="N001"/>rechtfertigt sie durch den schönen Ausspruch: die Natur, so
-               <lb facs="#facs_2_region_1684669998463_728_tl_1" n="N002"/>mannichfaltig in ihren Schöpfungen, sei einfach in ihren Ge¬
-               <lb facs="#facs_2_region_1684669998463_728_tl_2" n="N003"/>setzen und habe, weit entfernt, sie zu vermehren, deren An¬
-               <lb facs="#facs_2_region_1684669998463_728_tl_3" n="N004"/>zahl möglichst reducirt. Wir wissen aber, daß diese einfachen
+               <lb facs="#facs_2_region_1684669998463_728_tl_1" n="N002"/>mannichfaltig in ihren Schöpfungen, sei einfach in ihren Ge
+               <lb facs="#facs_2_region_1684669998463_728_tl_2" n="N003" break="no"/>setzen und habe, weit entfernt, sie zu vermehren, deren An
+               <lb facs="#facs_2_region_1684669998463_728_tl_3" n="N004" break="no"/>zahl möglichst reducirt. Wir wissen aber, daß diese einfachen
                <lb facs="#facs_2_region_1684669998463_728_tl_4" n="N005"/>obersten Gesetze sich in der Praxis durch sehr complicirte
-               <lb facs="#facs_2_region_1684669998463_728_tl_5" n="N006"/>Bedingungen durcharbeiten müssen und auf die mannich¬
-               <lb facs="#facs_2_region_1684669998463_728_tl_6" n="N007"/>faltigsten Hemmungen stoßen, die man oft ganz wo anders
-               <lb facs="#facs_2_region_1684669998463_728_tl_7" n="N008"/>sucht, als dort, wo sie wirklich nisten. Was für ideale Ver¬
-               <lb facs="#facs_2_region_1684669998463_728_tl_8" n="N009"/>wirklichungen der physikalischen Gesetze besäßen wir längst
+               <lb facs="#facs_2_region_1684669998463_728_tl_5" n="N006"/>Bedingungen durcharbeiten müssen und auf die mannich
+               <lb facs="#facs_2_region_1684669998463_728_tl_6" n="N007" break="no"/>faltigsten Hemmungen stoßen, die man oft ganz wo anders
+               <lb facs="#facs_2_region_1684669998463_728_tl_7" n="N008"/>sucht, als dort, wo sie wirklich nisten. Was für ideale Ver
+               <lb facs="#facs_2_region_1684669998463_728_tl_8" n="N009" break="no"/>wirklichungen der physikalischen Gesetze besäßen wir längst
                <lb facs="#facs_2_region_1684669998463_728_tl_9" n="N010"/>— wenn das Hinderniß der „Reibung“ nicht wäre! „Man
                <lb facs="#facs_2_region_1684669998463_728_tl_10" n="N011"/>studire, wie die Lichtstrahlen in einem Gebäude reflectirt
                <lb facs="#facs_2_region_1684669998463_728_tl_11" n="N012"/>werden, und man wird das Geheimniß der Schallwellen in
                <lb facs="#facs_2_region_1684669998463_728_tl_12" n="N013"/>diesem Raume entdeckt haben.“ Der Satz klingt sehr schön,
                <lb facs="#facs_2_region_1684669998463_728_tl_13" n="N014"/>aber nicht so der Saal, welcher danach construirt ist.
+            </p><p>
                <lb facs="#facs_2_region_1684669998463_728_tl_14" n="N015"/>Mit ganz besonderem Interesse habe ich gerade jetzt in
-               <lb facs="#facs_2_region_1684669998463_728_tl_15" n="N016"/>dem neuen Buche von <hi rendition="#em">Charles <rs type="person">Garnier</rs>
-               </hi> nachgeschla¬
-               <lb facs="#facs_2_region_1684669998463_728_tl_16" n="N017"/>gen, was dieser berühmte Architekt über die Akustik seiner
-               <lb facs="#facs_2_region_1684669998463_728_tl_17" n="N018"/>eigenen Schöpfung, des <rs type="place">Paris</rs>er Opernhauses, aussagt. Es
+               <lb facs="#facs_2_region_1684669998463_728_tl_15" n="N016"/>dem neuen Buche von <hi rendition="#em">Charles <rs type="person" ref="#hsl_person_id_7014">Garnier</rs></hi> nachgeschla
+               <lb facs="#facs_2_region_1684669998463_728_tl_16" n="N017" break="no"/>gen, was dieser berühmte Architekt über die Akustik seiner
+               <lb facs="#facs_2_region_1684669998463_728_tl_17" n="N018"/>eigenen Schöpfung, des <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Opernhauses, aussagt. Es
                <lb facs="#facs_2_region_1684669998463_728_tl_18" n="N019"/>klingt fast entgegengesetzt der doctrinären Glaubenstreue und
-               <lb facs="#facs_2_region_1684669998463_728_tl_19" n="N020"/>Ueberzeugung der Trocadero-Architekten, und ist trotz sei¬
-               <lb facs="#facs_2_region_1684669998463_728_tl_20" n="N021"/>ner leichtfertigen Ausdrucksweise doch ernstlich gedacht und
+               <lb facs="#facs_2_region_1684669998463_728_tl_19" n="N020"/>Ueberzeugung der Trocadero-Architekten, und ist trotz sei
+               <lb facs="#facs_2_region_1684669998463_728_tl_20" n="N021" break="no"/>ner leichtfertigen Ausdrucksweise doch ernstlich gedacht und
                <lb facs="#facs_2_line_1759588415362_146" n="N022"/>gemeint. Ueber seine akustische Theorie befragt, antwortet
-               <lb facs="#facs_2_region_1684669998463_728_tl_21" n="N023"/>
-               <rs type="person">Garnier</rs>:
+               <lb facs="#facs_2_region_1684669998463_728_tl_21" n="N023"/><rs type="person" ref="#hsl_person_id_7014">Garnier</rs>:
+            </p><p>
                <lb facs="#facs_2_region_1684669998463_728_tl_22" n="N024"/>„Ich will es machen wie die meisten Leute und von
                <lb facs="#facs_2_region_1684669998463_728_tl_23" n="N025"/>dem sprechen, was ich nicht kenne. Es ist nicht meine Schuld,
                <lb facs="#facs_2_region_1684669998463_728_tl_24" n="N026"/>wenn die Akustik und ich einander nie verstehen konnten. Ich
-               <lb facs="#facs_2_region_1684669998463_728_tl_25" n="N027"/>habe mich nach Möglichkeit um diese bizarre Wissenschaft be¬
-               <lb facs="#facs_2_region_1684669998463_728_tl_26" n="N028"/>müht, bin aber nach fünfzehn Jahren kaum weiter gekommen,
+               <lb facs="#facs_2_region_1684669998463_728_tl_25" n="N027"/>habe mich nach Möglichkeit um diese bizarre Wissenschaft be
+               <lb facs="#facs_2_region_1684669998463_728_tl_26" n="N028" break="no"/>müht, bin aber nach fünfzehn Jahren kaum weiter gekommen,
                <lb facs="#facs_2_region_1684669998463_728_tl_27" n="N029"/>als am ersten Tage. Aus Büchern und einigen Collegien
                <lb facs="#facs_2_region_1684669998463_728_tl_28" n="N030"/>über Physik hatte ich wol gelernt, daß die Töne sich so und
                <lb facs="#facs_2_region_1684669998463_728_tl_29" n="N031"/>so fortpflanzen, die Saiten so und so schwingen. Ich
@@ -1656,76 +1623,71 @@
                <lb facs="#facs_2_region_1684669998463_728_tl_37" n="N039"/>nachlesen in meinen Heften und Büchern, gut berathschlagen
                <lb facs="#facs_2_region_1684669998463_728_tl_38" n="N040"/>mit allen Gelehrten — nirgends fand ich eine positive Regel,
                <lb facs="#facs_2_region_1684669998463_728_tl_39" n="N041"/>die mich leiten konnte; im Gegentheile lauter widersprechende
-               <lb facs="#facs_2_region_1684669998463_728_tl_40" n="N042"/>Angaben. Ich habe während langer Monate Alles gewissen¬
-               <lb facs="#facs_2_region_1684669998463_728_tl_41" n="N043"/>haft studirt, geprüft, befragt und bin nach allen diesen Be¬
-               <lb facs="#facs_2_region_1684669998463_728_tl_42" n="N044"/>mühungen endlich zu folgender Entdeckung gelangt: daß ein
-               <lb facs="#facs_2_line_1759588471130_175" n="N045"/>Saal, um gut akustisch zu klingen, entweder lang oder breit
-            </p>
-            <cb n="7"/>
-            <p>
+               <lb facs="#facs_2_region_1684669998463_728_tl_40" n="N042"/>Angaben. Ich habe während langer Monate Alles gewissen
+               <lb facs="#facs_2_region_1684669998463_728_tl_41" n="N043" break="no"/>haft studirt, geprüft, befragt und bin nach allen diesen Be
+               <lb facs="#facs_2_region_1684669998463_728_tl_42" n="N044" break="no"/>mühungen endlich zu folgender Entdeckung gelangt: daß ein
+               <lb facs="#facs_2_line_1759588471130_175" n="N045"/>Saal, um gut akustisch zu klingen, entweder lang oder breit<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
                <lb facs="#facs_2_line_1759588511035_190" n="N001"/>sein muß, hoch oder niedrig, von Holz oder von Stein, rund
                <lb facs="#facs_2_line_1759588500522_185" n="N002"/>oder viereckig u. s. w.“ Somit im Stich gelassen von den
-               <lb facs="#facs_2_region_1684670002509_731_tl_5" n="N003"/>Gelehrten, <rs type="person">Pythagoras</rs> und <rs type="person">Euclid</rs> bis auf <rs type="person">Newton</rs> und
-               <lb facs="#facs_2_region_1684670002509_731_tl_6" n="N004"/>
-               <rs type="person">Chladni</rs>, warf sich <rs type="person">Garnier</rs> von der Theorie auf die Praxis
-               <lb facs="#facs_2_region_1684670002509_731_tl_7" n="N005"/>und begann der Reihe nach alle <rs type="place">europäisch</rs>en Theater zu besichtigen
+               <lb facs="#facs_2_region_1684670002509_731_tl_5" n="N003"/>Gelehrten, <rs type="person" ref="#hsl_person_id_559">Pythagoras</rs> und <rs type="person" ref="#hsl_person_id_7820">Euclid</rs> bis auf <rs type="person" ref="#hsl_person_id_5321">Newton</rs> und
+               <lb facs="#facs_2_region_1684670002509_731_tl_6" n="N004"/><rs type="person" ref="#hsl_person_id_7821">Chladni</rs>, warf sich <rs type="person" ref="#hsl_person_id_7014">Garnier</rs> von der Theorie auf die Praxis
+               <lb facs="#facs_2_region_1684670002509_731_tl_7" n="N005"/>und begann der Reihe nach alle <rs type="place" ref="#hsl_place_id_19">europäisch</rs>en Theater zu besichtigen
                <lb facs="#facs_2_region_1684670002509_731_tl_8" n="N006"/>und zu prüfen. „In diesem Theater klang die Musik vortrefflich,
-               <lb facs="#facs_2_region_1684670002509_731_tl_9" n="N007"/>in jenem, ganz gleich gebauten, dumpf; hier schien die Holz¬
-               <lb facs="#facs_2_region_1684670002509_731_tl_10" n="N008"/>construction das Beste zu leisten, dort das Mauerwerk. Zwei
-               <lb facs="#facs_2_region_1684670002509_731_tl_11" n="N009"/>einander vollkommen ähnliche und ganz gleichmäßig con¬
-               <lb facs="#facs_2_region_1684670002509_731_tl_12" n="N010"/>struirte Opernhäuser erwiesen sich völlig verschieden in ihrer
-               <lb facs="#facs_2_region_1684670002509_731_tl_13" n="N011"/>Akustik. Der Zufall allein schien überall das letzte Wort ge¬
-               <lb facs="#facs_2_region_1684670002509_731_tl_14" n="N012"/>sprochen zu haben, und ich sah mich abermals ohne Führer.
+               <lb facs="#facs_2_region_1684670002509_731_tl_9" n="N007"/>in jenem, ganz gleich gebauten, dumpf; hier schien die Holz
+               <lb facs="#facs_2_region_1684670002509_731_tl_10" n="N008" break="no"/>construction das Beste zu leisten, dort das Mauerwerk. Zwei
+               <lb facs="#facs_2_region_1684670002509_731_tl_11" n="N009"/>einander vollkommen ähnliche und ganz gleichmäßig con
+               <lb facs="#facs_2_region_1684670002509_731_tl_12" n="N010" break="no"/>struirte Opernhäuser erwiesen sich völlig verschieden in ihrer
+               <lb facs="#facs_2_region_1684670002509_731_tl_13" n="N011"/>Akustik. Der Zufall allein schien überall das letzte Wort ge
+               <lb facs="#facs_2_region_1684670002509_731_tl_14" n="N012" break="no"/>sprochen zu haben, und ich sah mich abermals ohne Führer.
                <lb facs="#facs_2_region_1684670002509_731_tl_15" n="N013"/>An diesem Punkte war ich angelangt — und da stehe ich
-               <lb facs="#facs_2_region_1684670002509_731_tl_16" n="N014"/>leider noch heute!“ <rs type="person">Garnier</rs> bekennt, daß er bei der Con¬
-               <lb facs="#facs_2_region_1684670002509_731_tl_17" n="N015"/>struction der <rs type="place">Paris</rs>er Großen Oper sich dem Zufalle über¬
-               <lb facs="#facs_2_region_1684670002509_731_tl_18" n="N016"/>lassen habe, wie Jemand, der geschlossenen Auges sich an
+               <lb facs="#facs_2_region_1684670002509_731_tl_16" n="N014"/>leider noch heute!“ <rs type="person" ref="#hsl_person_id_7014">Garnier</rs> bekennt, daß er bei der Con
+               <lb facs="#facs_2_region_1684670002509_731_tl_17" n="N015" break="no"/>struction der <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Großen Oper sich dem Zufalle über
+               <lb facs="#facs_2_region_1684670002509_731_tl_18" n="N016" break="no"/>lassen habe, wie Jemand, der geschlossenen Auges sich an
                <lb facs="#facs_2_region_1684670002509_731_tl_19" n="N017"/>das Seil eines aufsteigenden Luftballons klammert. „Eh
-               <lb facs="#facs_2_region_1684670002509_731_tl_20" n="N018"/>bien! Je suis arrivé!“ schließt er mit selbstbewußter Zufrie¬
-               <lb facs="#facs_2_region_1684670002509_731_tl_21" n="N019"/>denheit. „Der Saal der Großen Oper hat eine gute Akustik,
+               <lb facs="#facs_2_region_1684670002509_731_tl_20" n="N018"/>bien! Je suis arrivé!“ schließt er mit selbstbewußter Zufrie
+               <lb facs="#facs_2_region_1684670002509_731_tl_21" n="N019" break="no"/>denheit. „Der Saal der Großen Oper hat eine gute Akustik,
                <lb facs="#facs_2_region_1684670002509_731_tl_22" n="N020"/>die beste wahrscheinlich von allen Theatern; ich selbst hebe
                <lb facs="#facs_2_region_1684670002509_731_tl_23" n="N021"/>kein Verdienst daran und trage blos die Ehrenzeichen.“
-               <lb facs="#facs_2_region_1684670002509_731_tl_24" n="N022"/>Würde ein Anderer als der gefeierte Erbauer des <rs type="place">Paris</rs>er
-               <lb facs="#facs_2_region_1684670002509_731_tl_25" n="N023"/>Opernhauses so sprechen, so dürfte man ihm wol die schaden¬
-               <lb facs="#facs_2_region_1684670002509_731_tl_26" n="N024"/>frohe Warnung <rs type="person">Mephisto</rs>'s zurufen: „Verachte nur Kunst
+               <lb facs="#facs_2_region_1684670002509_731_tl_24" n="N022"/>Würde ein Anderer als der gefeierte Erbauer des <rs type="place" ref="#hsl_place_id_44">Paris</rs>er
+               <lb facs="#facs_2_region_1684670002509_731_tl_25" n="N023"/>Opernhauses so sprechen, so dürfte man ihm wol die schaden
+               <lb facs="#facs_2_region_1684670002509_731_tl_26" n="N024" break="no"/>frohe Warnung <rs type="person" ref="#hsl_person_id_629">Mephisto</rs>’s zurufen: „Verachte nur Kunst
                <lb facs="#facs_2_region_1684670002509_731_tl_27" n="N025"/>und Wissenschaft, des Menschen allerhöchste Kraft!“ So
-               <lb facs="#facs_2_region_1684670002509_731_tl_28" n="N026"/>aber ist's ein Fachmann von gewissenhaften Studien und
+               <lb facs="#facs_2_region_1684670002509_731_tl_28" n="N026"/>aber ist’s ein Fachmann von gewissenhaften Studien und
                <lb facs="#facs_2_region_1684670002509_731_tl_29" n="N027"/>umfassenden Erfahrungen, ein Mann von Geist und Erfolg,
                <lb facs="#facs_2_region_1684670002509_731_tl_30" n="N028"/>der uns bezüglich der Akustik sagt, er wisse, „daß wir nichts
                <lb facs="#facs_2_region_1684670002509_731_tl_31" n="N029"/>wissen können“. Und zweifellos ist, daß die Wissenschaft von
-               <lb facs="#facs_2_region_1684670002509_731_tl_32" n="N030"/>der Akustik der Gebäude (mitunter auch die weit vorgeschrit¬
-               <lb facs="#facs_2_region_1684670002509_731_tl_33" n="N031"/>tenere Akustik der musikalischen Instrumente) uns noch lange
+               <lb facs="#facs_2_region_1684670002509_731_tl_32" n="N030"/>der Akustik der Gebäude (mitunter auch die weit vorgeschrit
+               <lb facs="#facs_2_region_1684670002509_731_tl_33" n="N031" break="no"/>tenere Akustik der musikalischen Instrumente) uns noch lange
                <lb facs="#facs_2_region_1684670002509_731_tl_34" n="N032"/>nicht alle Mittel lehrt, die feindlichen Strömungen, welche
                <lb facs="#facs_2_region_1684670002509_731_tl_35" n="N033"/>jene obersten Gesetze in der Praxis durchkreuzen, zu erkennen
                <lb facs="#facs_2_region_1684670002509_731_tl_36" n="N034"/>und zu beseitigen. Die wissenschaftliche Erforschung und die
                <lb facs="#facs_2_region_1684670002509_731_tl_37" n="N035"/>glückliche Empirie, sie werden beide fortschreiten, allein bis
-               <lb facs="#facs_2_region_1684670002509_731_tl_38" n="N036"/>heute sind sie noch nicht gemeinschaftlich so weit vorgedrun¬
-               <lb facs="#facs_2_region_1684670002509_731_tl_39" n="N037"/>gen, um a priori einen großen Opern- oder Concertsaal zu
-               <lb facs="#facs_2_region_1684670002509_731_tl_40" n="N038"/>construiren, dessen gute Akustik man mit Sicherheit voraus¬
-               <lb facs="#facs_2_region_1684670002509_731_tl_41" n="N039"/>bestimmen kann.
+               <lb facs="#facs_2_region_1684670002509_731_tl_38" n="N036"/>heute sind sie noch nicht gemeinschaftlich so weit vorgedrun
+               <lb facs="#facs_2_region_1684670002509_731_tl_39" n="N037" break="no"/>gen, um a priori einen großen Opern- oder Concertsaal zu
+               <lb facs="#facs_2_region_1684670002509_731_tl_40" n="N038"/>construiren, dessen gute Akustik man mit Sicherheit voraus
+               <lb facs="#facs_2_region_1684670002509_731_tl_41" n="N039" break="no"/>bestimmen kann.
+            </p><p>
                <lb facs="#facs_2_region_1684670002509_731_tl_42" n="N040"/>Kehren wir zurück zu unserem Concert. Es ist das erste
-               <lb facs="#facs_2_region_1684670002509_731_tl_43" n="N041"/>von <hi rendition="#em">zehn</hi> großen Orchester-Concerten, welche die <rs type="place">französisch</rs>e
-               <lb facs="#facs_2_region_1684670002509_731_tl_44" n="N042"/>Ausstellungs-Commission, also die Regierung, in diesem Fest¬
-               <lb facs="#facs_2_region_1684670002509_731_tl_45" n="N043"/>saale veranstaltet und deßhalb „concerts officiels“ nennt.
-               <lb facs="#facs_2_region_1684670002509_731_tl_46" n="N044"/>Officielle Concerte sind außerdem von den Orgel-Produc¬
-               <lb facs="#facs_2_line_1759588471130_174" n="N045"/>tionen, den Aufführungen der <rs type="place">französisch</rs>en Gesangvereine und
-            </p>
+               <lb facs="#facs_2_region_1684670002509_731_tl_43" n="N041"/>von <hi rendition="#em">zehn</hi> großen Orchester-Concerten, welche die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e
+               <lb facs="#facs_2_region_1684670002509_731_tl_44" n="N042"/>Ausstellungs-Commission, also die Regierung, in diesem Fest
+               <lb facs="#facs_2_region_1684670002509_731_tl_45" n="N043" break="no"/>saale veranstaltet und deßhalb „concerts officiels“ nennt.
+               <lb facs="#facs_2_region_1684670002509_731_tl_46" n="N044"/>Officielle Concerte sind außerdem von den Orgel-Produc
+               <lb facs="#facs_2_line_1759588471130_174" n="N045" break="no"/>tionen, den Aufführungen der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Gesangvereine und<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
+            <cb n="7"/>
+            <p prev="true">
                <lb facs="#facs_3_region_1684670012063_737_tl_1" n="N001"/>Harmoniemusiker noch abgesehen) <hi rendition="#em">sechzehn</hi> „séances“ für
-               <lb facs="#facs_3_region_1684670012063_737_tl_2" n="N002"/>Kammermusik im kleinen Trocadero-Saale. In den sechsund¬
-               <lb facs="#facs_3_region_1684670012063_737_tl_3" n="N003"/>zwanzig officiellen Concerten kommen nur Compositionen
-               <lb facs="#facs_3_region_1684670012063_737_tl_4" n="N004"/>
-               <hi rendition="#em">
-                  <rs type="place">französisch</rs>er</hi> Tondichter, und zwar neuerer Tondichter,
-               <lb facs="#facs_3_region_1684670012063_737_tl_5" n="N005"/>zur Aufführung, „um die musikalische Entwicklung in <rs type="place" continued="true">Frank¬</rs>
-               <lb facs="#facs_3_region_1684670012063_737_tl_6" n="N006"/>
-               <rs type="place" continued="true">reich</rs> von <date month="0" day="0" year="0">1830</date> bis <date month="0" day="0" year="0">1878</date> zu repräsentiren“. Es ist dies ein
+               <lb facs="#facs_3_region_1684670012063_737_tl_2" n="N002"/>Kammermusik im kleinen Trocadero-Saale. In den sechsund
+               <lb facs="#facs_3_region_1684670012063_737_tl_3" n="N003" break="no"/>zwanzig officiellen Concerten kommen nur Compositionen
+               <lb facs="#facs_3_region_1684670012063_737_tl_4" n="N004"/><hi rendition="#em"><rs type="place" ref="#hsl_place_id_21">französisch</rs>er</hi> Tondichter, und zwar neuerer Tondichter,
+               <lb facs="#facs_3_region_1684670012063_737_tl_5" n="N005"/>zur Aufführung, „um die musikalische Entwicklung in <rs type="place" ref="#hsl_place_id_21">Frank
+               <lb facs="#facs_3_region_1684670012063_737_tl_6" n="N006" break="no"/>reich</rs> von <date>1830</date> bis <date>1878</date> zu repräsentiren“. Es ist dies ein
                <lb facs="#facs_3_region_1684670012063_737_tl_7" n="N007"/>großes und nicht unbedenkliches Unternehmen, denn nur
                <lb facs="#facs_3_region_1684670012063_737_tl_8" n="N008"/>mittelst einer nachsichtigen Auswahl dürften sechsundzwanzig
                <lb facs="#facs_3_region_1684670012063_737_tl_9" n="N009"/>Instrumental-Concerte (jedes zu sechs Nummern) blos von
-               <lb facs="#facs_3_region_1684670012063_737_tl_10" n="N010"/>neueren <rs type="place">französisch</rs>en Componisten zu bestreiten sein. Wir
+               <lb facs="#facs_3_region_1684670012063_737_tl_10" n="N010"/>neueren <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Componisten zu bestreiten sein. Wir
                <lb facs="#facs_3_region_1684670012063_737_tl_11" n="N011"/>wissen, daß die Franzosen heute bei musikalisch spärlicherer
                <lb facs="#facs_3_region_1684670012063_737_tl_12" n="N012"/>Production noch immerhin mehr Talente für Oper und
                <lb facs="#facs_3_region_1684670012063_737_tl_13" n="N013"/>Ballet besitzen, als die Deutschen. Ebenso gut wissen wir
@@ -1735,151 +1697,126 @@
                <lb facs="#facs_3_region_1684670012063_737_tl_17" n="N017"/>besser gesorgt hätten für den Erfolg (den künstlerischen und
                <lb facs="#facs_3_region_1684670012063_737_tl_18" n="N018"/>den pecuniären) ihrer Ausstellungs-Concerte, würden sie neben
                <lb facs="#facs_3_region_1684670012063_737_tl_19" n="N019"/>ihren eigenen Schöpfungen in jedem Concert auch einige
-               <lb facs="#facs_3_region_1684670012063_737_tl_20" n="N020"/>fremde, namentlich classische <rs type="place">deutsch</rs>e Compositionen auf das
+               <lb facs="#facs_3_region_1684670012063_737_tl_20" n="N020"/>fremde, namentlich classische <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Compositionen auf das
                <lb facs="#facs_3_region_1684670012063_737_tl_21" n="N021"/>Programm setzen. Bei allem Esprit, aller Feinheit und
-               <lb facs="#facs_3_region_1684670012063_737_tl_22" n="N022"/>technischen Geschicklichkeit, welche die neufranzösischen In¬
-               <lb facs="#facs_3_region_1684670012063_737_tl_23" n="N023"/>strumental-Compositionen auszeichnen, wirkt es doch sehr er¬
-               <lb facs="#facs_3_region_1684670012063_737_tl_24" n="N024"/>müdend und austrocknend, eine längere Reihe derselben nach
-               <lb facs="#facs_3_region_1684670012063_737_tl_25" n="N025"/>einander zu hören. Könnten wir inzwischen je einen herz¬
-               <lb facs="#facs_3_region_1684670012063_737_tl_26" n="N026"/>haften Zug aus dem klaren Urquell der Musik, aus <rs type="person">Haydn</rs>,
-               <lb facs="#facs_3_region_1684670012063_737_tl_27" n="N027"/>
-               <rs type="person">Mozart</rs>, <rs type="person">Beethoven</rs>, <rs type="person">Schubert</rs>, <rs type="person">Weber</rs>, <rs type="person">Mendelssohn</rs> thun
+               <lb facs="#facs_3_region_1684670012063_737_tl_22" n="N022"/>technischen Geschicklichkeit, welche die neufranzösischen In
+               <lb facs="#facs_3_region_1684670012063_737_tl_23" n="N023" break="no"/>strumental-Compositionen auszeichnen, wirkt es doch sehr er
+               <lb facs="#facs_3_region_1684670012063_737_tl_24" n="N024" break="no"/>müdend und austrocknend, eine längere Reihe derselben nach
+               <lb facs="#facs_3_region_1684670012063_737_tl_25" n="N025"/>einander zu hören. Könnten wir inzwischen je einen herz
+               <lb facs="#facs_3_region_1684670012063_737_tl_26" n="N026" break="no"/>haften Zug aus dem klaren Urquell der Musik, aus <rs type="person" ref="#hsl_person_id_114">Haydn</rs>,
+               <lb facs="#facs_3_region_1684670012063_737_tl_27" n="N027"/><rs type="person" ref="#hsl_person_id_189">Mozart</rs>, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, <rs type="person" ref="#hsl_person_id_279">Schubert</rs>, <rs type="person" ref="#hsl_person_id_321">Weber</rs>, <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs> thun
                <lb facs="#facs_3_region_1684670012063_737_tl_28" n="N028"/>(ich nenne nur die Namen, welche der Fries des Trocadero-
                <lb facs="#facs_3_region_1684670012063_737_tl_29" n="N029"/>Saales selbst bekränzt), so würden wir, erquickt und gestärkt
                <lb facs="#facs_3_region_1684670012063_737_tl_30" n="N030"/>durch solch echte, voll aus dem Gemüthe strömende Musik,
                <lb facs="#facs_3_region_1684670012063_737_tl_31" n="N031"/>empfänglicher den anders gearteten pikanten und graziösen
                <lb facs="#facs_3_region_1684670012063_737_tl_32" n="N032"/>Hervorbringungen neufranzösischen Geistes lauschen. Das
                <lb facs="#facs_3_region_1684670012063_737_tl_33" n="N033"/>Concert begann, wie gesagt, mit dem ersten Theil (das
-               <lb facs="#facs_3_line_1759588591547_208" n="N034"/>Ganze wäre zu lang gewesen) von <hi rendition="#em">Félicien <rs type="person">David</rs>'s</hi>
-               <lb facs="#facs_3_line_1759588595699_212" n="N035"/>„<rs type="bibl">Wüste</rs>“. Eine gute Wahl, denn die „<rs type="bibl">Wüste</rs>“ und die
-               <lb facs="#facs_3_region_1684670012063_737_tl_38" n="N036"/>komische Oper „<rs type="bibl">Lalla Rookh</rs>“ sind weitaus das Beste, was
-               <lb facs="#facs_3_region_1684670012063_737_tl_39" n="N037"/>Félicien <rs type="person">David</rs> geschrieben, das Einzige wahrscheinlich, was
-               <lb facs="#facs_3_region_1684670012063_737_tl_40" n="N038"/>ihn noch eine zeitlang überleben wird. Félicien <rs type="person">David</rs> war
+               <lb facs="#facs_3_line_1759588591547_208" n="N034"/>Ganze wäre zu lang gewesen) von <hi rendition="#em">Félicien <rs type="person" ref="#hsl_person_id_969">David</rs>’s</hi><space quantity="1" unit="char"/>
+               <lb facs="#facs_3_line_1759588595699_212" n="N035"/>„<rs type="bibl" ref="#hsl_work_id_3153">Wüste</rs>“. Eine gute Wahl, denn die „<rs type="bibl" ref="#hsl_work_id_3153">Wüste</rs>“ und die
+               <lb facs="#facs_3_region_1684670012063_737_tl_38" n="N036"/>komische Oper „<rs type="bibl" ref="#hsl_work_id_645">Lalla Rookh</rs>“ sind weitaus das Beste, was
+               <lb facs="#facs_3_region_1684670012063_737_tl_39" n="N037"/>Félicien <rs type="person" ref="#hsl_person_id_969">David</rs> geschrieben, das Einzige wahrscheinlich, was
+               <lb facs="#facs_3_region_1684670012063_737_tl_40" n="N038"/>ihn noch eine zeitlang überleben wird. Félicien <rs type="person" ref="#hsl_person_id_969">David</rs> war
                <lb facs="#facs_3_region_1684670012063_737_tl_41" n="N039"/>ein sehr begrenztes, aber in dieser Umgrenzung echtes und
-               <lb facs="#facs_3_region_1684670012063_737_tl_42" n="N040"/>liebenswürdiges Talent; er gehört noch zu der älteren <rs type="place" continued="true">fran¬</rs>
-               <lb facs="#facs_3_region_1684670012063_737_tl_43" n="N041"/>
-               <rs type="place" continued="true">zösisch</rs>en Schule, welche melodiöse Stunden und Tage und
+               <lb facs="#facs_3_region_1684670012063_737_tl_42" n="N040"/>liebenswürdiges Talent; er gehört noch zu der älteren <rs type="place" ref="#hsl_place_id_21">fran
+               <lb facs="#facs_3_region_1684670012063_737_tl_43" n="N041" break="no"/>zösisch</rs>en Schule, welche melodiöse Stunden und Tage und
                <lb facs="#facs_3_region_1684670012063_737_tl_44" n="N042"/>nicht blos lichte Augenblicke hatte. Im Leben war er ein
-               <lb facs="#facs_3_region_1684670012063_737_tl_45" n="N043"/>redliches Gemüth, aber ein sehr beschränkter Kopf, dessen un¬
-               <lb facs="#facs_3_region_1684670012063_737_tl_46" n="N044"/>erschütterliche Schweigsamkeit bekanntlich bei dem nicht be¬
-               <lb facs="#facs_3_line_1759588713346_262" n="N045"/>schränkten, aber gleichfalls schweigsamen <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi> be¬
-            </p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1684670015385_740_tl_1" n="N001"/>sonderes Glück gemacht hat. Als zweite Nummer
+               <lb facs="#facs_3_region_1684670012063_737_tl_45" n="N043"/>redliches Gemüth, aber ein sehr beschränkter Kopf, dessen un
+               <lb facs="#facs_3_region_1684670012063_737_tl_46" n="N044" break="no"/>erschütterliche Schweigsamkeit bekanntlich bei dem nicht be
+               <lb facs="#facs_3_line_1759588713346_262" n="N045" break="no"/>schränkten, aber gleichfalls schweigsamen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi> be</p>
+            <cb n="8"/>
+            <p prev="true">
+               <lb facs="#facs_3_region_1684670015385_740_tl_1" n="N001" break="no"/>sonderes Glück gemacht hat. Als zweite Nummer
                <lb facs="#facs_3_line_1759588608889_218" n="N002"/>folgte abermals eine größere, mehrtheilige Composition:
-               <lb facs="#facs_3_line_1759588565634_200" n="N003"/>„<rs type="bibl">Les noces de Promethée</rs>“, von Camille <hi rendition="#em">
-                  <rs type="person" continued="true">Saint-</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684670015385_740_tl_5" n="N004"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">Saëns</rs>
-               </hi>. Es ist dies dieselbe Cantate für Soli, Chor und
-               <lb facs="#facs_3_region_1684670015385_740_tl_6" n="N005"/>Orchester, welche bei der Weltausstellung von <date month="0" day="0" year="0">1867</date> unter
+               <lb facs="#facs_3_line_1759588565634_200" n="N003"/>„<rs type="bibl" ref="#hsl_work_id_5528">Les noces de Promethée</rs>“, von Camille <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1658">Saint-
+               <lb facs="#facs_3_region_1684670015385_740_tl_5" n="N004"/>Saëns</rs></hi>. Es ist dies dieselbe Cantate für Soli, Chor und
+               <lb facs="#facs_3_region_1684670015385_740_tl_6" n="N005"/>Orchester, welche bei der Weltausstellung von <date>1867</date> unter
                <lb facs="#facs_3_region_1684670015385_740_tl_7" n="N006"/>102 concurrirenden Cantaten als die beste gekrönt wurde.
                <lb facs="#facs_3_region_1684670015385_740_tl_8" n="N007"/>Mit dem ausgeschriebenen Preise hatte aber der Componist
                <lb facs="#facs_3_region_1684670015385_740_tl_9" n="N008"/>seinen Lohn dahin; es kam damals nicht zu einer würdigen,
                <lb facs="#facs_3_region_1684670015385_740_tl_10" n="N009"/>öffentlichen Aufführung der Composition, für die einmal das
                <lb facs="#facs_3_region_1684670015385_740_tl_11" n="N010"/>passende Local, einmal die erforderlichen Solosänger, dann
-               <lb facs="#facs_3_region_1684670015385_740_tl_12" n="N011"/>wieder die nöthigen Choristen fehlten. Die heutige Auffüh¬
-               <lb facs="#facs_3_region_1684670015385_740_tl_13" n="N012"/>rung dieser für die vorige Weltausstellung componirten Can¬
-               <lb facs="#facs_3_region_1684670015385_740_tl_14" n="N013"/>tate war demnach eine nachträgliche, wohlbegründete Ent¬
-               <lb facs="#facs_3_line_1759588660659_239" n="N014"/>schädigung und Auszeichnung des Componisten. Dieser selbst
+               <lb facs="#facs_3_region_1684670015385_740_tl_12" n="N011"/>wieder die nöthigen Choristen fehlten. Die heutige Auffüh
+               <lb facs="#facs_3_region_1684670015385_740_tl_13" n="N012" break="no"/>rung dieser für die vorige Weltausstellung componirten Can
+               <lb facs="#facs_3_region_1684670015385_740_tl_14" n="N013" break="no"/>tate war demnach eine nachträgliche, wohlbegründete Ent
+               <lb facs="#facs_3_line_1759588660659_239" n="N014" break="no"/>schädigung und Auszeichnung des Componisten. Dieser selbst
                <lb facs="#facs_3_region_1684670015385_740_tl_16" n="N015"/>hat mittlerweile in den letzten zehn Jahren eigentlich erst
-               <lb facs="#facs_3_region_1684670015385_740_tl_17" n="N016"/>seinen Ruf begründet durch eine Reihe interessanter und be¬
-               <lb facs="#facs_3_region_1684670015385_740_tl_18" n="N017"/>deutender Instrumental-Compositionen, die wol sämmtlich
-               <lb facs="#facs_3_region_1684670015385_740_tl_19" n="N018"/>besser sind, als seine <rs type="bibl">Prometheus-Cantate</rs>. Günstiger für
+               <lb facs="#facs_3_region_1684670015385_740_tl_17" n="N016"/>seinen Ruf begründet durch eine Reihe interessanter und be
+               <lb facs="#facs_3_region_1684670015385_740_tl_18" n="N017" break="no"/>deutender Instrumental-Compositionen, die wol sämmtlich
+               <lb facs="#facs_3_region_1684670015385_740_tl_19" n="N018"/>besser sind, als seine <rs type="bibl" ref="#hsl_work_id_5528">Prometheus-Cantate</rs>. Günstiger für
                <lb facs="#facs_3_region_1684670015385_740_tl_20" n="N019"/>ihn wäre die Wahl eines seiner Clavierconcerte oder seiner
                <lb facs="#facs_3_region_1684670015385_740_tl_21" n="N020"/>symphonischen Tongemälde gewesen, die auch in Wien so vielen
-               <lb facs="#facs_3_region_1684670015385_740_tl_22" n="N021"/>Beifall gefunden. Die „<rs type="bibl">Hochzeit des Prometheus</rs>“ leidet
-               <lb facs="#facs_3_region_1684670015385_740_tl_23" n="N022"/>an der frostigen, akademischen Haltung, an dem erzwunge¬
-               <lb facs="#facs_3_region_1684670015385_740_tl_24" n="N023"/>nen Enthusiasmus und der künstlichen Erhabenheit, die das
+               <lb facs="#facs_3_region_1684670015385_740_tl_22" n="N021"/>Beifall gefunden. Die „<rs type="bibl" ref="#hsl_work_id_5528">Hochzeit des Prometheus</rs>“ leidet
+               <lb facs="#facs_3_region_1684670015385_740_tl_23" n="N022"/>an der frostigen, akademischen Haltung, an dem erzwunge
+               <lb facs="#facs_3_region_1684670015385_740_tl_24" n="N023" break="no"/>nen Enthusiasmus und der künstlichen Erhabenheit, die das
                <lb facs="#facs_3_region_1684670015385_740_tl_25" n="N024"/>Erbtheil fast aller preisgekrönten oder preisbemakelten
                <lb facs="#facs_3_region_1684670015385_740_tl_26" n="N025"/>Gelegenheits-Cantaten bilden. Wie soll ein durch
                <lb facs="#facs_3_line_1759588689378_250" n="N026"/>und durch moderner Componist, ein junger Pariser
-               <lb facs="#facs_3_region_1684670015385_740_tl_28" n="N027"/>sich für ein Gedicht begeistern, worin der von <rs type="person">Jupiter</rs>
-               <lb facs="#facs_3_region_1684670015385_740_tl_29" n="N028"/>angeschmiedete, geierbenagte <rs type="person">Prometheus</rs> anfangs seine Seelen-
+               <lb facs="#facs_3_region_1684670015385_740_tl_28" n="N027"/>sich für ein Gedicht begeistern, worin der von <rs type="person" ref="#hsl_person_id_605">Jupiter</rs><space quantity="1" unit="char"/>
+               <lb facs="#facs_3_region_1684670015385_740_tl_29" n="N028"/>angeschmiedete, geierbenagte <rs type="person" ref="#hsl_person_id_4658">Prometheus</rs> anfangs seine Seelen-
                <lb facs="#facs_3_region_1684670015385_740_tl_30" n="N029"/>und Leberschmerzen vorträgt, bis weiterhin der „Genius der
-               <lb facs="#facs_3_region_1684670015385_740_tl_31" n="N030"/>Humanität“ ihn losbindet und ihn unter dem Weltaus¬
-               <lb facs="#facs_3_region_1684670015385_740_tl_32" n="N031"/>stellungs-Halloh „aller Nationen“ heiratet! In dem Schluß¬
-               <lb facs="#facs_3_region_1684670015385_740_tl_33" n="N032"/>duett mit Chor flehen die beiden sonderbaren Neuvermälten
+               <lb facs="#facs_3_region_1684670015385_740_tl_31" n="N030"/>Humanität“ ihn losbindet und ihn unter dem Weltaus
+               <lb facs="#facs_3_region_1684670015385_740_tl_32" n="N031" break="no"/>stellungs-Halloh „aller Nationen“ heiratet! In dem Schluß
+               <lb facs="#facs_3_region_1684670015385_740_tl_33" n="N032" break="no"/>duett mit Chor flehen die beiden sonderbaren Neuvermälten
                <lb facs="#facs_3_region_1684670015385_740_tl_34" n="N033"/>die „heilige Gerechtigkeit“ an, herabzusteigen, damit an deinen
                <lb facs="#facs_3_region_1684670015385_740_tl_35" n="N034"/>Brüsten („à ta mamelle“ heißt es noch appetitlicher im
                <lb facs="#facs_3_region_1684670015385_740_tl_36" n="N035"/>Original), o himmlische Amme, wir Alle Brüderlichkeit
-               <lb facs="#facs_3_region_1684670015385_740_tl_37" n="N036"/>trinken! Die Musik zu dieser Geschichte ist in allen Einzel¬
-               <lb facs="#facs_3_region_1684670015385_740_tl_38" n="N037"/>heiten sehr geschickt gemacht und im Ganzen nicht unlang¬
-               <lb facs="#facs_3_region_1684670015385_740_tl_39" n="N038"/>weilig. Wir freuen uns, <hi rendition="#em">
-                  <rs type="person">Saint-Saëns</rs>
-               </hi>, dem bedeutendsten
+               <lb facs="#facs_3_region_1684670015385_740_tl_37" n="N036"/>trinken! Die Musik zu dieser Geschichte ist in allen Einzel
+               <lb facs="#facs_3_region_1684670015385_740_tl_38" n="N037" break="no"/>heiten sehr geschickt gemacht und im Ganzen nicht unlang
+               <lb facs="#facs_3_region_1684670015385_740_tl_39" n="N038" break="no"/>weilig. Wir freuen uns, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1658">Saint-Saëns</rs></hi>, dem bedeutendsten
                <lb facs="#facs_3_region_1684670015385_740_tl_40" n="N039"/>und eigenthümlichsten Instrumental-Componisten des jungen
-               <lb facs="#facs_3_region_1684670015385_740_tl_41" n="N040"/>
-               <rs type="place">Frankreich</rs>, in den nächsten officiellen Concerten mit einem seiner
+               <lb facs="#facs_3_region_1684670015385_740_tl_41" n="N040"/><rs type="place" ref="#hsl_place_id_21">Frankreich</rs>, in den nächsten officiellen Concerten mit einem seiner
                <lb facs="#facs_3_region_1684670015385_740_tl_42" n="N041"/>freigeborenen, nicht-officiellen Werke wieder zu begegnen. Auf die
-               <lb facs="#facs_3_region_1684670015385_740_tl_43" n="N042"/>Cantate folgte ein Zigeunertanz von <hi rendition="#em">Georges <rs type="person">Bizet</rs>
-               </hi>,
-               <lb facs="#facs_3_region_1684670015385_740_tl_44" n="N043"/>aus einer älteren Oper („<rs type="bibl">La jolie fille de Perth</rs>“) in den
-               <lb facs="#facs_3_region_1684670015385_740_tl_45" n="N044"/>letzten Act von „<rs type="bibl">Carmen</rs>“ eingelegt; eine einfache Tanz¬
-               <lb facs="#facs_3_line_1759588713346_261" n="N045"/>melodie von feinem exotischen Duft. <hi rendition="#em">
-                  <rs type="person">Bizet</rs>
-               </hi> starb bekannt¬
-            </p>
-            <cb n="10"/>
-            <p>
-               <lb facs="#facs_3_region_1684670018797_743_tl_1" n="N001"/>lich in jungen Jahren (<date month="0" day="0" year="0">1875</date>), bald nachdem er mit der
-               <lb facs="#facs_3_region_1684670018797_743_tl_2" n="N002"/>Oper „<rs type="bibl">Carmen</rs>“ einen ersten glänzenden Erfolg errungen
+               <lb facs="#facs_3_region_1684670015385_740_tl_43" n="N042"/>Cantate folgte ein Zigeunertanz von <hi rendition="#em">Georges <rs type="person" ref="#hsl_person_id_1298">Bizet</rs></hi>,
+               <lb facs="#facs_3_region_1684670015385_740_tl_44" n="N043"/>aus einer älteren Oper („<rs type="bibl" ref="#hsl_work_id_1616">La jolie fille de Perth</rs>“) in den
+               <lb facs="#facs_3_region_1684670015385_740_tl_45" n="N044"/>letzten Act von „<rs type="bibl" ref="#hsl_work_id_1225">Carmen</rs>“ eingelegt; eine einfache Tanz
+               <lb facs="#facs_3_line_1759588713346_261" n="N045" break="no"/>melodie von feinem exotischen Duft. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1298">Bizet</rs></hi> starb bekannt</p>
+            <cb n="9"/>
+            <p prev="true">
+               <lb facs="#facs_3_region_1684670018797_743_tl_1" n="N001" break="no"/>lich in jungen Jahren (<date>1875</date>), bald nachdem er mit der
+               <lb facs="#facs_3_region_1684670018797_743_tl_2" n="N002"/>Oper „<rs type="bibl" ref="#hsl_work_id_1225">Carmen</rs>“ einen ersten glänzenden Erfolg errungen
                <lb facs="#facs_3_line_1759588650298_230" n="N003"/>hatte. Die „officiellen“ Programme sollen statutenmäßig
-               <lb facs="#facs_3_region_1684670018797_743_tl_4" n="N004"/>zunächst die Werke <hi rendition="#em">lebender</hi>
-               <rs type="place">französisch</rs>er Componisten
+               <lb facs="#facs_3_region_1684670018797_743_tl_4" n="N004"/>zunächst die Werke <hi rendition="#em">lebender</hi><space quantity="1" unit="char"/><rs type="place" ref="#hsl_place_id_21">französisch</rs>er Componisten
                <lb facs="#facs_3_region_1684670018797_743_tl_5" n="N005"/>berücksichtigen und für jedes Concert mindestens Eine
                <lb facs="#facs_3_region_1684670018797_743_tl_6" n="N006"/>noch <hi rendition="#em">unveröffentlichte</hi> Tondichtung ansetzen. In
-               <lb facs="#facs_3_region_1684670018797_743_tl_7" n="N007"/>letztere Kategorie gehört „<rs type="bibl">Sappho</rs>“, eine „Élegie antique“
-               <lb facs="#facs_3_region_1684670018797_743_tl_8" n="N008"/>von L. <hi rendition="#em">
-                  <rs type="person">Lacombe</rs>
-               </hi>. Dieses „antike“ Ragout besteht aus
+               <lb facs="#facs_3_region_1684670018797_743_tl_7" n="N007"/>letztere Kategorie gehört „<rs type="bibl" ref="#hsl_work_id_5529">Sappho</rs>“, eine „Élegie antique“
+               <lb facs="#facs_3_region_1684670018797_743_tl_8" n="N008"/>von L. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7823">Lacombe</rs></hi>. Dieses „antike“ Ragout besteht aus
                <lb facs="#facs_3_region_1684670018797_743_tl_9" n="N009"/>entsetzlich modernen Chören der Schäfer und der Priesterinnen
-               <lb facs="#facs_3_region_1684670018797_743_tl_10" n="N010"/>von <rs type="place">Lesbos</rs>, einem Ziegenhirt-Tenor-Schnadahüpfel und
+               <lb facs="#facs_3_region_1684670018797_743_tl_10" n="N010"/>von <rs type="place" ref="#hsl_place_id_975">Lesbos</rs>, einem Ziegenhirt-Tenor-Schnadahüpfel und
                <lb facs="#facs_3_region_1684670018797_743_tl_11" n="N011"/>einem „Sonnenaufgang“ nebst Finale. Das Ganze dürfte
-               <lb facs="#facs_3_region_1684670018797_743_tl_12" n="N012"/>höchstens von der Opéra Comique der Insel <rs type="place">Lesbos</rs> aus
+               <lb facs="#facs_3_region_1684670018797_743_tl_12" n="N012"/>höchstens von der Opéra Comique der Insel <rs type="place" ref="#hsl_place_id_975">Lesbos</rs> aus
                <lb facs="#facs_3_region_1684670018797_743_tl_13" n="N013"/>patriotischen Gründen zur Aufführung angenommen werden;
                <lb facs="#facs_3_line_1759588660659_238" n="N014"/>für das erste officielle Festconcert erscheint die Wahl einer so
                <lb facs="#facs_3_region_1684670018797_743_tl_14" n="N015"/>mittelmäßigen, obendrein bösartig ausgedehnten Arbeit höchst
                <lb facs="#facs_3_region_1684670018797_743_tl_15" n="N016"/>sonderbar. Das nächste Stück: Ouvertüre und Chor aus der
-               <lb facs="#facs_3_region_1684670018797_743_tl_16" n="N017"/>komischen Oper „<rs type="bibl">La déesse et le berger</rs>“ von <hi rendition="#em">
-                  <rs type="person">Duprate</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684670018797_743_tl_17" n="N018"/>(wir sollten nun einmal aus den <rs type="place">griechisch</rs>en Göttern und
+               <lb facs="#facs_3_region_1684670018797_743_tl_16" n="N017"/>komischen Oper „<rs type="bibl" ref="#hsl_work_id_5530">La déesse et le berger</rs>“ von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7824">Duprate</rs></hi><space quantity="1" unit="char"/>
+               <lb facs="#facs_3_region_1684670018797_743_tl_17" n="N018"/>(wir sollten nun einmal aus den <rs type="place" ref="#hsl_place_id_23">griechisch</rs>en Göttern und
                <lb facs="#facs_3_region_1684670018797_743_tl_18" n="N019"/>Hirten nicht herauskommen) fließt musikalisch leicht auf
                <lb facs="#facs_3_region_1684670018797_743_tl_19" n="N020"/>nicht mehr ungewöhnlichem Wege dahin und mag in der
-               <lb facs="#facs_3_region_1684670018797_743_tl_20" n="N021"/>Opéra Comique einem wohlwollenden Publicum Beifall ent¬
-               <lb facs="#facs_3_region_1684670018797_743_tl_21" n="N022"/>locken; ein Orchester-Festconcert sollte dergleichen doch
+               <lb facs="#facs_3_region_1684670018797_743_tl_20" n="N021"/>Opéra Comique einem wohlwollenden Publicum Beifall ent
+               <lb facs="#facs_3_region_1684670018797_743_tl_21" n="N022" break="no"/>locken; ein Orchester-Festconcert sollte dergleichen doch
                <lb facs="#facs_3_region_1684670018797_743_tl_22" n="N023"/>nicht bringen. Den Beschluß machten zwei Nummern aus
-               <lb facs="#facs_3_region_1684670018797_743_tl_23" n="N024"/>H. <hi rendition="#em">
-                  <rs type="person">Berlioz</rs>'</hi> fünfactiger Oper „<rs type="bibl">Die Trojaner in Karthago</rs>“,
+               <lb facs="#facs_3_region_1684670018797_743_tl_23" n="N024"/>H. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’</hi> fünfactiger Oper „<rs type="bibl" ref="#hsl_work_id_104">Die Trojaner in Karthago</rs>“,
                <lb facs="#facs_3_region_1684670018797_743_tl_24" n="N025"/>die einst im Théâtre Lyrique aufgeführt und nach wenigen
                <lb facs="#facs_3_line_1759588689378_249" n="N026"/>Wiederholungen ad acta gelegt wurde.
-               <lb facs="#facs_3_region_1684670018797_743_tl_25" n="N027"/>Die beiden Stücke (Marsch der Trojaner und Vocal¬
-               <lb facs="#facs_3_region_1684670018797_743_tl_26" n="N028"/>septett mit Chor aus dem dritten Acte) dürften ohne Wider¬
-               <lb facs="#facs_3_region_1684670018797_743_tl_27" n="N029"/>spruch das Beste in der ganzen Oper heißen; sie haben das
-               <lb facs="#facs_3_region_1684670018797_743_tl_28" n="N030"/>Talent des geistvollen Mannes zwar nicht in seinem glän¬
-               <lb facs="#facs_3_region_1684670018797_743_tl_29" n="N031"/>zendsten und originellsten Fache, doch immerhin würdig reprä¬
-               <lb facs="#facs_3_region_1684670018797_743_tl_30" n="N032"/>sentirt. Die nächsten Concerte werden mir Gelegenheit geben,
-               <lb facs="#facs_3_region_1684670018797_743_tl_31" n="N033"/>auf die neueste musikalische Bewegung in <rs type="place">Frankreich</rs> zurück¬
-               <lb facs="#facs_3_line_1759588778170_282" n="N034"/>zukommen, welche <hi rendition="#em">
-                  <rs type="person">Berlioz</rs>
-               </hi>, dem bei Lebzeiten systematisch
+            </p><p>
+               <lb facs="#facs_3_region_1684670018797_743_tl_25" n="N027"/>Die beiden Stücke (Marsch der Trojaner und Vocal
+               <lb facs="#facs_3_region_1684670018797_743_tl_26" n="N028" break="no"/>septett mit Chor aus dem dritten Acte) dürften ohne Wider
+               <lb facs="#facs_3_region_1684670018797_743_tl_27" n="N029" break="no"/>spruch das Beste in der ganzen Oper heißen; sie haben das
+               <lb facs="#facs_3_region_1684670018797_743_tl_28" n="N030"/>Talent des geistvollen Mannes zwar nicht in seinem glän
+               <lb facs="#facs_3_region_1684670018797_743_tl_29" n="N031" break="no"/>zendsten und originellsten Fache, doch immerhin würdig reprä
+               <lb facs="#facs_3_region_1684670018797_743_tl_30" n="N032" break="no"/>sentirt. Die nächsten Concerte werden mir Gelegenheit geben,
+               <lb facs="#facs_3_region_1684670018797_743_tl_31" n="N033"/>auf die neueste musikalische Bewegung in <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> zurück
+               <lb facs="#facs_3_line_1759588778170_282" n="N034" break="no"/>zukommen, welche <hi rendition="#em"><rs type="person" ref="#hsl_person_id_28">Berlioz</rs></hi>, dem bei Lebzeiten systematisch
                <lb facs="#facs_3_line_1759588783538_288" n="N035"/>Ignorirten und Geschmähten, nunmehr mit Begeisterung
                <lb facs="#facs_3_region_1684670018797_743_tl_32" n="N036"/>huldigt und ihn populär zu machen sucht.
-               <lb facs="#facs_3_region_1684670018797_743_tl_33" n="N037"/>Ueber den großen Trocadero-Saal, den das heutige Con¬
-               <lb facs="#facs_3_region_1684670018797_743_tl_34" n="N038"/>cert einweihte, that <hi rendition="#em">
-                  <rs type="person">Gounod</rs>
-               </hi> zu mir die Aeußerung, diese
-               <lb facs="#facs_3_region_1684670018797_743_tl_35" n="N039"/>Localität werde die nächste Zukunft der <rs type="place">französisch</rs>en Com¬
-               <lb facs="#facs_3_region_1684670018797_743_tl_36" n="N040"/>positionsweise bestimmen und große, massenhafte Tonwerke,
+            </p><p>
+               <lb facs="#facs_3_region_1684670018797_743_tl_33" n="N037"/>Ueber den großen Trocadero-Saal, den das heutige Con
+               <lb facs="#facs_3_region_1684670018797_743_tl_34" n="N038" break="no"/>cert einweihte, that <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs></hi> zu mir die Aeußerung, diese
+               <lb facs="#facs_3_region_1684670018797_743_tl_35" n="N039"/>Localität werde die nächste Zukunft der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Com
+               <lb facs="#facs_3_region_1684670018797_743_tl_36" n="N040" break="no"/>positionsweise bestimmen und große, massenhafte Tonwerke,
                <lb facs="#facs_3_region_1684670018797_743_tl_37" n="N041"/>in welchen das Solo gänzlich hinter dem Chor und das
-               <lb facs="#facs_3_region_1684670018797_743_tl_38" n="N042"/>Anmuthige völlig hinter dem Großartigen verschwinde, her¬
-               <lb facs="#facs_3_region_1684670018797_743_tl_39" n="N043"/>vorrufen. Ob diese Prophezeiung, welche Recht behalten
+               <lb facs="#facs_3_region_1684670018797_743_tl_38" n="N042"/>Anmuthige völlig hinter dem Großartigen verschwinde, her
+               <lb facs="#facs_3_region_1684670018797_743_tl_39" n="N043" break="no"/>vorrufen. Ob diese Prophezeiung, welche Recht behalten
                <lb facs="#facs_3_region_1684670018797_743_tl_40" n="N044"/>dürfte, Heil oder Unheil weissagt, wird die Zukunft lehren.
             </p>
          </div>

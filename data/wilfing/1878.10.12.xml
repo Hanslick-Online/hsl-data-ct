@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 5074. Wien, Samstag, den 12. October 1878</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,24 +70,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 5074. Wien, Samstag, den 12. October 1878</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1878-10-12">12.10.1878</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2025-11-27">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2025-11-29">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-01-05">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1030,457 +1027,308 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1684667810916_342_tl_3" n="N001"/><head type="h1">Das <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Musikfest. II.</head>
+            <lb facs="#facs_1_region_1684667810916_342_tl_6" n="N002"/><head type="h2">(Schlußartikel.)</head>
             <p>
-               <lb facs="#facs_1_line_1760251152411_548" n="N001"/>Nr. 5074. Wien, Samstag, den 12. October 1878
-            </p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684667810916_342_tl_3" n="N001"/>Das <rs type="place">Hamburg</rs>er Musikfest. II.
-               <lb facs="#facs_1_region_1684667810916_342_tl_6" n="N002"/>(Schlußartikel.)
                <lb facs="#facs_1_region_1684667810916_342_tl_7" n="N003"/>Ed. H. Wir hatten erwartet, und andere musikalische
                <lb facs="#facs_1_region_1684667810916_342_tl_8" n="N004"/>Gäste mit uns, daß in dem Jubiläums-Musikfeste die alten
-               <lb facs="#facs_1_region_1684667810916_342_tl_9" n="N005"/>musikalischen Berühmtheiten <rs type="place">Hamburg</rs>s nicht vergessen bleiben
+               <lb facs="#facs_1_region_1684667810916_342_tl_9" n="N005"/>musikalischen Berühmtheiten <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>s nicht vergessen bleiben
                <lb facs="#facs_1_region_1684667810916_342_tl_10" n="N006"/>würden. Wenigstens durch je Eine Composition hätten wir
-               <lb facs="#facs_1_line_1760254087549_554" n="N007"/>gern Reinhard <rs type="person">Keiser</rs>, Emanuel <rs type="person">Bach</rs>, <rs type="person">Matheson</rs> und <rs type="person" continued="true">Tele¬</rs>
-               <lb facs="#facs_1_region_1684667810916_342_tl_12" n="N008"/>
-               <rs type="person" continued="true">mann</rs> repräsentirt gesehen. In R. <hi rendition="#em">
-                  <rs type="person">Keiser</rs>'s</hi> Opern finden
+               <lb facs="#facs_1_line_1760254087549_554" n="N007"/>gern Reinhard <rs type="person" ref="#hsl_person_id_1515">Keiser</rs>, Emanuel <rs type="person" ref="#hsl_person_id_17">Bach</rs>, <rs type="person" ref="#hsl_person_id_383">Matheson</rs> und <rs type="person" ref="#hsl_person_id_6314">Tele
+               <lb facs="#facs_1_region_1684667810916_342_tl_12" n="N008" break="no"/>mann</rs> repräsentirt gesehen. In R. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1515">Keiser</rs>’s</hi> Opern finden
                <lb facs="#facs_1_region_1684667810916_342_tl_13" n="N009"/>sich nicht blos interessante, sondern heute noch reizvolle und
-               <lb facs="#facs_1_region_1684667810916_342_tl_14" n="N010"/>sehr dankbare Arien. Noch viel reicher ist die Auswahl an¬
-               <lb facs="#facs_1_region_1684667810916_342_tl_15" n="N011"/>muthiger und gediegener Stücke von Philipp Emanuel <hi rendition="#em">
-                  <rs type="person">Bach</rs>
-               </hi>,
-               <lb facs="#facs_1_region_1684667810916_342_tl_16" n="N012"/>der allein während seines <rs type="place">Hamburg</rs>er Aufenthaltes zwölf
+               <lb facs="#facs_1_region_1684667810916_342_tl_14" n="N010"/>sehr dankbare Arien. Noch viel reicher ist die Auswahl an
+               <lb facs="#facs_1_region_1684667810916_342_tl_15" n="N011" break="no"/>muthiger und gediegener Stücke von Philipp Emanuel <hi rendition="#em"><rs type="person" ref="#hsl_person_id_17">Bach</rs></hi>,
+               <lb facs="#facs_1_region_1684667810916_342_tl_16" n="N012"/>der allein während seines <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Aufenthaltes zwölf
                <lb facs="#facs_1_region_1684667810916_342_tl_17" n="N013"/>Concerte mit Begleitung, 53 Claviersonaten etc. geschrieben
-               <lb facs="#facs_1_region_1684667810916_342_tl_18" n="N014"/>hat. Zwischen einer Opern-Arie von <rs type="person">Keiser</rs> und einem
-               <lb facs="#facs_1_line_1760254114436_563" n="N015"/>Clavierconcert von Emanuel <rs type="person">Bach</rs> dachten wir uns einen
-               <lb facs="#facs_1_line_1760254148168_576" n="N016"/>geistlichen Chor von <rs type="person">Telemann</rs> und irgend ein Gesangstück
-               <lb facs="#facs_1_region_1684667810916_342_tl_21" n="N017"/>von <rs type="person">Matheson</rs> an rechter Stelle. Die berühmten Namen
-               <lb facs="#facs_1_line_1760254167999_587" n="N018"/>
-               <hi rendition="#em">
-                  <rs type="person">Telemann</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Matheson</rs>
-               </hi> kennt Jeder aus der
+               <lb facs="#facs_1_region_1684667810916_342_tl_18" n="N014"/>hat. Zwischen einer Opern-Arie von <rs type="person" ref="#hsl_person_id_1515">Keiser</rs> und einem
+               <lb facs="#facs_1_line_1760254114436_563" n="N015"/>Clavierconcert von Emanuel <rs type="person" ref="#hsl_person_id_17">Bach</rs> dachten wir uns einen
+               <lb facs="#facs_1_line_1760254148168_576" n="N016"/>geistlichen Chor von <rs type="person" ref="#hsl_person_id_6314">Telemann</rs> und irgend ein Gesangstück
+               <lb facs="#facs_1_region_1684667810916_342_tl_21" n="N017"/>von <rs type="person" ref="#hsl_person_id_383">Matheson</rs> an rechter Stelle. Die berühmten Namen
+               <lb facs="#facs_1_line_1760254167999_587" n="N018"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_6314">Telemann</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_383">Matheson</rs></hi> kennt Jeder aus der
                <lb facs="#facs_1_region_1684667810916_342_tl_23" n="N019"/>Musikgeschichte, und doch lebt heute wahrscheinlich Niemand,
-               <lb facs="#facs_1_region_1684667810916_342_tl_24" n="N020"/>der eine Composition von ihnen hat aufführen hören. <hi rendition="#em">
-                  <rs type="person" continued="true">Tele¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684667810916_342_tl_25" n="N021"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">mann</rs>
-               </hi>, eine der letzten Säulen des alten Contrapunktisten-
-               <lb facs="#facs_1_region_1684667810916_342_tl_26" n="N022"/>und Organistenruhmes von <rs type="place">Hamburg</rs>, hat so überaus viel
+               <lb facs="#facs_1_region_1684667810916_342_tl_24" n="N020"/>der eine Composition von ihnen hat aufführen hören. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6314">Tele
+               <lb facs="#facs_1_region_1684667810916_342_tl_25" n="N021" break="no"/>mann</rs></hi>, eine der letzten Säulen des alten Contrapunktisten-
+               <lb facs="#facs_1_region_1684667810916_342_tl_26" n="N022"/>und Organistenruhmes von <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>, hat so überaus viel
                <lb facs="#facs_1_region_1684667810916_342_tl_27" n="N023"/>geschrieben, daß namentlich aus seinen zahlreichen Oratorien
                <lb facs="#facs_1_region_1684667810916_342_tl_28" n="N024"/>und Kirchenmusiken irgend ein charakteristisches und gediegenes
                <lb facs="#facs_1_region_1684667810916_342_tl_29" n="N025"/>Stück gewiß leicht auszuwählen war. Dasselbe gilt von
-               <lb facs="#facs_1_region_1684667810916_342_tl_30" n="N026"/>Johannes <hi rendition="#em">
-                  <rs type="person">Matheson</rs>
-               </hi>, der allerdings bedeutender als Musik¬
-               <lb facs="#facs_1_region_1684667810916_342_tl_31" n="N027"/>schriftsteller, denn als Componist, doch als geborener Hamburger,
+               <lb facs="#facs_1_region_1684667810916_342_tl_30" n="N026"/>Johannes <hi rendition="#em"><rs type="person" ref="#hsl_person_id_383">Matheson</rs></hi>, der allerdings bedeutender als Musik
+               <lb facs="#facs_1_region_1684667810916_342_tl_31" n="N027" break="no"/>schriftsteller, denn als Componist, doch als geborener Hamburger,
                <lb facs="#facs_1_region_1684667810916_342_tl_32" n="N028"/>und zwar einer der einflußreichsten, bei diesem Festanlasse nicht
                <lb facs="#facs_1_region_1684667810916_342_tl_33" n="N029"/>hätte fehlen dürfen. Wer den merkwürdigen Mann, welcher
                <lb facs="#facs_1_region_1684667810916_342_tl_34" n="N030"/>Sänger, Componist, Capellmeister, Schriftsteller, Kritiker,
                <lb facs="#facs_1_region_1684667810916_342_tl_35" n="N031"/>Jurist, Gesandtschafts-Secretär in Einer Person gewesen,
-               <lb facs="#facs_1_region_1684667810916_342_tl_36" n="N032"/>auch nur aus <hi rendition="#em">
-                  <rs type="person">Riehl</rs>'s</hi> „<rs type="bibl">Charakterköpfen</rs>“ kennt, hätte sich
-               <lb facs="#facs_1_region_1684667810916_342_tl_37" n="N033"/>gewiß lebhaft für irgend ein Probestück seiner Kunst inter¬
-               <lb facs="#facs_1_region_1684667810916_342_tl_38" n="N034"/>essirt. <rs type="person">Matheson</rs> war nebenbei auch ein guter <rs type="place">Hamburg</rs>er
-               <lb facs="#facs_1_region_1684667810916_342_tl_39" n="N035"/>Patriot, er schenkte der Michaeliskirche (in der er auch be¬
-               <lb facs="#facs_1_region_1684667810916_342_tl_40" n="N036"/>graben liegt) 44,000 Mark Courant zum Baue einer neuen
-               <lb facs="#facs_1_line_1760254236753_615" n="N037"/>Orgel — ein Einfall, den ihm wenige Musik-Kritiker nach¬
-            </p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_line_1760254279524_640" n="N001"/>machen werden. Was <hi rendition="#em">
-                  <rs type="person">Händel</rs>
-               </hi> betrifft, so hatten wir ge¬
-               <lb facs="#facs_1_line_1760254301192_649" n="N002"/>hofft, die Hamburger würden ihn bei diesem Musikfeste statt
+               <lb facs="#facs_1_region_1684667810916_342_tl_36" n="N032"/>auch nur aus <hi rendition="#em"><rs type="person" ref="#hsl_person_id_410">Riehl</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_359">Charakterköpfen</rs>“ kennt, hätte sich
+               <lb facs="#facs_1_region_1684667810916_342_tl_37" n="N033"/>gewiß lebhaft für irgend ein Probestück seiner Kunst inter
+               <lb facs="#facs_1_region_1684667810916_342_tl_38" n="N034" break="no"/>essirt. <rs type="person" ref="#hsl_person_id_383">Matheson</rs> war nebenbei auch ein guter <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er
+               <lb facs="#facs_1_region_1684667810916_342_tl_39" n="N035"/>Patriot, er schenkte der Michaeliskirche (in der er auch be
+               <lb facs="#facs_1_region_1684667810916_342_tl_40" n="N036" break="no"/>graben liegt) 44,000 Mark Courant zum Baue einer neuen
+               <lb facs="#facs_1_line_1760254236753_615" n="N037"/>Orgel — ein Einfall, den ihm wenige Musik-Kritiker nach<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+               <lb facs="#facs_1_line_1760254279524_640" n="N001" break="no"/>machen werden. Was <hi rendition="#em"><rs type="person" ref="#hsl_person_id_108">Händel</rs></hi> betrifft, so hatten wir ge
+               <lb facs="#facs_1_line_1760254301192_649" n="N002" break="no"/>hofft, die Hamburger würden ihn bei diesem Musikfeste statt
                <lb facs="#facs_1_region_1684667813973_345_tl_2" n="N003"/>mit einem seiner bekanntesten Spätwerke lieber mit irgend
                <lb facs="#facs_1_line_1760254209237_603" n="N004"/>einem Gesangsstücke produciren, das er in seinen jüngeren
-               <lb facs="#facs_1_region_1684667813973_345_tl_4" n="N005"/>Jahren in <rs type="place">Hamburg</rs> und für <rs type="place">Hamburg</rs> schuf, z. B. mit
-               <lb facs="#facs_1_region_1684667813973_345_tl_5" n="N006"/>einer Nummer aus seiner Oper „<rs type="bibl">Almira</rs>“, welche <date month="0" day="0" year="0">1705</date> in
-               <lb facs="#facs_1_region_1684667813973_345_tl_6" n="N007"/>
-               <rs type="place">Hamburg</rs> zwanzigmal hinter einander gegeben wurde. Weit
-               <lb facs="#facs_1_region_1684667813973_345_tl_7" n="N008"/>entfernt von der lächerlichen Zumuthung, das <rs type="place">Hamburg</rs>er
-               <lb facs="#facs_1_region_1684667813973_345_tl_8" n="N009"/>Festcomité solle ein „historisches Concert“ arrangiren, hoff¬
-               <lb facs="#facs_1_region_1684667813973_345_tl_9" n="N010"/>ten wir doch wenigstens auf eine historische Würze dieses
-               <lb facs="#facs_1_line_1760254087549_553" n="N011"/>Concertes. Die paar Nummern von alten <rs type="place">Hamburg</rs>er
+               <lb facs="#facs_1_region_1684667813973_345_tl_4" n="N005"/>Jahren in <rs type="place" ref="#hsl_place_id_69">Hamburg</rs> und für <rs type="place" ref="#hsl_place_id_69">Hamburg</rs> schuf, z. B. mit
+               <lb facs="#facs_1_region_1684667813973_345_tl_5" n="N006"/>einer Nummer aus seiner Oper „<rs type="bibl" ref="#hsl_work_id_5609">Almira</rs>“, welche <date>1705</date> in
+               <lb facs="#facs_1_region_1684667813973_345_tl_6" n="N007"/><rs type="place" ref="#hsl_place_id_69">Hamburg</rs> zwanzigmal hinter einander gegeben wurde. Weit
+               <lb facs="#facs_1_region_1684667813973_345_tl_7" n="N008"/>entfernt von der lächerlichen Zumuthung, das <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er
+               <lb facs="#facs_1_region_1684667813973_345_tl_8" n="N009"/>Festcomité solle ein „historisches Concert“ arrangiren, hoff
+               <lb facs="#facs_1_region_1684667813973_345_tl_9" n="N010" break="no"/>ten wir doch wenigstens auf eine historische Würze dieses
+               <lb facs="#facs_1_line_1760254087549_553" n="N011"/>Concertes. Die paar Nummern von alten <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er
                <lb facs="#facs_1_region_1684667813973_345_tl_10" n="N012"/>Meistern hätten nicht mehr als die Hälfte des ersten Concert-
                <lb facs="#facs_1_region_1684667813973_345_tl_11" n="N013"/>Abends ausgefüllt, und für die moderne Musik wären noch
-               <lb facs="#facs_1_region_1684667813973_345_tl_12" n="N014"/>zwei und ein halber Abend übrig geblieben. Die Stadt <rs type="place" continued="true">Ham¬</rs>
-               <lb facs="#facs_1_line_1760254337829_669" n="N015"/>
-               <rs type="place" continued="true">burg</rs> hätte es schön gekleidet, sich an diesem seltenen Feste mit
-               <lb facs="#facs_1_region_1684667813973_345_tl_13" n="N016"/>ihren alten Berühmtheiten zu schmücken, wie mit einem kost¬
-               <lb facs="#facs_1_region_1684667813973_345_tl_14" n="N017"/>baren Familienschmucke, der ihr und nur ihr allein gehört.
+               <lb facs="#facs_1_region_1684667813973_345_tl_12" n="N014"/>zwei und ein halber Abend übrig geblieben. Die Stadt <rs type="place" ref="#hsl_place_id_69">Ham
+               <lb facs="#facs_1_line_1760254337829_669" n="N015" break="no"/>burg</rs> hätte es schön gekleidet, sich an diesem seltenen Feste mit
+               <lb facs="#facs_1_region_1684667813973_345_tl_13" n="N016"/>ihren alten Berühmtheiten zu schmücken, wie mit einem kost
+               <lb facs="#facs_1_region_1684667813973_345_tl_14" n="N017" break="no"/>baren Familienschmucke, der ihr und nur ihr allein gehört.
                <lb facs="#facs_1_region_1684667813973_345_tl_15" n="N018"/>Man wendete uns ein, es seien ja die drei Festconcerte
                <lb facs="#facs_1_line_1760254114435_562" n="N019"/>eine Erinnerungsfeier der „Philharmonischen Gesellschaft“,
-               <lb facs="#facs_1_line_1760254148168_575" n="N020"/>welche in ihren Programmen jene alten Meister niemals ge¬
-               <lb facs="#facs_1_region_1684667813973_345_tl_16" n="N021"/>hegt habe. Das ist auch ein Gesichtspunkt, gewiß, aber wie mich
-               <lb facs="#facs_1_line_1760254167999_586" n="N022"/>dünkt, ein sehr enger, denn <rs type="place">Hamburg</rs> hat diese „Erinnerungs¬
-               <lb facs="#facs_1_region_1684667813973_345_tl_17" n="N023"/>feier“ weit über die Bedeutung eines bloßen Familienfestes
+               <lb facs="#facs_1_line_1760254148168_575" n="N020"/>welche in ihren Programmen jene alten Meister niemals ge
+               <lb facs="#facs_1_region_1684667813973_345_tl_16" n="N021" break="no"/>hegt habe. Das ist auch ein Gesichtspunkt, gewiß, aber wie mich
+               <lb facs="#facs_1_line_1760254167999_586" n="N022"/>dünkt, ein sehr enger, denn <rs type="place" ref="#hsl_place_id_69">Hamburg</rs> hat diese „Erinnerungs
+               <lb facs="#facs_1_region_1684667813973_345_tl_17" n="N023" break="no"/>feier“ weit über die Bedeutung eines bloßen Familienfestes
                <lb facs="#facs_1_line_1760254367086_681" n="N024"/>hinausgehoben. Es war ein förmliches Musikfest der Stadt
-               <lb facs="#facs_1_region_1684667813973_345_tl_18" n="N025"/>
-               <rs type="place">Hamburg</rs>, ein Musikfest im größten Style, zu dem ja
-               <lb facs="#facs_1_region_1684667813973_345_tl_19" n="N026"/>fremde Künstler und Kunstkenner aus ganz <rs type="place">Deutschland</rs>, aus
-               <lb facs="#facs_1_line_1760254387897_691" n="N027"/>
-               <rs type="place">Holland</rs>, <rs type="place">Dänemark</rs> u. s. w. geladen waren. Und da haben
-               <lb facs="#facs_1_region_1684667813973_345_tl_20" n="N028"/>wir ungern gerade dasjenige vermißt, was als specifisch <hi rendition="#em">
-                  <rs type="place" continued="true">ham¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684667813973_345_tl_21" n="N029"/>
-               <hi rendition="#em">
-                  <rs type="place" continued="true">burgisch</rs>
-               </hi> in der Kunstgeschichte leuchtet. Es läßt sich
+               <lb facs="#facs_1_region_1684667813973_345_tl_18" n="N025"/><rs type="place" ref="#hsl_place_id_69">Hamburg</rs>, ein Musikfest im größten Style, zu dem ja
+               <lb facs="#facs_1_region_1684667813973_345_tl_19" n="N026"/>fremde Künstler und Kunstkenner aus ganz <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>, aus
+               <lb facs="#facs_1_line_1760254387897_691" n="N027"/><rs type="place" ref="#hsl_place_id_171">Holland</rs>, <rs type="place" ref="#hsl_place_id_12">Dänemark</rs> u. s. w. geladen waren. Und da haben
+               <lb facs="#facs_1_region_1684667813973_345_tl_20" n="N028"/>wir ungern gerade dasjenige vermißt, was als specifisch <hi rendition="#em"><rs type="place" ref="#hsl_place_id_69">ham
+               <lb facs="#facs_1_region_1684667813973_345_tl_21" n="N029" break="no"/>burgisch</rs></hi> in der Kunstgeschichte leuchtet. Es läßt sich
                <lb facs="#facs_1_region_1684667813973_345_tl_22" n="N030"/>gegen das Programm, wie wir gleich sehen werden, gewiß
-               <lb facs="#facs_1_region_1684667813973_345_tl_23" n="N031"/>nichts einwenden; es war ein schönes, nur leider ganz das¬
-               <lb facs="#facs_1_region_1684667813973_345_tl_24" n="N032"/>selbe „schöne Programm“, das wir alljährlich auch in <rs type="place">Wien</rs>, in
-               <lb facs="#facs_1_region_1684667813973_345_tl_25" n="N033"/>
-               <rs type="place">Berlin</rs>, in <rs type="place">Leipzig</rs>, in <rs type="place">München</rs> haben. Wir bemängeln es
-               <lb facs="#facs_1_region_1684667813973_345_tl_26" n="N034"/>nicht im musikalischen, sondern im <rs type="place">hamburg</rs>'schen Interesse,
+               <lb facs="#facs_1_region_1684667813973_345_tl_23" n="N031"/>nichts einwenden; es war ein schönes, nur leider ganz das
+               <lb facs="#facs_1_region_1684667813973_345_tl_24" n="N032" break="no"/>selbe „schöne Programm“, das wir alljährlich auch in <rs type="place" ref="#hsl_place_id_55">Wien</rs>, in
+               <lb facs="#facs_1_region_1684667813973_345_tl_25" n="N033"/><rs type="place" ref="#hsl_place_id_9">Berlin</rs>, in <rs type="place" ref="#hsl_place_id_32">Leipzig</rs>, in <rs type="place" ref="#hsl_place_id_39">München</rs> haben. Wir bemängeln es
+               <lb facs="#facs_1_region_1684667813973_345_tl_26" n="N034"/>nicht im musikalischen, sondern im <rs type="place" ref="#hsl_place_id_69">hamburg</rs>’schen Interesse,
                <lb facs="#facs_1_region_1684667813973_345_tl_27" n="N035"/>das hier freilich mit dem Wunsche so vieler Musiker, hier
-               <lb facs="#facs_1_region_1684667813973_345_tl_28" n="N036"/>auch etwas Neues, d. h. Altes kennen zu lernen, zusammen¬
-               <lb facs="#facs_1_region_1684667813973_345_tl_29" n="N037"/>fiel. Um die „<rs type="bibl">Eroica</rs>“ oder die <rs type="bibl">„Oberon“-Ouvertüre</rs> zu hören,
-               <lb facs="#facs_1_region_1684667813973_345_tl_30" n="N038"/>reist man gewiß nicht nach <rs type="place">Hamburg</rs>, höchstens von <rs type="place">Altona</rs>.
+               <lb facs="#facs_1_region_1684667813973_345_tl_28" n="N036"/>auch etwas Neues, d. h. Altes kennen zu lernen, zusammen
+               <lb facs="#facs_1_region_1684667813973_345_tl_29" n="N037" break="no"/>fiel. Um die „<rs type="bibl" ref="#hsl_work_id_42">Eroica</rs>“ oder die <rs type="bibl" ref="#hsl_work_id_79">„Oberon“-Ouvertüre</rs> zu hören,
+               <lb facs="#facs_1_region_1684667813973_345_tl_30" n="N038"/>reist man gewiß nicht nach <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>, höchstens von <rs type="place" ref="#hsl_place_id_772">Altona</rs>.
                <lb facs="#facs_1_region_1684667813973_345_tl_31" n="N039"/>Nun ich das Einzige mir vom Herzen geredet, was
-               <lb facs="#facs_1_region_1684667813973_345_tl_32" n="N040"/>ich dem <rs type="place">Hamburg</rs>er Musikfest ausstellen mußte — weniger
-               <lb facs="#facs_1_line_1760254260531_629" n="N041"/>ein Tadel, als eine fehlgeschlagene Hoffnung — kann ich
-            </p>
-            <cb n="4"/>
-            <p>
+               <lb facs="#facs_1_region_1684667813973_345_tl_32" n="N040"/>ich dem <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Musikfest ausstellen mußte — weniger
+               <lb facs="#facs_1_line_1760254260531_629" n="N041"/>ein Tadel, als eine fehlgeschlagene Hoffnung — kann ich<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
                <lb facs="#facs_1_line_1760254279524_639" n="N001"/>mich ungestört dem Vergnügen des Lobens und Bewunderns
                <lb facs="#facs_1_line_1760254301192_648" n="N002"/>hingeben.
+            </p><p>
                <lb facs="#facs_1_region_1684667817032_348_tl_2" n="N003"/>Am <hi rendition="#em">ersten</hi> Concert-Abend fuhr das schwere Geschütz
-               <lb facs="#facs_1_line_1760254209236_602" n="N004"/>auf: geistliche Musik von <rs type="person">Bach</rs> und <rs type="person">Händel</rs> in gewaltigen
-               <lb facs="#facs_1_line_1760254323862_660" n="N005"/>Dimensionen. Sebastian <hi rendition="#em">
-                  <rs type="person">Bach</rs>'s</hi> Cantate: „<rs type="bibl">Ein' feste Burg</rs>
-               <lb facs="#facs_1_line_1760254329061_664" n="N006"/>
-               <rs type="bibl">ist unser Gott</rs>“ — wir hörten sie in <rs type="place">Wien</rs> zum erstenmal
-               <lb facs="#facs_1_region_1684667817032_348_tl_7" n="N007"/>unter <rs type="person">Brahms</rs>' Direction — und <hi rendition="#em">
-                  <rs type="person">Händel</rs>'s</hi> Oratorium:
-               <lb facs="#facs_1_region_1684667817032_348_tl_8" n="N008"/>„<rs type="bibl">Israel in Egypten</rs>“ (zweite Abtheilung) waren ganz vor¬
-               <lb facs="#facs_1_region_1684667817032_348_tl_9" n="N009"/>zugsweise geeignet, die Leistungen des <rs type="place">Hamburg</rs>er Chors in
-               <lb facs="#facs_1_region_1684667817032_348_tl_10" n="N010"/>glänzendes Licht zu stellen. Daß <rs type="place">Hamburg</rs> einen Chor von
-               <lb facs="#facs_1_region_1684667817032_348_tl_11" n="N011"/>460 Mitgliedern, durchaus Dilettanten, aufzustellen ver¬
-               <lb facs="#facs_1_region_1684667817032_348_tl_12" n="N012"/>mag, setzt in Erstaunen. Und mit welcher nordisch-protestan¬
-               <lb facs="#facs_1_region_1684667817032_348_tl_13" n="N013"/>tischen Kraft und Tapferkeit führten diese <rs type="place">Hamburg</rs>er Frauen
-               <lb facs="#facs_1_region_1684667817032_348_tl_14" n="N014"/>und Fräulein die anstrengendsten Chöre aus! Die <rs type="person">Bach</rs>'sche
-               <lb facs="#facs_1_line_1760254337829_668" n="N015"/>
-               <rs type="bibl">Cantate</rs> gehört mit ihren grandiosen, aber für die Sänger
-               <lb facs="#facs_1_region_1684667817032_348_tl_16" n="N016"/>grausamen Contrapunktik des <rs type="person">Luther</rs>'schen <rs type="bibl">Choral</rs>s zu den
+               <lb facs="#facs_1_line_1760254209236_602" n="N004"/>auf: geistliche Musik von <rs type="person" ref="#hsl_person_id_18">Bach</rs> und <rs type="person" ref="#hsl_person_id_108">Händel</rs> in gewaltigen
+               <lb facs="#facs_1_line_1760254323862_660" n="N005"/>Dimensionen. Sebastian <hi rendition="#em"><rs type="person" ref="#hsl_person_id_18">Bach</rs>’s</hi> Cantate: „<rs type="bibl" ref="#hsl_work_id_1187">Ein’ feste Burg
+               <lb facs="#facs_1_line_1760254329061_664" n="N006"/>ist unser Gott</rs>“ — wir hörten sie in <rs type="place" ref="#hsl_place_id_55">Wien</rs> zum erstenmal
+               <lb facs="#facs_1_region_1684667817032_348_tl_7" n="N007"/>unter <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’ Direction — und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_108">Händel</rs>’s</hi> Oratorium:
+               <lb facs="#facs_1_region_1684667817032_348_tl_8" n="N008"/>„<rs type="bibl" ref="#hsl_work_id_520">Israel in Egypten</rs>“ (zweite Abtheilung) waren ganz vor
+               <lb facs="#facs_1_region_1684667817032_348_tl_9" n="N009" break="no"/>zugsweise geeignet, die Leistungen des <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Chors in
+               <lb facs="#facs_1_region_1684667817032_348_tl_10" n="N010"/>glänzendes Licht zu stellen. Daß <rs type="place" ref="#hsl_place_id_69">Hamburg</rs> einen Chor von
+               <lb facs="#facs_1_region_1684667817032_348_tl_11" n="N011"/>460 Mitgliedern, durchaus Dilettanten, aufzustellen ver
+               <lb facs="#facs_1_region_1684667817032_348_tl_12" n="N012" break="no"/>mag, setzt in Erstaunen. Und mit welcher nordisch-protestan
+               <lb facs="#facs_1_region_1684667817032_348_tl_13" n="N013" break="no"/>tischen Kraft und Tapferkeit führten diese <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Frauen
+               <lb facs="#facs_1_region_1684667817032_348_tl_14" n="N014"/>und Fräulein die anstrengendsten Chöre aus! Die <rs type="person" ref="#hsl_person_id_18">Bach</rs>’sche
+               <lb facs="#facs_1_line_1760254337829_668" n="N015"/><rs type="bibl" ref="#hsl_work_id_1187">Cantate</rs> gehört mit ihren grandiosen, aber für die Sänger
+               <lb facs="#facs_1_region_1684667817032_348_tl_16" n="N016"/>grausamen Contrapunktik des <rs type="person" ref="#hsl_person_id_169">Luther</rs>’schen <rs type="bibl" ref="#hsl_work_id_349">Choral</rs>s zu den
                <lb facs="#facs_1_region_1684667817032_348_tl_17" n="N017"/>schwierigsten Aufgaben; bei sehr starker Besetzung wundert
                <lb facs="#facs_1_region_1684667817032_348_tl_18" n="N018"/>man sich beinahe, wenn die Stimm-Einsätze alle wirklich auf
-               <lb facs="#facs_1_region_1684667817032_348_tl_19" n="N019"/>Einen Schlag geschehen. In dem <rs type="person">Händel</rs>'schen <rs type="bibl">Oratorium</rs>
-               <lb facs="#facs_1_region_1684667817032_348_tl_20" n="N020"/>glänzte vor Allem Frau <hi rendition="#em">
-                  <rs type="person">Peschka-Leutner</rs>
-               </hi>, eine Oester¬
-               <lb facs="#facs_1_region_1684667817032_348_tl_21" n="N021"/>reicherin, die bekanntlich seit geraumer Zeit als eine der
-               <lb facs="#facs_1_region_1684667817032_348_tl_22" n="N022"/>ersten Gesangskünstlerinnen in <rs type="place">Deutschland</rs> gefeiert ist. Und
+               <lb facs="#facs_1_region_1684667817032_348_tl_19" n="N019"/>Einen Schlag geschehen. In dem <rs type="person" ref="#hsl_person_id_108">Händel</rs>’schen <rs type="bibl" ref="#hsl_work_id_520">Oratorium</rs><space quantity="1" unit="char"/>
+               <lb facs="#facs_1_region_1684667817032_348_tl_20" n="N020"/>glänzte vor Allem Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7949">Peschka-Leutner</rs></hi>, eine Oester
+               <lb facs="#facs_1_region_1684667817032_348_tl_21" n="N021" break="no"/>reicherin, die bekanntlich seit geraumer Zeit als eine der
+               <lb facs="#facs_1_region_1684667817032_348_tl_22" n="N022"/>ersten Gesangskünstlerinnen in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> gefeiert ist. Und
                <lb facs="#facs_1_region_1684667817032_348_tl_23" n="N023"/>dies mit vollem Recht, denn in der schwierigen Allelujah-
-               <lb facs="#facs_1_line_1760254367086_680" n="N024"/>Arie (Einlage aus <rs type="person">Händel</rs>'s „<rs type="bibl">Esther</rs>“) erwies sich Frau
-               <lb facs="#facs_1_region_1684667817032_348_tl_25" n="N025"/>
-               <rs type="person">Peschka</rs> als eine geradezu classische Coloratur-Sängerin. Ihre
+               <lb facs="#facs_1_line_1760254367086_680" n="N024"/>Arie (Einlage aus <rs type="person" ref="#hsl_person_id_108">Händel</rs>’s „<rs type="bibl" ref="#hsl_work_id_1026">Esther</rs>“) erwies sich Frau
+               <lb facs="#facs_1_region_1684667817032_348_tl_25" n="N025"/><rs type="person" ref="#hsl_person_id_7949">Peschka</rs> als eine geradezu classische Coloratur-Sängerin. Ihre
                <lb facs="#facs_1_region_1684667817032_348_tl_26" n="N026"/>Stimme besitzt zwar nicht mehr den jugendlichen Schmelz,
                <lb facs="#facs_1_line_1760254387897_690" n="N027"/>doch noch immer hinreichenden Wohllaut und vermag durch
                <lb facs="#facs_1_region_1684667817032_348_tl_28" n="N028"/>musterhafte Oekonomie des Athems, hochausgebildete Virtuosität
                <lb facs="#facs_1_region_1684667817032_348_tl_29" n="N029"/>und musikalische Empfindung Erstaunliches zu leisten. Aus
                <lb facs="#facs_1_region_1684667817032_348_tl_30" n="N030"/>ihrem Munde klingt auch das Schwerste nicht mühsam, und
                <lb facs="#facs_1_region_1684667817032_348_tl_31" n="N031"/>darin finden wir den vornehmsten Reiz ihres Gesanges.
-               <lb facs="#facs_1_region_1684667817032_348_tl_32" n="N032"/>Für die Altpartie stand Frau Amalie <hi rendition="#em">
-                  <rs type="person">Joachim</rs>
-               </hi> auf dem
+               <lb facs="#facs_1_region_1684667817032_348_tl_32" n="N032"/>Für die Altpartie stand Frau Amalie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1075">Joachim</rs></hi> auf dem
                <lb facs="#facs_1_region_1684667817032_348_tl_33" n="N033"/>Programm, welche jedoch zum allgemeinen Bedauern durch
-               <lb facs="#facs_1_region_1684667817032_348_tl_34" n="N034"/>Unwohlsein in <rs type="place">Berlin</rs> zurückgehalten wurde; Fräulein Fides
-               <lb facs="#facs_1_region_1684667817032_348_tl_35" n="N035"/>
-               <hi rendition="#em">
-                  <rs type="person">Keller</rs>
-               </hi> aus <rs type="place">Düsseldorf</rs> übernahm bereitwillig und mit
-               <lb facs="#facs_1_region_1684667817032_348_tl_36" n="N036"/>bestem Gelingen deren Part. Der Tenorist Herr <hi rendition="#em">
-                  <rs type="person" continued="true">Candi¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1684667817032_348_tl_37" n="N037"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">dus</rs>
-               </hi>, ein junger Amerikaner, der sich in <rs type="place">Deutschland</rs> einen
+               <lb facs="#facs_1_region_1684667817032_348_tl_34" n="N034"/>Unwohlsein in <rs type="place" ref="#hsl_place_id_9">Berlin</rs> zurückgehalten wurde; Fräulein Fides
+               <lb facs="#facs_1_region_1684667817032_348_tl_35" n="N035"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_7950">Keller</rs></hi> aus <rs type="place" ref="#hsl_place_id_16">Düsseldorf</rs> übernahm bereitwillig und mit
+               <lb facs="#facs_1_region_1684667817032_348_tl_36" n="N036"/>bestem Gelingen deren Part. Der Tenorist Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7951">Candi
+               <lb facs="#facs_1_region_1684667817032_348_tl_37" n="N037" break="no"/>dus</rs></hi>, ein junger Amerikaner, der sich in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> einen
                <lb facs="#facs_1_region_1684667817032_348_tl_38" n="N038"/>Namen zu machen beginnt, hatte wenig Gelegenheit zu
                <lb facs="#facs_1_region_1684667817032_348_tl_39" n="N039"/>selbstständigem Hervortreten; seine Stimme ist von hellem,
-               <lb facs="#facs_1_region_1684667817032_348_tl_40" n="N040"/>offenem Klang und leichter, kräftiger Höhe, bei etwas un¬
-               <lb facs="#facs_1_line_1760254260530_628" n="N041"/>edlem, zinkenartigem Timbre. Die Bassisten waren Herr
-            </p>
+               <lb facs="#facs_1_region_1684667817032_348_tl_40" n="N040"/>offenem Klang und leichter, kräftiger Höhe, bei etwas un
+               <lb facs="#facs_1_line_1760254260530_628" n="N041" break="no"/>edlem, zinkenartigem Timbre. Die Bassisten waren Herr<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_line_1760254421635_707" n="N001"/>v. <hi rendition="#em">
-                  <rs type="person">Senfft-Pilsach</rs>
-               </hi>, ein sehr musikkundiger und kunst¬
-               <lb facs="#facs_2_region_1684667831985_354_tl_2" n="N002"/>begeisterter Dilettant aus <rs type="place">Berlin</rs>, dann Herr <hi rendition="#em">Georg</hi>
-               <lb facs="#facs_2_region_1684667831985_354_tl_3" n="N003"/>
-               <hi rendition="#em">
-                  <rs type="person">Henschel</rs>
-               </hi>. Letzterer hat es in wenigen Jahren zu bedeu¬
-               <lb facs="#facs_2_region_1684667831985_354_tl_4" n="N004"/>tendem künstlerischen Ansehen gebracht; er gilt in ganz
-               <lb facs="#facs_2_region_1684667831985_354_tl_5" n="N005"/>
-               <rs type="place">Deutschland</rs> für einen der besten Lieder- und Oratorien¬
-               <lb facs="#facs_2_region_1684667831985_354_tl_6" n="N006"/>sänger. Die Stimme fesselt keineswegs durch besonderen
+            <cb n="4"/>
+            <p prev="true">
+               <lb facs="#facs_2_line_1760254421635_707" n="N001"/>v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7952">Senfft-Pilsach</rs></hi>, ein sehr musikkundiger und kunst
+               <lb facs="#facs_2_region_1684667831985_354_tl_2" n="N002" break="no"/>begeisterter Dilettant aus <rs type="place" ref="#hsl_place_id_9">Berlin</rs>, dann Herr <hi rendition="#em">Georg
+               <lb facs="#facs_2_region_1684667831985_354_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_3325">Henschel</rs></hi>. Letzterer hat es in wenigen Jahren zu bedeu
+               <lb facs="#facs_2_region_1684667831985_354_tl_4" n="N004" break="no"/>tendem künstlerischen Ansehen gebracht; er gilt in ganz
+               <lb facs="#facs_2_region_1684667831985_354_tl_5" n="N005"/><rs type="place" ref="#hsl_place_id_14">Deutschland</rs> für einen der besten Lieder- und Oratorien
+               <lb facs="#facs_2_region_1684667831985_354_tl_6" n="N006" break="no"/>sänger. Die Stimme fesselt keineswegs durch besonderen
                <lb facs="#facs_2_region_1684667831985_354_tl_7" n="N007"/>Wohlklang, man muß sich an einen gewissen Beiklang von
                <lb facs="#facs_2_line_1760254453624_719" n="N008"/>Rauhheit und Schärfe anfangs gewöhnen. Dafür imponirt
-               <lb facs="#facs_2_region_1684667831985_354_tl_9" n="N009"/>
-               <rs type="person">Henschel</rs>'s Gesangskunst durch hohe Ausbildung im getrage¬
-               <lb facs="#facs_2_region_1684667831985_354_tl_10" n="N010"/>nen wie im colorirten Styl, seine Declamation verräth
-               <lb facs="#facs_2_line_1760254475857_730" n="N011"/>durchwegs den Mann von Geist, sein Vortrag den treff¬
-               <lb facs="#facs_2_region_1684667831985_354_tl_12" n="N012"/>lichen Musiker. Das erste Concert schloß — wol etwas zu
-               <lb facs="#facs_2_region_1684667831985_354_tl_13" n="N013"/>spät — mit <rs type="person">Beethoven</rs>'s „<rs type="bibl">Eroica</rs>“. Das Orchester, über
-               <lb facs="#facs_2_region_1684667831985_354_tl_14" n="N014"/>hundert Mann stark und zum größten Theil aus gegenwär¬
-               <lb facs="#facs_2_region_1684667831985_354_tl_15" n="N015"/>tigen und ehemaligen Mitgliedern der „Philharmonischen Ge¬
-               <lb facs="#facs_2_line_1760254509249_741" n="N016"/>sellschaft“ bestehend, zeichnete sich durch kräftigen Klang und
+               <lb facs="#facs_2_region_1684667831985_354_tl_9" n="N009"/><rs type="person" ref="#hsl_person_id_3325">Henschel</rs>’s Gesangskunst durch hohe Ausbildung im getrage
+               <lb facs="#facs_2_region_1684667831985_354_tl_10" n="N010" break="no"/>nen wie im colorirten Styl, seine Declamation verräth
+               <lb facs="#facs_2_line_1760254475857_730" n="N011"/>durchwegs den Mann von Geist, sein Vortrag den treff
+               <lb facs="#facs_2_region_1684667831985_354_tl_12" n="N012" break="no"/>lichen Musiker. Das erste Concert schloß — wol etwas zu
+               <lb facs="#facs_2_region_1684667831985_354_tl_13" n="N013"/>spät — mit <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s „<rs type="bibl" ref="#hsl_work_id_42">Eroica</rs>“. Das Orchester, über
+               <lb facs="#facs_2_region_1684667831985_354_tl_14" n="N014"/>hundert Mann stark und zum größten Theil aus gegenwär
+               <lb facs="#facs_2_region_1684667831985_354_tl_15" n="N015" break="no"/>tigen und ehemaligen Mitgliedern der „Philharmonischen Ge
+               <lb facs="#facs_2_line_1760254509249_741" n="N016" break="no"/>sellschaft“ bestehend, zeichnete sich durch kräftigen Klang und
                <lb facs="#facs_2_region_1684667831985_354_tl_17" n="N017"/>feine Nuancirung aus.
-               <lb facs="#facs_2_line_1760254546709_751" n="N018"/>Der zweite Abend brachte zwei <rs type="bibl">Symphonien</rs>, eine
-               <lb facs="#facs_2_region_1684667831985_354_tl_18" n="N019"/>
-               <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
-               </hi>'sche (G-dur Nr. 13) und die dritte (C-dur) von
-               <lb facs="#facs_2_region_1684667831985_354_tl_19" n="N020"/>
-               <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi>. Den größten Triumph feierte diesmal Frau
-               <lb facs="#facs_2_region_1684667831985_354_tl_20" n="N021"/>Clara <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi>. Sie hatte zum Vortrag <rs type="person">Mozart</rs>'s
-               <lb facs="#facs_2_region_1684667831985_354_tl_21" n="N022"/>
-               <rs type="bibl">D-moll-Concert</rs> gewählt, diesen Strom flüssigen Goldes.
+            </p><p>
+               <lb facs="#facs_2_line_1760254546709_751" n="N018"/>Der zweite Abend brachte zwei <rs type="bibl" ref="#hsl_work_id_4678 #hsl_work_id_203">Symphonien</rs>, eine
+               <lb facs="#facs_2_region_1684667831985_354_tl_18" n="N019"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs></hi>’sche (G-dur Nr. 13) und die dritte (C-dur) von
+               <lb facs="#facs_2_region_1684667831985_354_tl_19" n="N020"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi>. Den größten Triumph feierte diesmal Frau
+               <lb facs="#facs_2_region_1684667831985_354_tl_20" n="N021"/>Clara <hi rendition="#em"><rs type="person" ref="#hsl_person_id_281">Schumann</rs></hi>. Sie hatte zum Vortrag <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s
+               <lb facs="#facs_2_region_1684667831985_354_tl_21" n="N022"/><rs type="bibl" ref="#hsl_work_id_146">D-moll-Concert</rs> gewählt, diesen Strom flüssigen Goldes.
                <lb facs="#facs_2_region_1684667831985_354_tl_22" n="N023"/>Vor dreiundvierzig Jahren hatte diese bewunderungswürdige
                <lb facs="#facs_2_region_1684667831985_354_tl_23" n="N024"/>Frau bereits als Concertgeberin die Hamburger entzückt —
-               <lb facs="#facs_2_region_1684667831985_354_tl_24" n="N025"/>und heute? Es mag übertrieben klingen und ist doch buch¬
-               <lb facs="#facs_2_region_1684667831985_354_tl_25" n="N026"/>stäblich wahr: sie spielte das Concert schöner als je. Ihr
-               <lb facs="#facs_2_region_1684667831985_354_tl_26" n="N027"/>Vortrag war die reine Offenbarung <rs type="person">Mozart</rs>'s, die verkör¬
-               <lb facs="#facs_2_region_1684667831985_354_tl_27" n="N028"/>perte Musik. Man kann sich den Jubel der Zuhörer vor¬
-               <lb facs="#facs_2_region_1684667831985_354_tl_28" n="N029"/>stellen. Lebhaften Beifall fand auch das Sextett aus dem
-               <lb facs="#facs_2_region_1684667831985_354_tl_29" n="N030"/>ersten Act von <hi rendition="#em">
-                  <rs type="person">Cherubini</rs>'s</hi> „<rs type="bibl">Wasserträger</rs>“, mehr durch
+               <lb facs="#facs_2_region_1684667831985_354_tl_24" n="N025"/>und heute? Es mag übertrieben klingen und ist doch buch
+               <lb facs="#facs_2_region_1684667831985_354_tl_25" n="N026" break="no"/>stäblich wahr: sie spielte das Concert schöner als je. Ihr
+               <lb facs="#facs_2_region_1684667831985_354_tl_26" n="N027"/>Vortrag war die reine Offenbarung <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s, die verkör
+               <lb facs="#facs_2_region_1684667831985_354_tl_27" n="N028" break="no"/>perte Musik. Man kann sich den Jubel der Zuhörer vor
+               <lb facs="#facs_2_region_1684667831985_354_tl_28" n="N029" break="no"/>stellen. Lebhaften Beifall fand auch das Sextett aus dem
+               <lb facs="#facs_2_region_1684667831985_354_tl_29" n="N030"/>ersten Act von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_47">Cherubini</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_559">Wasserträger</rs>“, mehr durch
                <lb facs="#facs_2_region_1684667831985_354_tl_30" n="N031"/>die treffliche Ausführung als durch die Composition, welche,
                <lb facs="#facs_2_region_1684667831985_354_tl_31" n="N032"/>fast untrennbar mit den scenischen Vorgängen verknüpft, keine
                <lb facs="#facs_2_region_1684667831985_354_tl_32" n="N033"/>passende Wahl ist für Concertvortrag. In der schwierigen
-               <lb facs="#facs_2_region_1684667831985_354_tl_33" n="N034"/>Sopranpartie (<rs type="person">Constanze</rs>) excellirte Frau Dr. <hi rendition="#em">
-                  <rs type="person">Schramm</rs>
-               </hi>,
-               <lb facs="#facs_2_region_1684667831985_354_tl_34" n="N035"/>die vor mehreren Jahren ihre glänzend begonnene Bühnen¬
-               <lb facs="#facs_2_region_1684667831985_354_tl_35" n="N036"/>laufbahn mit einem glücklichen Familienleben vertauscht hat.
+               <lb facs="#facs_2_region_1684667831985_354_tl_33" n="N034"/>Sopranpartie (<rs type="person" ref="#hsl_person_id_6494">Constanze</rs>) excellirte Frau Dr. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7954">Schramm</rs></hi>,
+               <lb facs="#facs_2_region_1684667831985_354_tl_34" n="N035"/>die vor mehreren Jahren ihre glänzend begonnene Bühnen
+               <lb facs="#facs_2_region_1684667831985_354_tl_35" n="N036" break="no"/>laufbahn mit einem glücklichen Familienleben vertauscht hat.
                <lb facs="#facs_2_region_1684667831985_354_tl_36" n="N037"/>Süßer Klang, warme Empfindung und poetische Erscheinung
-               <lb facs="#facs_2_region_1684667831985_354_tl_37" n="N038"/>hatten sie zu einer der besten Darstelleinen der <rs type="person">Elsa</rs> in
-               <lb facs="#facs_2_region_1684667831985_354_tl_38" n="N039"/>„<rs type="bibl">Lohengrin</rs>“ und ähnlicher Gestalten gemacht, in welchen sie
-               <lb facs="#facs_2_region_1684667831985_354_tl_39" n="N040"/>als Fräulein <hi rendition="#em">
-                  <rs type="person">Börner</rs>
-               </hi> dem <rs type="place">Hamburg</rs>er Publicum unver¬
-               <lb facs="#facs_2_line_1760254602431_764" n="N041"/>gessen blieb. Wir bedauerten, Frau Dr. <rs type="person">Schramm</rs> nicht
-            </p>
-            <cb n="6"/>
-            <p>
+               <lb facs="#facs_2_region_1684667831985_354_tl_37" n="N038"/>hatten sie zu einer der besten Darstelleinen der <rs type="person" ref="#hsl_person_id_2640">Elsa</rs> in
+               <lb facs="#facs_2_region_1684667831985_354_tl_38" n="N039"/>„<rs type="bibl" ref="#hsl_work_id_97">Lohengrin</rs>“ und ähnlicher Gestalten gemacht, in welchen sie
+               <lb facs="#facs_2_region_1684667831985_354_tl_39" n="N040"/>als Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7954">Börner</rs></hi> dem <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Publicum unver
+               <lb facs="#facs_2_line_1760254602431_764" n="N041" break="no"/>gessen blieb. Wir bedauerten, Frau Dr. <rs type="person" ref="#hsl_person_id_7954">Schramm</rs> nicht<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
                <lb facs="#facs_2_line_1760254421635_706" n="N001"/>auch in einer Solonummer gehört zu haben; ihr Gesang
-               <lb facs="#facs_2_region_1684667835267_357_tl_1" n="N002"/>erschien uns so recht als der Ausklang einer rein gestimm¬
-               <lb facs="#facs_2_line_1760255090386_1013" n="N003"/>ten Seele.
-               <lb facs="#facs_2_region_1684667835267_357_tl_2" n="N004"/>Die brillant ausgeführte Ouvertüre zu „<rs type="bibl">Oberon</rs>“
-               <lb facs="#facs_2_region_1684667835267_357_tl_3" n="N005"/>machte den Anfang, <rs type="person">Mendelssohn</rs>'s „<rs type="bibl">Erste Walpurgisnacht</rs>“
+               <lb facs="#facs_2_region_1684667835267_357_tl_1" n="N002"/>erschien uns so recht als der Ausklang einer rein gestimm
+               <lb facs="#facs_2_line_1760255090386_1013" n="N003" break="no"/>ten Seele.
+            </p><p>
+               <lb facs="#facs_2_region_1684667835267_357_tl_2" n="N004"/>Die brillant ausgeführte Ouvertüre zu „<rs type="bibl" ref="#hsl_work_id_79">Oberon</rs>“
+               <lb facs="#facs_2_region_1684667835267_357_tl_3" n="N005"/>machte den Anfang, <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>’s „<rs type="bibl" ref="#hsl_work_id_223">Erste Walpurgisnacht</rs>“
                <lb facs="#facs_2_region_1684667835267_357_tl_4" n="N006"/>den Beschluß des dritten Concerts. Dazwischen spielte
-               <lb facs="#facs_2_region_1684667835267_357_tl_5" n="N007"/>
-               <hi rendition="#em">
-                  <rs type="person">Joachim</rs>
-               </hi> mit Herrn Concertmeister <hi rendition="#em">
-                  <rs type="person">Bargheer</rs>
-               </hi> die
-               <lb facs="#facs_2_line_1760254453624_718" n="N008"/>
-               <rs type="bibl">H-moll-Concertante</rs> für zwei Violinen von <hi rendition="#em">
-                  <rs type="person">Spohr</rs>
-               </hi>. Herr
-               <lb facs="#facs_2_region_1684667835267_357_tl_6" n="N009"/>
-               <hi rendition="#em">
-                  <rs type="person">Bargheer</rs>
-               </hi> ist ein sehr tüchtiger Künstler, der, überdies
-               <lb facs="#facs_2_region_1684667835267_357_tl_7" n="N010"/>eine Säule der <rs type="place">Hamburg</rs>er Musikzustände, die Auszeichnung
-               <lb facs="#facs_2_line_1760254475857_729" n="N011"/>wohl verdient hat, mit <rs type="person">Joachim</rs> zu spielen. Daß man aber
+               <lb facs="#facs_2_region_1684667835267_357_tl_5" n="N007"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_140">Joachim</rs></hi> mit Herrn Concertmeister <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7955">Bargheer</rs></hi> die
+               <lb facs="#facs_2_line_1760254453624_718" n="N008"/><rs type="bibl" ref="#hsl_work_id_5610">H-moll-Concertante</rs> für zwei Violinen von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_293">Spohr</rs></hi>. Herr
+               <lb facs="#facs_2_region_1684667835267_357_tl_6" n="N009"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_7955">Bargheer</rs></hi> ist ein sehr tüchtiger Künstler, der, überdies
+               <lb facs="#facs_2_region_1684667835267_357_tl_7" n="N010"/>eine Säule der <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Musikzustände, die Auszeichnung
+               <lb facs="#facs_2_line_1760254475857_729" n="N011"/>wohl verdient hat, mit <rs type="person" ref="#hsl_person_id_140">Joachim</rs> zu spielen. Daß man aber
                <lb facs="#facs_2_region_1684667835267_357_tl_8" n="N012"/>unterließ, Letzterem außerdem noch eine Solo-Nummer im
-               <lb facs="#facs_2_region_1684667835267_357_tl_9" n="N013"/>Programm zu reserviren, wurde von den Zuhörern aufrich¬
-               <lb facs="#facs_2_line_1760254618967_776" n="N014"/>tig beklagt. Das <rs type="person">Spohr</rs>'sche <rs type="bibl">Duo</rs>, von ziemlich dünnem Ge¬
-               <lb facs="#facs_2_line_1760254652271_786" n="N015"/>halte und etwas veralteter Eleganz, theilt nicht blos (wie
-               <lb facs="#facs_2_line_1760254509249_740" n="N016"/>das bekannte <rs type="person">Mozart</rs>'sche für <rs type="bibl">Violine und Bratsche</rs>) den
+               <lb facs="#facs_2_region_1684667835267_357_tl_9" n="N013"/>Programm zu reserviren, wurde von den Zuhörern aufrich
+               <lb facs="#facs_2_line_1760254618967_776" n="N014" break="no"/>tig beklagt. Das <rs type="person" ref="#hsl_person_id_293">Spohr</rs>’sche <rs type="bibl" ref="#hsl_work_id_5610">Duo</rs>, von ziemlich dünnem Ge
+               <lb facs="#facs_2_line_1760254652271_786" n="N015" break="no"/>halte und etwas veralteter Eleganz, theilt nicht blos (wie
+               <lb facs="#facs_2_line_1760254509249_740" n="N016"/>das bekannte <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’sche für <rs type="bibl" ref="#hsl_work_id_433">Violine und Bratsche</rs>) den
                <lb facs="#facs_2_region_1684667835267_357_tl_10" n="N017"/>ganzen Stoff mit mathematischer Genauigkeit zwischen die
-               <lb facs="#facs_2_line_1760254546708_750" n="N018"/>beiden Spieler, es läßt sie sogar immer nur gleichzeitig zu¬
-               <lb facs="#facs_2_region_1684667835267_357_tl_12" n="N019"/>sammen spielen. So kam es, daß wir <hi rendition="#em">
-                  <rs type="person">Joachim</rs>
-               </hi> während
-               <lb facs="#facs_2_region_1684667835267_357_tl_13" n="N020"/>des ganzen <rs type="place">Hamburg</rs>er Musikfestes nicht mehr als vier Tacte
+               <lb facs="#facs_2_line_1760254546708_750" n="N018"/>beiden Spieler, es läßt sie sogar immer nur gleichzeitig zu
+               <lb facs="#facs_2_region_1684667835267_357_tl_12" n="N019" break="no"/>sammen spielen. So kam es, daß wir <hi rendition="#em"><rs type="person" ref="#hsl_person_id_140">Joachim</rs></hi> während
+               <lb facs="#facs_2_region_1684667835267_357_tl_13" n="N020"/>des ganzen <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Musikfestes nicht mehr als vier Tacte
                <lb facs="#facs_2_region_1684667835267_357_tl_14" n="N021"/>haben <hi rendition="#em">allein</hi> vertragen hören, mit denen er einmal in
-               <lb facs="#facs_2_region_1684667835267_357_tl_15" n="N022"/>dem <rs type="person">Spohr</rs>'schen <rs type="bibl">Duo</rs> voranschreitet. Diese einfachen vier
-               <lb facs="#facs_2_region_1684667835267_357_tl_16" n="N023"/>Tacte verriethen freilich den ganzen <rs type="person">Joachim</rs> und erinnerten
-               <lb facs="#facs_2_region_1684667835267_357_tl_17" n="N024"/>mich an eine Briefstelle, in welcher M. <rs type="person">Hauptmann</rs> vor
-               <lb facs="#facs_2_region_1684667835267_357_tl_18" n="N025"/>vielen Jahren schon aussprach: „<rs type="person">Joachim</rs> ist einzig; bei dem
+               <lb facs="#facs_2_region_1684667835267_357_tl_15" n="N022"/>dem <rs type="person" ref="#hsl_person_id_293">Spohr</rs>’schen <rs type="bibl" ref="#hsl_work_id_5610">Duo</rs> voranschreitet. Diese einfachen vier
+               <lb facs="#facs_2_region_1684667835267_357_tl_16" n="N023"/>Tacte verriethen freilich den ganzen <rs type="person" ref="#hsl_person_id_140">Joachim</rs> und erinnerten
+               <lb facs="#facs_2_region_1684667835267_357_tl_17" n="N024"/>mich an eine Briefstelle, in welcher M. <rs type="person" ref="#hsl_person_id_687">Hauptmann</rs> vor
+               <lb facs="#facs_2_region_1684667835267_357_tl_18" n="N025"/>vielen Jahren schon aussprach: „<rs type="person" ref="#hsl_person_id_140">Joachim</rs> ist einzig; bei dem
                <lb facs="#facs_2_region_1684667835267_357_tl_19" n="N026"/>ist nicht die Technik und nicht der Ton und nichts von
                <lb facs="#facs_2_region_1684667835267_357_tl_20" n="N027"/>Allem, was man sagen kann, sondern daß eben das
                <lb facs="#facs_2_region_1684667835267_357_tl_21" n="N028"/>Alles zurücktritt, sich gar nicht bemerkbar macht, daß
                <lb facs="#facs_2_region_1684667835267_357_tl_22" n="N029"/>man eben nur die Musik hört.“ Wer hätte nicht, um ein
-               <lb facs="#facs_2_region_1684667835267_357_tl_23" n="N030"/>Solostück von <rs type="person">Joachim</rs> zu hören, gerne die unbedeutende
-               <lb facs="#facs_2_region_1684667835267_357_tl_24" n="N031"/>„<rs type="bibl">Ouvertüre</rs>“ von W. <hi rendition="#em">
-                  <rs type="person">Grund</rs>
-               </hi> geopfert, welche man — aller¬
-               <lb facs="#facs_2_region_1684667835267_357_tl_25" n="N032"/>dings aus rühmlicher Pietät für die Verdienste des Verstor¬
-               <lb facs="#facs_2_region_1684667835267_357_tl_26" n="N033"/>benen — ins Programm gesetzt? Es waren doch übrigens
+               <lb facs="#facs_2_region_1684667835267_357_tl_23" n="N030"/>Solostück von <rs type="person" ref="#hsl_person_id_140">Joachim</rs> zu hören, gerne die unbedeutende
+               <lb facs="#facs_2_region_1684667835267_357_tl_24" n="N031"/>„<rs type="bibl" ref="#hsl_work_id_5614">Ouvertüre</rs>“ von W. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7825">Grund</rs></hi> geopfert, welche man — aller
+               <lb facs="#facs_2_region_1684667835267_357_tl_25" n="N032" break="no"/>dings aus rühmlicher Pietät für die Verdienste des Verstor
+               <lb facs="#facs_2_region_1684667835267_357_tl_26" n="N033" break="no"/>benen — ins Programm gesetzt? Es waren doch übrigens
                <lb facs="#facs_2_region_1684667835267_357_tl_27" n="N034"/>Dirigenten- und nicht Componisten-Verdienste, für welche
-               <lb facs="#facs_2_region_1684667835267_357_tl_28" n="N035"/>
-               <rs type="place">Hamburg</rs> dem wackeren <hi rendition="#em">
-                  <rs type="person">Grund</rs>
-               </hi> sich zu Dank verpflichtet
-               <lb facs="#facs_2_region_1684667835267_357_tl_29" n="N036"/>fühlt. Die beiden <hi rendition="#em">
-                  <rs type="person">Schubert</rs>
-               </hi>'schen Lieder: „<rs type="bibl">Erstarrung</rs>“ und
-               <lb facs="#facs_2_region_1684667835267_357_tl_30" n="N037"/>„<rs type="bibl">An die Leyer</rs>“ wirken kaum auf das zweitausendköpfige
+               <lb facs="#facs_2_region_1684667835267_357_tl_28" n="N035"/><rs type="place" ref="#hsl_place_id_69">Hamburg</rs> dem wackeren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7825">Grund</rs></hi> sich zu Dank verpflichtet
+               <lb facs="#facs_2_region_1684667835267_357_tl_29" n="N036"/>fühlt. Die beiden <hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schubert</rs></hi>’schen Lieder: „<rs type="bibl" ref="#hsl_work_id_5612">Erstarrung</rs>“ und
+               <lb facs="#facs_2_region_1684667835267_357_tl_30" n="N037"/>„<rs type="bibl" ref="#hsl_work_id_5611">An die Leyer</rs>“ wirken kaum auf das zweitausendköpfige
                <lb facs="#facs_2_region_1684667835267_357_tl_31" n="N038"/>Publicum eines für große Tonmassen bestimmten Festsaals.
                <lb facs="#facs_2_region_1684667835267_357_tl_32" n="N039"/>Werden sie vollends von einem dicken, kahlköpfigen Herrn
                <lb facs="#facs_2_region_1684667835267_357_tl_33" n="N040"/>mit klangloser Stimme vorgetragen, so bekommt der „Succès
-               <lb facs="#facs_2_line_1760254604738_767" n="N041"/>d'estime“ einen entschiedenen Nachdruck auf das letzte Wort.
-            </p>
-            <cb n="7"/>
-            <p>
+               <lb facs="#facs_2_line_1760254604738_767" n="N041"/>d’estime“ einen entschiedenen Nachdruck auf das letzte Wort.<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
                <lb facs="#facs_2_region_1684667838766_360_tl_1" n="N001"/>Um so begeisterter äußerte sich die Freude des Publicums an
-               <lb facs="#facs_2_region_1684667838766_360_tl_2" n="N002"/>
-               <hi rendition="#em">
-                  <rs type="person">Brahms</rs>'</hi> zweiter <rs type="bibl">Symphonie</rs> in D-dur. <rs type="person">Brahms</rs>, mit
+               <lb facs="#facs_2_region_1684667838766_360_tl_2" n="N002"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs>’</hi> zweiter <rs type="bibl" ref="#hsl_work_id_1475">Symphonie</rs> in D-dur. <rs type="person" ref="#hsl_person_id_41">Brahms</rs>, mit
                <lb facs="#facs_2_region_1684667838766_360_tl_3" n="N003"/>Orchestertusch und Lorbeerkränzen empfangen, dirigirte selbst,
-               <lb facs="#facs_2_region_1684667838766_360_tl_4" n="N004"/>
-               <rs type="person">Joachim</rs> spielte im Orchester die erste Violine; Alles ging
+               <lb facs="#facs_2_region_1684667838766_360_tl_4" n="N004"/><rs type="person" ref="#hsl_person_id_140">Joachim</rs> spielte im Orchester die erste Violine; Alles ging
                <lb facs="#facs_2_region_1684667838766_360_tl_5" n="N005"/>herrlich. Das Werk selbst ist den Wienern bekannt; es hat
-               <lb facs="#facs_2_region_1684667838766_360_tl_6" n="N006"/>in <rs type="place">Hamburg</rs> ebenso siegreich durchgeschlagen, wie in <rs type="place">Wien</rs>
-               <lb facs="#facs_2_region_1684667838766_360_tl_7" n="N007"/>und den meisten <rs type="place">deutsch</rs>en Städten. Der reizende Menuet
-               <lb facs="#facs_2_region_1684667838766_360_tl_8" n="N008"/>(den <rs type="person">Brahms</rs>, kaum zum Vortheil der Wirkung, lang¬
-               <lb facs="#facs_2_region_1684667838766_360_tl_9" n="N009"/>samer nahm, als H. <rs type="person">Richter</rs> in <rs type="place">Wien</rs>) mußte wieder¬
-               <lb facs="#facs_2_region_1684667838766_360_tl_10" n="N010"/>holt werden. Am Schluß der <rs type="bibl">Symphonie</rs> warfen die
-               <lb facs="#facs_2_region_1684667838766_360_tl_11" n="N011"/>Damen vom Chor und aus den ersten Sitzreihen <rs type="person">Brahms</rs>
+               <lb facs="#facs_2_region_1684667838766_360_tl_6" n="N006"/>in <rs type="place" ref="#hsl_place_id_69">Hamburg</rs> ebenso siegreich durchgeschlagen, wie in <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/>
+               <lb facs="#facs_2_region_1684667838766_360_tl_7" n="N007"/>und den meisten <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Städten. Der reizende Menuet
+               <lb facs="#facs_2_region_1684667838766_360_tl_8" n="N008"/>(den <rs type="person" ref="#hsl_person_id_41">Brahms</rs>, kaum zum Vortheil der Wirkung, lang
+               <lb facs="#facs_2_region_1684667838766_360_tl_9" n="N009" break="no"/>samer nahm, als H. <rs type="person" ref="#hsl_person_id_1399">Richter</rs> in <rs type="place" ref="#hsl_place_id_55">Wien</rs>) mußte wieder
+               <lb facs="#facs_2_region_1684667838766_360_tl_10" n="N010" break="no"/>holt werden. Am Schluß der <rs type="bibl" ref="#hsl_work_id_1475">Symphonie</rs> warfen die
+               <lb facs="#facs_2_region_1684667838766_360_tl_11" n="N011"/>Damen vom Chor und aus den ersten Sitzreihen <rs type="person" ref="#hsl_person_id_41">Brahms</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_2_region_1684667838766_360_tl_12" n="N012"/>ihre Blumensträußchen zu; er stand da, wie es in
                <lb facs="#facs_2_region_1684667838766_360_tl_13" n="N013"/>seinem Wiegenlied heißt, „mit Rosen bedeckt, mit Nelken
-               <lb facs="#facs_2_line_1760254618966_775" n="N014"/>besteckt“. Mit Ausnahme der <rs type="person">Brahms</rs>'schen <rs type="bibl">Symphonie</rs>
+               <lb facs="#facs_2_line_1760254618966_775" n="N014"/>besteckt“. Mit Ausnahme der <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’schen <rs type="bibl" ref="#hsl_work_id_1475">Symphonie</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_2_line_1760254652271_785" n="N015"/>waren sämmtliche Musikstücke dieses großen dreitägigen Festes
-               <lb facs="#facs_2_region_1684667838766_360_tl_16" n="N016"/>von Herrn Professor Julius v. <hi rendition="#em">
-                  <rs type="person">Bernuth</rs>
-               </hi> mit bestem Er¬
-               <lb facs="#facs_2_region_1684667838766_360_tl_17" n="N017"/>folge dirigirt worden. Durch seine vielseitige Bildung und
+               <lb facs="#facs_2_region_1684667838766_360_tl_16" n="N016"/>von Herrn Professor Julius v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7826">Bernuth</rs></hi> mit bestem Er
+               <lb facs="#facs_2_region_1684667838766_360_tl_17" n="N017" break="no"/>folge dirigirt worden. Durch seine vielseitige Bildung und
                <lb facs="#facs_2_region_1684667838766_360_tl_18" n="N018"/>persönliche Liebenswürdigkeit ein besonderer Liebling der
-               <lb facs="#facs_2_region_1684667838766_360_tl_19" n="N019"/>
-               <rs type="place">Hamburg</rs>er Gesellschaft, hat dieser Dirigent bei dem Musik¬
-               <lb facs="#facs_2_region_1684667838766_360_tl_20" n="N020"/>feste auch eine Ausdauer und Arbeitskraft bewährt, um die
-               <lb facs="#facs_2_region_1684667838766_360_tl_21" n="N021"/>er, sowie das ihm anvertraute Concert-Institut zu be¬
-               <lb facs="#facs_2_region_1684667838766_360_tl_22" n="N022"/>neiden ist.
+               <lb facs="#facs_2_region_1684667838766_360_tl_19" n="N019"/><rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Gesellschaft, hat dieser Dirigent bei dem Musik
+               <lb facs="#facs_2_region_1684667838766_360_tl_20" n="N020" break="no"/>feste auch eine Ausdauer und Arbeitskraft bewährt, um die
+               <lb facs="#facs_2_region_1684667838766_360_tl_21" n="N021"/>er, sowie das ihm anvertraute Concert-Institut zu be
+               <lb facs="#facs_2_region_1684667838766_360_tl_22" n="N022" break="no"/>neiden ist.
+            </p><p>
                <lb facs="#facs_2_region_1684667838766_360_tl_23" n="N023"/>Zwischen den zweiten und den dritten Concerttag war
-               <lb facs="#facs_2_region_1684667838766_360_tl_24" n="N024"/>die gemeinsame Luftfahrt nach <rs type="place">Blankenese</rs> eingeschoben, wo
-               <lb facs="#facs_2_region_1684667838766_360_tl_25" n="N025"/>auch das Festbankett stattfand. Auf dem Verdeck des statt¬
-               <lb facs="#facs_2_region_1684667838766_360_tl_26" n="N026"/>lichen Dampfers gab es ein fröhliches Gewimmel; man
+               <lb facs="#facs_2_region_1684667838766_360_tl_24" n="N024"/>die gemeinsame Luftfahrt nach <rs type="place" ref="#hsl_place_id_979">Blankenese</rs> eingeschoben, wo
+               <lb facs="#facs_2_region_1684667838766_360_tl_25" n="N025"/>auch das Festbankett stattfand. Auf dem Verdeck des statt
+               <lb facs="#facs_2_region_1684667838766_360_tl_26" n="N026" break="no"/>lichen Dampfers gab es ein fröhliches Gewimmel; man
                <lb facs="#facs_2_region_1684667838766_360_tl_27" n="N027"/>konnte mit jedem unachtsamen Schritt einer Berühmtheit
-               <lb facs="#facs_2_region_1684667838766_360_tl_28" n="N028"/>auf den Fuß treten. Da begrüßten wir zuerst den geist¬
-               <lb facs="#facs_2_region_1684667838766_360_tl_29" n="N029"/>vollen, liebenswürdigen Ferdinand <rs type="person">Hiller</rs>, oder wie er jetzt
-               <lb facs="#facs_2_region_1684667838766_360_tl_30" n="N030"/>heißt: Ferdinand <hi rendition="#em">von</hi>
-               <rs type="person">Hiller</rs>, denn er hat durch irgend
+               <lb facs="#facs_2_region_1684667838766_360_tl_28" n="N028"/>auf den Fuß treten. Da begrüßten wir zuerst den geist
+               <lb facs="#facs_2_region_1684667838766_360_tl_29" n="N029" break="no"/>vollen, liebenswürdigen Ferdinand <rs type="person" ref="#hsl_person_id_124">Hiller</rs>, oder wie er jetzt
+               <lb facs="#facs_2_region_1684667838766_360_tl_30" n="N030"/>heißt: Ferdinand <hi rendition="#em">von</hi><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_124">Hiller</rs>, denn er hat durch irgend
                <lb facs="#facs_2_region_1684667838766_360_tl_31" n="N031"/>einen Orden jetzt bekommen, was er längst und viel besser
                <lb facs="#facs_2_region_1684667838766_360_tl_32" n="N032"/>selbst besaß: den „persönlichen Adel“. Der kluge Mann im
-               <lb facs="#facs_2_region_1684667838766_360_tl_33" n="N033"/>Winterpelz, mit dem frappant an <rs type="person">Schumann</rs> erinnernden
-               <lb facs="#facs_2_region_1684667838766_360_tl_34" n="N034"/>Kopf, ist Theodor <hi rendition="#em">
-                  <rs type="person">Kirchner</rs>
-               </hi>, der Componist so mancher
-               <lb facs="#facs_2_region_1684667838766_360_tl_35" n="N035"/>poetischer Clavierstücke und Lieder. Und neben ihm, die vor¬
-               <lb facs="#facs_2_region_1684667838766_360_tl_36" n="N036"/>nehme Greisengestalt? Wer sollte es glauben, der Com¬
-               <lb facs="#facs_2_region_1684667838766_360_tl_37" n="N037"/>ponist der neckischen „<rs type="bibl">Martha</rs>“ mit weißen Haaren und lan¬
-               <lb facs="#facs_2_region_1684667838766_360_tl_38" n="N038"/>gem weißen Bart! <hi rendition="#em">
-                  <rs type="person">Flotow</rs>
-               </hi> hat es nicht vergessen, daß er
-               <lb facs="#facs_2_region_1684667838766_360_tl_39" n="N039"/>seinen ersten durchschlagenden Erfolg in <rs type="place">Deutschland</rs> der
-               <lb facs="#facs_2_region_1684667838766_360_tl_40" n="N040"/>
-               <hi rendition="#em">
-                  <rs type="place">Hamburg</rs>er</hi> Aufführung seines <rs type="bibl">„Stradella</rs>“ (<date month="0" day="0" year="0">1844</date>) ver¬
-               <lb facs="#facs_2_line_1760254609719_770" n="N041"/>dankte. Ein älterer Herr von bescheidener Mittelgröße, aus
-            </p>
+               <lb facs="#facs_2_region_1684667838766_360_tl_33" n="N033"/>Winterpelz, mit dem frappant an <rs type="person" ref="#hsl_person_id_282">Schumann</rs> erinnernden
+               <lb facs="#facs_2_region_1684667838766_360_tl_34" n="N034"/>Kopf, ist Theodor <hi rendition="#em"><rs type="person" ref="#hsl_person_id_144">Kirchner</rs></hi>, der Componist so mancher
+               <lb facs="#facs_2_region_1684667838766_360_tl_35" n="N035"/>poetischer Clavierstücke und Lieder. Und neben ihm, die vor
+               <lb facs="#facs_2_region_1684667838766_360_tl_36" n="N036" break="no"/>nehme Greisengestalt? Wer sollte es glauben, der Com
+               <lb facs="#facs_2_region_1684667838766_360_tl_37" n="N037" break="no"/>ponist der neckischen „<rs type="bibl" ref="#hsl_work_id_89">Martha</rs>“ mit weißen Haaren und lan
+               <lb facs="#facs_2_region_1684667838766_360_tl_38" n="N038" break="no"/>gem weißen Bart! <hi rendition="#em"><rs type="person" ref="#hsl_person_id_81">Flotow</rs></hi> hat es nicht vergessen, daß er
+               <lb facs="#facs_2_region_1684667838766_360_tl_39" n="N039"/>seinen ersten durchschlagenden Erfolg in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> der
+               <lb facs="#facs_2_region_1684667838766_360_tl_40" n="N040"/><hi rendition="#em"><rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er</hi> Aufführung seines „<rs type="bibl" ref="#hsl_work_id_266">Stradella</rs>“ (<date>1844</date>) ver
+               <lb facs="#facs_2_line_1760254609719_770" n="N041" break="no"/>dankte. Ein älterer Herr von bescheidener Mittelgröße, aus<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1684667858307_366_tl_1" n="N001"/>dessen glattrasirtem rosigen Gesicht eine echte <rs type="person">Mozart</rs>-Nase
+            <cb n="7"/>
+            <p prev="true">
+               <lb facs="#facs_3_region_1684667858307_366_tl_1" n="N001"/>dessen glattrasirtem rosigen Gesicht eine echte <rs type="person" ref="#hsl_person_id_189">Mozart</rs>-Nase
                <lb facs="#facs_3_region_1684667858307_366_tl_2" n="N002"/>hervorspringt, kommt auf mich zu und nennt sich — Niels
-               <lb facs="#facs_3_region_1684667858307_366_tl_3" n="N003"/>
-               <hi rendition="#em">
-                  <rs type="person">Gade</rs>
-               </hi>. So war mir denn ein alter Wunsch in Erfüllung
+               <lb facs="#facs_3_region_1684667858307_366_tl_3" n="N003"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_94">Gade</rs></hi>. So war mir denn ein alter Wunsch in Erfüllung
                <lb facs="#facs_3_region_1684667858307_366_tl_4" n="N004"/>gegangen, diesen verehrten, echten Künstler, den Liebling
-               <lb facs="#facs_3_region_1684667858307_366_tl_5" n="N005"/>
-               <rs type="person">Mendelssohn</rs>'s und <rs type="person">Schumann</rs>'s, einmal von Angesicht zu
+               <lb facs="#facs_3_region_1684667858307_366_tl_5" n="N005"/><rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>’s und <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s, einmal von Angesicht zu
                <lb facs="#facs_3_region_1684667858307_366_tl_6" n="N006"/>sehen! Zwei Herren, die, sich offenbar neckend, sehr munter
                <lb facs="#facs_3_region_1684667858307_366_tl_7" n="N007"/>conversiren, sollte ich kennen, doch kommt mir der jüngere
-               <lb facs="#facs_3_line_1760254699319_803" n="N008"/>zu alt vor für <hi rendition="#em">
-                  <rs type="person">Brahms</rs>
-               </hi>, der ältere zu jung für Papa
-               <lb facs="#facs_3_region_1684667858307_366_tl_9" n="N009"/>
-               <hi rendition="#em">
-                  <rs type="person">Grädener</rs>
-               </hi>. Und doch sind sie's Beide. <hi rendition="#em">
-                  <rs type="person">Grädener</rs>
-               </hi>, den
+               <lb facs="#facs_3_line_1760254699319_803" n="N008"/>zu alt vor für <hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi>, der ältere zu jung für Papa
+               <lb facs="#facs_3_region_1684667858307_366_tl_9" n="N009"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1033">Grädener</rs></hi>. Und doch sind sie’s Beide. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1033">Grädener</rs></hi>, den
                <lb facs="#facs_3_line_1760254721255_813" n="N010"/>Wienern eine alte, werthe Erinnerung, ist seither noch
                <lb facs="#facs_3_region_1684667858307_366_tl_11" n="N011"/>sprühender und blitzender geworden, so daß ich ihn als ein
                <lb facs="#facs_3_line_1760254735742_825" n="N012"/>beneidenswerthes Beispiel unverwüstlicher, ja gesteigerter
-               <lb facs="#facs_3_region_1684667858307_366_tl_13" n="N013"/>Jugendlichkeit kaum wiedererkannte. <hi rendition="#em">
-                  <rs type="person">Brahms</rs>
-               </hi> aber —
+               <lb facs="#facs_3_region_1684667858307_366_tl_13" n="N013"/>Jugendlichkeit kaum wiedererkannte. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi> aber —
                <lb facs="#facs_3_region_1684667858307_366_tl_14" n="N014"/>trägt einen martialischen Vollbart. Er hat sein bisheriges
-               <lb facs="#facs_3_region_1684667858307_366_tl_15" n="N015"/>mildes Pastorgesicht mit dem eines tapferen <rs type="person">Wallenstein</rs>'¬
-               <lb facs="#facs_3_region_1684667858307_366_tl_16" n="N016"/>schen Lanzknechts vertauscht und gleicht jetzt einer seiner
+               <lb facs="#facs_3_region_1684667858307_366_tl_15" n="N015"/>mildes Pastorgesicht mit dem eines tapferen <rs type="person" ref="#hsl_person_id_2014">Wallenstein</rs>’
+               <lb facs="#facs_3_region_1684667858307_366_tl_16" n="N016" break="no"/>schen Lanzknechts vertauscht und gleicht jetzt einer seiner
                <lb facs="#facs_3_region_1684667858307_366_tl_17" n="N017"/>Variationen, in der man das Thema nur mühsam erkennt.
                <lb facs="#facs_3_region_1684667858307_366_tl_18" n="N018"/>Es schien jedoch, daß den Damen auf unserem Schiff die
                <lb facs="#facs_3_region_1684667858307_366_tl_19" n="N019"/>Variation ausnehmend gefiel. Wir freuen uns ferner
-               <lb facs="#facs_3_line_1760254760696_844" n="N020"/>der Anwesenheit des geistreichen <rs type="place">holländisch</rs>en Componisten
-               <lb facs="#facs_3_line_1760254763102_847" n="N021"/>
-               <hi rendition="#em">
-                  <rs type="person">Verhulst</rs>
-               </hi>, der beiden trefflichen <rs type="place">Berlin</rs>er Musik-Kritiker
-               <lb facs="#facs_3_line_1760254765956_850" n="N022"/>Otto <hi rendition="#em">
-                  <rs type="person">Gumprecht</rs>
-               </hi> und Professor <hi rendition="#em">
-                  <rs type="person">Engel</rs>
-               </hi>, der Componi¬
-               <lb facs="#facs_3_region_1684667858307_366_tl_21" n="N023"/>sten <hi rendition="#em">
-                  <rs type="person">Reinthaler</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Grimm</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Gernsheim</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Reinecke</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684667858307_366_tl_22" n="N024"/>und Julius <hi rendition="#em">
-                  <rs type="person">Schäffer</rs>
-               </hi>. Von <rs type="place">Hamburg</rs>er Musik-Notabilitä¬
-               <lb facs="#facs_3_region_1684667858307_366_tl_23" n="N025"/>ten begrüßen wir die Herren Ludwig <hi rendition="#em">
-                  <rs type="person">Meinardus</rs>
-               </hi>, Ca¬
-               <lb facs="#facs_3_region_1684667858307_366_tl_24" n="N026"/>pellmeister <hi rendition="#em">
-                  <rs type="person">Riccius</rs>
-               </hi>, Dr. <hi rendition="#em">
-                  <rs type="person">Krause</rs>
-               </hi> und den ehrwürdigen
-               <lb facs="#facs_3_region_1684667858307_366_tl_25" n="N027"/>Verfasser der <rs type="bibl">Festschrift</rs>, <hi rendition="#em">
-                  <rs type="person">Avé-Lallemant</rs>
-               </hi>. Hingegen
-               <lb facs="#facs_3_region_1684667858307_366_tl_26" n="N028"/>bedauerten wir, daß die beiden <rs type="place">Hamburg</rs>er Musikgelehrten
-               <lb facs="#facs_3_region_1684667858307_366_tl_27" n="N029"/>
-               <hi rendition="#em">
-                  <rs type="person">Chrysander</rs>
-               </hi> und <hi rendition="#em">Arrey v. <rs type="person">Dommer</rs>
-               </hi> es verschmäh¬
-               <lb facs="#facs_3_region_1684667858307_366_tl_28" n="N030"/>ten, die Stille ihres Studirzimmers für diese Festtage zu
-               <lb facs="#facs_3_region_1684667858307_366_tl_29" n="N031"/>verlassen. Die Fahrt nach <rs type="place">Blankenese</rs> verlief heiter und an¬
-               <lb facs="#facs_3_region_1684667858307_366_tl_30" n="N032"/>regend wie das ganze Fest. Jeder, der letzterem beigewohnt,
-               <lb facs="#facs_3_region_1684667858307_366_tl_31" n="N033"/>wird den günstigsten Eindruck von den <rs type="place">Hamburg</rs>er Musik-
+               <lb facs="#facs_3_line_1760254760696_844" n="N020"/>der Anwesenheit des geistreichen <rs type="place" ref="#hsl_place_id_171">holländisch</rs>en Componisten
+               <lb facs="#facs_3_line_1760254763102_847" n="N021"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2500">Verhulst</rs></hi>, der beiden trefflichen <rs type="place" ref="#hsl_place_id_9">Berlin</rs>er Musik-Kritiker
+               <lb facs="#facs_3_line_1760254765956_850" n="N022"/>Otto <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5018">Gumprecht</rs></hi> und Professor <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1709">Engel</rs></hi>, der Componi
+               <lb facs="#facs_3_region_1684667858307_366_tl_21" n="N023" break="no"/>sten <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3881">Reinthaler</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1243">Grimm</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3092">Gernsheim</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_234">Reinecke</rs></hi><space quantity="1" unit="char"/>
+               <lb facs="#facs_3_region_1684667858307_366_tl_22" n="N024"/>und Julius <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7953">Schäffer</rs></hi>. Von <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Musik-Notabilitä
+               <lb facs="#facs_3_region_1684667858307_366_tl_23" n="N025" break="no"/>ten begrüßen wir die Herren Ludwig <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2618">Meinardus</rs></hi>, Ca
+               <lb facs="#facs_3_region_1684667858307_366_tl_24" n="N026" break="no"/>pellmeister <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7957">Riccius</rs></hi>, Dr. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3756">Krause</rs></hi> und den ehrwürdigen
+               <lb facs="#facs_3_region_1684667858307_366_tl_25" n="N027"/>Verfasser der <rs type="bibl" ref="#hsl_work_id_5615">Festschrift</rs>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7958">Avé-Lallemant</rs></hi>. Hingegen
+               <lb facs="#facs_3_region_1684667858307_366_tl_26" n="N028"/>bedauerten wir, daß die beiden <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Musikgelehrten
+               <lb facs="#facs_3_region_1684667858307_366_tl_27" n="N029"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1444">Chrysander</rs></hi> und <hi rendition="#em">Arrey v. <rs type="person" ref="#hsl_person_id_403">Dommer</rs></hi> es verschmäh
+               <lb facs="#facs_3_region_1684667858307_366_tl_28" n="N030" break="no"/>ten, die Stille ihres Studirzimmers für diese Festtage zu
+               <lb facs="#facs_3_region_1684667858307_366_tl_29" n="N031"/>verlassen. Die Fahrt nach <rs type="place" ref="#hsl_place_id_979">Blankenese</rs> verlief heiter und an
+               <lb facs="#facs_3_region_1684667858307_366_tl_30" n="N032" break="no"/>regend wie das ganze Fest. Jeder, der letzterem beigewohnt,
+               <lb facs="#facs_3_region_1684667858307_366_tl_31" n="N033"/>wird den günstigsten Eindruck von den <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Musik-
                <lb facs="#facs_3_line_1760254774415_857" n="N034"/>und Theaterzuständen gewonnen haben. Denn auch für eine
-               <lb facs="#facs_3_region_1684667858307_366_tl_33" n="N035"/>Opernvorstellung in dem unter <hi rendition="#em">
-                  <rs type="person">Pollini</rs>'s</hi> Direction ganz
-               <lb facs="#facs_3_region_1684667858307_366_tl_34" n="N036"/>Vortreffliches leistenden Stadttheater hatten wir glücklicher¬
-               <lb facs="#facs_3_region_1684667858307_366_tl_35" n="N037"/>weise Zeit gewonnen. Die Wärme des künstlerischen und
-               <lb facs="#facs_3_region_1684667858307_366_tl_36" n="N038"/>geselligen Verkehrs in <rs type="place">Hamburg</rs> siegte überdies rühmlich über
+               <lb facs="#facs_3_region_1684667858307_366_tl_33" n="N035"/>Opernvorstellung in dem unter <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6319">Pollini</rs>’s</hi> Direction ganz
+               <lb facs="#facs_3_region_1684667858307_366_tl_34" n="N036"/>Vortreffliches leistenden Stadttheater hatten wir glücklicher
+               <lb facs="#facs_3_region_1684667858307_366_tl_35" n="N037" break="no"/>weise Zeit gewonnen. Die Wärme des künstlerischen und
+               <lb facs="#facs_3_region_1684667858307_366_tl_36" n="N038"/>geselligen Verkehrs in <rs type="place" ref="#hsl_place_id_69">Hamburg</rs> siegte überdies rühmlich über
                <lb facs="#facs_3_region_1684667858307_366_tl_37" n="N039"/>die rauhen Einwendungen der Herbstwitterung, so daß uns
-               <lb facs="#facs_3_region_1684667858307_366_tl_38" n="N040"/>und sicherlich allen fremden Gästen das <rs type="place">Hamburg</rs>er Musik¬
-               <lb facs="#facs_3_line_1760254791866_872" n="N041"/>fest stets in frischem, dankbarem Gedächtniß haften wird.
+               <lb facs="#facs_3_region_1684667858307_366_tl_38" n="N040"/>und sicherlich allen fremden Gästen das <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>er Musik
+               <lb facs="#facs_3_line_1760254791866_872" n="N041" break="no"/>fest stets in frischem, dankbarem Gedächtniß haften wird.
             </p>
          </div>
       </body>
