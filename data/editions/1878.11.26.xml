@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 5119. Wien, Dienstag, den 26. November 1878</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,24 +70,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 5119. Wien, Dienstag, den 26. November 1878</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
                         <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1878-11-26">26.11.1878</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2025-11-29">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2025-11-29">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2025-12-14">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1026,377 +1023,310 @@
       <body>
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
-            <cb n="1"/>
+            <lb facs="#facs_1_region_1684667365169_165_tl_1" n="N001"/><head type="h1">Hofoperntheater.</head>
+            <lb facs="#facs_1_region_1684667365169_165_tl_2" n="N002"/><head type="h2">(„<rs type="bibl" ref="#hsl_work_id_3212">Die sicilianische Vesper</rs>“. Von <rs type="person" ref="#hsl_person_id_312">Verdi</rs>.)</head>
             <p>
-               <lb facs="#facs_1_line_1760418393453_151" n="N001"/>Nr. 5119. Wien, Dienstag, den 26. November 1878
-            </p>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1684667365169_165_tl_1" n="N001"/>Hofoperntheater.
-               <lb facs="#facs_1_region_1684667365169_165_tl_2" n="N002"/>(„<rs type="bibl">Die sicilianische Vesper</rs>“. Von <rs type="person">Verdi</rs>.)
-               <lb facs="#facs_1_region_1684667365169_165_tl_3" n="N003"/>Ed. H. <rs type="person">Verdi</rs>'s fünfactige Oper „<rs type="bibl">Die sicilianische</rs>
-               <lb facs="#facs_1_region_1684667365169_165_tl_4" n="N004"/>
-               <rs type="bibl">Vesper</rs>“ wurde in <rs type="place">Wien</rs> zum erstenmale im November <date month="0" day="0" year="0">1857</date>
-               <lb facs="#facs_1_region_1684667365169_165_tl_5" n="N005"/>aufgeführt, mit Therese <hi rendition="#em">
-                  <rs type="person">Tietjens</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Ander</rs>
-               </hi> in den
+               <lb facs="#facs_1_region_1684667365169_165_tl_3" n="N003"/>Ed. H. <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s fünfactige Oper „<rs type="bibl" ref="#hsl_work_id_3212">Die sicilianische
+               <lb facs="#facs_1_region_1684667365169_165_tl_4" n="N004"/>Vesper</rs>“ wurde in <rs type="place" ref="#hsl_place_id_55">Wien</rs> zum erstenmale im November <date>1857</date><space quantity="1" unit="char"/>
+               <lb facs="#facs_1_region_1684667365169_165_tl_5" n="N005"/>aufgeführt, mit Therese <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1072">Tietjens</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_14">Ander</rs></hi> in den
                <lb facs="#facs_1_region_1684667365169_165_tl_6" n="N006"/>Hauptrollen. Sie verschwand bald vom Repertoire und ist
-               <lb facs="#facs_1_region_1684667365169_165_tl_7" n="N007"/>somit unserem heutigen Theater-Publicum so gut wie un¬
-               <lb facs="#facs_1_region_1684667365169_165_tl_8" n="N008"/>bekannt. Eine gedrängte Erzählung des Inhalts dürfte
+               <lb facs="#facs_1_region_1684667365169_165_tl_7" n="N007"/>somit unserem heutigen Theater-Publicum so gut wie un
+               <lb facs="#facs_1_region_1684667365169_165_tl_8" n="N008" break="no"/>bekannt. Eine gedrängte Erzählung des Inhalts dürfte
                <lb facs="#facs_1_region_1684667365169_165_tl_9" n="N009"/>daher nicht ganz überflüssig sein. Die Handlung spielt in
-               <lb facs="#facs_1_region_1684667365169_165_tl_10" n="N010"/>
-               <rs type="place">Palermo</rs>, wo Guy v. <rs type="person">Montfort</rs> als Statthalter <rs type="person">Karl</rs>'s von
-               <lb facs="#facs_1_region_1684667365169_165_tl_11" n="N011"/>
-               <rs type="place">Anjou</rs> regiert und den Sicilianern das Joch der <rs type="place" continued="true">französi¬</rs>
-               <lb facs="#facs_1_region_1684667365169_165_tl_12" n="N012"/>
-               <rs type="place" continued="true">sch</rs>en Fremdherrschaft mit tyrannischem Hochmuth auf den
+               <lb facs="#facs_1_region_1684667365169_165_tl_10" n="N010"/><rs type="place" ref="#hsl_place_id_692">Palermo</rs>, wo Guy v. <rs type="person" ref="#hsl_person_id_7832">Montfort</rs> als Statthalter <rs type="person" ref="#hsl_person_id_7833">Karl</rs>’s von
+               <lb facs="#facs_1_region_1684667365169_165_tl_11" n="N011"/><rs type="place" ref="#hsl_place_id_980">Anjou</rs> regiert und den Sicilianern das Joch der <rs type="place" ref="#hsl_place_id_21">französi
+               <lb facs="#facs_1_region_1684667365169_165_tl_12" n="N012" break="no"/>sch</rs>en Fremdherrschaft mit tyrannischem Hochmuth auf den
                <lb facs="#facs_1_region_1684667365169_165_tl_13" n="N013"/>Nacken drückt. Gleich beim Aufzuge des Vorhanges werden
                <lb facs="#facs_1_region_1684667365169_165_tl_14" n="N014"/>wir mitten in die glühende Atmosphäre versetzt, welche den
-               <lb facs="#facs_1_region_1684667365169_165_tl_15" n="N015"/>nahenden Orcan verkündigt. Die <rs type="place">französisch</rs>en Soldaten
-               <lb facs="#facs_1_region_1684667365169_165_tl_16" n="N016"/>
-               <rs type="person">Karl</rs>'s von <rs type="place">Anjou</rs> lassen auf offenem Markte ihren Sieges¬
-               <lb facs="#facs_1_region_1684667365169_165_tl_17" n="N017"/>übermuth spielen. Die Frauen flüchten, die Männer drohen,
+               <lb facs="#facs_1_region_1684667365169_165_tl_15" n="N015"/>nahenden Orcan verkündigt. Die <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Soldaten
+               <lb facs="#facs_1_region_1684667365169_165_tl_16" n="N016"/><rs type="person" ref="#hsl_person_id_7833">Karl</rs>’s von <rs type="place" ref="#hsl_place_id_980">Anjou</rs> lassen auf offenem Markte ihren Sieges
+               <lb facs="#facs_1_region_1684667365169_165_tl_17" n="N017" break="no"/>übermuth spielen. Die Frauen flüchten, die Männer drohen,
                <lb facs="#facs_1_region_1684667365169_165_tl_18" n="N018"/>doch ohne den Muth und die Macht des Widerstandes. Da
-               <lb facs="#facs_1_region_1684667365169_165_tl_19" n="N019"/>erscheint die Herzogin <rs type="person">Helene</rs> auf ihrem Gang zur Kirche.
-               <lb facs="#facs_1_region_1684667365169_165_tl_20" n="N020"/>Sie trägt noch tiefe Trauer um ihren durch die <rs type="place">französisch</rs>e
+               <lb facs="#facs_1_region_1684667365169_165_tl_19" n="N019"/>erscheint die Herzogin <rs type="person" ref="#hsl_person_id_7828">Helene</rs> auf ihrem Gang zur Kirche.
+               <lb facs="#facs_1_region_1684667365169_165_tl_20" n="N020"/>Sie trägt noch tiefe Trauer um ihren durch die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e
                <lb facs="#facs_1_region_1684667365169_165_tl_21" n="N021"/>Tyrannei geopferten Bruder. Die Soldateska entblödet sich
-               <lb facs="#facs_1_region_1684667365169_165_tl_22" n="N022"/>nicht, <rs type="person">Helene</rs>n zum Singen aufzufordern; sie thut es mit
-               <lb facs="#facs_1_region_1684667365169_165_tl_23" n="N023"/>einem Lied, das, wie <rs type="person">Masaniello</rs>'s <rs type="bibl">Barcarole</rs>, den Rache¬
-               <lb facs="#facs_1_line_1760418448603_177" n="N024"/>durst ihres Volkes aufstacheln soll. Das plötzliche Erscheinen
-               <lb facs="#facs_1_region_1684667365169_165_tl_24" n="N025"/>des Statthalters Guy v. <rs type="person">Montfort</rs> schreckt jedoch Alles in
+               <lb facs="#facs_1_region_1684667365169_165_tl_22" n="N022"/>nicht, <rs type="person" ref="#hsl_person_id_7828">Helene</rs>n zum Singen aufzufordern; sie thut es mit
+               <lb facs="#facs_1_region_1684667365169_165_tl_23" n="N023"/>einem Lied, das, wie <rs type="person" ref="#hsl_person_id_3516">Masaniello</rs>’s <rs type="bibl" ref="#hsl_work_id_128">Barcarole</rs>, den Rache
+               <lb facs="#facs_1_line_1760418448603_177" n="N024" break="no"/>durst ihres Volkes aufstacheln soll. Das plötzliche Erscheinen
+               <lb facs="#facs_1_region_1684667365169_165_tl_24" n="N025"/>des Statthalters Guy v. <rs type="person" ref="#hsl_person_id_7830">Montfort</rs> schreckt jedoch Alles in
                <lb facs="#facs_1_region_1684667365169_165_tl_25" n="N026"/>die gewohnte Unterwürfigkeit zurück. Nur ein junger Sicilianer,
-               <lb facs="#facs_1_region_1684667365169_165_tl_26" n="N027"/>Heinrich <rs type="person">Rota</rs>, als glühender Patriot die Hoffnung der
-               <lb facs="#facs_1_region_1684667365169_165_tl_27" n="N028"/>Unterdrückten, wagt es, dem <rs type="person">Gouverneur</rs> zu trotzen. Dieser
+               <lb facs="#facs_1_region_1684667365169_165_tl_26" n="N027"/>Heinrich <rs type="person" ref="#hsl_person_id_7829">Rota</rs>, als glühender Patriot die Hoffnung der
+               <lb facs="#facs_1_region_1684667365169_165_tl_27" n="N028"/>Unterdrückten, wagt es, dem <rs type="person" ref="#hsl_person_id_7830">Gouverneur</rs> zu trotzen. Dieser
                <lb facs="#facs_1_region_1684667365169_165_tl_28" n="N029"/>fühlt sich zu dem freiheitsstolzen Jüngling seltsam hingezogen,
-               <lb facs="#facs_1_region_1684667365169_165_tl_29" n="N030"/>und bald soll ihn ein Brief, der um die Schonung <rs type="person">Heinrich</rs>'s
+               <lb facs="#facs_1_region_1684667365169_165_tl_29" n="N030"/>und bald soll ihn ein Brief, der um die Schonung <rs type="person" ref="#hsl_person_id_7829">Heinrich</rs>’s
                <lb facs="#facs_1_region_1684667365169_165_tl_30" n="N031"/>bittet, überzeugen, daß es sein eigener Sohn ist, der ihm
                <lb facs="#facs_1_region_1684667365169_165_tl_31" n="N032"/>gegenübersteht. Er läßt ihn in seinen Palast bringen und
                <lb facs="#facs_1_region_1684667365169_165_tl_32" n="N033"/>eröffnet ihm das Geheimniß seiner Geburt. Nun beginnt in
-               <lb facs="#facs_1_line_1760418505353_204" n="N034"/>
-               <rs type="person">Heinrich</rs>, der seinen <rs type="person">Vater</rs> haßt und verachtet, der qual¬
-               <lb facs="#facs_1_region_1684667365169_165_tl_33" n="N035"/>vollste Kampf.
+               <lb facs="#facs_1_line_1760418505353_204" n="N034"/><rs type="person" ref="#hsl_person_id_7829">Heinrich</rs>, der seinen <rs type="person" ref="#hsl_person_id_7830">Vater</rs> haßt und verachtet, der qual
+               <lb facs="#facs_1_region_1684667365169_165_tl_33" n="N035" break="no"/>vollste Kampf.
+            </p><p>
                <lb facs="#facs_1_region_1684667365169_165_tl_34" n="N036"/>Endlich siegt das patriotische Gefühl in ihm, er schleudert
-               <lb facs="#facs_1_line_1760418651203_271" n="N037"/>die lockenden Versprechungen und Bitten seines <rs type="person">Vater</rs>s von
-            </p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_line_1760418425152_166" n="N001"/>sich und eilt zur <rs type="person">Herzogin</rs>, der er inzwischen, und nicht ohne
+               <lb facs="#facs_1_line_1760418651203_271" n="N037"/>die lockenden Versprechungen und Bitten seines <rs type="person" ref="#hsl_person_id_7830">Vater</rs>s von<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+               <lb facs="#facs_1_line_1760418425152_166" n="N001"/>sich und eilt zur <rs type="person" ref="#hsl_person_id_7828">Herzogin</rs>, der er inzwischen, und nicht ohne
                <lb facs="#facs_1_region_1684667369245_168_tl_2" n="N002"/>Erhörung, seine Liebe gestanden hat. Diese heldenmüthige
                <lb facs="#facs_1_region_1684667369245_168_tl_3" n="N003"/>Frau steht an der Spitze der Bewegung, welche nun durch
-               <lb facs="#facs_1_region_1684667369245_168_tl_4" n="N004"/>den aus der Verbannung rückgekehrten Johannes <rs type="person">Procida</rs>
+               <lb facs="#facs_1_region_1684667369245_168_tl_4" n="N004"/>den aus der Verbannung rückgekehrten Johannes <rs type="person" ref="#hsl_person_id_7831">Procida</rs><space quantity="1" unit="char"/>
                <lb facs="#facs_1_region_1684667369245_168_tl_5" n="N005"/>eine feste Richtung erhält. Bei dem nächsten Hoffest, das sich
                <lb facs="#facs_1_region_1684667369245_168_tl_6" n="N006"/>im dritten Acte vor unseren Augen glänzend entfaltet, soll
-               <lb facs="#facs_1_region_1684667369245_168_tl_7" n="N007"/>
-               <rs type="person">Montfort</rs> meuchlings erstochen werden. Im entscheidenden
-               <lb facs="#facs_1_line_1760418527708_214" n="N008"/>Moment siegt in <rs type="person">Heinrich</rs> die Stimme der Natur, er warnt
-               <lb facs="#facs_1_region_1684667369245_168_tl_8" n="N009"/>den <rs type="person">Vater</rs>. Dieser läßt die auf ihn eindringenden Verschwo¬
-               <lb facs="#facs_1_region_1684667369245_168_tl_9" n="N010"/>renen, <rs type="person">Helene</rs> und <rs type="person">Procida</rs> an der Spitze, verhaften und
+               <lb facs="#facs_1_region_1684667369245_168_tl_7" n="N007"/><rs type="person" ref="#hsl_person_id_7830">Montfort</rs> meuchlings erstochen werden. Im entscheidenden
+               <lb facs="#facs_1_line_1760418527708_214" n="N008"/>Moment siegt in <rs type="person" ref="#hsl_person_id_7829">Heinrich</rs> die Stimme der Natur, er warnt
+               <lb facs="#facs_1_region_1684667369245_168_tl_8" n="N009"/>den <rs type="person" ref="#hsl_person_id_7830">Vater</rs>. Dieser läßt die auf ihn eindringenden Verschwo
+               <lb facs="#facs_1_region_1684667369245_168_tl_9" n="N010" break="no"/>renen, <rs type="person" ref="#hsl_person_id_7828">Helene</rs> und <rs type="person" ref="#hsl_person_id_7831">Procida</rs> an der Spitze, verhaften und
                <lb facs="#facs_1_region_1684667369245_168_tl_10" n="N011"/>verurtheilt sie zum Tode. Der vierte Act spielt im Kerker.
-               <lb facs="#facs_1_region_1684667369245_168_tl_11" n="N012"/>
-               <rs type="person">Heinrich</rs>, vor seinem Volke als Verräther gebrandmarkt,
-               <lb facs="#facs_1_region_1684667369245_168_tl_12" n="N013"/>sucht <rs type="person">Helene</rs>n im Kerker auf und erklärt ihr das geheimniß¬
-               <lb facs="#facs_1_region_1684667369245_168_tl_13" n="N014"/>volle Motiv seines scheinbaren Treubruches. Er will sein Ver¬
-               <lb facs="#facs_1_region_1684667369245_168_tl_14" n="N015"/>gehen sühnen, indem er mit den Freunden das Blutgerüst
-               <lb facs="#facs_1_line_1760418558913_226" n="N016"/>betritt. Da erscheint der <rs type="person">Gouverneur</rs> und legt das Leben
-               <lb facs="#facs_1_region_1684667369245_168_tl_15" n="N017"/>
-               <rs type="person">Helene</rs>ns in <rs type="person">Heinrich</rs>'s Hand, indem er sie begnadigen will,
-               <lb facs="#facs_1_region_1684667369245_168_tl_16" n="N018"/>sobald <rs type="person">Heinrich</rs> ihn vor dem versammelten Volke „Vater“
-               <lb facs="#facs_1_line_1760418583889_239" n="N019"/>anruft. Nach langem Kampfe thut es <rs type="person">Heinrich</rs> in dem Augen¬
-               <lb facs="#facs_1_line_1760418610153_249" n="N020"/>blicke, wo der Scharfrichter <rs type="person">Helene</rs>n bereits in Empfang
-               <lb facs="#facs_1_region_1684667369245_168_tl_17" n="N021"/>nimmt. <rs type="person">Montfort</rs>, glücklich, seinen <rs type="person">Sohn</rs> wiedergewonnen zu
-               <lb facs="#facs_1_region_1684667369245_168_tl_18" n="N022"/>haben, begnadigt sämmtliche Verurtheilte und verlobt über¬
-               <lb facs="#facs_1_region_1684667369245_168_tl_19" n="N023"/>dies die beiden Liebenden, deren Bund dem Volke ein Unter¬
-               <lb facs="#facs_1_region_1684667369245_168_tl_20" n="N024"/>pfand für <rs type="place">Frankreich</rs>s wohlwollende Gesinnung sein soll.
-               <lb facs="#facs_1_region_1684667369245_168_tl_21" n="N025"/>Der fünfte Act führt uns das glückliche <rs type="person">Brautpaar</rs> im
-               <lb facs="#facs_1_region_1684667369245_168_tl_22" n="N026"/>Festschmucke auf dem Wege zur Kirche vor. <rs type="person">Procida</rs> hat
+               <lb facs="#facs_1_region_1684667369245_168_tl_11" n="N012"/><rs type="person" ref="#hsl_person_id_7829">Heinrich</rs>, vor seinem Volke als Verräther gebrandmarkt,
+               <lb facs="#facs_1_region_1684667369245_168_tl_12" n="N013"/>sucht <rs type="person" ref="#hsl_person_id_7828">Helene</rs>n im Kerker auf und erklärt ihr das geheimniß
+               <lb facs="#facs_1_region_1684667369245_168_tl_13" n="N014" break="no"/>volle Motiv seines scheinbaren Treubruches. Er will sein Ver
+               <lb facs="#facs_1_region_1684667369245_168_tl_14" n="N015" break="no"/>gehen sühnen, indem er mit den Freunden das Blutgerüst
+               <lb facs="#facs_1_line_1760418558913_226" n="N016"/>betritt. Da erscheint der <rs type="person" ref="#hsl_person_id_7830">Gouverneur</rs> und legt das Leben
+               <lb facs="#facs_1_region_1684667369245_168_tl_15" n="N017"/><rs type="person" ref="#hsl_person_id_7828">Helene</rs>ns in <rs type="person" ref="#hsl_person_id_7829">Heinrich</rs>’s Hand, indem er sie begnadigen will,
+               <lb facs="#facs_1_region_1684667369245_168_tl_16" n="N018"/>sobald <rs type="person" ref="#hsl_person_id_7829">Heinrich</rs> ihn vor dem versammelten Volke „Vater“
+               <lb facs="#facs_1_line_1760418583889_239" n="N019"/>anruft. Nach langem Kampfe thut es <rs type="person" ref="#hsl_person_id_7829">Heinrich</rs> in dem Augen
+               <lb facs="#facs_1_line_1760418610153_249" n="N020" break="no"/>blicke, wo der Scharfrichter <rs type="person" ref="#hsl_person_id_7828">Helene</rs>n bereits in Empfang
+               <lb facs="#facs_1_region_1684667369245_168_tl_17" n="N021"/>nimmt. <rs type="person" ref="#hsl_person_id_7830">Montfort</rs>, glücklich, seinen <rs type="person" ref="#hsl_person_id_7829">Sohn</rs> wiedergewonnen zu
+               <lb facs="#facs_1_region_1684667369245_168_tl_18" n="N022"/>haben, begnadigt sämmtliche Verurtheilte und verlobt über
+               <lb facs="#facs_1_region_1684667369245_168_tl_19" n="N023" break="no"/>dies die beiden Liebenden, deren Bund dem Volke ein Unter
+               <lb facs="#facs_1_region_1684667369245_168_tl_20" n="N024" break="no"/>pfand für <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>s wohlwollende Gesinnung sein soll.
+            </p><p>
+               <lb facs="#facs_1_region_1684667369245_168_tl_21" n="N025"/>Der fünfte Act führt uns das glückliche <rs type="person" ref="#hsl_person_id_7828 #hsl_person_id_7829">Brautpaar</rs> im
+               <lb facs="#facs_1_region_1684667369245_168_tl_22" n="N026"/>Festschmucke auf dem Wege zur Kirche vor. <rs type="person" ref="#hsl_person_id_7831">Procida</rs> hat
                <lb facs="#facs_1_line_1760418448602_176" n="N027"/>jedoch das Läuten der Hochzeitsglocke zum Signal für den
                <lb facs="#facs_1_region_1684667369245_168_tl_24" n="N028"/>Ausbruch der Revolution gemacht. Das wüthende Volk stürzt
                <lb facs="#facs_1_region_1684667369245_168_tl_25" n="N029"/>von allen Seiten auf die Hochzeitsgäste los, jene schauderhafte
                <lb facs="#facs_1_line_1760418633195_259" n="N030"/>Mordnacht beginnend, welche die Geschichte unter dem Namen
-               <lb facs="#facs_1_region_1684667369245_168_tl_26" n="N031"/>der „<rs type="place">Sicilianische</rs>n Vesper“ verzeichnet hat. Den vor <rs type="person">Heinrich</rs>
-               <lb facs="#facs_1_region_1684667369245_168_tl_27" n="N032"/>und <rs type="person">Helene</rs>n einen Augenblick zagenden Mördern ruft <rs type="person">Procida</rs>
-               <lb facs="#facs_1_region_1684667369245_168_tl_28" n="N033"/>mit den Worten des heiligen <rs type="person">Dominik</rs> gegen die Albigenser
+               <lb facs="#facs_1_region_1684667369245_168_tl_26" n="N031"/>der „<rs type="place" ref="#hsl_place_id_306">Sicilianische</rs>n Vesper“ verzeichnet hat. Den vor <rs type="person" ref="#hsl_person_id_7829">Heinrich</rs><space quantity="1" unit="char"/>
+               <lb facs="#facs_1_region_1684667369245_168_tl_27" n="N032"/>und <rs type="person" ref="#hsl_person_id_7828">Helene</rs>n einen Augenblick zagenden Mördern ruft <rs type="person" ref="#hsl_person_id_7831">Procida</rs><space quantity="1" unit="char"/>
+               <lb facs="#facs_1_region_1684667369245_168_tl_28" n="N033"/>mit den Worten des heiligen <rs type="person" ref="#hsl_person_id_7834">Dominik</rs> gegen die Albigenser
                <lb facs="#facs_1_line_1760418470856_186" n="N034"/>zu: „Frappez-les tous! Que vous importe? Dieu choisira
                <lb facs="#facs_1_region_1684667369245_168_tl_31" n="N035"/>les siens!“
-               <lb facs="#facs_1_line_1760418477154_192" n="N036"/>Daß die <rs type="place">Paris</rs>er Opern-Direction — obendrein zur
-               <lb facs="#facs_1_line_1760418505353_203" n="N037"/>Verherrlichung der ersten Weltausstellung <date month="0" day="0" year="0">1855</date> — einem
+            </p><p>
+               <lb facs="#facs_1_line_1760418477154_192" n="N036"/>Daß die <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Opern-Direction — obendrein zur
+               <lb facs="#facs_1_line_1760418505353_203" n="N037"/>Verherrlichung der ersten Weltausstellung <date>1855</date> — einem
                <lb facs="#facs_1_region_1684667369245_168_tl_34" n="N038"/>Italiener die Composition eines Librettos auftrug, welches
-               <lb facs="#facs_1_region_1684667369245_168_tl_35" n="N039"/>die <rs type="place">französisch</rs>e Tyrannei in <rs type="place">Italien</rs> und die Niedermetzelung
-               <lb facs="#facs_1_line_1760418673481_284" n="N040"/>der Franzosen durch die Italiener schildert, wurde von bei¬
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_line_1760418425152_165" n="N001"/>den Nationen als eine Tactlosigkeit empfunden. In der
-               <lb facs="#facs_1_region_1684667373063_171_tl_1" n="N002"/>
-               <rs type="place">Paris</rs>er Journalistik ließen sich noch vor der Aufführung
+               <lb facs="#facs_1_region_1684667369245_168_tl_35" n="N039"/>die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Tyrannei in <rs type="place" ref="#hsl_place_id_28">Italien</rs> und die Niedermetzelung
+               <lb facs="#facs_1_line_1760418673481_284" n="N040"/>der Franzosen durch die Italiener schildert, wurde von bei</p>
+            <cb n="3"/>
+            <p prev="true">
+               <lb facs="#facs_1_line_1760418425152_165" n="N001" break="no"/>den Nationen als eine Tactlosigkeit empfunden. In der
+               <lb facs="#facs_1_region_1684667373063_171_tl_1" n="N002"/><rs type="place" ref="#hsl_place_id_44">Paris</rs>er Journalistik ließen sich noch vor der Aufführung
                <lb facs="#facs_1_region_1684667373063_171_tl_2" n="N003"/>tadelnde Stimmen darüber vernehmen, welche sich zunächst
-               <lb facs="#facs_1_region_1684667373063_171_tl_3" n="N004"/>gegen den Dichter des Librettos, Eugène <rs type="person">Scribe</rs>, richteten.
-               <lb facs="#facs_1_region_1684667373063_171_tl_4" n="N005"/>Letzterer schickte, wahrscheinlich in der Absicht einer Recht¬
-               <lb facs="#facs_1_region_1684667373063_171_tl_5" n="N006"/>fertigung, seinem Textbuch ein Vorwort voraus, das mit
-               <lb facs="#facs_1_region_1684667373063_171_tl_6" n="N007"/>dem Satze beginnt: „Jenen, die uns, gewohnterweise, Un¬
-               <lb facs="#facs_1_line_1760418527708_213" n="N008"/>kenntniß der Geschichte vorwerfen werden, beeilen wir uns
-               <lb facs="#facs_1_region_1684667373063_171_tl_8" n="N009"/>zu erklären, daß der unter dem Namen der <rs type="place">Sicilianisch</rs>en
+               <lb facs="#facs_1_region_1684667373063_171_tl_3" n="N004"/>gegen den Dichter des Librettos, Eugène <rs type="person" ref="#hsl_person_id_284">Scribe</rs>, richteten.
+               <lb facs="#facs_1_region_1684667373063_171_tl_4" n="N005"/>Letzterer schickte, wahrscheinlich in der Absicht einer Recht
+               <lb facs="#facs_1_region_1684667373063_171_tl_5" n="N006" break="no"/>fertigung, seinem Textbuch ein Vorwort voraus, das mit
+               <lb facs="#facs_1_region_1684667373063_171_tl_6" n="N007"/>dem Satze beginnt: „Jenen, die uns, gewohnterweise, Un
+               <lb facs="#facs_1_line_1760418527708_213" n="N008" break="no"/>kenntniß der Geschichte vorwerfen werden, beeilen wir uns
+               <lb facs="#facs_1_region_1684667373063_171_tl_8" n="N009"/>zu erklären, daß der unter dem Namen der <rs type="place" ref="#hsl_place_id_306">Sicilianisch</rs>en
                <lb facs="#facs_1_region_1684667373063_171_tl_9" n="N010"/>Vesper bekannte Massenmord niemals existirt hat.“ Folgt
                <lb facs="#facs_1_region_1684667373063_171_tl_10" n="N011"/>ein historischer Excurs, der auch in die neue, unabsehbar
-               <lb facs="#facs_1_region_1684667373063_171_tl_11" n="N012"/>bändereiche <rs type="bibl">Gesammt-Ausgabe</rs> von <rs type="person">Scribe</rs>'s Werken (Serie III.
+               <lb facs="#facs_1_region_1684667373063_171_tl_11" n="N012"/>bändereiche Gesammt-Ausgabe von <rs type="person" ref="#hsl_person_id_284">Scribe</rs>’s Werken (Serie III.
                <lb facs="#facs_1_region_1684667373063_171_tl_12" n="N013"/>Band 6) aufgenommen ist und unter Berufung auf einige
-               <lb facs="#facs_1_region_1684667373063_171_tl_13" n="N014"/>
-               <rs type="place">italienisch</rs>e Historiker die Glaubwürdigkeit jenes Ereignisses
-               <lb facs="#facs_1_region_1684667373063_171_tl_14" n="N015"/>bestreitet. Den Namen des <rs type="place">italienisch</rs>en Geschichtschreibers
-               <lb facs="#facs_1_line_1760418558913_225" n="N016"/>
-               <hi rendition="#em">
-                  <rs type="person">Amari</rs>
-               </hi> jedoch, dessen Erzählung noch heute der Hauptsache
+               <lb facs="#facs_1_region_1684667373063_171_tl_13" n="N014"/><rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Historiker die Glaubwürdigkeit jenes Ereignisses
+               <lb facs="#facs_1_region_1684667373063_171_tl_14" n="N015"/>bestreitet. Den Namen des <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Geschichtschreibers
+               <lb facs="#facs_1_line_1760418558913_225" n="N016"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_7835">Amari</rs></hi> jedoch, dessen Erzählung noch heute der Hauptsache
                <lb facs="#facs_1_region_1684667373063_171_tl_16" n="N017"/>nach als richtig anerkannt und in die besten Geschichtswerke
-               <lb facs="#facs_1_region_1684667373063_171_tl_17" n="N018"/>übergegangen ist, nennt <rs type="person">Scribe</rs> nirgends. Wir können also
+               <lb facs="#facs_1_region_1684667373063_171_tl_17" n="N018"/>übergegangen ist, nennt <rs type="person" ref="#hsl_person_id_284">Scribe</rs> nirgends. Wir können also
                <lb facs="#facs_1_line_1760418583888_238" n="N019"/>ruhig bei dem verbleiben, was wir in der Schule über die
-               <lb facs="#facs_1_line_1760418610153_248" n="N020"/>
-               <rs type="place">Sicilianisch</rs>e Vesper gelernt haben. <rs type="person">Scribe</rs> hatte gar nicht
+               <lb facs="#facs_1_line_1760418610153_248" n="N020"/><rs type="place" ref="#hsl_place_id_306">Sicilianisch</rs>e Vesper gelernt haben. <rs type="person" ref="#hsl_person_id_284">Scribe</rs> hatte gar nicht
                <lb facs="#facs_1_region_1684667373063_171_tl_20" n="N021"/>nöthig, das Ereigniß für eine Fabel zu erklären, um seine
                <lb facs="#facs_1_region_1684667373063_171_tl_21" n="N022"/>freie Behandlung desselben zu rechtfertigen; diese poetische
                <lb facs="#facs_1_region_1684667373063_171_tl_22" n="N023"/>Freiheit wird keinem Dichter, am wenigsten dem Opern-
-               <lb facs="#facs_1_region_1684667373063_171_tl_23" n="N024"/>Librettisten bestritten. Hat doch <rs type="person">Scribe</rs> die historischen Figuren
-               <lb facs="#facs_1_region_1684667373063_171_tl_24" n="N025"/>des Guy v. <rs type="person">Montfort</rs> und des Johann <rs type="person">Procida</rs> um kein
-               <lb facs="#facs_1_region_1684667373063_171_tl_25" n="N026"/>Haar willkürlicher gestaltet, als den Johann von <rs type="person">Leyden</rs> in
-               <lb facs="#facs_1_region_1684667373063_171_tl_26" n="N027"/>seinem „<rs type="bibl">Prophet</rs>“, den Vasco de <rs type="person">Gama</rs> in seiner „<rs type="bibl">Afrikane¬</rs>
-               <lb facs="#facs_1_region_1684667373063_171_tl_27" n="N028"/>
-               <rs type="bibl">rin</rs>“. Die unumgängliche Liebesgeschichte, die er diesen
+               <lb facs="#facs_1_region_1684667373063_171_tl_23" n="N024"/>Librettisten bestritten. Hat doch <rs type="person" ref="#hsl_person_id_284">Scribe</rs> die historischen Figuren
+               <lb facs="#facs_1_region_1684667373063_171_tl_24" n="N025"/>des Guy v. <rs type="person" ref="#hsl_person_id_7830">Montfort</rs> und des Johann <rs type="person" ref="#hsl_person_id_7831">Procida</rs> um kein
+               <lb facs="#facs_1_region_1684667373063_171_tl_25" n="N026"/>Haar willkürlicher gestaltet, als den Johann von <rs type="person" ref="#hsl_person_id_599">Leyden</rs> in
+               <lb facs="#facs_1_region_1684667373063_171_tl_26" n="N027"/>seinem „<rs type="bibl" ref="#hsl_work_id_113">Prophet</rs>“, den Vasco de <rs type="person" ref="#hsl_person_id_1925">Gama</rs> in seiner „<rs type="bibl" ref="#hsl_work_id_142">Afrikane
+               <lb facs="#facs_1_region_1684667373063_171_tl_27" n="N028" break="no"/>rin</rs>“. Die unumgängliche Liebesgeschichte, die er diesen
                <lb facs="#facs_1_region_1684667373063_171_tl_28" n="N029"/>Helden andichtet, ist hier wie dort ungefähr von gleicher
-               <lb facs="#facs_1_line_1760418633193_258" n="N030"/>Unwahrscheinlichkeit im Ganzen dünkt uns die „<rs type="bibl">Sicilianische</rs>
-               <lb facs="#facs_1_region_1684667373063_171_tl_30" n="N031"/>
-               <rs type="bibl">Vesper</rs>“ kein schlechteres Libretto als die „<rs type="bibl">Afrikanerin</rs>“ oder
-               <lb facs="#facs_1_region_1684667373063_171_tl_31" n="N032"/>der „<rs type="bibl">Prophet</rs>“; was diese als besser erscheinen läßt, ist die
-               <lb facs="#facs_1_region_1684667373063_171_tl_32" n="N033"/>Musik <rs type="person">Meyerbeer</rs>'s. Unter <rs type="person">Meyerbeer</rs>'s Händen hätte <rs type="person">Scribe</rs>'s
-               <lb facs="#facs_1_region_1684667373063_171_tl_33" n="N034"/>„<rs type="bibl">Sicilianische Vesper</rs>“ mit ihren äußerst dankbaren Situa¬
-               <lb facs="#facs_1_region_1684667373063_171_tl_34" n="N035"/>tionen eine ungleich packendere dramatische Gewalt entwickelt,
-               <lb facs="#facs_1_line_1760418477154_191" n="N036"/>als <rs type="person">Verdi</rs> ihr zu verleihen im Stande war.
-               <lb facs="#facs_1_region_1684667373063_171_tl_35" n="N037"/>„<rs type="bibl">Les vèpres siciliennes</rs>“ und „<rs type="bibl">Don Carlos</rs>“ sind die
-               <lb facs="#facs_1_region_1684667373063_171_tl_36" n="N038"/>zwei einzigen Opern, welche der fruchtbare <rs type="person">Verdi</rs> auf
-               <lb facs="#facs_1_region_1684667373063_171_tl_37" n="N039"/>
-               <rs type="place">französisch</rs>en Text für die <rs type="place">Paris</rs>er Große Oper componiret.
-               <lb facs="#facs_1_line_1760418673481_283" n="N040"/>Eine wie die andere hat ihm mehr saueren Schweiß gekostet
-            </p>
+               <lb facs="#facs_1_line_1760418633193_258" n="N030"/>Unwahrscheinlichkeit im Ganzen dünkt uns die „<rs type="bibl" ref="#hsl_work_id_3212">Sicilianische
+               <lb facs="#facs_1_region_1684667373063_171_tl_30" n="N031"/>Vesper</rs>“ kein schlechteres Libretto als die „<rs type="bibl" ref="#hsl_work_id_142">Afrikanerin</rs>“ oder
+               <lb facs="#facs_1_region_1684667373063_171_tl_31" n="N032"/>der „<rs type="bibl" ref="#hsl_work_id_113">Prophet</rs>“; was diese als besser erscheinen läßt, ist die
+               <lb facs="#facs_1_region_1684667373063_171_tl_32" n="N033"/>Musik <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s. Unter <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s Händen hätte <rs type="person" ref="#hsl_person_id_284">Scribe</rs>’s
+               <lb facs="#facs_1_region_1684667373063_171_tl_33" n="N034"/>„<rs type="bibl" ref="#hsl_work_id_3212">Sicilianische Vesper</rs>“ mit ihren äußerst dankbaren Situa
+               <lb facs="#facs_1_region_1684667373063_171_tl_34" n="N035" break="no"/>tionen eine ungleich packendere dramatische Gewalt entwickelt,
+               <lb facs="#facs_1_line_1760418477154_191" n="N036"/>als <rs type="person" ref="#hsl_person_id_312">Verdi</rs> ihr zu verleihen im Stande war.
+            </p><p>
+               <lb facs="#facs_1_region_1684667373063_171_tl_35" n="N037"/>„<rs type="bibl" ref="#hsl_work_id_3212">Les vèpres siciliennes</rs>“ und „<rs type="bibl" ref="#hsl_work_id_208">Don Carlos</rs>“ sind die
+               <lb facs="#facs_1_region_1684667373063_171_tl_36" n="N038"/>zwei einzigen Opern, welche der fruchtbare <rs type="person" ref="#hsl_person_id_312">Verdi</rs> auf
+               <lb facs="#facs_1_region_1684667373063_171_tl_37" n="N039"/><rs type="place" ref="#hsl_place_id_21">französisch</rs>en Text für die <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Große Oper componiret.
+               <lb facs="#facs_1_line_1760418673481_283" n="N040"/>Eine wie die andere hat ihm mehr saueren Schweiß gekostet<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="5"/>
-            <p>
+            <cb n="4"/>
+            <p prev="true">
                <lb facs="#facs_2_region_1684667385562_177_tl_1" n="N001"/>und doch viel weniger Dank eingetragen, als irgend
-               <lb facs="#facs_2_region_1684667385562_177_tl_2" n="N002"/>eines seiner bekannteren <rs type="place">italienisch</rs>en Werke. Es wäre
-               <lb facs="#facs_2_region_1684667385562_177_tl_3" n="N003"/>ungerecht, den <rs type="place">französisch</rs>en Einfluß auf <rs type="person">Verdi</rs> einen
-               <lb facs="#facs_2_region_1684667385562_177_tl_4" n="N004"/>schlechterdings nachtheiligen zu nennen. Das Studium <rs type="place" continued="true">fran¬</rs>
-               <lb facs="#facs_2_region_1684667385562_177_tl_5" n="N005"/>
-               <rs type="place" continued="true">zösisch</rs>er Musik kündigt sich schon in der „<rs type="bibl">Traviata</rs>“ als ver¬
-               <lb facs="#facs_2_region_1684667385562_177_tl_6" n="N006"/>feinerndes und dramatisch schärfendes Element an, noch weit
-               <lb facs="#facs_2_line_1760418723665_303" n="N007"/>mehr im „<rs type="bibl">Maskenball</rs>“ dessen beste Partien nicht denkbar
-               <lb facs="#facs_2_region_1684667385562_177_tl_9" n="N008"/>wären in <rs type="person">Verdi</rs>'s unvermischt <rs type="place">italienisch</rs>er Periode. Aber das
-               <lb facs="#facs_2_region_1684667385562_177_tl_10" n="N009"/>waren doch <rs type="place">italienisch</rs>e Opern geblieben, auf <rs type="place">italienisch</rs>e
-               <lb facs="#facs_2_region_1684667385562_177_tl_11" n="N010"/>Worte für ein <rs type="place">italienisch</rs>es Publicum gesetzt. Hier bewahrte
-               <lb facs="#facs_2_region_1684667385562_177_tl_12" n="N011"/>
-               <rs type="person">Verdi</rs> bei aller Assimilirung <rs type="place">französisch</rs>er Elemente doch die
-               <lb facs="#facs_2_region_1684667385562_177_tl_13" n="N012"/>ursprünglichen Vorzüge seines echt <rs type="place">italienisch</rs>en Talents.
-               <lb facs="#facs_2_region_1684667385562_177_tl_14" n="N013"/>
-               <rs type="person">Verdi</rs> muß den heimischen Boden unter seinen Füßen fühlen,
-               <lb facs="#facs_2_region_1684667385562_177_tl_15" n="N014"/>um ohne Nachtheil, mit Gewinn sogar, fremdländische Styl¬
-               <lb facs="#facs_2_region_1684667385562_177_tl_16" n="N015"/>weise in sich aufnehmen zu können. Sobald er <rs type="place">französisch</rs>en
-               <lb facs="#facs_2_region_1684667385562_177_tl_17" n="N016"/>Text für <rs type="place">Paris</rs> componirt, geräth, er ins Schwanken, ver¬
-               <lb facs="#facs_2_region_1684667385562_177_tl_18" n="N017"/>liert auf dem ungewohnten Pflaster das Gleichgewicht zwischen
+               <lb facs="#facs_2_region_1684667385562_177_tl_2" n="N002"/>eines seiner bekannteren <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Werke. Es wäre
+               <lb facs="#facs_2_region_1684667385562_177_tl_3" n="N003"/>ungerecht, den <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Einfluß auf <rs type="person" ref="#hsl_person_id_312">Verdi</rs> einen
+               <lb facs="#facs_2_region_1684667385562_177_tl_4" n="N004"/>schlechterdings nachtheiligen zu nennen. Das Studium <rs type="place" ref="#hsl_place_id_21">fran
+               <lb facs="#facs_2_region_1684667385562_177_tl_5" n="N005" break="no"/>zösisch</rs>er Musik kündigt sich schon in der „<rs type="bibl" ref="#hsl_work_id_122">Traviata</rs>“ als ver
+               <lb facs="#facs_2_region_1684667385562_177_tl_6" n="N006" break="no"/>feinerndes und dramatisch schärfendes Element an, noch weit
+               <lb facs="#facs_2_line_1760418723665_303" n="N007"/>mehr im „<rs type="bibl" ref="#hsl_work_id_35">Maskenball</rs>“ dessen beste Partien nicht denkbar
+               <lb facs="#facs_2_region_1684667385562_177_tl_9" n="N008"/>wären in <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s unvermischt <rs type="place" ref="#hsl_place_id_28">italienisch</rs>er Periode. Aber das
+               <lb facs="#facs_2_region_1684667385562_177_tl_10" n="N009"/>waren doch <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Opern geblieben, auf <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e
+               <lb facs="#facs_2_region_1684667385562_177_tl_11" n="N010"/>Worte für ein <rs type="place" ref="#hsl_place_id_28">italienisch</rs>es Publicum gesetzt. Hier bewahrte
+               <lb facs="#facs_2_region_1684667385562_177_tl_12" n="N011"/><rs type="person" ref="#hsl_person_id_312">Verdi</rs> bei aller Assimilirung <rs type="place" ref="#hsl_place_id_21">französisch</rs>er Elemente doch die
+               <lb facs="#facs_2_region_1684667385562_177_tl_13" n="N012"/>ursprünglichen Vorzüge seines echt <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Talents.
+               <lb facs="#facs_2_region_1684667385562_177_tl_14" n="N013"/><rs type="person" ref="#hsl_person_id_312">Verdi</rs> muß den heimischen Boden unter seinen Füßen fühlen,
+               <lb facs="#facs_2_region_1684667385562_177_tl_15" n="N014"/>um ohne Nachtheil, mit Gewinn sogar, fremdländische Styl
+               <lb facs="#facs_2_region_1684667385562_177_tl_16" n="N015" break="no"/>weise in sich aufnehmen zu können. Sobald er <rs type="place" ref="#hsl_place_id_21">französisch</rs>en
+               <lb facs="#facs_2_region_1684667385562_177_tl_17" n="N016"/>Text für <rs type="place" ref="#hsl_place_id_44">Paris</rs> componirt, geräth, er ins Schwanken, ver
+               <lb facs="#facs_2_region_1684667385562_177_tl_18" n="N017" break="no"/>liert auf dem ungewohnten Pflaster das Gleichgewicht zwischen
                <lb facs="#facs_2_region_1684667385562_177_tl_19" n="N018"/>seinem natürlichen naiven Ausdruck und der bewußten
-               <lb facs="#facs_2_region_1684667385562_177_tl_20" n="N019"/>Tendenz nach Aneignung des Fremden. <hi rendition="#em">
-                  <rs type="person">Donizetti</rs>'s</hi> leich¬
-               <lb facs="#facs_2_region_1684667385562_177_tl_21" n="N020"/>teres, beweglicheres Talent assimilirt sich viel zwangloser dem
-               <lb facs="#facs_2_region_1684667385562_177_tl_22" n="N021"/>
-               <rs type="place">französisch</rs>en Geschmack, wie seine „<rs type="bibl">Regimentstochter</rs>“ und „<rs type="bibl">La</rs>
-               <lb facs="#facs_2_region_1684667385562_177_tl_23" n="N022"/>
-               <rs type="bibl">Favorite</rs>“ bezeugen. <rs type="person">Verdi</rs> spricht in der „<rs type="bibl">Sicilianischen Vesper</rs>“
-               <lb facs="#facs_2_region_1684667385562_177_tl_24" n="N023"/>ein gebrochenes <rs type="person">Meyerbeer</rs>isch, das uns weit weniger zusagt,
-               <lb facs="#facs_2_region_1684667385562_177_tl_25" n="N024"/>als sein derbes, geläufiges <rs type="place">Italienisch</rs> in „<rs type="bibl">Ernani</rs>“ oder
-               <lb facs="#facs_2_region_1684667385562_177_tl_26" n="N025"/>„<rs type="bibl">Trovatore</rs>“. Bei den Velleitäten der „<rs type="bibl">Sicilianischen Vesper</rs>“
-               <lb facs="#facs_2_region_1684667385562_177_tl_27" n="N026"/>kann Einem wahrlich die Fabel vom Raben und Fuchs ein¬
-               <lb facs="#facs_2_region_1684667385562_177_tl_28" n="N027"/>fallen: <rs type="person">Verdi</rs>, bethört von den Schmeicheleien der Pariser,
-               <lb facs="#facs_2_region_1684667385562_177_tl_29" n="N028"/>öffnet den Schnabel zu einem <rs type="place">französisch</rs>en Air und verliert
+               <lb facs="#facs_2_region_1684667385562_177_tl_20" n="N019"/>Tendenz nach Aneignung des Fremden. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_63">Donizetti</rs>’s</hi> leich
+               <lb facs="#facs_2_region_1684667385562_177_tl_21" n="N020" break="no"/>teres, beweglicheres Talent assimilirt sich viel zwangloser dem
+               <lb facs="#facs_2_region_1684667385562_177_tl_22" n="N021"/><rs type="place" ref="#hsl_place_id_21">französisch</rs>en Geschmack, wie seine „<rs type="bibl" ref="#hsl_work_id_1279">Regimentstochter</rs>“ und „<rs type="bibl" ref="#hsl_work_id_380">La
+               <lb facs="#facs_2_region_1684667385562_177_tl_23" n="N022"/>Favorite</rs>“ bezeugen. <rs type="person" ref="#hsl_person_id_312">Verdi</rs> spricht in der „<rs type="bibl" ref="#hsl_work_id_3212">Sicilianischen Vesper</rs>“
+               <lb facs="#facs_2_region_1684667385562_177_tl_24" n="N023"/>ein gebrochenes <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>isch, das uns weit weniger zusagt,
+               <lb facs="#facs_2_region_1684667385562_177_tl_25" n="N024"/>als sein derbes, geläufiges <rs type="place" ref="#hsl_place_id_28">Italienisch</rs> in „<rs type="bibl" ref="#hsl_work_id_204">Ernani</rs>“ oder
+               <lb facs="#facs_2_region_1684667385562_177_tl_26" n="N025"/>„<rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>“. Bei den Velleitäten der „<rs type="bibl" ref="#hsl_work_id_3212">Sicilianischen Vesper</rs>“
+               <lb facs="#facs_2_region_1684667385562_177_tl_27" n="N026"/>kann Einem wahrlich die Fabel vom Raben und Fuchs ein
+               <lb facs="#facs_2_region_1684667385562_177_tl_28" n="N027" break="no"/>fallen: <rs type="person" ref="#hsl_person_id_312">Verdi</rs>, bethört von den Schmeicheleien der Pariser,
+               <lb facs="#facs_2_region_1684667385562_177_tl_29" n="N028"/>öffnet den Schnabel zu einem <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Air und verliert
                <lb facs="#facs_2_region_1684667385562_177_tl_30" n="N029"/>darüber sein nahrhaftes Stück Gorgonzola.
-               <lb facs="#facs_2_region_1684667385562_177_tl_31" n="N030"/>
-               <rs type="person">Verdi</rs>'s „<rs type="bibl">Sicilianische Vesper</rs>“ ist, um es rund her¬
-               <lb facs="#facs_2_region_1684667385562_177_tl_32" n="N031"/>auszusagen, langweilig. Sie ist langweilig trotz des ernsteren
-               <lb facs="#facs_2_region_1684667385562_177_tl_33" n="N032"/>Sinnes und der edleren Richtung, die wir willig anerken¬
-               <lb facs="#facs_2_region_1684667385562_177_tl_34" n="N033"/>nen, auch trotz einzelner Lichtblicke, welche uns darin mo¬
-               <lb facs="#facs_2_region_1684667385562_177_tl_35" n="N034"/>mentan erfreuen. Sehr zahlreich sind die letzteren nicht. Fast
+            </p><p>
+               <lb facs="#facs_2_region_1684667385562_177_tl_31" n="N030"/><rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s „<rs type="bibl" ref="#hsl_work_id_3212">Sicilianische Vesper</rs>“ ist, um es rund her
+               <lb facs="#facs_2_region_1684667385562_177_tl_32" n="N031" break="no"/>auszusagen, langweilig. Sie ist langweilig trotz des ernsteren
+               <lb facs="#facs_2_region_1684667385562_177_tl_33" n="N032"/>Sinnes und der edleren Richtung, die wir willig anerken
+               <lb facs="#facs_2_region_1684667385562_177_tl_34" n="N033" break="no"/>nen, auch trotz einzelner Lichtblicke, welche uns darin mo
+               <lb facs="#facs_2_region_1684667385562_177_tl_35" n="N034" break="no"/>mentan erfreuen. Sehr zahlreich sind die letzteren nicht. Fast
                <lb facs="#facs_2_line_1760418731689_308" n="N035"/>Alles, was in dieser Musik dramatisch wirken soll, bleibt im
                <lb facs="#facs_2_region_1684667385562_177_tl_37" n="N036"/>Anlauf, im Versuch, stecken; es kommt nicht heraus. Das
                <lb facs="#facs_2_region_1684667385562_177_tl_38" n="N037"/>gilt von der Erfindung wie von der Instrumentation; je
-               <lb facs="#facs_2_region_1684667385562_177_tl_39" n="N038"/>mehr <rs type="person">Verdi</rs> mit letzterer künstelt, desto unwirksamer, schlecht¬
-               <lb facs="#facs_2_region_1684667385562_177_tl_40" n="N039"/>klingender wird sie. Aus dieser Noth an packenden, feurigen
+               <lb facs="#facs_2_region_1684667385562_177_tl_39" n="N038"/>mehr <rs type="person" ref="#hsl_person_id_312">Verdi</rs> mit letzterer künstelt, desto unwirksamer, schlecht
+               <lb facs="#facs_2_region_1684667385562_177_tl_40" n="N039" break="no"/>klingender wird sie. Aus dieser Noth an packenden, feurigen
                <lb facs="#facs_2_region_1684667385562_177_tl_41" n="N040"/>Melodien würde man nimmermehr den Componisten des
-               <lb facs="#facs_2_line_1760418808945_338" n="N041"/>„<rs type="bibl">Ernani</rs>“, aus dieser Ungeschicklichkeit des dramatischen Auf¬
-            </p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_line_1760418874048_361" n="N001"/>baues und der Orchestration nimmermehr den Autor der
-               <lb facs="#facs_2_region_1684667389507_180_tl_1" n="N002"/>„<rs type="bibl">Aïda</rs>“ erkennen. Im ersten Acte offenbart schon die vor¬
-               <lb facs="#facs_2_region_1684667389507_180_tl_2" n="N003"/>bereitende Scene zwischen den <rs type="place">französisch</rs>en Soldaten und den
-               <lb facs="#facs_2_region_1684667389507_180_tl_3" n="N004"/>Sicilianern, dann das Auftreten der <rs type="person">Herzogin</rs> die Schwäche
-               <lb facs="#facs_2_region_1684667389507_180_tl_4" n="N005"/>und Unbeholfenheit des Componisten in dem recitativi¬
-               <lb facs="#facs_2_region_1684667389507_180_tl_5" n="N006"/>schen und dialogischen Theile, in Allem, was man —
+               <lb facs="#facs_2_line_1760418808945_338" n="N041"/>„<rs type="bibl" ref="#hsl_work_id_204">Ernani</rs>“, aus dieser Ungeschicklichkeit des dramatischen Auf</p>
+            <cb n="5"/>
+            <p prev="true">
+               <lb facs="#facs_2_line_1760418874048_361" n="N001" break="no"/>baues und der Orchestration nimmermehr den Autor der
+               <lb facs="#facs_2_region_1684667389507_180_tl_1" n="N002"/>„<rs type="bibl" ref="#hsl_work_id_982">Aïda</rs>“ erkennen. Im ersten Acte offenbart schon die vor
+               <lb facs="#facs_2_region_1684667389507_180_tl_2" n="N003" break="no"/>bereitende Scene zwischen den <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Soldaten und den
+               <lb facs="#facs_2_region_1684667389507_180_tl_3" n="N004"/>Sicilianern, dann das Auftreten der <rs type="person" ref="#hsl_person_id_7828">Herzogin</rs> die Schwäche
+               <lb facs="#facs_2_region_1684667389507_180_tl_4" n="N005"/>und Unbeholfenheit des Componisten in dem recitativi
+               <lb facs="#facs_2_region_1684667389507_180_tl_5" n="N006" break="no"/>schen und dialogischen Theile, in Allem, was man —
                <lb facs="#facs_2_region_1684667389507_180_tl_6" n="N007"/>im Gegensatze zu den geschlossenen lyrischen Formen der Arie,
                <lb facs="#facs_2_region_1684667389507_180_tl_7" n="N008"/>des Duettes etc. — „scenisch“ nennen kann. Gleich darauf
                <lb facs="#facs_2_region_1684667389507_180_tl_8" n="N009"/>bietet uns das lang ausgesponnene Vocal-Quartett in Cis
                <lb facs="#facs_2_region_1684667389507_180_tl_9" n="N010"/>in seiner unschönen Stimmführung und seinen gezwungenen
-               <lb facs="#facs_2_region_1684667389507_180_tl_10" n="N011"/>Accenten ein Beispiel von <rs type="person">Verdi</rs>'s Nachbildung ähnlicher
-               <lb facs="#facs_2_region_1684667389507_180_tl_11" n="N012"/>Sätze bei <rs type="person">Halévy</rs>, <rs type="person">Auber</rs> und <rs type="person">Meyerbeer</rs>. In solcher Um¬
-               <lb facs="#facs_2_region_1684667389507_180_tl_12" n="N013"/>gebung wirkt ein an den alten <rs type="person">Verdi</rs> erinnerndes Effectstück,
-               <lb facs="#facs_2_region_1684667389507_180_tl_13" n="N014"/>wie das C-dur-Allegro <rs type="person">Helena</rs>'s, recht erfrischend; mit der
-               <lb facs="#facs_2_region_1684667389507_180_tl_14" n="N015"/>grandiosen Stimme und dem Feuer der <hi rendition="#em">
-                  <rs type="person">Cruvelli</rs>
-               </hi> vorge¬
-               <lb facs="#facs_2_line_1760418761633_318" n="N016"/>tragen (für welche die Rolle geschrieben ist), bildet es jeden¬
-               <lb facs="#facs_2_region_1684667389507_180_tl_16" n="N017"/>falls den glänzendsten Moment des ersten Actes. Glücklicher
-               <lb facs="#facs_2_region_1684667389507_180_tl_17" n="N018"/>ist <rs type="person">Verdi</rs> im zweiten Acte, in zwei Nummern namentlich, die
+               <lb facs="#facs_2_region_1684667389507_180_tl_10" n="N011"/>Accenten ein Beispiel von <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s Nachbildung ähnlicher
+               <lb facs="#facs_2_region_1684667389507_180_tl_11" n="N012"/>Sätze bei <rs type="person" ref="#hsl_person_id_106">Halévy</rs>, <rs type="person" ref="#hsl_person_id_16">Auber</rs> und <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>. In solcher Um
+               <lb facs="#facs_2_region_1684667389507_180_tl_12" n="N013" break="no"/>gebung wirkt ein an den alten <rs type="person" ref="#hsl_person_id_312">Verdi</rs> erinnerndes Effectstück,
+               <lb facs="#facs_2_region_1684667389507_180_tl_13" n="N014"/>wie das C-dur-Allegro <rs type="person" ref="#hsl_person_id_7828">Helena</rs>’s, recht erfrischend; mit der
+               <lb facs="#facs_2_region_1684667389507_180_tl_14" n="N015"/>grandiosen Stimme und dem Feuer der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7478">Cruvelli</rs></hi> vorge
+               <lb facs="#facs_2_line_1760418761633_318" n="N016" break="no"/>tragen (für welche die Rolle geschrieben ist), bildet es jeden
+               <lb facs="#facs_2_region_1684667389507_180_tl_16" n="N017" break="no"/>falls den glänzendsten Moment des ersten Actes. Glücklicher
+               <lb facs="#facs_2_region_1684667389507_180_tl_17" n="N018"/>ist <rs type="person" ref="#hsl_person_id_312">Verdi</rs> im zweiten Acte, in zwei Nummern namentlich, die
                <lb facs="#facs_2_region_1684667389507_180_tl_18" n="N019"/>ihm echt national zu sein erlaubten: der Tarantella und
                <lb facs="#facs_2_region_1684667389507_180_tl_19" n="N020"/>der Barcarole. Es ist dies überhaupt diejenige Scene, die
-               <lb facs="#facs_2_line_1760418785305_327" n="N021"/>uns von der ganzen Oper die angenehmste Erinnerung zurück¬
-               <lb facs="#facs_2_region_1684667389507_180_tl_21" n="N022"/>läßt. In einer freien Landschaft mit dem Ausblick auf das Meer
+               <lb facs="#facs_2_line_1760418785305_327" n="N021"/>uns von der ganzen Oper die angenehmste Erinnerung zurück
+               <lb facs="#facs_2_region_1684667389507_180_tl_21" n="N022" break="no"/>läßt. In einer freien Landschaft mit dem Ausblick auf das Meer
                <lb facs="#facs_2_region_1684667389507_180_tl_22" n="N023"/>versammelt sich fröhliches Landvolk und tanzt die Tarantella,
                <lb facs="#facs_2_region_1684667389507_180_tl_23" n="N024"/>während die Verschworenen lauernd beiseite stehen. Die Klänge
                <lb facs="#facs_2_region_1684667389507_180_tl_24" n="N025"/>einer mehrstimmig gesungenen Barcarole kommen immer näher.
-               <lb facs="#facs_2_region_1684667389507_180_tl_25" n="N026"/>Man sieht eine reichverzierte, offene Gondel, worin <rs type="place">französisch</rs>e
+               <lb facs="#facs_2_region_1684667389507_180_tl_25" n="N026"/>Man sieht eine reichverzierte, offene Gondel, worin <rs type="place" ref="#hsl_place_id_21">französisch</rs>e
                <lb facs="#facs_2_region_1684667389507_180_tl_26" n="N027"/>Ritter und Damen unter Gesang und Scherz vorüberfahren.
                <lb facs="#facs_2_region_1684667389507_180_tl_27" n="N028"/>Hier (wie früher bei der Tarantella) stimmen Landschaft,
                <lb facs="#facs_2_region_1684667389507_180_tl_28" n="N029"/>Musik und Figuren zu einem reizenden Bilde zusammen, das
                <lb facs="#facs_2_region_1684667389507_180_tl_29" n="N030"/>sich von dem blutigen Ernste des Ganzen freundlich abhebt. Mit
                <lb facs="#facs_2_region_1684667389507_180_tl_30" n="N031"/>den letzten Strophen der Barcarole vereinigt sich leider einer
-               <lb facs="#facs_2_region_1684667389507_180_tl_31" n="N032"/>jener entsetzlichen <rs type="person">Verdi</rs>'schen Pianissimo-Chöre, deren
+               <lb facs="#facs_2_region_1684667389507_180_tl_31" n="N032"/>jener entsetzlichen <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’schen Pianissimo-Chöre, deren
                <lb facs="#facs_2_region_1684667389507_180_tl_32" n="N033"/>kurz abgebrochenes Luftschnappen wie fernes Hundegebell klingt
                <lb facs="#facs_2_region_1684667389507_180_tl_33" n="N034"/>oder auch wie das Prasseln und Zischen feuchter Raketen.
-               <lb facs="#facs_2_line_1760418731689_307" n="N035"/>Der dritte Art nimmt verschiedene „großartige“ Anläufe, er¬
-               <lb facs="#facs_2_region_1684667389507_180_tl_34" n="N036"/>reicht aber damit beiweitem weniger Wirkung, als mit den
-               <lb facs="#facs_2_region_1684667389507_180_tl_35" n="N037"/>getanzten „Vier Jahreszeiten“. Diese verherrlichen als pan¬
-               <lb facs="#facs_2_region_1684667389507_180_tl_36" n="N038"/>tomimisches Ballet das im Palast des Gouverneurs <rs type="person">Mont¬</rs>
-               <lb facs="#facs_2_region_1684667389507_180_tl_37" n="N039"/>
-               <rs type="person">fort</rs> stattfindende Fest. Die Musik ist bis auf wenige ton¬
-               <lb facs="#facs_2_region_1684667389507_180_tl_38" n="N040"/>malerische Stellen unbedeutend, häufig sogar roh; von der
-               <lb facs="#facs_2_line_1760418856097_350" n="N041"/>Grazie und dem Schwung <rs type="person">Auber</rs>'scher oder <rs type="person">Meyerbeer</rs>'scher
-            </p>
-            <cb n="7"/>
-            <p>
+               <lb facs="#facs_2_line_1760418731689_307" n="N035"/>Der dritte Art nimmt verschiedene „großartige“ Anläufe, er
+               <lb facs="#facs_2_region_1684667389507_180_tl_34" n="N036" break="no"/>reicht aber damit beiweitem weniger Wirkung, als mit den
+               <lb facs="#facs_2_region_1684667389507_180_tl_35" n="N037"/>getanzten „Vier Jahreszeiten“. Diese verherrlichen als pan
+               <lb facs="#facs_2_region_1684667389507_180_tl_36" n="N038" break="no"/>tomimisches Ballet das im Palast des Gouverneurs <rs type="person" ref="#hsl_person_id_7830">Mont
+               <lb facs="#facs_2_region_1684667389507_180_tl_37" n="N039" break="no"/>fort</rs> stattfindende Fest. Die Musik ist bis auf wenige ton
+               <lb facs="#facs_2_region_1684667389507_180_tl_38" n="N040" break="no"/>malerische Stellen unbedeutend, häufig sogar roh; von der
+               <lb facs="#facs_2_line_1760418856097_350" n="N041"/>Grazie und dem Schwung <rs type="person" ref="#hsl_person_id_16">Auber</rs>’scher oder <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’scher<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
                <lb facs="#facs_2_line_1760418874048_360" n="N001"/>Balletmusik hat sie keinen Hauch. Das Ballet selbst jedoch,
-               <lb facs="#facs_2_region_1684667393001_183_tl_2" n="N002"/>von Herrn <hi rendition="#em">
-                  <rs type="person">Telle</rs>
-               </hi> geschmackvoll arrangirt und von den besten
+               <lb facs="#facs_2_region_1684667393001_183_tl_2" n="N002"/>von Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6339">Telle</rs></hi> geschmackvoll arrangirt und von den besten
                <lb facs="#facs_2_region_1684667393001_183_tl_3" n="N003"/>Kräften unseres Balletpersonals virtuos ausgeführt, gehört
                <lb facs="#facs_2_region_1684667393001_183_tl_4" n="N004"/>zu den hübschesten und überraschendsten Tanz-Intermezzi,
                <lb facs="#facs_2_region_1684667393001_183_tl_5" n="N005"/>die wir im Hofoperntheater gesehen. In der von Fräulein
-               <lb facs="#facs_2_region_1684667393001_183_tl_6" n="N006"/>
-               <hi rendition="#em">
-                  <rs type="person">Linda</rs>
-               </hi> so beifällig durchgeführten Rolle des Frühlings hat
+               <lb facs="#facs_2_region_1684667393001_183_tl_6" n="N006"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_7063">Linda</rs></hi> so beifällig durchgeführten Rolle des Frühlings hat
                <lb facs="#facs_2_region_1684667393001_183_tl_7" n="N007"/>eine der graziösesten und vollkommensten Tänzerinnen, welche
-               <lb facs="#facs_2_region_1684667393001_183_tl_8" n="N008"/>
-               <rs type="place">Wien</rs> je besessen, bei der Première der „<rs type="bibl">Sicilianischen</rs>
-               <lb facs="#facs_2_region_1684667393001_183_tl_9" n="N009"/>
-               <rs type="bibl">Vesper</rs>“ in <rs type="place">Paris</rs> (<date month="0" day="0" year="0">1855</date>) ihren ersten großen Erfolg ge¬
-               <lb facs="#facs_2_region_1684667393001_183_tl_10" n="N010"/>feiert: <hi rendition="#em">Claudine <rs type="person">Couqui</rs>
-               </hi>
-               <rs type="person"/>. Der vierte Act findet uns
+               <lb facs="#facs_2_region_1684667393001_183_tl_8" n="N008"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> je besessen, bei der Première der „<rs type="bibl" ref="#hsl_work_id_3212">Sicilianischen
+               <lb facs="#facs_2_region_1684667393001_183_tl_9" n="N009"/>Vesper</rs>“ in <rs type="place" ref="#hsl_place_id_44">Paris</rs> (<date>1855</date>) ihren ersten großen Erfolg ge
+               <lb facs="#facs_2_region_1684667393001_183_tl_10" n="N010" break="no"/>feiert: <hi rendition="#em">Claudine <rs type="person" ref="#hsl_person_id_52">Couqui</rs></hi>. Der vierte Act findet uns
                <lb facs="#facs_2_region_1684667393001_183_tl_11" n="N011"/>bereits recht abgespannt; Melodien wie die des Liebesduettes
                <lb facs="#facs_2_region_1684667393001_183_tl_12" n="N012"/>im Kerker mögen vor zwanzig Jahren noch Wirkung gemacht
                <lb facs="#facs_2_region_1684667393001_183_tl_13" n="N013"/>haben, heute klingen sie verbraucht. Reineren musikalischen
                <lb facs="#facs_2_region_1684667393001_183_tl_14" n="N014"/>Eindruck hinterläßt der langsame Quartettsatz in F, worin
-               <lb facs="#facs_2_region_1684667393001_183_tl_15" n="N015"/>
-               <rs type="person">Helene</rs> Abschied vom Leben nimmt. Auch hier erschallt hinter
-               <lb facs="#facs_2_line_1760418761633_317" n="N016"/>der Scene ein Trauerchor „De profundis“ als matte Nach¬
-               <lb facs="#facs_2_region_1684667393001_183_tl_16" n="N017"/>ahmung des effectvollen Miserere im „<rs type="bibl">Trovatore</rs>“. Den
-               <lb facs="#facs_2_region_1684667393001_183_tl_17" n="N018"/>fünften Act eröffnet der durch die <rs type="person">Cruvelli</rs> berühmte und
+               <lb facs="#facs_2_region_1684667393001_183_tl_15" n="N015"/><rs type="person" ref="#hsl_person_id_7828">Helene</rs> Abschied vom Leben nimmt. Auch hier erschallt hinter
+               <lb facs="#facs_2_line_1760418761633_317" n="N016"/>der Scene ein Trauerchor „De profundis“ als matte Nach
+               <lb facs="#facs_2_region_1684667393001_183_tl_16" n="N017" break="no"/>ahmung des effectvollen Miserere im „<rs type="bibl" ref="#hsl_work_id_171">Trovatore</rs>“. Den
+               <lb facs="#facs_2_region_1684667393001_183_tl_17" n="N018"/>fünften Act eröffnet der durch die <rs type="person" ref="#hsl_person_id_7478">Cruvelli</rs> berühmte und
                <lb facs="#facs_2_region_1684667393001_183_tl_18" n="N019"/>manchmal noch als Concertnummer auftauchende Bolero,
                <lb facs="#facs_2_region_1684667393001_183_tl_19" n="N020"/>ein glänzendes Bravourstück, das leider etwas spät an die
-               <lb facs="#facs_2_line_1760418785305_326" n="N021"/>Reihe kommt und die immer bedenklicher anwachsende Flau¬
-               <lb facs="#facs_2_region_1684667393001_183_tl_20" n="N022"/>heit des Publicums nicht mehr zu besiegen vermag.
-               <lb facs="#facs_2_region_1684667393001_183_tl_21" n="N023"/>Fragt man, was wol die Direction des Hofopernthea¬
-               <lb facs="#facs_2_region_1684667393001_183_tl_22" n="N024"/>ters bestimmen mochte, die „<rs type="bibl">Sicilianische Vesper</rs>“ aus zwan¬
-               <lb facs="#facs_2_region_1684667393001_183_tl_23" n="N025"/>zigjährigem Schlummer wieder zu erwecken, so fehlt uns jede
-               <lb facs="#facs_2_region_1684667393001_183_tl_24" n="N026"/>genügende Antwort. Die „<rs type="bibl">Sicilianische Vesper</rs>“ hat ehedem
-               <lb facs="#facs_2_region_1684667393001_183_tl_25" n="N027"/>als Novität in <rs type="place">Wien</rs> keinen Erfolg errungen, das übrige
-               <lb facs="#facs_2_region_1684667393001_183_tl_26" n="N028"/>
-               <rs type="place">Deutschland</rs> nahm nicht einmal Notiz davon. Weder in
-               <lb facs="#facs_2_region_1684667393001_183_tl_27" n="N029"/>
-               <rs type="place">Frankreich</rs> noch in <rs type="place">Italien</rs> (wo sie, zur „<rs type="bibl">Giovanna di Guz¬</rs>
-               <lb facs="#facs_2_region_1684667393001_183_tl_28" n="N030"/>
-               <rs type="bibl">man</rs>“ umgetauft, zwischen Spaniern und Portugiesen spielt)
-               <lb facs="#facs_2_region_1684667393001_183_tl_29" n="N031"/>vermochte die „<rs type="bibl">Sicilianische Vesper</rs>“ sich auf dem Repertoire
+               <lb facs="#facs_2_line_1760418785305_326" n="N021"/>Reihe kommt und die immer bedenklicher anwachsende Flau
+               <lb facs="#facs_2_region_1684667393001_183_tl_20" n="N022" break="no"/>heit des Publicums nicht mehr zu besiegen vermag.
+            </p><p>
+               <lb facs="#facs_2_region_1684667393001_183_tl_21" n="N023"/>Fragt man, was wol die Direction des Hofopernthea
+               <lb facs="#facs_2_region_1684667393001_183_tl_22" n="N024" break="no"/>ters bestimmen mochte, die „<rs type="bibl" ref="#hsl_work_id_3212">Sicilianische Vesper</rs>“ aus zwan
+               <lb facs="#facs_2_region_1684667393001_183_tl_23" n="N025" break="no"/>zigjährigem Schlummer wieder zu erwecken, so fehlt uns jede
+               <lb facs="#facs_2_region_1684667393001_183_tl_24" n="N026"/>genügende Antwort. Die „<rs type="bibl" ref="#hsl_work_id_3212">Sicilianische Vesper</rs>“ hat ehedem
+               <lb facs="#facs_2_region_1684667393001_183_tl_25" n="N027"/>als Novität in <rs type="place" ref="#hsl_place_id_55">Wien</rs> keinen Erfolg errungen, das übrige
+               <lb facs="#facs_2_region_1684667393001_183_tl_26" n="N028"/><rs type="place" ref="#hsl_place_id_14">Deutschland</rs> nahm nicht einmal Notiz davon. Weder in
+               <lb facs="#facs_2_region_1684667393001_183_tl_27" n="N029"/><rs type="place" ref="#hsl_place_id_21">Frankreich</rs> noch in <rs type="place" ref="#hsl_place_id_28">Italien</rs> (wo sie, zur „<rs type="bibl" ref="#hsl_work_id_3212">Giovanna di Guz
+               <lb facs="#facs_2_region_1684667393001_183_tl_28" n="N030" break="no"/>man</rs>“ umgetauft, zwischen Spaniern und Portugiesen spielt)
+               <lb facs="#facs_2_region_1684667393001_183_tl_29" n="N031"/>vermochte die „<rs type="bibl" ref="#hsl_work_id_3212">Sicilianische Vesper</rs>“ sich auf dem Repertoire
                <lb facs="#facs_2_region_1684667393001_183_tl_30" n="N032"/>zu erhalten. Daß eine Musik wie diese mit dem Reize der
                <lb facs="#facs_2_region_1684667393001_183_tl_31" n="N033"/>Neuheit den größeren Theil ihrer ohnehin geringen Wirkung
                <lb facs="#facs_2_region_1684667393001_183_tl_32" n="N034"/>einbüßt, somit heute noch weniger ansprechen kann, als vor
                <lb facs="#facs_2_region_1684667393001_183_tl_33" n="N035"/>zwanzig Jahren, liegt gleichfalls auf der Hand. Da alle
-               <lb facs="#facs_2_region_1684667393001_183_tl_34" n="N036"/>gegenwärtig Mitwirkenden ihre Partien zum erstenmale san¬
-               <lb facs="#facs_2_region_1684667393001_183_tl_35" n="N037"/>gen, so kostete das Wiedereinstudiren dieser alten Oper ebenso
+               <lb facs="#facs_2_region_1684667393001_183_tl_34" n="N036"/>gegenwärtig Mitwirkenden ihre Partien zum erstenmale san
+               <lb facs="#facs_2_region_1684667393001_183_tl_35" n="N037" break="no"/>gen, so kostete das Wiedereinstudiren dieser alten Oper ebenso
                <lb facs="#facs_2_region_1684667393001_183_tl_36" n="N038"/>viel Zeit und Anstrengung, als die Aufführung einer neuen. Warum
-               <lb facs="#facs_2_region_1684667393001_183_tl_37" n="N039"/>wählte die Direction, wenn es ihr gerade um <hi rendition="#em">
-                  <rs type="person">Verdi</rs>
-               </hi> zu thun war,
-               <lb facs="#facs_2_region_1684667393001_183_tl_38" n="N040"/>nicht dessen „<rs type="bibl">Don Carlos</rs>“, den Vorläufer der „<rs type="bibl">Aïda</rs>“?
-               <lb facs="#facs_2_line_1760418856096_349" n="N041"/>Damit hätte sie dem Publicum wenigstens eine interessante
-            </p>
+               <lb facs="#facs_2_region_1684667393001_183_tl_37" n="N039"/>wählte die Direction, wenn es ihr gerade um <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs></hi> zu thun war,
+               <lb facs="#facs_2_region_1684667393001_183_tl_38" n="N040"/>nicht dessen „<rs type="bibl" ref="#hsl_work_id_208">Don Carlos</rs>“, den Vorläufer der „<rs type="bibl" ref="#hsl_work_id_982">Aïda</rs>“?
+               <lb facs="#facs_2_line_1760418856096_349" n="N041"/>Damit hätte sie dem Publicum wenigstens eine interessante<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
+            <cb n="7"/>
+            <p prev="true">
                <lb facs="#facs_3_region_1684667404414_189_tl_1" n="N001"/>vielbesprochene Novität gebracht, welche zwar, unter dem
-               <lb facs="#facs_3_region_1684667404414_189_tl_2" n="N002"/>Zwange <rs type="place">französisch</rs>er Stilrichtung, gleichfalls viel Geschraub¬
-               <lb facs="#facs_3_region_1684667404414_189_tl_3" n="N003"/>tes, Lärmendes, Schwerfälliges enthält, daneben jedoch wieder
-               <lb facs="#facs_3_region_1684667404414_189_tl_4" n="N004"/>Scenen von außerordentlichem Talent und von einer Bühnen¬
-               <lb facs="#facs_3_region_1684667404414_189_tl_5" n="N005"/>wirkung, gegen welche die ganze „<rs type="bibl">Sicilianische Vesper</rs>“ ver¬
-               <lb facs="#facs_3_region_1684667404414_189_tl_6" n="N006"/>schwindet. Ein unentbehrliches Requisit für die Aufführung
-               <lb facs="#facs_3_region_1684667404414_189_tl_7" n="N007"/>des „<rs type="bibl">Don Carlos</rs>“ ist freilich der Rothstift; daß man aber
+               <lb facs="#facs_3_region_1684667404414_189_tl_2" n="N002"/>Zwange <rs type="place" ref="#hsl_place_id_21">französisch</rs>er Stilrichtung, gleichfalls viel Geschraub
+               <lb facs="#facs_3_region_1684667404414_189_tl_3" n="N003" break="no"/>tes, Lärmendes, Schwerfälliges enthält, daneben jedoch wieder
+               <lb facs="#facs_3_region_1684667404414_189_tl_4" n="N004"/>Scenen von außerordentlichem Talent und von einer Bühnen
+               <lb facs="#facs_3_region_1684667404414_189_tl_5" n="N005" break="no"/>wirkung, gegen welche die ganze „<rs type="bibl" ref="#hsl_work_id_3212">Sicilianische Vesper</rs>“ ver
+               <lb facs="#facs_3_region_1684667404414_189_tl_6" n="N006" break="no"/>schwindet. Ein unentbehrliches Requisit für die Aufführung
+               <lb facs="#facs_3_region_1684667404414_189_tl_7" n="N007"/>des „<rs type="bibl" ref="#hsl_work_id_208">Don Carlos</rs>“ ist freilich der Rothstift; daß man aber
                <lb facs="#facs_3_region_1684667404414_189_tl_8" n="N008"/>hier nicht schüchtern sei mit dessen Anwendung, haben die
-               <lb facs="#facs_3_region_1684667404414_189_tl_9" n="N009"/>großartigen Striche in der „<rs type="bibl">Sicilianischen Vesper</rs>“ zu all¬
-               <lb facs="#facs_3_region_1684667404414_189_tl_10" n="N010"/>gemeiner Beruhigung dargethan. Außer „<rs type="bibl">Don Carlos</rs>“ wäre
-               <lb facs="#facs_3_region_1684667404414_189_tl_11" n="N011"/>noch „<rs type="bibl">La forza del destino</rs>“ vorhanden und der „<rs type="bibl">Siciliani¬</rs>
-               <lb facs="#facs_3_region_1684667404414_189_tl_12" n="N012"/>
-               <rs type="bibl">schen Vesper</rs>“ vorzuziehen gewesen; das <rs type="place">Wien</rs>er Publicum
+               <lb facs="#facs_3_region_1684667404414_189_tl_9" n="N009"/>großartigen Striche in der „<rs type="bibl" ref="#hsl_work_id_3212">Sicilianischen Vesper</rs>“ zu all
+               <lb facs="#facs_3_region_1684667404414_189_tl_10" n="N010" break="no"/>gemeiner Beruhigung dargethan. Außer „<rs type="bibl" ref="#hsl_work_id_208">Don Carlos</rs>“ wäre
+               <lb facs="#facs_3_region_1684667404414_189_tl_11" n="N011"/>noch „<rs type="bibl" ref="#hsl_work_id_385">La forza del destino</rs>“ vorhanden und der „<rs type="bibl" ref="#hsl_work_id_3212">Siciliani
+               <lb facs="#facs_3_region_1684667404414_189_tl_12" n="N012" break="no"/>schen Vesper</rs>“ vorzuziehen gewesen; das <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicum
                <lb facs="#facs_3_region_1684667404414_189_tl_13" n="N013"/>kennt diese, an melodiösen und dramatischen Lichtblitzen reiche
-               <lb facs="#facs_3_region_1684667404414_189_tl_14" n="N014"/>Oper nur aus zwei bis drei sehr mangelhaften <rs type="place">italienisch</rs>en
-               <lb facs="#facs_3_region_1684667404414_189_tl_15" n="N015"/>Vorstellungen von <date month="0" day="0" year="0">1865</date>. Obendrein hat <rs type="person">Verdi</rs> vor einigen
+               <lb facs="#facs_3_region_1684667404414_189_tl_14" n="N014"/>Oper nur aus zwei bis drei sehr mangelhaften <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en
+               <lb facs="#facs_3_region_1684667404414_189_tl_15" n="N015"/>Vorstellungen von <date>1865</date>. Obendrein hat <rs type="person" ref="#hsl_person_id_312">Verdi</rs> vor einigen
                <lb facs="#facs_3_region_1684667404414_189_tl_16" n="N016"/>Jahren diese Partitur durch mannichfache Veränderungen,
                <lb facs="#facs_3_region_1684667404414_189_tl_17" n="N017"/>Zusätze und Striche verbessert, auch den gräßlichen Ausgang
-               <lb facs="#facs_3_region_1684667404414_189_tl_18" n="N018"/>der Handlung gemildert. So viel bezüglich <rs type="person">Verdi</rs>'s. Außer
-               <lb facs="#facs_3_region_1684667404414_189_tl_19" n="N019"/>
-               <rs type="person">Verdi</rs> leben aber auch noch andere Operncomponisten, ins¬
-               <lb facs="#facs_3_region_1684667404414_189_tl_20" n="N020"/>besondere solche, die schon todt sind. Ihre Werke werden im
-               <lb facs="#facs_3_region_1684667404414_189_tl_21" n="N021"/>Hofoperntheater auffallend vernachlässigt. Opern wie <rs type="person">Spohr</rs>'s
-               <lb facs="#facs_3_region_1684667404414_189_tl_22" n="N022"/>„<rs type="bibl">Jessonda</rs>“, <rs type="person">Lortzing</rs>'s „<rs type="bibl">Czar und Zimmermann</rs>“ (seit
-               <lb facs="#facs_3_region_1684667404414_189_tl_23" n="N023"/>
-               <hi rendition="#em">
-                  <rs type="person">Hölzel</rs>'s</hi> Pensionirung, also seit siebzehn Jahren, vom Re¬
-               <lb facs="#facs_3_region_1684667404414_189_tl_24" n="N024"/>pertoire verschwunden), ließen sich fast vollständig mit Sän¬
-               <lb facs="#facs_3_region_1684667404414_189_tl_25" n="N025"/>gern besetzen, welche in diesen Opern theils hier, theils aus¬
-               <lb facs="#facs_3_region_1684667404414_189_tl_26" n="N026"/>wärts bereits mitwirkten und mit zwei Proben bereit wären.
+               <lb facs="#facs_3_region_1684667404414_189_tl_18" n="N018"/>der Handlung gemildert. So viel bezüglich <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s. Außer
+               <lb facs="#facs_3_region_1684667404414_189_tl_19" n="N019"/><rs type="person" ref="#hsl_person_id_312">Verdi</rs> leben aber auch noch andere Operncomponisten, ins
+               <lb facs="#facs_3_region_1684667404414_189_tl_20" n="N020" break="no"/>besondere solche, die schon todt sind. Ihre Werke werden im
+               <lb facs="#facs_3_region_1684667404414_189_tl_21" n="N021"/>Hofoperntheater auffallend vernachlässigt. Opern wie <rs type="person" ref="#hsl_person_id_293">Spohr</rs>’s
+               <lb facs="#facs_3_region_1684667404414_189_tl_22" n="N022"/>„<rs type="bibl" ref="#hsl_work_id_162">Jessonda</rs>“, <rs type="person" ref="#hsl_person_id_165">Lortzing</rs>’s „<rs type="bibl" ref="#hsl_work_id_453">Czar und Zimmermann</rs>“ (seit
+               <lb facs="#facs_3_region_1684667404414_189_tl_23" n="N023"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_129">Hölzel</rs>’s</hi> Pensionirung, also seit siebzehn Jahren, vom Re
+               <lb facs="#facs_3_region_1684667404414_189_tl_24" n="N024" break="no"/>pertoire verschwunden), ließen sich fast vollständig mit Sän
+               <lb facs="#facs_3_region_1684667404414_189_tl_25" n="N025" break="no"/>gern besetzen, welche in diesen Opern theils hier, theils aus
+               <lb facs="#facs_3_region_1684667404414_189_tl_26" n="N026" break="no"/>wärts bereits mitwirkten und mit zwei Proben bereit wären.
                <lb facs="#facs_3_region_1684667404414_189_tl_27" n="N027"/>Die Wiederaufführung dieser oder ähnlicher älterer Opern
-               <lb facs="#facs_3_region_1684667404414_189_tl_28" n="N028"/>würde nur einen kleinen Bruchtheil der auf die „<rs type="bibl">Sicilianische</rs>
-               <lb facs="#facs_3_region_1684667404414_189_tl_29" n="N029"/>
-               <rs type="bibl">Vesper</rs>“ aufgewendeten Zeit und Mühe gekostet und unserem
+               <lb facs="#facs_3_region_1684667404414_189_tl_28" n="N028"/>würde nur einen kleinen Bruchtheil der auf die „<rs type="bibl" ref="#hsl_work_id_3212">Sicilianische
+               <lb facs="#facs_3_region_1684667404414_189_tl_29" n="N029"/>Vesper</rs>“ aufgewendeten Zeit und Mühe gekostet und unserem
                <lb facs="#facs_3_region_1684667404414_189_tl_30" n="N030"/>Publicum gewiß einen größeren, edleren und dauerhafteren
                <lb facs="#facs_3_region_1684667404414_189_tl_31" n="N031"/>Genuß bereitet haben. Wir verkennen nicht, daß unter der
-               <lb facs="#facs_3_region_1684667404414_189_tl_32" n="N032"/>gegenwärtigen Opern-Direction viel gearbeitet wird, aber Ar¬
-               <lb facs="#facs_3_region_1684667404414_189_tl_33" n="N033"/>beiten wie diese Ausgrabung der „<rs type="bibl">Sicilianischen Vesper</rs>“ ge¬
-               <lb facs="#facs_3_region_1684667404414_189_tl_34" n="N034"/>hören zu den verlorenen.
-               <lb facs="#facs_3_region_1684667404414_189_tl_35" n="N035"/>Die Aufführung der „Sicilianischen Vesper“ war vor¬
-               <lb facs="#facs_3_region_1684667404414_189_tl_36" n="N036"/>züglich. Was die Darsteller der Hauptrollen, Fräulein <hi rendition="#em">
-                  <rs type="person" continued="true">d'An¬</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684667404414_189_tl_37" n="N037"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">geri</rs>
-               </hi> (Helene), Herr <hi rendition="#em">
-                  <rs type="person">Müller</rs>
-               </hi> (Heinrich), Herr v. <hi rendition="#em">
-                  <rs type="person">Bignio</rs>
-               </hi>
-               <lb facs="#facs_3_region_1684667404414_189_tl_38" n="N038"/>(Montfort) und Herr <hi rendition="#em">
-                  <rs type="person">Rokitansky</rs>
-               </hi> (Procida) diesmal an
-               <lb facs="#facs_3_region_1684667404414_189_tl_39" n="N039"/>Stimme und Gesangskunst aufwendeten, fordert das voll¬
-               <lb facs="#facs_3_region_1684667404414_189_tl_40" n="N040"/>gemessenste Lob heraus, nur leider auch das Bedauern, daß
-               <lb facs="#facs_3_region_1684667404414_189_tl_41" n="N041"/>dieser schöne Aufwand nicht einem besseren Werke zu stat¬
-               <lb facs="#facs_3_region_1684667404414_189_tl_42" n="N042"/>ten kam.
+               <lb facs="#facs_3_region_1684667404414_189_tl_32" n="N032"/>gegenwärtigen Opern-Direction viel gearbeitet wird, aber Ar
+               <lb facs="#facs_3_region_1684667404414_189_tl_33" n="N033" break="no"/>beiten wie diese Ausgrabung der „<rs type="bibl" ref="#hsl_work_id_3212">Sicilianischen Vesper</rs>“ ge
+               <lb facs="#facs_3_region_1684667404414_189_tl_34" n="N034" break="no"/>hören zu den verlorenen.
+            </p><p>
+               <lb facs="#facs_3_region_1684667404414_189_tl_35" n="N035"/>Die Aufführung der „Sicilianischen Vesper“ war vor
+               <lb facs="#facs_3_region_1684667404414_189_tl_36" n="N036" break="no"/>züglich. Was die Darsteller der Hauptrollen, Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5895">d’An
+               <lb facs="#facs_3_region_1684667404414_189_tl_37" n="N037" break="no"/>geri</rs></hi> (<rs type="person" ref="#hsl_person_id_7828">Helene</rs>), Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1348">Müller</rs></hi> (<rs type="person" ref="#hsl_person_id_7829">Heinrich</rs>), Herr v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_33">Bignio</rs></hi><space quantity="1" unit="char"/>
+               <lb facs="#facs_3_region_1684667404414_189_tl_38" n="N038"/>(<rs type="person" ref="#hsl_person_id_7830">Montfort</rs>) und Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_240">Rokitansky</rs></hi> (<rs type="person" ref="#hsl_person_id_7831">Procida</rs>) diesmal an
+               <lb facs="#facs_3_region_1684667404414_189_tl_39" n="N039"/>Stimme und Gesangskunst aufwendeten, fordert das voll
+               <lb facs="#facs_3_region_1684667404414_189_tl_40" n="N040" break="no"/>gemessenste Lob heraus, nur leider auch das Bedauern, daß
+               <lb facs="#facs_3_region_1684667404414_189_tl_41" n="N041"/>dieser schöne Aufwand nicht einem besseren Werke zu stat
+               <lb facs="#facs_3_region_1684667404414_189_tl_42" n="N042" break="no"/>ten kam.
             </p>
          </div>
       </body>
