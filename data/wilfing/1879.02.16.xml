@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 5199. Wien, Sonntag, den 16. Februar 1879</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,24 +70,19 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 5199. Wien, Sonntag, den 16. Februar 1879</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1879-02-16">16.02.1879</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,9 +102,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-01-24">Transkribus OCR und Lektorat.</change>
+         <change who=" fsanzlazaro" when="2026-01-30">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-02-06">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1009,389 +1005,302 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1767943152586_506_tl_1" n="N001"/><head type="h1">Hofoperntheater.</head>
+            <lb facs="#facs_1_region_1767943152586_506_tl_2" n="N002"/><head type="h2">(„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_1316">Götterdämmerung</rs></hi>.“ Von <hi rendition="#em">Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi>.)</head>
             <p>
-               <lb facs="#facs_1_line_1768111232485_24" n="N001"/>Nr. 5199. Wien, Sonntag, den 16. Februar 1879
-            </p>
+         <lb facs="#facs_1_region_1767943152586_506_tl_3" n="N003"/>Ed. H. Der vierte und mächtigste Gang der musikali
+         <lb facs="#facs_1_region_1767943152586_506_tl_4" n="N004" break="no"/>schen Riesenmalzeit von <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs> ist gestern im Hofopern
+         <lb facs="#facs_1_region_1767943152586_506_tl_5" n="N005" break="no"/>theater feierlich aufgetragen worden. Was wir in <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767943152586_506_tl_6" n="N006"/>innerhalb vier Tagen, sozusagen auf Einem Sitze, bewälti
+         <lb facs="#facs_1_region_1767943152586_506_tl_7" n="N007" break="no"/>gen mußten, hat sich für die Wiener gemüthlicher auf zwei
+         <lb facs="#facs_1_region_1767943152586_506_tl_8" n="N008"/>Jahre vertheilt. Die „<rs type="bibl" ref="#hsl_work_id_649">Walküre</rs>“ wurde (als erstes Stück)
+         <lb facs="#facs_1_region_1767943152586_506_tl_9" n="N009"/>im März <date>1877</date>, dann „<rs type="bibl" ref="#hsl_work_id_238">Rheingold</rs>“ im Januar <date>1878</date>,
+         <lb facs="#facs_1_region_1767943152586_506_tl_10" n="N010"/>„<rs type="bibl" ref="#hsl_work_id_1315">Siegfried</rs>“ im November <date>1878</date> und jetzt (14. Februar
+         <lb facs="#facs_1_region_1767943152586_506_tl_11" n="N011"/><date>1879</date>) die „<rs type="bibl" ref="#hsl_work_id_1316">Götterdämmerung</rs>“ aufgeführt — ein Resultat,
+         <lb facs="#facs_1_region_1767943152586_506_tl_12" n="N012"/>das, nur mit Aufgebot aller Kräfte erreichbar, selbst den
+         <lb facs="#facs_1_region_1767943152586_506_tl_13" n="N013"/>Gegnern unserer Opernleitung Respect abnöthigt. In Kur
+         <lb facs="#facs_1_region_1767943152586_506_tl_14" n="N014" break="no"/>zem sollen diese vier Einzelvorstellungen auch zu ununterbro
+         <lb facs="#facs_1_region_1767943152586_506_tl_15" n="N015" break="no"/>chenen Cyklen à la <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs> zusammengeschoben und damit
+         <lb facs="#facs_1_region_1767943152586_506_tl_16" n="N016"/>die letzten Forderungen jener mächtigen Musikpartei erfüllt
+         <lb facs="#facs_1_region_1767943152586_506_tl_17" n="N017"/>werden, welche Hanns <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6027">Hopfen</rs></hi> so hübsch „die elegante
+         <lb facs="#facs_1_region_1767943152586_506_tl_18" n="N018"/>Verschwörung“ nennt.
+            </p><p>
+         <lb facs="#facs_1_region_1767943152586_506_tl_19" n="N019"/>Die Handlung der „<rs type="bibl" ref="#hsl_work_id_1316">Götterdämmerung</rs>“ schließt unmit
+         <lb facs="#facs_1_region_1767943152586_506_tl_20" n="N020" break="no"/>telbar an das vorhergehende Drama „<rs type="bibl" ref="#hsl_work_id_1315">Siegfried</rs>“ an. Dort
+         <lb facs="#facs_1_region_1767943152586_506_tl_21" n="N021"/>haben wir <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> in brünstiger Liebeszwiesprach mit der
+         <lb facs="#facs_1_region_1767943152586_506_tl_22" n="N022"/>aus wabernder Lohe und zwanzigjährigem Schlafe erweckten
+         <lb facs="#facs_1_region_1767943152586_506_tl_23" n="N023"/><rs type="person" ref="#hsl_person_id_1683">Brunhild</rs> verlassen. Jetzt, im Vorspiel zur „<rs type="bibl" ref="#hsl_work_id_1316">Götterdämme
+         <lb facs="#facs_1_region_1767943152586_506_tl_24" n="N024" break="no"/>rung</rs>“, sehen wir die Beiden zärtlich Abschied nehmend aus
+         <lb facs="#facs_1_region_1767943152586_506_tl_25" n="N025"/>ihrer Felsengrotte hervortreten; <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs>, in voller Rüstung,
+         <lb facs="#facs_1_region_1767943152586_506_tl_26" n="N026"/>zieht „zu neuen Thaten“ aus und übergibt <rs type="person" ref="#hsl_person_id_1683">Brunhilde</rs>n
+         <lb facs="#facs_1_region_1767943152586_506_tl_27" n="N027"/>den Nibelungenring als Pfand seiner Treue. Es wird keine
+         <lb facs="#facs_1_region_1767943152586_506_tl_28" n="N028"/>halbe Stunde dauern und derselbe <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> ist in der Tarn
+         <lb facs="#facs_1_region_1767943152586_506_tl_29" n="N029" break="no"/>kappe wieder da und überwältigt ringend seine geliebte <rs type="person" ref="#hsl_person_id_1683">Brun
+         <lb facs="#facs_1_region_1767943152586_506_tl_30" n="N030" break="no"/>hild</rs><hi rendition="#em">für den König <rs type="person" ref="#hsl_person_id_1689">Gunther</rs></hi>, dessen Schwester
+         <lb facs="#facs_1_region_1767943152586_506_tl_31" n="N031"/><rs type="person" ref="#hsl_person_id_7172">Gutrune</rs> sein Herz entflammt hat! Doch folgen wir der
+         <lb facs="#facs_1_region_1767943152586_506_tl_32" n="N032"/>Handlung schrittweise. <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> kommt auf dem wohlbe
+         <lb facs="#facs_1_region_1767943152586_506_tl_33" n="N033" break="no"/>kannten Roß <rs type="person" ref="#hsl_person_id_1683">Brunhilde</rs>ns an den <rs type="place" ref="#hsl_place_id_245">Rhein</rs> geritten und be
+         <lb facs="#facs_1_region_1767943152586_506_tl_34" n="N034" break="no"/>tritt die Halle der Giebichungen. Hier hat <rs type="person" ref="#hsl_person_id_1688">Hagen</rs> gerade dem
+         <lb facs="#facs_1_region_1767943152586_506_tl_35" n="N035"/>König <rs type="person" ref="#hsl_person_id_1689">Gunther</rs> und seiner Schwester <rs type="person" ref="#hsl_person_id_7172">Gutrune</rs> von <rs type="person" ref="#hsl_person_id_1683">Brun
+         <lb facs="#facs_1_region_1767943152586_506_tl_36" n="N036" break="no"/>hild</rs>, dem „hehrsten Weibe der Welt“, erzählt. <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> soll
+         <lb facs="#facs_1_region_1767943152586_506_tl_37" n="N037"/>die Unüberwindliche für <rs type="person" ref="#hsl_person_id_1689">Gunther</rs> erwerben und zum Lohn<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1767943152586_506_tl_1" n="N001"/>Hofoperntheater.
-               <lb facs="#facs_1_region_1767943152586_506_tl_2" n="N002"/>(<hi rendition="#em">
-                  <rs type="bibl">„Götterdämmerung</rs>
-               </hi>.“ Von <hi rendition="#em">Richard <rs type="person">Wagner</rs>
-               </hi>.)
-               <lb facs="#facs_1_region_1767943152586_506_tl_3" n="N003"/>Ed. H. Der vierte und mächtigste Gang der musikali¬
-               <lb facs="#facs_1_region_1767943152586_506_tl_4" n="N004"/>schen Riesenmalzeit von <rs type="place">Bayreuth</rs> ist gestern im Hofopern¬
-               <lb facs="#facs_1_region_1767943152586_506_tl_5" n="N005"/>theater feierlich aufgetragen worden. Was wir in <rs type="place">Bayreuth</rs>
-               <lb facs="#facs_1_region_1767943152586_506_tl_6" n="N006"/>innerhalb vier Tagen, sozusagen auf Einem Sitze, bewälti¬
-               <lb facs="#facs_1_region_1767943152586_506_tl_7" n="N007"/>gen mußten, hat sich für die Wiener gemüthlicher auf zwei
-               <lb facs="#facs_1_region_1767943152586_506_tl_8" n="N008"/>Jahre vertheilt. Die „<rs type="bibl">Walküre</rs>“ wurde (als erstes Stück)
-               <lb facs="#facs_1_region_1767943152586_506_tl_9" n="N009"/>im März <date month="0" day="0" year="0">1877</date>, dann „<rs type="bibl">Rheingold</rs>“ im Januar <date month="0" day="0" year="0">1878</date>,
-               <lb facs="#facs_1_region_1767943152586_506_tl_10" n="N010"/>„<rs type="bibl">Siegfried</rs>“ im November <date month="0" day="0" year="0">1878</date> und jetzt (14. Februar
-               <lb facs="#facs_1_region_1767943152586_506_tl_11" n="N011"/>
-               <date month="0" day="0" year="0">1879</date>) die „<rs type="bibl">Götterdämmerung</rs>“ aufgeführt — ein Resultat,
-               <lb facs="#facs_1_region_1767943152586_506_tl_12" n="N012"/>das, nur mit Aufgebot aller Kräfte erreichbar, selbst den
-               <lb facs="#facs_1_region_1767943152586_506_tl_13" n="N013"/>Gegnern unserer Opernleitung Respect abnöthigt. In Kur¬
-               <lb facs="#facs_1_region_1767943152586_506_tl_14" n="N014"/>zem sollen diese vier Einzelvorstellungen auch zu ununterbro¬
-               <lb facs="#facs_1_region_1767943152586_506_tl_15" n="N015"/>chenen Cyklen à la <rs type="place">Bayreuth</rs> zusammengeschoben und damit
-               <lb facs="#facs_1_region_1767943152586_506_tl_16" n="N016"/>die letzten Forderungen jener mächtigen Musikpartei erfüllt
-               <lb facs="#facs_1_region_1767943152586_506_tl_17" n="N017"/>werden, welche Hanns <hi rendition="#em">
-                  <rs type="person">Hopfen</rs>
-               </hi> so hübsch „die elegante
-               <lb facs="#facs_1_region_1767943152586_506_tl_18" n="N018"/>Verschwörung“ nennt.
-               <lb facs="#facs_1_region_1767943152586_506_tl_19" n="N019"/>Die Handlung der „<rs type="bibl">Götterdämmerung</rs>“ schließt unmit¬
-               <lb facs="#facs_1_region_1767943152586_506_tl_20" n="N020"/>telbar an das vorhergehende Drama „<rs type="bibl">Siegfried</rs>“ an. Dort
-               <lb facs="#facs_1_region_1767943152586_506_tl_21" n="N021"/>haben wir <rs type="person">Siegfried</rs> in brünstiger Liebeszwiesprach mit der
-               <lb facs="#facs_1_region_1767943152586_506_tl_22" n="N022"/>aus wabernder Lohe und zwanzigjährigem Schlafe erweckten
-               <lb facs="#facs_1_region_1767943152586_506_tl_23" n="N023"/>
-               <rs type="person">Brunhild</rs> verlassen. Jetzt, im Vorspiel zur „<rs type="bibl">Götterdämme¬</rs>
-               <lb facs="#facs_1_region_1767943152586_506_tl_24" n="N024"/>
-               <rs type="bibl">rung</rs>“, sehen wir die Beiden zärtlich Abschied nehmend aus
-               <lb facs="#facs_1_region_1767943152586_506_tl_25" n="N025"/>ihrer Felsengrotte hervortreten; <rs type="person">Siegfried</rs>, in voller Rüstung,
-               <lb facs="#facs_1_region_1767943152586_506_tl_26" n="N026"/>zieht „zu neuen Thaten“ aus und übergibt <rs type="person">Brunhilde</rs>n
-               <lb facs="#facs_1_region_1767943152586_506_tl_27" n="N027"/>den Nibelungenring als Pfand seiner Treue. Es wird keine
-               <lb facs="#facs_1_region_1767943152586_506_tl_28" n="N028"/>halbe Stunde dauern und derselbe <rs type="person">Siegfried</rs> ist in der Tarn¬
-               <lb facs="#facs_1_region_1767943152586_506_tl_29" n="N029"/>kappe wieder da und überwältigt ringend seine geliebte <rs type="person">Brun¬</rs>
-               <lb facs="#facs_1_region_1767943152586_506_tl_30" n="N030"/>
-               <rs type="person">hild</rs>
-               <hi rendition="#em">für den König <rs type="person">Gunther</rs>
-               </hi>
-               <rs type="person"/>, dessen Schwester
-               <lb facs="#facs_1_region_1767943152586_506_tl_31" n="N031"/>
-               <rs type="person">Gutrune</rs> sein Herz entflammt hat! Doch folgen wir der
-               <lb facs="#facs_1_region_1767943152586_506_tl_32" n="N032"/>Handlung schrittweise. <rs type="person">Siegfried</rs> kommt auf dem wohlbe¬
-               <lb facs="#facs_1_region_1767943152586_506_tl_33" n="N033"/>kannten Roß <rs type="person">Brunhilde</rs>ns an den <rs type="place">Rhein</rs> geritten und be¬
-               <lb facs="#facs_1_region_1767943152586_506_tl_34" n="N034"/>tritt die Halle der Giebichungen. Hier hat <rs type="person">Hagen</rs> gerade dem
-               <lb facs="#facs_1_region_1767943152586_506_tl_35" n="N035"/>König <rs type="person">Gunther</rs> und seiner Schwester <rs type="person">Gutrune</rs> von <rs type="person">Brun¬</rs>
-               <lb facs="#facs_1_region_1767943152586_506_tl_36" n="N036"/>
-               <rs type="person">hild</rs>, dem „hehrsten Weibe der Welt“, erzählt. <rs type="person">Siegfried</rs> soll
-               <lb facs="#facs_1_region_1767943152586_506_tl_37" n="N037"/>die Unüberwindliche für <rs type="person">Gunther</rs> erwerben und zum Lohn
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1767943157377_509_tl_1" n="N001"/><rs type="person" ref="#hsl_person_id_7172">Gutrune</rs> erhalten, die ihrerseits dem „hehrsten Helden“ mit
+         <lb facs="#facs_1_region_1767943157377_509_tl_2" n="N002"/>Begierde entgegensieht. <rs type="person" ref="#hsl_person_id_1688">Hagen</rs>, <rs type="person" ref="#hsl_person_id_1689">Gunther</rs> und <rs type="person" ref="#hsl_person_id_7172">Gutrune</rs> (auch
+         <lb facs="#facs_1_region_1767943157377_509_tl_3" n="N003"/>eine elegante Verschwörung!) beschließen ohneweiters, dem
+         <lb facs="#facs_1_region_1767943157377_509_tl_4" n="N004"/><rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> einen Zaubertrank zu geben, der ihn auf <rs type="person" ref="#hsl_person_id_1683">Brunhild</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767943157377_509_tl_5" n="N005"/>vergessen und in <rs type="person" ref="#hsl_person_id_7172">Gutrune</rs> verliebt macht. Dies geschieht;
+         <lb facs="#facs_1_region_1767943157377_509_tl_6" n="N006"/><rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> erscheint mit der Tarnkappe in <rs type="person" ref="#hsl_person_id_1689">Gunther</rs>’s Gestalt
+         <lb facs="#facs_1_region_1767943157377_509_tl_7" n="N007"/>bei <rs type="person" ref="#hsl_person_id_1683">Brunhild</rs>, überwältigt die Wehrlose und entreißt ihr den
+         <lb facs="#facs_1_region_1767943157377_509_tl_8" n="N008"/>Zauberring. Der zweite Act führt uns wieder in die Halle
+         <lb facs="#facs_1_region_1767943157377_509_tl_9" n="N009"/>der Giebichungen; <rs type="person" ref="#hsl_person_id_1688">Hagen</rs> wird von dem Zwerg <rs type="person" ref="#hsl_person_id_1686">Alberich</rs> ge
+         <lb facs="#facs_1_region_1767943157377_509_tl_10" n="N010" break="no"/>reizt, den <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> zu verderben, um des Ringes sich zu be
+         <lb facs="#facs_1_region_1767943157377_509_tl_11" n="N011" break="no"/>mächtigen. <rs type="person" ref="#hsl_person_id_1689">Gunther</rs> erscheint mit <rs type="person" ref="#hsl_person_id_1683">Brunhild</rs>; <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767943157377_509_tl_12" n="N012"/>(in seiner wahren Gestalt) tritt Hand in Hand mit
+         <lb facs="#facs_1_region_1767943157377_509_tl_13" n="N013"/><rs type="person" ref="#hsl_person_id_7172">Gutrune</rs> ihnen entgegen. <rs type="person" ref="#hsl_person_id_1683">Brunhild</rs> stürzt auf ihn zu,
+         <lb facs="#facs_1_region_1767943157377_509_tl_14" n="N014"/>erkennt den Ring an seinem Finger und damit die Treu
+         <lb facs="#facs_1_region_1767943157377_509_tl_15" n="N015" break="no"/>losigkeit des Heißgeliebten. Sie fordert seinen Tod, und <rs type="person" ref="#hsl_person_id_1688">Hagen</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767943157377_509_tl_16" n="N016"/>ersticht ihn meuchlings auf der Jagd. Unmittelbar vor <rs type="person" ref="#hsl_person_id_1684">Sieg
+         <lb facs="#facs_1_region_1767943157377_509_tl_17" n="N017" break="no"/>fried</rs>’s Ende gibt ihm jedoch <rs type="person" ref="#hsl_person_id_1688">Hagen</rs> abermals einen Zauber
+         <lb facs="#facs_1_region_1767943157377_509_tl_18" n="N018" break="no"/>saft zu trinken, der die Wirkungen des Vergessenheitstrankes
+         <lb facs="#facs_1_region_1767943157377_509_tl_19" n="N019"/>wieder aufhebt. <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> erinnert sich plötzlich <rs type="person" ref="#hsl_person_id_1683">Brunhilde</rs>ns
+         <lb facs="#facs_1_region_1767943157377_509_tl_20" n="N020"/>und stirbt, einen Gruß an sie auf den Lippen. <rs type="person" ref="#hsl_person_id_7172">Gutrune</rs>
+         <lb facs="#facs_1_region_1767943157377_509_tl_21" n="N021"/>räumt den Platz an <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs>’s Bahre ohneweiters <rs type="person" ref="#hsl_person_id_1683">Brun
+         <lb facs="#facs_1_region_1767943157377_509_tl_22" n="N022" break="no"/>hilde</rs>n, die ihn ihr streitig macht und sich hierauf in den für
+         <lb facs="#facs_1_region_1767943157377_509_tl_23" n="N023"/><rs type="person" ref="#hsl_person_id_1684">Siegfried</rs>’s Leiche angezündeten Scheiterhaufen stürzt. Der
+         <lb facs="#facs_1_region_1767943157377_509_tl_24" n="N024"/><rs type="place" ref="#hsl_place_id_245">Rhein</rs> wälzt seine Fluthen in die Halle, die <rs type="person" ref="#hsl_person_id_5002 #hsl_person_id_5001 #hsl_person_id_5000">Rheintöchter</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767943157377_509_tl_25" n="N025"/>kommen herangeschwommen, ziehen <rs type="person" ref="#hsl_person_id_1688">Hagen</rs>, der sich des
+         <lb facs="#facs_1_region_1767943157377_509_tl_26" n="N026"/>Ringes bemächtigen will, zu sich herab und halten den wieder
+         <lb facs="#facs_1_region_1767943157377_509_tl_27" n="N027" break="no"/>gewonnenen Ring jubelnd in die Höhe. Gleichzeitig erscheint
+         <lb facs="#facs_1_region_1767943157377_509_tl_28" n="N028"/>am Himmel eine rothe Gluth, der Widerschein des Brandes,
+         <lb facs="#facs_1_region_1767943157377_509_tl_29" n="N029"/>welcher die Götterburg mit all ihrer Pracht verzehrt.
+            </p><p>
+         <lb facs="#facs_1_region_1767943157377_509_tl_30" n="N030"/>Schon aus dieser kurzen Inhaltsanzeige ergibt sich, daß
+         <lb facs="#facs_1_region_1767943157377_509_tl_31" n="N031"/>die „<rs type="bibl" ref="#hsl_work_id_1316">Götterdämmerung</rs>“ an dramatischer Lebendigkeit die
+         <lb facs="#facs_1_region_1767943157377_509_tl_32" n="N032"/>drei früheren Dramen des <rs type="bibl" ref="#hsl_work_id_418">Nibelungenring</rs>es entschieden
+         <lb facs="#facs_1_region_1767943157377_509_tl_33" n="N033"/>übertrifft. Die Handlung erreicht im zweiten Act eine be
+         <lb facs="#facs_1_region_1767943157377_509_tl_34" n="N034" break="no"/>deutende Spannung und steigert sich noch im dritten Act zu
+         <lb facs="#facs_1_region_1767943157377_509_tl_35" n="N035"/>gewaltiger Höhe. Die Zwerge und Riesen, die Götter und
+         <lb facs="#facs_1_region_1767943157377_509_tl_36" n="N036"/>Drachen der <rs type="bibl" ref="#hsl_work_id_4040 #hsl_work_id_3250">Edda</rs> weichen endlich zurück und machen Platz
+         <lb facs="#facs_1_region_1767943157377_509_tl_37" n="N037"/>den Menschen, den Helden des <rs type="bibl" ref="#hsl_work_id_4039">Nibelungenlied</rs>es. Aber
+         <lb facs="#facs_1_region_1767943157377_509_tl_38" n="N038"/>freilich, wie weit hat R. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> auch in dieser Annähe
+         <lb facs="#facs_1_region_1767943157377_509_tl_39" n="N039" break="no"/>rung an das <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e <rs type="bibl" ref="#hsl_work_id_4039">Heldengedicht</rs> sich wieder davon ent
+         <lb facs="#facs_1_region_1767943157377_509_tl_40" n="N040" break="no"/>fernt, wie hat er die Charaktere verfälscht und herabgezogen!<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1767943157377_509_tl_1" n="N001"/>
-               <rs type="person">Gutrune</rs> erhalten, die ihrerseits dem „hehrsten Helden“ mit
-               <lb facs="#facs_1_region_1767943157377_509_tl_2" n="N002"/>Begierde entgegensieht. <rs type="person">Hagen</rs>, <rs type="person">Gunther</rs> und <rs type="person">Gutrune</rs> (auch
-               <lb facs="#facs_1_region_1767943157377_509_tl_3" n="N003"/>eine elegante Verschwörung!) beschließen ohneweiters, dem
-               <lb facs="#facs_1_region_1767943157377_509_tl_4" n="N004"/>
-               <rs type="person">Siegfried</rs> einen Zaubertrank zu geben, der ihn auf <rs type="person">Brunhild</rs>
-               <lb facs="#facs_1_region_1767943157377_509_tl_5" n="N005"/>vergessen und in <rs type="person">Gutrune</rs> verliebt macht. Dies geschieht;
-               <lb facs="#facs_1_region_1767943157377_509_tl_6" n="N006"/>
-               <rs type="person">Siegfried</rs> erscheint mit der Tarnkappe in <rs type="person">Gunther</rs>'s Gestalt
-               <lb facs="#facs_1_region_1767943157377_509_tl_7" n="N007"/>bei <rs type="person">Brunhild</rs>, überwältigt die Wehrlose und entreißt ihr den
-               <lb facs="#facs_1_region_1767943157377_509_tl_8" n="N008"/>Zauberring. Der zweite Act führt uns wieder in die Halle
-               <lb facs="#facs_1_region_1767943157377_509_tl_9" n="N009"/>der Giebichungen; <rs type="person">Hagen</rs> wird von dem Zwerg <rs type="person">Alberich</rs> ge¬
-               <lb facs="#facs_1_region_1767943157377_509_tl_10" n="N010"/>reizt, den <rs type="person">Siegfried</rs> zu verderben, um des Ringes sich zu be¬
-               <lb facs="#facs_1_region_1767943157377_509_tl_11" n="N011"/>mächtigen. <rs type="person">Gunther</rs> erscheint mit <rs type="person">Brunhild</rs>; <rs type="person">Siegfried</rs>
-               <lb facs="#facs_1_region_1767943157377_509_tl_12" n="N012"/>(in seiner wahren Gestalt) tritt Hand in Hand mit
-               <lb facs="#facs_1_region_1767943157377_509_tl_13" n="N013"/>
-               <rs type="person">Gutrune</rs> ihnen entgegen. <rs type="person">Brunhild</rs> stürzt auf ihn zu,
-               <lb facs="#facs_1_region_1767943157377_509_tl_14" n="N014"/>erkennt den Ring an seinem Finger und damit die Treu¬
-               <lb facs="#facs_1_region_1767943157377_509_tl_15" n="N015"/>losigkeit des Heißgeliebten. Sie fordert seinen Tod, und <rs type="person">Hagen</rs>
-               <lb facs="#facs_1_region_1767943157377_509_tl_16" n="N016"/>ersticht ihn meuchlings auf der Jagd. Unmittelbar vor <rs type="person">Sieg¬</rs>
-               <lb facs="#facs_1_region_1767943157377_509_tl_17" n="N017"/>
-               <rs type="person">fried</rs>'s Ende gibt ihm jedoch <rs type="person">Hagen</rs> abermals einen Zauber¬
-               <lb facs="#facs_1_region_1767943157377_509_tl_18" n="N018"/>saft zu trinken, der die Wirkungen des Vergessenheitstrankes
-               <lb facs="#facs_1_region_1767943157377_509_tl_19" n="N019"/>wieder aufhebt. <rs type="person">Siegfried</rs> erinnert sich plötzlich <rs type="person">Brunhilde</rs>ns
-               <lb facs="#facs_1_region_1767943157377_509_tl_20" n="N020"/>und stirbt, einen Gruß an sie auf den Lippen. <rs type="person">Gutrune</rs>
-               <lb facs="#facs_1_region_1767943157377_509_tl_21" n="N021"/>räumt den Platz an <rs type="person">Siegfried</rs>'s Bahre ohneweiters <rs type="person">Brun¬</rs>
-               <lb facs="#facs_1_region_1767943157377_509_tl_22" n="N022"/>
-               <rs type="person">hilde</rs>n, die ihn ihr streitig macht und sich hierauf in den für
-               <lb facs="#facs_1_region_1767943157377_509_tl_23" n="N023"/>
-               <rs type="person">Siegfried</rs>'s Leiche angezündeten Scheiterhaufen stürzt. Der
-               <lb facs="#facs_1_region_1767943157377_509_tl_24" n="N024"/>
-               <rs type="place">Rhein</rs> wälzt seine Fluthen in die Halle, die <rs type="person">Rheintöchter</rs>
-               <lb facs="#facs_1_region_1767943157377_509_tl_25" n="N025"/>kommen herangeschwommen, ziehen <rs type="person">Hagen</rs>, der sich des
-               <lb facs="#facs_1_region_1767943157377_509_tl_26" n="N026"/>Ringes bemächtigen will, zu sich herab und halten den wieder¬
-               <lb facs="#facs_1_region_1767943157377_509_tl_27" n="N027"/>gewonnenen Ring jubelnd in die Höhe. Gleichzeitig erscheint
-               <lb facs="#facs_1_region_1767943157377_509_tl_28" n="N028"/>am Himmel eine rothe Gluth, der Widerschein des Brandes,
-               <lb facs="#facs_1_region_1767943157377_509_tl_29" n="N029"/>welcher die Götterburg mit all ihrer Pracht verzehrt.
-               <lb facs="#facs_1_region_1767943157377_509_tl_30" n="N030"/>Schon aus dieser kurzen Inhaltsanzeige ergibt sich, daß
-               <lb facs="#facs_1_region_1767943157377_509_tl_31" n="N031"/>die „<rs type="bibl">Götterdämmerung</rs>“ an dramatischer Lebendigkeit die
-               <lb facs="#facs_1_region_1767943157377_509_tl_32" n="N032"/>drei früheren Dramen des <rs type="bibl">Nibelungenring</rs>es entschieden
-               <lb facs="#facs_1_region_1767943157377_509_tl_33" n="N033"/>übertrifft. Die Handlung erreicht im zweiten Act eine be¬
-               <lb facs="#facs_1_region_1767943157377_509_tl_34" n="N034"/>deutende Spannung und steigert sich noch im dritten Act zu
-               <lb facs="#facs_1_region_1767943157377_509_tl_35" n="N035"/>gewaltiger Höhe. Die Zwerge und Riesen, die Götter und
-               <lb facs="#facs_1_region_1767943157377_509_tl_36" n="N036"/>Drachen der <rs type="bibl">Edda</rs> weichen endlich zurück und machen Platz
-               <lb facs="#facs_1_region_1767943157377_509_tl_37" n="N037"/>den Menschen, den Helden des <rs type="bibl">Nibelungenlied</rs>es. Aber
-               <lb facs="#facs_1_region_1767943157377_509_tl_38" n="N038"/>freilich, wie weit hat R. <rs type="person">Wagner</rs> auch in dieser Annähe¬
-               <lb facs="#facs_1_region_1767943157377_509_tl_39" n="N039"/>rung an das <rs type="place">deutsch</rs>e <rs type="bibl">Heldengedicht</rs> sich wieder davon ent¬
-               <lb facs="#facs_1_region_1767943157377_509_tl_40" n="N040"/>fernt, wie hat er die Charaktere verfälscht und herabgezogen!
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1767943161849_512_tl_1" n="N001"/>Welch ein widerwärtiges, von <rs type="person" ref="#hsl_person_id_319">Wagner</rs> eingeführtes Motiv,
+         <lb facs="#facs_1_region_1767943161849_512_tl_2" n="N002"/>daß <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> nicht ein ihm gleichgiltiges Wesen, sondern
+         <lb facs="#facs_1_region_1767943161849_512_tl_3" n="N003"/><hi rendition="#em">seine eigene <rs type="person" ref="#hsl_person_id_1683">Geliebte</rs> und Gattin</hi> für einen
+         <lb facs="#facs_1_region_1767943161849_512_tl_4" n="N004"/>Andern bezwingt und sie, also gezähmt, ihm ausliefert! Mit
+         <lb facs="#facs_1_region_1767943161849_512_tl_5" n="N005"/>diesem Moment schwindet in unserer Brust jede Sympathie
+         <lb facs="#facs_1_region_1767943161849_512_tl_6" n="N006"/>für <rs type="person" ref="#hsl_person_id_1684">Siegfried,</rs> dem wir sein gewaltsames Ende nicht ungern
+         <lb facs="#facs_1_region_1767943161849_512_tl_7" n="N007"/>gönnen. Das Aushilfsmittel mit dem Vergessenheitstrank,
+         <lb facs="#facs_1_region_1767943161849_512_tl_8" n="N008"/>den <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> einnimmt, macht den Vorgang nicht weniger
+         <lb facs="#facs_1_region_1767943161849_512_tl_9" n="N009"/>häßlich und abgeschmackt. Wer die Empfindungen in seinem
+         <lb facs="#facs_1_region_1767943161849_512_tl_10" n="N010"/>Helden auf physikalischem Wege, durch Mixturen, hervor
+         <lb facs="#facs_1_region_1767943161849_512_tl_11" n="N011" break="no"/>bringt, der ist vielleicht ein guter Apotheker, aber gewiß ein
+         <lb facs="#facs_1_region_1767943161849_512_tl_12" n="N012"/>schlechter Poet. Schon in <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s „<rs type="bibl" ref="#hsl_work_id_417">Tristan und Isolde</rs>“
+         <lb facs="#facs_1_region_1767943161849_512_tl_13" n="N013"/>wirkt es abstoßend, daß die Liebe dieser <rs type="person" ref="#hsl_person_id_1025 #hsl_person_id_1710">Beiden</rs> lediglich
+         <lb facs="#facs_1_region_1767943161849_512_tl_14" n="N014"/>Wirkung eines Zaubertrankes, eines mechanischen Zufalls,
+         <lb facs="#facs_1_region_1767943161849_512_tl_15" n="N015"/>ist. Wenigstens läßt <rs type="person" ref="#hsl_person_id_319">Wagner</rs> dieses Patientenpaar bei der
+         <lb facs="#facs_1_region_1767943161849_512_tl_16" n="N016"/>Einen Medicin. Dem treulosen <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> aber wird in seiner
+         <lb facs="#facs_1_region_1767943161849_512_tl_17" n="N017"/>letzten Stunde wieder ein <hi rendition="#em">Erinnerungs</hi>trank als Gegen
+         <lb facs="#facs_1_region_1767943161849_512_tl_18" n="N018" break="no"/>mittel gegen den <hi rendition="#em">Vergessenheits</hi>trank eingegossen, damit
+         <lb facs="#facs_1_region_1767943161849_512_tl_19" n="N019"/>er hübsch sentimental, à la <rs type="person" ref="#hsl_person_id_3609">Werther</rs> mit einer zärtlichen Rede an die
+         <lb facs="#facs_1_region_1767943161849_512_tl_20" n="N020"/>Geliebte verhauche! Das ist kein „Helde“, sondern eine Puppe.
+         <lb facs="#facs_1_region_1767943161849_512_tl_21" n="N021"/>Ein Entzauberungstrank, durch welchen irgend ein Schwach
+         <lb facs="#facs_1_region_1767943161849_512_tl_22" n="N022" break="no"/>kopf sich plötzlich all der Dummheiten bewußt wird, die er
+         <lb facs="#facs_1_region_1767943161849_512_tl_23" n="N023"/>in der Verzauberung (oder im Rausche) begangen, ist eigent
+         <lb facs="#facs_1_region_1767943161849_512_tl_24" n="N024" break="no"/>lich ein Lustspielmotiv. In der Tragödie, wo ein sittlicher
+         <lb facs="#facs_1_region_1767943161849_512_tl_25" n="N025"/>Wille herrschen muß, wird er zum Unding. Ob diese Zauber
+         <lb facs="#facs_1_region_1767943161849_512_tl_26" n="N026" break="no"/>tränke der ältesten Sage angehören, kümmert uns wenig.
+         <lb facs="#facs_1_region_1767943161849_512_tl_27" n="N027"/>Wir lesen ja auf dem Theaterzettel: „Dichtung von Richard
+         <lb facs="#facs_1_region_1767943161849_512_tl_28" n="N028"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>“. Wer zwang den modernen Dramatiker, Widri
+         <lb facs="#facs_1_region_1767943161849_512_tl_29" n="N029" break="no"/>ges und Unmögliches in sein Drama aufzunehmen?
+         <lb facs="#facs_1_region_1767943161849_512_tl_30" n="N030"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_115">Hebbel</rs></hi> und Em. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_714">Geibel</rs></hi> haben den Mythus ebenso
+         <lb facs="#facs_1_region_1767943161849_512_tl_31" n="N031"/>genau gekannt, wie Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, aber wie ganz anders
+         <lb facs="#facs_1_region_1767943161849_512_tl_32" n="N032"/>verfahren Beide in ihrer <rs type="person" ref="#hsl_person_id_6904">Siegfried</rs>-<rs type="bibl" ref="#hsl_work_id_2442 #hsl_work_id_4991">Tragödie</rs>! Sie scheiden
+         <lb facs="#facs_1_region_1767943161849_512_tl_33" n="N033"/>dasjenige als unnöthig und verwerflich aus, was gerade
+         <lb facs="#facs_1_region_1767943161849_512_tl_34" n="N034"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Vorliebe für moralisch Empörendes zur Haupt
+         <lb facs="#facs_1_region_1767943161849_512_tl_35" n="N035" break="no"/>sache macht. Lag doch auch nicht die geringste innere Noth
+         <lb facs="#facs_1_region_1767943161849_512_tl_36" n="N036" break="no"/>wendigkeit vor, <rs type="person" ref="#hsl_person_id_1690">Siegmund</rs> und <rs type="person" ref="#hsl_person_id_1691">Sieglinde</rs>, die Eltern <rs type="person" ref="#hsl_person_id_1684">Sieg
+         <lb facs="#facs_1_region_1767943161849_512_tl_37" n="N037" break="no"/>fried</rs>’s, zu <hi rendition="#em">Geschwistern</hi> zu machen. Wenn wir an
+         <lb facs="#facs_1_region_1767943161849_512_tl_38" n="N038"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_115">Hebbel</rs>’s</hi><space quantity="1" unit="char"/><rs type="bibl" ref="#hsl_work_id_2442">Tragödie</rs> denken, insbesondere an die rührende
+         <lb facs="#facs_1_region_1767943161849_512_tl_39" n="N039"/>Klage der <rs type="person" ref="#hsl_person_id_7177">Chriemhild</rs> bei <rs type="person" ref="#hsl_person_id_7176">Siegfried</rs>’s Leiche, der nur <hi rendition="#em">sie</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767943161849_512_tl_40" n="N040"/>geliebt, wie tief sinkt dagegen <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Auffassung herab!<space quantity="1" unit="char"/></p>
+         <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1767943161849_512_tl_1" n="N001"/>Welch ein widerwärtiges, von <rs type="person">Wagner</rs> eingeführtes Motiv,
-               <lb facs="#facs_1_region_1767943161849_512_tl_2" n="N002"/>daß <rs type="person">Siegfried</rs> nicht ein ihm gleichgiltiges Wesen, sondern
-               <lb facs="#facs_1_region_1767943161849_512_tl_3" n="N003"/>
-               <hi rendition="#em">seine eigene <rs type="person">Geliebte</rs> und Gattin</hi> für einen
-               <lb facs="#facs_1_region_1767943161849_512_tl_4" n="N004"/>Andern bezwingt und sie, also gezähmt, ihm ausliefert! Mit
-               <lb facs="#facs_1_region_1767943161849_512_tl_5" n="N005"/>diesem Moment schwindet in unserer Brust jede Sympathie
-               <lb facs="#facs_1_region_1767943161849_512_tl_6" n="N006"/>für <rs type="person">Siegfried,</rs> dem wir sein gewaltsames Ende nicht ungern
-               <lb facs="#facs_1_region_1767943161849_512_tl_7" n="N007"/>gönnen. Das Aushilfsmittel mit dem Vergessenheitstrank,
-               <lb facs="#facs_1_region_1767943161849_512_tl_8" n="N008"/>den <rs type="person">Siegfried</rs> einnimmt, macht den Vorgang nicht weniger
-               <lb facs="#facs_1_region_1767943161849_512_tl_9" n="N009"/>häßlich und abgeschmackt. Wer die Empfindungen in seinem
-               <lb facs="#facs_1_region_1767943161849_512_tl_10" n="N010"/>Helden auf physikalischem Wege, durch Mixturen, hervor¬
-               <lb facs="#facs_1_region_1767943161849_512_tl_11" n="N011"/>bringt, der ist vielleicht ein guter Apotheker, aber gewiß ein
-               <lb facs="#facs_1_region_1767943161849_512_tl_12" n="N012"/>schlechter Poet. Schon in <rs type="person">Wagner</rs>'s „<rs type="bibl">Tristan und Isolde</rs>“
-               <lb facs="#facs_1_region_1767943161849_512_tl_13" n="N013"/>wirkt es abstoßend, daß die Liebe dieser <rs type="person">Beiden</rs> lediglich
-               <lb facs="#facs_1_region_1767943161849_512_tl_14" n="N014"/>Wirkung eines Zaubertrankes, eines mechanischen Zufalls,
-               <lb facs="#facs_1_region_1767943161849_512_tl_15" n="N015"/>ist. Wenigstens läßt <rs type="person">Wagner</rs> dieses Patientenpaar bei der
-               <lb facs="#facs_1_region_1767943161849_512_tl_16" n="N016"/>Einen Medicin. Dem treulosen <rs type="person">Siegfried</rs> aber wird in seiner
-               <lb facs="#facs_1_region_1767943161849_512_tl_17" n="N017"/>letzten Stunde wieder ein <hi rendition="#em">Erinnerungs</hi>trank als Gegen¬
-               <lb facs="#facs_1_region_1767943161849_512_tl_18" n="N018"/>mittel gegen den <hi rendition="#em">Vergessenheits</hi>trank eingegossen, damit
-               <lb facs="#facs_1_region_1767943161849_512_tl_19" n="N019"/>er hübsch sentimental, à la <rs type="person">Werther</rs> mit einer zärtlichen Rede an die
-               <lb facs="#facs_1_region_1767943161849_512_tl_20" n="N020"/>Geliebte verhauche! Das ist kein „Helde“, sondern eine Puppe.
-               <lb facs="#facs_1_region_1767943161849_512_tl_21" n="N021"/>Ein Entzauberungstrank, durch welchen irgend ein Schwach¬
-               <lb facs="#facs_1_region_1767943161849_512_tl_22" n="N022"/>kopf sich plötzlich all der Dummheiten bewußt wird, die er
-               <lb facs="#facs_1_region_1767943161849_512_tl_23" n="N023"/>in der Verzauberung (oder im Rausche) begangen, ist eigent¬
-               <lb facs="#facs_1_region_1767943161849_512_tl_24" n="N024"/>lich ein Lustspielmotiv. In der Tragödie, wo ein sittlicher
-               <lb facs="#facs_1_region_1767943161849_512_tl_25" n="N025"/>Wille herrschen muß, wird er zum Unding. Ob diese Zauber¬
-               <lb facs="#facs_1_region_1767943161849_512_tl_26" n="N026"/>tränke der ältesten Sage angehören, kümmert uns wenig.
-               <lb facs="#facs_1_region_1767943161849_512_tl_27" n="N027"/>Wir lesen ja auf dem Theaterzettel: „Dichtung von Richard
-               <lb facs="#facs_1_region_1767943161849_512_tl_28" n="N028"/>
-               <rs type="person">Wagner</rs>“. Wer zwang den modernen Dramatiker, Widri¬
-               <lb facs="#facs_1_region_1767943161849_512_tl_29" n="N029"/>ges und Unmögliches in sein Drama aufzunehmen?
-               <lb facs="#facs_1_region_1767943161849_512_tl_30" n="N030"/>
-               <hi rendition="#em">
-                  <rs type="person">Hebbel</rs>
-               </hi> und Em. <hi rendition="#em">
-                  <rs type="person">Geibel</rs>
-               </hi> haben den Mythus ebenso
-               <lb facs="#facs_1_region_1767943161849_512_tl_31" n="N031"/>genau gekannt, wie Richard <rs type="person">Wagner</rs>, aber wie ganz anders
-               <lb facs="#facs_1_region_1767943161849_512_tl_32" n="N032"/>verfahren Beide in ihrer <rs type="person">Siegfried</rs>-Tragödie! Sie scheiden
-               <lb facs="#facs_1_region_1767943161849_512_tl_33" n="N033"/>dasjenige als unnöthig und verwerflich aus, was gerade
-               <lb facs="#facs_1_region_1767943161849_512_tl_34" n="N034"/>
-               <rs type="person">Wagner</rs>'s Vorliebe für moralisch Empörendes zur Haupt¬
-               <lb facs="#facs_1_region_1767943161849_512_tl_35" n="N035"/>sache macht. Lag doch auch nicht die geringste innere Noth¬
-               <lb facs="#facs_1_region_1767943161849_512_tl_36" n="N036"/>wendigkeit vor, <rs type="person">Siegmund</rs> und <rs type="person">Sieglinde</rs>, die Eltern <rs type="person">Sieg¬</rs>
-               <lb facs="#facs_1_region_1767943161849_512_tl_37" n="N037"/>
-               <rs type="person">fried</rs>'s, zu <hi rendition="#em">Geschwistern</hi> zu machen. Wenn wir an
-               <lb facs="#facs_1_region_1767943161849_512_tl_38" n="N038"/>
-               <hi rendition="#em">
-                  <rs type="person">Hebbel</rs>'s</hi>
-               <rs type="bibl">Tragödie</rs> denken, insbesondere an die rührende
-               <lb facs="#facs_1_region_1767943161849_512_tl_39" n="N039"/>Klage der <rs type="person">Chriemhild</rs> bei <rs type="person">Siegfried</rs>'s Leithe, der nur <hi rendition="#em">sie</hi>
-               <lb facs="#facs_1_region_1767943161849_512_tl_40" n="N040"/>geliebt, wie tief sinkt dagegen <rs type="person">Wagner</rs>'s Auffassung herab!
-            </p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1767943419094_518_tl_1" n="N001"/>Die holde, reine Gestalt <rs type="person" ref="#hsl_person_id_7173">Chriemhild</rs>’s (<rs type="person" ref="#hsl_person_id_7173">Gutrune</rs>) hat <rs type="person" ref="#hsl_person_id_319">Wag
+         <lb facs="#facs_2_region_1767943419094_518_tl_2" n="N002" break="no"/>ner</rs> durch seine Giftmischerei um ihre ganze Schönheit ge
+         <lb facs="#facs_2_region_1767943419094_518_tl_3" n="N003" break="no"/>bracht. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7174">Hagen</rs></hi>, das Urbild einer rauhen, selbstlosen Vasallen
+         <lb facs="#facs_2_region_1767943419094_518_tl_4" n="N004" break="no"/>treue, wird unter <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Händen ein goldgieriger, ge
+         <lb facs="#facs_2_region_1767943419094_518_tl_5" n="N005" break="no"/>meiner Schuft. So bleibt denn die einzige <rs type="person" ref="#hsl_person_id_7175">Brunhild</rs> übrig,
+         <lb facs="#facs_2_region_1767943419094_518_tl_6" n="N006"/>die unsere Sympathie gewinnt.
+            </p><p>
+         <lb facs="#facs_2_region_1767943419094_518_tl_7" n="N007"/>Die eigentliche Handlung wird bei <rs type="person" ref="#hsl_person_id_319">Wagner</rs> durchflochten
+         <lb facs="#facs_2_region_1767943419094_518_tl_8" n="N008"/>oder durchbrochen von Scenen, welche in die Göttergeschich
+         <lb facs="#facs_2_region_1767943419094_518_tl_9" n="N009" break="no"/>ten der drei früheren Stücke zurückgreifen und den Zusammen
+         <lb facs="#facs_2_region_1767943419094_518_tl_10" n="N010" break="no"/>hang damit herstellen sollen. Dieses Zurückschlingen in die
+         <lb facs="#facs_2_region_1767943419094_518_tl_11" n="N011"/>mythologische Vorgeschichte ist ein wahres Unglück für die
+         <lb facs="#facs_2_region_1767943419094_518_tl_12" n="N012"/>Tragödie, weil es gewaltsam, unmotivirt geschieht und dem
+         <lb facs="#facs_2_region_1767943419094_518_tl_13" n="N013"/>Zuschauer unverständlich bleibt. Die Verwandlung des ur
+         <lb facs="#facs_2_region_1767943419094_518_tl_14" n="N014" break="no"/>sprünglichen Titels „<rs type="bibl" ref="#hsl_work_id_5772">Siegfried’s Tod</rs>“ in den gegenwärtigen,
+         <lb facs="#facs_2_region_1767943419094_518_tl_15" n="N015"/>„<rs type="bibl" ref="#hsl_work_id_1316">Götterdämmerung</rs>“, sagt Alles. Sie zeigt deutlich, wie
+         <lb facs="#facs_2_region_1767943419094_518_tl_16" n="N016"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> die einfachen klaren Verhältnisse der <rs type="person" ref="#hsl_person_id_6904">Siegfried</rs>-
+         <lb facs="#facs_2_region_1767943419094_518_tl_17" n="N017"/>Tragödie nachträglich verschoben und verwirrt hat. Im zwei
+         <lb facs="#facs_2_region_1767943419094_518_tl_18" n="N018" break="no"/>ten Bande seiner „<rs type="bibl" ref="#hsl_work_id_3376">Gesammelten Schriften</rs>“ theilt uns Wagner
+         <lb facs="#facs_2_region_1767943419094_518_tl_19" n="N019"/>die ursprüngliche Fassung seiner Tragödie „<rs type="bibl" ref="#hsl_work_id_5772">Siegfried’s Tod</rs>“
+         <lb facs="#facs_2_region_1767943419094_518_tl_20" n="N020"/>mit; darin ist von einer <hi rendition="#em">Götterdämmerung nicht
+         <lb facs="#facs_2_region_1767943419094_518_tl_21" n="N021"/>die Rede</hi>. In der That hat <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs>’s Tod mit dem
+         <lb facs="#facs_2_region_1767943419094_518_tl_22" n="N022"/>Ende der Götter, das als geheimnißvolle Weissagung die
+         <lb facs="#facs_2_region_1767943419094_518_tl_23" n="N023"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Mythologie durchklingt, gar nichts zu schaffen. Die
+         <lb facs="#facs_2_region_1767943419094_518_tl_24" n="N024"/>Willkür und der Eigensinn, womit <rs type="person" ref="#hsl_person_id_319">Wagner</rs> den Ring als
+         <lb facs="#facs_2_region_1767943419094_518_tl_25" n="N025"/>das angeblich einheitliche und treibende Motiv aller vier
+         <lb facs="#facs_2_region_1767943419094_518_tl_26" n="N026"/>Dramen festhält, rächt sich an dem Eindrucke des Ganzen.
+         <lb facs="#facs_2_region_1767943419094_518_tl_27" n="N027"/>Die übernatürlichen Voraussetzungen schaffen hier unnatür
+         <lb facs="#facs_2_region_1767943419094_518_tl_28" n="N028" break="no"/>liche und unverständliche Consequenzen. Der Dichter
+         <lb facs="#facs_2_region_1767943419094_518_tl_29" n="N029"/>selbst scheint mitunter einen Vergessenheitstrank geschlürft
+         <lb facs="#facs_2_line_1768114561175_518" n="N030"/>zu haben. Von der gepriesenen Macht des Ringes, der die
+         <lb facs="#facs_2_line_1768114563578_521" n="N031"/>Weltherrschaft verleiht, haben wir bei seinen verschiedenen
+         <lb facs="#facs_2_region_1767943419094_518_tl_30" n="N032"/>Besitzern, von <rs type="person" ref="#hsl_person_id_1680">Wotan</rs> und <rs type="person" ref="#hsl_person_id_3167">Fafner</rs> bis auf <rs type="person" ref="#hsl_person_id_1683">Brunhild</rs> herab,
+         <lb facs="#facs_2_region_1767943419094_518_tl_31" n="N033"/>nichts wahrgenommen. Und <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs>, dem der Zaubertrank
+         <lb facs="#facs_2_region_1767943419094_518_tl_32" n="N034"/>jede Erinnerung an <rs type="person" ref="#hsl_person_id_1683">Brunhild</rs> rauben soll, findet doch sofort
+         <lb facs="#facs_2_region_1767943419094_518_tl_33" n="N035"/>den Weg zu ihr zurück und ruft die ihm Nahende wohl
+         <lb facs="#facs_2_region_1767943419094_518_tl_34" n="N036" break="no"/>bekannt als „<rs type="person" ref="#hsl_person_id_1683">Brunhild</rs>!“ an. Nicht im dramatischen Inter
+         <lb facs="#facs_2_region_1767943419094_518_tl_35" n="N037" break="no"/>esse, sondern jener „tiefsinnigen“ Urweltsmystik zuliebe schuf
+         <lb facs="#facs_2_region_1767943419094_518_tl_36" n="N038"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> die (in <rs type="place" ref="#hsl_place_id_55">Wien</rs> wegbleibende) Expositions-Scene der
+         <lb facs="#facs_2_region_1767943419094_518_tl_37" n="N039"/>„<rs type="bibl" ref="#hsl_work_id_1316">Götterdämmerung</rs>“: die drei <rs type="person" ref="#hsl_person_id_5939 #hsl_person_id_5940 #hsl_person_id_5941">Nornen</rs> (Töchter der „<rs type="person" ref="#hsl_person_id_1682">Erda</rs>“)
+         <lb facs="#facs_2_region_1767943419094_518_tl_38" n="N040"/>werfen sich in unheimlichem Dämmerscheine das goldene Seil<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1767943419094_518_tl_1" n="N001"/>Die holde, reine Gestalt <rs type="person">Chriemhild</rs>'s (<rs type="person">Gutrune</rs>) hat <rs type="person" continued="true">Wag¬</rs>
-               <lb facs="#facs_2_region_1767943419094_518_tl_2" n="N002"/>
-               <rs type="person" continued="true">ner</rs> durch seine Giftmischerei um ihre ganze Schönheit ge¬
-               <lb facs="#facs_2_region_1767943419094_518_tl_3" n="N003"/>bracht. <hi rendition="#em">
-                  <rs type="person">Hagen</rs>
-               </hi>, das Urbild einer rauhen, selbstlosen Vasallen¬
-               <lb facs="#facs_2_region_1767943419094_518_tl_4" n="N004"/>treue, wird unter <rs type="person">Wagner</rs>'s Händen ein goldgieriger, ge¬
-               <lb facs="#facs_2_region_1767943419094_518_tl_5" n="N005"/>meiner Schuft. So bleibt denn die einzige <rs type="person">Brunhild</rs> übrig,
-               <lb facs="#facs_2_region_1767943419094_518_tl_6" n="N006"/>die unsere Sympathie gewinnt.
-               <lb facs="#facs_2_region_1767943419094_518_tl_7" n="N007"/>Die eigentliche Handlung wird bei <rs type="person">Wagner</rs> durchflochten
-               <lb facs="#facs_2_region_1767943419094_518_tl_8" n="N008"/>oder durchbrochen von Scenen, welche in die Göttergeschich¬
-               <lb facs="#facs_2_region_1767943419094_518_tl_9" n="N009"/>ten der drei früheren Stücke zurückgreifen und den Zusammen¬
-               <lb facs="#facs_2_region_1767943419094_518_tl_10" n="N010"/>hang damit herstellen sollen. Dieses Zurückschlingen in die
-               <lb facs="#facs_2_region_1767943419094_518_tl_11" n="N011"/>mythologische Vorgeschichte ist ein wahres Unglück für die
-               <lb facs="#facs_2_region_1767943419094_518_tl_12" n="N012"/>Tragödie, weil es gewaltsam, unmotivirt geschieht und dem
-               <lb facs="#facs_2_region_1767943419094_518_tl_13" n="N013"/>Zuschauer unverständlich bleibt. Die Verwandlung des ur¬
-               <lb facs="#facs_2_region_1767943419094_518_tl_14" n="N014"/>sprünglichen Titels „<rs type="bibl">Siegfried's Tod</rs>“ in den gegenwärtigen,
-               <lb facs="#facs_2_region_1767943419094_518_tl_15" n="N015"/>„<rs type="bibl">Götterdämmerung</rs>“, sagt Alles. Sie zeigt deutlich, wie
-               <lb facs="#facs_2_region_1767943419094_518_tl_16" n="N016"/>
-               <rs type="person">Wagner</rs> die einfachen klaren Verhältnisse der <rs type="person">Siegfried</rs>-
-               <lb facs="#facs_2_region_1767943419094_518_tl_17" n="N017"/>Tragödie nachträglich verschoben und verwirrt hat. Im zwei¬
-               <lb facs="#facs_2_region_1767943419094_518_tl_18" n="N018"/>ten Bande seiner „<rs type="bibl">Gesammelten Schriften</rs>“ theilt uns Wagner
-               <lb facs="#facs_2_region_1767943419094_518_tl_19" n="N019"/>die ursprüngliche Fassung seiner Tragödie „<rs type="bibl">Siegfried's Tod</rs>“
-               <lb facs="#facs_2_region_1767943419094_518_tl_20" n="N020"/>mit; darin ist von einer <hi rendition="#em">Götterdämmerung nicht</hi>
-               <lb facs="#facs_2_region_1767943419094_518_tl_21" n="N021"/>
-               <hi rendition="#em">die Rede</hi>. In der That hat <rs type="person">Siegfried</rs>'s Tod mit dem
-               <lb facs="#facs_2_region_1767943419094_518_tl_22" n="N022"/>Ende der Götter, das als geheimnißvolle Weissagung die
-               <lb facs="#facs_2_region_1767943419094_518_tl_23" n="N023"/>
-               <rs type="place">deutsch</rs>e Mythologie durchklingt, gar nichts zu schaffen. Die
-               <lb facs="#facs_2_region_1767943419094_518_tl_24" n="N024"/>Willkür und der Eigensinn, womit <rs type="person">Wagner</rs> den Ring als
-               <lb facs="#facs_2_region_1767943419094_518_tl_25" n="N025"/>das angeblich einheitliche und treibende Motiv aller vier
-               <lb facs="#facs_2_region_1767943419094_518_tl_26" n="N026"/>Dramen festhält, rächt sich an dem Eindrucke des Ganzen.
-               <lb facs="#facs_2_region_1767943419094_518_tl_27" n="N027"/>Die übernatürlichen Voraussetzungen schaffen hier unnatür¬
-               <lb facs="#facs_2_region_1767943419094_518_tl_28" n="N028"/>liche und unverständliche Consequenzen. Der Dichter
-               <lb facs="#facs_2_region_1767943419094_518_tl_29" n="N029"/>selbst scheint mitunter einen Vergessenheitstrank geschlürft
-               <lb facs="#facs_2_line_1768114561175_518" n="N030"/>zu haben. Von der gepriesenen Macht des Ringes, der die
-               <lb facs="#facs_2_line_1768114563578_521" n="N031"/>Weltherrschaft verleiht, haben wir bei seinen verschiedenen
-               <lb facs="#facs_2_region_1767943419094_518_tl_30" n="N032"/>Besitzern, von <rs type="person">Wotan</rs> und <rs type="person">Fafner</rs> bis auf <rs type="person">Brunhild</rs> herab,
-               <lb facs="#facs_2_region_1767943419094_518_tl_31" n="N033"/>nichts wahrgenommen. Und <rs type="person">Siegfried</rs>, dem der Zaubertrank
-               <lb facs="#facs_2_region_1767943419094_518_tl_32" n="N034"/>jede Erinnerung an <rs type="person">Brunhild</rs> rauben soll, findet doch sofort
-               <lb facs="#facs_2_region_1767943419094_518_tl_33" n="N035"/>den Weg zu ihr zurück und ruft die ihm Nahende wohl¬
-               <lb facs="#facs_2_region_1767943419094_518_tl_34" n="N036"/>bekannt als „<rs type="person">Brunhild</rs>!“ an. Nicht im dramatischen Inter¬
-               <lb facs="#facs_2_region_1767943419094_518_tl_35" n="N037"/>esse, sondern jener „tiefsinnigen“ Urweltsmystik zuliebe schuf
-               <lb facs="#facs_2_region_1767943419094_518_tl_36" n="N038"/>
-               <rs type="person">Wagner</rs> die (in <rs type="place">Wien</rs> wegbleibende) Expositions-Scene der
-               <lb facs="#facs_2_region_1767943419094_518_tl_37" n="N039"/>„<rs type="bibl">Götterdämmerung</rs>“: die drei <rs type="person">Nornen</rs> (Töchter der „<rs type="person">Erda</rs>“)
-               <lb facs="#facs_2_region_1767943419094_518_tl_38" n="N040"/>werfen sich in unheimlichem Dämmerscheine das goldene Seil
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1767943423342_521_tl_1" n="N001"/>zu, in dem sich das Geflecht des Weltenschicksals symbolisirt.
+         <lb facs="#facs_2_region_1767943423342_521_tl_2" n="N002"/>Hier ist die Verwechslung der Gesetze des Epischen und des
+         <lb facs="#facs_2_region_1767943423342_521_tl_3" n="N003"/>Dramatischen, des blos Symbolischen mit dem scenisch Dar
+         <lb facs="#facs_2_region_1767943423342_521_tl_4" n="N004" break="no"/>zustellenden auffallend genug; die Scene streifte in <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1767943423342_521_tl_5" n="N005"/>ans Komische. Auch abgesehen von der unerträglichen Länge
+         <lb facs="#facs_2_region_1767943423342_521_tl_6" n="N006"/>des ersten Actes, that man in <rs type="place" ref="#hsl_place_id_55">Wien</rs> wohl daran, diese In
+         <lb facs="#facs_2_region_1767943423342_521_tl_7" n="N007" break="no"/>troduction zu streichen. Wir würden dasselbe Verfahren gegen
+         <lb facs="#facs_2_region_1767943423342_521_tl_8" n="N008"/>eine zweite, ebenso überflüssige Scene empfehlen, welche dem
+         <lb facs="#facs_2_region_1767943423342_521_tl_9" n="N009"/>Publicum keine geringere Geduldprobe auferlegt: die
+         <lb facs="#facs_2_region_1767943423342_521_tl_10" n="N010"/>Scene <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7178">Waltraute</rs>’s</hi>. Diese in der „<rs type="bibl" ref="#hsl_work_id_1316">Götterdämmerung</rs>“
+         <lb facs="#facs_2_region_1767943423342_521_tl_11" n="N011"/>ganz unerwartet auftauchende Walküre besucht <rs type="person" ref="#hsl_person_id_1683">Brun
+         <lb facs="#facs_2_region_1767943423342_521_tl_12" n="N012" break="no"/>hilde</rs>n, um ihr eine sehr bewegliche Schilderung von
+         <lb facs="#facs_2_region_1767943423342_521_tl_13" n="N013"/>dem schlechten Befinden des erhabenen <rs type="person" ref="#hsl_person_id_1680">Wotan</rs> zu machen.
+         <lb facs="#facs_2_region_1767943423342_521_tl_14" n="N014"/>Wir vermuthen, daß die Mehrzahl des Publicums sich (offen
+         <lb facs="#facs_2_region_1767943423342_521_tl_15" n="N015"/>oder heimlich) beglückwünscht, diesen <rs type="person" ref="#hsl_person_id_1680">Wotan</rs> wenigstens am
+         <lb facs="#facs_2_region_1767943423342_521_tl_16" n="N016"/>vierten Abend los zu sein, somit auf jede sentimental aus
+         <lb facs="#facs_2_region_1767943423342_521_tl_17" n="N017" break="no"/>gedehnte Schilderung von seiner Melancholie und Appetit
+         <lb facs="#facs_2_region_1767943423342_521_tl_18" n="N018" break="no"/>losigkeit gerne verzichtet. Aehnlicherweise überraschend taucht
+         <lb facs="#facs_2_region_1767943423342_521_tl_19" n="N019"/>auch der Zwerg <rs type="person" ref="#hsl_person_id_1686">Alberich</rs> ganz episodisch wieder aus der
+         <lb facs="#facs_2_region_1767943423342_521_tl_20" n="N020"/>Versenkung auf, um in einer martervoll dissonanzenreichen
+         <lb facs="#facs_2_region_1767943423342_521_tl_21" n="N021"/>Scene längst Bekanntes dem <rs type="person" ref="#hsl_person_id_1688">Hagen</rs> zu erzählen. Das Be
+         <lb facs="#facs_2_region_1767943423342_521_tl_22" n="N022" break="no"/>denklichste von Allem scheint uns jedoch das Ende: das un
+         <lb facs="#facs_2_region_1767943423342_521_tl_23" n="N023" break="no"/>motivirte, dem Zuschauer unverständliche Hereinbrechen der
+         <lb facs="#facs_2_region_1767943423342_521_tl_24" n="N024"/><hi rendition="#em">Götterdämmerung</hi>, die doch mit dem uns allein inter
+         <lb facs="#facs_2_region_1767943423342_521_tl_25" n="N025" break="no"/>essirenden Ausgang von <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> und <rs type="person" ref="#hsl_person_id_1683">Brunhild</rs> schlechter
+         <lb facs="#facs_2_region_1767943423342_521_tl_26" n="N026" break="no"/>dings nichts zu schaffen hat. Die ganze Katastrophe ist
+         <lb facs="#facs_2_region_1767943423342_521_tl_27" n="N027"/>förmlich über’s Knie gebrochen. Während <rs type="person" ref="#hsl_person_id_319">Wagner</rs> sonst im
+         <lb facs="#facs_2_region_1767943423342_521_tl_28" n="N028"/>Retardiren aller Situationen das Unglaublichste zu leisten
+         <lb facs="#facs_2_region_1767943423342_521_tl_29" n="N029"/>liebt, überstürzt er die Schlußscenen der „<rs type="bibl" ref="#hsl_work_id_1316">Götterdämme
+         <lb facs="#facs_2_region_1767943423342_521_tl_30" n="N030" break="no"/>rung</rs>“. Die Tödtung <rs type="person" ref="#hsl_person_id_1689">Gunther</rs>’s durch <rs type="person" ref="#hsl_person_id_1688">Hagen</rs>, der Opfertod
+         <lb facs="#facs_2_region_1767943423342_521_tl_31" n="N031"/><rs type="person" ref="#hsl_person_id_1683">Brunhild</rs>’s, <rs type="person" ref="#hsl_person_id_1688">Hagen</rs>’s Salto mortale in den Fluß, die <rs type="person" ref="#hsl_person_id_5002 #hsl_person_id_5001 #hsl_person_id_5000">Rhein
+         <lb facs="#facs_2_region_1767943423342_521_tl_32" n="N032" break="no"/>töchter</rs>, unten die Ueberschwemmung, oben die Götterdämme
+         <lb facs="#facs_2_region_1767943423342_521_tl_33" n="N033" break="no"/>rung in der „Walhalla“ — das Alles stürzt mit so mate
+         <lb facs="#facs_2_region_1767943423342_521_tl_34" n="N034" break="no"/>rieller Hast, so balletmäßig überraschend auf und über ein
+         <lb facs="#facs_2_region_1767943423342_521_tl_35" n="N035" break="no"/>ander, daß es dem Zuschauer kaum möglich ist, sich über
+         <lb facs="#facs_2_region_1767943423342_521_tl_36" n="N036"/>diese Vorgänge klar zu werden. Wie am Schlusse das Bild
+         <lb facs="#facs_2_region_1767943423342_521_tl_37" n="N037"/>der Götterdämmerung scenisch herzustellen sei, darüber scheint
+         <lb facs="#facs_2_region_1767943423342_521_tl_38" n="N038"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> selbst nicht ganz mit sich einig. In <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs> war
+         <lb facs="#facs_2_region_1767943423342_521_tl_39" n="N039"/>das Tableau unschön, unklar und mißlungen wie hier, aber
+         <lb facs="#facs_2_region_1767943423342_521_tl_40" n="N040"/>es war ein ganz anderes Bild als in <rs type="place" ref="#hsl_place_id_55">Wien</rs>, wo doch Alles<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1767943423342_521_tl_1" n="N001"/>zu, in dem sich das Geflecht des Weltenschicksals symbolisirt.
-               <lb facs="#facs_2_region_1767943423342_521_tl_2" n="N002"/>Hier ist die Verwechslung der Gesetze des Epischen und des
-               <lb facs="#facs_2_region_1767943423342_521_tl_3" n="N003"/>Dramatischen, des blos Symbolischen mit dem scenisch Dar¬
-               <lb facs="#facs_2_region_1767943423342_521_tl_4" n="N004"/>zustellenden auffallend genug; die Scene streifte in <rs type="place">Bayreuth</rs>
-               <lb facs="#facs_2_region_1767943423342_521_tl_5" n="N005"/>ans Komische. Auch abgesehen von der unerträglichen Länge
-               <lb facs="#facs_2_region_1767943423342_521_tl_6" n="N006"/>des ersten Actes, that man in <rs type="place">Wien</rs> wohl daran, diese In¬
-               <lb facs="#facs_2_region_1767943423342_521_tl_7" n="N007"/>troduction zu streichen. Wir würden dasselbe Verfahren gegen
-               <lb facs="#facs_2_region_1767943423342_521_tl_8" n="N008"/>eine zweite, ebenso überflüssige Scene empfehlen, welche dem
-               <lb facs="#facs_2_region_1767943423342_521_tl_9" n="N009"/>Publicum keine geringere Geduldprobe auferlegt: die
-               <lb facs="#facs_2_region_1767943423342_521_tl_10" n="N010"/>Scene <hi rendition="#em">
-                  <rs type="person">Waltraute</rs>'s</hi>. Diese in der „<rs type="bibl">Götterdämmerung</rs>“
-               <lb facs="#facs_2_region_1767943423342_521_tl_11" n="N011"/>ganz unerwartet auftauchende Walküre besucht <rs type="person">Brun¬</rs>
-               <lb facs="#facs_2_region_1767943423342_521_tl_12" n="N012"/>
-               <rs type="person">hilde</rs>n, um ihr eine sehr bewegliche Schilderung von
-               <lb facs="#facs_2_region_1767943423342_521_tl_13" n="N013"/>dem schlechten Befinden des erhabenen <rs type="person">Wotan</rs> zu machen.
-               <lb facs="#facs_2_region_1767943423342_521_tl_14" n="N014"/>Wir vermuthen, daß die Mehrzahl des Publicums sich (offen
-               <lb facs="#facs_2_region_1767943423342_521_tl_15" n="N015"/>oder heimlich) beglückwünscht, diesen <rs type="person">Wotan</rs> wenigstens am
-               <lb facs="#facs_2_region_1767943423342_521_tl_16" n="N016"/>vierten Abend los zu sein, somit auf jede sentimental aus¬
-               <lb facs="#facs_2_region_1767943423342_521_tl_17" n="N017"/>gedehnte Schilderung von seiner Melancholie und Appetit¬
-               <lb facs="#facs_2_region_1767943423342_521_tl_18" n="N018"/>losigkeit gerne verzichtet. Aehnlicherweise überraschend taucht
-               <lb facs="#facs_2_region_1767943423342_521_tl_19" n="N019"/>auch der Zwerg <rs type="person">Alberich</rs> ganz episodisch wieder aus der
-               <lb facs="#facs_2_region_1767943423342_521_tl_20" n="N020"/>Versenkung auf, um in einer martervoll dissonanzenreichen
-               <lb facs="#facs_2_region_1767943423342_521_tl_21" n="N021"/>Scene längst Bekanntes dem <rs type="person">Hagen</rs> zu erzählen. Das Be¬
-               <lb facs="#facs_2_region_1767943423342_521_tl_22" n="N022"/>denklichste von Allem scheint uns jedoch das Ende: das un¬
-               <lb facs="#facs_2_region_1767943423342_521_tl_23" n="N023"/>motivirte, dem Zuschauer unverständliche Hereinbrechen der
-               <lb facs="#facs_2_region_1767943423342_521_tl_24" n="N024"/>
-               <hi rendition="#em">Götterdämmerung</hi>, die doch mit dem uns allein inter¬
-               <lb facs="#facs_2_region_1767943423342_521_tl_25" n="N025"/>essirenden Ausgang von <rs type="person">Siegfried</rs> und <rs type="person">Brunhild</rs> schlechter¬
-               <lb facs="#facs_2_region_1767943423342_521_tl_26" n="N026"/>dings nichts zu schaffen hat. Die ganze Katastrophe ist
-               <lb facs="#facs_2_region_1767943423342_521_tl_27" n="N027"/>förmlich über's Knie gebrochen. Während <rs type="person">Wagner</rs> sonst im
-               <lb facs="#facs_2_region_1767943423342_521_tl_28" n="N028"/>Retardiren aller Situationen das Unglaublichste zu leisten
-               <lb facs="#facs_2_region_1767943423342_521_tl_29" n="N029"/>liebt, überstürzt er die Schlußscenen der „<rs type="bibl">Götterdämme¬</rs>
-               <lb facs="#facs_2_region_1767943423342_521_tl_30" n="N030"/>
-               <rs type="bibl">rung</rs>“. Die Tödtung <rs type="person">Gunther</rs>'s durch <rs type="person">Hagen</rs>, der Opfertod
-               <lb facs="#facs_2_region_1767943423342_521_tl_31" n="N031"/>
-               <rs type="person">Brunhild</rs>'s, <rs type="person">Hagen</rs>'s Salto mortale in den Fluß, die <rs type="person">Rhein¬</rs>
-               <lb facs="#facs_2_region_1767943423342_521_tl_32" n="N032"/>
-               <rs type="person">töchter</rs>, unten die Ueberschwemmung, oben die Götterdämme¬
-               <lb facs="#facs_2_region_1767943423342_521_tl_33" n="N033"/>rung in der „Walhalla“ — das Alles stürzt mit so mate¬
-               <lb facs="#facs_2_region_1767943423342_521_tl_34" n="N034"/>rieller Hast, so balletmäßig überraschend auf und über ein¬
-               <lb facs="#facs_2_region_1767943423342_521_tl_35" n="N035"/>ander, daß es dem Zuschauer kaum möglich ist, sich über
-               <lb facs="#facs_2_region_1767943423342_521_tl_36" n="N036"/>diese Vorgänge klar zu werden. Wie am Schlusse das Bild
-               <lb facs="#facs_2_region_1767943423342_521_tl_37" n="N037"/>der Götterdämmerung scenisch herzustellen sei, darüber scheint
-               <lb facs="#facs_2_region_1767943423342_521_tl_38" n="N038"/>
-               <rs type="person">Wagner</rs> selbst nicht ganz mit sich einig. In <rs type="place">Bayreuth</rs> war
-               <lb facs="#facs_2_region_1767943423342_521_tl_39" n="N039"/>das Tableau unschön, unklar und mißlungen wie hier, aber
-               <lb facs="#facs_2_region_1767943423342_521_tl_40" n="N040"/>es war ein ganz anderes Bild als in <rs type="place">Wien</rs>, wo doch Alles
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1767943427110_524_tl_1" n="N001"/>nach <rs type="person">Wagner</rs>'s neuesten Vorschriften unter unmittelbarer
-               <lb facs="#facs_2_region_1767943427110_524_tl_2" n="N002"/>Aufsicht öffentlich beglaubigter und geheimer Agenten des
-               <lb facs="#facs_2_region_1767943427110_524_tl_3" n="N003"/>„Meisters“ scenirt wurde. Wieder andere Versuche wurden
-               <lb facs="#facs_2_region_1767943427110_524_tl_4" n="N004"/>in anderen <rs type="place">deutsch</rs>en Theatern mit dem Schlußtableau ge¬
-               <lb facs="#facs_2_region_1767943427110_524_tl_5" n="N005"/>macht, mit nicht viel besserem Erfolge. Der Grund des Uebels
-               <lb facs="#facs_2_region_1767943427110_524_tl_6" n="N006"/>liegt ohne Frage schon in der Dichtung; <rs type="person">Wagner</rs>'s Absichten
-               <lb facs="#facs_2_region_1767943427110_524_tl_7" n="N007"/>sind hier über die Grenzen des Möglichen, wenigstens des
-               <lb facs="#facs_2_region_1767943427110_524_tl_8" n="N008"/>richtig Ausführbaren hinausgeschossen. Durch zwei kleine
-               <lb facs="#facs_2_region_1767943427110_524_tl_9" n="N009"/>Striche wäre die Unklarheit dieses vierten Dramas erheblich
-               <lb facs="#facs_2_region_1767943427110_524_tl_10" n="N010"/>zu verringern: ein Strich durch den Titel „<rs type="bibl">Götterdämme¬</rs>
-               <lb facs="#facs_2_region_1767943427110_524_tl_11" n="N011"/>
-               <rs type="bibl">rung</rs>“ (zu Gunsten des früheren: „<rs type="bibl">Siegfried's Tod</rs>“) und
-               <lb facs="#facs_2_region_1767943427110_524_tl_12" n="N012"/>ein zweiter über das diese „Götterdämmerung“ darstellende
-               <lb facs="#facs_2_region_1767943427110_524_tl_13" n="N013"/>Wolkentableau.
-               <lb facs="#facs_2_region_1767943427110_524_tl_14" n="N014"/>Unser Bericht ist über die Dichtung so redselig gewor¬
-               <lb facs="#facs_2_region_1767943427110_524_tl_15" n="N015"/>den, daß ihm wenig Raum mehr übrig bleibt für die Musik.
-               <lb facs="#facs_2_region_1767943427110_524_tl_16" n="N016"/>Wir haben dafür nun die Entschuldigung, daß in der „<rs type="bibl">Götter¬</rs>
-               <lb facs="#facs_2_region_1767943427110_524_tl_17" n="N017"/>
-               <rs type="bibl">dämmerung</rs>“ die Handlung eine neue, eine andere ist, als
-               <lb facs="#facs_2_region_1767943427110_524_tl_18" n="N018"/>in den drei ersten <rs type="bibl">„Nibelungen“-Dramen</rs>, die Musik jedoch
-               <lb facs="#facs_2_region_1767943427110_524_tl_19" n="N019"/>im Großen und Ganzen dieselbe. Die Musik baut sich über¬
-               <lb facs="#facs_2_region_1767943427110_524_tl_20" n="N020"/>wiegend aus den Leitmotiven der früheren drei Abende auf,
-               <lb facs="#facs_2_region_1767943427110_524_tl_21" n="N021"/>also aus demselben Material und genau nach derselben be¬
-               <lb facs="#facs_2_region_1767943427110_524_tl_22" n="N022"/>kannten Methode. Mit einigen Ausnahmen, die gleich ge¬
-               <lb facs="#facs_2_region_1767943427110_524_tl_23" n="N023"/>nannt werden sollen, kann Alles, womit wir rühmend oder
-               <lb facs="#facs_2_region_1767943427110_524_tl_24" n="N024"/>tadelnd die Musik zur „<rs type="bibl">Walküre</rs>“ zu charakterisiren ver¬
-               <lb facs="#facs_2_region_1767943427110_524_tl_25" n="N025"/>sucht, auch von der Partitur der „<rs type="bibl">Götterdämmerung</rs>“
-               <lb facs="#facs_2_region_1767943427110_524_tl_26" n="N026"/>gelten; eine nochmalige Wiederholung des Oftgesagten
-               <lb facs="#facs_2_region_1767943427110_524_tl_27" n="N027"/>verbietet uns die Rücksicht für den Leser. Das wesent¬
-               <lb facs="#facs_2_region_1767943427110_524_tl_28" n="N028"/>lichste musikalische Unterscheidungszeichen der „<rs type="bibl">Götterdämme¬</rs>
-               <lb facs="#facs_2_region_1767943427110_524_tl_29" n="N029"/>
-               <rs type="bibl">rung</rs>“ besteht in dem — wenigstens sporadischen — Vor¬
-               <lb facs="#facs_2_region_1767943427110_524_tl_30" n="N030"/>kommen mehrstimmigen Gesanges. Insbesondere die uner¬
-               <lb facs="#facs_2_region_1767943427110_524_tl_31" n="N031"/>wartete Concession eines wirklichen Männerchors muß den
-               <lb facs="#facs_2_region_1767943427110_524_tl_32" n="N032"/>so lange homophon gemaßregelten Hörer angenehm über¬
-               <lb facs="#facs_2_region_1767943427110_524_tl_33" n="N033"/>raschen. Das Entzücken, welches bei dieser tobsüchtigen Lustig¬
-               <lb facs="#facs_2_region_1767943427110_524_tl_34" n="N034"/>keit von „<rs type="person">Gunther</rs>'s Mannen“ laut wurde, können wir in der
-               <lb facs="#facs_2_region_1767943427110_524_tl_35" n="N035"/>That nur dem elementarischen Reiz des lang entbehrten Zu¬
-               <lb facs="#facs_2_region_1767943427110_524_tl_36" n="N036"/>sammenklanges von Männerstimmen zuschreiben. An einzelnen
-               <lb facs="#facs_2_region_1767943427110_524_tl_37" n="N037"/>schönen, melodiösen Momenten fehlt es weder dem ersten noch
-               <lb facs="#facs_2_region_1767943427110_524_tl_38" n="N038"/>dem zweiten Act; leider besitzen sie alle wie <rs type="person">Siegfried</rs> eine
-               <lb facs="#facs_2_region_1767943427110_524_tl_39" n="N039"/>Tarnkappe, unter der sie, kaum erschienen, sich auch gleich
-               <lb facs="#facs_2_region_1767943427110_524_tl_40" n="N040"/>wieder unsichtbar machen oder in irgend etwas Beliebiges
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1767943427110_524_tl_1" n="N001"/>nach <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s neuesten Vorschriften unter unmittelbarer
+         <lb facs="#facs_2_region_1767943427110_524_tl_2" n="N002"/>Aufsicht öffentlich beglaubigter und geheimer Agenten des
+         <lb facs="#facs_2_region_1767943427110_524_tl_3" n="N003"/>„Meisters“ scenirt wurde. Wieder andere Versuche wurden
+         <lb facs="#facs_2_region_1767943427110_524_tl_4" n="N004"/>in anderen <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Theatern mit dem Schlußtableau ge
+         <lb facs="#facs_2_region_1767943427110_524_tl_5" n="N005" break="no"/>macht, mit nicht viel besserem Erfolge. Der Grund des Uebels
+         <lb facs="#facs_2_region_1767943427110_524_tl_6" n="N006"/>liegt ohne Frage schon in der Dichtung; <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Absichten
+         <lb facs="#facs_2_region_1767943427110_524_tl_7" n="N007"/>sind hier über die Grenzen des Möglichen, wenigstens des
+         <lb facs="#facs_2_region_1767943427110_524_tl_8" n="N008"/>richtig Ausführbaren hinausgeschossen. Durch zwei kleine
+         <lb facs="#facs_2_region_1767943427110_524_tl_9" n="N009"/>Striche wäre die Unklarheit dieses vierten Dramas erheblich
+         <lb facs="#facs_2_region_1767943427110_524_tl_10" n="N010"/>zu verringern: ein Strich durch den Titel „<rs type="bibl" ref="#hsl_work_id_1316">Götterdämme
+         <lb facs="#facs_2_region_1767943427110_524_tl_11" n="N011" break="no"/>rung</rs>“ (zu Gunsten des früheren: „<rs type="bibl" ref="#hsl_work_id_5772">Siegfried’s Tod</rs>“) und
+         <lb facs="#facs_2_region_1767943427110_524_tl_12" n="N012"/>ein zweiter über das diese „Götterdämmerung“ darstellende
+         <lb facs="#facs_2_region_1767943427110_524_tl_13" n="N013"/>Wolkentableau.
+            </p><p>
+         <lb facs="#facs_2_region_1767943427110_524_tl_14" n="N014"/>Unser Bericht ist über die Dichtung so redselig gewor
+         <lb facs="#facs_2_region_1767943427110_524_tl_15" n="N015" break="no"/>den, daß ihm wenig Raum mehr übrig bleibt für die Musik.
+         <lb facs="#facs_2_region_1767943427110_524_tl_16" n="N016"/>Wir haben dafür nun die Entschuldigung, daß in der „<rs type="bibl" ref="#hsl_work_id_1316">Götter
+         <lb facs="#facs_2_region_1767943427110_524_tl_17" n="N017" break="no"/>dämmerung</rs>“ die Handlung eine neue, eine andere ist, als
+         <lb facs="#facs_2_region_1767943427110_524_tl_18" n="N018"/>in den drei ersten <rs type="bibl" ref="#hsl_work_id_418">„Nibelungen“-Dramen</rs>, die Musik jedoch
+         <lb facs="#facs_2_region_1767943427110_524_tl_19" n="N019"/>im Großen und Ganzen dieselbe. Die Musik baut sich über
+         <lb facs="#facs_2_region_1767943427110_524_tl_20" n="N020" break="no"/>wiegend aus den Leitmotiven der früheren drei Abende auf,
+         <lb facs="#facs_2_region_1767943427110_524_tl_21" n="N021"/>also aus demselben Material und genau nach derselben be
+         <lb facs="#facs_2_region_1767943427110_524_tl_22" n="N022" break="no"/>kannten Methode. Mit einigen Ausnahmen, die gleich ge
+         <lb facs="#facs_2_region_1767943427110_524_tl_23" n="N023" break="no"/>nannt werden sollen, kann Alles, womit wir rühmend oder
+         <lb facs="#facs_2_region_1767943427110_524_tl_24" n="N024"/>tadelnd die Musik zur „<rs type="bibl" ref="#hsl_work_id_649">Walküre</rs>“ zu charakterisiren ver
+         <lb facs="#facs_2_region_1767943427110_524_tl_25" n="N025" break="no"/>sucht, auch von der Partitur der „<rs type="bibl" ref="#hsl_work_id_1316">Götterdämmerung</rs>“
+         <lb facs="#facs_2_region_1767943427110_524_tl_26" n="N026"/>gelten; eine nochmalige Wiederholung des Oftgesagten
+         <lb facs="#facs_2_region_1767943427110_524_tl_27" n="N027"/>verbietet uns die Rücksicht für den Leser. Das wesent
+         <lb facs="#facs_2_region_1767943427110_524_tl_28" n="N028" break="no"/>lichste musikalische Unterscheidungszeichen der „<rs type="bibl" ref="#hsl_work_id_1316">Götterdämme
+         <lb facs="#facs_2_region_1767943427110_524_tl_29" n="N029" break="no"/>rung</rs>“ besteht in dem — wenigstens sporadischen — Vor
+         <lb facs="#facs_2_region_1767943427110_524_tl_30" n="N030" break="no"/>kommen mehrstimmigen Gesanges. Insbesondere die uner
+         <lb facs="#facs_2_region_1767943427110_524_tl_31" n="N031" break="no"/>wartete Concession eines wirklichen Männerchors muß den
+         <lb facs="#facs_2_region_1767943427110_524_tl_32" n="N032"/>so lange homophon gemaßregelten Hörer angenehm über
+         <lb facs="#facs_2_region_1767943427110_524_tl_33" n="N033" break="no"/>raschen. Das Entzücken, welches bei dieser tobsüchtigen Lustig
+         <lb facs="#facs_2_region_1767943427110_524_tl_34" n="N034" break="no"/>keit von „<rs type="person" ref="#hsl_person_id_1689">Gunther</rs>’s Mannen“ laut wurde, können wir in der
+         <lb facs="#facs_2_region_1767943427110_524_tl_35" n="N035"/>That nur dem elementarischen Reiz des lang entbehrten Zu
+         <lb facs="#facs_2_region_1767943427110_524_tl_36" n="N036" break="no"/>sammenklanges von Männerstimmen zuschreiben. An einzelnen
+         <lb facs="#facs_2_region_1767943427110_524_tl_37" n="N037"/>schönen, melodiösen Momenten fehlt es weder dem ersten noch
+         <lb facs="#facs_2_region_1767943427110_524_tl_38" n="N038"/>dem zweiten Act; leider besitzen sie alle wie <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> eine
+         <lb facs="#facs_2_region_1767943427110_524_tl_39" n="N039"/>Tarnkappe, unter der sie, kaum erschienen, sich auch gleich
+         <lb facs="#facs_2_region_1767943427110_524_tl_40" n="N040"/>wieder unsichtbar machen oder in irgend etwas Beliebiges<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1767943439205_530_tl_1" n="N001"/>verwandeln. Der dritte Act erhebt sich über die beiden
-               <lb facs="#facs_3_region_1767943439205_530_tl_2" n="N002"/>früheren namentlich durch zwei längere Stücke von festerem,
-               <lb facs="#facs_3_region_1767943439205_530_tl_3" n="N003"/>gegliedertem musikalischen Aufbaue und melodiösem Reiz:
-               <lb facs="#facs_3_region_1767943439205_530_tl_4" n="N004"/>der originelle, zauberisch flimmernde Gesang der drei <rs type="person">Rhein¬</rs>
-               <lb facs="#facs_3_region_1767943439205_530_tl_5" n="N005"/>
-               <rs type="person">töchter</rs> und der aus Concerten bereits bekannte, geistvoll com¬
-               <lb facs="#facs_3_region_1767943439205_530_tl_6" n="N006"/>binirte und mit seltener Pracht ausgeführte Trauermarsch für
-               <lb facs="#facs_3_region_1767943439205_530_tl_7" n="N007"/>
-               <rs type="person">Siegfried</rs>.
-               <lb facs="#facs_3_region_1767943439205_530_tl_8" n="N008"/>Die Aufführung der „<rs type="bibl">Götterdämmerung</rs>“ im Hofopern¬
-               <lb facs="#facs_3_region_1767943439205_530_tl_9" n="N009"/>theater verdient dasselbe reichliche Lob, das wir den vorher¬
-               <lb facs="#facs_3_region_1767943439205_530_tl_10" n="N010"/>gehenden Stücken des <rs type="person">Wagner</rs>'schen <rs type="bibl">Nibelungenring</rs>s spenden
-               <lb facs="#facs_3_region_1767943439205_530_tl_11" n="N011"/>mußten. Ja in Anbetracht der hier viel schwierigeren Auf¬
-               <lb facs="#facs_3_region_1767943439205_530_tl_12" n="N012"/>gabe erscheint uns die neueste Leistung des Hofoperntheaters
-               <lb facs="#facs_3_region_1767943439205_530_tl_13" n="N013"/>noch rühmenswerther. Neben der virtuosen Leistung des von
-               <lb facs="#facs_3_region_1767943439205_530_tl_14" n="N014"/>H. <hi rendition="#em">
-                  <rs type="person">Richter</rs>
-               </hi> geleiteten Orchesters stand diesmal auch die
-               <lb facs="#facs_3_region_1767943439205_530_tl_15" n="N015"/>gleich treffliche des Chores. Von den Decorationen sind na¬
-               <lb facs="#facs_3_region_1767943439205_530_tl_16" n="N016"/>mentlich die Halle <rs type="person">Gunther</rs>'s und das Rheinthal bei Sonnen¬
-               <lb facs="#facs_3_region_1767943439205_530_tl_17" n="N017"/>aufgang von herrlicher Wirkung. Von den Sängern ist Frau
-               <lb facs="#facs_3_region_1767943439205_530_tl_18" n="N018"/>
-               <hi rendition="#em">
-                  <rs type="person">Materna</rs>
-               </hi> obenan zu nennen, sie führte die wichtigste und
-               <lb facs="#facs_3_region_1767943439205_530_tl_19" n="N019"/>anstrengendste Partie der Oper, <rs type="person">Brunhild</rs>, mit bewunde¬
-               <lb facs="#facs_3_region_1767943439205_530_tl_20" n="N020"/>rungswürdiger Kraft und Leidenschaft durch. Von Herrn
-               <lb facs="#facs_3_region_1767943439205_530_tl_21" n="N021"/>
-               <hi rendition="#em">
-                  <rs type="person">Jäger</rs>
-               </hi> kann man im eigentlichsten Sinne behaupten, daß
-               <lb facs="#facs_3_region_1767943439205_530_tl_22" n="N022"/>er den <rs type="person">Siegfried</rs> ausgezeichnet „verkörperte“; Gestalt, Hal¬
-               <lb facs="#facs_3_region_1767943439205_530_tl_23" n="N023"/>tung und Bewegung befähigen ihn ganz einzig für <rs type="person">Wagner</rs>'sche
-               <lb facs="#facs_3_region_1767943439205_530_tl_24" n="N024"/>Helden, die Stimme hat er bereits diesem Heldenthum so
-               <lb facs="#facs_3_region_1767943439205_530_tl_25" n="N025"/>ziemlich geopfert. Frau <hi rendition="#em">
-                  <rs type="person">Dillner</rs>
-               </hi>, als <rs type="person">Gutrune</rs> die lieb¬
-               <lb facs="#facs_3_region_1767943439205_530_tl_26" n="N026"/>lichste Erscheinung dieses Abends, spielte die mehr dramatisch
-               <lb facs="#facs_3_region_1767943439205_530_tl_27" n="N027"/>als musikalisch wichtige Rolle sehr ausdrucksvoll. Daß Herr
-               <lb facs="#facs_3_region_1767943439205_530_tl_28" n="N028"/>
-               <hi rendition="#em">
-                  <rs type="person">Beck</rs>
-               </hi> nicht verschmähte, die kleine Scene des <rs type="person">Alberich</rs> zu
-               <lb facs="#facs_3_region_1767943439205_530_tl_29" n="N029"/>singen, ist ein neuer rühmlicher Beweis seiner echten Künstler¬
-               <lb facs="#facs_3_region_1767943439205_530_tl_30" n="N030"/>schaft. Herrn <hi rendition="#em">
-                  <rs type="person">Rokitansky</rs>
-               </hi> paßt der „grimme <rs type="person">Hagen</rs>“
-               <lb facs="#facs_3_region_1767943439205_530_tl_31" n="N031"/>ganz vortrefflich; mit dem <rs type="person">Gunther</rs> wußte Herr v. <hi rendition="#em">
-                  <rs type="person">Bignio</rs>
-               </hi>
-               <lb facs="#facs_3_region_1767943439205_530_tl_32" n="N032"/>sich vollständig abzufinden. Nennen wir noch als tüchtige
-               <lb facs="#facs_3_region_1767943439205_530_tl_33" n="N033"/>Vertreterinnen der kleineren, weder leichten noch unwichtigen
-               <lb facs="#facs_3_region_1767943439205_530_tl_34" n="N034"/>Rollen die Fräulein <hi rendition="#em">
-                  <rs type="person">Stahl</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Siegstädt</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Kraus</rs>
-               </hi> und
-               <lb facs="#facs_3_region_1767943439205_530_tl_35" n="N035"/>
-               <hi rendition="#em">
-                  <rs type="person">Kaulich</rs>
-               </hi>, so haben wir hoffentlich Niemanden vergessen.
-               <lb facs="#facs_3_region_1767943439205_530_tl_36" n="N036"/>Die Aufnahme der Oper war eine stürmisch beifällige, die
-               <lb facs="#facs_3_region_1767943439205_530_tl_37" n="N037"/>Darsteller der Hauptrollen und der verdienstvolle Dirigent
-               <lb facs="#facs_3_region_1767943439205_530_tl_38" n="N038"/>der Oper, Herr Hanns <hi rendition="#em">
-                  <rs type="person">Richter</rs>
-               </hi>, wurden unzähligemale
-               <lb facs="#facs_3_region_1767943439205_530_tl_39" n="N039"/>gerufen.
-            </p>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1767943439205_530_tl_1" n="N001"/>verwandeln. Der dritte Act erhebt sich über die beiden
+         <lb facs="#facs_3_region_1767943439205_530_tl_2" n="N002"/>früheren namentlich durch zwei längere Stücke von festerem,
+         <lb facs="#facs_3_region_1767943439205_530_tl_3" n="N003"/>gegliedertem musikalischen Aufbaue und melodiösem Reiz:
+         <lb facs="#facs_3_region_1767943439205_530_tl_4" n="N004"/>der originelle, zauberisch flimmernde Gesang der drei <rs type="person" ref="#hsl_person_id_5002 #hsl_person_id_5001 #hsl_person_id_5000">Rhein
+         <lb facs="#facs_3_region_1767943439205_530_tl_5" n="N005" break="no"/>töchter</rs> und der aus Concerten bereits bekannte, geistvoll com
+         <lb facs="#facs_3_region_1767943439205_530_tl_6" n="N006" break="no"/>binirte und mit seltener Pracht ausgeführte Trauermarsch für
+         <lb facs="#facs_3_region_1767943439205_530_tl_7" n="N007"/><rs type="person" ref="#hsl_person_id_1684">Siegfried</rs>.
+            </p><p>
+         <lb facs="#facs_3_region_1767943439205_530_tl_8" n="N008"/>Die Aufführung der „<rs type="bibl" ref="#hsl_work_id_1316">Götterdämmerung</rs>“ im Hofopern
+         <lb facs="#facs_3_region_1767943439205_530_tl_9" n="N009" break="no"/>theater verdient dasselbe reichliche Lob, das wir den vorher
+         <lb facs="#facs_3_region_1767943439205_530_tl_10" n="N010" break="no"/>gehenden Stücken des <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’schen <rs type="bibl" ref="#hsl_work_id_418">Nibelungenring</rs>s spenden
+         <lb facs="#facs_3_region_1767943439205_530_tl_11" n="N011"/>mußten. Ja in Anbetracht der hier viel schwierigeren Auf
+         <lb facs="#facs_3_region_1767943439205_530_tl_12" n="N012" break="no"/>gabe erscheint uns die neueste Leistung des Hofoperntheaters
+         <lb facs="#facs_3_region_1767943439205_530_tl_13" n="N013"/>noch rühmenswerther. Neben der virtuosen Leistung des von
+         <lb facs="#facs_3_region_1767943439205_530_tl_14" n="N014"/>H. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1399">Richter</rs></hi> geleiteten Orchesters stand diesmal auch die
+         <lb facs="#facs_3_region_1767943439205_530_tl_15" n="N015"/>gleich treffliche des Chores. Von den Decorationen sind na
+         <lb facs="#facs_3_region_1767943439205_530_tl_16" n="N016" break="no"/>mentlich die Halle <rs type="person" ref="#hsl_person_id_1689">Gunther</rs>’s und das Rheinthal bei Sonnen
+         <lb facs="#facs_3_region_1767943439205_530_tl_17" n="N017" break="no"/>aufgang von herrlicher Wirkung. Von den Sängern ist Frau
+         <lb facs="#facs_3_region_1767943439205_530_tl_18" n="N018"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1031">Materna</rs></hi> obenan zu nennen, sie führte die wichtigste und
+         <lb facs="#facs_3_region_1767943439205_530_tl_19" n="N019"/>anstrengendste Partie der Oper, <rs type="person" ref="#hsl_person_id_1683">Brunhild</rs>, mit bewunde
+         <lb facs="#facs_3_region_1767943439205_530_tl_20" n="N020" break="no"/>rungswürdiger Kraft und Leidenschaft durch. Von Herrn
+         <lb facs="#facs_3_region_1767943439205_530_tl_21" n="N021"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2317">Jäger</rs></hi> kann man im eigentlichsten Sinne behaupten, daß
+         <lb facs="#facs_3_region_1767943439205_530_tl_22" n="N022"/>er den <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs> ausgezeichnet „verkörperte“; Gestalt, Hal
+         <lb facs="#facs_3_region_1767943439205_530_tl_23" n="N023" break="no"/>tung und Bewegung befähigen ihn ganz einzig für <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’sche
+         <lb facs="#facs_3_region_1767943439205_530_tl_24" n="N024"/>Helden, die Stimme hat er bereits diesem Heldenthum so
+         <lb facs="#facs_3_region_1767943439205_530_tl_25" n="N025"/>ziemlich geopfert. Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_61">Dillner</rs></hi>, als <rs type="person" ref="#hsl_person_id_7172">Gutrune</rs> die lieb
+         <lb facs="#facs_3_region_1767943439205_530_tl_26" n="N026" break="no"/>lichste Erscheinung dieses Abends, spielte die mehr dramatisch
+         <lb facs="#facs_3_region_1767943439205_530_tl_27" n="N027"/>als musikalisch wichtige Rolle sehr ausdrucksvoll. Daß Herr
+         <lb facs="#facs_3_region_1767943439205_530_tl_28" n="N028"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs></hi> nicht verschmähte, die kleine Scene des <rs type="person" ref="#hsl_person_id_1686">Alberich</rs> zu
+         <lb facs="#facs_3_region_1767943439205_530_tl_29" n="N029"/>singen, ist ein neuer rühmlicher Beweis seiner echten Künstler
+         <lb facs="#facs_3_region_1767943439205_530_tl_30" n="N030" break="no"/>schaft. Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_240">Rokitansky</rs></hi> paßt der „grimme <rs type="person" ref="#hsl_person_id_1688">Hagen</rs>“
+         <lb facs="#facs_3_region_1767943439205_530_tl_31" n="N031"/>ganz vortrefflich; mit dem <rs type="person" ref="#hsl_person_id_1689">Gunther</rs> wußte Herr v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_33">Bignio</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1767943439205_530_tl_32" n="N032"/>sich vollständig abzufinden. Nennen wir noch als tüchtige
+         <lb facs="#facs_3_region_1767943439205_530_tl_33" n="N033"/>Vertreterinnen der kleineren, weder leichten noch unwichtigen
+         <lb facs="#facs_3_region_1767943439205_530_tl_34" n="N034"/>Rollen die Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7470">Stahl</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_806">Siegstädt</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7562">Kraus</rs></hi> und
+         <lb facs="#facs_3_region_1767943439205_530_tl_35" n="N035"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1057">Kaulich</rs></hi>, so haben wir hoffentlich Niemanden vergessen.
+         <lb facs="#facs_3_region_1767943439205_530_tl_36" n="N036"/>Die Aufnahme der Oper war eine stürmisch beifällige, die
+         <lb facs="#facs_3_region_1767943439205_530_tl_37" n="N037"/>Darsteller der Hauptrollen und der verdienstvolle Dirigent
+         <lb facs="#facs_3_region_1767943439205_530_tl_38" n="N038"/>der Oper, Herr Hanns <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1399">Richter</rs></hi>, wurden unzähligemale
+         <lb facs="#facs_3_region_1767943439205_530_tl_39" n="N039"/>gerufen.</p>
          </div>
       </body>
    </text>

@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 5182. Wien, Donnerstag, den 30. Januar 1879</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,24 +70,19 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 5182. Wien, Donnerstag, den 30. Januar 1879</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1879-01-30">30.01.1879</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,9 +102,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-01-24">Transkribus OCR und Lektorat.</change>
+         <change who=" fsanzlazaro" when="2026-01-30">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-02-12">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1097,419 +1093,335 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1767941653465_384_tl_1" n="N001"/><head type="h1">„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_3976">Beethoven’s Leben</rs>.</hi>“</head>
+            <lb facs="#facs_1_region_1767941653465_384_tl_2" n="N002"/><head type="h2">Von Alexander <rs type="person" ref="#hsl_person_id_2857">Thayer</rs>.</head>
             <p>
-               <lb facs="#facs_1_line_1768031695781_979" n="N001"/>Nr. 5182. Wien, Donnerstag, den 30. Januar 1879
-            </p>
+         <lb facs="#facs_1_region_1767941653465_384_tl_3" n="N003"/>Ed. H. Von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2857">Thayer</rs>’s</hi><space quantity="1" unit="char"/><rs type="bibl" ref="#hsl_work_id_3976">Beethoven-Biographie</rs> ist
+         <lb facs="#facs_1_region_1767941653465_384_tl_4" n="N004"/>soeben (bei Weber in <rs type="place" ref="#hsl_place_id_9">Berlin</rs>, <date>1879</date>) der dritte Band<space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767941653465_384_tl_5" n="N005"/>erschienen. „Der mit Spannung erwartete“ wäre hier keines
+         <lb facs="#facs_1_region_1767941653465_384_tl_6" n="N006" break="no"/>wegs ein blos höfliches Epitheton. Die beiden ersten Bände<space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767941653465_384_tl_7" n="N007"/>haben viel Neues und Wichtiges ans Licht gebracht; damit
+         <lb facs="#facs_1_region_1767941653465_384_tl_8" n="N008"/>wäre aber die Bedeutung des Buches sehr gering und ober
+         <lb facs="#facs_1_region_1767941653465_384_tl_9" n="N009" break="no"/>flächlich taxirt. <rs type="person" ref="#hsl_person_id_2857">Thayer</rs> — und hierin liegt der Schwerpunkt —
+         <lb facs="#facs_1_region_1767941653465_384_tl_10" n="N010"/>ist durch die Gewissenhaftigkeit und Gründlichkeit seiner For
+         <lb facs="#facs_1_region_1767941653465_384_tl_11" n="N011" break="no"/>schung, durch die Unerbittlichkeit seiner historischen Kritik zur
+         <lb facs="#facs_1_region_1767941653465_384_tl_12" n="N012"/>ersten Autorität in seinem Special-Gegenstande geworden, so
+         <lb facs="#facs_1_region_1767941653465_384_tl_13" n="N013"/>daß man irgend ein von früheren Biographen berichtetes
+         <lb facs="#facs_1_region_1767941653465_384_tl_14" n="N014"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Factum fortan nur unter der Controle von <rs type="person" ref="#hsl_person_id_2857">Thayer</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767941653465_384_tl_15" n="N015"/>mit Beruhigung für wahr halten kann. Dies gilt insbeson
+         <lb facs="#facs_1_region_1767941653465_384_tl_16" n="N016" break="no"/>dere von den durch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_249">Schindler</rs></hi> mitgetheilten Thatsachen
+         <lb facs="#facs_1_region_1767941653465_384_tl_17" n="N017"/>und Urtheilen, die seither fast von allen <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Schrift
+         <lb facs="#facs_1_region_1767941653465_384_tl_18" n="N018" break="no"/>stellern ohne weitere Prüfung als glaubwürdig hingenom
+         <lb facs="#facs_1_region_1767941653465_384_tl_19" n="N019" break="no"/>men und weiterverbreitet worden sind. Der neue, dritte
+         <lb facs="#facs_1_region_1767941653465_384_tl_20" n="N020"/>Band (der sieben Jahre nach dem zweiten, dreizehn Jahre
+         <lb facs="#facs_1_region_1767941653465_384_tl_21" n="N021"/>nach dem ersten erschienen ist) behandelt die Jahre <date>1807</date> bis
+         <lb facs="#facs_1_region_1767941653465_384_tl_22" n="N022"/>einschließlich <date>1816</date>, vielleicht das wichtigste Decennium und
+         <lb facs="#facs_1_region_1767941653465_384_tl_23" n="N023"/>vom Verfasser nicht mit Unrecht „Beethoven auf der Höhe
+         <lb facs="#facs_1_region_1767941653465_384_tl_24" n="N024"/>seines Schaffens“ überschrieben. Es steckt eine große, mühe
+         <lb facs="#facs_1_region_1767941653465_384_tl_25" n="N025" break="no"/>volle Arbeit in diesem Bande. Auch für den Leser bleibt
+         <lb facs="#facs_1_region_1767941653465_384_tl_26" n="N026"/>sie nicht ohne Anstrengung; Niemand wird behaupten,
+         <lb facs="#facs_1_region_1767941653465_384_tl_27" n="N027"/><rs type="person" ref="#hsl_person_id_2857">Thayer</rs>’s <rs type="bibl" ref="#hsl_work_id_3976">Buch</rs> lese sich wie ein Roman. Dafür
+         <lb facs="#facs_1_region_1767941653465_384_tl_28" n="N028"/>fehlt ihm aber auch gottlob Alles, was im schlimmen
+         <lb facs="#facs_1_region_1767941653465_384_tl_29" n="N029"/>Sinne an Roman-Lectüre mahnt und was gerade in
+         <lb facs="#facs_1_region_1767941653465_384_tl_30" n="N030"/>Künstler-Biographien so gern wuchert. Ich bekenne, daß in
+         <lb facs="#facs_1_region_1767941653465_384_tl_31" n="N031"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_175">Marx</rs>’</hi><space quantity="1" unit="char"/><rs type="bibl" ref="#hsl_work_id_487">Beethoven-Biographie</rs> schon die novellistischen Ca
+         <lb facs="#facs_1_region_1767941653465_384_tl_32" n="N032" break="no"/>pitel-Ueberschriften, wie: „Heldenweise“, „Das Verhängniß“,
+         <lb facs="#facs_1_region_1767941653465_384_tl_33" n="N033"/>„Die Zukunft vor dem Richterstuhl der Vergangenheit“,
+         <lb facs="#facs_1_region_1767941653465_384_tl_34" n="N034"/>„Mit frischen Segeln“, „Hohe Fluth“ etc., mich verstimmt und
+         <lb facs="#facs_1_region_1767941653465_384_tl_35" n="N035"/>mißtrauisch machen. Und was ist <hi rendition="#em"><rs type="person" ref="#hsl_person_id_175">Marx</rs></hi> noch für ein clas</p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1767941653465_384_tl_1" n="N001"/>„<hi rendition="#em">
-                  <rs type="bibl">Beethoven's Leben</rs>.</hi>“
-               <lb facs="#facs_1_region_1767941653465_384_tl_2" n="N002"/>Von Alexander <rs type="person">Thayer</rs>.
-               <lb facs="#facs_1_region_1767941653465_384_tl_3" n="N003"/>Ed. H. Von <hi rendition="#em">
-                  <rs type="person">Thayer</rs>'s</hi>
-               <rs type="bibl">Beethoven-Biographie</rs> ist
-               <lb facs="#facs_1_region_1767941653465_384_tl_4" n="N004"/>soeben (bei <rs type="person">Weber</rs> in <rs type="place">Berlin</rs>, <date month="0" day="0" year="0">1879</date>) der dritte <rs type="bibl">Band</rs>
-               <lb facs="#facs_1_region_1767941653465_384_tl_5" n="N005"/>erschienen. „Der mit Spannung erwartete“ wäre hier keines¬
-               <lb facs="#facs_1_region_1767941653465_384_tl_6" n="N006"/>wegs ein blos höfliches Epitheton. Die beiden ersten <rs type="bibl">Bände</rs>
-               <lb facs="#facs_1_region_1767941653465_384_tl_7" n="N007"/>haben viel Neues und Wichtiges ans Licht gebracht; damit
-               <lb facs="#facs_1_region_1767941653465_384_tl_8" n="N008"/>wäre aber die Bedeutung des Buches sehr gering und ober¬
-               <lb facs="#facs_1_region_1767941653465_384_tl_9" n="N009"/>flächlich taxirt. <rs type="person">Thayer</rs> — und hierin liegt der Schwerpunkt —
-               <lb facs="#facs_1_region_1767941653465_384_tl_10" n="N010"/>ist durch die Gewissenhaftigkeit und Gründlichkeit seiner For¬
-               <lb facs="#facs_1_region_1767941653465_384_tl_11" n="N011"/>schung, durch die Unerbittlichkeit seiner historischen Kritik zur
-               <lb facs="#facs_1_region_1767941653465_384_tl_12" n="N012"/>ersten Autorität in seinem Special-Gegenstande geworden, so
-               <lb facs="#facs_1_region_1767941653465_384_tl_13" n="N013"/>daß man irgend ein von früheren Biographen berichtetes
-               <lb facs="#facs_1_region_1767941653465_384_tl_14" n="N014"/>
-               <rs type="person">Beethoven</rs>-Factum fortan nur unter der Controle von <rs type="person">Thayer</rs>
-               <lb facs="#facs_1_region_1767941653465_384_tl_15" n="N015"/>mit Beruhigung für wahr halten kann. Dies gilt insbeson¬
-               <lb facs="#facs_1_region_1767941653465_384_tl_16" n="N016"/>dere von den durch <hi rendition="#em">
-                  <rs type="person">Schindler</rs>
-               </hi> mitgetheilten Thatsachen
-               <lb facs="#facs_1_region_1767941653465_384_tl_17" n="N017"/>und Urtheilen, die seither fast von allen <rs type="person">Beethoven</rs>-Schrift¬
-               <lb facs="#facs_1_region_1767941653465_384_tl_18" n="N018"/>stellern ohne weitere Prüfung als glaubwürdig hingenom¬
-               <lb facs="#facs_1_region_1767941653465_384_tl_19" n="N019"/>men und weiterverbreitet worden sind. Der neue, dritte
-               <lb facs="#facs_1_region_1767941653465_384_tl_20" n="N020"/>
-               <rs type="bibl">Band</rs> (der sieben Jahre nach dem <rs type="bibl">zweiten</rs>, dreizehn Jahre
-               <lb facs="#facs_1_region_1767941653465_384_tl_21" n="N021"/>nach dem <rs type="bibl">ersten</rs> erschienen ist) behandelt die Jahre <date month="0" day="0" year="0">1807</date> bis
-               <lb facs="#facs_1_region_1767941653465_384_tl_22" n="N022"/>einschließlich <date month="0" day="0" year="0">1816</date>, vielleicht das wichtigste Decennium und
-               <lb facs="#facs_1_region_1767941653465_384_tl_23" n="N023"/>vom Verfasser nicht mit Unrecht „<rs type="bibl">Beethoven auf der Höhe</rs>
-               <lb facs="#facs_1_region_1767941653465_384_tl_24" n="N024"/>
-               <rs type="bibl">seines Schaffens</rs>“ überschrieben. Es steckt eine große, mühe¬
-               <lb facs="#facs_1_region_1767941653465_384_tl_25" n="N025"/>volle Arbeit in diesem Bande. Auch für den Leser bleibt
-               <lb facs="#facs_1_region_1767941653465_384_tl_26" n="N026"/>sie nicht ohne Anstrengung; Niemand wird behaupten,
-               <lb facs="#facs_1_region_1767941653465_384_tl_27" n="N027"/>
-               <rs type="person">Thayer</rs>'s <rs type="bibl">Buch</rs> lese sich wie ein Roman. Dafür
-               <lb facs="#facs_1_region_1767941653465_384_tl_28" n="N028"/>fehlt ihm aber auch gottlob Alles, was im schlimmen
-               <lb facs="#facs_1_region_1767941653465_384_tl_29" n="N029"/>Sinne an Roman-Lectüre mahnt und was gerade in
-               <lb facs="#facs_1_region_1767941653465_384_tl_30" n="N030"/>Künstler-Biographien so gern wuchert. Ich bekenne, daß in
-               <lb facs="#facs_1_region_1767941653465_384_tl_31" n="N031"/>
-               <hi rendition="#em">
-                  <rs type="person">Marx</rs>'</hi>
-               <rs type="bibl">Beethoven-Biographie</rs> schon die novellistischen Ca¬
-               <lb facs="#facs_1_region_1767941653465_384_tl_32" n="N032"/>pitel-Ueberschriften, wie: „Heldenweise“, „Das Verhängniß“,
-               <lb facs="#facs_1_region_1767941653465_384_tl_33" n="N033"/>„Die Zukunft vor dem Richterstuhl der Vergangenheit“,
-               <lb facs="#facs_1_region_1767941653465_384_tl_34" n="N034"/>„Mit frischen Segeln“, „Hohe Fluth“ etc., mich verstimmt und
-               <lb facs="#facs_1_region_1767941653465_384_tl_35" n="N035"/>mißtrauisch machen. Und was ist <hi rendition="#em">
-                  <rs type="person">Marx</rs>
-               </hi> noch für ein clas¬
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1767941658967_387_tl_1" n="N001" break="no"/>sischer Historiker gegen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_195">Nohl</rs></hi> und andere Virtuosen auf der
+         <lb facs="#facs_1_region_1767941658967_387_tl_2" n="N002"/>Phrasen-Mundharmonika!
+            </p><p>
+         <lb facs="#facs_1_region_1767941658967_387_tl_3" n="N003"/>Vom Standpunkt künstlerischer Darstellung läßt <rs type="person" ref="#hsl_person_id_2857">Thayer</rs>’s
+         <lb facs="#facs_1_region_1767941658967_387_tl_4" n="N004"/><rs type="bibl" ref="#hsl_work_id_3976">Buch</rs> freilich viel zu wünschen übrig; an die biographische
+         <lb facs="#facs_1_region_1767941658967_387_tl_5" n="N005"/>Kunst eines Otto <rs type="person" ref="#hsl_person_id_135">Jahn</rs> oder gar eines David <rs type="person" ref="#hsl_person_id_711">Strauß</rs> darf
+         <lb facs="#facs_1_region_1767941658967_387_tl_6" n="N006"/>man nicht denken. <rs type="person" ref="#hsl_person_id_2857">Thayer</rs> gleicht mehr einem bedächtigen
+         <lb facs="#facs_1_region_1767941658967_387_tl_7" n="N007"/>Richter, der unter scrupulöser Abwägung auch des gering
+         <lb facs="#facs_1_region_1767941658967_387_tl_8" n="N008" break="no"/>fügigsten Für und Wider die Revision eines Processes vor
+         <lb facs="#facs_1_region_1767941658967_387_tl_9" n="N009" break="no"/>nimmt. Kann er nach so langem Zeitverlaufe auch nicht mehr
+         <lb facs="#facs_1_region_1767941658967_387_tl_10" n="N010"/>von jedem Factum nachweisen, wie es stattgefunden, so ver
+         <lb facs="#facs_1_region_1767941658967_387_tl_11" n="N011" break="no"/>mag er doch in den wichtigsten Fällen überzeugend darzu
+         <lb facs="#facs_1_region_1767941658967_387_tl_12" n="N012" break="no"/>thun, daß es so und so <hi rendition="#em">nicht</hi> war, nicht sein konnte. Dies
+         <lb facs="#facs_1_region_1767941658967_387_tl_13" n="N013"/>hat <rs type="person" ref="#hsl_person_id_2857">Thayer</rs> unter Anderm in einem Capitel geleistet, für
+         <lb facs="#facs_1_region_1767941658967_387_tl_14" n="N014"/>welches das große Publicum sich vielleicht am lebhaftesten
+         <lb facs="#facs_1_region_1767941658967_387_tl_15" n="N015"/>interessirt; <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Liebesverhältniß zur Gräfin Julie
+         <lb facs="#facs_1_region_1767941658967_387_tl_16" n="N016"/><rs type="person" ref="#hsl_person_id_4293">Guicciardi</rs>. Ich will die betreffenden Resultate von <rs type="person" ref="#hsl_person_id_2857">Thayer</rs>’s
+         <lb facs="#facs_1_region_1767941658967_387_tl_17" n="N017"/>Forschung hier so knapp als möglich wiedergeben.
+         <lb facs="#facs_1_region_1767941658967_387_tl_18" n="N018"/>Die meisten <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Biographen haben, in blindem Ver
+         <lb facs="#facs_1_region_1767941658967_387_tl_19" n="N019" break="no"/>trauen auf <hi rendition="#em"><rs type="person" ref="#hsl_person_id_249">Schindler</rs></hi>, die Neigung <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s zu der
+         <lb facs="#facs_1_region_1767941658967_387_tl_20" n="N020"/>Gräfin <rs type="person" ref="#hsl_person_id_4293">Guicciardi</rs> (später verehelichten Gräfin <rs type="person" ref="#hsl_person_id_4293">Gallenberg</rs>)
+         <lb facs="#facs_1_region_1767941658967_387_tl_21" n="N021"/>zu einer vollständigen Tragödie aufgebauscht. Als wichtigstes
+         <lb facs="#facs_1_region_1767941658967_387_tl_22" n="N022"/>Beweisstück dafür galt bis heute ein mit Bleistift geschrie
+         <lb facs="#facs_1_region_1767941658967_387_tl_23" n="N023" break="no"/>bener Brief <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s, der nach dessen Tode in seinem
+         <lb facs="#facs_1_region_1767941658967_387_tl_24" n="N024"/>Schreibtisch gefunden wurde. Dieser Brief (mit zwei Post
+         <lb facs="#facs_1_region_1767941658967_387_tl_25" n="N025" break="no"/>scripten) gibt weder den Ort, noch das Datum, noch endlich
+         <lb facs="#facs_1_region_1767941658967_387_tl_26" n="N026"/>die Person an, an die er gerichtet war; auch hatte <rs type="person" ref="#hsl_person_id_25">Beethoven</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767941658967_387_tl_27" n="N027"/>nie zu Jemandem darüber gesprochen. Es lag keine gegrün
+         <lb facs="#facs_1_region_1767941658967_387_tl_28" n="N028" break="no"/>dete Vermuthung vor, wem dieser Brief voll überschweng
+         <lb facs="#facs_1_region_1767941658967_387_tl_29" n="N029" break="no"/>licher Leidenschaft gegolten habe. Dennoch hat man auf die
+         <lb facs="#facs_1_region_1767941658967_387_tl_30" n="N030"/>bloße Angabe <rs type="person" ref="#hsl_person_id_249">Schindler</rs>’s hin, der sich die Sache so combi
+         <lb facs="#facs_1_region_1767941658967_387_tl_31" n="N031" break="no"/>nirt hatte, über dreißig Jahre lang darauf geschworen, der
+         <lb facs="#facs_1_region_1767941658967_387_tl_32" n="N032"/>berühmte Liebesbrief <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s sei an die Gräfin Julie
+         <lb facs="#facs_1_region_1767941658967_387_tl_33" n="N033"/><rs type="person" ref="#hsl_person_id_4293">Guicciardi</rs> gerichtet.
+            </p><p>
+         <lb facs="#facs_1_region_1767941658967_387_tl_34" n="N034"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2857">Thayer</rs></hi> hat zuerst mit schlagenden Gründen nachge
+         <lb facs="#facs_1_region_1767941658967_387_tl_35" n="N035" break="no"/>wiesen, daß dieser Brief gar nicht an Gräfin <rs type="person" ref="#hsl_person_id_4293">Julie</rs> gerichtet
+         <lb facs="#facs_1_region_1767941658967_387_tl_36" n="N036"/>sein <hi rendition="#em">konnte</hi>! <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Brief ist, wie jetzt unwiderleg
+         <lb facs="#facs_1_region_1767941658967_387_tl_37" n="N037" break="no"/>lich feststeht, im Sommer <date>1806</date> geschrieben; damals war
+         <lb facs="#facs_1_region_1767941658967_387_tl_38" n="N038"/>Julie <rs type="person" ref="#hsl_person_id_4293">Guicciardi</rs> längst „Gräfin <rs type="person" ref="#hsl_person_id_4293">Gallenberg</rs>“ und lebte mit<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1767941658967_387_tl_1" n="N001"/>sischer Historiker gegen <hi rendition="#em">
-                  <rs type="person">Nohl</rs>
-               </hi> und andere Virtuosen auf der
-               <lb facs="#facs_1_region_1767941658967_387_tl_2" n="N002"/>Phrasen-Mundharmonika!
-               <lb facs="#facs_1_region_1767941658967_387_tl_3" n="N003"/>Vom Standpunkt künstlerischer Darstellung läßt <rs type="person">Thayer</rs>'s
-               <lb facs="#facs_1_region_1767941658967_387_tl_4" n="N004"/>
-               <rs type="bibl">Buch</rs> freilich viel zu wünschen übrig; an die biographische
-               <lb facs="#facs_1_region_1767941658967_387_tl_5" n="N005"/>Kunst eines Otto <rs type="person">Jahn</rs> oder gar eines David <rs type="person">Strauß</rs> darf
-               <lb facs="#facs_1_region_1767941658967_387_tl_6" n="N006"/>man nicht denken. <rs type="person">Thayer</rs> gleicht mehr einem bedächtigen
-               <lb facs="#facs_1_region_1767941658967_387_tl_7" n="N007"/>Richter, der unter scrupulöser Abwägung auch des gering¬
-               <lb facs="#facs_1_region_1767941658967_387_tl_8" n="N008"/>fügigsten Für und Wider die Revision eines Processes vor¬
-               <lb facs="#facs_1_region_1767941658967_387_tl_9" n="N009"/>nimmt. Kann er nach so langem Zeitverlaufe auch nicht mehr
-               <lb facs="#facs_1_region_1767941658967_387_tl_10" n="N010"/>von jedem Factum nachweisen, wie es stattgefunden, so ver¬
-               <lb facs="#facs_1_region_1767941658967_387_tl_11" n="N011"/>mag er doch in den wichtigsten Fällen überzeugend darzu¬
-               <lb facs="#facs_1_region_1767941658967_387_tl_12" n="N012"/>thun, daß es so und so <hi rendition="#em">nicht</hi> war, nicht sein konnte. Dies
-               <lb facs="#facs_1_region_1767941658967_387_tl_13" n="N013"/>hat <rs type="person">Thayer</rs> unter Anderm in einem Capitel geleistet, für
-               <lb facs="#facs_1_region_1767941658967_387_tl_14" n="N014"/>welches das große Publicum sich vielleicht am lebhaftesten
-               <lb facs="#facs_1_region_1767941658967_387_tl_15" n="N015"/>interessirt; <rs type="person">Beethoven</rs>'s Liebesverhältniß zur Gräfin Julie
-               <lb facs="#facs_1_region_1767941658967_387_tl_16" n="N016"/>
-               <rs type="person">Guicciardi</rs>. Ich will die betreffenden Resultate von <rs type="person">Thayer</rs>'s
-               <lb facs="#facs_1_region_1767941658967_387_tl_17" n="N017"/>Forschung hier so knapp als möglich wiedergeben.
-               <lb facs="#facs_1_region_1767941658967_387_tl_18" n="N018"/>Die meisten <rs type="person">Beethoven</rs>-Biographen haben, in blindem Ver¬
-               <lb facs="#facs_1_region_1767941658967_387_tl_19" n="N019"/>trauen auf <hi rendition="#em">
-                  <rs type="person">Schindler</rs>
-               </hi>, die Neigung <rs type="person">Beethoven</rs>'s zu der
-               <lb facs="#facs_1_region_1767941658967_387_tl_20" n="N020"/>Gräfin <rs type="person">Guicciardi</rs> (später verehelichten Gräfin <rs type="person">Gallenberg</rs>)
-               <lb facs="#facs_1_region_1767941658967_387_tl_21" n="N021"/>zu einer vollständigen Tragödie aufgebauscht. Als wichtigstes
-               <lb facs="#facs_1_region_1767941658967_387_tl_22" n="N022"/>Beweisstück dafür galt bis heute ein mit Bleistift geschrie¬
-               <lb facs="#facs_1_region_1767941658967_387_tl_23" n="N023"/>bener Brief <rs type="person">Beethoven</rs>'s, der nach dessen Tode in seinem
-               <lb facs="#facs_1_region_1767941658967_387_tl_24" n="N024"/>Schreibtisch gefunden wurde. Dieser Brief (mit zwei Post¬
-               <lb facs="#facs_1_region_1767941658967_387_tl_25" n="N025"/>scripten) gibt weder den Ort, noch das Datum, noch endlich
-               <lb facs="#facs_1_region_1767941658967_387_tl_26" n="N026"/>die Person an, an die er gerichtet war; auch hatte <rs type="person">Beethoven</rs>
-               <lb facs="#facs_1_region_1767941658967_387_tl_27" n="N027"/>nie zu Jemandem darüber gesprochen. Es lag keine gegrün¬
-               <lb facs="#facs_1_region_1767941658967_387_tl_28" n="N028"/>dete Vermuthung vor, wem dieser Brief voll überschweng¬
-               <lb facs="#facs_1_region_1767941658967_387_tl_29" n="N029"/>licher Leidenschaft gegolten habe. Dennoch hat man auf die
-               <lb facs="#facs_1_region_1767941658967_387_tl_30" n="N030"/>bloße Angabe <rs type="person">Schindler</rs>'s hin, der sich die Sache so combi¬
-               <lb facs="#facs_1_region_1767941658967_387_tl_31" n="N031"/>nirt hatte, über dreißig Jahre lang darauf geschworen, der
-               <lb facs="#facs_1_region_1767941658967_387_tl_32" n="N032"/>berühmte Liebesbrief <rs type="person">Beethoven</rs>'s sei an die Gräfin Julie
-               <lb facs="#facs_1_region_1767941658967_387_tl_33" n="N033"/>
-               <rs type="person">Guicciardi</rs> gerichtet.
-               <lb facs="#facs_1_region_1767941658967_387_tl_34" n="N034"/>
-               <hi rendition="#em">
-                  <rs type="person">Thayer</rs>
-               </hi> hat zuerst mit schlagenden Gründen nachge¬
-               <lb facs="#facs_1_region_1767941658967_387_tl_35" n="N035"/>wiesen, daß dieser Brief gar nicht an Gräfin <rs type="person">Julie</rs> gerichtet
-               <lb facs="#facs_1_region_1767941658967_387_tl_36" n="N036"/>sein <hi rendition="#em">konnte</hi>! <rs type="person">Beethoven</rs>'s Brief ist, wie jetzt unwiderleg¬
-               <lb facs="#facs_1_region_1767941658967_387_tl_37" n="N037"/>lich feststeht, im Sommer <date month="0" day="0" year="0">1806</date> geschrieben; damals war
-               <lb facs="#facs_1_region_1767941658967_387_tl_38" n="N038"/>Julie <rs type="person">Guicciardi</rs> längst „Gräfin <rs type="person">Gallenberg</rs>“ und lebte mit
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1767941662455_390_tl_1" n="N001"/>ihrem <rs type="person">Gatte</rs>n in <rs type="place">Neapel</rs>. Diesen negativen Beweis hatte
-               <lb facs="#facs_1_region_1767941662455_390_tl_2" n="N002"/>
-               <rs type="person">Thayer</rs> schon im zweiten Bande seines Werkes geliefert.
-               <lb facs="#facs_1_line_1768031744514_993" n="N003"/>Aber wenn nicht an Julie <rs type="person">Guicciardi</rs> — an wen
-               <lb facs="#facs_1_region_1767941662455_390_tl_5" n="N004"/>ist dann wirklich jener Liebesbrief gerichtet? Diese positive
-               <lb facs="#facs_1_region_1767941662455_390_tl_6" n="N005"/>Seite der Untersuchung bot dem Verfasser viel größere, ja
-               <lb facs="#facs_1_region_1767941662455_390_tl_7" n="N006"/>fast unüberwindliche Schwierigkeiten, umsomehr, als die Em¬
-               <lb facs="#facs_1_region_1767941662455_390_tl_8" n="N007"/>pfängerin dieses Briefes mit dem Gegenstande des im
-               <lb facs="#facs_1_region_1767941662455_390_tl_9" n="N008"/>Jahre <date month="0" day="0" year="0">1810</date> gescheiterten <hi rendition="#em">Heiratsprojects</hi>
-               <rs type="person">Beethoven</rs>'s
-               <lb facs="#facs_1_region_1767941662455_390_tl_10" n="N009"/>identisch sein mußte. Mit Gewißheit vermag <rs type="person">Thayer</rs> den
-               <lb facs="#facs_1_region_1767941662455_390_tl_11" n="N010"/>Namen der Dame nicht anzugeben, das Geheimniß ist zu
-               <lb facs="#facs_1_region_1767941662455_390_tl_12" n="N011"/>gut bewahrt worden. „Das allein ist gewiß,“ sagt er, „daß
-               <lb facs="#facs_1_region_1767941662455_390_tl_13" n="N012"/>1. von allen Freundinnen und Bekannten <rs type="person">Beethoven</rs>'s,
-               <lb facs="#facs_1_region_1767941662455_390_tl_14" n="N013"/>deren Namen uns berichtet sind, nur eine einzige die „un¬
-               <lb facs="#facs_1_region_1767941662455_390_tl_15" n="N014"/>sterbliche Geliebte“ des Briefes und nur eine einzige die bei
-               <lb facs="#facs_1_region_1767941662455_390_tl_16" n="N015"/>dem Heiratsproject Betheiligte gewesen sein kann; 2. daß
-               <lb facs="#facs_1_region_1767941662455_390_tl_17" n="N016"/>alle zufälligen Anzeichen auf sie und auf sie allein hin¬
-               <lb facs="#facs_1_region_1767941662455_390_tl_18" n="N017"/>weisen; 3. daß (nach einer Mittheilung Robert <rs type="person">Volkmann</rs>'s)
-               <lb facs="#facs_1_region_1767941662455_390_tl_19" n="N018"/>eine locale Ueberlieferung in <rs type="place">Pest</rs> sie direct als die einstige
-               <lb facs="#facs_1_region_1767941662455_390_tl_20" n="N019"/>Geliebte und erhoffte Braut <rs type="person">Beethoven</rs>'s bezeichnete. Diese
-               <lb facs="#facs_1_region_1767941662455_390_tl_21" n="N020"/>Dame war die Gräfin <hi rendition="#em">Therese v. <rs type="person">Brunswick</rs>
-               </hi>.“
-               <lb facs="#facs_1_region_1767941662455_390_tl_22" n="N021"/>Die Ausbeute an <hi rendition="#em">positiven</hi> Gründen, welche <rs type="person">Thayer</rs> in
-               <lb facs="#facs_1_region_1767941662455_390_tl_23" n="N022"/>Briefen <rs type="person">Beethoven</rs>'s und seiner Freunde dafür findet, ist
-               <lb facs="#facs_1_region_1767941662455_390_tl_24" n="N023"/>weder reichlich, noch, wie mir scheint, von überzeugendem
-               <lb facs="#facs_1_region_1767941662455_390_tl_25" n="N024"/>Gewichte. <rs type="person">Thayer</rs> will auch ausdrücklich nicht mehr behauptet
-               <lb facs="#facs_1_region_1767941662455_390_tl_26" n="N025"/>haben, als „die größte <hi rendition="#em">Wahrscheinlichkeit</hi>, daß es die
-               <lb facs="#facs_1_region_1767941662455_390_tl_27" n="N026"/>Gräfin v. <rs type="person">Brunswick</rs> war“. Eine <rs type="person">Tochter</rs> dieser in hohem
-               <lb facs="#facs_1_region_1767941662455_390_tl_28" n="N027"/>Alter verstorbenen edlen Dame lebt noch in <rs type="place">Wien</rs>. Ohne
-               <lb facs="#facs_1_region_1767941662455_390_tl_29" n="N028"/>Zweifel wird <rs type="person">Thayer</rs> sie besucht, aber keinerlei Aufschlüsse
-               <lb facs="#facs_1_region_1767941662455_390_tl_30" n="N029"/>von ihr erhalten haben — sonst hätte er es wol erwähnt.
-               <lb facs="#facs_1_region_1767941662455_390_tl_31" n="N030"/>Und so dürfte denn das Geheimniß, das über jenem Briefe
-               <lb facs="#facs_1_region_1767941662455_390_tl_32" n="N031"/>und über <rs type="person">Beethoven</rs>'s unglücklicher Brautwerbung ruht,
-               <lb facs="#facs_1_region_1767941662455_390_tl_33" n="N032"/>kaum jemals gelüftet werden.
-               <lb facs="#facs_1_region_1767941662455_390_tl_34" n="N033"/>Diese von romantischen Biographen mit Vorliebe aus¬
-               <lb facs="#facs_1_region_1767941662455_390_tl_35" n="N034"/>gebeutete Herzensgeschichte ist nicht die einzige Partie in
-               <lb facs="#facs_1_region_1767941662455_390_tl_36" n="N035"/>
-               <rs type="person">Beethoven</rs>'s Leben, welche Thayer uns in ganz neuem Lichte
-               <lb facs="#facs_1_region_1767941662455_390_tl_37" n="N036"/>zeigt. Sehr beachtenswerth sind seine Forschungen über
-               <lb facs="#facs_1_region_1767941662455_390_tl_38" n="N037"/>
-               <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>'s <rs type="person">Brüder</rs>
-               </hi> und ihr Verhältniß zu diesem.
-               <lb facs="#facs_1_region_1767941662455_390_tl_39" n="N038"/>
-               <rs type="person">Thayer</rs> hat bereits früher in einer <rs type="bibl">Broschüre</rs> (die wir seiner¬
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1767941662455_390_tl_1" n="N001"/>ihrem <rs type="person" ref="#hsl_person_id_2361">Gatte</rs>n in <rs type="place" ref="#hsl_place_id_40">Neapel</rs>. Diesen negativen Beweis hatte
+         <lb facs="#facs_1_region_1767941662455_390_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_2857">Thayer</rs> schon im zweiten Bande seines Werkes geliefert.
+         <lb facs="#facs_1_line_1768031744514_993" n="N003"/>Aber wenn nicht an Julie <rs type="person" ref="#hsl_person_id_4293">Guicciardi</rs> — an wen
+         <lb facs="#facs_1_region_1767941662455_390_tl_5" n="N004"/>ist dann wirklich jener Liebesbrief gerichtet? Diese positive
+         <lb facs="#facs_1_region_1767941662455_390_tl_6" n="N005"/>Seite der Untersuchung bot dem Verfasser viel größere, ja
+         <lb facs="#facs_1_region_1767941662455_390_tl_7" n="N006"/>fast unüberwindliche Schwierigkeiten, umsomehr, als die Em
+         <lb facs="#facs_1_region_1767941662455_390_tl_8" n="N007" break="no"/>pfängerin dieses Briefes mit dem Gegenstande des im
+         <lb facs="#facs_1_region_1767941662455_390_tl_9" n="N008"/>Jahre <date>1810</date> gescheiterten <hi rendition="#em">Heiratsprojects</hi><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s
+         <lb facs="#facs_1_region_1767941662455_390_tl_10" n="N009"/>identisch sein mußte. Mit Gewißheit vermag <rs type="person" ref="#hsl_person_id_2857">Thayer</rs> den
+         <lb facs="#facs_1_region_1767941662455_390_tl_11" n="N010"/>Namen der Dame nicht anzugeben, das Geheimniß ist zu
+         <lb facs="#facs_1_region_1767941662455_390_tl_12" n="N011"/>gut bewahrt worden. „Das allein ist gewiß,“ sagt er, „daß
+         <lb facs="#facs_1_region_1767941662455_390_tl_13" n="N012"/>1. von allen Freundinnen und Bekannten <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s,
+         <lb facs="#facs_1_region_1767941662455_390_tl_14" n="N013"/>deren Namen uns berichtet sind, nur eine einzige die „un
+         <lb facs="#facs_1_region_1767941662455_390_tl_15" n="N014" break="no"/>sterbliche Geliebte“ des Briefes und nur eine einzige die bei
+         <lb facs="#facs_1_region_1767941662455_390_tl_16" n="N015"/>dem Heiratsproject Betheiligte gewesen sein kann; 2. daß
+         <lb facs="#facs_1_region_1767941662455_390_tl_17" n="N016"/>alle zufälligen Anzeichen auf sie und auf sie allein hin
+         <lb facs="#facs_1_region_1767941662455_390_tl_18" n="N017" break="no"/>weisen; 3. daß (nach einer Mittheilung Robert <rs type="person" ref="#hsl_person_id_317">Volkmann</rs>’s)
+         <lb facs="#facs_1_region_1767941662455_390_tl_19" n="N018"/>eine locale Ueberlieferung in <rs type="place" ref="#hsl_place_id_108">Pest</rs> sie direct als die einstige
+         <lb facs="#facs_1_region_1767941662455_390_tl_20" n="N019"/>Geliebte und erhoffte Braut <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s bezeichnete. Diese
+         <lb facs="#facs_1_region_1767941662455_390_tl_21" n="N020"/>Dame war die Gräfin <hi rendition="#em">Therese v. <rs type="person" ref="#hsl_person_id_8157">Brunswick</rs></hi>.“
+         <lb facs="#facs_1_region_1767941662455_390_tl_22" n="N021"/>Die Ausbeute an <hi rendition="#em">positiven</hi> Gründen, welche <rs type="person" ref="#hsl_person_id_2857">Thayer</rs> in
+         <lb facs="#facs_1_region_1767941662455_390_tl_23" n="N022"/>Briefen <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s und seiner Freunde dafür findet, ist
+         <lb facs="#facs_1_region_1767941662455_390_tl_24" n="N023"/>weder reichlich, noch, wie mir scheint, von überzeugendem
+         <lb facs="#facs_1_region_1767941662455_390_tl_25" n="N024"/>Gewichte. <rs type="person" ref="#hsl_person_id_2857">Thayer</rs> will auch ausdrücklich nicht mehr behauptet
+         <lb facs="#facs_1_region_1767941662455_390_tl_26" n="N025"/>haben, als „die größte <hi rendition="#em">Wahrscheinlichkeit</hi>, daß es die
+         <lb facs="#facs_1_region_1767941662455_390_tl_27" n="N026"/>Gräfin v. <rs type="person" ref="#hsl_person_id_8157">Brunswick</rs> war“. Eine Tochter dieser in hohem
+         <lb facs="#facs_1_region_1767941662455_390_tl_28" n="N027"/>Alter verstorbenen edlen Dame lebt noch in <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Ohne
+         <lb facs="#facs_1_region_1767941662455_390_tl_29" n="N028"/>Zweifel wird <rs type="person" ref="#hsl_person_id_2857">Thayer</rs> sie besucht, aber keinerlei Aufschlüsse
+         <lb facs="#facs_1_region_1767941662455_390_tl_30" n="N029"/>von ihr erhalten haben — sonst hätte er es wol erwähnt.
+         <lb facs="#facs_1_region_1767941662455_390_tl_31" n="N030"/>Und so dürfte denn das Geheimniß, das über jenem Briefe
+         <lb facs="#facs_1_region_1767941662455_390_tl_32" n="N031"/>und über <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s unglücklicher Brautwerbung ruht,
+         <lb facs="#facs_1_region_1767941662455_390_tl_33" n="N032"/>kaum jemals gelüftet werden.
+            </p><p>
+         <lb facs="#facs_1_region_1767941662455_390_tl_34" n="N033"/>Diese von romantischen Biographen mit Vorliebe aus
+         <lb facs="#facs_1_region_1767941662455_390_tl_35" n="N034" break="no"/>gebeutete Herzensgeschichte ist nicht die einzige Partie in
+         <lb facs="#facs_1_region_1767941662455_390_tl_36" n="N035"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Leben, welche Thayer uns in ganz neuem Lichte
+         <lb facs="#facs_1_region_1767941662455_390_tl_37" n="N036"/>zeigt. Sehr beachtenswerth sind seine Forschungen über
+         <lb facs="#facs_1_region_1767941662455_390_tl_38" n="N037"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s <rs type="person" ref="#hsl_person_id_6370 #hsl_person_id_6371">Brüder</rs></hi> und ihr Verhältniß zu diesem.
+         <lb facs="#facs_1_region_1767941662455_390_tl_39" n="N038"/><rs type="person" ref="#hsl_person_id_2857">Thayer</rs> hat bereits früher in einer <rs type="bibl" ref="#hsl_work_id_5314">Broschüre</rs> (die wir <rs type="bibl" ref="#hsl_work_id_5775">seiner</rs></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1767941674470_396_tl_1" n="N001" break="no"/><rs type="bibl" prev="true" ref="#hsl_work_id_5775">zeit</rs> in der „<rs type="bibl" ref="#hsl_work_id_82">Neuen Freien Presse</rs>“ anzeigten) das Verhält
+         <lb facs="#facs_2_region_1767941674470_396_tl_2" n="N002" break="no"/>niß <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s zu seinem Bruder <rs type="person" ref="#hsl_person_id_6371">Johann</rs>, dem <rs type="place" ref="#hsl_place_id_143">Linz</rs>er
+         <lb facs="#facs_2_region_1767941674470_396_tl_3" n="N003"/>Apotheker und späteren Gutsbesitzer in <rs type="place" ref="#hsl_place_id_909">Gneixendorf</rs>, kurz
+         <lb facs="#facs_2_region_1767941674470_396_tl_4" n="N004"/>und zusammenhängend geschildert. In dem neuen, dritten
+         <lb facs="#facs_2_region_1767941674470_396_tl_5" n="N005"/>Bande findet sich dies Capitel noch gründlicher, aber nur
+         <lb facs="#facs_2_region_1767941674470_396_tl_6" n="N006"/>bis zum Jahre <date>1815</date> behandelt; das Wichtigste darüber
+         <lb facs="#facs_2_region_1767941674470_396_tl_7" n="N007"/>kann erst der nächste Band bringen. Aber jetzt schon dürfte
+         <lb facs="#facs_2_region_1767941674470_396_tl_8" n="N008"/>jeder Leser aus <rs type="person" ref="#hsl_person_id_2857">Thayer</rs>’s <rs type="bibl" ref="#hsl_work_id_3976">Buch</rs> die volle Ueberzeugung schö
+         <lb facs="#facs_2_region_1767941674470_396_tl_9" n="N009" break="no"/>pfen, daß dieser Bruder <rs type="person" ref="#hsl_person_id_6371">Johann</rs> von dem Biographen
+         <lb facs="#facs_2_region_1767941674470_396_tl_10" n="N010"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_249">Schindler</rs></hi> und allen ihm nachbetenden Schriftstellern sehr
+         <lb facs="#facs_2_region_1767941674470_396_tl_11" n="N011"/>ungerecht und gehässig beurtheilt worden ist. Beweist doch
+         <lb facs="#facs_2_region_1767941674470_396_tl_12" n="N012"/>Alles, was <rs type="person" ref="#hsl_person_id_2857">Thayer</rs> erzählt, daß nicht <rs type="person" ref="#hsl_person_id_6371">Johann</rs> eigenmächtig
+         <lb facs="#facs_2_region_1767941674470_396_tl_13" n="N013"/>sich in <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Verhältnisse eingemischt habe, sondern
+         <lb facs="#facs_2_region_1767941674470_396_tl_14" n="N014"/>umgekehrt. Auch die Ehrenrettung Johann <rs type="person" ref="#hsl_person_id_2650">Mälzel</rs>’s, des
+         <lb facs="#facs_2_region_1767941674470_396_tl_15" n="N015"/>von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> und <rs type="person" ref="#hsl_person_id_249">Schindler</rs> so übel behandelten genialen
+         <lb facs="#facs_2_region_1767941674470_396_tl_16" n="N016"/>Mechanikers, ist dem ruhig prüfenden Blicke <rs type="person" ref="#hsl_person_id_2857">Thayer</rs>’s voll
+         <lb facs="#facs_2_region_1767941674470_396_tl_17" n="N017" break="no"/>ständig gelungen.
+            </p><p>
+         <lb facs="#facs_2_region_1767941674470_396_tl_18" n="N018"/>Was wir an diesem dritten Bande wieder hochschätzen,
+         <lb facs="#facs_2_region_1767941674470_396_tl_19" n="N019"/>ist nicht blos die Gründlichkeit der Forschung, sondern ebenso
+         <lb facs="#facs_2_region_1767941674470_396_tl_20" n="N020"/>sehr die Unbefangenheit des Urtheils, welche <rs type="person" ref="#hsl_person_id_2857">Thayer</rs> bei aller
+         <lb facs="#facs_2_region_1767941674470_396_tl_21" n="N021"/>Verehrung für <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> sich bewahrt. Er ist weit entfernt,
+         <lb facs="#facs_2_region_1767941674470_396_tl_22" n="N022"/>ohneweiters Jeden für einen schlechten Menschen zu halten,
+         <lb facs="#facs_2_region_1767941674470_396_tl_23" n="N023"/>von dem <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> in einem Augenblicke der Uebereilung
+         <lb facs="#facs_2_region_1767941674470_396_tl_24" n="N024"/>und des Mißmuthes Uebles schreibt. <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> war im
+         <lb facs="#facs_2_region_1767941674470_396_tl_25" n="N025"/>Zorne der größten Ungerechtigkeiten fähig; wollte man (wie
+         <lb facs="#facs_2_region_1767941674470_396_tl_26" n="N026"/>seine Biographen so gerne thun) jedes von ihm geschriebene
+         <lb facs="#facs_2_region_1767941674470_396_tl_27" n="N027"/>feindselige Wort für begründet annehmen, so wäre <rs type="person" ref="#hsl_person_id_25">Beethoven</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1767941674470_396_tl_28" n="N028"/>zeitlebens von lauter nichtswürdigen Menschen umgeben ge
+         <lb facs="#facs_2_region_1767941674470_396_tl_29" n="N029" break="no"/>wesen. Wie vorsichtig der Biograph hier sein muß und sein
+         <lb facs="#facs_2_region_1767941674470_396_tl_30" n="N030"/>soll, das lehrt <rs type="person" ref="#hsl_person_id_2857">Thayer</rs> durch sein eigenes Beispiel in Bezug
+         <lb facs="#facs_2_region_1767941674470_396_tl_31" n="N031"/>auf <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Aeußerungen über den Fürsten <rs type="person" ref="#hsl_person_id_1190">Lobkowitz</rs>.
+         <lb facs="#facs_2_region_1767941674470_396_tl_32" n="N032"/>Dieser großmüthige Kunstfreund hatte bekanntlich im Verein
+         <lb facs="#facs_2_region_1767941674470_396_tl_33" n="N033"/>mit dem Erzherzog <rs type="person" ref="#hsl_person_id_791">Rudolph</rs> und dem Fürsten <rs type="person" ref="#hsl_person_id_5179">Kinsky</rs> im
+         <lb facs="#facs_2_region_1767941674470_396_tl_34" n="N034"/>Jahre <date>1809</date><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs> eine lebenslängliche Rente von jähr
+         <lb facs="#facs_2_region_1767941674470_396_tl_35" n="N035" break="no"/>lichen <hi rendition="#em">viertausend</hi> Gulden ausgesetzt, welche allerdings
+         <lb facs="#facs_2_region_1767941674470_396_tl_36" n="N036"/>ohne die Schuld dieser drei Herren durch das unglückliche
+         <lb facs="#facs_2_region_1767941674470_396_tl_37" n="N037"/>Finanzpatent vom Jahre <date>1811</date> auf 1612 Gulden — nicht,
+         <lb facs="#facs_2_region_1767941674470_396_tl_39" n="N038"/>wie <rs type="person" ref="#hsl_person_id_249">Schindler</rs> sagt, auf 800 Gulden — reducirt wurde.
+         <lb facs="#facs_2_region_1767941674470_396_tl_38" n="N039"/><rs type="person" ref="#hsl_person_id_2857">Thayer</rs> weist nach, wie vollständig ungerechtfertigt die Schmä</p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1767941674470_396_tl_1" n="N001"/>zeit in der „<rs type="bibl">Neuen Freien Presse</rs>“ anzeigten) das Verhält¬
-               <lb facs="#facs_2_region_1767941674470_396_tl_2" n="N002"/>niß <rs type="person">Beethoven</rs>'s zu seinem Bruder <rs type="person">Johann</rs>, dem <rs type="place">Linz</rs>er
-               <lb facs="#facs_2_region_1767941674470_396_tl_3" n="N003"/>Apotheker und späteren Gutsbesitzer in <rs type="place">Gneixendorf</rs>, kurz
-               <lb facs="#facs_2_region_1767941674470_396_tl_4" n="N004"/>und zusammenhängend geschildert. In dem neuen, dritten
-               <lb facs="#facs_2_region_1767941674470_396_tl_5" n="N005"/>
-               <rs type="bibl">Band</rs>e findet sich dies Capitel noch gründlicher, aber nur
-               <lb facs="#facs_2_region_1767941674470_396_tl_6" n="N006"/>bis zum Jahre <date month="0" day="0" year="0">1815</date> behandelt; das Wichtigste darüber
-               <lb facs="#facs_2_region_1767941674470_396_tl_7" n="N007"/>kann erst der nächste <rs type="bibl">Band</rs> bringen. Aber jetzt schon dürfte
-               <lb facs="#facs_2_region_1767941674470_396_tl_8" n="N008"/>jeder Leser aus <rs type="person">Thayer</rs>'s <rs type="bibl">Buch</rs> die volle Ueberzeugung schö¬
-               <lb facs="#facs_2_region_1767941674470_396_tl_9" n="N009"/>pfen, daß dieser Bruder <rs type="person">Johann</rs> von dem Biographen
-               <lb facs="#facs_2_region_1767941674470_396_tl_10" n="N010"/>
-               <hi rendition="#em">
-                  <rs type="person">Schindler</rs>
-               </hi> und allen ihm nachbetenden Schriftstellern sehr
-               <lb facs="#facs_2_region_1767941674470_396_tl_11" n="N011"/>ungerecht und gehässig beurtheilt worden ist. Beweist doch
-               <lb facs="#facs_2_region_1767941674470_396_tl_12" n="N012"/>Alles, was <rs type="person">Thayer</rs> erzählt, daß nicht <rs type="person">Johann</rs> eigenmächtig
-               <lb facs="#facs_2_region_1767941674470_396_tl_13" n="N013"/>sich in <rs type="person">Beethoven</rs>'s Verhältnisse eingemischt habe, sondern
-               <lb facs="#facs_2_region_1767941674470_396_tl_14" n="N014"/>umgekehrt. Auch die Ehrenrettung Johann <rs type="person">Mälzel</rs>'s, des
-               <lb facs="#facs_2_region_1767941674470_396_tl_15" n="N015"/>von <rs type="person">Beethoven</rs> und <rs type="person">Schindler</rs> so übel behandelten genialen
-               <lb facs="#facs_2_region_1767941674470_396_tl_16" n="N016"/>Mechanikers, ist dem ruhig prüfenden Blicke <rs type="person">Thayer</rs>'s voll¬
-               <lb facs="#facs_2_region_1767941674470_396_tl_17" n="N017"/>ständig gelungen.
-               <lb facs="#facs_2_region_1767941674470_396_tl_18" n="N018"/>Was wir an diesem dritten <rs type="bibl">Band</rs>e wieder hochschätzen,
-               <lb facs="#facs_2_region_1767941674470_396_tl_19" n="N019"/>ist nicht blos die Gründlichkeit der Forschung, sondern ebenso
-               <lb facs="#facs_2_region_1767941674470_396_tl_20" n="N020"/>sehr die Unbefangenheit des Urtheils, welche <rs type="person">Thayer</rs> bei aller
-               <lb facs="#facs_2_region_1767941674470_396_tl_21" n="N021"/>Verehrung für <rs type="person">Beethoven</rs> sich bewahrt. Er ist weit entfernt,
-               <lb facs="#facs_2_region_1767941674470_396_tl_22" n="N022"/>ohneweiters Jeden für einen schlechten Menschen zu halten,
-               <lb facs="#facs_2_region_1767941674470_396_tl_23" n="N023"/>von dem <rs type="person">Beethoven</rs> in einem Augenblicke der Uebereilung
-               <lb facs="#facs_2_region_1767941674470_396_tl_24" n="N024"/>und des Mißmuthes Uebles schreibt. <rs type="person">Beethoven</rs> war im
-               <lb facs="#facs_2_region_1767941674470_396_tl_25" n="N025"/>Zorne der größten Ungerechtigkeiten fähig; wollte man (wie
-               <lb facs="#facs_2_region_1767941674470_396_tl_26" n="N026"/>seine Biographen so gerne thun) jedes von ihm geschriebene
-               <lb facs="#facs_2_region_1767941674470_396_tl_27" n="N027"/>feindselige Wort für begründet annehmen, so wäre <rs type="person">Beethoven</rs>
-               <lb facs="#facs_2_region_1767941674470_396_tl_28" n="N028"/>zeitlebens von lauter nichtswürdigen Menschen umgeben ge¬
-               <lb facs="#facs_2_region_1767941674470_396_tl_29" n="N029"/>wesen. Wie vorsichtig der Biograph hier sein muß und sein
-               <lb facs="#facs_2_region_1767941674470_396_tl_30" n="N030"/>soll, das lehrt <rs type="person">Thayer</rs> durch sein eigenes Beispiel in Bezug
-               <lb facs="#facs_2_region_1767941674470_396_tl_31" n="N031"/>auf <rs type="person">Beethoven</rs>'s Aeußerungen über den Fürsten <rs type="person">Lobkowitz</rs>.
-               <lb facs="#facs_2_region_1767941674470_396_tl_32" n="N032"/>Dieser großmüthige Kunstfreund hatte bekanntlich im Verein
-               <lb facs="#facs_2_region_1767941674470_396_tl_33" n="N033"/>mit dem Erzherzog <rs type="person">Rudolph</rs> und dem Fürsten <rs type="person">Kinsky</rs> im
-               <lb facs="#facs_2_region_1767941674470_396_tl_34" n="N034"/>Jahre <date month="0" day="0" year="0">1809</date>
-               <rs type="person">Beethoven</rs> eine lebenslängliche Rente von jähr¬
-               <lb facs="#facs_2_region_1767941674470_396_tl_35" n="N035"/>lichen <hi rendition="#em">viertausend</hi> Gulden ausgesetzt, welche allerdings
-               <lb facs="#facs_2_region_1767941674470_396_tl_36" n="N036"/>ohne die Schuld dieser drei Herren durch das unglückliche
-               <lb facs="#facs_2_region_1767941674470_396_tl_37" n="N037"/>Finanzpatent vom Jahre <date month="0" day="0" year="0">1811</date> auf 1612 Gulden — nicht,
-               <lb facs="#facs_2_region_1767941674470_396_tl_39" n="N038"/>wie <rs type="person">Schindler</rs> sagt, auf 800 Gulden — reducirt wurde.
-               <lb facs="#facs_2_region_1767941674470_396_tl_38" n="N039"/>
-               <rs type="person">Thayer</rs> weist nach, wie vollständig ungerechtfertigt die Schmä¬
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1767941680541_399_tl_1" n="N001" break="no"/>hungen sind, welche sich in <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Briefen über <rs type="person" ref="#hsl_person_id_1190">Lob
+         <lb facs="#facs_2_region_1767941680541_399_tl_2" n="N002" break="no"/>kowitz</rs>’ Charakter finden. In dieses unerfreuliche Capitel,
+         <lb facs="#facs_2_region_1767941680541_399_tl_3" n="N003"/>das durch seine complicirten Rechnungen und heute unver
+         <lb facs="#facs_2_region_1767941680541_399_tl_4" n="N004" break="no"/>ständlich gewordenen Abhandlungen über „Bancozettel“ und
+         <lb facs="#facs_2_region_1767941680541_399_tl_5" n="N005"/>„Einlösungsscheine“ auch ermüdend wird, bringt <rs type="person" ref="#hsl_person_id_2857">Thayer</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1767941680541_399_tl_6" n="N006"/>alles wünschenswerthe Licht. Eine Anzahl Geschäftsbriefe
+         <lb facs="#facs_2_region_1767941680541_399_tl_7" n="N007"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s an den <rs type="place" ref="#hsl_place_id_45">Prag</rs>er Advocaten Dr. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_8158">Kanka</rs></hi> sind
+         <lb facs="#facs_2_region_1767941680541_399_tl_8" n="N008"/>hier im „Anhang“ publicirt, wohin wir gern noch viele
+         <lb facs="#facs_2_region_1767941680541_399_tl_9" n="N009"/>andere Briefe verweisen möchten, welche den Text unnöthig
+         <lb facs="#facs_2_region_1767941680541_399_tl_10" n="N010"/>belasten und den Zusammenhang der Erzählung zerreißen.
+            </p><p>
+         <lb facs="#facs_2_region_1767941680541_399_tl_11" n="N011"/>Nicht nur in seiner Correspondenz über diese Schen
+         <lb facs="#facs_2_region_1767941680541_399_tl_12" n="N012" break="no"/>kungs-Urkunde, sondern leider auch in Briefen nach <rs type="place" ref="#hsl_place_id_17">England</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1767941680541_399_tl_13" n="N013"/>hat <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> seine Vermögensverhältnisse stets ungünstiger
+         <lb facs="#facs_2_region_1767941680541_399_tl_14" n="N014"/>dargestellt, als sie thatsächlich waren. <rs type="person" ref="#hsl_person_id_2857">Thayer</rs> beleuchtet „den
+         <lb facs="#facs_2_region_1767941680541_399_tl_15" n="N015"/>auffälligen Widerspruch zwischen <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Berufungen auf
+         <lb facs="#facs_2_region_1767941680541_399_tl_16" n="N016"/>seine Armuth und den Thatsachen, welche aus amtlichen und
+         <lb facs="#facs_2_region_1767941680541_399_tl_17" n="N017"/>sonstigen authentischen Quellen bekannt sind“. Als F. <rs type="person" ref="#hsl_person_id_1206">Ries</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1767941680541_399_tl_18" n="N018"/>im Jahre <date>1838</date> die betreffenden Briefe <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s ver
+         <lb facs="#facs_2_region_1767941680541_399_tl_19" n="N019" break="no"/>öffentlichte, entstand beim Publicum die vollständig falsche
+         <lb facs="#facs_2_region_1767941680541_399_tl_20" n="N020"/>Vorstellung, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> wäre damals (<date>1815</date>) in sehr be
+         <lb facs="#facs_2_region_1767941680541_399_tl_21" n="N021" break="no"/>drängten Umständen gewesen und die Witwe seines Bruders
+         <lb facs="#facs_2_region_1767941680541_399_tl_22" n="N022"/><rs type="person" ref="#hsl_person_id_6370">Karl</rs> sei mit ihrem Kinde in drückendster Armuth zurück
+         <lb facs="#facs_2_region_1767941680541_399_tl_23" n="N023" break="no"/>gelassen worden. Die Wahrheit rücksichtlich des Letzteren ist
+         <lb facs="#facs_2_region_1767941680541_399_tl_24" n="N024"/>die, daß der <rs type="person" ref="#hsl_person_id_3005">Witwe</rs><space unit="char" quantity="1"/><rs type="person" ref="#hsl_person_id_6370">Karl</rs>’s ein jährliches Einkommen von tausend
+         <lb facs="#facs_2_region_1767941680541_399_tl_25" n="N025" break="no"/>fünfhundert Gulden verblieben war. Wir müssen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2857">Thayer</rs></hi> für
+         <lb facs="#facs_2_region_1767941680541_399_tl_26" n="N026"/>alle derartigen mühevollen Nachforschungen und Berichtigungen
+         <lb facs="#facs_2_region_1767941680541_399_tl_27" n="N027"/>besonders dankbar sein, weil sie endlich die von sentimentalen
+         <lb facs="#facs_2_region_1767941680541_399_tl_28" n="N028"/>und oberflächlichen Schriftstellern ausgeheckte Fabel ent
+         <lb facs="#facs_2_region_1767941680541_399_tl_29" n="N029" break="no"/>kräften, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> habe darben müssen. Ebenso erfreulich
+         <lb facs="#facs_2_region_1767941680541_399_tl_30" n="N030"/>sind die von <rs type="person" ref="#hsl_person_id_2857">Thayer</rs> angeführten Thatsachen (denn „nur
+         <lb facs="#facs_2_region_1767941680541_399_tl_31" n="N031"/>Thatsachen“ ist die Devise seines Buches) bezüglich der Ver
+         <lb facs="#facs_2_region_1767941680541_399_tl_32" n="N032" break="no"/>breitung und Beliebtheit von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Compositionen in
+         <lb facs="#facs_2_region_1767941680541_399_tl_33" n="N033"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> zu seinen Lebzeiten. „Die oft wiederholte Behauptung,“
+         <lb facs="#facs_2_region_1767941680541_399_tl_34" n="N034"/>sagt <rs type="person" ref="#hsl_person_id_2857">Thayer</rs>, „es habe in <rs type="place" ref="#hsl_place_id_55">Wien</rs> an Geschmack und Ver
+         <lb facs="#facs_2_region_1767941680541_399_tl_35" n="N035" break="no"/>ständniß für <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Werke gefehlt, ist ein Irrthum.
+         <lb facs="#facs_2_region_1767941680541_399_tl_36" n="N036"/>Im Gegentheil — seine Orchester-Compositionen, so wenige
+         <lb facs="#facs_2_region_1767941680541_399_tl_37" n="N037"/>auch damals (1808) erst veröffentlicht waren, befanden sich
+         <lb facs="#facs_2_region_1767941680541_399_tl_38" n="N038"/>regelmäßig und ebenso oft auf dem Programm, wie die
+         <lb facs="#facs_2_region_1767941680541_399_tl_39" n="N039"/><rs type="person" ref="#hsl_person_id_189">Mozart</rs>’schen oder selbst die <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’schen: keine anderen<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1767941680541_399_tl_1" n="N001"/>hungen sind, welche sich in <rs type="person">Beethoven</rs>'s Briefen über <rs type="person" continued="true">Lob¬</rs>
-               <lb facs="#facs_2_region_1767941680541_399_tl_2" n="N002"/>
-               <rs type="person" continued="true">kowitz</rs>' Charakter finden. In dieses unerfreuliche Capitel,
-               <lb facs="#facs_2_region_1767941680541_399_tl_3" n="N003"/>das durch seine complicirten Rechnungen und heute unver¬
-               <lb facs="#facs_2_region_1767941680541_399_tl_4" n="N004"/>ständlich gewordenen Abhandlungen über „Bancozettel“ und
-               <lb facs="#facs_2_region_1767941680541_399_tl_5" n="N005"/>„Einlösungsscheine“ auch ermüdend wird, bringt <rs type="person">Thayer</rs>
-               <lb facs="#facs_2_region_1767941680541_399_tl_6" n="N006"/>alles wünschenswerthe Licht. Eine Anzahl Geschäftsbriefe
-               <lb facs="#facs_2_region_1767941680541_399_tl_7" n="N007"/>
-               <rs type="person">Beethoven</rs>'s an den <rs type="place">Prag</rs>er Advocaten Dr. <hi rendition="#em">
-                  <rs type="person">Kanka</rs>
-               </hi> sind
-               <lb facs="#facs_2_region_1767941680541_399_tl_8" n="N008"/>hier im „Anhang“ publicirt, wohin wir gern noch viele
-               <lb facs="#facs_2_region_1767941680541_399_tl_9" n="N009"/>andere Briefe verweisen möchten, welche den Text unnöthig
-               <lb facs="#facs_2_region_1767941680541_399_tl_10" n="N010"/>belasten und den Zusammenhang der Erzählung zerreißen.
-               <lb facs="#facs_2_region_1767941680541_399_tl_11" n="N011"/>Nicht nur in seiner Correspondenz über diese Schen¬
-               <lb facs="#facs_2_region_1767941680541_399_tl_12" n="N012"/>kungs-Urkunde, sondern leider auch in Briefen nach <rs type="place">England</rs>
-               <lb facs="#facs_2_region_1767941680541_399_tl_13" n="N013"/>hat <rs type="person">Beethoven</rs> seine Vermögensverhältnisse stets ungünstiger
-               <lb facs="#facs_2_region_1767941680541_399_tl_14" n="N014"/>dargestellt, als sie thatsächlich waren. <rs type="person">Thayer</rs> beleuchtet „den
-               <lb facs="#facs_2_region_1767941680541_399_tl_15" n="N015"/>auffälligen Widerspruch zwischen <rs type="person">Beethoven</rs>'s Berufungen auf
-               <lb facs="#facs_2_region_1767941680541_399_tl_16" n="N016"/>seine Armuth und den Thatsachen, welche aus amtlichen und
-               <lb facs="#facs_2_region_1767941680541_399_tl_17" n="N017"/>sonstigen authentischen Quellen bekannt sind“. Als F. <rs type="person">Ries</rs>
-               <lb facs="#facs_2_region_1767941680541_399_tl_18" n="N018"/>im Jahre <date month="0" day="0" year="0">1838</date> die betreffenden Briefe <rs type="person">Beethoven</rs>'s ver¬
-               <lb facs="#facs_2_region_1767941680541_399_tl_19" n="N019"/>öffentlichte, entstand beim Publicum die vollständig falsche
-               <lb facs="#facs_2_region_1767941680541_399_tl_20" n="N020"/>Vorstellung, <rs type="person">Beethoven</rs> wäre damals (<date month="0" day="0" year="0">1815</date>) in sehr be¬
-               <lb facs="#facs_2_region_1767941680541_399_tl_21" n="N021"/>drängten Umständen gewesen und die Witwe seines Bruders
-               <lb facs="#facs_2_region_1767941680541_399_tl_22" n="N022"/>
-               <rs type="person">Karl</rs> sei mit ihrem Kinde in drückendster Armuth zurück¬
-               <lb facs="#facs_2_region_1767941680541_399_tl_23" n="N023"/>gelassen worden. Die Wahrheit rücksichtlich des Letzteren ist
-               <lb facs="#facs_2_region_1767941680541_399_tl_24" n="N024"/>die, daß der <rs type="person">Witwe</rs>
-               <rs type="person">Karl</rs>'s ein jährliches Einkommen von tausend¬
-               <lb facs="#facs_2_region_1767941680541_399_tl_25" n="N025"/>fünfhundert Gulden verblieben war. Wir müssen <hi rendition="#em">
-                  <rs type="person">Thayer</rs>
-               </hi> für
-               <lb facs="#facs_2_region_1767941680541_399_tl_26" n="N026"/>alle derartigen mühevollen Nachforschungen und Berichtigungen
-               <lb facs="#facs_2_region_1767941680541_399_tl_27" n="N027"/>besonders dankbar sein, weil sie endlich die von sentimentalen
-               <lb facs="#facs_2_region_1767941680541_399_tl_28" n="N028"/>und oberflächlichen Schriftstellern ausgeheckte Fabel ent¬
-               <lb facs="#facs_2_region_1767941680541_399_tl_29" n="N029"/>kräften, <rs type="person">Beethoven</rs> habe darben müssen. Ebenso erfreulich
-               <lb facs="#facs_2_region_1767941680541_399_tl_30" n="N030"/>sind die von <rs type="person">Thayer</rs> angeführten Thatsachen (denn „nur
-               <lb facs="#facs_2_region_1767941680541_399_tl_31" n="N031"/>Thatsachen“ ist die Devise seines Buches) bezüglich der Ver¬
-               <lb facs="#facs_2_region_1767941680541_399_tl_32" n="N032"/>breitung und Beliebtheit von <rs type="person">Beethoven</rs>'s Compositionen in
-               <lb facs="#facs_2_region_1767941680541_399_tl_33" n="N033"/>
-               <rs type="place">Wien</rs> zu seinen Lebzeiten. „Die oft wiederholte Behauptung,“
-               <lb facs="#facs_2_region_1767941680541_399_tl_34" n="N034"/>sagt <rs type="person">Thayer</rs>, „es habe in <rs type="place">Wien</rs> an Geschmack und Ver¬
-               <lb facs="#facs_2_region_1767941680541_399_tl_35" n="N035"/>ständniß für <rs type="person">Beethoven</rs>'s Werke gefehlt, ist ein Irrthum.
-               <lb facs="#facs_2_region_1767941680541_399_tl_36" n="N036"/>Im Gegentheil — seine Orchester-Compositionen, so wenige
-               <lb facs="#facs_2_region_1767941680541_399_tl_37" n="N037"/>auch damals (1808) erst veröffentlicht waren, befanden sich
-               <lb facs="#facs_2_region_1767941680541_399_tl_38" n="N038"/>regelmäßig und ebenso oft auf dem Programm, wie die
-               <lb facs="#facs_2_region_1767941680541_399_tl_39" n="N039"/>
-               <rs type="person">Mozart</rs>'schen oder selbst die <rs type="person">Haydn</rs>'schen: keine anderen
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1767941685925_402_tl_1" n="N001"/>waren in gleicher Weise im Stande, das Haus zu füllen.“
-               <lb facs="#facs_2_region_1767941685925_402_tl_2" n="N002"/>„<rs type="person">Beethoven</rs>'s Popularität,“ heißt es weiter, „war es, welche
-               <lb facs="#facs_2_region_1767941685925_402_tl_3" n="N003"/>den großen Concerten für die öffentlichen Wohlthätigkeits-
-               <lb facs="#facs_2_region_1767941685925_402_tl_4" n="N004"/>Anstalten den Erfolg sichern mußte.“ Was ich diesfalls zur
-               <lb facs="#facs_2_region_1767941685925_402_tl_5" n="N005"/>Ehrenrettung <rs type="place">Wien</rs>s schon in meiner „<rs type="bibl">Geschichte des Wiener</rs>
-               <lb facs="#facs_2_region_1767941685925_402_tl_6" n="N006"/>
-               <rs type="bibl">Concertwesens</rs>“ vorgebracht, findet in <rs type="person">Thayer</rs>'s <rs type="bibl">Buch</rs>
-               <lb facs="#facs_2_region_1767941685925_402_tl_7" n="N007"/>kräftige Unterstützung. Ich habe dort zahlreiche Auszüge aus
-               <lb facs="#facs_2_region_1767941685925_402_tl_8" n="N008"/>
-               <rs type="place">Wien</rs>er Kritiken gebracht, welche — entgegen der allgemeinen
-               <lb facs="#facs_2_region_1767941685925_402_tl_9" n="N009"/>Annahme — beweisen, wie würdig, ja wie warm und begeistert
-               <lb facs="#facs_2_region_1767941685925_402_tl_10" n="N010"/>schon zu <rs type="person">Beethoven</rs>'s Lebzeiten in <rs type="place">Wien</rs> über ihn geschrieben
-               <lb facs="#facs_2_region_1767941685925_402_tl_11" n="N011"/>wurde. Davon sollten Musik-Schriftsteller und Feuilletonisten
-               <lb facs="#facs_2_region_1767941685925_402_tl_12" n="N012"/>endlich Notiz nehmen, anstatt immer wieder die alberne Cor¬
-               <lb facs="#facs_2_region_1767941685925_402_tl_13" n="N013"/>respondenz über die <rs type="bibl">„Leonoren“-Ouvertüre</rs> aus dem „<rs type="bibl">Frei¬</rs>
-               <lb facs="#facs_2_region_1767941685925_402_tl_14" n="N014"/>
-               <rs type="bibl">müthigen</rs>“ von <date month="0" day="0" year="0">1806</date> als Beweis für die Bornirtheit der
-               <lb facs="#facs_2_region_1767941685925_402_tl_15" n="N015"/>damaligen Kritik überhaupt zu citiren.
-               <lb facs="#facs_2_region_1767941685925_402_tl_16" n="N016"/>Manches interessante und neue Detail erfahren wir
-               <lb facs="#facs_2_region_1767941685925_402_tl_17" n="N017"/>über <rs type="person">Beethoven</rs>'s Aufenthalt in <rs type="place">Teplitz</rs> und <rs type="place">Karlsbad</rs> in den
-               <lb facs="#facs_2_region_1767941685925_402_tl_18" n="N018"/>Jahren <date month="0" day="0" year="0">1811</date> und <date month="0" day="0" year="0">1812</date>; insbesondere auch über <rs type="person">Beethoven</rs>'s
-               <lb facs="#facs_2_region_1767941685925_402_tl_19" n="N019"/>Verhältniß zu <hi rendition="#em">Amalia <rs type="person">Sebald</rs>
-               </hi>. Es ist dasselbe schöne
-               <lb facs="#facs_2_region_1767941685925_402_tl_20" n="N020"/>und geistreiche Mädchen, für welches auch Karl Maria
-               <lb facs="#facs_2_region_1767941685925_402_tl_21" n="N021"/>
-               <hi rendition="#em">
-                  <rs type="person">Weber</rs>
-               </hi> eine warme und tiefe Neigung gefaßt hatte. Sie
-               <lb facs="#facs_2_region_1767941685925_402_tl_22" n="N022"/>war <date month="0" day="0" year="0">1811</date> mit <rs type="person">Tiedge</rs>'s Freundin, der Gräfin <hi rendition="#em">Elise von</hi>
-               <lb facs="#facs_2_region_1767941685925_402_tl_23" n="N023"/>
-               <hi rendition="#em">der <rs type="person">Recke</rs>
-               </hi>, in <rs type="place">Teplitz</rs>, und <rs type="person">Beethoven</rs> wurde „von ihren
-               <lb facs="#facs_2_region_1767941685925_402_tl_24" n="N024"/>Reizen ergriffen und unwiderstehlich gefesselt“. In einem
-               <lb facs="#facs_2_region_1767941685925_402_tl_25" n="N025"/>Briefe an <rs type="person">Tiedge</rs> sendet <rs type="person">Beethoven</rs> „der <rs type="person">Amalia</rs> einen recht
-               <lb facs="#facs_2_region_1767941685925_402_tl_26" n="N026"/>feurigen Kuß“. Im folgenden Sommer trifft er Amalia <rs type="person" continued="true">Se¬</rs>
-               <lb facs="#facs_2_region_1767941685925_402_tl_27" n="N027"/>
-               <rs type="person" continued="true">bald</rs> abermals in <rs type="place">Teplitz</rs> und schreibt ihr da eine Reihe von
-               <lb facs="#facs_2_region_1767941685925_402_tl_28" n="N028"/>Briefchen, aus welchen in der That ein sehr lebhaftes und
-               <lb facs="#facs_2_region_1767941685925_402_tl_29" n="N029"/>zärtliches Interesse spricht. <rs type="person">Thayer</rs> zweifelt nicht, daß diese
-               <lb facs="#facs_2_region_1767941685925_402_tl_30" n="N030"/>
-               <rs type="person">Amalia</rs> die eigentliche Quelle der Begeisterung für die „<rs type="bibl">Lie¬</rs>
-               <lb facs="#facs_2_region_1767941685925_402_tl_31" n="N031"/>
-               <rs type="bibl">der an die ferne Geliebte</rs>“ gewesen. Die Bekanntschaft
-               <lb facs="#facs_2_region_1767941685925_402_tl_32" n="N032"/>
-               <hi rendition="#em">
-                  <rs type="person">Goethe</rs>'s</hi> machte <rs type="person">Beethoven</rs>
-               <date month="0" day="0" year="0">1812</date> in <hi rendition="#em">
-                  <rs type="place">Teplitz</rs>
-               </hi>; in <rs type="place" continued="true">Karls¬</rs>
-               <lb facs="#facs_2_region_1767941685925_402_tl_33" n="N033"/>
-               <rs type="place" continued="true">bad</rs> ist er höchst wahrscheinlich nie mit <rs type="person">Goethe</rs> zusammenge¬
-               <lb facs="#facs_2_region_1767941685925_402_tl_34" n="N034"/>troffen, obgleich sein Gedächtniß in späteren Jahren ihn ein¬
-               <lb facs="#facs_2_region_1767941685925_402_tl_35" n="N035"/>mal darüber täuschte. Begierig waren wir, zu erfahren, wie
-               <lb facs="#facs_2_region_1767941685925_402_tl_36" n="N036"/>sich <rs type="person">Thayer</rs> zu den bekannten Briefen <rs type="person">Beethoven</rs>'s an <hi rendition="#em">Bet¬</hi>
-               <lb facs="#facs_2_region_1767941685925_402_tl_37" n="N037"/>
-               <hi rendition="#em">tina v. <rs type="person">Arnim</rs>
-               </hi> stelle, ob er sie für durchaus echt halten
-               <lb facs="#facs_2_region_1767941685925_402_tl_38" n="N038"/>werde. In dem dritten dieser Briefe erzählt <rs type="person">Beethoven</rs> be¬
-               <lb facs="#facs_2_region_1767941685925_402_tl_39" n="N039"/>kanntlich die Scene, wie er in <rs type="place">Teplitz</rs>, mit <rs type="person">Goethe</rs> spazieren
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1767941685925_402_tl_1" n="N001"/>waren in gleicher Weise im Stande, das Haus zu füllen.“
+         <lb facs="#facs_2_region_1767941685925_402_tl_2" n="N002"/>„<rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Popularität,“ heißt es weiter, „war es, welche
+         <lb facs="#facs_2_region_1767941685925_402_tl_3" n="N003"/>den großen Concerten für die öffentlichen Wohlthätigkeits-
+         <lb facs="#facs_2_region_1767941685925_402_tl_4" n="N004"/>Anstalten den Erfolg sichern mußte.“ Was ich diesfalls zur
+         <lb facs="#facs_2_region_1767941685925_402_tl_5" n="N005"/>Ehrenrettung <rs type="place" ref="#hsl_place_id_55">Wien</rs>s schon in meiner „<rs type="bibl" ref="#hsl_work_id_3801">Geschichte des Wiener
+         <lb facs="#facs_2_region_1767941685925_402_tl_6" n="N006"/>Concertwesens</rs>“ vorgebracht, findet in <rs type="person" ref="#hsl_person_id_2857">Thayer</rs>’s <rs type="bibl" ref="#hsl_work_id_3976">Buch</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1767941685925_402_tl_7" n="N007"/>kräftige Unterstützung. Ich habe dort zahlreiche Auszüge aus
+         <lb facs="#facs_2_region_1767941685925_402_tl_8" n="N008"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Kritiken gebracht, welche — entgegen der allgemeinen
+         <lb facs="#facs_2_region_1767941685925_402_tl_9" n="N009"/>Annahme — beweisen, wie würdig, ja wie warm und begeistert
+         <lb facs="#facs_2_region_1767941685925_402_tl_10" n="N010"/>schon zu <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Lebzeiten in <rs type="place" ref="#hsl_place_id_55">Wien</rs> über ihn geschrieben
+         <lb facs="#facs_2_region_1767941685925_402_tl_11" n="N011"/>wurde. Davon sollten Musik-Schriftsteller und Feuilletonisten
+         <lb facs="#facs_2_region_1767941685925_402_tl_12" n="N012"/>endlich Notiz nehmen, anstatt immer wieder die alberne Cor
+         <lb facs="#facs_2_region_1767941685925_402_tl_13" n="N013" break="no"/>respondenz über die <rs type="bibl" ref="#hsl_work_id_1522">„Leonoren“-Ouvertüre</rs> aus dem „<rs type="bibl" ref="#hsl_work_id_5855">Frei
+         <lb facs="#facs_2_region_1767941685925_402_tl_14" n="N014" break="no"/>müthigen</rs>“ von <date>1806</date> als Beweis für die Bornirtheit der
+         <lb facs="#facs_2_region_1767941685925_402_tl_15" n="N015"/>damaligen Kritik überhaupt zu citiren.
+            </p><p>
+         <lb facs="#facs_2_region_1767941685925_402_tl_16" n="N016"/>Manches interessante und neue Detail erfahren wir
+         <lb facs="#facs_2_region_1767941685925_402_tl_17" n="N017"/>über <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Aufenthalt in <rs type="place" ref="#hsl_place_id_167">Teplitz</rs> und <rs type="place" ref="#hsl_place_id_29">Karlsbad</rs> in den
+         <lb facs="#facs_2_region_1767941685925_402_tl_18" n="N018"/>Jahren <date>1811</date> und <date>1812</date>; insbesondere auch über <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s
+         <lb facs="#facs_2_region_1767941685925_402_tl_19" n="N019"/>Verhältniß zu <hi rendition="#em">Amalia <rs type="person" ref="#hsl_person_id_8159">Sebald</rs></hi>. Es ist dasselbe schöne
+         <lb facs="#facs_2_region_1767941685925_402_tl_20" n="N020"/>und geistreiche Mädchen, für welches auch Karl Maria
+         <lb facs="#facs_2_region_1767941685925_402_tl_21" n="N021"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_321">Weber</rs></hi> eine warme und tiefe Neigung gefaßt hatte. Sie
+         <lb facs="#facs_2_region_1767941685925_402_tl_22" n="N022"/>war <date>1811</date> mit <rs type="person" ref="#hsl_person_id_8161">Tiedge</rs>’s Freundin, der Gräfin <hi rendition="#em">Elise von
+         <lb facs="#facs_2_region_1767941685925_402_tl_23" n="N023"/>der <rs type="person" ref="#hsl_person_id_8160">Recke</rs></hi>, in <rs type="place" ref="#hsl_place_id_167">Teplitz</rs>, und <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> wurde „von ihren
+         <lb facs="#facs_2_region_1767941685925_402_tl_24" n="N024"/>Reizen ergriffen und unwiderstehlich gefesselt“. In einem
+         <lb facs="#facs_2_region_1767941685925_402_tl_25" n="N025"/>Briefe an <rs type="person" ref="#hsl_person_id_8161">Tiedge</rs> sendet <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> „der <rs type="person" ref="#hsl_person_id_8159">Amalia</rs> einen recht
+         <lb facs="#facs_2_region_1767941685925_402_tl_26" n="N026"/>feurigen Kuß“. Im folgenden Sommer trifft er Amalia <rs type="person" ref="#hsl_person_id_8159">Se
+         <lb facs="#facs_2_region_1767941685925_402_tl_27" n="N027" break="no"/>bald</rs> abermals in <rs type="place" ref="#hsl_place_id_167">Teplitz</rs> und schreibt ihr da eine Reihe von
+         <lb facs="#facs_2_region_1767941685925_402_tl_28" n="N028"/>Briefchen, aus welchen in der That ein sehr lebhaftes und
+         <lb facs="#facs_2_region_1767941685925_402_tl_29" n="N029"/>zärtliches Interesse spricht. <rs type="person" ref="#hsl_person_id_2857">Thayer</rs> zweifelt nicht, daß diese
+         <lb facs="#facs_2_region_1767941685925_402_tl_30" n="N030"/><rs type="person" ref="#hsl_person_id_8159">Amalia</rs> die eigentliche Quelle der Begeisterung für die „<rs type="bibl" ref="#hsl_work_id_1312">Lie
+         <lb facs="#facs_2_region_1767941685925_402_tl_31" n="N031" break="no"/>der an die ferne Geliebte</rs>“ gewesen. Die Bekanntschaft
+         <lb facs="#facs_2_region_1767941685925_402_tl_32" n="N032"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s</hi> machte <rs type="person" ref="#hsl_person_id_25">Beethoven</rs><space quantity="1" unit="char"/><date>1812</date> in <hi rendition="#em"><rs type="place" ref="#hsl_place_id_167">Teplitz</rs></hi>; in <rs type="place" ref="#hsl_place_id_29">Karls
+         <lb facs="#facs_2_region_1767941685925_402_tl_33" n="N033" break="no"/>bad</rs> ist er höchst wahrscheinlich nie mit <rs type="person" ref="#hsl_person_id_100">Goethe</rs> zusammenge
+         <lb facs="#facs_2_region_1767941685925_402_tl_34" n="N034" break="no"/>troffen, obgleich sein Gedächtniß in späteren Jahren ihn ein
+         <lb facs="#facs_2_region_1767941685925_402_tl_35" n="N035" break="no"/>mal darüber täuschte. Begierig waren wir, zu erfahren, wie
+         <lb facs="#facs_2_region_1767941685925_402_tl_36" n="N036"/>sich <rs type="person" ref="#hsl_person_id_2857">Thayer</rs> zu den bekannten Briefen <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s an <hi rendition="#em">Bet
+         <lb facs="#facs_2_region_1767941685925_402_tl_37" n="N037" break="no"/>tina v. <rs type="person" ref="#hsl_person_id_683">Arnim</rs></hi> stelle, ob er sie für durchaus echt halten
+         <lb facs="#facs_2_region_1767941685925_402_tl_38" n="N038"/>werde. In dem dritten dieser Briefe erzählt <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> be
+         <lb facs="#facs_2_region_1767941685925_402_tl_39" n="N039" break="no"/>kanntlich die Scene, wie er in <rs type="place" ref="#hsl_place_id_167">Teplitz</rs>, mit <rs type="person" ref="#hsl_person_id_100">Goethe</rs> spazieren<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1767941697138_408_tl_1" n="N001"/>gehend, der ganzen kaiserlichen Familie begegnet und ohne zu
+         <lb facs="#facs_3_region_1767941697138_408_tl_2" n="N002"/>grüßen „mitten durch den dicksten Haufen“ gegangen sei. Da
+         <lb facs="#facs_3_region_1767941697138_408_tl_3" n="N003" break="no"/>mit vergleicht nun <rs type="person" ref="#hsl_person_id_2857">Thayer</rs> einen Brief <rs type="person" ref="#hsl_person_id_683">Bettina</rs>’s an <rs type="person" ref="#hsl_person_id_8162">Pückler-
+         <lb facs="#facs_3_region_1767941697138_408_tl_4" n="N004"/>Muskau</rs>, worin sie dieselbe Geschichte erzählt und mit den Worten
+         <lb facs="#facs_3_region_1767941697138_408_tl_5" n="N005"/>schließt: „Nachher kam <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> zu uns gelaufen und erzählte
+         <lb facs="#facs_3_region_1767941697138_408_tl_6" n="N006"/>das Alles und freute sich ganz kindisch, daß er <rs type="person" ref="#hsl_person_id_100">Goethe</rs>n so
+         <lb facs="#facs_3_region_1767941697138_408_tl_7" n="N007"/>geneckt habe.“ <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> hätte somit <rs type="person" ref="#hsl_person_id_683">Bettine</rs>n an einem
+         <lb facs="#facs_3_region_1767941697138_408_tl_8" n="N008"/>Tage die Scene mündlich geschildert und am folgenden in
+         <lb facs="#facs_3_region_1767941697138_408_tl_9" n="N009"/>einem langen Briefe an sie ihr dieselbe Geschichte ausführlich
+         <lb facs="#facs_3_region_1767941697138_408_tl_10" n="N010"/>wieder erzählt. <rs type="person" ref="#hsl_person_id_2857">Thayer</rs> kommt zu dem richtigen Schlusse:
+         <lb facs="#facs_3_region_1767941697138_408_tl_11" n="N011"/>so lange der <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’sche Brief an <rs type="person" ref="#hsl_person_id_683">Bettina</rs> nicht im
+         <lb facs="#facs_3_region_1767941697138_408_tl_12" n="N012"/>Original von competenten Beurtheilern <hi rendition="#em">gesehen</hi> und für
+         <lb facs="#facs_3_region_1767941697138_408_tl_13" n="N013"/>echt erklärt worden ist, kann dessen Echtheit <hi rendition="#em">nicht</hi> zugegeben
+         <lb facs="#facs_3_region_1767941697138_408_tl_14" n="N014"/>werden. Daß <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2857">Thayer</rs></hi> hingegen die beiden anderen von
+         <lb facs="#facs_3_region_1767941697138_408_tl_15" n="N015"/><rs type="person" ref="#hsl_person_id_683">Bettina</rs> veröffentlichten Briefe <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s für authentisch
+         <lb facs="#facs_3_region_1767941697138_408_tl_16" n="N016"/>hält, ihre Echtheit nicht einmal mit Wahrscheinlichkeitsgründen
+         <lb facs="#facs_3_region_1767941697138_408_tl_17" n="N017"/>anficht, hat mich einigermaßen überrascht. Denn es fehlt auch
+         <lb facs="#facs_3_region_1767941697138_408_tl_18" n="N018"/>hier an Zeugnissen competenter Beurtheiler, welche die
+         <lb facs="#facs_3_region_1767941697138_408_tl_19" n="N019"/>Originalbriefe „<hi rendition="#em">gesehen</hi> und für echt erklärt haben“.
+         <lb facs="#facs_3_region_1767941697138_408_tl_20" n="N020"/>Nachdem die Echtheit dieser Briefe so oft schon bei Lebzeiten
+         <lb facs="#facs_3_region_1767941697138_408_tl_21" n="N021"/>der Frau Bettina v. <rs type="person" ref="#hsl_person_id_683">Arnim</rs> angezweifelt wurde, ist es
+         <lb facs="#facs_3_region_1767941697138_408_tl_22" n="N022"/>wenigstens seltsam, daß diese den Einblick in die Originale
+         <lb facs="#facs_3_region_1767941697138_408_tl_23" n="N023"/>weder den Zweiflern noch unparteiischen Schiedsrichtern
+         <lb facs="#facs_3_region_1767941697138_408_tl_24" n="N024"/>vergönnte.
+            </p><p>
+         <lb facs="#facs_3_region_1767941697138_408_tl_25" n="N025"/>Von den in <rs type="person" ref="#hsl_person_id_2857">Thayer</rs>’s dritten Band abgedruckten Briefen
+         <lb facs="#facs_3_region_1767941697138_408_tl_26" n="N026"/>sind die meisten bekannt. Neu und sehr anziehend ist hin
+         <lb facs="#facs_3_region_1767941697138_408_tl_27" n="N027" break="no"/>gegen eine auf die Entstehung der <rs type="bibl" ref="#hsl_work_id_1889">„Egmont“-Musik</rs> bezüg
+         <lb facs="#facs_3_region_1767941697138_408_tl_28" n="N028" break="no"/>liche Mittheilung einer <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Dame. Es ist keine andere
+         <lb facs="#facs_3_region_1767941697138_408_tl_29" n="N029"/>als <hi rendition="#em">Toni <rs type="person" ref="#hsl_person_id_5694">Adamberger</rs></hi>, später verehelichte <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5694">Arneth</rs></hi>,
+         <lb facs="#facs_3_region_1767941697138_408_tl_30" n="N030"/>die gefeierte Schauspielerin des Burgtheaters, welche Herrn
+         <lb facs="#facs_3_region_1767941697138_408_tl_31" n="N031"/><rs type="person" ref="#hsl_person_id_2857">Thayer</rs> ihre Bekanntschaft mit <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> schildert. Sie
+         <lb facs="#facs_3_region_1767941697138_408_tl_32" n="N032"/>spielte die Rolle <rs type="person" ref="#hsl_person_id_3291">Klärchen</rs>s, als <rs type="person" ref="#hsl_person_id_25">Beethoven</rs><space quantity="1" unit="char"/><date>1810</date> von der
+         <lb facs="#facs_3_region_1767941697138_408_tl_33" n="N033"/>Theater-Direction den Auftrag erhielt, die <rs type="bibl" ref="#hsl_work_id_1889">Musik</rs> zu <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s
+         <lb facs="#facs_3_region_1767941697138_408_tl_34" n="N034"/>„<rs type="bibl" ref="#hsl_work_id_743">Egmont</rs>“ zu componiren. Die beiden Lieder, welche Klärchen
+         <lb facs="#facs_3_region_1767941697138_408_tl_35" n="N035"/>zu singen hat, mußten sie natürlich in persönliche Berührung
+         <lb facs="#facs_3_region_1767941697138_408_tl_36" n="N036"/>mit <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> bringen. Die Erzählung der berühmten Künst
+         <lb facs="#facs_3_region_1767941697138_408_tl_37" n="N037" break="no"/>lerin, in welcher wir zugleich die Mutter des Historikers
+         <lb facs="#facs_3_region_1767941697138_408_tl_38" n="N038"/><hi rendition="#em">Alfred v. <rs type="person" ref="#hsl_person_id_6007">Arneth</rs></hi> verehren, ist so anziehend in ihrer<space quantity="1" unit="char"/></p>
             <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1767941697138_408_tl_1" n="N001"/>gehend, der ganzen kaiserlichen Familie begegnet und ohne zu
-               <lb facs="#facs_3_region_1767941697138_408_tl_2" n="N002"/>grüßen „mitten durch den dicksten Haufen“ gegangen sei. Da¬
-               <lb facs="#facs_3_region_1767941697138_408_tl_3" n="N003"/>mit vergleicht nun <rs type="person">Thayer</rs> einen Brief <rs type="person">Bettina</rs>'s an <rs type="person" continued="true">Pückler-</rs>
-               <lb facs="#facs_3_region_1767941697138_408_tl_4" n="N004"/>
-               <rs type="person" continued="true">Muskau</rs>, worin sie dieselbe Geschichte erzählt und mit den Worten
-               <lb facs="#facs_3_region_1767941697138_408_tl_5" n="N005"/>schließt: „Nachher kam <rs type="person">Beethoven</rs> zu uns gelaufen und erzählte
-               <lb facs="#facs_3_region_1767941697138_408_tl_6" n="N006"/>das Alles und freute sich ganz kindisch, daß er <rs type="person">Goethe</rs>n so
-               <lb facs="#facs_3_region_1767941697138_408_tl_7" n="N007"/>geneckt habe.“ <rs type="person">Beethoven</rs> hätte somit <rs type="person">Bettine</rs>n an einem
-               <lb facs="#facs_3_region_1767941697138_408_tl_8" n="N008"/>Tage die Scene mündlich geschildert und am folgenden in
-               <lb facs="#facs_3_region_1767941697138_408_tl_9" n="N009"/>einem langen Briefe an sie ihr dieselbe Geschichte ausführlich
-               <lb facs="#facs_3_region_1767941697138_408_tl_10" n="N010"/>wieder erzählt. <rs type="person">Thayer</rs> kommt zu dem richtigen Schlusse:
-               <lb facs="#facs_3_region_1767941697138_408_tl_11" n="N011"/>so lange der <rs type="person">Beethoven</rs>'sche Brief an <rs type="person">Bettina</rs> nicht im
-               <lb facs="#facs_3_region_1767941697138_408_tl_12" n="N012"/>Original von competenten Beurtheilern <hi rendition="#em">gesehen</hi> und für
-               <lb facs="#facs_3_region_1767941697138_408_tl_13" n="N013"/>echt erklärt worden ist, kann dessen Echtheit <hi rendition="#em">nicht</hi> zugegeben
-               <lb facs="#facs_3_region_1767941697138_408_tl_14" n="N014"/>werden. Daß <hi rendition="#em">
-                  <rs type="person">Thayer</rs>
-               </hi> hingegen die beiden anderen von
-               <lb facs="#facs_3_region_1767941697138_408_tl_15" n="N015"/>
-               <rs type="person">Bettina</rs> veröffentlichten Briefe <rs type="person">Beethoven</rs>'s für authentisch
-               <lb facs="#facs_3_region_1767941697138_408_tl_16" n="N016"/>hält, ihre Echtheit nicht einmal mit Wahrscheinlichkeitsgründen
-               <lb facs="#facs_3_region_1767941697138_408_tl_17" n="N017"/>anficht, hat mich einigermaßen überrascht. Denn es fehlt auch
-               <lb facs="#facs_3_region_1767941697138_408_tl_18" n="N018"/>hier an Zeugnissen competenter Beurtheiler, welche die
-               <lb facs="#facs_3_region_1767941697138_408_tl_19" n="N019"/>Originalbriefe „<hi rendition="#em">gesehen</hi> und für echt erklärt haben“.
-               <lb facs="#facs_3_region_1767941697138_408_tl_20" n="N020"/>Nachdem die Echtheit dieser Briefe so oft schon bei Lebzeiten
-               <lb facs="#facs_3_region_1767941697138_408_tl_21" n="N021"/>der Frau Bettina v. <rs type="person">Arnim</rs> angezweifelt wurde, ist es
-               <lb facs="#facs_3_region_1767941697138_408_tl_22" n="N022"/>wenigstens seltsam, daß diese den Einblick in die Originale
-               <lb facs="#facs_3_region_1767941697138_408_tl_23" n="N023"/>weder den Zweiflern noch unparteiischen Schiedsrichtern
-               <lb facs="#facs_3_region_1767941697138_408_tl_24" n="N024"/>vergönnte.
-               <lb facs="#facs_3_region_1767941697138_408_tl_25" n="N025"/>Von den in <rs type="person">Thayer</rs>'s dritten Band abgedruckten Briefen
-               <lb facs="#facs_3_region_1767941697138_408_tl_26" n="N026"/>sind die meisten bekannt. Neu und sehr anziehend ist hin¬
-               <lb facs="#facs_3_region_1767941697138_408_tl_27" n="N027"/>gegen eine auf die Entstehung der <rs type="bibl">„Egmont“-Musik</rs> bezüg¬
-               <lb facs="#facs_3_region_1767941697138_408_tl_28" n="N028"/>liche Mittheilung einer <rs type="place">Wien</rs>er Dame. Es ist keine andere
-               <lb facs="#facs_3_region_1767941697138_408_tl_29" n="N029"/>als <hi rendition="#em">Toni <rs type="person">Adamberger</rs>
-               </hi>, später verehelichte <hi rendition="#em">
-                  <rs type="person">Arneth</rs>
-               </hi>,
-               <lb facs="#facs_3_region_1767941697138_408_tl_30" n="N030"/>die gefeierte Schauspielerin des Burgtheaters, welche Herrn
-               <lb facs="#facs_3_region_1767941697138_408_tl_31" n="N031"/>
-               <rs type="person">Thayer</rs> ihre Bekanntschaft mit <rs type="person">Beethoven</rs> schildert. Sie
-               <lb facs="#facs_3_region_1767941697138_408_tl_32" n="N032"/>spielte die Rolle <rs type="person">Klärchen</rs>s, als <rs type="person">Beethoven</rs>
-               <date month="0" day="0" year="0">1810</date> von der
-               <lb facs="#facs_3_region_1767941697138_408_tl_33" n="N033"/>Theater-Direction den Auftrag erhielt, die <rs type="bibl">Musik</rs> zu <rs type="person">Goethe</rs>'s
-               <lb facs="#facs_3_region_1767941697138_408_tl_34" n="N034"/>„<rs type="bibl">Egmont</rs>“ zu componiren. Die beiden Lieder, welche Klärchen
-               <lb facs="#facs_3_region_1767941697138_408_tl_35" n="N035"/>zu singen hat, mußten sie natürlich in persönliche Berührung
-               <lb facs="#facs_3_region_1767941697138_408_tl_36" n="N036"/>mit <rs type="person">Beethoven</rs> bringen. Die Erzählung der berühmten Künst¬
-               <lb facs="#facs_3_region_1767941697138_408_tl_37" n="N037"/>lerin, in welcher wir zugleich die Mutter des Historikers
-               <lb facs="#facs_3_region_1767941697138_408_tl_38" n="N038"/>
-               <hi rendition="#em">Alfred v. <rs type="person">Arneth</rs>
-               </hi> verehren, ist so anziehend in ihrer
-            </p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1767941704266_411_tl_1" n="N001"/>schlichten Anmuth, daß wir sie zum guten Schluß gerne hier
-               <lb facs="#facs_3_region_1767941704266_411_tl_2" n="N002"/>mittheilen:
-               <lb facs="#facs_3_region_1767941704266_411_tl_3" n="N003"/>„Ich war damals,“ erzählt Frau v. <rs type="person">Arneth</rs>, „ein kind¬
-               <lb facs="#facs_3_region_1767941704266_411_tl_4" n="N004"/>liches, heiteres, fröhlich junges Ding, das <rs type="person">Beethoven</rs>'s Werth
-               <lb facs="#facs_3_region_1767941704266_411_tl_5" n="N005"/>nicht zu schätzen wußte und dem er auch gar nicht imponirte,
-               <lb facs="#facs_3_region_1767941704266_411_tl_6" n="N006"/>während ich jetzt (<date month="0" day="0" year="0">1867</date>), mit sechsundsiebzig Jahren, das
-               <lb facs="#facs_3_region_1767941704266_411_tl_7" n="N007"/>Glück, ihn gekannt zu haben, vollkommen fühle. Daher kam
-               <lb facs="#facs_3_region_1767941704266_411_tl_8" n="N008"/>es auch, daß ich ihm ohne alle Befangenheit entgegentrat,
-               <lb facs="#facs_3_region_1767941704266_411_tl_9" n="N009"/>als meine selige <rs type="person">Tante</rs>, meine Erzieherin und Wohlthäterin,
-               <lb facs="#facs_3_region_1767941704266_411_tl_10" n="N010"/>mich auf ihr Zimmer rufen ließ und ihn mir nannte. Seine
-               <lb facs="#facs_3_region_1767941704266_411_tl_11" n="N011"/>Frage: „Können Sie singen?“ beantwortete ich ohne Ver¬
-               <lb facs="#facs_3_region_1767941704266_411_tl_12" n="N012"/>legenheit mit einem unbefangenen <hi rendition="#em">Nein</hi>! Erstaunt betrach¬
-               <lb facs="#facs_3_region_1767941704266_411_tl_13" n="N013"/>tete mich <rs type="person">Beethoven</rs> und sagte lachend: „Nein? — Ich soll
-               <lb facs="#facs_3_region_1767941704266_411_tl_14" n="N014"/>ja die Lieder zum „<rs type="bibl">Egmont</rs>“ für Sie setzen.“ Ich versetzte ganz
-               <lb facs="#facs_3_region_1767941704266_411_tl_15" n="N015"/>einfach, daß ich nur vier Monate gesungen, nach einer Heiser¬
-               <lb facs="#facs_3_region_1767941704266_411_tl_16" n="N016"/>keit aber aufgehört, weil man fürchtete, daß bei meinem an¬
-               <lb facs="#facs_3_region_1767941704266_411_tl_17" n="N017"/>gestrengten Studium des Recitirens mein Organ leiden
-               <lb facs="#facs_3_region_1767941704266_411_tl_18" n="N018"/>könnte. Da sagte er lustig im scherzhaft angenommenen
-               <lb facs="#facs_3_region_1767941704266_411_tl_19" n="N019"/>
-               <rs type="place">Wien</rs>er Dialekt: „Nun, das wird was Saubres werden“ —
-               <lb facs="#facs_3_region_1767941704266_411_tl_20" n="N020"/>und von seiner Seite wurde es etwas Herrliches. Wir gingen
-               <lb facs="#facs_3_region_1767941704266_411_tl_21" n="N021"/>an das Clavier, und meine Musikalien — alte Erbstücke von
-               <lb facs="#facs_3_region_1767941704266_411_tl_22" n="N022"/>meinem <rs type="person">Vater</rs>, die ich alle wie ein Papagei ihm nach¬
-               <lb facs="#facs_3_region_1767941704266_411_tl_23" n="N023"/>sang und zu dieser Stunde auswendig weiß — umstörend,
-               <lb facs="#facs_3_region_1767941704266_411_tl_24" n="N024"/>fand er obenauf das allbekannte Rondo mit Recitativ aus
-               <lb facs="#facs_3_region_1767941704266_411_tl_25" n="N025"/>„<rs type="bibl">Romeo und Julie</rs>“ von <rs type="person">Zingarelli</rs>. „<hi rendition="#em">Das</hi> singen Sie,“
-               <lb facs="#facs_3_region_1767941704266_411_tl_26" n="N026"/>rief er lachend heraus, daß es ihn schüttelte, indem er sich
-               <lb facs="#facs_3_region_1767941704266_411_tl_27" n="N027"/>zweifelnd zum Accompagniren setzte. Ebenso harmlos, als ich
-               <lb facs="#facs_3_region_1767941704266_411_tl_28" n="N028"/>mit ihm schwatzte und lachte, sang ich meine Arie herunter.
-               <lb facs="#facs_3_region_1767941704266_411_tl_29" n="N029"/>Da wurde sein Auge sehr wohlwollend, er strich mir mit der
-               <lb facs="#facs_3_region_1767941704266_411_tl_30" n="N030"/>Hand über die Stirne und sagte: „Ja so, jetzt weiß ich es“
-               <lb facs="#facs_3_region_1767941704266_411_tl_31" n="N031"/>— kam nach drei Tagen wieder und sang mir die Lieder
-               <lb facs="#facs_3_region_1767941704266_411_tl_32" n="N032"/>einigemal vor. Als ich sie nach wenigen Tagen inne hatte,
-               <lb facs="#facs_3_region_1767941704266_411_tl_33" n="N033"/>ging er von mir mit den Worten: „So, jetzt ist's recht.
-               <lb facs="#facs_3_region_1767941704266_411_tl_34" n="N034"/>So, so ist's recht, so singen Sie, lassen Sie sich nichts ein¬
-               <lb facs="#facs_3_region_1767941704266_411_tl_35" n="N035"/>reden und machen mir nicht einen Mordent hinein.“ Er ging,
-               <lb facs="#facs_3_region_1767941704266_411_tl_36" n="N036"/>ich sah ihn in meinem Zimmer nie mehr. Nur auf der
-               <lb facs="#facs_3_region_1767941704266_411_tl_37" n="N037"/>Probe, als er dirigirte, nickte er mir öfters freundlich wohl¬
-               <lb facs="#facs_3_region_1767941704266_411_tl_38" n="N038"/>wollend zu.“
-            </p>
+            <p prev="true">
+         <lb facs="#facs_3_region_1767941704266_411_tl_1" n="N001"/>schlichten Anmuth, daß wir sie zum guten Schluß gerne hier
+         <lb facs="#facs_3_region_1767941704266_411_tl_2" n="N002"/>mittheilen:
+            </p><p>
+         <lb facs="#facs_3_region_1767941704266_411_tl_3" n="N003"/>„Ich war damals,“ erzählt Frau v. <rs type="person" ref="#hsl_person_id_6007">Arneth</rs>, „ein kind
+         <lb facs="#facs_3_region_1767941704266_411_tl_4" n="N004" break="no"/>liches, heiteres, fröhlich junges Ding, das <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Werth
+         <lb facs="#facs_3_region_1767941704266_411_tl_5" n="N005"/>nicht zu schätzen wußte und dem er auch gar nicht imponirte,
+         <lb facs="#facs_3_region_1767941704266_411_tl_6" n="N006"/>während ich jetzt (<date>1867</date>), mit sechsundsiebzig Jahren, das
+         <lb facs="#facs_3_region_1767941704266_411_tl_7" n="N007"/>Glück, ihn gekannt zu haben, vollkommen fühle. Daher kam
+         <lb facs="#facs_3_region_1767941704266_411_tl_8" n="N008"/>es auch, daß ich ihm ohne alle Befangenheit entgegentrat,
+         <lb facs="#facs_3_region_1767941704266_411_tl_9" n="N009"/>als meine selige Tante, meine Erzieherin und Wohlthäterin,
+         <lb facs="#facs_3_region_1767941704266_411_tl_10" n="N010"/>mich auf ihr Zimmer rufen ließ und ihn mir nannte. Seine
+         <lb facs="#facs_3_region_1767941704266_411_tl_11" n="N011"/>Frage: „Können Sie singen?“ beantwortete ich ohne Ver
+         <lb facs="#facs_3_region_1767941704266_411_tl_12" n="N012" break="no"/>legenheit mit einem unbefangenen <hi rendition="#em">Nein</hi>! Erstaunt betrach
+         <lb facs="#facs_3_region_1767941704266_411_tl_13" n="N013" break="no"/>tete mich <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> und sagte lachend: „Nein? — Ich soll
+         <lb facs="#facs_3_region_1767941704266_411_tl_14" n="N014"/>ja die Lieder zum „<rs type="bibl" ref="#hsl_work_id_743">Egmont</rs>“ für Sie setzen.“ Ich versetzte ganz
+         <lb facs="#facs_3_region_1767941704266_411_tl_15" n="N015"/>einfach, daß ich nur vier Monate gesungen, nach einer Heiser
+         <lb facs="#facs_3_region_1767941704266_411_tl_16" n="N016" break="no"/>keit aber aufgehört, weil man fürchtete, daß bei meinem an
+         <lb facs="#facs_3_region_1767941704266_411_tl_17" n="N017" break="no"/>gestrengten Studium des Recitirens mein Organ leiden
+         <lb facs="#facs_3_region_1767941704266_411_tl_18" n="N018"/>könnte. Da sagte er lustig im scherzhaft angenommenen
+         <lb facs="#facs_3_region_1767941704266_411_tl_19" n="N019"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Dialekt: „Nun, das wird was Saubres werden“ —
+         <lb facs="#facs_3_region_1767941704266_411_tl_20" n="N020"/>und von seiner Seite wurde es etwas Herrliches. Wir gingen
+         <lb facs="#facs_3_region_1767941704266_411_tl_21" n="N021"/>an das Clavier, und meine Musikalien — alte Erbstücke von
+         <lb facs="#facs_3_region_1767941704266_411_tl_22" n="N022"/>meinem <rs type="person" ref="#hsl_person_id_2987">Vater</rs>, die ich alle wie ein Papagei ihm nach
+         <lb facs="#facs_3_region_1767941704266_411_tl_23" n="N023" break="no"/>sang und zu dieser Stunde auswendig weiß — umstörend,
+         <lb facs="#facs_3_region_1767941704266_411_tl_24" n="N024"/>fand er obenauf das allbekannte Rondo mit Recitativ aus
+         <lb facs="#facs_3_region_1767941704266_411_tl_25" n="N025"/>„<rs type="bibl" ref="#hsl_work_id_3407">Romeo und Julie</rs>“ von <rs type="person" ref="#hsl_person_id_1270">Zingarelli</rs>. „<hi rendition="#em">Das</hi> singen Sie,“
+         <lb facs="#facs_3_region_1767941704266_411_tl_26" n="N026"/>rief er lachend heraus, daß es ihn schüttelte, indem er sich
+         <lb facs="#facs_3_region_1767941704266_411_tl_27" n="N027"/>zweifelnd zum Accompagniren setzte. Ebenso harmlos, als ich
+         <lb facs="#facs_3_region_1767941704266_411_tl_28" n="N028"/>mit ihm schwatzte und lachte, sang ich meine Arie herunter.
+         <lb facs="#facs_3_region_1767941704266_411_tl_29" n="N029"/>Da wurde sein Auge sehr wohlwollend, er strich mir mit der
+         <lb facs="#facs_3_region_1767941704266_411_tl_30" n="N030"/>Hand über die Stirne und sagte: „Ja so, jetzt weiß ich es“
+         <lb facs="#facs_3_region_1767941704266_411_tl_31" n="N031"/>— kam nach drei Tagen wieder und sang mir die Lieder
+         <lb facs="#facs_3_region_1767941704266_411_tl_32" n="N032"/>einigemal vor. Als ich sie nach wenigen Tagen inne hatte,
+         <lb facs="#facs_3_region_1767941704266_411_tl_33" n="N033"/>ging er von mir mit den Worten: „So, jetzt ist’s recht.
+         <lb facs="#facs_3_region_1767941704266_411_tl_34" n="N034"/>So, so ist’s recht, so singen Sie, lassen Sie sich nichts ein
+         <lb facs="#facs_3_region_1767941704266_411_tl_35" n="N035" break="no"/>reden und machen mir nicht einen Mordent hinein.“ Er ging,
+         <lb facs="#facs_3_region_1767941704266_411_tl_36" n="N036"/>ich sah ihn in meinem Zimmer nie mehr. Nur auf der
+         <lb facs="#facs_3_region_1767941704266_411_tl_37" n="N037"/>Probe, als er dirigirte, nickte er mir öfters freundlich wohl
+         <lb facs="#facs_3_region_1767941704266_411_tl_38" n="N038" break="no"/>wollend zu.“</p>
          </div>
       </body>
    </text>
