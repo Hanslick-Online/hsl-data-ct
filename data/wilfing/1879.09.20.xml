@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 5412. Wien, Samstag, den 20. September 1879</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,24 +70,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 5412. Wien, Samstag, den 20. September 1879</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1879-09-20">20.09.1879</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-01-28">Transkribus OCR und Lektorat.</change>
+         <change who=" fsanzlazaro" when="2026-01-30">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-02-17">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -878,323 +875,257 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1767945611175_1053_tl_1" n="N001"/><head type="h1">Musikalisches aus Nah und Fern. II.</head>
+            <lb facs="#facs_1_region_1767945611175_1053_tl_2" n="N002"/><head type="h2">(<hi rendition="#em"><rs type="person" ref="#hsl_person_id_164">Liszt</rs></hi> über <rs type="person" ref="#hsl_person_id_48">Chopin</rs>. — Die „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther Blätter</rs>“ gegen Robert <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi>.)</head>
             <p>
-               <lb facs="#facs_1_line_1768801397181_26" n="N001"/>Nr. 5412. Wien, Samstag, den 20. September 1879
-            </p>
+         <lb facs="#facs_1_region_1767945611175_1053_tl_3" n="N003"/>Ed. H. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_164">Liszt</rs>’s</hi> Buch: „<rs type="bibl" ref="#hsl_work_id_5222">Chopin</rs>“, ist in neuer Auf
+         <lb facs="#facs_1_region_1767945611175_1053_tl_4" n="N004" break="no"/>lage bei Breitkopf und Härtel in <rs type="place" ref="#hsl_place_id_32">Leipzig</rs> erschienen. Es ist
+         <lb facs="#facs_1_region_1767945611175_1053_tl_5" n="N005"/><rs type="place" ref="#hsl_place_id_21">französisch</rs> nicht blos geschrieben, sondern auch ausgestattet:
+         <lb facs="#facs_1_region_1767945611175_1053_tl_6" n="N006"/>ein prachtvoller großer Druck auf milchweißem Papier. Daß
+         <lb facs="#facs_1_region_1767945611175_1053_tl_7" n="N007"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Verleger solche Bände à la Firmin <rs type="person" ref="#hsl_person_id_8197">Didot</rs> herstellen
+         <lb facs="#facs_1_region_1767945611175_1053_tl_8" n="N008"/><hi rendition="#em">können</hi>, wissen wir längst; nicht aber, warum sie das gar
+         <lb facs="#facs_1_region_1767945611175_1053_tl_9" n="N009"/>so selten und ausnahmsweise <hi rendition="#em">wollen</hi>? Ein schön und be
+         <lb facs="#facs_1_region_1767945611175_1053_tl_10" n="N010" break="no"/>quem gedrucktes Buch mundet uns ja noch einmal so gut.
+         <lb facs="#facs_1_region_1767945611175_1053_tl_11" n="N011"/>In der Regel gleichen <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Bücher schmackhaften Speisen,
+         <lb facs="#facs_1_region_1767945611175_1053_tl_12" n="N012"/>die in groben Thonschüsseln auf ungedeckten Tischen servirt
+         <lb facs="#facs_1_region_1767945611175_1053_tl_13" n="N013"/>werden; die Leser der neuen Breitkopf’schen Auflage speisen
+         <lb facs="#facs_1_region_1767945611175_1053_tl_14" n="N014"/>auf Silber. Das Gericht selbst — seit zwanzig Jahren be
+         <lb facs="#facs_1_region_1767945611175_1053_tl_15" n="N015" break="no"/>kannt und gewürdigt — ist ohne neue Ingredienzien, unver
+         <lb facs="#facs_1_region_1767945611175_1053_tl_16" n="N016" break="no"/>ändert geblieben. Mit aufrichtigem Vergnügen haben wir von
+         <lb facs="#facs_1_region_1767945611175_1053_tl_17" n="N017"/>neuem in dem <rs type="bibl" ref="#hsl_work_id_5222">Buch</rs>e des geistvollen und liebenswürdigen
+         <lb facs="#facs_1_region_1767945611175_1053_tl_18" n="N018"/>Mannes geblättert. Es gewissenhaft Zeile für Zeile ganz
+         <lb facs="#facs_1_region_1767945611175_1053_tl_19" n="N019"/>durchzulesen, ist vielleicht nicht Sache eines Jeden; dazu muß
+         <lb facs="#facs_1_region_1767945611175_1053_tl_20" n="N020"/>man ein wenig Schwärmer sein, am besten eine Dame.
+         <lb facs="#facs_1_region_1767945611175_1053_tl_21" n="N021"/><rs type="person" ref="#hsl_person_id_164">Liszt</rs> verliert sich mitunter in poetischen Schilderungen und
+         <lb facs="#facs_1_region_1767945611175_1053_tl_22" n="N022"/>Reflexionen so weit von seinem Thema „<rs type="person" ref="#hsl_person_id_48">Chopin</rs>“, daß man
+         <lb facs="#facs_1_region_1767945611175_1053_tl_23" n="N023"/>fast ängstlich wird, ob er wieder zurücktreffen werde.
+         <lb facs="#facs_1_region_1767945611175_1053_tl_24" n="N024"/>Als Meister in der Kunst des Modulirens bewerkstelligt er
+         <lb facs="#facs_1_region_1767945611175_1053_tl_25" n="N025"/>dies jedoch aufs anmuthigste; nach langen lyrischen Phanta
+         <lb facs="#facs_1_region_1767945611175_1053_tl_26" n="N026" break="no"/>sten über die Liebe, die Frauen, die Kunst, die Polinnen,
+         <lb facs="#facs_1_region_1767945611175_1053_tl_27" n="N027"/>die Französinnen etc. lenkt er doch immer wieder zu <hi rendition="#em"><rs type="person" ref="#hsl_person_id_48">Cho
+         <lb facs="#facs_1_region_1767945611175_1053_tl_28" n="N028" break="no"/>pin</rs></hi> ein, der als Künstler und als Mensch ihm besonders
+         <lb facs="#facs_1_region_1767945611175_1053_tl_29" n="N029"/>theuer gewesen. Ob wol Jemand, mit <rs type="person" ref="#hsl_person_id_164">Liszt</rs>’s Schreibart un
+         <lb facs="#facs_1_region_1767945611175_1053_tl_30" n="N030" break="no"/>bekannt, errathen würde, von wem etwa das <rs type="bibl" ref="#hsl_work_id_5222">Buch</rs> über
+         <lb facs="#facs_1_region_1767945611175_1053_tl_31" n="N031"/><rs type="person" ref="#hsl_person_id_48">Chopin</rs> herrührt? Nach den vielen malerischen Schilderungen,
+         <lb facs="#facs_1_region_1767945611175_1053_tl_32" n="N032"/>wie sie der Autor zum Beispiel von <rs type="place" ref="#hsl_place_id_231">polnisch</rs>en Tänzen und
+         <lb facs="#facs_1_region_1767945611175_1053_tl_33" n="N033"/>Nationaltrachten so genau und sauber ausführt, möchte man
+         <lb facs="#facs_1_region_1767945611175_1053_tl_34" n="N034"/>auf einen Maler rathen. Nach den weitläufigen philosophi
+         <lb facs="#facs_1_region_1767945611175_1053_tl_35" n="N035" break="no"/>schen Raisonnements und poetischen Phantasien zu schließen,
+         <lb facs="#facs_1_region_1767945611175_1053_tl_36" n="N036"/>müßte es ein Dichter sein, ein in Reflexion getauchter Lyriker.<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1767945611175_1053_tl_1" n="N001"/>Musikalisches aus Nah und Fern. II.
-               <lb facs="#facs_1_region_1767945611175_1053_tl_2" n="N002"/>(<hi rendition="#em">
-                  <rs type="person">Liszt</rs>
-               </hi> über <rs type="person">Chopin</rs>. — Die „<rs type="bibl">Bayreuther Blätter</rs>“ gegen Robert <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi>.)
-               <lb facs="#facs_1_region_1767945611175_1053_tl_3" n="N003"/>Ed. H. <hi rendition="#em">
-                  <rs type="person">Liszt</rs>'s</hi> Buch: „<rs type="bibl">Chopin</rs>“, ist in neuer Auf¬
-               <lb facs="#facs_1_region_1767945611175_1053_tl_4" n="N004"/>lage bei Breitkopf und Härtel in <rs type="place">Leipzig</rs> erschienen. Es ist
-               <lb facs="#facs_1_region_1767945611175_1053_tl_5" n="N005"/>
-               <rs type="place">französisch</rs> nicht blos geschrieben, sondern auch ausgestattet:
-               <lb facs="#facs_1_region_1767945611175_1053_tl_6" n="N006"/>ein prachtvoller großer Druck auf milchweißem Papier. Daß
-               <lb facs="#facs_1_region_1767945611175_1053_tl_7" n="N007"/>
-               <rs type="place">deutsch</rs>e Verleger solche Bände à la Firmin <rs type="person">Didot</rs> herstellen
-               <lb facs="#facs_1_region_1767945611175_1053_tl_8" n="N008"/>
-               <hi rendition="#em">können</hi>, wissen wir längst; nicht aber, warum sie das gar
-               <lb facs="#facs_1_region_1767945611175_1053_tl_9" n="N009"/>so selten und ausnahmsweise <hi rendition="#em">wollen</hi>? Ein schön und be¬
-               <lb facs="#facs_1_region_1767945611175_1053_tl_10" n="N010"/>quem gedrucktes Buch mundet uns ja noch einmal so gut.
-               <lb facs="#facs_1_region_1767945611175_1053_tl_11" n="N011"/>In der Regel gleichen <rs type="place">deutsch</rs>e Bücher schmackhaften Speisen,
-               <lb facs="#facs_1_region_1767945611175_1053_tl_12" n="N012"/>die in groben Thonschüsseln auf ungedeckten Tischen servirt
-               <lb facs="#facs_1_region_1767945611175_1053_tl_13" n="N013"/>werden; die Leser der neuen Breitkopf'schen Auflage speisen
-               <lb facs="#facs_1_region_1767945611175_1053_tl_14" n="N014"/>auf Silber. Das Gericht selbst — seit zwanzig Jahren be¬
-               <lb facs="#facs_1_region_1767945611175_1053_tl_15" n="N015"/>kannt und gewürdigt — ist ohne neue Ingredienzien, unver¬
-               <lb facs="#facs_1_region_1767945611175_1053_tl_16" n="N016"/>ändert geblieben. Mit aufrichtigem Vergnügen haben wir von
-               <lb facs="#facs_1_region_1767945611175_1053_tl_17" n="N017"/>neuem in dem <rs type="bibl">Buch</rs>e des geistvollen und liebenswürdigen
-               <lb facs="#facs_1_region_1767945611175_1053_tl_18" n="N018"/>Mannes geblättert. Es gewissenhaft Zeile für Zeile ganz
-               <lb facs="#facs_1_region_1767945611175_1053_tl_19" n="N019"/>durchzulesen, ist vielleicht nicht Sache eines Jeden; dazu muß
-               <lb facs="#facs_1_region_1767945611175_1053_tl_20" n="N020"/>man ein wenig Schwärmer sein, am besten eine Dame.
-               <lb facs="#facs_1_region_1767945611175_1053_tl_21" n="N021"/>
-               <rs type="person">Liszt</rs> verliert sich mitunter in poetischen Schilderungen und
-               <lb facs="#facs_1_region_1767945611175_1053_tl_22" n="N022"/>Reflexionen so weit von seinem Thema „<rs type="person">Chopin</rs>“, daß man
-               <lb facs="#facs_1_region_1767945611175_1053_tl_23" n="N023"/>fast ängstlich wird, ob er wieder zurücktreffen werde.
-               <lb facs="#facs_1_region_1767945611175_1053_tl_24" n="N024"/>Als Meister in der Kunst des Modulirens bewerkstelligt er
-               <lb facs="#facs_1_region_1767945611175_1053_tl_25" n="N025"/>dies jedoch aufs anmuthigste; nach langen lyrischen Phanta¬
-               <lb facs="#facs_1_region_1767945611175_1053_tl_26" n="N026"/>sten über die Liebe, die Frauen, die Kunst, die Polinnen,
-               <lb facs="#facs_1_region_1767945611175_1053_tl_27" n="N027"/>die Französinnen etc. lenkt er doch immer wieder zu <hi rendition="#em">
-                  <rs type="person" continued="true">Cho¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1767945611175_1053_tl_28" n="N028"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">pin</rs>
-               </hi> ein, der als Künstler und als Mensch ihm besonders
-               <lb facs="#facs_1_region_1767945611175_1053_tl_29" n="N029"/>theuer gewesen. Ob wol Jemand, mit <rs type="person">Liszt</rs>'s Schreibart un¬
-               <lb facs="#facs_1_region_1767945611175_1053_tl_30" n="N030"/>bekannt, errathen würde, von wem etwa das <rs type="bibl">Buch</rs> über
-               <lb facs="#facs_1_region_1767945611175_1053_tl_31" n="N031"/>
-               <rs type="person">Chopin</rs> herrührt? Nach den vielen malerischen Schilderungen,
-               <lb facs="#facs_1_region_1767945611175_1053_tl_32" n="N032"/>wie sie der Autor zum Beispiel von <rs type="place">polnisch</rs>en Tänzen und
-               <lb facs="#facs_1_region_1767945611175_1053_tl_33" n="N033"/>Nationaltrachten so genau und sauber ausführt, möchte man
-               <lb facs="#facs_1_region_1767945611175_1053_tl_34" n="N034"/>auf einen Maler rathen. Nach den weitläufigen philosophi¬
-               <lb facs="#facs_1_region_1767945611175_1053_tl_35" n="N035"/>schen Raisonnements und poetischen Phantasien zu schließen,
-               <lb facs="#facs_1_region_1767945611175_1053_tl_36" n="N036"/>müßte es ein Dichter sein, ein in Reflexion getauchter Lyriker.
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1767945614551_1056_tl_1" n="N001"/>Auf einen Musiker dürfte man zuletzt rathen. Schon rein
+         <lb facs="#facs_1_region_1767945614551_1056_tl_2" n="N002"/>äußerlich genommen, nimmt das Musikalische den kleinsten
+         <lb facs="#facs_1_region_1767945614551_1056_tl_3" n="N003"/>Raum in diesem <rs type="bibl" ref="#hsl_work_id_5222">Buch</rs>e ein, das doch ein ausgezeichneter
+         <lb facs="#facs_1_region_1767945614551_1056_tl_4" n="N004"/>Musiker über den andern schreibt. Und selbst dort, wo <hi rendition="#em"><rs type="person" ref="#hsl_person_id_164">Liszt</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767945614551_1056_tl_5" n="N005"/>die Compositionen und das Spiel <rs type="person" ref="#hsl_person_id_48">Chopin</rs>’s charakterisirt, thut
+         <lb facs="#facs_1_region_1767945614551_1056_tl_6" n="N006"/>er dies fast durchwegs mit malerischen und dichterischen Mitteln.
+         <lb facs="#facs_1_region_1767945614551_1056_tl_7" n="N007"/>Er verzichtet auf jedes musikalische Zeichen und bringt in
+         <lb facs="#facs_1_region_1767945614551_1056_tl_8" n="N008"/>dem mehr als 300 Seiten starken <rs type="bibl" ref="#hsl_work_id_">Band</rs> nicht das kleinste
+         <lb facs="#facs_1_region_1767945614551_1056_tl_9" n="N009"/>Notenbeispiel. Also dieselbe Methode, wie in <rs type="person" ref="#hsl_person_id_164">Liszt</rs>’s berühm
+         <lb facs="#facs_1_region_1767945614551_1056_tl_10" n="N010" break="no"/>tem Buche: „<rs type="bibl" ref="#hsl_work_id_1271">Des Bohémiens et de leur musique en
+         <lb facs="#facs_1_region_1767945614551_1056_tl_11" n="N011"/>Hongrie</rs>“. Unsere Leser erinnern sich dieses Buches und des
+         <lb facs="#facs_1_region_1767945614551_1056_tl_12" n="N012"/>Aufsehens, das es in <rs type="place" ref="#hsl_place_id_53">Ungarn</rs> erregte. Der zuerst von <rs type="person" ref="#hsl_person_id_164">Liszt</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767945614551_1056_tl_13" n="N013"/>vorgebrachte und mit einer an Beweiskraft grenzenden Wahr
+         <lb facs="#facs_1_region_1767945614551_1056_tl_14" n="N014" break="no"/>scheinlichkeit erhärtete Satz, daß die <rs type="place" ref="#hsl_place_id_53">ungarisch</rs>e National-
+         <lb facs="#facs_1_region_1767945614551_1056_tl_15" n="N015"/>Musik von den Zigeunern stamme, hatte eine heftige, aber
+         <lb facs="#facs_1_region_1767945614551_1056_tl_16" n="N016"/>wohlweislich rasch wieder gedämpfte Erbitterung gegen <rs type="person" ref="#hsl_person_id_164">Liszt</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767945614551_1056_tl_17" n="N017"/>angefacht. In diesem <rs type="bibl" ref="#hsl_work_id_5222">Buch</rs>e war mir zuerst die an <rs type="person" ref="#hsl_person_id_2959">Lamar
+         <lb facs="#facs_1_region_1767945614551_1056_tl_18" n="N018" break="no"/>tine</rs> mahnende geistreich empfindsame Manier aufgefallen,
+         <lb facs="#facs_1_region_1767945614551_1056_tl_19" n="N019"/>mit welcher <rs type="person" ref="#hsl_person_id_164">Liszt</rs> sein Thema gleichsam paraphrasirt.
+         <lb facs="#facs_1_region_1767945614551_1056_tl_20" n="N020"/>So großartige rhetorische Feuerwerke schienen mir doch
+         <lb facs="#facs_1_region_1767945614551_1056_tl_21" n="N021"/>stark auf Kosten der Belehrung stattzufinden, die wir in
+         <lb facs="#facs_1_region_1767945614551_1056_tl_22" n="N022"/>einem Buche über dessen eigentlichen Gegenstand suchen.
+         <lb facs="#facs_1_region_1767945614551_1056_tl_23" n="N023"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_164">Liszt</rs></hi> hatte damals — genau vor 20 Jahren — die Güte,
+         <lb facs="#facs_1_region_1767945614551_1056_tl_24" n="N024"/>sich über diesen Wunsch meiner Kritik brieflich auszusprechen.
+         <lb facs="#facs_1_region_1767945614551_1056_tl_25" n="N025"/>Seine Worte scheinen mir bedeutungsvoll für <rs type="person" ref="#hsl_person_id_164">Liszt</rs>’s ge
+         <lb facs="#facs_1_region_1767945614551_1056_tl_26" n="N026" break="no"/>sammte literarische Production und sollen darum der Ver
+         <lb facs="#facs_1_region_1767945614551_1056_tl_27" n="N027" break="no"/>gessenheit entrissen sein. Die Hauptstelle des <rs type="person" ref="#hsl_person_id_164">Liszt</rs>’schen
+         <lb facs="#facs_1_region_1767945614551_1056_tl_28" n="N028"/>Briefes lautet in <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er Uebersetzung: „Die wissenschaft
+         <lb facs="#facs_1_region_1767945614551_1056_tl_29" n="N029" break="no"/>liche Seite meines Stoffes war in meinen Augen von unter
+         <lb facs="#facs_1_region_1767945614551_1056_tl_30" n="N030" break="no"/>geordneter Bedeutung; um ihretwillen hätte ich schwerlich
+         <lb facs="#facs_1_region_1767945614551_1056_tl_31" n="N031"/>eine Feder eingetaucht. Künstler, und wenn Sie wollen Poet,
+         <lb facs="#facs_1_region_1767945614551_1056_tl_32" n="N032"/>wollte ich von meinem Gegenstande nichts Anderes sehen und
+         <lb facs="#facs_1_region_1767945614551_1056_tl_33" n="N033"/>beschreiben, als die poetische und psychologische Seite. Ich
+         <lb facs="#facs_1_region_1767945614551_1056_tl_34" n="N034"/>verlangte von dem Wort, daß es — zwar nicht so feurig und
+         <lb facs="#facs_1_region_1767945614551_1056_tl_35" n="N035"/>reizvoll, wie die Musik selbst, dafür aber bestimmter — die
+         <lb facs="#facs_1_region_1767945614551_1056_tl_36" n="N036"/>Eindrücke male, welche, unberührt von Gelehrsamkeit und
+         <lb facs="#facs_1_region_1767945614551_1056_tl_37" n="N037"/>von Polemik, vom Herzen kommen und zur Einbildungskraft
+         <lb facs="#facs_1_region_1767945614551_1056_tl_38" n="N038"/>sprechen. Die beschreibende poetische Prosa ist in <rs type="place" ref="#hsl_place_id_14">Deutsch
+         <lb facs="#facs_1_region_1767945614551_1056_tl_39" n="N039" break="no"/>land</rs> wenig gebräuchlich, ich begreife daher, daß man nach
+         <lb facs="#facs_1_region_1767945614551_1056_tl_40" n="N040"/>dem Titel meines Buches eher eine Vorlesung oder Abhand</p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1767945614551_1056_tl_1" n="N001"/>Auf einen Musiker dürfte man zuletzt rathen. Schon rein
-               <lb facs="#facs_1_region_1767945614551_1056_tl_2" n="N002"/>äußerlich genommen, nimmt das Musikalische den kleinsten
-               <lb facs="#facs_1_region_1767945614551_1056_tl_3" n="N003"/>Raum in diesem <rs type="bibl">Buch</rs>e ein, das doch ein ausgezeichneter
-               <lb facs="#facs_1_region_1767945614551_1056_tl_4" n="N004"/>Musiker über den andern schreibt. Und selbst dort, wo <hi rendition="#em">
-                  <rs type="person">Liszt</rs>
-               </hi>
-               <lb facs="#facs_1_region_1767945614551_1056_tl_5" n="N005"/>die Compositionen und das Spiel <rs type="person">Chopin</rs>'s charakterisirt, thut
-               <lb facs="#facs_1_region_1767945614551_1056_tl_6" n="N006"/>er dies fast durchwegs mit malerischen und dichterischen Mitteln.
-               <lb facs="#facs_1_region_1767945614551_1056_tl_7" n="N007"/>Er verzichtet auf jedes musikalische Zeichen und bringt in
-               <lb facs="#facs_1_region_1767945614551_1056_tl_8" n="N008"/>dem mehr als 300 Seiten starken <rs type="bibl">Band</rs> nicht das kleinste
-               <lb facs="#facs_1_region_1767945614551_1056_tl_9" n="N009"/>Notenbeispiel. Also dieselbe Methode, wie in <rs type="person">Liszt</rs>'s berühm¬
-               <lb facs="#facs_1_region_1767945614551_1056_tl_10" n="N010"/>tem Buche: „<rs type="bibl">Des Bohémiens et de leur musique en</rs>
-               <lb facs="#facs_1_region_1767945614551_1056_tl_11" n="N011"/>
-               <rs type="bibl">Hongrie</rs>“. Unsere Leser erinnern sich dieses Buches und des
-               <lb facs="#facs_1_region_1767945614551_1056_tl_12" n="N012"/>Aufsehens, das es in <rs type="place">Ungarn</rs> erregte. Der zuerst von <rs type="person">Liszt</rs>
-               <lb facs="#facs_1_region_1767945614551_1056_tl_13" n="N013"/>vorgebrachte und mit einer an Beweiskraft grenzenden Wahr¬
-               <lb facs="#facs_1_region_1767945614551_1056_tl_14" n="N014"/>scheinlichkeit erhärtete Satz, daß die <rs type="place">ungarisch</rs>e National-
-               <lb facs="#facs_1_region_1767945614551_1056_tl_15" n="N015"/>Musik von den Zigeunern stamme, hatte eine heftige, aber
-               <lb facs="#facs_1_region_1767945614551_1056_tl_16" n="N016"/>wohlweislich rasch wieder gedämpfte Erbitterung gegen <rs type="person">Liszt</rs>
-               <lb facs="#facs_1_region_1767945614551_1056_tl_17" n="N017"/>angefacht. In diesem <rs type="bibl">Buch</rs>e war mir zuerst die an <rs type="person" continued="true">Lamar¬</rs>
-               <lb facs="#facs_1_region_1767945614551_1056_tl_18" n="N018"/>
-               <rs type="person" continued="true">tine</rs> mahnende geistreich empfindsame Manier aufgefallen,
-               <lb facs="#facs_1_region_1767945614551_1056_tl_19" n="N019"/>mit welcher <rs type="person">Liszt</rs> sein Thema gleichsam paraphrasirt.
-               <lb facs="#facs_1_region_1767945614551_1056_tl_20" n="N020"/>So großartige rhetorische Feuerwerke schienen mir doch
-               <lb facs="#facs_1_region_1767945614551_1056_tl_21" n="N021"/>stark auf Kosten der Belehrung stattzufinden, die wir in
-               <lb facs="#facs_1_region_1767945614551_1056_tl_22" n="N022"/>einem Buche über dessen eigentlichen Gegenstand suchen.
-               <lb facs="#facs_1_region_1767945614551_1056_tl_23" n="N023"/>
-               <hi rendition="#em">
-                  <rs type="person">Liszt</rs>
-               </hi> hatte damals — genau vor 20 Jahren — die Güte,
-               <lb facs="#facs_1_region_1767945614551_1056_tl_24" n="N024"/>sich über diesen Wunsch meiner Kritik brieflich auszusprechen.
-               <lb facs="#facs_1_region_1767945614551_1056_tl_25" n="N025"/>Seine Worte scheinen mir bedeutungsvoll für <rs type="person">Liszt</rs>'s ge¬
-               <lb facs="#facs_1_region_1767945614551_1056_tl_26" n="N026"/>sammte literarische Production und sollen darum der Ver¬
-               <lb facs="#facs_1_region_1767945614551_1056_tl_27" n="N027"/>gessenheit entrissen sein. Die Hauptstelle des <rs type="person">Liszt</rs>'schen
-               <lb facs="#facs_1_region_1767945614551_1056_tl_28" n="N028"/>Briefes lautet in <rs type="place">deutsch</rs>er Uebersetzung: „Die wissenschaft¬
-               <lb facs="#facs_1_region_1767945614551_1056_tl_29" n="N029"/>liche Seite meines Stoffes war in meinen Augen von unter¬
-               <lb facs="#facs_1_region_1767945614551_1056_tl_30" n="N030"/>geordneter Bedeutung; um ihretwillen hätte ich schwerlich
-               <lb facs="#facs_1_region_1767945614551_1056_tl_31" n="N031"/>eine Feder eingetaucht. Künstler, und wenn Sie wollen Poet,
-               <lb facs="#facs_1_region_1767945614551_1056_tl_32" n="N032"/>wollte ich von meinem Gegenstande nichts Anderes sehen und
-               <lb facs="#facs_1_region_1767945614551_1056_tl_33" n="N033"/>beschreiben, als die poetische und psychologische Seite. Ich
-               <lb facs="#facs_1_region_1767945614551_1056_tl_34" n="N034"/>verlangte von dem Wort, daß es — zwar nicht so feurig und
-               <lb facs="#facs_1_region_1767945614551_1056_tl_35" n="N035"/>reizvoll, wie die Musik selbst, dafür aber bestimmter — die
-               <lb facs="#facs_1_region_1767945614551_1056_tl_36" n="N036"/>Eindrücke male, welche, unberührt von Gelehrsamkeit und
-               <lb facs="#facs_1_region_1767945614551_1056_tl_37" n="N037"/>von Polemik, vom Herzen kommen und zur Einbildungskraft
-               <lb facs="#facs_1_region_1767945614551_1056_tl_38" n="N038"/>sprechen. Die beschreibende poetische Prosa ist in <rs type="place" continued="true">Deutsch¬</rs>
-               <lb facs="#facs_1_region_1767945614551_1056_tl_39" n="N039"/>
-               <rs type="place" continued="true">land</rs> wenig gebräuchlich, ich begreife daher, daß man nach
-               <lb facs="#facs_1_region_1767945614551_1056_tl_40" n="N040"/>dem Titel meines Buches eher eine Vorlesung oder Abhand¬
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1767945618006_1059_tl_1" n="N001" break="no"/>lung erwarten mochte, als <hi rendition="#em">eine Dichtung in Prosa</hi>.
+         <lb facs="#facs_1_region_1767945618006_1059_tl_2" n="N002"/>Welch kleiner Leserkreis würde sich übrigens für das Wenige
+         <lb facs="#facs_1_region_1767945618006_1059_tl_3" n="N003"/>interessiren, was sich bestimmt behaupten läßt auf diesem
+         <lb facs="#facs_1_region_1767945618006_1059_tl_4" n="N004"/>Gebiete? Hingegen bleibt der Ausdruck der feinsten und
+         <lb facs="#facs_1_region_1767945618006_1059_tl_5" n="N005"/>tiefsten Gefühle, sobald sie eine ganze Kunst zu be
+         <lb facs="#facs_1_region_1767945618006_1059_tl_6" n="N006" break="no"/>seelen im Stande sind, anziehend genug für einen
+         <lb facs="#facs_1_region_1767945618006_1059_tl_7" n="N007"/>weiteren Kreis, der nicht blos die Musiker, sondern
+         <lb facs="#facs_1_region_1767945618006_1059_tl_8" n="N008"/>alle für Musik empfänglichen Menschen umschließt.“ —
+         <lb facs="#facs_1_region_1767945618006_1059_tl_9" n="N009"/>In diesem Sinne gibt uns <rs type="person" ref="#hsl_person_id_164">Liszt</rs> auch in seinem „<rs type="bibl" ref="#hsl_work_id_5222">Chopin</rs>“
+         <lb facs="#facs_1_region_1767945618006_1059_tl_10" n="N010"/>mehr ein „poëme en prose“, als ein eigentlich musikalisches
+         <lb facs="#facs_1_region_1767945618006_1059_tl_11" n="N011"/>Buch. Dennoch wird Niemand ohne mannichfaltige Beleh
+         <lb facs="#facs_1_region_1767945618006_1059_tl_12" n="N012" break="no"/>rung dem Vortrage des berühmten, immer vornehmen und
+         <lb facs="#facs_1_region_1767945618006_1059_tl_13" n="N013"/>immer wohlwollenden Mannes lauschen. Die Herzenswärme,
+         <lb facs="#facs_1_region_1767945618006_1059_tl_14" n="N014"/>welche <rs type="person" ref="#hsl_person_id_164">Liszt</rs>’s Schriften überall durchdringt, verleiht ihnen
+         <lb facs="#facs_1_region_1767945618006_1059_tl_15" n="N015"/>eine über den stylistischen Reiz weit hinausreichende Art von
+         <lb facs="#facs_1_region_1767945618006_1059_tl_16" n="N016"/>Weihe. <rs type="person" ref="#hsl_person_id_164">Liszt</rs> ist immer voll Liebe für seinen Gegenstand, mag
+         <lb facs="#facs_1_region_1767945618006_1059_tl_17" n="N017"/>er über <rs type="person" ref="#hsl_person_id_48">Chopin</rs>, über R. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> oder Robert <rs type="person" ref="#hsl_person_id_1708">Franz</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767945618006_1059_tl_18" n="N018"/>schreiben. Mit Begeisterung führt er uns in ihren Werken
+         <lb facs="#facs_1_region_1767945618006_1059_tl_19" n="N019"/>wie in einem Garten umher, von Blume zu Blume, und
+         <lb facs="#facs_1_region_1767945618006_1059_tl_20" n="N020"/>wenn er einmal auf ein welkes oder verwildertes Beet stößt,
+         <lb facs="#facs_1_region_1767945618006_1059_tl_21" n="N021"/>so erwähnt er es nicht anklagend, sondern entschuldigend.
+         <lb facs="#facs_1_region_1767945618006_1059_tl_22" n="N022"/>Nur wer zu lieben fähig ist, weiß auch zu schonen.
+            </p><p>
+         <lb facs="#facs_1_region_1767945618006_1059_tl_23" n="N023"/>Einen grelleren Gegensatz zu <rs type="person" ref="#hsl_person_id_164">Liszt</rs>’s liebevoller Schilde
+         <lb facs="#facs_1_region_1767945618006_1059_tl_24" n="N024" break="no"/>rung <rs type="person" ref="#hsl_person_id_48">Chopin</rs>’s gibt es wol nicht, als die Beurtheilung <hi rendition="#em">Ro
+         <lb facs="#facs_1_region_1767945618006_1059_tl_25" n="N025" break="no"/>bert <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s</hi> im neuesten Heft von <hi rendition="#em">Richard
+         <lb facs="#facs_1_region_1767945618006_1059_tl_26" n="N026"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther Blättern</rs>“. Es täuscht sich wol
+         <lb facs="#facs_1_region_1767945618006_1059_tl_27" n="N027"/>Niemand über den wirklichen Urheber dieses mit „Joseph
+         <lb facs="#facs_1_region_1767945618006_1059_tl_28" n="N028"/><rs type="person" ref="#hsl_person_id_2041">Rubinstein</rs>“ gezeichneten <rs type="bibl" ref="#hsl_work_id_5900">Schmähartikel</rs>s. Wer mit neun
+         <lb facs="#facs_1_region_1767945618006_1059_tl_29" n="N029"/>Bänden „<rs type="bibl" ref="#hsl_work_id_3376">Gesammelter Schriften</rs>“ im Publicum steckt, der
+         <lb facs="#facs_1_region_1767945618006_1059_tl_30" n="N030"/>hat wol den gefährlichen Anspruch, an seinem Styl erkannt
+         <lb facs="#facs_1_region_1767945618006_1059_tl_31" n="N031"/>zu werden. Nach Inhalt und Form ist der Aufsatz aus
+         <lb facs="#facs_1_region_1767945618006_1059_tl_32" n="N032" break="no"/>schließlich <rs type="person" ref="#hsl_person_id_319">Wagner</rs>isch; der Pianist Joseph <rs type="person" ref="#hsl_person_id_2041">Rubinstein</rs>, der
+         <lb facs="#facs_1_region_1767945618006_1059_tl_33" n="N033"/>sich hier als Prügeljunge auf wenig ehrenvolle Weise in die
+         <lb facs="#facs_1_region_1767945618006_1059_tl_34" n="N034"/>Oeffentlichkeit einführt, dürfte dem Jäger höchstens die Cla
+         <lb facs="#facs_1_region_1767945618006_1059_tl_35" n="N035" break="no"/>vierbeispiele als erwünschtes Wild zugetrieben haben. Wer
+         <lb facs="#facs_1_line_1768801422804_33" n="N036"/>erkennt nicht sofort <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s</hi> Styl, diese Verknotung
+         <lb facs="#facs_1_region_1767945618006_1059_tl_38" n="N037"/>kriechender giftiger Wortschlangen, die in geschwätzigem Haß
+         <lb facs="#facs_1_region_1767945618006_1059_tl_39" n="N038"/>so unermüdlich aufzüngeln? Ja, dieser Styl ist kenntlich,
+         <lb facs="#facs_1_region_1767945618006_1059_tl_40" n="N039"/>ist gezeichnet, „es steht ihm an der Stirn geschrieben, daß
+         <lb facs="#facs_1_region_1767945618006_1059_tl_41" n="N040"/>er nicht mag eine Seele lieben“.</p>
+            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="4"/>
             <p>
-               <lb facs="#facs_1_region_1767945618006_1059_tl_1" n="N001"/>lung erwarten mochte, als <hi rendition="#em">eine Dichtung in Prosa</hi>.
-               <lb facs="#facs_1_region_1767945618006_1059_tl_2" n="N002"/>Welch kleiner Leserkreis würde sich übrigens für das Wenige
-               <lb facs="#facs_1_region_1767945618006_1059_tl_3" n="N003"/>interessiren, was sich bestimmt behaupten läßt auf diesem
-               <lb facs="#facs_1_region_1767945618006_1059_tl_4" n="N004"/>Gebiete? Hingegen bleibt der Ausdruck der feinsten und
-               <lb facs="#facs_1_region_1767945618006_1059_tl_5" n="N005"/>tiefsten Gefühle, sobald sie eine ganze Kunst zu be¬
-               <lb facs="#facs_1_region_1767945618006_1059_tl_6" n="N006"/>seelen im Stande sind, anziehend genug für einen
-               <lb facs="#facs_1_region_1767945618006_1059_tl_7" n="N007"/>weiteren Kreis, der nicht blos die Musiker, sondern
-               <lb facs="#facs_1_region_1767945618006_1059_tl_8" n="N008"/>alle für Musik empfänglichen Menschen umschließt.“ —
-               <lb facs="#facs_1_region_1767945618006_1059_tl_9" n="N009"/>In diesem Sinne gibt uns <rs type="person">Liszt</rs> auch in seinem „<rs type="bibl">Chopin</rs>“
-               <lb facs="#facs_1_region_1767945618006_1059_tl_10" n="N010"/>mehr ein „poëme en prose“, als ein eigentlich musikalisches
-               <lb facs="#facs_1_region_1767945618006_1059_tl_11" n="N011"/>Buch. Dennoch wird Niemand ohne mannichfaltige Beleh¬
-               <lb facs="#facs_1_region_1767945618006_1059_tl_12" n="N012"/>rung dem Vortrage des berühmten, immer vornehmen und
-               <lb facs="#facs_1_region_1767945618006_1059_tl_13" n="N013"/>immer wohlwollenden Mannes lauschen. Die Herzenswärme,
-               <lb facs="#facs_1_region_1767945618006_1059_tl_14" n="N014"/>welche <rs type="person">Liszt</rs>'s Schriften überall durchdringt, verleiht ihnen
-               <lb facs="#facs_1_region_1767945618006_1059_tl_15" n="N015"/>eine über den stylistischen Reiz weit hinausreichende Art von
-               <lb facs="#facs_1_region_1767945618006_1059_tl_16" n="N016"/>Weihe. <rs type="person">Liszt</rs> ist immer voll Liebe für seinen Gegenstand, mag
-               <lb facs="#facs_1_region_1767945618006_1059_tl_17" n="N017"/>er über <rs type="person">Chopin</rs>, über R. <rs type="person">Wagner</rs> oder Robert <rs type="person">Franz</rs>
-               <lb facs="#facs_1_region_1767945618006_1059_tl_18" n="N018"/>schreiben. Mit Begeisterung führt er uns in ihren Werken
-               <lb facs="#facs_1_region_1767945618006_1059_tl_19" n="N019"/>wie in einem Garten umher, von Blume zu Blume, und
-               <lb facs="#facs_1_region_1767945618006_1059_tl_20" n="N020"/>wenn er einmal auf ein welkes oder verwildertes Beet stößt,
-               <lb facs="#facs_1_region_1767945618006_1059_tl_21" n="N021"/>so erwähnt er es nicht anklagend, sondern entschuldigend.
-               <lb facs="#facs_1_region_1767945618006_1059_tl_22" n="N022"/>Nur wer zu lieben fähig ist, weiß auch zu schonen.
-               <lb facs="#facs_1_region_1767945618006_1059_tl_23" n="N023"/>Einen grelleren Gegensatz zu <rs type="person">Liszt</rs>'s liebevoller Schilde¬
-               <lb facs="#facs_1_region_1767945618006_1059_tl_24" n="N024"/>rung <rs type="person">Chopin</rs>'s gibt es wol nicht, als die Beurtheilung <hi rendition="#em">Ro¬</hi>
-               <lb facs="#facs_1_region_1767945618006_1059_tl_25" n="N025"/>
-               <hi rendition="#em">bert <rs type="person">Schumann</rs>'s</hi> im neuesten Heft von <hi rendition="#em">Richard</hi>
-               <lb facs="#facs_1_region_1767945618006_1059_tl_26" n="N026"/>
-               <hi rendition="#em">
-                  <rs type="person">Wagner</rs>'s</hi> „<rs type="bibl">Bayreuther Blättern</rs>“. Es täuscht sich wol
-               <lb facs="#facs_1_region_1767945618006_1059_tl_27" n="N027"/>Niemand über den wirklichen Urheber dieses mit „Joseph
-               <lb facs="#facs_1_region_1767945618006_1059_tl_28" n="N028"/>
-               <rs type="person">Rubinstein</rs>“ gezeichneten <rs type="bibl">Schmähartikel</rs>s. Wer mit neun
-               <lb facs="#facs_1_region_1767945618006_1059_tl_29" n="N029"/>Bänden „<rs type="bibl">Gesammelter Schriften</rs>“ im Publicum steckt, der
-               <lb facs="#facs_1_region_1767945618006_1059_tl_30" n="N030"/>hat wol den gefährlichen Anspruch, an seinem Styl erkannt
-               <lb facs="#facs_1_region_1767945618006_1059_tl_31" n="N031"/>zu werden. Nach Inhalt und Form ist der Aufsatz aus¬
-               <lb facs="#facs_1_region_1767945618006_1059_tl_32" n="N032"/>schließlich <rs type="person">Wagner</rs>isch; der Pianist Joseph <rs type="person">Rubinstein</rs>, der
-               <lb facs="#facs_1_region_1767945618006_1059_tl_33" n="N033"/>sich hier als Prügeljunge auf wenig ehrenvolle Weise in die
-               <lb facs="#facs_1_region_1767945618006_1059_tl_34" n="N034"/>Oeffentlichkeit einführt, dürfte dem Jäger höchstens die Cla¬
-               <lb facs="#facs_1_region_1767945618006_1059_tl_35" n="N035"/>vierbeispiele als erwünschtes Wild zugetrieben haben. Wer
-               <lb facs="#facs_1_line_1768801422804_33" n="N036"/>erkennt nicht sofort <hi rendition="#em">
-                  <rs type="person">Wagner</rs>'s</hi> Styl, diese Verknotung
-               <lb facs="#facs_1_region_1767945618006_1059_tl_38" n="N037"/>kriechender giftiger Wortschlangen, die in geschwätzigem Haß
-               <lb facs="#facs_1_region_1767945618006_1059_tl_39" n="N038"/>so unermüdlich aufzüngeln? Ja, dieser Styl ist kenntlich,
-               <lb facs="#facs_1_region_1767945618006_1059_tl_40" n="N039"/>ist gezeichnet, „es steht ihm an der Stirn geschrieben, daß
-               <lb facs="#facs_1_region_1767945618006_1059_tl_41" n="N040"/>er nicht mag eine Seele lieben“.
-            </p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+         <lb facs="#facs_2_region_1767945627158_1065_tl_1" n="N001"/>Im Grunde gehört es doch zum Lächerlichsten, daß der
+         <lb facs="#facs_2_region_1767945627158_1065_tl_2" n="N002" break="no"/>selbe Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, der jüngst wieder öffentlich erklärt
+         <lb facs="#facs_2_region_1767945627158_1065_tl_3" n="N003"/>hat, daß er die Journalistik <hi rendition="#em">verachte</hi>, selbst ein Journal
+         <lb facs="#facs_2_region_1767945627158_1065_tl_4" n="N004"/>herausgibt, ein Blatt, das als denkwürdiger schwarzer Fleck
+         <lb facs="#facs_2_region_1767945627158_1065_tl_5" n="N005"/>in der Geschichte der Publicistik sich abhebt. Bekanntlich treibt
+         <lb facs="#facs_2_region_1767945627158_1065_tl_6" n="N006"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> in diesen „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther Blättern</rs>“ theils Selbstver
+         <lb facs="#facs_2_region_1767945627158_1065_tl_7" n="N007" break="no"/>götterung, theils Herabwürdigung Anderer. Wie man den
+         <lb facs="#facs_2_region_1767945627158_1065_tl_8" n="N008"/>Spalten voll stinkendsten Eigenlobes gegenüberzustehen
+         <lb facs="#facs_2_region_1767945627158_1065_tl_9" n="N009"/>habe, das mag der Geschmack oder Geruch des Einzelnen
+         <lb facs="#facs_2_region_1767945627158_1065_tl_10" n="N010"/>entscheiden. Anders, so glauben wir, verhält es sich mit den
+         <lb facs="#facs_2_region_1767945627158_1065_tl_11" n="N011"/>damit parallel gehenden journalistischen Bemühungen <rs type="person" ref="#hsl_person_id_319">Wag
+         <lb facs="#facs_2_region_1767945627158_1065_tl_12" n="N012" break="no"/>ner</rs>’s, dem <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Volke seine Ideale zu beschmutzen, heute
+         <lb facs="#facs_2_region_1767945627158_1065_tl_13" n="N013"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi>, morgen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi> verächtlich und lächerlich
+         <lb facs="#facs_2_region_1767945627158_1065_tl_14" n="N014"/>zu machen. Das sind nicht Dinge, zu denen man schwei
+         <lb facs="#facs_2_region_1767945627158_1065_tl_15" n="N015" break="no"/>gen darf.
+            </p><p>
+         <lb facs="#facs_2_region_1767945627158_1065_tl_16" n="N016"/>Der <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>er <rs type="bibl" ref="#hsl_work_id_5900">Artikel</rs> enthält Zweierlei. Fürs erste
+         <lb facs="#facs_2_region_1767945627158_1065_tl_17" n="N017"/>die Aufzählung aller erdenklichen Fehler, an welchen <rs type="person" ref="#hsl_person_id_282">Schu
+         <lb facs="#facs_2_region_1767945627158_1065_tl_18" n="N018" break="no"/>mann</rs>’s Compositionen angeblich leiden; sodann die eindring
+         <lb facs="#facs_2_region_1767945627158_1065_tl_19" n="N019" break="no"/>liche Warnung, es mögen Publicum und Künstler sich mög
+         <lb facs="#facs_2_region_1767945627158_1065_tl_20" n="N020" break="no"/>lichst wenig mit diesem „Geschmack und Gefühl verbildenden“
+         <lb facs="#facs_2_region_1767945627158_1065_tl_21" n="N021"/>Componisten befassen. Auf die Einzelheiten, die der Verfasser
+         <lb facs="#facs_2_region_1767945627158_1065_tl_22" n="N022"/>an <rs type="person" ref="#hsl_person_id_282">Schumann</rs> tadelt, wollen wir hier nicht eingehen; schon
+         <lb facs="#facs_2_region_1767945627158_1065_tl_23" n="N023"/>deßhalb nicht, weil wir auch nicht den Schein der Meinung
+         <lb facs="#facs_2_region_1767945627158_1065_tl_24" n="N024"/>erregen möchten, es dürfe an großen Künstlern keine Kritik
+         <lb facs="#facs_2_region_1767945627158_1065_tl_25" n="N025"/>geübt und müsse Alles an ihnen schlechthin bewundert werden.
+         <lb facs="#facs_2_region_1767945627158_1065_tl_26" n="N026"/>Wir sind im Gegentheil der Meinung, daß die musikalische
+         <lb facs="#facs_2_region_1767945627158_1065_tl_27" n="N027"/>Kritik und Geschichtschreibung den großen Tondichtern gegen
+         <lb facs="#facs_2_region_1767945627158_1065_tl_28" n="N028" break="no"/>über meistens eine allzu panegyrische ist und einen <rs type="person" ref="#hsl_person_id_18">Bach</rs>,
+         <lb facs="#facs_2_region_1767945627158_1065_tl_29" n="N029"/><rs type="person" ref="#hsl_person_id_108">Händel</rs>, <rs type="person" ref="#hsl_person_id_99">Gluck</rs>, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> keineswegs mit jenem unbefange
+         <lb facs="#facs_2_region_1767945627158_1065_tl_30" n="N030" break="no"/>nen Freimuth analysirt, welchen unsere besten Literatur-
+         <lb facs="#facs_2_region_1767945627158_1065_tl_31" n="N031"/>Historiker in der Würdigung <rs type="person" ref="#hsl_person_id_248">Schiller</rs>’s oder <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s sich
+         <lb facs="#facs_2_region_1767945627158_1065_tl_32" n="N032"/>bewahrt haben. Und so möchten wir auch jener zahnlosen
+         <lb facs="#facs_2_region_1767945627158_1065_tl_33" n="N033"/>Pietät nicht das Wort reden, welche unterscheidungslos das
+         <lb facs="#facs_2_region_1767945627158_1065_tl_34" n="N034"/>Schwächste von <rs type="person" ref="#hsl_person_id_282">Schumann</rs> verherrlicht und damit nur ver
+         <lb facs="#facs_2_region_1767945627158_1065_tl_35" n="N035" break="no"/>räth, daß sie gerade sein Bestes nicht begriffen hat. „Die
+         <lb facs="#facs_2_region_1767945627158_1065_tl_36" n="N036"/>Kritiker mögen mich immerhin auf meine Fehler aufmerksam
+         <lb facs="#facs_2_region_1767945627158_1065_tl_37" n="N037"/>machen,“ schrieb <hi rendition="#em"><rs type="person" ref="#hsl_person_id_721">Grillparzer</rs></hi> in sein <rs type="bibl" ref="#hsl_work_id_5901">Tagebuch</rs>, „aber,
+         <lb facs="#facs_2_region_1767945627158_1065_tl_38" n="N038"/>wohlgemerkt, <hi rendition="#em">mit dem Hut in der Hand</hi>.“ Dieser
+         <lb facs="#facs_2_region_1767945627158_1065_tl_39" n="N039"/>äußere Respect, der in dem wegwerfenden Ton des <rs type="place" ref="#hsl_place_id_8">Bay
+         <lb facs="#facs_2_region_1767945627158_1065_tl_40" n="N040" break="no"/>reuth</rs>er <rs type="bibl" ref="#hsl_work_id_5900">Aufsatz</rs>es so absichtlich verletzt wird, ist das Aller</p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1767945627158_1065_tl_1" n="N001"/>Im Grunde gehört es doch zum Lächerlichsten, daß der¬
-               <lb facs="#facs_2_region_1767945627158_1065_tl_2" n="N002"/>selbe Richard <rs type="person">Wagner</rs>, der jüngst wieder öffentlich erklärt
-               <lb facs="#facs_2_region_1767945627158_1065_tl_3" n="N003"/>hat, daß er die Journalistik <hi rendition="#em">verachte</hi>, selbst ein Journal
-               <lb facs="#facs_2_region_1767945627158_1065_tl_4" n="N004"/>herausgibt, ein Blatt, das als denkwürdiger schwarzer Fleck
-               <lb facs="#facs_2_region_1767945627158_1065_tl_5" n="N005"/>in der Geschichte der Publicistik sich abhebt. Bekanntlich treibt
-               <lb facs="#facs_2_region_1767945627158_1065_tl_6" n="N006"/>
-               <rs type="person">Wagner</rs> in diesen „<rs type="bibl">Bayreuther Blättern</rs>“ theils Selbstver¬
-               <lb facs="#facs_2_region_1767945627158_1065_tl_7" n="N007"/>götterung, theils Herabwürdigung Anderer. Wie man den
-               <lb facs="#facs_2_region_1767945627158_1065_tl_8" n="N008"/>Spalten voll stinkendsten Eigenlobes gegenüberzustehen
-               <lb facs="#facs_2_region_1767945627158_1065_tl_9" n="N009"/>habe, das mag der Geschmack oder Geruch des Einzelnen
-               <lb facs="#facs_2_region_1767945627158_1065_tl_10" n="N010"/>entscheiden. Anders, so glauben wir, verhält es sich mit den
-               <lb facs="#facs_2_region_1767945627158_1065_tl_11" n="N011"/>damit parallel gehenden journalistischen Bemühungen <rs type="person" continued="true">Wag¬</rs>
-               <lb facs="#facs_2_region_1767945627158_1065_tl_12" n="N012"/>
-               <rs type="person" continued="true">ner</rs>'s, dem <rs type="place">deutsch</rs>en Volke seine Ideale zu beschmutzen, heute
-               <lb facs="#facs_2_region_1767945627158_1065_tl_13" n="N013"/>
-               <hi rendition="#em">
-                  <rs type="person">Brahms</rs>
-               </hi>, morgen <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi> verächtlich und lächerlich
-               <lb facs="#facs_2_region_1767945627158_1065_tl_14" n="N014"/>zu machen. Das sind nicht Dinge, zu denen man schwei¬
-               <lb facs="#facs_2_region_1767945627158_1065_tl_15" n="N015"/>gen darf.
-               <lb facs="#facs_2_region_1767945627158_1065_tl_16" n="N016"/>Der <rs type="place">Bayreuth</rs>er <rs type="bibl">Artikel</rs> enthält Zweierlei. Fürs erste
-               <lb facs="#facs_2_region_1767945627158_1065_tl_17" n="N017"/>die Aufzählung aller erdenklichen Fehler, an welchen <rs type="person" continued="true">Schu¬</rs>
-               <lb facs="#facs_2_region_1767945627158_1065_tl_18" n="N018"/>
-               <rs type="person" continued="true">mann</rs>'s Compositionen angeblich leiden; sodann die eindring¬
-               <lb facs="#facs_2_region_1767945627158_1065_tl_19" n="N019"/>liche Warnung, es mögen Publicum und Künstler sich mög¬
-               <lb facs="#facs_2_region_1767945627158_1065_tl_20" n="N020"/>lichst wenig mit diesem „Geschmack und Gefühl verbildenden“
-               <lb facs="#facs_2_region_1767945627158_1065_tl_21" n="N021"/>Componisten befassen. Auf die Einzelheiten, die der Verfasser
-               <lb facs="#facs_2_region_1767945627158_1065_tl_22" n="N022"/>an <rs type="person">Schumann</rs> tadelt, wollen wir hier nicht eingehen; schon
-               <lb facs="#facs_2_region_1767945627158_1065_tl_23" n="N023"/>deßhalb nicht, weil wir auch nicht den Schein der Meinung
-               <lb facs="#facs_2_region_1767945627158_1065_tl_24" n="N024"/>erregen möchten, es dürfe an großen Künstlern keine Kritik
-               <lb facs="#facs_2_region_1767945627158_1065_tl_25" n="N025"/>geübt und müsse Alles an ihnen schlechthin bewundert werden.
-               <lb facs="#facs_2_region_1767945627158_1065_tl_26" n="N026"/>Wir sind im Gegentheil der Meinung, daß die musikalische
-               <lb facs="#facs_2_region_1767945627158_1065_tl_27" n="N027"/>Kritik und Geschichtschreibung den großen Tondichtern gegen¬
-               <lb facs="#facs_2_region_1767945627158_1065_tl_28" n="N028"/>über meistens eine allzu panegyrische ist und einen <rs type="person">Bach</rs>,
-               <lb facs="#facs_2_region_1767945627158_1065_tl_29" n="N029"/>
-               <rs type="person">Händel</rs>, <rs type="person">Gluck</rs>, <rs type="person">Beethoven</rs> keineswegs mit jenem unbefange¬
-               <lb facs="#facs_2_region_1767945627158_1065_tl_30" n="N030"/>nen Freimuth analysirt, welchen unsere besten Literatur-
-               <lb facs="#facs_2_region_1767945627158_1065_tl_31" n="N031"/>Historiker in der Würdigung <rs type="person">Schiller</rs>'s oder <rs type="person">Goethe</rs>'s sich
-               <lb facs="#facs_2_region_1767945627158_1065_tl_32" n="N032"/>bewahrt haben. Und so möchten wir auch jener zahnlosen
-               <lb facs="#facs_2_region_1767945627158_1065_tl_33" n="N033"/>Pietät nicht das Wort reden, welche unterscheidungslos das
-               <lb facs="#facs_2_region_1767945627158_1065_tl_34" n="N034"/>Schwächste von <rs type="person">Schumann</rs> verherrlicht und damit nur ver¬
-               <lb facs="#facs_2_region_1767945627158_1065_tl_35" n="N035"/>räth, daß sie gerade sein Bestes nicht begriffen hat. „Die
-               <lb facs="#facs_2_region_1767945627158_1065_tl_36" n="N036"/>Kritiker mögen mich immerhin auf meine Fehler aufmerksam
-               <lb facs="#facs_2_region_1767945627158_1065_tl_37" n="N037"/>machen,“ schrieb <hi rendition="#em">
-                  <rs type="person">Grillparzer</rs>
-               </hi> in sein <rs type="bibl">Tagebuch</rs>, „aber,
-               <lb facs="#facs_2_region_1767945627158_1065_tl_38" n="N038"/>wohlgemerkt, <hi rendition="#em">mit dem Hut in der Hand</hi>.“ Dieser
-               <lb facs="#facs_2_region_1767945627158_1065_tl_39" n="N039"/>äußere Respect, der in dem wegwerfenden Ton des <rs type="place" continued="true">Bay¬</rs>
-               <lb facs="#facs_2_region_1767945627158_1065_tl_40" n="N040"/>
-               <rs type="place" continued="true">reuth</rs>er <rs type="bibl">Aufsatz</rs>es so absichtlich verletzt wird, ist das Aller¬
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1767945630198_1068_tl_1" n="N001" break="no"/>geringste, was ein Genius vom Range <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s von sei
+         <lb facs="#facs_2_region_1767945630198_1068_tl_2" n="N002" break="no"/>nen Kritikern fordern darf. Wir sind ihm aber weit mehr
+         <lb facs="#facs_2_region_1767945630198_1068_tl_3" n="N003"/>schuldig. Einer der edelsten und genialsten Tondichter, deren
+         <lb facs="#facs_2_region_1767945630198_1068_tl_4" n="N004"/><rs type="place" ref="#hsl_place_id_14">Deutschland</rs> sich rühmen kann, ist Robert <rs type="person" ref="#hsl_person_id_282">Schumann</rs> Jedem
+         <lb facs="#facs_2_region_1767945630198_1068_tl_5" n="N005"/>ans Herz gewachsen, der überhaupt ein Herz für Musik hat.
+         <lb facs="#facs_2_region_1767945630198_1068_tl_6" n="N006"/>Ihn zählt die <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Nation zu ihrem theuersten Besitz,
+         <lb facs="#facs_2_region_1767945630198_1068_tl_7" n="N007"/>und nur wer den ganzen Werth dieses Besitzes erkennt und
+         <lb facs="#facs_2_region_1767945630198_1068_tl_8" n="N008"/>fühlt, darf über einzelne Theilchen desselben strenge richten.
+         <lb facs="#facs_2_region_1767945630198_1068_tl_9" n="N009"/>Indem der <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>er <rs type="bibl" ref="#hsl_work_id_5900">Artikel</rs> nichts als Tadel, und zwar
+         <lb facs="#facs_2_region_1767945630198_1068_tl_10" n="N010"/>höhnischen Tadel gegen <rs type="person" ref="#hsl_person_id_282">Schumann</rs> vorbringt, verräth er,
+         <lb facs="#facs_2_region_1767945630198_1068_tl_11" n="N011"/>daß Neid und Scheelsucht den Verfasser um den letzten Rest
+         <lb facs="#facs_2_region_1767945630198_1068_tl_12" n="N012"/>von Urtheilskraft gebracht haben. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> verwirft nicht
+         <lb facs="#facs_2_region_1767945630198_1068_tl_13" n="N013"/>etwa die schwächeren Compositionen <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s, nein, auch
+         <lb facs="#facs_2_region_1767945630198_1068_tl_14" n="N014"/>die vier <rs type="bibl" ref="#hsl_work_id_1294 #hsl_work_id_939 #hsl_work_id_203 #hsl_work_id_799">Symphonien</rs>, das <rs type="bibl" ref="#hsl_work_id_610">Clavier-Quartett</rs>, die <rs type="bibl" ref="#hsl_work_id_92">„Manfred“-
+         <lb facs="#facs_2_region_1767945630198_1068_tl_15" n="N015"/>Ouvertüre</rs> — sie alle seien „durch Aneinanderreihung von
+         <lb facs="#facs_2_region_1767945630198_1068_tl_16" n="N016"/>fast ununterbrochenen Reihen simpler <hi rendition="#em">Schusterflecke</hi> zu
+         <lb facs="#facs_2_region_1767945630198_1068_tl_17" n="N017" break="no"/>sammengesetzt“. Es sei darin „überall das nämliche Hantieren
+         <lb facs="#facs_2_region_1767945630198_1068_tl_18" n="N018"/>mit einzelnen Flicken und Lappen zu finden, welche vergebens
+         <lb facs="#facs_2_region_1767945630198_1068_tl_19" n="N019"/>nach allen Richtungen hin gezerrt und gestreckt werden, ohne
+         <lb facs="#facs_2_region_1767945630198_1068_tl_20" n="N020"/>daß es gelingen kann, sie in <hi rendition="#em">Gedanken</hi> zu verwandeln“.
+         <lb facs="#facs_2_region_1767945630198_1068_tl_21" n="N021"/>Die frühlingsfrische <rs type="bibl" ref="#hsl_work_id_1294">B-dur-Symphonie</rs> gehört nach <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s
+         <lb facs="#facs_2_line_1768801493418_54" n="N022"/>Versicherung zum Styl der „Balletmusik“, und die Anmuth
+         <lb facs="#facs_2_region_1767945630198_1068_tl_24" n="N023"/>ihrer Themen nennt er „kindliche Nichtigkeit“.
+            </p><p>
+         <lb facs="#facs_2_region_1767945630198_1068_tl_25" n="N024"/>Am peinlichsten jedoch verletzt es den Leser, daß nicht
+         <lb facs="#facs_2_region_1767945630198_1068_tl_26" n="N025"/>blos <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s Können, sondern sein künstlerischer Cha
+         <lb facs="#facs_2_region_1767945630198_1068_tl_27" n="N026" break="no"/>rakter, seine Reinheit und Ehrlichkeit keck angetastet werden.
+         <lb facs="#facs_2_region_1767945630198_1068_tl_28" n="N027"/><rs type="person" ref="#hsl_person_id_282">Schumann</rs>, der Alles aus der Tiefe seines Gemüths herauf
+         <lb facs="#facs_2_region_1767945630198_1068_tl_29" n="N028" break="no"/>holte, sei nicht „wahr“ gewesen! Das „ewige Suchen“ habe
+         <lb facs="#facs_2_region_1767945630198_1068_tl_30" n="N029"/>ihm „wenigstens den <hi rendition="#em">Nimbus</hi> des musterhaften Wollens
+         <lb facs="#facs_2_region_1767945630198_1068_tl_31" n="N030"/>und Strebens eintragen sollen“. <rs type="person" ref="#hsl_person_id_282">Schumann</rs> täusche die Welt
+         <lb facs="#facs_2_region_1767945630198_1068_tl_32" n="N031"/>über die Fundamental-Gebrechen seiner Musik durch „äußer
+         <lb facs="#facs_2_region_1767945630198_1068_tl_33" n="N032" break="no"/>liche Blendmittel und Pikanterien, die er mit der nöthigen
+         <lb facs="#facs_2_region_1767945630198_1068_tl_34" n="N033"/>Profusion anzuwenden nicht ansteht“. Im Gegensatz zu dem
+         <lb facs="#facs_2_region_1767945630198_1068_tl_35" n="N034"/>„durchaus <hi rendition="#em">ehrlichen</hi>“ Franz <rs type="person" ref="#hsl_person_id_279">Schubert</rs> gebe <rs type="person" ref="#hsl_person_id_282">Schumann</rs> sich
+         <lb facs="#facs_2_region_1767945630198_1068_tl_36" n="N035"/>durch gewisse „Mittelchen den falschen Schein des Tiefen,
+         <lb facs="#facs_2_region_1767945630198_1068_tl_37" n="N036"/>Ur-Originalen“. Auch der virtuose Styl der Clavier-Com
+         <lb facs="#facs_2_region_1767945630198_1068_tl_38" n="N037" break="no"/>positionen sei bei <rs type="person" ref="#hsl_person_id_282">Schumann</rs> „zu etwas durchaus Falschem
+         <lb facs="#facs_2_region_1767945630198_1068_tl_39" n="N038"/>und Aeußerlichem“ geworden u. s. w.
+            </p><p>
+         <lb facs="#facs_2_region_1767945630198_1068_tl_40" n="N039"/>Und warum, fragen wir, findet <rs type="person" ref="#hsl_person_id_319">Wagner</rs> jetzt diesen häß
+         <lb facs="#facs_2_region_1767945630198_1068_tl_41" n="N040" break="no"/>lichen Angriff gegen einen Tondichter nothwendig, dessen<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1767945630198_1068_tl_1" n="N001"/>geringste, was ein Genius vom Range <rs type="person">Schumann</rs>'s von sei¬
-               <lb facs="#facs_2_region_1767945630198_1068_tl_2" n="N002"/>nen Kritikern fordern darf. Wir sind ihm aber weit mehr
-               <lb facs="#facs_2_region_1767945630198_1068_tl_3" n="N003"/>schuldig. Einer der edelsten und genialsten Tondichter, deren
-               <lb facs="#facs_2_region_1767945630198_1068_tl_4" n="N004"/>
-               <rs type="place">Deutschland</rs> sich rühmen kann, ist Robert <rs type="person">Schumann</rs> Jedem
-               <lb facs="#facs_2_region_1767945630198_1068_tl_5" n="N005"/>ans Herz gewachsen, der überhaupt ein Herz für Musik hat.
-               <lb facs="#facs_2_region_1767945630198_1068_tl_6" n="N006"/>Ihn zählt die <rs type="place">deutsch</rs>e Nation zu ihrem theuersten Besitz,
-               <lb facs="#facs_2_region_1767945630198_1068_tl_7" n="N007"/>und nur wer den ganzen Werth dieses Besitzes erkennt und
-               <lb facs="#facs_2_region_1767945630198_1068_tl_8" n="N008"/>fühlt, darf über einzelne Theilchen desselben strenge richten.
-               <lb facs="#facs_2_region_1767945630198_1068_tl_9" n="N009"/>Indem der <rs type="place">Bayreuth</rs>er <rs type="bibl">Artikel</rs> nichts als Tadel, und zwar
-               <lb facs="#facs_2_region_1767945630198_1068_tl_10" n="N010"/>höhnischen Tadel gegen <rs type="person">Schumann</rs> vorbringt, verräth er,
-               <lb facs="#facs_2_region_1767945630198_1068_tl_11" n="N011"/>daß Neid und Scheelsucht den Verfasser um den letzten Rest
-               <lb facs="#facs_2_region_1767945630198_1068_tl_12" n="N012"/>von Urtheilskraft gebracht haben. <rs type="person">Wagner</rs> verwirft nicht
-               <lb facs="#facs_2_region_1767945630198_1068_tl_13" n="N013"/>etwa die schwächeren Compositionen <rs type="person">Schumann</rs>'s, nein, auch
-               <lb facs="#facs_2_region_1767945630198_1068_tl_14" n="N014"/>die vier <rs type="bibl">Symphonien</rs>, das <rs type="bibl">Clavier-Quartett</rs>, die <rs type="bibl">„Manfred“-</rs>
-               <lb facs="#facs_2_region_1767945630198_1068_tl_15" n="N015"/>
-               <rs type="bibl">Ouvertüre</rs> — sie alle seien „durch Aneinanderreihung von
-               <lb facs="#facs_2_region_1767945630198_1068_tl_16" n="N016"/>fast ununterbrochenen Reihen simpler <hi rendition="#em">Schusterflecke</hi> zu¬
-               <lb facs="#facs_2_region_1767945630198_1068_tl_17" n="N017"/>sammengesetzt“. Es sei darin „überall das nämliche Hantieren
-               <lb facs="#facs_2_region_1767945630198_1068_tl_18" n="N018"/>mit einzelnen Flicken und Lappen zu finden, welche vergebens
-               <lb facs="#facs_2_region_1767945630198_1068_tl_19" n="N019"/>nach allen Richtungen hin gezerrt und gestreckt werden, ohne
-               <lb facs="#facs_2_region_1767945630198_1068_tl_20" n="N020"/>daß es gelingen kann, sie in <hi rendition="#em">Gedanken</hi> zu verwandeln“.
-               <lb facs="#facs_2_region_1767945630198_1068_tl_21" n="N021"/>Die frühlingsfrische <rs type="bibl">B-dur-Symphonie</rs> gehört nach <rs type="person">Wagner</rs>'s
-               <lb facs="#facs_2_line_1768801493418_54" n="N022"/>Versicherung zum Styl der „Balletmusik“, und die Anmuth
-               <lb facs="#facs_2_region_1767945630198_1068_tl_24" n="N023"/>ihrer Themen nennt er „kindliche Nichtigkeit“.
-               <lb facs="#facs_2_region_1767945630198_1068_tl_25" n="N024"/>Am peinlichsten jedoch verletzt es den Leser, daß nicht
-               <lb facs="#facs_2_region_1767945630198_1068_tl_26" n="N025"/>blos <rs type="person">Schumann</rs>'s Können, sondern sein künstlerischer Cha¬
-               <lb facs="#facs_2_region_1767945630198_1068_tl_27" n="N026"/>rakter, seine Reinheit und Ehrlichkeit keck angetastet werden.
-               <lb facs="#facs_2_region_1767945630198_1068_tl_28" n="N027"/>
-               <rs type="person">Schumann</rs>, der Alles aus der Tiefe seines Gemüths herauf¬
-               <lb facs="#facs_2_region_1767945630198_1068_tl_29" n="N028"/>holte, sei nicht „wahr“ gewesen! Das „ewige Suchen“ habe
-               <lb facs="#facs_2_region_1767945630198_1068_tl_30" n="N029"/>ihm „wenigstens den <hi rendition="#em">Nimbus</hi> des musterhaften Wollens
-               <lb facs="#facs_2_region_1767945630198_1068_tl_31" n="N030"/>und Strebens eintragen sollen“. <rs type="person">Schumann</rs> täusche die Welt
-               <lb facs="#facs_2_region_1767945630198_1068_tl_32" n="N031"/>über die Fundamental-Gebrechen seiner Musik durch „äußer¬
-               <lb facs="#facs_2_region_1767945630198_1068_tl_33" n="N032"/>liche Blendmittel und Pikanterien, die er mit der nöthigen
-               <lb facs="#facs_2_region_1767945630198_1068_tl_34" n="N033"/>Profusion anzuwenden nicht ansteht“. Im Gegensatz zu dem
-               <lb facs="#facs_2_region_1767945630198_1068_tl_35" n="N034"/>„durchaus <hi rendition="#em">ehrlichen</hi>“ Franz <rs type="person">Schubert</rs> gebe <rs type="person">Schumann</rs> sich
-               <lb facs="#facs_2_region_1767945630198_1068_tl_36" n="N035"/>durch gewisse „Mittelchen den falschen Schein des Tiefen,
-               <lb facs="#facs_2_region_1767945630198_1068_tl_37" n="N036"/>Ur-Originalen“. Auch der virtuose Styl der Clavier-Com¬
-               <lb facs="#facs_2_region_1767945630198_1068_tl_38" n="N037"/>positionen sei bei <rs type="person">Schumann</rs> „zu etwas durchaus Falschem
-               <lb facs="#facs_2_region_1767945630198_1068_tl_39" n="N038"/>und Aeußerlichem“ geworden u. s. w.
-               <lb facs="#facs_2_region_1767945630198_1068_tl_40" n="N039"/>Und warum, fragen wir, findet <rs type="person">Wagner</rs> jetzt diesen häß¬
-               <lb facs="#facs_2_region_1767945630198_1068_tl_41" n="N040"/>lichen Angriff gegen einen Tondichter nothwendig, dessen
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1767945634094_1071_tl_1" n="N001"/>Werke eben erst zur verdienten Anerkennung sich durch¬
-               <lb facs="#facs_2_region_1767945634094_1071_tl_2" n="N002"/>gerungen haben, während ihr Schöpfer seit zwanzig Jahren
-               <lb facs="#facs_2_region_1767945634094_1071_tl_3" n="N003"/>im Grabe ruht? Man höre! Weil die Vorliebe für <rs type="person" continued="true">Schu¬</rs>
-               <lb facs="#facs_2_region_1767945634094_1071_tl_4" n="N004"/>
-               <rs type="person" continued="true">mann</rs>'sche Werke schuld sei, „daß die Namen <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
-               </hi> und
-               <lb facs="#facs_2_region_1767945634094_1071_tl_5" n="N005"/>
-               <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi> nur selten noch unsere Concertprogramme zu
-               <lb facs="#facs_2_region_1767945634094_1071_tl_6" n="N006"/>zieren pflegen“! Die zärtliche Sorgfalt für <rs type="person">Haydn</rs> und <rs type="person" continued="true">Mo¬</rs>
-               <lb facs="#facs_2_region_1767945634094_1071_tl_7" n="N007"/>
-               <rs type="person" continued="true">zart</rs> ist im Munde <rs type="person">Wagner</rs>'s eine lächerliche Heuchelei und
-               <lb facs="#facs_2_region_1767945634094_1071_tl_8" n="N008"/>die darauf gestützte Behauptung ebenso thöricht, als wenn
-               <lb facs="#facs_2_region_1767945634094_1071_tl_9" n="N009"/>man die zahlreichen Aufführungen von „<rs type="bibl">Tannhäuser</rs>“ und
-               <lb facs="#facs_2_region_1767945634094_1071_tl_10" n="N010"/>„<rs type="bibl">Lohengrin</rs>“ hindern wollte, weil sie die Opern von <rs type="person">Gluck</rs>,
-               <lb facs="#facs_2_region_1767945634094_1071_tl_11" n="N011"/>
-               <rs type="person">Mozart</rs> und <rs type="person">Beethoven</rs> zurückdrängen. Das lebensfähige Neue
-               <lb facs="#facs_2_region_1767945634094_1071_tl_12" n="N012"/>wird neben dem classischen Alten stets sein Recht ausüben,
-               <lb facs="#facs_2_region_1767945634094_1071_tl_13" n="N013"/>und Männer des Fortschrittes sollten dieses Recht vertheidi¬
-               <lb facs="#facs_2_region_1767945634094_1071_tl_14" n="N014"/>gen, nicht es bekämpfen. Allein <hi rendition="#em">
-                  <rs type="person">Wagner</rs>
-               </hi> will eben jedes
-               <lb facs="#facs_2_region_1767945634094_1071_tl_15" n="N015"/>Recht nur für sich allein, sogar das Recht der Existenz. Der
-               <lb facs="#facs_2_region_1767945634094_1071_tl_16" n="N016"/>Schlußsatz des <rs type="bibl">Artikel</rs>s — zugleich die unverkennbarste Probe
-               <lb facs="#facs_2_region_1767945634094_1071_tl_17" n="N017"/>von <rs type="person">Wagner</rs>'s eigenstem Styl — verräth in einer flüchtigen
-               <lb facs="#facs_2_region_1767945634094_1071_tl_18" n="N018"/>Aufwallung den wahren Grund des Angriffes auf <rs type="person">Schumann</rs>.
-               <lb facs="#facs_2_region_1767945634094_1071_tl_19" n="N019"/>Dieser merkwürdige Satz lautet: „Wir haben somit gefunden, daß
-               <lb facs="#facs_2_region_1767945634094_1071_tl_20" n="N020"/>selbst auf dem äußerlichsten Gebiete unserer Kunst es <rs type="person">Schumann</rs>
-               <lb facs="#facs_2_region_1767945634094_1071_tl_21" n="N021"/>nicht gegeben war, naiv und wahr zu sein, und wir schließen
-               <lb facs="#facs_2_region_1767945634094_1071_tl_22" n="N022"/>mit dem Wunsche, daß möglichst Viele und möglichst bald
-               <lb facs="#facs_2_region_1767945634094_1071_tl_23" n="N023"/>sich dem Umgange und dem Einflusse eines Autors entziehen
-               <lb facs="#facs_2_region_1767945634094_1071_tl_24" n="N024"/>möchten, welcher nach dem Ausgeführten nicht anders als
-               <lb facs="#facs_2_region_1767945634094_1071_tl_25" n="N025"/>schädigend und verbildend auf Geschmack und Gefühl wirken
-               <lb facs="#facs_2_region_1767945634094_1071_tl_26" n="N026"/>kann, welch' letztere uns rein und unverdorben zu erhalten
-               <lb facs="#facs_2_region_1767945634094_1071_tl_27" n="N027"/>gerade wir, <hi rendition="#em">die wir einer neuen Offenbarung</hi>
-               <lb facs="#facs_2_region_1767945634094_1071_tl_28" n="N028"/>
-               <hi rendition="#em">des wahren Kunstgeistes entgegenhoffen</hi>,
-               <lb facs="#facs_2_region_1767945634094_1071_tl_29" n="N029"/>nicht genug besorgt sein können.“ Unter dieser in <rs type="place">Bayreuth</rs>
-               <lb facs="#facs_2_region_1767945634094_1071_tl_30" n="N030"/>bevorstehenden neuen Offenbarung des wahren Kunstgeistes
-               <lb facs="#facs_2_region_1767945634094_1071_tl_31" n="N031"/>ist natürlich nichts Anderes gemeint als <hi rendition="#em">
-                  <rs type="person">Wagner</rs>'s</hi> „<hi rendition="#em">
-                  <rs type="bibl">Par¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1767945634094_1071_tl_32" n="N032"/>
-               <hi rendition="#em">
-                  <rs type="bibl">sifal</rs>
-               </hi>“, um dessen Erfolg, nach dem gräßlichen Textbuche
-               <lb facs="#facs_2_region_1767945634094_1071_tl_33" n="N033"/>zu schließen, auch wir „nicht genug besorgt sein können“.
-               <lb facs="#facs_2_region_1767945634094_1071_tl_34" n="N034"/>Nein, keine neue Offenbarung <rs type="person">Wagner</rs>'s wird die alten Offen¬
-               <lb facs="#facs_2_region_1767945634094_1071_tl_35" n="N035"/>barungen <rs type="person">Schumann</rs>'s zu verdrängen im Stande sein! Nicht
-               <lb facs="#facs_2_region_1767945634094_1071_tl_36" n="N036"/>seltener, sondern noch viel öfter und hingebender als bisher,
-               <lb facs="#facs_2_region_1767945634094_1071_tl_37" n="N037"/>wird man ihnen lauschen, denn wenn zur vollen Verklärung
-               <lb facs="#facs_2_region_1767945634094_1071_tl_38" n="N038"/>unseres <rs type="person">Schumann</rs> Eines noch gefehlt hat, so war es der
-               <lb facs="#facs_2_region_1767945634094_1071_tl_39" n="N039"/>schwefelige Bannstrahl von <rs type="place">Bayreuth</rs>.
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1767945634094_1071_tl_1" n="N001"/>Werke eben erst zur verdienten Anerkennung sich durch
+         <lb facs="#facs_2_region_1767945634094_1071_tl_2" n="N002" break="no"/>gerungen haben, während ihr Schöpfer seit zwanzig Jahren
+         <lb facs="#facs_2_region_1767945634094_1071_tl_3" n="N003"/>im Grabe ruht? Man höre! Weil die Vorliebe für <rs type="person" ref="#hsl_person_id_282">Schu
+         <lb facs="#facs_2_region_1767945634094_1071_tl_4" n="N004" break="no"/>mann</rs>’sche Werke schuld sei, „daß die Namen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs></hi> und
+         <lb facs="#facs_2_region_1767945634094_1071_tl_5" n="N005"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi> nur selten noch unsere Concertprogramme zu
+         <lb facs="#facs_2_region_1767945634094_1071_tl_6" n="N006"/>zieren pflegen“! Die zärtliche Sorgfalt für <rs type="person" ref="#hsl_person_id_114">Haydn</rs> und <rs type="person" ref="#hsl_person_id_189">Mo
+         <lb facs="#facs_2_region_1767945634094_1071_tl_7" n="N007" break="no"/>zart</rs> ist im Munde <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s eine lächerliche Heuchelei und
+         <lb facs="#facs_2_region_1767945634094_1071_tl_8" n="N008"/>die darauf gestützte Behauptung ebenso thöricht, als wenn
+         <lb facs="#facs_2_region_1767945634094_1071_tl_9" n="N009"/>man die zahlreichen Aufführungen von „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ und
+         <lb facs="#facs_2_region_1767945634094_1071_tl_10" n="N010"/>„<rs type="bibl" ref="#hsl_work_id_97">Lohengrin</rs>“ hindern wollte, weil sie die Opern von <rs type="person" ref="#hsl_person_id_99">Gluck</rs>,
+         <lb facs="#facs_2_region_1767945634094_1071_tl_11" n="N011"/><rs type="person" ref="#hsl_person_id_189">Mozart</rs> und <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> zurückdrängen. Das lebensfähige Neue
+         <lb facs="#facs_2_region_1767945634094_1071_tl_12" n="N012"/>wird neben dem classischen Alten stets sein Recht ausüben,
+         <lb facs="#facs_2_region_1767945634094_1071_tl_13" n="N013"/>und Männer des Fortschrittes sollten dieses Recht vertheidi
+         <lb facs="#facs_2_region_1767945634094_1071_tl_14" n="N014" break="no"/>gen, nicht es bekämpfen. Allein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi> will eben jedes
+         <lb facs="#facs_2_region_1767945634094_1071_tl_15" n="N015"/>Recht nur für sich allein, sogar das Recht der Existenz. Der
+         <lb facs="#facs_2_region_1767945634094_1071_tl_16" n="N016"/>Schlußsatz des <rs type="bibl" ref="#hsl_work_id_5900">Artikel</rs>s — zugleich die unverkennbarste Probe
+         <lb facs="#facs_2_region_1767945634094_1071_tl_17" n="N017"/>von <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s eigenstem Styl — verräth in einer flüchtigen
+         <lb facs="#facs_2_region_1767945634094_1071_tl_18" n="N018"/>Aufwallung den wahren Grund des Angriffes auf <rs type="person" ref="#hsl_person_id_282">Schumann</rs>.
+         <lb facs="#facs_2_region_1767945634094_1071_tl_19" n="N019"/>Dieser merkwürdige Satz lautet: „Wir haben somit gefunden, daß
+         <lb facs="#facs_2_region_1767945634094_1071_tl_20" n="N020"/>selbst auf dem äußerlichsten Gebiete unserer Kunst es <rs type="person" ref="#hsl_person_id_282">Schumann</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1767945634094_1071_tl_21" n="N021"/>nicht gegeben war, naiv und wahr zu sein, und wir schließen
+         <lb facs="#facs_2_region_1767945634094_1071_tl_22" n="N022"/>mit dem Wunsche, daß möglichst Viele und möglichst bald
+         <lb facs="#facs_2_region_1767945634094_1071_tl_23" n="N023"/>sich dem Umgange und dem Einflusse eines Autors entziehen
+         <lb facs="#facs_2_region_1767945634094_1071_tl_24" n="N024"/>möchten, welcher nach dem Ausgeführten nicht anders als
+         <lb facs="#facs_2_region_1767945634094_1071_tl_25" n="N025"/>schädigend und verbildend auf Geschmack und Gefühl wirken
+         <lb facs="#facs_2_region_1767945634094_1071_tl_26" n="N026"/>kann, welch’ letztere uns rein und unverdorben zu erhalten
+         <lb facs="#facs_2_region_1767945634094_1071_tl_27" n="N027"/>gerade wir, <hi rendition="#em">die wir einer neuen Offenbarung
+         <lb facs="#facs_2_region_1767945634094_1071_tl_28" n="N028"/>des wahren Kunstgeistes entgegenhoffen</hi>,
+         <lb facs="#facs_2_region_1767945634094_1071_tl_29" n="N029"/>nicht genug besorgt sein können.“ Unter dieser in <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1767945634094_1071_tl_30" n="N030"/>bevorstehenden neuen Offenbarung des wahren Kunstgeistes
+         <lb facs="#facs_2_region_1767945634094_1071_tl_31" n="N031"/>ist natürlich nichts Anderes gemeint als <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s</hi> „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_275">Par
+         <lb facs="#facs_2_region_1767945634094_1071_tl_32" n="N032" break="no"/>sifal</rs></hi>“, um dessen Erfolg, nach dem gräßlichen Textbuche
+         <lb facs="#facs_2_region_1767945634094_1071_tl_33" n="N033"/>zu schließen, auch wir „nicht genug besorgt sein können“.
+         <lb facs="#facs_2_region_1767945634094_1071_tl_34" n="N034"/>Nein, keine neue Offenbarung <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s wird die alten Offen
+         <lb facs="#facs_2_region_1767945634094_1071_tl_35" n="N035" break="no"/>barungen <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s zu verdrängen im Stande sein! Nicht
+         <lb facs="#facs_2_region_1767945634094_1071_tl_36" n="N036"/>seltener, sondern noch viel öfter und hingebender als bisher,
+         <lb facs="#facs_2_region_1767945634094_1071_tl_37" n="N037"/>wird man ihnen lauschen, denn wenn zur vollen Verklärung
+         <lb facs="#facs_2_region_1767945634094_1071_tl_38" n="N038"/>unseres <rs type="person" ref="#hsl_person_id_282">Schumann</rs> Eines noch gefehlt hat, so war es der
+         <lb facs="#facs_2_region_1767945634094_1071_tl_39" n="N039"/>schwefelige Bannstrahl von <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>.</p>
          </div>
       </body>
    </text>

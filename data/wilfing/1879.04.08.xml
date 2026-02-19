@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 5250. Wien, Dienstag, den 8. April 1879</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,24 +70,19 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 5250. Wien, Dienstag, den 8. April 1879</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
                         <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1879-04-08">08.04.1879</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,9 +102,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-01-26">Transkribus OCR und Lektorat.</change>
+         <change who=" fsanzlazaro" when="2026-01-30">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-02-17">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -546,173 +542,145 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_2_region_1706949386242_709_tl_1" n="N001"/><head type="h1">„<rs type="bibl" ref="#hsl_work_id_1480">Ungarische Tänze</rs>.“</head>
+            <lb facs="#facs_2_region_1706949386242_709_tl_2" n="N002"/><head type="h2">In Sachen Eduard <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3008">Remenyi</rs>’s</hi> contra Johannes <hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi>.</head>
             <p>
-               <lb facs="#facs_1_line_1768369295362_24" n="N001"/>Nr. 5250. Wien, Dienstag, den 8. April 1879
-            </p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_2_region_1706949386242_709_tl_1" n="N001"/>„<rs type="bibl">Ungarische Tänze</rs>.“
-               <lb facs="#facs_2_region_1706949386242_709_tl_2" n="N002"/>In Sachen Eduard <hi rendition="#em">
-                  <rs type="person">Remenyi</rs>'s</hi> contra Johannes <hi rendition="#em">
-                  <rs type="person">Brahms</rs>
-               </hi>.*)
-               <lb facs="#facs_2_region_1706949386242_709_tl_3" n="N003"/>Vor Kurzem machte eine seltsame Notiz die Runde durch
-               <lb facs="#facs_2_region_1706949386242_709_tl_4" n="N004"/>die Blätter. Es handelt sich um eine Erklärung des Herrn
-               <lb facs="#facs_2_region_1706949386242_709_tl_5" n="N005"/>Eduard <rs type="person">Remenyi</rs>, des bekannten Geigers zweier Hemisphären, der
-               <lb facs="#facs_2_region_1706949386242_709_tl_6" n="N006"/>gegenwärtig in <rs type="place">Amerika</rs> jene „Triumphe feiert“, die ihm von
-               <lb facs="#facs_2_region_1706949386242_709_tl_7" n="N007"/>dem undankbaren <rs type="place">Europa</rs> seit geraumer Zeit hartnäckig vor¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_8" n="N008"/>enthalten werden. Herr Eduard <rs type="person">Remenyi</rs> erklärt in einer Zu¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_9" n="N009"/>schrift an den Redacteur der <rs type="place">Newyork</rs>er <rs type="bibl">Musik-Zeitung</rs>, die unter
-               <lb facs="#facs_2_line_1768369317147_40" n="N010"/>dem Namen Johannes <rs type="person">Brahms</rs> herausgegebenen, bei <rs type="person">Simrock</rs> in
-               <lb facs="#facs_2_line_1768369321347_44" n="N011"/>
-               <rs type="place">Berlin</rs> verlegten „<rs type="bibl">Ungarischen Tänze</rs>“ seien von der ersten bis
-               <lb facs="#facs_2_region_1706949386242_709_tl_14" n="N012"/>zur letzten Nummer Plagiat. Zum Theil seien diese Tänze das
-               <lb facs="#facs_2_region_1706949386242_709_tl_15" n="N013"/>geistige Eigenthum <rs type="person">Remenyi</rs>'s, der dieselben vor mehr als fünf¬
-               <lb facs="#facs_2_line_1768369327482_49" n="N014"/>undzwanzig Jahren dem damals gänzlich unbekannten <rs type="person">Brahms</rs> —
-               <lb facs="#facs_2_line_1768369331642_53" n="N015"/>„großmüthig und selbstlos, wie <rs type="person">Remenyi</rs> schon ist“ — überlassen
-               <lb facs="#facs_2_region_1706949386242_709_tl_20" n="N016"/>hatte, dieselben „<rs type="bibl">Ungarischen Tänze</rs>“, die nach <rs type="person">Remenyi</rs>'s Be¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_21" n="N017"/>hauptung „den Namen <rs type="person">Brahms</rs>' in der musiktreibenden Welt im
-               <lb facs="#facs_2_region_1706949386242_709_tl_22" n="N018"/>eigentlichsten Sinne des Wortes <hi rendition="#em">zuerst</hi> populär gemacht und
-               <lb facs="#facs_2_region_1706949386242_709_tl_23" n="N019"/>ihm und dem Verleger große Summen eingebracht haben . . . .“
-               <lb facs="#facs_2_region_1706949386242_709_tl_24" n="N020"/>Das ist deutlich genug gesprochen. Aber bevor wir denn auf
-               <lb facs="#facs_2_region_1706949386242_709_tl_25" n="N021"/>den Inhalt der Anklageschrift eingehen, müssen wir noch ein wenig
-               <lb facs="#facs_2_region_1706949386242_709_tl_26" n="N022"/>bei der interessanten Persönlichkeit des Klägers verweilen. Wie
-               <lb facs="#facs_2_region_1706949386242_709_tl_27" n="N023"/>um alle wahrhaft großen Erscheinungen der Kunst, hat sich auch
-               <lb facs="#facs_2_region_1706949386242_709_tl_28" n="N024"/>um Herrn Eduard <rs type="person">Remenyi</rs>, den <rs type="place">ungarisch</rs>en National-Virtuosen
-               <lb facs="#facs_2_region_1706949386242_709_tl_29" n="N025"/>und ehemaligen Adjutanten <rs type="person">Görgey</rs>'s im Freiheitskriege von <date month="0" day="0" year="0">1848</date>,
-               <lb facs="#facs_2_region_1706949386242_709_tl_30" n="N026"/>ein ganzer Legendenkreis gebildet. Das war vor etwa 20 Jahren,
-               <lb facs="#facs_2_region_1706949386242_709_tl_31" n="N027"/>als <rs type="person">Remenyi</rs> im Lande umherzog, um mit seiner Geige Politik
-               <lb facs="#facs_2_region_1706949386242_709_tl_32" n="N028"/>zu machen. Und damals geschah es, daß <rs type="place">Ungarn</rs>s großer Geiger,
-               <lb facs="#facs_2_region_1706949386242_709_tl_33" n="N029"/>als Gast einer altadeligen Familie, nach aufgehobener Tafeln mit
-               <lb facs="#facs_2_region_1706949386242_709_tl_34" n="N030"/>feierlichen Schritten auf die im Saale befindliche Standuhr los¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_35" n="N031"/>ging und den Zeiger mit den historischen Worten zum Stillstand
-               <lb facs="#facs_2_line_1768369336954_57" n="N032"/>brachte: „Die Stunde, da Eduard <rs type="person">Remenyi</rs> in diesen Räumen
-               <lb facs="#facs_2_region_1706949386242_709_tl_38" n="N033"/>geweilt, soll zum ewigen Gedächtnisse für die späten Nachkommen
-               <lb facs="#facs_2_region_1706949386242_709_tl_39" n="N034"/>dieser Familie erinnerlich sein.“
-               <lb facs="#facs_2_region_1706949386242_709_tl_40" n="N035"/>Aber die alte Familienuhr geht seither trotzdem ihren ge¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_41" n="N036"/>wohnten Gang, und still und stiller ward's nur um den Weltruf
-               <lb facs="#facs_2_region_1706949386242_709_tl_42" n="N037"/>Eduard <rs type="person">Remenyi</rs>'s. Jahre vergingen und <rs type="person">Remenyi</rs> blieb noch
-               <lb facs="#facs_2_region_1706949386242_709_tl_43" n="N038"/>immer das verkannte Genie, unverstanden von seinen Zeitge¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_44" n="N039"/>nossen, seinem Zeitalter um Aeonen vorausgeeilt! Im vergan¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_45" n="N040"/>genen Sommer habe ich ihn das letztemal in <rs type="person">Paris</rs> gesehen in
-               <lb facs="#facs_2_region_1706949386242_709_tl_46" n="N041"/>einer der Matinées internationales, die von Mademoiselle Marie
-               <lb facs="#facs_2_region_1706949386242_709_tl_47" n="N042"/>
-               <rs type="person">Dumas</rs> im Trocadero-Saale gegeben wurden. Herr <rs type="person">Remenyi</rs> war
-               <lb facs="#facs_2_region_1706949386242_709_tl_48" n="N043"/>wol als célèbre artiste <rs type="place">hongrois</rs> angekündigt, aber sein Spiel
-               <lb facs="#facs_2_region_1706949386242_709_tl_49" n="N044"/>gefiel nicht. Die besten Ideen fallen Einem gewöhnlich zu spät
-               <lb facs="#facs_2_region_1706949386242_709_tl_50" n="N045"/>ein, und so kam es, daß Herr <rs type="person">Remenyi</rs> sich erst nach der Aus¬
-               <lb facs="#facs_2_line_1768369370747_66" n="N046"/>stellung entschloß, nach <rs type="place">Amerika</rs> zu gehen, was er eigentlich schon
-               <lb facs="#facs_2_region_1706949386242_709_tl_53" n="N047"/>längst hätte thun sollen. Ich fürchte nicht mißverstanden zu wer¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_54" n="N048"/>den; in seinem eigenen Interesse hätte er dies längst thun müssen.
-               <lb facs="#facs_2_region_1706949386242_709_tl_55" n="N049"/>
-               <rs type="place">Amerika</rs> ist das richtige Land für ihn. Dort kann er es noch ebenso
-               <lb facs="#facs_2_line_1768369375538_70" n="N050"/>weit bringen, wie sein großer Vorgänger, der „alte Schwede“ Ole
-               <lb facs="#facs_2_line_1768369380450_74" n="N051"/>
-               <rs type="person">Bull</rs>, der irgendwo an einem der Seen große Ländereien erwor¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_60" n="N052"/>ben hatte und einen Staat mit Constitution auf demokratischen
-               <lb facs="#facs_2_region_1706949386242_709_tl_61" n="N053"/>Principien, aber mit einem unverantwortlichen Selbstherrscher als
-               <lb facs="#facs_2_region_1706949386242_709_tl_62" n="N054"/>Staatsoberhaupt gründete.
-               <lb facs="#facs_2_region_1706949386242_709_tl_63" n="N055"/>Auf der andern Hemisphäre hat also Herr Eduard <rs type="person" continued="true">Re¬</rs>
-               <lb facs="#facs_2_region_1706949386242_709_tl_64" n="N056"/>
-               <rs type="person" continued="true">menyi</rs> vor Kurzem in der <rs type="place">Newyork</rs>er <rs type="bibl">Musik-Zeitung</rs> sen¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_65" n="N057"/>sationelle Enthüllungen über „ein in seiner Art unerhörtes“
-               <lb facs="#facs_2_region_1706949386242_709_tl_66" n="N058"/>Plagiat gemacht, welches kein Geringerer als Johannes <rs type="person">Brahms</rs>
-               <lb facs="#facs_2_line_1768369390226_80" n="N059"/>begangen haben soll. „Die allen Clavierspielern bekannten
-               <lb facs="#facs_2_line_1768369395202_84" n="N060"/>„<rs type="bibl">Ungarischen Tänze</rs>“ von <rs type="person">Brahms</rs>,“ behauptet Herr <rs type="person">Remenyi</rs>
-               <lb facs="#facs_2_line_1768369399835_88" n="N061"/>wörtlich, „sind gar nicht von <rs type="person">Brahms</rs>, auch nicht einmal von
-               <lb facs="#facs_2_line_1768369404426_92" n="N062"/>ihm gesetzt; sie waren schon lange vor ihm veröffentlicht,
-               <lb facs="#facs_2_line_1768369411890_96" n="N063"/>und <rs type="person">Brahms</rs> hat sie einfach copirt.“ Als Beweis für diese Be¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_79" n="N064"/>hauptung dienen ihm verschiedene <rs type="place">ungarisch</rs>e Original-Com¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_80" n="N065"/>positionen, die allesammt eine Aehnlichkeit oder Gleichheit mit
-               <lb facs="#facs_2_region_1706949386242_709_tl_81" n="N066"/>den „<rs type="bibl">Ungarischen Tänzen</rs>“ von <rs type="person">Brahms</rs> darthun. Die letzteren
-               <lb facs="#facs_2_region_1706949386242_709_tl_82" n="N067"/>sind aber auf dem Titelblatte als „Compositionen von Johannes
-               <lb facs="#facs_2_region_1706949386242_709_tl_83" n="N068"/>
-               <rs type="person">Brahms</rs>“ bezeichnet, mithin ist <rs type="person">Brahms</rs> ein Plagiator. Quod
-               <lb facs="#facs_2_region_1706949386242_709_tl_84" n="N069"/>erat demonstrandum. Herr <rs type="person">Remenyi</rs> benützt diesen Anlaß, um
-               <lb facs="#facs_2_region_1706949386242_709_tl_85" n="N070"/>mit der ihm eigenen Kühnheit zu behaupten, er und kein
-               <lb facs="#facs_2_region_1706949386242_709_tl_86" n="N071"/>Anderer habe Johannes <rs type="person">Brahms</rs> in die musikalische Welt ein¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_87" n="N072"/>geführt, er habe Robert <rs type="person">Schumann</rs> auf das hoffnungsreiche Talent
-               <lb facs="#facs_2_region_1706949386242_709_tl_88" n="N073"/>des achtzehnjährigen Jünglings aufmerksam gemacht etc. etc.
-               <lb facs="#facs_2_region_1706949386242_709_tl_89" n="N074"/>Die „<rs type="bibl">Ungarischen Tänze</rs>“ von <rs type="person">Brahms</rs> sind einfach Bear¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_90" n="N075"/>beitungen <rs type="place">ungarisch</rs>er Themen. Das weiß jedes Kind, und wenn
-               <lb facs="#facs_2_region_1706949386242_709_tl_91" n="N076"/>es der Redacteur einer Musikzeitschrift nicht weiß, so ist das
-               <lb facs="#facs_2_region_1706949386242_709_tl_92" n="N077"/>traurig für seine Leser, aber uns kann dies gleichgiltig sein.
-               <lb facs="#facs_2_region_1706949386242_709_tl_93" n="N078"/>
-               <rs type="person">Brahms</rs> hat niemals die Lächerlichkeit begangen, sich als den
-               <lb facs="#facs_2_region_1706949386242_709_tl_94" n="N079"/>Erfinder dieser Sachen hinzustellen. Das geht schon aus dem
-               <lb facs="#facs_2_region_1706949386242_709_tl_95" n="N080"/>Umstande klar genug hervor, daß auf dem Hefte keine Opuszahl
-               <lb facs="#facs_2_region_1706949386242_709_tl_96" n="N081"/>angegeben ist. Das mir vorliegende Exemplar der „<rs type="bibl">Ungarischen</rs>
-               <lb facs="#facs_2_line_1768369418747_100" n="N082"/>
-               <rs type="bibl">Tänze</rs>“ trägt die Aufschrift: „<rs type="bibl">Ungarische Tänze</rs>, für das Piano¬
-               <lb facs="#facs_2_line_1768369423307_104" n="N083"/>forte zu vier Händen gesetzt von Joh. <rs type="person">Brahms</rs>.“ Das ist nichts
-               <lb facs="#facs_2_region_1706949386242_709_tl_101" n="N084"/>Auffallendes, denn so machen es alle Componisten, alle, von <rs type="person" continued="true">Beetho¬</rs>
-               <lb facs="#facs_2_region_1706949386242_709_tl_102" n="N085"/>
-               <rs type="person" continued="true">ven</rs> angefangen bis herab zu Herrn Eduard <rs type="person">Remenyi</rs>. Ja wol. Herr
-               <lb facs="#facs_2_region_1706949386242_709_tl_103" n="N086"/>
-               <rs type="person">Remenyi</rs> wird sich erinnern, seinerzeit eine „<rs type="bibl">Magyar eredeti</rs>
-               <lb facs="#facs_2_line_1768369428962_108" n="N087"/>
-               <rs type="bibl">nóta</rs>“ („<rs type="bibl">Ungarische Originalweise</rs>“) geschrieben zu haben, „<rs type="bibl">Repülj</rs>
-               <lb facs="#facs_2_region_1706949386242_709_tl_106" n="N088"/>
-               <rs type="bibl">foeském</rs>“ betitelt (die Anfangsworte eines <rs type="place">ungarisch</rs>en Volks¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_107" n="N089"/>liedes), aber er hat es nicht für nothwendig gehalten, die Her¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_108" n="N090"/>kunft dieses <rs type="place">ungarisch</rs>en Volksliedes auf dem Titelblatte anzu¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_109" n="N091"/>geben. Und nun — quis tulerit Gracchos de seditione quaeren¬
-               <lb facs="#facs_2_region_1706949386242_709_tl_110" n="N092"/>tes! Was hat denn Herr <rs type="person">Remenyi</rs> während seines ganzen
-               <lb facs="#facs_2_region_1706949386242_709_tl_111" n="N093"/>Lebens Anderes gethan, als fremdes Gut verwaltet, Fremdes in
-               <lb facs="#facs_2_region_1706949386242_709_tl_112" n="N094"/>seinen eigenen „Compositionen“, leider auch Fremdes, wenn er es
-               <lb facs="#facs_2_region_1706949386242_709_tl_113" n="N095"/>unternahm, irgend etwas „Ordentliches“ von <rs type="person">Beethoven</rs>, <rs type="person" continued="true">Schu¬</rs>
-               <lb facs="#facs_2_line_1768369502043_279" n="N096"/>
-               <rs type="person" continued="true">bert</rs> etc. zu spielen?
-               <lb facs="#facs_2_line_1768369505457_282" n="N097"/>*) Vorstehender Aufsatz wurde mir zur Veröffentlichung in 
-               <lb facs="#facs_2_line_1768369508057_285" n="N098"/>diesem <rs type="bibl">Blatt</rs>e von einem Ungar zugesendet, der in seinem Vater¬
-               <lb facs="#facs_2_line_1768369510440_288" n="N099"/>lande als tüchtiger Musiker und Musik-Kritiker bekannt ist. Nach
-               <lb facs="#facs_2_line_1768369512545_291" n="N100"/>mancherlei Anfragen zu schließen, scheint eine Rechtfertigung
-               <lb facs="#facs_2_line_1768369514905_294" n="N101"/>
-               <hi rendition="#em">
-                  <rs type="person">Brahms</rs>'</hi> gegen <hi rendition="#em">
-                  <rs type="person">Remenyi</rs>'s</hi> lächerliche Anschuldigungen in den
-               <lb facs="#facs_2_line_1768369517248_297" n="N102"/>Augen manchen Leser doch nicht so ganz überflüssig zu sein, wie ich
-               <lb facs="#facs_2_line_1768369519817_300" n="N103"/>anfang geglaubt. Hierüber cedire ich das Wort sehr gern an den
-               <lb facs="#facs_2_line_1768369523201_303" n="N104"/>Einsender dieses Artikels, da es mir von Wichtigkeit erscheint, daß
-               <lb facs="#facs_2_line_1768369525944_306" n="N105"/>gerade ein <hi rendition="#em">Ungar</hi> das Recht des <rs type="place">deutsch</rs>en Componisten gegen
-               <lb facs="#facs_2_line_1768369528248_309" n="N106"/>den <rs type="place">ungarisch</rs>en vertheidigt. Nur zwei kleine, verstärkende Argumente
-               <lb facs="#facs_2_line_1768369532480_312" n="N107"/>möchte ich noch beizufügen mir erlauben. Von <rs type="person">Beethoven</rs> besitzen wir
-               <lb facs="#facs_2_line_1768369534992_315" n="N108"/>außer den bekannten „<rs type="bibl">Schottischen Liedern</rs>“ (Op. 108) auch noch
-               <lb facs="#facs_2_line_1768369537512_318" n="N109"/>vierzehn verschiedene Volkslieder; das Heft ist betitelt: „<rs type="bibl">Volkslieder</rs>
-               <lb facs="#facs_2_line_1768369540024_321" n="N110"/>für Eine und mehrere Singstimmen, Viola, Violoncell und Piano¬
-               <lb facs="#facs_2_line_1768369542385_324" n="N111"/>forte <hi rendition="#em">componirt</hi> von L. v. <rs type="person">Beethoven</rs>.“ Darunter sind das <rs type="place" continued="true">eng¬</rs>
-               <lb facs="#facs_2_line_1768369544912_327" n="N112"/>
-               <rs type="place" continued="true">lisch</rs>e: „<rs type="bibl">God save the King</rs>“, die italienischen „<rs type="bibl">O sanctis¬</rs>
-               <lb facs="#facs_2_line_1768369547641_330" n="N113"/>
-               <rs type="bibl">sima!</rs>“, „<rs type="bibl">La biondina in gondoletta</rs>“, somit allbekannte
-               <lb facs="#facs_2_line_1768369550280_333" n="N114"/>Melodien, deren „Erfindung“ sich <rs type="person">Beethoven</rs> gewiß nicht berühmte,
-               <lb facs="#facs_2_line_1768369552745_336" n="N115"/>deren beliebiges Arrangement er jedoch als ein gutes Recht ange¬
-               <lb facs="#facs_2_line_1768369556137_339" n="N116"/>sehen hat. Daß die von <hi rendition="#em">
-                  <rs type="person">Brahms</rs>
-               </hi> bearbeiteten <rs type="place">ungarisch</rs>en Tanz¬
-               <lb facs="#facs_2_line_1768369558944_342" n="N117"/>melodien in gleichem Sinne zur Nationalmusik gezählt werden dürfen,
-               <lb facs="#facs_2_line_1768369562569_345" n="N118"/>beweisen unter Anderm die schwankenden, widersprechenden Angaben
-               <lb facs="#facs_2_line_1768369565383_348" n="N119"/>der Ungarn selbst über die eigentlichen Erfinder dieser Melodien. So
-               <lb facs="#facs_2_line_1768369567824_351" n="N120"/>wird von <rs type="person">Remenyi</rs> Nr. 6 der <rs type="person">Brahms</rs>'schen „<rs type="bibl">Ungarischen Tänze</rs>“ (Des-
-               <lb facs="#facs_2_line_1768369570536_354" n="N121"/>dur) ausdrücklich für eine Composition von A. <hi rendition="#em">
-                  <rs type="person">Rittinger</rs>
-               </hi> erklärt;
-               <lb facs="#facs_2_line_1768369573072_357" n="N122"/>derselbe Csardas findet sich jedoch in Es-dur in einer mir vorlie¬
-               <lb facs="#facs_2_line_1768369575768_360" n="N123"/>genden, vom Grafen Stephan <hi rendition="#em">
-                  <rs type="person">Fay</rs>
-               </hi> herausgegebenen Sammlung
-               <lb facs="#facs_2_line_1768369578825_363" n="N124"/>unter der ausdrücklichen Bezeichnung: „<rs type="bibl">
-                  <hi rendition="#em">Ellen Csardas</hi> von</rs>
-               <lb facs="#facs_2_line_1768369581544_366" n="N125"/>
-               <rs type="bibl">Graf <hi rendition="#em">Stephan Fay</hi>, comp. 1857.</rs>“ Möglicherweise hat
-               <lb facs="#facs_2_line_1768369584200_369" n="N126"/>weder Herr <rs type="person">Rittinger</rs> noch Herr Graf <rs type="person">Fay</rs>, sondern irgend ein des
-               <lb facs="#facs_2_line_1768369586601_372" n="N127"/>Notenschreibens unkundiges Zigeunergenie die hübsche Melodie er¬
-               <lb facs="#facs_2_line_1768369589041_375" n="N128"/>funden, welche uns jene Herren in Noten setzten. Sie haben in die¬
-               <lb facs="#facs_2_line_1768369591352_378" n="N129"/>sem Falle in allereinfachster Weise dasselbe gethan, was jetzt <rs type="person">Brahms</rs>
-               <lb facs="#facs_2_line_1768369594263_381" n="N130"/>mit größerem Talente und reicherem künstlerischen Aufwande zu thun
-               <lb facs="#facs_2_line_1768369596601_384" n="N131"/>sich erlaubt hat. <rs type="person">Ed. H.</rs>
-            </p>
+         <lb facs="#facs_2_region_1706949386242_709_tl_3" n="N003"/>Vor Kurzem machte eine seltsame Notiz die Runde durch
+         <lb facs="#facs_2_region_1706949386242_709_tl_4" n="N004"/>die Blätter.
+            <note type="footnote" n="*)">
+            <lb facs="#facs_2_line_1768369505457_282" n="N097"/>*) Vorstehender Aufsatz wurde mir zur Veröffentlichung in 
+            <lb facs="#facs_2_line_1768369508057_285" n="N098"/>diesem <rs type="bibl" ref="#hsl_work_id_82">Blatt</rs>e von einem Ungar zugesendet, der in seinem Vater
+            <lb facs="#facs_2_line_1768369510440_288" n="N099" break="no"/>lande als tüchtiger Musiker und Musik-Kritiker bekannt ist. Nach
+            <lb facs="#facs_2_line_1768369512545_291" n="N100"/>mancherlei Anfragen zu schließen, scheint eine Rechtfertigung
+            <lb facs="#facs_2_line_1768369514905_294" n="N101"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs>’</hi> gegen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3008">Remenyi</rs>’s</hi> lächerliche Anschuldigungen in den
+            <lb facs="#facs_2_line_1768369517248_297" n="N102"/>Augen manchen Leser doch nicht so ganz überflüssig zu sein, wie ich
+            <lb facs="#facs_2_line_1768369519817_300" n="N103"/>anfang geglaubt. Hierüber cedire ich das Wort sehr gern an den
+            <lb facs="#facs_2_line_1768369523201_303" n="N104"/>Einsender dieses Artikels, da es mir von Wichtigkeit erscheint, daß
+            <lb facs="#facs_2_line_1768369525944_306" n="N105"/>gerade ein <hi rendition="#em">Ungar</hi> das Recht des <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Componisten gegen
+            <lb facs="#facs_2_line_1768369528248_309" n="N106"/>den <rs type="place" ref="#hsl_place_id_53">ungarisch</rs>en vertheidigt. Nur zwei kleine, verstärkende Argumente
+            <lb facs="#facs_2_line_1768369532480_312" n="N107"/>möchte ich noch beizufügen mir erlauben. Von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> besitzen wir
+            <lb facs="#facs_2_line_1768369534992_315" n="N108"/>außer den bekannten „<rs type="bibl" ref="#hsl_work_id_4533">Schottischen Liedern</rs>“ (Op. 108) auch noch
+            <lb facs="#facs_2_line_1768369537512_318" n="N109"/>vierzehn verschiedene Volkslieder; das Heft ist betitelt: „<rs type="bibl" ref="#hsl_work_id_5890">Volkslieder</rs><space quantity="1" unit="char"/>
+            <lb facs="#facs_2_line_1768369540024_321" n="N110"/>für Eine und mehrere Singstimmen, Viola, Violoncell und Piano
+            <lb facs="#facs_2_line_1768369542385_324" n="N111" break="no"/>forte <hi rendition="#em">componirt</hi> von L. v. <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>.“ Darunter sind das <rs type="place" ref="#hsl_place_id_17">eng
+            <lb facs="#facs_2_line_1768369544912_327" n="N112" break="no"/>lisch</rs>e: „<rs type="bibl" ref="#hsl_work_id_1549">God save the King</rs>“, die italienischen „<rs type="bibl" ref="#hsl_work_id_5889">O sanctis
+            <lb facs="#facs_2_line_1768369547641_330" n="N113" break="no"/>sima!</rs>“, „<rs type="bibl" ref="#hsl_work_id_5888">La biondina in gondoletta</rs>“, somit allbekannte
+            <lb facs="#facs_2_line_1768369550280_333" n="N114"/>Melodien, deren „Erfindung“ sich <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> gewiß nicht berühmte,
+            <lb facs="#facs_2_line_1768369552745_336" n="N115"/>deren beliebiges Arrangement er jedoch als ein gutes Recht ange
+            <lb facs="#facs_2_line_1768369556137_339" n="N116" break="no"/>sehen hat. Daß die von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi> bearbeiteten <rs type="place" ref="#hsl_place_id_53">ungarisch</rs>en Tanz
+            <lb facs="#facs_2_line_1768369558944_342" n="N117" break="no"/>melodien in gleichem Sinne zur Nationalmusik gezählt werden dürfen,
+            <lb facs="#facs_2_line_1768369562569_345" n="N118"/>beweisen unter Anderm die schwankenden, widersprechenden Angaben
+            <lb facs="#facs_2_line_1768369565383_348" n="N119"/>der Ungarn selbst über die eigentlichen Erfinder dieser Melodien. So
+            <lb facs="#facs_2_line_1768369567824_351" n="N120"/>wird von <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs> Nr. 6 der <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’schen „<rs type="bibl" ref="#hsl_work_id_1480">Ungarischen Tänze</rs>“ (Des-
+            <lb facs="#facs_2_line_1768369570536_354" n="N121"/>dur) ausdrücklich für eine Composition von A. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_8192">Nittinger</rs></hi> erklärt;
+            <lb facs="#facs_2_line_1768369573072_357" n="N122"/>derselbe Csardas findet sich jedoch in Es-dur in einer mir vorlie
+            <lb facs="#facs_2_line_1768369575768_360" n="N123" break="no"/>genden, vom Grafen Stephan <hi rendition="#em"><rs type="person" ref="#hsl_person_id_8193">Fay</rs></hi> herausgegebenen Sammlung
+            <lb facs="#facs_2_line_1768369578825_363" n="N124"/>unter der ausdrücklichen Bezeichnung: „<hi rendition="#em">Ellen Csardas</hi> von
+            <lb facs="#facs_2_line_1768369581544_366" n="N125"/>Graf <hi rendition="#em">Stephan Fay</hi>, comp. 1857.“ Möglicherweise hat
+            <lb facs="#facs_2_line_1768369584200_369" n="N126"/>weder Herr <rs type="person" ref="#hsl_person_id_8192">Nittinger</rs> noch Herr Graf <rs type="person" ref="#hsl_person_id_8193">Fay</rs>, sondern irgend ein des
+            <lb facs="#facs_2_line_1768369586601_372" n="N127"/>Notenschreibens unkundiges Zigeunergenie die hübsche Melodie er
+            <lb facs="#facs_2_line_1768369589041_375" n="N128" break="no"/>funden, welche uns jene Herren in Noten setzten. Sie haben in die
+            <lb facs="#facs_2_line_1768369591352_378" n="N129" break="no"/>sem Falle in allereinfachster Weise dasselbe gethan, was jetzt <rs type="person" ref="#hsl_person_id_41">Brahms</rs><space quantity="1" unit="char"/>
+            <lb facs="#facs_2_line_1768369594263_381" n="N130"/>mit größerem Talente und reicherem künstlerischen Aufwande zu thun
+            <lb facs="#facs_2_line_1768369596601_384" n="N131"/>sich erlaubt hat. <rs type="person" ref="#hsl_person_id_1">Ed. H.</rs>
+            </note>
+            Es handelt sich um eine Erklärung des Herrn
+         <lb facs="#facs_2_region_1706949386242_709_tl_5" n="N005"/>Eduard <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs>, des bekannten Geigers zweier Hemisphären, der
+         <lb facs="#facs_2_region_1706949386242_709_tl_6" n="N006"/>gegenwärtig in <rs type="place" ref="#hsl_place_id_176">Amerika</rs> jene „Triumphe feiert“, die ihm von
+         <lb facs="#facs_2_region_1706949386242_709_tl_7" n="N007"/>dem undankbaren <rs type="place" ref="#hsl_place_id_19">Europa</rs> seit geraumer Zeit hartnäckig vor
+         <lb facs="#facs_2_region_1706949386242_709_tl_8" n="N008" break="no"/>enthalten werden. Herr Eduard <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs> erklärt in einer Zu
+         <lb facs="#facs_2_region_1706949386242_709_tl_9" n="N009" break="no"/>schrift an den Redacteur der <rs type="bibl" ref="#hsl_work_id_5891">Newyorker Musik-Zeitung</rs>, die unter
+         <lb facs="#facs_2_line_1768369317147_40" n="N010"/>dem Namen Johannes <rs type="person" ref="#hsl_person_id_41">Brahms</rs> herausgegebenen, bei <rs type="person" ref="#hsl_person_id_2460">Simrock</rs> in
+         <lb facs="#facs_2_line_1768369321347_44" n="N011"/><rs type="place" ref="#hsl_place_id_9">Berlin</rs> verlegten „<rs type="bibl" ref="#hsl_work_id_1480">Ungarischen Tänze</rs>“ seien von der ersten bis
+         <lb facs="#facs_2_region_1706949386242_709_tl_14" n="N012"/>zur letzten Nummer Plagiat. Zum Theil seien diese Tänze das
+         <lb facs="#facs_2_region_1706949386242_709_tl_15" n="N013"/>geistige Eigenthum <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs>’s, der dieselben vor mehr als fünf
+         <lb facs="#facs_2_line_1768369327482_49" n="N014" break="no"/>undzwanzig Jahren dem damals gänzlich unbekannten <rs type="person" ref="#hsl_person_id_41">Brahms</rs> —
+         <lb facs="#facs_2_line_1768369331642_53" n="N015"/>„großmüthig und selbstlos, wie <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs> schon ist“ — überlassen
+         <lb facs="#facs_2_region_1706949386242_709_tl_20" n="N016"/>hatte, dieselben „<rs type="bibl" ref="#hsl_work_id_1480">Ungarischen Tänze</rs>“, die nach <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs>’s Be
+         <lb facs="#facs_2_region_1706949386242_709_tl_21" n="N017" break="no"/>hauptung „den Namen <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’ in der musiktreibenden Welt im
+         <lb facs="#facs_2_region_1706949386242_709_tl_22" n="N018"/>eigentlichsten Sinne des Wortes <hi rendition="#em">zuerst</hi> populär gemacht und
+         <lb facs="#facs_2_region_1706949386242_709_tl_23" n="N019"/>ihm und dem Verleger große Summen eingebracht haben . . . .“
+            </p><p>
+         <lb facs="#facs_2_region_1706949386242_709_tl_24" n="N020"/>Das ist deutlich genug gesprochen. Aber bevor wir denn auf
+         <lb facs="#facs_2_region_1706949386242_709_tl_25" n="N021"/>den Inhalt der Anklageschrift eingehen, müssen wir noch ein wenig
+         <lb facs="#facs_2_region_1706949386242_709_tl_26" n="N022"/>bei der interessanten Persönlichkeit des Klägers verweilen. Wie
+         <lb facs="#facs_2_region_1706949386242_709_tl_27" n="N023"/>um alle wahrhaft großen Erscheinungen der Kunst, hat sich auch
+         <lb facs="#facs_2_region_1706949386242_709_tl_28" n="N024"/>um Herrn Eduard <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs>, den <rs type="place" ref="#hsl_place_id_53">ungarisch</rs>en National-Virtuosen
+         <lb facs="#facs_2_region_1706949386242_709_tl_29" n="N025"/>und ehemaligen Adjutanten <rs type="person" ref="#hsl_person_id_4567">Görgey</rs>’s im Freiheitskriege von <date>1848</date>,
+         <lb facs="#facs_2_region_1706949386242_709_tl_30" n="N026"/>ein ganzer Legendenkreis gebildet. Das war vor etwa 20 Jahren,
+         <lb facs="#facs_2_region_1706949386242_709_tl_31" n="N027"/>als <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs> im Lande umherzog, um mit seiner Geige Politik
+         <lb facs="#facs_2_region_1706949386242_709_tl_32" n="N028"/>zu machen. Und damals geschah es, daß <rs type="place" ref="#hsl_place_id_53">Ungarn</rs>s großer Geiger,
+         <lb facs="#facs_2_region_1706949386242_709_tl_33" n="N029"/>als Gast einer altadeligen Familie, nach aufgehobener Tafeln mit
+         <lb facs="#facs_2_region_1706949386242_709_tl_34" n="N030"/>feierlichen Schritten auf die im Saale befindliche Standuhr los
+         <lb facs="#facs_2_region_1706949386242_709_tl_35" n="N031" break="no"/>ging und den Zeiger mit den historischen Worten zum Stillstand
+         <lb facs="#facs_2_line_1768369336954_57" n="N032"/>brachte: „Die Stunde, da Eduard <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs> in diesen Räumen
+         <lb facs="#facs_2_region_1706949386242_709_tl_38" n="N033"/>geweilt, soll zum ewigen Gedächtnisse für die späten Nachkommen
+         <lb facs="#facs_2_region_1706949386242_709_tl_39" n="N034"/>dieser Familie erinnerlich sein.“
+            </p><p>
+         <lb facs="#facs_2_region_1706949386242_709_tl_40" n="N035"/>Aber die alte Familienuhr geht seither trotzdem ihren ge
+         <lb facs="#facs_2_region_1706949386242_709_tl_41" n="N036" break="no"/>wohnten Gang, und still und stiller ward’s nur um den Weltruf
+         <lb facs="#facs_2_region_1706949386242_709_tl_42" n="N037"/>Eduard <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs>’s. Jahre vergingen und <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs> blieb noch
+         <lb facs="#facs_2_region_1706949386242_709_tl_43" n="N038"/>immer das verkannte Genie, unverstanden von seinen Zeitge
+         <lb facs="#facs_2_region_1706949386242_709_tl_44" n="N039" break="no"/>nossen, seinem Zeitalter um Aeonen vorausgeeilt! Im vergan
+         <lb facs="#facs_2_region_1706949386242_709_tl_45" n="N040" break="no"/>genen Sommer habe ich ihn das letztemal in <rs type="place" ref="#hsl_place_id_44">Paris</rs> gesehen in
+         <lb facs="#facs_2_region_1706949386242_709_tl_46" n="N041"/>einer der Matinées internationales, die von Mademoiselle Marie
+         <lb facs="#facs_2_region_1706949386242_709_tl_47" n="N042"/><rs type="person" ref="#hsl_person_id_8196">Dumas</rs> im Trocadero-Saale gegeben wurden. Herr <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs> war
+         <lb facs="#facs_2_region_1706949386242_709_tl_48" n="N043"/>wol als célèbre artiste <rs type="place" ref="#hsl_place_id_53">hongrois</rs> angekündigt, aber sein Spiel
+         <lb facs="#facs_2_region_1706949386242_709_tl_49" n="N044"/>gefiel nicht. Die besten Ideen fallen Einem gewöhnlich zu spät
+         <lb facs="#facs_2_region_1706949386242_709_tl_50" n="N045"/>ein, und so kam es, daß Herr <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs> sich erst nach der Aus
+         <lb facs="#facs_2_line_1768369370747_66" n="N046" break="no"/>stellung entschloß, nach <rs type="place" ref="#hsl_place_id_176">Amerika</rs> zu gehen, was er eigentlich schon
+         <lb facs="#facs_2_region_1706949386242_709_tl_53" n="N047"/>längst hätte thun sollen. Ich fürchte nicht mißverstanden zu wer
+         <lb facs="#facs_2_region_1706949386242_709_tl_54" n="N048" break="no"/>den; in seinem eigenen Interesse hätte er dies längst thun müssen.
+         <lb facs="#facs_2_region_1706949386242_709_tl_55" n="N049"/><rs type="place" ref="#hsl_place_id_176">Amerika</rs> ist das richtige Land für ihn. Dort kann er es noch ebenso
+         <lb facs="#facs_2_line_1768369375538_70" n="N050"/>weit bringen, wie sein großer Vorgänger, der „alte Schwede“ Ole
+         <lb facs="#facs_2_line_1768369380450_74" n="N051"/><rs type="person" ref="#hsl_person_id_3360">Bull</rs>, der irgendwo an einem der Seen große Ländereien erwor
+         <lb facs="#facs_2_region_1706949386242_709_tl_60" n="N052" break="no"/>ben hatte und einen Staat mit Constitution auf demokratischen
+         <lb facs="#facs_2_region_1706949386242_709_tl_61" n="N053"/>Principien, aber mit einem unverantwortlichen Selbstherrscher als
+         <lb facs="#facs_2_region_1706949386242_709_tl_62" n="N054"/>Staatsoberhaupt gründete.
+            </p><p>
+         <lb facs="#facs_2_region_1706949386242_709_tl_63" n="N055"/>Auf der andern Hemisphäre hat also Herr Eduard <rs type="person" ref="#hsl_person_id_3008">Re
+         <lb facs="#facs_2_region_1706949386242_709_tl_64" n="N056" break="no"/>menyi</rs> vor Kurzem in der <rs type="bibl" ref="#hsl_work_id_5891">Newyorker Musik-Zeitung</rs> sen
+         <lb facs="#facs_2_region_1706949386242_709_tl_65" n="N057" break="no"/>sationelle Enthüllungen über „ein in seiner Art unerhörtes“
+         <lb facs="#facs_2_region_1706949386242_709_tl_66" n="N058"/>Plagiat gemacht, welches kein Geringerer als Johannes <rs type="person" ref="#hsl_person_id_41">Brahms</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_line_1768369390226_80" n="N059"/>begangen haben soll. „Die allen Clavierspielern bekannten
+         <lb facs="#facs_2_line_1768369395202_84" n="N060"/>„<rs type="bibl" ref="#hsl_work_id_1480">Ungarischen Tänze</rs>“ von <rs type="person" ref="#hsl_person_id_41">Brahms</rs>,“ behauptet Herr <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_line_1768369399835_88" n="N061"/>wörtlich, „sind gar nicht von <rs type="person" ref="#hsl_person_id_41">Brahms</rs>, auch nicht einmal von
+         <lb facs="#facs_2_line_1768369404426_92" n="N062"/>ihm gesetzt; sie waren schon lange vor ihm veröffentlicht,
+         <lb facs="#facs_2_line_1768369411890_96" n="N063"/>und <rs type="person" ref="#hsl_person_id_41">Brahms</rs> hat sie einfach copirt.“ Als Beweis für diese Be
+         <lb facs="#facs_2_region_1706949386242_709_tl_79" n="N064" break="no"/>hauptung dienen ihm verschiedene <rs type="place" ref="#hsl_place_id_53">ungarisch</rs>e Original-Com
+         <lb facs="#facs_2_region_1706949386242_709_tl_80" n="N065" break="no"/>positionen, die allesammt eine Aehnlichkeit oder Gleichheit mit
+         <lb facs="#facs_2_region_1706949386242_709_tl_81" n="N066"/>den „<rs type="bibl" ref="#hsl_work_id_1480">Ungarischen Tänzen</rs>“ von <rs type="person" ref="#hsl_person_id_41">Brahms</rs> darthun. Die letzteren
+         <lb facs="#facs_2_region_1706949386242_709_tl_82" n="N067"/>sind aber auf dem Titelblatte als „Compositionen von Johannes
+         <lb facs="#facs_2_region_1706949386242_709_tl_83" n="N068"/><rs type="person" ref="#hsl_person_id_41">Brahms</rs>“ bezeichnet, mithin ist <rs type="person" ref="#hsl_person_id_41">Brahms</rs> ein Plagiator. Quod
+         <lb facs="#facs_2_region_1706949386242_709_tl_84" n="N069"/>erat demonstrandum. Herr <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs> benützt diesen Anlaß, um
+         <lb facs="#facs_2_region_1706949386242_709_tl_85" n="N070"/>mit der ihm eigenen Kühnheit zu behaupten, er und kein
+         <lb facs="#facs_2_region_1706949386242_709_tl_86" n="N071"/>Anderer habe Johannes <rs type="person" ref="#hsl_person_id_41">Brahms</rs> in die musikalische Welt ein
+         <lb facs="#facs_2_region_1706949386242_709_tl_87" n="N072" break="no"/>geführt, er habe Robert <rs type="person" ref="#hsl_person_id_282">Schumann</rs> auf das hoffnungsreiche Talent
+         <lb facs="#facs_2_region_1706949386242_709_tl_88" n="N073"/>des achtzehnjährigen Jünglings aufmerksam gemacht etc. etc.
+            </p><p>
+         <lb facs="#facs_2_region_1706949386242_709_tl_89" n="N074"/>Die „<rs type="bibl" ref="#hsl_work_id_1480">Ungarischen Tänze</rs>“ von <rs type="person" ref="#hsl_person_id_41">Brahms</rs> sind einfach Bear
+         <lb facs="#facs_2_region_1706949386242_709_tl_90" n="N075" break="no"/>beitungen <rs type="place" ref="#hsl_place_id_53">ungarisch</rs>er Themen. Das weiß jedes Kind, und wenn
+         <lb facs="#facs_2_region_1706949386242_709_tl_91" n="N076"/>es der Redacteur einer Musikzeitschrift nicht weiß, so ist das
+         <lb facs="#facs_2_region_1706949386242_709_tl_92" n="N077"/>traurig für seine Leser, aber uns kann dies gleichgiltig sein.
+         <lb facs="#facs_2_region_1706949386242_709_tl_93" n="N078"/><rs type="person" ref="#hsl_person_id_41">Brahms</rs> hat niemals die Lächerlichkeit begangen, sich als den
+         <lb facs="#facs_2_region_1706949386242_709_tl_94" n="N079"/>Erfinder dieser Sachen hinzustellen. Das geht schon aus dem
+         <lb facs="#facs_2_region_1706949386242_709_tl_95" n="N080"/>Umstande klar genug hervor, daß auf dem Hefte keine Opuszahl
+         <lb facs="#facs_2_region_1706949386242_709_tl_96" n="N081"/>angegeben ist. Das mir vorliegende Exemplar der „<rs type="bibl" ref="#hsl_work_id_1480">Ungarischen
+         <lb facs="#facs_2_line_1768369418747_100" n="N082"/>Tänze</rs>“ trägt die Aufschrift: „<rs type="bibl" ref="#hsl_work_id_1480">Ungarische Tänze</rs>, für das Piano
+         <lb facs="#facs_2_line_1768369423307_104" n="N083" break="no"/>forte zu vier Händen gesetzt von Joh. <rs type="person" ref="#hsl_person_id_41">Brahms</rs>.“ Das ist nichts
+         <lb facs="#facs_2_region_1706949386242_709_tl_101" n="N084"/>Auffallendes, denn so machen es alle Componisten, alle, von <rs type="person" ref="#hsl_person_id_25">Beetho
+         <lb facs="#facs_2_region_1706949386242_709_tl_102" n="N085" break="no"/>ven</rs> angefangen bis herab zu Herrn Eduard <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs>. Ja wol. Herr
+         <lb facs="#facs_2_region_1706949386242_709_tl_103" n="N086"/><rs type="person" ref="#hsl_person_id_3008">Remenyi</rs> wird sich erinnern, seinerzeit eine „Magyar eredeti
+         <lb facs="#facs_2_line_1768369428962_108" n="N087"/>nóta“ („<rs type="bibl" ref="#hsl_work_id_1480">Ungarische Originalweise</rs>“) geschrieben zu haben, „<rs type="bibl" ref="#hsl_work_id_5893">Repülj
+         <lb facs="#facs_2_region_1706949386242_709_tl_106" n="N088"/>foeském</rs>“ betitelt (die Anfangsworte eines <rs type="place" ref="#hsl_place_id_53">ungarisch</rs>en Volks
+         <lb facs="#facs_2_region_1706949386242_709_tl_107" n="N089" break="no"/>liedes), aber er hat es nicht für nothwendig gehalten, die Her
+         <lb facs="#facs_2_region_1706949386242_709_tl_108" n="N090" break="no"/>kunft dieses <rs type="place" ref="#hsl_place_id_53">ungarisch</rs>en Volksliedes auf dem Titelblatte anzu
+         <lb facs="#facs_2_region_1706949386242_709_tl_109" n="N091" break="no"/>geben. Und nun — quis tulerit Gracchos de seditione quaeren
+         <lb facs="#facs_2_region_1706949386242_709_tl_110" n="N092" break="no"/>tes! Was hat denn Herr <rs type="person" ref="#hsl_person_id_3008">Remenyi</rs> während seines ganzen
+         <lb facs="#facs_2_region_1706949386242_709_tl_111" n="N093"/>Lebens Anderes gethan, als fremdes Gut verwaltet, Fremdes in
+         <lb facs="#facs_2_region_1706949386242_709_tl_112" n="N094"/>seinen eigenen „Compositionen“, leider auch Fremdes, wenn er es
+         <lb facs="#facs_2_region_1706949386242_709_tl_113" n="N095"/>unternahm, irgend etwas „Ordentliches“ von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, <rs type="person" ref="#hsl_person_id_279">Schu
+         <lb facs="#facs_2_line_1768369502043_279" n="N096" break="no"/>bert</rs> etc. zu spielen?</p>
          </div>
       </body>
    </text>
