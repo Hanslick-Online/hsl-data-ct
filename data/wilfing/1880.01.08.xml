@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 5518. Wien, Donnerstag, den 8. Januar 1880</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,24 +70,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 5518. Wien, Donnerstag, den 8. Januar 1880</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1880-01-08">08.01.1880</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-03-10">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-03-18">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-03-22">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -974,363 +971,289 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+         <lb facs="#facs_1_region_1767946555878_1495_tl_1" n="N001"/><head type="h1"><hi rendition="#em">Hofoperntheater</hi>.</head>
+         <lb facs="#facs_1_region_1767946555878_1495_tl_2" n="N002"/><head type="h2">(„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_5965">Paul und Virginie</rs></hi>“, Oper in drei Acten von V. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_907">Massé</rs></hi>. Erste Aufführung
+         <lb facs="#facs_1_line_1771572283044_331" n="N003"/>am 5. Januar <date>1880</date>.)</head>
             <p>
-               <lb facs="#facs_1_line_1771571555394_25" n="N001"/>Nr. 5518. Wien, Donnerstag, den 8. Januar 1880
-            </p>
+         <lb facs="#facs_1_region_1767946555878_1495_tl_3" n="N004"/>Ed. H. Der Componist von „<rs type="bibl" ref="#hsl_work_id_5965">Paul und Virginie</rs>“,
+         <lb facs="#facs_1_region_1767946555878_1495_tl_4" n="N005"/>Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_907">Massé</rs></hi>, ist in <rs type="place" ref="#hsl_place_id_55">Wien</rs> durch zwei Opern bekannt, oder
+         <lb facs="#facs_1_region_1767946555878_1495_tl_5" n="N006"/>richtiger — vergessen: „<rs type="bibl" ref="#hsl_work_id_5967">Die verschleierte Sängerin</rs>“ und
+         <lb facs="#facs_1_region_1767946555878_1495_tl_6" n="N007"/>„<rs type="bibl" ref="#hsl_work_id_143">Königin Topas</rs>“. „<rs type="bibl" ref="#hsl_work_id_5967">La chanteuse voilée</rs>“ erschien zwei- bis
+         <lb facs="#facs_1_region_1767946555878_1495_tl_7" n="N008"/>dreimal in unserer Komischen Oper, um für immer wieder
+         <lb facs="#facs_1_region_1767946555878_1495_tl_8" n="N009"/>zu verschwinden. Und doch gehört dieses liebenswürdige Sing
+         <lb facs="#facs_1_region_1767946555878_1495_tl_9" n="N010" break="no"/>spiel nicht blos zu dem Besten, was <hi rendition="#em"><rs type="person" ref="#hsl_person_id_907">Massé</rs></hi> geleistet, es ist
+         <lb facs="#facs_1_region_1767946555878_1495_tl_10" n="N011"/>mit einer zweiten Operette: „<rs type="bibl" ref="#hsl_work_id_5968">Les noces de Jeannette</rs>“ zugleich
+         <lb facs="#facs_1_region_1767946555878_1495_tl_11" n="N012"/>Basis und Höhenpunkt seiner Erfolge. <rs type="person" ref="#hsl_person_id_907">Massé</rs>’s freundliches,
+         <lb facs="#facs_1_region_1767946555878_1495_tl_12" n="N013"/>doch weder reich noch kräftig angelegtes Talent entfaltete sich
+         <lb facs="#facs_1_region_1767946555878_1495_tl_13" n="N014"/>am günstigsten in solch winzigen dramatischen Gärtchen.
+         <lb facs="#facs_1_region_1767946555878_1495_tl_14" n="N015"/>Natürlich beeilte sich <rs type="person" ref="#hsl_person_id_907">Massé</rs>, dieselben zu stattlichen Parks zu
+         <lb facs="#facs_1_region_1767946555878_1495_tl_15" n="N016"/>erweitern, und schrieb fortan drei- bis vieractige Opern. Eine
+         <lb facs="#facs_1_region_1767946555878_1495_tl_16" n="N017"/>davon ist „<rs type="bibl" ref="#hsl_work_id_143">La reine Topaze</rs>“, welche im Jahre <date>1858</date> im
+         <lb facs="#facs_1_region_1767946555878_1495_tl_17" n="N018"/>Kärntnerthor-Theater mit schwachem Erfolg gegeben wurde.
+         <lb facs="#facs_1_region_1767946555878_1495_tl_18" n="N019"/>Es ist das schon lange her, aber ich glaube noch immer die
+         <lb facs="#facs_1_region_1767946555878_1495_tl_19" n="N020"/>gelangweilten Gesichter um mich her zu sehen, die einander
+         <lb facs="#facs_1_region_1767946555878_1495_tl_20" n="N021"/>um Auskunft angähnten, ob diese Musik in <rs type="place" ref="#hsl_place_id_44">Paris</rs> wirklich
+         <lb facs="#facs_1_region_1767946555878_1495_tl_21" n="N022"/>so sehr gefallen konnte? Und über die Maßen hatte sie dort
+         <lb facs="#facs_1_region_1767946555878_1495_tl_22" n="N023"/>gefallen — größtentheils durch die Anmuth und Virtuosität
+         <lb facs="#facs_1_region_1767946555878_1495_tl_23" n="N024"/>der Madame <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3974">Miolan</rs></hi>, die damals in ihrer Blüthezeit die
+         <lb facs="#facs_1_region_1767946555878_1495_tl_24" n="N025"/>effectvolle Rolle der <rs type="person" ref="#hsl_person_id_8275">Zigeunerkönigin</rs> schuf. In <rs type="place" ref="#hsl_place_id_55">Wien</rs> verblaßte
+         <lb facs="#facs_1_region_1767946555878_1495_tl_25" n="N026"/>und verendete diese Effectrolle unter den Händen von Fräu
+         <lb facs="#facs_1_region_1767946555878_1495_tl_26" n="N027" break="no"/>lein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6">Liebhardt</rs></hi>, welche — es steckt mir noch in allen
+         <lb facs="#facs_1_region_1767946555878_1495_tl_27" n="N028"/>Gliedern — im dritten Acte unzählige Variationen über den
+         <lb facs="#facs_1_region_1767946555878_1495_tl_28" n="N029"/>allgemein gefürchteten „<rs type="bibl" ref="#hsl_work_id_5232">Carneval von Venedig</rs>“ absang. Eine
+         <lb facs="#facs_1_region_1767946555878_1495_tl_29" n="N030"/>andere Oper von <rs type="person" ref="#hsl_person_id_907">Massé</rs>, die in der <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Opéra Comique große
+         <lb facs="#facs_1_region_1767946555878_1495_tl_30" n="N031"/>und anhaltende Beliebtheit genoß, war „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_4223">Galatée</rs></hi>“; die
+         <lb facs="#facs_1_region_1767946555878_1495_tl_31" n="N032"/>Musik ist bei aller Zierlichkeit unbedeutend, aber das Libretto
+         <lb facs="#facs_1_region_1767946555878_1495_tl_32" n="N033"/>fußt auf einem äußerst drolligen Gedanken. Die schöne
+         <lb facs="#facs_1_region_1767946555878_1495_tl_33" n="N034"/><rs type="person" ref="#hsl_person_id_8278">Marmorstatue</rs> belebt sich wirklich auf das brünstige Gebet
+         <lb facs="#facs_1_region_1767946555878_1495_tl_34" n="N035"/>des Bildhauers <rs type="person" ref="#hsl_person_id_8279">Phidias</rs>, entpuppt sich aber als ein so an
+         <lb facs="#facs_1_region_1767946555878_1495_tl_35" n="N036" break="no"/>spruchsvolles, unausstehliches Weib, daß der geplagte Künst
+         <lb facs="#facs_1_region_1767946555878_1495_tl_36" n="N037" break="no"/>ler bald keinen heißeren Wunsch hegt, als die Zurückver
+         <lb facs="#facs_1_region_1767946555878_1495_tl_37" n="N038" break="no"/>wandlung dieses lebendigen Teufels in den früheren sanften
+         <lb facs="#facs_1_region_1767946555878_1495_tl_38" n="N039"/>Marmor. Es ist das ein geistreiches Seitenstück zu <rs type="person" ref="#hsl_person_id_202">Offen
+         <lb facs="#facs_1_line_1771571569047_30" n="N040" break="no"/>bach</rs>’s <rs type="person" ref="#hsl_person_id_8276">Orpheus</rs>, der, im Herzen froh, sein böses Weib los zu
+         <lb facs="#facs_1_line_1771571573345_34" n="N041"/>sein, doch durch die „öffentliche Meinung“ gezwungen wird,
+         <lb facs="#facs_1_region_1767946555878_1495_tl_43" n="N042"/><rs type="person" ref="#hsl_person_id_8277">Eurydice</rs> selber aus dem Todtenreiche zurückzuholen. In der</p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1767946555878_1495_tl_1" n="N001"/>
-               <hi rendition="#em">Hofoperntheater</hi>.
-               <lb facs="#facs_1_region_1767946555878_1495_tl_2" n="N002"/>(„<hi rendition="#em">
-                  <rs type="bibl">Paul und Virginie</rs>
-               </hi>“, Oper in drei Acten von V. <hi rendition="#em">
-                  <rs type="person">Massé</rs>
-               </hi>. Erste Aufführung
-               <lb facs="#facs_1_line_1771572283044_331" n="N003"/>am 5. Januar <date month="0" day="0" year="0">1880</date>.)
-               <lb facs="#facs_1_region_1767946555878_1495_tl_3" n="N004"/>Ed. H. Der Componist von „<rs type="bibl">Paul und Virginie</rs>“,
-               <lb facs="#facs_1_region_1767946555878_1495_tl_4" n="N005"/>Herr <hi rendition="#em">
-                  <rs type="person">Massé</rs>
-               </hi>, ist in <rs type="place">Wien</rs> durch zwei Opern bekannt, oder
-               <lb facs="#facs_1_region_1767946555878_1495_tl_5" n="N006"/>richtiger — vergessen: „<rs type="bibl">Die verschleierte Sängerin</rs>“ und
-               <lb facs="#facs_1_region_1767946555878_1495_tl_6" n="N007"/>„<rs type="bibl">Königin Topas</rs>“. „<rs type="bibl">La chanteuse voilée</rs>“ erschien zwei- bis
-               <lb facs="#facs_1_region_1767946555878_1495_tl_7" n="N008"/>dreimal in unserer Komischen Oper, um für immer wieder
-               <lb facs="#facs_1_region_1767946555878_1495_tl_8" n="N009"/>zu verschwinden. Und doch gehört dieses liebenswürdige Sing¬
-               <lb facs="#facs_1_region_1767946555878_1495_tl_9" n="N010"/>spiel nicht blos zu dem Besten, was <hi rendition="#em">
-                  <rs type="person">Massé</rs>
-               </hi> geleistet, es ist
-               <lb facs="#facs_1_region_1767946555878_1495_tl_10" n="N011"/>mit einer zweiten Operette: „<rs type="bibl">Les noces de Jeannette</rs>“ zugleich
-               <lb facs="#facs_1_region_1767946555878_1495_tl_11" n="N012"/>Basis und Höhenpunkt seiner Erfolge. <rs type="person">Massé</rs>'s freundliches,
-               <lb facs="#facs_1_region_1767946555878_1495_tl_12" n="N013"/>doch weder reich noch kräftig angelegtes Talent entfaltete sich
-               <lb facs="#facs_1_region_1767946555878_1495_tl_13" n="N014"/>am günstigsten in solch winzigen dramatischen Gärtchen.
-               <lb facs="#facs_1_region_1767946555878_1495_tl_14" n="N015"/>Natürlich beeilte sich <rs type="person">Massé</rs>, dieselben zu stattlichen Parks zu
-               <lb facs="#facs_1_region_1767946555878_1495_tl_15" n="N016"/>erweitern, und schrieb fortan drei- bis vieractige Opern. Eine
-               <lb facs="#facs_1_region_1767946555878_1495_tl_16" n="N017"/>davon ist „<rs type="bibl">La reine Topaze</rs>“, welche im Jahre <date month="0" day="0" year="0">1858</date> im
-               <lb facs="#facs_1_region_1767946555878_1495_tl_17" n="N018"/>Kärntnerthor-Theater mit schwachem Erfolg gegeben wurde.
-               <lb facs="#facs_1_region_1767946555878_1495_tl_18" n="N019"/>Es ist das schon lange her, aber ich glaube noch immer die
-               <lb facs="#facs_1_region_1767946555878_1495_tl_19" n="N020"/>gelangweilten Gesichter um mich her zu sehen, die einander
-               <lb facs="#facs_1_region_1767946555878_1495_tl_20" n="N021"/>um Auskunft angähnten, ob diese Musik in <rs type="place">Paris</rs> wirklich
-               <lb facs="#facs_1_region_1767946555878_1495_tl_21" n="N022"/>so sehr gefallen konnte? Und über die Maßen hatte sie dort
-               <lb facs="#facs_1_region_1767946555878_1495_tl_22" n="N023"/>gefallen — größtentheils durch die Anmuth und Virtuosität
-               <lb facs="#facs_1_region_1767946555878_1495_tl_23" n="N024"/>der Madame <hi rendition="#em">
-                  <rs type="person">Miolan</rs>
-               </hi>, die damals in ihrer Blüthezeit die
-               <lb facs="#facs_1_region_1767946555878_1495_tl_24" n="N025"/>effectvolle Rolle der <rs type="person">Zigeunerkönigin</rs> schuf. In <rs type="place">Wien</rs> verblaßte
-               <lb facs="#facs_1_region_1767946555878_1495_tl_25" n="N026"/>und verendete diese Effectrolle unter den Händen von Fräu¬
-               <lb facs="#facs_1_region_1767946555878_1495_tl_26" n="N027"/>lein <hi rendition="#em">
-                  <rs type="person">Liebhardt</rs>
-               </hi>, welche — es steckt mir noch in allen
-               <lb facs="#facs_1_region_1767946555878_1495_tl_27" n="N028"/>Gliedern — im dritten Acte unzählige Variationen über den
-               <lb facs="#facs_1_region_1767946555878_1495_tl_28" n="N029"/>allgemein gefürchteten „<rs type="bibl">Carneval von Venedig</rs>“ absang. Eine
-               <lb facs="#facs_1_region_1767946555878_1495_tl_29" n="N030"/>andere Oper von <rs type="person">Massé</rs>, die in der <rs type="place">Paris</rs>er Opéra Comique große
-               <lb facs="#facs_1_region_1767946555878_1495_tl_30" n="N031"/>und anhaltende Beliebtheit genoß, war „<hi rendition="#em">
-                  <rs type="bibl">Galatée</rs>
-               </hi>“; die
-               <lb facs="#facs_1_region_1767946555878_1495_tl_31" n="N032"/>Musik ist bei aller Zierlichkeit unbedeutend, aber das Libretto
-               <lb facs="#facs_1_region_1767946555878_1495_tl_32" n="N033"/>fußt auf einem äußerst drolligen Gedanken. Die schöne
-               <lb facs="#facs_1_region_1767946555878_1495_tl_33" n="N034"/>
-               <rs type="person">Marmorstatue</rs> belebt sich wirklich auf das brünstige Gebet
-               <lb facs="#facs_1_region_1767946555878_1495_tl_34" n="N035"/>des Bildhauers <rs type="person">Phidias</rs>, entpuppt sich aber als ein so an¬
-               <lb facs="#facs_1_region_1767946555878_1495_tl_35" n="N036"/>spruchsvolles, unausstehliches Weib, daß der geplagte Künst¬
-               <lb facs="#facs_1_region_1767946555878_1495_tl_36" n="N037"/>ler bald keinen heißeren Wunsch hegt, als die Zurückver¬
-               <lb facs="#facs_1_region_1767946555878_1495_tl_37" n="N038"/>wandlung dieses lebendigen Teufels in den früheren sanften
-               <lb facs="#facs_1_region_1767946555878_1495_tl_38" n="N039"/>Marmor. Es ist das ein geistreiches Seitenstück zu <rs type="person" continued="true">Offen¬</rs>
-               <lb facs="#facs_1_line_1771571569047_30" n="N040"/>
-               <rs type="person" continued="true">bach</rs>'s <rs type="person">Orpheus</rs>, der, im Herzen froh, sein böses Weib los zu
-               <lb facs="#facs_1_line_1771571573345_34" n="N041"/>sein, doch durch die „öffentliche Meinung“ gezwungen wird,
-               <lb facs="#facs_1_region_1767946555878_1495_tl_43" n="N042"/>
-               <rs type="person">Eurydice</rs> selber aus dem Todtenreiche zurückzuholen. In der¬
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1767946559983_1498_tl_1" n="N001" break="no"/>gleichen travestirenden Einfällen sind die Franzosen von un
+         <lb facs="#facs_1_region_1767946559983_1498_tl_2" n="N002" break="no"/>erschöpflichem Witz. <rs type="person" ref="#hsl_person_id_907">Massé</rs>’s Oper „<rs type="bibl" ref="#hsl_work_id_4223">Galatée</rs>“ wurde seinerzeit
+         <lb facs="#facs_1_region_1767946559983_1498_tl_3" n="N003"/>in <rs type="place" ref="#hsl_place_id_55">Wien</rs> mit der hier üblichen großartigen Ungenirtheit „nach
+         <lb facs="#facs_1_region_1767946559983_1498_tl_4" n="N004" break="no"/>gebildet“ und hat mit den derberen melodischen Reizen
+         <lb facs="#facs_1_region_1767946559983_1498_tl_5" n="N005"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_905">Suppé</rs>’s</hi> Zutritt auf sämmtlichen Vaudeville-Theatern
+         <lb facs="#facs_1_region_1767946559983_1498_tl_6" n="N006"/><rs type="place" ref="#hsl_place_id_14">Deutschland</rs>s gefunden. Daß solche dramatische Annexionen
+         <lb facs="#facs_1_region_1767946559983_1498_tl_7" n="N007"/>auch ihre schlimmen Rechtsfolgen haben können, erfahren die
+         <lb facs="#facs_1_region_1767946559983_1498_tl_8" n="N008"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Componisten erst in neuester Zeit, seit sie ihre aus
+         <lb facs="#facs_1_region_1767946559983_1498_tl_9" n="N009"/>solcher „Nachbildung“ gewonnenen Operetten nach <rs type="place" ref="#hsl_place_id_44">Paris</rs> zur
+         <lb facs="#facs_1_region_1767946559983_1498_tl_10" n="N010"/>Aufführung bringen. Da werden denn die „<rs type="bibl" ref="#hsl_work_id_1046">Fledermaus</rs>“,
+         <lb facs="#facs_1_region_1767946559983_1498_tl_11" n="N011"/>„<rs type="bibl" ref="#hsl_work_id_4225">Fatinitza</rs>“, „<rs type="bibl" ref="#hsl_work_id_5969">Der Carneval in Rom</rs>“ etc. nach ihrer Herkunft
+         <lb facs="#facs_1_region_1767946559983_1498_tl_12" n="N012"/>gefragt und wegen Falschmeldung oder verbotener Rückkehr
+         <lb facs="#facs_1_region_1767946559983_1498_tl_13" n="N013"/>mit Geldstrafen belegt.
+            </p><p>
+         <lb facs="#facs_1_region_1767946559983_1498_tl_14" n="N014"/>Victor <rs type="person" ref="#hsl_person_id_907">Massé</rs>, heute ein angehender Sechziger, hat nach
+         <lb facs="#facs_1_region_1767946559983_1498_tl_15" n="N015"/>längerem Schweigen im Mai <date>1876</date> den Parisern eine neue
+         <lb facs="#facs_1_region_1767946559983_1498_tl_16" n="N016"/>Oper: „<rs type="bibl" ref="#hsl_work_id_5965">Paul et Virginie</rs>“, vorgeführt. Es hätte uns gewun
+         <lb facs="#facs_1_region_1767946559983_1498_tl_17" n="N017" break="no"/>dert, wenn dieses classische Liebespärchen der Firma „<rs type="person" ref="#hsl_person_id_90">Barbier</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767946559983_1498_tl_18" n="N018"/>et <rs type="person" ref="#hsl_person_id_84">Carré</rs>“ entgangen wäre, welche wie der brüllende Löwe in
+         <lb facs="#facs_1_region_1767946559983_1498_tl_19" n="N019"/>der <rs type="bibl" ref="#hsl_work_id_820">Bibel</rs> in dem Dichterhain <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>s, <rs type="place" ref="#hsl_place_id_17">England</rs>s,
+         <lb facs="#facs_1_region_1767946559983_1498_tl_20" n="N020"/><rs type="place" ref="#hsl_place_id_21">Frankreich</rs>s umherspäht, was es da für ihren Opernhunger
+         <lb facs="#facs_1_region_1767946559983_1498_tl_21" n="N021"/>noch etwa zu verschlingen gibt. Bei dem Weltruhm der Er
+         <lb facs="#facs_1_region_1767946559983_1498_tl_22" n="N022" break="no"/>zählung Bernardin’s de <rs type="person" ref="#hsl_person_id_8273">St. Pierre</rs>, bei der schönen Pietät
+         <lb facs="#facs_1_region_1767946559983_1498_tl_23" n="N023"/>der Franzosen für ihre poetischen Größen schien das Unter
+         <lb facs="#facs_1_region_1767946559983_1498_tl_24" n="N024" break="no"/>nehmen, „<rs type="bibl" ref="#hsl_work_id_5966">Paul et Virginie</rs>“ musikalisch zu verherrlichen,
+         <lb facs="#facs_1_region_1767946559983_1498_tl_25" n="N025"/>keineswegs gewagt. In <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> war es obendrein nicht
+         <lb facs="#facs_1_region_1767946559983_1498_tl_26" n="N026"/>ohne Vorgang. <hi rendition="#em">Rodolphe <rs type="person" ref="#hsl_person_id_3221">Kreuzer</rs></hi> (in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> fast
+         <lb facs="#facs_1_region_1767946559983_1498_tl_27" n="N027"/>nur bekannt durch die Dedication von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s „<rs type="bibl" ref="#hsl_work_id_867">Kreuzer-
+         <lb facs="#facs_1_region_1767946559983_1498_tl_28" n="N028"/>Sonate</rs>“) hatte schon <date>1791</date> eine Oper „<rs type="bibl" ref="#hsl_work_id_6002">Paul et Virginie</rs>“
+         <lb facs="#facs_1_region_1767946559983_1498_tl_29" n="N029"/>geschrieben; drei Jahre später componirte <hi rendition="#em"><rs type="person" ref="#hsl_person_id_160">Lesueur</rs></hi> den
+         <lb facs="#facs_1_region_1767946559983_1498_tl_30" n="N030"/>gleichen Stoff. Beiden Opern lagen aber sehr willkürliche
+         <lb facs="#facs_1_region_1767946559983_1498_tl_31" n="N031"/>Bearbeitungen der berühmten <rs type="bibl" ref="#hsl_work_id_5966">Erzählung</rs> zu Grunde; beide
+         <lb facs="#facs_1_region_1767946559983_1498_tl_32" n="N032"/>gaben ihr einen glücklichen Ausgang und vereinigten <rs type="person" ref="#hsl_person_id_8313">Virginie</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767946559983_1498_tl_33" n="N033"/>noch in diesem Leben mit <rs type="person" ref="#hsl_person_id_8314">Paul</rs>. Es ist keine ganz unrichtige
+         <lb facs="#facs_1_region_1767946559983_1498_tl_34" n="N034"/>Empfindung, welche die älteren Librettisten in diesem
+         <lb facs="#facs_1_region_1767946559983_1498_tl_35" n="N035"/>Punkte leitete; der Tod <rs type="person" ref="#hsl_person_id_8313">Virginie</rs>’s wirkt im Drama
+         <lb facs="#facs_1_region_1767946559983_1498_tl_36" n="N036"/>wie eine unmotivirte Grausamkeit. Die beiden Lieben
+         <lb facs="#facs_1_region_1767946559983_1498_tl_37" n="N037" break="no"/>den, halb Kinder noch, gewinnen unsere Sympathie
+         <lb facs="#facs_1_region_1767946559983_1498_tl_38" n="N038"/>durch ihre unschuldige Neigung; sie treten nicht handelnd auf,
+         <lb facs="#facs_1_region_1767946559983_1498_tl_39" n="N039"/>kein Fehltritt, kein innerer noch äußerer Feind arbeitet an
+         <lb facs="#facs_1_region_1767946559983_1498_tl_40" n="N040"/>ihrem Untergange; im Momente lang ersehnten Wiedersehens
+         <lb facs="#facs_1_region_1767946559983_1498_tl_41" n="N041"/>bricht dieser mit der ganzen Brutalität des blinden Zufalls
+         <lb facs="#facs_1_region_1767946559983_1498_tl_42" n="N042"/>herein und wirkt nicht sowol tragisch als gräßlich. In früherer
+         <lb facs="#facs_1_region_1767946559983_1498_tl_43" n="N043"/>Zeit nahm man in der Oper keinen Anstand, solchen Schluß
+         <lb facs="#facs_1_region_1767946559983_1498_tl_44" n="N044"/>zu ändern; leben und leben lassen hieß der Wahlspruch der
+         <lb facs="#facs_1_region_1767946559983_1498_tl_45" n="N045"/>älteren Opernpraxis. Die Pietät gegen eine ausgezeichnete<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1767946559983_1498_tl_1" n="N001"/>gleichen travestirenden Einfällen sind die Franzosen von un¬
-               <lb facs="#facs_1_region_1767946559983_1498_tl_2" n="N002"/>erschöpflichem Witz. <rs type="person">Massé</rs>'s Oper „<rs type="bibl">Galatée</rs>“ wurde seinerzeit
-               <lb facs="#facs_1_region_1767946559983_1498_tl_3" n="N003"/>in <rs type="place">Wien</rs> mit der hier üblichen großartigen Ungenirtheit „nach¬
-               <lb facs="#facs_1_region_1767946559983_1498_tl_4" n="N004"/>gebildet“ und hat mit den derberen melodischen Reizen
-               <lb facs="#facs_1_region_1767946559983_1498_tl_5" n="N005"/>
-               <hi rendition="#em">
-                  <rs type="person">Suppé</rs>'s</hi> Zutritt auf sämmtlichen Vaudeville-Theatern
-               <lb facs="#facs_1_region_1767946559983_1498_tl_6" n="N006"/>
-               <rs type="place">Deutschland</rs>s gefunden. Daß solche dramatische Annexionen
-               <lb facs="#facs_1_region_1767946559983_1498_tl_7" n="N007"/>auch ihre schlimmen Rechtsfolgen haben können, erfahren die
-               <lb facs="#facs_1_region_1767946559983_1498_tl_8" n="N008"/>
-               <rs type="place">Wien</rs>er Componisten erst in neuester Zeit, seit sie ihre aus
-               <lb facs="#facs_1_region_1767946559983_1498_tl_9" n="N009"/>solcher „Nachbildung“ gewonnenen Operetten nach <rs type="place">Paris</rs> zur
-               <lb facs="#facs_1_region_1767946559983_1498_tl_10" n="N010"/>Aufführung bringen. Da werden denn die „<rs type="bibl">Fledermaus</rs>“,
-               <lb facs="#facs_1_region_1767946559983_1498_tl_11" n="N011"/>„<rs type="bibl">Fatinitza</rs>“, „<rs type="bibl">Der Carneval in Rom</rs>“ etc. nach ihrer Herkunft
-               <lb facs="#facs_1_region_1767946559983_1498_tl_12" n="N012"/>gefragt und wegen Falschmeldung oder verbotener Rückkehr
-               <lb facs="#facs_1_region_1767946559983_1498_tl_13" n="N013"/>mit Geldstrafen belegt.
-               <lb facs="#facs_1_region_1767946559983_1498_tl_14" n="N014"/>Victor <rs type="person">Massé</rs>, heute ein angehender Sechziger, hat nach
-               <lb facs="#facs_1_region_1767946559983_1498_tl_15" n="N015"/>längerem Schweigen im Mai <date month="0" day="0" year="0">1876</date> den Parisern eine neue
-               <lb facs="#facs_1_region_1767946559983_1498_tl_16" n="N016"/>Oper: „<rs type="bibl">Paul et Virginie</rs>“, vorgeführt. Es hätte uns gewun¬
-               <lb facs="#facs_1_region_1767946559983_1498_tl_17" n="N017"/>dert, wenn dieses classische Liebespärchen der Firma „<rs type="person">Barbier</rs>
-               <lb facs="#facs_1_region_1767946559983_1498_tl_18" n="N018"/>et <rs type="person">Carré</rs>“ entgangen wäre, welche wie der brüllende Löwe in
-               <lb facs="#facs_1_region_1767946559983_1498_tl_19" n="N019"/>der <rs type="bibl">Bibel</rs> in dem Dichterhain <rs type="place">Deutschland</rs>s, <rs type="place">England</rs>s,
-               <lb facs="#facs_1_region_1767946559983_1498_tl_20" n="N020"/>
-               <rs type="place">Frankreich</rs>s umherspäht, was es da für ihren Opernhunger
-               <lb facs="#facs_1_region_1767946559983_1498_tl_21" n="N021"/>noch etwa zu verschlingen gibt. Bei dem Weltruhm der Er¬
-               <lb facs="#facs_1_region_1767946559983_1498_tl_22" n="N022"/>zählung Bernardin's de <rs type="person">St. Pierre</rs>, bei der schönen Pietät
-               <lb facs="#facs_1_region_1767946559983_1498_tl_23" n="N023"/>der Franzosen für ihre poetischen Größen schien das Unter¬
-               <lb facs="#facs_1_region_1767946559983_1498_tl_24" n="N024"/>nehmen, „<rs type="bibl">Paul et Virginie</rs>“ musikalisch zu verherrlichen,
-               <lb facs="#facs_1_region_1767946559983_1498_tl_25" n="N025"/>keineswegs gewagt. In <rs type="place">Frankreich</rs> war es obendrein nicht
-               <lb facs="#facs_1_region_1767946559983_1498_tl_26" n="N026"/>ohne Vorgang. <hi rendition="#em">Rodolphe <rs type="person">Kreuzer</rs>
-               </hi> (in <rs type="place">Deutschland</rs> fast
-               <lb facs="#facs_1_region_1767946559983_1498_tl_27" n="N027"/>nur bekannt durch die Dedication von <rs type="person">Beethoven</rs>'s „<rs type="bibl">Kreuzer-</rs>
-               <lb facs="#facs_1_region_1767946559983_1498_tl_28" n="N028"/>
-               <rs type="bibl">Sonate</rs>“) hatte schon <date month="0" day="0" year="0">1791</date> eine Oper „<rs type="bibl">Paul et Virginie</rs>“
-               <lb facs="#facs_1_region_1767946559983_1498_tl_29" n="N029"/>geschrieben; drei Jahre später componirte <hi rendition="#em">
-                  <rs type="person">Lesueur</rs>
-               </hi> den
-               <lb facs="#facs_1_region_1767946559983_1498_tl_30" n="N030"/>gleichen Stoff. Beiden Opern lagen aber sehr willkürliche
-               <lb facs="#facs_1_region_1767946559983_1498_tl_31" n="N031"/>Bearbeitungen der berühmten Erzählung zu Grunde; beide
-               <lb facs="#facs_1_region_1767946559983_1498_tl_32" n="N032"/>gaben ihr einen glücklichen Ausgang und vereinigten <rs type="person">Virginie</rs>
-               <lb facs="#facs_1_region_1767946559983_1498_tl_33" n="N033"/>noch in diesem Leben mit <rs type="person">Paul</rs>. Es ist keine ganz unrichtige
-               <lb facs="#facs_1_region_1767946559983_1498_tl_34" n="N034"/>Empfindung, welche die älteren Librettisten in diesem
-               <lb facs="#facs_1_region_1767946559983_1498_tl_35" n="N035"/>Punkte leitete; der Tod <rs type="person">Virginie</rs>'s wirkt im Drama
-               <lb facs="#facs_1_region_1767946559983_1498_tl_36" n="N036"/>wie eine unmotivirte Grausamkeit. Die beiden Lieben¬
-               <lb facs="#facs_1_region_1767946559983_1498_tl_37" n="N037"/>den, halb Kinder noch, gewinnen unsere Sympathie
-               <lb facs="#facs_1_region_1767946559983_1498_tl_38" n="N038"/>durch ihre unschuldige Neigung; sie treten nicht handelnd auf,
-               <lb facs="#facs_1_region_1767946559983_1498_tl_39" n="N039"/>kein Fehltritt, kein innerer noch äußerer Feind arbeitet an
-               <lb facs="#facs_1_region_1767946559983_1498_tl_40" n="N040"/>ihrem Untergange; im Momente lang ersehnten Wiedersehens
-               <lb facs="#facs_1_region_1767946559983_1498_tl_41" n="N041"/>bricht dieser mit der ganzen Brutalität des blinden Zufalls
-               <lb facs="#facs_1_region_1767946559983_1498_tl_42" n="N042"/>herein und wirkt nicht sowol tragisch als gräßlich. In früherer
-               <lb facs="#facs_1_region_1767946559983_1498_tl_43" n="N043"/>Zeit nahm man in der Oper keinen Anstand, solchen Schluß
-               <lb facs="#facs_1_region_1767946559983_1498_tl_44" n="N044"/>zu ändern; leben und leben lassen hieß der Wahlspruch der
-               <lb facs="#facs_1_region_1767946559983_1498_tl_45" n="N045"/>älteren Opernpraxis. Die Pietät gegen eine ausgezeichnete
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1767946562974_1501_tl_1" n="N001"/>Dichtung ist erst eine Errungenschaft unserer Zeit; man
-               <lb facs="#facs_1_region_1767946562974_1501_tl_2" n="N002"/>braucht nur beispielsweise die Behandlung von <rs type="person">Goethe</rs>'s
-               <lb facs="#facs_1_region_1767946562974_1501_tl_3" n="N003"/>„<rs type="bibl">Faust</rs>“ in der <rs type="person">Spohr</rs>'schen, dann in der <rs type="person">Gounod</rs>'schen Oper
-               <lb facs="#facs_1_region_1767946562974_1501_tl_4" n="N004"/>zu vergleichen, oder den <rs type="person">Shakspeare</rs>'schen „<rs type="bibl">Romeo</rs>“ in <rs type="person">Gounod</rs>'s
-               <lb facs="#facs_1_region_1767946562974_1501_tl_5" n="N005"/>Opern-Libretto mit dem <rs type="person">Bellini</rs>'s. Die Herren <hi rendition="#em">
-                  <rs type="person">Barbier</rs>
-               </hi>
-               <lb facs="#facs_1_region_1767946562974_1501_tl_6" n="N006"/>und Michel <hi rendition="#em">
-                  <rs type="person">Carré</rs>
-               </hi> sind denn auch als Bearbeiter von
-               <lb facs="#facs_1_region_1767946562974_1501_tl_7" n="N007"/>„<rs type="bibl">Paul und Virginie</rs>“ der Handlung des Originals möglichst
-               <lb facs="#facs_1_region_1767946562974_1501_tl_8" n="N008"/>treu nachgefolgt. Der Handlung? Ach, wenn es nur eine
-               <lb facs="#facs_1_region_1767946562974_1501_tl_9" n="N009"/>wäre! Eine rechte, lebendige Handlung, wie das Drama sie
-               <lb facs="#facs_1_region_1767946562974_1501_tl_10" n="N010"/>braucht. Aber wieder, wie so oft schon, können wir lernen,
-               <lb facs="#facs_1_region_1767946562974_1501_tl_11" n="N011"/>wie aus einer guten Novelle ein schlechtes Theaterstück wird.
-               <lb facs="#facs_1_region_1767946562974_1501_tl_12" n="N012"/>Eine Idylle und ein Drama ist zweierlei. Das, so sollte
-               <lb facs="#facs_1_region_1767946562974_1501_tl_13" n="N013"/>man meinen, müßte Jedermann bei der Lectüre von „<rs type="bibl">Paul</rs>
-               <lb facs="#facs_1_region_1767946562974_1501_tl_14" n="N014"/>
-               <rs type="bibl">und Virginie</rs>“ sich selber sagen. Der Mangel an lebendig
-               <lb facs="#facs_1_region_1767946562974_1501_tl_15" n="N015"/>fortschreitender Handlung, an energischen Charakteren und
-               <lb facs="#facs_1_region_1767946562974_1501_tl_16" n="N016"/>wirksamen Gegensätzen muß von Haus aus die theatralische
-               <lb facs="#facs_1_region_1767946562974_1501_tl_17" n="N017"/>Eignung dieses Stoffes in Frage stellen. Die Er¬
-               <lb facs="#facs_1_region_1767946562974_1501_tl_18" n="N018"/>zählung Bernardin's de <rs type="person">St. Pierre</rs> genoß zu einer Zeit,
-               <lb facs="#facs_1_region_1767946562974_1501_tl_19" n="N019"/>wo <rs type="person">Rousseau</rs>'s Naturschwärmerei, die <rs type="person">Werther</rs>-Empfind¬
-               <lb facs="#facs_1_region_1767946562974_1501_tl_20" n="N020"/>samkeit und <rs type="person">Geßner</rs>'s Idyllenglück alle Gemüther be¬
-               <lb facs="#facs_1_region_1767946562974_1501_tl_21" n="N021"/>wegten, einer abgöttischen Verehrung. Sie rührt uns
-               <lb facs="#facs_1_region_1767946562974_1501_tl_22" n="N022"/>noch heute, wenn sie auch nicht mehr jenen beispiel¬
-               <lb facs="#facs_1_region_1767946562974_1501_tl_23" n="N023"/>losen „Succès de larmes“ hat, den <rs type="place">französisch</rs>e Kritiker ihr
-               <lb facs="#facs_1_region_1767946562974_1501_tl_24" n="N024"/>nachrühmten und den der Dichter selbst so hoch anschlug.
-               <lb facs="#facs_1_region_1767946562974_1501_tl_25" n="N025"/>Aber weder der Unschuldszauber dieser Herzensgeschichte, noch
-               <lb facs="#facs_1_region_1767946562974_1501_tl_26" n="N026"/>die prachtvollen, von Alexander <hi rendition="#em">
-                  <rs type="person">Humboldt</rs>
-               </hi> so sehr be¬
-               <lb facs="#facs_1_region_1767946562974_1501_tl_27" n="N027"/>wunderten Naturschilderungen geben uns ein Drama. Nichts
-               <lb facs="#facs_1_region_1767946562974_1501_tl_28" n="N028"/>ersetzt die fehlende dramatische Strömung; in dem stillstehen¬
-               <lb facs="#facs_1_region_1767946562974_1501_tl_29" n="N029"/>den Gewässer der Idylle wird auch die Musik des Opern¬
-               <lb facs="#facs_1_region_1767946562974_1501_tl_30" n="N030"/>componisten eintönig und schlaftrunken. Ein Operntext
-               <lb facs="#facs_1_region_1767946562974_1501_tl_31" n="N031"/>„<rs type="bibl">Paul und Virginie</rs>“ ist verloren, wenn nicht eine unge¬
-               <lb facs="#facs_1_region_1767946562974_1501_tl_32" n="N032"/>wöhnliche musikalische Kraft ihn lebendig macht, eine
-               <lb facs="#facs_1_region_1767946562974_1501_tl_33" n="N033"/>musikalische Kraft, wie sie — <hi rendition="#em">
-                  <rs type="person">Massé</rs>
-               </hi> nicht besitzt. Ursprüng¬
-               <lb facs="#facs_1_region_1767946562974_1501_tl_34" n="N034"/>lich dem leichten Style <rs type="person">Auber</rs>'s und <rs type="person">Adam</rs>'s folgend, hat
-               <lb facs="#facs_1_region_1767946562974_1501_tl_35" n="N035"/>
-               <rs type="person">Massé</rs> sich gegenwärtig die breitere Scenenform und die
-               <lb facs="#facs_1_region_1767946562974_1501_tl_36" n="N036"/>weichlichere Lyrik <hi rendition="#em">
-                  <rs type="person">Gounod's</rs>
-               </hi> angeeignet und darüber die
-               <lb facs="#facs_1_region_1767946562974_1501_tl_37" n="N037"/>natürliche Frische und Anmuth seiner ersten Periode einge¬
-               <lb facs="#facs_1_region_1767946562974_1501_tl_38" n="N038"/>büßt. Alle sentimentalen und zärtlichen Nummern in „<rs type="bibl">Paul</rs>
-               <lb facs="#facs_1_region_1767946562974_1501_tl_39" n="N039"/>
-               <rs type="bibl">et Virginie</rs>“ schmecken wie ein schwacher zweiter Aufguß auf
-               <lb facs="#facs_1_region_1767946562974_1501_tl_40" n="N040"/>
-               <rs type="person">Gounod</rs>'schen Thee. Einförmig, müde, verbraucht klingt diese
-               <lb facs="#facs_1_region_1767946562974_1501_tl_41" n="N041"/>Musik, und wo sie aus dem Grundton einer gewissen weichen
-               <lb facs="#facs_1_region_1767946562974_1501_tl_42" n="N042"/>Sentimentalität heraus will, verfällt sie banalen Melodien,
-               <lb facs="#facs_1_region_1767946562974_1501_tl_43" n="N043"/>wie in der Bravour-Arie der <rs type="person">Virginie</rs> oder in dem Schluß-
-               <lb facs="#facs_1_region_1767946562974_1501_tl_44" n="N044"/>Allegro des Liebesduetts. Den geschickten Praktiker, den ge¬
-               <lb facs="#facs_1_line_1771571589248_40" n="N045"/>bildeten Weltmann erkennt man allerdings in dieser Partitur
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1767946562974_1501_tl_1" n="N001"/>Dichtung ist erst eine Errungenschaft unserer Zeit; man
+         <lb facs="#facs_1_region_1767946562974_1501_tl_2" n="N002"/>braucht nur beispielsweise die Behandlung von <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s
+         <lb facs="#facs_1_region_1767946562974_1501_tl_3" n="N003"/>„<rs type="bibl" ref="#hsl_work_id_197">Faust</rs>“ in der <rs type="person" ref="#hsl_person_id_293">Spohr</rs>’schen, dann in der <rs type="person" ref="#hsl_person_id_102">Gounod</rs>’schen Oper
+         <lb facs="#facs_1_region_1767946562974_1501_tl_4" n="N004"/>zu vergleichen, oder den <rs type="person" ref="#hsl_person_id_287">Shakspeare</rs>’schen „<rs type="bibl" ref="#hsl_work_id_57">Romeo</rs>“ in <rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s
+         <lb facs="#facs_1_region_1767946562974_1501_tl_5" n="N005"/>Opern-Libretto mit dem <rs type="person" ref="#hsl_person_id_26">Bellini</rs>’s. Die Herren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_90">Barbier</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1767946562974_1501_tl_6" n="N006"/>und Michel <hi rendition="#em"><rs type="person" ref="#hsl_person_id_84">Carré</rs></hi> sind denn auch als Bearbeiter von
+         <lb facs="#facs_1_region_1767946562974_1501_tl_7" n="N007"/>„<rs type="bibl" ref="#hsl_work_id_5965">Paul und Virginie</rs>“ der Handlung des Originals möglichst
+         <lb facs="#facs_1_region_1767946562974_1501_tl_8" n="N008"/>treu nachgefolgt. Der Handlung? Ach, wenn es nur eine
+         <lb facs="#facs_1_region_1767946562974_1501_tl_9" n="N009"/>wäre! Eine rechte, lebendige Handlung, wie das Drama sie
+         <lb facs="#facs_1_region_1767946562974_1501_tl_10" n="N010"/>braucht. Aber wieder, wie so oft schon, können wir lernen,
+         <lb facs="#facs_1_region_1767946562974_1501_tl_11" n="N011"/>wie aus einer guten Novelle ein schlechtes Theaterstück wird.
+         <lb facs="#facs_1_region_1767946562974_1501_tl_12" n="N012"/>Eine Idylle und ein Drama ist zweierlei. Das, so sollte
+         <lb facs="#facs_1_region_1767946562974_1501_tl_13" n="N013"/>man meinen, müßte Jedermann bei der Lectüre von „<rs type="bibl" ref="#hsl_work_id_5965">Paul
+         <lb facs="#facs_1_region_1767946562974_1501_tl_14" n="N014"/>und Virginie</rs>“ sich selber sagen. Der Mangel an lebendig
+         <lb facs="#facs_1_region_1767946562974_1501_tl_15" n="N015"/>fortschreitender Handlung, an energischen Charakteren und
+         <lb facs="#facs_1_region_1767946562974_1501_tl_16" n="N016"/>wirksamen Gegensätzen muß von Haus aus die theatralische
+         <lb facs="#facs_1_region_1767946562974_1501_tl_17" n="N017"/>Eignung dieses Stoffes in Frage stellen. Die Er
+         <lb facs="#facs_1_region_1767946562974_1501_tl_18" n="N018" break="no"/>zählung Bernardin’s de <rs type="person" ref="#hsl_person_id_8273">St. Pierre</rs> genoß zu einer Zeit,
+         <lb facs="#facs_1_region_1767946562974_1501_tl_19" n="N019"/>wo <rs type="person" ref="#hsl_person_id_415">Rousseau</rs>’s Naturschwärmerei, die <rs type="person" ref="#hsl_person_id_3609">Werther</rs>-Empfind
+         <lb facs="#facs_1_region_1767946562974_1501_tl_20" n="N020" break="no"/>samkeit und <rs type="person" ref="#hsl_person_id_4831">Geßner</rs>’s Idyllenglück alle Gemüther be
+         <lb facs="#facs_1_region_1767946562974_1501_tl_21" n="N021" break="no"/>wegten, einer abgöttischen Verehrung. Sie rührt uns
+         <lb facs="#facs_1_region_1767946562974_1501_tl_22" n="N022"/>noch heute, wenn sie auch nicht mehr jenen beispiel
+         <lb facs="#facs_1_region_1767946562974_1501_tl_23" n="N023" break="no"/>losen „Succès de larmes“ hat, den <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Kritiker ihr
+         <lb facs="#facs_1_region_1767946562974_1501_tl_24" n="N024"/>nachrühmten und den der Dichter selbst so hoch anschlug.
+         <lb facs="#facs_1_region_1767946562974_1501_tl_25" n="N025"/>Aber weder der Unschuldszauber dieser Herzensgeschichte, noch
+         <lb facs="#facs_1_region_1767946562974_1501_tl_26" n="N026"/>die prachtvollen, von Alexander <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2263">Humboldt</rs></hi> so sehr be
+         <lb facs="#facs_1_region_1767946562974_1501_tl_27" n="N027" break="no"/>wunderten Naturschilderungen geben uns ein Drama. Nichts
+         <lb facs="#facs_1_region_1767946562974_1501_tl_28" n="N028"/>ersetzt die fehlende dramatische Strömung; in dem stillstehen
+         <lb facs="#facs_1_region_1767946562974_1501_tl_29" n="N029" break="no"/>den Gewässer der Idylle wird auch die Musik des Opern
+         <lb facs="#facs_1_region_1767946562974_1501_tl_30" n="N030" break="no"/>componisten eintönig und schlaftrunken. Ein Operntext
+         <lb facs="#facs_1_region_1767946562974_1501_tl_31" n="N031"/>„<rs type="bibl" ref="#hsl_work_id_5965">Paul und Virginie</rs>“ ist verloren, wenn nicht eine unge
+         <lb facs="#facs_1_region_1767946562974_1501_tl_32" n="N032" break="no"/>wöhnliche musikalische Kraft ihn lebendig macht, eine
+         <lb facs="#facs_1_region_1767946562974_1501_tl_33" n="N033"/>musikalische Kraft, wie sie — <hi rendition="#em"><rs type="person" ref="#hsl_person_id_907">Massé</rs></hi> nicht besitzt. Ursprüng
+         <lb facs="#facs_1_region_1767946562974_1501_tl_34" n="N034" break="no"/>lich dem leichten Style <rs type="person" ref="#hsl_person_id_16">Auber</rs>’s und <rs type="person" ref="#hsl_person_id_12">Adam</rs>’s folgend, hat
+         <lb facs="#facs_1_region_1767946562974_1501_tl_35" n="N035"/><rs type="person" ref="#hsl_person_id_907">Massé</rs> sich gegenwärtig die breitere Scenenform und die
+         <lb facs="#facs_1_region_1767946562974_1501_tl_36" n="N036"/>weichlichere Lyrik <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod’s</rs></hi> angeeignet und darüber die
+         <lb facs="#facs_1_region_1767946562974_1501_tl_37" n="N037"/>natürliche Frische und Anmuth seiner ersten Periode einge
+         <lb facs="#facs_1_region_1767946562974_1501_tl_38" n="N038" break="no"/>büßt. Alle sentimentalen und zärtlichen Nummern in „<rs type="bibl" ref="#hsl_work_id_5965">Paul
+         <lb facs="#facs_1_region_1767946562974_1501_tl_39" n="N039"/>et Virginie</rs>“ schmecken wie ein schwacher zweiter Aufguß auf
+         <lb facs="#facs_1_region_1767946562974_1501_tl_40" n="N040"/><rs type="person" ref="#hsl_person_id_102">Gounod</rs>’schen Thee. Einförmig, müde, verbraucht klingt diese
+         <lb facs="#facs_1_region_1767946562974_1501_tl_41" n="N041"/>Musik, und wo sie aus dem Grundton einer gewissen weichen
+         <lb facs="#facs_1_region_1767946562974_1501_tl_42" n="N042"/>Sentimentalität heraus will, verfällt sie banalen Melodien,
+         <lb facs="#facs_1_region_1767946562974_1501_tl_43" n="N043"/>wie in der Bravour-Arie der <rs type="person" ref="#hsl_person_id_8315">Virginie</rs> oder in dem Schluß-
+         <lb facs="#facs_1_region_1767946562974_1501_tl_44" n="N044"/>Allegro des Liebesduetts. Den geschickten Praktiker, den ge
+         <lb facs="#facs_1_line_1771571589248_40" n="N045" break="no"/>bildeten Weltmann erkennt man allerdings in dieser Partitur<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1767946572366_1507_tl_1" n="N001"/>aber auch der gebildete Weltmann kann seine langweiligen,
+         <lb facs="#facs_2_region_1767946572366_1507_tl_2" n="N002"/>verdrießlichen Tage haben, wo seine Ideen am Boden haften
+         <lb facs="#facs_2_region_1767946572366_1507_tl_3" n="N003"/>und sein Witz schläft. Solchen Tagen gleichen die Blätter
+         <lb facs="#facs_2_region_1767946572366_1507_tl_4" n="N004"/>von <rs type="person" ref="#hsl_person_id_907">Massé</rs>’s neuester <rs type="bibl" ref="#hsl_work_id_5965">Oper</rs>. Sie interessiren uns flüchtig in
+         <lb facs="#facs_2_region_1767946572366_1507_tl_5" n="N005"/>einzelnen Stellen, bringen aber kein einziges Musikstück,
+         <lb facs="#facs_2_region_1767946572366_1507_tl_6" n="N006"/>welches das Publicum mit sich fortzureißen vermöchte und
+         <lb facs="#facs_2_region_1767946572366_1507_tl_7" n="N007"/>das noch einmal zu hören wir uns sehnen würden.
+            </p><p>
+         <lb facs="#facs_2_region_1767946572366_1507_tl_8" n="N008"/>Der erste Act beginnt in der Hütte der Madame <rs type="person" ref="#hsl_person_id_8317">Latour</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1767946572366_1507_tl_9" n="N009"/>mit einem recht einfach hinfließenden Duett zwischen dieser
+         <lb facs="#facs_2_region_1767946572366_1507_tl_10" n="N010"/>und <rs type="person" ref="#hsl_person_id_8318">Marguerite</rs>; die beiden <rs type="person" ref="#hsl_person_id_8317 hsl_person_id_8318">Mütter</rs> tauschen ihre Erinne
+         <lb facs="#facs_2_region_1767946572366_1507_tl_11" n="N011" break="no"/>rungen aus, der treue alte Neger <rs type="person" ref="#hsl_person_id_8319">Domingo</rs> folgt mit einem
+         <lb facs="#facs_2_region_1767946572366_1507_tl_12" n="N012"/>Liebchen; endlich erscheinen <rs type="person" ref="#hsl_person_id_8316">Paul</rs> und <rs type="person" ref="#hsl_person_id_8315">Virginie</rs> und preisen
+         <lb facs="#facs_2_region_1767946572366_1507_tl_13" n="N013"/>in einem sehr harmlosen Duett das Glück ihres ungetrübten
+         <lb facs="#facs_2_region_1767946572366_1507_tl_14" n="N014"/>Zusammenlebens. Eine junge Negersklavin, <rs type="person" ref="#hsl_person_id_8320">Meala</rs>, flüchtet
+         <lb facs="#facs_2_region_1767946572366_1507_tl_15" n="N015"/>zu ihnen vor der Grausamkeit ihres <rs type="person" ref="#hsl_person_id_8321">Herr</rs>n und findet liebe
+         <lb facs="#facs_2_region_1767946572366_1507_tl_16" n="N016" break="no"/>volle Aufnahme. Mit einem für die Situation viel zu lan
+         <lb facs="#facs_2_region_1767946572366_1507_tl_17" n="N017" break="no"/>gen und uninteressanten Terzett schließt der erste Act. Doch
+         <lb facs="#facs_2_region_1767946572366_1507_tl_18" n="N018"/>nein — „das erste Tableau des ersten Actes“! Denn „<rs type="bibl" ref="#hsl_work_id_5965">Paul
+         <lb facs="#facs_2_region_1767946572366_1507_tl_19" n="N019"/>und Virginie</rs>“ ist, wie der Theaterzettel nachweist, eine
+         <lb facs="#facs_2_region_1767946572366_1507_tl_20" n="N020"/>„Oper in drei Acten und sechs Tableaux“, was die ange
+         <lb facs="#facs_2_region_1767946572366_1507_tl_21" n="N021" break="no"/>nehme Folge hat, daß der Zuschauer durch das häufige
+         <lb facs="#facs_2_region_1767946572366_1507_tl_22" n="N022"/>Fallen und Aufziehen des Vorhanges confus wird und
+         <lb facs="#facs_2_region_1767946572366_1507_tl_23" n="N023"/>sich immer fragt, ob das, was er eben sieht, das zweite Tableau
+         <lb facs="#facs_2_region_1767946572366_1507_tl_24" n="N024"/>des ersten Actes oder das erste des zweiten sei u. s. f. Also
+         <lb facs="#facs_2_region_1767946572366_1507_tl_25" n="N025"/>das zweite Tableau des ersten Actes spielt in der Zucker
+         <lb facs="#facs_2_region_1767946572366_1507_tl_26" n="N026" break="no"/>plantage des hartherzigen Pflanzers <rs type="person" ref="#hsl_person_id_8321">St. Croix</rs>, dessen
+         <lb facs="#facs_2_region_1767946572366_1507_tl_27" n="N027"/>Sklaven unter Geißelhieben zur Arbeit angetrieben werden.
+         <lb facs="#facs_2_region_1767946572366_1507_tl_28" n="N028"/><rs type="person" ref="#hsl_person_id_8316">Paul</rs> und <rs type="person" ref="#hsl_person_id_8315">Virginie</rs> bringen die Sklavin <rs type="person" ref="#hsl_person_id_8320">Meala</rs> ihrem <rs type="person" ref="#hsl_person_id_8321">Herr</rs>n
+         <lb facs="#facs_2_region_1767946572366_1507_tl_29" n="N029"/>zurück und flehen für sie um Vergebung. Die Fürbitte <rs type="person" ref="#hsl_person_id_8315">Vir
+         <lb facs="#facs_2_region_1767946572366_1507_tl_30" n="N030" break="no"/>ginie</rs>’s: „Pardonnez-lui!“, ein recht herzlich klingender An
+         <lb facs="#facs_2_region_1767946572366_1507_tl_31" n="N031" break="no"/>dantesatz in Es-dur, ist uns musikalisch das Liebste in der
+         <lb facs="#facs_2_region_1767946572366_1507_tl_32" n="N032"/>ganzen Oper. Leider schwächt der Componist den guten Ein
+         <lb facs="#facs_2_region_1767946572366_1507_tl_33" n="N033" break="no"/>druck dieser Cantilene durch einen langen, langsamen Ensemble
+         <lb facs="#facs_2_region_1767946572366_1507_tl_34" n="N034" break="no"/>satz, den er daran knüpft und der unsere Geduld auf eine
+         <lb facs="#facs_2_region_1767946572366_1507_tl_35" n="N035"/>starke Probe setzt. Der <rs type="person" ref="#hsl_person_id_8321">Pflanzer</rs> verfolgt <rs type="person" ref="#hsl_person_id_8315">Virginie</rs> mit un
+         <lb facs="#facs_2_region_1767946572366_1507_tl_36" n="N036" break="no"/>heimlich lüsternen Blicken; durch ein bedeutungsvolles Lied
+         <lb facs="#facs_2_region_1767946572366_1507_tl_37" n="N037"/><rs type="person" ref="#hsl_person_id_8320">Meala</rs>’s gewarnt, entfliehen <rs type="person" ref="#hsl_person_id_8316">Paul</rs> und <rs type="person" ref="#hsl_person_id_8315">Virginie</rs>. Die ganze
+         <lb facs="#facs_2_region_1767946572366_1507_tl_38" n="N038"/>Wuth des <rs type="person" ref="#hsl_person_id_8321">Sklavenhalter</rs>s wendet sich nun gegen <rs type="person" ref="#hsl_person_id_8320">Meala</rs>;
+         <lb facs="#facs_2_region_1767946572366_1507_tl_39" n="N039"/>er läßt sie geißeln, und während die Aermste vor Schmerz
+         <lb facs="#facs_2_region_1767946572366_1507_tl_40" n="N040"/>aufschreit und wimmert, müssen die übrigen Sklaven tanzen
+         <lb facs="#facs_2_region_1767946572366_1507_tl_41" n="N041"/>und singen. Die Brutalität dieser Scene ist empörend; sie
+         <lb facs="#facs_2_region_1767946572366_1507_tl_42" n="N042"/>empörte auch thatsächlich unser Publicum, das nach dem Ab
+         <lb facs="#facs_2_region_1767946572366_1507_tl_43" n="N043" break="no"/>schlusse einem vereinzelten Beifallsversuche entschieden opponirte.
+            </p><p>
+         <lb facs="#facs_2_region_1767946572366_1507_tl_44" n="N044"/>Der zweite Act ist ein fortwährendes Abschiednehmen,
+         <lb facs="#facs_2_region_1767946572366_1507_tl_45" n="N045"/>Klagen und Trösten. <rs type="person" ref="#hsl_person_id_8315">Virginie</rs> soll nach <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> absegeln:<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1767946572366_1507_tl_1" n="N001"/>aber auch der gebildete Weltmann kann seine langweiligen,
-               <lb facs="#facs_2_region_1767946572366_1507_tl_2" n="N002"/>verdrießlichen Tage haben, wo seine Ideen am Boden haften
-               <lb facs="#facs_2_region_1767946572366_1507_tl_3" n="N003"/>und sein Witz schläft. Solchen Tagen gleichen die Blätter
-               <lb facs="#facs_2_region_1767946572366_1507_tl_4" n="N004"/>von <rs type="person">Massé</rs>'s neuester <rs type="bibl">Oper</rs>. Sie interessiren uns flüchtig in
-               <lb facs="#facs_2_region_1767946572366_1507_tl_5" n="N005"/>einzelnen Stellen, bringen aber kein einziges Musikstück,
-               <lb facs="#facs_2_region_1767946572366_1507_tl_6" n="N006"/>welches das Publicum mit sich fortzureißen vermöchte und
-               <lb facs="#facs_2_region_1767946572366_1507_tl_7" n="N007"/>das noch einmal zu hören wir uns sehnen würden.
-               <lb facs="#facs_2_region_1767946572366_1507_tl_8" n="N008"/>Der erste Act beginnt in der Hütte der Madame <rs type="person">Latour</rs>
-               <lb facs="#facs_2_region_1767946572366_1507_tl_9" n="N009"/>mit einem recht einfach hinfließenden Duett zwischen dieser
-               <lb facs="#facs_2_region_1767946572366_1507_tl_10" n="N010"/>und <rs type="person">Marguerite</rs>; die beiden <rs type="person">Mütter</rs> tauschen ihre Erinne¬
-               <lb facs="#facs_2_region_1767946572366_1507_tl_11" n="N011"/>rungen aus, der treue alte Neger <rs type="person">Domingo</rs> folgt mit einem
-               <lb facs="#facs_2_region_1767946572366_1507_tl_12" n="N012"/>Liebchen; endlich erscheinen <rs type="person">Paul</rs> und <rs type="person">Virginie</rs> und preisen
-               <lb facs="#facs_2_region_1767946572366_1507_tl_13" n="N013"/>in einem sehr harmlosen Duett das Glück ihres ungetrübten
-               <lb facs="#facs_2_region_1767946572366_1507_tl_14" n="N014"/>Zusammenlebens. Eine junge Negersklavin, <rs type="person">Meala</rs>, flüchtet
-               <lb facs="#facs_2_region_1767946572366_1507_tl_15" n="N015"/>zu ihnen vor der Grausamkeit ihres <rs type="person">Herr</rs>n und findet liebe¬
-               <lb facs="#facs_2_region_1767946572366_1507_tl_16" n="N016"/>volle Aufnahme. Mit einem für die Situation viel zu lan¬
-               <lb facs="#facs_2_region_1767946572366_1507_tl_17" n="N017"/>gen und uninteressanten Terzett schließt der erste Act. Doch
-               <lb facs="#facs_2_region_1767946572366_1507_tl_18" n="N018"/>nein — „das erste Tableau des ersten Actes“! Denn „<rs type="bibl">Paul</rs>
-               <lb facs="#facs_2_region_1767946572366_1507_tl_19" n="N019"/>
-               <rs type="bibl">und Virginie</rs>“ ist, wie der Theaterzettel nachweist, eine
-               <lb facs="#facs_2_region_1767946572366_1507_tl_20" n="N020"/>„Oper in drei Acten und sechs Tableaux“, was die ange¬
-               <lb facs="#facs_2_region_1767946572366_1507_tl_21" n="N021"/>nehme Folge hat, daß der Zuschauer durch das häufige
-               <lb facs="#facs_2_region_1767946572366_1507_tl_22" n="N022"/>Fallen und Aufziehen des Vorhanges confus wird und
-               <lb facs="#facs_2_region_1767946572366_1507_tl_23" n="N023"/>sich immer fragt, ob das, was er eben sieht, das zweite Tableau
-               <lb facs="#facs_2_region_1767946572366_1507_tl_24" n="N024"/>des ersten Actes oder das erste des zweiten sei u. s. f. Also
-               <lb facs="#facs_2_region_1767946572366_1507_tl_25" n="N025"/>das zweite Tableau des ersten Actes spielt in der Zucker¬
-               <lb facs="#facs_2_region_1767946572366_1507_tl_26" n="N026"/>plantage des hartherzigen Pflanzers <rs type="person">St. Croix</rs>, dessen
-               <lb facs="#facs_2_region_1767946572366_1507_tl_27" n="N027"/>Sklaven unter Geißelhieben zur Arbeit angetrieben werden.
-               <lb facs="#facs_2_region_1767946572366_1507_tl_28" n="N028"/>
-               <rs type="person">Paul</rs> und <rs type="person">Virginie</rs> bringen die Sklavin <rs type="person">Meala</rs> ihrem <rs type="person">Herr</rs>n
-               <lb facs="#facs_2_region_1767946572366_1507_tl_29" n="N029"/>zurück und flehen für sie um Vergebung. Die Fürbitte <rs type="person" continued="true">Vir¬</rs>
-               <lb facs="#facs_2_region_1767946572366_1507_tl_30" n="N030"/>
-               <rs type="person" continued="true">ginie</rs>'s: „Pardonnez-lui!“, ein recht herzlich klingender An¬
-               <lb facs="#facs_2_region_1767946572366_1507_tl_31" n="N031"/>dantesatz in Es-dur, ist uns musikalisch das Liebste in der
-               <lb facs="#facs_2_region_1767946572366_1507_tl_32" n="N032"/>ganzen Oper. Leider schwächt der Componist den guten Ein¬
-               <lb facs="#facs_2_region_1767946572366_1507_tl_33" n="N033"/>druck dieser Cantilene durch einen langen, langsamen Ensemble¬
-               <lb facs="#facs_2_region_1767946572366_1507_tl_34" n="N034"/>satz, den er daran knüpft und der unsere Geduld auf eine
-               <lb facs="#facs_2_region_1767946572366_1507_tl_35" n="N035"/>starke Probe setzt. Der <rs type="person">Pflanzer</rs> verfolgt <rs type="person">Virginie</rs> mit un¬
-               <lb facs="#facs_2_region_1767946572366_1507_tl_36" n="N036"/>heimlich lüsternen Blicken; durch ein bedeutungsvolles Lied
-               <lb facs="#facs_2_region_1767946572366_1507_tl_37" n="N037"/>
-               <rs type="person">Meala</rs>'s gewarnt, entfliehen <rs type="person">Paul</rs> und <rs type="person">Virginie</rs>. Die ganze
-               <lb facs="#facs_2_region_1767946572366_1507_tl_38" n="N038"/>Wuth des <rs type="person">Sklavenhalter</rs>s wendet sich nun gegen <rs type="person">Meala</rs>;
-               <lb facs="#facs_2_region_1767946572366_1507_tl_39" n="N039"/>er läßt sie geißeln, und während die Aermste vor Schmerz
-               <lb facs="#facs_2_region_1767946572366_1507_tl_40" n="N040"/>aufschreit und wimmert, müssen die übrigen Sklaven tanzen
-               <lb facs="#facs_2_region_1767946572366_1507_tl_41" n="N041"/>und singen. Die Brutalität dieser Scene ist empörend; sie
-               <lb facs="#facs_2_region_1767946572366_1507_tl_42" n="N042"/>empörte auch thatsächlich unser Publicum, das nach dem Ab¬
-               <lb facs="#facs_2_region_1767946572366_1507_tl_43" n="N043"/>schlusse einem vereinzelten Beifallsversuche entschieden opponirte.
-               <lb facs="#facs_2_region_1767946572366_1507_tl_44" n="N044"/>Der zweite Act ist ein fortwährendes Abschiednehmen,
-               <lb facs="#facs_2_region_1767946572366_1507_tl_45" n="N045"/>Klagen und Trösten. <rs type="person">Virginie</rs> soll nach <rs type="bibl">Frankreich</rs> absegeln:
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_line_1771571816507_141" n="N001"/>ihren Kummer darüber singt sie gegen ihre <rs type="person" ref="#hsl_person_id_8317">Mutter</rs> aus,
+         <lb facs="#facs_2_line_1771571814304_138" n="N002"/><rs type="person" ref="#hsl_person_id_8316">Paul</rs> desgleichen seinen Kummer gegen sein <rs type="person" ref="#hsl_person_id_8318">Mutter</rs>;
+         <lb facs="#facs_2_region_1767946576726_1510_tl_1" n="N003"/>endlich stehen wir vor der Hauptsituation, dem großen
+         <lb facs="#facs_2_region_1767946576726_1510_tl_2" n="N004"/>Liebesduett, das uns leider nicht minder conventionell
+         <lb facs="#facs_2_region_1767946576726_1510_tl_3" n="N005"/>und phrasenhaft vorkommt, wie fast Alles in dieser Musik.
+         <lb facs="#facs_2_region_1767946576726_1510_tl_4" n="N006"/>Das Hauptmotiv des Duettes, nämlich <rs type="person" ref="#hsl_person_id_8315">Virginie</rs>’s Schwur
+         <lb facs="#facs_2_region_1767946576726_1510_tl_5" n="N007"/>der Treue („Par le ciel, qui m’entend“), tritt schon in
+         <lb facs="#facs_2_region_1767946576726_1510_tl_6" n="N008"/>der Ouvertüre, dann wiederholt im Verlaufe der Oper als
+         <lb facs="#facs_2_region_1767946576726_1510_tl_7" n="N009"/>Leitmotiv auf; an sich von sehr zweifelhaftem Geschmack,
+         <lb facs="#facs_2_region_1767946576726_1510_tl_8" n="N010"/>wird es schließlich in derbem Unisono beider Stimmen, mit
+         <lb facs="#facs_2_region_1767946576726_1510_tl_9" n="N011"/>Harfenbegleitung und den in den dritten und sechsten Tact
+         <lb facs="#facs_2_region_1767946576726_1510_tl_10" n="N012"/>hineingebrockten drei Orchesterschlägen geradezu trivial. Nach
+         <lb facs="#facs_2_region_1767946576726_1510_tl_11" n="N013"/>dem Liebesduett kommt wieder ein neues, für die Hand
+         <lb facs="#facs_2_region_1767946576726_1510_tl_12" n="N014" break="no"/>lung ganz entbehrliches Tableau. <rs type="person" ref="#hsl_person_id_8315">Virginie</rs> besingt den Wald
+         <lb facs="#facs_2_region_1767946576726_1510_tl_13" n="N015"/>und ihr Liebesglück in einer Bravour-Arie, deren con
+         <lb facs="#facs_2_region_1767946576726_1510_tl_14" n="N016" break="no"/>certanter Aufputz in argem Gegensatz zu diesem kindlich ein
+         <lb facs="#facs_2_region_1767946576726_1510_tl_15" n="N017" break="no"/>fachen Charakter steht. <rs type="person" ref="#hsl_person_id_8315">Virginie</rs> schläft unter einem Baume
+         <lb facs="#facs_2_region_1767946576726_1510_tl_16" n="N018"/>ein; <rs type="person" ref="#hsl_person_id_8320">Meala</rs> ist sofort mit einem Schlummerliede zur Hand,
+         <lb facs="#facs_2_region_1767946576726_1510_tl_17" n="N019"/>nach dessen glücklicher Beendigung der <rs type="person" ref="#hsl_person_id_8322">Gouverneur</rs> mit den
+         <lb facs="#facs_2_region_1767946576726_1510_tl_18" n="N020"/>beiden <rs type="person" ref="#hsl_person_id_8317 hsl_person_id_8318">Mütter</rs>n auftritt und <rs type="person" ref="#hsl_person_id_8315">Virginie</rs> zur unverzüglichen
+         <lb facs="#facs_2_region_1767946576726_1510_tl_19" n="N021"/>Abfahrt auffordert. Du lieber Himmel! ruft man unwill
+         <lb facs="#facs_2_region_1767946576726_1510_tl_20" n="N022" break="no"/>kürlich nach diesem vierten Tableau des zweiten Actes —
+         <lb facs="#facs_2_region_1767946576726_1510_tl_21" n="N023"/>welche Mengen von Langweile haben doch die Franzosen
+         <lb facs="#facs_2_region_1767946576726_1510_tl_22" n="N024"/>vertragen gelernt, sie, die ehedem die witzigsten Opern von
+         <lb facs="#facs_2_region_1767946576726_1510_tl_23" n="N025"/><rs type="person" ref="#hsl_person_id_16">Auber</rs> nicht immer amüsant genug fanden! Der dritte Act
+         <lb facs="#facs_2_region_1767946576726_1510_tl_24" n="N026"/>beginnt natürlich wieder mit einem Negerlied der <rs type="person" ref="#hsl_person_id_8320">Meala</rs>, die
+         <lb facs="#facs_2_region_1767946576726_1510_tl_25" n="N027"/>eine sehr große Liedersammlung besitzen muß. Im ersten Acte
+         <lb facs="#facs_2_region_1767946576726_1510_tl_26" n="N028"/>singt sie ein Lied, um zu warnen, im zweiten, um einzu
+         <lb facs="#facs_2_region_1767946576726_1510_tl_27" n="N029" break="no"/>schläfern, im dritten endlich, um den auf seiner Felsspitze
+         <lb facs="#facs_2_region_1767946576726_1510_tl_28" n="N030"/>verzweifelnden <rs type="person" ref="#hsl_person_id_8316">Paul</rs> zu trösten. „Pour le consoler, je n’ai
+         <lb facs="#facs_2_region_1767946576726_1510_tl_29" n="N031"/>que ma chanson“ versichert sie uns, und wir geben zu, daß
+         <lb facs="#facs_2_region_1767946576726_1510_tl_30" n="N032"/>ihr Fis-moll-Liedchen mit dem pikanten Wechsel von großer
+         <lb facs="#facs_2_region_1767946576726_1510_tl_31" n="N033"/>und kleiner Terz in der Schlußphrase sich origineller als
+         <lb facs="#facs_2_region_1767946576726_1510_tl_32" n="N034"/>die früheren anhört. Nach einem Quartett, in welchem die
+         <lb facs="#facs_2_region_1767946576726_1510_tl_33" n="N035"/>beiden <rs type="person" ref="#hsl_person_id_8317 hsl_person_id_8318">Mütter</rs> nebst <rs type="person" ref="#hsl_person_id_8319">Domingo</rs> und <rs type="person" ref="#hsl_person_id_8320">Meala</rs> den verlassenen
+         <lb facs="#facs_2_region_1767946576726_1510_tl_34" n="N036"/><rs type="person" ref="#hsl_person_id_8316">Paul</rs> beklagen, kommt dieser endlich selbst zum Vorschein
+         <lb facs="#facs_2_region_1767946576726_1510_tl_35" n="N037"/>und liest einen langen Brief von <rs type="person" ref="#hsl_person_id_8315">Virginie</rs>. Sein „air de
+         <lb facs="#facs_2_region_1767946576726_1510_tl_36" n="N038"/>la lettre“ klingt für bloßes Lesen und Wiederlesen eines
+         <lb facs="#facs_2_region_1767946576726_1510_tl_37" n="N039"/>Briefes zu pathetisch und gewaltsam, <rs type="person" ref="#hsl_person_id_8316">Paul</rs>’s eigener Ge
+         <lb facs="#facs_2_region_1767946576726_1510_tl_38" n="N040" break="no"/>fühlsausbruch nach der Lectüre vermag sich davon nicht hin
+         <lb facs="#facs_2_region_1767946576726_1510_tl_39" n="N041" break="no"/>reichend kräftig abzuheben. <rs type="person" ref="#hsl_person_id_907">Massé</rs>’s Musik hat von dem
+         <lb facs="#facs_2_region_1767946576726_1510_tl_40" n="N042"/>Liebesduett an den idyllischen Ton „di mezzo carattere“
+         <lb facs="#facs_2_region_1767946576726_1510_tl_41" n="N043"/>immer entschiedener verlassen und sich völlig der Hochfluth
+         <lb facs="#facs_2_region_1767946576726_1510_tl_42" n="N044"/>tragischer Leidenschaftlichkeit überantwortet. Die Librettisten,
+         <lb facs="#facs_2_region_1767946576726_1510_tl_43" n="N045"/>welchen das starke Sinken des dramatischen Interesses nicht<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_line_1771571816507_141" n="N001"/>ihren Kummer darüber singt sie gegen ihre <rs type="person">Mutter</rs> aus,
-               <lb facs="#facs_2_line_1771571814304_138" n="N002"/>
-               <rs type="person">Paul</rs> desgleichen seinen Kummer gegen sein <rs type="person">Mutter</rs>;
-               <lb facs="#facs_2_region_1767946576726_1510_tl_1" n="N003"/>endlich stehen wir vor der Hauptsituation, dem großen
-               <lb facs="#facs_2_region_1767946576726_1510_tl_2" n="N004"/>Liebesduett, das uns leider nicht minder conventionell
-               <lb facs="#facs_2_region_1767946576726_1510_tl_3" n="N005"/>und phrasenhaft vorkommt, wie fast Alles in dieser Musik.
-               <lb facs="#facs_2_region_1767946576726_1510_tl_4" n="N006"/>Das Hauptmotiv des Duettes, nämlich <rs type="person">Virginie</rs>'s Schwur
-               <lb facs="#facs_2_region_1767946576726_1510_tl_5" n="N007"/>der Treue („Par le ciel, qui m'entend“), tritt schon in
-               <lb facs="#facs_2_region_1767946576726_1510_tl_6" n="N008"/>der Ouvertüre, dann wiederholt im Verlaufe der Oper als
-               <lb facs="#facs_2_region_1767946576726_1510_tl_7" n="N009"/>Leitmotiv auf; an sich von sehr zweifelhaftem Geschmack,
-               <lb facs="#facs_2_region_1767946576726_1510_tl_8" n="N010"/>wird es schließlich in derbem Unisono beider Stimmen, mit
-               <lb facs="#facs_2_region_1767946576726_1510_tl_9" n="N011"/>Harfenbegleitung und den in den dritten und sechsten Tact
-               <lb facs="#facs_2_region_1767946576726_1510_tl_10" n="N012"/>hineingebrockten drei Orchesterschlägen geradezu trivial. Nach
-               <lb facs="#facs_2_region_1767946576726_1510_tl_11" n="N013"/>dem Liebesduett kommt wieder ein neues, für die Hand¬
-               <lb facs="#facs_2_region_1767946576726_1510_tl_12" n="N014"/>lung ganz entbehrliches Tableau. <rs type="person">Virginie</rs> besingt den Wald
-               <lb facs="#facs_2_region_1767946576726_1510_tl_13" n="N015"/>und ihr Liebesglück in einer Bravour-Arie, deren con¬
-               <lb facs="#facs_2_region_1767946576726_1510_tl_14" n="N016"/>certanter Aufputz in argem Gegensatz zu diesem kindlich ein¬
-               <lb facs="#facs_2_region_1767946576726_1510_tl_15" n="N017"/>fachen Charakter steht. <rs type="person">Virginie</rs> schläft unter einem Baume
-               <lb facs="#facs_2_region_1767946576726_1510_tl_16" n="N018"/>ein; <rs type="person">Meala</rs> ist sofort mit einem Schlummerliede zur Hand,
-               <lb facs="#facs_2_region_1767946576726_1510_tl_17" n="N019"/>nach dessen glücklicher Beendigung der <rs type="person">Gouverneur</rs> mit den
-               <lb facs="#facs_2_region_1767946576726_1510_tl_18" n="N020"/>beiden <rs type="person">Mütter</rs>n auftritt und <rs type="person">Virginie</rs> zur unverzüglichen
-               <lb facs="#facs_2_region_1767946576726_1510_tl_19" n="N021"/>Abfahrt auffordert. Du lieber Himmel! ruft man unwill¬
-               <lb facs="#facs_2_region_1767946576726_1510_tl_20" n="N022"/>kürlich nach diesem vierten Tableau des zweiten Actes —
-               <lb facs="#facs_2_region_1767946576726_1510_tl_21" n="N023"/>welche Mengen von Langweile haben doch die Franzosen
-               <lb facs="#facs_2_region_1767946576726_1510_tl_22" n="N024"/>vertragen gelernt, sie, die ehedem die witzigsten Opern von
-               <lb facs="#facs_2_region_1767946576726_1510_tl_23" n="N025"/>
-               <rs type="person">Auber</rs> nicht immer amüsant genug fanden! Der dritte Act
-               <lb facs="#facs_2_region_1767946576726_1510_tl_24" n="N026"/>beginnt natürlich wieder mit einem Negerlied der <rs type="person">Meala</rs>, die
-               <lb facs="#facs_2_region_1767946576726_1510_tl_25" n="N027"/>eine sehr große Liedersammlung besitzen muß. Im ersten Acte
-               <lb facs="#facs_2_region_1767946576726_1510_tl_26" n="N028"/>singt sie ein Lied, um zu warnen, im zweiten, um einzu¬
-               <lb facs="#facs_2_region_1767946576726_1510_tl_27" n="N029"/>schläfern, im dritten endlich, um den auf seiner Felsspitze
-               <lb facs="#facs_2_region_1767946576726_1510_tl_28" n="N030"/>verzweifelnden <rs type="person">Paul</rs> zu trösten. „Pour le consoler, je n'ai
-               <lb facs="#facs_2_region_1767946576726_1510_tl_29" n="N031"/>que ma chanson“ versichert sie uns, und wir geben zu, daß
-               <lb facs="#facs_2_region_1767946576726_1510_tl_30" n="N032"/>ihr Fis-moll-Liedchen mit dem pikanten Wechsel von großer
-               <lb facs="#facs_2_region_1767946576726_1510_tl_31" n="N033"/>und kleiner Terz in der Schlußphrase sich origineller als
-               <lb facs="#facs_2_region_1767946576726_1510_tl_32" n="N034"/>die früheren anhört. Nach einem Quartett, in welchem die
-               <lb facs="#facs_2_region_1767946576726_1510_tl_33" n="N035"/>beiden <rs type="person">Mütter</rs> nebst <rs type="person">Domingo</rs> und <rs type="person">Meala</rs> den verlassenen
-               <lb facs="#facs_2_region_1767946576726_1510_tl_34" n="N036"/>
-               <rs type="person">Paul</rs> beklagen, kommt dieser endlich selbst zum Vorschein
-               <lb facs="#facs_2_region_1767946576726_1510_tl_35" n="N037"/>und liest einen langen Brief von <rs type="person">Virginie</rs>. Sein „air de
-               <lb facs="#facs_2_region_1767946576726_1510_tl_36" n="N038"/>la lettre“ klingt für bloßes Lesen und Wiederlesen eines
-               <lb facs="#facs_2_region_1767946576726_1510_tl_37" n="N039"/>Briefes zu pathetisch und gewaltsam, <rs type="person">Paul</rs>'s eigener Ge¬
-               <lb facs="#facs_2_region_1767946576726_1510_tl_38" n="N040"/>fühlsausbruch nach der Lectüre vermag sich davon nicht hin¬
-               <lb facs="#facs_2_region_1767946576726_1510_tl_39" n="N041"/>reichend kräftig abzuheben. <rs type="person">Massé</rs>'s Musik hat von dem
-               <lb facs="#facs_2_region_1767946576726_1510_tl_40" n="N042"/>Liebesduett an den idyllischen Ton „di mezzo carattere“
-               <lb facs="#facs_2_region_1767946576726_1510_tl_41" n="N043"/>immer entschiedener verlassen und sich völlig der Hochfluth
-               <lb facs="#facs_2_region_1767946576726_1510_tl_42" n="N044"/>tragischer Leidenschaftlichkeit überantwortet. Die Librettisten,
-               <lb facs="#facs_2_region_1767946576726_1510_tl_43" n="N045"/>welchen das starke Sinken des dramatischen Interesses nicht
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1767946579982_1513_tl_1" n="N001"/>entgehen konnte, brauchen hier vor der Katastrophe noth¬
-               <lb facs="#facs_2_region_1767946579982_1513_tl_2" n="N002"/>wendig noch einen Lückenbüßer; sie greifen (da doch <rs type="person">Meala</rs>
-               <lb facs="#facs_2_region_1767946579982_1513_tl_3" n="N003"/>nicht wieder mit einem Negerlied aushelfen kann) zu dem
-               <lb facs="#facs_2_region_1767946579982_1513_tl_4" n="N004"/>bedenklichen Mittel einer <hi rendition="#em">Vision</hi>. <rs type="person">Paul</rs> sieht im Geiste
-               <lb facs="#facs_2_region_1767946579982_1513_tl_5" n="N005"/>seine <rs type="person">Virginie</rs> im Ballsaale, von geputzten Herren und
-               <lb facs="#facs_2_region_1767946579982_1513_tl_6" n="N006"/>Damen umringt, sie spielt Harfe und singt dazu. Natürlich
-               <lb facs="#facs_2_region_1767946579982_1513_tl_7" n="N007"/>geräth sie in das Thema des Liebesduetts, <rs type="person">Paul</rs> fällt ein,
-               <lb facs="#facs_2_region_1767946579982_1513_tl_8" n="N008"/>und sie singen — er auf <rs type="place">Isle-de-France</rs>, sie in <rs type="place">Paris</rs> —
-               <lb facs="#facs_2_region_1767946579982_1513_tl_9" n="N009"/>in richtigem Unisono das oft gehörte Leitmotiv. Die Vision
-               <lb facs="#facs_2_region_1767946579982_1513_tl_10" n="N010"/>macht dem Seesturme Platz; wir sehen das gescheiterte Schiff
-               <lb facs="#facs_2_region_1767946579982_1513_tl_11" n="N011"/>„St. Géran“ und auf dem Strande hingestreckt die Leiche
-               <lb facs="#facs_2_region_1767946579982_1513_tl_12" n="N012"/>
-               <rs type="person">Virginie</rs>ns, an welcher kniend <rs type="person">Paul</rs> nun zum letztenmale
-               <lb facs="#facs_2_region_1767946579982_1513_tl_13" n="N013"/>das Motiv des Liebesschwures anstimmt.
-               <lb facs="#facs_2_region_1767946579982_1513_tl_14" n="N014"/>Die Aufführung der neuen Oper war eine gelungene,
-               <lb facs="#facs_2_region_1767946579982_1513_tl_15" n="N015"/>die Ausstattung sorgfältig und in den Hauptmomenten von
-               <lb facs="#facs_2_region_1767946579982_1513_tl_16" n="N016"/>malerischer Wirkung. Trotzdem fand „<rs type="bibl">Paul und Virginie</rs>“,
-               <lb facs="#facs_2_region_1767946579982_1513_tl_17" n="N017"/>wie wir bereits berichtet, eine sehr kühle Aufnahme, in die
-               <lb facs="#facs_2_region_1767946579982_1513_tl_18" n="N018"/>sich Textdichter und Componist redlich theilen mögen; denn
-               <lb facs="#facs_2_region_1767946579982_1513_tl_19" n="N019"/>wo sich wirklicher Applaus hervorwagte, galt er augenschein¬
-               <lb facs="#facs_2_region_1767946579982_1513_tl_20" n="N020"/>lich den Sängern. Insbesondere Fräulein <hi rendition="#em">
-                  <rs type="person">Bianchi</rs>
-               </hi>, welche
-               <lb facs="#facs_2_region_1767946579982_1513_tl_21" n="N021"/>für die <rs type="person">Virginie</rs> eine fast rührend kindliche Erscheinung und
-               <lb facs="#facs_2_region_1767946579982_1513_tl_22" n="N022"/>natürliche Innigkeit des Ausdruckes mitbringt, fand reich¬
-               <lb facs="#facs_2_region_1767946579982_1513_tl_23" n="N023"/>lichen Beifall nach ihrer großen Arie. Herr <hi rendition="#em">
-                  <rs type="person">Müller</rs>
-               </hi> lieh
-               <lb facs="#facs_2_region_1767946579982_1513_tl_24" n="N024"/>den Gesängen <rs type="person">Paul</rs>'s die ganze so sympathische Treuherzig¬
-               <lb facs="#facs_2_region_1767946579982_1513_tl_25" n="N025"/>keit seines Vortrages; die merkliche Unruhe seiner Stimme
-               <lb facs="#facs_2_region_1767946579982_1513_tl_26" n="N026"/>im dritten Acte läßt sich wol aus den Schwierigkeiten dieser
-               <lb facs="#facs_2_region_1767946579982_1513_tl_27" n="N027"/>Scenen und der Aufregung einer ersten Vorstellung erklären.
-               <lb facs="#facs_2_region_1767946579982_1513_tl_28" n="N028"/>Die Rolle des alten Negers <rs type="person">Domingo</rs> wurde von Herrn
-               <lb facs="#facs_2_region_1767946579982_1513_tl_29" n="N029"/>v. <hi rendition="#em">
-                  <rs type="person">Bignio</rs>
-               </hi> vortrefflich gespielt und gesungen; desgleichen war
-               <lb facs="#facs_2_region_1767946579982_1513_tl_30" n="N030"/>Herr <hi rendition="#em">
-                  <rs type="person">Scaria</rs>
-               </hi> als gewaltthätiger <rs type="person">Pflanzer</rs> ganz auf seinem
-               <lb facs="#facs_2_region_1767946579982_1513_tl_31" n="N031"/>Platze. Fräulein <hi rendition="#em">
-                  <rs type="person">Stahl</rs>
-               </hi> sah als Sklavin <rs type="person">Meala</rs> gut aus
-               <lb facs="#facs_2_region_1767946579982_1513_tl_32" n="N032"/>und spielte diese schwierige Rolle mit guter Charakteristik;
-               <lb facs="#facs_2_region_1767946579982_1513_tl_33" n="N033"/>ihr Gesang hingegen ließ feinere Schattirungen vermissen,
-               <lb facs="#facs_2_region_1767946579982_1513_tl_34" n="N034"/>die denn auch bei so anhaltend starker und gepreßter Ton¬
-               <lb facs="#facs_2_region_1767946579982_1513_tl_35" n="N035"/>gebung schwer zu erzielen sind. Die Mutter <rs type="person">Virginie</rs>ns,
-               <lb facs="#facs_2_region_1767946579982_1513_tl_36" n="N036"/>Frau v. <rs type="person">Latour</rs>, gehört zu jenen heiklen kleinen Rollen, die
-               <lb facs="#facs_2_region_1767946579982_1513_tl_37" n="N037"/>bei bester Darstellung keine Wirkung machen, aber in unge¬
-               <lb facs="#facs_2_region_1767946579982_1513_tl_38" n="N038"/>schickten Händen die halbe Oper ruiniren können. Frau
-               <lb facs="#facs_2_region_1767946579982_1513_tl_39" n="N039"/>
-               <hi rendition="#em">
-                  <rs type="person">Dillner</rs>
-               </hi> hat mit der ihr eigenen künstlerischen Selbstver¬
-               <lb facs="#facs_2_region_1767946579982_1513_tl_40" n="N040"/>leugnung diese Partie übernommen und musterhaft durchge¬
-               <lb facs="#facs_2_region_1767946579982_1513_tl_41" n="N041"/>führt. Zwei andere kleine Rollen wurden von Fräulein
-               <lb facs="#facs_2_region_1767946579982_1513_tl_42" n="N042"/>
-               <hi rendition="#em">
-                  <rs type="person">Kraus</rs>
-               </hi> und Fräulein <hi rendition="#em">
-                  <rs type="person">Steinbach</rs>
-               </hi> ganz befriedigend ge¬
-               <lb facs="#facs_2_region_1767946579982_1513_tl_43" n="N043"/>sungen. Herr Capellmeister <hi rendition="#em">
-                  <rs type="person">Fuchs</rs>
-               </hi> dirigirte die Oper mit
-               <lb facs="#facs_2_region_1767946579982_1513_tl_44" n="N044"/>löblicher Energie. Wohlthätig wirkten die von ihm ange¬
-               <lb facs="#facs_2_region_1767946579982_1513_tl_45" n="N045"/>brachten Kürzungen — schade, daß ihrer so wenige waren.
+            <p prev="true">
+         <lb facs="#facs_2_region_1767946579982_1513_tl_1" n="N001"/>entgehen konnte, brauchen hier vor der Katastrophe noth
+         <lb facs="#facs_2_region_1767946579982_1513_tl_2" n="N002" break="no"/>wendig noch einen Lückenbüßer; sie greifen (da doch <rs type="person" ref="#hsl_person_id_8320">Meala</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1767946579982_1513_tl_3" n="N003"/>nicht wieder mit einem Negerlied aushelfen kann) zu dem
+         <lb facs="#facs_2_region_1767946579982_1513_tl_4" n="N004"/>bedenklichen Mittel einer <hi rendition="#em">Vision</hi>. <rs type="person" ref="#hsl_person_id_8316">Paul</rs> sieht im Geiste
+         <lb facs="#facs_2_region_1767946579982_1513_tl_5" n="N005"/>seine <rs type="person" ref="#hsl_person_id_8315">Virginie</rs> im Ballsaale, von geputzten Herren und
+         <lb facs="#facs_2_region_1767946579982_1513_tl_6" n="N006"/>Damen umringt, sie spielt Harfe und singt dazu. Natürlich
+         <lb facs="#facs_2_region_1767946579982_1513_tl_7" n="N007"/>geräth sie in das Thema des Liebesduetts, <rs type="person" ref="#hsl_person_id_8316">Paul</rs> fällt ein,
+         <lb facs="#facs_2_region_1767946579982_1513_tl_8" n="N008"/>und sie singen — er auf <rs type="place">Isle-de-France</rs>, sie in <rs type="place" ref="#hsl_place_id_44">Paris</rs> —
+         <lb facs="#facs_2_region_1767946579982_1513_tl_9" n="N009"/>in richtigem Unisono das oft gehörte Leitmotiv. Die Vision
+         <lb facs="#facs_2_region_1767946579982_1513_tl_10" n="N010"/>macht dem Seesturme Platz; wir sehen das gescheiterte Schiff
+         <lb facs="#facs_2_region_1767946579982_1513_tl_11" n="N011"/>„St. Géran“ und auf dem Strande hingestreckt die Leiche
+         <lb facs="#facs_2_region_1767946579982_1513_tl_12" n="N012"/><rs type="person" ref="#hsl_person_id_8315">Virginie</rs>ns, an welcher kniend <rs type="person" ref="#hsl_person_id_8316">Paul</rs> nun zum letztenmale
+         <lb facs="#facs_2_region_1767946579982_1513_tl_13" n="N013"/>das Motiv des Liebesschwures anstimmt.
+            </p><p>
+         <lb facs="#facs_2_region_1767946579982_1513_tl_14" n="N014"/>Die Aufführung der neuen Oper war eine gelungene,
+         <lb facs="#facs_2_region_1767946579982_1513_tl_15" n="N015"/>die Ausstattung sorgfältig und in den Hauptmomenten von
+         <lb facs="#facs_2_region_1767946579982_1513_tl_16" n="N016"/>malerischer Wirkung. Trotzdem fand „<rs type="bibl" ref="#hsl_work_id_5965">Paul und Virginie</rs>“,
+         <lb facs="#facs_2_region_1767946579982_1513_tl_17" n="N017"/>wie wir bereits berichtet, eine sehr kühle Aufnahme, in die
+         <lb facs="#facs_2_region_1767946579982_1513_tl_18" n="N018"/>sich Textdichter und Componist redlich theilen mögen; denn
+         <lb facs="#facs_2_region_1767946579982_1513_tl_19" n="N019"/>wo sich wirklicher Applaus hervorwagte, galt er augenschein
+         <lb facs="#facs_2_region_1767946579982_1513_tl_20" n="N020" break="no"/>lich den Sängern. Insbesondere Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_8062">Bianchi</rs></hi>, welche
+         <lb facs="#facs_2_region_1767946579982_1513_tl_21" n="N021"/>für die <rs type="person" ref="#hsl_person_id_8315">Virginie</rs> eine fast rührend kindliche Erscheinung und
+         <lb facs="#facs_2_region_1767946579982_1513_tl_22" n="N022"/>natürliche Innigkeit des Ausdruckes mitbringt, fand reich
+         <lb facs="#facs_2_region_1767946579982_1513_tl_23" n="N023" break="no"/>lichen Beifall nach ihrer großen Arie. Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1348">Müller</rs></hi> lieh
+         <lb facs="#facs_2_region_1767946579982_1513_tl_24" n="N024"/>den Gesängen <rs type="person" ref="#hsl_person_id_8316">Paul</rs>’s die ganze so sympathische Treuherzig
+         <lb facs="#facs_2_region_1767946579982_1513_tl_25" n="N025" break="no"/>keit seines Vortrages; die merkliche Unruhe seiner Stimme
+         <lb facs="#facs_2_region_1767946579982_1513_tl_26" n="N026"/>im dritten Acte läßt sich wol aus den Schwierigkeiten dieser
+         <lb facs="#facs_2_region_1767946579982_1513_tl_27" n="N027"/>Scenen und der Aufregung einer ersten Vorstellung erklären.
+         <lb facs="#facs_2_region_1767946579982_1513_tl_28" n="N028"/>Die Rolle des alten Negers <rs type="person" ref="#hsl_person_id_8319">Domingo</rs> wurde von Herrn
+         <lb facs="#facs_2_region_1767946579982_1513_tl_29" n="N029"/>v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_33">Bignio</rs></hi> vortrefflich gespielt und gesungen; desgleichen war
+         <lb facs="#facs_2_region_1767946579982_1513_tl_30" n="N030"/>Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2922">Scaria</rs></hi> als gewaltthätiger <rs type="person" ref="#hsl_person_id_8321">Pflanzer</rs> ganz auf seinem
+         <lb facs="#facs_2_region_1767946579982_1513_tl_31" n="N031"/>Platze. Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7470">Stahl</rs></hi> sah als Sklavin <rs type="person" ref="#hsl_person_id_8320">Meala</rs> gut aus
+         <lb facs="#facs_2_region_1767946579982_1513_tl_32" n="N032"/>und spielte diese schwierige Rolle mit guter Charakteristik;
+         <lb facs="#facs_2_region_1767946579982_1513_tl_33" n="N033"/>ihr Gesang hingegen ließ feinere Schattirungen vermissen,
+         <lb facs="#facs_2_region_1767946579982_1513_tl_34" n="N034"/>die denn auch bei so anhaltend starker und gepreßter Ton
+         <lb facs="#facs_2_region_1767946579982_1513_tl_35" n="N035" break="no"/>gebung schwer zu erzielen sind. Die Mutter <rs type="person" ref="#hsl_person_id_8315">Virginie</rs>ns,
+         <lb facs="#facs_2_region_1767946579982_1513_tl_36" n="N036"/>Frau v. <rs type="person" ref="#hsl_person_id_8317">Latour</rs>, gehört zu jenen heiklen kleinen Rollen, die
+         <lb facs="#facs_2_region_1767946579982_1513_tl_37" n="N037"/>bei bester Darstellung keine Wirkung machen, aber in unge
+         <lb facs="#facs_2_region_1767946579982_1513_tl_38" n="N038" break="no"/>schickten Händen die halbe Oper ruiniren können. Frau
+         <lb facs="#facs_2_region_1767946579982_1513_tl_39" n="N039"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_61">Dillner</rs></hi> hat mit der ihr eigenen künstlerischen Selbstver
+         <lb facs="#facs_2_region_1767946579982_1513_tl_40" n="N040" break="no"/>leugnung diese Partie übernommen und musterhaft durchge
+         <lb facs="#facs_2_region_1767946579982_1513_tl_41" n="N041" break="no"/>führt. Zwei andere kleine Rollen wurden von Fräulein
+         <lb facs="#facs_2_region_1767946579982_1513_tl_42" n="N042"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_7562">Kraus</rs></hi> und Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_8274">Steinbach</rs></hi> ganz befriedigend ge
+         <lb facs="#facs_2_region_1767946579982_1513_tl_43" n="N043" break="no"/>sungen. Herr Capellmeister <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1017">Fuchs</rs></hi> dirigirte die Oper mit
+         <lb facs="#facs_2_region_1767946579982_1513_tl_44" n="N044"/>löblicher Energie. Wohlthätig wirkten die von ihm ange
+         <lb facs="#facs_2_region_1767946579982_1513_tl_45" n="N045" break="no"/>brachten Kürzungen — schade, daß ihrer so wenige waren.
             </p>
          </div>
       </body>

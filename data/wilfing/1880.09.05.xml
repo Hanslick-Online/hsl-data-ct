@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 5756. Wien, Sonntag, den 5. September 1880</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,24 +70,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 5756. Wien, Sonntag, den 5. September 1880</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1880-09-05">05.09.1880</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-03-15">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-03-18">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-03-26">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1142,422 +1139,352 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1771658187427_748_tl_1" n="N001"/><head type="h1">Zwei <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Tenoristen.</head>
+            <lb facs="#facs_1_region_1771658187427_748_tl_2" n="N002"/><head type="h2"><hi rendition="#em"><rs type="person" ref="#hsl_person_id_3980">Duprez</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_239">Roger</rs></hi>.</head>
             <p>
-               <lb facs="#facs_1_line_1772600194943_26" n="N001"/>Nr. 5756. Wien, Sonntag, den 5. September 1880
-            </p>
+         <lb facs="#facs_1_region_1771658187427_748_tl_3" n="N003"/>Ed. H. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3980">Duprez</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_239">Roger</rs></hi> — neben Adolphe
+         <lb facs="#facs_1_region_1771658187427_748_tl_4" n="N004"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_196">Nourrit</rs></hi> die gefeiertsten Tenoristen, welche die <rs type="place" ref="#hsl_place_id_21">franzö
+         <lb facs="#facs_1_region_1771658187427_748_tl_5" n="N005" break="no"/>sisch</rs>e Oper in den letzten sechzig Jahren besessen — haben
+         <lb facs="#facs_1_region_1771658187427_748_tl_6" n="N006"/>ihr Leben selbst beschrieben. Vor wenigen Monaten er
+         <lb facs="#facs_1_region_1771658187427_748_tl_7" n="N007" break="no"/>schienen „<rs type="bibl" ref="#hsl_work_id_6053">Souvenirs d’un chanteu</rs>r“ von G. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3980">Duprez</rs></hi>, und
+         <lb facs="#facs_1_region_1771658187427_748_tl_8" n="N008"/>ganz kürzlich ist diesen „<rs type="bibl" ref="#hsl_work_id_3210">Le carnet d’un ténor</rs>“ von G.
+         <lb facs="#facs_1_region_1771658187427_748_tl_9" n="N009"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_239">Roger</rs></hi> gefolgt. So nahe diese beiden Selbstbiographien in
+         <lb facs="#facs_1_region_1771658187427_748_tl_10" n="N010"/>ihrem Stoffgebiete sich berühren, so verschieden sind sie in
+         <lb facs="#facs_1_region_1771658187427_748_tl_11" n="N011"/>ihrer Tendenz und Darstellungsweise. <rs type="person" ref="#hsl_person_id_3980">Duprez</rs>, der, längst
+         <lb facs="#facs_1_region_1771658187427_748_tl_12" n="N012"/>vom Theater zurückgezogen, als rüstiger alter Herr noch in
+         <lb facs="#facs_1_region_1771658187427_748_tl_13" n="N013"/><rs type="place" ref="#hsl_place_id_44">Paris</rs> lebt, schrieb seine Memoiren in zusammenhängender
+         <lb facs="#facs_1_region_1771658187427_748_tl_14" n="N014"/>Erzählung, und zwar für den Druck, für das große Pu
+         <lb facs="#facs_1_region_1771658187427_748_tl_15" n="N015" break="no"/>blicum. Was <hi rendition="#em"><rs type="person" ref="#hsl_person_id_239">Roger</rs></hi> niederschrieb und nun von seiner
+         <lb facs="#facs_1_region_1771658187427_748_tl_16" n="N016"/>Witwe veröffentlicht wird, war nie für den Druck bestimmt.
+         <lb facs="#facs_1_region_1771658187427_748_tl_17" n="N017"/>Es ist ein Notizbuch (carnet), ein Tagebuch, dem <rs type="person" ref="#hsl_person_id_239">Roger</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1771658187427_748_tl_18" n="N018"/>blos zu eigener Freude und Förderung seine Erlebnisse,
+         <lb facs="#facs_1_region_1771658187427_748_tl_19" n="N019"/>seine Gedanken und Empfindungen anvertraut hat, wie der
+         <lb facs="#facs_1_region_1771658187427_748_tl_20" n="N020"/>unmittelbare Eindruck sie ihm dictirte. Das gibt diesen Auf
+         <lb facs="#facs_1_region_1771658187427_748_tl_21" n="N021" break="no"/>zeichnungen eine wohlthuende Frische und Wahrhaftigkeit.
+         <lb facs="#facs_1_region_1771658187427_748_tl_22" n="N022"/>Wie es in der Regel mit Tagebüchern geht, die, einmal
+         <lb facs="#facs_1_region_1771658187427_748_tl_23" n="N023"/>ernstlich begonnen, uns bald lieb und lieber werden, immer
+         <lb facs="#facs_1_region_1771658187427_748_tl_24" n="N024"/>sorgfältiger und ausführlicher gerathen, vom bloßen Er
+         <lb facs="#facs_1_region_1771658187427_748_tl_25" n="N025" break="no"/>lebniß immer weitere Kreise der Beobachtung und des Ur
+         <lb facs="#facs_1_region_1771658187427_748_tl_26" n="N026" break="no"/>theils ziehend, so ging es auch mit den Aufschreibungen <rs type="person" ref="#hsl_person_id_239">Roger</rs>’s.
+         <lb facs="#facs_1_region_1771658187427_748_tl_27" n="N027"/>Um seine rein persönlichen Erlebnisse gruppiren sich immer
+         <lb facs="#facs_1_region_1771658187427_748_tl_28" n="N028"/>dichter und anmuthiger seine Bemerkungen über Gesang und
+         <lb facs="#facs_1_region_1771658187427_748_tl_29" n="N029"/>Darstellung, Sänger und Componisten, fremde Städte und
+         <lb facs="#facs_1_region_1771658187427_748_tl_30" n="N030"/>Menschen. Alles in jenem freimüthigen, urbanen Tone,
+         <lb facs="#facs_1_region_1771658187427_748_tl_31" n="N031"/>welcher den geistvollen Künstler und den liebenswürdigen,
+         <lb facs="#facs_1_region_1771658187427_748_tl_32" n="N032"/>gebildeten Menschen im Leben zierte. <rs type="person" ref="#hsl_person_id_239">Roger</rs> begann sein
+         <lb facs="#facs_1_region_1771658187427_748_tl_33" n="N033"/>Tagebuch erst im März <date>1847</date>, zehn Jahre nach seinem Ein
+         <lb facs="#facs_1_region_1771658187427_748_tl_34" n="N034" break="no"/>tritte in die Opéra Comique. Zur biographischen Vervoll
+         <lb facs="#facs_1_region_1771658187427_748_tl_35" n="N035" break="no"/>ständigung des Büchleins haben zwei <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Journalisten
+         <lb facs="#facs_1_region_1771658187427_748_tl_36" n="N036"/>je einen Aufsatz verfaßt und dem Tagebuch vordrucken lassen.
+         <lb facs="#facs_1_region_1771658187427_748_tl_37" n="N037"/>In der „Préface“ von Mr. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2163">Gille</rs></hi> finden sich einige<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1771658187427_748_tl_1" n="N001"/>Zwei <rs type="place">französisch</rs>e Tenoristen.
-               <lb facs="#facs_1_region_1771658187427_748_tl_2" n="N002"/>
-               <hi rendition="#em">
-                  <rs type="person">Duprez</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Roger</rs>
-               </hi>.
-               <lb facs="#facs_1_region_1771658187427_748_tl_3" n="N003"/>Ed. H. <hi rendition="#em">
-                  <rs type="person">Duprez</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Roger</rs>
-               </hi> — neben Adolphe
-               <lb facs="#facs_1_region_1771658187427_748_tl_4" n="N004"/>
-               <hi rendition="#em">
-                  <rs type="person">Nourrit</rs>
-               </hi> die gefeiertsten Tenoristen, welche die <rs type="place" continued="true">franzö¬</rs>
-               <lb facs="#facs_1_region_1771658187427_748_tl_5" n="N005"/>
-               <rs type="place" continued="true">sisch</rs>e Oper in den letzten sechzig Jahren besessen — haben
-               <lb facs="#facs_1_region_1771658187427_748_tl_6" n="N006"/>ihr Leben selbst beschrieben. Vor wenigen Monaten er¬
-               <lb facs="#facs_1_region_1771658187427_748_tl_7" n="N007"/>schienen „<rs type="bibl">Souvenirs d'un chanteu</rs>r“ von G. <hi rendition="#em">
-                  <rs type="person">Duprez</rs>
-               </hi>, und
-               <lb facs="#facs_1_region_1771658187427_748_tl_8" n="N008"/>ganz kürzlich ist diesen „<rs type="bibl">Le carnet d'un ténor</rs>“ von G.
-               <lb facs="#facs_1_region_1771658187427_748_tl_9" n="N009"/>
-               <hi rendition="#em">
-                  <rs type="person">Roger</rs>
-               </hi> gefolgt. So nahe diese beiden Selbstbiographien in
-               <lb facs="#facs_1_region_1771658187427_748_tl_10" n="N010"/>ihrem Stoffgebiete sich berühren, so verschieden sind sie in
-               <lb facs="#facs_1_region_1771658187427_748_tl_11" n="N011"/>ihrer Tendenz und Darstellungsweise. <rs type="person">Duprez</rs>, der, längst
-               <lb facs="#facs_1_region_1771658187427_748_tl_12" n="N012"/>vom Theater zurückgezogen, als rüstiger alter Herr noch in
-               <lb facs="#facs_1_region_1771658187427_748_tl_13" n="N013"/>
-               <rs type="place">Paris</rs> lebt, schrieb seine Memoiren in zusammenhängender
-               <lb facs="#facs_1_region_1771658187427_748_tl_14" n="N014"/>Erzählung, und zwar für den Druck, für das große Pu¬
-               <lb facs="#facs_1_region_1771658187427_748_tl_15" n="N015"/>blicum. Was <hi rendition="#em">
-                  <rs type="person">Roger</rs>
-               </hi> niederschrieb und nun von seiner
-               <lb facs="#facs_1_region_1771658187427_748_tl_16" n="N016"/>Witwe veröffentlicht wird, war nie für den Druck bestimmt.
-               <lb facs="#facs_1_region_1771658187427_748_tl_17" n="N017"/>Es ist ein Notizbuch (carnet), ein Tagebuch, dem <rs type="person">Roger</rs>
-               <lb facs="#facs_1_region_1771658187427_748_tl_18" n="N018"/>blos zu eigener Freude und Förderung seine Erlebnisse,
-               <lb facs="#facs_1_region_1771658187427_748_tl_19" n="N019"/>seine Gedanken und Empfindungen anvertraut hat, wie der
-               <lb facs="#facs_1_region_1771658187427_748_tl_20" n="N020"/>unmittelbare Eindruck sie ihm dictirte. Das gibt diesen Auf¬
-               <lb facs="#facs_1_region_1771658187427_748_tl_21" n="N021"/>zeichnungen eine wohlthuende Frische und Wahrhaftigkeit.
-               <lb facs="#facs_1_region_1771658187427_748_tl_22" n="N022"/>Wie es in der Regel mit Tagebüchern geht, die, einmal
-               <lb facs="#facs_1_region_1771658187427_748_tl_23" n="N023"/>ernstlich begonnen, uns bald lieb und lieber werden, immer
-               <lb facs="#facs_1_region_1771658187427_748_tl_24" n="N024"/>sorgfältiger und ausführlicher gerathen, vom bloßen Er¬
-               <lb facs="#facs_1_region_1771658187427_748_tl_25" n="N025"/>lebniß immer weitere Kreise der Beobachtung und des Ur¬
-               <lb facs="#facs_1_region_1771658187427_748_tl_26" n="N026"/>theils ziehend, so ging es auch mit den Aufschreibungen <rs type="person">Roger</rs>'s.
-               <lb facs="#facs_1_region_1771658187427_748_tl_27" n="N027"/>Um seine rein persönlichen Erlebnisse gruppiren sich immer
-               <lb facs="#facs_1_region_1771658187427_748_tl_28" n="N028"/>dichter und anmuthiger seine Bemerkungen über Gesang und
-               <lb facs="#facs_1_region_1771658187427_748_tl_29" n="N029"/>Darstellung, Sänger und Componisten, fremde Städte und
-               <lb facs="#facs_1_region_1771658187427_748_tl_30" n="N030"/>Menschen. Alles in jenem freimüthigen, urbanen Tone,
-               <lb facs="#facs_1_region_1771658187427_748_tl_31" n="N031"/>welcher den geistvollen Künstler und den liebenswürdigen,
-               <lb facs="#facs_1_region_1771658187427_748_tl_32" n="N032"/>gebildeten Menschen im Leben zierte. <rs type="person">Roger</rs> begann sein
-               <lb facs="#facs_1_region_1771658187427_748_tl_33" n="N033"/>Tagebuch erst im März <date month="0" day="0" year="0">1847</date>, zehn Jahre nach seinem Ein¬
-               <lb facs="#facs_1_region_1771658187427_748_tl_34" n="N034"/>tritte in die Opéra Comique. Zur biographischen Vervoll¬
-               <lb facs="#facs_1_region_1771658187427_748_tl_35" n="N035"/>ständigung des Büchleins haben zwei <rs type="place">Paris</rs>er Journalisten
-               <lb facs="#facs_1_region_1771658187427_748_tl_36" n="N036"/>je einen Aufsatz verfaßt und dem Tagebuch vordrucken lassen.
-               <lb facs="#facs_1_region_1771658187427_748_tl_37" n="N037"/>In der „Préface“ von Mr. <hi rendition="#em">
-                  <rs type="person">Gille</rs>
-               </hi> finden sich einige
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1771658190707_751_tl_1" n="N001"/>hübsche anekdotische Züge, in der „Notice biographique“
+         <lb facs="#facs_1_region_1771658190707_751_tl_2" n="N002"/>von Mr. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_8359">Chincholle</rs></hi> einige dankenswerthe, wenngleich
+         <lb facs="#facs_1_region_1771658190707_751_tl_3" n="N003"/>sehr unzureichende theatergeschichtliche Daten aus <rs type="person" ref="#hsl_person_id_239">Roger</rs>’s
+         <lb facs="#facs_1_region_1771658190707_751_tl_4" n="N004"/>Wirksamkeit. Allein, wie leichtfertig beide Herren ihre Auf
+         <lb facs="#facs_1_region_1771658190707_751_tl_5" n="N005" break="no"/>gabe erledigt oder vielmehr abgeschüttelt haben, möge man
+         <lb facs="#facs_1_region_1771658190707_751_tl_6" n="N006"/>nach der einfachen Thatsache beurtheilen, daß keiner von ihnen
+         <lb facs="#facs_1_region_1771658190707_751_tl_7" n="N007"/>den Tag oder auch nur das Jahr von <rs type="person" ref="#hsl_person_id_239">Roger</rs>’s Tod angibt!
+         <lb facs="#facs_1_region_1771658190707_751_tl_8" n="N008"/>Angesichts solcher Vergeßlichkeit muß man sich wol darein
+         <lb facs="#facs_1_region_1771658190707_751_tl_9" n="N009"/>finden, über <rs type="person" ref="#hsl_person_id_239">Roger</rs>’s letzte Rückkehr zur Komischen Oper
+         <lb facs="#facs_1_region_1771658190707_751_tl_10" n="N010"/>(<date>1861</date>) und seine zehnjährige Thätigkeit als Gesanglehrer
+         <lb facs="#facs_1_region_1771658190707_751_tl_11" n="N011"/>am Conservatorium nichts zu erfahren.
+            </p><p>
+         <lb facs="#facs_1_region_1771658190707_751_tl_12" n="N012"/><hi rendition="#em">Gustave <rs type="person" ref="#hsl_person_id_239">Roger</rs></hi>, ein <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Kind, ist am 17.
+         <lb facs="#facs_1_region_1771658190707_751_tl_13" n="N013"/>December <date>1818</date> geboren. Dieser „December“ machte ihm
+         <lb facs="#facs_1_region_1771658190707_751_tl_14" n="N014"/>viel Herzweh in späteren Jahren. „Sie haben mich um ein
+         <lb facs="#facs_1_region_1771658190707_751_tl_15" n="N015"/>Jahr älter gemacht!“ klagte er mir wehmüthig, als ich im
+         <lb facs="#facs_1_region_1771658190707_751_tl_16" n="N016"/>Jahre <date>1868</date> schrieb, <rs type="person" ref="#hsl_person_id_239">Roger</rs> sei für einen Mann von fünfzig
+         <lb facs="#facs_1_region_1771658190707_751_tl_17" n="N017"/>Jahren beneidenswerth jugendlich in Stimme und Erschei
+         <lb facs="#facs_1_region_1771658190707_751_tl_18" n="N018" break="no"/>nung. Ich schlug dem gekränkten Künstler in <hi rendition="#em"><rs type="person" ref="#hsl_person_id_78">Fétis</rs>’</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1771658190707_751_tl_19" n="N019"/>biographischem <rs type="bibl" ref="#hsl_work_id_4509">Lexikon</rs> sein Geburtsjahr <date>1818</date> auf. „Ja
+         <lb facs="#facs_1_region_1771658190707_751_tl_20" n="N020"/>wol,“ seufzte <rs type="person" ref="#hsl_person_id_239">Roger</rs>, „aber erst am 17. December! Man
+         <lb facs="#facs_1_region_1771658190707_751_tl_21" n="N021"/>hält mich beinahe um ein Jahr älter, und ein Jahr ist
+         <lb facs="#facs_1_region_1771658190707_751_tl_22" n="N022"/>viel in meinem Alter!“ Sohn eines <rs type="person" ref="#hsl_person_id_8361">Notar</rs>s, aber Großneffe
+         <lb facs="#facs_1_region_1771658190707_751_tl_23" n="N023"/>des <rs type="person" ref="#hsl_person_id_8363">Grafen de la Grange</rs>, Gouverneurs von <rs type="place" ref="#hsl_place_id_1188">Arras</rs>, und
+         <lb facs="#facs_1_region_1771658190707_751_tl_24" n="N024"/>Neffe des Deputirten Baron <rs type="person" ref="#hsl_person_id_8362">Roger</rs>, wuchs <rs type="person" ref="#hsl_person_id_239">Gustav</rs> mehr
+         <lb facs="#facs_1_region_1771658190707_751_tl_25" n="N025"/>cavaliermäßig als bürgerlich auf. Seiner ersten Erziehung
+         <lb facs="#facs_1_region_1771658190707_751_tl_26" n="N026"/>verdankt er die feine, ungezwungene, vornehme Haltung, die
+         <lb facs="#facs_1_region_1771658190707_751_tl_27" n="N027"/>ihn im Salon wie auf der Bühne auszeichnete. Zum Juristen
+         <lb facs="#facs_1_region_1771658190707_751_tl_28" n="N028"/>bestimmt, wurde er nach Beendigung seiner Studien im Collège
+         <lb facs="#facs_1_region_1771658190707_751_tl_29" n="N029"/>Louis le Grand zu einem Advocaten in die Praxis gegeben.
+         <lb facs="#facs_1_region_1771658190707_751_tl_30" n="N030"/>Der Acten überdrüssig und voll früher Theater-Passion,
+         <lb facs="#facs_1_region_1771658190707_751_tl_31" n="N031"/>flüchtet <rs type="person" ref="#hsl_person_id_239">Roger</rs> und tritt als Vaudeville-Liebhaber auf einer
+         <lb facs="#facs_1_region_1771658190707_751_tl_32" n="N032"/>kleinen Bühne auf. Er wird entdeckt, und sein strenger <rs type="person" ref="#hsl_person_id_8362">Onkel</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1771658190707_751_tl_33" n="N033"/>schickt ihn zu einem Notar in <rs type="place" ref="#hsl_place_id_1185">Argentan</rs>, wo es gar kein
+         <lb facs="#facs_1_region_1771658190707_751_tl_34" n="N034"/>Theater gibt. Da errichtet der junge <rs type="person" ref="#hsl_person_id_239">Roger</rs> selber eine Art
+         <lb facs="#facs_1_region_1771658190707_751_tl_35" n="N035"/>Theater im Wirthshaus „zum Löwen“. Der Theaterzettel
+         <lb facs="#facs_1_region_1771658190707_751_tl_36" n="N036"/>mit der Schlußbemerkung: „Man zahlt nach Belieben und
+         <lb facs="#facs_1_region_1771658190707_751_tl_37" n="N037"/>erst beim Herausgehen“ und der Unterschrift: „Gustave
+         <lb facs="#facs_1_region_1771658190707_751_tl_38" n="N038"/><rs type="person" ref="#hsl_person_id_239">Roger</rs>, Directeur“ gehört zu den komischesten dieser Gattung.
+         <lb facs="#facs_1_region_1771658190707_751_tl_39" n="N039"/>Der Notar wohnte der Vorstellung bei, applaudirte seinem
+         <lb facs="#facs_1_region_1771658190707_751_tl_40" n="N040"/>talentvollen Praktikanten und setzte ihn am andern Morgen<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1771658190707_751_tl_1" n="N001"/>hübsche anekdotische Züge, in der „Notice biographique“
-               <lb facs="#facs_1_region_1771658190707_751_tl_2" n="N002"/>von Mr. <hi rendition="#em">
-                  <rs type="person">Chincholle</rs>
-               </hi> einige dankenswerthe, wenngleich
-               <lb facs="#facs_1_region_1771658190707_751_tl_3" n="N003"/>sehr unzureichende theatergeschichtliche Daten aus <rs type="person">Roger</rs>'s
-               <lb facs="#facs_1_region_1771658190707_751_tl_4" n="N004"/>Wirksamkeit. Allein, wie leichtfertig beide Herren ihre Auf¬
-               <lb facs="#facs_1_region_1771658190707_751_tl_5" n="N005"/>gabe erledigt oder vielmehr abgeschüttelt haben, möge man
-               <lb facs="#facs_1_region_1771658190707_751_tl_6" n="N006"/>nach der einfachen Thatsache beurtheilen, daß keiner von ihnen
-               <lb facs="#facs_1_region_1771658190707_751_tl_7" n="N007"/>den Tag oder auch nur das Jahr von <rs type="person">Roger</rs>'s Tod angibt!
-               <lb facs="#facs_1_region_1771658190707_751_tl_8" n="N008"/>Angesichts solcher Vergeßlichkeit muß man sich wol darein
-               <lb facs="#facs_1_region_1771658190707_751_tl_9" n="N009"/>finden, über <rs type="person">Roger</rs>'s letzte Rückkehr zur Komischen Oper
-               <lb facs="#facs_1_region_1771658190707_751_tl_10" n="N010"/>(<date month="0" day="0" year="0">1861</date>) und seine zehnjährige Thätigkeit als Gesanglehrer
-               <lb facs="#facs_1_region_1771658190707_751_tl_11" n="N011"/>am Conservatorium nichts zu erfahren.
-               <lb facs="#facs_1_region_1771658190707_751_tl_12" n="N012"/>
-               <hi rendition="#em">Gustave <rs type="person">Roger</rs>
-               </hi>, ein <rs type="place">Paris</rs>er Kind, ist am 17.
-               <lb facs="#facs_1_region_1771658190707_751_tl_13" n="N013"/>December <date month="0" day="0" year="0">1818</date> geboren. Dieser „December“ machte ihm
-               <lb facs="#facs_1_region_1771658190707_751_tl_14" n="N014"/>viel Herzweh in späteren Jahren. „Sie haben mich um ein
-               <lb facs="#facs_1_region_1771658190707_751_tl_15" n="N015"/>Jahr älter gemacht!“ klagte er mir wehmüthig, als ich im
-               <lb facs="#facs_1_region_1771658190707_751_tl_16" n="N016"/>Jahre <date month="0" day="0" year="0">1868</date> schrieb, <rs type="person">Roger</rs> sei für einen Mann von fünfzig
-               <lb facs="#facs_1_region_1771658190707_751_tl_17" n="N017"/>Jahren beneidenswerth jugendlich in Stimme und Erschei¬
-               <lb facs="#facs_1_region_1771658190707_751_tl_18" n="N018"/>nung. Ich schlug dem gekränkten Künstler in <hi rendition="#em">
-                  <rs type="person">Fétis</rs>'</hi>
-               <lb facs="#facs_1_region_1771658190707_751_tl_19" n="N019"/>biographischem <rs type="bibl">Lexikon</rs> sein Geburtsjahr <date month="0" day="0" year="0">1818</date> auf. „Ja
-               <lb facs="#facs_1_region_1771658190707_751_tl_20" n="N020"/>wol,“ seufzte <rs type="person">Roger</rs>, „aber erst am 17. December! Man
-               <lb facs="#facs_1_region_1771658190707_751_tl_21" n="N021"/>hält mich beinahe um ein Jahr älter, und ein Jahr ist
-               <lb facs="#facs_1_region_1771658190707_751_tl_22" n="N022"/>viel in meinem Alter!“ Sohn eines <rs type="person">Notar</rs>s, aber Großneffe
-               <lb facs="#facs_1_region_1771658190707_751_tl_23" n="N023"/>des <rs type="person">Grafen de la Grange</rs>, Gouverneurs von <rs type="place">Arras</rs>, und
-               <lb facs="#facs_1_region_1771658190707_751_tl_24" n="N024"/>Neffe des Deputirten Baron <rs type="person">Roger</rs>, wuchs <rs type="person">Gustav</rs> mehr
-               <lb facs="#facs_1_region_1771658190707_751_tl_25" n="N025"/>cavaliermäßig als bürgerlich auf. Seiner ersten Erziehung
-               <lb facs="#facs_1_region_1771658190707_751_tl_26" n="N026"/>verdankt er die feine, ungezwungene, vornehme Haltung, die
-               <lb facs="#facs_1_region_1771658190707_751_tl_27" n="N027"/>ihn im Salon wie auf der Bühne auszeichnete. Zum Juristen
-               <lb facs="#facs_1_region_1771658190707_751_tl_28" n="N028"/>bestimmt, wurde er nach Beendigung seiner Studien im Collège
-               <lb facs="#facs_1_region_1771658190707_751_tl_29" n="N029"/>Louis le Grand zu einem Advocaten in die Praxis gegeben.
-               <lb facs="#facs_1_region_1771658190707_751_tl_30" n="N030"/>Der Acten überdrüssig und voll früher Theater-Passion,
-               <lb facs="#facs_1_region_1771658190707_751_tl_31" n="N031"/>flüchtet <rs type="person">Roger</rs> und tritt als Vaudeville-Liebhaber auf einer
-               <lb facs="#facs_1_region_1771658190707_751_tl_32" n="N032"/>kleinen Bühne auf. Er wird entdeckt, und sein strenger <rs type="person">Onkel</rs>
-               <lb facs="#facs_1_region_1771658190707_751_tl_33" n="N033"/>schickt ihn zu einem <rs type="person">Notar</rs> in <rs type="place">Argentan</rs>, wo es gar kein
-               <lb facs="#facs_1_region_1771658190707_751_tl_34" n="N034"/>Theater gibt. Da errichtet der junge <rs type="person">Roger</rs> selber eine Art
-               <lb facs="#facs_1_region_1771658190707_751_tl_35" n="N035"/>Theater im Wirthshaus „zum Löwen“. Der Theaterzettel
-               <lb facs="#facs_1_region_1771658190707_751_tl_36" n="N036"/>mit der Schlußbemerkung: „Man zahlt nach Belieben und
-               <lb facs="#facs_1_region_1771658190707_751_tl_37" n="N037"/>erst beim Herausgehen“ und der Unterschrift: „Gustave
-               <lb facs="#facs_1_region_1771658190707_751_tl_38" n="N038"/>
-               <rs type="person">Roger</rs>, Directeur“ gehört zu den komischesten dieser Gattung.
-               <lb facs="#facs_1_region_1771658190707_751_tl_39" n="N039"/>Der <rs type="person">Notar</rs> wohnte der Vorstellung bei, applaudirte seinem
-               <lb facs="#facs_1_region_1771658190707_751_tl_40" n="N040"/>talentvollen Praktikanten und setzte ihn am andern Morgen
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1771658196187_754_tl_1" n="N001"/>vor die Thür. Nun wurde <rs type="person">Roger</rs> nach einem andern Nest,
-               <lb facs="#facs_1_region_1771658196187_754_tl_2" n="N002"/>
-               <rs type="place">Montargny</rs>, geschickt — dieselbe Geschichte. Da gab die
-               <lb facs="#facs_1_region_1771658196187_754_tl_3" n="N003"/>Familie endlich nach, und der junge Advocatenschreiber durfte
-               <lb facs="#facs_1_region_1771658196187_754_tl_4" n="N004"/>ins Conservatorium eintreten. Nach einem Jahre verließ er
-               <lb facs="#facs_1_region_1771658196187_754_tl_5" n="N005"/>es mit zwei ersten Preisen (Gesang und Declamation) und
-               <lb facs="#facs_1_region_1771658196187_754_tl_6" n="N006"/>debütirte <date month="0" day="0" year="0">1838</date> in der Opéra Comique als <rs type="person">Georges</rs> in
-               <lb facs="#facs_1_region_1771658196187_754_tl_7" n="N007"/>
-               <rs type="person">Halévy</rs>'s „<rs type="bibl">Blitz</rs>“. Der Erfolg des erst zwanzigjährigen
-               <lb facs="#facs_1_region_1771658196187_754_tl_8" n="N008"/>Sängers war ein entschiedener und seine Carrière damit fest
-               <lb facs="#facs_1_region_1771658196187_754_tl_9" n="N009"/>begründet.
-               <lb facs="#facs_1_region_1771658196187_754_tl_10" n="N010"/>Zehn Jahre wirkt <rs type="person">Roger</rs> an der Komischen Oper. Als
-               <lb facs="#facs_1_region_1771658196187_754_tl_11" n="N011"/>er sein Tagebuch beginnt, träumt er bereits von der „Großen“.
-               <lb facs="#facs_1_region_1771658196187_754_tl_12" n="N012"/>Eine stillschweigende Gegnerschaft und Gereiztheit bildet sich
-               <lb facs="#facs_1_region_1771658196187_754_tl_13" n="N013"/>zwischen ihm und seinem <rs type="person">Director</rs>, welcher <rs type="person">Roger</rs> mit ver¬
-               <lb facs="#facs_1_region_1771658196187_754_tl_14" n="N014"/>letzender Gleichgiltigkeit behandelt, um ihn am Vorabend der
-               <lb facs="#facs_1_region_1771658196187_754_tl_15" n="N015"/>Contracts-Erneuerung billiger zu bekommen. Am Schlusse
-               <lb facs="#facs_1_region_1771658196187_754_tl_16" n="N016"/>dieses Engagements übernimmt <rs type="person">Roger</rs>, der anfangs in
-               <lb facs="#facs_1_region_1771658196187_754_tl_17" n="N017"/>
-               <rs type="person">Halévy</rs>'s „<rs type="bibl">Blitz</rs>“ den Buffo <rs type="person">Georges</rs> gesungen, die ernste
-               <lb facs="#facs_1_region_1771658196187_754_tl_18" n="N018"/>Tenorpartie <rs type="person">Lyonel</rs>, nach dem berühmten <hi rendition="#em">
-                  <rs type="person">Chollet</rs>
-               </hi>, für
-               <lb facs="#facs_1_region_1771658196187_754_tl_19" n="N019"/>den auch <rs type="bibl">Zampa</rs>, der <rs type="bibl">Postillon von Longjumeau</rs> und
-               <lb facs="#facs_1_region_1771658196187_754_tl_20" n="N020"/>andere geschrieben waren. Die übertriebenen Lobsprüche,
-               <lb facs="#facs_1_region_1771658196187_754_tl_21" n="N021"/>welche <rs type="person">Roger</rs> in der Generalprobe von <rs type="person">Halévy</rs> und
-               <lb facs="#facs_1_region_1771658196187_754_tl_22" n="N022"/>St. <rs type="person">Georges</rs> empfängt, thun ihm weh: „<rs type="person">Chollet</rs> war in
-               <lb facs="#facs_1_region_1771658196187_754_tl_23" n="N023"/>seiner Rolle vortrefflich gewesen, und nun verkleinern die
-               <lb facs="#facs_1_region_1771658196187_754_tl_24" n="N024"/>Autoren sein Verdienst, um mich zu erheben. Traurige,
-               <lb facs="#facs_1_region_1771658196187_754_tl_25" n="N025"/>immer wiederkehrende Wendung der Dinge! Also, wenn ich
-               <lb facs="#facs_1_region_1771658196187_754_tl_26" n="N026"/>selbst im Niedergang begriffen bin, und es kommt ein in¬
-               <lb facs="#facs_1_region_1771658196187_754_tl_27" n="N027"/>telligenter junger Mann mit Stimme und ohne Bauch, so
-               <lb facs="#facs_1_region_1771658196187_754_tl_28" n="N028"/>wird man ihm ebenso <hi rendition="#em">meine</hi> Vergangenheit, <hi rendition="#em">meine</hi> Re¬
-               <lb facs="#facs_1_region_1771658196187_754_tl_29" n="N029"/>putation unter die Füße breiten, um ihn zu erheben. Aber
-               <lb facs="#facs_1_region_1771658196187_754_tl_30" n="N030"/>wie“ setzt er mit feiner Selbstbeobachtung gleich hinzu,
-               <lb facs="#facs_1_region_1771658196187_754_tl_31" n="N031"/>„stößt diese Reflexion, zu der ich mich doch durch auf¬
-               <lb facs="#facs_1_region_1771658196187_754_tl_32" n="N032"/>richtigste Freundschaft für <rs type="person">Chollet</rs> gedrängt glaubte, nicht
-               <lb facs="#facs_1_region_1771658196187_754_tl_33" n="N033"/>hart an die Eigenliebe? O Egoismus, solltest du das wahre
-               <lb facs="#facs_1_region_1771658196187_754_tl_34" n="N034"/>Triebrad selbst unserer besten Handlungen und Gedanken
-               <lb facs="#facs_1_region_1771658196187_754_tl_35" n="N035"/>sein?“ Ueberaus wohlthuend berührt die neidlose, warme
-               <lb facs="#facs_1_region_1771658196187_754_tl_36" n="N036"/>Anerkennung, mit der <rs type="person">Roger</rs> von anderen Sängern, insbe¬
-               <lb facs="#facs_1_region_1771658196187_754_tl_37" n="N037"/>sondere von seinen Rivalen, den damals gefeiertsten Teno¬
-               <lb facs="#facs_1_region_1771658196187_754_tl_38" n="N038"/>risten spricht. Die Stimme <hi rendition="#em">
-                  <rs type="person">Mario</rs>'s</hi> nennt er „geradezu
-               <lb facs="#facs_1_region_1771658196187_754_tl_39" n="N039"/>unbegreiflich, bezaubernd durch Reiz, Kraft und Leichtigkeit“.
-               <lb facs="#facs_1_region_1771658196187_754_tl_40" n="N040"/>Einem stimmbegabten, aber durch Effecthascherei verdorbenen
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1771658196187_754_tl_1" n="N001"/>vor die Thür. Nun wurde <rs type="person" ref="#hsl_person_id_239">Roger</rs> nach einem andern Nest,
+         <lb facs="#facs_1_region_1771658196187_754_tl_2" n="N002"/><rs type="place" ref="#hsl_place_id_1189">Montargny</rs>, geschickt — dieselbe Geschichte. Da gab die
+         <lb facs="#facs_1_region_1771658196187_754_tl_3" n="N003"/>Familie endlich nach, und der junge Advocatenschreiber durfte
+         <lb facs="#facs_1_region_1771658196187_754_tl_4" n="N004"/>ins Conservatorium eintreten. Nach einem Jahre verließ er
+         <lb facs="#facs_1_region_1771658196187_754_tl_5" n="N005"/>es mit zwei ersten Preisen (Gesang und Declamation) und
+         <lb facs="#facs_1_region_1771658196187_754_tl_6" n="N006"/>debütirte <date>1838</date> in der Opéra Comique als <rs type="person" ref="#hsl_person_id_8358">Georges</rs> in
+         <lb facs="#facs_1_region_1771658196187_754_tl_7" n="N007"/><rs type="person" ref="#hsl_person_id_106">Halévy</rs>’s „<rs type="bibl" ref="#hsl_work_id_138">Blitz</rs>“. Der Erfolg des erst zwanzigjährigen
+         <lb facs="#facs_1_region_1771658196187_754_tl_8" n="N008"/>Sängers war ein entschiedener und seine Carrière damit fest
+         <lb facs="#facs_1_region_1771658196187_754_tl_9" n="N009"/>begründet.
+            </p><p>
+         <lb facs="#facs_1_region_1771658196187_754_tl_10" n="N010"/>Zehn Jahre wirkt <rs type="person" ref="#hsl_person_id_239">Roger</rs> an der Komischen Oper. Als
+         <lb facs="#facs_1_region_1771658196187_754_tl_11" n="N011"/>er sein Tagebuch beginnt, träumt er bereits von der „Großen“.
+         <lb facs="#facs_1_region_1771658196187_754_tl_12" n="N012"/>Eine stillschweigende Gegnerschaft und Gereiztheit bildet sich
+         <lb facs="#facs_1_region_1771658196187_754_tl_13" n="N013"/>zwischen ihm und seinem <rs type="person" ref="#hsl_person_id_8366">Director</rs>, welcher <rs type="person" ref="#hsl_person_id_239">Roger</rs> mit ver
+         <lb facs="#facs_1_region_1771658196187_754_tl_14" n="N014" break="no"/>letzender Gleichgiltigkeit behandelt, um ihn am Vorabend der
+         <lb facs="#facs_1_region_1771658196187_754_tl_15" n="N015"/>Contracts-Erneuerung billiger zu bekommen. Am Schlusse
+         <lb facs="#facs_1_region_1771658196187_754_tl_16" n="N016"/>dieses Engagements übernimmt <rs type="person" ref="#hsl_person_id_239">Roger</rs>, der anfangs in
+         <lb facs="#facs_1_region_1771658196187_754_tl_17" n="N017"/><rs type="person" ref="#hsl_person_id_106">Halévy</rs>’s „<rs type="bibl" ref="#hsl_work_id_138">Blitz</rs>“ den Buffo <rs type="person" ref="#hsl_person_id_8358">Georges</rs> gesungen, die ernste
+         <lb facs="#facs_1_region_1771658196187_754_tl_18" n="N018"/>Tenorpartie <rs type="person" ref="#hsl_person_id_1812">Lyonel</rs>, nach dem berühmten <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2965">Chollet</rs></hi>, für
+         <lb facs="#facs_1_region_1771658196187_754_tl_19" n="N019"/>den auch <rs type="bibl" ref="#hsl_work_id_28">Zampa</rs>, der <rs type="bibl" ref="#hsl_work_id_587">Postillon von Longjumeau</rs> und
+         <lb facs="#facs_1_region_1771658196187_754_tl_20" n="N020"/>andere geschrieben waren. Die übertriebenen Lobsprüche,
+         <lb facs="#facs_1_region_1771658196187_754_tl_21" n="N021"/>welche <rs type="person" ref="#hsl_person_id_239">Roger</rs> in der Generalprobe von <rs type="person" ref="#hsl_person_id_106">Halévy</rs> und
+         <lb facs="#facs_1_region_1771658196187_754_tl_22" n="N022"/>St. <rs type="person" ref="#hsl_person_id_8358">Georges</rs> empfängt, thun ihm weh: „<rs type="person" ref="#hsl_person_id_2965">Chollet</rs> war in
+         <lb facs="#facs_1_region_1771658196187_754_tl_23" n="N023"/>seiner Rolle vortrefflich gewesen, und nun verkleinern die
+         <lb facs="#facs_1_region_1771658196187_754_tl_24" n="N024"/>Autoren sein Verdienst, um mich zu erheben. Traurige,
+         <lb facs="#facs_1_region_1771658196187_754_tl_25" n="N025"/>immer wiederkehrende Wendung der Dinge! Also, wenn ich
+         <lb facs="#facs_1_region_1771658196187_754_tl_26" n="N026"/>selbst im Niedergang begriffen bin, und es kommt ein in
+         <lb facs="#facs_1_region_1771658196187_754_tl_27" n="N027" break="no"/>telligenter junger Mann mit Stimme und ohne Bauch, so
+         <lb facs="#facs_1_region_1771658196187_754_tl_28" n="N028"/>wird man ihm ebenso <hi rendition="#em">meine</hi> Vergangenheit, <hi rendition="#em">meine</hi> Re
+         <lb facs="#facs_1_region_1771658196187_754_tl_29" n="N029" break="no"/>putation unter die Füße breiten, um ihn zu erheben. Aber
+         <lb facs="#facs_1_region_1771658196187_754_tl_30" n="N030"/>wie“ setzt er mit feiner Selbstbeobachtung gleich hinzu,
+         <lb facs="#facs_1_region_1771658196187_754_tl_31" n="N031"/>„stößt diese Reflexion, zu der ich mich doch durch auf
+         <lb facs="#facs_1_region_1771658196187_754_tl_32" n="N032" break="no"/>richtigste Freundschaft für <rs type="person" ref="#hsl_person_id_2965">Chollet</rs> gedrängt glaubte, nicht
+         <lb facs="#facs_1_region_1771658196187_754_tl_33" n="N033"/>hart an die Eigenliebe? O Egoismus, solltest du das wahre
+         <lb facs="#facs_1_region_1771658196187_754_tl_34" n="N034"/>Triebrad selbst unserer besten Handlungen und Gedanken
+         <lb facs="#facs_1_region_1771658196187_754_tl_35" n="N035"/>sein?“ Ueberaus wohlthuend berührt die neidlose, warme
+         <lb facs="#facs_1_region_1771658196187_754_tl_36" n="N036"/>Anerkennung, mit der <rs type="person" ref="#hsl_person_id_239">Roger</rs> von anderen Sängern, insbe
+         <lb facs="#facs_1_region_1771658196187_754_tl_37" n="N037" break="no"/>sondere von seinen Rivalen, den damals gefeiertsten Teno
+         <lb facs="#facs_1_region_1771658196187_754_tl_38" n="N038" break="no"/>risten spricht. Die Stimme <hi rendition="#em"><rs type="person" ref="#hsl_person_id_863">Mario</rs>’s</hi> nennt er „geradezu
+         <lb facs="#facs_1_region_1771658196187_754_tl_39" n="N039"/>unbegreiflich, bezaubernd durch Reiz, Kraft und Leichtigkeit“.
+         <lb facs="#facs_1_region_1771658196187_754_tl_40" n="N040"/>Einem stimmbegabten, aber durch Effecthascherei verdorbenen<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1771658210931_760_tl_1" n="N001"/>Tenoristen in <rs type="place" ref="#hsl_place_id_34">London</rs> stellt er zum Muster <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3980">Duprez</rs></hi> auf:
+         <lb facs="#facs_2_region_1771658210931_760_tl_2" n="N002"/>„unser Aller Muster“. Und da er eines Abends ein verun
+         <lb facs="#facs_2_region_1771658210931_760_tl_3" n="N003" break="no"/>glücktes hohes B gewissenhaft in sein Tagebuch einträgt, fügt
+         <lb facs="#facs_2_region_1771658210931_760_tl_4" n="N004"/>er mit schmerzlicher Bewunderung bei: „Wie hat <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2290">Rubini</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1771658210931_760_tl_5" n="N005"/>das wundervoll herausgeschleudert!“
+            </p><p>
+         <lb facs="#facs_2_region_1771658210931_760_tl_6" n="N006"/>Mit unwiderstehlicher Macht zieht es <rs type="person" ref="#hsl_person_id_239">Roger</rs> zur Großen
+         <lb facs="#facs_2_region_1771658210931_760_tl_7" n="N007"/>Oper „Erziehung und Anlage,“ klagt er, „weisen mich an
+         <lb facs="#facs_2_region_1771658210931_760_tl_8" n="N008"/>das Große, und ich bin einem Genre verfallen, das nur
+         <lb facs="#facs_2_region_1771658210931_760_tl_9" n="N009"/>eine geringe Stelle in der Literatur einnimmt und gar keine
+         <lb facs="#facs_2_region_1771658210931_760_tl_10" n="N010"/>in der Poesie.“ Seine brennende Begierde, zu großen heroi
+         <lb facs="#facs_2_region_1771658210931_760_tl_11" n="N011" break="no"/>schen Partien überzugehen, macht <rs type="person" ref="#hsl_person_id_239">Roger</rs> offenbar ungerecht
+         <lb facs="#facs_2_region_1771658210931_760_tl_12" n="N012"/>gegen die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Opéra comique, deren beste Schöpfun
+         <lb facs="#facs_2_region_1771658210931_760_tl_13" n="N013" break="no"/>gen doch überhaupt das Beste bleiben, was die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e
+         <lb facs="#facs_2_region_1771658210931_760_tl_14" n="N014"/>Musik hervorgebracht hat. Ja, seine eigenen Leistungen taxirt
+         <lb facs="#facs_2_region_1771658210931_760_tl_15" n="N015"/>er in diesem Augenblicke kaum ganz richtig; denn so bewun
+         <lb facs="#facs_2_region_1771658210931_760_tl_16" n="N016" break="no"/>derungswürdig <rs type="person" ref="#hsl_person_id_239">Roger</rs> als <rs type="person" ref="#hsl_person_id_647">Raoul</rs>, <rs type="person" ref="#hsl_person_id_521">Edgar</rs>, <rs type="person" ref="#hsl_person_id_503">Fernand</rs> auch ge
+         <lb facs="#facs_2_region_1771658210931_760_tl_17" n="N017" break="no"/>wesen, sein Vollendetstes, Individuellstes gab er doch im
+         <lb facs="#facs_2_region_1771658210931_760_tl_18" n="N018"/>musikalischen Lustspiel, in der „<rs type="bibl" ref="#hsl_work_id_1361">Weißen Frau</rs>“, „<rs type="bibl" ref="#hsl_work_id_194">Fra Diavolo</rs>“,
+         <lb facs="#facs_2_region_1771658210931_760_tl_19" n="N019"/>„<rs type="bibl" ref="#hsl_work_id_1081">Johann von Paris</rs>“, im „<rs type="bibl" ref="#hsl_work_id_118">Schwarzen Domino</rs>“ etc. Den
+         <lb facs="#facs_2_region_1771658210931_760_tl_20" n="N020"/>Anfeindungen und Eifersüchteleien seiner Collegen setzt er nur
+         <lb facs="#facs_2_region_1771658210931_760_tl_21" n="N021"/>verdoppelten Fleiß, verdoppelten Muth entgegen: „Unbeirrt
+         <lb facs="#facs_2_region_1771658210931_760_tl_22" n="N022"/>von solchen Spöttern, will ich hoch aufwärts blicken und nur
+         <lb facs="#facs_2_region_1771658210931_760_tl_23" n="N023"/>die Zukunft denken. Ja, man muß Ehrgeiz haben! Wäre
+         <lb facs="#facs_2_region_1771658210931_760_tl_24" n="N024"/><rs type="person" ref="#hsl_person_id_39">Bonaparte</rs> ohne Ehrgeiz gewesen, so hätten wir keinen
+         <lb facs="#facs_2_region_1771658210931_760_tl_25" n="N025"/><rs type="person" ref="#hsl_person_id_39">Napoleon</rs> gehabt.“
+            </p><p>
+         <lb facs="#facs_2_region_1771658210931_760_tl_26" n="N026"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s</hi> Opern und die neu-<rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Gesangs
+         <lb facs="#facs_2_region_1771658210931_760_tl_27" n="N027" break="no"/>methode flößen ihm unverholenes Mißtrauen ein. „Die
+         <lb facs="#facs_2_region_1771658210931_760_tl_28" n="N028"/><rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Schule,“ sagt <rs type="person" ref="#hsl_person_id_239">Roger</rs>, „hat niemals einen beson
+         <lb facs="#facs_2_region_1771658210931_760_tl_29" n="N029" break="no"/>dern Ideengehalt besessen, aber sie schrieb gut für die
+         <lb facs="#facs_2_region_1771658210931_760_tl_30" n="N030"/>Stimmen und schonte sie. Jetzt trachtet sie nach tiefer Bedeut
+         <lb facs="#facs_2_region_1771658210931_760_tl_31" n="N031" break="no"/>samkeit, ohne sie zu erreichen, und ruinirt die stärksten Lungen
+         <lb facs="#facs_2_region_1771658210931_760_tl_32" n="N032"/>in wenig Jahren. Ich weiß nicht, welche Zukunft der <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’
+         <lb facs="#facs_2_region_1771658210931_760_tl_33" n="N033" break="no"/>schen Schule bevorsteht, aber lächerlich bleibt es, wie diese
+         <lb facs="#facs_2_region_1771658210931_760_tl_34" n="N034"/>Musik sich an die höchsten Ideen wagen darf und erhabene
+         <lb facs="#facs_2_region_1771658210931_760_tl_35" n="N035"/>poetische Schöpfungen wie <rs type="bibl" ref="#hsl_work_id_94">Macbeth</rs> oder <rs type="bibl" ref="#hsl_work_id_204">Hernani</rs> ent
+         <lb facs="#facs_2_region_1771658210931_760_tl_36" n="N036" break="no"/>kleidet, um ihnen eine Neger-Generals-Uniform anzuziehen.“
+         <lb facs="#facs_2_region_1771658210931_760_tl_37" n="N037"/>Ueber die Wechselwirkung der neuesten <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Sänger
+         <lb facs="#facs_2_region_1771658210931_760_tl_38" n="N038"/>und ihrer Componisten urtheilt <rs type="person" ref="#hsl_person_id_239">Roger</rs> sehr richtig. „Warum,“
+         <lb facs="#facs_2_region_1771658210931_760_tl_39" n="N039"/>meint er, „sollte der Componist weniger faul sein, als der
+         <lb facs="#facs_2_region_1771658210931_760_tl_40" n="N040"/>Sänger? Wenn dieser leichter eine Wirkung durch die Stimme,<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1771658210931_760_tl_1" n="N001"/>
-               <rs type="person">Tenoristen</rs> in <rs type="place">London</rs> stellt er zum Muster <hi rendition="#em">
-                  <rs type="person">Duprez</rs>
-               </hi> auf:
-               <lb facs="#facs_2_region_1771658210931_760_tl_2" n="N002"/>„unser Aller Muster“. Und da er eines Abends ein verun¬
-               <lb facs="#facs_2_region_1771658210931_760_tl_3" n="N003"/>glücktes hohes B gewissenhaft in sein Tagebuch einträgt, fügt
-               <lb facs="#facs_2_region_1771658210931_760_tl_4" n="N004"/>er mit schmerzlicher Bewunderung bei: „Wie hat <hi rendition="#em">
-                  <rs type="person">Rubini</rs>
-               </hi>
-               <lb facs="#facs_2_region_1771658210931_760_tl_5" n="N005"/>das wundervoll herausgeschleudert!“
-               <lb facs="#facs_2_region_1771658210931_760_tl_6" n="N006"/>Mit unwiderstehlicher Macht zieht es <rs type="person">Roger</rs> zur Großen
-               <lb facs="#facs_2_region_1771658210931_760_tl_7" n="N007"/>Oper „Erziehung und Anlage,“ klagt er, „weisen mich an
-               <lb facs="#facs_2_region_1771658210931_760_tl_8" n="N008"/>das Große, und ich bin einem Genre verfallen, das nur
-               <lb facs="#facs_2_region_1771658210931_760_tl_9" n="N009"/>eine geringe Stelle in der Literatur einnimmt und gar keine
-               <lb facs="#facs_2_region_1771658210931_760_tl_10" n="N010"/>in der Poesie.“ Seine brennende Begierde, zu großen heroi¬
-               <lb facs="#facs_2_region_1771658210931_760_tl_11" n="N011"/>schen Partien überzugehen, macht <rs type="person">Roger</rs> offenbar ungerecht
-               <lb facs="#facs_2_region_1771658210931_760_tl_12" n="N012"/>gegen die <rs type="place">französisch</rs>e Opéra comique, deren beste Schöpfun¬
-               <lb facs="#facs_2_region_1771658210931_760_tl_13" n="N013"/>gen doch überhaupt das Beste bleiben, was die <rs type="place">französisch</rs>e
-               <lb facs="#facs_2_region_1771658210931_760_tl_14" n="N014"/>Musik hervorgebracht hat. Ja, seine eigenen Leistungen taxirt
-               <lb facs="#facs_2_region_1771658210931_760_tl_15" n="N015"/>er in diesem Augenblicke kaum ganz richtig; denn so bewun¬
-               <lb facs="#facs_2_region_1771658210931_760_tl_16" n="N016"/>derungswürdig <rs type="person">Roger</rs> als <rs type="person">Raoul</rs>, <rs type="person">Edgar</rs>, <rs type="person">Fernand</rs> auch ge¬
-               <lb facs="#facs_2_region_1771658210931_760_tl_17" n="N017"/>wesen, sein Vollendetstes, Individuellstes gab er doch im
-               <lb facs="#facs_2_region_1771658210931_760_tl_18" n="N018"/>musikalischen Lustspiel, in der „<rs type="bibl">Weißen Frau</rs>“, „<rs type="bibl">Fra Diavolo</rs>“,
-               <lb facs="#facs_2_region_1771658210931_760_tl_19" n="N019"/>„<rs type="bibl">Johann von Paris</rs>“, im „<rs type="bibl">Schwarzen Domino</rs>“ etc. Den
-               <lb facs="#facs_2_region_1771658210931_760_tl_20" n="N020"/>Anfeindungen und Eifersüchteleien seiner Collegen setzt er nur
-               <lb facs="#facs_2_region_1771658210931_760_tl_21" n="N021"/>verdoppelten Fleiß, verdoppelten Muth entgegen: „Unbeirrt
-               <lb facs="#facs_2_region_1771658210931_760_tl_22" n="N022"/>von solchen Spöttern, will ich hoch aufwärts blicken und nur
-               <lb facs="#facs_2_region_1771658210931_760_tl_23" n="N023"/>die Zukunft denken. Ja, man muß Ehrgeiz haben! Wäre
-               <lb facs="#facs_2_region_1771658210931_760_tl_24" n="N024"/>
-               <rs type="person">Bonaparte</rs> ohne Ehrgeiz gewesen, so hätten wir keinen
-               <lb facs="#facs_2_region_1771658210931_760_tl_25" n="N025"/>
-               <rs type="person">Napoleon</rs> gehabt.“
-               <lb facs="#facs_2_region_1771658210931_760_tl_26" n="N026"/>
-               <hi rendition="#em">
-                  <rs type="person">Verdi</rs>'s</hi> Opern und die neu-<rs type="place">italienisch</rs>e Gesangs¬
-               <lb facs="#facs_2_region_1771658210931_760_tl_27" n="N027"/>methode flößen ihm unverholenes Mißtrauen ein. „Die
-               <lb facs="#facs_2_region_1771658210931_760_tl_28" n="N028"/>
-               <rs type="place">italienisch</rs>e Schule,“ sagt <rs type="person">Roger</rs>, „hat niemals einen beson¬
-               <lb facs="#facs_2_region_1771658210931_760_tl_29" n="N029"/>dern Ideengehalt besessen, aber sie schrieb gut für die
-               <lb facs="#facs_2_region_1771658210931_760_tl_30" n="N030"/>Stimmen und schonte sie. Jetzt trachtet sie nach tiefer Bedeut¬
-               <lb facs="#facs_2_region_1771658210931_760_tl_31" n="N031"/>samkeit, ohne sie zu erreichen, und ruinirt die stärksten Lungen
-               <lb facs="#facs_2_region_1771658210931_760_tl_32" n="N032"/>in wenig Jahren. Ich weiß nicht, welche Zukunft der <rs type="person">Verdi</rs>'¬
-               <lb facs="#facs_2_region_1771658210931_760_tl_33" n="N033"/>schen Schule bevorsteht, aber lächerlich bleibt es, wie diese
-               <lb facs="#facs_2_region_1771658210931_760_tl_34" n="N034"/>Musik sich an die höchsten Ideen wagen darf und erhabene
-               <lb facs="#facs_2_region_1771658210931_760_tl_35" n="N035"/>poetische Schöpfungen wie <rs type="bibl">Macbeth</rs> oder <rs type="bibl">Hernani</rs> ent¬
-               <lb facs="#facs_2_region_1771658210931_760_tl_36" n="N036"/>kleidet, um ihnen eine Neger-Generals-Uniform anzuziehen.“
-               <lb facs="#facs_2_region_1771658210931_760_tl_37" n="N037"/>Ueber die Wechselwirkung der neuesten <rs type="place">italienisch</rs>en Sänger
-               <lb facs="#facs_2_region_1771658210931_760_tl_38" n="N038"/>und ihrer Componisten urtheilt <rs type="person">Roger</rs> sehr richtig. „Warum,“
-               <lb facs="#facs_2_region_1771658210931_760_tl_39" n="N039"/>meint er, „sollte der Componist weniger faul sein, als der
-               <lb facs="#facs_2_region_1771658210931_760_tl_40" n="N040"/>Sänger? Wenn dieser leichter eine Wirkung durch die Stimme,
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1771658214706_763_tl_1" n="N001"/>als eine Wirkung durch den Gedanken erzielt, so wird der
+         <lb facs="#facs_2_region_1771658214706_763_tl_2" n="N002"/>Maëstro sich die Gedanken sparen und die nämliche Phrase
+         <lb facs="#facs_2_region_1771658214706_763_tl_3" n="N003"/>wieder und wieder anbringen, die hundertmal den Erfolg
+         <lb facs="#facs_2_region_1771658214706_763_tl_4" n="N004"/>eines Sängers gemacht hat.“ <rs type="person" ref="#hsl_person_id_239">Roger</rs> empfindet einen gerechten
+         <lb facs="#facs_2_region_1771658214706_763_tl_5" n="N005"/>Stolz, daß er niemals den Tondichter stimmlichen Effecten
+         <lb facs="#facs_2_region_1771658214706_763_tl_6" n="N006"/>opfere. Er selbst habe langsam und anhaltend gearbeitet;
+         <lb facs="#facs_2_region_1771658214706_763_tl_7" n="N007"/>immer mit Vertrauen in die Zukunft, bei fortwährendem
+         <lb facs="#facs_2_region_1771658214706_763_tl_8" n="N008"/>Mißtrauen in die eigenen Kräfte. Unablässig ist seine Auf
+         <lb facs="#facs_2_region_1771658214706_763_tl_9" n="N009" break="no"/>merksamkeit auf die Declamation und Mimik gerichtet. Es
+         <lb facs="#facs_2_region_1771658214706_763_tl_10" n="N010"/>ist bezeichnend, daß <rs type="person" ref="#hsl_person_id_239">Roger</rs> einmal irgend ein Drama vom
+         <lb facs="#facs_2_region_1771658214706_763_tl_11" n="N011"/>Souffleurkasten aus ansieht, um in der Nähe genau die
+         <lb facs="#facs_2_region_1771658214706_763_tl_12" n="N012"/>Mimik des trefflichen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_8360">Bouffé</rs></hi> zu studiren.
+            </p><p>
+         <lb facs="#facs_2_region_1771658214706_763_tl_13" n="N013"/>Im Sommer <date>1847</date> geht <rs type="person" ref="#hsl_person_id_239">Roger</rs>, mit Urlaub von der
+         <lb facs="#facs_2_region_1771658214706_763_tl_14" n="N014"/>Komischen Oper, nach <rs type="place" ref="#hsl_place_id_34">London</rs> zur <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Saison. Hier
+         <lb facs="#facs_2_region_1771658214706_763_tl_15" n="N015"/>pflegt er sein Tagebuch mit besonderem Eifer und Glück.
+         <lb facs="#facs_2_region_1771658214706_763_tl_16" n="N016"/>Im <rs type="place" ref="#hsl_place_id_327">Hydepark</rs> und <rs type="place" ref="#hsl_place_id_1187">Kensington</rs> sieht er Alles beisammen, was
+         <lb facs="#facs_2_region_1771658214706_763_tl_17" n="N017"/>reich und vornehm ist, unter den herrlichsten Bäumen, auf
+         <lb facs="#facs_2_region_1771658214706_763_tl_18" n="N018"/>feenhaftem Rasen. Trotzdem scheint ihm, daß die Engländer
+         <lb facs="#facs_2_region_1771658214706_763_tl_19" n="N019"/>sich ungefähr amüsiren wie Maikäfer, denen hinten ein
+         <lb facs="#facs_2_region_1771658214706_763_tl_20" n="N020"/>Strohhalm anklebt. „Gewiß haben diese Leute irgend etwas,
+         <lb facs="#facs_2_region_1771658214706_763_tl_21" n="N021"/>das sie genirt und was wir nicht sehen können. Wo? das
+         <lb facs="#facs_2_region_1771658214706_763_tl_22" n="N022"/>sagen sie uns nicht.“ In <rs type="person" ref="#hsl_person_id_239">Roger</rs> lebt ein warmes patrioti
+         <lb facs="#facs_2_region_1771658214706_763_tl_23" n="N023" break="no"/>sches Gefühl er liebt sein <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> über Alles. Darum
+         <lb facs="#facs_2_region_1771658214706_763_tl_24" n="N024"/>erfaßt ihn eine unbeschreibliche Wuth, als er, in einem Con
+         <lb facs="#facs_2_region_1771658214706_763_tl_25" n="N025" break="no"/>certe auftretend, <rs type="person" ref="#hsl_person_id_5249">Wellington</rs> dicht vor sich sitzen sieht.
+         <lb facs="#facs_2_region_1771658214706_763_tl_26" n="N026"/>„Ich hörte die Stimme, die bei <rs type="place" ref="#hsl_place_id_1186">Waterloo</rs> commandirt
+         <lb facs="#facs_2_region_1771658214706_763_tl_27" n="N027"/>hat; ich blickte in die Augen, die den Rücken des <rs type="person" ref="#hsl_person_id_39">Kaiser</rs>s
+         <lb facs="#facs_2_region_1771658214706_763_tl_28" n="N028"/>gesehen. Singen! Einen Mann ergötzen, den ich hätte ver
+         <lb facs="#facs_2_region_1771658214706_763_tl_29" n="N029" break="no"/>nichten mögen!“ Dennoch bewundert er aufrichtig die Eng
+         <lb facs="#facs_2_region_1771658214706_763_tl_30" n="N030" break="no"/>länder als eine große Nation, die ihre Helden, wie <rs type="person" ref="#hsl_person_id_5249">Welling
+         <lb facs="#facs_2_region_1771658214706_763_tl_31" n="N031" break="no"/>ton</rs>, zu ehren weiß. <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> hingegen, klagt <rs type="person" ref="#hsl_person_id_239">Roger</rs>,
+         <lb facs="#facs_2_region_1771658214706_763_tl_32" n="N032"/><rs type="place" ref="#hsl_place_id_21">Frankreich</rs> kümmere sich weder um seine Vergangenheit noch
+         <lb facs="#facs_2_region_1771658214706_763_tl_33" n="N033"/>um seine Zukunft. Es ist nicht ohne prophetischen Instinct,
+         <lb facs="#facs_2_region_1771658214706_763_tl_34" n="N034"/>wenn <rs type="person" ref="#hsl_person_id_239">Roger</rs> hier schmerzlich ausruft: „O <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>! Der
+         <lb facs="#facs_2_region_1771658214706_763_tl_35" n="N035"/>Wurm, der an dir nagt und dich zu Boden werfen wird,
+         <lb facs="#facs_2_region_1771658214706_763_tl_36" n="N036"/>das ist dein Esprit, oder gerade herausgesagt, deine prah
+         <lb facs="#facs_2_region_1771658214706_763_tl_37" n="N037" break="no"/>lerische Geschwätzigkeit (blague). Du glaubst an nichts und
+         <lb facs="#facs_2_region_1771658214706_763_tl_38" n="N038"/>spottest über Alles.“
+            </p><p>
+         <lb facs="#facs_2_region_1771658214706_763_tl_39" n="N039"/>In <rs type="place" ref="#hsl_place_id_34">London</rs> hört <rs type="person" ref="#hsl_person_id_239">Roger</rs> zum erstenmale zwei der be
+         <lb facs="#facs_2_region_1771658214706_763_tl_40" n="N040" break="no"/>rühmtesten Sängerinnen, die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_313">Viardot-Garcia</rs></hi> und<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1771658214706_763_tl_1" n="N001"/>als eine Wirkung durch den Gedanken erzielt, so wird der
-               <lb facs="#facs_2_region_1771658214706_763_tl_2" n="N002"/>Maëstro sich die Gedanken sparen und die nämliche Phrase
-               <lb facs="#facs_2_region_1771658214706_763_tl_3" n="N003"/>wieder und wieder anbringen, die hundertmal den Erfolg
-               <lb facs="#facs_2_region_1771658214706_763_tl_4" n="N004"/>eines Sängers gemacht hat.“ <rs type="person">Roger</rs> empfindet einen gerechten
-               <lb facs="#facs_2_region_1771658214706_763_tl_5" n="N005"/>Stolz, daß er niemals den Tondichter stimmlichen Effecten
-               <lb facs="#facs_2_region_1771658214706_763_tl_6" n="N006"/>opfere. Er selbst habe langsam und anhaltend gearbeitet;
-               <lb facs="#facs_2_region_1771658214706_763_tl_7" n="N007"/>immer mit Vertrauen in die Zukunft, bei fortwährendem
-               <lb facs="#facs_2_region_1771658214706_763_tl_8" n="N008"/>Mißtrauen in die eigenen Kräfte. Unablässig ist seine Auf¬
-               <lb facs="#facs_2_region_1771658214706_763_tl_9" n="N009"/>merksamkeit auf die Declamation und Mimik gerichtet. Es
-               <lb facs="#facs_2_region_1771658214706_763_tl_10" n="N010"/>ist bezeichnend, daß <rs type="person">Roger</rs> einmal irgend ein Drama vom
-               <lb facs="#facs_2_region_1771658214706_763_tl_11" n="N011"/>Souffleurkasten aus ansieht, um in der Nähe genau die
-               <lb facs="#facs_2_region_1771658214706_763_tl_12" n="N012"/>Mimik des trefflichen <hi rendition="#em">
-                  <rs type="person">Bouffé</rs>
-               </hi> zu studiren.
-               <lb facs="#facs_2_region_1771658214706_763_tl_13" n="N013"/>Im Sommer <date month="0" day="0" year="0">1847</date> geht <rs type="person">Roger</rs>, mit Urlaub von der
-               <lb facs="#facs_2_region_1771658214706_763_tl_14" n="N014"/>Komischen Oper, nach <rs type="place">London</rs> zur <rs type="place">italienisch</rs>en Saison. Hier
-               <lb facs="#facs_2_region_1771658214706_763_tl_15" n="N015"/>pflegt er sein Tagebuch mit besonderem Eifer und Glück.
-               <lb facs="#facs_2_region_1771658214706_763_tl_16" n="N016"/>Im <rs type="place">Hydepark</rs> und <rs type="place">Kensington</rs> sieht er Alles beisammen, was
-               <lb facs="#facs_2_region_1771658214706_763_tl_17" n="N017"/>reich und vornehm ist, unter den herrlichsten Bäumen, auf
-               <lb facs="#facs_2_region_1771658214706_763_tl_18" n="N018"/>feenhaftem Rasen. Trotzdem scheint ihm, daß die Engländer
-               <lb facs="#facs_2_region_1771658214706_763_tl_19" n="N019"/>sich ungefähr amüsiren wie Maikäfer, denen hinten ein
-               <lb facs="#facs_2_region_1771658214706_763_tl_20" n="N020"/>Strohhalm anklebt. „Gewiß haben diese Leute irgend etwas,
-               <lb facs="#facs_2_region_1771658214706_763_tl_21" n="N021"/>das sie genirt und was wir nicht sehen können. Wo? das
-               <lb facs="#facs_2_region_1771658214706_763_tl_22" n="N022"/>sagen sie uns nicht.“ In <rs type="person">Roger</rs> lebt ein warmes patrioti¬
-               <lb facs="#facs_2_region_1771658214706_763_tl_23" n="N023"/>sches Gefühl er liebt sein <rs type="place">Frankreich</rs> über Alles. Darum
-               <lb facs="#facs_2_region_1771658214706_763_tl_24" n="N024"/>erfaßt ihn eine unbeschreibliche Wuth, als er, in einem Con¬
-               <lb facs="#facs_2_region_1771658214706_763_tl_25" n="N025"/>certe auftretend, <rs type="person">Wellington</rs> dicht vor sich sitzen sieht.
-               <lb facs="#facs_2_region_1771658214706_763_tl_26" n="N026"/>„Ich hörte die Stimme, die bei <rs type="place">Waterloo</rs> commandirt
-               <lb facs="#facs_2_region_1771658214706_763_tl_27" n="N027"/>hat; ich blickte in die Augen, die den Rücken des <rs type="person">Kaiser</rs>s
-               <lb facs="#facs_2_region_1771658214706_763_tl_28" n="N028"/>gesehen. Singen! Einen Mann ergötzen, den ich hätte ver¬
-               <lb facs="#facs_2_region_1771658214706_763_tl_29" n="N029"/>nichten mögen!“ Dennoch bewundert er aufrichtig die Eng¬
-               <lb facs="#facs_2_region_1771658214706_763_tl_30" n="N030"/>länder als eine große Nation, die ihre Helden, wie <rs type="person" continued="true">Welling¬</rs>
-               <lb facs="#facs_2_region_1771658214706_763_tl_31" n="N031"/>
-               <rs type="person" continued="true">ton</rs>, zu ehren weiß. <rs type="place">Frankreich</rs> hingegen, klagt <rs type="person">Roger</rs>,
-               <lb facs="#facs_2_region_1771658214706_763_tl_32" n="N032"/>
-               <rs type="place">Frankreich</rs> kümmere sich weder um seine Vergangenheit noch
-               <lb facs="#facs_2_region_1771658214706_763_tl_33" n="N033"/>um seine Zukunft. Es ist nicht ohne prophetischen Instinct,
-               <lb facs="#facs_2_region_1771658214706_763_tl_34" n="N034"/>wenn <rs type="person">Roger</rs> hier schmerzlich ausruft: „O <rs type="place">Frankreich</rs>! Der
-               <lb facs="#facs_2_region_1771658214706_763_tl_35" n="N035"/>Wurm, der an dir nagt und dich zu Boden werfen wird,
-               <lb facs="#facs_2_region_1771658214706_763_tl_36" n="N036"/>das ist dein Esprit, oder gerade herausgesagt, deine prah¬
-               <lb facs="#facs_2_region_1771658214706_763_tl_37" n="N037"/>lerische Geschwätzigkeit (blague). Du glaubst an nichts und
-               <lb facs="#facs_2_region_1771658214706_763_tl_38" n="N038"/>spottest über Alles.“
-               <lb facs="#facs_2_region_1771658214706_763_tl_39" n="N039"/>In <rs type="place">London</rs> hört <rs type="person">Roger</rs> zum erstenmale zwei der be¬
-               <lb facs="#facs_2_region_1771658214706_763_tl_40" n="N040"/>rühmtesten Sängerinnen, die <hi rendition="#em">
-                  <rs type="person">Viardot-Garcia</rs>
-               </hi> und
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1771658220451_766_tl_1" n="N001"/>
-               <hi rendition="#em">Jenny <rs type="person">Lind</rs>
-               </hi>. Beide wollen ihm anfangs nicht recht ge¬
-               <lb facs="#facs_2_region_1771658220451_766_tl_2" n="N002"/>fallen. Die <rs type="person">Viardot</rs> als <rs type="person">Romeo</rs> macht ihm den Eindruck
-               <lb facs="#facs_2_region_1771658220451_766_tl_3" n="N003"/>eines Dilettanten, der nach gründlichstem Studium seiner
-               <lb facs="#facs_2_region_1771658220451_766_tl_4" n="N004"/>Rolle sich jede Geste, jeden Seufzer notirt. Er nennt sie
-               <lb facs="#facs_2_region_1771658220451_766_tl_5" n="N005"/>„eine Larve, der das Leben fehlt; eine Camelie, verdammt,
-               <lb facs="#facs_2_region_1771658220451_766_tl_6" n="N006"/>vom Duft zu träumen.“ Doch gesteht er gerne, daß diese
-               <lb facs="#facs_2_region_1771658220451_766_tl_7" n="N007"/>Leistung vielleicht ganz anders gewirkt hätte, wären Stimme
-               <lb facs="#facs_2_region_1771658220451_766_tl_8" n="N008"/>und Gesicht der <rs type="person">Viardot</rs> ebenso schön wie ihre künstlerische
-               <lb facs="#facs_2_region_1771658220451_766_tl_9" n="N009"/>Gewissenhaftigkeit. Später gewinnt Pauline <rs type="person">Viardot</rs> über
-               <lb facs="#facs_2_region_1771658220451_766_tl_10" n="N010"/>
-               <rs type="person">Roger</rs> denselben Zauber, dem kein ihr Näherstehender sich
-               <lb facs="#facs_2_region_1771658220451_766_tl_11" n="N011"/>entwinden konnte. Er nennt sie „eine Wissenschaft ohne
-               <lb facs="#facs_2_region_1771658220451_766_tl_12" n="N012"/>Pedanterie und die vollkommenste musikalische Organi¬
-               <lb facs="#facs_2_region_1771658220451_766_tl_13" n="N013"/>sation“. Die <rs type="person">Lind</rs> hört er zuerst, mit einiger Enttäuschung,
-               <lb facs="#facs_2_region_1771658220451_766_tl_14" n="N014"/>als <rs type="person">Norma</rs>. „Die <rs type="bibl">Casta diva</rs> singt sie gut; diese Anrufung
-               <lb facs="#facs_2_region_1771658220451_766_tl_15" n="N015"/>des Mondes harmonirt mit ihrem träumerischen <rs type="place">deutsch</rs>en
-               <lb facs="#facs_2_region_1771658220451_766_tl_16" n="N016"/>Naturell; aber die Wuthausbrüche des liebenden Weibes, der
-               <lb facs="#facs_2_region_1771658220451_766_tl_17" n="N017"/>verrathenen Mutter — nein und tausendmal nein! Das ist
-               <lb facs="#facs_2_region_1771658220451_766_tl_18" n="N018"/>klein und verzwickt. Und die Stimme — wie verbraucht!“
-               <lb facs="#facs_2_region_1771658220451_766_tl_19" n="N019"/>Allein mit jeder Rolle der <rs type="person">Lind</rs> wächst <rs type="person">Roger</rs>'s Bewunde¬
-               <lb facs="#facs_2_region_1771658220451_766_tl_20" n="N020"/>rung für sie, und mit derselben ihn ehrenden Offenheit ge¬
-               <lb facs="#facs_2_region_1771658220451_766_tl_21" n="N021"/>steht er in seinem Tagebuche den Irrthum des ersten Ein¬
-               <lb facs="#facs_2_region_1771658220451_766_tl_22" n="N022"/>druckes. So schreibt er von Jenny <rs type="person">Lind</rs> als <rs type="person">Lucia</rs>: „Eine
-               <lb facs="#facs_2_region_1771658220451_766_tl_23" n="N023"/>der größten Künstlerinnen, die zu hören mir je vergönnt
-               <lb facs="#facs_2_region_1771658220451_766_tl_24" n="N024"/>war. Ihre in der Höhe bezaubernde Stimme ist leider schwach
-               <lb facs="#facs_2_region_1771658220451_766_tl_25" n="N025"/>in der Mittellage — aber welche Intelligenz, welche Erfin¬
-               <lb facs="#facs_2_region_1771658220451_766_tl_26" n="N026"/>dungskraft! Sie ahmt Niemanden nach, unablässig dreht und
-               <lb facs="#facs_2_region_1771658220451_766_tl_27" n="N027"/>wendet sie die dramatische Situation wie die musikalische
-               <lb facs="#facs_2_region_1771658220451_766_tl_28" n="N028"/>Phrase. Es sind Züge in ihrer Leistung, die einen Wald-
-               <lb facs="#facs_2_region_1771658220451_766_tl_29" n="N029"/>und Moosgeruch ausströmen. Das erquickt inmitten all der
-               <lb facs="#facs_2_region_1771658220451_766_tl_30" n="N030"/>sogenannten Talente, die nur Eine Eigenschaft besitzen: die
-               <lb facs="#facs_2_region_1771658220451_766_tl_31" n="N031"/>nette Ausführung. Sie haben die Stimme, aber nicht das
-               <lb facs="#facs_2_region_1771658220451_766_tl_32" n="N032"/>innere Feuer.“ Die Gastspieltour, welche <rs type="person">Roger</rs> mit <rs type="person">Lumley</rs>'s
-               <lb facs="#facs_2_region_1771658220451_766_tl_33" n="N033"/>
-               <rs type="place">italienisch</rs>er Gesellschaft nach <rs type="place">Schottland</rs> unternimmt, entzückt
-               <lb facs="#facs_2_region_1771658220451_766_tl_34" n="N034"/>ihn hauptsächlich um Jenny <rs type="person">Lind</rs>'s willen. „Welches Glück
-               <lb facs="#facs_2_region_1771658220451_766_tl_35" n="N035"/>für mich, daß ich diese seltene Frau studiren kann! Da sie
-               <lb facs="#facs_2_region_1771658220451_766_tl_36" n="N036"/>sich im Innersten wahr fühlt, ist sie voll Zuversicht und macht
-               <lb facs="#facs_2_region_1771658220451_766_tl_37" n="N037"/>große Dinge, ohne an die Kritik zu denken. Der Glaube
-               <lb facs="#facs_2_region_1771658220451_766_tl_38" n="N038"/>an sich selbst macht ihre Stärke; sie achtet sich und lebt wie
-               <lb facs="#facs_2_region_1771658220451_766_tl_39" n="N039"/>eine Heilige. Man möchte glauben, sie halte sich von <rs type="person">Gott</rs>
-               <lb facs="#facs_2_region_1771658220451_766_tl_40" n="N040"/>abgesendet, die Völker durch die Religion der Kunst zu be¬
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1771658220451_766_tl_1" n="N001"/><hi rendition="#em">Jenny <rs type="person" ref="#hsl_person_id_163">Lind</rs></hi>. Beide wollen ihm anfangs nicht recht ge
+         <lb facs="#facs_2_region_1771658220451_766_tl_2" n="N002" break="no"/>fallen. Die <rs type="person" ref="#hsl_person_id_313">Viardot</rs> als <rs type="person" ref="#hsl_person_id_3034">Romeo</rs> macht ihm den Eindruck
+         <lb facs="#facs_2_region_1771658220451_766_tl_3" n="N003"/>eines Dilettanten, der nach gründlichstem Studium seiner
+         <lb facs="#facs_2_region_1771658220451_766_tl_4" n="N004"/>Rolle sich jede Geste, jeden Seufzer notirt. Er nennt sie
+         <lb facs="#facs_2_region_1771658220451_766_tl_5" n="N005"/>„eine Larve, der das Leben fehlt; eine Camelie, verdammt,
+         <lb facs="#facs_2_region_1771658220451_766_tl_6" n="N006"/>vom Duft zu träumen.“ Doch gesteht er gerne, daß diese
+         <lb facs="#facs_2_region_1771658220451_766_tl_7" n="N007"/>Leistung vielleicht ganz anders gewirkt hätte, wären Stimme
+         <lb facs="#facs_2_region_1771658220451_766_tl_8" n="N008"/>und Gesicht der <rs type="person" ref="#hsl_person_id_313">Viardot</rs> ebenso schön wie ihre künstlerische
+         <lb facs="#facs_2_region_1771658220451_766_tl_9" n="N009"/>Gewissenhaftigkeit. Später gewinnt Pauline <rs type="person" ref="#hsl_person_id_313">Viardot</rs> über
+         <lb facs="#facs_2_region_1771658220451_766_tl_10" n="N010"/><rs type="person" ref="#hsl_person_id_239">Roger</rs> denselben Zauber, dem kein ihr Näherstehender sich
+         <lb facs="#facs_2_region_1771658220451_766_tl_11" n="N011"/>entwinden konnte. Er nennt sie „eine Wissenschaft ohne
+         <lb facs="#facs_2_region_1771658220451_766_tl_12" n="N012"/>Pedanterie und die vollkommenste musikalische Organi
+         <lb facs="#facs_2_region_1771658220451_766_tl_13" n="N013" break="no"/>sation“. Die <rs type="person" ref="#hsl_person_id_163">Lind</rs> hört er zuerst, mit einiger Enttäuschung,
+         <lb facs="#facs_2_region_1771658220451_766_tl_14" n="N014"/>als <rs type="person" ref="#hsl_person_id_4899">Norma</rs>. „Die <rs type="bibl" ref="#hsl_work_id_81">Casta diva</rs> singt sie gut; diese Anrufung
+         <lb facs="#facs_2_region_1771658220451_766_tl_15" n="N015"/>des Mondes harmonirt mit ihrem träumerischen <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en
+         <lb facs="#facs_2_region_1771658220451_766_tl_16" n="N016"/>Naturell; aber die Wuthausbrüche des liebenden Weibes, der
+         <lb facs="#facs_2_region_1771658220451_766_tl_17" n="N017"/>verrathenen Mutter — nein und tausendmal nein! Das ist
+         <lb facs="#facs_2_region_1771658220451_766_tl_18" n="N018"/>klein und verzwickt. Und die Stimme — wie verbraucht!“
+         <lb facs="#facs_2_region_1771658220451_766_tl_19" n="N019"/>Allein mit jeder Rolle der <rs type="person" ref="#hsl_person_id_163">Lind</rs> wächst <rs type="person" ref="#hsl_person_id_239">Roger</rs>’s Bewunde
+         <lb facs="#facs_2_region_1771658220451_766_tl_20" n="N020" break="no"/>rung für sie, und mit derselben ihn ehrenden Offenheit ge
+         <lb facs="#facs_2_region_1771658220451_766_tl_21" n="N021" break="no"/>steht er in seinem Tagebuche den Irrthum des ersten Ein
+         <lb facs="#facs_2_region_1771658220451_766_tl_22" n="N022" break="no"/>druckes. So schreibt er von Jenny <rs type="person" ref="#hsl_person_id_163">Lind</rs> als <rs type="person" ref="#hsl_person_id_505">Lucia</rs>: „Eine
+         <lb facs="#facs_2_region_1771658220451_766_tl_23" n="N023"/>der größten Künstlerinnen, die zu hören mir je vergönnt
+         <lb facs="#facs_2_region_1771658220451_766_tl_24" n="N024"/>war. Ihre in der Höhe bezaubernde Stimme ist leider schwach
+         <lb facs="#facs_2_region_1771658220451_766_tl_25" n="N025"/>in der Mittellage — aber welche Intelligenz, welche Erfin
+         <lb facs="#facs_2_region_1771658220451_766_tl_26" n="N026" break="no"/>dungskraft! Sie ahmt Niemanden nach, unablässig dreht und
+         <lb facs="#facs_2_region_1771658220451_766_tl_27" n="N027"/>wendet sie die dramatische Situation wie die musikalische
+         <lb facs="#facs_2_region_1771658220451_766_tl_28" n="N028"/>Phrase. Es sind Züge in ihrer Leistung, die einen Wald-
+         <lb facs="#facs_2_region_1771658220451_766_tl_29" n="N029"/>und Moosgeruch ausströmen. Das erquickt inmitten all der
+         <lb facs="#facs_2_region_1771658220451_766_tl_30" n="N030"/>sogenannten Talente, die nur Eine Eigenschaft besitzen: die
+         <lb facs="#facs_2_region_1771658220451_766_tl_31" n="N031"/>nette Ausführung. Sie haben die Stimme, aber nicht das
+         <lb facs="#facs_2_region_1771658220451_766_tl_32" n="N032"/>innere Feuer.“ Die Gastspieltour, welche <rs type="person" ref="#hsl_person_id_239">Roger</rs> mit <rs type="person" ref="#hsl_person_id_4916">Lumley</rs>’s
+         <lb facs="#facs_2_region_1771658220451_766_tl_33" n="N033"/><rs type="place" ref="#hsl_place_id_28">italienisch</rs>er Gesellschaft nach <rs type="place" ref="#hsl_place_id_133">Schottland</rs> unternimmt, entzückt
+         <lb facs="#facs_2_region_1771658220451_766_tl_34" n="N034"/>ihn hauptsächlich um Jenny <rs type="person" ref="#hsl_person_id_163">Lind</rs>’s willen. „Welches Glück
+         <lb facs="#facs_2_region_1771658220451_766_tl_35" n="N035"/>für mich, daß ich diese seltene Frau studiren kann! Da sie
+         <lb facs="#facs_2_region_1771658220451_766_tl_36" n="N036"/>sich im Innersten wahr fühlt, ist sie voll Zuversicht und macht
+         <lb facs="#facs_2_region_1771658220451_766_tl_37" n="N037"/>große Dinge, ohne an die Kritik zu denken. Der Glaube
+         <lb facs="#facs_2_region_1771658220451_766_tl_38" n="N038"/>an sich selbst macht ihre Stärke; sie achtet sich und lebt wie
+         <lb facs="#facs_2_region_1771658220451_766_tl_39" n="N039"/>eine Heilige. Man möchte glauben, sie halte sich von <rs type="person" ref="#hsl_person_id_416">Gott</rs>
+         <lb facs="#facs_2_region_1771658220451_766_tl_40" n="N040"/>abgesendet, die Völker durch die Religion der Kunst zu be</p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1771658237435_772_tl_1" n="N001" break="no"/>glücken.“ Am 3. November <date>1848</date> singt <rs type="person" ref="#hsl_person_id_239">Roger</rs> mit der <rs type="person" ref="#hsl_person_id_163">Lind</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1771658237435_772_tl_2" n="N002"/>in der „<rs type="bibl" ref="#hsl_work_id_1279">Regimentstochter</rs>“. Im letzten Act, während des Vor
+         <lb facs="#facs_3_region_1771658237435_772_tl_3" n="N003" break="no"/>spiels zum Schlußrondo, sagt sie leise zu ihm: „Hören Sie
+         <lb facs="#facs_3_region_1771658237435_772_tl_4" n="N004"/>jetzt gut zu, <rs type="person" ref="#hsl_person_id_239">Roger</rs>, es sind die letzten Töne, die Sie von
+         <lb facs="#facs_3_region_1771658237435_772_tl_5" n="N005"/>mir auf dem Theater hören.“ <rs type="person" ref="#hsl_person_id_239">Roger</rs>, ganz bestürzt, konnte
+         <lb facs="#facs_3_region_1771658237435_772_tl_6" n="N006"/>nicht glauben, daß sie wirklich, mitten in ihren Triumphen,
+         <lb facs="#facs_3_region_1771658237435_772_tl_7" n="N007"/>plötzlich der Bühne entsagen werde. Und doch war es so.
+         <lb facs="#facs_3_region_1771658237435_772_tl_8" n="N008"/>„Sie hat das Leben einer Heiligen geführt. Aber man spricht
+         <lb facs="#facs_3_region_1771658237435_772_tl_9" n="N009"/>von einem Bischof, der ihr trotzdem Scrupel in den Kopf
+         <lb facs="#facs_3_region_1771658237435_772_tl_10" n="N010"/>gesetzt habe. <rs type="person" ref="#hsl_person_id_416">Gott</rs> möge ihn richten!“
+            </p><p>
+         <lb facs="#facs_3_region_1771658237435_772_tl_11" n="N011"/>Durch einen sonderbaren Zwischenfall kam <rs type="person" ref="#hsl_person_id_239">Roger</rs> dazu,
+         <lb facs="#facs_3_region_1771658237435_772_tl_12" n="N012"/>zum erstenmale den <rs type="person" ref="#hsl_person_id_647">Raoul</rs> in den „<rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs>“ zu singen.
+         <lb facs="#facs_3_region_1771658237435_772_tl_13" n="N013"/>Diese Oper war in <rs type="place" ref="#hsl_place_id_34">London</rs> zum Benefice der <rs type="person" ref="#hsl_person_id_313">Viardot</rs> an
+         <lb facs="#facs_3_region_1771658237435_772_tl_14" n="N014" break="no"/>gekündigt. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_863">Mario</rs></hi> sagt Mittags wegen Heiserkeit ab. Die
+         <lb facs="#facs_3_region_1771658237435_772_tl_15" n="N015"/>Direction beschwört <rs type="person" ref="#hsl_person_id_239">Roger</rs>, den <rs type="person" ref="#hsl_person_id_647">Raoul</rs> zu übernehmen.
+         <lb facs="#facs_3_region_1771658237435_772_tl_16" n="N016"/><rs type="person" ref="#hsl_person_id_239">Roger</rs> hat diese Rolle niemals gesungen, niemals probirt —
+         <lb facs="#facs_3_region_1771658237435_772_tl_17" n="N017"/>freilich kennt er die „<rs type="bibl" ref="#hsl_work_id_105">Hugenotten</rs>“ auswendig. Er weiß, daß
+         <lb facs="#facs_3_region_1771658237435_772_tl_18" n="N018"/>er um seine Zukunft spielt. Erringt er an dem Abend keinen
+         <lb facs="#facs_3_region_1771658237435_772_tl_19" n="N019"/>Erfolg, so wankt seine Stellung an der <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Großen Oper,
+         <lb facs="#facs_3_region_1771658237435_772_tl_20" n="N020"/>bevor er sie noch angetreten; reussirt er, so ist es ein
+         <lb facs="#facs_3_region_1771658237435_772_tl_21" n="N021"/>Triumph. <rs type="person" ref="#hsl_person_id_239">Roger</rs> schließt die Augen, wie Einer, der ins Wasser
+         <lb facs="#facs_3_region_1771658237435_772_tl_22" n="N022"/>springen will, und — nimmt den Antrag an. Die einzige Bedin
+         <lb facs="#facs_3_region_1771658237435_772_tl_23" n="N023" break="no"/>gung, die er stellt, <rs type="place" ref="#hsl_place_id_21">französisch</rs> singen zu dürfen, anstatt <rs type="place" ref="#hsl_place_id_28">italie
+         <lb facs="#facs_3_region_1771658237435_772_tl_24" n="N024" break="no"/>nisch</rs>, wird zugestanden, und <rs type="person" ref="#hsl_person_id_239">Roger</rs>’s Wagstück glückt vollständig.
+         <lb facs="#facs_3_region_1771658237435_772_tl_25" n="N025"/>Die allgemeine Bewunderung, welche dieser improvisirte
+         <lb facs="#facs_3_region_1771658237435_772_tl_26" n="N026"/><rs type="person" ref="#hsl_person_id_647">Raoul</rs> sich erzwang, hatte zur Folge, daß der ewig zaubernde
+         <lb facs="#facs_3_region_1771658237435_772_tl_27" n="N027"/>und suchende <hi rendition="#em"><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs></hi> sich entschloß, <rs type="person" ref="#hsl_person_id_239">Roger</rs> mit der
+         <lb facs="#facs_3_region_1771658237435_772_tl_28" n="N028"/>Rolle des <rs type="person" ref="#hsl_person_id_599">Propheten</rs> zu betrauen. Vom December <date>1848</date> bis
+         <lb facs="#facs_3_region_1771658237435_772_tl_29" n="N029"/>April <date>1849</date> wird das colossale Werk studirt und probirt;
+         <lb facs="#facs_3_region_1771658237435_772_tl_30" n="N030"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_239">Roger</rs></hi> und die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_313">Viardot</rs></hi> (<rs type="person" ref="#hsl_person_id_533">Fides</rs>) feiern darin ihre
+         <lb facs="#facs_3_region_1771658237435_772_tl_31" n="N031"/>größten Triumphe. Im Jahre <date>1849</date> macht <rs type="person" ref="#hsl_person_id_239">Roger</rs> seine erste
+         <lb facs="#facs_3_region_1771658237435_772_tl_32" n="N032"/>Kunstreise nach <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>. Er lernt seine Rollen <rs type="place" ref="#hsl_place_id_14">deutsch</rs>,
+         <lb facs="#facs_3_region_1771658237435_772_tl_33" n="N033"/>was seine Landsleute für unmöglich gehalten. <rs type="person" ref="#hsl_person_id_239">Roger</rs> entdeckt
+         <lb facs="#facs_3_region_1771658237435_772_tl_34" n="N034"/>in sich das Talent für fremde Sprachen und meint nicht
+         <lb facs="#facs_3_region_1771658237435_772_tl_35" n="N035"/>ohne Grund, daß jeder gut organisirte Musiker dieses Talent
+         <lb facs="#facs_3_region_1771658237435_772_tl_36" n="N036"/>haben müsse. Er gibt kleine Hilfsmittel an die Hand und
+         <lb facs="#facs_3_region_1771658237435_772_tl_37" n="N037"/>rath vor Allem, sich nicht durch die <hi rendition="#em">Schriftzeichen</hi> er
+         <lb facs="#facs_3_region_1771658237435_772_tl_38" n="N038" break="no"/>schrecken zu lassen, „deren gothische Spitzen uns von allen
+         <lb facs="#facs_3_region_1771658237435_772_tl_39" n="N039"/>Seiten in die Augen stechen“. Es folgen bald eine zweite,
+         <lb facs="#facs_3_region_1771658237435_772_tl_40" n="N040"/>dritte, vierte Reise nach <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>; <rs type="person" ref="#hsl_person_id_239">Roger</rs> jubelt über die
+         <lb facs="#facs_3_region_1771658237435_772_tl_41" n="N041"/>warme Anerkennung, die er in <rs type="place" ref="#hsl_place_id_9">Berlin</rs>, <rs type="place" ref="#hsl_place_id_15">Dresden</rs>, <rs type="place" ref="#hsl_place_id_20">Frankfurt</rs>,<space quantity="1" unit="char"/></p>
             <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1771658237435_772_tl_1" n="N001"/>glücken.“ Am 3. November <date month="0" day="0" year="0">1848</date> singt <rs type="person">Roger</rs> mit der <rs type="person">Lind</rs>
-               <lb facs="#facs_3_region_1771658237435_772_tl_2" n="N002"/>in der „<rs type="bibl">Regimentstochter</rs>“. Im letzten Act, während des Vor¬
-               <lb facs="#facs_3_region_1771658237435_772_tl_3" n="N003"/>spiels zum Schlußrondo, sagt sie leise zu ihm: „Hören Sie
-               <lb facs="#facs_3_region_1771658237435_772_tl_4" n="N004"/>jetzt gut zu, <rs type="person">Roge</rs>r, es sind die letzten Töne, die Sie von
-               <lb facs="#facs_3_region_1771658237435_772_tl_5" n="N005"/>mir auf dem Theater hören.“ <rs type="person">Roger</rs>, ganz bestürzt, konnte
-               <lb facs="#facs_3_region_1771658237435_772_tl_6" n="N006"/>nicht glauben, daß sie wirklich, mitten in ihren Triumphen,
-               <lb facs="#facs_3_region_1771658237435_772_tl_7" n="N007"/>plötzlich der Bühne entsagen werde. Und doch war es so.
-               <lb facs="#facs_3_region_1771658237435_772_tl_8" n="N008"/>„Sie hat das Leben einer Heiligen geführt. Aber man spricht
-               <lb facs="#facs_3_region_1771658237435_772_tl_9" n="N009"/>von einem Bischof, der ihr trotzdem Scrupel in den Kopf
-               <lb facs="#facs_3_region_1771658237435_772_tl_10" n="N010"/>gesetzt habe. <rs type="person">Gott</rs> möge ihn richten!“
-               <lb facs="#facs_3_region_1771658237435_772_tl_11" n="N011"/>Durch einen sonderbaren Zwischenfall kam <rs type="person">Roger</rs> dazu,
-               <lb facs="#facs_3_region_1771658237435_772_tl_12" n="N012"/>zum erstenmale den <rs type="person">Raoul</rs> in den „<rs type="bibl">Hugenotten</rs>“ zu singen.
-               <lb facs="#facs_3_region_1771658237435_772_tl_13" n="N013"/>Diese Oper war in <rs type="place">London</rs> zum Benefice der <rs type="person">Viardot</rs> an¬
-               <lb facs="#facs_3_region_1771658237435_772_tl_14" n="N014"/>gekündigt. <hi rendition="#em">
-                  <rs type="person">Mario</rs>
-               </hi> sagt Mittags wegen Heiserkeit ab. Die
-               <lb facs="#facs_3_region_1771658237435_772_tl_15" n="N015"/>Direction beschwört <rs type="person">Roger</rs>, den <rs type="person">Raoul</rs> zu übernehmen.
-               <lb facs="#facs_3_region_1771658237435_772_tl_16" n="N016"/>
-               <rs type="person">Roger</rs> hat diese Rolle niemals gesungen, niemals probirt —
-               <lb facs="#facs_3_region_1771658237435_772_tl_17" n="N017"/>freilich kennt er die „<rs type="bibl">Hugenotten</rs>“ auswendig. Er weiß, daß
-               <lb facs="#facs_3_region_1771658237435_772_tl_18" n="N018"/>er um seine Zukunft spielt. Erringt er an dem Abend keinen
-               <lb facs="#facs_3_region_1771658237435_772_tl_19" n="N019"/>Erfolg, so wankt seine Stellung an der <rs type="person">Paris</rs>er Großen Oper,
-               <lb facs="#facs_3_region_1771658237435_772_tl_20" n="N020"/>bevor er sie noch angetreten; reussirt er, so ist es ein
-               <lb facs="#facs_3_region_1771658237435_772_tl_21" n="N021"/>Triumph. <rs type="person">Roger</rs> schließt die Augen, wie Einer, der ins Wasser
-               <lb facs="#facs_3_region_1771658237435_772_tl_22" n="N022"/>springen will, und — nimmt den Antrag an. Die einzige Bedin¬
-               <lb facs="#facs_3_region_1771658237435_772_tl_23" n="N023"/>gung, die er stellt, <rs type="place">französisch</rs> singen zu dürfen, anstatt <rs type="place" continued="true">italie¬</rs>
-               <lb facs="#facs_3_region_1771658237435_772_tl_24" n="N024"/>
-               <rs type="place" continued="true">nisch</rs>, wird zugestanden, und <rs type="person">Roge</rs>r's Wagstück glückt vollständig.
-               <lb facs="#facs_3_region_1771658237435_772_tl_25" n="N025"/>Die allgemeine Bewunderung, welche dieser improvisirte
-               <lb facs="#facs_3_region_1771658237435_772_tl_26" n="N026"/>
-               <rs type="person">Raoul</rs> sich erzwang, hatte zur Folge, daß der ewig zaubernde
-               <lb facs="#facs_3_region_1771658237435_772_tl_27" n="N027"/>und suchende <hi rendition="#em">
-                  <rs type="person">Meyerbeer</rs>
-               </hi> sich entschloß, <rs type="person">Roger</rs> mit der
-               <lb facs="#facs_3_region_1771658237435_772_tl_28" n="N028"/>Rolle des <rs type="person">Propheten</rs> zu betrauen. Vom December <date month="0" day="0" year="0">1848</date> bis
-               <lb facs="#facs_3_region_1771658237435_772_tl_29" n="N029"/>April <date month="0" day="0" year="0">1849</date> wird das colossale Werk studirt und probirt;
-               <lb facs="#facs_3_region_1771658237435_772_tl_30" n="N030"/>
-               <hi rendition="#em">
-                  <rs type="person">Roger</rs>
-               </hi> und die <hi rendition="#em">
-                  <rs type="person">Viardot</rs>
-               </hi> (<rs type="person">Fides</rs>) feiern darin ihre
-               <lb facs="#facs_3_region_1771658237435_772_tl_31" n="N031"/>größten Triumphe. Im Jahre <date month="0" day="0" year="0">1849</date> macht <rs type="person">Roger</rs> seine erste
-               <lb facs="#facs_3_region_1771658237435_772_tl_32" n="N032"/>Kunstreise nach <rs type="place">Deutschland</rs>. Er lernt seine Rollen <rs type="place">deutsch</rs>,
-               <lb facs="#facs_3_region_1771658237435_772_tl_33" n="N033"/>was seine Landsleute für unmöglich gehalten. <rs type="person">Roger</rs> entdeckt
-               <lb facs="#facs_3_region_1771658237435_772_tl_34" n="N034"/>in sich das Talent für fremde Sprachen und meint nicht
-               <lb facs="#facs_3_region_1771658237435_772_tl_35" n="N035"/>ohne Grund, daß jeder gut organisirte Musiker dieses Talent
-               <lb facs="#facs_3_region_1771658237435_772_tl_36" n="N036"/>haben müsse. Er gibt kleine Hilfsmittel an die Hand und
-               <lb facs="#facs_3_region_1771658237435_772_tl_37" n="N037"/>rath vor Allem, sich nicht durch die <hi rendition="#em">Schriftzeichen</hi> er¬
-               <lb facs="#facs_3_region_1771658237435_772_tl_38" n="N038"/>schrecken zu lassen, „deren gothische Spitzen uns von allen
-               <lb facs="#facs_3_region_1771658237435_772_tl_39" n="N039"/>Seiten in die Augen stechen“. Es folgen bald eine zweite,
-               <lb facs="#facs_3_region_1771658237435_772_tl_40" n="N040"/>dritte, vierte Reise nach <rs type="place">Deutschland</rs>; <rs type="person">Roger</rs> jubelt über die
-               <lb facs="#facs_3_region_1771658237435_772_tl_41" n="N041"/>warme Anerkennung, die er in <rs type="place">Berlin</rs>, <rs type="place">Dresden</rs>, <rs type="place">Frankfurt</rs>,
-            </p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1771658245459_775_tl_1" n="N001"/>
-               <rs type="place">Hamburg</rs> findet. Er kann sich wie ein Kind freuen mit
-               <lb facs="#facs_3_region_1771658245459_775_tl_2" n="N002"/>irgend einem ihm dargebrachten Zeichen der Verehrung und
-               <lb facs="#facs_3_region_1771658245459_775_tl_3" n="N003"/>Begeisterung. Nur die Manie der Deutschen für Albums
-               <lb facs="#facs_3_region_1771658245459_775_tl_4" n="N004"/>ist ihm gräßlich. In <rs type="place">Dresden</rs> erhält er von unbekannter —
-               <lb facs="#facs_3_region_1771658245459_775_tl_5" n="N005"/>natürlich weiblicher — Hand einen Blumenstrauß mit einem
-               <lb facs="#facs_3_region_1771658245459_775_tl_6" n="N006"/>langen, überschwenglichen Gedichte. Er gibt sich die Mühe,
-               <lb facs="#facs_3_region_1771658245459_775_tl_7" n="N007"/>das Gedicht ins <rs type="place">Französisch</rs>e zu übersetzen; bringt es wirklich
-               <lb facs="#facs_3_region_1771658245459_775_tl_8" n="N008"/>in ganz nette Verse, schämt sich dann ein wenig dieser Eitel¬
-               <lb facs="#facs_3_region_1771658245459_775_tl_9" n="N009"/>keit und beruhigt sich schließlich selbst mit dem allerliebsten
-               <lb facs="#facs_3_region_1771658245459_775_tl_10" n="N010"/>Ausrufe: „Mais, bah ! on n’est pas ténor pour rien!“
-               <lb facs="#facs_3_region_1771658245459_775_tl_11" n="N011"/>Im Mai <date month="0" day="0" year="0">1854</date> tritt <rs type="person">Roger</rs> zum letztenmale in der
-               <lb facs="#facs_3_region_1771658245459_775_tl_12" n="N012"/>
-               <rs type="place">Paris</rs>er Großen Oper auf, als <rs type="person">Fernand</rs> in der „<rs type="bibl">Favorite</rs>“.
-               <lb facs="#facs_3_region_1771658245459_775_tl_13" n="N013"/>Ueber die Gründe seines Ausscheidens spricht sich das Tage¬
-               <lb facs="#facs_3_region_1771658245459_775_tl_14" n="N014"/>buch nicht deutlich aus; der berühmte und verwöhnte Künstler
-               <lb facs="#facs_3_region_1771658245459_775_tl_15" n="N015"/>scheint, wie so viele seiner Collegen, auf mehr Gold und Lor¬
-               <lb facs="#facs_3_region_1771658245459_775_tl_16" n="N016"/>beern Anspruch gemacht zu haben, als dem Einzelnen, und
-               <lb facs="#facs_3_region_1771658245459_775_tl_17" n="N017"/>sei es der Beste, im festen Engagement zu Theil wird. Er
-               <lb facs="#facs_3_region_1771658245459_775_tl_18" n="N018"/>zieht es darum vor, im Auslande von Bühne zu Bühne zu
-               <lb facs="#facs_3_region_1771658245459_775_tl_19" n="N019"/>reisen. „Je suis mon maître!“ sagt er sich mit stolzer Ge¬
-               <lb facs="#facs_3_region_1771658245459_775_tl_20" n="N020"/>nugthuung.
-               <lb facs="#facs_3_region_1771658245459_775_tl_21" n="N021"/>„<hi rendition="#em">Nach der Jagd</hi>“ überschreibt <rs type="person">Roger</rs> das letzte
-               <lb facs="#facs_3_region_1771658245459_775_tl_22" n="N022"/>Capitel seines Tagebuches. Es ist die unglückliche Jagd ge¬
-               <lb facs="#facs_3_region_1771658245459_775_tl_23" n="N023"/>meint, bei welcher sein Gewehr sich zufällig entlud und ihm
-               <lb facs="#facs_3_region_1771658245459_775_tl_24" n="N024"/>den rechten Arm zerschmetterte. <rs type="person">Roger</rs> benimmt sich be¬
-               <lb facs="#facs_3_region_1771658245459_775_tl_25" n="N025"/>wunderungswürdig standhaft und muthig bei diesem Unglücke.
-               <lb facs="#facs_3_region_1771658245459_775_tl_26" n="N026"/>Der verstümmelte Arm wird amputirt, ein künstlicher mecha¬
-               <lb facs="#facs_3_region_1771658245459_775_tl_27" n="N027"/>nischer Arm muß ihn vertreten. Einige Monate nach der
-               <lb facs="#facs_3_region_1771658245459_775_tl_28" n="N028"/>Amputation schreibt er schon in sein Tagebuch: „Denken
-               <lb facs="#facs_3_region_1771658245459_775_tl_29" n="N029"/>wir nicht mehr an den verlorenen Arm,“ und reist zu neuen
-               <lb facs="#facs_3_region_1771658245459_775_tl_30" n="N030"/>Gastspielen nach <rs type="place">Deutschland</rs>. Er entzückt noch mit halben
-               <lb facs="#facs_3_region_1771658245459_775_tl_31" n="N031"/>Gliedmaßen und einer halben Stimme durch die Wärme
-               <lb facs="#facs_3_region_1771658245459_775_tl_32" n="N032"/>und Feinheit seines Vortrages, die Anmuth seines Spieles.
-               <lb facs="#facs_3_region_1771658245459_775_tl_33" n="N033"/>Als ihm endlich auch die Reste seiner Stimme untreu wer¬
-               <lb facs="#facs_3_region_1771658245459_775_tl_34" n="N034"/>den, widmet sich <rs type="person">Roger</rs> mit vollem Eifer dem Gesang¬
-               <lb facs="#facs_3_region_1771658245459_775_tl_35" n="N035"/>unterricht und bildet während seiner zehnjährigen Wirksam¬
-               <lb facs="#facs_3_region_1771658245459_775_tl_36" n="N036"/>keit am <rs type="place">Paris</rs>er Conservatorium manchen tüchtigen Sänger.
-               <lb facs="#facs_3_region_1771658245459_775_tl_37" n="N037"/>Er kränkelte nur kurze Zeit und sah dem Tode mit Ge¬
-               <lb facs="#facs_3_region_1771658245459_775_tl_38" n="N038"/>lassenheit entgegen. Gustav <rs type="person">Roger</rs> starb in <rs type="place">Paris</rs> am 12. Sep¬
-               <lb facs="#facs_3_region_1771658245459_775_tl_39" n="N039"/>tember <date month="0" day="0" year="0">1879</date>. In ihm hat die dramatische Gesangskunst
-               <lb facs="#facs_3_region_1771658245459_775_tl_40" n="N040"/>einen ihrer größten und liebenswürdigsten Meister verloren.
-               <lb facs="#facs_3_region_1771658245459_775_tl_41" n="N041"/>(Ein Schlußartikel folgt.)
+            <p prev="true">
+         <lb facs="#facs_3_region_1771658245459_775_tl_1" n="N001"/><rs type="place" ref="#hsl_place_id_69">Hamburg</rs> findet. Er kann sich wie ein Kind freuen mit
+         <lb facs="#facs_3_region_1771658245459_775_tl_2" n="N002"/>irgend einem ihm dargebrachten Zeichen der Verehrung und
+         <lb facs="#facs_3_region_1771658245459_775_tl_3" n="N003"/>Begeisterung. Nur die Manie der Deutschen für Albums
+         <lb facs="#facs_3_region_1771658245459_775_tl_4" n="N004"/>ist ihm gräßlich. In <rs type="place" ref="#hsl_place_id_15">Dresden</rs> erhält er von unbekannter —
+         <lb facs="#facs_3_region_1771658245459_775_tl_5" n="N005"/>natürlich weiblicher — Hand einen Blumenstrauß mit einem
+         <lb facs="#facs_3_region_1771658245459_775_tl_6" n="N006"/>langen, überschwenglichen Gedichte. Er gibt sich die Mühe,
+         <lb facs="#facs_3_region_1771658245459_775_tl_7" n="N007"/>das Gedicht ins <rs type="place" ref="#hsl_place_id_21">Französisch</rs>e zu übersetzen; bringt es wirklich
+         <lb facs="#facs_3_region_1771658245459_775_tl_8" n="N008"/>in ganz nette Verse, schämt sich dann ein wenig dieser Eitel
+         <lb facs="#facs_3_region_1771658245459_775_tl_9" n="N009" break="no"/>keit und beruhigt sich schließlich selbst mit dem allerliebsten
+         <lb facs="#facs_3_region_1771658245459_775_tl_10" n="N010"/>Ausrufe: „Mais, bah ! on n’est pas ténor pour rien!“
+            </p><p>
+         <lb facs="#facs_3_region_1771658245459_775_tl_11" n="N011"/>Im Mai <date>1854</date> tritt <rs type="person" ref="#hsl_person_id_239">Roger</rs> zum letztenmale in der
+         <lb facs="#facs_3_region_1771658245459_775_tl_12" n="N012"/><rs type="place" ref="#hsl_place_id_44">Paris</rs>er Großen Oper auf, als <rs type="person" ref="#hsl_person_id_503">Fernand</rs> in der „<rs type="bibl" ref="#hsl_work_id_380">Favorite</rs>“.
+         <lb facs="#facs_3_region_1771658245459_775_tl_13" n="N013"/>Ueber die Gründe seines Ausscheidens spricht sich das Tage
+         <lb facs="#facs_3_region_1771658245459_775_tl_14" n="N014" break="no"/>buch nicht deutlich aus; der berühmte und verwöhnte Künstler
+         <lb facs="#facs_3_region_1771658245459_775_tl_15" n="N015"/>scheint, wie so viele seiner Collegen, auf mehr Gold und Lor
+         <lb facs="#facs_3_region_1771658245459_775_tl_16" n="N016" break="no"/>beern Anspruch gemacht zu haben, als dem Einzelnen, und
+         <lb facs="#facs_3_region_1771658245459_775_tl_17" n="N017"/>sei es der Beste, im festen Engagement zu Theil wird. Er
+         <lb facs="#facs_3_region_1771658245459_775_tl_18" n="N018"/>zieht es darum vor, im Auslande von Bühne zu Bühne zu
+         <lb facs="#facs_3_region_1771658245459_775_tl_19" n="N019"/>reisen. „Je suis mon maître!“ sagt er sich mit stolzer Ge
+         <lb facs="#facs_3_region_1771658245459_775_tl_20" n="N020" break="no"/>nugthuung.
+            </p><p>
+         <lb facs="#facs_3_region_1771658245459_775_tl_21" n="N021"/>„<hi rendition="#em">Nach der Jagd</hi>“ überschreibt <rs type="person" ref="#hsl_person_id_239">Roger</rs> das letzte
+         <lb facs="#facs_3_region_1771658245459_775_tl_22" n="N022"/>Capitel seines Tagebuches. Es ist die unglückliche Jagd ge
+         <lb facs="#facs_3_region_1771658245459_775_tl_23" n="N023" break="no"/>meint, bei welcher sein Gewehr sich zufällig entlud und ihm
+         <lb facs="#facs_3_region_1771658245459_775_tl_24" n="N024"/>den rechten Arm zerschmetterte. <rs type="person" ref="#hsl_person_id_239">Roger</rs> benimmt sich be
+         <lb facs="#facs_3_region_1771658245459_775_tl_25" n="N025" break="no"/>wunderungswürdig standhaft und muthig bei diesem Unglücke.
+         <lb facs="#facs_3_region_1771658245459_775_tl_26" n="N026"/>Der verstümmelte Arm wird amputirt, ein künstlicher mecha
+         <lb facs="#facs_3_region_1771658245459_775_tl_27" n="N027" break="no"/>nischer Arm muß ihn vertreten. Einige Monate nach der
+         <lb facs="#facs_3_region_1771658245459_775_tl_28" n="N028"/>Amputation schreibt er schon in sein Tagebuch: „Denken
+         <lb facs="#facs_3_region_1771658245459_775_tl_29" n="N029"/>wir nicht mehr an den verlorenen Arm,“ und reist zu neuen
+         <lb facs="#facs_3_region_1771658245459_775_tl_30" n="N030"/>Gastspielen nach <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>. Er entzückt noch mit halben
+         <lb facs="#facs_3_region_1771658245459_775_tl_31" n="N031"/>Gliedmaßen und einer halben Stimme durch die Wärme
+         <lb facs="#facs_3_region_1771658245459_775_tl_32" n="N032"/>und Feinheit seines Vortrages, die Anmuth seines Spieles.
+         <lb facs="#facs_3_region_1771658245459_775_tl_33" n="N033"/>Als ihm endlich auch die Reste seiner Stimme untreu wer
+         <lb facs="#facs_3_region_1771658245459_775_tl_34" n="N034" break="no"/>den, widmet sich <rs type="person" ref="#hsl_person_id_239">Roger</rs> mit vollem Eifer dem Gesang
+         <lb facs="#facs_3_region_1771658245459_775_tl_35" n="N035" break="no"/>unterricht und bildet während seiner zehnjährigen Wirksam
+         <lb facs="#facs_3_region_1771658245459_775_tl_36" n="N036" break="no"/>keit am <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Conservatorium manchen tüchtigen Sänger.
+         <lb facs="#facs_3_region_1771658245459_775_tl_37" n="N037"/>Er kränkelte nur kurze Zeit und sah dem Tode mit Ge
+         <lb facs="#facs_3_region_1771658245459_775_tl_38" n="N038" break="no"/>lassenheit entgegen. Gustav <rs type="person" ref="#hsl_person_id_239">Roger</rs> starb in <rs type="place" ref="#hsl_place_id_44">Paris</rs> am 12. Sep
+         <lb facs="#facs_3_region_1771658245459_775_tl_39" n="N039" break="no"/>tember <date>1879</date>. In ihm hat die dramatische Gesangskunst
+         <lb facs="#facs_3_region_1771658245459_775_tl_40" n="N040"/>einen ihrer größten und liebenswürdigsten Meister verloren.
+            </p><p>
+         <lb facs="#facs_3_region_1771658245459_775_tl_41" n="N041"/>(Ein Schlußartikel folgt.)
             </p>
          </div>
       </body>
