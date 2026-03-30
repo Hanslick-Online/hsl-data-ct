@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 5628. Wien, Donnerstag, den 29. April 1880</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,24 +70,20 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 5628. Wien, Donnerstag, den 29. April 1880</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1880-04-29">29.04.1880</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -108,9 +103,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-03-13">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-03-18">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-03-28">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -911,313 +908,271 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1771657088653_445_tl_1" n="N001"/><head type="h1">Denkschrift der Akademie von Neu-<rs type="place" ref="#hsl_place_id_44">Paris</rs>,
+            <lb facs="#facs_1_region_1771657088653_445_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs> betreffend.</head>
+            <lb facs="#facs_1_region_1771657088653_445_tl_3" n="N003"/><head type="h2">(Vorgetragen in der Sitzung vom 1. Mai <date>2880</date> von dem ständigen Secretär
+            <lb facs="#facs_1_line_1772264970331_1321" n="N004"/>Floristan Eusebius.)</head>
             <p>
-               <lb facs="#facs_1_line_1772264423645_1036" n="N001"/>Nr. 5628. Wien, Donnerstag, den 29. April 1880
-            </p>
+         <lb facs="#facs_1_region_1771657088653_445_tl_4" n="N005"/>Ed. H. <hi rendition="#em">Vorbemerkung</hi>. Vor etwa fünfzehn Jahren
+         <lb facs="#facs_1_region_1771657088653_445_tl_5" n="N006"/>beschlossen in <rs type="place" ref="#hsl_place_id_44">Paris</rs> einige intime Freunde, den Weihnachts
+         <lb facs="#facs_1_region_1771657088653_445_tl_6" n="N007" break="no"/>abend gemeinsam zu verbringen und durch irgend einen literari
+         <lb facs="#facs_1_region_1771657088653_445_tl_7" n="N008" break="no"/>schen oder musikalischen Scherz zu würzen. Hector <hi rendition="#em"><rs type="person" ref="#hsl_person_id_28">Berlioz</rs></hi>,
+         <lb facs="#facs_1_region_1771657088653_445_tl_8" n="N009"/>Léon <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3531">Kreutzer</rs></hi>, Stephen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_119">Heller</rs></hi> waren von der Partie,
+         <lb facs="#facs_1_region_1771657088653_445_tl_9" n="N010"/>und Letzteren traf das Los, einen amüsanten musikalischen
+         <lb facs="#facs_1_region_1771657088653_445_tl_10" n="N011"/>Vortrag zu halten. Stephen <rs type="person" ref="#hsl_person_id_119">Heller</rs> entledigte sich seiner Auf
+         <lb facs="#facs_1_region_1771657088653_445_tl_11" n="N012" break="no"/>gabe mit jenem feinen, liebenswürdigen Humor, der ihn aus
+         <lb facs="#facs_1_region_1771657088653_445_tl_12" n="N013" break="no"/>zeichnet, indem er einen gelehrten Bericht ersann, wie er
+         <lb facs="#facs_1_region_1771657088653_445_tl_13" n="N014"/>etwa in tausend Jahren irgendwo über <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> könnte
+         <lb facs="#facs_1_region_1771657088653_445_tl_14" n="N015"/>gehalten werden. Ich fand <rs type="person" ref="#hsl_person_id_119">Heller</rs>’s Aufsatz (der später auch
+         <lb facs="#facs_1_region_1771657088653_445_tl_15" n="N016"/>in der <rs type="bibl" ref="#hsl_work_id_5919">Gazette Musicale</rs> veröffentlicht ward) kürzlich unter
+         <lb facs="#facs_1_region_1771657088653_445_tl_16" n="N017"/>alten Schriften und glaube unseren Lesern damit eine an
+         <lb facs="#facs_1_region_1771657088653_445_tl_17" n="N018" break="no"/>regende Unterhaltung zu bieten. Leider ist er hier nicht in
+         <lb facs="#facs_1_region_1771657088653_445_tl_18" n="N019"/>seiner ganzen umfangreichen Ausdehnung zu reproduciren;
+         <lb facs="#facs_1_region_1771657088653_445_tl_19" n="N020"/>ich gebe ihn also abgekürzt und mit einigen Uebersetzerfrei
+         <lb facs="#facs_1_region_1771657088653_445_tl_20" n="N021" break="no"/>heiten. Stephen <rs type="person" ref="#hsl_person_id_119">Heller</rs>’s „<rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Denkschrift“ hat gewiß
+         <lb facs="#facs_1_region_1771657088653_445_tl_21" n="N022"/>eine geistreichere Bedeutung als die einer bloßen Posse; es
+         <lb facs="#facs_1_region_1771657088653_445_tl_22" n="N023"/>ist darin mit außerordentlicher Geschicklichkeit dargestellt, wie
+         <lb facs="#facs_1_region_1771657088653_445_tl_23" n="N024"/>durch leisere oder stärkere Verschiebung zweifelloser That
+         <lb facs="#facs_1_region_1771657088653_445_tl_24" n="N025" break="no"/>sachen, durch anscheinend unbedeutende Zuthaten und poetisch
+         <lb facs="#facs_1_region_1771657088653_445_tl_25" n="N026"/>ausgefüllte Lücken sich im Laufe von Jahrhunderten Falsches
+         <lb facs="#facs_1_region_1771657088653_445_tl_26" n="N027"/>mit Wahrem vermischen und selbst das nüchternste Factum
+         <lb facs="#facs_1_region_1771657088653_445_tl_27" n="N028"/>möglicherweise in abenteuerliche Beleuchtung gerathen kann.
+         <lb facs="#facs_1_region_1771657088653_445_tl_28" n="N029"/>Die bevorstehende Enthüllung unserer <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Statue wird
+         <lb facs="#facs_1_region_1771657088653_445_tl_29" n="N030"/>wahrscheinlich genug des Ernsthaften über den großen Ton
+         <lb facs="#facs_1_region_1771657088653_445_tl_30" n="N031" break="no"/>dichter bringen; möge denn auch einem scherzhaften Beitrage
+         <lb facs="#facs_1_region_1771657088653_445_tl_31" n="N032"/>sein bescheidenes Plätzchen vergönnt sein.
+            </p><p>
+         <lb facs="#facs_1_region_1771657088653_445_tl_32" n="N033"/>„Meine Herren! Die im Auftrage unserer Akademie
+         <lb facs="#facs_1_region_1771657088653_445_tl_33" n="N034"/>unternommenen und eifrigst fortgesetzten Nachforschungen nach
+         <lb facs="#facs_1_region_1771657088653_445_tl_34" n="N035"/>alten Handschriften, Kunstgegenständen, Industrie-Erzeugnissen
+         <lb facs="#facs_1_region_1771657088653_445_tl_35" n="N036"/>liefern noch fortwährend bedeutende Resultate. Diese Aus
+         <lb facs="#facs_1_region_1771657088653_445_tl_36" n="N037" break="no"/>grabungen gewähren ein ganz besonderes Interesse durch die
+         <lb facs="#facs_1_region_1771657088653_445_tl_37" n="N038"/>hohe Culturbedeutung der betreffenden Epoche: das neunzehnte<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1771657088653_445_tl_1" n="N001"/>Denkschrift der Akademie von Neu-<rs type="place">Paris</rs>,
-               <lb facs="#facs_1_region_1771657088653_445_tl_2" n="N002"/>
-               <rs type="person">Beethoven</rs> betreffend.
-               <lb facs="#facs_1_region_1771657088653_445_tl_3" n="N003"/>(Vorgetragen in der Sitzung vom 1. Mai <date month="0" day="0" year="0">2880</date> von dem ständigen Secretär
-               <lb facs="#facs_1_line_1772264970331_1321" n="N004"/>Floristan Eusebius.)
-               <lb facs="#facs_1_region_1771657088653_445_tl_4" n="N005"/>Ed. H. <hi rendition="#em">Vorbemerkung</hi>. Vor etwa fünfzehn Jahren
-               <lb facs="#facs_1_region_1771657088653_445_tl_5" n="N006"/>beschlossen in <rs type="place">Paris</rs> einige intime Freunde, den Weihnachts¬
-               <lb facs="#facs_1_region_1771657088653_445_tl_6" n="N007"/>abend gemeinsam zu verbringen und durch irgend einen literari¬
-               <lb facs="#facs_1_region_1771657088653_445_tl_7" n="N008"/>schen oder musikalischen Scherz zu würzen. Hector <hi rendition="#em">
-                  <rs type="person">Berlioz</rs>
-               </hi>,
-               <lb facs="#facs_1_region_1771657088653_445_tl_8" n="N009"/>Léon <hi rendition="#em">
-                  <rs type="person">Kreutzer</rs>
-               </hi>, Stephen <hi rendition="#em">
-                  <rs type="person">Heller</rs>
-               </hi> waren von der Partie,
-               <lb facs="#facs_1_region_1771657088653_445_tl_9" n="N010"/>und Letzteren traf das Los, einen amüsanten musikalischen
-               <lb facs="#facs_1_region_1771657088653_445_tl_10" n="N011"/>
-               <rs type="bibl">Vortrag</rs> zu halten. Stephen <rs type="person">Heller</rs> entledigte sich seiner Auf¬
-               <lb facs="#facs_1_region_1771657088653_445_tl_11" n="N012"/>gabe mit jenem feinen, liebenswürdigen Humor, der ihn aus¬
-               <lb facs="#facs_1_region_1771657088653_445_tl_12" n="N013"/>zeichnet, indem er einen gelehrten Bericht ersann, wie er
-               <lb facs="#facs_1_region_1771657088653_445_tl_13" n="N014"/>etwa in tausend Jahren irgendwo über <rs type="person">Beethoven</rs> könnte
-               <lb facs="#facs_1_region_1771657088653_445_tl_14" n="N015"/>gehalten werden. Ich fand <rs type="person">Heller</rs>'s <rs type="bibl">Aufsatz</rs> (der später auch
-               <lb facs="#facs_1_region_1771657088653_445_tl_15" n="N016"/>in der <rs type="bibl">Gazette Musicale</rs> veröffentlicht ward) kürzlich unter
-               <lb facs="#facs_1_region_1771657088653_445_tl_16" n="N017"/>alten Schriften und glaube unseren Lesern damit eine an¬
-               <lb facs="#facs_1_region_1771657088653_445_tl_17" n="N018"/>regende Unterhaltung zu bieten. Leider ist er hier nicht in
-               <lb facs="#facs_1_region_1771657088653_445_tl_18" n="N019"/>seiner ganzen umfangreichen Ausdehnung zu reproduciren;
-               <lb facs="#facs_1_region_1771657088653_445_tl_19" n="N020"/>ich gebe ihn also abgekürzt und mit einigen Uebersetzerfrei¬
-               <lb facs="#facs_1_region_1771657088653_445_tl_20" n="N021"/>heiten. Stephen <rs type="person">Heller</rs>'s „<rs type="bibl">Beethoven-Denkschrift</rs>“ hat gewiß
-               <lb facs="#facs_1_region_1771657088653_445_tl_21" n="N022"/>eine geistreichere Bedeutung als die einer bloßen Posse; es
-               <lb facs="#facs_1_region_1771657088653_445_tl_22" n="N023"/>ist darin mit außerordentlicher Geschicklichkeit dargestellt, wie
-               <lb facs="#facs_1_region_1771657088653_445_tl_23" n="N024"/>durch leisere oder stärkere Verschiebung zweifelloser That¬
-               <lb facs="#facs_1_region_1771657088653_445_tl_24" n="N025"/>sachen, durch anscheinend unbedeutende Zuthaten und poetisch
-               <lb facs="#facs_1_region_1771657088653_445_tl_25" n="N026"/>ausgefüllte Lücken sich im Laufe von Jahrhunderten Falsches
-               <lb facs="#facs_1_region_1771657088653_445_tl_26" n="N027"/>mit Wahrem vermischen und selbst das nüchternste Factum
-               <lb facs="#facs_1_region_1771657088653_445_tl_27" n="N028"/>möglicherweise in abenteuerliche Beleuchtung gerathen kann.
-               <lb facs="#facs_1_region_1771657088653_445_tl_28" n="N029"/>Die bevorstehende Enthüllung unserer <rs type="person">Beethoven</rs>-Statue wird
-               <lb facs="#facs_1_region_1771657088653_445_tl_29" n="N030"/>wahrscheinlich genug des Ernsthaften über den großen Ton¬
-               <lb facs="#facs_1_region_1771657088653_445_tl_30" n="N031"/>dichter bringen; möge denn auch einem scherzhaften Beitrage
-               <lb facs="#facs_1_region_1771657088653_445_tl_31" n="N032"/>sein bescheidenes Plätzchen vergönnt sein.
-               <lb facs="#facs_1_region_1771657088653_445_tl_32" n="N033"/>„Meine Herren! Die im Auftrage unserer Akademie
-               <lb facs="#facs_1_region_1771657088653_445_tl_33" n="N034"/>unternommenen und eifrigst fortgesetzten Nachforschungen nach
-               <lb facs="#facs_1_region_1771657088653_445_tl_34" n="N035"/>alten Handschriften, Kunstgegenständen, Industrie-Erzeugnissen
-               <lb facs="#facs_1_region_1771657088653_445_tl_35" n="N036"/>liefern noch fortwährend bedeutende Resultate. Diese Aus¬
-               <lb facs="#facs_1_region_1771657088653_445_tl_36" n="N037"/>grabungen gewähren ein ganz besonderes Interesse durch die
-               <lb facs="#facs_1_region_1771657088653_445_tl_37" n="N038"/>hohe Culturbedeutung der betreffenden Epoche: das neunzehnte
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1771657094422_448_tl_1" n="N001"/>Jahrhundert und der Anfang des zwanzigsten. Aus jener Zeit
+         <lb facs="#facs_1_region_1771657094422_448_tl_2" n="N002"/>datirt die fast allgemeine Benützung der Eisenbahnen, datirt
+         <lb facs="#facs_1_region_1771657094422_448_tl_3" n="N003"/>die Photographie, der elektrische Telegraph, endlich die Luft
+         <lb facs="#facs_1_region_1771657094422_448_tl_4" n="N004" break="no"/>ballon-Mallepost (<date>1900</date>, von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_8432">Nadar</rs></hi>). Heute, meine Herren,
+         <lb facs="#facs_1_region_1771657094422_448_tl_5" n="N005"/>habe ich Ihnen von einem Gegenstande zu sprechen, der
+         <lb facs="#facs_1_region_1771657094422_448_tl_6" n="N006"/>unsere Akademie noch viel näher berührt, von einer musikali
+         <lb facs="#facs_1_region_1771657094422_448_tl_7" n="N007" break="no"/>schen Composition nämlich, die man für immer verloren
+         <lb facs="#facs_1_region_1771657094422_448_tl_8" n="N008"/>glaubte. Sie stammt aus einem Jahrhundert, dessen musi
+         <lb facs="#facs_1_region_1771657094422_448_tl_9" n="N009" break="no"/>kalische Leistungen einen außerordentlichen Glanz verbreiteten,
+         <lb facs="#facs_1_region_1771657094422_448_tl_10" n="N010"/>aus dem achtzehnten, und ihr Schöpfer ist der große, unsterb
+         <lb facs="#facs_1_region_1771657094422_448_tl_11" n="N011" break="no"/>liche <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi>. Von seinen neun Symphonien existiren
+         <lb facs="#facs_1_region_1771657094422_448_tl_12" n="N012"/>derzeit noch sechs; die <rs type="bibl" ref="#hsl_work_id_274">erste</rs>, <rs type="bibl" ref="#hsl_work_id_42">dritte</rs> und <rs type="bibl" ref="#hsl_work_id_410">vierte</rs> sind bekanntlich
+         <lb facs="#facs_1_region_1771657094422_448_tl_13" n="N013"/>verloren gegangen; wir kennen daraus nur einige wunder
+         <lb facs="#facs_1_region_1771657094422_448_tl_14" n="N014" break="no"/>bare Bruchstücke, die sich in Kritiken und musikalischen Lehr
+         <lb facs="#facs_1_region_1771657094422_448_tl_15" n="N015" break="no"/>büchern zerstreut fanden und die man allmälig geordnet und
+         <lb facs="#facs_1_region_1771657094422_448_tl_16" n="N016"/>in Museen nach Art verstümmelter Basreliefs aufgestellt hat.
+         <lb facs="#facs_1_region_1771657094422_448_tl_17" n="N017"/>Das Ereigniß, das ich Ihnen heute zu melden habe, es ist die Ent
+         <lb facs="#facs_1_region_1771657094422_448_tl_18" n="N018" break="no"/>deckung, die unerwartete, tausendmal gebenedeite Entdeckung der
+         <lb facs="#facs_1_region_1771657094422_448_tl_19" n="N019"/>dritten, sogenannten „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_42">Heroischen Symphonie</rs></hi>“ von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>!
+         <lb facs="#facs_1_region_1771657094422_448_tl_20" n="N020"/>(Die ganze Versammlung erhebt sich unter jubelndem Applaus;
+         <lb facs="#facs_1_region_1771657094422_448_tl_21" n="N021"/>man umarmt sich und weint vor Freude. Unbeschreiblicher
+         <lb facs="#facs_1_region_1771657094422_448_tl_22" n="N022"/>Tumult; die Sitzung wird unterbrochen. Nach einer halben
+         <lb facs="#facs_1_region_1771657094422_448_tl_23" n="N023"/>Stunde setzt der Redner seinen Bericht fort:) Ja, meine
+         <lb facs="#facs_1_region_1771657094422_448_tl_24" n="N024"/>Herren, die dritte <rs type="bibl" ref="#hsl_work_id_42">Symphonie</rs> ist wiedergefunden. Ein altes
+         <lb facs="#facs_1_region_1771657094422_448_tl_25" n="N025"/>Exemplar vom Jahre <date>1975</date>, auf schlechtem Papier und voll
+         <lb facs="#facs_1_region_1771657094422_448_tl_26" n="N026"/>Fehler, wurde in <rs type="place" ref="#hsl_place_id_1226">Abyssinien</rs> bei einem reichen Musikfreunde
+         <lb facs="#facs_1_region_1771657094422_448_tl_27" n="N027"/>gefunden, und zwar von einem unserer Commis voyageurs
+         <lb facs="#facs_1_region_1771657094422_448_tl_28" n="N028"/>in alter Musik. Ich verzichte darauf, diese Ihnen noch
+         <lb facs="#facs_1_region_1771657094422_448_tl_29" n="N029"/>neue dritte <rs type="bibl" ref="#hsl_work_id_42">Symphonie</rs> hier zu analysiren. Ich erwähne nur,
+         <lb facs="#facs_1_region_1771657094422_448_tl_30" n="N030"/>daß der Anfang von einer so erstaunlichen Einfachheit ist,
+         <lb facs="#facs_1_region_1771657094422_448_tl_31" n="N031"/>daß viele unserer heutigen Componisten ihn gar nicht für
+         <lb facs="#facs_1_region_1771657094422_448_tl_32" n="N032"/>das Thema eines großen Orchesterwerkes halten würden.
+         <lb facs="#facs_1_region_1771657094422_448_tl_33" n="N033"/>Aber je weiter man liest in dieser Partitur, desto mehr fühlt
+         <lb facs="#facs_1_region_1771657094422_448_tl_34" n="N034"/>man sich entzückt und erhoben. Natürlich ist die „<rs type="bibl" ref="#hsl_work_id_42">Heroische
+         <lb facs="#facs_1_region_1771657094422_448_tl_35" n="N035"/>Symphonie</rs>“, wie alle aus jener Epoche, für das kleine Or
+         <lb facs="#facs_1_region_1771657094422_448_tl_36" n="N036" break="no"/>chester geschrieben, wie es bis zum zwanzigsten Jahrhundert
+         <lb facs="#facs_1_region_1771657094422_448_tl_37" n="N037"/>gebräuchlich war: die gewöhnlichen Streich-Instrumente, zwei
+         <lb facs="#facs_1_region_1771657094422_448_tl_38" n="N038"/>Flöten, zwei Oboën, zwei Clarinette, zwei Fagotte, zwei Trom
+         <lb facs="#facs_1_region_1771657094422_448_tl_39" n="N039" break="no"/>peten, zwei bis drei Hörner und ein einziges Paar Pauken,
+         <lb facs="#facs_1_region_1771657094422_448_tl_40" n="N040"/>deren jede nur Einen Ton gab. Wie weit zurück liegt jene
+         <lb facs="#facs_1_region_1771657094422_448_tl_41" n="N041"/>Zeit von unserem heutigen Orchester mit seinen Melodie-</p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1771657094422_448_tl_1" n="N001"/>Jahrhundert und der Anfang des zwanzigsten. Aus jener Zeit
-               <lb facs="#facs_1_region_1771657094422_448_tl_2" n="N002"/>datirt die fast allgemeine Benützung der Eisenbahnen, datirt
-               <lb facs="#facs_1_region_1771657094422_448_tl_3" n="N003"/>die Photographie, der elektrische Telegraph, endlich die Luft¬
-               <lb facs="#facs_1_region_1771657094422_448_tl_4" n="N004"/>ballon-Mallepost (<date month="0" day="0" year="0">1900</date>, von <hi rendition="#em">
-                  <rs type="person">Nadar</rs>
-               </hi>). Heute, meine Herren,
-               <lb facs="#facs_1_region_1771657094422_448_tl_5" n="N005"/>habe ich Ihnen von einem Gegenstande zu sprechen, der
-               <lb facs="#facs_1_region_1771657094422_448_tl_6" n="N006"/>unsere Akademie noch viel näher berührt, von einer musikali¬
-               <lb facs="#facs_1_region_1771657094422_448_tl_7" n="N007"/>schen Composition nämlich, die man für immer verloren
-               <lb facs="#facs_1_region_1771657094422_448_tl_8" n="N008"/>glaubte. Sie stammt aus einem Jahrhundert, dessen musi¬
-               <lb facs="#facs_1_region_1771657094422_448_tl_9" n="N009"/>kalische Leistungen einen außerordentlichen Glanz verbreiteten,
-               <lb facs="#facs_1_region_1771657094422_448_tl_10" n="N010"/>aus dem achtzehnten, und ihr Schöpfer ist der große, unsterb¬
-               <lb facs="#facs_1_region_1771657094422_448_tl_11" n="N011"/>liche <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi>. Von seinen neun Symphonien existiren
-               <lb facs="#facs_1_region_1771657094422_448_tl_12" n="N012"/>derzeit noch sechs; die <rs type="bibl">erste</rs>, <rs type="bibl">dritte</rs> und <rs type="bibl">vierte</rs> sind bekanntlich
-               <lb facs="#facs_1_region_1771657094422_448_tl_13" n="N013"/>verloren gegangen; wir kennen daraus nur einige wunder¬
-               <lb facs="#facs_1_region_1771657094422_448_tl_14" n="N014"/>bare Bruchstücke, die sich in Kritiken und musikalischen Lehr¬
-               <lb facs="#facs_1_region_1771657094422_448_tl_15" n="N015"/>büchern zerstreut fanden und die man allmälig geordnet und
-               <lb facs="#facs_1_region_1771657094422_448_tl_16" n="N016"/>in Museen nach Art verstümmelter Basreliefs aufgestellt hat.
-               <lb facs="#facs_1_region_1771657094422_448_tl_17" n="N017"/>Das Ereigniß, das ich Ihnen heute zu melden habe, es ist die Ent¬
-               <lb facs="#facs_1_region_1771657094422_448_tl_18" n="N018"/>deckung, die unerwartete, tausendmal gebenedeite Entdeckung der
-               <lb facs="#facs_1_region_1771657094422_448_tl_19" n="N019"/>dritten, sogenannten „<hi rendition="#em">
-                  <rs type="bibl">Heroischen Symphonie</rs>
-               </hi>“ von <rs type="person">Beethoven</rs>!
-               <lb facs="#facs_1_region_1771657094422_448_tl_20" n="N020"/>(Die ganze Versammlung erhebt sich unter jubelndem Applaus;
-               <lb facs="#facs_1_region_1771657094422_448_tl_21" n="N021"/>man umarmt sich und weint vor Freude. Unbeschreiblicher
-               <lb facs="#facs_1_region_1771657094422_448_tl_22" n="N022"/>Tumult; die Sitzung wird unterbrochen. Nach einer halben
-               <lb facs="#facs_1_region_1771657094422_448_tl_23" n="N023"/>Stunde setzt der Redner seinen Bericht fort:) Ja, meine
-               <lb facs="#facs_1_region_1771657094422_448_tl_24" n="N024"/>Herren, die dritte <rs type="bibl">Symphonie</rs> ist wiedergefunden. Ein altes
-               <lb facs="#facs_1_region_1771657094422_448_tl_25" n="N025"/>Exemplar vom Jahre <date month="0" day="0" year="0">1975</date>, auf schlechtem Papier und voll
-               <lb facs="#facs_1_region_1771657094422_448_tl_26" n="N026"/>Fehler, wurde in <rs type="place">Abyssinien</rs> bei einem reichen Musikfreunde
-               <lb facs="#facs_1_region_1771657094422_448_tl_27" n="N027"/>gefunden, und zwar von einem unserer Commis voyageurs
-               <lb facs="#facs_1_region_1771657094422_448_tl_28" n="N028"/>in alter Musik. Ich verzichte darauf, diese Ihnen noch
-               <lb facs="#facs_1_region_1771657094422_448_tl_29" n="N029"/>neue dritte <rs type="bibl">Symphonie</rs> hier zu analysiren. Ich erwähne nur,
-               <lb facs="#facs_1_region_1771657094422_448_tl_30" n="N030"/>daß der Anfang von einer so erstaunlichen Einfachheit ist,
-               <lb facs="#facs_1_region_1771657094422_448_tl_31" n="N031"/>daß viele unserer heutigen Componisten ihn gar nicht für
-               <lb facs="#facs_1_region_1771657094422_448_tl_32" n="N032"/>das Thema eines großen Orchesterwerkes halten würden.
-               <lb facs="#facs_1_region_1771657094422_448_tl_33" n="N033"/>Aber je weiter man liest in dieser Partitur, desto mehr fühlt
-               <lb facs="#facs_1_region_1771657094422_448_tl_34" n="N034"/>man sich entzückt und erhoben. Natürlich ist die „<rs type="bibl">Heroische</rs>
-               <lb facs="#facs_1_region_1771657094422_448_tl_35" n="N035"/>
-               <rs type="bibl">Symphonie</rs>“, wie alle aus jener Epoche, für das kleine Or¬
-               <lb facs="#facs_1_region_1771657094422_448_tl_36" n="N036"/>chester geschrieben, wie es bis zum zwanzigsten Jahrhundert
-               <lb facs="#facs_1_region_1771657094422_448_tl_37" n="N037"/>gebräuchlich war: die gewöhnlichen Streich-Instrumente, zwei
-               <lb facs="#facs_1_region_1771657094422_448_tl_38" n="N038"/>Flöten, zwei Oboën, zwei Clarinette, zwei Fagotte, zwei Trom¬
-               <lb facs="#facs_1_region_1771657094422_448_tl_39" n="N039"/>peten, zwei bis drei Hörner und ein einziges Paar Pauken,
-               <lb facs="#facs_1_region_1771657094422_448_tl_40" n="N040"/>deren jede nur Einen Ton gab. Wie weit zurück liegt jene
-               <lb facs="#facs_1_region_1771657094422_448_tl_41" n="N041"/>Zeit von unserem heutigen Orchester mit seinen Melodie-
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1771657099253_451_tl_1" n="N001"/>Gas-Instrumenten, seinen Dampforgeln, Schrauben-Posaunen,
-               <lb facs="#facs_1_region_1771657099253_451_tl_2" n="N002"/>seinen doppelt drehbaren Violinen, den elektrischen Contra¬
-               <lb facs="#facs_1_region_1771657099253_451_tl_3" n="N003"/>bässen, den Schlag-Instrumenten auf chromatischen Rädern und
-               <lb facs="#facs_1_region_1771657099253_451_tl_4" n="N004"/>endlich den Rasirmesserklingen-Flageolets! Aber, meine Herren,
-               <lb facs="#facs_1_region_1771657099253_451_tl_5" n="N005"/>was für bewunderungswürdige Werke schufen die großen
-               <lb facs="#facs_1_region_1771657099253_451_tl_6" n="N006"/>Genies des achtzehnten und neunzehnten Jahrhunderts mit
-               <lb facs="#facs_1_region_1771657099253_451_tl_7" n="N007"/>diesem dürftigen Orchester! Das anhaltende Studium der
-               <lb facs="#facs_1_region_1771657099253_451_tl_8" n="N008"/>Werke von <rs type="person">Haydn</rs>, <rs type="person">Mozart</rs> und <rs type="person">Beethoven</rs> würde für unsere
-               <lb facs="#facs_1_region_1771657099253_451_tl_9" n="N009"/>extravagante Jugend die heilsamste Unterweisung sein. Man
-               <lb facs="#facs_1_region_1771657099253_451_tl_10" n="N010"/>muß ja nicht immer Musikfeste auf großen öffentlichen
-               <lb facs="#facs_1_region_1771657099253_451_tl_11" n="N011"/>Plätzen geben, wo man Gerüste und riesige Hebebäume
-               <lb facs="#facs_1_region_1771657099253_451_tl_12" n="N012"/>braucht, um mehrere Bataillone Musiker in Reih und Glied
-               <lb facs="#facs_1_region_1771657099253_451_tl_13" n="N013"/>zu ordnen unter dem Commando eines Musik-Generals,
-               <lb facs="#facs_1_region_1771657099253_451_tl_14" n="N014"/>seiner Adjutanten und des Musik-Generalstabes. Mit dem
-               <lb facs="#facs_1_region_1771657099253_451_tl_15" n="N015"/>kleinen Orchester <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>'s</hi> war ein Unglück, wie es sich
-               <lb facs="#facs_1_region_1771657099253_451_tl_16" n="N016"/>hier vor zwanzig Jahren ereignete, gar nicht möglich: daß mitten
-               <lb facs="#facs_1_region_1771657099253_451_tl_17" n="N017"/>in dem „Adagio sulfuroso“ eines unserer jungen Sympho¬
-               <lb facs="#facs_1_region_1771657099253_451_tl_18" n="N018"/>nisten die Tenorposaune mit doppeltem Luftdruck zersprang
-               <lb facs="#facs_1_region_1771657099253_451_tl_19" n="N019"/>und einundzwanzig Mann von der Geigen-Escadron verletzte.
-               <lb facs="#facs_1_region_1771657099253_451_tl_20" n="N020"/>Einige Jahre später gerieth ein Schraubenzug-Trompeter in eines
-               <lb facs="#facs_1_region_1771657099253_451_tl_21" n="N021"/>der Räder seines Instrumentes und verlor den linken Arm.
-               <lb facs="#facs_1_region_1771657099253_451_tl_22" n="N022"/>Uebrigens, so beklagenswerth solche Unfälle auch seien, wer
-               <lb facs="#facs_1_region_1771657099253_451_tl_23" n="N023"/>möchte darum auf unsere großen neuen Erfindungen verzich¬
-               <lb facs="#facs_1_region_1771657099253_451_tl_24" n="N024"/>ten? Welcher Componist würde heutzutage den elektrischen
-               <lb facs="#facs_1_region_1771657099253_451_tl_25" n="N025"/>Contrabaß oder die Schlag-Instrumente auf chromatischen
-               <lb facs="#facs_1_region_1771657099253_451_tl_26" n="N026"/>Rädern opfern, welche, ehemals unbekannt, jetzt im Orchester
-               <lb facs="#facs_1_region_1771657099253_451_tl_27" n="N027"/>unentbehrlich sind?
-               <lb facs="#facs_1_region_1771657099253_451_tl_28" n="N028"/>Sie Alle, meine Herren, kennen <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi> gründ¬
-               <lb facs="#facs_1_region_1771657099253_451_tl_29" n="N029"/>lich als Künstler, als großen Componisten. Einige <hi rendition="#em">bio¬</hi>
-               <lb facs="#facs_1_region_1771657099253_451_tl_30" n="N030"/>
-               <hi rendition="#em">graphische</hi> Daten über <rs type="person">Beethoven</rs> möchte ich Ihnen jedoch
-               <lb facs="#facs_1_region_1771657099253_451_tl_31" n="N031"/>ins Gedächtniß zurückrufen, da leider unsere Jugend sich nur
-               <lb facs="#facs_1_region_1771657099253_451_tl_32" n="N032"/>selten die Lebensschicksale älterer großer Künstler einprägt.
-               <lb facs="#facs_1_region_1771657099253_451_tl_33" n="N033"/>Ludwig van <rs type="person">Beethoven</rs> wurde <date month="0" day="0" year="0">1770</date> in <rs type="place">Bonn</rs>, einer
-               <lb facs="#facs_1_region_1771657099253_451_tl_34" n="N034"/>Stadt am <rs type="place">Rhein</rs>, geboren. Nach einigen Schriftstellern des
-               <lb facs="#facs_1_region_1771657099253_451_tl_35" n="N035"/>zweiundzwanzigsten Jahrhunderts soll er, sehr jung, zweiter
-               <lb facs="#facs_1_region_1771657099253_451_tl_36" n="N036"/>Fagottist in der Capelle des <rs type="person">Erzbischof</rs>s von <rs type="place">Köln</rs> gewesen
-               <lb facs="#facs_1_region_1771657099253_451_tl_37" n="N037"/>sein, wofür er eine elende Besoldung von jährlich 375 Francs
-               <lb facs="#facs_1_region_1771657099253_451_tl_38" n="N038"/>erhielt nebst sechs Flacons Kölnerwasser aus der Fabrik des
-               <lb facs="#facs_1_region_1771657099253_451_tl_39" n="N039"/>einzig echten Farina. Glücklicherweise gerieth <rs type="person">Beethoven</rs> in
-               <lb facs="#facs_1_region_1771657099253_451_tl_40" n="N040"/>Streit mit des <rs type="person">Erzbischof</rs>s Leuten, ließ sein Fagott, sein
-               <lb facs="#facs_1_region_1771657099253_451_tl_41" n="N041"/>Kölnerwasser und seinen <rs type="person">Erzbischof</rs> im Stich und ging schnur¬
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1771657099253_451_tl_1" n="N001"/>Gas-Instrumenten, seinen Dampforgeln, Schrauben-Posaunen,
+         <lb facs="#facs_1_region_1771657099253_451_tl_2" n="N002"/>seinen doppelt drehbaren Violinen, den elektrischen Contra
+         <lb facs="#facs_1_region_1771657099253_451_tl_3" n="N003" break="no"/>bässen, den Schlag-Instrumenten auf chromatischen Rädern und
+         <lb facs="#facs_1_region_1771657099253_451_tl_4" n="N004"/>endlich den Rasirmesserklingen-Flageolets! Aber, meine Herren,
+         <lb facs="#facs_1_region_1771657099253_451_tl_5" n="N005"/>was für bewunderungswürdige Werke schufen die großen
+         <lb facs="#facs_1_region_1771657099253_451_tl_6" n="N006"/>Genies des achtzehnten und neunzehnten Jahrhunderts mit
+         <lb facs="#facs_1_region_1771657099253_451_tl_7" n="N007"/>diesem dürftigen Orchester! Das anhaltende Studium der
+         <lb facs="#facs_1_region_1771657099253_451_tl_8" n="N008"/>Werke von <rs type="person" ref="#hsl_person_id_114">Haydn</rs>, <rs type="person" ref="#hsl_person_id_189">Mozart</rs> und <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> würde für unsere
+         <lb facs="#facs_1_region_1771657099253_451_tl_9" n="N009"/>extravagante Jugend die heilsamste Unterweisung sein. Man
+         <lb facs="#facs_1_region_1771657099253_451_tl_10" n="N010"/>muß ja nicht immer Musikfeste auf großen öffentlichen
+         <lb facs="#facs_1_region_1771657099253_451_tl_11" n="N011"/>Plätzen geben, wo man Gerüste und riesige Hebebäume
+         <lb facs="#facs_1_region_1771657099253_451_tl_12" n="N012"/>braucht, um mehrere Bataillone Musiker in Reih und Glied
+         <lb facs="#facs_1_region_1771657099253_451_tl_13" n="N013"/>zu ordnen unter dem Commando eines Musik-Generals,
+         <lb facs="#facs_1_region_1771657099253_451_tl_14" n="N014"/>seiner Adjutanten und des Musik-Generalstabes. Mit dem
+         <lb facs="#facs_1_region_1771657099253_451_tl_15" n="N015"/>kleinen Orchester <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s</hi> war ein Unglück, wie es sich
+         <lb facs="#facs_1_region_1771657099253_451_tl_16" n="N016"/>hier vor zwanzig Jahren ereignete, gar nicht möglich: daß mitten
+         <lb facs="#facs_1_region_1771657099253_451_tl_17" n="N017"/>in dem „Adagio sulfuroso“ eines unserer jungen Sympho
+         <lb facs="#facs_1_region_1771657099253_451_tl_18" n="N018" break="no"/>nisten die Tenorposaune mit doppeltem Luftdruck zersprang
+         <lb facs="#facs_1_region_1771657099253_451_tl_19" n="N019"/>und einundzwanzig Mann von der Geigen-Escadron verletzte.
+         <lb facs="#facs_1_region_1771657099253_451_tl_20" n="N020"/>Einige Jahre später gerieth ein Schraubenzug-Trompeter in eines
+         <lb facs="#facs_1_region_1771657099253_451_tl_21" n="N021"/>der Räder seines Instrumentes und verlor den linken Arm.
+         <lb facs="#facs_1_region_1771657099253_451_tl_22" n="N022"/>Uebrigens, so beklagenswerth solche Unfälle auch seien, wer
+         <lb facs="#facs_1_region_1771657099253_451_tl_23" n="N023"/>möchte darum auf unsere großen neuen Erfindungen verzich
+         <lb facs="#facs_1_region_1771657099253_451_tl_24" n="N024" break="no"/>ten? Welcher Componist würde heutzutage den elektrischen
+         <lb facs="#facs_1_region_1771657099253_451_tl_25" n="N025"/>Contrabaß oder die Schlag-Instrumente auf chromatischen
+         <lb facs="#facs_1_region_1771657099253_451_tl_26" n="N026"/>Rädern opfern, welche, ehemals unbekannt, jetzt im Orchester
+         <lb facs="#facs_1_region_1771657099253_451_tl_27" n="N027"/>unentbehrlich sind?
+            </p><p>
+         <lb facs="#facs_1_region_1771657099253_451_tl_28" n="N028"/>Sie Alle, meine Herren, kennen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi> gründ
+         <lb facs="#facs_1_region_1771657099253_451_tl_29" n="N029" break="no"/>lich als Künstler, als großen Componisten. Einige <hi rendition="#em">bio
+         <lb facs="#facs_1_region_1771657099253_451_tl_30" n="N030" break="no"/>graphische</hi> Daten über <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> möchte ich Ihnen jedoch
+         <lb facs="#facs_1_region_1771657099253_451_tl_31" n="N031"/>ins Gedächtniß zurückrufen, da leider unsere Jugend sich nur
+         <lb facs="#facs_1_region_1771657099253_451_tl_32" n="N032"/>selten die Lebensschicksale älterer großer Künstler einprägt.
+            </p><p>
+         <lb facs="#facs_1_region_1771657099253_451_tl_33" n="N033"/>Ludwig van <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> wurde <date>1770</date> in <rs type="place" ref="#hsl_place_id_67">Bonn</rs>, einer
+         <lb facs="#facs_1_region_1771657099253_451_tl_34" n="N034"/>Stadt am <rs type="place" ref="#hsl_place_id_245">Rhein</rs>, geboren. Nach einigen Schriftstellern des
+         <lb facs="#facs_1_region_1771657099253_451_tl_35" n="N035"/>zweiundzwanzigsten Jahrhunderts soll er, sehr jung, zweiter
+         <lb facs="#facs_1_region_1771657099253_451_tl_36" n="N036"/>Fagottist in der Capelle des <rs type="person" ref="#hsl_person_id_6199">Erzbischof</rs>s von <rs type="place" ref="#hsl_place_id_68">Köln</rs> gewesen
+         <lb facs="#facs_1_region_1771657099253_451_tl_37" n="N037"/>sein, wofür er eine elende Besoldung von jährlich 375 Francs
+         <lb facs="#facs_1_region_1771657099253_451_tl_38" n="N038"/>erhielt nebst sechs Flacons Kölnerwasser aus der Fabrik des
+         <lb facs="#facs_1_region_1771657099253_451_tl_39" n="N039"/>einzig echten Farina. Glücklicherweise gerieth <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> in
+         <lb facs="#facs_1_region_1771657099253_451_tl_40" n="N040"/>Streit mit des <rs type="person" ref="#hsl_person_id_6199">Erzbischof</rs>s Leuten, ließ sein Fagott, sein
+         <lb facs="#facs_1_region_1771657099253_451_tl_41" n="N041"/>Kölnerwasser und seinen <rs type="person" ref="#hsl_person_id_6199">Erzbischof</rs> im Stich und ging schnur</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1771657115830_457_tl_1" n="N001" break="no"/>stracks nach <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Dort herrschte augenblicklich eine große
+         <lb facs="#facs_2_region_1771657115830_457_tl_2" n="N002"/>Passion für <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Musik, die auch von den besten Sän
+         <lb facs="#facs_2_region_1771657115830_457_tl_3" n="N003" break="no"/>gern und Sängerinnen der Welt vorgetragen wurde. Außer
+         <lb facs="#facs_2_region_1771657115830_457_tl_4" n="N004" break="no"/>dem liebte man noch besonders die Tanzmusik und gewisse
+         <lb facs="#facs_2_region_1771657115830_457_tl_5" n="N005"/>kleine, übermüthige, tolle Operetten, wahre <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>anale.
+         <lb facs="#facs_2_region_1771657115830_457_tl_6" n="N006"/>Ein anderer Theil des <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicums schwärmte für die
+         <lb facs="#facs_2_region_1771657115830_457_tl_7" n="N007"/>großen Virtuositäts-Gymnastiker, deren höchster Cultus der
+         <lb facs="#facs_2_region_1771657115830_457_tl_8" n="N008"/><rs type="person" ref="#hsl_person_id_1008">Paganini</rs>smus war. Das große, intelligente <rs type="place" ref="#hsl_place_id_55">Wien</rs> erholte
+         <lb facs="#facs_2_region_1771657115830_457_tl_9" n="N009"/>sich jedoch bald von solchem Musikrausch und kehrte zu seinen
+         <lb facs="#facs_2_region_1771657115830_457_tl_10" n="N010"/>classischen Lieblingen <rs type="person" ref="#hsl_person_id_114">Haydn</rs> und <rs type="person" ref="#hsl_person_id_189">Mozart</rs> zurück, neben
+         <lb facs="#facs_2_region_1771657115830_457_tl_11" n="N011"/>welchen bald der junge <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> Aufsehen zu machen be
+         <lb facs="#facs_2_region_1771657115830_457_tl_12" n="N012" break="no"/>gann. Die nachstehenden Daten entnehmen wir einem
+         <lb facs="#facs_2_region_1771657115830_457_tl_13" n="N013"/>Werke vom Jahre 2720, dessen Verfasser sich auf die authen
+         <lb facs="#facs_2_region_1771657115830_457_tl_14" n="N014" break="no"/>tischesten Quellen beruft. <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, von leidenschaftlichem, un
+         <lb facs="#facs_2_region_1771657115830_457_tl_15" n="N015" break="no"/>geduldigem Naturell, hatte die Musik und die Geselligkeit in
+         <lb facs="#facs_2_region_1771657115830_457_tl_16" n="N016"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> bald sattbekommen und siedelte sich in einem schönen
+         <lb facs="#facs_2_region_1771657115830_457_tl_17" n="N017"/>Walde, der „<rs type="place" ref="#hsl_place_id_1227">Wienerwald</rs>“ geheißen, als Eremit an; er trug
+         <lb facs="#facs_2_region_1771657115830_457_tl_18" n="N018"/>eine Art brauner Kutte, mit einer weißen Schnur um die Mitte,
+         <lb facs="#facs_2_region_1771657115830_457_tl_19" n="N019"/>und lebte von Milch und Obst. Den ganzen Tag streifte er
+         <lb facs="#facs_2_region_1771657115830_457_tl_20" n="N020"/>im Walde herum und componirte; eine Menge Künstler,
+         <lb facs="#facs_2_region_1771657115830_457_tl_21" n="N021"/>Verleger und vornehme Persönlichkeiten suchten ihn da auf.
+         <lb facs="#facs_2_region_1771657115830_457_tl_22" n="N022"/>Ein junges, schönes Mädchen, die Comtesse <rs type="person" ref="#hsl_person_id_4293">Guicciardi</rs>, hatte
+         <lb facs="#facs_2_region_1771657115830_457_tl_23" n="N023"/>eine so heftige Leidenschaft für <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> gefaßt, daß sie ihm
+         <lb facs="#facs_2_region_1771657115830_457_tl_24" n="N024"/>ihre Hand und ihr immenses Vermögen anbot. <rs type="person" ref="#hsl_person_id_25">Beethoven</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1771657115830_457_tl_25" n="N025"/>jedoch sah voraus, daß die stolze Adelspartei, wie sie damals
+         <lb facs="#facs_2_region_1771657115830_457_tl_26" n="N026"/>in <rs type="place" ref="#hsl_place_id_43">Oesterreich</rs> existirte, solche Verbindung niemals billigen würde,
+         <lb facs="#facs_2_region_1771657115830_457_tl_27" n="N027"/>und so war er großherzig genug, den Antrag abzulehnen.
+            </p><p>
+         <lb facs="#facs_2_region_1771657115830_457_tl_28" n="N028"/>Bald sah sich <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> in angenehmen, bequemen Ver
+         <lb facs="#facs_2_region_1771657115830_457_tl_29" n="N029" break="no"/>hältnissen und ließ sich eine Art Schweizerhaus im <rs type="place" ref="#hsl_place_id_1227">Wiener
+         <lb facs="#facs_2_region_1771657115830_457_tl_30" n="N030" break="no"/>wald</rs> bauen, das jedoch außer den nothwendigsten Möbeln
+         <lb facs="#facs_2_region_1771657115830_457_tl_31" n="N031"/>nur ein einfach geflügeltes Piano (die Pianos mit drei
+         <lb facs="#facs_2_region_1771657115830_457_tl_32" n="N032"/>Flügeln waren noch unbekannt) und einige Bücher enthielt.
+         <lb facs="#facs_2_region_1771657115830_457_tl_33" n="N033"/>An der Wand befestigt hingen drei Käfige, worin ein Kukuk,
+         <lb facs="#facs_2_region_1771657115830_457_tl_34" n="N034"/>eine Wachtel und eine Nachtigall. Vielleicht studirte <rs type="person" ref="#hsl_person_id_25">Beetho
+         <lb facs="#facs_2_region_1771657115830_457_tl_35" n="N035" break="no"/>ven</rs> ihr Gezwitscher in Absicht auf seine <rs type="bibl" ref="#hsl_work_id_408">Pastoral-Symphonie</rs>.
+         <lb facs="#facs_2_region_1771657115830_457_tl_36" n="N036"/>Wenigstens ist dies die Meinung eines alten Philosophen
+         <lb facs="#facs_2_region_1771657115830_457_tl_37" n="N037"/>des neunzehnten Jahrhunderts, Mr. Joseph <rs type="person" ref="#hsl_person_id_8433">Prudhomme</rs>,
+         <lb facs="#facs_2_region_1771657115830_457_tl_38" n="N038"/>dessen zahlreiche Nachkommen bis in unsere Tage reichen.
+            </p><p>
+         <lb facs="#facs_2_region_1771657115830_457_tl_39" n="N039"/>Um diese Zeit kam ein berühmter Zeitgenosse <rs type="person" ref="#hsl_person_id_25">Beetho
+         <lb facs="#facs_2_region_1771657115830_457_tl_40" n="N040" break="no"/>ven</rs>’s nach <rs type="place" ref="#hsl_place_id_55">Wien</rs>: der deutsche Dichter <hi rendition="#em"><rs type="person" ref="#hsl_person_id_100">Goethe</rs></hi>. Er be
+         <lb facs="#facs_2_region_1771657115830_457_tl_41" n="N041" break="no"/>suchte häufig <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> in seiner Waldhütte, und beide Männer
+         <lb facs="#facs_2_region_1771657115830_457_tl_42" n="N042"/>schlossen innige Freundschaft. Eines Tages, als eine Hofjagd<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1771657115830_457_tl_1" n="N001"/>stracks nach <rs type="place">Wien</rs>. Dort herrschte augenblicklich eine große
-               <lb facs="#facs_2_region_1771657115830_457_tl_2" n="N002"/>Passion für <rs type="place">italienisch</rs>e Musik, die auch von den besten Sän¬
-               <lb facs="#facs_2_region_1771657115830_457_tl_3" n="N003"/>gern und Sängerinnen der Welt vorgetragen wurde. Außer¬
-               <lb facs="#facs_2_region_1771657115830_457_tl_4" n="N004"/>dem liebte man noch besonders die Tanzmusik und gewisse
-               <lb facs="#facs_2_region_1771657115830_457_tl_5" n="N005"/>kleine, übermüthige, tolle Operetten, wahre <rs type="person">Offenbach</rs>anale.
-               <lb facs="#facs_2_region_1771657115830_457_tl_6" n="N006"/>Ein anderer Theil des <rs type="place">Wien</rs>er Publicums schwärmte für die
-               <lb facs="#facs_2_region_1771657115830_457_tl_7" n="N007"/>großen Virtuositäts-Gymnastiker, deren höchster Cultus der
-               <lb facs="#facs_2_region_1771657115830_457_tl_8" n="N008"/>
-               <rs type="person">Paganini</rs>smus war. Das große, intelligente <rs type="place">Wien</rs> erholte
-               <lb facs="#facs_2_region_1771657115830_457_tl_9" n="N009"/>sich jedoch bald von solchem Musikrausch und kehrte zu seinen
-               <lb facs="#facs_2_region_1771657115830_457_tl_10" n="N010"/>classischen Lieblingen <rs type="person">Haydn</rs> und <rs type="person">Mozart</rs> zurück, neben
-               <lb facs="#facs_2_region_1771657115830_457_tl_11" n="N011"/>welchen bald der junge <rs type="person">Beethoven</rs> Aufsehen zu machen be¬
-               <lb facs="#facs_2_region_1771657115830_457_tl_12" n="N012"/>gann. Die nachstehenden Daten entnehmen wir einem
-               <lb facs="#facs_2_region_1771657115830_457_tl_13" n="N013"/>Werke vom Jahre 2720, dessen Verfasser sich auf die authen¬
-               <lb facs="#facs_2_region_1771657115830_457_tl_14" n="N014"/>tischesten Quellen beruft. <rs type="person">Beethoven</rs>, von leidenschaftlichem, un¬
-               <lb facs="#facs_2_region_1771657115830_457_tl_15" n="N015"/>geduldigem Naturell, hatte die Musik und die Geselligkeit in
-               <lb facs="#facs_2_region_1771657115830_457_tl_16" n="N016"/>
-               <rs type="place">Wien</rs> bald sattbekommen und siedelte sich in einem schönen
-               <lb facs="#facs_2_region_1771657115830_457_tl_17" n="N017"/>Walde, der „<rs type="place">Wienerwald</rs>“ geheißen, als Eremit an; er trug
-               <lb facs="#facs_2_region_1771657115830_457_tl_18" n="N018"/>eine Art brauner Kutte, mit einer weißen Schnur um die Mitte,
-               <lb facs="#facs_2_region_1771657115830_457_tl_19" n="N019"/>und lebte von Milch und Obst. Den ganzen Tag streifte er
-               <lb facs="#facs_2_region_1771657115830_457_tl_20" n="N020"/>im Walde herum und componirte; eine Menge Künstler,
-               <lb facs="#facs_2_region_1771657115830_457_tl_21" n="N021"/>Verleger und vornehme Persönlichkeiten suchten ihn da auf.
-               <lb facs="#facs_2_region_1771657115830_457_tl_22" n="N022"/>Ein junges, schönes Mädchen, die Comtesse <rs type="person">Guicciardi</rs>, hatte
-               <lb facs="#facs_2_region_1771657115830_457_tl_23" n="N023"/>eine so heftige Leidenschaft für <rs type="person">Beethoven</rs> gefaßt, daß sie ihm
-               <lb facs="#facs_2_region_1771657115830_457_tl_24" n="N024"/>ihre Hand und ihr immenses Vermögen anbot. <rs type="person">Beethoven</rs>
-               <lb facs="#facs_2_region_1771657115830_457_tl_25" n="N025"/>jedoch sah voraus, daß die stolze Adelspartei, wie sie damals
-               <lb facs="#facs_2_region_1771657115830_457_tl_26" n="N026"/>in <rs type="place">Oesterreich</rs> existirte, solche Verbindung niemals billigen würde,
-               <lb facs="#facs_2_region_1771657115830_457_tl_27" n="N027"/>und so war er großherzig genug, den Antrag abzulehnen.
-               <lb facs="#facs_2_region_1771657115830_457_tl_28" n="N028"/>Bald sah sich <rs type="person">Beethoven</rs> in angenehmen, bequemen Ver¬
-               <lb facs="#facs_2_region_1771657115830_457_tl_29" n="N029"/>hältnissen und ließ sich eine Art Schweizerhaus im <rs type="place" continued="true">Wiener¬</rs>
-               <lb facs="#facs_2_region_1771657115830_457_tl_30" n="N030"/>
-               <rs type="place" continued="true">wald</rs> bauen, das jedoch außer den nothwendigsten Möbeln
-               <lb facs="#facs_2_region_1771657115830_457_tl_31" n="N031"/>nur ein einfach geflügeltes Piano (die Pianos mit drei
-               <lb facs="#facs_2_region_1771657115830_457_tl_32" n="N032"/>Flügeln waren noch unbekannt) und einige Bücher enthielt.
-               <lb facs="#facs_2_region_1771657115830_457_tl_33" n="N033"/>An der Wand befestigt hingen drei Käfige, worin ein Kukuk,
-               <lb facs="#facs_2_region_1771657115830_457_tl_34" n="N034"/>eine Wachtel und eine Nachtigall. Vielleicht studirte <rs type="person" continued="true">Beetho¬</rs>
-               <lb facs="#facs_2_region_1771657115830_457_tl_35" n="N035"/>
-               <rs type="person" continued="true">ven</rs> ihr Gezwitscher in Absicht auf seine <rs type="bibl">Pastoral-Symphonie</rs>.
-               <lb facs="#facs_2_region_1771657115830_457_tl_36" n="N036"/>Wenigstens ist dies die Meinung eines alten Philosophen
-               <lb facs="#facs_2_region_1771657115830_457_tl_37" n="N037"/>des neunzehnten Jahrhunderts, Mr. Joseph <rs type="person">Prudhomme</rs>,
-               <lb facs="#facs_2_region_1771657115830_457_tl_38" n="N038"/>dessen zahlreiche Nachkommen bis in unsere Tage reichen.
-               <lb facs="#facs_2_region_1771657115830_457_tl_39" n="N039"/>Um diese Zeit kam ein berühmter Zeitgenosse <rs type="person" continued="true">Beetho¬</rs>
-               <lb facs="#facs_2_region_1771657115830_457_tl_40" n="N040"/>
-               <rs type="person" continued="true">ven</rs>'s nach <rs type="place">Wien</rs>: der deutsche Dichter <hi rendition="#em">
-                  <rs type="person">Goethe</rs>
-               </hi>. Er be¬
-               <lb facs="#facs_2_region_1771657115830_457_tl_41" n="N041"/>suchte häufig <rs type="person">Beethoven</rs> in seiner Waldhütte, und beide Männer
-               <lb facs="#facs_2_region_1771657115830_457_tl_42" n="N042"/>schlossen innige Freundschaft. Eines Tages, als eine Hofjagd
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1771657119382_460_tl_1" n="N001"/>daselbst stattfand, standen <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> und <rs type="person" ref="#hsl_person_id_100">Goethe</rs> plötzlich dem
+         <lb facs="#facs_2_region_1771657119382_460_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_1183">Kaiser</rs> gegenüber, der von seinem erlauchten Gaste, dem <rs type="person" ref="#hsl_person_id_8435">Kurfürsten</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1771657119382_460_tl_3" n="N003"/>von Massenburg-Hofhausen-Schleibingen, einem passionirten
+         <lb facs="#facs_2_region_1771657119382_460_tl_4" n="N004"/>Jäger, begleitet war. <rs type="person" ref="#hsl_person_id_100">Goethe</rs>, der nicht blos Genie, sondern
+         <lb facs="#facs_2_region_1771657119382_460_tl_5" n="N005"/>auch feine Lebensart besaß — was man von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> nicht
+         <lb facs="#facs_2_region_1771657119382_460_tl_6" n="N006"/>behaupten wollte — <rs type="person" ref="#hsl_person_id_100">Goethe</rs> blieb sofort stehen und grüßte
+         <lb facs="#facs_2_region_1771657119382_460_tl_7" n="N007"/>tief mit abgezogenem Hute. <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> jedoch behielt seine
+         <lb facs="#facs_2_region_1771657119382_460_tl_8" n="N008"/>Filzmütze auf, machte Kehrt und verschwand im Gebüsche.
+         <lb facs="#facs_2_region_1771657119382_460_tl_9" n="N009"/>Der <rs type="person" ref="#hsl_person_id_1183">Kaiser</rs> kannte bereits <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Eigenheiten, auch
+         <lb facs="#facs_2_region_1771657119382_460_tl_10" n="N010"/>sein freundschaftliches Verhältniß zu dem ihn hochschätzenden
+         <lb facs="#facs_2_region_1771657119382_460_tl_11" n="N011"/>Erzherzog <rs type="person" ref="#hsl_person_id_791">Rudolph</rs> — und that deßhalb, als habe er nichts
+         <lb facs="#facs_2_region_1771657119382_460_tl_12" n="N012"/>bemerkt. Aber der stolze und jähzornige <rs type="person" ref="#hsl_person_id_8435">Kurfürst</rs> nahm die
+         <lb facs="#facs_2_region_1771657119382_460_tl_13" n="N013"/>Sache nicht so leicht und verlangte, daß <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> für seine
+         <lb facs="#facs_2_region_1771657119382_460_tl_14" n="N014"/>Unart exemplarisch bestraft werde. Der <rs type="person" ref="#hsl_person_id_1183">Kaiser</rs>, ein guter,
+         <lb facs="#facs_2_region_1771657119382_460_tl_15" n="N015"/>vortrefflicher Mann, versprach zum Scheine, dem Begehren
+         <lb facs="#facs_2_region_1771657119382_460_tl_16" n="N016"/>seines Gastes zu willfahren, und wirklich holten am nächsten
+         <lb facs="#facs_2_region_1771657119382_460_tl_17" n="N017"/>Tage zwei Gendarmen den rebellischen <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> in einer
+         <lb facs="#facs_2_region_1771657119382_460_tl_18" n="N018"/>geschlossenen Kutsche ab. Man führte ihn jedoch heimlich in
+         <lb facs="#facs_2_region_1771657119382_460_tl_19" n="N019"/>das Palais seines Protectors, des Erzherzogs <rs type="person" ref="#hsl_person_id_791">Rudolph</rs>, wo
+         <lb facs="#facs_2_region_1771657119382_460_tl_20" n="N020"/>er einige Tage, bis zur Abreise des Kurfürsten, in ruhiger
+         <lb facs="#facs_2_region_1771657119382_460_tl_21" n="N021"/>Verborgenheit blieb.
+            </p><p>
+         <lb facs="#facs_2_region_1771657119382_460_tl_22" n="N022"/>Eines Tages drang <rs type="person" ref="#hsl_person_id_39">Napoleon</rs> der Große als Sieger
+         <lb facs="#facs_2_region_1771657119382_460_tl_23" n="N023"/>in die Staaten des <rs type="person" ref="#hsl_person_id_1183">Kaiser</rs>s von <rs type="place" ref="#hsl_place_id_43">Oesterreich</rs>. Kaum hatte er
+         <lb facs="#facs_2_region_1771657119382_460_tl_24" n="N024"/>sich in Schönbrunn eingerichtet, so ließ er vor Allem <rs type="person" ref="#hsl_person_id_25">Beet
+         <lb facs="#facs_2_region_1771657119382_460_tl_25" n="N025" break="no"/>hoven</rs> zu sich rufen, gerade wie er es einige Jahre
+         <lb facs="#facs_2_region_1771657119382_460_tl_26" n="N026"/>früher in <rs type="place" ref="#hsl_place_id_41">Weimar</rs> mit <rs type="person" ref="#hsl_person_id_100">Goethe</rs> und <rs type="person" ref="#hsl_person_id_8434">Wieland</rs> gethan.
+         <lb facs="#facs_2_region_1771657119382_460_tl_27" n="N027"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, ein begeisterter Verehrer des großen <rs type="person" ref="#hsl_person_id_39">Bona
+         <lb facs="#facs_2_region_1771657119382_460_tl_28" n="N028" break="no"/>parte</rs>, dem er auch seine jetzt wieder aufgefundene
+         <lb facs="#facs_2_region_1771657119382_460_tl_29" n="N029"/>„<rs type="bibl" ref="#hsl_work_id_42">Sinfonia eroica</rs>“ gewidmet hatte, nahm die Partitur
+         <lb facs="#facs_2_region_1771657119382_460_tl_30" n="N030"/>unter den Arm und begab sich damit nach Schönbrunn.
+         <lb facs="#facs_2_region_1771657119382_460_tl_31" n="N031"/><rs type="person" ref="#hsl_person_id_39">Napoleon</rs> empfing ihn auf das huldreichste und nahm die
+         <lb facs="#facs_2_region_1771657119382_460_tl_32" n="N032"/>Partitur aus seinen Händen entgegen. Auf Ersuchen <rs type="person" ref="#hsl_person_id_39">Napo
+         <lb facs="#facs_2_region_1771657119382_460_tl_33" n="N033" break="no"/>leon</rs>’s setzte sich <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> hierauf ans Clavier und spielte
+         <lb facs="#facs_2_region_1771657119382_460_tl_34" n="N034"/>dem <rs type="person" ref="#hsl_person_id_39">Kaiser</rs> die <rs type="bibl" ref="#hsl_work_id_42">Symphonie</rs> vor. Der <rs type="person" ref="#hsl_person_id_39">Kaiser</rs> machte treffliche
+         <lb facs="#facs_2_region_1771657119382_460_tl_35" n="N035"/>Bemerkungen über das Werk und die muthmaßliche Bedeu
+         <lb facs="#facs_2_region_1771657119382_460_tl_36" n="N036" break="no"/>tung der einzelnen Sätze. „Ich bin kein gelehrter Kenner
+         <lb facs="#facs_2_region_1771657119382_460_tl_37" n="N037"/>der Musik,“ äußerte <rs type="person" ref="#hsl_person_id_39">Napoleon</rs>, „ich gebe nur meinen Em
+         <lb facs="#facs_2_region_1771657119382_460_tl_38" n="N038" break="no"/>pfindungen Ausdruck und urtheile als simpler Kaiser. Und
+         <lb facs="#facs_2_region_1771657119382_460_tl_39" n="N039"/>da finde ich den Trauermarsch in Ihrer <rs type="bibl" ref="#hsl_work_id_42">Symphonie</rs> zwar
+         <lb facs="#facs_2_region_1771657119382_460_tl_40" n="N040"/>sehr schön, aber ein wenig zu lang und gar zu tief schmerz
+         <lb facs="#facs_2_region_1771657119382_460_tl_41" n="N041" break="no"/>lich. Das paßt nicht recht für meine Soldaten, die ihr Blut so
+         <lb facs="#facs_2_region_1771657119382_460_tl_42" n="N042"/>gerne für Kaiser und Vaterland dahingeben. Was meinen<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1771657119382_460_tl_1" n="N001"/>daselbst stattfand, standen <rs type="person">Beethoven</rs> und <rs type="person">Goethe</rs> plötzlich dem
-               <lb facs="#facs_2_region_1771657119382_460_tl_2" n="N002"/>
-               <rs type="person">Kaiser</rs> gegenüber, der von seinem erlauchten Gaste, dem <rs type="person">Kurfürsten</rs>
-               <lb facs="#facs_2_region_1771657119382_460_tl_3" n="N003"/>von <rs type="place">Massenburg</rs>-<rs type="place">Hofhausen</rs>-<rs type="place">Schleibingen</rs>, einem passionirten
-               <lb facs="#facs_2_region_1771657119382_460_tl_4" n="N004"/>Jäger, begleitet war. <rs type="person">Goethe</rs>, der nicht blos Genie, sondern
-               <lb facs="#facs_2_region_1771657119382_460_tl_5" n="N005"/>auch feine Lebensart besaß — was man von <rs type="person">Beethoven</rs> nicht
-               <lb facs="#facs_2_region_1771657119382_460_tl_6" n="N006"/>behaupten wollte — <rs type="person">Goethe</rs> blieb sofort stehen und grüßte
-               <lb facs="#facs_2_region_1771657119382_460_tl_7" n="N007"/>tief mit abgezogenem Hute. <rs type="person">Beethoven</rs> jedoch behielt seine
-               <lb facs="#facs_2_region_1771657119382_460_tl_8" n="N008"/>Filzmütze auf, machte Kehrt und verschwand im Gebüsche.
-               <lb facs="#facs_2_region_1771657119382_460_tl_9" n="N009"/>Der <rs type="person">Kaiser</rs> kannte bereits <rs type="person">Beethoven</rs>'s Eigenheiten, auch
-               <lb facs="#facs_2_region_1771657119382_460_tl_10" n="N010"/>sein freundschaftliches Verhältniß zu dem ihn hochschätzenden
-               <lb facs="#facs_2_region_1771657119382_460_tl_11" n="N011"/>Erzherzog <rs type="person">Rudolph</rs> — und that deßhalb, als habe er nichts
-               <lb facs="#facs_2_region_1771657119382_460_tl_12" n="N012"/>bemerkt. Aber der stolze und jähzornige <rs type="person">Kurfürst</rs> nahm die
-               <lb facs="#facs_2_region_1771657119382_460_tl_13" n="N013"/>Sache nicht so leicht und verlangte, daß <rs type="person">Beethoven</rs> für seine
-               <lb facs="#facs_2_region_1771657119382_460_tl_14" n="N014"/>Unart exemplarisch bestraft werde. Der <rs type="person">Kaiser</rs>, ein guter,
-               <lb facs="#facs_2_region_1771657119382_460_tl_15" n="N015"/>vortrefflicher Mann, versprach zum Scheine, dem Begehren
-               <lb facs="#facs_2_region_1771657119382_460_tl_16" n="N016"/>seines Gastes zu willfahren, und wirklich holten am nächsten
-               <lb facs="#facs_2_region_1771657119382_460_tl_17" n="N017"/>Tage zwei Gendarmen den rebellischen <rs type="person">Beethoven</rs> in einer
-               <lb facs="#facs_2_region_1771657119382_460_tl_18" n="N018"/>geschlossenen Kutsche ab. Man führte ihn jedoch heimlich in
-               <lb facs="#facs_2_region_1771657119382_460_tl_19" n="N019"/>das Palais seines Protectors, des Erzherzogs <rs type="person">Rudolph</rs>, wo
-               <lb facs="#facs_2_region_1771657119382_460_tl_20" n="N020"/>er einige Tage, bis zur Abreise des Kurfürsten, in ruhiger
-               <lb facs="#facs_2_region_1771657119382_460_tl_21" n="N021"/>Verborgenheit blieb.
-               <lb facs="#facs_2_region_1771657119382_460_tl_22" n="N022"/>Eines Tages drang <rs type="person">Napoleon</rs> der Große als Sieger
-               <lb facs="#facs_2_region_1771657119382_460_tl_23" n="N023"/>in die Staaten des <rs type="person">Kaiser</rs>s von <rs type="place">Oesterreich</rs>. Kaum hatte er
-               <lb facs="#facs_2_region_1771657119382_460_tl_24" n="N024"/>sich in <rs type="place">Schönbrunn</rs> eingerichtet, so ließ er vor Allem <rs type="person" continued="true">Beet¬</rs>
-               <lb facs="#facs_2_region_1771657119382_460_tl_25" n="N025"/>
-               <rs type="person" continued="true">hoven</rs> zu sich rufen, gerade wie er es einige Jahre
-               <lb facs="#facs_2_region_1771657119382_460_tl_26" n="N026"/>früher in <rs type="place">Weimar</rs> mit <rs type="person">Goethe</rs> und <rs type="person">Wieland</rs> gethan.
-               <lb facs="#facs_2_region_1771657119382_460_tl_27" n="N027"/>
-               <rs type="person">Beethoven</rs>, ein begeisterter Verehrer des großen <rs type="person" continued="true">Bona¬</rs>
-               <lb facs="#facs_2_region_1771657119382_460_tl_28" n="N028"/>
-               <rs type="person" continued="true">parte</rs>, dem er auch seine jetzt wieder aufgefundene
-               <lb facs="#facs_2_region_1771657119382_460_tl_29" n="N029"/>„<rs type="bibl">Sinfonia eroica</rs>“ gewidmet hatte, nahm die Partitur
-               <lb facs="#facs_2_region_1771657119382_460_tl_30" n="N030"/>unter den Arm und begab sich damit nach <rs type="place">Schönbrunn</rs>.
-               <lb facs="#facs_2_region_1771657119382_460_tl_31" n="N031"/>
-               <rs type="person">Napoleon</rs> empfing ihn auf das huldreichste und nahm die
-               <lb facs="#facs_2_region_1771657119382_460_tl_32" n="N032"/>Partitur aus seinen Händen entgegen. Auf Ersuchen <rs type="person" continued="true">Napo¬</rs>
-               <lb facs="#facs_2_region_1771657119382_460_tl_33" n="N033"/>
-               <rs type="person" continued="true">leon</rs>'s setzte sich <rs type="person">Beethoven</rs> hierauf ans Clavier und spielte
-               <lb facs="#facs_2_region_1771657119382_460_tl_34" n="N034"/>dem <rs type="person">Kaiser</rs> die <rs type="bibl">Symphonie</rs> vor. Der <rs type="person">Kaiser</rs> machte treffliche
-               <lb facs="#facs_2_region_1771657119382_460_tl_35" n="N035"/>Bemerkungen über das Werk und die muthmaßliche Bedeu¬
-               <lb facs="#facs_2_region_1771657119382_460_tl_36" n="N036"/>tung der einzelnen Sätze. „Ich bin kein gelehrter Kenner
-               <lb facs="#facs_2_region_1771657119382_460_tl_37" n="N037"/>der Musik,“ äußerte <rs type="person">Napoleon</rs>, „ich gebe nur meinen Em¬
-               <lb facs="#facs_2_region_1771657119382_460_tl_38" n="N038"/>pfindungen Ausdruck und urtheile als simpler Kaiser. Und
-               <lb facs="#facs_2_region_1771657119382_460_tl_39" n="N039"/>da finde ich den Trauermarsch in Ihrer <rs type="bibl">Symphonie</rs> zwar
-               <lb facs="#facs_2_region_1771657119382_460_tl_40" n="N040"/>sehr schön, aber ein wenig zu lang und gar zu tief schmerz¬
-               <lb facs="#facs_2_region_1771657119382_460_tl_41" n="N041"/>lich. Das paßt nicht recht für meine Soldaten, die ihr Blut so
-               <lb facs="#facs_2_region_1771657119382_460_tl_42" n="N042"/>gerne für Kaiser und Vaterland dahingeben. Was meinen
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1771657124493_463_tl_1" n="N001"/>Sie, cher maître?“ <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi> antwortete: „Sire,
-               <lb facs="#facs_2_region_1771657124493_463_tl_2" n="N002"/>der Marsch ist weder zu lang noch zu traurig. Er könnte
-               <lb facs="#facs_2_region_1771657124493_463_tl_3" n="N003"/>gar nicht lang genug und traurig genug sein, denn ich habe
-               <lb facs="#facs_2_region_1771657124493_463_tl_4" n="N004"/>dabei an <hi rendition="#em">Sie</hi> gedacht, Sire. Es ist Ihr eigenes Leichen¬
-               <lb facs="#facs_2_region_1771657124493_463_tl_5" n="N005"/>begängniß, das ich schildern wollte, das Begräbniß des
-               <lb facs="#facs_2_region_1771657124493_463_tl_6" n="N006"/>größten Feldherrn, den die Welt gekannt. Dieser Marsch
-               <lb facs="#facs_2_region_1771657124493_463_tl_7" n="N007"/>wäre nicht zu lang, wenn er Tage und Wochen dauerte,
-               <lb facs="#facs_2_region_1771657124493_463_tl_8" n="N008"/>und nicht zu schmerzlich, wenn er die ganze Menschheit wei¬
-               <lb facs="#facs_2_region_1771657124493_463_tl_9" n="N009"/>nen machte, denn er bedeutet zugleich den Leichenzug von
-               <lb facs="#facs_2_region_1771657124493_463_tl_10" n="N010"/>einigen hunderttausend Opfern, die Sie zur Schlachtbank
-               <lb facs="#facs_2_region_1771657124493_463_tl_11" n="N011"/>geführt haben. Ich bin Poet, Sire, und als Poet habe ich
-               <lb facs="#facs_2_region_1771657124493_463_tl_12" n="N012"/>die Gabe des zweiten Gesichtes. Ich sehe Sie vorwärts¬
-               <lb facs="#facs_2_region_1771657124493_463_tl_13" n="N013"/>schreiten, von Sieg zu Sieg, in die Verbannung, in den
-               <lb facs="#facs_2_region_1771657124493_463_tl_14" n="N014"/>Tod. Das Blut, das Sie vergossen und immer noch ver¬
-               <lb facs="#facs_2_region_1771657124493_463_tl_15" n="N015"/>gießen, wird ein Meer bilden, an dessen Küste man Sie
-               <lb facs="#facs_2_region_1771657124493_463_tl_16" n="N016"/>gefangen halten wird, weit weg von dem schönen <rs type="place" continued="true">Frank¬</rs>
-               <lb facs="#facs_2_region_1771657124493_463_tl_17" n="N017"/>
-               <rs type="place" continued="true">reich</rs>. Man wird Sie eines langsamen, grausamen Todes
-               <lb facs="#facs_2_region_1771657124493_463_tl_18" n="N018"/>hinsterben lassen, und nichts, nichts bleibt von Ihnen
-               <lb facs="#facs_2_region_1771657124493_463_tl_19" n="N019"/>übrig, als Ihr Ruhm. Wolan, Sire, könnt' ich
-               <lb facs="#facs_2_line_1772264554935_1081" n="N020"/>einen Trauermarsch erfinden, der lang und herzerreißend
-               <lb facs="#facs_2_line_1772264548167_1077" n="N021"/>genug wäre?“ Nach diesen Worten, deren Kühnheit die
-               <lb facs="#facs_2_region_1771657124493_463_tl_24" n="N022"/>Nächststehenden erbeben machte, ging <rs type="person">Beethoven</rs> zur Thür
-               <lb facs="#facs_2_region_1771657124493_463_tl_25" n="N023"/>hinaus und ließ <rs type="person">Napoleon</rs> allein. Als Gefangener in
-               <lb facs="#facs_2_region_1771657124493_463_tl_26" n="N024"/>
-               <rs type="place">St. Helena</rs> soll sich <rs type="person">Napoleon</rs> einige Jahre später des Trauer¬
-               <lb facs="#facs_2_region_1771657124493_463_tl_27" n="N025"/>marsches und seines Gespräches mit <rs type="person">Beethoven</rs> erinnert haben.
-               <lb facs="#facs_2_region_1771657124493_463_tl_28" n="N026"/>Meine Herren! Ich kann diesen Bericht mit einer er¬
-               <lb facs="#facs_2_region_1771657124493_463_tl_29" n="N027"/>freulichen Nachricht schließen. Es haben sich nämlich alle Re¬
-               <lb facs="#facs_2_region_1771657124493_463_tl_30" n="N028"/>gierungen <rs type="place">Europa</rs>s und <rs type="place">Amerika</rs>s geeinigt, ihre preisgekrönten
-               <lb facs="#facs_2_region_1771657124493_463_tl_31" n="N029"/>jungen Bildhauer nach <rs type="place">Wien</rs> zu schicken, um Copien von der
-               <lb facs="#facs_2_region_1771657124493_463_tl_32" n="N030"/>nur dort existirenden, einzig lebenswahren <rs type="person">Beethoven</rs>-Statue zu
-               <lb facs="#facs_2_region_1771657124493_463_tl_33" n="N031"/>nehmen. Dieselbe wurde gegen Ausgang des neunzehnten Jahr¬
-               <lb facs="#facs_2_region_1771657124493_463_tl_34" n="N032"/>hunderts von dem Bildhauer <hi rendition="#em">
-                  <rs type="person">Zumbusch</rs>
-               </hi> verfertigt, und zwar
-               <lb facs="#facs_2_region_1771657124493_463_tl_35" n="N033"/>auf unablässiges Andringen eines kunstliebenden jungen Griechen,
-               <lb facs="#facs_2_region_1771657124493_463_tl_36" n="N034"/>Namens <hi rendition="#em">Nicoló <rs type="person">Dumba</rs>
-               </hi>
-               <rs type="person"/>, für den <rs type="person">Beethoven</rs> die
-               <lb facs="#facs_2_region_1771657124493_463_tl_37" n="N035"/>„<rs type="bibl">Ruinen von Athen</rs>“ geschrieben haben soll, und der, wie
-               <lb facs="#facs_2_region_1771657124493_463_tl_38" n="N036"/>man versichert, heute noch als „Heiliger Nicolò“ von den
-               <lb facs="#facs_2_region_1771657124493_463_tl_39" n="N037"/>Bewohner <rs type="place">Wien</rs>s verehrt wird. Es sollen zunächst 2000 Co¬
-               <lb facs="#facs_2_region_1771657124493_463_tl_40" n="N038"/>pien dieser <rs type="person">Beethoven</rs>-Statue verfertigt und in den Foyers
-               <lb facs="#facs_2_region_1771657124493_463_tl_41" n="N039"/>der Theater, in den Concertsälen, Conservatorien und Musik¬
-               <lb facs="#facs_2_region_1771657124493_463_tl_42" n="N040"/>schulen aufgestellt werden, um für ewige Zeiten die Liebe,
-               <lb facs="#facs_2_region_1771657124493_463_tl_43" n="N041"/>Verehrung und Dankbarkeit der Nachwelt gegen einen der
-               <lb facs="#facs_2_region_1771657124493_463_tl_44" n="N042"/>größten Wohlthäter der Menschheit wach zu erhalten.
+            <p prev="true">
+         <lb facs="#facs_2_region_1771657124493_463_tl_1" n="N001"/>Sie, cher maître?“ <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi> antwortete: „Sire,
+         <lb facs="#facs_2_region_1771657124493_463_tl_2" n="N002"/>der Marsch ist weder zu lang noch zu traurig. Er könnte
+         <lb facs="#facs_2_region_1771657124493_463_tl_3" n="N003"/>gar nicht lang genug und traurig genug sein, denn ich habe
+         <lb facs="#facs_2_region_1771657124493_463_tl_4" n="N004"/>dabei an <hi rendition="#em">Sie</hi> gedacht, Sire. Es ist Ihr eigenes Leichen
+         <lb facs="#facs_2_region_1771657124493_463_tl_5" n="N005" break="no"/>begängniß, das ich schildern wollte, das Begräbniß des
+         <lb facs="#facs_2_region_1771657124493_463_tl_6" n="N006"/>größten Feldherrn, den die Welt gekannt. Dieser Marsch
+         <lb facs="#facs_2_region_1771657124493_463_tl_7" n="N007"/>wäre nicht zu lang, wenn er Tage und Wochen dauerte,
+         <lb facs="#facs_2_region_1771657124493_463_tl_8" n="N008"/>und nicht zu schmerzlich, wenn er die ganze Menschheit wei
+         <lb facs="#facs_2_region_1771657124493_463_tl_9" n="N009" break="no"/>nen machte, denn er bedeutet zugleich den Leichenzug von
+         <lb facs="#facs_2_region_1771657124493_463_tl_10" n="N010"/>einigen hunderttausend Opfern, die Sie zur Schlachtbank
+         <lb facs="#facs_2_region_1771657124493_463_tl_11" n="N011"/>geführt haben. Ich bin Poet, Sire, und als Poet habe ich
+         <lb facs="#facs_2_region_1771657124493_463_tl_12" n="N012"/>die Gabe des zweiten Gesichtes. Ich sehe Sie vorwärts
+         <lb facs="#facs_2_region_1771657124493_463_tl_13" n="N013" break="no"/>schreiten, von Sieg zu Sieg, in die Verbannung, in den
+         <lb facs="#facs_2_region_1771657124493_463_tl_14" n="N014"/>Tod. Das Blut, das Sie vergossen und immer noch ver
+         <lb facs="#facs_2_region_1771657124493_463_tl_15" n="N015" break="no"/>gießen, wird ein Meer bilden, an dessen Küste man Sie
+         <lb facs="#facs_2_region_1771657124493_463_tl_16" n="N016"/>gefangen halten wird, weit weg von dem schönen <rs type="place" ref="#hsl_place_id_21">Frank
+         <lb facs="#facs_2_region_1771657124493_463_tl_17" n="N017" break="no"/>reich</rs>. Man wird Sie eines langsamen, grausamen Todes
+         <lb facs="#facs_2_region_1771657124493_463_tl_18" n="N018"/>hinsterben lassen, und nichts, nichts bleibt von Ihnen
+         <lb facs="#facs_2_region_1771657124493_463_tl_19" n="N019"/>übrig, als Ihr Ruhm. Wolan, Sire, könnt’ ich
+         <lb facs="#facs_2_line_1772264554935_1081" n="N020"/>einen Trauermarsch erfinden, der lang und herzerreißend
+         <lb facs="#facs_2_line_1772264548167_1077" n="N021"/>genug wäre?“ Nach diesen Worten, deren Kühnheit die
+         <lb facs="#facs_2_region_1771657124493_463_tl_24" n="N022"/>Nächststehenden erbeben machte, ging <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> zur Thür
+         <lb facs="#facs_2_region_1771657124493_463_tl_25" n="N023"/>hinaus und ließ <rs type="person" ref="#hsl_person_id_39">Napoleon</rs> allein. Als Gefangener in
+         <lb facs="#facs_2_region_1771657124493_463_tl_26" n="N024"/><rs type="place" ref="#hsl_place_id_1228">St. Helena</rs> soll sich <rs type="person" ref="#hsl_person_id_39">Napoleon</rs> einige Jahre später des Trauer
+         <lb facs="#facs_2_region_1771657124493_463_tl_27" n="N025" break="no"/>marsches und seines Gespräches mit <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> erinnert haben.
+            </p><p>
+         <lb facs="#facs_2_region_1771657124493_463_tl_28" n="N026"/>Meine Herren! Ich kann diesen Bericht mit einer er
+         <lb facs="#facs_2_region_1771657124493_463_tl_29" n="N027" break="no"/>freulichen Nachricht schließen. Es haben sich nämlich alle Re
+         <lb facs="#facs_2_region_1771657124493_463_tl_30" n="N028" break="no"/>gierungen <rs type="place" ref="#hsl_place_id_19">Europa</rs>s und <rs type="place" ref="#hsl_place_id_176">Amerika</rs>s geeinigt, ihre preisgekrönten
+         <lb facs="#facs_2_region_1771657124493_463_tl_31" n="N029"/>jungen Bildhauer nach <rs type="place" ref="#hsl_place_id_55">Wien</rs> zu schicken, um Copien von der
+         <lb facs="#facs_2_region_1771657124493_463_tl_32" n="N030"/>nur dort existirenden, einzig lebenswahren <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Statue zu
+         <lb facs="#facs_2_region_1771657124493_463_tl_33" n="N031"/>nehmen. Dieselbe wurde gegen Ausgang des neunzehnten Jahr
+         <lb facs="#facs_2_region_1771657124493_463_tl_34" n="N032" break="no"/>hunderts von dem Bildhauer <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4276">Zumbusch</rs></hi> verfertigt, und zwar
+         <lb facs="#facs_2_region_1771657124493_463_tl_35" n="N033"/>auf unablässiges Andringen eines kunstliebenden jungen Griechen,
+         <lb facs="#facs_2_region_1771657124493_463_tl_36" n="N034"/>Namens <hi rendition="#em">Nicoló <rs type="person" ref="#hsl_person_id_1248">Dumba</rs></hi>, für den <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> die
+         <lb facs="#facs_2_region_1771657124493_463_tl_37" n="N035"/>„<rs type="bibl" ref="#hsl_work_id_529">Ruinen von Athen</rs>“ geschrieben haben soll, und der, wie
+         <lb facs="#facs_2_region_1771657124493_463_tl_38" n="N036"/>man versichert, heute noch als „Heiliger Nicolò“ von den
+         <lb facs="#facs_2_region_1771657124493_463_tl_39" n="N037"/>Bewohner <rs type="place" ref="#hsl_place_id_55">Wien</rs>s verehrt wird. Es sollen zunächst 2000 Co
+         <lb facs="#facs_2_region_1771657124493_463_tl_40" n="N038" break="no"/>pien dieser <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Statue verfertigt und in den Foyers
+         <lb facs="#facs_2_region_1771657124493_463_tl_41" n="N039"/>der Theater, in den Concertsälen, Conservatorien und Musik
+         <lb facs="#facs_2_region_1771657124493_463_tl_42" n="N040" break="no"/>schulen aufgestellt werden, um für ewige Zeiten die Liebe,
+         <lb facs="#facs_2_region_1771657124493_463_tl_43" n="N041"/>Verehrung und Dankbarkeit der Nachwelt gegen einen der
+         <lb facs="#facs_2_region_1771657124493_463_tl_44" n="N042"/>größten Wohlthäter der Menschheit wach zu erhalten.
             </p>
          </div>
       </body>
