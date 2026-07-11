@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 6336. Wien, Dienstag, den 18. April 1882</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +70,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 6336. Wien, Dienstag, den 18. April 1882</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1882-04-18">18.04.1882</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18820418"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-06-13">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-06-19">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-06-26">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1130,436 +1130,340 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1779518010168_403_tl_1" n="N001"/><head type="h1">„<rs type="bibl" ref="#hsl_work_id_16">Alfonso und Estrella</rs>.“</head>
+            <lb facs="#facs_1_region_1779518010168_403_tl_2" n="N002"/><head type="h2">(Romantische Oper in drei Acten von <hi rendition="#em">Franz <rs type="person" ref="#hsl_person_id_279">Schubert</rs></hi>. — Erste Aufführung
+            <lb facs="#facs_1_line_1780117084097_10" n="N003"/>im Hofoperntheater den 15. April <date>1882</date>.)</head>
             <p>
-               <lb facs="#facs_1_line_1780037267885_694" n="N001"/>Nr. 6336. Wien, Dienstag, den 18. April 1882
-            </p>
+         <lb facs="#facs_1_region_1779518010168_403_tl_3" n="N004"/>Ed. H. „Ein letztes Glück und einen letzten Tag“ er
+         <lb facs="#facs_1_region_1779518010168_403_tl_4" n="N005" break="no"/>fährt jeder Mensch — aber eine erste Aufführung der eigenen
+         <lb facs="#facs_1_region_1779518010168_403_tl_5" n="N006"/>Opern erlebt nicht Jeder, sei er auch Franz <rs type="person" ref="#hsl_person_id_279">Schubert</rs>. Von
+         <lb facs="#facs_1_region_1779518010168_403_tl_6" n="N007"/>seinen beiden großen Opern „<rs type="bibl" ref="#hsl_work_id_16">Alfonso und Estella</rs>“ und
+         <lb facs="#facs_1_region_1779518010168_403_tl_7" n="N008"/>„<rs type="bibl" ref="#hsl_work_id_18">Fierabras</rs>“ hat er keine je zu hören bekommen. Und doch
+         <lb facs="#facs_1_region_1779518010168_403_tl_8" n="N009"/>hatte <rs type="person" ref="#hsl_person_id_279">Schubert</rs> nichts versäumt, um eine Aufführung seiner
+         <lb facs="#facs_1_region_1779518010168_403_tl_9" n="N010"/>Opern zu erwirken, insbesondere der ersten: „<rs type="bibl" ref="#hsl_work_id_16">Alfonso und
+         <lb facs="#facs_1_region_1779518010168_403_tl_10" n="N011"/>Estrella</rs>“. In glücklichster Jugendschwärmerei hatte er mit
+         <lb facs="#facs_1_region_1779518010168_403_tl_11" n="N012"/>seinem Herzensfreunde, dem Dichter Franz <hi rendition="#em"><rs type="person" ref="#hsl_person_id_272">Schober</rs></hi>, daran
+         <lb facs="#facs_1_region_1779518010168_403_tl_12" n="N013"/>gearbeitet. Er bot sie verschiedenen Bühnen an, zuerst ver
+         <lb facs="#facs_1_region_1779518010168_403_tl_13" n="N014" break="no"/>geblich in <rs type="place" ref="#hsl_place_id_55">Wien</rs>, dann ebenso vergeblich in <rs type="place" ref="#hsl_place_id_15">Dresden</rs> und
+         <lb facs="#facs_1_region_1779518010168_403_tl_14" n="N015"/><rs type="place" ref="#hsl_place_id_9">Berlin</rs>. Die berühmte Sängerin Anna <rs type="person" ref="#hsl_person_id_185">Milder</rs>, durch welche
+         <lb facs="#facs_1_region_1779518010168_403_tl_15" n="N016"/><rs type="person" ref="#hsl_person_id_279">Schubert</rs> im Jahre <date>1825</date> seine Oper in <rs type="place" ref="#hsl_place_id_9">Berlin</rs> anzubringen
+         <lb facs="#facs_1_region_1779518010168_403_tl_16" n="N017"/>hoffte, sendete ihm die Partitur mit dem Bescheide zurück,
+         <lb facs="#facs_1_region_1779518010168_403_tl_17" n="N018"/>es sei ihr „unendlich leid, bemerken zu müssen, daß das
+         <lb facs="#facs_1_region_1779518010168_403_tl_18" n="N019"/><hi rendition="#em">Buch</hi> dem <rs type="place" ref="#hsl_place_id_9">Berlin</rs>er Geschmacke nicht entspricht, somit
+         <lb facs="#facs_1_region_1779518010168_403_tl_19" n="N020"/>„<rs type="bibl" ref="#hsl_work_id_16">Alfonso und Estrella</rs>“ durchaus kein Glück hier machen
+         <lb facs="#facs_1_region_1779518010168_403_tl_20" n="N021"/>würde“. Von der Musik kein Wort. Bittere Klage über
+         <lb facs="#facs_1_region_1779518010168_403_tl_21" n="N022"/>die Engherzigkeit, mit welcher in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> selbst Ta
+         <lb facs="#facs_1_region_1779518010168_403_tl_22" n="N023" break="no"/>lente ersten Ranges, wie <rs type="person" ref="#hsl_person_id_279">Schubert</rs>, als Opernomponisten
+         <lb facs="#facs_1_region_1779518010168_403_tl_23" n="N024"/>zu kämpfen haben, ist wol die erste und berechtigteste
+         <lb facs="#facs_1_region_1779518010168_403_tl_24" n="N025"/>Empfindung, welche uns angesichts dieser Bemühungen
+         <lb facs="#facs_1_region_1779518010168_403_tl_25" n="N026"/><rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s ergreift. Das Buch zu „<rs type="bibl" ref="#hsl_work_id_16">Alfonso und Estrella</rs>“,
+         <lb facs="#facs_1_region_1779518010168_403_tl_26" n="N027"/>das nach dem Zeugnisse Frau <rs type="person" ref="#hsl_person_id_185">Milder</rs>’s schon vor einem
+         <lb facs="#facs_1_region_1779518010168_403_tl_27" n="N028"/>halben Jahrhundert dem Geschmacke der Berliner nicht ent
+         <lb facs="#facs_1_region_1779518010168_403_tl_28" n="N029" break="no"/>sprach, entspricht freilich heute noch viel weniger dem unsern;
+         <lb facs="#facs_1_region_1779518010168_403_tl_29" n="N030"/>es ist mehr ein Hinderniß als eine Hilfe für den Erfolg
+         <lb facs="#facs_1_region_1779518010168_403_tl_30" n="N031"/>der <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’schen Musik. Sehen wir uns ein wenig die
+         <lb facs="#facs_1_region_1779518010168_403_tl_31" n="N032"/>Handlung an, wie sie in der (nur an Nebendingen ändern
+         <lb facs="#facs_1_region_1779518010168_403_tl_32" n="N033" break="no"/>den) Bearbeitung von J. N. <rs type="person" ref="#hsl_person_id_2405">Fuchs</rs> sich im Hofoperntheater
+         <lb facs="#facs_1_region_1779518010168_403_tl_33" n="N034"/>vor uns abspielt.
+            </p><p>
+         <lb facs="#facs_1_region_1779518010168_403_tl_34" n="N035"/>Die Oper beginnt mit einem ländlichen Feste zu Ehren
+         <lb facs="#facs_1_region_1779518010168_403_tl_35" n="N036"/>eines würdigen Greises Namens <rs type="person" ref="#hsl_person_id_8996">Troila</rs> (Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4587">Sommer</rs></hi>),
+         <lb facs="#facs_1_region_1779518010168_403_tl_36" n="N037"/>der seit Jahren wohlthätig in einem abgelegenen Thale lebt.<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1779518010168_403_tl_1" n="N001"/>„<rs type="bibl">Alfonso und Estrella</rs>.“
-               <lb facs="#facs_1_region_1779518010168_403_tl_2" n="N002"/>(Romantische Oper in drei Acten von <hi rendition="#em">Franz <rs type="person">Schubert</rs>
-               </hi>. — Erste Aufführung
-               <lb facs="#facs_1_line_1780117084097_10" n="N003"/>im Hofoperntheater den 15. April <date month="0" day="0" year="0">1882</date>.)
-               <lb facs="#facs_1_region_1779518010168_403_tl_3" n="N004"/>Ed. H. „Ein letztes Glück und einen letzten Tag“ er¬
-               <lb facs="#facs_1_region_1779518010168_403_tl_4" n="N005"/>fährt jeder Mensch — aber eine erste Aufführung der eigenen
-               <lb facs="#facs_1_region_1779518010168_403_tl_5" n="N006"/>Opern erlebt nicht Jeder, sei er auch Franz <rs type="person">Schubert</rs>. Von
-               <lb facs="#facs_1_region_1779518010168_403_tl_6" n="N007"/>seinen beiden großen Opern „<rs type="bibl">Alfonso und Estella</rs>“ und
-               <lb facs="#facs_1_region_1779518010168_403_tl_7" n="N008"/>„<rs type="bibl">Fierabras</rs>“ hat er keine je zu hören bekommen. Und doch
-               <lb facs="#facs_1_region_1779518010168_403_tl_8" n="N009"/>hatte <rs type="person">Schubert</rs> nichts versäumt, um eine Aufführung seiner
-               <lb facs="#facs_1_region_1779518010168_403_tl_9" n="N010"/>Opern zu erwirken, insbesondere der ersten: „<rs type="bibl">Alfonso und</rs>
-               <lb facs="#facs_1_region_1779518010168_403_tl_10" n="N011"/>
-               <rs type="bibl">Estrella</rs>“. In glücklichster Jugendschwärmerei hatte er mit
-               <lb facs="#facs_1_region_1779518010168_403_tl_11" n="N012"/>seinem Herzensfreunde, dem Dichter Franz <hi rendition="#em">
-                  <rs type="person">Schober</rs>
-               </hi>, daran
-               <lb facs="#facs_1_region_1779518010168_403_tl_12" n="N013"/>gearbeitet. Er bot sie verschiedenen Bühnen an, zuerst ver¬
-               <lb facs="#facs_1_region_1779518010168_403_tl_13" n="N014"/>geblich in <rs type="place">Wien</rs>, dann ebenso vergeblich in <rs type="place">Dresden</rs> und
-               <lb facs="#facs_1_region_1779518010168_403_tl_14" n="N015"/>
-               <rs type="place">Berlin</rs>. Die berühmte Sängerin Anna <rs type="person">Milder</rs>, durch welche
-               <lb facs="#facs_1_region_1779518010168_403_tl_15" n="N016"/>
-               <rs type="person">Schubert</rs> im Jahre <date month="0" day="0" year="0">1825</date> seine Oper in <rs type="place">Berlin</rs> anzubringen
-               <lb facs="#facs_1_region_1779518010168_403_tl_16" n="N017"/>hoffte, sendete ihm die Partitur mit dem Bescheide zurück,
-               <lb facs="#facs_1_region_1779518010168_403_tl_17" n="N018"/>es sei ihr „unendlich leid, bemerken zu müssen, daß das
-               <lb facs="#facs_1_region_1779518010168_403_tl_18" n="N019"/>
-               <hi rendition="#em">Buch</hi> dem <rs type="place">Berlin</rs>er Geschmacke nicht entspricht, somit
-               <lb facs="#facs_1_region_1779518010168_403_tl_19" n="N020"/>„<rs type="person">Alfonso und Estrella</rs>“ durchaus kein Glück hier machen
-               <lb facs="#facs_1_region_1779518010168_403_tl_20" n="N021"/>würde“. Von der Musik kein Wort. Bittere Klage über
-               <lb facs="#facs_1_region_1779518010168_403_tl_21" n="N022"/>die Engherzigkeit, mit welcher in <rs type="place">Deutschland</rs> selbst Ta¬
-               <lb facs="#facs_1_region_1779518010168_403_tl_22" n="N023"/>lente ersten Ranges, wie <rs type="person">Schubert</rs>, als Opernomponisten
-               <lb facs="#facs_1_region_1779518010168_403_tl_23" n="N024"/>zu kämpfen haben, ist wol die erste und berechtigteste
-               <lb facs="#facs_1_region_1779518010168_403_tl_24" n="N025"/>Empfindung, welche uns angesichts dieser Bemühungen
-               <lb facs="#facs_1_region_1779518010168_403_tl_25" n="N026"/>
-               <rs type="person">Schubert</rs>'s ergreift. Das Buch zu „<rs type="bibl">Alfonso und Estrella</rs>“,
-               <lb facs="#facs_1_region_1779518010168_403_tl_26" n="N027"/>das nach dem Zeugnisse Frau <rs type="person">Milder</rs>'s schon vor einem
-               <lb facs="#facs_1_region_1779518010168_403_tl_27" n="N028"/>halben Jahrhundert dem Geschmacke der Berliner nicht ent¬
-               <lb facs="#facs_1_region_1779518010168_403_tl_28" n="N029"/>sprach, entspricht freilich heute noch viel weniger dem unsern;
-               <lb facs="#facs_1_region_1779518010168_403_tl_29" n="N030"/>es ist mehr ein Hinderniß als eine Hilfe für den Erfolg
-               <lb facs="#facs_1_region_1779518010168_403_tl_30" n="N031"/>der <rs type="person">Schubert</rs>'schen Musik. Sehen wir uns ein wenig die
-               <lb facs="#facs_1_region_1779518010168_403_tl_31" n="N032"/>Handlung an, wie sie in der (nur an Nebendingen ändern¬
-               <lb facs="#facs_1_region_1779518010168_403_tl_32" n="N033"/>den) Bearbeitung von J. N. <rs type="person">Fuchs</rs> sich im Hofoperntheater
-               <lb facs="#facs_1_region_1779518010168_403_tl_33" n="N034"/>vor uns abspielt.
-               <lb facs="#facs_1_region_1779518010168_403_tl_34" n="N035"/>Die Oper beginnt mit einem ländlichen Feste zu Ehren
-               <lb facs="#facs_1_region_1779518010168_403_tl_35" n="N036"/>eines würdigen Greises Namens <rs type="person">Troila</rs> (Herr <hi rendition="#em">
-                  <rs type="person">Sommer</rs>
-               </hi>),
-               <lb facs="#facs_1_region_1779518010168_403_tl_36" n="N037"/>der seit Jahren wohlthätig in einem abgelegenen Thale lebt.
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1779518015223_406_tl_1" n="N001"/><rs type="person" ref="#hsl_person_id_8996">Troila</rs>, vordem König von <rs type="place" ref="#hsl_place_id_1473">Leon</rs>, war vor Jahren von
+         <lb facs="#facs_1_region_1779518015223_406_tl_2" n="N002"/>seinem falschen Freunde <rs type="person" ref="#hsl_person_id_8997">Mauregato</rs> des Thrones beraubt
+         <lb facs="#facs_1_region_1779518015223_406_tl_3" n="N003"/>worden und gilt seither für verschollen. Sein Sohn <rs type="person" ref="#hsl_person_id_8998">Alfonso</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518015223_406_tl_4" n="N004"/>(Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_320">Walter</rs></hi>) bleibt nach dem ländlichen Feste allein im
+         <lb facs="#facs_1_region_1779518015223_406_tl_5" n="N005"/>Freien zurück — da tritt plötzlich eine fremde junge Dame
+         <lb facs="#facs_1_region_1779518015223_406_tl_6" n="N006"/>ihm entgegen. Es ist <rs type="person" ref="#hsl_person_id_8999">Estrella</rs>, König <rs type="person" ref="#hsl_person_id_8997">Mauregato</rs>’s Tochter
+         <lb facs="#facs_1_region_1779518015223_406_tl_7" n="N007"/>(Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4123">Ehnn</rs></hi>), die sich auf der Jagd verirrt hat. Prin
+         <lb facs="#facs_1_region_1779518015223_406_tl_8" n="N008" break="no"/>zessinnen verlaufen sich bekanntlich immer auf der Jagd und
+         <lb facs="#facs_1_region_1779518015223_406_tl_9" n="N009"/>stoßen merkwürdigerweise nie auf einen wegkundigen alten
+         <lb facs="#facs_1_region_1779518015223_406_tl_10" n="N010"/>Holzknecht, sondern ausnahmslos auf einen schönen
+         <lb facs="#facs_1_region_1779518015223_406_tl_11" n="N011"/>Jüngling, der sich jählings in sie verliebt. So
+         <lb facs="#facs_1_region_1779518015223_406_tl_12" n="N012"/>auch hier — der Act schließt mit einem Liebes
+         <lb facs="#facs_1_region_1779518015223_406_tl_13" n="N013" break="no"/>duett zwischen <rs type="person" ref="#hsl_person_id_8998">Alfonso</rs> und <rs type="person" ref="#hsl_person_id_8999">Estrella</rs>. Der zweite
+         <lb facs="#facs_1_region_1779518015223_406_tl_14" n="N014"/>Aufzug spielt im königlichen Palaste zu <rs type="place" ref="#hsl_place_id_1473">Leon</rs>. Die <rs type="person"  ref="#hsl_person_id_8999">Prinzessin</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518015223_406_tl_15" n="N015"/>hat glücklich nach Hause gefunden und wird von ihrem angst
+         <lb facs="#facs_1_region_1779518015223_406_tl_16" n="N016" break="no"/>voll harrenden Vater <rs type="person" ref="#hsl_person_id_8997">Mauregato</rs> (Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs></hi>) freudig be
+         <lb facs="#facs_1_line_1780118065429_75" n="N017" break="no"/>grüßt. Gleich darauf tritt der Feldherr <rs type="person" ref="#hsl_person_id_9000">Adolfo</rs> (Herr
+         <lb facs="#facs_1_line_1780118067717_78" n="N018"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_3573">Nawiasky</rs></hi>) nach einem erfochtenen Siege mit glänzendem
+         <lb facs="#facs_1_region_1779518015223_406_tl_17" n="N019"/>Erfolge vor den <rs type="person" ref="#hsl_person_id_8997">König</rs>, der so unvorsichtig ist, ihm die Er
+         <lb facs="#facs_1_region_1779518015223_406_tl_18" n="N020" break="no"/>füllung jeder Bitte feierlich zu versprechen. Wie der schlaue
+         <lb facs="#facs_1_region_1779518015223_406_tl_19" n="N021"/>Zuschauer längst errathen hat, fordert <rs type="person" ref="#hsl_person_id_9000">Adolfo</rs> die Hand
+         <lb facs="#facs_1_region_1779518015223_406_tl_20" n="N022"/><rs type="person" ref="#hsl_person_id_8999">Estrella</rs>’s, welche darüber in Wehklagen ausbricht. Wenn wir
+         <lb facs="#facs_1_region_1779518015223_406_tl_21" n="N023"/>in einem Kindermärchen lesen würden: „Es war einmal ein
+         <lb facs="#facs_1_region_1779518015223_406_tl_22" n="N024"/>König, der seine einzige Tochter demjenigen zu geben gelobte,
+         <lb facs="#facs_1_region_1779518015223_406_tl_23" n="N025"/>welcher eine gewisse alte Halskette auffinden und abliefern
+         <lb facs="#facs_1_region_1779518015223_406_tl_24" n="N026"/>würde“, so ließen wir uns dieses Motiv allenfalls gefallen;
+         <lb facs="#facs_1_region_1779518015223_406_tl_25" n="N027"/>in einem ernsthaften Drama will es uns aber mehr als
+         <lb facs="#facs_1_region_1779518015223_406_tl_26" n="N028"/>kindisch erscheinen. <rs type="person" ref="#hsl_person_id_9000">Adolfo</rs>, offenbar derselben Meinung,
+         <lb facs="#facs_1_region_1779518015223_406_tl_27" n="N029"/>stürzt nach obiger Eröffnung des <rs type="person" ref="#hsl_person_id_8997">König</rs>s sehr erbost ab und
+         <lb facs="#facs_1_region_1779518015223_406_tl_28" n="N030"/>sammelt eine Schaar Verschworener, um Rache zu nehmen
+         <lb facs="#facs_1_region_1779518015223_406_tl_29" n="N031"/>an dem <rs type="person" ref="#hsl_person_id_8997">König</rs>. Daß ihm diese gelungen, ersehen wir aus
+         <lb facs="#facs_1_region_1779518015223_406_tl_30" n="N032"/>der Eingangsscene des dritten Actes, wo jammernde Land
+         <lb facs="#facs_1_region_1779518015223_406_tl_31" n="N033" break="no"/>leute flüchten und „wilde Krieger schwärmen“. <rs type="person" ref="#hsl_person_id_9000">Adolfo</rs> hat
+         <lb facs="#facs_1_region_1779518015223_406_tl_32" n="N034"/>den <rs type="person" ref="#hsl_person_id_8997">König</rs> besiegt und schleppt nun <rs type="person" ref="#hsl_person_id_8999">Estrella</rs> gewaltsam mit
+         <lb facs="#facs_1_region_1779518015223_406_tl_33" n="N035"/>sich fort. Da sie seine Liebeswerbung abwehrt und nach Hilfe ruft,
+         <lb facs="#facs_1_region_1779518015223_406_tl_34" n="N036"/>zückt er den Dolch gegen sie. Es versteht sich, daß in diesem kriti
+         <lb facs="#facs_1_region_1779518015223_406_tl_35" n="N037" break="no"/>schen Momente <rs type="person" ref="#hsl_person_id_8998">Alfonso</rs> sofort herbeispringt und den Bösewicht im
+         <lb facs="#facs_1_region_1779518015223_406_tl_36" n="N038"/>Zweikampfe tödtet. Dann übergibt er <rs type="person" ref="#hsl_person_id_8999">Estrella</rs> dem Schutze
+         <lb facs="#facs_1_region_1779518015223_406_tl_37" n="N039"/>seines <rs type="person" ref="#hsl_person_id_8997">Vater</rs>s und eilt mit seinen Anhängern dem König
+         <lb facs="#facs_1_region_1779518015223_406_tl_38" n="N040"/><rs type="person" ref="#hsl_person_id_8997">Mauregato</rs> zu Hilfe. Dieser erscheint inzwischen allein, auf<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1779518015223_406_tl_1" n="N001"/>
-               <rs type="person">Troila</rs>, vordem König von <rs type="place">Leon</rs>, war vor Jahren von
-               <lb facs="#facs_1_region_1779518015223_406_tl_2" n="N002"/>seinem falschen Freunde <rs type="person">Mauregato</rs> des Thrones beraubt
-               <lb facs="#facs_1_region_1779518015223_406_tl_3" n="N003"/>worden und gilt seither für verschollen. Sein Sohn <rs type="person">Alfonso</rs>
-               <lb facs="#facs_1_region_1779518015223_406_tl_4" n="N004"/>(Herr <hi rendition="#em">
-                  <rs type="person">Walter</rs>
-               </hi>) bleibt nach dem ländlichen Feste allein im
-               <lb facs="#facs_1_region_1779518015223_406_tl_5" n="N005"/>Freien zurück — da tritt plötzlich eine fremde junge Dame
-               <lb facs="#facs_1_region_1779518015223_406_tl_6" n="N006"/>ihm entgegen. Es ist <rs type="person">Estrella</rs>, König <rs type="person">Mauregato</rs>'s Tochter
-               <lb facs="#facs_1_region_1779518015223_406_tl_7" n="N007"/>(Frau <hi rendition="#em">
-                  <rs type="person">Ehnn</rs>
-               </hi>), die sich auf der Jagd verirrt hat. Prin¬
-               <lb facs="#facs_1_region_1779518015223_406_tl_8" n="N008"/>zessinnen verlaufen sich bekanntlich immer auf der Jagd und
-               <lb facs="#facs_1_region_1779518015223_406_tl_9" n="N009"/>stoßen merkwürdigerweise nie auf einen wegkundigen alten
-               <lb facs="#facs_1_region_1779518015223_406_tl_10" n="N010"/>Holzknecht, sondern ausnahmslos auf einen schönen
-               <lb facs="#facs_1_region_1779518015223_406_tl_11" n="N011"/>Jüngling, der sich jählings in sie verliebt. So
-               <lb facs="#facs_1_region_1779518015223_406_tl_12" n="N012"/>auch hier — der Act schließt mit einem Liebes¬
-               <lb facs="#facs_1_region_1779518015223_406_tl_13" n="N013"/>duett zwischen <rs type="person">Alfonso</rs> und <rs type="person">Estrella</rs>. Der zweite
-               <lb facs="#facs_1_region_1779518015223_406_tl_14" n="N014"/>Aufzug spielt im königlichen Palaste zu <rs type="place">Leon</rs>. Die <rs type="person">Prinzessin</rs>
-               <lb facs="#facs_1_region_1779518015223_406_tl_15" n="N015"/>hat glücklich nach Hause gefunden und wird von ihrem angst¬
-               <lb facs="#facs_1_region_1779518015223_406_tl_16" n="N016"/>voll harrenden Vater <rs type="person">Mauregato</rs> (Herr <hi rendition="#em">
-                  <rs type="person">Beck</rs>
-               </hi>) freudig be¬
-               <lb facs="#facs_1_line_1780118065429_75" n="N017"/>grüßt. Gleich darauf tritt der Feldherr <rs type="person">Adolfo</rs> (Herr
-               <lb facs="#facs_1_line_1780118067717_78" n="N018"/>
-               <hi rendition="#em">
-                  <rs type="person">Nawiasky</rs>
-               </hi>) nach einem erfochtenen Siege mit glänzendem
-               <lb facs="#facs_1_region_1779518015223_406_tl_17" n="N019"/>Erfolge vor den <rs type="person">König</rs>, der so unvorsichtig ist, ihm die Er¬
-               <lb facs="#facs_1_region_1779518015223_406_tl_18" n="N020"/>füllung jeder Bitte feierlich zu versprechen. Wie der schlaue
-               <lb facs="#facs_1_region_1779518015223_406_tl_19" n="N021"/>Zuschauer längst errathen hat, fordert <rs type="person">Adolfo</rs> die Hand
-               <lb facs="#facs_1_region_1779518015223_406_tl_20" n="N022"/>
-               <rs type="person">Estrella</rs>'s, welche darüber in Wehklagen ausbricht. Wenn wir
-               <lb facs="#facs_1_region_1779518015223_406_tl_21" n="N023"/>in einem Kindermärchen lesen würden: „Es war einmal ein
-               <lb facs="#facs_1_region_1779518015223_406_tl_22" n="N024"/>König, der seine einzige Tochter demjenigen zu geben gelobte,
-               <lb facs="#facs_1_region_1779518015223_406_tl_23" n="N025"/>welcher eine gewisse alte Halskette auffinden und abliefern
-               <lb facs="#facs_1_region_1779518015223_406_tl_24" n="N026"/>würde“, so ließen wir uns dieses Motiv allenfalls gefallen;
-               <lb facs="#facs_1_region_1779518015223_406_tl_25" n="N027"/>in einem ernsthaften Drama will es uns aber mehr als
-               <lb facs="#facs_1_region_1779518015223_406_tl_26" n="N028"/>kindisch erscheinen. <rs type="person">Adolfo</rs>, offenbar derselben Meinung,
-               <lb facs="#facs_1_region_1779518015223_406_tl_27" n="N029"/>stürzt nach obiger Eröffnung des <rs type="person">König</rs>s sehr erbost ab und
-               <lb facs="#facs_1_region_1779518015223_406_tl_28" n="N030"/>sammelt eine Schaar Verschworener, um Rache zu nehmen
-               <lb facs="#facs_1_region_1779518015223_406_tl_29" n="N031"/>an dem <rs type="person">König</rs>. Daß ihm diese gelungen, ersehen wir aus
-               <lb facs="#facs_1_region_1779518015223_406_tl_30" n="N032"/>der Eingangsscene des dritten Actes, wo jammernde Land¬
-               <lb facs="#facs_1_region_1779518015223_406_tl_31" n="N033"/>leute flüchten und „wilde Krieger schwärmen“. <rs type="person">Adolfo</rs> hat
-               <lb facs="#facs_1_region_1779518015223_406_tl_32" n="N034"/>den <rs type="person">König</rs> besiegt und schleppt nun <rs type="person">Estrella</rs> gewaltsam mit
-               <lb facs="#facs_1_region_1779518015223_406_tl_33" n="N035"/>sich fort. Da sie seine Liebeswerbung abwehrt und nach Hilfe ruft,
-               <lb facs="#facs_1_region_1779518015223_406_tl_34" n="N036"/>zückt er den Dolch gegen sie. Es versteht sich, daß in diesem kriti¬
-               <lb facs="#facs_1_region_1779518015223_406_tl_35" n="N037"/>schen Momente <rs type="person">Alfonso</rs> sofort herbeispringt und den Bösewicht im
-               <lb facs="#facs_1_region_1779518015223_406_tl_36" n="N038"/>Zweikampfe tödtet. Dann übergibt er <rs type="person">Estrella</rs> dem Schutze
-               <lb facs="#facs_1_region_1779518015223_406_tl_37" n="N039"/>seines <rs type="person">Vater</rs>s und eilt mit seinen Anhängern dem König
-               <lb facs="#facs_1_region_1779518015223_406_tl_38" n="N040"/>
-               <rs type="person">Mauregato</rs> zu Hilfe. Dieser erscheint inzwischen allein, auf
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1779518018310_409_tl_1" n="N001"/>der Flucht, und stößt auf den längst todtgeglaubten <rs type="person">Troila</rs>;
-               <lb facs="#facs_1_region_1779518018310_409_tl_2" n="N002"/>ein Wettstreit in Edelmuth entwickelt sich zwischen den beiden
-               <lb facs="#facs_1_region_1779518018310_409_tl_3" n="N003"/>Baritons, von denen jeder den andern als König anerken¬
-               <lb facs="#facs_1_region_1779518018310_409_tl_4" n="N004"/>nen will. <rs type="person">Alfonso</rs>, der siegreich und obendrein im Besitze
-               <lb facs="#facs_1_region_1779518018310_409_tl_5" n="N005"/>der (jetzt sehr überflüssigen) alten Halskette sich einstellt,
-               <lb facs="#facs_1_region_1779518018310_409_tl_6" n="N006"/>macht der Verlegenheit ein Ende und läßt die ihm ange¬
-               <lb facs="#facs_1_region_1779518018310_409_tl_7" n="N007"/>botene Krone sammt <rs type="person">Estrella</rs> sich gerne gefallen. Schließlich
-               <lb facs="#facs_1_region_1779518018310_409_tl_8" n="N008"/>allgemeiner Jubel, in welchen nur die Zuschauer nicht recht
-               <lb facs="#facs_1_region_1779518018310_409_tl_9" n="N009"/>einstimmen wollen. Sie können der guten Frau <rs type="person">Milder</rs> nicht
-               <lb facs="#facs_1_region_1779518018310_409_tl_10" n="N010"/>Unrecht geben und fragen verwundert, wie man sich nur
-               <lb facs="#facs_1_region_1779518018310_409_tl_11" n="N011"/>für eine so dumme Geschichte und so hölzerne Marionetten
-               <lb facs="#facs_1_region_1779518018310_409_tl_12" n="N012"/>interessiren könne? Die richtige alte Rittercomödie, deren
-               <lb facs="#facs_1_region_1779518018310_409_tl_13" n="N013"/>steife Titelkupfer lebendig geworden sind: der geheimnißvolle,
-               <lb facs="#facs_1_region_1779518018310_409_tl_14" n="N014"/>tugendhafte Eremit, der Bösewicht mit thurmhohem Feder¬
-               <lb facs="#facs_1_region_1779518018310_409_tl_15" n="N015"/>busch und riesigem Schnauzbart, der liebende Jüngling,
-               <lb facs="#facs_1_region_1779518018310_409_tl_16" n="N016"/>blondgelockt, mit schwärmerisch verdrehtem Halse u. s. w.
-               <lb facs="#facs_1_region_1779518018310_409_tl_17" n="N017"/>Man möchte dieses abgeschmackte Textbuch für ein dem Compo¬
-               <lb facs="#facs_1_region_1779518018310_409_tl_18" n="N018"/>nisten aufgedrungenes halten, wüßte man nicht aus <rs type="person">Schober</rs>'s
-               <lb facs="#facs_1_region_1779518018310_409_tl_19" n="N019"/>und <rs type="person">Schubert</rs>'s eigenen Briefen, mit welcher Begeisterung
-               <lb facs="#facs_1_region_1779518018310_409_tl_20" n="N020"/>sich Letzterer der Composition hingab. Er mag sich an der
-               <lb facs="#facs_1_region_1779518018310_409_tl_21" n="N021"/>breit ausladenden Lyrik des Gedichtes erfreut haben, an den
-               <lb facs="#facs_1_region_1779518018310_409_tl_22" n="N022"/>vielen gefühlvollen Monologen der handelnden Personen,
-               <lb facs="#facs_1_region_1779518018310_409_tl_23" n="N023"/>welche immer Empfindungen und niemals Eile haben.
-               <lb facs="#facs_1_region_1779518018310_409_tl_24" n="N024"/>Aber gerade diese gemüthliche, den Fortgang der Handlung
-               <lb facs="#facs_1_region_1779518018310_409_tl_25" n="N025"/>wie die Charakteristik der Personen überwuchernde Lyrik
-               <lb facs="#facs_1_region_1779518018310_409_tl_26" n="N026"/>erwuchs der Oper zum schweren Nachtheil. Das Buch kam
-               <lb facs="#facs_1_region_1779518018310_409_tl_27" n="N027"/>einer für den Operncomponisten gefährlichen Neigung
-               <lb facs="#facs_1_region_1779518018310_409_tl_28" n="N028"/>
-               <rs type="person">Schubert</rs>'s auf halbem Wege entgegen. Das rasche, wechsel¬
-               <lb facs="#facs_1_region_1779518018310_409_tl_29" n="N029"/>volle Leben, welches im musikalischen Drama energisch pul¬
-               <lb facs="#facs_1_region_1779518018310_409_tl_30" n="N030"/>siren muß, die charakteristische Ausprägung der Situation und
-               <lb facs="#facs_1_region_1779518018310_409_tl_31" n="N031"/>der Individuen, sie fehlen in <rs type="person">Schubert</rs>'s „<rs type="bibl">Alfonso und</rs>
-               <lb facs="#facs_1_region_1779518018310_409_tl_32" n="N032"/>
-               <rs type="bibl">Estrella</rs>“, bis auf wenige Anläufe. Diese Musik ist nicht
-               <lb facs="#facs_1_region_1779518018310_409_tl_33" n="N033"/>dramatisch, sie besteht größtentheils aus liedmäßigen Gesängen,
-               <lb facs="#facs_1_region_1779518018310_409_tl_34" n="N034"/>und zwar aus liedmäßigen Gesängen von sanfter Empfindung
-               <lb facs="#facs_1_region_1779518018310_409_tl_35" n="N035"/>und ruhigem Gleichmaß des Rhythmus und der Harmonie.
-               <lb facs="#facs_1_region_1779518018310_409_tl_36" n="N036"/>Wir hören fast durchwegs den Liedercomponisten, aber nicht
-               <lb facs="#facs_1_region_1779518018310_409_tl_37" n="N037"/>immer den großen Liedercomponisten. An diesem, dem
-               <lb facs="#facs_1_region_1779518018310_409_tl_38" n="N038"/>Sänger der „<rs type="bibl">Jungen Nonne</rs>“, des „<rs type="bibl">Erlkönig</rs>s“, des „<rs type="bibl">Zwerg</rs>s“,
-               <lb facs="#facs_1_region_1779518018310_409_tl_39" n="N039"/>der „<rs type="bibl">Winter-Reise</rs>“, bewundern wir ja nicht blos die süße
-               <lb facs="#facs_1_region_1779518018310_409_tl_40" n="N040"/>Melodienfülle, sondern auch Tiefe und Energie des Ausdruckes,
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1779518018310_409_tl_1" n="N001"/>der Flucht, und stößt auf den längst todtgeglaubten <rs type="person" ref="#hsl_person_id_8996">Troila</rs>;
+         <lb facs="#facs_1_region_1779518018310_409_tl_2" n="N002"/>ein Wettstreit in Edelmuth entwickelt sich zwischen den beiden
+         <lb facs="#facs_1_region_1779518018310_409_tl_3" n="N003"/>Baritons, von denen jeder den andern als König anerken
+         <lb facs="#facs_1_region_1779518018310_409_tl_4" n="N004" break="no"/>nen will. <rs type="person" ref="#hsl_person_id_8998">Alfonso</rs>, der siegreich und obendrein im Besitze
+         <lb facs="#facs_1_region_1779518018310_409_tl_5" n="N005"/>der (jetzt sehr überflüssigen) alten Halskette sich einstellt,
+         <lb facs="#facs_1_region_1779518018310_409_tl_6" n="N006"/>macht der Verlegenheit ein Ende und läßt die ihm ange
+         <lb facs="#facs_1_region_1779518018310_409_tl_7" n="N007" break="no"/>botene Krone sammt <rs type="person" ref="#hsl_person_id_8999">Estrella</rs> sich gerne gefallen. Schließlich
+         <lb facs="#facs_1_region_1779518018310_409_tl_8" n="N008"/>allgemeiner Jubel, in welchen nur die Zuschauer nicht recht
+         <lb facs="#facs_1_region_1779518018310_409_tl_9" n="N009"/>einstimmen wollen. Sie können der guten Frau <rs type="person" ref="#hsl_person_id_185">Milder</rs> nicht
+         <lb facs="#facs_1_region_1779518018310_409_tl_10" n="N010"/>Unrecht geben und fragen verwundert, wie man sich nur
+         <lb facs="#facs_1_region_1779518018310_409_tl_11" n="N011"/>für eine so dumme Geschichte und so hölzerne Marionetten
+         <lb facs="#facs_1_region_1779518018310_409_tl_12" n="N012"/>interessiren könne? Die richtige alte Rittercomödie, deren
+         <lb facs="#facs_1_region_1779518018310_409_tl_13" n="N013"/>steife Titelkupfer lebendig geworden sind: der geheimnißvolle,
+         <lb facs="#facs_1_region_1779518018310_409_tl_14" n="N014"/>tugendhafte Eremit, der Bösewicht mit thurmhohem Feder
+         <lb facs="#facs_1_region_1779518018310_409_tl_15" n="N015" break="no"/>busch und riesigem Schnauzbart, der liebende Jüngling,
+         <lb facs="#facs_1_region_1779518018310_409_tl_16" n="N016"/>blondgelockt, mit schwärmerisch verdrehtem Halse u. s. w.
+         <lb facs="#facs_1_region_1779518018310_409_tl_17" n="N017"/>Man möchte dieses abgeschmackte Textbuch für ein dem Compo
+         <lb facs="#facs_1_region_1779518018310_409_tl_18" n="N018" break="no"/>nisten aufgedrungenes halten, wüßte man nicht aus <rs type="person" ref="#hsl_person_id_272">Schober</rs>’s
+         <lb facs="#facs_1_region_1779518018310_409_tl_19" n="N019"/>und <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s eigenen Briefen, mit welcher Begeisterung
+         <lb facs="#facs_1_region_1779518018310_409_tl_20" n="N020"/>sich Letzterer der Composition hingab. Er mag sich an der
+         <lb facs="#facs_1_region_1779518018310_409_tl_21" n="N021"/>breit ausladenden Lyrik des Gedichtes erfreut haben, an den
+         <lb facs="#facs_1_region_1779518018310_409_tl_22" n="N022"/>vielen gefühlvollen Monologen der handelnden Personen,
+         <lb facs="#facs_1_region_1779518018310_409_tl_23" n="N023"/>welche immer Empfindungen und niemals Eile haben.
+         <lb facs="#facs_1_region_1779518018310_409_tl_24" n="N024"/>Aber gerade diese gemüthliche, den Fortgang der Handlung
+         <lb facs="#facs_1_region_1779518018310_409_tl_25" n="N025"/>wie die Charakteristik der Personen überwuchernde Lyrik
+         <lb facs="#facs_1_region_1779518018310_409_tl_26" n="N026"/>erwuchs der Oper zum schweren Nachtheil. Das Buch kam
+         <lb facs="#facs_1_region_1779518018310_409_tl_27" n="N027"/>einer für den Operncomponisten gefährlichen Neigung
+         <lb facs="#facs_1_region_1779518018310_409_tl_28" n="N028"/><rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s auf halbem Wege entgegen. Das rasche, wechsel
+         <lb facs="#facs_1_region_1779518018310_409_tl_29" n="N029" break="no"/>volle Leben, welches im musikalischen Drama energisch pul
+         <lb facs="#facs_1_region_1779518018310_409_tl_30" n="N030" break="no"/>siren muß, die charakteristische Ausprägung der Situation und
+         <lb facs="#facs_1_region_1779518018310_409_tl_31" n="N031"/>der Individuen, sie fehlen in <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s „<rs type="bibl" ref="#hsl_work_id_16">Alfonso und
+         <lb facs="#facs_1_region_1779518018310_409_tl_32" n="N032"/>Estrella</rs>“, bis auf wenige Anläufe. Diese Musik ist nicht
+         <lb facs="#facs_1_region_1779518018310_409_tl_33" n="N033"/>dramatisch, sie besteht größtentheils aus liedmäßigen Gesängen,
+         <lb facs="#facs_1_region_1779518018310_409_tl_34" n="N034"/>und zwar aus liedmäßigen Gesängen von sanfter Empfindung
+         <lb facs="#facs_1_region_1779518018310_409_tl_35" n="N035"/>und ruhigem Gleichmaß des Rhythmus und der Harmonie.
+         <lb facs="#facs_1_region_1779518018310_409_tl_36" n="N036"/>Wir hören fast durchwegs den Liedercomponisten, aber nicht
+         <lb facs="#facs_1_region_1779518018310_409_tl_37" n="N037"/>immer den großen Liedercomponisten. An diesem, dem
+         <lb facs="#facs_1_region_1779518018310_409_tl_38" n="N038"/>Sänger der „<rs type="bibl" ref="#hsl_work_id_662">Jungen Nonne</rs>“, des „<rs type="bibl" ref="#hsl_work_id_205">Erlkönig</rs>s“, des „<rs type="bibl" ref="#hsl_work_id_2578">Zwerg</rs>s“,
+         <lb facs="#facs_1_region_1779518018310_409_tl_39" n="N039"/>der „<rs type="bibl" ref="#hsl_work_id_1437">Winter-Reise</rs>“, bewundern wir ja nicht blos die süße
+         <lb facs="#facs_1_region_1779518018310_409_tl_40" n="N040"/>Melodienfülle, sondern auch Tiefe und Energie des Ausdruckes,<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1779518037997_415_tl_1" n="N001"/>feine und geistvolle Charakteristik. Davon ist gerade in
+         <lb facs="#facs_2_region_1779518037997_415_tl_2" n="N002"/>„<rs type="bibl" ref="#hsl_work_id_16">Alfonso und Estrella</rs>“ nur wenig zu merken. <rs type="person" ref="#hsl_person_id_279">Schubert</rs>,
+         <lb facs="#facs_2_region_1779518037997_415_tl_3" n="N003"/>dessen Lyra die Stimmung und den Umfang für die
+         <lb facs="#facs_2_region_1779518037997_415_tl_4" n="N004"/>verschiedensten Affecte besaß, schlägt hier meistens nur
+         <lb facs="#facs_2_region_1779518037997_415_tl_5" n="N005"/>die Saite der „Gemüthlichkeit“ an, sogar unbekümmert
+         <lb facs="#facs_2_region_1779518037997_415_tl_6" n="N006"/>um jene vollständige Uebereinstimmung von Text und
+         <lb facs="#facs_2_region_1779518037997_415_tl_7" n="N007"/>Musik, welche seine Lieder auszeichnet. Hören wir
+         <lb facs="#facs_2_region_1779518037997_415_tl_8" n="N008"/>gleich die erste Tenor-Arie. <rs type="person" ref="#hsl_person_id_8998">Alfonso</rs> bittet seinen <rs type="person" ref="#hsl_person_id_8996">Vater</rs>,
+         <lb facs="#facs_2_region_1779518037997_415_tl_9" n="N009"/>ihn aus dem stillen Thale, das ihn beengt, fortziehen
+         <lb facs="#facs_2_region_1779518037997_415_tl_10" n="N010"/>zu lassen, und schildert ihm, wie alle Stimmen der Natur
+         <lb facs="#facs_2_region_1779518037997_415_tl_11" n="N011"/>diesen verzehrenden Drang in die Ferne in ihm wachrufen.
+         <lb facs="#facs_2_region_1779518037997_415_tl_12" n="N012"/>Es ist genau dieselbe Empfindung, welche <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s bekanntes
+         <lb facs="#facs_2_region_1779518037997_415_tl_13" n="N013"/>Lied „<rs type="bibl" ref="#hsl_work_id_6515">Drang in die Ferne</rs>“ ausspricht. Aber wie ganz anders,
+         <lb facs="#facs_2_region_1779518037997_415_tl_14" n="N014"/>wie wahr und dringend, klingt im Liede das „Vater, du
+         <lb facs="#facs_2_region_1779518037997_415_tl_15" n="N015"/>glaubst es nicht“ gegen die Arie des <rs type="person" ref="#hsl_person_id_8998">Alfonso</rs>, welche doch —
+         <lb facs="#facs_2_region_1779518037997_415_tl_16" n="N016"/>da Vater und Sohn als wirkliche Personen vor uns stehen
+         <lb facs="#facs_2_region_1779518037997_415_tl_17" n="N017"/>— noch viel energischer lauten, noch überzeugender wirken
+         <lb facs="#facs_2_region_1779518037997_415_tl_18" n="N018"/>sollte! Statt dessen singt <rs type="person" ref="#hsl_person_id_8998">Alfonso</rs> in der Oper seinen „<rs type="bibl" ref="#hsl_work_id_6515">Drang
+         <lb facs="#facs_2_region_1779518037997_415_tl_19" n="N019"/>in die Ferne</rs>“ auf eine so gemüthlich sanfte Melodie, daß
+         <lb facs="#facs_2_region_1779518037997_415_tl_20" n="N020"/>man ihr auch den entgegengesetzten Text, den Wunsch, immer
+         <lb facs="#facs_2_region_1779518037997_415_tl_21" n="N021"/>daheim zu bleiben, unterlegen könnte. Weiter. <rs type="person" ref="#hsl_person_id_8999">Estrella</rs> tritt
+         <lb facs="#facs_2_region_1779518037997_415_tl_22" n="N022"/>„ängstlich“ aus dem Walde mit den Worten: „Von Fels
+         <lb facs="#facs_2_region_1779518037997_415_tl_23" n="N023"/>und Wald umschlossen, verirrt seh’ ich mich hier“ u. s. w.
+         <lb facs="#facs_2_region_1779518037997_415_tl_24" n="N024"/>Sie singt das in einem allerliebsten, fast zärtlichen Andan
+         <lb facs="#facs_2_region_1779518037997_415_tl_25" n="N025" break="no"/>tino, einem richtigen „Lied“, das keine Spur von Aengstlich
+         <lb facs="#facs_2_region_1779518037997_415_tl_26" n="N026" break="no"/>keit verräth, somit um die Situation sich nicht kümmert. Ein
+         <lb facs="#facs_2_region_1779518037997_415_tl_27" n="N027"/>streng symmetrisch gebautes Lied, das ruhig auf einer clavier
+         <lb facs="#facs_2_region_1779518037997_415_tl_28" n="N028" break="no"/>mäßigen Sechzehntelbegleitung hinfließt, ist gleich darauf
+         <lb facs="#facs_2_region_1779518037997_415_tl_29" n="N029"/><rs type="person" ref="#hsl_person_id_8998">Alfonso</rs>’s Liebeserklärung. Das Alles sind wenigstens nicht
+         <lb facs="#facs_2_region_1779518037997_415_tl_30" n="N030"/>Situationen von höchster leidenschaftlicher Spannung.
+         <lb facs="#facs_2_region_1779518037997_415_tl_31" n="N031"/>Im zweiten und dritten Acte, wo schwarze tragische
+         <lb facs="#facs_2_region_1779518037997_415_tl_32" n="N032"/>Schatten sich auf die Handlung zu senken beginnen,
+         <lb facs="#facs_2_region_1779518037997_415_tl_33" n="N033"/>wird dieser ewig blaue Melodienhimmel schon bedenklicher.
+         <lb facs="#facs_2_region_1779518037997_415_tl_34" n="N034"/><rs type="person" ref="#hsl_person_id_8999">Estrella</rs> wirft sich in dem Augenblicke, als sie dem verhaßten
+         <lb facs="#facs_2_region_1779518037997_415_tl_35" n="N035"/>Werber <rs type="person" ref="#hsl_person_id_9000">Adolfo</rs> versprochen wird, ihrem <rs type="person" ref="#hsl_person_id_8997">Vater</rs> mit der
+         <lb facs="#facs_2_region_1779518037997_415_tl_36" n="N036"/>flehentlichen Bitte an den Hals, sie nicht aufzuopfern. Man
+         <lb facs="#facs_2_region_1779518037997_415_tl_37" n="N037"/>vergleiche nun mit dieser Situation, mit diesen Worten die
+         <lb facs="#facs_2_region_1779518037997_415_tl_38" n="N038"/>liebliche C-dur-Melodie der <rs type="person" ref="#hsl_person_id_8999">Estrella</rs>. Wenn der <rs type="person" ref="#hsl_person_id_8997">König</rs> seine
+         <lb facs="#facs_2_region_1779518037997_415_tl_39" n="N039"/><rs type="person" ref="#hsl_person_id_8999">Tochter</rs> ersucht hätte: Nimm die Mandoline und singe mir
+         <lb facs="#facs_2_region_1779518037997_415_tl_40" n="N040"/>ein Lied! — <rs type="person" ref="#hsl_person_id_8999">Estrella</rs> würde kein zärtlicheres wählen können.<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1779518037997_415_tl_1" n="N001"/>feine und geistvolle Charakteristik. Davon ist gerade in
-               <lb facs="#facs_2_region_1779518037997_415_tl_2" n="N002"/>„<rs type="bibl">Alfonso und Estrella</rs>“ nur wenig zu merken. <rs type="person">Schubert</rs>,
-               <lb facs="#facs_2_region_1779518037997_415_tl_3" n="N003"/>dessen Lyra die Stimmung und den Umfang für die
-               <lb facs="#facs_2_region_1779518037997_415_tl_4" n="N004"/>verschiedensten Affecte besaß, schlägt hier meistens nur
-               <lb facs="#facs_2_region_1779518037997_415_tl_5" n="N005"/>die Saite der „Gemüthlichkeit“ an, sogar unbekümmert
-               <lb facs="#facs_2_region_1779518037997_415_tl_6" n="N006"/>um jene vollständige Uebereinstimmung von Text und
-               <lb facs="#facs_2_region_1779518037997_415_tl_7" n="N007"/>Musik, welche seine Lieder auszeichnet. Hören wir
-               <lb facs="#facs_2_region_1779518037997_415_tl_8" n="N008"/>gleich die erste Tenor-Arie. <rs type="person">Alfonso</rs> bittet seinen <rs type="person">Vater</rs>,
-               <lb facs="#facs_2_region_1779518037997_415_tl_9" n="N009"/>ihn aus dem stillen Thale, das ihn beengt, fortziehen
-               <lb facs="#facs_2_region_1779518037997_415_tl_10" n="N010"/>zu lassen, und schildert ihm, wie alle Stimmen der Natur
-               <lb facs="#facs_2_region_1779518037997_415_tl_11" n="N011"/>diesen verzehrenden Drang in die Ferne in ihm wachrufen.
-               <lb facs="#facs_2_region_1779518037997_415_tl_12" n="N012"/>Es ist genau dieselbe Empfindung, welche <rs type="person">Schubert</rs>'s bekanntes
-               <lb facs="#facs_2_region_1779518037997_415_tl_13" n="N013"/>Lied „<rs type="bibl">Drang in die Ferne</rs>“ ausspricht. Aber wie ganz anders,
-               <lb facs="#facs_2_region_1779518037997_415_tl_14" n="N014"/>wie wahr und dringend, klingt im Liede das „Vater, du
-               <lb facs="#facs_2_region_1779518037997_415_tl_15" n="N015"/>glaubst es nicht“ gegen die Arie des <rs type="person">Alfonso</rs>, welche doch —
-               <lb facs="#facs_2_region_1779518037997_415_tl_16" n="N016"/>da <rs type="person">Vater</rs> und <rs type="person">Sohn</rs> als wirkliche Personen vor uns stehen
-               <lb facs="#facs_2_region_1779518037997_415_tl_17" n="N017"/>— noch viel energischer lauten, noch überzeugender wirken
-               <lb facs="#facs_2_region_1779518037997_415_tl_18" n="N018"/>sollte! Statt dessen singt <rs type="person">Alfonso</rs> in der Oper seinen „<rs type="bibl">Drang</rs>
-               <lb facs="#facs_2_region_1779518037997_415_tl_19" n="N019"/>
-               <rs type="bibl">in die Ferne</rs>“ auf eine so gemüthlich sanfte Melodie, daß
-               <lb facs="#facs_2_region_1779518037997_415_tl_20" n="N020"/>man ihr auch den entgegengesetzten Text, den Wunsch, immer
-               <lb facs="#facs_2_region_1779518037997_415_tl_21" n="N021"/>daheim zu bleiben, unterlegen könnte. Weiter. <rs type="person">Estrella</rs> tritt
-               <lb facs="#facs_2_region_1779518037997_415_tl_22" n="N022"/>„ängstlich“ aus dem Walde mit den Worten: „Von Fels
-               <lb facs="#facs_2_region_1779518037997_415_tl_23" n="N023"/>und Wald umschlossen, verirrt seh' ich mich hier“ u. s. w.
-               <lb facs="#facs_2_region_1779518037997_415_tl_24" n="N024"/>Sie singt das in einem allerliebsten, fast zärtlichen Andan¬
-               <lb facs="#facs_2_region_1779518037997_415_tl_25" n="N025"/>tino, einem richtigen „Lied“, das keine Spur von Aengstlich¬
-               <lb facs="#facs_2_region_1779518037997_415_tl_26" n="N026"/>keit verräth, somit um die Situation sich nicht kümmert. Ein
-               <lb facs="#facs_2_region_1779518037997_415_tl_27" n="N027"/>streng symmetrisch gebautes Lied, das ruhig auf einer clavier¬
-               <lb facs="#facs_2_region_1779518037997_415_tl_28" n="N028"/>mäßigen Sechzehntelbegleitung hinfließt, ist gleich darauf
-               <lb facs="#facs_2_region_1779518037997_415_tl_29" n="N029"/>
-               <rs type="person">Alfonso</rs>'s Liebeserklärung. Das Alles sind wenigstens nicht
-               <lb facs="#facs_2_region_1779518037997_415_tl_30" n="N030"/>Situationen von höchster leidenschaftlicher Spannung.
-               <lb facs="#facs_2_region_1779518037997_415_tl_31" n="N031"/>Im zweiten und dritten Acte, wo schwarze tragische
-               <lb facs="#facs_2_region_1779518037997_415_tl_32" n="N032"/>Schatten sich auf die Handlung zu senken beginnen,
-               <lb facs="#facs_2_region_1779518037997_415_tl_33" n="N033"/>wird dieser ewig blaue Melodienhimmel schon bedenklicher.
-               <lb facs="#facs_2_region_1779518037997_415_tl_34" n="N034"/>
-               <rs type="person">Estrella</rs> wirft sich in dem Augenblicke, als sie dem verhaßten
-               <lb facs="#facs_2_region_1779518037997_415_tl_35" n="N035"/>Werber <rs type="person">Adolfo</rs> versprochen wird, ihrem <rs type="person">Vater</rs> mit der
-               <lb facs="#facs_2_region_1779518037997_415_tl_36" n="N036"/>flehentlichen Bitte an den Hals, sie nicht aufzuopfern. Man
-               <lb facs="#facs_2_region_1779518037997_415_tl_37" n="N037"/>vergleiche nun mit dieser Situation, mit diesen Worten die
-               <lb facs="#facs_2_region_1779518037997_415_tl_38" n="N038"/>liebliche C-dur-Melodie der <rs type="person">Estrella</rs>. Wenn der <rs type="person">König</rs> seine
-               <lb facs="#facs_2_region_1779518037997_415_tl_39" n="N039"/>
-               <rs type="person">Tochter</rs> ersucht hätte: Nimm die Mandoline und singe mir
-               <lb facs="#facs_2_region_1779518037997_415_tl_40" n="N040"/>ein Lied! — <rs type="person">Estrella</rs> würde kein zärtlicheres wählen können.
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1779518042822_418_tl_1" n="N001"/>Die Beispiele ließen sich in langer Reihe fortsetzen; wer sie
+         <lb facs="#facs_2_region_1779518042822_418_tl_2" n="N002"/>wünscht, der braucht nur im Clavierauszug von „<rs type="bibl" ref="#hsl_work_id_16">Alfonso
+         <lb facs="#facs_2_region_1779518042822_418_tl_3" n="N003"/>und Estrella</rs>“ weiterzuspielen. Er wird finden, daß die Mehr
+         <lb facs="#facs_2_region_1779518042822_418_tl_4" n="N004" break="no"/>zahl der Gesänge darin durch ihren liederartigen Charakter
+         <lb facs="#facs_2_region_1779518042822_418_tl_5" n="N005"/>undramatisch ist und an prägnantem Ausdruck die vielen
+         <lb facs="#facs_2_region_1779518042822_418_tl_6" n="N006"/>besten „Lieder“ von <rs type="person" ref="#hsl_person_id_279">Schubert</rs> nicht erreicht. Aber auch nicht
+         <lb facs="#facs_2_region_1779518042822_418_tl_7" n="N007"/>an Reiz und Eigenthümlichkeit der Melodie, und das ist ein
+         <lb facs="#facs_2_region_1779518042822_418_tl_8" n="N008"/>für die Wirkung der Oper sehr wichtiger Punkt. Wir haben
+         <lb facs="#facs_2_region_1779518042822_418_tl_9" n="N009"/>absichtlich den Maßstab für „<rs type="bibl" ref="#hsl_work_id_16">Alfonso und Estrella</rs>“ nicht von
+         <lb facs="#facs_2_region_1779518042822_418_tl_10" n="N010"/><hi rendition="#em">dramatischen</hi> Meisterwerken hergeholt, sondern von
+         <lb facs="#facs_2_region_1779518042822_418_tl_11" n="N011"/><rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s eigenen Lieder-Compositionen. Von dramatischen
+         <lb facs="#facs_2_region_1779518042822_418_tl_12" n="N012"/>Forderungen absehend, würden die Zuhörer es sich wol ge
+         <lb facs="#facs_2_region_1779518042822_418_tl_13" n="N013" break="no"/>fallen lassen, wenn <rs type="person" ref="#hsl_person_id_8998">Alfonso</rs> und <rs type="person" ref="#hsl_person_id_8999">Estrella</rs> ihnen Lieder wie
+         <lb facs="#facs_2_region_1779518042822_418_tl_14" n="N014"/>die aus der „<rs type="bibl" ref="#hsl_work_id_214">Schönen Müllerin</rs>“ vorsängen. Aber es läßt
+         <lb facs="#facs_2_region_1779518042822_418_tl_15" n="N015"/>sich nicht verhehlen, daß diese Oper auch rein musikalisch nicht
+         <lb facs="#facs_2_region_1779518042822_418_tl_16" n="N016"/>jenes Interesse bietet, welches uns sonst an <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’schen Ton
+         <lb facs="#facs_2_region_1779518042822_418_tl_17" n="N017" break="no"/>dichtungen — vocalen und instrumentalen — fesselt und immer
+         <lb facs="#facs_2_region_1779518042822_418_tl_18" n="N018"/>neu beglückt. Sehr spärlich beschäftigt „<rs type="bibl" ref="#hsl_work_id_16">Alfonso und Estrella</rs>“
+         <lb facs="#facs_2_region_1779518042822_418_tl_19" n="N019"/>den nachhörenden und nachdenkenden Verstand, welcher sich
+         <lb facs="#facs_2_region_1779518042822_418_tl_20" n="N020"/>nach dem Reize polyphoner und contrapunktischer Gestaltung
+         <lb facs="#facs_2_region_1779518042822_418_tl_21" n="N021"/>sehnt. Dem klaren Quell dieser Melodien fehlt nichts als
+         <lb facs="#facs_2_region_1779518042822_418_tl_22" n="N022"/>ein wenig Eisen- und Salzbestandtheile. Anmuthig, klar,
+         <lb facs="#facs_2_region_1779518042822_418_tl_23" n="N023"/>natürlich ist Alles: das zitternde Frühroth der Jugend, die
+         <lb facs="#facs_2_region_1779518042822_418_tl_24" n="N024"/>uns längst verloren gegangene Unmittelbarkeit und Naive
+         <lb facs="#facs_2_region_1779518042822_418_tl_25" n="N025" break="no"/>tät, kurz das <hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schubert</rs></hi>’sche daran, verleiht auch „<rs type="bibl" ref="#hsl_work_id_16">Alfonso
+         <lb facs="#facs_2_region_1779518042822_418_tl_26" n="N026"/>und Estrella</rs>“ seinen eigenthümlichen Reiz. In den
+         <lb facs="#facs_2_region_1779518042822_418_tl_27" n="N027"/>idyllischen, zwischen Frohsinn und Zärtlichkeit wechselnden
+         <lb facs="#facs_2_region_1779518042822_418_tl_28" n="N028"/>Scenen waltet <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s Naturell am glücklichsten. Insbe
+         <lb facs="#facs_2_region_1779518042822_418_tl_29" n="N029" break="no"/>sondere die Chöre der Landleute und Jäger athmen eine
+         <lb facs="#facs_2_region_1779518042822_418_tl_30" n="N030"/>köstliche Frische. Der erste Act, in welchem diese Empfindun
+         <lb facs="#facs_2_region_1779518042822_418_tl_31" n="N031" break="no"/>gen vorherrschen und der gemüthliche Liederstyl die meiste
+         <lb facs="#facs_2_region_1779518042822_418_tl_32" n="N032"/>Berechtigung hat, erscheint uns darum als der beste. Die
+         <lb facs="#facs_2_region_1779518042822_418_tl_33" n="N033"/>bedeutendere dramatische Höhe des zweiten und dritten Actes
+         <lb facs="#facs_2_region_1779518042822_418_tl_34" n="N034"/>ist doch nur eine scheinbare; für heroische, hoch dramatische
+         <lb facs="#facs_2_region_1779518042822_418_tl_35" n="N035"/>und erschütternde Scenen fehlte <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s Talent die an
+         <lb facs="#facs_2_region_1779518042822_418_tl_36" n="N036" break="no"/>dauernde Spannung und Energie. Selbst wo er einen Ge
+         <lb facs="#facs_2_region_1779518042822_418_tl_37" n="N037" break="no"/>sang leidenschaftlich anpackt, wird er im Verlaufe gerne
+         <lb facs="#facs_2_region_1779518042822_418_tl_38" n="N038"/>sanft und schwächt ab, anstatt zu steigern. Im Gegensatze zu
+         <lb facs="#facs_2_region_1779518042822_418_tl_39" n="N039"/>manchem Romantiker neuester Schule passiert es <rs type="person" ref="#hsl_person_id_279">Schubert</rs> mit
+         <lb facs="#facs_2_region_1779518042822_418_tl_40" n="N040" break="no"/>unter, daß er gährend Drachengift in fromme Milch verwandelt.<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1779518042822_418_tl_1" n="N001"/>Die Beispiele ließen sich in langer Reihe fortsetzen; wer sie
-               <lb facs="#facs_2_region_1779518042822_418_tl_2" n="N002"/>wünscht, der braucht nur im Clavierauszug von „<rs type="bibl">Alfonso</rs>
-               <lb facs="#facs_2_region_1779518042822_418_tl_3" n="N003"/>
-               <rs type="bibl">und Estrella</rs>“ weiterzuspielen. Er wird finden, daß die Mehr¬
-               <lb facs="#facs_2_region_1779518042822_418_tl_4" n="N004"/>zahl der Gesänge darin durch ihren liederartigen Charakter
-               <lb facs="#facs_2_region_1779518042822_418_tl_5" n="N005"/>undramatisch ist und an prägnantem Ausdruck die vielen
-               <lb facs="#facs_2_region_1779518042822_418_tl_6" n="N006"/>besten „Lieder“ von <rs type="person">Schubert</rs> nicht erreicht. Aber auch nicht
-               <lb facs="#facs_2_region_1779518042822_418_tl_7" n="N007"/>an Reiz und Eigenthümlichkeit der Melodie, und das ist ein
-               <lb facs="#facs_2_region_1779518042822_418_tl_8" n="N008"/>für die Wirkung der Oper sehr wichtiger Punkt. Wir haben
-               <lb facs="#facs_2_region_1779518042822_418_tl_9" n="N009"/>absichtlich den Maßstab für „<rs type="bibl">Alfonso und Estrella</rs>“ nicht von
-               <lb facs="#facs_2_region_1779518042822_418_tl_10" n="N010"/>
-               <hi rendition="#em">dramatischen</hi> Meisterwerken hergeholt, sondern von
-               <lb facs="#facs_2_region_1779518042822_418_tl_11" n="N011"/>
-               <rs type="person">Schubert</rs>'s eigenen Lieder-Compositionen. Von dramatischen
-               <lb facs="#facs_2_region_1779518042822_418_tl_12" n="N012"/>Forderungen absehend, würden die Zuhörer es sich wol ge¬
-               <lb facs="#facs_2_region_1779518042822_418_tl_13" n="N013"/>fallen lassen, wenn <rs type="person">Alfonso</rs> und <rs type="person">Estrella</rs> ihnen Lieder wie
-               <lb facs="#facs_2_region_1779518042822_418_tl_14" n="N014"/>die aus der „<rs type="bibl">Schönen Müllerin</rs>“ vorsängen. Aber es läßt
-               <lb facs="#facs_2_region_1779518042822_418_tl_15" n="N015"/>sich nicht verhehlen, daß diese Oper auch rein musikalisch nicht
-               <lb facs="#facs_2_region_1779518042822_418_tl_16" n="N016"/>jenes Interesse bietet, welches uns sonst an <rs type="person">Schubert</rs>'schen Ton¬
-               <lb facs="#facs_2_region_1779518042822_418_tl_17" n="N017"/>dichtungen — vocalen und instrumentalen — fesselt und immer
-               <lb facs="#facs_2_region_1779518042822_418_tl_18" n="N018"/>neu beglückt. Sehr spärlich beschäftigt „<rs type="bibl">Alfonso und Estrella</rs>“
-               <lb facs="#facs_2_region_1779518042822_418_tl_19" n="N019"/>den nachhörenden und nachdenkenden Verstand, welcher sich
-               <lb facs="#facs_2_region_1779518042822_418_tl_20" n="N020"/>nach dem Reize polyphoner und contrapunktischer Gestaltung
-               <lb facs="#facs_2_region_1779518042822_418_tl_21" n="N021"/>sehnt. Dem klaren Quell dieser Melodien fehlt nichts als
-               <lb facs="#facs_2_region_1779518042822_418_tl_22" n="N022"/>ein wenig Eisen- und Salzbestandtheile. Anmuthig, klar,
-               <lb facs="#facs_2_region_1779518042822_418_tl_23" n="N023"/>natürlich ist Alles: das zitternde Frühroth der Jugend, die
-               <lb facs="#facs_2_region_1779518042822_418_tl_24" n="N024"/>uns längst verloren gegangene Unmittelbarkeit und Naive¬
-               <lb facs="#facs_2_region_1779518042822_418_tl_25" n="N025"/>tät, kurz das <hi rendition="#em">
-                  <rs type="person">Schubert</rs>
-               </hi>'sche daran, verleiht auch „<rs type="bibl">Alfonso</rs>
-               <lb facs="#facs_2_region_1779518042822_418_tl_26" n="N026"/>
-               <rs type="bibl">und Estrella</rs>“ seinen eigenthümlichen Reiz. In den
-               <lb facs="#facs_2_region_1779518042822_418_tl_27" n="N027"/>idyllischen, zwischen Frohsinn und Zärtlichkeit wechselnden
-               <lb facs="#facs_2_region_1779518042822_418_tl_28" n="N028"/>Scenen waltet <rs type="person">Schubert</rs>'s Naturell am glücklichsten. Insbe¬
-               <lb facs="#facs_2_region_1779518042822_418_tl_29" n="N029"/>sondere die Chöre der Landleute und Jäger athmen eine
-               <lb facs="#facs_2_region_1779518042822_418_tl_30" n="N030"/>köstliche Frische. Der erste Act, in welchem diese Empfindun¬
-               <lb facs="#facs_2_region_1779518042822_418_tl_31" n="N031"/>gen vorherrschen und der gemüthliche Liederstyl die meiste
-               <lb facs="#facs_2_region_1779518042822_418_tl_32" n="N032"/>Berechtigung hat, erscheint uns darum als der beste. Die
-               <lb facs="#facs_2_region_1779518042822_418_tl_33" n="N033"/>bedeutendere dramatische Höhe des zweiten und dritten Actes
-               <lb facs="#facs_2_region_1779518042822_418_tl_34" n="N034"/>ist doch nur eine scheinbare; für heroische, hoch dramatische
-               <lb facs="#facs_2_region_1779518042822_418_tl_35" n="N035"/>und erschütternde Scenen fehlte <rs type="person">Schubert</rs>'s Talent die an¬
-               <lb facs="#facs_2_region_1779518042822_418_tl_36" n="N036"/>dauernde Spannung und Energie. Selbst wo er einen Ge¬
-               <lb facs="#facs_2_region_1779518042822_418_tl_37" n="N037"/>sang leidenschaftlich anpackt, wird er im Verlaufe gerne
-               <lb facs="#facs_2_region_1779518042822_418_tl_38" n="N038"/>sanft und schwächt ab, anstatt zu steigern. Im Gegensatze zu
-               <lb facs="#facs_2_region_1779518042822_418_tl_39" n="N039"/>manchem Romantiker neuester Schule passiert es <rs type="person">Schubert</rs> mit¬
-               <lb facs="#facs_2_region_1779518042822_418_tl_40" n="N040"/>unter, daß er gährend Drachengift in fromme Milch verwandelt.
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1779518048525_421_tl_1" n="N001"/>So beginnt z. B. der flüchtige, von Reue und Verzweiflung
-               <lb facs="#facs_2_region_1779518048525_421_tl_2" n="N002"/>gefolterte <rs type="person">Mauregato</rs> seine Arie im dritten Acte mit einem
-               <lb facs="#facs_2_region_1779518048525_421_tl_3" n="N003"/>düsteren G-moll-Allegro, geräth aber unversehens in einen
-               <lb facs="#facs_2_region_1779518048525_421_tl_4" n="N004"/>freundlichen B-dur-Mittelsatz, durch den wir das Bächlein
-               <lb facs="#facs_2_region_1779518048525_421_tl_5" n="N005"/>aus der „<rs type="bibl">Schönen Müllerin</rs>“ gar lieblich rauschen hören.
-               <lb facs="#facs_2_region_1779518048525_421_tl_6" n="N006"/>Herr <hi rendition="#em">
-                  <rs type="person">Beck</rs>
-               </hi> hat dieser Stelle („In den weiten Königshallen
-               <lb facs="#facs_2_region_1779518048525_421_tl_7" n="N007"/>stand ich wie ein mächt'ger Baum“) nicht mit Unrecht einige
-               <lb facs="#facs_2_region_1779518048525_421_tl_8" n="N008"/>ihrer tändelnden Achtelnoten abgestreift; man lese sie auf
-               <lb facs="#facs_2_region_1779518048525_421_tl_9" n="N009"/>Seite 195 des <rs type="person">Schlesinger</rs>'schen Clavierauszugs. Gerade auf
-               <lb facs="#facs_2_region_1779518048525_421_tl_10" n="N010"/>den dramatischen Höhenpunkten der Handlung erscheint uns
-               <lb facs="#facs_2_region_1779518048525_421_tl_11" n="N011"/>
-               <rs type="person">Schubert</rs>'s Musik am wenigsten originell und bedeutend; sei
-               <lb facs="#facs_2_region_1779518048525_421_tl_12" n="N012"/>es, daß er von der ungewohnten dramatischen Last sich selbst
-               <lb facs="#facs_2_region_1779518048525_421_tl_13" n="N013"/>gedrückt fühlte oder daß er sein Publicum eines geringeren
-               <lb facs="#facs_2_region_1779518048525_421_tl_14" n="N014"/>Maßstabs gewürdigt hat. <rs type="person">Schubert</rs>, der im Liede alle seine
-               <lb facs="#facs_2_region_1779518048525_421_tl_15" n="N015"/>Zeitgenossen, <rs type="person">Beethoven</rs> inbegriffen, übertraf und seiner Zeit
-               <lb facs="#facs_2_region_1779518048525_421_tl_16" n="N016"/>vorauseilte, er steckt als Operncomponist ganz im damaligen
-               <lb facs="#facs_2_region_1779518048525_421_tl_17" n="N017"/>Geschmacke. Obendrein fast unberührt von dem stärkeren
-               <lb facs="#facs_2_region_1779518048525_421_tl_18" n="N018"/>dramatischen Style der Besten seiner Zeit. Nicht zu sprechen
-               <lb facs="#facs_2_region_1779518048525_421_tl_19" n="N019"/>von dem kräftigeren Pathos <rs type="person">Cherubini</rs>'s, <rs type="person">Spontini</rs>'s, <rs type="person">Méhul</rs>'s,
-               <lb facs="#facs_2_region_1779518048525_421_tl_20" n="N020"/>mit deren Meisterwerken <rs type="person">Schubert</rs> aufwuchs, auch eine Offen¬
-               <lb facs="#facs_2_region_1779518048525_421_tl_21" n="N021"/>barung, wie <rs type="person">Beethoven</rs>'s „<rs type="bibl">Fidelio</rs>“, schien an dem Opern¬
-               <lb facs="#facs_2_region_1779518048525_421_tl_22" n="N022"/>componisten <rs type="person">Schubert</rs> spurlos vorbeigegangen zu sein.
-               <lb facs="#facs_2_region_1779518048525_421_tl_23" n="N023"/>Ein Jahr <hi rendition="#em">vor</hi> Vollendung von „<rs type="bibl">Alfonso und Estrella</rs>“
-               <lb facs="#facs_2_region_1779518048525_421_tl_24" n="N024"/>war der „<rs type="bibl">Freischütz</rs>“ erschienen — sechzehn Jahre früher
-               <lb facs="#facs_2_region_1779518048525_421_tl_25" n="N025"/>„<rs type="bibl">Fidelio</rs>“ — <hi rendition="#em">
-                  <rs type="person">Schubert</rs>'s</hi> Opernstyl liegt um eine Welt
-               <lb facs="#facs_2_region_1779518048525_421_tl_26" n="N026"/>hinter ihnen. Selbst <hi rendition="#em">
-                  <rs type="person">Spohr</rs>
-               </hi>, der doch auch vorwiegend
-               <lb facs="#facs_2_region_1779518048525_421_tl_27" n="N027"/>Lyriker gewesen, hat in seinem „<rs type="bibl">Faust</rs>“, acht Jahre vor
-               <lb facs="#facs_2_region_1779518048525_421_tl_28" n="N028"/>„<rs type="bibl">Alfonso und Estrella</rs>“, ungleich dramatischere, modernere
-               <lb facs="#facs_2_region_1779518048525_421_tl_29" n="N029"/>Opernmusik geschrieben. „<rs type="person">Schubert</rs> heiß' ich, <rs type="person">Schubert</rs> bin
-               <lb facs="#facs_2_region_1779518048525_421_tl_30" n="N030"/>ich,“ beginnt ein kurzes, den Tondichter treffend charakterisi¬
-               <lb facs="#facs_2_region_1779518048525_421_tl_31" n="N031"/>rendes Gedicht <rs type="person">Grillparzer</rs>'s. Er, der seine Individualität in
-               <lb facs="#facs_2_region_1779518048525_421_tl_32" n="N032"/>dem kleinsten Tonstücke voll ausprägte, hat auch in der Oper
-               <lb facs="#facs_2_region_1779518048525_421_tl_33" n="N033"/>an kein fremdes Vorbild sich halten wollen, noch können.
-               <lb facs="#facs_2_region_1779518048525_421_tl_34" n="N034"/>
-               <rs type="person">Schubert</rs>isch — und darin liegt ihr Reiz — klingt die ganze
-               <lb facs="#facs_2_region_1779518048525_421_tl_35" n="N035"/>Oper „<rs type="bibl">Alfonso und Estrella</rs>“; sollen wir trotzdem ver¬
-               <lb facs="#facs_2_line_1780037680483_823" n="N036"/>gleichen, so finden wir ihre Physiognomie immer noch mehr
-               <lb facs="#facs_2_region_1779518048525_421_tl_38" n="N037"/>der <hi rendition="#em">
-                  <rs type="person">Weigl</rs>
-               </hi>'schen „<rs type="bibl">Schweizerfamilie</rs>“ und dem <hi rendition="#em">
-                  <rs type="person">Winter</rs>
-               </hi>'¬
-               <lb facs="#facs_2_region_1779518048525_421_tl_39" n="N038"/>schen „<rs type="bibl">Opferfest</rs>“ verwandt, als dem „<rs type="bibl">Fidelio</rs>“ oder „<rs type="bibl">Frei¬</rs>
-               <lb facs="#facs_2_region_1779518048525_421_tl_40" n="N039"/>
-               <rs type="bibl">schütz</rs>“. Nur in Einem wichtigen Factor zeigt <rs type="person">Schubert</rs>'s
-               <lb facs="#facs_2_region_1779518048525_421_tl_41" n="N040"/>
-               <rs type="bibl">Oper</rs> einen entschiedenen großen Fortschritt über jene ältere
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1779518048525_421_tl_1" n="N001"/>So beginnt z. B. der flüchtige, von Reue und Verzweiflung
+         <lb facs="#facs_2_region_1779518048525_421_tl_2" n="N002"/>gefolterte <rs type="person" ref="#hsl_person_id_8997">Mauregato</rs> seine Arie im dritten Acte mit einem
+         <lb facs="#facs_2_region_1779518048525_421_tl_3" n="N003"/>düsteren G-moll-Allegro, geräth aber unversehens in einen
+         <lb facs="#facs_2_region_1779518048525_421_tl_4" n="N004"/>freundlichen B-dur-Mittelsatz, durch den wir das Bächlein
+         <lb facs="#facs_2_region_1779518048525_421_tl_5" n="N005"/>aus der „<rs type="bibl" ref="#hsl_work_id_214">Schönen Müllerin</rs>“ gar lieblich rauschen hören.
+         <lb facs="#facs_2_region_1779518048525_421_tl_6" n="N006"/>Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs></hi> hat dieser Stelle („In den weiten Königshallen
+         <lb facs="#facs_2_region_1779518048525_421_tl_7" n="N007"/>stand ich wie ein mächt’ger Baum“) nicht mit Unrecht einige
+         <lb facs="#facs_2_region_1779518048525_421_tl_8" n="N008"/>ihrer tändelnden Achtelnoten abgestreift; man lese sie auf
+         <lb facs="#facs_2_region_1779518048525_421_tl_9" n="N009"/>Seite 195 des <rs type="person" ref="#hsl_person_id_2897">Schlesinger</rs>’schen Clavierauszugs. Gerade auf
+         <lb facs="#facs_2_region_1779518048525_421_tl_10" n="N010"/>den dramatischen Höhenpunkten der Handlung erscheint uns
+         <lb facs="#facs_2_region_1779518048525_421_tl_11" n="N011"/><rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s Musik am wenigsten originell und bedeutend; sei
+         <lb facs="#facs_2_region_1779518048525_421_tl_12" n="N012"/>es, daß er von der ungewohnten dramatischen Last sich selbst
+         <lb facs="#facs_2_region_1779518048525_421_tl_13" n="N013"/>gedrückt fühlte oder daß er sein Publicum eines geringeren
+         <lb facs="#facs_2_region_1779518048525_421_tl_14" n="N014"/>Maßstabs gewürdigt hat. <rs type="person" ref="#hsl_person_id_279">Schubert</rs>, der im Liede alle seine
+         <lb facs="#facs_2_region_1779518048525_421_tl_15" n="N015"/>Zeitgenossen, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> inbegriffen, übertraf und seiner Zeit
+         <lb facs="#facs_2_region_1779518048525_421_tl_16" n="N016"/>vorauseilte, er steckt als Operncomponist ganz im damaligen
+         <lb facs="#facs_2_region_1779518048525_421_tl_17" n="N017"/>Geschmacke. Obendrein fast unberührt von dem stärkeren
+         <lb facs="#facs_2_region_1779518048525_421_tl_18" n="N018"/>dramatischen Style der Besten seiner Zeit. Nicht zu sprechen
+         <lb facs="#facs_2_region_1779518048525_421_tl_19" n="N019"/>von dem kräftigeren Pathos <rs type="person" ref="#hsl_person_id_47">Cherubini</rs>’s, <rs type="person" ref="#hsl_person_id_294">Spontini</rs>’s, <rs type="person" ref="#hsl_person_id_179">Méhul</rs>’s,
+         <lb facs="#facs_2_region_1779518048525_421_tl_20" n="N020"/>mit deren Meisterwerken <rs type="person" ref="#hsl_person_id_279">Schubert</rs> aufwuchs, auch eine Offen
+         <lb facs="#facs_2_region_1779518048525_421_tl_21" n="N021" break="no"/>barung, wie <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s „<rs type="bibl" ref="#hsl_work_id_348">Fidelio</rs>“, schien an dem Opern
+         <lb facs="#facs_2_region_1779518048525_421_tl_22" n="N022" break="no"/>componisten <rs type="person" ref="#hsl_person_id_279">Schubert</rs> spurlos vorbeigegangen zu sein.
+         <lb facs="#facs_2_region_1779518048525_421_tl_23" n="N023"/>Ein Jahr <hi rendition="#em">vor</hi> Vollendung von „<rs type="bibl" ref="#hsl_work_id_16">Alfonso und Estrella</rs>“
+         <lb facs="#facs_2_region_1779518048525_421_tl_24" n="N024"/>war der „<rs type="bibl" ref="#hsl_work_id_236">Freischütz</rs>“ erschienen — sechzehn Jahre früher
+         <lb facs="#facs_2_region_1779518048525_421_tl_25" n="N025"/>„<rs type="bibl" ref="#hsl_work_id_348">Fidelio</rs>“ — <hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s</hi> Opernstyl liegt um eine Welt
+         <lb facs="#facs_2_region_1779518048525_421_tl_26" n="N026"/>hinter ihnen. Selbst <hi rendition="#em"><rs type="person" ref="#hsl_person_id_293">Spohr</rs></hi>, der doch auch vorwiegend
+         <lb facs="#facs_2_region_1779518048525_421_tl_27" n="N027"/>Lyriker gewesen, hat in seinem „<rs type="bibl" ref="#hsl_work_id_198">Faust</rs>“, acht Jahre vor
+         <lb facs="#facs_2_region_1779518048525_421_tl_28" n="N028"/>„<rs type="bibl" ref="#hsl_work_id_16">Alfonso und Estrella</rs>“, ungleich dramatischere, modernere
+         <lb facs="#facs_2_region_1779518048525_421_tl_29" n="N029"/>Opernmusik geschrieben. „<rs type="person" ref="#hsl_person_id_279">Schubert</rs> heiß’ ich, <rs type="person" ref="#hsl_person_id_279">Schubert</rs> bin
+         <lb facs="#facs_2_region_1779518048525_421_tl_30" n="N030"/>ich,“ beginnt ein kurzes, den Tondichter treffend charakterisi
+         <lb facs="#facs_2_region_1779518048525_421_tl_31" n="N031" break="no"/>rendes Gedicht <rs type="person" ref="#hsl_person_id_721">Grillparzer</rs>’s. Er, der seine Individualität in
+         <lb facs="#facs_2_region_1779518048525_421_tl_32" n="N032"/>dem kleinsten Tonstücke voll ausprägte, hat auch in der Oper
+         <lb facs="#facs_2_region_1779518048525_421_tl_33" n="N033"/>an kein fremdes Vorbild sich halten wollen, noch können.
+         <lb facs="#facs_2_region_1779518048525_421_tl_34" n="N034"/><rs type="person" ref="#hsl_person_id_279">Schubert</rs>isch — und darin liegt ihr Reiz — klingt die ganze
+         <lb facs="#facs_2_region_1779518048525_421_tl_35" n="N035"/>Oper „<rs type="bibl" ref="#hsl_work_id_16">Alfonso und Estrella</rs>“; sollen wir trotzdem ver
+         <lb facs="#facs_2_line_1780037680483_823" n="N036" break="no"/>gleichen, so finden wir ihre Physiognomie immer noch mehr
+         <lb facs="#facs_2_region_1779518048525_421_tl_38" n="N037"/>der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_341">Weigl</rs></hi>’schen „<rs type="bibl" ref="#hsl_work_id_516">Schweizerfamilie</rs>“ und dem <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2198">Winter</rs></hi>’
+         <lb facs="#facs_2_region_1779518048525_421_tl_39" n="N038" break="no"/>schen „<rs type="bibl" ref="#hsl_work_id_1609">Opferfest</rs>“ verwandt, als dem „<rs type="bibl" ref="#hsl_work_id_348">Fidelio</rs>“ oder „<rs type="bibl" ref="#hsl_work_id_236">Frei
+         <lb facs="#facs_2_region_1779518048525_421_tl_40" n="N039" break="no"/>schütz</rs>“. Nur in Einem wichtigen Factor zeigt <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s
+         <lb facs="#facs_2_region_1779518048525_421_tl_41" n="N040"/><rs type="bibl" ref="#hsl_work_id_16">Oper</rs> einen entschiedenen großen Fortschritt über jene ältere<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1779518057764_427_tl_2" n="N001"/>Epoche hinaus: in der Kunst der Instrumentirung. In
+         <lb facs="#facs_3_region_1779518057764_427_tl_3" n="N002"/>„<rs type="bibl" ref="#hsl_work_id_16">Alfonso und Estrella</rs>“ wirkt der Orchesterklang durch blü
+         <lb facs="#facs_3_region_1779518057764_427_tl_4" n="N003" break="no"/>hende Fülle und feine Charakteristik bezaubernd. Ueberhaupt
+         <lb facs="#facs_3_region_1779518057764_427_tl_5" n="N004"/>ist die Leichtigkeit und Sicherheit erstaunlich, mit welcher
+         <lb facs="#facs_3_line_1780037494723_805" n="N005"/><rs type="person" ref="#hsl_person_id_279">Schubert</rs> alles Technische beherrscht auf diesem schwie
+         <lb facs="#facs_3_region_1779518057764_427_tl_8" n="N006" break="no"/>rigen, ungewohnten Gebiete. Darum liegt es auch, wie nur
+         <lb facs="#facs_3_region_1779518057764_427_tl_9" n="N007"/>vorkommt, nicht an technischer Ungeübtheit, sondern an einer
+         <lb facs="#facs_3_region_1779518057764_427_tl_10" n="N008"/>Grenze seiner so reichen und vielseitigen Begabung, daß
+         <lb facs="#facs_3_region_1779518057764_427_tl_11" n="N009"/><rs type="person" ref="#hsl_person_id_279">Schubert</rs> in der Oper nicht jene Höhe erreicht hat und er
+         <lb facs="#facs_3_region_1779518057764_427_tl_12" n="N010" break="no"/>reichen konnte, die er als Lieder- und Instrumental-Componist
+         <lb facs="#facs_3_region_1779518057764_427_tl_13" n="N011"/>einnimmt. Die mögliche weitere Entwicklung eines so genialen
+         <lb facs="#facs_3_region_1779518057764_427_tl_14" n="N012"/>Künstlers ist freilich unbestimmbar; uns sind blos Wahr
+         <lb facs="#facs_3_region_1779518057764_427_tl_15" n="N013" break="no"/>scheinlichkeitsschlüsse gestattet auf Grund des thatsächlich Vor
+         <lb facs="#facs_3_region_1779518057764_427_tl_16" n="N014" break="no"/>liegenden. Und auf Grund der uns bekannten Opern und
+         <lb facs="#facs_3_region_1779518057764_427_tl_17" n="N015"/>Opernfragmente <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s möchten wir den Ausspruch nicht
+         <lb facs="#facs_3_region_1779518057764_427_tl_18" n="N016"/>wagen, daß <rs type="person" ref="#hsl_person_id_279">Schubert</rs> zum dramatischen Componisten geboren
+         <lb facs="#facs_3_region_1779518057764_427_tl_19" n="N017"/>war. Er besaß nur in geringem Grade, was den specifischen
+         <lb facs="#facs_3_region_1779518057764_427_tl_20" n="N018"/>Dramatiker macht: die Gabe, scharf zu individualisiren, seine
+         <lb facs="#facs_3_region_1779518057764_427_tl_21" n="N019"/>lyrische Subjectivität nach den verschiedenartigsten Situationen
+         <lb facs="#facs_3_region_1779518057764_427_tl_22" n="N020"/>und Charakteren der Oper zu modificiren. Er hätte in jeder
+         <lb facs="#facs_3_region_1779518057764_427_tl_23" n="N021"/>Oper Dramatisches gebracht, aber kein Drama. Diejenigen,
+         <lb facs="#facs_3_region_1779518057764_427_tl_24" n="N022"/>welche das Charakteristische und Leidenschaftliche in seinen
+         <lb facs="#facs_3_region_1779518057764_427_tl_25" n="N023"/>Liedern als Gegenbeweis anführen, verfallen einer allerdings
+         <lb facs="#facs_3_region_1779518057764_427_tl_26" n="N024"/>häufigen Täuschung. Was für Hoffnungen hat man nicht
+         <lb facs="#facs_3_region_1779518057764_427_tl_27" n="N025"/>auf eine Oper von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs></hi> und von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schu
+         <lb facs="#facs_3_region_1779518057764_427_tl_28" n="N026" break="no"/>mann</rs></hi> gesetzt! Ich glaube nicht, daß <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs> und
+         <lb facs="#facs_3_region_1779518057764_427_tl_29" n="N027"/><rs type="person" ref="#hsl_person_id_282">Schumann</rs> auch bei längerem Leben diese stolzen Hoffnungen
+         <lb facs="#facs_3_region_1779518057764_427_tl_30" n="N028"/>erfüllt hätten, denn sie waren ebensowenig eminent drama
+         <lb facs="#facs_3_region_1779518057764_427_tl_31" n="N029" break="no"/>tische Genies oder geborene Operncomponisten wie Franz
+         <lb facs="#facs_3_region_1779518057764_427_tl_32" n="N030"/><rs type="person" ref="#hsl_person_id_279">Schubert</rs>. Und dennoch hat unser Opern-Repertoire nicht
+         <lb facs="#facs_3_region_1779518057764_427_tl_33" n="N031"/><rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs> und nicht <rs type="person" ref="#hsl_person_id_282">Schumann</rs>, wol aber <rs type="person" ref="#hsl_person_id_279">Schubert</rs> eine
+         <lb facs="#facs_3_region_1779518057764_427_tl_34" n="N032"/>bleibende Bereicherung zu danken, ein kleines, unschätzbares
+         <lb facs="#facs_3_region_1779518057764_427_tl_35" n="N033"/>Juwel: das Singspiel „<rs type="bibl" ref="#hsl_work_id_1397">Der häusliche Krieg</rs>“! Hier, wo in
+         <lb facs="#facs_3_region_1779518057764_427_tl_36" n="N034"/>engem Rahmen nur Heiteres und Anmuthiges sich bewegt,
+         <lb facs="#facs_3_region_1779518057764_427_tl_37" n="N035"/>wo der leichte dramatische Conflict sich behaglich in eine
+         <lb facs="#facs_3_region_1779518057764_427_tl_38" n="N036"/>Perlenschnur von Liedern auflösen darf — hier konnte <rs type="person" ref="#hsl_person_id_279">Schu
+         <lb facs="#facs_3_line_1780037442605_766" n="N037" break="no"/>bert</rs>’s Genie auch auf der Bühne triumphiren. In eminentem
+         <lb facs="#facs_3_line_1780037438845_762" n="N038"/>Sinne „dramatisch“ ist auch die Musik zum „<rs type="bibl" ref="#hsl_work_id_1397">Häuslichen
+         <lb facs="#facs_3_region_1779518057764_427_tl_43" n="N039"/>Krieg</rs>“ nicht, aber sie ist es in hinreichendem Maße gerade<space quantity="1" unit="char"/></p>
             <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1779518057764_427_tl_2" n="N001"/>Epoche hinaus: in der Kunst der Instrumentirung. In
-               <lb facs="#facs_3_region_1779518057764_427_tl_3" n="N002"/>„<rs type="bibl">Alfonso und Estrella</rs>“ wirkt der Orchesterklang durch blü¬
-               <lb facs="#facs_3_region_1779518057764_427_tl_4" n="N003"/>hende Fülle und feine Charakteristik bezaubernd. Ueberhaupt
-               <lb facs="#facs_3_region_1779518057764_427_tl_5" n="N004"/>ist die Leichtigkeit und Sicherheit erstaunlich, mit welcher
-               <lb facs="#facs_3_line_1780037494723_805" n="N005"/>
-               <rs type="person">Schubert</rs> alles Technische beherrscht auf diesem schwie¬
-               <lb facs="#facs_3_region_1779518057764_427_tl_8" n="N006"/>rigen, ungewohnten Gebiete. Darum liegt es auch, wie nur
-               <lb facs="#facs_3_region_1779518057764_427_tl_9" n="N007"/>vorkommt, nicht an technischer Ungeübtheit, sondern an einer
-               <lb facs="#facs_3_region_1779518057764_427_tl_10" n="N008"/>Grenze seiner so reichen und vielseitigen Begabung, daß
-               <lb facs="#facs_3_region_1779518057764_427_tl_11" n="N009"/>
-               <rs type="person">Schubert</rs> in der Oper nicht jene Höhe erreicht hat und er¬
-               <lb facs="#facs_3_region_1779518057764_427_tl_12" n="N010"/>reichen konnte, die er als Lieder- und Instrumental-Componist
-               <lb facs="#facs_3_region_1779518057764_427_tl_13" n="N011"/>einnimmt. Die mögliche weitere Entwicklung eines so genialen
-               <lb facs="#facs_3_region_1779518057764_427_tl_14" n="N012"/>Künstlers ist freilich unbestimmbar; uns sind blos Wahr¬
-               <lb facs="#facs_3_region_1779518057764_427_tl_15" n="N013"/>scheinlichkeitsschlüsse gestattet auf Grund des thatsächlich Vor¬
-               <lb facs="#facs_3_region_1779518057764_427_tl_16" n="N014"/>liegenden. Und auf Grund der uns bekannten Opern und
-               <lb facs="#facs_3_region_1779518057764_427_tl_17" n="N015"/>Opernfragmente <rs type="person">Schubert</rs>'s möchten wir den Ausspruch nicht
-               <lb facs="#facs_3_region_1779518057764_427_tl_18" n="N016"/>wagen, daß <rs type="person">Schubert</rs> zum dramatischen Componisten geboren
-               <lb facs="#facs_3_region_1779518057764_427_tl_19" n="N017"/>war. Er besaß nur in geringem Grade, was den specifischen
-               <lb facs="#facs_3_region_1779518057764_427_tl_20" n="N018"/>Dramatiker macht: die Gabe, scharf zu individualisiren, seine
-               <lb facs="#facs_3_region_1779518057764_427_tl_21" n="N019"/>lyrische Subjectivität nach den verschiedenartigsten Situationen
-               <lb facs="#facs_3_region_1779518057764_427_tl_22" n="N020"/>und Charakteren der Oper zu modificiren. Er hätte in jeder
-               <lb facs="#facs_3_region_1779518057764_427_tl_23" n="N021"/>Oper Dramatisches gebracht, aber kein Drama. Diejenigen,
-               <lb facs="#facs_3_region_1779518057764_427_tl_24" n="N022"/>welche das Charakteristische und Leidenschaftliche in seinen
-               <lb facs="#facs_3_region_1779518057764_427_tl_25" n="N023"/>Liedern als Gegenbeweis anführen, verfallen einer allerdings
-               <lb facs="#facs_3_region_1779518057764_427_tl_26" n="N024"/>häufigen Täuschung. Was für Hoffnungen hat man nicht
-               <lb facs="#facs_3_region_1779518057764_427_tl_27" n="N025"/>auf eine Oper von <hi rendition="#em">
-                  <rs type="person">Mendelssohn</rs>
-               </hi> und von <hi rendition="#em">
-                  <rs type="person" continued="true">Schu¬</rs>
-               </hi>
-               <lb facs="#facs_3_region_1779518057764_427_tl_28" n="N026"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">mann</rs>
-               </hi> gesetzt! Ich glaube nicht, daß <rs type="person">Mendelssohn</rs> und
-               <lb facs="#facs_3_region_1779518057764_427_tl_29" n="N027"/>
-               <rs type="person">Schumann</rs> auch bei längerem Leben diese stolzen Hoffnungen
-               <lb facs="#facs_3_region_1779518057764_427_tl_30" n="N028"/>erfüllt hätten, denn sie waren ebensowenig eminent drama¬
-               <lb facs="#facs_3_region_1779518057764_427_tl_31" n="N029"/>tische Genies oder geborene Operncomponisten wie Franz
-               <lb facs="#facs_3_region_1779518057764_427_tl_32" n="N030"/>
-               <rs type="person">Schubert</rs>. Und dennoch hat unser Opern-Repertoire nicht
-               <lb facs="#facs_3_region_1779518057764_427_tl_33" n="N031"/>
-               <rs type="person">Mendelssohn</rs> und nicht <rs type="person">Schumann</rs>, wol aber <rs type="person">Schubert</rs> eine
-               <lb facs="#facs_3_region_1779518057764_427_tl_34" n="N032"/>bleibende Bereicherung zu danken, ein kleines, unschätzbares
-               <lb facs="#facs_3_region_1779518057764_427_tl_35" n="N033"/>Juwel: das Singspiel „<rs type="bibl">Der häusliche Krieg</rs>“! Hier, wo in
-               <lb facs="#facs_3_region_1779518057764_427_tl_36" n="N034"/>engem Rahmen nur Heiteres und Anmuthiges sich bewegt,
-               <lb facs="#facs_3_region_1779518057764_427_tl_37" n="N035"/>wo der leichte dramatische Conflict sich behaglich in eine
-               <lb facs="#facs_3_region_1779518057764_427_tl_38" n="N036"/>Perlenschnur von Liedern auflösen darf — hier konnte <rs type="person" continued="true">Schu¬</rs>
-               <lb facs="#facs_3_line_1780037442605_766" n="N037"/>
-               <rs type="person" continued="true">bert</rs>'s Genie auch auf der Bühne triumphiren. In eminentem
-               <lb facs="#facs_3_line_1780037438845_762" n="N038"/>Sinne „dramatisch“ ist auch die Musik zum „<rs type="bibl">Häuslichen</rs>
-               <lb facs="#facs_3_region_1779518057764_427_tl_43" n="N039"/>
-               <rs type="bibl">Krieg</rs>“ nicht, aber sie ist es in hinreichendem Maße gerade
-            </p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1779518061733_430_tl_2" n="N001"/>für diese Handlung. Dieses kleine Singspiel mit seinen gol¬
-               <lb facs="#facs_3_region_1779518061733_430_tl_3" n="N002"/>denen Liedersagen und seiner goldenen Anspruchslosigkeit ist
-               <lb facs="#facs_3_region_1779518061733_430_tl_4" n="N003"/>mehr werth, als alle großen Opern und Opernfragmente
-               <lb facs="#facs_3_region_1779518061733_430_tl_5" n="N004"/>
-               <rs type="person">Schubert</rs>'s zusammengenommen.
-               <lb facs="#facs_3_region_1779518061733_430_tl_6" n="N005"/>Bemerkenswerth ist, daß drei der besten, in der <rs type="place">Wien</rs>er
-               <lb facs="#facs_3_region_1779518061733_430_tl_7" n="N006"/>Aufführung effectvollsten Nummern gar nicht „<rs type="bibl">Alfonso und</rs>
-               <lb facs="#facs_3_region_1779518061733_430_tl_8" n="N007"/>
-               <rs type="bibl">Estrella</rs>“ angehören, sondern aus anderen <rs type="person">Schubert</rs>'schen
-               <lb facs="#facs_3_region_1779518061733_430_tl_9" n="N008"/>Compositionen eingelegt sind: die reizende Balletmusik im
-               <lb facs="#facs_3_region_1779518061733_430_tl_10" n="N009"/>ersten Acte (aus „<rs type="bibl">Rosamunde</rs>“), der kriegerische Einzug
-               <lb facs="#facs_3_region_1779518061733_430_tl_11" n="N010"/>
-               <rs type="person">Adolfo</rs>'s (aus den vierhändigen Märschen, Es-dur 4/4),
-               <lb facs="#facs_3_region_1779518061733_430_tl_12" n="N011"/>endlich die wenigstens in ihrem ersten D-moll-Satze vor¬
-               <lb facs="#facs_3_region_1779518061733_430_tl_13" n="N012"/>treffliche Sopran-Arie „Vor Angst und Qual“ (ursprünglich
-               <lb facs="#facs_3_region_1779518061733_430_tl_14" n="N013"/>als Einlage in <hi rendition="#em">
-                  <rs type="person">Hérold</rs>'s</hi> „<rs type="bibl">Zauberglöckchen</rs>“ geschrieben).
-               <lb facs="#facs_3_region_1779518061733_430_tl_15" n="N014"/>Diese wirksamen Einlagen sind eine glückliche Idee des Herrn
-               <lb facs="#facs_3_region_1779518061733_430_tl_16" n="N015"/>Capellmeisters J. N. <hi rendition="#em">
-                  <rs type="person">Fuchs</rs>
-               </hi>, der außerdem alles Erdenk¬
-               <lb facs="#facs_3_region_1779518061733_430_tl_17" n="N016"/>liche gethan hat, um „<rs type="bibl">Alfonso und Estrella</rs>“ lebensfähig zu
-               <lb facs="#facs_3_region_1779518061733_430_tl_18" n="N017"/>machen auf unseren modernen Theatern. Seiner geschickten
-               <lb facs="#facs_3_region_1779518061733_430_tl_19" n="N018"/>Bearbeitung hat die <rs type="person">Schubert</rs>'sche <rs type="bibl">Oper</rs> sicherlich den günstigen
-               <lb facs="#facs_3_region_1779518061733_430_tl_20" n="N019"/>Erfolg mit zu danken, welchen sie im Hofoperntheater er¬
-               <lb facs="#facs_3_region_1779518061733_430_tl_21" n="N020"/>rang und auf kleineren Opernbühnen noch zuverlässiger er¬
-               <lb facs="#facs_3_region_1779518061733_430_tl_22" n="N021"/>warten darf. Wenn auch eine sensationelle Wirkung von
-               <lb facs="#facs_3_region_1779518061733_430_tl_23" n="N022"/>dieser nun sechzigjährigen Oper nicht zu erwarten stand, so
-               <lb facs="#facs_3_region_1779518061733_430_tl_24" n="N023"/>mußte deren Bekanntschaft doch für jeden Musikfreund von
-               <lb facs="#facs_3_region_1779518061733_430_tl_25" n="N024"/>hohem Interesse sein. <hi rendition="#em">Franz <rs type="person">Schubert</rs>
-               </hi> ist der einzige
-               <lb facs="#facs_3_region_1779518061733_430_tl_26" n="N025"/>große classische Tondichter, der in <rs type="place">Wien</rs> das Licht der Welt
-               <lb facs="#facs_3_region_1779518061733_430_tl_27" n="N026"/>erblickt hat. Daß nun auch seine so lange heimatlos umher¬
-               <lb facs="#facs_3_region_1779518061733_430_tl_28" n="N027"/>irrende Oper hier endlich ans Licht gebracht wurde, gereicht
-               <lb facs="#facs_3_region_1779518061733_430_tl_29" n="N028"/>dem künstlerischen und patriotischen Pflichtgefühl unserer
-               <lb facs="#facs_3_region_1779518061733_430_tl_30" n="N029"/>Opern-Direction zur Ehre. Die von Herrn J. N. <hi rendition="#em">
-                  <rs type="person">Fuchs</rs>
-               </hi>
-               <lb facs="#facs_3_region_1779518061733_430_tl_31" n="N030"/>vortrefflich einstudirte Oper beschäftigt ein ausgezeichnetes
-               <lb facs="#facs_3_region_1779518061733_430_tl_32" n="N031"/>Sängerpersonal. Die Palme des Abends gebührt den beiden
-               <lb facs="#facs_3_region_1779518061733_430_tl_33" n="N032"/>unversehrt standhaften und unentbehrlichen „Ehrenmitgliedern“
-               <lb facs="#facs_3_region_1779518061733_430_tl_34" n="N033"/>
-               <hi rendition="#em">
-                  <rs type="person">Beck</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Walter</rs>
-               </hi>, neben denen Frau <hi rendition="#em">
-                  <rs type="person">Ehnn</rs>
-               </hi>, die Herren
-               <lb facs="#facs_3_region_1779518061733_430_tl_35" n="N034"/>
-               <hi rendition="#em">
-                  <rs type="person">Sommer</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Nawiasky</rs>
-               </hi> sich in Hauptpartien hervor¬
-               <lb facs="#facs_3_region_1779518061733_430_tl_36" n="N035"/>thaten, während Fräulein <hi rendition="#em">
-                  <rs type="person">Hauser</rs>
-               </hi> und Herr <hi rendition="#em">
-                  <rs type="person">Bogdany</rs>
-               </hi>
-               <lb facs="#facs_3_region_1779518061733_430_tl_37" n="N036"/>in kleineren Rollen wacker mithalfen. Die Darsteller der
-               <lb facs="#facs_3_region_1779518061733_430_tl_38" n="N037"/>Hauptrollen wurden von dem sehr zahlreichen und theil¬
-               <lb facs="#facs_3_region_1779518061733_430_tl_39" n="N038"/>nehmenden Publicum durch lebhaften Beifall ausgezeichnet
-               <lb facs="#facs_3_region_1779518061733_430_tl_40" n="N039"/>und nach jedem Acte wiederholt gerufen.
-            </p>
+            <p prev="true">
+         <lb facs="#facs_3_region_1779518061733_430_tl_2" n="N001"/>für diese Handlung. Dieses kleine Singspiel mit seinen gol
+         <lb facs="#facs_3_region_1779518061733_430_tl_3" n="N002" break="no"/>denen Liedersagen und seiner goldenen Anspruchslosigkeit ist
+         <lb facs="#facs_3_region_1779518061733_430_tl_4" n="N003"/>mehr werth, als alle großen Opern und Opernfragmente
+         <lb facs="#facs_3_region_1779518061733_430_tl_5" n="N004"/><rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s zusammengenommen.
+            </p><p>
+         <lb facs="#facs_3_region_1779518061733_430_tl_6" n="N005"/>Bemerkenswerth ist, daß drei der besten, in der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er
+         <lb facs="#facs_3_region_1779518061733_430_tl_7" n="N006"/>Aufführung effectvollsten Nummern gar nicht „<rs type="bibl" ref="#hsl_work_id_16">Alfonso und
+         <lb facs="#facs_3_region_1779518061733_430_tl_8" n="N007"/>Estrella</rs>“ angehören, sondern aus anderen <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’schen
+         <lb facs="#facs_3_region_1779518061733_430_tl_9" n="N008"/>Compositionen eingelegt sind: die reizende Balletmusik im
+         <lb facs="#facs_3_region_1779518061733_430_tl_10" n="N009"/>ersten Acte (aus „<rs type="bibl" ref="#hsl_work_id_696">Rosamunde</rs>“), der kriegerische Einzug
+         <lb facs="#facs_3_region_1779518061733_430_tl_11" n="N010"/><rs type="person" ref="#hsl_person_id_9000">Adolfo</rs>’s (aus den vierhändigen Märschen, Es-dur 4/4),
+         <lb facs="#facs_3_region_1779518061733_430_tl_12" n="N011"/>endlich die wenigstens in ihrem ersten D-moll-Satze vor
+         <lb facs="#facs_3_region_1779518061733_430_tl_13" n="N012" break="no"/>treffliche Sopran-Arie „Vor Angst und Qual“ (ursprünglich
+         <lb facs="#facs_3_region_1779518061733_430_tl_14" n="N013"/>als Einlage in <hi rendition="#em"><rs type="person" ref="#hsl_person_id_122">Hérold</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_3125">Zauberglöckchen</rs>“ geschrieben).
+         <lb facs="#facs_3_region_1779518061733_430_tl_15" n="N014"/>Diese wirksamen Einlagen sind eine glückliche Idee des Herrn
+         <lb facs="#facs_3_region_1779518061733_430_tl_16" n="N015"/>Capellmeisters J. N. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2405">Fuchs</rs></hi>, der außerdem alles Erdenk
+         <lb facs="#facs_3_region_1779518061733_430_tl_17" n="N016" break="no"/>liche gethan hat, um „<rs type="bibl" ref="#hsl_work_id_16">Alfonso und Estrella</rs>“ lebensfähig zu
+         <lb facs="#facs_3_region_1779518061733_430_tl_18" n="N017"/>machen auf unseren modernen Theatern. Seiner geschickten
+         <lb facs="#facs_3_region_1779518061733_430_tl_19" n="N018"/>Bearbeitung hat die <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’sche <rs type="bibl" ref="#hsl_work_id_16">Oper</rs> sicherlich den günstigen
+         <lb facs="#facs_3_region_1779518061733_430_tl_20" n="N019"/>Erfolg mit zu danken, welchen sie im Hofoperntheater er
+         <lb facs="#facs_3_region_1779518061733_430_tl_21" n="N020" break="no"/>rang und auf kleineren Opernbühnen noch zuverlässiger er
+         <lb facs="#facs_3_region_1779518061733_430_tl_22" n="N021" break="no"/>warten darf. Wenn auch eine sensationelle Wirkung von
+         <lb facs="#facs_3_region_1779518061733_430_tl_23" n="N022"/>dieser nun sechzigjährigen Oper nicht zu erwarten stand, so
+         <lb facs="#facs_3_region_1779518061733_430_tl_24" n="N023"/>mußte deren Bekanntschaft doch für jeden Musikfreund von
+         <lb facs="#facs_3_region_1779518061733_430_tl_25" n="N024"/>hohem Interesse sein. <hi rendition="#em">Franz <rs type="person" ref="#hsl_person_id_279">Schubert</rs></hi> ist der einzige
+         <lb facs="#facs_3_region_1779518061733_430_tl_26" n="N025"/>große classische Tondichter, der in <rs type="place" ref="#hsl_place_id_55">Wien</rs> das Licht der Welt
+         <lb facs="#facs_3_region_1779518061733_430_tl_27" n="N026"/>erblickt hat. Daß nun auch seine so lange heimatlos umher
+         <lb facs="#facs_3_region_1779518061733_430_tl_28" n="N027" break="no"/>irrende Oper hier endlich ans Licht gebracht wurde, gereicht
+         <lb facs="#facs_3_region_1779518061733_430_tl_29" n="N028"/>dem künstlerischen und patriotischen Pflichtgefühl unserer
+         <lb facs="#facs_3_region_1779518061733_430_tl_30" n="N029"/>Opern-Direction zur Ehre. Die von Herrn J. N. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2405">Fuchs</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1779518061733_430_tl_31" n="N030"/>vortrefflich einstudirte Oper beschäftigt ein ausgezeichnetes
+         <lb facs="#facs_3_region_1779518061733_430_tl_32" n="N031"/>Sängerpersonal. Die Palme des Abends gebührt den beiden
+         <lb facs="#facs_3_region_1779518061733_430_tl_33" n="N032"/>unversehrt standhaften und unentbehrlichen „Ehrenmitgliedern“
+         <lb facs="#facs_3_region_1779518061733_430_tl_34" n="N033"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_320">Walter</rs></hi>, neben denen Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4123">Ehnn</rs></hi>, die Herren
+         <lb facs="#facs_3_region_1779518061733_430_tl_35" n="N034"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_4587">Sommer</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3573">Nawiasky</rs></hi> sich in Hauptpartien hervor
+         <lb facs="#facs_3_region_1779518061733_430_tl_36" n="N035" break="no"/>thaten, während Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4575">Hauser</rs></hi> und Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9001">Bogdany</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1779518061733_430_tl_37" n="N036"/>in kleineren Rollen wacker mithalfen. Die Darsteller der
+         <lb facs="#facs_3_region_1779518061733_430_tl_38" n="N037"/>Hauptrollen wurden von dem sehr zahlreichen und theil
+         <lb facs="#facs_3_region_1779518061733_430_tl_39" n="N038" break="no"/>nehmenden Publicum durch lebhaften Beifall ausgezeichnet
+         <lb facs="#facs_3_region_1779518061733_430_tl_40" n="N039"/>und nach jedem Acte wiederholt gerufen.</p>
          </div>
       </body>
    </text>

@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 6552. Wien, Dienstag, den 21. November 1882</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +70,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 6552. Wien, Dienstag, den 21. November 1882</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1882-11-21">21.11.1882</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18821121"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-06-18">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-06-19">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-07-01">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1117,418 +1117,343 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1779518771335_916_tl_1" n="N001"/><head type="h1">„<rs type="bibl" ref="#hsl_work_id_5509">Simon Boccanegra</rs>“ von <rs type="person" ref="#hsl_person_id_312">Verdi</rs>.</head>
+            <lb facs="#facs_1_region_1779518771335_916_tl_2" n="N002"/><head type="h2">(Erste Aufführung im Hofoperntheater am 18. November <date>1882</date>.)</head>
             <p>
-               <lb facs="#facs_1_line_1780728055667_820" n="N001"/>Nr. 6552. Wien, Dienstag, den 21. November 1882
-            </p>
+         <lb facs="#facs_1_region_1779518771335_916_tl_3" n="N003"/>Ed. H. Die meisten der Zuhörer dürften sich gefragt
+         <lb facs="#facs_1_region_1779518771335_916_tl_4" n="N004"/>haben, was denn historisch wahr sei an diesem Dogen <rs type="person" ref="#hsl_person_id_9044">Bocca
+         <lb facs="#facs_1_region_1779518771335_916_tl_5" n="N005" break="no"/>negra</rs> und der wirren Handlung, die sich um ihn anhäuft
+         <lb facs="#facs_1_region_1779518771335_916_tl_6" n="N006"/>in der <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’schen <rs type="bibl" ref="#hsl_work_id_5509">Oper</rs>. In den gangbarsten Hilfs- und
+         <lb facs="#facs_1_region_1779518771335_916_tl_7" n="N007"/>Handbüchern werden sie den Namen nicht finden; wir wollen
+         <lb facs="#facs_1_region_1779518771335_916_tl_8" n="N008"/>ihnen die Mühe, der wir uns selbst unterzogen haben, er
+         <lb facs="#facs_1_region_1779518771335_916_tl_9" n="N009" break="no"/>sparen und aus älteren Specialgeschichten des mittelalterlichen
+         <lb facs="#facs_1_region_1779518771335_916_tl_10" n="N010"/><rs type="place" ref="#hsl_place_id_531">Genua</rs> das Wesentliche hier zusammenstellen. Die Handlung
+         <lb facs="#facs_1_region_1779518771335_916_tl_11" n="N011"/>entwickelt sich aus jenen stürmischen politischen Zuständen des
+         <lb facs="#facs_1_region_1779518771335_916_tl_12" n="N012"/>14. Jahrhunderts, da Bürgerkriege der Plebejer mit den
+         <lb facs="#facs_1_region_1779518771335_916_tl_13" n="N013"/>Adeligen die <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Freistaaten erschütterten und nament
+         <lb facs="#facs_1_region_1779518771335_916_tl_14" n="N014" break="no"/>lich <rs type="place" ref="#hsl_place_id_531">Genua</rs> (der Schauplatz unserer Oper) bald mit <rs type="place" ref="#hsl_place_id_89">Venedig</rs>,
+         <lb facs="#facs_1_region_1779518771335_916_tl_15" n="N015"/>bald mit <rs type="place" ref="#hsl_place_id_76">Pisa</rs>, <rs type="place" ref="#hsl_place_id_73">Mailand</rs> und anderen Nachbarstädten im
+         <lb facs="#facs_1_region_1779518771335_916_tl_16" n="N016"/>Kampfe lag. Unzufriedene <rs type="place" ref="#hsl_place_id_531">genuesisch</rs>e Matrosen, im Solde
+         <lb facs="#facs_1_region_1779518771335_916_tl_17" n="N017"/>von <rs type="person" ref="#hsl_person_id_9045">Philipp</rs> von Valois, empörten sich 1339 gegen ihren
+         <lb facs="#facs_1_region_1779518771335_916_tl_18" n="N018"/>Admiral <rs type="person" ref="#hsl_person_id_9051">Doria</rs>, der ihnen den Sold vorenthielt. Sie kehrten,
+         <lb facs="#facs_1_region_1779518771335_916_tl_19" n="N019"/>um Klage zu führen, nach <rs type="place" ref="#hsl_place_id_531">Genua</rs> zurück und fanden ihre
+         <lb facs="#facs_1_region_1779518771335_916_tl_20" n="N020"/>Mitbürger schon voll Erbitterung gegen die Fieschi, die
+         <lb facs="#facs_1_region_1779518771335_916_tl_21" n="N021"/>Dorias, die Spinolas und die Grimaldi. Seit achtzehn Jahren
+         <lb facs="#facs_1_region_1779518771335_916_tl_22" n="N022"/>erschütterten diese vier großen Häuser durch gegenseitige
+         <lb facs="#facs_1_region_1779518771335_916_tl_23" n="N023"/>Eifersucht den Freistaat, den sie einer erblichen Oligarchie
+         <lb facs="#facs_1_region_1779518771335_916_tl_24" n="N024"/>unterwerfen wollten. Zwei ghibellinische Hauptleute, ein
+         <lb facs="#facs_1_region_1779518771335_916_tl_25" n="N025"/><rs type="person" ref="#hsl_person_id_9054">Spinola</rs> und ein <rs type="person" ref="#hsl_person_id_9053">Doria</rs> beherrschten <rs type="place" ref="#hsl_place_id_531">Genua</rs>; sie hatten dem
+         <lb facs="#facs_1_region_1779518771335_916_tl_26" n="N026"/>Volke die Wahl seiner Abbés (Volksäbte) entrissen, ein
+         <lb facs="#facs_1_region_1779518771335_916_tl_27" n="N027"/>Magistrat, der, wie in <rs type="place" ref="#hsl_place_id_47">Rom</rs> die Tribunen, Schützer und
+         <lb facs="#facs_1_region_1779518771335_916_tl_28" n="N028"/>Vertheidiger des Volkes sein sollte. Die Unzufriedenen von
+         <lb facs="#facs_1_region_1779518771335_916_tl_29" n="N029"/><rs type="place" ref="#hsl_place_id_531">Genua</rs> forderten Rückgabe dieses Rechtes. Zwanzig von ihren
+         <lb facs="#facs_1_region_1779518771335_916_tl_30" n="N030"/>Mitbürgern gewählte Plebejer versammelten sich am 23. Sep
+         <lb facs="#facs_1_region_1779518771335_916_tl_31" n="N031" break="no"/>tember <date>1329</date> in der Prätur, da rief einer aus dem Haufen,
+         <lb facs="#facs_1_region_1779518771335_916_tl_32" n="N032"/>ein Silberfolien-Fabrikant: „Wählt den <rs type="person" ref="#hsl_person_id_9044">Boccanegra</rs>!“
+         <lb facs="#facs_1_region_1779518771335_916_tl_33" n="N033"/>(<rs type="place" ref="#hsl_place_id_28">Italienisch</rs>e Historiker schreiben den Namen theils „<rs type="person" ref="#hsl_person_id_9044">Bocca
+         <lb facs="#facs_1_region_1779518771335_916_tl_34" n="N034" break="no"/>nigra</rs>“, theils „<rs type="person" ref="#hsl_person_id_9044">Boccanera</rs>“; wir bleiben hier bequemlichkeits
+         <lb facs="#facs_1_region_1779518771335_916_tl_35" n="N035" break="no"/>halber bei der <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’schen Schreibart.) Simon <rs type="person" ref="#hsl_person_id_9044">Boccanegra</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518771335_916_tl_36" n="N036"/>wird als ein muthiger und erfahrener Mann geschildert, der,<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1779518771335_916_tl_1" n="N001"/>„<rs type="bibl">Simon Boccanegra</rs>“ von <rs type="person">Verdi</rs>.
-               <lb facs="#facs_1_region_1779518771335_916_tl_2" n="N002"/>(Erste Aufführung im Hofoperntheater am 18. November <date month="0" day="0" year="0">1882</date>.)
-               <lb facs="#facs_1_region_1779518771335_916_tl_3" n="N003"/>Ed. H. Die meisten der Zuhörer dürften sich gefragt
-               <lb facs="#facs_1_region_1779518771335_916_tl_4" n="N004"/>haben, was denn historisch wahr sei an diesem Dogen <rs type="person" continued="true">Bocca¬</rs>
-               <lb facs="#facs_1_region_1779518771335_916_tl_5" n="N005"/>
-               <rs type="person" continued="true">negra</rs> und der wirren Handlung, die sich um ihn anhäuft
-               <lb facs="#facs_1_region_1779518771335_916_tl_6" n="N006"/>in der <rs type="person">Verdi</rs>'schen <rs type="bibl">Oper</rs>. In den gangbarsten Hilfs- und
-               <lb facs="#facs_1_region_1779518771335_916_tl_7" n="N007"/>Handbüchern werden sie den Namen nicht finden; wir wollen
-               <lb facs="#facs_1_region_1779518771335_916_tl_8" n="N008"/>ihnen die Mühe, der wir uns selbst unterzogen haben, er¬
-               <lb facs="#facs_1_region_1779518771335_916_tl_9" n="N009"/>sparen und aus älteren Specialgeschichten des mittelalterlichen
-               <lb facs="#facs_1_region_1779518771335_916_tl_10" n="N010"/>
-               <rs type="place">Genua</rs> das Wesentliche hier zusammenstellen. Die Handlung
-               <lb facs="#facs_1_region_1779518771335_916_tl_11" n="N011"/>entwickelt sich aus jenen stürmischen politischen Zuständen des
-               <lb facs="#facs_1_region_1779518771335_916_tl_12" n="N012"/>14. Jahrhunderts, da Bürgerkriege der Plebejer mit den
-               <lb facs="#facs_1_region_1779518771335_916_tl_13" n="N013"/>Adeligen die <rs type="place">italienisch</rs>en Freistaaten erschütterten und nament¬
-               <lb facs="#facs_1_region_1779518771335_916_tl_14" n="N014"/>lich <rs type="place">Genua</rs> (der Schauplatz unserer Oper) bald mit <rs type="place">Venedig</rs>,
-               <lb facs="#facs_1_region_1779518771335_916_tl_15" n="N015"/>bald mit <rs type="place">Pisa</rs>, <rs type="place">Mailand</rs> und anderen Nachbarstädten im
-               <lb facs="#facs_1_region_1779518771335_916_tl_16" n="N016"/>Kampfe lag. Unzufriedene <rs type="place">genuesisch</rs>e Matrosen, im Solde
-               <lb facs="#facs_1_region_1779518771335_916_tl_17" n="N017"/>von <rs type="person">Philipp</rs> von <rs type="place">Valois</rs>, empörten sich 1339 gegen ihren
-               <lb facs="#facs_1_region_1779518771335_916_tl_18" n="N018"/>Admiral <rs type="person">Doria</rs>, der ihnen den Sold vorenthielt. Sie kehrten,
-               <lb facs="#facs_1_region_1779518771335_916_tl_19" n="N019"/>um Klage zu führen, nach <rs type="place">Genua</rs> zurück und fanden ihre
-               <lb facs="#facs_1_region_1779518771335_916_tl_20" n="N020"/>Mitbürger schon voll Erbitterung gegen die Fieschi, die
-               <lb facs="#facs_1_region_1779518771335_916_tl_21" n="N021"/>Dorias, die Spinolas und die Grimaldi. Seit achtzehn Jahren
-               <lb facs="#facs_1_region_1779518771335_916_tl_22" n="N022"/>erschütterten diese vier großen Häuser durch gegenseitige
-               <lb facs="#facs_1_region_1779518771335_916_tl_23" n="N023"/>Eifersucht den Freistaat, den sie einer erblichen Oligarchie
-               <lb facs="#facs_1_region_1779518771335_916_tl_24" n="N024"/>unterwerfen wollten. Zwei ghibellinische Hauptleute, ein
-               <lb facs="#facs_1_region_1779518771335_916_tl_25" n="N025"/>
-               <rs type="person">Spinola</rs> und ein <rs type="person">Doria</rs> beherrschten <rs type="place">Genua</rs>; sie hatten dem
-               <lb facs="#facs_1_region_1779518771335_916_tl_26" n="N026"/>Volke die Wahl seiner Abbés (Volksäbte) entrissen, ein
-               <lb facs="#facs_1_region_1779518771335_916_tl_27" n="N027"/>Magistrat, der, wie in <rs type="place">Rom</rs> die Tribunen, Schützer und
-               <lb facs="#facs_1_region_1779518771335_916_tl_28" n="N028"/>Vertheidiger des Volkes sein sollte. Die Unzufriedenen von
-               <lb facs="#facs_1_region_1779518771335_916_tl_29" n="N029"/>
-               <rs type="place">Genua</rs> forderten Rückgabe dieses Rechtes. Zwanzig von ihren
-               <lb facs="#facs_1_region_1779518771335_916_tl_30" n="N030"/>Mitbürgern gewählte Plebejer versammelten sich am 23. Sep¬
-               <lb facs="#facs_1_region_1779518771335_916_tl_31" n="N031"/>tember <date month="0" day="0" year="0">1329</date> in der Prätur, da rief einer aus dem Haufen,
-               <lb facs="#facs_1_region_1779518771335_916_tl_32" n="N032"/>ein Silberfolien-Fabrikant: „Wählt den <rs type="person">Boccanegra</rs>!“
-               <lb facs="#facs_1_region_1779518771335_916_tl_33" n="N033"/>(<rs type="place">Italienisch</rs>e Historiker schreiben den Namen theils „<rs type="person" continued="true">Bocca¬</rs>
-               <lb facs="#facs_1_region_1779518771335_916_tl_34" n="N034"/>
-               <rs type="person" continued="true">nigra</rs>“, theils „<rs type="person">Boccanera</rs>“; wir bleiben hier bequemlichkeits¬
-               <lb facs="#facs_1_region_1779518771335_916_tl_35" n="N035"/>halber bei der <rs type="person">Verdi</rs>'schen Schreibart.) Simon <rs type="person">Boccanegra</rs>
-               <lb facs="#facs_1_region_1779518771335_916_tl_36" n="N036"/>wird als ein muthiger und erfahrener Mann geschildert, der,
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1779518774239_919_tl_1" n="N001"/>obschon von altem Adel, immer die Plebejer beschützt hatte.
+         <lb facs="#facs_1_region_1779518774239_919_tl_2" n="N002"/>Man rief ihn jubelnd zum neuen Abbé aus; er lehnte jedoch
+         <lb facs="#facs_1_region_1779518774239_919_tl_3" n="N003"/>ab. Das Volk fühlte dann, daß der Titel Volksabbé nur
+         <lb facs="#facs_1_region_1779518774239_919_tl_4" n="N004"/>einem Plebejer zustehe und daß <rs type="person" ref="#hsl_person_id_9044">Boccanegra</rs> vermöge seines
+         <lb facs="#facs_1_region_1779518774239_919_tl_5" n="N005"/>Ranges eine so abstehende Magistratur nicht annehmen
+         <lb facs="#facs_1_region_1779518774239_919_tl_6" n="N006"/>könne. „Sei denn unser Fürst, unser Doge!“ rief die Menge,
+         <lb facs="#facs_1_region_1779518774239_919_tl_7" n="N007"/>und die Hauptmänner drangen in ihn, die Wahl anzu
+         <lb facs="#facs_1_region_1779518774239_919_tl_8" n="N008" break="no"/>nehmen. Da der zufällig ihm ertheilte Titel als Doge an
+         <lb facs="#facs_1_region_1779518774239_919_tl_9" n="N009"/>den Dogen von <rs type="place" ref="#hsl_place_id_89">Venedig</rs> erinnerte, das Haupt eines Frei
+         <lb facs="#facs_1_region_1779518774239_919_tl_10" n="N010" break="no"/>staates, der <rs type="place" ref="#hsl_place_id_531">Genua</rs> glich, so blieb die neue Verfassung, die
+         <lb facs="#facs_1_region_1779518774239_919_tl_11" n="N011"/>sozusagen inmitten des Volksgeschreies sich entwickelte, frei
+         <lb facs="#facs_1_region_1779518774239_919_tl_12" n="N012"/>und republikanisch. <rs type="person" ref="#hsl_person_id_9044">Boccanegra</rs> machte ruhmwürdigen Ge
+         <lb facs="#facs_1_region_1779518774239_919_tl_13" n="N013" break="no"/>brauch von der ihm anvertrauten Gewalt, die er durch fünf
+         <lb facs="#facs_1_region_1779518774239_919_tl_14" n="N014"/>Jahre behielt. Mit kraftvoller Hand zügelte er die Aus
+         <lb facs="#facs_1_region_1779518774239_919_tl_15" n="N015" break="no"/>schweifungen, denen sich anfangs das Volk überließ, er rettete
+         <lb facs="#facs_1_region_1779518774239_919_tl_16" n="N016"/>aus den Händen der Aufrührer seinen persönlichen Feind, den
+         <lb facs="#facs_1_region_1779518774239_919_tl_17" n="N017"/>Guelfen Rebella <rs type="person" ref="#hsl_person_id_9052">Grimaldi</rs>, und unterwarf der Republik
+         <lb facs="#facs_1_region_1779518774239_919_tl_18" n="N018"/>alle Schlösser und Burgen auf beiden <rs type="place" ref="#hsl_place_id_1484 #hsl_place_id_1483">Rivieren</rs>. Indessen
+         <lb facs="#facs_1_region_1779518774239_919_tl_19" n="N019"/>hatte <rs type="person" ref="#hsl_person_id_9044">Boccanegra</rs> immerfort gegen die Umtriebe der
+         <lb facs="#facs_1_region_1779518774239_919_tl_20" n="N020"/>vier mächtigen Familien, die er von der Regierung ausge
+         <lb facs="#facs_1_region_1779518774239_919_tl_21" n="N021" break="no"/>schlossen hatte, zu kämpfen. Sie verbündeten sich gegen ihn,
+         <lb facs="#facs_1_region_1779518774239_919_tl_22" n="N022"/>und <rs type="person" ref="#hsl_person_id_9044">Boccanegra</rs>, dieses Kampfes endlich müde, legte seine
+         <lb facs="#facs_1_region_1779518774239_919_tl_23" n="N023"/>Stelle nieder und ging nach <rs type="place" ref="#hsl_place_id_76">Pisa</rs>. In einer der stürmischesten
+         <lb facs="#facs_1_region_1779518774239_919_tl_24" n="N024"/>Epochen <rs type="place" ref="#hsl_place_id_531">Genua</rs>s, abermals aus einem bewaffneten Volksauf
+         <lb facs="#facs_1_region_1779518774239_919_tl_25" n="N025" break="no"/>stand, erfolgte im November <date>1353</date> zum zweitenmal die Wahl
+         <lb facs="#facs_1_region_1779518774239_919_tl_26" n="N026"/><rs type="person" ref="#hsl_person_id_9044">Boccanegra</rs>’s zum Dogen. Er verbannte sofort einige der
+         <lb facs="#facs_1_region_1779518774239_919_tl_27" n="N027"/>wichtigsten Edelleute und ließ nur den Plebejern Antheil an
+         <lb facs="#facs_1_region_1779518774239_919_tl_28" n="N028"/>der Stadtregierung. Während der Anwesenheit des Königs
+         <lb facs="#facs_1_region_1779518774239_919_tl_29" n="N029"/><rs type="person" ref="#hsl_person_id_9046">Peter</rs> von <rs type="place" ref="#hsl_place_id_1482">Cypern</rs> in <rs type="place" ref="#hsl_place_id_531">Genua</rs> (<date>1363</date>) ward der <rs type="person" ref="#hsl_person_id_9044">Doge</rs>, als
+         <lb facs="#facs_1_region_1779518774239_919_tl_30" n="N030"/>er mit dem <rs type="person" ref="#hsl_person_id_9046">König</rs> bei Pietro da <rs type="person" ref="#hsl_person_id_9057">Malacelli</rs> speiste, vergiftet
+         <lb facs="#facs_1_region_1779518774239_919_tl_31" n="N031"/>und erkrankte. Nun erhob sich die Gegenpartei, drang in den
+         <lb facs="#facs_1_region_1779518774239_919_tl_32" n="N032"/>Dogenpalast und ließ den Gabriele <rs type="person" ref="#hsl_person_id_9047">Adorno</rs>, einen reichen
+         <lb facs="#facs_1_region_1779518774239_919_tl_33" n="N033"/>Kaufmann, zum Dogen erwählen. Bald darauf starb <rs type="person" ref="#hsl_person_id_9044">Bocca
+         <lb facs="#facs_1_region_1779518774239_919_tl_34" n="N034" break="no"/>negra</rs> und ward, da ihn die herrschende Partei des <rs type="person" ref="#hsl_person_id_9047">Adorno</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518774239_919_tl_35" n="N035"/>haßte, fast ohne alle Begleitung begraben.
+            </p><p>
+         <lb facs="#facs_1_region_1779518774239_919_tl_36" n="N036"/><rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s Textdichter, <rs type="person" ref="#hsl_person_id_2072">Piave</rs>, hat nur einige Hauptumrisse
+         <lb facs="#facs_1_region_1779518774239_919_tl_37" n="N037"/>der historischen Gestalt <rs type="person" ref="#hsl_person_id_9044">Boccanegra</rs>’s beibehalten (seine Er
+         <lb facs="#facs_1_region_1779518774239_919_tl_38" n="N038" break="no"/>wählung durch das Volk und spätere Vergiftung), im
+         <lb facs="#facs_1_region_1779518774239_919_tl_39" n="N039"/>Uebrigen aber eine ganz willkürliche Romanfigur daraus ge</p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1779518774239_919_tl_1" n="N001"/>obschon von altem Adel, immer die Plebejer beschützt hatte.
-               <lb facs="#facs_1_region_1779518774239_919_tl_2" n="N002"/>Man rief ihn jubelnd zum neuen Abbé aus; er lehnte jedoch
-               <lb facs="#facs_1_region_1779518774239_919_tl_3" n="N003"/>ab. Das Volk fühlte dann, daß der Titel Volksabbé nur
-               <lb facs="#facs_1_region_1779518774239_919_tl_4" n="N004"/>einem Plebejer zustehe und daß <rs type="person">Boccanegra</rs> vermöge seines
-               <lb facs="#facs_1_region_1779518774239_919_tl_5" n="N005"/>Ranges eine so abstehende Magistratur nicht annehmen
-               <lb facs="#facs_1_region_1779518774239_919_tl_6" n="N006"/>könne. „Sei denn unser Fürst, unser Doge!“ rief die Menge,
-               <lb facs="#facs_1_region_1779518774239_919_tl_7" n="N007"/>und die Hauptmänner drangen in ihn, die Wahl anzu¬
-               <lb facs="#facs_1_region_1779518774239_919_tl_8" n="N008"/>nehmen. Da der zufällig ihm ertheilte Titel als Doge an
-               <lb facs="#facs_1_region_1779518774239_919_tl_9" n="N009"/>den Dogen von <rs type="place">Venedig</rs> erinnerte, das Haupt eines Frei¬
-               <lb facs="#facs_1_region_1779518774239_919_tl_10" n="N010"/>staates, der <rs type="place">Genua</rs> glich, so blieb die neue Verfassung, die
-               <lb facs="#facs_1_region_1779518774239_919_tl_11" n="N011"/>sozusagen inmitten des Volksgeschreies sich entwickelte, frei
-               <lb facs="#facs_1_region_1779518774239_919_tl_12" n="N012"/>und republikanisch. <rs type="person">Boccanegra</rs> machte ruhmwürdigen Ge¬
-               <lb facs="#facs_1_region_1779518774239_919_tl_13" n="N013"/>brauch von der ihm anvertrauten Gewalt, die er durch fünf
-               <lb facs="#facs_1_region_1779518774239_919_tl_14" n="N014"/>Jahre behielt. Mit kraftvoller Hand zügelte er die Aus¬
-               <lb facs="#facs_1_region_1779518774239_919_tl_15" n="N015"/>schweifungen, denen sich anfangs das Volk überließ, er rettete
-               <lb facs="#facs_1_region_1779518774239_919_tl_16" n="N016"/>aus den Händen der Aufrührer seinen persönlichen Feind, den
-               <lb facs="#facs_1_region_1779518774239_919_tl_17" n="N017"/>Guelfen Rebella <rs type="person">Grimaldi</rs>, und unterwarf der Republik
-               <lb facs="#facs_1_region_1779518774239_919_tl_18" n="N018"/>alle Schlösser und Burgen auf beiden <rs type="place">Rivieren</rs>. Indessen
-               <lb facs="#facs_1_region_1779518774239_919_tl_19" n="N019"/>hatte <rs type="person">Boccanegra</rs> immerfort gegen die Umtriebe der
-               <lb facs="#facs_1_region_1779518774239_919_tl_20" n="N020"/>vier mächtigen Familien, die er von der Regierung ausge¬
-               <lb facs="#facs_1_region_1779518774239_919_tl_21" n="N021"/>schlossen hatte, zu kämpfen. Sie verbündeten sich gegen ihn,
-               <lb facs="#facs_1_region_1779518774239_919_tl_22" n="N022"/>und <rs type="person">Boccanegra</rs>, dieses Kampfes endlich müde, legte seine
-               <lb facs="#facs_1_region_1779518774239_919_tl_23" n="N023"/>Stelle nieder und ging nach <rs type="place">Pisa</rs>. In einer der stürmischesten
-               <lb facs="#facs_1_region_1779518774239_919_tl_24" n="N024"/>Epochen <rs type="place">Genua</rs>s, abermals aus einem bewaffneten Volksauf¬
-               <lb facs="#facs_1_region_1779518774239_919_tl_25" n="N025"/>stand, erfolgte im November <date month="0" day="0" year="0">1353</date> zum zweitenmal die Wahl
-               <lb facs="#facs_1_region_1779518774239_919_tl_26" n="N026"/>
-               <rs type="person">Boccanegra</rs>'s zum Dogen. Er verbannte sofort einige der
-               <lb facs="#facs_1_region_1779518774239_919_tl_27" n="N027"/>wichtigsten Edelleute und ließ nur den Plebejern Antheil an
-               <lb facs="#facs_1_region_1779518774239_919_tl_28" n="N028"/>der Stadtregierung. Während der Anwesenheit des Königs
-               <lb facs="#facs_1_region_1779518774239_919_tl_29" n="N029"/>
-               <rs type="person">Peter</rs> von <rs type="place">Cypern</rs> in <rs type="place">Genua</rs> (<date month="0" day="0" year="0">1363</date>) ward der Doge, als
-               <lb facs="#facs_1_region_1779518774239_919_tl_30" n="N030"/>er mit dem <rs type="person">König</rs> bei Pietro da <rs type="person">Malacelli</rs> speiste, vergiftet
-               <lb facs="#facs_1_region_1779518774239_919_tl_31" n="N031"/>und erkrankte. Nun erhob sich die Gegenpartei, drang in den
-               <lb facs="#facs_1_region_1779518774239_919_tl_32" n="N032"/>Dogenpalast und ließ den Gabriele <rs type="person">Adorno</rs>, einen reichen
-               <lb facs="#facs_1_region_1779518774239_919_tl_33" n="N033"/>Kaufmann, zum Dogen erwählen. Bald darauf starb <rs type="person" continued="true">Bocca¬</rs>
-               <lb facs="#facs_1_region_1779518774239_919_tl_34" n="N034"/>
-               <rs type="person" continued="true">negra</rs> und ward, da ihn die herrschende Partei des <rs type="person">Adorno</rs>
-               <lb facs="#facs_1_region_1779518774239_919_tl_35" n="N035"/>haßte, fast ohne alle Begleitung begraben.
-               <lb facs="#facs_1_region_1779518774239_919_tl_36" n="N036"/>
-               <rs type="person">Verdi</rs>'s Textdichter, <rs type="person">Piave</rs>, hat nur einige Hauptumrisse
-               <lb facs="#facs_1_region_1779518774239_919_tl_37" n="N037"/>der historischen Gestalt <rs type="person">Boccanegra</rs>'s beibehalten (seine Er¬
-               <lb facs="#facs_1_region_1779518774239_919_tl_38" n="N038"/>wählung durch das Volk und spätere Vergiftung), im
-               <lb facs="#facs_1_region_1779518774239_919_tl_39" n="N039"/>Uebrigen aber eine ganz willkürliche Romanfigur daraus ge¬
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1779518777134_922_tl_1" n="N001"/>macht.*) Von anderen historischen Personen nimmt der
-               <lb facs="#facs_1_region_1779518777134_922_tl_2" n="N002"/>Librettist lediglich den Namen und schmückt damit irgend eine
-               <lb facs="#facs_1_region_1779518777134_922_tl_3" n="N003"/>ganz frei erfundene Figur. Den nachmaligen Dogen <rs type="person">Adorno</rs>
-               <lb facs="#facs_1_region_1779518777134_922_tl_4" n="N004"/>macht er zum heißblütigen Liebhaber-Tenor, den „Gold¬
-               <lb facs="#facs_1_region_1779518777134_922_tl_5" n="N005"/>spinner <rs type="person">Paolo</rs>“, der im Vorspiele die Wahl <rs type="person">Boccanegra</rs>'s
-               <lb facs="#facs_1_region_1779518777134_922_tl_6" n="N006"/>beantragt, zum Intriganten und Bösewicht der Handlung.
-               <lb facs="#facs_1_region_1779518777134_922_tl_7" n="N007"/>Einzelne historische Namen (<rs type="person">Grimaldi</rs>, <rs type="person">Fieschi</rs> etc.) fliegen als
-               <lb facs="#facs_1_region_1779518777134_922_tl_8" n="N008"/>prahlerischer Flitter fortwährend durch den Text; sogar von
-               <lb facs="#facs_1_region_1779518777134_922_tl_9" n="N009"/>
-               <rs type="person">Petrarca</rs> wird ein zum Frieden mahnender Brief in der
-               <lb facs="#facs_1_region_1779518777134_922_tl_10" n="N010"/>Rathsversammlung vorgezeigt und von <rs type="person">Paolo</rs> verhöhnt. Die
-               <lb facs="#facs_1_region_1779518777134_922_tl_11" n="N011"/>freie Benützung geschichtlicher Thatsachen, insbesondere so
-               <lb facs="#facs_1_region_1779518777134_922_tl_12" n="N012"/>dunkler, fernliegender Thatsachen wird Niemand dem Libret¬
-               <lb facs="#facs_1_region_1779518777134_922_tl_13" n="N013"/>tisten verargen, wenn er es nur versteht, eine spannende zu¬
-               <lb facs="#facs_1_region_1779518777134_922_tl_14" n="N014"/>sammenhängende Handlung daraus zu gewinnen, und lebendige
-               <lb facs="#facs_1_region_1779518777134_922_tl_15" n="N015"/>Charaktere, die unser Interesse erregen. <rs type="person">Piave</rs> erzielt leider
-               <lb facs="#facs_1_region_1779518777134_922_tl_16" n="N016"/>das gerade Gegentheil.
-               <lb facs="#facs_1_region_1779518777134_922_tl_17" n="N017"/>
-               <rs type="person">Boccanegra</rs> kommt im Vorspiele als junger Mann nach
-               <lb facs="#facs_1_region_1779518777134_922_tl_18" n="N018"/>
-               <rs type="place">Genua</rs>, um seine Geliebte, die <rs type="person">Tochter</rs> des stolzen Patriziers
-               <lb facs="#facs_1_region_1779518777134_922_tl_19" n="N019"/>
-               <rs type="person">Fiesco</rs>, wiederzusehen — er findet sie als Leiche. Der erste
-               <lb facs="#facs_1_region_1779518777134_922_tl_20" n="N020"/>Act spielt fünfundzwanzig Jahre später. <rs type="person">Boccanegra</rs>'s <rs type="person">Tochter</rs>,
-               <lb facs="#facs_1_region_1779518777134_922_tl_21" n="N021"/>die Enkelin <rs type="person">Fiesco</rs>'s, von Beiden längst todtgeglaubt, ist als
-               <lb facs="#facs_1_region_1779518777134_922_tl_22" n="N022"/>Kind, Gott weiß wie, in <rs type="place">Pisa</rs> gerettet worden und lebt unter
-               <lb facs="#facs_1_region_1779518777134_922_tl_23" n="N023"/>dem Namen Amelia <rs type="person">Grimaldi</rs> bei <rs type="place">Genua</rs>. Sie liebt einen
-               <lb facs="#facs_1_region_1779518777134_922_tl_24" n="N024"/>jungen Edelmann, Gabriel <rs type="person">Adorno</rs>, der um sie wirbt. Um
-               <lb facs="#facs_1_region_1779518777134_922_tl_25" n="N025"/>ihr persönlich die Begnadigung ihrer vermeintlichen Brüder
-               <lb facs="#facs_1_region_1779518777134_922_tl_26" n="N026"/>(<rs type="person">Grimaldi</rs>) mitzutheilen, erscheint der Doge <rs type="person">Boccanegra</rs> bei
-               <lb facs="#facs_1_region_1779518777134_922_tl_27" n="N027"/>
-               <rs type="person">Amelia</rs> und erkennt in ihr seine Tochter. Es folgt eine große
-               <lb facs="#facs_1_region_1779518777134_922_tl_28" n="N028"/>Rathsversammlung im Dogenpalaste. <rs type="person">Adorno</rs> stürzt, vom
-               <lb facs="#facs_1_region_1779518777134_922_tl_29" n="N029"/>Pöbel verfolgt, herein; er hat einen gewissen <rs type="person">Lorenzino</rs>
-               <lb facs="#facs_1_region_1779518777134_922_tl_30" n="N030"/>ermordet, in dessen Haus die gewaltsam entführte <rs type="person">Amelia</rs>
-               <lb facs="#facs_1_region_1779518777134_922_tl_31" n="N031"/>gebracht worden war. <rs type="person">Adorno</rs> hält den <rs type="person">Doge</rs>n für den Ur¬
-               <lb facs="#facs_1_region_1779518777134_922_tl_32" n="N032"/>heber der Entführung und dringt mit dem Schwerte auf ihn
-               <lb facs="#facs_1_region_1779518777134_922_tl_33" n="N033"/>ein; <rs type="person">Amelia</rs> wirft sich schützend zwischen Beide. Der zweite
-               <lb facs="#facs_1_line_1780728106082_856" n="N034"/>*) Wir können nicht entscheiden, mit welchem Rechte <rs type="person">Piave</rs>
-               <lb facs="#facs_1_line_1780728108825_859" n="N035"/>seinen <rs type="person">Boccanegra</rs> zu einem „Seeräuber“ macht: unsere Geschicht¬
-               <lb facs="#facs_1_line_1780728111585_862" n="N036"/>schreiber melden nichts davon und berichten nur, daß <hi rendition="#em">nach</hi>
-               <rs type="person" continued="true">Bocca¬</rs>
-               <lb facs="#facs_1_line_1780728114513_865" n="N037"/>
-               <rs type="person" continued="true">negra</rs>'s Erwählung zum Dogen der vertriebene Adel von Seeräuberei
-               <lb facs="#facs_1_line_1780728117329_868" n="N038"/>lebte. <hi rendition="#em">
-                  <rs type="person">Stella</rs>
-               </hi> nennt einen <rs type="person">Grimaldi</rs>, einen <rs type="person">Marin</rs> und einen
-               <lb facs="#facs_1_line_1780728119594_871" n="N039"/>
-               <rs type="person">Malacelli</rs> unter den Seeräubern gegen <rs type="place">venetianisch</rs>e Schiffe.
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1779518777134_922_tl_1" n="N001" break="no"/>macht.
+            <note type="footnote" n="*)">
+            <lb facs="#facs_1_line_1780728106082_856" n="N034"/>Wir können nicht entscheiden, mit welchem Rechte <rs type="person" ref="#hsl_person_id_2072">Piave</rs><space quantity="1" unit="char"/>
+            <lb facs="#facs_1_line_1780728108825_859" n="N035"/>seinen <rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs> zu einem „Seeräuber“ macht: unsere Geschicht
+            <lb facs="#facs_1_line_1780728111585_862" n="N036" break="no"/>schreiber melden nichts davon und berichten nur, daß <hi rendition="#em">nach</hi><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_9044">Bocca
+            <lb facs="#facs_1_line_1780728114513_865" n="N037" break="no"/>negra</rs>’s Erwählung zum Dogen der vertriebene Adel von Seeräuberei
+            <lb facs="#facs_1_line_1780728117329_868" n="N038"/>lebte. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9058">Stella</rs></hi> nennt einen <rs type="person" ref="#hsl_person_id_9059">Grimaldi</rs>, einen <rs type="person" ref="#hsl_person_id_9060">Marin</rs> und einen
+            <lb facs="#facs_1_line_1780728119594_871" n="N039"/><rs type="person" ref="#hsl_person_id_9061">Malacelli</rs> unter den Seeräubern gegen <rs type="place" ref="#hsl_place_id_89">venetianisch</rs>e Schiffe.
+            </note>
+            Von anderen historischen Personen nimmt der
+         <lb facs="#facs_1_region_1779518777134_922_tl_2" n="N002"/>Librettist lediglich den Namen und schmückt damit irgend eine
+         <lb facs="#facs_1_region_1779518777134_922_tl_3" n="N003"/>ganz frei erfundene Figur. Den nachmaligen Dogen <rs type="person" ref="#hsl_person_id_9049">Adorno</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518777134_922_tl_4" n="N004"/>macht er zum heißblütigen Liebhaber-Tenor, den „Gold
+         <lb facs="#facs_1_region_1779518777134_922_tl_5" n="N005" break="no"/>spinner <rs type="person" ref="#hsl_person_id_9050">Paolo</rs>“, der im Vorspiele die Wahl <rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs>’s
+         <lb facs="#facs_1_region_1779518777134_922_tl_6" n="N006"/>beantragt, zum Intriganten und Bösewicht der Handlung.
+         <lb facs="#facs_1_region_1779518777134_922_tl_7" n="N007"/>Einzelne historische Namen (Grimaldi, Fieschi etc.) fliegen als
+         <lb facs="#facs_1_region_1779518777134_922_tl_8" n="N008"/>prahlerischer Flitter fortwährend durch den Text; sogar von
+         <lb facs="#facs_1_region_1779518777134_922_tl_9" n="N009"/><rs type="person" ref="#hsl_person_id_5353">Petrarca</rs> wird ein zum Frieden mahnender Brief in der
+         <lb facs="#facs_1_region_1779518777134_922_tl_10" n="N010"/>Rathsversammlung vorgezeigt und von <rs type="person" ref="#hsl_person_id_9050">Paolo</rs> verhöhnt. Die
+         <lb facs="#facs_1_region_1779518777134_922_tl_11" n="N011"/>freie Benützung geschichtlicher Thatsachen, insbesondere so
+         <lb facs="#facs_1_region_1779518777134_922_tl_12" n="N012"/>dunkler, fernliegender Thatsachen wird Niemand dem Libret
+         <lb facs="#facs_1_region_1779518777134_922_tl_13" n="N013" break="no"/>tisten verargen, wenn er es nur versteht, eine spannende zu
+         <lb facs="#facs_1_region_1779518777134_922_tl_14" n="N014" break="no"/>sammenhängende Handlung daraus zu gewinnen, und lebendige
+         <lb facs="#facs_1_region_1779518777134_922_tl_15" n="N015"/>Charaktere, die unser Interesse erregen. <rs type="person" ref="#hsl_person_id_2072">Piave</rs> erzielt leider
+         <lb facs="#facs_1_region_1779518777134_922_tl_16" n="N016"/>das gerade Gegentheil.
+            </p><p>
+         <lb facs="#facs_1_region_1779518777134_922_tl_17" n="N017"/><rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs> kommt im Vorspiele als junger Mann nach
+         <lb facs="#facs_1_region_1779518777134_922_tl_18" n="N018"/><rs type="place" ref="#hsl_place_id_531">Genua</rs>, um seine Geliebte, die Tochter des stolzen Patriziers
+         <lb facs="#facs_1_region_1779518777134_922_tl_19" n="N019"/><rs type="person" ref="#hsl_person_id_9055">Fiesco</rs>, wiederzusehen — er findet sie als Leiche. Der erste
+         <lb facs="#facs_1_region_1779518777134_922_tl_20" n="N020"/>Act spielt fünfundzwanzig Jahre später. <rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs>’s <rs type="person" ref="#hsl_person_id_9056">Tochter</rs>,
+         <lb facs="#facs_1_region_1779518777134_922_tl_21" n="N021"/>die Enkelin <rs type="person" ref="#hsl_person_id_9055">Fiesco</rs>’s, von Beiden längst todtgeglaubt, ist als
+         <lb facs="#facs_1_region_1779518777134_922_tl_22" n="N022"/>Kind, Gott weiß wie, in <rs type="place" ref="#hsl_place_id_76">Pisa</rs> gerettet worden und lebt unter
+         <lb facs="#facs_1_region_1779518777134_922_tl_23" n="N023"/>dem Namen Amelia <rs type="person" ref="#hsl_person_id_9056">Grimaldi</rs> bei <rs type="place" ref="#hsl_place_id_531">Genua</rs>. Sie liebt einen
+         <lb facs="#facs_1_region_1779518777134_922_tl_24" n="N024"/>jungen Edelmann, Gabriel <rs type="person" ref="#hsl_person_id_9049">Adorno</rs>, der um sie wirbt. Um
+         <lb facs="#facs_1_region_1779518777134_922_tl_25" n="N025"/>ihr persönlich die Begnadigung ihrer vermeintlichen Brüder
+         <lb facs="#facs_1_region_1779518777134_922_tl_26" n="N026"/>(Grimaldi) mitzutheilen, erscheint der Doge <rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs> bei
+         <lb facs="#facs_1_region_1779518777134_922_tl_27" n="N027"/><rs type="person" ref="#hsl_person_id_9056">Amelia</rs> und erkennt in ihr seine Tochter. Es folgt eine große
+         <lb facs="#facs_1_region_1779518777134_922_tl_28" n="N028"/>Rathsversammlung im Dogenpalaste. <rs type="person" ref="#hsl_person_id_9049">Adorno</rs> stürzt, vom
+         <lb facs="#facs_1_region_1779518777134_922_tl_29" n="N029"/>Pöbel verfolgt, herein; er hat einen gewissen <rs type="person" ref="#hsl_person_id_9063">Lorenzino</rs><space unit="char" quantity="1"/>
+         <lb facs="#facs_1_region_1779518777134_922_tl_30" n="N030"/>ermordet, in dessen Haus die gewaltsam entführte <rs type="person" ref="#hsl_person_id_9056">Amelia</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518777134_922_tl_31" n="N031"/>gebracht worden war. <rs type="person" ref="#hsl_person_id_9049">Adorno</rs> hält den <rs type="person" ref="#hsl_person_id_9048">Doge</rs>n für den Ur
+         <lb facs="#facs_1_region_1779518777134_922_tl_32" n="N032" break="no"/>heber der Entführung und dringt mit dem Schwerte auf ihn
+         <lb facs="#facs_1_region_1779518777134_922_tl_33" n="N033"/>ein; <rs type="person" ref="#hsl_person_id_9056">Amelia</rs> wirft sich schützend zwischen Beide. Der zweite<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1779518784878_928_tl_1" n="N001"/>Act spielt im Zimmer des <rs type="person" ref="#hsl_person_id_9048">Doge</rs>n. Da kommen und gehen
+         <lb facs="#facs_2_region_1779518784878_928_tl_2" n="N002"/>die bedenklichsten Leute ungehindert ein und aus: der gefan
+         <lb facs="#facs_2_region_1779518784878_928_tl_3" n="N003" break="no"/>gene <rs type="person" ref="#hsl_person_id_9049">Adorno</rs>, der gefangene <rs type="person" ref="#hsl_person_id_9055">Fiesco</rs>, endlich <rs type="person" ref="#hsl_person_id_9050">Paolo</rs>, der Gift
+         <lb facs="#facs_2_region_1779518784878_928_tl_4" n="N004"/>in den Becher des Dogen schüttet. <rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs> trinkt das
+         <lb facs="#facs_2_region_1779518784878_928_tl_5" n="N005"/>Gift, ein im Interesse der Oper langsam wirkendes, da er
+         <lb facs="#facs_2_region_1779518784878_928_tl_6" n="N006"/>ja noch den ganzen dritten Act zu singen hat. Vorläufig
+         <lb facs="#facs_2_region_1779518784878_928_tl_7" n="N007"/>macht es ihn blos schläfrig; kaum ist er aber eingeschlum
+         <lb facs="#facs_2_region_1779518784878_928_tl_8" n="N008" break="no"/>mert, als schon <rs type="person" ref="#hsl_person_id_9049">Adorno</rs> mit gezücktem Dolche an den Schla
+         <lb facs="#facs_2_region_1779518784878_928_tl_9" n="N009" break="no"/>fenden heranschleicht. <rs type="person" ref="#hsl_person_id_9056">Amelia</rs> erscheint wieder zu rechter Zeit
+         <lb facs="#facs_2_region_1779518784878_928_tl_10" n="N010"/>und fällt dem Mörder in den Arm. Nun erst erfährt dieser,
+         <lb facs="#facs_2_region_1779518784878_928_tl_11" n="N011"/>daß <rs type="person" ref="#hsl_person_id_9056">Amelia</rs> nicht die Geliebte, sondern die Tochter des grei
+         <lb facs="#facs_2_region_1779518784878_928_tl_12" n="N012" break="no"/>sen <rs type="person" ref="#hsl_person_id_9048">Doge</rs>n ist, und beschließt sofort, <hi rendition="#em">für</hi><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs> zu
+         <lb facs="#facs_2_region_1779518784878_928_tl_13" n="N013"/>kämpfen. Wie gerufen sind auch schon wieder „Feinde“ be
+         <lb facs="#facs_2_region_1779518784878_928_tl_14" n="N014" break="no"/>waffnet zur Stelle. („Und frage nicht, wo Feinde sind —
+         <lb facs="#facs_2_region_1779518784878_928_tl_15" n="N015"/>die Feinde kommen mit dem Wind,“ sang <rs type="person" ref="#hsl_person_id_3134">Herwegh</rs> einst an
+         <lb facs="#facs_2_region_1779518784878_928_tl_16" n="N016"/>den <rs type="person" ref="#hsl_person_id_1844">König</rs> von <rs type="place" ref="#hsl_place_id_46">Preußen</rs>.) Im dritten Acte sehen wir <rs type="person" ref="#hsl_person_id_9048">Bocca
+         <lb facs="#facs_2_region_1779518784878_928_tl_17" n="N017" break="no"/>negra</rs> langsam an den Folgen des zweiten sterben; in seiner
+         <lb facs="#facs_2_region_1779518784878_928_tl_18" n="N018"/>Todesstunde vereinigt er <rs type="person" ref="#hsl_person_id_9056">Amelia</rs> mit <rs type="person" ref="#hsl_person_id_9049">Adorno</rs>. Auf seinen
+         <lb facs="#facs_2_region_1779518784878_928_tl_19" n="N019"/>Wunsch besteigt <rs type="person" ref="#hsl_person_id_9049">Adorno</rs> den Thron, <rs type="person" ref="#hsl_person_id_9050">Paolo</rs> das Schaffot.
+            </p><p>
+         <lb facs="#facs_2_region_1779518784878_928_tl_20" n="N020"/>Die Hauptpersonen, welche diese unsinnige Handlung
+         <lb facs="#facs_2_region_1779518784878_928_tl_21" n="N021"/>ruckweise vorwärtsschieben, sind schön costümirte Holzpuppen
+         <lb facs="#facs_2_region_1779518784878_928_tl_22" n="N022"/>ohne Fleisch und Knochen. Den mit seiner schuftigen Um
+         <lb facs="#facs_2_region_1779518784878_928_tl_23" n="N023" break="no"/>gebung stark contrastirenden Edelmuth <rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs>’s accep
+         <lb facs="#facs_2_region_1779518784878_928_tl_24" n="N024" break="no"/>tiren wir gerne; aber daß er einem bösen Narren, wie
+         <lb facs="#facs_2_region_1779518784878_928_tl_25" n="N025"/>diesem <rs type="person" ref="#hsl_person_id_9049">Adorno</rs>, der ihn im Schlafe ermorden will, die
+         <lb facs="#facs_2_region_1779518784878_928_tl_26" n="N026"/>einzige <rs type="person" ref="#hsl_person_id_9056">Tochter</rs> zur Frau gibt und ihn dem Volke ange
+         <lb facs="#facs_2_region_1779518784878_928_tl_27" n="N027" break="no"/>legentlich als den würdigsten Dogen recommandirt — das
+         <lb facs="#facs_2_region_1779518784878_928_tl_28" n="N028"/>geht doch über die Grenzen selbst opernmäßiger Großmuth
+         <lb facs="#facs_2_region_1779518784878_928_tl_29" n="N029"/>hinaus. Daneben dieser abscheuliche Liebhaber <rs type="person" ref="#hsl_person_id_9049">Adorno</rs> und
+         <lb facs="#facs_2_region_1779518784878_928_tl_30" n="N030"/>die unbegreifliche <rs type="person" ref="#hsl_person_id_9056">Amelia</rs>, die zweimal den gegen ihren <rs type="person" ref="#hsl_person_id_9048">Vater</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1779518784878_928_tl_31" n="N031"/>losgehenden Mordjüngling abwehrt, aber trotzdem das einzige
+         <lb facs="#facs_2_region_1779518784878_928_tl_32" n="N032"/>ihn aufklärende und entwaffnende Wort: „<rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs> ist
+         <lb facs="#facs_2_region_1779518784878_928_tl_33" n="N033"/>mein Vater“ <hi rendition="#em">nicht</hi> ausspricht! Was <rs type="person" ref="#hsl_person_id_9056">Amelia</rs>’s Großvater,
+         <lb facs="#facs_2_region_1779518784878_928_tl_34" n="N034"/>der Urgreis <rs type="person" ref="#hsl_person_id_9055">Fiesco</rs>, eigentlich mit der Handlung zu schaffen
+         <lb facs="#facs_2_region_1779518784878_928_tl_35" n="N035"/>hat, macht uns das größte Kopfzerbrechen. Er braucht nur
+         <lb facs="#facs_2_region_1779518784878_928_tl_36" n="N036"/>aufzutreten, um uns immer von neuem confus zu machen.
+         <lb facs="#facs_2_region_1779518784878_928_tl_37" n="N037"/>Im Vorspiele hat er eine lange Unterredung mit dem ihm
+         <lb facs="#facs_2_region_1779518784878_928_tl_38" n="N038"/>nur zu wohlbekannten <rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs>. Da er in den
+         <lb facs="#facs_2_region_1779518784878_928_tl_39" n="N039"/>folgenden Acten unter dem Namen „<hi rendition="#em"><rs type="person" ref="#hsl_person_id_9055">Andrea</rs></hi>“ auftritt, so<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1779518784878_928_tl_1" n="N001"/>Act spielt im Zimmer des <rs type="person">Doge</rs>n. Da kommen und gehen
-               <lb facs="#facs_2_region_1779518784878_928_tl_2" n="N002"/>die bedenklichsten Leute ungehindert ein und aus: der gefan¬
-               <lb facs="#facs_2_region_1779518784878_928_tl_3" n="N003"/>gene <rs type="person">Adorno</rs>, der gefangene <rs type="person">Fiesco</rs>, endlich <rs type="person">Paolo</rs>, der Gift
-               <lb facs="#facs_2_region_1779518784878_928_tl_4" n="N004"/>in den Becher des Dogen schüttet. <rs type="person">Boccanegra</rs> trinkt das
-               <lb facs="#facs_2_region_1779518784878_928_tl_5" n="N005"/>Gift, ein im Interesse der Oper langsam wirkendes, da er
-               <lb facs="#facs_2_region_1779518784878_928_tl_6" n="N006"/>ja noch den ganzen dritten Act zu singen hat. Vorläufig
-               <lb facs="#facs_2_region_1779518784878_928_tl_7" n="N007"/>macht es ihn blos schläfrig; kaum ist er aber eingeschlum¬
-               <lb facs="#facs_2_region_1779518784878_928_tl_8" n="N008"/>mert, als schon <rs type="person">Adorno</rs> mit gezücktem Dolche an den Schla¬
-               <lb facs="#facs_2_region_1779518784878_928_tl_9" n="N009"/>fenden heranschleicht. <rs type="person">Amelia</rs> erscheint wieder zu rechter Zeit
-               <lb facs="#facs_2_region_1779518784878_928_tl_10" n="N010"/>und fällt dem Mörder in den Arm. Nun erst erfährt dieser,
-               <lb facs="#facs_2_region_1779518784878_928_tl_11" n="N011"/>daß <rs type="person">Amelia</rs> nicht die Geliebte, sondern die Tochter des grei¬
-               <lb facs="#facs_2_region_1779518784878_928_tl_12" n="N012"/>sen <rs type="person">Doge</rs>n ist, und beschließt sofort, <hi rendition="#em">für</hi>
-               <rs type="person">Boccanegra</rs> zu
-               <lb facs="#facs_2_region_1779518784878_928_tl_13" n="N013"/>kämpfen. Wie gerufen sind auch schon wieder „Feinde“ be¬
-               <lb facs="#facs_2_region_1779518784878_928_tl_14" n="N014"/>waffnet zur Stelle. („Und frage nicht, wo Feinde sind —
-               <lb facs="#facs_2_region_1779518784878_928_tl_15" n="N015"/>die Feinde kommen mit dem Wind,“ sang <rs type="person">Herwegh</rs> einst an
-               <lb facs="#facs_2_region_1779518784878_928_tl_16" n="N016"/>den <rs type="person">König</rs> von <rs type="place">Preußen</rs>.) Im dritten Acte sehen wir <rs type="person" continued="true">Bocca¬</rs>
-               <lb facs="#facs_2_region_1779518784878_928_tl_17" n="N017"/>
-               <rs type="person" continued="true">negra</rs> langsam an den Folgen des zweiten sterben; in seiner
-               <lb facs="#facs_2_region_1779518784878_928_tl_18" n="N018"/>Todesstunde vereinigt er <rs type="person">Amelia</rs> mit <rs type="person">Adorno</rs>. Auf seinen
-               <lb facs="#facs_2_region_1779518784878_928_tl_19" n="N019"/>Wunsch besteigt <rs type="person">Adorno</rs> den Thron, <rs type="person">Paolo</rs> das Schaffot.
-               <lb facs="#facs_2_region_1779518784878_928_tl_20" n="N020"/>Die Hauptpersonen, welche diese unsinnige Handlung
-               <lb facs="#facs_2_region_1779518784878_928_tl_21" n="N021"/>ruckweise vorwärtsschieben, sind schön costümirte Holzpuppen
-               <lb facs="#facs_2_region_1779518784878_928_tl_22" n="N022"/>ohne Fleisch und Knochen. Den mit seiner schuftigen Um¬
-               <lb facs="#facs_2_region_1779518784878_928_tl_23" n="N023"/>gebung stark contrastirenden Edelmuth <rs type="person">Boccanegra</rs>'s accep¬
-               <lb facs="#facs_2_region_1779518784878_928_tl_24" n="N024"/>tiren wir gerne; aber daß er einem bösen Narren, wie
-               <lb facs="#facs_2_region_1779518784878_928_tl_25" n="N025"/>diesem <rs type="person">Adorno</rs>, der ihn im Schlafe ermorden will, die
-               <lb facs="#facs_2_region_1779518784878_928_tl_26" n="N026"/>einzige <rs type="person">Tochter</rs> zur Frau gibt und ihn dem Volke ange¬
-               <lb facs="#facs_2_region_1779518784878_928_tl_27" n="N027"/>legentlich als den würdigsten Dogen recommandirt — das
-               <lb facs="#facs_2_region_1779518784878_928_tl_28" n="N028"/>geht doch über die Grenzen selbst opernmäßiger Großmuth
-               <lb facs="#facs_2_region_1779518784878_928_tl_29" n="N029"/>hinaus. Daneben dieser abscheuliche Liebhaber <rs type="person">Adorno</rs> und
-               <lb facs="#facs_2_region_1779518784878_928_tl_30" n="N030"/>die unbegreifliche <rs type="person">Amelia</rs>, die zweimal den gegen ihren <rs type="person">Vater</rs>
-               <lb facs="#facs_2_region_1779518784878_928_tl_31" n="N031"/>losgehenden Mordjüngling abwehrt, aber trotzdem das einzige
-               <lb facs="#facs_2_region_1779518784878_928_tl_32" n="N032"/>ihn aufklärende und entwaffnende Wort: „<rs type="person">Boccanegra</rs> ist
-               <lb facs="#facs_2_region_1779518784878_928_tl_33" n="N033"/>mein Vater“ <hi rendition="#em">nicht</hi> ausspricht! Was <rs type="person">Amelia</rs>'s Großvater,
-               <lb facs="#facs_2_region_1779518784878_928_tl_34" n="N034"/>der Urgreis <rs type="person">Fiesco</rs>, eigentlich mit der Handlung zu schaffen
-               <lb facs="#facs_2_region_1779518784878_928_tl_35" n="N035"/>hat, macht uns das größte Kopfzerbrechen. Er braucht nur
-               <lb facs="#facs_2_region_1779518784878_928_tl_36" n="N036"/>aufzutreten, um uns immer von neuem confus zu machen.
-               <lb facs="#facs_2_region_1779518784878_928_tl_37" n="N037"/>Im Vorspiele hat er eine lange Unterredung mit dem ihm
-               <lb facs="#facs_2_region_1779518784878_928_tl_38" n="N038"/>nur zu wohlbekannten <rs type="person">Boccanegra</rs>. Da er in den
-               <lb facs="#facs_2_region_1779518784878_928_tl_39" n="N039"/>folgenden Acten unter dem Namen „<hi rendition="#em">
-                  <rs type="person">Andrea</rs>
-               </hi>“ auftritt, so
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1779518788319_931_tl_1" n="N001"/>müssen wir vermuthen, er sei nach <rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs>’s Erwählung
+         <lb facs="#facs_2_region_1779518788319_931_tl_2" n="N002"/>verbannt worden, dürfe sich nur heimlich, unter falschem
+         <lb facs="#facs_2_region_1779518788319_931_tl_3" n="N003"/>Namen nach <rs type="place" ref="#hsl_place_id_531">Genua</rs> schleichen und dem <rs type="person" ref="#hsl_person_id_9048">Doge</rs>n ja nicht in
+         <lb facs="#facs_2_region_1779518788319_931_tl_4" n="N004"/>die Nähe kommen. Aber siehe da! in der feierlichen Raths
+         <lb facs="#facs_2_region_1779518788319_931_tl_5" n="N005" break="no"/>sitzung erblicken wir unsern <rs type="person" ref="#hsl_person_id_9055">Fiesco-Andrea</rs> unter den Raths
+         <lb facs="#facs_2_region_1779518788319_931_tl_6" n="N006" break="no"/>herren, dicht an der Seite des <rs type="person" ref="#hsl_person_id_9048">Doge</rs>n! Im dritten Act
+         <lb facs="#facs_2_region_1779518788319_931_tl_7" n="N007"/>kommt es noch besser. <rs type="person" ref="#hsl_person_id_9055">Fiesco</rs> spricht den <rs type="person" ref="#hsl_person_id_9048">Doge</rs>n an —
+         <lb facs="#facs_2_region_1779518788319_931_tl_8" n="N008"/>„welche Stimme!“ ruft <rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs> (der eben mit ihm das
+         <lb facs="#facs_2_region_1779518788319_931_tl_9" n="N009"/>ganze zweite Finale gesungen hat) erschrocken aus. „Du
+         <lb facs="#facs_2_region_1779518788319_931_tl_10" n="N010"/>hörtest sie schon einmal,“ entgegnet ihm der Uralte, „<hi rendition="#em">kennst
+         <lb facs="#facs_2_region_1779518788319_931_tl_11" n="N011"/>du mich?</hi>“ „<rs type="person" ref="#hsl_person_id_9055">Fiesco</rs>!!“ Ist das nicht, um verrückt zu wer
+         <lb facs="#facs_2_region_1779518788319_931_tl_12" n="N012" break="no"/>den? Sehr unklar bleibt den Zuhörern auch <rs type="person" ref="#hsl_person_id_9050">Paolo</rs> und
+         <lb facs="#facs_2_region_1779518788319_931_tl_13" n="N013"/>dessen plötzliche Wandlung aus <rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs>’s Freund und
+         <lb facs="#facs_2_region_1779518788319_931_tl_14" n="N014"/>Begleiter zu dessen Todfeind und Mörder. An dieser Un
+         <lb facs="#facs_2_region_1779518788319_931_tl_15" n="N015" break="no"/>klarheit trägt aber die Direction des Hofoperntheaters
+         <lb facs="#facs_2_region_1779518788319_931_tl_16" n="N016"/>größere Schuld, als der Textdichter. Man höre. <rs type="person" ref="#hsl_person_id_9050">Paolo</rs> hat
+         <lb facs="#facs_2_region_1779518788319_931_tl_17" n="N017"/>den <rs type="person" ref="#hsl_person_id_9048">Doge</rs>n gebeten, für ihn den Brautwerber zu machen bei
+         <lb facs="#facs_2_region_1779518788319_931_tl_18" n="N018"/>der schönen <rs type="person" ref="#hsl_person_id_9056">Amelia</rs>. Nachdem aber <rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs> in dieser
+         <lb facs="#facs_2_region_1779518788319_931_tl_19" n="N019"/>eben seine Tochter wiedererkannt hat, ist er weit entfernt,
+         <lb facs="#facs_2_region_1779518788319_931_tl_20" n="N020"/><rs type="person" ref="#hsl_person_id_9050">Paolo</rs> zu willfahren. Nach dem Duett zwischen <rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1779518788319_931_tl_21" n="N021"/>und <rs type="person" ref="#hsl_person_id_9056">Amelia</rs> (mit welchem in <rs type="place" ref="#hsl_place_id_55">Wien</rs> die Scene schließt)
+         <lb facs="#facs_2_region_1779518788319_931_tl_22" n="N022"/>bringt das Textbuch folgendes kurze Gespräch zwischen <rs type="person" ref="#hsl_person_id_9048">Boc
+         <lb facs="#facs_2_region_1779518788319_931_tl_23" n="N023" break="no"/>canegra</rs> und dem auf Bescheid harrenden <rs type="person" ref="#hsl_person_id_9050">Paolo</rs>:
+            </p><p>
+         <lb facs="#facs_2_line_1780728367393_1043" n="N024"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_9050">Paolo</rs></hi>. Sie sagte? <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9048">Doge</rs></hi>. Lass alle Hoffnung schwinden!
+         <lb facs="#facs_2_line_1780728369770_1046" n="N025"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_9050">Paolo</rs></hi>. Nimmer vermag ich’s. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9048">Doge</rs></hi>. Ich will es. (Geht ab.)
+         <lb facs="#facs_2_line_1780728372393_1049" n="N026"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_9050">Paolo</rs></hi>. Du willst? Vergaßest du, was du mir schuldest? <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9062">Pietro</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_line_1780728374674_1052" n="N027"/>(hinzutretend). Wie ging es? <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9050">Paolo</rs></hi>. Zurückgewiesen! <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9062">Pietro</rs></hi>.
+         <lb facs="#facs_2_line_1780728376985_1055" n="N028"/>Was wirst du thun? <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9050">Paolo</rs></hi>. <hi rendition="#em">Sie rauben</hi>. Des Abends wandelt
+         <lb facs="#facs_2_line_1780728378985_1058" n="N029"/>sie allein am Strande des Meeres; man bringt sie in mein Fahr
+         <lb facs="#facs_2_line_1780728381098_1061" n="N030" break="no"/>zeug; es nimmt <rs type="person" ref="#hsl_person_id_9063">Lorenzo</rs>’s Wohnung alsdann sie auf.
+            </p><p>
+         <lb facs="#facs_2_region_1779518788319_931_tl_32" n="N031"/>Dieses kurze Gesprach, welches einzig und allein Licht
+         <lb facs="#facs_2_region_1779518788319_931_tl_33" n="N032"/>verbreitet über alles Folgende, indem es uns den plötzlichen
+         <lb facs="#facs_2_region_1779518788319_931_tl_34" n="N033"/>Haß <rs type="person" ref="#hsl_person_id_9050">Paolo</rs>’s gegen <rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs> erklärt und uns belehrt, daß
+         <lb facs="#facs_2_region_1779518788319_931_tl_35" n="N034"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_9050">Paolo</rs></hi><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_9056">Amelie</rs>n entführen wird — es ist im Hofopern
+         <lb facs="#facs_2_region_1779518788319_931_tl_36" n="N035" break="no"/>theater vollständig gestrichen! Und doch ist es so unumgäng
+         <lb facs="#facs_2_region_1779518788319_931_tl_37" n="N036" break="no"/>lich nothwendig, daß ein einsichtsvoller Dramaturg es aus
+         <lb facs="#facs_2_region_1779518788319_931_tl_38" n="N037"/>Eigenem hinzufügen müßte, falls es nicht im Textbuch stünde.
+         <lb facs="#facs_2_region_1779518788319_931_tl_39" n="N038"/>Ueberhaupt gewahrten wir in der Scenirung dieser Oper
+         <lb facs="#facs_2_region_1779518788319_931_tl_40" n="N039"/>mehr die effectvoll schmückende, in allem Aeußerlichen tüchtige
+         <lb facs="#facs_2_region_1779518788319_931_tl_41" n="N040"/>Hand des Regisseurs, als den tiefer eindringenden Blick des<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1779518788319_931_tl_1" n="N001"/>müssen wir vermuthen, er sei nach <rs type="person">Boccanegra</rs>'s Erwählung
-               <lb facs="#facs_2_region_1779518788319_931_tl_2" n="N002"/>verbannt worden, dürfe sich nur heimlich, unter falschem
-               <lb facs="#facs_2_region_1779518788319_931_tl_3" n="N003"/>Namen nach <rs type="place">Genua</rs> schleichen und dem <rs type="person">Doge</rs>n ja nicht in
-               <lb facs="#facs_2_region_1779518788319_931_tl_4" n="N004"/>die Nähe kommen. Aber siehe da! in der feierlichen Raths¬
-               <lb facs="#facs_2_region_1779518788319_931_tl_5" n="N005"/>sitzung erblicken wir unsern <rs type="person">Fiesco-Andrea</rs> unter den Raths¬
-               <lb facs="#facs_2_region_1779518788319_931_tl_6" n="N006"/>herren, dicht an der Seite des <rs type="person">Doge</rs>n! Im dritten Act
-               <lb facs="#facs_2_region_1779518788319_931_tl_7" n="N007"/>kommt es noch besser. <rs type="person">Fiesco</rs> spricht den <rs type="person">Doge</rs>n an —
-               <lb facs="#facs_2_region_1779518788319_931_tl_8" n="N008"/>„welche Stimme!“ ruft <rs type="person">Boccanegra</rs> (der eben mit ihm das
-               <lb facs="#facs_2_region_1779518788319_931_tl_9" n="N009"/>ganze zweite Finale gesungen hat) erschrocken aus. „Du
-               <lb facs="#facs_2_region_1779518788319_931_tl_10" n="N010"/>hörtest sie schon einmal,“ entgegnet ihm der Uralte, „<hi rendition="#em">kennst</hi>
-               <lb facs="#facs_2_region_1779518788319_931_tl_11" n="N011"/>
-               <hi rendition="#em">du mich?</hi>“ „<rs type="person">Fiesco</rs>!!“ Ist das nicht, um verrückt zu wer¬
-               <lb facs="#facs_2_region_1779518788319_931_tl_12" n="N012"/>den? Sehr unklar bleibt den Zuhörern auch <rs type="person">Paolo</rs> und
-               <lb facs="#facs_2_region_1779518788319_931_tl_13" n="N013"/>dessen plötzliche Wandlung aus <rs type="person">Boccanegra</rs>'s Freund und
-               <lb facs="#facs_2_region_1779518788319_931_tl_14" n="N014"/>Begleiter zu dessen Todfeind und Mörder. An dieser Un¬
-               <lb facs="#facs_2_region_1779518788319_931_tl_15" n="N015"/>klarheit trägt aber die Direction des Hofoperntheaters
-               <lb facs="#facs_2_region_1779518788319_931_tl_16" n="N016"/>größere Schuld, als der Textdichter. Man höre. <rs type="person">Paolo</rs> hat
-               <lb facs="#facs_2_region_1779518788319_931_tl_17" n="N017"/>den <rs type="person">Doge</rs>n gebeten, für ihn den Brautwerber zu machen bei
-               <lb facs="#facs_2_region_1779518788319_931_tl_18" n="N018"/>der schönen <rs type="person">Amelia</rs>. Nachdem aber <rs type="person">Boccanegra</rs> in dieser
-               <lb facs="#facs_2_region_1779518788319_931_tl_19" n="N019"/>eben seine Tochter wiedererkannt hat, ist er weit entfernt,
-               <lb facs="#facs_2_region_1779518788319_931_tl_20" n="N020"/>
-               <rs type="person">Paolo</rs> zu willfahren. Nach dem Duett zwischen <rs type="person">Boccanegra</rs>
-               <lb facs="#facs_2_region_1779518788319_931_tl_21" n="N021"/>und <rs type="person">Amelia</rs> (mit welchem in <rs type="place">Wien</rs> die Scene schließt)
-               <lb facs="#facs_2_region_1779518788319_931_tl_22" n="N022"/>bringt das Textbuch folgendes kurze Gespräch zwischen <rs type="person" continued="true">Boc¬</rs>
-               <lb facs="#facs_2_region_1779518788319_931_tl_23" n="N023"/>
-               <rs type="person" continued="true">canegra</rs> und dem auf Bescheid harrenden <rs type="person">Paolo</rs>:
-               <lb facs="#facs_2_line_1780728367393_1043" n="N024"/>
-               <hi rendition="#em">
-                  <rs type="person">Paolo</rs>
-               </hi>. Sie sagte? <hi rendition="#em">
-                  <rs type="person">Doge</rs>
-               </hi>. Lass alle Hoffnung schwinden!
-               <lb facs="#facs_2_line_1780728369770_1046" n="N025"/>
-               <hi rendition="#em">
-                  <rs type="person">Paolo</rs>
-               </hi>. Nimmer vermag ich's. <hi rendition="#em">
-                  <rs type="person">Doge</rs>
-               </hi>. Ich will es. (Geht ab.)
-               <lb facs="#facs_2_line_1780728372393_1049" n="N026"/>
-               <hi rendition="#em">
-                  <rs type="person">Paolo</rs>
-               </hi>. Du willst? Vergaßest du, was du mir schuldest? <hi rendition="#em">
-                  <rs type="person">Pietro</rs>
-               </hi>
-               <lb facs="#facs_2_line_1780728374674_1052" n="N027"/>(hinzutretend). Wie ging es? <hi rendition="#em">
-                  <rs type="person">Paolo</rs>
-               </hi>. Zurückgewiesen! <hi rendition="#em">
-                  <rs type="person">Pietro</rs>
-               </hi>.
-               <lb facs="#facs_2_line_1780728376985_1055" n="N028"/>Was wirst du thun? <hi rendition="#em">
-                  <rs type="person">Paolo</rs>
-               </hi>. <hi rendition="#em">Sie rauben</hi>. Des Abends wandelt
-               <lb facs="#facs_2_line_1780728378985_1058" n="N029"/>sie allein am Strande des Meeres; man bringt sie in mein Fahr¬
-               <lb facs="#facs_2_line_1780728381098_1061" n="N030"/>zeug; es nimmt <rs type="person">Lorenzo</rs>'s Wohnung alsdann sie auf.
-               <lb facs="#facs_2_region_1779518788319_931_tl_32" n="N031"/>Dieses kurze Gesprach, welches einzig und allein Licht
-               <lb facs="#facs_2_region_1779518788319_931_tl_33" n="N032"/>verbreitet über alles Folgende, indem es uns den plötzlichen
-               <lb facs="#facs_2_region_1779518788319_931_tl_34" n="N033"/>Haß <rs type="person">Paolo</rs>'s gegen <rs type="person">Boccanegra</rs> erklärt und uns belehrt, daß
-               <lb facs="#facs_2_region_1779518788319_931_tl_35" n="N034"/>
-               <hi rendition="#em">
-                  <rs type="person">Paolo</rs>
-               </hi>
-               <rs type="person">Amelie</rs>n entführen wird — es ist im Hofopern¬
-               <lb facs="#facs_2_region_1779518788319_931_tl_36" n="N035"/>theater vollständig gestrichen! Und doch ist es so unumgäng¬
-               <lb facs="#facs_2_region_1779518788319_931_tl_37" n="N036"/>lich nothwendig, daß ein einsichtsvoller Dramaturg es aus
-               <lb facs="#facs_2_region_1779518788319_931_tl_38" n="N037"/>Eigenem hinzufügen müßte, falls es nicht im Textbuch stünde.
-               <lb facs="#facs_2_region_1779518788319_931_tl_39" n="N038"/>Ueberhaupt gewahrten wir in der Scenirung dieser Oper
-               <lb facs="#facs_2_region_1779518788319_931_tl_40" n="N039"/>mehr die effectvoll schmückende, in allem Aeußerlichen tüchtige
-               <lb facs="#facs_2_region_1779518788319_931_tl_41" n="N040"/>Hand des Regisseurs, als den tiefer eindringenden Blick des
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1779518791478_934_tl_1" n="N001"/>Dramaturgen, wie folgendes zweite Beispiel darthut. Der
-               <lb facs="#facs_2_region_1779518791478_934_tl_2" n="N002"/>
-               <rs type="person">Doge</rs> weiß, daß <rs type="person">Paolo</rs> der Entführer <rs type="person">Amelie</rs>ns ist; er will
-               <lb facs="#facs_2_region_1779518791478_934_tl_3" n="N003"/>ihm dies zu erkennen geben, ihn moralisch erschüttern, ohne ihn noch
-               <lb facs="#facs_2_region_1779518791478_934_tl_4" n="N004"/>vor dem versammelten aufgeregten Volke zu entlarven. „Es
-               <lb facs="#facs_2_region_1779518791478_934_tl_5" n="N005"/>ist ein Verräther unter uns,“ spricht der <rs type="person">Doge</rs> mit Nach¬
-               <lb facs="#facs_2_region_1779518791478_934_tl_6" n="N006"/>druck. „Ihn, den verruchten Buben, soll mein Donnerwort
-               <lb facs="#facs_2_region_1779518791478_934_tl_7" n="N007"/>treffen: Fluch dem Verräther! Und du, <rs type="person">Paolo</rs>, sollst die
-               <lb facs="#facs_2_region_1779518791478_934_tl_8" n="N008"/>Worte wiederholen.“ <rs type="person">Paolo</rs> wiederholt die Worte, er soll sie
-               <lb facs="#facs_2_region_1779518791478_934_tl_9" n="N009"/>im Innersten erschüttert nachsprechen, „erschrocken und bebend“,
-               <lb facs="#facs_2_region_1779518791478_934_tl_10" n="N010"/>wie das Textbuch vorschreibt, aber mit jener erzwungenen
-               <lb facs="#facs_2_region_1779518791478_934_tl_11" n="N011"/>äußeren Fassung des Heuchlers, der sein Leben davon ab¬
-               <lb facs="#facs_2_region_1779518791478_934_tl_12" n="N012"/>hängig weiß. <rs type="person">Paolo</rs> mag erbleichen und zittern, aber muß
-               <lb facs="#facs_2_region_1779518791478_934_tl_13" n="N013"/>aufrecht stehen bleiben wie ein angeklagter Mörder, der im
-               <lb facs="#facs_2_region_1779518791478_934_tl_14" n="N014"/>entscheidenden Momente einen Meineid schwört, um sich nicht
-               <lb facs="#facs_2_region_1779518791478_934_tl_15" n="N015"/>selbst an den Galgen zu bringen. Statt dessen stürzt im Hof¬
-               <lb facs="#facs_2_region_1779518791478_934_tl_16" n="N016"/>operntheater der Darsteller des <rs type="person">Paolo</rs>, nachdem er jenen
-               <lb facs="#facs_2_region_1779518791478_934_tl_17" n="N017"/>Fluch nachgesprochen, reuig auf die Knie und verbirgt sein
-               <lb facs="#facs_2_region_1779518791478_934_tl_18" n="N018"/>Angesicht mit beiden Händen, während die Menge mit Fingern
-               <lb facs="#facs_2_region_1779518791478_934_tl_19" n="N019"/>nach ihm zeigt. Durch diese ganz falsche Auffassung der ge¬
-               <lb facs="#facs_2_region_1779518791478_934_tl_20" n="N020"/>nannten Scene wird die Absicht des Dichters in ihr Gegen¬
-               <lb facs="#facs_2_region_1779518791478_934_tl_21" n="N021"/>theil verkehrt: <rs type="person">Paolo</rs>, statt nur in seinem Gewissen geängstigt
-               <lb facs="#facs_2_region_1779518791478_934_tl_22" n="N022"/>zu werden, klagt sich durch sein reuig verzweifelndes Beneh¬
-               <lb facs="#facs_2_region_1779518791478_934_tl_23" n="N023"/>men selber an, ist vor allem Volke geständig und könnte
-               <lb facs="#facs_2_region_1779518791478_934_tl_24" n="N024"/>somit unmöglich, wie es der Fall ist, im nächsten Acte im
-               <lb facs="#facs_2_region_1779518791478_934_tl_25" n="N025"/>Besitze seines früheren Ehrenamtes unbehelligt und erhobenen
-               <lb facs="#facs_2_region_1779518791478_934_tl_26" n="N026"/>Hauptes einhergehen. So wurde denn die Handlung des
-               <lb facs="#facs_2_region_1779518791478_934_tl_27" n="N027"/>„<rs type="bibl">Boccanegra</rs>“ in der <rs type="place">Wien</rs>er Aufführung noch confuser, als
-               <lb facs="#facs_2_region_1779518791478_934_tl_28" n="N028"/>sie es schon von Haus aus ist.
-               <lb facs="#facs_2_region_1779518791478_934_tl_29" n="N029"/>Unter den verschiedenartigen schädlichen Operntexten sind
-               <lb facs="#facs_2_region_1779518791478_934_tl_30" n="N030"/>die unverständlichen, verworrenen fast noch nachtheiliger für
-               <lb facs="#facs_2_region_1779518791478_934_tl_31" n="N031"/>die musikalische Wirkung, als die einfach langweiligen. Auch
-               <lb facs="#facs_2_region_1779518791478_934_tl_32" n="N032"/>in <rs type="person">Verdi</rs>'s „<rs type="bibl">Boccanegra</rs>“ läßt unser Interesse an der Musik
-               <lb facs="#facs_2_region_1779518791478_934_tl_33" n="N033"/>von dem Augenblicke nach, wo wir der Handlung nicht mehr
-               <lb facs="#facs_2_region_1779518791478_934_tl_34" n="N034"/>mit theilnehmendem Verständnisse folgen können und wach¬
-               <lb facs="#facs_2_region_1779518791478_934_tl_35" n="N035"/>sendes Aergerniß nehmen an den Widersprüchen einer zusam¬
-               <lb facs="#facs_2_region_1779518791478_934_tl_36" n="N036"/>menhanglosen Handlung. Die Oper, gegenwärtig ein Zug¬
-               <lb facs="#facs_2_region_1779518791478_934_tl_37" n="N037"/>stück in <rs type="place">Italien</rs>, ist bekanntlich schon vor 26 Jahren com¬
-               <lb facs="#facs_2_region_1779518791478_934_tl_38" n="N038"/>ponirt und hat damals in der Fenice entschiedenen Mißerfolg
-               <lb facs="#facs_2_region_1779518791478_934_tl_39" n="N039"/>erlebt. Dieses Fiasco erklärt <hi rendition="#em">
-                  <rs type="person">Fétis</rs>
-               </hi> damit, daß <rs type="person">Verdi</rs> sich
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1779518791478_934_tl_1" n="N001"/>Dramaturgen, wie folgendes zweite Beispiel darthut. Der
+         <lb facs="#facs_2_region_1779518791478_934_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_9048">Doge</rs> weiß, daß <rs type="person" ref="#hsl_person_id_9050">Paolo</rs> der Entführer <rs type="person" ref="#hsl_person_id_9056">Amelie</rs>ns ist; er will
+         <lb facs="#facs_2_region_1779518791478_934_tl_3" n="N003"/>ihm dies zu erkennen geben, ihn moralisch erschüttern, ohne ihn noch
+         <lb facs="#facs_2_region_1779518791478_934_tl_4" n="N004"/>vor dem versammelten aufgeregten Volke zu entlarven. „Es
+         <lb facs="#facs_2_region_1779518791478_934_tl_5" n="N005"/>ist ein Verräther unter uns,“ spricht der <rs type="person" ref="#hsl_person_id_9048">Doge</rs> mit Nach
+         <lb facs="#facs_2_region_1779518791478_934_tl_6" n="N006" break="no"/>druck. „Ihn, den verruchten Buben, soll mein Donnerwort
+         <lb facs="#facs_2_region_1779518791478_934_tl_7" n="N007"/>treffen: Fluch dem Verräther! Und du, <rs type="person" ref="#hsl_person_id_9050">Paolo</rs>, sollst die
+         <lb facs="#facs_2_region_1779518791478_934_tl_8" n="N008"/>Worte wiederholen.“ <rs type="person" ref="#hsl_person_id_9050">Paolo</rs> wiederholt die Worte, er soll sie
+         <lb facs="#facs_2_region_1779518791478_934_tl_9" n="N009"/>im Innersten erschüttert nachsprechen, „erschrocken und bebend“,
+         <lb facs="#facs_2_region_1779518791478_934_tl_10" n="N010"/>wie das Textbuch vorschreibt, aber mit jener erzwungenen
+         <lb facs="#facs_2_region_1779518791478_934_tl_11" n="N011"/>äußeren Fassung des Heuchlers, der sein Leben davon ab
+         <lb facs="#facs_2_region_1779518791478_934_tl_12" n="N012" break="no"/>hängig weiß. <rs type="person" ref="#hsl_person_id_9050">Paolo</rs> mag erbleichen und zittern, aber muß
+         <lb facs="#facs_2_region_1779518791478_934_tl_13" n="N013"/>aufrecht stehen bleiben wie ein angeklagter Mörder, der im
+         <lb facs="#facs_2_region_1779518791478_934_tl_14" n="N014"/>entscheidenden Momente einen Meineid schwört, um sich nicht
+         <lb facs="#facs_2_region_1779518791478_934_tl_15" n="N015"/>selbst an den Galgen zu bringen. Statt dessen stürzt im Hof
+         <lb facs="#facs_2_region_1779518791478_934_tl_16" n="N016" break="no"/>operntheater der Darsteller des <rs type="person" ref="#hsl_person_id_9050">Paolo</rs>, nachdem er jenen
+         <lb facs="#facs_2_region_1779518791478_934_tl_17" n="N017"/>Fluch nachgesprochen, reuig auf die Knie und verbirgt sein
+         <lb facs="#facs_2_region_1779518791478_934_tl_18" n="N018"/>Angesicht mit beiden Händen, während die Menge mit Fingern
+         <lb facs="#facs_2_region_1779518791478_934_tl_19" n="N019"/>nach ihm zeigt. Durch diese ganz falsche Auffassung der ge
+         <lb facs="#facs_2_region_1779518791478_934_tl_20" n="N020" break="no"/>nannten Scene wird die Absicht des Dichters in ihr Gegen
+         <lb facs="#facs_2_region_1779518791478_934_tl_21" n="N021" break="no"/>theil verkehrt: <rs type="person" ref="#hsl_person_id_9050">Paolo</rs>, statt nur in seinem Gewissen geängstigt
+         <lb facs="#facs_2_region_1779518791478_934_tl_22" n="N022"/>zu werden, klagt sich durch sein reuig verzweifelndes Beneh
+         <lb facs="#facs_2_region_1779518791478_934_tl_23" n="N023" break="no"/>men selber an, ist vor allem Volke geständig und könnte
+         <lb facs="#facs_2_region_1779518791478_934_tl_24" n="N024"/>somit unmöglich, wie es der Fall ist, im nächsten Acte im
+         <lb facs="#facs_2_region_1779518791478_934_tl_25" n="N025"/>Besitze seines früheren Ehrenamtes unbehelligt und erhobenen
+         <lb facs="#facs_2_region_1779518791478_934_tl_26" n="N026"/>Hauptes einhergehen. So wurde denn die Handlung des
+         <lb facs="#facs_2_region_1779518791478_934_tl_27" n="N027"/>„<rs type="bibl" ref="#hsl_work_id_5509">Boccanegra</rs>“ in der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Aufführung noch confuser, als
+         <lb facs="#facs_2_region_1779518791478_934_tl_28" n="N028"/>sie es schon von Haus aus ist.
+            </p><p>
+         <lb facs="#facs_2_region_1779518791478_934_tl_29" n="N029"/>Unter den verschiedenartigen schädlichen Operntexten sind
+         <lb facs="#facs_2_region_1779518791478_934_tl_30" n="N030"/>die unverständlichen, verworrenen fast noch nachtheiliger für
+         <lb facs="#facs_2_region_1779518791478_934_tl_31" n="N031"/>die musikalische Wirkung, als die einfach langweiligen. Auch
+         <lb facs="#facs_2_region_1779518791478_934_tl_32" n="N032"/>in <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s „<rs type="bibl" ref="#hsl_work_id_5509">Boccanegra</rs>“ läßt unser Interesse an der Musik
+         <lb facs="#facs_2_region_1779518791478_934_tl_33" n="N033"/>von dem Augenblicke nach, wo wir der Handlung nicht mehr
+         <lb facs="#facs_2_region_1779518791478_934_tl_34" n="N034"/>mit theilnehmendem Verständnisse folgen können und wach
+         <lb facs="#facs_2_region_1779518791478_934_tl_35" n="N035" break="no"/>sendes Aergerniß nehmen an den Widersprüchen einer zusam
+         <lb facs="#facs_2_region_1779518791478_934_tl_36" n="N036" break="no"/>menhanglosen Handlung. Die Oper, gegenwärtig ein Zug
+         <lb facs="#facs_2_region_1779518791478_934_tl_37" n="N037" break="no"/>stück in <rs type="place" ref="#hsl_place_id_28">Italien</rs>, ist bekanntlich schon vor 26 Jahren com
+         <lb facs="#facs_2_region_1779518791478_934_tl_38" n="N038" break="no"/>ponirt und hat damals in der Fenice entschiedenen Mißerfolg
+         <lb facs="#facs_2_region_1779518791478_934_tl_39" n="N039"/>erlebt. Dieses Fiasco erklärt <hi rendition="#em"><rs type="person" ref="#hsl_person_id_78">Fétis</rs></hi> damit, daß <rs type="person" ref="#hsl_person_id_312">Verdi</rs> sich<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1779518799590_940_tl_1" n="N001"/>im <rs type="bibl" ref="#hsl_work_id_5509">Boccanegra</rs> die <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Zukunftsmusik zum Vorbilde ge
+         <lb facs="#facs_3_region_1779518799590_940_tl_2" n="N002" break="no"/>nommen habe, „une fantaisie“, die ihm übel bekommen
+         <lb facs="#facs_3_region_1779518799590_940_tl_3" n="N003"/>mußte. Davon vermögen wir selbst in der neuen, moderne
+         <lb facs="#facs_3_region_1779518799590_940_tl_4" n="N004" break="no"/>ren Umarbeitung dieser Oper nichts zu erblicken, wol aber
+         <lb facs="#facs_3_region_1779518799590_940_tl_5" n="N005"/>ein treueres dramatisches Anschmiegen, schärfere Accente und
+         <lb facs="#facs_3_region_1779518799590_940_tl_6" n="N006"/>eine gewähltere Instrumentirung — Vorzüge, welche auf den
+         <lb facs="#facs_3_region_1779518799590_940_tl_7" n="N007"/>Styl der späteren <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’schen Opern vorausdeuten. Sehr
+         <lb facs="#facs_3_region_1779518799590_940_tl_8" n="N008"/>natürlich: <rs type="bibl" ref="#hsl_work_id_5509">Boccanegra</rs>, unmittelbar zwischen der „<rs type="bibl" ref="#hsl_work_id_3212">Siciliani
+         <lb facs="#facs_3_region_1779518799590_940_tl_9" n="N009" break="no"/>schen Vesper</rs>“ und dem „<rs type="bibl" ref="#hsl_work_id_35">Maskenball</rs>“ componirt, steht am
+         <lb facs="#facs_3_region_1779518799590_940_tl_10" n="N010"/>Eingange von <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s letzter Periode, seiner Maniera terza.
+         <lb facs="#facs_3_region_1779518799590_940_tl_11" n="N011"/>Aber nicht blos mit halbem Gesichte, sondern mit Dreiviertel-
+         <lb facs="#facs_3_region_1779518799590_940_tl_12" n="N012"/>Profil blickt „<rs type="bibl" ref="#hsl_work_id_5509">Boccanegra</rs>“ nach rückwärts, ist also selbst vom
+         <lb facs="#facs_3_region_1779518799590_940_tl_13" n="N013"/><rs type="person" ref="#hsl_person_id_312">Verdi</rs>’schen Standpunkte mehr Vergangenheits- als Zukunfts
+         <lb facs="#facs_3_region_1779518799590_940_tl_14" n="N014" break="no"/>musik. Am emsigsten mag die nachbessernde und nachschaffende
+         <lb facs="#facs_3_region_1779518799590_940_tl_15" n="N015"/>Hand des Maëstro im Vorspiel und im ersten Acte gewaltet
+         <lb facs="#facs_3_region_1779518799590_940_tl_16" n="N016"/>haben; hier finden wir das Feuer seiner Jugend bei der ge
+         <lb facs="#facs_3_region_1779518799590_940_tl_17" n="N017" break="no"/>steigerten Kunst seines Alters. Hier herrschen der süße
+         <lb facs="#facs_3_region_1779518799590_940_tl_18" n="N018"/>Wohllaut, die feurige Sinnlichkeit und der leidenschaft
+         <lb facs="#facs_3_region_1779518799590_940_tl_19" n="N019" break="no"/>lich dramatische Zug des früheren <rs type="person" ref="#hsl_person_id_312">Verdi</rs>, theils ab
+         <lb facs="#facs_3_region_1779518799590_940_tl_20" n="N020" break="no"/>geklärt, theils gewürzt durch die feineren Elemente
+         <lb facs="#facs_3_region_1779518799590_940_tl_21" n="N021"/>seines späteren Styles. Gleich die Instrumental-Einleitung
+         <lb facs="#facs_3_region_1779518799590_940_tl_22" n="N022"/>des Vorspiels und die folgenden mehr im Conversationstone
+         <lb facs="#facs_3_region_1779518799590_940_tl_23" n="N023"/>gehaltenen Scenen fesseln durch jene Lebenswärme und eigen
+         <lb facs="#facs_3_region_1779518799590_940_tl_24" n="N024" break="no"/>thümlich erwartungsvolle Spannung, welche <rs type="person" ref="#hsl_person_id_312">Verdi</rs> solchen
+         <lb facs="#facs_3_region_1779518799590_940_tl_25" n="N025"/>vorbereitenden Scenen zu geben versteht. Die wehmüthige
+         <lb facs="#facs_3_region_1779518799590_940_tl_26" n="N026"/>Cavatine <rs type="person" ref="#hsl_person_id_9055">Fiesco</rs>’s, mit welcher sich das von ferne herüber
+         <lb facs="#facs_3_region_1779518799590_940_tl_27" n="N027" break="no"/>tönende „Miserere“ vermischt, ist von echter Empfindung
+         <lb facs="#facs_3_region_1779518799590_940_tl_28" n="N028"/>und schönstem Wohlklange. Das folgende Duett zwischen
+         <lb facs="#facs_3_region_1779518799590_940_tl_29" n="N029"/><rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs> und <rs type="person" ref="#hsl_person_id_9055">Fiesco</rs> athmet ein starkes Pathos und ge
+         <lb facs="#facs_3_region_1779518799590_940_tl_30" n="N030" break="no"/>winnt einen packenden Abschluß durch das herbeiströmende
+         <lb facs="#facs_3_region_1779518799590_940_tl_31" n="N031"/>Volk, das jubelnd die Erwählung <rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs>’s verkündigt,
+         <lb facs="#facs_3_region_1779518799590_940_tl_32" n="N032"/>während er selbst in Schmerz um die todte Geliebte versunken
+         <lb facs="#facs_3_region_1779518799590_940_tl_33" n="N033"/>ist. Die lieblichsten Momente der Oper bringt die erste Hälfte
+         <lb facs="#facs_3_region_1779518799590_940_tl_34" n="N034"/>des ersten Actes. Mit seiner, etwas koketter Grazie ist die
+         <lb facs="#facs_3_region_1779518799590_940_tl_35" n="N035"/>Einleitung instrumentirt; ein blühender Zwiegesang zwischen
+         <lb facs="#facs_3_region_1779518799590_940_tl_36" n="N036"/>Clarinette und Violoncell unter tremolirenden hohen Geigen
+         <lb facs="#facs_3_region_1779518799590_940_tl_37" n="N037" break="no"/>accorden, welche leises Vogelgezwitscher nachahmen. Die Arie
+         <lb facs="#facs_3_region_1779518799590_940_tl_38" n="N038"/><rs type="person" ref="#hsl_person_id_9056">Amelia</rs>’s in Es-dur und ihr Liebesduett mit <rs type="person" ref="#hsl_person_id_9049">Adorno</rs> — aller
+         <lb facs="#facs_3_region_1779518799590_940_tl_39" n="N039" break="no"/>dings von einigen banalen Regungen vorübergehend geschüttelt<space quantity="1" unit="char"/></p>
             <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1779518799590_940_tl_1" n="N001"/>im <rs type="bibl">Boccanegra</rs> die <rs type="place">deutsch</rs>e Zukunftsmusik zum Vorbilde ge¬
-               <lb facs="#facs_3_region_1779518799590_940_tl_2" n="N002"/>nommen habe, „une fantaisie“, die ihm übel bekommen
-               <lb facs="#facs_3_region_1779518799590_940_tl_3" n="N003"/>mußte. Davon vermögen wir selbst in der neuen, moderne¬
-               <lb facs="#facs_3_region_1779518799590_940_tl_4" n="N004"/>ren Umarbeitung dieser Oper nichts zu erblicken, wol aber
-               <lb facs="#facs_3_region_1779518799590_940_tl_5" n="N005"/>ein treueres dramatisches Anschmiegen, schärfere Accente und
-               <lb facs="#facs_3_region_1779518799590_940_tl_6" n="N006"/>eine gewähltere Instrumentirung — Vorzüge, welche auf den
-               <lb facs="#facs_3_region_1779518799590_940_tl_7" n="N007"/>Styl der späteren <rs type="person">Verdi</rs>'schen Opern vorausdeuten. Sehr
-               <lb facs="#facs_3_region_1779518799590_940_tl_8" n="N008"/>natürlich: <rs type="bibl">Boccanegra</rs>, unmittelbar zwischen der „<rs type="bibl">Siciliani¬</rs>
-               <lb facs="#facs_3_region_1779518799590_940_tl_9" n="N009"/>
-               <rs type="bibl">schen Vesper</rs>“ und dem „<rs type="bibl">Maskenbal</rs>l“ componirt, steht am
-               <lb facs="#facs_3_region_1779518799590_940_tl_10" n="N010"/>Eingange von <rs type="person">Verdi</rs>'s letzter Periode, seiner Maniera terza.
-               <lb facs="#facs_3_region_1779518799590_940_tl_11" n="N011"/>Aber nicht blos mit halbem Gesichte, sondern mit Dreiviertel-
-               <lb facs="#facs_3_region_1779518799590_940_tl_12" n="N012"/>Profil blickt „<rs type="bibl">Boccanegra</rs>“ nach rückwärts, ist also selbst vom
-               <lb facs="#facs_3_region_1779518799590_940_tl_13" n="N013"/>
-               <rs type="person">Verdi</rs>'schen Standpunkte mehr Vergangenheits- als Zukunfts¬
-               <lb facs="#facs_3_region_1779518799590_940_tl_14" n="N014"/>musik. Am emsigsten mag die nachbessernde und nachschaffende
-               <lb facs="#facs_3_region_1779518799590_940_tl_15" n="N015"/>Hand des Maëstro im Vorspiel und im ersten Acte gewaltet
-               <lb facs="#facs_3_region_1779518799590_940_tl_16" n="N016"/>haben; hier finden wir das Feuer seiner Jugend bei der ge¬
-               <lb facs="#facs_3_region_1779518799590_940_tl_17" n="N017"/>steigerten Kunst seines Alters. Hier herrschen der süße
-               <lb facs="#facs_3_region_1779518799590_940_tl_18" n="N018"/>Wohllaut, die feurige Sinnlichkeit und der leidenschaft¬
-               <lb facs="#facs_3_region_1779518799590_940_tl_19" n="N019"/>lich dramatische Zug des früheren <rs type="person">Verdi</rs>, theils ab¬
-               <lb facs="#facs_3_region_1779518799590_940_tl_20" n="N020"/>geklärt, theils gewürzt durch die feineren Elemente
-               <lb facs="#facs_3_region_1779518799590_940_tl_21" n="N021"/>seines späteren Styles. Gleich die Instrumental-Einleitung
-               <lb facs="#facs_3_region_1779518799590_940_tl_22" n="N022"/>des Vorspiels und die folgenden mehr im Conversationstone
-               <lb facs="#facs_3_region_1779518799590_940_tl_23" n="N023"/>gehaltenen Scenen fesseln durch jene Lebenswärme und eigen¬
-               <lb facs="#facs_3_region_1779518799590_940_tl_24" n="N024"/>thümlich erwartungsvolle Spannung, welche <rs type="person">Verdi</rs> solchen
-               <lb facs="#facs_3_region_1779518799590_940_tl_25" n="N025"/>vorbereitenden Scenen zu geben versteht. Die wehmüthige
-               <lb facs="#facs_3_region_1779518799590_940_tl_26" n="N026"/>Cavatine <rs type="person">Fiesco</rs>'s, mit welcher sich das von ferne herüber¬
-               <lb facs="#facs_3_region_1779518799590_940_tl_27" n="N027"/>tönende „Miserere“ vermischt, ist von echter Empfindung
-               <lb facs="#facs_3_region_1779518799590_940_tl_28" n="N028"/>und schönstem Wohlklange. Das folgende Duett zwischen
-               <lb facs="#facs_3_region_1779518799590_940_tl_29" n="N029"/>
-               <rs type="person">Boccanegra</rs> und <rs type="person">Fiesco</rs> athmet ein starkes Pathos und ge¬
-               <lb facs="#facs_3_region_1779518799590_940_tl_30" n="N030"/>winnt einen packenden Abschluß durch das herbeiströmende
-               <lb facs="#facs_3_region_1779518799590_940_tl_31" n="N031"/>Volk, das jubelnd die Erwählung <rs type="person">Boccanegra</rs>'s verkündigt,
-               <lb facs="#facs_3_region_1779518799590_940_tl_32" n="N032"/>während er selbst in Schmerz um die todte Geliebte versunken
-               <lb facs="#facs_3_region_1779518799590_940_tl_33" n="N033"/>ist. Die lieblichsten Momente der Oper bringt die erste Hälfte
-               <lb facs="#facs_3_region_1779518799590_940_tl_34" n="N034"/>des ersten Actes. Mit seiner, etwas koketter Grazie ist die
-               <lb facs="#facs_3_region_1779518799590_940_tl_35" n="N035"/>Einleitung instrumentirt; ein blühender Zwiegesang zwischen
-               <lb facs="#facs_3_region_1779518799590_940_tl_36" n="N036"/>Clarinette und Violoncell unter tremolirenden hohen Geigen¬
-               <lb facs="#facs_3_region_1779518799590_940_tl_37" n="N037"/>accorden, welche leises Vogelgezwitscher nachahmen. Die Arie
-               <lb facs="#facs_3_region_1779518799590_940_tl_38" n="N038"/>
-               <rs type="person">Amelia</rs>'s in Es-dur und ihr Liebesduett mit <rs type="person">Adorno</rs> — aller¬
-               <lb facs="#facs_3_region_1779518799590_940_tl_39" n="N039"/>dings von einigen banalen Regungen vorübergehend geschüttelt
-            </p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1779518803917_943_tl_1" n="N001"/>— wirken durch melodischen Reiz und leidenschaftlichen Zug.
-               <lb facs="#facs_3_region_1779518803917_943_tl_2" n="N002"/>Geringer und wie von Absichtlichkeit durchkältet ist das Duett
-               <lb facs="#facs_3_line_1780736852185_1559" n="N003"/>zwischen <rs type="person">Adorno</rs> und <rs type="person">Fiesco</rs>. Hingegen gehört das folgende
-               <lb facs="#facs_3_line_1780736854584_1562" n="N004"/>zwischen <rs type="person">Amelia</rs> und <rs type="person">Boccanegra</rs> in seinem dramatisch ent¬
-               <lb facs="#facs_3_region_1779518803917_943_tl_3" n="N005"/>wickelnden Theile, wie in dem lyrischen Zwischensatze <rs type="person">Amelia</rs>'s
-               <lb facs="#facs_3_region_1779518803917_943_tl_4" n="N006"/>(„Grave d’anni della pia“) zu den besten Duetten <rs type="person">Verdi</rs>'s.
-               <lb facs="#facs_3_region_1779518803917_943_tl_5" n="N007"/>An die große Scene im Dogenpalaste, welche den ersten
-               <lb facs="#facs_3_region_1779518803917_943_tl_6" n="N008"/>Act schließt, hat der Componist besondere Sorgfalt gewendet,
-               <lb facs="#facs_3_region_1779518803917_943_tl_7" n="N009"/>und das Feuer ist ihm nicht ausgegangen bei der Arbeit.
-               <lb facs="#facs_3_region_1779518803917_943_tl_8" n="N010"/>Das Finale ist übersichtlich und effectvoll aufgebaut; von
-               <lb facs="#facs_3_region_1779518803917_943_tl_9" n="N011"/>schöner musikalischer Wirkung namentlich der langsame,
-               <lb facs="#facs_3_region_1779518803917_943_tl_10" n="N012"/>pathetische Fis-dur-Satz, über welchem die Melodie
-               <lb facs="#facs_3_region_1779518803917_943_tl_11" n="N013"/>der Sopranstimme („Pace!“) wie ein silbernes Band weht.
-               <lb facs="#facs_3_region_1779518803917_943_tl_12" n="N014"/>Wir sind am Ende des ersten Actes, für uns ist es das
-               <lb facs="#facs_3_region_1779518803917_943_tl_13" n="N015"/>Ende der Oper. Was in den beiden letzten Acten folgt, sind
-               <lb facs="#facs_3_region_1779518803917_943_tl_14" n="N016"/>fast lauter bekannte Melodien, conventionelle Phrasen, ver¬
-               <lb facs="#facs_3_region_1779518803917_943_tl_15" n="N017"/>brauchte Effecte. Der alte <rs type="person">Verdi</rs>, aber in übler Laune, zer¬
-               <lb facs="#facs_3_region_1779518803917_943_tl_16" n="N018"/>streut, ermüdet. Es sprühen wol hin und wieder hellere Fun¬
-               <lb facs="#facs_3_region_1779518803917_943_tl_17" n="N019"/>ken auf, besonders gegen den Schluß der Oper, aber sie ver¬
-               <lb facs="#facs_3_region_1779518803917_943_tl_18" n="N020"/>knistern eindruckslos in der feuchten Dämmerung des Ganzen.
-               <lb facs="#facs_3_region_1779518803917_943_tl_19" n="N021"/>Die Oper „<rs type="bibl">Boccanegra</rs>“ ist in ihrer ersten Hälfte entschieden
-               <lb facs="#facs_3_region_1779518803917_943_tl_20" n="N022"/>hörenswerth und erfreulich und sehenswerth vom Anfang bis
-               <lb facs="#facs_3_region_1779518803917_943_tl_21" n="N023"/>zu Ende wegen ihrer prachtvollen Ausstattung. Frau <hi rendition="#em">
-                  <rs type="person" continued="true">Ma¬</rs>
-               </hi>
-               <lb facs="#facs_3_region_1779518803917_943_tl_22" n="N024"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">terna</rs>
-               </hi> hebt die Rolle der <rs type="person">Amelia</rs> durch ihre glänzende
-               <lb facs="#facs_3_region_1779518803917_943_tl_23" n="N025"/>Stimme und leidenschaftlichen Vortrag. Dramatisch zu
-               <lb facs="#facs_3_region_1779518803917_943_tl_24" n="N026"/>schaffen gibt es nichts in dieser Rolle, noch weniger in der
-               <lb facs="#facs_3_region_1779518803917_943_tl_25" n="N027"/>des <rs type="person">Fiesco</rs>, welche uns lediglich durch die prachtvolle Stimme
-               <lb facs="#facs_3_region_1779518803917_943_tl_26" n="N028"/>unseres <hi rendition="#em">
-                  <rs type="person">Rokitansky</rs>
-               </hi> erfreut. Dankbarer und charakteri¬
-               <lb facs="#facs_3_region_1779518803917_943_tl_27" n="N029"/>stischer ist die <rs type="person">Titelrolle</rs>, welcher Herr <hi rendition="#em">
-                  <rs type="person">Beck</rs>
-               </hi> (obwol von den
-               <lb facs="#facs_3_region_1779518803917_943_tl_28" n="N030"/>Proben merklich ermüdet) den stets wohlthuenden Schwung
-               <lb facs="#facs_3_region_1779518803917_943_tl_29" n="N031"/>seiner echten Künstlernatur lieh. Herr <hi rendition="#em">
-                  <rs type="person">Broulik</rs>
-               </hi> suchte sich
-               <lb facs="#facs_3_region_1779518803917_943_tl_30" n="N032"/>als <rs type="person">Adorno</rs> zu mäßigen, leider nicht in der rechten Weise,
-               <lb facs="#facs_3_region_1779518803917_943_tl_31" n="N033"/>denn sein anhaltend tonloses, trockenes Mezzavoce wirkte nicht
-               <lb facs="#facs_3_region_1779518803917_943_tl_32" n="N034"/>viel erbaulicher, als seine unmittelbar darauf gesetzten For¬
-               <lb facs="#facs_3_region_1779518803917_943_tl_33" n="N035"/>tissimodrucker. Sehr lobenswerth war Herr <hi rendition="#em">
-                  <rs type="person">Horwitz</rs>
-               </hi> in der
-               <lb facs="#facs_3_region_1779518803917_943_tl_34" n="N036"/>nicht umfangreichen, aber wichtigen und heikligen Rolle des
-               <lb facs="#facs_3_region_1779518803917_943_tl_35" n="N037"/>Bösewichtes <rs type="person">Paolo</rs>. Ein großes Verdienst um die gelungene
-               <lb facs="#facs_3_region_1779518803917_943_tl_36" n="N038"/>und lebhaft applaudirte Vorstellung hat Herr <hi rendition="#em">
-                  <rs type="person">Jahn</rs>
-               </hi>, der
-               <lb facs="#facs_3_region_1779518803917_943_tl_37" n="N039"/>das Orchester dirigirt.
-            </p>
+            <p prev="true">
+         <lb facs="#facs_3_region_1779518803917_943_tl_1" n="N001"/>— wirken durch melodischen Reiz und leidenschaftlichen Zug.
+         <lb facs="#facs_3_region_1779518803917_943_tl_2" n="N002"/>Geringer und wie von Absichtlichkeit durchkältet ist das Duett
+         <lb facs="#facs_3_line_1780736852185_1559" n="N003"/>zwischen <rs type="person" ref="#hsl_person_id_9049">Adorno</rs> und <rs type="person" ref="#hsl_person_id_9055">Fiesco</rs>. Hingegen gehört das folgende
+         <lb facs="#facs_3_line_1780736854584_1562" n="N004"/>zwischen <rs type="person" ref="#hsl_person_id_9056">Amelia</rs> und <rs type="person" ref="#hsl_person_id_9048">Boccanegra</rs> in seinem dramatisch ent
+         <lb facs="#facs_3_region_1779518803917_943_tl_3" n="N005" break="no"/>wickelnden Theile, wie in dem lyrischen Zwischensatze <rs type="person" ref="#hsl_person_id_9056">Amelia</rs>’s
+         <lb facs="#facs_3_region_1779518803917_943_tl_4" n="N006"/>(„Grave d’anni della pia“) zu den besten Duetten <rs type="person" ref="#hsl_person_id_312">Verdi</rs>’s.
+         <lb facs="#facs_3_region_1779518803917_943_tl_5" n="N007"/>An die große Scene im Dogenpalaste, welche den ersten
+         <lb facs="#facs_3_region_1779518803917_943_tl_6" n="N008"/>Act schließt, hat der Componist besondere Sorgfalt gewendet,
+         <lb facs="#facs_3_region_1779518803917_943_tl_7" n="N009"/>und das Feuer ist ihm nicht ausgegangen bei der Arbeit.
+         <lb facs="#facs_3_region_1779518803917_943_tl_8" n="N010"/>Das Finale ist übersichtlich und effectvoll aufgebaut; von
+         <lb facs="#facs_3_region_1779518803917_943_tl_9" n="N011"/>schöner musikalischer Wirkung namentlich der langsame,
+         <lb facs="#facs_3_region_1779518803917_943_tl_10" n="N012"/>pathetische Fis-dur-Satz, über welchem die Melodie
+         <lb facs="#facs_3_region_1779518803917_943_tl_11" n="N013"/>der Sopranstimme („Pace!“) wie ein silbernes Band weht.
+            </p><p>
+         <lb facs="#facs_3_region_1779518803917_943_tl_12" n="N014"/>Wir sind am Ende des ersten Actes, für uns ist es das
+         <lb facs="#facs_3_region_1779518803917_943_tl_13" n="N015"/>Ende der Oper. Was in den beiden letzten Acten folgt, sind
+         <lb facs="#facs_3_region_1779518803917_943_tl_14" n="N016"/>fast lauter bekannte Melodien, conventionelle Phrasen, ver
+         <lb facs="#facs_3_region_1779518803917_943_tl_15" n="N017" break="no"/>brauchte Effecte. Der alte <rs type="person" ref="#hsl_person_id_312">Verdi</rs>, aber in übler Laune, zer
+         <lb facs="#facs_3_region_1779518803917_943_tl_16" n="N018" break="no"/>streut, ermüdet. Es sprühen wol hin und wieder hellere Fun
+         <lb facs="#facs_3_region_1779518803917_943_tl_17" n="N019" break="no"/>ken auf, besonders gegen den Schluß der Oper, aber sie ver
+         <lb facs="#facs_3_region_1779518803917_943_tl_18" n="N020" break="no"/>knistern eindruckslos in der feuchten Dämmerung des Ganzen.
+         <lb facs="#facs_3_region_1779518803917_943_tl_19" n="N021"/>Die Oper „<rs type="bibl" ref="#hsl_work_id_5509">Boccanegra</rs>“ ist in ihrer ersten Hälfte entschieden
+         <lb facs="#facs_3_region_1779518803917_943_tl_20" n="N022"/>hörenswerth und erfreulich und sehenswerth vom Anfang bis
+         <lb facs="#facs_3_region_1779518803917_943_tl_21" n="N023"/>zu Ende wegen ihrer prachtvollen Ausstattung. Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1031">Ma
+         <lb facs="#facs_3_region_1779518803917_943_tl_22" n="N024" break="no"/>terna</rs></hi> hebt die Rolle der <rs type="person" ref="#hsl_person_id_9056">Amelia</rs> durch ihre glänzende
+         <lb facs="#facs_3_region_1779518803917_943_tl_23" n="N025"/>Stimme und leidenschaftlichen Vortrag. Dramatisch zu
+         <lb facs="#facs_3_region_1779518803917_943_tl_24" n="N026"/>schaffen gibt es nichts in dieser Rolle, noch weniger in der
+         <lb facs="#facs_3_region_1779518803917_943_tl_25" n="N027"/>des <rs type="person" ref="#hsl_person_id_9055">Fiesco</rs>, welche uns lediglich durch die prachtvolle Stimme
+         <lb facs="#facs_3_region_1779518803917_943_tl_26" n="N028"/>unseres <hi rendition="#em"><rs type="person" ref="#hsl_person_id_240">Rokitansky</rs></hi> erfreut. Dankbarer und charakteri
+         <lb facs="#facs_3_region_1779518803917_943_tl_27" n="N029" break="no"/>stischer ist die <rs type="person" ref="#hsl_person_id_9048">Titelrolle</rs>, welcher Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs></hi> (obwol von den
+         <lb facs="#facs_3_region_1779518803917_943_tl_28" n="N030"/>Proben merklich ermüdet) den stets wohlthuenden Schwung
+         <lb facs="#facs_3_region_1779518803917_943_tl_29" n="N031"/>seiner echten Künstlernatur lieh. Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3734">Broulik</rs></hi> suchte sich
+         <lb facs="#facs_3_region_1779518803917_943_tl_30" n="N032"/>als <rs type="person" ref="#hsl_person_id_9049">Adorno</rs> zu mäßigen, leider nicht in der rechten Weise,
+         <lb facs="#facs_3_region_1779518803917_943_tl_31" n="N033"/>denn sein anhaltend tonloses, trockenes Mezzavoce wirkte nicht
+         <lb facs="#facs_3_region_1779518803917_943_tl_32" n="N034"/>viel erbaulicher, als seine unmittelbar darauf gesetzten For
+         <lb facs="#facs_3_region_1779518803917_943_tl_33" n="N035" break="no"/>tissimodrucker. Sehr lobenswerth war Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3065">Horwitz</rs></hi> in der
+         <lb facs="#facs_3_region_1779518803917_943_tl_34" n="N036"/>nicht umfangreichen, aber wichtigen und heikligen Rolle des
+         <lb facs="#facs_3_region_1779518803917_943_tl_35" n="N037"/>Bösewichtes <rs type="person" ref="#hsl_person_id_9050">Paolo</rs>. Ein großes Verdienst um die gelungene
+         <lb facs="#facs_3_region_1779518803917_943_tl_36" n="N038"/>und lebhaft applaudirte Vorstellung hat Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_979">Jahn</rs></hi>, der
+         <lb facs="#facs_3_region_1779518803917_943_tl_37" n="N039"/>das Orchester dirigirt.</p>
          </div>
       </body>
    </text>

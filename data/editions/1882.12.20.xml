@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Abendblatt
-            </title>
+            <title level="a">Nr. 6581. Wien, Mittwoch, den 20. December 1882</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2025">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +70,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Abendblatt
-            </title>
+                     <title>Nr. 6581. Wien, Mittwoch, den 20. December 1882</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Abendblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1882-12-20">20.12.1882</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18821220"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-06-19">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-06-19">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-06-30">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -385,111 +385,92 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_1" n="N001"/><head type="h1">Neue Werke über Musik.</head>
+            <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_2" n="N002"/><head type="h2">(Schluß.)</head>
             <p>
-               <lb facs="#facs_1_line_1780808161660_93" n="N001"/>Nr. 6581. Wien, Mittwoch, den 20. December 1882
-            </p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <p facs="#facs_2_TextRegion_1779519135036_1102">
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_1" n="N001"/>Neue Werke über Musik.
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_2" n="N002"/>(Schluß.)
-               <lb facs="#facs_2_line_1780808197787_102" n="N003"/>
-               <rs type="bibl">
-                  <hi rendition="#em">Die deutsche Bühne</hi>, in Bild und Wort dargestellt von einem</rs>
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_5" n="N004"/>
-               <rs type="bibl">Weimaraner</rs>. (<rs type="place">Dresden</rs>, <date month="0" day="0" year="0">1882</date>, bei Wilhelm <rs type="person">Streit</rs>.)
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_6" n="N005"/>Dieses elegante Album in Groß-Quartformat und prächtigem
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_7" n="N006"/>Einband ist mehr und etwas Besseres als bloßer Luxusaufputz
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_8" n="N007"/>für Salons — ein höchst anregendes, ebenso unterhaltendes als
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_9" n="N008"/>lehrreiches Buch. Der ungenannte Verfasser unternimmt es, die
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_10" n="N009"/>eigenthümliche Entwicklung der Bühnenkunst im innigen Zusam¬
-               <lb facs="#facs_2_line_1780808414587_114" n="N010"/>menhange mit der jeweiligen geistigen Bildung darzustellen und
-               <lb facs="#facs_2_line_1780808431932_120" n="N011"/>dem Theaterfreunde in abgerundeten Schilderungen eine lebendige
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_16" n="N012"/>Anschauung von dem Bühnenwesen zu geben. Der Titel des
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_17" n="N013"/>Buches ist zu eng gefaßt, denn nicht blos die Entwicklung der
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_18" n="N014"/>„<hi rendition="#em">
-                  <rs type="place">deutsch</rs>en</hi> Bühne“ wird uns in Wort und Bild vorgeführt,
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_19" n="N015"/>auch die Theatergeschichte <rs type="place">Griechenland</rs>s und <rs type="place">Rom</rs>s, die An¬
-               <lb facs="#facs_2_line_1780808515731_130" n="N016"/>fänge der <rs type="place">spanisch</rs>en, <rs type="place">französisch</rs>en und <rs type="place">englisch</rs>en Bühne.
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_22" n="N017"/>Den größten Raum des Buches nimmt allerdings das
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_23" n="N018"/>
-               <rs type="place">deutsch</rs>e Theater ein. Als besonders anziehende Capitel
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_24" n="N019"/>nennen wir: die Glanzzeit der <rs type="place">italienisch</rs>en Hofoper in <rs type="place">Dresden</rs>
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_25" n="N020"/>(mit den köstlichen Rococo-Costümbildern des <rs type="person">Achilles</rs> und der
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_26" n="N021"/>
-               <rs type="person">Iphigenie</rs> von <date month="0" day="0" year="0">1730</date>), das <rs type="person">Schröder</rs>'sche Theater in <rs type="place">Hamburg</rs>,
-               <lb facs="#facs_2_line_1780808613963_139" n="N022"/>das <rs type="place">Wien</rs>er National-Theater unter <rs type="person">Joseph II.</rs>, die ersten Auf¬
-               <lb facs="#facs_2_line_1780808634411_143" n="N023"/>führungen des „<rs type="bibl">Fidelio</rs>“ und des „<rs type="bibl">Freischütz</rs>“ u. s. w. Die Dar¬
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_31" n="N024"/>stellung reicht bis in die neueste Zeit, schildert die <rs type="place">Meininger</rs>
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_32" n="N025"/>und das <rs type="person">Wagner</rs>-Theater in <rs type="place">Bayreuth</rs> und schließt mit den sorg¬
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_33" n="N026"/>fältigen Abbildungen der drei neuesten Theater: dem <rs type="place">Frankfurt</rs>er,
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_34" n="N027"/>dem <rs type="place">Wien</rs>er Opernhaus und dem neuen <rs type="place">Wien</rs>er Burgtheater in
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_35" n="N028"/>seiner Vollendung. Porträts und Costümbilder der berühmtesten
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_36" n="N029"/>Schauspieler und Sänger alter und neuer Zeit schmücken in
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_37" n="N030"/>großer Zahl dieses Buch, dessen Idee, Ausführung und Aus¬
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_38" n="N031"/>stattung in gleicher Weise glücklich genannt werden müssen.
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_39" n="N032"/>
-               <hi rendition="#em">Dr. Guido <rs type="person">Adler</rs>
-               </hi>: „<rs type="bibl">Studien zur Geschichte der Harmonie</rs>“.
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_40" n="N033"/>(<rs type="place">Wien</rs>, bei <rs type="person">Gerold</rs>, <date month="0" day="0" year="0">1881</date>.)
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_41" n="N034"/>Der Verfasser, Privatdocent der Musikwissenschaft an der
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_42" n="N035"/>
-               <rs type="place">Wien</rs>er Universität, veröffentlicht in dieser für fachgelehrte Kreise
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_43" n="N036"/>bestimmten Abhandlung höchst interessante Forschungen über die
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_44" n="N037"/>Entwicklung von Harmonie und Melodie, insbesondere über die
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_45" n="N038"/>Bedeutung der sogenannten Fauxbourdons, „dieser wissenschaft¬
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_46" n="N039"/>lichen Sphinx“, deren Namen die verschiedensten Arten mehr¬
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_47" n="N040"/>stimmiger Musik vom vierzehnten bis ins siebzehnte Jahrhundert
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_48" n="N041"/>getragen haben. Dr. <rs type="person">Adler</rs> bewährt in dieser Abhandlung seine
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_49" n="N042"/>vollkommene Vertrautheit mit einer jetzt sehr selten gepflegten und
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_50" n="N043"/>schwierigen musikwissenschaftlichen Materie. Die wenigen Ge¬
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_51" n="N044"/>lehrten, die heute noch dafür Interesse und Verständnitz haben,
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_52" n="N045"/>wie <rs type="person">Gevaert</rs>, <rs type="person">Chrysander</rs>, <rs type="person">Riemann</rs>, haben Herrn Dr. <rs type="person">Adler</rs> zu
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_53" n="N046"/>seiner Arbeit beglückwünscht.
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_54" n="N047"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Fromme's Kalender für die musikalische Welt</rs>
-               </hi>
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_55" n="N048"/>
-               <rs type="bibl">für das Jahr 1883</rs>. Redigirt von Dr. Theodor <hi rendition="#em">
-                  <rs type="person">Helm</rs>
-               </hi>.
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_56" n="N049"/>Eine Anzeige des achten Jahrganges dieses rühmlich be¬
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_57" n="N050"/>kannten Musiker-Kalenders darf sich nicht auf das den früheren
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_58" n="N051"/>Jahrgängen gezollte Lob beschränken, denn der vorliegende neueste
-               <lb facs="#facs_2_line_1780809010137_190" n="N052"/>zeichnet sich noch durch größere Genauigkeit und Reichhaltigkeit
-               <lb facs="#facs_2_line_1780809025314_194" n="N053"/>aus. Zu den bisherigen so praktischen Rubriken: Adressen aller
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_63" n="N054"/>Musiker in <rs type="place">Wien</rs>, Verzeichniß aller Concert- und Opernauffüh¬
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_64" n="N055"/>rungen des verflossenen Jahres, Statistik und Personalstand
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_65" n="N056"/>sämmtlicher Musik- und Gesangvereine der Monarchie, ist noch
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_66" n="N057"/>ein neues werthvolles Verzeichniß hinzugekommen, das der Ge¬
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_67" n="N058"/>burts- und Todestage der berühmtesten verstorbenen Componisten
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_68" n="N059"/>und der hervorragendsten Musiker der Gegenwart. Für jeden
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_69" n="N060"/>
-               <rs type="place">österreichisch</rs>en Musiker ist <rs type="person">Helm</rs>'s <rs type="bibl">Kalender</rs> so gut wie unent¬
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_70" n="N061"/>behrlich.
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_71" n="N062"/>
-               <hi rendition="#em">Hermann <rs type="person">Eichborn</rs>
-               </hi>: „<rs type="bibl">Die Trompete in alter und neuer Zeit</rs>.“
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_72" n="N063"/>(<rs type="place">Leipzig</rs>
-               <date month="0" day="0" year="0">1881</date>, Breitkopf und Härtel.)
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_73" n="N064"/>Der Verfasser gibt uns zuerst eine Geschichte der Trompete,
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_74" n="N065"/>sodann eine Darstellung des Wesens und der Eigenschaften dieses
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_75" n="N066"/>wichtigen und interessanten Instrumentes. Er entwickelt dabei nicht
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_76" n="N067"/>nur eine genaue praktische Kenntniß der Trompete und ihrer Ab¬
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_77" n="N068"/>arten, sondern auch eine große Belesenheit in allen einschlägigen
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_78" n="N069"/>Büchern und Partituren alter und neuer Zeit. <rs type="person">Eichborn</rs>’s <rs type="bibl">Mono¬</rs>
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_79" n="N070"/>
-               <rs type="bibl">graphie</rs>, deren Werth durch zahlreiche Notenbeispiele erhöht wird,
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_80" n="N071"/>bietet Anregendes und Belehrendes einem Jeden, der sich für
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_81" n="N072"/>Musikgeschichte, Instrumentenbau und Instrumentirungskunst
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_82" n="N073"/>interessirt.
-               <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_83" n="N074"/>
-               <rs type="person">Ed. H.</rs>
-               <lb facs="#facs_2_line_1780809285257_245" n="N075"/>In unserer gestrigen Besprechung von Ferd. <hi rendition="#em">
-                  <rs type="person">Hiller</rs>'s</hi>
-               <rs type="bibl">Broschüre</rs>
-               <lb facs="#facs_2_line_1780809289811_248" n="N076"/>über <rs type="person">Goethe</rs> soll es in dem Citat über <rs type="person">Goethe</rs>'s Gedichte heißen, daß
-               <lb facs="#facs_2_line_1780809291995_251" n="N077"/>sie „<hi rendition="#em">gesungen</hi>“ sind, statt „gelungen“, was sie übrigens auch sind.</p>
+         <lb facs="#facs_2_line_1780808197787_102" n="N003"/><rs type="bibl" ref="#hsl_work_id_6548"><hi rendition="#em">Die deutsche Bühne</hi>, in Bild und Wort dargestellt von einem
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_5" n="N004"/>Weimaraner</rs>. (<rs type="place" ref="#hsl_place_id_15">Dresden</rs>, <date>1882</date>, bei Wilhelm <rs type="person" ref="#hsl_person_id_9037">Streit</rs>.)
+            </p><p>
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_6" n="N005"/>Dieses elegante Album in Groß-Quartformat und prächtigem
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_7" n="N006"/>Einband ist mehr und etwas Besseres als bloßer Luxusaufputz
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_8" n="N007"/>für Salons — ein höchst anregendes, ebenso unterhaltendes als
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_9" n="N008"/>lehrreiches Buch. Der ungenannte Verfasser unternimmt es, die
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_10" n="N009"/>eigenthümliche Entwicklung der Bühnenkunst im innigen Zusam
+         <lb facs="#facs_2_line_1780808414587_114" n="N010" break="no"/>menhange mit der jeweiligen geistigen Bildung darzustellen und
+         <lb facs="#facs_2_line_1780808431932_120" n="N011"/>dem Theaterfreunde in abgerundeten Schilderungen eine lebendige
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_16" n="N012"/>Anschauung von dem Bühnenwesen zu geben. Der Titel des
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_17" n="N013"/>Buches ist zu eng gefaßt, denn nicht blos die Entwicklung der
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_18" n="N014"/>„<hi rendition="#em"><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en</hi> Bühne“ wird uns in Wort und Bild vorgeführt,
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_19" n="N015"/>auch die Theatergeschichte <rs type="place" ref="#hsl_place_id_23">Griechenland</rs>s und <rs type="place" ref="#hsl_place_id_47">Rom</rs>s, die An
+         <lb facs="#facs_2_line_1780808515731_130" n="N016" break="no"/>fänge der <rs type="place" ref="#hsl_place_id_2">spanisch</rs>en, <rs type="place" ref="#hsl_place_id_21">französisch</rs>en und <rs type="place" ref="#hsl_place_id_17">englisch</rs>en Bühne.
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_22" n="N017"/>Den größten Raum des Buches nimmt allerdings das
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_23" n="N018"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Theater ein. Als besonders anziehende Capitel
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_24" n="N019"/>nennen wir: die Glanzzeit der <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Hofoper in <rs type="place" ref="#hsl_place_id_15">Dresden</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_25" n="N020"/>(mit den köstlichen Rococo-Costümbildern des <rs type="person" ref="#hsl_person_id_1632">Achilles</rs> und der
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_26" n="N021"/><rs type="person" ref="#hsl_person_id_2590">Iphigenie</rs> von <date>1730</date>), das <rs type="person" ref="#hsl_person_id_2994">Schröder</rs>’sche Theater in <rs type="place" ref="#hsl_place_id_69">Hamburg</rs>,
+         <lb facs="#facs_2_line_1780808613963_139" n="N022"/>das <rs type="place" ref="#hsl_place_id_55">Wien</rs>er National-Theater unter <rs type="person" ref="#hsl_person_id_823">Joseph II.</rs>, die ersten Auf
+         <lb facs="#facs_2_line_1780808634411_143" n="N023" break="no"/>führungen des „<rs type="bibl" ref="#hsl_work_id_348">Fidelio</rs>“ und des „<rs type="bibl" ref="#hsl_work_id_236">Freischütz</rs>“ u. s. w. Die Dar
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_31" n="N024" break="no"/>stellung reicht bis in die neueste Zeit, schildert die <rs type="place" ref="#hsl_place_id_192">Meininger</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_32" n="N025"/>und das <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Theater in <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs> und schließt mit den sorg
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_33" n="N026" break="no"/>fältigen Abbildungen der drei neuesten Theater: dem <rs type="place" ref="#hsl_place_id_20">Frankfurt</rs>er,
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_34" n="N027"/>dem <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Opernhaus und dem neuen <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Burgtheater in
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_35" n="N028"/>seiner Vollendung. Porträts und Costümbilder der berühmtesten
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_36" n="N029"/>Schauspieler und Sänger alter und neuer Zeit schmücken in
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_37" n="N030"/>großer Zahl dieses Buch, dessen Idee, Ausführung und Aus
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_38" n="N031" break="no"/>stattung in gleicher Weise glücklich genannt werden müssen.
+            </p><p>
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_39" n="N032"/><hi rendition="#em">Dr. Guido <rs type="person" ref="#hsl_person_id_1335">Adler</rs></hi>: „<rs type="bibl" ref="#hsl_work_id_6549">Studien zur Geschichte der Harmonie</rs>“.
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_40" n="N033"/>(<rs type="place" ref="#hsl_place_id_55">Wien</rs>, bei <rs type="person" ref="#hsl_person_id_9039">Gerold</rs>, <date>1881</date>.)
+            </p><p>
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_41" n="N034"/>Der Verfasser, Privatdocent der Musikwissenschaft an der
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_42" n="N035"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Universität, veröffentlicht in dieser für fachgelehrte Kreise
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_43" n="N036"/>bestimmten Abhandlung höchst interessante Forschungen über die
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_44" n="N037"/>Entwicklung von Harmonie und Melodie, insbesondere über die
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_45" n="N038"/>Bedeutung der sogenannten Fauxbourdons, „dieser wissenschaft
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_46" n="N039" break="no"/>lichen Sphinx“, deren Namen die verschiedensten Arten mehr
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_47" n="N040" break="no"/>stimmiger Musik vom vierzehnten bis ins siebzehnte Jahrhundert
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_48" n="N041"/>getragen haben. Dr. <rs type="person" ref="#hsl_person_id_1335">Adler</rs> bewährt in dieser Abhandlung seine
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_49" n="N042"/>vollkommene Vertrautheit mit einer jetzt sehr selten gepflegten und
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_50" n="N043"/>schwierigen musikwissenschaftlichen Materie. Die wenigen Ge
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_51" n="N044" break="no"/>lehrten, die heute noch dafür Interesse und Verständnitz haben,
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_52" n="N045"/>wie <rs type="person" ref="#hsl_person_id_3391">Gevaert</rs>, <rs type="person" ref="#hsl_person_id_1444">Chrysander</rs>, <rs type="person" ref="#hsl_person_id_2698">Riemann</rs>, haben Herrn Dr. <rs type="person" ref="#hsl_person_id_1335">Adler</rs> zu
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_53" n="N046"/>seiner Arbeit beglückwünscht.
+            </p><p>
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_54" n="N047"/><rs type="bibl" ref="#hsl_work_id_6552"><hi rendition="#em">Fromme’s Kalender für die musikalische Welt</hi>
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_55" n="N048"/>für das Jahr 1883</rs>. Redigirt von Dr. Theodor <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7023">Helm</rs></hi>.
+            </p><p>
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_56" n="N049"/>Eine Anzeige des achten Jahrganges dieses rühmlich be
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_57" n="N050" break="no"/>kannten Musiker-Kalenders darf sich nicht auf das den früheren
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_58" n="N051"/>Jahrgängen gezollte Lob beschränken, denn der vorliegende neueste
+         <lb facs="#facs_2_line_1780809010137_190" n="N052"/>zeichnet sich noch durch größere Genauigkeit und Reichhaltigkeit
+         <lb facs="#facs_2_line_1780809025314_194" n="N053"/>aus. Zu den bisherigen so praktischen Rubriken: Adressen aller
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_63" n="N054"/>Musiker in <rs type="place" ref="#hsl_place_id_55">Wien</rs>, Verzeichniß aller Concert- und Opernauffüh
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_64" n="N055" break="no"/>rungen des verflossenen Jahres, Statistik und Personalstand
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_65" n="N056"/>sämmtlicher Musik- und Gesangvereine der Monarchie, ist noch
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_66" n="N057"/>ein neues werthvolles Verzeichniß hinzugekommen, das der Ge
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_67" n="N058" break="no"/>burts- und Todestage der berühmtesten verstorbenen Componisten
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_68" n="N059"/>und der hervorragendsten Musiker der Gegenwart. Für jeden
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_69" n="N060"/><rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en Musiker ist <rs type="person" ref="#hsl_person_id_7023">Helm</rs>’s <rs type="bibl" ref="#hsl_work_id_6552">Kalender</rs> so gut wie unent
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_70" n="N061" break="no"/>behrlich.
+            </p><p>
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_71" n="N062"/><hi rendition="#em">Hermann <rs type="person" ref="#hsl_person_id_9040">Eichborn</rs></hi>: „<rs type="bibl" ref="#hsl_work_id_6551">Die Trompete in alter und neuer Zeit</rs>.“
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_72" n="N063"/>(<rs type="place" ref="#hsl_place_id_32">Leipzig</rs><space quantity="1" unit="char"/><date>1881</date>, Breitkopf und Härtel.)
+            </p><p>
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_73" n="N064"/>Der Verfasser gibt uns zuerst eine Geschichte der Trompete,
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_74" n="N065"/>sodann eine Darstellung des Wesens und der Eigenschaften dieses
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_75" n="N066"/>wichtigen und interessanten Instrumentes. Er entwickelt dabei nicht
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_76" n="N067"/>nur eine genaue praktische Kenntniß der Trompete und ihrer Ab
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_77" n="N068" break="no"/>arten, sondern auch eine große Belesenheit in allen einschlägigen
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_78" n="N069"/>Büchern und Partituren alter und neuer Zeit. <rs type="person" ref="#hsl_person_id_9040">Eichborn</rs>’s <rs type="bibl" ref="#hsl_work_id_6551">Mono
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_79" n="N070" break="no"/>graphie</rs>, deren Werth durch zahlreiche Notenbeispiele erhöht wird,
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_80" n="N071"/>bietet Anregendes und Belehrendes einem Jeden, der sich für
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_81" n="N072"/>Musikgeschichte, Instrumentenbau und Instrumentirungskunst
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_82" n="N073"/>interessirt.
+         <lb facs="#facs_2_TextRegion_1779519135036_1102_tl_83" n="N074"/><rs type="person" ref="#hsl_person_id_1">Ed. H.</rs>
+            </p><p>
+         <lb facs="#facs_2_line_1780809285257_245" n="N075"/>In unserer gestrigen Besprechung von Ferd. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_124">Hiller</rs>’s</hi><space quantity="1" unit="char"/><rs type="bibl" ref="#hsl_work_id_6550">Broschüre</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_line_1780809289811_248" n="N076"/>über <rs type="person" ref="#hsl_person_id_100">Goethe</rs> soll es in dem Citat über <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s Gedichte heißen, daß
+         <lb facs="#facs_2_line_1780809291995_251" n="N077"/>sie „<hi rendition="#em">gesungen</hi>“ sind, statt „gelungen“, was sie übrigens auch sind.</p>
          </div>
       </body>
    </text>

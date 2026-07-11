@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 6506. Wien, Freitag, den 6. October 1882</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +70,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 6506. Wien, Freitag, den 6. October 1882</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1882-10-06">06.10.1882</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18821006"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-06-16">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-06-19">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-07-10">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1036,414 +1036,311 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1779518544035_747_tl_1" n="N001"/><head type="h1">Hofoperntheater.</head>
+            <lb facs="#facs_1_region_1779518544035_747_tl_2" n="N002"/><head type="h2">(Das neue Ballet „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_6711">Melusina</rs></hi>“. — „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_6543">Die Alpenhütte</rs></hi>“ von Ad. <rs type="person" ref="#hsl_person_id_12">Adam</rs>.)</head>
             <p>
-               <lb facs="#facs_1_line_1780553348605_934" n="N001"/>Nr. 6506. Wien, Freitag, den 6. October 1882
-            </p>
+         <lb facs="#facs_1_region_1779518544035_747_tl_3" n="N003"/>Ed. H. <rs type="person" ref="#hsl_person_id_6582">Melusina</rs>, die holde Wasserfee, hat noch lange,
+         <lb facs="#facs_1_region_1779518544035_747_tl_4" n="N004"/>seitdem sie den Grafen <rs type="person" ref="#hsl_person_id_9126">Raimund</rs> entzückt und berückt hat,
+         <lb facs="#facs_1_region_1779518544035_747_tl_5" n="N005"/>den gleichen Zauber, glücklicherweise ohne das gleiche Ver
+         <lb facs="#facs_1_region_1779518544035_747_tl_6" n="N006" break="no"/>derben, an Dichtern, Malern, Musikern wiederholt. Und
+         <lb facs="#facs_1_region_1779518544035_747_tl_7" n="N007"/>zwar seltsam genug, immer an <hi rendition="#em"><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en</hi> Künstlern.
+         <lb facs="#facs_1_region_1779518544035_747_tl_8" n="N008"/>Obwol <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Ursprunges, schlug die Sage von der
+         <lb facs="#facs_1_region_1779518544035_747_tl_9" n="N009"/>schönen <rs type="person" ref="#hsl_person_id_6582">Melusina</rs>, der Stamm-Mutter des Hauses Lusignan,
+         <lb facs="#facs_1_region_1779518544035_747_tl_10" n="N010"/>viel tiefere Wurzeln im <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Boden, wohin sie erst
+         <lb facs="#facs_1_region_1779518544035_747_tl_11" n="N011"/>später aus dem Süden gelangte. Von jeher hat der <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e
+         <lb facs="#facs_1_region_1779518544035_747_tl_12" n="N012"/>Volksglaube gern mit geheimnißvollen Naturgeistern, guten
+         <lb facs="#facs_1_region_1779518544035_747_tl_13" n="N013"/>und bösen, verkehrt, und so wurde auch <rs type="person" ref="#hsl_person_id_6582">Melusina</rs> ihm bald
+         <lb facs="#facs_1_region_1779518544035_747_tl_14" n="N014"/>eine heimische Gestalt. Die Nation, welche einen <rs type="bibl" ref="#hsl_work_id_236">Freischütz</rs>,
+         <lb facs="#facs_1_region_1779518544035_747_tl_15" n="N015"/>eine <rs type="bibl" ref="#hsl_work_id_1462">Undine</rs>, einen <rs type="bibl" ref="#hsl_work_id_184">Hanns Heiling</rs>, einen <rs type="bibl" ref="#hsl_work_id_237">fliegenden Holländer</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518544035_747_tl_16" n="N016"/>künstlerisch verewigt hat, konnte an <rs type="person" ref="#hsl_person_id_6582">Melusina</rs>’s rührender
+         <lb facs="#facs_1_region_1779518544035_747_tl_17" n="N017"/>Gestalt nicht poetisch unbewegt vorübergehen. Zuerst hat
+         <lb facs="#facs_1_region_1779518544035_747_tl_18" n="N018"/>Felix <hi rendition="#em"><rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs></hi> sie in seiner berühmtesten <rs type="bibl" ref="#hsl_work_id_6">Ouvertüre</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518544035_747_tl_19" n="N019"/>verherrlicht; ein jüngerer <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Componist, Julius
+         <lb facs="#facs_1_region_1779518544035_747_tl_20" n="N020"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2300">Zellner</rs></hi>, ist ihm dann mit einer <rs type="bibl" ref="#hsl_work_id_6674">Melusina-Symphonie</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518544035_747_tl_21" n="N021"/>nachgefolgt, welche gleichsam in vier Acten auseinanderbreitet,
+         <lb facs="#facs_1_region_1779518544035_747_tl_22" n="N022"/>was <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs> in Einen zusammengedrängt hatte. Wir
+         <lb facs="#facs_1_region_1779518544035_747_tl_23" n="N023"/>besitzen eine Oper „<rs type="bibl" ref="#hsl_work_id_4780">Melusina</rs>“ von Conradin <hi rendition="#em"><rs type="person" ref="#hsl_person_id_908">Kreutzer</rs></hi>,
+         <lb facs="#facs_1_region_1779518544035_747_tl_24" n="N024"/>eine andere von L. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2867">Schindelmeißer</rs></hi>; in neuester Zeit
+         <lb facs="#facs_1_region_1779518544035_747_tl_25" n="N025"/>haben sogar drei Operncomponisten fast gleichzeitig <rs type="bibl" ref="#hsl_work_id_6675 #hsl_work_id_6676 #hsl_work_id_6708">Melusinen</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518544035_747_tl_26" n="N026"/>auf die Bühne gebracht: C. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6620">Gramann</rs></hi> in <rs type="place" ref="#hsl_place_id_267">Wiesbaden</rs>,
+         <lb facs="#facs_1_region_1779518544035_747_tl_27" n="N027"/>Karl <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9129">Mayerberger</rs></hi> in <rs type="place" ref="#hsl_place_id_297">Preßburg</rs>, Baron <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2864">Perfall</rs></hi> in
+         <lb facs="#facs_1_region_1779518544035_747_tl_28" n="N028"/><rs type="place" ref="#hsl_place_id_39">München</rs>. Nur in ihrem Vaterlande <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> hat <rs type="person" ref="#hsl_person_id_6582">Melu
+         <lb facs="#facs_1_region_1779518544035_747_tl_29" n="N029" break="no"/>sina</rs> keine Verherrlichung in der Oper erlebt, nicht einmal
+         <lb facs="#facs_1_region_1779518544035_747_tl_30" n="N030"/>als Ballet-Sujet. Nachdem man dort die mythologischen und
+         <lb facs="#facs_1_region_1779518544035_747_tl_31" n="N031"/>antik-historischen Balletstoffe satt bekommen hatte, nahm das
+         <lb facs="#facs_1_region_1779518544035_747_tl_32" n="N032"/><rs type="place" ref="#hsl_place_id_44">Paris</rs>er Ballet bald die glückliche Wendung zum Märchen.
+         <lb facs="#facs_1_region_1779518544035_747_tl_33" n="N033"/>Mit Enthusiasmus begrüßte man das getanzte <rs type="bibl" ref="#hsl_work_id_1932">Dornröschen</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518544035_747_tl_34" n="N034"/>(„<rs type="bibl" ref="#hsl_work_id_6709">La Belle au bois dormant</rs>“), das <rs type="bibl" ref="#hsl_work_id_2860">Aschenbrödel</rs>, die Willis
+         <lb facs="#facs_1_region_1779518544035_747_tl_35" n="N035"/>(<rs type="bibl" ref="#hsl_work_id_3969">Giselle</rs>) und ähnliche Märchen, die einen poetischen Hauch
+         <lb facs="#facs_1_region_1779518544035_747_tl_36" n="N036"/>über das <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Ballet der Dreißiger- und Vierziger
+         <lb facs="#facs_1_region_1779518544035_747_tl_37" n="N037" break="no"/>jahre breiteten. Nur an die schöne <rs type="person" ref="#hsl_person_id_6582">Melusina</rs> hat bisher kein
+         <lb facs="#facs_1_region_1779518544035_747_tl_38" n="N038"/><rs type="place" ref="#hsl_place_id_21">französisch</rs>er Tanzpoet gedacht. In <rs type="place" ref="#hsl_place_id_55">Wien</rs> ist es zwar kein<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1779518544035_747_tl_1" n="N001"/>Hofoperntheater.
-               <lb facs="#facs_1_region_1779518544035_747_tl_2" n="N002"/>(Das neue Ballet „<hi rendition="#em">
-                  <rs type="bibl">Melusina</rs>
-               </hi>“. — „<hi rendition="#em">
-                  <rs type="bibl">Die Alpenhütte</rs>
-               </hi>“ von Ad. <rs type="person">Adam</rs>.)
-               <lb facs="#facs_1_region_1779518544035_747_tl_3" n="N003"/>Ed. H. <rs type="person">Melusina</rs>, die holde Wasserfee, hat noch lange,
-               <lb facs="#facs_1_region_1779518544035_747_tl_4" n="N004"/>seitdem sie den Grafen <rs type="person">Raimund</rs> entzückt und berückt hat,
-               <lb facs="#facs_1_region_1779518544035_747_tl_5" n="N005"/>den gleichen Zauber, glücklicherweise ohne das gleiche Ver¬
-               <lb facs="#facs_1_region_1779518544035_747_tl_6" n="N006"/>derben, an Dichtern, Malern, Musikern wiederholt. Und
-               <lb facs="#facs_1_region_1779518544035_747_tl_7" n="N007"/>zwar seltsam genug, immer an <hi rendition="#em">
-                  <rs type="place">deutsch</rs>en</hi> Künstlern.
-               <lb facs="#facs_1_region_1779518544035_747_tl_8" n="N008"/>Obwol <rs type="place">französisch</rs>en Ursprunges, schlug die Sage von der
-               <lb facs="#facs_1_region_1779518544035_747_tl_9" n="N009"/>schönen <rs type="person">Melusina</rs>, der Stamm-Mutter des Hauses Lusignan,
-               <lb facs="#facs_1_region_1779518544035_747_tl_10" n="N010"/>viel tiefere Wurzeln im <rs type="place">deutsch</rs>en Boden, wohin sie erst
-               <lb facs="#facs_1_region_1779518544035_747_tl_11" n="N011"/>später aus dem Süden gelangte. Von jeher hat der <rs type="place">deutsch</rs>e
-               <lb facs="#facs_1_region_1779518544035_747_tl_12" n="N012"/>Volksglaube gern mit geheimnißvollen Naturgeistern, guten
-               <lb facs="#facs_1_region_1779518544035_747_tl_13" n="N013"/>und bösen, verkehrt, und so wurde auch <rs type="person">Melusina</rs> ihm bald
-               <lb facs="#facs_1_region_1779518544035_747_tl_14" n="N014"/>eine heimische Gestalt. Die Nation, welche einen <rs type="bibl">Freischütz</rs>,
-               <lb facs="#facs_1_region_1779518544035_747_tl_15" n="N015"/>eine <rs type="bibl">Undine</rs>, einen <rs type="bibl">Hanns Heiling</rs>, einen <rs type="bibl">fliegenden Holländer</rs>
-               <lb facs="#facs_1_region_1779518544035_747_tl_16" n="N016"/>künstlerisch verewigt hat, konnte an <rs type="person">Melusina</rs>'s rührender
-               <lb facs="#facs_1_region_1779518544035_747_tl_17" n="N017"/>Gestalt nicht poetisch unbewegt vorübergehen. Zuerst hat
-               <lb facs="#facs_1_region_1779518544035_747_tl_18" n="N018"/>Felix <hi rendition="#em">
-                  <rs type="person">Mendelssohn</rs>
-               </hi> sie in seiner berühmtesten <rs type="bibl">Ouvertüre</rs>
-               <lb facs="#facs_1_region_1779518544035_747_tl_19" n="N019"/>verherrlicht; ein jüngerer <rs type="place">Wien</rs>er Componist, Julius
-               <lb facs="#facs_1_region_1779518544035_747_tl_20" n="N020"/>
-               <hi rendition="#em">
-                  <rs type="person">Zellner</rs>
-               </hi>, ist ihm dann mit einer <rs type="bibl">Melusina-Symphonie</rs>
-               <lb facs="#facs_1_region_1779518544035_747_tl_21" n="N021"/>nachgefolgt, welche gleichsam in vier Acten auseinanderbreitet,
-               <lb facs="#facs_1_region_1779518544035_747_tl_22" n="N022"/>was <rs type="person">Mendelssohn</rs> in Einen zusammengedrängt hatte. Wir
-               <lb facs="#facs_1_region_1779518544035_747_tl_23" n="N023"/>besitzen eine Oper „<rs type="bibl">Melusina</rs>“ von Conradin <hi rendition="#em">
-                  <rs type="person">Kreutzer</rs>
-               </hi>,
-               <lb facs="#facs_1_region_1779518544035_747_tl_24" n="N024"/>eine andere von L. <hi rendition="#em">
-                  <rs type="person">Schindelmeißer</rs>
-               </hi>; in neuester Zeit
-               <lb facs="#facs_1_region_1779518544035_747_tl_25" n="N025"/>haben sogar drei Operncomponisten fast gleichzeitig <rs type="bibl">Melusinen</rs>
-               <lb facs="#facs_1_region_1779518544035_747_tl_26" n="N026"/>auf die Bühne gebracht: C. <hi rendition="#em">
-                  <rs type="person">Gramann</rs>
-               </hi> in <rs type="place">Wiesbaden</rs>,
-               <lb facs="#facs_1_region_1779518544035_747_tl_27" n="N027"/>Karl <hi rendition="#em">
-                  <rs type="person">Mayerberger</rs>
-               </hi> in <rs type="place">Preßburg</rs>, Baron <hi rendition="#em">
-                  <rs type="person">Perfall</rs>
-               </hi> in
-               <lb facs="#facs_1_region_1779518544035_747_tl_28" n="N028"/>
-               <rs type="place">München</rs>. Nur in ihrem Vaterlande <rs type="place">Frankreich</rs> hat <rs type="person" continued="true">Melu¬</rs>
-               <lb facs="#facs_1_region_1779518544035_747_tl_29" n="N029"/>
-               <rs type="person" continued="true">sina</rs> keine Verherrlichung in der Oper erlebt, nicht einmal
-               <lb facs="#facs_1_region_1779518544035_747_tl_30" n="N030"/>als Ballet-Sujet. Nachdem man dort die mythologischen und
-               <lb facs="#facs_1_region_1779518544035_747_tl_31" n="N031"/>antik-historischen Balletstoffe satt bekommen hatte, nahm das
-               <lb facs="#facs_1_region_1779518544035_747_tl_32" n="N032"/>
-               <rs type="place">Paris</rs>er Ballet bald die glückliche Wendung zum Märchen.
-               <lb facs="#facs_1_region_1779518544035_747_tl_33" n="N033"/>Mit Enthusiasmus begrüßte man das getanzte <rs type="person">Dornröschen</rs>
-               <lb facs="#facs_1_region_1779518544035_747_tl_34" n="N034"/>(„<rs type="bibl">La Belle au bois dormant</rs>“), das <rs type="person">Aschenbrödel</rs>, die Willis
-               <lb facs="#facs_1_region_1779518544035_747_tl_35" n="N035"/>(<rs type="bibl">Giselle</rs>) und ähnliche Märchen, die einen poetischen Hauch
-               <lb facs="#facs_1_region_1779518544035_747_tl_36" n="N036"/>über das <rs type="place">französisch</rs>e Ballet der Dreißiger- und Vierziger¬
-               <lb facs="#facs_1_region_1779518544035_747_tl_37" n="N037"/>jahre breiteten. Nur an die schöne <rs type="person">Melusina</rs> hat bisher kein
-               <lb facs="#facs_1_region_1779518544035_747_tl_38" n="N038"/>
-               <rs type="place">französisch</rs>er Tanzpoet gedacht. In <rs type="place">Wien</rs> ist es zwar kein
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1779518547147_750_tl_1" n="N001"/>„Tanzpoet“ (wie die Balletmeister sich gerne nennen hören),
+         <lb facs="#facs_1_region_1779518547147_750_tl_2" n="N002"/>aber doch ein des Tanzes und der Bühne kundiger Poet,
+         <lb facs="#facs_1_region_1779518547147_750_tl_3" n="N003"/>welcher jetzt unserem darbenden Ballet-Repertoire aufgeholfen
+         <lb facs="#facs_1_region_1779518547147_750_tl_4" n="N004"/>hat durch die <rs type="person" ref="#hsl_person_id_6582">Melusina</rs>-Sage. Der Theaterzettel bezeichnet
+         <lb facs="#facs_1_region_1779518547147_750_tl_5" n="N005"/>diesen dankenswerthen Mitarbeiter extra statum mit einem
+         <lb facs="#facs_1_region_1779518547147_750_tl_6" n="N006"/>mysteriösen Sternchen, das, wie wir hören, „Friedrich
+         <lb facs="#facs_1_region_1779518547147_750_tl_7" n="N007"/><rs type="person" ref="#hsl_person_id_1024">Uhl</rs>“ ausgesprochen wird. Die nächste Anregung gab
+         <lb facs="#facs_1_region_1779518547147_750_tl_8" n="N008"/>ihm <hi rendition="#em"><rs type="person" ref="#hsl_person_id_283">Schwind</rs>’s</hi> berühmter Bildercyklus im Belvedere.
+         <lb facs="#facs_1_region_1779518547147_750_tl_9" n="N009"/>Moriz v. <rs type="person" ref="#hsl_person_id_283">Schwind</rs>, der Märchendichter unter den
+         <lb facs="#facs_1_region_1779518547147_750_tl_10" n="N010"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Malern, hat darin die Geschichte der schönen
+         <lb facs="#facs_1_region_1779518547147_750_tl_11" n="N011"/><rs type="person" ref="#hsl_person_id_6582">Melusina</rs>, von ihrem traumseligen Anfang durch irdisches
+         <lb facs="#facs_1_region_1779518547147_750_tl_12" n="N012"/>Glück und Unheil bis zum tragisch-versöhnenden Schluß
+         <lb facs="#facs_1_region_1779518547147_750_tl_13" n="N013"/>zusammenhängend dargestellt. Diese Bilder, entzückend durch
+         <lb facs="#facs_1_region_1779518547147_750_tl_14" n="N014"/>ihre reine Schönheit wie durch ihren musikalischen Stimmungs
+         <lb facs="#facs_1_region_1779518547147_750_tl_15" n="N015" break="no"/>zauber, haben fast die Deutlichkeit gesprochener Erzählung.
+         <lb facs="#facs_1_region_1779518547147_750_tl_16" n="N016"/>Ja, für ein bühnenkundiges Auge bilden sie, wie sie sind,
+         <lb facs="#facs_1_region_1779518547147_750_tl_17" n="N017"/>ein vollständiges Scenarium zu einer mit Pantomime, Tanz
+         <lb facs="#facs_1_region_1779518547147_750_tl_18" n="N018"/>und Musik auszufüllenden Handlung. Der Autor des neuen
+         <lb facs="#facs_1_region_1779518547147_750_tl_19" n="N019"/>Ballets hielt sich in der That getreu an die <rs type="person" ref="#hsl_person_id_283">Schwind</rs>’schen
+         <lb facs="#facs_1_region_1779518547147_750_tl_20" n="N020"/>Illustrationen, die sogar dem Textbuche in niedlichen kleinen
+         <lb facs="#facs_1_region_1779518547147_750_tl_21" n="N021"/>Photographien, gleichsam als Orientirungs-Kärtchen, beigedruckt
+         <lb facs="#facs_1_region_1779518547147_750_tl_22" n="N022"/>sind. Damit hatte er sich jeden Zugang zu der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_721">Grill
+         <lb facs="#facs_1_region_1779518547147_750_tl_23" n="N023" break="no"/>parzer</rs></hi>’schen Operndichtung „<rs type="bibl" ref="#hsl_work_id_5293">Melusina</rs>“, an die wir an
+         <lb facs="#facs_1_region_1779518547147_750_tl_24" n="N024" break="no"/>fangs dachten, versperrt. Nur den lustigen Knappen <rs type="person" ref="#hsl_person_id_7550">Troll</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518547147_750_tl_25" n="N025"/>und die zwei Schwestern <rs type="person" ref="#hsl_person_id_7549">Melusina</rs>’s, <rs type="person" ref="#hsl_person_id_9127">Plantina</rs> und <rs type="person" ref="#hsl_person_id_9128">Meliora</rs>,
+         <lb facs="#facs_1_region_1779518547147_750_tl_26" n="N026"/>hat er bis auf die Namen beibehalten, den beiden letzteren
+         <lb facs="#facs_1_region_1779518547147_750_tl_27" n="N027"/>im wohlerkannten Interesse schöner Gruppirung eine dritte
+         <lb facs="#facs_1_region_1779518547147_750_tl_28" n="N028"/><rs type="person" ref="#hsl_person_id_7549">Schwester</rs> beigesellend. <rs type="person" ref="#hsl_person_id_721">Grillparzer</rs>, der sein dreiactiges Opern-
+         <lb facs="#facs_1_region_1779518547147_750_tl_29" n="N029"/>Libretto bekanntlich für <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> gedichtet — vergeblich ge
+         <lb facs="#facs_1_region_1779518547147_750_tl_30" n="N030" break="no"/>dichtet — hatte, verändert die Volkssage in vielen wesent
+         <lb facs="#facs_1_region_1779518547147_750_tl_31" n="N031" break="no"/>lichen Punkten, wie mich dünkt, nicht immer zum Vortheile
+         <lb facs="#facs_1_region_1779518547147_750_tl_32" n="N032"/>derselben. Ritter <rs type="person" ref="#hsl_person_id_7551">Raimund</rs> führt da <rs type="person" ref="#hsl_person_id_7549">Melusine</rs>n nicht als
+         <lb facs="#facs_1_region_1779518547147_750_tl_33" n="N033"/>Gattin heim auf sein Schloß, sondern lebt bei ihr, liebes
+         <lb facs="#facs_1_region_1779518547147_750_tl_34" n="N034" break="no"/>trunken, in ihrem Zauberpalaste wie <rs type="person" ref="#hsl_person_id_663">Tannhäuser</rs> im Venus
+         <lb facs="#facs_1_region_1779518547147_750_tl_35" n="N035" break="no"/>berg. Allmälig erwachende Sehnsucht nach der Heimat, nach
+         <lb facs="#facs_1_region_1779518547147_750_tl_36" n="N036"/>menschlichem Verkehre und eigener Thätigkeit drängt ihn endlich
+         <lb facs="#facs_1_region_1779518547147_750_tl_37" n="N037"/>fort. <rs type="person" ref="#hsl_person_id_7549">Melusina</rs> gibt ihm willig Urlaub und einen Ring
+         <lb facs="#facs_1_region_1779518547147_750_tl_38" n="N038"/>dazu, mittelst dessen er sie beliebig zu sich rufen kann.
+         <lb facs="#facs_1_region_1779518547147_750_tl_39" n="N039"/>Nur an einem bestimmten Tage in der Woche dürfe er es
+         <lb facs="#facs_1_region_1779518547147_750_tl_40" n="N040"/>nicht, will er nicht sich selbst zugleich mit ihr verderben.
+         <lb facs="#facs_1_region_1779518547147_750_tl_41" n="N041"/><rs type="person" ref="#hsl_person_id_7551">Raimund</rs> schwört es ihr zu und kehrt in die Heimat zurück,<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1779518547147_750_tl_1" n="N001"/>„Tanzpoet“ (wie die Balletmeister sich gerne nennen hören),
-               <lb facs="#facs_1_region_1779518547147_750_tl_2" n="N002"/>aber doch ein des Tanzes und der Bühne kundiger Poet,
-               <lb facs="#facs_1_region_1779518547147_750_tl_3" n="N003"/>welcher jetzt unserem darbenden Ballet-Repertoire aufgeholfen
-               <lb facs="#facs_1_region_1779518547147_750_tl_4" n="N004"/>hat durch die <rs type="person">Melusina</rs>-Sage. Der Theaterzettel bezeichnet
-               <lb facs="#facs_1_region_1779518547147_750_tl_5" n="N005"/>diesen dankenswerthen Mitarbeiter extra statum mit einem
-               <lb facs="#facs_1_region_1779518547147_750_tl_6" n="N006"/>mysteriösen Sternchen, das, wie wir hören, „Friedrich
-               <lb facs="#facs_1_region_1779518547147_750_tl_7" n="N007"/>
-               <rs type="person">Uhl</rs>“ ausgesprochen wird. Die nächste Anregung gab
-               <lb facs="#facs_1_region_1779518547147_750_tl_8" n="N008"/>ihm <hi rendition="#em">
-                  <rs type="person">Schwind</rs>'s</hi> berühmter Bildercyklus im <rs type="place">Belvedere</rs>.
-               <lb facs="#facs_1_region_1779518547147_750_tl_9" n="N009"/>Moriz v. <rs type="person">Schwind</rs>, der Märchendichter unter den
-               <lb facs="#facs_1_region_1779518547147_750_tl_10" n="N010"/>
-               <rs type="place">deutsch</rs>en Malern, hat darin die Geschichte der schönen
-               <lb facs="#facs_1_region_1779518547147_750_tl_11" n="N011"/>
-               <rs type="person">Melusina</rs>, von ihrem traumseligen Anfang durch irdisches
-               <lb facs="#facs_1_region_1779518547147_750_tl_12" n="N012"/>Glück und Unheil bis zum tragisch-versöhnenden Schluß
-               <lb facs="#facs_1_region_1779518547147_750_tl_13" n="N013"/>zusammenhängend dargestellt. Diese Bilder, entzückend durch
-               <lb facs="#facs_1_region_1779518547147_750_tl_14" n="N014"/>ihre reine Schönheit wie durch ihren musikalischen Stimmungs¬
-               <lb facs="#facs_1_region_1779518547147_750_tl_15" n="N015"/>zauber, haben fast die Deutlichkeit gesprochener Erzählung.
-               <lb facs="#facs_1_region_1779518547147_750_tl_16" n="N016"/>Ja, für ein bühnenkundiges Auge bilden sie, wie sie sind,
-               <lb facs="#facs_1_region_1779518547147_750_tl_17" n="N017"/>ein vollständiges Scenarium zu einer mit Pantomime, Tanz
-               <lb facs="#facs_1_region_1779518547147_750_tl_18" n="N018"/>und Musik auszufüllenden Handlung. Der Autor des neuen
-               <lb facs="#facs_1_region_1779518547147_750_tl_19" n="N019"/>Ballets hielt sich in der That getreu an die <rs type="person">Schwind</rs>'schen
-               <lb facs="#facs_1_region_1779518547147_750_tl_20" n="N020"/>Illustrationen, die sogar dem Textbuche in niedlichen kleinen
-               <lb facs="#facs_1_region_1779518547147_750_tl_21" n="N021"/>Photographien, gleichsam als Orientirungs-Kärtchen, beigedruckt
-               <lb facs="#facs_1_region_1779518547147_750_tl_22" n="N022"/>sind. Damit hatte er sich jeden Zugang zu der <hi rendition="#em">
-                  <rs type="person" continued="true">Grill¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1779518547147_750_tl_23" n="N023"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">parzer</rs>
-               </hi>'schen Operndichtung „<rs type="bibl">Melusina</rs>“, an die wir an¬
-               <lb facs="#facs_1_region_1779518547147_750_tl_24" n="N024"/>fangs dachten, versperrt. Nur den lustigen Knappen <rs type="person">Troll</rs>
-               <lb facs="#facs_1_region_1779518547147_750_tl_25" n="N025"/>und die zwei Schwestern <rs type="person">Melusina</rs>'s, <rs type="person">Plantina</rs> und <rs type="person">Meliora</rs>,
-               <lb facs="#facs_1_region_1779518547147_750_tl_26" n="N026"/>hat er bis auf die Namen beibehalten, den beiden letzteren
-               <lb facs="#facs_1_region_1779518547147_750_tl_27" n="N027"/>im wohlerkannten Interesse schöner Gruppirung eine dritte
-               <lb facs="#facs_1_region_1779518547147_750_tl_28" n="N028"/>
-               <rs type="person">Schwester</rs> beigesellend. <rs type="person">Grillparzer</rs>, der sein dreiactiges Opern-
-               <lb facs="#facs_1_region_1779518547147_750_tl_29" n="N029"/>Libretto bekanntlich für <rs type="person">Beethoven</rs> gedichtet — vergeblich ge¬
-               <lb facs="#facs_1_region_1779518547147_750_tl_30" n="N030"/>dichtet — hatte, verändert die Volkssage in vielen wesent¬
-               <lb facs="#facs_1_region_1779518547147_750_tl_31" n="N031"/>lichen Punkten, wie mich dünkt, nicht immer zum Vortheile
-               <lb facs="#facs_1_region_1779518547147_750_tl_32" n="N032"/>derselben. Ritter <rs type="person">Raimund</rs> führt da <rs type="person">Melusine</rs>n nicht als
-               <lb facs="#facs_1_region_1779518547147_750_tl_33" n="N033"/>Gattin heim auf sein Schloß, sondern lebt bei ihr, liebes¬
-               <lb facs="#facs_1_region_1779518547147_750_tl_34" n="N034"/>trunken, in ihrem Zauberpalaste wie <rs type="person">Tannhäuser</rs> im Venus¬
-               <lb facs="#facs_1_region_1779518547147_750_tl_35" n="N035"/>berg. Allmälig erwachende Sehnsucht nach der Heimat, nach
-               <lb facs="#facs_1_region_1779518547147_750_tl_36" n="N036"/>menschlichem Verkehre und eigener Thätigkeit drängt ihn endlich
-               <lb facs="#facs_1_region_1779518547147_750_tl_37" n="N037"/>fort. <rs type="person">Melusina</rs> gibt ihm willig Urlaub und einen Ring
-               <lb facs="#facs_1_region_1779518547147_750_tl_38" n="N038"/>dazu, mittelst dessen er sie beliebig zu sich rufen kann.
-               <lb facs="#facs_1_region_1779518547147_750_tl_39" n="N039"/>Nur an einem bestimmten Tage in der Woche dürfe er es
-               <lb facs="#facs_1_region_1779518547147_750_tl_40" n="N040"/>nicht, will er nicht sich selbst zugleich mit ihr verderben.
-               <lb facs="#facs_1_region_1779518547147_750_tl_41" n="N041"/>
-               <rs type="person">Raimund</rs> schwört es ihr zu und kehrt in die Heimat zurück,
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1779518550187_753_tl_1" n="N001"/>wo seine Verwandten und Freunde ihn zurückhalten und aus
-               <lb facs="#facs_1_region_1779518550187_753_tl_2" n="N002"/>der Bezauberung zu erretten suchen. Er läßt sich bereden, seine
-               <lb facs="#facs_1_region_1779518550187_753_tl_3" n="N003"/>Cousine <rs type="person">Bertha</rs> zu freien und den Ring <rs type="person">Melusina</rs>'s von sich
-               <lb facs="#facs_1_region_1779518550187_753_tl_4" n="N004"/>zu werfen. Da erhebt sich vor ihm eine haarumflatterte,
-               <lb facs="#facs_1_region_1779518550187_753_tl_5" n="N005"/>schuppenbedeckte Gestalt aus dem Boden und hascht nach dem
-               <lb facs="#facs_1_region_1779518550187_753_tl_6" n="N006"/>Ringe. <rs type="person">Raimund</rs>, plötzlich von Reue und wiedererwachender
-               <lb facs="#facs_1_region_1779518550187_753_tl_7" n="N007"/>Liebe erfaßt, will den Ring zurück und verfolgt das Ge¬
-               <lb facs="#facs_1_region_1779518550187_753_tl_8" n="N008"/>spenst, das vor ihm her flüchtet, bis sie Beide an <rs type="person">Melusina</rs>'s
-               <lb facs="#facs_1_line_1780554747280_1208" n="N009"/>Brunnen anlangen. „Den Ring, meinen Ring!“ „Hier
-               <lb facs="#facs_1_line_1780554739513_1204" n="N010"/>nimm ihn, sieh'!“ Der Brunnen stürzt zusammen, ein
-               <lb facs="#facs_1_region_1779518550187_753_tl_13" n="N011"/>Grabmal wird sichtbar mit der Aufschrift „<rs type="person">Raimund</rs>“. Die Erde
-               <lb facs="#facs_1_line_1780554730744_1199" n="N012"/>öffnet sich vor dem Grabmal, die Gestalt wirft den Ring
-               <lb facs="#facs_1_line_1780554724250_1195" n="N013"/>hinab. „Und sei's im Grab, ich hol' ihn!“ ruft <rs type="person">Raimund</rs>
-               <lb facs="#facs_1_region_1779518550187_753_tl_18" n="N014"/>und sinkt, von einer andern schwarzen Gestalt erfaßt, todt
-               <lb facs="#facs_1_region_1779518550187_753_tl_19" n="N015"/>zu Boden. An diese grauenvollen Scenen schließt sich unmit¬
-               <lb facs="#facs_1_region_1779518550187_753_tl_20" n="N016"/>telbar eine Art Apotheose. Auf Wolken, die sich aus dem
-               <lb facs="#facs_1_region_1779518550187_753_tl_21" n="N017"/>Grabmal erheben, steigt <rs type="person">Melusina</rs>, reich geschmückt, empor,
-               <lb facs="#facs_1_region_1779518550187_753_tl_22" n="N018"/>ihr zu Füßen kniend <rs type="person">Raimund</rs>. „Tod versöhnt! Treue
-               <lb facs="#facs_1_region_1779518550187_753_tl_23" n="N019"/>gekrönt!“ singen die Schwestern, und ein Geisterchor schließt
-               <lb facs="#facs_1_region_1779518550187_753_tl_24" n="N020"/>das Ganze mit dem echt <rs type="person">Grillparzer</rs>'schen Spruche:
-               <lb facs="#facs_1_line_1780554706675_1175" n="N021"/>Wem sich höh're Mächte künden,
-               <lb facs="#facs_1_line_1780554708442_1178" n="N022"/>Muß auf ewig sich verbinden,
-               <lb facs="#facs_1_line_1780554710201_1181" n="N023"/>Oder nahen mög' er nie:
-               <lb facs="#facs_1_line_1780554711706_1184" n="N024"/>Halben Dienst verschmähen sie.
-               <lb facs="#facs_1_region_1779518550187_753_tl_29" n="N025"/>
-               <rs type="person">Grillparzer</rs> hat im Interesse des dramatischen Fort¬
-               <lb facs="#facs_1_region_1779518550187_753_tl_30" n="N026"/>ganges leider getilgt, was nach meiner Empfindung den
-               <lb facs="#facs_1_region_1779518550187_753_tl_31" n="N027"/>schönsten Zauber unseres Märchens ausmacht: die Heirat
-               <lb facs="#facs_1_region_1779518550187_753_tl_32" n="N028"/>
-               <rs type="person">Melusina</rs>'s mit <rs type="person">Raimund</rs>, und ihr langes glückliches Familien¬
-               <lb facs="#facs_1_region_1779518550187_753_tl_33" n="N029"/>leben — die ganze von irdischem Glücke beglänzte Mitte
-               <lb facs="#facs_1_region_1779518550187_753_tl_34" n="N030"/>zwischen dem unheimlichen Zauber des Anfangs und des
-               <lb facs="#facs_1_region_1779518550187_753_tl_35" n="N031"/>Endes. Nach <rs type="person">Grillparzer</rs>'s Libretto wäre ein Ballet kaum
-               <lb facs="#facs_1_region_1779518550187_753_tl_36" n="N032"/>möglich gewesen, nach <rs type="person">Schwind</rs>'s Bildern ist es möglich und
-               <lb facs="#facs_1_region_1779518550187_753_tl_37" n="N033"/>in anmuthigstem Gelingen wirklich geworden. Einige Mono¬
-               <lb facs="#facs_1_region_1779518550187_753_tl_38" n="N034"/>tonie läßt sich freilich bei scenischer Ausbreitung eines durch¬
-               <lb facs="#facs_1_region_1779518550187_753_tl_39" n="N035"/>aus zarten, einfach sich abspinnenden Märchenstoffes nicht
-               <lb facs="#facs_1_region_1779518550187_753_tl_40" n="N036"/>vermeiden. Demungeachtet haben wir das Ballet <rs type="person">Melusina</rs>
-               <lb facs="#facs_1_region_1779518550187_753_tl_41" n="N037"/>mit aufrichtigem Wohlgefallen gesehen; ein echt poetisches
-               <lb facs="#facs_1_line_1780554671620_1144" n="N038"/>Product, das sich von dem banalen runk und Spectakel
-               <lb facs="#facs_1_line_1780554662260_1138" n="N039"/>der meisten neuen Ballette fein und vornehm abhebt. Die ge¬
-               <lb facs="#facs_1_region_1779518550187_753_tl_46" n="N040"/>treu nach Schwind gestellten Tableaux erfreuen Aug' und
-               <lb facs="#facs_1_region_1779518550187_753_tl_47" n="N041"/>Herz; das Hochzeitsfest, die Familienscene, <rs type="person">Melusina</rs> mit
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1779518550187_753_tl_1" n="N001"/>wo seine Verwandten und Freunde ihn zurückhalten und aus
+         <lb facs="#facs_1_region_1779518550187_753_tl_2" n="N002"/>der Bezauberung zu erretten suchen. Er läßt sich bereden, seine
+         <lb facs="#facs_1_region_1779518550187_753_tl_3" n="N003"/>Cousine <rs type="person" ref="#hsl_person_id_9164">Bertha</rs> zu freien und den Ring <rs type="person" ref="#hsl_person_id_7549">Melusina</rs>’s von sich
+         <lb facs="#facs_1_region_1779518550187_753_tl_4" n="N004"/>zu werfen. Da erhebt sich vor ihm eine haarumflatterte,
+         <lb facs="#facs_1_region_1779518550187_753_tl_5" n="N005"/>schuppenbedeckte Gestalt aus dem Boden und hascht nach dem
+         <lb facs="#facs_1_region_1779518550187_753_tl_6" n="N006"/>Ringe. <rs type="person" ref="#hsl_person_id_7551">Raimund</rs>, plötzlich von Reue und wiedererwachender
+         <lb facs="#facs_1_region_1779518550187_753_tl_7" n="N007"/>Liebe erfaßt, will den Ring zurück und verfolgt das Ge
+         <lb facs="#facs_1_region_1779518550187_753_tl_8" n="N008" break="no"/>spenst, das vor ihm her flüchtet, bis sie Beide an <rs type="person" ref="#hsl_person_id_7549">Melusina</rs>’s
+         <lb facs="#facs_1_line_1780554747280_1208" n="N009"/>Brunnen anlangen. „Den Ring, meinen Ring!“ „Hier
+         <lb facs="#facs_1_line_1780554739513_1204" n="N010"/>nimm ihn, sieh’!“ Der Brunnen stürzt zusammen, ein
+         <lb facs="#facs_1_region_1779518550187_753_tl_13" n="N011"/>Grabmal wird sichtbar mit der Aufschrift „<rs type="person" ref="#hsl_person_id_7551">Raimund</rs>“. Die Erde
+         <lb facs="#facs_1_line_1780554730744_1199" n="N012"/>öffnet sich vor dem Grabmal, die Gestalt wirft den Ring
+         <lb facs="#facs_1_line_1780554724250_1195" n="N013"/>hinab. „Und sei’s im Grab, ich hol’ ihn!“ ruft <rs type="person" ref="#hsl_person_id_7551">Raimund</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518550187_753_tl_18" n="N014"/>und sinkt, von einer andern schwarzen Gestalt erfaßt, todt
+         <lb facs="#facs_1_region_1779518550187_753_tl_19" n="N015"/>zu Boden. An diese grauenvollen Scenen schließt sich unmit
+         <lb facs="#facs_1_region_1779518550187_753_tl_20" n="N016" break="no"/>telbar eine Art Apotheose. Auf Wolken, die sich aus dem
+         <lb facs="#facs_1_region_1779518550187_753_tl_21" n="N017"/>Grabmal erheben, steigt <rs type="person" ref="#hsl_person_id_7549">Melusina</rs>, reich geschmückt, empor,
+         <lb facs="#facs_1_region_1779518550187_753_tl_22" n="N018"/>ihr zu Füßen kniend <rs type="person" ref="#hsl_person_id_7551">Raimund</rs>. „Tod versöhnt! Treue
+         <lb facs="#facs_1_region_1779518550187_753_tl_23" n="N019"/>gekrönt!“ singen die Schwestern, und ein Geisterchor schließt
+         <lb facs="#facs_1_region_1779518550187_753_tl_24" n="N020"/>das Ganze mit dem echt <rs type="person" ref="#hsl_person_id_721">Grillparzer</rs>’schen Spruche:
+            </p><p>
+         <lb facs="#facs_1_line_1780554706675_1175" n="N021"/><l>Wem sich höh’re Mächte künden,</l>
+         <lb facs="#facs_1_line_1780554708442_1178" n="N022"/><l>Muß auf ewig sich verbinden,</l>
+         <lb facs="#facs_1_line_1780554710201_1181" n="N023"/><l>Oder nahen mög’ er nie:</l>
+         <lb facs="#facs_1_line_1780554711706_1184" n="N024"/><l>Halben Dienst verschmähen sie.</l>
+            </p><p>
+         <lb facs="#facs_1_region_1779518550187_753_tl_29" n="N025"/><rs type="person" ref="#hsl_person_id_721">Grillparzer</rs> hat im Interesse des dramatischen Fort
+         <lb facs="#facs_1_region_1779518550187_753_tl_30" n="N026" break="no"/>ganges leider getilgt, was nach meiner Empfindung den
+         <lb facs="#facs_1_region_1779518550187_753_tl_31" n="N027"/>schönsten Zauber unseres Märchens ausmacht: die Heirat
+         <lb facs="#facs_1_region_1779518550187_753_tl_32" n="N028"/><rs type="person" ref="#hsl_person_id_7549">Melusina</rs>’s mit <rs type="person" ref="#hsl_person_id_7551">Raimund</rs>, und ihr langes glückliches Familien
+         <lb facs="#facs_1_region_1779518550187_753_tl_33" n="N029" break="no"/>leben — die ganze von irdischem Glücke beglänzte Mitte
+         <lb facs="#facs_1_region_1779518550187_753_tl_34" n="N030"/>zwischen dem unheimlichen Zauber des Anfangs und des
+         <lb facs="#facs_1_region_1779518550187_753_tl_35" n="N031"/>Endes. Nach <rs type="person" ref="#hsl_person_id_721">Grillparzer</rs>’s Libretto wäre ein Ballet kaum
+         <lb facs="#facs_1_region_1779518550187_753_tl_36" n="N032"/>möglich gewesen, nach <rs type="person" ref="#hsl_person_id_283">Schwind</rs>’s Bildern ist es möglich und
+         <lb facs="#facs_1_region_1779518550187_753_tl_37" n="N033"/>in anmuthigstem Gelingen wirklich geworden. Einige Mono
+         <lb facs="#facs_1_region_1779518550187_753_tl_38" n="N034" break="no"/>tonie läßt sich freilich bei scenischer Ausbreitung eines durch
+         <lb facs="#facs_1_region_1779518550187_753_tl_39" n="N035" break="no"/>aus zarten, einfach sich abspinnenden Märchenstoffes nicht
+         <lb facs="#facs_1_region_1779518550187_753_tl_40" n="N036"/>vermeiden. Demungeachtet haben wir das Ballet <rs type="bibl" ref="#hsl_work_id_6711">Melusina</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518550187_753_tl_41" n="N037"/>mit aufrichtigem Wohlgefallen gesehen; ein echt poetisches
+         <lb facs="#facs_1_line_1780554671620_1144" n="N038"/>Product, das sich von dem banalen runk und Spectakel
+         <lb facs="#facs_1_line_1780554662260_1138" n="N039"/>der meisten neuen Ballette fein und vornehm abhebt. Die ge
+         <lb facs="#facs_1_region_1779518550187_753_tl_46" n="N040" break="no"/>treu nach <rs type="person" ref="#hsl_person_id_283">Schwind</rs> gestellten Tableaux erfreuen Aug’ und
+         <lb facs="#facs_1_region_1779518550187_753_tl_47" n="N041"/>Herz; das Hochzeitsfest, die Familienscene, <rs type="person" ref="#hsl_person_id_6582">Melusina</rs> mit<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1779518558267_759_tl_1" n="N001"/>ihren Nixen im Bade mögen wol für die schönsten darunter
+         <lb facs="#facs_2_region_1779518558267_759_tl_2" n="N002"/>gelten. Mindestens gleiches Lob gebührt jedoch einer Scene,
+         <lb facs="#facs_2_region_1779518558267_759_tl_3" n="N003"/>die zu keinerlei äußerem Glanz Anlaß bietet: „Die bösen
+         <lb facs="#facs_2_region_1779518558267_759_tl_4" n="N004"/>Zungen“. Es ist eine Art pantomimisch durchgeführter Ver
+         <lb facs="#facs_2_region_1779518558267_759_tl_5" n="N005" break="no"/>leumdungschor, der unübertrefflich gespielt wird und von
+         <lb facs="#facs_2_region_1779518558267_759_tl_6" n="N006"/><rs type="person" ref="#hsl_person_id_64">Doppler</rs> mit einer ganz reizenden Musik ausgestattet ist.
+         <lb facs="#facs_2_region_1779518558267_759_tl_7" n="N007"/>Bei dem ersten Erscheinen <rs type="person" ref="#hsl_person_id_9165">Melusine</rs>ns und auch später noch
+         <lb facs="#facs_2_region_1779518558267_759_tl_8" n="N008"/>läßt <rs type="person" ref="#hsl_person_id_64">Doppler</rs> das Hauptmotiv der <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>’schen <rs type="bibl" ref="#hsl_work_id_6">Ouver
+         <lb facs="#facs_2_region_1779518558267_759_tl_9" n="N009" break="no"/>türe</rs> anklingen; ein geschicktes Citat zugleich und eine feine
+         <lb facs="#facs_2_region_1779518558267_759_tl_10" n="N010"/>Huldigung. Außerdem wird man in <rs type="person" ref="#hsl_person_id_64">Doppler</rs>’s <rs type="bibl" ref="#hsl_work_id_6711">Melusina-
+         <lb facs="#facs_2_region_1779518558267_759_tl_11" n="N011"/>Musik</rs> einen sehr graziösen Walzer der Blumenmädchen im
+         <lb facs="#facs_2_region_1779518558267_759_tl_12" n="N012"/>ersten Act und einen frischen Bauerntanz im zweiten bemer
+         <lb facs="#facs_2_region_1779518558267_759_tl_13" n="N013" break="no"/>ken. Das Unmotivirte, Lückenbüßerhafte mancher Tänze, die
+         <lb facs="#facs_2_region_1779518558267_759_tl_14" n="N014"/>nothgedrungen in die Lücken der Handlung eintreten müssen,
+         <lb facs="#facs_2_region_1779518558267_759_tl_15" n="N015"/>ist in keinem Ballet zu vermeiden, war es vollends nicht in
+         <lb facs="#facs_2_region_1779518558267_759_tl_16" n="N016"/>der <rs type="bibl" ref="#hsl_work_id_6711">Melusina</rs>. Ohne das systemisirte große Pas de deux,
+         <lb facs="#facs_2_region_1779518558267_759_tl_17" n="N017"/>dieses unveräußerliche Kronrecht der Prima Ballerina, würde
+         <lb facs="#facs_2_region_1779518558267_759_tl_18" n="N018"/>diese (Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4200">Cerale</rs></hi>) wenig von ihrer Oberherrlichkeit
+         <lb facs="#facs_2_region_1779518558267_759_tl_19" n="N019"/>behalten in einem Ballet, wo die <rs type="person" ref="#hsl_person_id_9165">Melusina</rs> alles Uebrige be
+         <lb facs="#facs_2_region_1779518558267_759_tl_20" n="N020" break="no"/>herrscht. Die wohlerzogene Comtesse <rs type="person" ref="#hsl_person_id_9166">Blaniferte</rs> spielt neben
+         <lb facs="#facs_2_region_1779518558267_759_tl_21" n="N021"/>der Wassernixe <rs type="person" ref="#hsl_person_id_9165">Melusina</rs> ungefähr dieselbe zurückgesetzte Rolle,
+         <lb facs="#facs_2_region_1779518558267_759_tl_22" n="N022"/>wie <rs type="person" ref="#hsl_person_id_8561">Bertalda</rs> neben der <rs type="person" ref="#hsl_person_id_8558">Undine</rs>, <rs type="person" ref="#hsl_person_id_9172">Kunigunde</rs> neben der <rs type="person" ref="#hsl_person_id_2364">Loreley</rs>,
+         <lb facs="#facs_2_region_1779518558267_759_tl_23" n="N023"/><rs type="person" ref="#hsl_person_id_6259">Erik</rs> neben dem fliegenden <rs type="person" ref="#hsl_person_id_1376">Holländer</rs> und was es an solchen
+         <lb facs="#facs_2_region_1779518558267_759_tl_24" n="N024"/>anständigen und vortheilhaften Heiratspartien in Nixen- und
+         <lb facs="#facs_2_region_1779518558267_759_tl_25" n="N025"/>Gnomen-Opern noch sonst gibt. Für die poetische Gestalt der
+         <lb facs="#facs_2_region_1779518558267_759_tl_26" n="N026"/><rs type="person" ref="#hsl_person_id_9165">Melusina</rs> besitzt das Hofoperntheater an Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4875">Abel</rs></hi> eine
+         <lb facs="#facs_2_region_1779518558267_759_tl_27" n="N027"/>geradezu unvergleichliche Repräsentantin. Die weniger dank
+         <lb facs="#facs_2_region_1779518558267_759_tl_28" n="N028" break="no"/>baren Rollen des Ritters <rs type="person" ref="#hsl_person_id_9167">Raimund</rs> und seines <rs type="person" ref="#hsl_person_id_9168">Knappe</rs>n
+         <lb facs="#facs_2_region_1779518558267_759_tl_29" n="N029"/>wurden von den Herren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_262">Frappart</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_866">Price</rs></hi> mit ge
+         <lb facs="#facs_2_region_1779518558267_759_tl_30" n="N030" break="no"/>wohnter Sorgfalt und Gewandtheit gespielt.
+            </p><p>
+         <lb facs="#facs_2_region_1779518558267_759_tl_31" n="N031"/>Vor dem Ballet wurde die nahezu fünfzig Jahre alte
+         <lb facs="#facs_2_region_1779518558267_759_tl_32" n="N032"/>einactige Oper von Adolph <hi rendition="#em"><rs type="person" ref="#hsl_person_id_12">Adam</rs></hi>: „<rs type="bibl" ref="#hsl_work_id_6543">Die Alpenhütte</rs>“ (<rs type="bibl" ref="#hsl_work_id_6543">Le
+         <lb facs="#facs_2_region_1779518558267_759_tl_33" n="N033"/>chalet</rs>), gegeben. Die Handlung des Stückes ist fast iden
+         <lb facs="#facs_2_region_1779518558267_759_tl_34" n="N034" break="no"/>tisch mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s</hi> Singspiel „<rs type="bibl" ref="#hsl_work_id_6712">Jery und Bätely</rs>“. Eine
+         <lb facs="#facs_2_region_1779518558267_759_tl_35" n="N035"/>junge <rs type="person" ref="#hsl_person_id_9173">Bäuerin</rs>, die in einer einsamen Alpenhütte wohnt und
+         <lb facs="#facs_2_region_1779518558267_759_tl_36" n="N036"/>aus Liebe zur Selbstständigkeit jeden Freier abweist, wird
+         <lb facs="#facs_2_region_1779518558267_759_tl_37" n="N037"/>durch die (absichtlich zu ihrer Bekehrung) ausgeführten Excesse
+         <lb facs="#facs_2_region_1779518558267_759_tl_38" n="N038"/>eines fremden <rs type="person" ref="#hsl_person_id_9175">Eindringling</rs>s und seiner Kameraden von der
+         <lb facs="#facs_2_region_1779518558267_759_tl_39" n="N039"/>Gefährlichkeit ihrer Isolirung überzeugt und reicht nun einem
+         <lb facs="#facs_2_region_1779518558267_759_tl_40" n="N040"/>bisher verschmähten braven <rs type="person" ref="#hsl_person_id_9174">Bauernjunge</rs>n, der ihr Schutz ge
+         <lb facs="#facs_2_region_1779518558267_759_tl_41" n="N041" break="no"/>währte, ihre Hand. In der Benützung des <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’schen <rs type="bibl" ref="#hsl_work_id_6712">Sing</rs></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1779518558267_759_tl_1" n="N001"/>ihren Nixen im Bade mögen wol für die schönsten darunter
-               <lb facs="#facs_2_region_1779518558267_759_tl_2" n="N002"/>gelten. Mindestens gleiches Lob gebührt jedoch einer Scene,
-               <lb facs="#facs_2_region_1779518558267_759_tl_3" n="N003"/>die zu keinerlei äußerem Glanz Anlaß bietet: „Die bösen
-               <lb facs="#facs_2_region_1779518558267_759_tl_4" n="N004"/>Zungen“. Es ist eine Art pantomimisch durchgeführter Ver¬
-               <lb facs="#facs_2_region_1779518558267_759_tl_5" n="N005"/>leumdungschor, der unübertrefflich gespielt wird und von
-               <lb facs="#facs_2_region_1779518558267_759_tl_6" n="N006"/>
-               <rs type="person">Doppler</rs> mit einer ganz reizenden Musik ausgestattet ist.
-               <lb facs="#facs_2_region_1779518558267_759_tl_7" n="N007"/>Bei dem ersten Erscheinen <rs type="person">Melusine</rs>ns und auch später noch
-               <lb facs="#facs_2_region_1779518558267_759_tl_8" n="N008"/>läßt <rs type="person">Doppler</rs> das Hauptmotiv der <rs type="person">Mendelssohn</rs>'schen <rs type="bibl">Ouver¬</rs>
-               <lb facs="#facs_2_region_1779518558267_759_tl_9" n="N009"/>
-               <rs type="bibl">türe</rs> anklingen; ein geschicktes Citat zugleich und eine feine
-               <lb facs="#facs_2_region_1779518558267_759_tl_10" n="N010"/>Huldigung. Außerdem wird man in <rs type="person">Doppler</rs>'s <rs type="bibl">Melusina-</rs>
-               <lb facs="#facs_2_region_1779518558267_759_tl_11" n="N011"/>
-               <rs type="bibl">Musik</rs> einen sehr graziösen Walzer der Blumenmädchen im
-               <lb facs="#facs_2_region_1779518558267_759_tl_12" n="N012"/>ersten Act und einen frischen Bauerntanz im zweiten bemer¬
-               <lb facs="#facs_2_region_1779518558267_759_tl_13" n="N013"/>ken. Das Unmotivirte, Lückenbüßerhafte mancher Tänze, die
-               <lb facs="#facs_2_region_1779518558267_759_tl_14" n="N014"/>nothgedrungen in die Lücken der Handlung eintreten müssen,
-               <lb facs="#facs_2_region_1779518558267_759_tl_15" n="N015"/>ist in keinem Ballet zu vermeiden, war es vollends nicht in
-               <lb facs="#facs_2_region_1779518558267_759_tl_16" n="N016"/>der <rs type="bibl">Melusina</rs>. Ohne das systemisirte große Pas de deux,
-               <lb facs="#facs_2_region_1779518558267_759_tl_17" n="N017"/>dieses unveräußerliche Kronrecht der Prima Ballerina, würde
-               <lb facs="#facs_2_region_1779518558267_759_tl_18" n="N018"/>diese (Fräulein <hi rendition="#em">
-                  <rs type="person">Cerale</rs>
-               </hi>) wenig von ihrer Oberherrlichkeit
-               <lb facs="#facs_2_region_1779518558267_759_tl_19" n="N019"/>behalten in einem Ballet, wo die <rs type="person">Melusina</rs> alles Uebrige be¬
-               <lb facs="#facs_2_region_1779518558267_759_tl_20" n="N020"/>herrscht. Die wohlerzogene Comtesse <rs type="person">Blaniferte</rs> spielt neben
-               <lb facs="#facs_2_region_1779518558267_759_tl_21" n="N021"/>der Wassernixe <rs type="person">Melusina</rs> ungefähr dieselbe zurückgesetzte Rolle,
-               <lb facs="#facs_2_region_1779518558267_759_tl_22" n="N022"/>wie <rs type="person">Bertalda</rs> neben der <rs type="person">Undine</rs>, <rs type="person">Kunigunde</rs> neben der <rs type="person">Loreley</rs>,
-               <lb facs="#facs_2_region_1779518558267_759_tl_23" n="N023"/>
-               <rs type="person">Erik</rs> neben dem fliegenden <rs type="person">Holländer</rs> und was es an solchen
-               <lb facs="#facs_2_region_1779518558267_759_tl_24" n="N024"/>anständigen und vortheilhaften Heiratspartien in Nixen- und
-               <lb facs="#facs_2_region_1779518558267_759_tl_25" n="N025"/>Gnomen-Opern noch sonst gibt. Für die poetische Gestalt der
-               <lb facs="#facs_2_region_1779518558267_759_tl_26" n="N026"/>
-               <rs type="person">Melusina</rs> besitzt das Hofoperntheater an Fräulein <hi rendition="#em">
-                  <rs type="person">Abel</rs>
-               </hi> eine
-               <lb facs="#facs_2_region_1779518558267_759_tl_27" n="N027"/>geradezu unvergleichliche Repräsentantin. Die weniger dank¬
-               <lb facs="#facs_2_region_1779518558267_759_tl_28" n="N028"/>baren Rollen des Ritters <rs type="person">Raimund</rs> und seines <rs type="person">Knappe</rs>n
-               <lb facs="#facs_2_region_1779518558267_759_tl_29" n="N029"/>wurden von den Herren <hi rendition="#em">
-                  <rs type="person">Frappart</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Price</rs>
-               </hi> mit ge¬
-               <lb facs="#facs_2_region_1779518558267_759_tl_30" n="N030"/>wohnter Sorgfalt und Gewandtheit gespielt.
-               <lb facs="#facs_2_region_1779518558267_759_tl_31" n="N031"/>Vor dem Ballet wurde die nahezu fünfzig Jahre alte
-               <lb facs="#facs_2_region_1779518558267_759_tl_32" n="N032"/>einactige Oper von Adolph <hi rendition="#em">
-                  <rs type="person">Adam</rs>
-               </hi>: „<rs type="bibl">Die Alpenhütte</rs>“ (<rs type="bibl">Le</rs>
-               <lb facs="#facs_2_region_1779518558267_759_tl_33" n="N033"/>
-               <rs type="bibl">chalet</rs>), gegeben. Die Handlung des Stückes ist fast iden¬
-               <lb facs="#facs_2_region_1779518558267_759_tl_34" n="N034"/>tisch mit <hi rendition="#em">
-                  <rs type="person">Goethe</rs>'s</hi> Singspiel „<rs type="bibl">Jery und Bätely</rs>“. Eine
-               <lb facs="#facs_2_region_1779518558267_759_tl_35" n="N035"/>junge <rs type="person">Bäuerin</rs>, die in einer einsamen Alpenhütte wohnt und
-               <lb facs="#facs_2_region_1779518558267_759_tl_36" n="N036"/>aus Liebe zur Selbstständigkeit jeden Freier abweist, wird
-               <lb facs="#facs_2_region_1779518558267_759_tl_37" n="N037"/>durch die (absichtlich zu ihrer Bekehrung) ausgeführten Excesse
-               <lb facs="#facs_2_region_1779518558267_759_tl_38" n="N038"/>eines fremden <rs type="person">Eindringling</rs>s und seiner Kameraden von der
-               <lb facs="#facs_2_region_1779518558267_759_tl_39" n="N039"/>Gefährlichkeit ihrer Isolirung überzeugt und reicht nun einem
-               <lb facs="#facs_2_region_1779518558267_759_tl_40" n="N040"/>bisher verschmähten braven <rs type="person">Bauernjunge</rs>n, der ihr Schutz ge¬
-               <lb facs="#facs_2_region_1779518558267_759_tl_41" n="N041"/>währte, ihre Hand. In der Benützung des <rs type="person">Goethe</rs>'schen <rs type="bibl">Sing¬</rs>
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1779518561922_762_tl_1" n="N001" break="no"/><rs type="bibl" prev="true" ref="#hsl_work_id_6712">spiel</rs>es bewährt <hi rendition="#em"><rs type="person" ref="#hsl_person_id_284">Scribe</rs></hi> einen scharfen theatralischen Blick.
+         <lb facs="#facs_2_region_1779518561922_762_tl_2" n="N002"/>Die drei Hauptpersonen läßt er im Wesentlichen unverän
+         <lb facs="#facs_2_region_1779518561922_762_tl_3" n="N003" break="no"/>dert, nur verwandelt er den <rs type="person" ref="#hsl_person_id_9175">Eindringling</rs> aus dem <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’
+         <lb facs="#facs_2_region_1779518561922_762_tl_4" n="N004" break="no"/>schen fremden Abenteurer in <rs type="person" ref="#hsl_person_id_9169">Bätely</rs>’s unerkannt zurückkehren
+         <lb facs="#facs_2_region_1779518561922_762_tl_5" n="N005" break="no"/>den <rs type="person" ref="#hsl_person_id_9171">Bruder</rs>. Die vierte Person <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s, den <rs type="person" ref="#hsl_person_id_9176">Vater</rs><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_9173">Bätely</rs>’s,
+         <lb facs="#facs_2_region_1779518561922_762_tl_6" n="N006"/>streicht der <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Librettist gänzlich, offenbar damit das
+         <lb facs="#facs_2_region_1779518561922_762_tl_7" n="N007"/>Mädchen völlig einsam und nur auf sich allein gestellt er
+         <lb facs="#facs_2_region_1779518561922_762_tl_8" n="N008" break="no"/>scheine. Aus den knappen Liedchen <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s werden theils
+         <lb facs="#facs_2_region_1779518561922_762_tl_9" n="N009"/>Arien, theils längere Strophenlieder, denen Landleute und
+         <lb facs="#facs_2_region_1779518561922_762_tl_10" n="N010"/>Soldaten eine anspruchslose, wirksame Chorunterlage bieten.
+         <lb facs="#facs_2_region_1779518561922_762_tl_11" n="N011"/>Freilich, die zierlichen, duftigen Blüthen <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’scher Lyrik,
+         <lb facs="#facs_2_region_1779518561922_762_tl_12" n="N012"/>die auch in diesem bescheidenen Singspiele nicht fehlen,
+         <lb facs="#facs_2_region_1779518561922_762_tl_13" n="N013"/>sie ließen sich weder verpflanzen noch ersetzen. <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s „<rs type="bibl" ref="#hsl_work_id_6712">Jery
+         <lb facs="#facs_2_region_1779518561922_762_tl_14" n="N014"/>und Bätely</rs>“ wurde vielfach componirt. Christian <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2380">Keyser</rs></hi>,
+         <lb facs="#facs_2_region_1779518561922_762_tl_15" n="N015"/>des Dichters Jugendfreund, machte den Anfang, ihm folgten
+         <lb facs="#facs_2_region_1779518561922_762_tl_16" n="N016"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2198">Winter</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_233">Reichhardt</rs></hi>, Conradin <hi rendition="#em"><rs type="person" ref="#hsl_person_id_908">Kreutzer</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9177">Bierey</rs></hi>,
+         <lb facs="#facs_2_region_1779518561922_762_tl_17" n="N017"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_237">Rietz</rs></hi> und Andere, zuletzt eine talentvolle, feingebildete Dame,
+         <lb facs="#facs_2_region_1779518561922_762_tl_18" n="N018"/>Frau Ingeborg v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_8189">Bronsart</rs></hi> in <rs type="place" ref="#hsl_place_id_41">Weimar</rs>. Keine von allen
+         <lb facs="#facs_2_region_1779518561922_762_tl_19" n="N019"/>diesen Compositionen vermochte tiefere Spuren zurückzulassen
+         <lb facs="#facs_2_region_1779518561922_762_tl_20" n="N020"/>und das <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’sche <rs type="bibl" ref="#hsl_work_id_6712">Gedicht</rs> auf der Bühne lebendig zu er
+         <lb facs="#facs_2_region_1779518561922_762_tl_21" n="N021" break="no"/>halten. Hingegen hat die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Nachbildung, die „<rs type="bibl" ref="#hsl_work_id_6543">Alpen
+         <lb facs="#facs_2_region_1779518561922_762_tl_22" n="N022" break="no"/>hütte</rs>“, es zu einer unerhörten Popularität gebracht. Im
+         <lb facs="#facs_2_region_1779518561922_762_tl_23" n="N023"/>Jahre <date>1834</date> zum erstenmale in der Opéra Comique gegeben,
+         <lb facs="#facs_2_region_1779518561922_762_tl_24" n="N024"/>hat sie schon im Jahre <date>1873</date> daselbst ihre <hi rendition="#em">tausendste</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1779518561922_762_tl_25" n="N025"/>Aufführung erlebt. Es ist ein leicht hingeworfenes, aber an
+         <lb facs="#facs_2_region_1779518561922_762_tl_26" n="N026" break="no"/>muthiges Werk, voll natürlicher Frische und Aufrichtigkeit,
+         <lb facs="#facs_2_region_1779518561922_762_tl_27" n="N027"/>dramatisch empfunden, fein instrumentirt und vor Allem von
+         <lb facs="#facs_2_region_1779518561922_762_tl_28" n="N028"/>eminent <rs type="place" ref="#hsl_place_id_21">französisch</rs>em Charakter. Vor der Uebertreibung,
+         <lb facs="#facs_2_region_1779518561922_762_tl_29" n="N029"/><rs type="person" ref="#hsl_person_id_12">Adam</rs> seinen Meistern <hi rendition="#em"><rs type="person" ref="#hsl_person_id_36">Boieldieu</rs></hi> oder <hi rendition="#em"><rs type="person" ref="#hsl_person_id_16">Auber</rs></hi> gleich
+         <lb facs="#facs_2_region_1779518561922_762_tl_30" n="N030" break="no"/>zustellen, braucht man wol nicht mehr eigens zu warnen;
+         <lb facs="#facs_2_region_1779518561922_762_tl_31" n="N031"/>ebensowenig möchten wir das oft gelesene Urtheil unterschrei
+         <lb facs="#facs_2_region_1779518561922_762_tl_32" n="N032" break="no"/>ben, „<rs type="bibl" ref="#hsl_work_id_6543">Die Alpenhütte</rs>“ sei <rs type="person" ref="#hsl_person_id_12">Adam</rs>’s bestes Werk. Der einzige
+         <lb facs="#facs_2_region_1779518561922_762_tl_33" n="N033"/>erste Act des „<rs type="bibl" ref="#hsl_work_id_587">Postillon von Lonjumeau</rs>“ hat mehr Geist
+         <lb facs="#facs_2_region_1779518561922_762_tl_34" n="N034"/>und musikalische Erfindung, als die ganze „<rs type="bibl" ref="#hsl_work_id_6543">Alpenhütte</rs>“.
+         <lb facs="#facs_2_region_1779518561922_762_tl_35" n="N035"/>Ihren Werth behält letztere trotzdem. Es geht ein frischer,
+         <lb facs="#facs_2_region_1779518561922_762_tl_36" n="N036"/>aufrichtiger Zug durch diese Musik, der uns gegen einzelne
+         <lb facs="#facs_2_region_1779518561922_762_tl_37" n="N037"/>veraltete und banale Stellen milder stimmt.
+            </p><p>
+         <lb facs="#facs_2_region_1779518561922_762_tl_38" n="N038"/>Mit Theilnahme lesen wir, was Ad. <rs type="person" ref="#hsl_person_id_12">Adam</rs> selbst über
+         <lb facs="#facs_2_region_1779518561922_762_tl_39" n="N039"/>die Schicksale seines „<rs type="bibl" ref="#hsl_work_id_6543">Chalet</rs>“ erzählt; durch seine schlicht
+         <lb facs="#facs_2_region_1779518561922_762_tl_40" n="N040"/>und bescheiden abgefaßte <rs type="bibl" ref="#hsl_work_id_5595">Selbstbiographie</rs> wird er uns als
+         <lb facs="#facs_2_region_1779518561922_762_tl_41" n="N041"/>Mensch ebenso sympathisch wie als Künstler. Nur durch<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1779518561922_762_tl_1" n="N001"/>
-               <rs type="bibl">spiel</rs>es bewährt <hi rendition="#em">
-                  <rs type="person">Scribe</rs>
-               </hi> einen scharfen theatralischen Blick.
-               <lb facs="#facs_2_region_1779518561922_762_tl_2" n="N002"/>Die drei Hauptpersonen läßt er im Wesentlichen unverän¬
-               <lb facs="#facs_2_region_1779518561922_762_tl_3" n="N003"/>dert, nur verwandelt er den <rs type="person">Eindringling</rs> aus dem <rs type="person">Goethe</rs>'¬
-               <lb facs="#facs_2_region_1779518561922_762_tl_4" n="N004"/>schen fremden Abenteurer in <rs type="person">Bätely</rs>'s unerkannt zurückkehren¬
-               <lb facs="#facs_2_region_1779518561922_762_tl_5" n="N005"/>den <rs type="person">Bruder</rs>. Die vierte Person <rs type="person">Goethe</rs>'s, den <rs type="person">Vater</rs>
-               <rs type="person">Bätely</rs>'s,
-               <lb facs="#facs_2_region_1779518561922_762_tl_6" n="N006"/>streicht der <rs type="place">französisch</rs>e Librettist gänzlich, offenbar damit das
-               <lb facs="#facs_2_region_1779518561922_762_tl_7" n="N007"/>Mädchen völlig einsam und nur auf sich allein gestellt er¬
-               <lb facs="#facs_2_region_1779518561922_762_tl_8" n="N008"/>scheine. Aus den knappen Liedchen <rs type="person">Goethe</rs>'s werden theils
-               <lb facs="#facs_2_region_1779518561922_762_tl_9" n="N009"/>Arien, theils längere Strophenlieder, denen Landleute und
-               <lb facs="#facs_2_region_1779518561922_762_tl_10" n="N010"/>Soldaten eine anspruchslose, wirksame Chorunterlage bieten.
-               <lb facs="#facs_2_region_1779518561922_762_tl_11" n="N011"/>Freilich, die zierlichen, duftigen Blüthen <rs type="person">Goethe</rs>'scher Lyrik,
-               <lb facs="#facs_2_region_1779518561922_762_tl_12" n="N012"/>die auch in diesem bescheidenen Singspiele nicht fehlen,
-               <lb facs="#facs_2_region_1779518561922_762_tl_13" n="N013"/>sie ließen sich weder verpflanzen noch ersetzen. <rs type="person">Goethe</rs>'s „<rs type="bibl">Jery</rs>
-               <lb facs="#facs_2_region_1779518561922_762_tl_14" n="N014"/>
-               <rs type="bibl">und Bätely</rs>“ wurde vielfach componirt. Christian <hi rendition="#em">
-                  <rs type="person">Keyser</rs>
-               </hi>,
-               <lb facs="#facs_2_region_1779518561922_762_tl_15" n="N015"/>des Dichters Jugendfreund, machte den Anfang, ihm folgten
-               <lb facs="#facs_2_region_1779518561922_762_tl_16" n="N016"/>
-               <hi rendition="#em">
-                  <rs type="person">Winter</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Reichhardt</rs>
-               </hi>, Conradin <hi rendition="#em">
-                  <rs type="person">Kreutzer</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Biereg</rs>
-               </hi>,
-               <lb facs="#facs_2_region_1779518561922_762_tl_17" n="N017"/>
-               <hi rendition="#em">
-                  <rs type="person">Rietz</rs>
-               </hi> und Andere, zuletzt eine talentvolle, feingebildete Dame,
-               <lb facs="#facs_2_region_1779518561922_762_tl_18" n="N018"/>Frau Ingeborg v. <hi rendition="#em">
-                  <rs type="person">Bronsart</rs>
-               </hi> in <rs type="place">Weimar</rs>. Keine von allen
-               <lb facs="#facs_2_region_1779518561922_762_tl_19" n="N019"/>diesen Compositionen vermochte tiefere Spuren zurückzulassen
-               <lb facs="#facs_2_region_1779518561922_762_tl_20" n="N020"/>und das <rs type="person">Goethe</rs>'sche <rs type="bibl">Gedicht</rs> auf der Bühne lebendig zu er¬
-               <lb facs="#facs_2_region_1779518561922_762_tl_21" n="N021"/>halten. Hingegen hat die <rs type="place">französisch</rs>e Nachbildung, die „<rs type="bibl">Alpen¬</rs>
-               <lb facs="#facs_2_region_1779518561922_762_tl_22" n="N022"/>
-               <rs type="bibl">hütte</rs>“, es zu einer unerhörten Popularität gebracht. Im
-               <lb facs="#facs_2_region_1779518561922_762_tl_23" n="N023"/>Jahre <date month="0" day="0" year="0">1834</date> zum erstenmale in der Opéra Comique gegeben,
-               <lb facs="#facs_2_region_1779518561922_762_tl_24" n="N024"/>hat sie schon im Jahre <date month="0" day="0" year="0">1873</date> daselbst ihre <hi rendition="#em">tausendste</hi>
-               <lb facs="#facs_2_region_1779518561922_762_tl_25" n="N025"/>Aufführung erlebt. Es ist ein leicht hingeworfenes, aber an¬
-               <lb facs="#facs_2_region_1779518561922_762_tl_26" n="N026"/>muthiges Werk, voll natürlicher Frische und Aufrichtigkeit,
-               <lb facs="#facs_2_region_1779518561922_762_tl_27" n="N027"/>dramatisch empfunden, fein instrumentirt und vor Allem von
-               <lb facs="#facs_2_region_1779518561922_762_tl_28" n="N028"/>eminent <rs type="place">französisch</rs>em Charakter. Vor der Uebertreibung,
-               <lb facs="#facs_2_region_1779518561922_762_tl_29" n="N029"/>
-               <rs type="person">Adam</rs> seinen Meistern <hi rendition="#em">
-                  <rs type="person">Boieldieu</rs>
-               </hi> oder <hi rendition="#em">
-                  <rs type="person">Auber</rs>
-               </hi> gleich¬
-               <lb facs="#facs_2_region_1779518561922_762_tl_30" n="N030"/>zustellen, braucht man wol nicht mehr eigens zu warnen;
-               <lb facs="#facs_2_region_1779518561922_762_tl_31" n="N031"/>ebensowenig möchten wir das oft gelesene Urtheil unterschrei¬
-               <lb facs="#facs_2_region_1779518561922_762_tl_32" n="N032"/>ben, „<rs type="bibl">Die Alpenhütte</rs>“ sei <rs type="person">Adam</rs>'s bestes Werk. Der einzige
-               <lb facs="#facs_2_region_1779518561922_762_tl_33" n="N033"/>erste Act des „<rs type="bibl">Postillon von Lonjumeau</rs>“ hat mehr Geist
-               <lb facs="#facs_2_region_1779518561922_762_tl_34" n="N034"/>und musikalische Erfindung, als die ganze „<rs type="bibl">Alpenhütte</rs>“.
-               <lb facs="#facs_2_region_1779518561922_762_tl_35" n="N035"/>Ihren Werth behält letztere trotzdem. Es geht ein frischer,
-               <lb facs="#facs_2_region_1779518561922_762_tl_36" n="N036"/>aufrichtiger Zug durch diese Musik, der uns gegen einzelne
-               <lb facs="#facs_2_region_1779518561922_762_tl_37" n="N037"/>veraltete und banale Stellen milder stimmt.
-               <lb facs="#facs_2_region_1779518561922_762_tl_38" n="N038"/>Mit Theilnahme lesen wir, was Ad. <rs type="person">Adam</rs> selbst über
-               <lb facs="#facs_2_region_1779518561922_762_tl_39" n="N039"/>die Schicksale seines „<rs type="bibl">Chalet</rs>“ erzählt; durch seine schlicht
-               <lb facs="#facs_2_region_1779518561922_762_tl_40" n="N040"/>und bescheiden abgefaßte <rs type="bibl">Selbstbiographie</rs> wird er uns als
-               <lb facs="#facs_2_region_1779518561922_762_tl_41" n="N041"/>Mensch ebenso sympathisch wie als Künstler. Nur durch
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1779518564946_765_tl_1" n="N001"/>einen glücklichen Zufall und nach schweren Bemühungen er¬
-               <lb facs="#facs_2_region_1779518564946_765_tl_2" n="N002"/>rang er das von <rs type="person">Scribe</rs> und <rs type="person">Melesville</rs> verfaßte kleine
-               <lb facs="#facs_2_region_1779518564946_765_tl_3" n="N003"/>Libretto und mußte sich dabei der unerhört harten Bedin¬
-               <lb facs="#facs_2_region_1779518564946_765_tl_4" n="N004"/>gung fügen, daß er, der Componist, nur auf ein Drittheil
-               <lb facs="#facs_2_region_1779518564946_765_tl_5" n="N005"/>der Tantième Anspruch habe, während zwei Drittheile den
-               <lb facs="#facs_2_region_1779518564946_765_tl_6" n="N006"/>Librettisten zufallen sollten. Die „<rs type="bibl">Alpenhütte</rs>“ war <rs type="person">Adam</rs>'s
-               <lb facs="#facs_2_region_1779518564946_765_tl_7" n="N007"/>erster Erfolg. Trotzdem dieser Erfolg sich gleich anfangs
-               <lb facs="#facs_2_region_1779518564946_765_tl_8" n="N008"/>glänzend anließ, wollte sich doch kein Verleger für das Werk
-               <lb facs="#facs_2_region_1779518564946_765_tl_9" n="N009"/>finden. <rs type="person">Adam</rs> verzweifelte. Endlich kam ein junger Verleger,
-               <lb facs="#facs_2_region_1779518564946_765_tl_10" n="N010"/>der es wagen wollte, ihm 4000 Francs für die Partitur zu
-               <lb facs="#facs_2_region_1779518564946_765_tl_11" n="N011"/>geben, zahlbar nach Jahr und Tag, „wenn das Ding sich
-               <lb facs="#facs_2_region_1779518564946_765_tl_12" n="N012"/>gut verkauft“! <hi rendition="#em">
-                  <rs type="person">Boieldieu</rs>
-               </hi>, bereits schwer krank und dem
-               <lb facs="#facs_2_region_1779518564946_765_tl_13" n="N013"/>Tode nahe, wohnte der ersten Aufführung bei und sagte:
-               <lb facs="#facs_2_region_1779518564946_765_tl_14" n="N014"/>„Ich wünschte, diese Musik wäre von mir.“ Dies war das
-               <lb facs="#facs_2_region_1779518564946_765_tl_15" n="N015"/>höchste Lob, das beglückendste Urtheil, das <rs type="person">Adam</rs> in
-               <lb facs="#facs_2_region_1779518564946_765_tl_16" n="N016"/>seinem ganzen Leben vernommen. Es tröstete ihn über die
-               <lb facs="#facs_2_region_1779518564946_765_tl_17" n="N017"/>geringschätzige Miene, mit welcher manche Musiker und Kri¬
-               <lb facs="#facs_2_region_1779518564946_765_tl_18" n="N018"/>tiker, darunter sehr angesehene, auf die „<rs type="bibl">Alpenhütte</rs>“ herab¬
-               <lb facs="#facs_2_region_1779518564946_765_tl_19" n="N019"/>sahen, die sie eine Schnaderhüpfel-Oper (un opéra pont-neuf)
-               <lb facs="#facs_2_region_1779518564946_765_tl_20" n="N020"/>nannten. Immer wieder mußte sich <rs type="person">Adam</rs> vorwerfen lassen,
-               <lb facs="#facs_2_region_1779518564946_765_tl_21" n="N021"/>daß er zu schnell arbeite und nicht jedes Werk gleich gewissen¬
-               <lb facs="#facs_2_region_1779518564946_765_tl_22" n="N022"/>haft feile. <rs type="person">Adam</rs> antwortete mit folgendem aufrichtigen Be¬
-               <lb facs="#facs_2_region_1779518564946_765_tl_23" n="N023"/>kenntniß: „Ich versichere, daß mit verschwindend kleinen
-               <lb facs="#facs_2_region_1779518564946_765_tl_24" n="N024"/>Ausnahmen alle meine Werke, die besten wie die schwächsten,
-               <lb facs="#facs_2_region_1779518564946_765_tl_25" n="N025"/>mit der gleichen Sorgfalt und Gewissenhaftigkeit geschrieben wur¬
-               <lb facs="#facs_2_region_1779518564946_765_tl_26" n="N026"/>den; bei dem einen war ich mehr, bei dem andern weniger
-               <lb facs="#facs_2_region_1779518564946_765_tl_27" n="N027"/>glücklich inspirirt, das ist der ganze Unterschied. Ich habe
-               <lb facs="#facs_2_region_1779518564946_765_tl_28" n="N028"/>„<rs type="bibl">Le chalet</rs>“ in vierzehn Tagen geschrieben, den „<rs type="bibl">Toreador</rs>“
-               <lb facs="#facs_2_region_1779518564946_765_tl_29" n="N029"/>in acht Tagen, „<rs type="bibl">Giselle</rs>“ in drei Wochen — sind das etwa
-               <lb facs="#facs_2_region_1779518564946_765_tl_30" n="N030"/>meine schwächsten Compositionen? Ich glaube nicht. Andere,
-               <lb facs="#facs_2_region_1779518564946_765_tl_31" n="N031"/>auf die ich viel mehr Zeit und Mühe verwendete, haben weit
-               <lb facs="#facs_2_region_1779518564946_765_tl_32" n="N032"/>geringeren Erfolg erzielt. Was meine Opernmusik betrifft,
-               <lb facs="#facs_2_region_1779518564946_765_tl_33" n="N033"/>so habe ich keinen andern Ehrgeiz, als sie klar, leichtfaßlich
-               <lb facs="#facs_2_region_1779518564946_765_tl_34" n="N034"/>und amüsant zu machen. Daß ich nur leichte Musik machen
-               <lb facs="#facs_2_region_1779518564946_765_tl_35" n="N035"/>kann, das gebe ich gerne zu.“ Es stimmt dieses Geständniß
-               <lb facs="#facs_2_region_1779518564946_765_tl_36" n="N036"/>fast wörtlich überein mit dem, was J. <hi rendition="#em">
-                  <rs type="person">Offenbach</rs>
-               </hi>, eine
-               <lb facs="#facs_2_region_1779518564946_765_tl_37" n="N037"/>verwandte Natur von noch größerem Talent und noch größerer
-               <lb facs="#facs_2_region_1779518564946_765_tl_38" n="N038"/>Leichtfertigkeit, zu antworten pflegte, wenn aufrichtige Freunde
-               <lb facs="#facs_2_region_1779518564946_765_tl_39" n="N039"/>ihn baten, weniger und langsamer zu componiren. Auch
-               <lb facs="#facs_2_region_1779518564946_765_tl_40" n="N040"/>
-               <hi rendition="#em">seine</hi> besten Arbeiten waren diejenigen, die in wenigen
-               <lb facs="#facs_2_region_1779518564946_765_tl_41" n="N041"/>Tagen, in Einem Zuge guter Laune hingeschrieben waren.
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1779518564946_765_tl_1" n="N001"/>einen glücklichen Zufall und nach schweren Bemühungen er
+         <lb facs="#facs_2_region_1779518564946_765_tl_2" n="N002" break="no"/>rang er das von <rs type="person" ref="#hsl_person_id_284">Scribe</rs> und <rs type="person" ref="#hsl_person_id_2079">Melesville</rs> verfaßte kleine
+         <lb facs="#facs_2_region_1779518564946_765_tl_3" n="N003"/>Libretto und mußte sich dabei der unerhört harten Bedin
+         <lb facs="#facs_2_region_1779518564946_765_tl_4" n="N004" break="no"/>gung fügen, daß er, der Componist, nur auf ein Drittheil
+         <lb facs="#facs_2_region_1779518564946_765_tl_5" n="N005"/>der Tantième Anspruch habe, während zwei Drittheile den
+         <lb facs="#facs_2_region_1779518564946_765_tl_6" n="N006"/>Librettisten zufallen sollten. Die „<rs type="bibl" ref="#hsl_work_id_6543">Alpenhütte</rs>“ war <rs type="person" ref="#hsl_person_id_12">Adam</rs>’s
+         <lb facs="#facs_2_region_1779518564946_765_tl_7" n="N007"/>erster Erfolg. Trotzdem dieser Erfolg sich gleich anfangs
+         <lb facs="#facs_2_region_1779518564946_765_tl_8" n="N008"/>glänzend anließ, wollte sich doch kein Verleger für das Werk
+         <lb facs="#facs_2_region_1779518564946_765_tl_9" n="N009"/>finden. <rs type="person" ref="#hsl_person_id_12">Adam</rs> verzweifelte. Endlich kam ein junger Verleger,
+         <lb facs="#facs_2_region_1779518564946_765_tl_10" n="N010"/>der es wagen wollte, ihm 4000 Francs für die Partitur zu
+         <lb facs="#facs_2_region_1779518564946_765_tl_11" n="N011"/>geben, zahlbar nach Jahr und Tag, „wenn das Ding sich
+         <lb facs="#facs_2_region_1779518564946_765_tl_12" n="N012"/>gut verkauft“! <hi rendition="#em"><rs type="person" ref="#hsl_person_id_36">Boieldieu</rs></hi>, bereits schwer krank und dem
+         <lb facs="#facs_2_region_1779518564946_765_tl_13" n="N013"/>Tode nahe, wohnte der ersten Aufführung bei und sagte:
+         <lb facs="#facs_2_region_1779518564946_765_tl_14" n="N014"/>„Ich wünschte, diese Musik wäre von mir.“ Dies war das
+         <lb facs="#facs_2_region_1779518564946_765_tl_15" n="N015"/>höchste Lob, das beglückendste Urtheil, das <rs type="person" ref="#hsl_person_id_12">Adam</rs> in
+         <lb facs="#facs_2_region_1779518564946_765_tl_16" n="N016"/>seinem ganzen Leben vernommen. Es tröstete ihn über die
+         <lb facs="#facs_2_region_1779518564946_765_tl_17" n="N017"/>geringschätzige Miene, mit welcher manche Musiker und Kri
+         <lb facs="#facs_2_region_1779518564946_765_tl_18" n="N018" break="no"/>tiker, darunter sehr angesehene, auf die „<rs type="bibl" ref="#hsl_work_id_6543">Alpenhütte</rs>“ herab
+         <lb facs="#facs_2_region_1779518564946_765_tl_19" n="N019" break="no"/>sahen, die sie eine Schnaderhüpfel-Oper (un opéra pont-neuf)
+         <lb facs="#facs_2_region_1779518564946_765_tl_20" n="N020"/>nannten. Immer wieder mußte sich <rs type="person" ref="#hsl_person_id_12">Adam</rs> vorwerfen lassen,
+         <lb facs="#facs_2_region_1779518564946_765_tl_21" n="N021"/>daß er zu schnell arbeite und nicht jedes Werk gleich gewissen
+         <lb facs="#facs_2_region_1779518564946_765_tl_22" n="N022" break="no"/>haft feile. <rs type="person" ref="#hsl_person_id_12">Adam</rs> antwortete mit folgendem aufrichtigen Be
+         <lb facs="#facs_2_region_1779518564946_765_tl_23" n="N023" break="no"/>kenntniß: „Ich versichere, daß mit verschwindend kleinen
+         <lb facs="#facs_2_region_1779518564946_765_tl_24" n="N024"/>Ausnahmen alle meine Werke, die besten wie die schwächsten,
+         <lb facs="#facs_2_region_1779518564946_765_tl_25" n="N025"/>mit der gleichen Sorgfalt und Gewissenhaftigkeit geschrieben wur
+         <lb facs="#facs_2_region_1779518564946_765_tl_26" n="N026" break="no"/>den; bei dem einen war ich mehr, bei dem andern weniger
+         <lb facs="#facs_2_region_1779518564946_765_tl_27" n="N027"/>glücklich inspirirt, das ist der ganze Unterschied. Ich habe
+         <lb facs="#facs_2_region_1779518564946_765_tl_28" n="N028"/>„<rs type="bibl" ref="#hsl_work_id_6543">Le chalet</rs>“ in vierzehn Tagen geschrieben, den „<rs type="bibl" ref="#hsl_work_id_5118">Toreador</rs>“
+         <lb facs="#facs_2_region_1779518564946_765_tl_29" n="N029"/>in acht Tagen, „<rs type="bibl" ref="#hsl_work_id_3969">Giselle</rs>“ in drei Wochen — sind das etwa
+         <lb facs="#facs_2_region_1779518564946_765_tl_30" n="N030"/>meine schwächsten Compositionen? Ich glaube nicht. Andere,
+         <lb facs="#facs_2_region_1779518564946_765_tl_31" n="N031"/>auf die ich viel mehr Zeit und Mühe verwendete, haben weit
+         <lb facs="#facs_2_region_1779518564946_765_tl_32" n="N032"/>geringeren Erfolg erzielt. Was meine Opernmusik betrifft,
+         <lb facs="#facs_2_region_1779518564946_765_tl_33" n="N033"/>so habe ich keinen andern Ehrgeiz, als sie klar, leichtfaßlich
+         <lb facs="#facs_2_region_1779518564946_765_tl_34" n="N034"/>und amüsant zu machen. Daß ich nur leichte Musik machen
+         <lb facs="#facs_2_region_1779518564946_765_tl_35" n="N035"/>kann, das gebe ich gerne zu.“ Es stimmt dieses Geständniß
+         <lb facs="#facs_2_region_1779518564946_765_tl_36" n="N036"/>fast wörtlich überein mit dem, was J. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_202">Offenbach</rs></hi>, eine
+         <lb facs="#facs_2_region_1779518564946_765_tl_37" n="N037"/>verwandte Natur von noch größerem Talent und noch größerer
+         <lb facs="#facs_2_region_1779518564946_765_tl_38" n="N038"/>Leichtfertigkeit, zu antworten pflegte, wenn aufrichtige Freunde
+         <lb facs="#facs_2_region_1779518564946_765_tl_39" n="N039"/>ihn baten, weniger und langsamer zu componiren. Auch
+         <lb facs="#facs_2_region_1779518564946_765_tl_40" n="N040"/><hi rendition="#em">seine</hi> besten Arbeiten waren diejenigen, die in wenigen
+         <lb facs="#facs_2_region_1779518564946_765_tl_41" n="N041"/>Tagen, in Einem Zuge guter Laune hingeschrieben waren.<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1779518574673_771_tl_1" n="N001"/>
-               <rs type="person">Adam</rs> wie <rs type="person">Offenbach</rs> waren rasche, improvisatorische Talente,
-               <lb facs="#facs_3_region_1779518574673_771_tl_2" n="N002"/>welche, ganz unter der Gewalt ihres eigenen Temperamentes
-               <lb facs="#facs_3_region_1779518574673_771_tl_3" n="N003"/>stehend, flüchtig schreiben, viel schreiben, immerfort schreiben
-               <lb facs="#facs_3_region_1779518574673_771_tl_4" n="N004"/>mußten. Sie wären bei bestem Willen außer Stande ge¬
-               <lb facs="#facs_3_region_1779518574673_771_tl_5" n="N005"/>wesen, ein in acht Tagen componirtes Werk dadurch besser
-               <lb facs="#facs_3_region_1779518574673_771_tl_6" n="N006"/>zu machen, daß sie es acht Wochen nachfeilend im Pulte be¬
-               <lb facs="#facs_3_region_1779518574673_771_tl_7" n="N007"/>halten hätten.
-               <lb facs="#facs_3_region_1779518574673_771_tl_8" n="N008"/>
-               <rs type="person">Adam</rs>'s „<rs type="bibl">Alpenhütte</rs>“ ist in <rs type="person">Wien</rs> zu verschiedenen
-               <lb facs="#facs_3_region_1779518574673_771_tl_9" n="N009"/>Zeiten immer wieder aus längerem Schlummer geweckt wor¬
-               <lb facs="#facs_3_region_1779518574673_771_tl_10" n="N010"/>den, ohne das Wachbleiben dann länger zu vertragen. Auch
-               <lb facs="#facs_3_region_1779518574673_771_tl_11" n="N011"/>diesmal hat sich die Direction des Hofoperntheaters mit dem
-               <lb facs="#facs_3_region_1779518574673_771_tl_12" n="N012"/>gleichen Experimente verrechnet, es wäre denn, sie gäbe sich
-               <lb facs="#facs_3_region_1779518574673_771_tl_13" n="N013"/>mit einer sogenannten „anständigen“ oder „recht freund¬
-               <lb facs="#facs_3_region_1779518574673_771_tl_14" n="N014"/>lichen“ Aufnahme zufrieden. Das Einstudiren der durchwegs
-               <lb facs="#facs_3_region_1779518574673_771_tl_15" n="N015"/>neu besetzten „<rs type="bibl">Alpenhütte</rs>“ hat ebensoviel Zeit und Mühe ge¬
-               <lb facs="#facs_3_region_1779518574673_771_tl_16" n="N016"/>kostet, wie die Vorbereitung einer neuen einactigen Oper. Es
-               <lb facs="#facs_3_region_1779518574673_771_tl_17" n="N017"/>hätte sich also wol verlohnt, das neue Ballet auch mit einem
-               <lb facs="#facs_3_region_1779518574673_771_tl_18" n="N018"/>neuen Singspiele einzuleiten. Eine kräftig packende Wirkung
-               <lb facs="#facs_3_region_1779518574673_771_tl_19" n="N019"/>kann die „<rs type="bibl">Alpenhütte</rs>“ heute nicht mehr hoffen, es wäre denn,
-               <lb facs="#facs_3_region_1779518574673_771_tl_20" n="N020"/>daß die <hi rendition="#em">
-                  <rs type="person">Lucca</rs>
-               </hi> das <rs type="person">Schweizermädchen</rs> gibt und zwei als
-               <lb facs="#facs_3_region_1779518574673_771_tl_21" n="N021"/>Schauspieler gleich hochstehende Sänger ihr secundiren. Fräu¬
-               <lb facs="#facs_3_region_1779518574673_771_tl_22" n="N022"/>lein Marie <hi rendition="#em">
-                  <rs type="person">Lehmann</rs>
-               </hi> ist eine ausgezeichnete Gesangs¬
-               <lb facs="#facs_3_region_1779518574673_771_tl_23" n="N023"/>künstlerin, gewandt und musikalisch wie Wenige. Allein es
-               <lb facs="#facs_3_region_1779518574673_771_tl_24" n="N024"/>fehlt ihr die Gabe, eine Gestalt zu individualisiren, mit fri¬
-               <lb facs="#facs_3_region_1779518574673_771_tl_25" n="N025"/>schem, quellendem Leben zu erfüllen, vollends eine Gestalt aus
-               <lb facs="#facs_3_region_1779518574673_771_tl_26" n="N026"/>dem Volke, ein Naturkind wie <rs type="person">Goethe</rs>'s <rs type="person">Bätely</rs>. Gestalt,
-               <lb facs="#facs_3_region_1779518574673_771_tl_27" n="N027"/>Physiognomie, Klang der Stimme, Sprechweise — Alles
-               <lb facs="#facs_3_region_1779518574673_771_tl_28" n="N028"/>athmet bei Fräulein <rs type="person">Lehmann</rs> eine gewisse verständige
-               <lb facs="#facs_3_region_1779518574673_771_tl_29" n="N029"/>Nüchternheit und Correctheit, einen kühlen Hauch <rs type="place" continued="true">nord¬</rs>
-               <lb facs="#facs_3_region_1779518574673_771_tl_30" n="N030"/>
-               <rs type="place" continued="true">deutsch</rs>er Bildung, der viel Respect, aber wenig Liebe ein¬
-               <lb facs="#facs_3_region_1779518574673_771_tl_31" n="N031"/>flößt. Die Herren <hi rendition="#em">
-                  <rs type="person">Schittenhelm</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Sommer</rs>
-               </hi>, als
-               <lb facs="#facs_3_region_1779518574673_771_tl_32" n="N032"/>Sänger an Fräulein <rs type="person">Lehmann</rs> nicht hinanreichend, waren
-               <lb facs="#facs_3_region_1779518574673_771_tl_33" n="N033"/>trotzdem viel wirksamer, weil frischer und natürlicher. Un¬
-               <lb facs="#facs_3_region_1779518574673_771_tl_34" n="N034"/>serem fleißigen und talentvollen Spieltenor möchten wir nur
-               <lb facs="#facs_3_region_1779518574673_771_tl_35" n="N035"/>empfehlen, seine allzu große Beweglichkeit zu mäßigen und
-               <lb facs="#facs_3_region_1779518574673_771_tl_36" n="N036"/>seine Charakteristik beschränkter braver Bauernjungen nicht
-               <lb facs="#facs_3_region_1779518574673_771_tl_37" n="N037"/>bis zu jener drastischen Geistesform zu steigern, welche ein
-               <lb facs="#facs_3_region_1779518574673_771_tl_38" n="N038"/>hübsches <rs type="place">wiener</rs>isch-<rs type="place">griechisch</rs>es Wort als „Trottelosis“ be¬
-               <lb facs="#facs_3_region_1779518574673_771_tl_39" n="N039"/>zeichnet. Es muß uns doch wenigstens begreiflich bleiben, daß
-               <lb facs="#facs_3_region_1779518574673_771_tl_40" n="N040"/>ein gescheites Frauenzimmer, wie diese <rs type="place">Berlin</rs>er Schweizerin,
-               <lb facs="#facs_3_region_1779518574673_771_tl_41" n="N041"/>sich ein solches Gebirgsexemplar zum Gatten und Beschützer
-               <lb facs="#facs_3_region_1779518574673_771_tl_42" n="N042"/>aussucht.
-            </p>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1779518574673_771_tl_1" n="N001"/><rs type="person" ref="#hsl_person_id_12">Adam</rs> wie <rs type="person" ref="#hsl_person_id_202">Offenbach</rs> waren rasche, improvisatorische Talente,
+         <lb facs="#facs_3_region_1779518574673_771_tl_2" n="N002"/>welche, ganz unter der Gewalt ihres eigenen Temperamentes
+         <lb facs="#facs_3_region_1779518574673_771_tl_3" n="N003"/>stehend, flüchtig schreiben, viel schreiben, immerfort schreiben
+         <lb facs="#facs_3_region_1779518574673_771_tl_4" n="N004"/>mußten. Sie wären bei bestem Willen außer Stande ge
+         <lb facs="#facs_3_region_1779518574673_771_tl_5" n="N005" break="no"/>wesen, ein in acht Tagen componirtes Werk dadurch besser
+         <lb facs="#facs_3_region_1779518574673_771_tl_6" n="N006"/>zu machen, daß sie es acht Wochen nachfeilend im Pulte be
+         <lb facs="#facs_3_region_1779518574673_771_tl_7" n="N007" break="no"/>halten hätten.
+            </p><p>
+         <lb facs="#facs_3_region_1779518574673_771_tl_8" n="N008"/><rs type="person" ref="#hsl_person_id_12">Adam</rs>’s „<rs type="bibl" ref="#hsl_work_id_6543">Alpenhütte</rs>“ ist in <rs type="place" ref="#hsl_place_id_55">Wien</rs> zu verschiedenen
+         <lb facs="#facs_3_region_1779518574673_771_tl_9" n="N009"/>Zeiten immer wieder aus längerem Schlummer geweckt wor
+         <lb facs="#facs_3_region_1779518574673_771_tl_10" n="N010" break="no"/>den, ohne das Wachbleiben dann länger zu vertragen. Auch
+         <lb facs="#facs_3_region_1779518574673_771_tl_11" n="N011"/>diesmal hat sich die Direction des Hofoperntheaters mit dem
+         <lb facs="#facs_3_region_1779518574673_771_tl_12" n="N012"/>gleichen Experimente verrechnet, es wäre denn, sie gäbe sich
+         <lb facs="#facs_3_region_1779518574673_771_tl_13" n="N013"/>mit einer sogenannten „anständigen“ oder „recht freund
+         <lb facs="#facs_3_region_1779518574673_771_tl_14" n="N014" break="no"/>lichen“ Aufnahme zufrieden. Das Einstudiren der durchwegs
+         <lb facs="#facs_3_region_1779518574673_771_tl_15" n="N015"/>neu besetzten „<rs type="bibl" ref="#hsl_work_id_6543">Alpenhütte</rs>“ hat ebensoviel Zeit und Mühe ge
+         <lb facs="#facs_3_region_1779518574673_771_tl_16" n="N016" break="no"/>kostet, wie die Vorbereitung einer neuen einactigen Oper. Es
+         <lb facs="#facs_3_region_1779518574673_771_tl_17" n="N017"/>hätte sich also wol verlohnt, das neue Ballet auch mit einem
+         <lb facs="#facs_3_region_1779518574673_771_tl_18" n="N018"/>neuen Singspiele einzuleiten. Eine kräftig packende Wirkung
+         <lb facs="#facs_3_region_1779518574673_771_tl_19" n="N019"/>kann die „<rs type="bibl" ref="#hsl_work_id_6543">Alpenhütte</rs>“ heute nicht mehr hoffen, es wäre denn,
+         <lb facs="#facs_3_region_1779518574673_771_tl_20" n="N020"/>daß die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_820">Lucca</rs></hi> das <rs type="person" ref="#hsl_person_id_9169">Schweizermädchen</rs> gibt und zwei als
+         <lb facs="#facs_3_region_1779518574673_771_tl_21" n="N021"/>Schauspieler gleich hochstehende Sänger ihr secundiren. Fräu
+         <lb facs="#facs_3_region_1779518574673_771_tl_22" n="N022" break="no"/>lein Marie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3746">Lehmann</rs></hi> ist eine ausgezeichnete Gesangs
+         <lb facs="#facs_3_region_1779518574673_771_tl_23" n="N023" break="no"/>künstlerin, gewandt und musikalisch wie Wenige. Allein es
+         <lb facs="#facs_3_region_1779518574673_771_tl_24" n="N024"/>fehlt ihr die Gabe, eine Gestalt zu individualisiren, mit fri
+         <lb facs="#facs_3_region_1779518574673_771_tl_25" n="N025" break="no"/>schem, quellendem Leben zu erfüllen, vollends eine Gestalt aus
+         <lb facs="#facs_3_region_1779518574673_771_tl_26" n="N026"/>dem Volke, ein Naturkind wie <rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s <rs type="person" ref="#hsl_person_id_9173">Bätely</rs>. Gestalt,
+         <lb facs="#facs_3_region_1779518574673_771_tl_27" n="N027"/>Physiognomie, Klang der Stimme, Sprechweise — Alles
+         <lb facs="#facs_3_region_1779518574673_771_tl_28" n="N028"/>athmet bei Fräulein <rs type="person" ref="#hsl_person_id_3746">Lehmann</rs> eine gewisse verständige
+         <lb facs="#facs_3_region_1779518574673_771_tl_29" n="N029"/>Nüchternheit und Correctheit, einen kühlen Hauch <rs type="place" ref="#hsl_place_id_502">nord
+         <lb facs="#facs_3_region_1779518574673_771_tl_30" n="N030" break="no"/>deutsch</rs>er Bildung, der viel Respect, aber wenig Liebe ein
+         <lb facs="#facs_3_region_1779518574673_771_tl_31" n="N031" break="no"/>flößt. Die Herren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1058">Schittenhelm</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4587">Sommer</rs></hi>, als
+         <lb facs="#facs_3_region_1779518574673_771_tl_32" n="N032"/>Sänger an Fräulein <rs type="person" ref="#hsl_person_id_3746">Lehmann</rs> nicht hinanreichend, waren
+         <lb facs="#facs_3_region_1779518574673_771_tl_33" n="N033"/>trotzdem viel wirksamer, weil frischer und natürlicher. Un
+         <lb facs="#facs_3_region_1779518574673_771_tl_34" n="N034" break="no"/>serem fleißigen und talentvollen Spieltenor möchten wir nur
+         <lb facs="#facs_3_region_1779518574673_771_tl_35" n="N035"/>empfehlen, seine allzu große Beweglichkeit zu mäßigen und
+         <lb facs="#facs_3_region_1779518574673_771_tl_36" n="N036"/>seine Charakteristik beschränkter braver Bauernjungen nicht
+         <lb facs="#facs_3_region_1779518574673_771_tl_37" n="N037"/>bis zu jener drastischen Geistesform zu steigern, welche ein
+         <lb facs="#facs_3_region_1779518574673_771_tl_38" n="N038"/>hübsches <rs type="place" ref="#hsl_place_id_55">wiener</rs>isch-<rs type="place" ref="#hsl_place_id_23">griechisch</rs>es Wort als „Trottelosis“ be
+         <lb facs="#facs_3_region_1779518574673_771_tl_39" n="N039" break="no"/>zeichnet. Es muß uns doch wenigstens begreiflich bleiben, daß
+         <lb facs="#facs_3_region_1779518574673_771_tl_40" n="N040"/>ein gescheites Frauenzimmer, wie diese <rs type="place" ref="#hsl_place_id_9">Berlin</rs>er Schweizerin,
+         <lb facs="#facs_3_region_1779518574673_771_tl_41" n="N041"/>sich ein solches Gebirgsexemplar zum Gatten und Beschützer
+         <lb facs="#facs_3_region_1779518574673_771_tl_42" n="N042"/>aussucht.</p>
          </div>
       </body>
    </text>

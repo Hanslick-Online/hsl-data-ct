@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 6473. Wien, Sonntag, den 3. September 1882</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +70,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 6473. Wien, Sonntag, den 3. September 1882</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1882-09-03">03.09.1882</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18820903"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-06-16">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-06-19">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1296,489 +1296,405 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1779518471575_701_tl_1" n="N001"/><head type="h1"><rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Cultus.</head>
+            <lb facs="#facs_1_region_1779518471575_701_tl_2" n="N002"/><head type="h2">Ein Postscriptum zu unseren <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>er Briefen.)</head>
             <p>
-               <lb facs="#facs_1_line_1780464542090_348" n="N001"/>Nr. 6473. Wien, Sonntag, den 3. September 1882
-            </p>
+         <lb facs="#facs_1_region_1779518471575_701_tl_3" n="N003"/>Ed. H. Die Verehrung, welche wir einem berühmten
+         <lb facs="#facs_1_region_1779518471575_701_tl_4" n="N004"/>Zeitgenossen zollen, kann eine verdiente sein — vollkommen
+         <lb facs="#facs_1_region_1779518471575_701_tl_5" n="N005"/>oder theilweis verdiente — und trotzdem durch ihre Maß
+         <lb facs="#facs_1_region_1779518471575_701_tl_6" n="N006" break="no"/>losigkeit in Form und Inhalt zum Protest herausfordern.
+         <lb facs="#facs_1_region_1779518471575_701_tl_7" n="N007"/>Dies ist der Fall mit dem Richard-<rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Cultus unserer
+         <lb facs="#facs_1_region_1779518471575_701_tl_8" n="N008"/>Tage. Dieser Cultus, der in der Geschichte aller Künste ohne
+         <lb facs="#facs_1_region_1779518471575_701_tl_9" n="N009"/>Beispiel dasteht, dünkt uns ein so merkwürdiges Zeichen der
+         <lb facs="#facs_1_region_1779518471575_701_tl_10" n="N010"/>Zeit, daß ihm eine nähere, unbefangene Betrachtung wol
+         <lb facs="#facs_1_region_1779518471575_701_tl_11" n="N011"/>gebührt. Wir lassen dabei <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s künstlerisches Wirken
+         <lb facs="#facs_1_region_1779518471575_701_tl_12" n="N012"/>ganz aus dem Spiel, seine Verdienste völlig unangetastet,
+         <lb facs="#facs_1_region_1779518471575_701_tl_13" n="N013"/>lediglich das Gebahren seiner Anhänger betrachtend, und auch
+         <lb facs="#facs_1_region_1779518471575_701_tl_14" n="N014"/>dieses nur so weit es in literarischen Beweisstücken vorliegt.
+         <lb facs="#facs_1_region_1779518471575_701_tl_15" n="N015"/>Das entscheidendste öffentliche Document dafür ist ohne Frage
+         <lb facs="#facs_1_region_1779518471575_701_tl_16" n="N016"/>die Monatsschrift, welche unter <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s persönlicher Mit
+         <lb facs="#facs_1_region_1779518471575_701_tl_17" n="N017" break="no"/>wirkung von H. <rs type="person" ref="#hsl_person_id_2768">Wolzogen</rs> redigirt wird und das officielle
+         <lb facs="#facs_1_region_1779518471575_701_tl_18" n="N018"/>Organ aller „<rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Vereine“ bildet: die „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther
+         <lb facs="#facs_1_region_1779518471575_701_tl_19" n="N019"/>Blätter</rs>“. Sie stehen jetzt in ihrem fünften Jahrgange. Für
+         <lb facs="#facs_1_region_1779518471575_701_tl_20" n="N020"/>eine spätere Zeit, welche auf die <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Epidemie unserer
+         <lb facs="#facs_1_region_1779518471575_701_tl_21" n="N021"/>Tage mit ruhigem Urtheil, ja mit ungläubigem Erstaunen
+         <lb facs="#facs_1_region_1779518471575_701_tl_22" n="N022"/>zurückblicken wird, werden die „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther Blätter</rs>“ eine
+         <lb facs="#facs_1_region_1779518471575_701_tl_23" n="N023"/>nicht geringe culturhistorische Wichtigkeit haben. Der Musiker
+         <lb facs="#facs_1_region_1779518471575_701_tl_24" n="N024"/>wird darin nur äußerst dürftige und bedenkliche Belehrung
+         <lb facs="#facs_1_region_1779518471575_701_tl_25" n="N025"/>finden; die „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther Blätter</rs>“ kümmern sich um alles
+         <lb facs="#facs_1_region_1779518471575_701_tl_26" n="N026"/>Andere mehr, als um die musikalische Kunst <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s. Der
+         <lb facs="#facs_1_region_1779518471575_701_tl_27" n="N027"/>künftige Culturhistoriker <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>s hingegen wird aus
+         <lb facs="#facs_1_region_1779518471575_701_tl_28" n="N028"/>den fünf Jahrgängen dieser Zeitschrift authentisch darstellen
+         <lb facs="#facs_1_region_1779518471575_701_tl_29" n="N029"/>können, wie heftig das Delirium tremens des <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-
+         <lb facs="#facs_1_region_1779518471575_701_tl_30" n="N030"/>Rausches bei uns gewüthet und was für Auswüchse es im
+         <lb facs="#facs_1_region_1779518471575_701_tl_31" n="N031"/>Denken und Empfinden der „Gebildeten“ zurückgelassen hat.
+            </p><p>
+         <lb facs="#facs_1_region_1779518471575_701_tl_32" n="N032"/>Das Unterscheidende des <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Cultus gegenüber der
+         <lb facs="#facs_1_region_1779518471575_701_tl_33" n="N033"/>Verehrung, welche einem <rs type="person" ref="#hsl_person_id_189">Mozart</rs>, <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, <rs type="person" ref="#hsl_person_id_321">Weber</rs> gezollt
+         <lb facs="#facs_1_region_1779518471575_701_tl_34" n="N034"/>wurde, liegt nicht blos in der zur Siedhitze gesteigerten Tem
+         <lb facs="#facs_1_region_1779518471575_701_tl_35" n="N035" break="no"/>peratur, sondern wesentlich in seinem ganz exceptionellen,
+         <lb facs="#facs_1_region_1779518471575_701_tl_36" n="N036"/>alle Gebiete moderner Bildung sich annectirenden Inhalte.
+         <lb facs="#facs_1_region_1779518471575_701_tl_37" n="N037"/>Was <rs type="person" ref="#hsl_person_id_189">Mozart</rs> oder <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, abseits und unabhängig von
+         <lb facs="#facs_1_region_1779518471575_701_tl_38" n="N038"/>ihrem Künstlerberufe, für Ansichten, Passionen und Schrullen</p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1779518471575_701_tl_1" n="N001"/>
-               <rs type="person">Wagner</rs>-Cultus.
-               <lb facs="#facs_1_region_1779518471575_701_tl_2" n="N002"/>(Ein Postscriptum zu unseren <rs type="place">Bayreuth</rs>er Briefen.)
-               <lb facs="#facs_1_region_1779518471575_701_tl_3" n="N003"/>Ed. H. Die Verehrung, welche wir einem berühmten
-               <lb facs="#facs_1_region_1779518471575_701_tl_4" n="N004"/>Zeitgenossen zollen, kann eine verdiente sein — vollkommen
-               <lb facs="#facs_1_region_1779518471575_701_tl_5" n="N005"/>oder theilweis verdiente — und trotzdem durch ihre Maß¬
-               <lb facs="#facs_1_region_1779518471575_701_tl_6" n="N006"/>losigkeit in Form und Inhalt zum Protest herausfordern.
-               <lb facs="#facs_1_region_1779518471575_701_tl_7" n="N007"/>Dies ist der Fall mit dem Richard-<rs type="person">Wagner</rs>-Cultus unserer
-               <lb facs="#facs_1_region_1779518471575_701_tl_8" n="N008"/>Tage. Dieser Cultus, der in der Geschichte aller Künste ohne
-               <lb facs="#facs_1_region_1779518471575_701_tl_9" n="N009"/>Beispiel dasteht, dünkt uns ein so merkwürdiges Zeichen der
-               <lb facs="#facs_1_region_1779518471575_701_tl_10" n="N010"/>Zeit, daß ihm eine nähere, unbefangene Betrachtung wol
-               <lb facs="#facs_1_region_1779518471575_701_tl_11" n="N011"/>gebührt. Wir lassen dabei <rs type="person">Wagner</rs>'s künstlerisches Wirken
-               <lb facs="#facs_1_region_1779518471575_701_tl_12" n="N012"/>ganz aus dem Spiel, seine Verdienste völlig unangetastet,
-               <lb facs="#facs_1_region_1779518471575_701_tl_13" n="N013"/>lediglich das Gebahren seiner Anhänger betrachtend, und auch
-               <lb facs="#facs_1_region_1779518471575_701_tl_14" n="N014"/>dieses nur so weit es in literarischen Beweisstücken vorliegt.
-               <lb facs="#facs_1_region_1779518471575_701_tl_15" n="N015"/>Das entscheidendste öffentliche Document dafür ist ohne Frage
-               <lb facs="#facs_1_region_1779518471575_701_tl_16" n="N016"/>die Monatsschrift, welche unter <rs type="person">Wagner</rs>'s persönlicher Mit¬
-               <lb facs="#facs_1_region_1779518471575_701_tl_17" n="N017"/>wirkung von H. <rs type="person">Wolzogen</rs> redigirt wird und das officielle
-               <lb facs="#facs_1_region_1779518471575_701_tl_18" n="N018"/>Organ aller „<rs type="person">Wagner</rs>-Vereine“ bildet: die „<rs type="bibl">Bayreuther</rs>
-               <lb facs="#facs_1_region_1779518471575_701_tl_19" n="N019"/>
-               <rs type="bibl">Blätter</rs>“. Sie stehen jetzt in ihrem fünften Jahrgange. Für
-               <lb facs="#facs_1_region_1779518471575_701_tl_20" n="N020"/>eine spätere Zeit, welche auf die <rs type="person">Wagner</rs>-Epidemie unserer
-               <lb facs="#facs_1_region_1779518471575_701_tl_21" n="N021"/>Tage mit ruhigem Urtheil, ja mit ungläubigem Erstaunen
-               <lb facs="#facs_1_region_1779518471575_701_tl_22" n="N022"/>zurückblicken wird, werden die „<rs type="bibl">Bayreuther Blätter</rs>“ eine
-               <lb facs="#facs_1_region_1779518471575_701_tl_23" n="N023"/>nicht geringe culturhistorische Wichtigkeit haben. Der Musiker
-               <lb facs="#facs_1_region_1779518471575_701_tl_24" n="N024"/>wird darin nur äußerst dürftige und bedenkliche Belehrung
-               <lb facs="#facs_1_region_1779518471575_701_tl_25" n="N025"/>finden; die „<rs type="bibl">Bayreuther Blätter</rs>“ kümmern sich um alles
-               <lb facs="#facs_1_region_1779518471575_701_tl_26" n="N026"/>Andere mehr, als um die musikalische Kunst <rs type="person">Wagner</rs>'s. Der
-               <lb facs="#facs_1_region_1779518471575_701_tl_27" n="N027"/>künftige Culturhistoriker <rs type="place">Deutschland</rs>s hingegen wird aus
-               <lb facs="#facs_1_region_1779518471575_701_tl_28" n="N028"/>den fünf Jahrgängen dieser Zeitschrift authentisch darstellen
-               <lb facs="#facs_1_region_1779518471575_701_tl_29" n="N029"/>können, wie heftig das Delirium tremens des <rs type="person">Wagner</rs>-
-               <lb facs="#facs_1_region_1779518471575_701_tl_30" n="N030"/>Rausches bei uns gewüthet und was für Auswüchse es im
-               <lb facs="#facs_1_region_1779518471575_701_tl_31" n="N031"/>Denken und Empfinden der „Gebildeten“ zurückgelassen hat.
-               <lb facs="#facs_1_region_1779518471575_701_tl_32" n="N032"/>Das Unterscheidende des <rs type="person">Wagner</rs>-Cultus gegenüber der
-               <lb facs="#facs_1_region_1779518471575_701_tl_33" n="N033"/>Verehrung, welche einem <rs type="person">Mozart</rs>, <rs type="person">Beethoven</rs>, <rs type="person">Weber</rs> gezollt
-               <lb facs="#facs_1_region_1779518471575_701_tl_34" n="N034"/>wurde, liegt nicht blos in der zur Siedhitze gesteigerten Tem¬
-               <lb facs="#facs_1_region_1779518471575_701_tl_35" n="N035"/>peratur, sondern wesentlich in seinem ganz exceptionellen,
-               <lb facs="#facs_1_region_1779518471575_701_tl_36" n="N036"/>alle Gebiete moderner Bildung sich annectirenden Inhalte.
-               <lb facs="#facs_1_region_1779518471575_701_tl_37" n="N037"/>Was <rs type="person">Mozart</rs> oder <rs type="person">Beethoven</rs>, abseits und unabhängig von
-               <lb facs="#facs_1_region_1779518471575_701_tl_38" n="N038"/>ihrem Künstlerberufe, für Ansichten, Passionen und Schrullen
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1779518475023_704_tl_1" n="N001"/>gehegt, darum kümmert sich höchstens nachträglich der
+         <lb facs="#facs_1_region_1779518475023_704_tl_2" n="N002"/>Biograph. Derlei nichtmusikalische Privatmeinungen eines
+         <lb facs="#facs_1_region_1779518475023_704_tl_3" n="N003"/>Tondichters für unfehlbare Wahrheiten aufzunehmen und zu
+         <lb facs="#facs_1_region_1779518475023_704_tl_4" n="N004"/>beschwören, ist nie einem Beethovenianer oder Mozartianer ein
+         <lb facs="#facs_1_region_1779518475023_704_tl_5" n="N005" break="no"/>gefallen. Anders bei Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>. Seinen Anhängern,
+         <lb facs="#facs_1_region_1779518475023_704_tl_6" n="N006"/>welche eine Kette von „<rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Vereinen“ bekanntlich zu
+         <lb facs="#facs_1_region_1779518475023_704_tl_7" n="N007"/>einer organisirten großen Gemeinde vereinigt, ist <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518475023_704_tl_8" n="N008"/>nicht blos ein Alles überragender Tonmeister, sondern „der
+         <lb facs="#facs_1_region_1779518475023_704_tl_9" n="N009"/>Meister“ schlechtweg, die höchste Autorität in allen Gebieten
+         <lb facs="#facs_1_region_1779518475023_704_tl_10" n="N010"/>des Wissens, ein Lehrer und Erlöser der Menschheit. Jeder
+         <lb facs="#facs_1_region_1779518475023_704_tl_11" n="N011"/>Ausspruch, den er über Politik, Philosophie, Sitte oder
+         <lb facs="#facs_1_region_1779518475023_704_tl_12" n="N012"/>Religion fällt, gilt für eine neue große That, für eine
+         <lb facs="#facs_1_region_1779518475023_704_tl_13" n="N013"/>Offenbarung, die wie ein religiöses Gebot befolgt werden
+         <lb facs="#facs_1_region_1779518475023_704_tl_14" n="N014"/>muß. Das ist aus den fünf Jahrgängen der „<rs type="bibl" ref="#hsl_work_id_1982">Bay
+         <lb facs="#facs_1_region_1779518475023_704_tl_15" n="N015" break="no"/>reuther Blätter</rs>“, die wir mit heißem und qualvollem Be
+         <lb facs="#facs_1_region_1779518475023_704_tl_16" n="N016" break="no"/>mühen studirt, buchstäblich nachzuweisen. Die hauptsäch
+         <lb facs="#facs_1_region_1779518475023_704_tl_17" n="N017" break="no"/>lichsten dieser <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’schen Offenbarungen, die von seinen
+         <lb facs="#facs_1_region_1779518475023_704_tl_18" n="N018"/>Anhängern nachgebetet und unermüdlich interpretirt wer
+         <lb facs="#facs_1_region_1779518475023_704_tl_19" n="N019" break="no"/>den, betreffen: erstens die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs>’sche Philo
+         <lb facs="#facs_1_region_1779518475023_704_tl_20" n="N020" break="no"/>sophie</hi> und ihren tiefen Zusammenhang mit <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s
+         <lb facs="#facs_1_region_1779518475023_704_tl_21" n="N021"/>Opern; zweitens die religiöse, sociale und politische
+         <lb facs="#facs_1_region_1779518475023_704_tl_22" n="N022"/><hi rendition="#em">Regeneration des Menschengeschlechtes</hi> und
+         <lb facs="#facs_1_region_1779518475023_704_tl_23" n="N023"/>dessen Errettung aus unserer nichtswürdigen Cultur; drittens
+         <lb facs="#facs_1_region_1779518475023_704_tl_24" n="N024"/>die Agitation gegen die dem medicinischen Studium unent
+         <lb facs="#facs_1_region_1779518475023_704_tl_25" n="N025" break="no"/>behrliche <hi rendition="#em">Vivisection</hi> von Thieren; viertens, und be
+         <lb facs="#facs_1_region_1779518475023_704_tl_26" n="N026" break="no"/>sonders erheiternd: die Propaganda für den Speiszettel der
+         <lb facs="#facs_1_region_1779518475023_704_tl_27" n="N027"/><hi rendition="#em">Vegetarianer</hi>. Nun sind das gewiß lauter Dinge, die
+         <lb facs="#facs_1_region_1779518475023_704_tl_28" n="N028"/>mit dramatischer und musikalischer Kunst nicht das Mindeste
+         <lb facs="#facs_1_region_1779518475023_704_tl_29" n="N029"/>zu schaffen haben. Wie sich <rs type="person" ref="#hsl_person_id_319">Wagner</rs> persönlich zu ihnen ver
+         <lb facs="#facs_1_region_1779518475023_704_tl_30" n="N030" break="no"/>halte, ist für seine künstlerische Bedeutung und für die musi
+         <lb facs="#facs_1_region_1779518475023_704_tl_31" n="N031" break="no"/>kalische Welt absolut gleichgiltig. Aber das Eigenthümliche
+         <lb facs="#facs_1_region_1779518475023_704_tl_32" n="N032"/>jenes unglaublichen Curiosums, genannt <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Cultus, be
+         <lb facs="#facs_1_region_1779518475023_704_tl_33" n="N033" break="no"/>steht, wie gesagt, darin, daß der „Meister“ in <hi rendition="#em">allen</hi> Din
+         <lb facs="#facs_1_region_1779518475023_704_tl_34" n="N034" break="no"/>gen maßgebend ist. Der echte Wagnerianer muß nicht blos
+         <lb facs="#facs_1_region_1779518475023_704_tl_35" n="N035"/>unbedingter Anbeter jedes <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’schen Verses und Tactes,
+         <lb facs="#facs_1_region_1779518475023_704_tl_36" n="N036"/>er muß auch Schopenhauerianer sein, Pessimist, Gegner der
+         <lb facs="#facs_1_region_1779518475023_704_tl_37" n="N037"/>Vivisection, Judenfeind, Vegetarianer, gläubiger Christ und
+         <lb facs="#facs_1_region_1779518475023_704_tl_38" n="N038"/>was sonst noch der „Meister“ vorschreibt.
+            </p><p>
+         <lb facs="#facs_1_region_1779518475023_704_tl_39" n="N039"/>Den dünkelhaften Schwindel der Wagnerianer mit
+         <lb facs="#facs_1_region_1779518475023_704_tl_40" n="N040"/><rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs>, dessen Verständniß sie für sich gepachtet glau
+         <lb facs="#facs_1_region_1779518475023_704_tl_41" n="N041" break="no"/>ben, haben wir bereits (gelegentlich der „<rs type="bibl" ref="#hsl_work_id_418">Nibelungen</rs>“) näher</p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1779518475023_704_tl_1" n="N001"/>gehegt, darum kümmert sich höchstens nachträglich der
-               <lb facs="#facs_1_region_1779518475023_704_tl_2" n="N002"/>Biograph. Derlei nichtmusikalische Privatmeinungen eines
-               <lb facs="#facs_1_region_1779518475023_704_tl_3" n="N003"/>Tondichters für unfehlbare Wahrheiten aufzunehmen und zu
-               <lb facs="#facs_1_region_1779518475023_704_tl_4" n="N004"/>beschwören, ist nie einem Beethovenianer oder Mozartianer ein¬
-               <lb facs="#facs_1_region_1779518475023_704_tl_5" n="N005"/>gefallen. Anders bei Richard <rs type="person">Wagner</rs>. Seinen Anhängern,
-               <lb facs="#facs_1_region_1779518475023_704_tl_6" n="N006"/>welche eine Kette von „<rs type="person">Wagner</rs>-Vereinen“ bekanntlich zu
-               <lb facs="#facs_1_region_1779518475023_704_tl_7" n="N007"/>einer organisirten großen Gemeinde vereinigt, ist <rs type="person">Wagner</rs>
-               <lb facs="#facs_1_region_1779518475023_704_tl_8" n="N008"/>nicht blos ein Alles überragender Tonmeister, sondern „der
-               <lb facs="#facs_1_region_1779518475023_704_tl_9" n="N009"/>Meister“ schlechtweg, die höchste Autorität in allen Gebieten
-               <lb facs="#facs_1_region_1779518475023_704_tl_10" n="N010"/>des Wissens, ein Lehrer und Erlöser der Menschheit. Jeder
-               <lb facs="#facs_1_region_1779518475023_704_tl_11" n="N011"/>Ausspruch, den er über Politik, Philosophie, Sitte oder
-               <lb facs="#facs_1_region_1779518475023_704_tl_12" n="N012"/>Religion fällt, gilt für eine neue große That, für eine
-               <lb facs="#facs_1_region_1779518475023_704_tl_13" n="N013"/>Offenbarung, die wie ein religiöses Gebot befolgt werden
-               <lb facs="#facs_1_region_1779518475023_704_tl_14" n="N014"/>muß. Das ist aus den fünf Jahrgängen der „<rs type="bibl">Bay¬</rs>
-               <lb facs="#facs_1_region_1779518475023_704_tl_15" n="N015"/>
-               <rs type="bibl">reuther Blätter</rs>“, die wir mit heißem und qualvollem Be¬
-               <lb facs="#facs_1_region_1779518475023_704_tl_16" n="N016"/>mühen studirt, buchstäblich nachzuweisen. Die hauptsäch¬
-               <lb facs="#facs_1_region_1779518475023_704_tl_17" n="N017"/>lichsten dieser <rs type="person">Wagner</rs>'schen Offenbarungen, die von seinen
-               <lb facs="#facs_1_region_1779518475023_704_tl_18" n="N018"/>Anhängern nachgebetet und unermüdlich interpretirt wer¬
-               <lb facs="#facs_1_region_1779518475023_704_tl_19" n="N019"/>den, betreffen: erstens die <hi rendition="#em">
-                  <rs type="person">Schopenhauer</rs>'sche Philo¬</hi>
-               <lb facs="#facs_1_region_1779518475023_704_tl_20" n="N020"/>
-               <hi rendition="#em">sophie</hi> und ihren tiefen Zusammenhang mit <rs type="person">Wagner</rs>'s
-               <lb facs="#facs_1_region_1779518475023_704_tl_21" n="N021"/>Opern; zweitens die religiöse, sociale und politische
-               <lb facs="#facs_1_region_1779518475023_704_tl_22" n="N022"/>
-               <hi rendition="#em">Regeneration des Menschengeschlechtes</hi> und
-               <lb facs="#facs_1_region_1779518475023_704_tl_23" n="N023"/>dessen Errettung aus unserer nichtswürdigen Cultur; drittens
-               <lb facs="#facs_1_region_1779518475023_704_tl_24" n="N024"/>die Agitation gegen die dem medicinischen Studium unent¬
-               <lb facs="#facs_1_region_1779518475023_704_tl_25" n="N025"/>behrliche <hi rendition="#em">Vivisection</hi> von Thieren; viertens, und be¬
-               <lb facs="#facs_1_region_1779518475023_704_tl_26" n="N026"/>sonders erheiternd: die Propaganda für den Speiszettel der
-               <lb facs="#facs_1_region_1779518475023_704_tl_27" n="N027"/>
-               <hi rendition="#em">Vegetarianer</hi>. Nun sind das gewiß lauter Dinge, die
-               <lb facs="#facs_1_region_1779518475023_704_tl_28" n="N028"/>mit dramatischer und musikalischer Kunst nicht das Mindeste
-               <lb facs="#facs_1_region_1779518475023_704_tl_29" n="N029"/>zu schaffen haben. Wie sich <rs type="person">Wagner</rs> persönlich zu ihnen ver¬
-               <lb facs="#facs_1_region_1779518475023_704_tl_30" n="N030"/>halte, ist für seine künstlerische Bedeutung und für die musi¬
-               <lb facs="#facs_1_region_1779518475023_704_tl_31" n="N031"/>kalische Welt absolut gleichgiltig. Aber das Eigenthümliche
-               <lb facs="#facs_1_region_1779518475023_704_tl_32" n="N032"/>jenes unglaublichen Curiosums, genannt <rs type="person">Wagner</rs>-Cultus, be¬
-               <lb facs="#facs_1_region_1779518475023_704_tl_33" n="N033"/>steht, wie gesagt, darin, daß der „Meister“ in <hi rendition="#em">allen</hi> Din¬
-               <lb facs="#facs_1_region_1779518475023_704_tl_34" n="N034"/>gen maßgebend ist. Der echte Wagnerianer muß nicht blos
-               <lb facs="#facs_1_region_1779518475023_704_tl_35" n="N035"/>unbedingter Anbeter jedes <rs type="person">Wagner</rs>'schen Verses und Tactes,
-               <lb facs="#facs_1_region_1779518475023_704_tl_36" n="N036"/>er muß auch Schopenhauerianer sein, Pessimist, Gegner der
-               <lb facs="#facs_1_region_1779518475023_704_tl_37" n="N037"/>Vivisection, Judenfeind, Vegetarianer, gläubiger Christ und
-               <lb facs="#facs_1_region_1779518475023_704_tl_38" n="N038"/>was sonst noch der „Meister“ vorschreibt.
-               <lb facs="#facs_1_region_1779518475023_704_tl_39" n="N039"/>Den dünkelhaften Schwindel der Wagnerianer mit
-               <lb facs="#facs_1_region_1779518475023_704_tl_40" n="N040"/>
-               <rs type="person">Schopenhauer</rs>, dessen Verständniß sie für sich gepachtet glau¬
-               <lb facs="#facs_1_region_1779518475023_704_tl_41" n="N041"/>ben, haben wir bereits (gelegentlich der „<rs type="bibl">Nibelungen</rs>“) näher
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1779518478958_707_tl_1" n="N001"/>beleuchtet und dürfen wol auf den älteren Aufsatz verweisen.*)
-               <lb facs="#facs_1_region_1779518478958_707_tl_2" n="N002"/>Unser dort ausgesprochener Wunsch, man möge uns endlich
-               <lb facs="#facs_1_region_1779518478958_707_tl_3" n="N003"/>verschonen mit der angeblich tiefsinnigen Anwendung <rs type="person" continued="true">Schopen¬</rs>
-               <lb facs="#facs_1_region_1779518478958_707_tl_4" n="N004"/>
-               <rs type="person" continued="true">hauer</rs>'scher Kategorien und Terminologien auf <rs type="person">Wagner</rs>'sche
-               <lb facs="#facs_1_region_1779518478958_707_tl_5" n="N005"/>Opern, ist nicht in Erfüllung gegangen. Die jungen
-               <lb facs="#facs_1_region_1779518478958_707_tl_6" n="N006"/>Herren von den „<rs type="bibl">Bayreuther Blättern</rs>“ werfen nach
-               <lb facs="#facs_1_region_1779518478958_707_tl_7" n="N007"/>wie vor bei jeder Gelegenheit mit „<rs type="person">Schopenhauer</rs>“
-               <lb facs="#facs_1_region_1779518478958_707_tl_8" n="N008"/>herum, als wären sie in philosophischen Studien er¬
-               <lb facs="#facs_1_region_1779518478958_707_tl_9" n="N009"/>graut. „<rs type="bibl">Parsifal</rs>,“ so schreiben sie neuestens, „<rs type="bibl">Parsifal</rs> gibt,
-               <lb facs="#facs_1_region_1779518478958_707_tl_10" n="N010"/>nur aller Details entkleidet, die <rs type="person">Schopenhauer</rs>'sche Meta¬
-               <lb facs="#facs_1_region_1779518478958_707_tl_11" n="N011"/>physik und Ethik im Kern wieder. <rs type="person">Wagner</rs> hat im <rs type="bibl">Parsifal</rs>
-               <lb facs="#facs_1_line_1780549274789_47" n="N012"/>
-               <hi rendition="#em">
-                  <rs type="person">Schopenhauer</rs> nur in Kunst umgesetzt</hi>, indem er
-               <lb facs="#facs_1_line_1780549270408_43" n="N013"/>das Christenthum in Kunst umsetzte.“ Welcher Unsinn! Weil
-               <lb facs="#facs_1_region_1779518478958_707_tl_16" n="N014"/>„Mitleid“ das Hauptmotiv im „<rs type="bibl">Parsifal</rs>“ bildet oder bilden
-               <lb facs="#facs_1_region_1779518478958_707_tl_17" n="N015"/>soll, und <rs type="person">Schopenhauer</rs> das Mitleid als die „Basis aller
-               <lb facs="#facs_1_region_1779518478958_707_tl_18" n="N016"/>echten Menschenliebe“ preist, muß <rs type="person">Wagner</rs>'s Weihfestspiel der
-               <lb facs="#facs_1_region_1779518478958_707_tl_19" n="N017"/>in Musik umgesetzte <rs type="person">Schopenhauer</rs> sein! Man wird uns
-               <lb facs="#facs_1_region_1779518478958_707_tl_20" n="N018"/>noch weismachen wollen, daß Mitleid mit dem Unglücke
-               <lb facs="#facs_1_region_1779518478958_707_tl_21" n="N019"/>Anderer eine Erfindung <rs type="person">Schopenhauer</rs>'s und vor diesem
-               <lb facs="#facs_1_region_1779518478958_707_tl_22" n="N020"/>gänzlich unbekannt war. Ein Drama des Mitleids konnte
-               <lb facs="#facs_1_region_1779518478958_707_tl_23" n="N021"/>und kann dichten, wer auch nie eine Zeile von <rs type="person" continued="true">Schopen¬</rs>
-               <lb facs="#facs_1_region_1779518478958_707_tl_24" n="N022"/>
-               <rs type="person" continued="true">hauer</rs> gelesen hat, gerade so wie <rs type="person">Shakspeare</rs> seinen „<rs type="bibl">Timon</rs>
-               <lb facs="#facs_1_region_1779518478958_707_tl_25" n="N023"/>
-               <rs type="bibl">von Athen</rs>“ gedichtet hat, ohne erst von <rs type="person">Schopenhauer</rs> den
-               <lb facs="#facs_1_region_1779518478958_707_tl_26" n="N024"/>Pessimismus zu lernen. Nebenbei bemerkt, hat <rs type="person">Schopenhauer</rs>
-               <lb facs="#facs_1_region_1779518478958_707_tl_27" n="N025"/>nicht das Christenthum, sondern den Buddhismus „die Lehre
-               <lb facs="#facs_1_region_1779518478958_707_tl_28" n="N026"/>unserer allerheiligsten Religion“ genannt und sich das Bild
-               <lb facs="#facs_1_region_1779518478958_707_tl_29" n="N027"/>
-               <rs type="person">Buddha</rs>'s angeschafft, wie Andere sich einen <rs type="person">Christus</rs>kopf
-               <lb facs="#facs_1_region_1779518478958_707_tl_30" n="N028"/>anschaffen.
-               <lb facs="#facs_1_region_1779518478958_707_tl_31" n="N029"/>Der gesunde Menschenverstand, der uns sagt, daß man
-               <lb facs="#facs_1_region_1779518478958_707_tl_32" n="N030"/>über Philosophie und philosophische Systeme sich nicht bei
-               <lb facs="#facs_1_region_1779518478958_707_tl_33" n="N031"/>einem Operncomponisten Raths erholt, lehrt uns auch, daß
-               <lb facs="#facs_1_region_1779518478958_707_tl_34" n="N032"/>über die Nothwendigkeit oder Entbehrlichkeit der <hi rendition="#em">
-                  <rs type="person" continued="true">Vivi¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1779518478958_707_tl_35" n="N033"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">section</rs>
-               </hi> zu wissenschaftlichen Zwecken Mediciner zu urtheilen
-               <lb facs="#facs_1_region_1779518478958_707_tl_36" n="N034"/>haben, physiologische und pathologische Autoritäten, nicht
-               <lb facs="#facs_1_region_1779518478958_707_tl_37" n="N035"/>aber Musiker. Bei den Wagnerianern gilt das jedoch nicht.
-               <lb facs="#facs_1_region_1779518478958_707_tl_38" n="N036"/>Der „Meister“ hat die Vivisection kurzweg verdammt, und
-               <lb facs="#facs_1_region_1779518478958_707_tl_39" n="N037"/>sofort überfließen die „<rs type="bibl">Bayreuther Blätter</rs>“, deren Aufgabe
-               <lb facs="#facs_1_region_1779518478958_707_tl_40" n="N038"/>man bisher für eine kunstwissenschaftliche hielt, von Artikeln,
-               <lb facs="#facs_1_region_1779518478958_707_tl_41" n="N039"/>welche — stets in anmaßendster Sprache — die Vivisection
-               <lb facs="#facs_1_region_1779518478958_707_tl_42" n="N040"/>*) „<rs type="bibl">Musikalische Stationen</rs>“ (<rs type="place">Berlin</rs> bei A. <rs type="person">Hofmann</rs>, <date month="0" day="0" year="0">1880</date>),
-               <lb facs="#facs_1_line_1780549224048_11" n="N041"/>pag. 258.
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1779518478958_707_tl_1" n="N001"/>beleuchtet und dürfen wol auf den älteren Aufsatz verweisen.
+            <note type="footnote" n="*)">
+            <lb facs="#facs_1_region_1779518478958_707_tl_42" n="N040"/>„<rs type="bibl" ref="#hsl_work_id_422">Musikalische Stationen</rs>“ (<rs type="place" ref="#hsl_place_id_9">Berlin</rs> bei A. <rs type="person" ref="#hsl_person_id_9031">Hofmann</rs>, <date>1880</date>),
+            <lb facs="#facs_1_line_1780549224048_11" n="N041"/>pag. 258.
+            </note>
+         <lb facs="#facs_1_region_1779518478958_707_tl_2" n="N002"/>Unser dort ausgesprochener Wunsch, man möge uns endlich
+         <lb facs="#facs_1_region_1779518478958_707_tl_3" n="N003"/>verschonen mit der angeblich tiefsinnigen Anwendung <rs type="person" ref="#hsl_person_id_2456">Schopen
+         <lb facs="#facs_1_region_1779518478958_707_tl_4" n="N004" break="no"/>hauer</rs>’scher Kategorien und Terminologien auf <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’sche
+         <lb facs="#facs_1_region_1779518478958_707_tl_5" n="N005"/>Opern, ist nicht in Erfüllung gegangen. Die jungen
+         <lb facs="#facs_1_region_1779518478958_707_tl_6" n="N006"/>Herren von den „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther Blättern</rs>“ werfen nach
+         <lb facs="#facs_1_region_1779518478958_707_tl_7" n="N007"/>wie vor bei jeder Gelegenheit mit „<rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs>“
+         <lb facs="#facs_1_region_1779518478958_707_tl_8" n="N008"/>herum, als wären sie in philosophischen Studien er
+         <lb facs="#facs_1_region_1779518478958_707_tl_9" n="N009" break="no"/>graut. „<rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>,“ so schreiben sie neuestens, „<rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs> gibt,
+         <lb facs="#facs_1_region_1779518478958_707_tl_10" n="N010"/>nur aller Details entkleidet, die <rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs>’sche Meta
+         <lb facs="#facs_1_region_1779518478958_707_tl_11" n="N011" break="no"/>physik und Ethik im Kern wieder. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> hat im <rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_line_1780549274789_47" n="N012"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs> nur in Kunst umgesetzt</hi>, indem er
+         <lb facs="#facs_1_line_1780549270408_43" n="N013"/>das Christenthum in Kunst umsetzte.“ Welcher Unsinn! Weil
+         <lb facs="#facs_1_region_1779518478958_707_tl_16" n="N014"/>„Mitleid“ das Hauptmotiv im „<rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>“ bildet oder bilden
+         <lb facs="#facs_1_region_1779518478958_707_tl_17" n="N015"/>soll, und <rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs> das Mitleid als die „Basis aller
+         <lb facs="#facs_1_region_1779518478958_707_tl_18" n="N016"/>echten Menschenliebe“ preist, muß <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Weihfestspiel der
+         <lb facs="#facs_1_region_1779518478958_707_tl_19" n="N017"/>in Musik umgesetzte <rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs> sein! Man wird uns
+         <lb facs="#facs_1_region_1779518478958_707_tl_20" n="N018"/>noch weismachen wollen, daß Mitleid mit dem Unglücke
+         <lb facs="#facs_1_region_1779518478958_707_tl_21" n="N019"/>Anderer eine Erfindung <rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs>’s und vor diesem
+         <lb facs="#facs_1_region_1779518478958_707_tl_22" n="N020"/>gänzlich unbekannt war. Ein Drama des Mitleids konnte
+         <lb facs="#facs_1_region_1779518478958_707_tl_23" n="N021"/>und kann dichten, wer auch nie eine Zeile von <rs type="person" ref="#hsl_person_id_2456">Schopen
+         <lb facs="#facs_1_region_1779518478958_707_tl_24" n="N022" break="no"/>hauer</rs> gelesen hat, gerade so wie <rs type="person" ref="#hsl_person_id_287">Shakspeare</rs> seinen „<rs type="bibl" ref="#hsl_work_id_6537">Timon
+         <lb facs="#facs_1_region_1779518478958_707_tl_25" n="N023"/>von Athen</rs>“ gedichtet hat, ohne erst von <rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs> den
+         <lb facs="#facs_1_region_1779518478958_707_tl_26" n="N024"/>Pessimismus zu lernen. Nebenbei bemerkt, hat <rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518478958_707_tl_27" n="N025"/>nicht das Christenthum, sondern den Buddhismus „die Lehre
+         <lb facs="#facs_1_region_1779518478958_707_tl_28" n="N026"/>unserer allerheiligsten Religion“ genannt und sich das Bild
+         <lb facs="#facs_1_region_1779518478958_707_tl_29" n="N027"/><rs type="person" ref="#hsl_person_id_9032">Buddha</rs>’s angeschafft, wie Andere sich einen <rs type="person" ref="#hsl_person_id_463">Christus</rs>kopf
+         <lb facs="#facs_1_region_1779518478958_707_tl_30" n="N028"/>anschaffen.
+            </p><p>
+         <lb facs="#facs_1_region_1779518478958_707_tl_31" n="N029"/>Der gesunde Menschenverstand, der uns sagt, daß man
+         <lb facs="#facs_1_region_1779518478958_707_tl_32" n="N030"/>über Philosophie und philosophische Systeme sich nicht bei
+         <lb facs="#facs_1_region_1779518478958_707_tl_33" n="N031"/>einem Operncomponisten Raths erholt, lehrt uns auch, daß
+         <lb facs="#facs_1_region_1779518478958_707_tl_34" n="N032"/>über die Nothwendigkeit oder Entbehrlichkeit der <hi rendition="#em">Vivi
+         <lb facs="#facs_1_region_1779518478958_707_tl_35" n="N033" break="no"/>section</hi> zu wissenschaftlichen Zwecken Mediciner zu urtheilen
+         <lb facs="#facs_1_region_1779518478958_707_tl_36" n="N034"/>haben, physiologische und pathologische Autoritäten, nicht
+         <lb facs="#facs_1_region_1779518478958_707_tl_37" n="N035"/>aber Musiker. Bei den Wagnerianern gilt das jedoch nicht.
+         <lb facs="#facs_1_region_1779518478958_707_tl_38" n="N036"/>Der „Meister“ hat die Vivisection kurzweg verdammt, und
+         <lb facs="#facs_1_region_1779518478958_707_tl_39" n="N037"/>sofort überfließen die „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther Blätter</rs>“, deren Aufgabe
+         <lb facs="#facs_1_region_1779518478958_707_tl_40" n="N038"/>man bisher für eine kunstwissenschaftliche hielt, von Artikeln,
+         <lb facs="#facs_1_region_1779518478958_707_tl_41" n="N039"/>welche — stets in anmaßendster Sprache — die Vivisection</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1779518487278_713_tl_1" n="N001"/>als frivole Thierquälerei verurtheilen und unter Anderm den
+         <lb facs="#facs_2_region_1779518487278_713_tl_2" n="N002"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Reichstag heftig abkanzeln, weil er über eine Anti-
+         <lb facs="#facs_2_region_1779518487278_713_tl_3" n="N003"/>Vivisections-Petition zur Tagesordnung überging. „Haben
+         <lb facs="#facs_2_region_1779518487278_713_tl_4" n="N004"/>wir Deutsche wirklich eine Cultur? Haben wir einen Glauben?“
+         <lb facs="#facs_2_region_1779518487278_713_tl_5" n="N005"/>schließt pathetisch eines dieser kindischen Manifeste. Wenn wir
+         <lb facs="#facs_2_region_1779518487278_713_tl_6" n="N006"/>gegen alle diese dilettantischen Declamationen den einzigen
+         <lb facs="#facs_2_region_1779518487278_713_tl_7" n="N007"/>Ausspruch Professor <hi rendition="#em"><rs type="person" ref="#hsl_person_id_34">Billroth</rs>’s</hi> anführen, daß er gewisse
+         <lb facs="#facs_2_region_1779518487278_713_tl_8" n="N008"/>schwierige und gefährliche Operationen, durch welche Menschen
+         <lb facs="#facs_2_region_1779518487278_713_tl_9" n="N009" break="no"/>leben gerettet worden, niemals auszuführen gewagt hätte,
+         <lb facs="#facs_2_region_1779518487278_713_tl_10" n="N010"/>würde er sich nicht zuvor von ihrer Möglichkeit durch Ver
+         <lb facs="#facs_2_region_1779518487278_713_tl_11" n="N011" break="no"/>suche an Thieren überzeugt haben — so wird dies wol jedem
+         <lb facs="#facs_2_region_1779518487278_713_tl_12" n="N012"/>Einsichtsvollen genügen. Aber der richtige Wagnerianer hat
+         <lb facs="#facs_2_region_1779518487278_713_tl_13" n="N013"/>auf eigenes Denken verzichtet; er bringt dem „Meister“ nebst
+         <lb facs="#facs_2_region_1779518487278_713_tl_14" n="N014"/>anderen Opfern auch das Sacrificium intellectus. Mit
+         <lb facs="#facs_2_region_1779518487278_713_tl_15" n="N015"/>diesem zärtlichen Wohlwollen für die Thierwelt hängt —
+         <lb facs="#facs_2_region_1779518487278_713_tl_16" n="N016"/>wenigstens theilweise — eine andere Privatpassion Richard
+         <lb facs="#facs_2_region_1779518487278_713_tl_17" n="N017"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s zusammen: seine Propaganda für <hi rendition="#em">vegetarische
+         <lb facs="#facs_2_region_1779518487278_713_tl_18" n="N018"/>Kost</hi>. Es sei Sünde, ein Thier zu tödten. Außerdem habe
+         <lb facs="#facs_2_region_1779518487278_713_tl_19" n="N019"/>die Fleischnahrung das Menschengeschlecht physisch und mora
+         <lb facs="#facs_2_region_1779518487278_713_tl_20" n="N020" break="no"/>lisch ruinirt. „Die Idee des Fleischfraßthums ist schuld an
+         <lb facs="#facs_2_region_1779518487278_713_tl_21" n="N021"/>allem Jammer in der Welt,“ heißt es in den „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther
+         <lb facs="#facs_2_region_1779518487278_713_tl_22" n="N022"/>Blättern</rs>“ (<date>1882</date>), welche sogar von einer „vegetarischen <hi rendition="#em">Welt
+         <lb facs="#facs_2_region_1779518487278_713_tl_23" n="N023" break="no"/>anschauung</hi>“ reden. Zärtlichkeit gegen Thiere, bis zur
+         <lb facs="#facs_2_region_1779518487278_713_tl_24" n="N024"/>Sentimentalität gesteigert, finden wir bekanntlich oft bei
+         <lb facs="#facs_2_region_1779518487278_713_tl_25" n="N025"/>Leuten, die sich keineswegs durch übertriebene Menschenliebe
+         <lb facs="#facs_2_region_1779518487278_713_tl_26" n="N026"/>auszeichnen. Man weiß, wie zärtlich <rs type="person" ref="#hsl_person_id_3801">Robespierre</rs> seine
+         <lb facs="#facs_2_region_1779518487278_713_tl_27" n="N027"/>Tauben pflegte. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> also erklärt die ausschließliche Pflanzen
+         <lb facs="#facs_2_region_1779518487278_713_tl_28" n="N028" break="no"/>kost für unentbehrlich zur Reorganisation der Menschheit,
+         <lb facs="#facs_2_region_1779518487278_713_tl_29" n="N029"/>und siehe da! das Gemüse wird Glaubensartikel und Partei
+         <lb facs="#facs_2_region_1779518487278_713_tl_30" n="N030" break="no"/>sache der Wagnerianer. Gibt es etwas Komischeres, als den
+         <lb facs="#facs_2_region_1779518487278_713_tl_31" n="N031"/>unter den öffentlichen Ankündigungen des „<rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>“ stehen
+         <lb facs="#facs_2_region_1779518487278_713_tl_32" n="N032" break="no"/>den Aufruf der Redaction an ihre Gesinnungsgenossen, sich
+         <lb facs="#facs_2_region_1779518487278_713_tl_33" n="N033"/>rechtzeitig anzumelden zum „Vegetarischen Tisch“ in <rs type="place" ref="#hsl_place_id_8">Bay
+         <lb facs="#facs_2_region_1779518487278_713_tl_34" n="N034" break="no"/>reuth</rs>? Es liegt eine entzückende Naivetät in der Art, wie
+         <lb facs="#facs_2_region_1779518487278_713_tl_35" n="N035"/>die „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther Blätter</rs>“ den Zusammenhang der Pflanzenkost
+         <lb facs="#facs_2_region_1779518487278_713_tl_36" n="N036"/>mit dem <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Cultus darstellen: „Der Gedanke des
+         <lb facs="#facs_2_line_1780550586115_388" n="N037"/>Vegetarismus“ — schreibt unser im Gemüsegarten der Liebe
+         <lb facs="#facs_2_region_1779518487278_713_tl_39" n="N038"/>herumtaumelnder Cavalier — „aus der ethisch-religiösen
+         <lb facs="#facs_2_region_1779518487278_713_tl_40" n="N039"/>Tiefe unseres Arbeitsfeldes von genialer Finderhand (näm
+         <lb facs="#facs_2_region_1779518487278_713_tl_41" n="N040" break="no"/>lich <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s) hervorgehoben, hat mit Einemmale einen über
+         <lb facs="#facs_2_region_1779518487278_713_tl_42" n="N041"/>weite Lande sich erstreckenden Kreis sehr ernst besonnener
+         <lb facs="#facs_2_region_1779518487278_713_tl_43" n="N042"/>Menschen (die Vegetarianer) an uns herangezogen. <hi rendition="#em">Sie</hi></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1779518487278_713_tl_1" n="N001"/>als frivole Thierquälerei verurtheilen und unter Anderm den
-               <lb facs="#facs_2_region_1779518487278_713_tl_2" n="N002"/>
-               <rs type="place">deutsch</rs>en Reichstag heftig abkanzeln, weil er über eine Anti-
-               <lb facs="#facs_2_region_1779518487278_713_tl_3" n="N003"/>Vivisections-Petition zur Tagesordnung überging. „Haben
-               <lb facs="#facs_2_region_1779518487278_713_tl_4" n="N004"/>wir Deutsche wirklich eine Cultur? Haben wir einen Glauben?“
-               <lb facs="#facs_2_region_1779518487278_713_tl_5" n="N005"/>schließt pathetisch eines dieser kindischen Manifeste. Wenn wir
-               <lb facs="#facs_2_region_1779518487278_713_tl_6" n="N006"/>gegen alle diese dilettantischen Declamationen den einzigen
-               <lb facs="#facs_2_region_1779518487278_713_tl_7" n="N007"/>Ausspruch Professor <hi rendition="#em">
-                  <rs type="person">Billroth</rs>'s</hi> anführen, daß er gewisse
-               <lb facs="#facs_2_region_1779518487278_713_tl_8" n="N008"/>schwierige und gefährliche Operationen, durch welche Menschen¬
-               <lb facs="#facs_2_region_1779518487278_713_tl_9" n="N009"/>leben gerettet worden, niemals auszuführen gewagt hätte,
-               <lb facs="#facs_2_region_1779518487278_713_tl_10" n="N010"/>würde er sich nicht zuvor von ihrer Möglichkeit durch Ver¬
-               <lb facs="#facs_2_region_1779518487278_713_tl_11" n="N011"/>suche an Thieren überzeugt haben — so wird dies wol jedem
-               <lb facs="#facs_2_region_1779518487278_713_tl_12" n="N012"/>Einsichtsvollen genügen. Aber der richtige Wagnerianer hat
-               <lb facs="#facs_2_region_1779518487278_713_tl_13" n="N013"/>auf eigenes Denken verzichtet; er bringt dem „Meister“ nebst
-               <lb facs="#facs_2_region_1779518487278_713_tl_14" n="N014"/>anderen Opfern auch das Sacrificium intellectus. Mit
-               <lb facs="#facs_2_region_1779518487278_713_tl_15" n="N015"/>diesem zärtlichen Wohlwollen für die Thierwelt hängt —
-               <lb facs="#facs_2_region_1779518487278_713_tl_16" n="N016"/>wenigstens theilweise — eine andere Privatpassion Richard
-               <lb facs="#facs_2_region_1779518487278_713_tl_17" n="N017"/>
-               <rs type="person">Wagner</rs>'s zusammen: seine Propaganda für <hi rendition="#em">vegetarische</hi>
-               <lb facs="#facs_2_region_1779518487278_713_tl_18" n="N018"/>
-               <hi rendition="#em">Kost</hi>. Es sei Sünde, ein Thier zu tödten. Außerdem habe
-               <lb facs="#facs_2_region_1779518487278_713_tl_19" n="N019"/>die Fleischnahrung das Menschengeschlecht physisch und mora¬
-               <lb facs="#facs_2_region_1779518487278_713_tl_20" n="N020"/>lisch ruinirt. „Die Idee des Fleischfraßthums ist schuld an
-               <lb facs="#facs_2_region_1779518487278_713_tl_21" n="N021"/>allem Jammer in der Welt,“ heißt es in den „<rs type="bibl">Bayreuther</rs>
-               <lb facs="#facs_2_region_1779518487278_713_tl_22" n="N022"/>
-               <rs type="bibl">Blättern</rs>“ (<date month="0" day="0" year="0">1882</date>), welche sogar von einer „vegetarischen <hi rendition="#em">Welt¬</hi>
-               <lb facs="#facs_2_region_1779518487278_713_tl_23" n="N023"/>
-               <hi rendition="#em">anschauung</hi>“ reden. Zärtlichkeit gegen Thiere, bis zur
-               <lb facs="#facs_2_region_1779518487278_713_tl_24" n="N024"/>Sentimentalität gesteigert, finden wir bekanntlich oft bei
-               <lb facs="#facs_2_region_1779518487278_713_tl_25" n="N025"/>Leuten, die sich keineswegs durch übertriebene Menschenliebe
-               <lb facs="#facs_2_region_1779518487278_713_tl_26" n="N026"/>auszeichnen. Man weiß, wie zärtlich <rs type="person">Robespierre</rs> seine
-               <lb facs="#facs_2_region_1779518487278_713_tl_27" n="N027"/>Tauben pflegte. <rs type="person">Wagner</rs> also erklärt die ausschließliche Pflanzen¬
-               <lb facs="#facs_2_region_1779518487278_713_tl_28" n="N028"/>kost für unentbehrlich zur Reorganisation der Menschheit,
-               <lb facs="#facs_2_region_1779518487278_713_tl_29" n="N029"/>und siehe da! das Gemüse wird Glaubensartikel und Partei¬
-               <lb facs="#facs_2_region_1779518487278_713_tl_30" n="N030"/>sache der Wagnerianer. Gibt es etwas Komischeres, als den
-               <lb facs="#facs_2_region_1779518487278_713_tl_31" n="N031"/>unter den öffentlichen Ankündigungen des „<rs type="bibl">Parsifal</rs>“ stehen¬
-               <lb facs="#facs_2_region_1779518487278_713_tl_32" n="N032"/>den Aufruf der Redaction an ihre Gesinnungsgenossen, sich
-               <lb facs="#facs_2_region_1779518487278_713_tl_33" n="N033"/>rechtzeitig anzumelden zum „Vegetarischen Tisch“ in <rs type="place" continued="true">Bay¬</rs>
-               <lb facs="#facs_2_region_1779518487278_713_tl_34" n="N034"/>
-               <rs type="place" continued="true">reuth</rs>? Es liegt eine entzückende Naivetät in der Art, wie
-               <lb facs="#facs_2_region_1779518487278_713_tl_35" n="N035"/>die „<rs type="bibl">Bayreuther Blätter</rs>“ den Zusammenhang der Pflanzenkost
-               <lb facs="#facs_2_region_1779518487278_713_tl_36" n="N036"/>mit dem <rs type="person">Wagner</rs>-Cultus darstellen: „Der Gedanke des
-               <lb facs="#facs_2_line_1780550586115_388" n="N037"/>Vegetarismus“ — schreibt unser im Gemüsegarten der Liebe
-               <lb facs="#facs_2_region_1779518487278_713_tl_39" n="N038"/>herumtaumelnder Cavalier — „aus der ethisch-religiösen
-               <lb facs="#facs_2_region_1779518487278_713_tl_40" n="N039"/>Tiefe unseres Arbeitsfeldes von genialer Finderhand (näm¬
-               <lb facs="#facs_2_region_1779518487278_713_tl_41" n="N040"/>lich <rs type="person">Wagner</rs>'s) hervorgehoben, hat mit Einemmale einen über
-               <lb facs="#facs_2_region_1779518487278_713_tl_42" n="N041"/>weite Lande sich erstreckenden Kreis sehr ernst besonnener
-               <lb facs="#facs_2_region_1779518487278_713_tl_43" n="N042"/>Menschen (die Vegetarianer) an uns herangezogen. <hi rendition="#em">Sie</hi>
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1779518491070_716_tl_1" n="N001"/><hi rendition="#em">bringen uns jene Zartheit des Empfindens
+         <lb facs="#facs_2_region_1779518491070_716_tl_2" n="N002"/>mit sich</hi>, deren auch das Kunstwerk bedarf, um mit rechtem
+         <lb facs="#facs_2_region_1779518491070_716_tl_3" n="N003"/>Verständnisse von der menschlichen Seele aufgefaßt und miterlebt
+         <lb facs="#facs_2_region_1779518491070_716_tl_4" n="N004"/>werden zu können. Wir unsererseits haben ihren eigenen Bemühun
+         <lb facs="#facs_2_region_1779518491070_716_tl_5" n="N005" break="no"/>gen einen wunderbar erkräftigenden Zufluß aus der ewigen Quelle
+         <lb facs="#facs_2_region_1779518491070_716_tl_6" n="N006"/>des <hi rendition="#em">Ideals</hi> zugeführt.“ Also eine förmliche Allianz
+         <lb facs="#facs_2_region_1779518491070_716_tl_7" n="N007"/>zwischen den Pflanzenessern und den Wagnerianern! Helft
+         <lb facs="#facs_2_region_1779518491070_716_tl_8" n="N008"/>ihr uns Propaganda für <rs type="person" ref="#hsl_person_id_319">Wagner</rs> machen, wir wollen da
+         <lb facs="#facs_2_region_1779518491070_716_tl_9" n="N009" break="no"/>gegen für euer Grünzeug agitiren. Man traut seinen Augen
+         <lb facs="#facs_2_region_1779518491070_716_tl_10" n="N010"/>nicht, wenn man derlei Albernheiten liest, die alle mit feier
+         <lb facs="#facs_2_region_1779518491070_716_tl_11" n="N011" break="no"/>lichem Ernste zur Ehre des „Meisters“ proclamirt werden.
+         <lb facs="#facs_2_region_1779518491070_716_tl_12" n="N012"/>Und leider mit dessen Wissen und Genehmigung. Zur Be
+         <lb facs="#facs_2_region_1779518491070_716_tl_13" n="N013" break="no"/>ruhigung zahlreicher <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Verehrer, die wenigstens im
+         <lb facs="#facs_2_region_1779518491070_716_tl_14" n="N014"/>Punkte der Nahrungsmittel vernünftig geblieben sind, melden
+         <lb facs="#facs_2_region_1779518491070_716_tl_15" n="N015"/>wir übrigens aus allersicherster Quelle, daß <rs type="person" ref="#hsl_person_id_319">Wagner</rs> die
+         <lb facs="#facs_2_region_1779518491070_716_tl_16" n="N016"/>Fleischkost nur theoretisch verdammt, sich selbst aber seinen
+         <lb facs="#facs_2_region_1779518491070_716_tl_17" n="N017"/>Braten vortrefflich schmecken läßt, und den von den Vegeta
+         <lb facs="#facs_2_region_1779518491070_716_tl_18" n="N018" break="no"/>rianern verpönten Wein dazu. Wir hatten keinen Augen
+         <lb facs="#facs_2_region_1779518491070_716_tl_19" n="N019" break="no"/>blick daran gezweifelt. Einen „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ componirt man
+         <lb facs="#facs_2_region_1779518491070_716_tl_20" n="N020"/>nicht bei saurer Milch und Bohnen, nicht einmal einen
+         <lb facs="#facs_2_region_1779518491070_716_tl_21" n="N021"/>frommen Gralsritter. Theorie und Praxis, Lehre und Bei
+         <lb facs="#facs_2_region_1779518491070_716_tl_22" n="N022" break="no"/>spiel gehen bei <rs type="person" ref="#hsl_person_id_319">Wagner</rs> bekanntlich nach Bedarf neben- oder
+         <lb facs="#facs_2_region_1779518491070_716_tl_23" n="N023"/>auseinander. Die Mehrzahl seiner in <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs> versammel
+         <lb facs="#facs_2_region_1779518491070_716_tl_24" n="N024" break="no"/>ten Anhänger hielt sich lieber an das Beispiel als an die
+         <lb facs="#facs_2_region_1779518491070_716_tl_25" n="N025"/>Lehre, und der „Vegetarische Mittagstisch“ endete ebenso trau
+         <lb facs="#facs_2_region_1779518491070_716_tl_26" n="N026" break="no"/>rig, wie am 28. Juli die feierliche Versammlung der „<rs type="place" ref="#hsl_place_id_8">Bay
+         <lb facs="#facs_2_region_1779518491070_716_tl_27" n="N027" break="no"/>reuth</rs>er Patrone“ zur Begründung einer Stiftung, „aus
+         <lb facs="#facs_2_region_1779518491070_716_tl_28" n="N028"/>welcher Stipendien für unbemittelte, würdige Besucher der
+         <lb facs="#facs_2_region_1779518491070_716_tl_29" n="N029"/>Festspiele gezahlt werden sollen“. Diesen Gedanken hatte
+         <lb facs="#facs_2_region_1779518491070_716_tl_30" n="N030"/>Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> selbst angeregt und den Statuten-Entwurf
+         <lb facs="#facs_2_region_1779518491070_716_tl_31" n="N031"/>der neuen Stiftung genehmigt, welche „verständiger
+         <lb facs="#facs_2_region_1779518491070_716_tl_32" n="N032"/>und sinnvoller erreichen soll, was jetzt lächerlich un
+         <lb facs="#facs_2_region_1779518491070_716_tl_33" n="N033" break="no"/>behilfliche Reisestipendien für gekrönte Preiscomponisten
+         <lb facs="#facs_2_region_1779518491070_716_tl_34" n="N034"/>u. dgl. gegen die Verpflichtung, in <rs type="place" ref="#hsl_place_id_47">Rom</rs> oder <rs type="place" ref="#hsl_place_id_44">Paris</rs> höhere
+         <lb facs="#facs_2_region_1779518491070_716_tl_35" n="N035"/>Studien zu vollenden, gedankenlos bewirken wollen“. Nach
+         <lb facs="#facs_2_region_1779518491070_716_tl_36" n="N036"/>dieser „edelen“ Initiative schien es selbstverständlich, daß der
+         <lb facs="#facs_2_region_1779518491070_716_tl_37" n="N037"/>„edele“ Meister — Schreibart der „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther Blätter</rs>“ — sich
+         <lb facs="#facs_2_region_1779518491070_716_tl_38" n="N038"/>mit einer bedeutenden Summe an die Spitze der neuen
+         <lb facs="#facs_2_region_1779518491070_716_tl_39" n="N039"/>Stipendien-Gründer stellen werde. Da er jedoch immer nur
+         <lb facs="#facs_2_region_1779518491070_716_tl_40" n="N040"/>„durch Mitleid wissend“, aber niemals aus Mitleid spendend
+         <lb facs="#facs_2_region_1779518491070_716_tl_41" n="N041"/>auftritt, so fanden die <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>er Patrone, welche schon hin
+         <lb facs="#facs_2_region_1779518491070_716_tl_42" n="N042" break="no"/>reichende Opfer für die heilige Sache gebracht, daß am besten</p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1779518491070_716_tl_1" n="N001"/>
-               <hi rendition="#em">bringen uns jene Zartheit des Empfindens</hi>
-               <lb facs="#facs_2_region_1779518491070_716_tl_2" n="N002"/>
-               <hi rendition="#em">mit sich</hi>, deren auch das Kunstwerk bedarf, um mit rechtem
-               <lb facs="#facs_2_region_1779518491070_716_tl_3" n="N003"/>Verständnisse von der menschlichen Seele aufgefaßt und miterlebt
-               <lb facs="#facs_2_region_1779518491070_716_tl_4" n="N004"/>werden zu können. Wir unsererseits haben ihren eigenen Bemühun¬
-               <lb facs="#facs_2_region_1779518491070_716_tl_5" n="N005"/>gen einen wunderbar erkräftigenden Zufluß aus der ewigen Quelle
-               <lb facs="#facs_2_region_1779518491070_716_tl_6" n="N006"/>des <hi rendition="#em">Ideals</hi> zugeführt.“ Also eine förmliche Allianz
-               <lb facs="#facs_2_region_1779518491070_716_tl_7" n="N007"/>zwischen den Pflanzenessern und den Wagnerianern! Helft
-               <lb facs="#facs_2_region_1779518491070_716_tl_8" n="N008"/>ihr uns Propaganda für <rs type="person">Wagner</rs> machen, wir wollen da¬
-               <lb facs="#facs_2_region_1779518491070_716_tl_9" n="N009"/>gegen für euer Grünzeug agitiren. Man traut seinen Augen
-               <lb facs="#facs_2_region_1779518491070_716_tl_10" n="N010"/>nicht, wenn man derlei Albernheiten liest, die alle mit feier¬
-               <lb facs="#facs_2_region_1779518491070_716_tl_11" n="N011"/>lichem Ernste zur Ehre des „Meisters“ proclamirt werden.
-               <lb facs="#facs_2_region_1779518491070_716_tl_12" n="N012"/>Und leider mit dessen Wissen und Genehmigung. Zur Be¬
-               <lb facs="#facs_2_region_1779518491070_716_tl_13" n="N013"/>ruhigung zahlreicher <rs type="person">Wagner</rs>-Verehrer, die wenigstens im
-               <lb facs="#facs_2_region_1779518491070_716_tl_14" n="N014"/>Punkte der Nahrungsmittel vernünftig geblieben sind, melden
-               <lb facs="#facs_2_region_1779518491070_716_tl_15" n="N015"/>wir übrigens aus allersicherster Quelle, daß <rs type="person">Wagner</rs> die
-               <lb facs="#facs_2_region_1779518491070_716_tl_16" n="N016"/>Fleischkost nur theoretisch verdammt, sich selbst aber seinen
-               <lb facs="#facs_2_region_1779518491070_716_tl_17" n="N017"/>Braten vortrefflich schmecken läßt, und den von den Vegeta¬
-               <lb facs="#facs_2_region_1779518491070_716_tl_18" n="N018"/>rianern verpönten Wein dazu. Wir hatten keinen Augen¬
-               <lb facs="#facs_2_region_1779518491070_716_tl_19" n="N019"/>blick daran gezweifelt. Einen „<rs type="bibl">Tannhäuser</rs>“ componirt man
-               <lb facs="#facs_2_region_1779518491070_716_tl_20" n="N020"/>nicht bei saurer Milch und Bohnen, nicht einmal einen
-               <lb facs="#facs_2_region_1779518491070_716_tl_21" n="N021"/>frommen Gralsritter. Theorie und Praxis, Lehre und Bei¬
-               <lb facs="#facs_2_region_1779518491070_716_tl_22" n="N022"/>spiel gehen bei <rs type="person">Wagner</rs> bekanntlich nach Bedarf neben- oder
-               <lb facs="#facs_2_region_1779518491070_716_tl_23" n="N023"/>auseinander. Die Mehrzahl seiner in <rs type="place">Bayreuth</rs> versammel¬
-               <lb facs="#facs_2_region_1779518491070_716_tl_24" n="N024"/>ten Anhänger hielt sich lieber an das Beispiel als an die
-               <lb facs="#facs_2_region_1779518491070_716_tl_25" n="N025"/>Lehre, und der „Vegetarische Mittagstisch“ endete ebenso trau¬
-               <lb facs="#facs_2_region_1779518491070_716_tl_26" n="N026"/>rig, wie am 28. Juli die feierliche Versammlung der „<rs type="place" continued="true">Bay¬</rs>
-               <lb facs="#facs_2_region_1779518491070_716_tl_27" n="N027"/>
-               <rs type="place" continued="true">reuth</rs>er Patrone“ zur Begründung einer Stiftung, „aus
-               <lb facs="#facs_2_region_1779518491070_716_tl_28" n="N028"/>welcher Stipendien für unbemittelte, würdige Besucher der
-               <lb facs="#facs_2_region_1779518491070_716_tl_29" n="N029"/>Festspiele gezahlt werden sollen“. Diesen Gedanken hatte
-               <lb facs="#facs_2_region_1779518491070_716_tl_30" n="N030"/>Richard <rs type="person">Wagner</rs> selbst angeregt und den Statuten-Entwurf
-               <lb facs="#facs_2_region_1779518491070_716_tl_31" n="N031"/>der neuen Stiftung genehmigt, welche „verständiger
-               <lb facs="#facs_2_region_1779518491070_716_tl_32" n="N032"/>und sinnvoller erreichen soll, was jetzt lächerlich un¬
-               <lb facs="#facs_2_region_1779518491070_716_tl_33" n="N033"/>behilfliche Reisestipendien für gekrönte Preiscomponisten
-               <lb facs="#facs_2_region_1779518491070_716_tl_34" n="N034"/>u. dgl. gegen die Verpflichtung, in <rs type="place">Rom</rs> oder <rs type="place">Paris</rs> höhere
-               <lb facs="#facs_2_region_1779518491070_716_tl_35" n="N035"/>Studien zu vollenden, gedankenlos bewirken wollen“. Nach
-               <lb facs="#facs_2_region_1779518491070_716_tl_36" n="N036"/>dieser „edelen“ Initiative schien es selbstverständlich, daß der
-               <lb facs="#facs_2_region_1779518491070_716_tl_37" n="N037"/>„edele“ Meister — Schreibart der „<rs type="place">Bayreuther Blätter</rs>“ — sich
-               <lb facs="#facs_2_region_1779518491070_716_tl_38" n="N038"/>mit einer bedeutenden Summe an die Spitze der neuen
-               <lb facs="#facs_2_region_1779518491070_716_tl_39" n="N039"/>Stipendien-Gründer stellen werde. Da er jedoch immer nur
-               <lb facs="#facs_2_region_1779518491070_716_tl_40" n="N040"/>„durch Mitleid wissend“, aber niemals aus Mitleid spendend
-               <lb facs="#facs_2_region_1779518491070_716_tl_41" n="N041"/>auftritt, so fanden die <rs type="place">Bayreuth</rs>er Patrone, welche schon hin¬
-               <lb facs="#facs_2_region_1779518491070_716_tl_42" n="N042"/>reichende Opfer für die heilige Sache gebracht, daß am besten
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1779518494390_719_tl_1" n="N001"/>das Beispiel des Meisters nachzuahmen sei. Mit einem riesigen
-               <lb facs="#facs_2_region_1779518494390_719_tl_2" n="N002"/>Mitleid für die Unglücklichen, die armuthshalber von dem
-               <lb facs="#facs_2_region_1779518494390_719_tl_3" n="N003"/>
-               <rs type="place">Bayreuth</rs>er Heil ausgeschlossen bleiben, und mit fest zuge¬
-               <lb facs="#facs_2_region_1779518494390_719_tl_4" n="N004"/>knöpften Hosentaschen gingen die Patrone auseinander.
-               <lb facs="#facs_2_region_1779518494390_719_tl_5" n="N005"/>Die Tendenz der <rs type="person">Wagner</rs>'schen Schule, ihren Meister
-               <lb facs="#facs_2_region_1779518494390_719_tl_6" n="N006"/>nur nebenbei als den größten Dichter und Componisten,
-               <lb facs="#facs_2_region_1779518494390_719_tl_7" n="N007"/>hauptsächlich aber als einen die Menschheit erleuchtenden und
-               <lb facs="#facs_2_region_1779518494390_719_tl_8" n="N008"/>erlösenden Propheten hinzustellen, hat in den letzten Jahren
-               <lb facs="#facs_2_region_1779518494390_719_tl_9" n="N009"/>ihren Höhepunkt erreicht. Zwei Aufsätze von Richard
-               <lb facs="#facs_2_region_1779518494390_719_tl_10" n="N010"/>
-               <rs type="person">Wagner</rs>: „<rs type="bibl">Zur Religion und Kunst</rs>“ und „<rs type="bibl">Erkenne dich</rs>
-               <lb facs="#facs_2_region_1779518494390_719_tl_11" n="N011"/>
-               <rs type="bibl">selbst</rs>“, haben einen Taumel von Bewunderung im <rs type="person">Wagner</rs>'schen
-               <lb facs="#facs_2_region_1779518494390_719_tl_12" n="N012"/>Lager entfesselt und werden in den „<rs type="bibl">Bayreuther Blättern</rs>“ fortwäh¬
-               <lb facs="#facs_2_region_1779518494390_719_tl_13" n="N013"/>rend als Dogma aufgestellt, interpretirt, gepredigt. Wir wollen
-               <lb facs="#facs_2_region_1779518494390_719_tl_14" n="N014"/>auf diese sattsam besprochenen und wol auch abgethanen Pam¬
-               <lb facs="#facs_2_region_1779518494390_719_tl_15" n="N015"/>phlete, die in schwülstig orakelndem Styl für Thierschutz und
-               <lb facs="#facs_2_region_1779518494390_719_tl_16" n="N016"/>für Judenverfolgung agitirten, hier nicht weiter eingehen.
-               <lb facs="#facs_2_region_1779518494390_719_tl_17" n="N017"/>Wahre Freunde hätten <rs type="person">Wagner</rs> von dieser Publication drin¬
-               <lb facs="#facs_2_region_1779518494390_719_tl_18" n="N018"/>gend abrathen müssen — aber ein Gott hat eben keinen
-               <lb facs="#facs_2_region_1779518494390_719_tl_19" n="N019"/>Freund, sondern nur Anbeter. Erwähnen müssen wir hier
-               <lb facs="#facs_2_region_1779518494390_719_tl_20" n="N020"/>zwei Bücher, die, in ihrer Tendenz mit <rs type="person">Wagner</rs>'s religiösen
-               <lb facs="#facs_2_region_1779518494390_719_tl_21" n="N021"/>und politischen Reform-Ideen harmonirend, zu seinen neuesten
-               <lb facs="#facs_2_region_1779518494390_719_tl_22" n="N022"/>Passionen gehören. Das eine dieser sonst wenig bekannten
-               <lb facs="#facs_2_region_1779518494390_719_tl_23" n="N023"/>Werke heißt „<rs type="bibl">Thalysia oder das Heil der Menschheit</rs>“ von
-               <lb facs="#facs_2_region_1779518494390_719_tl_24" n="N024"/>A. <hi rendition="#em">
-                  <rs type="person">Gleïzès</rs>
-               </hi> und predigt die „blutlose Diät, als die noth¬
-               <lb facs="#facs_2_region_1779518494390_719_tl_25" n="N025"/>wendigste Bedingung der Gesundheit und Schönheit des Geistes
-               <lb facs="#facs_2_region_1779518494390_719_tl_26" n="N026"/>und Körpers“; das andere, „<rs type="bibl">Ueber die Ungleichheit der</rs>
-               <lb facs="#facs_2_region_1779518494390_719_tl_27" n="N027"/>
-               <rs type="bibl">Racen</rs>“, vom Grafen <hi rendition="#em">
-                  <rs type="person">Gobineau</rs>
-               </hi>, ist eine Weiterführung
-               <lb facs="#facs_2_region_1779518494390_719_tl_28" n="N028"/>des <rs type="person">Schopenhauer</rs>'schen Pessimismus und constatirt nach einer
-               <lb facs="#facs_2_region_1779518494390_719_tl_29" n="N029"/>Revue aller Racen schließlich „den schnellen Verfall und die
-               <lb facs="#facs_2_region_1779518494390_719_tl_30" n="N030"/>Erstarrung der westlichen Welt“. Kaum hat <rs type="person">Wagner</rs> diese
-               <lb facs="#facs_2_region_1779518494390_719_tl_31" n="N031"/>beiden Bücher in Protection genommen, so schwört auch schon
-               <lb facs="#facs_2_region_1779518494390_719_tl_32" n="N032"/>jeder Wagnerianer auf <hi rendition="#em">
-                  <rs type="person">Gleïzès</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Gobineau</rs>
-               </hi>, und
-               <lb facs="#facs_2_region_1779518494390_719_tl_33" n="N033"/>feiern die „<rs type="bibl">Bayreuther Blätter</rs>“ die Präconisirung dieser bei¬
-               <lb facs="#facs_2_region_1779518494390_719_tl_34" n="N034"/>den Nebenheiligen durch Richard <rs type="person">Wagner</rs> als eine große, er¬
-               <lb facs="#facs_2_region_1779518494390_719_tl_35" n="N035"/>lösende That des Meisters. „Mit dem reinen Herzen und dem
-               <lb facs="#facs_2_region_1779518494390_719_tl_36" n="N036"/>klaren Blicke des Genies“ — schreiben die „<rs type="bibl">Bayreuther</rs>
-               <lb facs="#facs_2_line_1780550461186_300" n="N037"/>
-               <rs type="bibl">Blätter</rs>“ — „hat Richard <rs type="person">Wagner</rs> diese Theorie (von
-               <lb facs="#facs_2_region_1779518494390_719_tl_39" n="N038"/>
-               <rs type="person">Gleïzès</rs>) erfaßt, und mit dem unerschrockenen Muthe und
-               <lb facs="#facs_2_region_1779518494390_719_tl_40" n="N039"/>Bewußtsein eines <hi rendition="#em">Reformators</hi>, als welchen wir ihn
-               <lb facs="#facs_2_region_1779518494390_719_tl_41" n="N040"/>auf dem Gebiete der Kunst kennen gelernt, spricht er
-               <lb facs="#facs_2_region_1779518494390_719_tl_42" n="N041"/>auch hier das große Losungswort für die Reformation der
-               <lb facs="#facs_2_region_1779518494390_719_tl_43" n="N042"/>menschlichen Gesellschaft und des Erdenlebens aus (!).“ In
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1779518494390_719_tl_1" n="N001"/>das Beispiel des Meisters nachzuahmen sei. Mit einem riesigen
+         <lb facs="#facs_2_region_1779518494390_719_tl_2" n="N002"/>Mitleid für die Unglücklichen, die armuthshalber von dem
+         <lb facs="#facs_2_region_1779518494390_719_tl_3" n="N003"/><rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>er Heil ausgeschlossen bleiben, und mit fest zuge
+         <lb facs="#facs_2_region_1779518494390_719_tl_4" n="N004" break="no"/>knöpften Hosentaschen gingen die Patrone auseinander.
+            </p><p>
+         <lb facs="#facs_2_region_1779518494390_719_tl_5" n="N005"/>Die Tendenz der <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’schen Schule, ihren Meister
+         <lb facs="#facs_2_region_1779518494390_719_tl_6" n="N006"/>nur nebenbei als den größten Dichter und Componisten,
+         <lb facs="#facs_2_region_1779518494390_719_tl_7" n="N007"/>hauptsächlich aber als einen die Menschheit erleuchtenden und
+         <lb facs="#facs_2_region_1779518494390_719_tl_8" n="N008"/>erlösenden Propheten hinzustellen, hat in den letzten Jahren
+         <lb facs="#facs_2_region_1779518494390_719_tl_9" n="N009"/>ihren Höhepunkt erreicht. Zwei Aufsätze von Richard
+         <lb facs="#facs_2_region_1779518494390_719_tl_10" n="N010"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>: „<rs type="bibl" ref="#hsl_work_id_3372">Zur Religion und Kunst</rs>“ und „<rs type="bibl" ref="#hsl_work_id_6538">Erkenne dich
+         <lb facs="#facs_2_region_1779518494390_719_tl_11" n="N011"/>selbst</rs>“, haben einen Taumel von Bewunderung im <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’schen
+         <lb facs="#facs_2_region_1779518494390_719_tl_12" n="N012"/>Lager entfesselt und werden in den „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther Blättern</rs>“ fortwäh
+         <lb facs="#facs_2_region_1779518494390_719_tl_13" n="N013" break="no"/>rend als Dogma aufgestellt, interpretirt, gepredigt. Wir wollen
+         <lb facs="#facs_2_region_1779518494390_719_tl_14" n="N014"/>auf diese sattsam besprochenen und wol auch abgethanen Pam
+         <lb facs="#facs_2_region_1779518494390_719_tl_15" n="N015" break="no"/>phlete, die in schwülstig orakelndem Styl für Thierschutz und
+         <lb facs="#facs_2_region_1779518494390_719_tl_16" n="N016"/>für Judenverfolgung agitirten, hier nicht weiter eingehen.
+         <lb facs="#facs_2_region_1779518494390_719_tl_17" n="N017"/>Wahre Freunde hätten <rs type="person" ref="#hsl_person_id_319">Wagner</rs> von dieser Publication drin
+         <lb facs="#facs_2_region_1779518494390_719_tl_18" n="N018" break="no"/>gend abrathen müssen — aber ein Gott hat eben keinen
+         <lb facs="#facs_2_region_1779518494390_719_tl_19" n="N019"/>Freund, sondern nur Anbeter. Erwähnen müssen wir hier
+         <lb facs="#facs_2_region_1779518494390_719_tl_20" n="N020"/>zwei Bücher, die, in ihrer Tendenz mit <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s religiösen
+         <lb facs="#facs_2_region_1779518494390_719_tl_21" n="N021"/>und politischen Reform-Ideen harmonirend, zu seinen neuesten
+         <lb facs="#facs_2_region_1779518494390_719_tl_22" n="N022"/>Passionen gehören. Das eine dieser sonst wenig bekannten
+         <lb facs="#facs_2_region_1779518494390_719_tl_23" n="N023"/>Werke heißt „<rs type="bibl" ref="#hsl_work_id_6540">Thalysia oder das Heil der Menschheit</rs>“ von
+         <lb facs="#facs_2_region_1779518494390_719_tl_24" n="N024"/>A. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9034">Gleïzès</rs></hi> und predigt die „blutlose Diät, als die noth
+         <lb facs="#facs_2_region_1779518494390_719_tl_25" n="N025" break="no"/>wendigste Bedingung der Gesundheit und Schönheit des Geistes
+         <lb facs="#facs_2_region_1779518494390_719_tl_26" n="N026"/>und Körpers“; das andere, „<rs type="bibl" ref="#hsl_work_id_6539">Ueber die Ungleichheit der
+         <lb facs="#facs_2_region_1779518494390_719_tl_27" n="N027"/>Racen</rs>“, vom Grafen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9033">Gobineau</rs></hi>, ist eine Weiterführung
+         <lb facs="#facs_2_region_1779518494390_719_tl_28" n="N028"/>des <rs type="person" ref="#hsl_person_id_2456">Schopenhauer</rs>’schen Pessimismus und constatirt nach einer
+         <lb facs="#facs_2_region_1779518494390_719_tl_29" n="N029"/>Revue aller Racen schließlich „den schnellen Verfall und die
+         <lb facs="#facs_2_region_1779518494390_719_tl_30" n="N030"/>Erstarrung der westlichen Welt“. Kaum hat <rs type="person" ref="#hsl_person_id_319">Wagner</rs> diese
+         <lb facs="#facs_2_region_1779518494390_719_tl_31" n="N031"/>beiden Bücher in Protection genommen, so schwört auch schon
+         <lb facs="#facs_2_region_1779518494390_719_tl_32" n="N032"/>jeder Wagnerianer auf <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9034">Gleïzès</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9033">Gobineau</rs></hi>, und
+         <lb facs="#facs_2_region_1779518494390_719_tl_33" n="N033"/>feiern die „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther Blätter</rs>“ die Präconisirung dieser bei
+         <lb facs="#facs_2_region_1779518494390_719_tl_34" n="N034" break="no"/>den Nebenheiligen durch Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> als eine große, er
+         <lb facs="#facs_2_region_1779518494390_719_tl_35" n="N035" break="no"/>lösende That des Meisters. „Mit dem reinen Herzen und dem
+         <lb facs="#facs_2_region_1779518494390_719_tl_36" n="N036"/>klaren Blicke des Genies“ — schreiben die „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther
+         <lb facs="#facs_2_line_1780550461186_300" n="N037"/>Blätter</rs>“ — „hat Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> diese Theorie (von
+         <lb facs="#facs_2_region_1779518494390_719_tl_39" n="N038"/><rs type="person" ref="#hsl_person_id_9034">Gleïzès</rs>) erfaßt, und mit dem unerschrockenen Muthe und
+         <lb facs="#facs_2_region_1779518494390_719_tl_40" n="N039"/>Bewußtsein eines <hi rendition="#em">Reformators</hi>, als welchen wir ihn
+         <lb facs="#facs_2_region_1779518494390_719_tl_41" n="N040"/>auf dem Gebiete der Kunst kennen gelernt, spricht er
+         <lb facs="#facs_2_region_1779518494390_719_tl_42" n="N041"/>auch hier das große Losungswort für die Reformation der
+         <lb facs="#facs_2_region_1779518494390_719_tl_43" n="N042"/>menschlichen Gesellschaft und des Erdenlebens aus (!).“ In</p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1779518505004_725_tl_1" n="N001"/>einem langen, schwülstigen Aufsatze: „<rs type="bibl" ref="#hsl_work_id_6541">Luther und die Bauern</rs>“
+         <lb facs="#facs_3_region_1779518505004_725_tl_2" n="N002"/>(im letzten April-Heft), wird „das Werk von <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>“ fast
+         <lb facs="#facs_3_region_1779518505004_725_tl_3" n="N003"/>der That <rs type="person" ref="#hsl_person_id_169">Luther</rs>’s an die Seite gesetzt. „Wer es nur völlig
+         <lb facs="#facs_3_region_1779518505004_725_tl_4" n="N004"/>ernst nähme,“ heißt es dort, „mit den besten und tiefsten
+         <lb facs="#facs_3_region_1779518505004_725_tl_5" n="N005"/>Empfindungen, welche <hi rendition="#em">ein Werk <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s</hi> in edelster
+         <lb facs="#facs_3_region_1779518505004_725_tl_6" n="N006"/>Vorführung in ihm erweckte, dem könnte es unmittelbar
+         <lb facs="#facs_3_region_1779518505004_725_tl_7" n="N007"/>hiedurch unmöglich werden, fernerhin an den nur scheinbar
+         <lb facs="#facs_3_region_1779518505004_725_tl_8" n="N008"/>gleichgiltigen, im tiefsten Grunde aber mörderischen Alltäglich
+         <lb facs="#facs_3_region_1779518505004_725_tl_9" n="N009" break="no"/>keiten des Lebens theilzunehmen und also der großen Lüge der
+         <lb facs="#facs_3_region_1779518505004_725_tl_10" n="N010"/>heutigen Civilisation sich mitschuldig zu machen.“ In immer
+         <lb facs="#facs_3_region_1779518505004_725_tl_11" n="N011"/>salbungsvollerem Predigertone werden diese Albernheiten vor
+         <lb facs="#facs_3_region_1779518505004_725_tl_12" n="N012" break="no"/>gebracht, je näher die Aufführung des „<rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>“ rückt. Mit
+         <lb facs="#facs_3_region_1779518505004_725_tl_13" n="N013"/>einem Citat aus dem „<rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>“ soll sogar der <hi rendition="#em">Krieg</hi> für
+         <lb facs="#facs_3_region_1779518505004_725_tl_14" n="N014"/>immer unmöglich gemacht werden, indem ein Aufsatz: „<rs type="bibl" ref="#hsl_work_id_6542">Zur
+         <lb facs="#facs_3_region_1779518505004_725_tl_15" n="N015"/>Philosophie des Militarismus</rs>“ mit der „<hi rendition="#em">christlichen
+         <lb facs="#facs_3_region_1779518505004_725_tl_16" n="N016"/>Mahnung</hi>“ des <rs type="person" ref="#hsl_person_id_3629">Gurnemanz</rs> geschmückt wird: „Schnell ab
+         <lb facs="#facs_3_region_1779518505004_725_tl_17" n="N017"/>die Waffen! Kränke nicht den Herrn, der heute, bar jeder
+         <lb facs="#facs_3_region_1779518505004_725_tl_18" n="N018"/>Wehr, sein heiliges Blut der sündigen Welt zur Sühne bot.“
+         <lb facs="#facs_3_region_1779518505004_725_tl_19" n="N019"/>Auch das soll etwas Neues und Großes sein, daß <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1779518505004_725_tl_20" n="N020"/>den Krieg für ein Unglück erklärt!
+            </p><p>
+         <lb facs="#facs_3_region_1779518505004_725_tl_21" n="N021"/>Der Leser wird an diesen wenigen Beispielen wahr
+         <lb facs="#facs_3_region_1779518505004_725_tl_22" n="N022" break="no"/>genommen haben, wie sich neuestens ein frömmelnder, christ
+         <lb facs="#facs_3_region_1779518505004_725_tl_23" n="N023" break="no"/>lich-religiöser Ton in den <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’schen <rs type="bibl" ref="#hsl_work_id_1982">Blätter</rs>n ankündigt
+         <lb facs="#facs_3_region_1779518505004_725_tl_24" n="N024"/>und fortwährend steigert. Der alternde <rs type="person" ref="#hsl_person_id_319">Wagner</rs> hat mit
+         <lb facs="#facs_3_region_1779518505004_725_tl_25" n="N025"/>dem „Seufzer, den wir am Kreuze auf <rs type="place" ref="#hsl_place_id_583">Golgatha</rs> einst ver
+         <lb facs="#facs_3_region_1779518505004_725_tl_26" n="N026" break="no"/>nahmen und der nun aus unserer eigenen Seele hervor
+         <lb facs="#facs_3_region_1779518505004_725_tl_27" n="N027" break="no"/>dringt“, das Stichwort gegeben, und sofort sehen wir die
+         <lb facs="#facs_3_region_1779518505004_725_tl_28" n="N028"/>Jungen nachbeten, mitbeten. „Unsere <rs type="bibl" ref="#hsl_work_id_1982">Blätter</rs>,“ heißt es in
+         <lb facs="#facs_3_region_1779518505004_725_tl_29" n="N029"/><rs type="person" ref="#hsl_person_id_2768">Wolzogen</rs>’s Neujahrsartikel, „sollen auch das äußere Zeichen
+         <lb facs="#facs_3_region_1779518505004_725_tl_30" n="N030"/>der Vereinigung bleiben, welche in diesem Ausdruck das Be
+         <lb facs="#facs_3_region_1779518505004_725_tl_31" n="N031" break="no"/>kenntniß einer <hi rendition="#em">religiösen</hi> Ueberzeugung gefunden hat.“
+         <lb facs="#facs_3_region_1779518505004_725_tl_32" n="N032"/>Christlich und Christenthum wird nun das zweite Wort;
+         <lb facs="#facs_3_region_1779518505004_725_tl_33" n="N033"/>das öffentliche Großthun und Toilettemachen mit christlicher
+         <lb facs="#facs_3_region_1779518505004_725_tl_34" n="N034"/>Gesinnung streift ans Widerwärtige.
+            <note type="footnote" n="**)">
+            <lb facs="#facs_3_line_1780552194454_707" n="N035"/>In einem auf „<rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>“ anspielenden Leitartikel der „<rs type="bibl" ref="#hsl_work_id_1982">Bay
+            <lb facs="#facs_3_line_1780552197038_710" n="N036" break="no"/>reuther Blätter</rs>“ heißt es unter Anderm: „Die Siegesfahne ist das
+            <lb facs="#facs_3_line_1780552199877_713" n="N037"/>glaubensstarke Bewußtsein von der wahrhaft <hi rendition="#em">religiösen</hi> Deutung
+            <lb facs="#facs_3_line_1780552202301_716" n="N038"/>des Welträthsels. Diese Fahne müssen wir uns selbst gewinnen, wie
+            <lb facs="#facs_3_line_1780552204686_719" n="N039"/><rs type="person" ref="#hsl_person_id_3627">Parsifal</rs> den Speer. Ein Räthselspruch in Leiden offenbart: Das
+            <lb facs="#facs_3_line_1780552207358_722" n="N040"/>Ende ist die That. Wer an die That glaubt, der gönne uns das
+            <lb facs="#facs_3_line_1780552209758_725" n="N041"/>Wort.“ Und wer das versteht, setzen wir hinzu, dem gönnen wir
+            <lb facs="#facs_3_line_1780552211348_728" n="N042"/>das Glück.
+            </note></p>
             <cb n="8"/>
             <p>
-               <lb facs="#facs_3_region_1779518505004_725_tl_1" n="N001"/>einem langen, schwülstigen Aufsatze: „<rs type="bibl">Luther und die Bauern</rs>“
-               <lb facs="#facs_3_region_1779518505004_725_tl_2" n="N002"/>(im letzten April-Heft), wird „das Werk von <rs type="place">Bayreuth</rs>“ fast
-               <lb facs="#facs_3_region_1779518505004_725_tl_3" n="N003"/>der That <rs type="person">Luther</rs>'s an die Seite gesetzt. „Wer es nur völlig
-               <lb facs="#facs_3_region_1779518505004_725_tl_4" n="N004"/>ernst nähme,“ heißt es dort, „mit den besten und tiefsten
-               <lb facs="#facs_3_region_1779518505004_725_tl_5" n="N005"/>Empfindungen, welche <hi rendition="#em">ein Werk <rs type="person">Wagner</rs>'s</hi> in edelster
-               <lb facs="#facs_3_region_1779518505004_725_tl_6" n="N006"/>Vorführung in ihm erweckte, dem könnte es unmittelbar
-               <lb facs="#facs_3_region_1779518505004_725_tl_7" n="N007"/>hiedurch unmöglich werden, fernerhin an den nur scheinbar
-               <lb facs="#facs_3_region_1779518505004_725_tl_8" n="N008"/>gleichgiltigen, im tiefsten Grunde aber mörderischen Alltäglich¬
-               <lb facs="#facs_3_region_1779518505004_725_tl_9" n="N009"/>keiten des Lebens theilzunehmen und also der großen Lüge der
-               <lb facs="#facs_3_region_1779518505004_725_tl_10" n="N010"/>heutigen Civilisation sich mitschuldig zu machen.“ In immer
-               <lb facs="#facs_3_region_1779518505004_725_tl_11" n="N011"/>salbungsvollerem Predigertone werden diese Albernheiten vor¬
-               <lb facs="#facs_3_region_1779518505004_725_tl_12" n="N012"/>gebracht, je näher die Aufführung des „<rs type="bibl">Parsifal</rs>“ rückt. Mit
-               <lb facs="#facs_3_region_1779518505004_725_tl_13" n="N013"/>einem Citat aus dem „<rs type="bibl">Parsifal</rs>“ soll sogar der <hi rendition="#em">Krieg</hi> für
-               <lb facs="#facs_3_region_1779518505004_725_tl_14" n="N014"/>immer unmöglich gemacht werden, indem ein Aufsatz: „<rs type="bibl">Zur</rs>
-               <lb facs="#facs_3_region_1779518505004_725_tl_15" n="N015"/>
-               <rs type="bibl">Philosophie des Militarismus</rs>“ mit der „<hi rendition="#em">christlichen</hi>
-               <lb facs="#facs_3_region_1779518505004_725_tl_16" n="N016"/>
-               <hi rendition="#em">Mahnung</hi>“ des <rs type="bibl">Gurnemanz</rs> geschmückt wird: „Schnell ab
-               <lb facs="#facs_3_region_1779518505004_725_tl_17" n="N017"/>die Waffen! Kränke nicht den Herrn, der heute, bar jeder
-               <lb facs="#facs_3_region_1779518505004_725_tl_18" n="N018"/>Wehr, sein heiliges Blut der sündigen Welt zur Sühne bot.“
-               <lb facs="#facs_3_region_1779518505004_725_tl_19" n="N019"/>Auch das soll etwas Neues und Großes sein, daß <rs type="person">Wagner</rs>
-               <lb facs="#facs_3_region_1779518505004_725_tl_20" n="N020"/>den Krieg für ein Unglück erklärt!
-               <lb facs="#facs_3_region_1779518505004_725_tl_21" n="N021"/>Der Leser wird an diesen wenigen Beispielen wahr¬
-               <lb facs="#facs_3_region_1779518505004_725_tl_22" n="N022"/>genommen haben, wie sich neuestens ein frömmelnder, christ¬
-               <lb facs="#facs_3_region_1779518505004_725_tl_23" n="N023"/>lich-religiöser Ton in den <rs type="person">Wagner</rs>'schen <rs type="bibl">Blätter</rs>n ankündigt
-               <lb facs="#facs_3_region_1779518505004_725_tl_24" n="N024"/>und fortwährend steigert. Der alternde <rs type="person">Wagner</rs> hat mit
-               <lb facs="#facs_3_region_1779518505004_725_tl_25" n="N025"/>dem „Seufzer, den wir am Kreuze auf <rs type="place">Golgatha</rs> einst ver¬
-               <lb facs="#facs_3_region_1779518505004_725_tl_26" n="N026"/>nahmen und der nun aus unserer eigenen Seele hervor¬
-               <lb facs="#facs_3_region_1779518505004_725_tl_27" n="N027"/>dringt“, das Stichwort gegeben, und sofort sehen wir die
-               <lb facs="#facs_3_region_1779518505004_725_tl_28" n="N028"/>Jungen nachbeten, mitbeten. „Unsere <rs type="bibl">Blätter</rs>,“ heißt es in
-               <lb facs="#facs_3_region_1779518505004_725_tl_29" n="N029"/>
-               <rs type="person">Wolzogen</rs>'s Neujahrsartikel, „sollen auch das äußere Zeichen
-               <lb facs="#facs_3_region_1779518505004_725_tl_30" n="N030"/>der Vereinigung bleiben, welche in diesem Ausdruck das Be¬
-               <lb facs="#facs_3_region_1779518505004_725_tl_31" n="N031"/>kenntniß einer <hi rendition="#em">religiösen</hi> Ueberzeugung gefunden hat.“
-               <lb facs="#facs_3_region_1779518505004_725_tl_32" n="N032"/>Christlich und Christenthum wird nun das zweite Wort;
-               <lb facs="#facs_3_region_1779518505004_725_tl_33" n="N033"/>das öffentliche Großthun und Toilettemachen mit christlicher
-               <lb facs="#facs_3_region_1779518505004_725_tl_34" n="N034"/>Gesinnung streift ans Widerwärtige.*)
-               <lb facs="#facs_3_line_1780552194454_707" n="N035"/>*) In einem auf „<rs type="bibl">Parsifal</rs>“ anspielenden Leitartikel der „<rs type="bibl">Bay¬</rs>
-               <lb facs="#facs_3_line_1780552197038_710" n="N036"/>
-               <rs type="bibl">reuther Blätter</rs>“ heißt es unter Anderm: „Die Siegesfahne ist das
-               <lb facs="#facs_3_line_1780552199877_713" n="N037"/>glaubensstarke Bewußtsein von der wahrhaft <hi rendition="#em">religiösen</hi> Deutung
-               <lb facs="#facs_3_line_1780552202301_716" n="N038"/>des Welträthsels. Diese Fahne müssen wir uns selbst gewinnen, wie
-               <lb facs="#facs_3_line_1780552204686_719" n="N039"/>
-               <rs type="person">Parsifal</rs> den Speer. Ein Räthselspruch in Leiden offenbart: Das
-               <lb facs="#facs_3_line_1780552207358_722" n="N040"/>Ende ist die That. Wer an die That glaubt, der gönne uns das
-               <lb facs="#facs_3_line_1780552209758_725" n="N041"/>Wort.“ Und wer das versteht, setzen wir hinzu, dem gönnen wir
-               <lb facs="#facs_3_line_1780552211348_728" n="N042"/>das Glück.
-            </p>
+         <lb facs="#facs_3_region_1779518509687_728_tl_1" n="N001"/>Und die Musik? hören wir den Leser ungeduldig fra
+         <lb facs="#facs_3_line_1780552172177_677" n="N002" break="no"/>gen. Spielt sie denn gar keine Rolle mehr in einer Zeit
+         <lb facs="#facs_3_line_1780552168474_673" n="N003" break="no"/>schrift <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s? Jedenfalls eine sehr untergeordnete. Voll
+         <lb facs="#facs_3_region_1779518509687_728_tl_6" n="N004" break="no"/>ends seit <rs type="person" ref="#hsl_person_id_319">Wagner</rs> das ironisch-hochmüthige Wort gesprochen:
+         <lb facs="#facs_3_region_1779518509687_728_tl_7" n="N005"/>„Ich bin kein Musiker“, und zugleich versichert hat, er sähe
+         <lb facs="#facs_3_region_1779518509687_728_tl_8" n="N006"/>unser gesammtes Musikwesen lieber heute als morgen vom
+         <lb facs="#facs_3_region_1779518509687_728_tl_9" n="N007"/>Erdboden verschwinden — seitdem dürfte es für Wagnerianer
+         <lb facs="#facs_3_region_1779518509687_728_tl_10" n="N008"/>vollends unschicklich erscheinen, viel Aufhebens von der Musik zu
+         <lb facs="#facs_3_region_1779518509687_728_tl_11" n="N009"/>machen. Es hat auch schon in demselben Hefte der „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther
+         <lb facs="#facs_3_region_1779518509687_728_tl_12" n="N010"/>Blätter</rs>“, das jenen neuesten „<rs type="bibl" ref="#hsl_work_id_6544">Offenen Brief</rs>“ Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s
+         <lb facs="#facs_3_region_1779518509687_728_tl_13" n="N011"/>an Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9036">Schön</rs></hi> in <rs type="place" ref="#hsl_place_id_323">Worms</rs> bringt, sich ein kriechender
+         <lb facs="#facs_3_region_1779518509687_728_tl_14" n="N012"/>Mitarbeiter gefunden, der darüber jubelt, daß <rs type="person" ref="#hsl_person_id_319">Wagner</rs> es
+         <lb facs="#facs_3_region_1779518509687_728_tl_15" n="N013"/>„<hi rendition="#em">zum Heile der Kunst</hi>“ endlich ausgesprochen, er sei
+         <lb facs="#facs_3_region_1779518509687_728_tl_16" n="N014"/>kein Musiker! Die spärlichen musikalischen Aufsätze sind übri
+         <lb facs="#facs_3_region_1779518509687_728_tl_17" n="N015" break="no"/>gens nicht uninteressant. Herr H. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6571">Porges</rs></hi> kaut noch
+         <lb facs="#facs_3_region_1779518509687_728_tl_18" n="N016"/>immer weiter an seinen wiederkäuenden <rs type="bibl" ref="#hsl_work_id_6547">Artikeln</rs> über die
+         <lb facs="#facs_3_region_1779518509687_728_tl_19" n="N017"/><hi rendition="#em">Proben</hi> zum „<rs type="bibl" ref="#hsl_work_id_418">Nibelungen-Ring</rs>“ im Jahre <date>1876</date>. Er er
+         <lb facs="#facs_3_region_1779518509687_728_tl_20" n="N018" break="no"/>zählt uns bei jedem einzelnen Tacte, welche Bemerkungen
+         <lb facs="#facs_3_region_1779518509687_728_tl_21" n="N019"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> damals dem Orchester gemacht hat, meist ganz
+         <lb facs="#facs_3_region_1779518509687_728_tl_22" n="N020"/>selbstverständliche Dinge. Z. B.: „Mit Nachdruck forderte
+         <lb facs="#facs_3_region_1779518509687_728_tl_23" n="N021"/>der Meister, daß die aufsteigende Baßfigur (Notenbei
+         <lb facs="#facs_3_region_1779518509687_728_tl_24" n="N022" break="no"/>spiel) mit der größten Deutlichkeit vernehmbar werde.“
+         <lb facs="#facs_3_line_1780552116609_643" n="N023"/>Bei einem andern Thema (Notenbeispiel) rief er: „Mit
+         <lb facs="#facs_3_line_1780552112399_639" n="N024"/>mehr Bewußtsein zu spielen!“ Und so wird jedes Wort
+         <lb facs="#facs_3_region_1779518509687_728_tl_29" n="N025"/>der Nachwelt ehrerbietig überliefert. Ein anderer Aufsatz:
+         <lb facs="#facs_3_region_1779518509687_728_tl_30" n="N026"/>„<rs type="bibl" ref="#hsl_work_id_6545">Kunst und Wissenschaft</rs>“, in welchem über die stiefmütter
+         <lb facs="#facs_3_region_1779518509687_728_tl_31" n="N027" break="no"/>liche Behandlung der Musik von Seite der Aesthetiker ge
+         <lb facs="#facs_3_region_1779518509687_728_tl_32" n="N028" break="no"/>klagt wird, bietet uns ein ergötzliches Beispiel von der Un
+         <lb facs="#facs_3_region_1779518509687_728_tl_33" n="N029" break="no"/>wissenheit der Redacteure der „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther Blätter</rs>“. Die Re
+         <lb facs="#facs_3_region_1779518509687_728_tl_34" n="N030" break="no"/>daction macht nämlich zu jener Klage die spöttische Bemer
+         <lb facs="#facs_3_region_1779518509687_728_tl_35" n="N031" break="no"/>kung: „Der classische Aesthetiker der Neuzeit, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_379">Vischer</rs></hi>,
+         <lb facs="#facs_3_region_1779518509687_728_tl_36" n="N032"/>wußte bekanntlich so wenig mit der Musik anzufangen, daß
+         <lb facs="#facs_3_region_1779518509687_728_tl_37" n="N033"/>er als verlegene Stiefmutter mit Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1">Hanslick</rs></hi> sich zu
+         <lb facs="#facs_3_region_1779518509687_728_tl_38" n="N034"/>verbinden genöthigt sah, damit diese moderne Autorität auf
+         <lb facs="#facs_3_region_1779518509687_728_tl_39" n="N035"/>dem musikwissenschaftlichen Gebiete die Capitel über die Musik
+         <lb facs="#facs_3_region_1779518509687_728_tl_40" n="N036"/>ihm an seinerstatt ausarbeite, wonach alsdann allerdings
+         <lb facs="#facs_3_region_1779518509687_728_tl_41" n="N037"/>ein prächtiger Homunculus aus der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Retorte zwischen
+         <lb facs="#facs_3_region_1779518509687_728_tl_42" n="N038"/>die gelehrten Paragraphen des großen <rs type="bibl" ref="#hsl_work_id_197 #hsl_work_id_2972">Faust</rs>kenners hinein
+         <lb facs="#facs_3_region_1779518509687_728_tl_43" n="N039" break="no"/>schlüpfte.“ Die Herren von <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs> beweisen damit nur,
+         <lb facs="#facs_3_region_1779518509687_728_tl_44" n="N040"/>daß sie den sechsten Band von <rs type="person" ref="#hsl_person_id_379">Vischer</rs>’s <rs type="bibl" ref="#hsl_work_id_319">Aesthetik</rs> (erschienen
+         <lb facs="#facs_3_region_1779518509687_728_tl_45" n="N041"/><date>1857</date>) gar nie gesehen haben, in dessen Vorwort ausdrück</p>
             <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1779518509687_728_tl_1" n="N001"/>Und die Musik? hören wir den Leser ungeduldig fra¬
-               <lb facs="#facs_3_line_1780552172177_677" n="N002"/>gen. Spielt sie denn gar keine Rolle mehr in einer Zeit¬
-               <lb facs="#facs_3_line_1780552168474_673" n="N003"/>schrift <rs type="person">Wagner</rs>'s? Jedenfalls eine sehr untergeordnete. Voll¬
-               <lb facs="#facs_3_region_1779518509687_728_tl_6" n="N004"/>ends seit <rs type="person">Wagner</rs> das ironisch-hochmüthige Wort gesprochen:
-               <lb facs="#facs_3_region_1779518509687_728_tl_7" n="N005"/>„Ich bin kein Musiker“, und zugleich versichert hat, er sähe
-               <lb facs="#facs_3_region_1779518509687_728_tl_8" n="N006"/>unser gesammtes Musikwesen lieber heute als morgen vom
-               <lb facs="#facs_3_region_1779518509687_728_tl_9" n="N007"/>Erdboden verschwinden — seitdem dürfte es für Wagnerianer
-               <lb facs="#facs_3_region_1779518509687_728_tl_10" n="N008"/>vollends unschicklich erscheinen, viel Aufhebens von der Musik zu
-               <lb facs="#facs_3_region_1779518509687_728_tl_11" n="N009"/>machen. Es hat auch schon in demselben Hefte der „<rs type="bibl">Bayreuther</rs>
-               <lb facs="#facs_3_region_1779518509687_728_tl_12" n="N010"/>
-               <rs type="bibl">Blätter</rs>“, das jenen neuesten „<rs type="bibl">Offenen Brief</rs>“ Richard <rs type="person">Wagner</rs>'s
-               <lb facs="#facs_3_region_1779518509687_728_tl_13" n="N011"/>an Herrn <hi rendition="#em">
-                  <rs type="person">Schön</rs>
-               </hi> in <rs type="place">Worms</rs> bringt, sich ein kriechender
-               <lb facs="#facs_3_region_1779518509687_728_tl_14" n="N012"/>Mitarbeiter gefunden, der darüber jubelt, daß <rs type="person">Wagner</rs> es
-               <lb facs="#facs_3_region_1779518509687_728_tl_15" n="N013"/>„<hi rendition="#em">zum Heile der Kunst</hi>“ endlich ausgesprochen, er sei
-               <lb facs="#facs_3_region_1779518509687_728_tl_16" n="N014"/>kein Musiker! Die spärlichen musikalischen Aufsätze sind übri¬
-               <lb facs="#facs_3_region_1779518509687_728_tl_17" n="N015"/>gens nicht uninteressant. Herr H. <hi rendition="#em">
-                  <rs type="person">Porges</rs>
-               </hi> kaut noch
-               <lb facs="#facs_3_region_1779518509687_728_tl_18" n="N016"/>immer weiter an seinen wiederkäuenden <rs type="bibl">Artikeln</rs> über die
-               <lb facs="#facs_3_region_1779518509687_728_tl_19" n="N017"/>
-               <hi rendition="#em">Proben</hi> zum „<rs type="bibl">Nibelungen-Ring</rs>“ im Jahre <date month="0" day="0" year="0">1876</date>. Er er¬
-               <lb facs="#facs_3_region_1779518509687_728_tl_20" n="N018"/>zählt uns bei jedem einzelnen Tacte, welche Bemerkungen
-               <lb facs="#facs_3_region_1779518509687_728_tl_21" n="N019"/>
-               <rs type="person">Wagner</rs> damals dem Orchester gemacht hat, meist ganz
-               <lb facs="#facs_3_region_1779518509687_728_tl_22" n="N020"/>selbstverständliche Dinge. Z. B.: „Mit Nachdruck forderte
-               <lb facs="#facs_3_region_1779518509687_728_tl_23" n="N021"/>der Meister, daß die aufsteigende Baßfigur (Notenbei¬
-               <lb facs="#facs_3_region_1779518509687_728_tl_24" n="N022"/>spiel) mit der größten Deutlichkeit vernehmbar werde.“
-               <lb facs="#facs_3_line_1780552116609_643" n="N023"/>Bei einem andern Thema (Notenbeispiel) rief er: „Mit
-               <lb facs="#facs_3_line_1780552112399_639" n="N024"/>mehr Bewußtsein zu spielen!“ Und so wird jedes Wort
-               <lb facs="#facs_3_region_1779518509687_728_tl_29" n="N025"/>der Nachwelt ehrerbietig überliefert. Ein anderer Aufsatz:
-               <lb facs="#facs_3_region_1779518509687_728_tl_30" n="N026"/>„<rs type="bibl">Kunst und Wissenschaft</rs>“, in welchem über die stiefmütter¬
-               <lb facs="#facs_3_region_1779518509687_728_tl_31" n="N027"/>liche Behandlung der Musik von Seite der Aesthetiker ge¬
-               <lb facs="#facs_3_region_1779518509687_728_tl_32" n="N028"/>klagt wird, bietet uns ein ergötzliches Beispiel von der Un¬
-               <lb facs="#facs_3_region_1779518509687_728_tl_33" n="N029"/>wissenheit der Redacteure der „<rs type="bibl">Bayreuther Blätter</rs>“. Die Re¬
-               <lb facs="#facs_3_region_1779518509687_728_tl_34" n="N030"/>daction macht nämlich zu jener Klage die spöttische Bemer¬
-               <lb facs="#facs_3_region_1779518509687_728_tl_35" n="N031"/>kung: „Der classische Aesthetiker der Neuzeit, <hi rendition="#em">
-                  <rs type="person">Vischer</rs>
-               </hi>,
-               <lb facs="#facs_3_region_1779518509687_728_tl_36" n="N032"/>wußte bekanntlich so wenig mit der Musik anzufangen, daß
-               <lb facs="#facs_3_region_1779518509687_728_tl_37" n="N033"/>er als verlegene Stiefmutter mit Herrn <hi rendition="#em">
-                  <rs type="person">Hanslick</rs>
-               </hi> sich zu
-               <lb facs="#facs_3_region_1779518509687_728_tl_38" n="N034"/>verbinden genöthigt sah, damit diese moderne Autorität auf
-               <lb facs="#facs_3_region_1779518509687_728_tl_39" n="N035"/>dem musikwissenschaftlichen Gebiete die Capitel über die Musik
-               <lb facs="#facs_3_region_1779518509687_728_tl_40" n="N036"/>ihm an seinerstatt ausarbeite, wonach alsdann allerdings
-               <lb facs="#facs_3_region_1779518509687_728_tl_41" n="N037"/>ein prächtiger Homunculus aus der <rs type="place">Wien</rs>er Retorte zwischen
-               <lb facs="#facs_3_region_1779518509687_728_tl_42" n="N038"/>die gelehrten Paragraphen des großen <rs type="bibl">Faust</rs>kenners hinein¬
-               <lb facs="#facs_3_region_1779518509687_728_tl_43" n="N039"/>schlüpfte.“ Die Herren von <rs type="place">Bayreuth</rs> beweisen damit nur,
-               <lb facs="#facs_3_region_1779518509687_728_tl_44" n="N040"/>daß sie den sechsten Band von <rs type="person">Vischer</rs>'s <rs type="bibl">Aesthetik</rs> (erschienen
-               <lb facs="#facs_3_region_1779518509687_728_tl_45" n="N041"/>
-               <date month="0" day="0" year="0">1857</date>) gar nie gesehen haben, in dessen Vorwort ausdrück¬
-            </p>
-            <cb n="10"/>
-            <p>
-               <lb facs="#facs_3_region_1779518513572_731_tl_1" n="N001"/>lich gesagt ist, daß Professor <hi rendition="#em">Karl <rs type="person">Köstlin</rs>
-               </hi> in <rs type="place">Tübingen</rs>
-               <lb facs="#facs_3_region_1779518513572_731_tl_2" n="N002"/>den musikalischen Theil im Einverständnisse mit <rs type="person">Vischer</rs> ge¬
-               <lb facs="#facs_3_region_1779518513572_731_tl_3" n="N003"/>schrieben hat. Also seit siebenundzwanzig Jahren weiß
-               <lb facs="#facs_3_region_1779518513572_731_tl_4" n="N004"/>Jedermann, der sich um Aesthetik kümmert, von wem der
-               <lb facs="#facs_3_region_1779518513572_731_tl_5" n="N005"/>musikalische Theil des großen <rs type="person">Vischer</rs>'schen <rs type="bibl">Werk</rs>es herrührt;
-               <lb facs="#facs_3_region_1779518513572_731_tl_6" n="N006"/>nur das Hauptorgan der Wagnerianer weiß es noch heute
-               <lb facs="#facs_3_region_1779518513572_731_tl_7" n="N007"/>nicht. Der „Meister“ hat nun einmal (ohne den geringsten
-               <lb facs="#facs_3_region_1779518513572_731_tl_8" n="N008"/>Grund) mich als den Mitarbeiter <rs type="person">Vischer</rs>'s bezeichnet, und
-               <lb facs="#facs_3_region_1779518513572_731_tl_9" n="N009"/>das genügt seinen Organen, um jenes monumentale Werk
-               <lb facs="#facs_3_region_1779518513572_731_tl_10" n="N010"/>in alle Ewigkeit zu verlästern.
-               <lb facs="#facs_3_region_1779518513572_731_tl_11" n="N011"/>Das Ergötzlichste zum Schlusse. Herr Joseph <hi rendition="#em">
-                  <rs type="person" continued="true">Rubin¬</rs>
-               </hi>
-               <lb facs="#facs_3_region_1779518513572_731_tl_12" n="N012"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">stein</rs>
-               </hi>, derselbe, der sich durch seine „<rs type="bibl">Vernichtung</rs>“ Robert
-               <lb facs="#facs_3_region_1779518513572_731_tl_13" n="N013"/>
-               <rs type="person">Schumann</rs>'s einen Namen gemacht hat, veröffentlicht in den
-               <lb facs="#facs_3_region_1779518513572_731_tl_14" n="N014"/>„<rs type="bibl">Bayreuther Blättern</rs>“ einen Aufsatz über „<rs type="bibl">Symphonie und</rs>
-               <lb facs="#facs_3_region_1779518513572_731_tl_15" n="N015"/>
-               <rs type="bibl">Drama</rs>“, dessen Resultat also lautet: „Muß man im Hin¬
-               <lb facs="#facs_3_region_1779518513572_731_tl_16" n="N016"/>blicke auf die nach<rs type="person">beethoven</rs>'schen Versuche in der absoluten
-               <lb facs="#facs_3_region_1779518513572_731_tl_17" n="N017"/>Symphoniegattung den <hi rendition="#em">letzten</hi> eigentlichen Symphoniker
-               <lb facs="#facs_3_region_1779518513572_731_tl_18" n="N018"/>als mit <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi> zu Grabe getragen ansehen, so wird
-               <lb facs="#facs_3_region_1779518513572_731_tl_19" n="N019"/>man zugeben müssen, daß <hi rendition="#em">alle wesentlich musikali¬</hi>
-               <lb facs="#facs_3_region_1779518513572_731_tl_20" n="N020"/>
-               <hi rendition="#em">schen Eigenschaften dieser Gattung im</hi>
-               <lb facs="#facs_3_region_1779518513572_731_tl_21" n="N021"/>
-               <hi rendition="#em">Musikdrama</hi> gleichsam ihre Auferstehung feiern, und
-               <lb facs="#facs_3_region_1779518513572_731_tl_22" n="N022"/>dies zwar in einem so eigentlichen Sinne, daß dieselben
-               <lb facs="#facs_3_region_1779518513572_731_tl_23" n="N023"/>
-               <hi rendition="#em">hier erst</hi> in ganz fleckenloser, gleichsam verklärter Gestalt
-               <lb facs="#facs_3_region_1779518513572_731_tl_24" n="N024"/>erscheinen.“ Also <hi rendition="#em">
-                  <rs type="person">Schubert</rs>'s</hi>, <hi rendition="#em">
-                  <rs type="person">Mendelssohn</rs>'s</hi>, <hi rendition="#em">
-                  <rs type="person" continued="true">Schu¬</rs>
-               </hi>
-               <lb facs="#facs_3_region_1779518513572_731_tl_25" n="N025"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">mann</rs>'s</hi>, <hi rendition="#em">
-                  <rs type="person">Brahms</rs>'</hi> Symphonien alles überflüssige Werke
-               <lb facs="#facs_3_region_1779518513572_731_tl_26" n="N026"/>des Verfalls; nach <rs type="person">Beethoven</rs> kommt <hi rendition="#em">als Symphoni¬</hi>
-               <lb facs="#facs_3_region_1779518513572_731_tl_27" n="N027"/>
-               <hi rendition="#em">ker</hi> nur Richard <rs type="person">Wagner</rs>. Die Orchesterbegleitung in
-               <lb facs="#facs_3_region_1779518513572_731_tl_28" n="N028"/>„<rs type="bibl">Tristan</rs>“ und den „<rs type="bibl">Nibelungen</rs>“ ersetzt uns vollkommen und
-               <lb facs="#facs_3_region_1779518513572_731_tl_29" n="N029"/>in verklärter Gestalt die Symphonie, die mit <rs type="person">Beethoven</rs> be¬
-               <lb facs="#facs_3_region_1779518513572_731_tl_30" n="N030"/>graben worden ist.
-               <lb facs="#facs_3_region_1779518513572_731_tl_31" n="N031"/>Es hieße den „<rs type="bibl">Bayreuther Blättern</rs>“ zu viel Ehre oder
-               <lb facs="#facs_3_region_1779518513572_731_tl_32" n="N032"/>zu viel Unglimpf erweisen, wollte man sie allein für die
-               <lb facs="#facs_3_region_1779518513572_731_tl_33" n="N033"/>literarische Klinik des <rs type="person">Wagner</rs>-Paroxysmus halten. In zahl¬
-               <lb facs="#facs_3_region_1779518513572_731_tl_34" n="N034"/>reichen, mitunter recht merkwürdigen Büchern und Broschüren
-               <lb facs="#facs_3_region_1779518513572_731_tl_35" n="N035"/>tritt acut zu Tage, was dort chronisch herrscht. Heute haben
-               <lb facs="#facs_3_region_1779518513572_731_tl_36" n="N036"/>wir den freundlichen Leser schon mit den „<rs type="bibl">Bayreuther Blät¬</rs>
-               <lb facs="#facs_3_region_1779518513572_731_tl_37" n="N037"/>
-               <rs type="bibl">tern</rs>“ zu lange in Anspruch genommen. Er möge nun die
-               <lb facs="#facs_3_region_1779518513572_731_tl_38" n="N038"/>einzelnen Posten selber summiren und urtheilen, ob die gegen¬
-               <lb facs="#facs_3_region_1779518513572_731_tl_39" n="N039"/>wärtige <rs type="person">Wagner</rs>-Vergötterung nach Form und Inhalt zu den
-               <lb facs="#facs_3_region_1779518513572_731_tl_40" n="N040"/>epidemischen Geisteskrankheiten gezählt werden darf oder nicht.
-            </p>
+            <p prev="true">
+         <lb facs="#facs_3_region_1779518513572_731_tl_1" n="N001" break="no"/>lich gesagt ist, daß Professor <hi rendition="#em">Karl <rs type="person" ref="#hsl_person_id_5881">Köstlin</rs></hi> in <rs type="place" ref="#hsl_place_id_584">Tübingen</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1779518513572_731_tl_2" n="N002"/>den musikalischen Theil im Einverständnisse mit <rs type="person" ref="#hsl_person_id_379">Vischer</rs> ge
+         <lb facs="#facs_3_region_1779518513572_731_tl_3" n="N003" break="no"/>schrieben hat. Also seit siebenundzwanzig Jahren weiß
+         <lb facs="#facs_3_region_1779518513572_731_tl_4" n="N004"/>Jedermann, der sich um Aesthetik kümmert, von wem der
+         <lb facs="#facs_3_region_1779518513572_731_tl_5" n="N005"/>musikalische Theil des großen <rs type="person" ref="#hsl_person_id_379">Vischer</rs>’schen <rs type="bibl" ref="#hsl_work_id_319">Werk</rs>es herrührt;
+         <lb facs="#facs_3_region_1779518513572_731_tl_6" n="N006"/>nur das Hauptorgan der Wagnerianer weiß es noch heute
+         <lb facs="#facs_3_region_1779518513572_731_tl_7" n="N007"/>nicht. Der „Meister“ hat nun einmal (ohne den geringsten
+         <lb facs="#facs_3_region_1779518513572_731_tl_8" n="N008"/>Grund) mich als den Mitarbeiter <rs type="person" ref="#hsl_person_id_379">Vischer</rs>’s bezeichnet, und
+         <lb facs="#facs_3_region_1779518513572_731_tl_9" n="N009"/>das genügt seinen Organen, um jenes monumentale Werk
+         <lb facs="#facs_3_region_1779518513572_731_tl_10" n="N010"/>in alle Ewigkeit zu verlästern.
+            </p><p>
+         <lb facs="#facs_3_region_1779518513572_731_tl_11" n="N011"/>Das Ergötzlichste zum Schlusse. Herr Joseph <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2041">Rubin
+         <lb facs="#facs_3_region_1779518513572_731_tl_12" n="N012" break="no"/>stein</rs></hi>, derselbe, der sich durch seine „<rs type="bibl" ref="#hsl_work_id_5900">Vernichtung</rs>“ Robert
+         <lb facs="#facs_3_region_1779518513572_731_tl_13" n="N013"/><rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s einen Namen gemacht hat, veröffentlicht in den
+         <lb facs="#facs_3_region_1779518513572_731_tl_14" n="N014"/>„<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther Blättern</rs>“ einen Aufsatz über „<rs type="bibl" ref="#hsl_work_id_6546">Symphonie und
+         <lb facs="#facs_3_region_1779518513572_731_tl_15" n="N015"/>Drama</rs>“, dessen Resultat also lautet: „Muß man im Hin
+         <lb facs="#facs_3_region_1779518513572_731_tl_16" n="N016" break="no"/>blicke auf die nach<rs type="person" ref="#hsl_person_id_25">beethoven</rs>’schen Versuche in der absoluten
+         <lb facs="#facs_3_region_1779518513572_731_tl_17" n="N017"/>Symphoniegattung den <hi rendition="#em">letzten</hi> eigentlichen Symphoniker
+         <lb facs="#facs_3_region_1779518513572_731_tl_18" n="N018"/>als mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi> zu Grabe getragen ansehen, so wird
+         <lb facs="#facs_3_region_1779518513572_731_tl_19" n="N019"/>man zugeben müssen, daß <hi rendition="#em">alle wesentlich musikali
+         <lb facs="#facs_3_region_1779518513572_731_tl_20" n="N020" break="no"/>schen Eigenschaften dieser Gattung im
+         <lb facs="#facs_3_region_1779518513572_731_tl_21" n="N021"/>Musikdrama</hi> gleichsam ihre Auferstehung feiern, und
+         <lb facs="#facs_3_region_1779518513572_731_tl_22" n="N022"/>dies zwar in einem so eigentlichen Sinne, daß dieselben
+         <lb facs="#facs_3_region_1779518513572_731_tl_23" n="N023"/><hi rendition="#em">hier erst</hi> in ganz fleckenloser, gleichsam verklärter Gestalt
+         <lb facs="#facs_3_region_1779518513572_731_tl_24" n="N024"/>erscheinen.“ Also <hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s</hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>’s</hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schu
+         <lb facs="#facs_3_region_1779518513572_731_tl_25" n="N025" break="no"/>mann</rs>’s</hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs>’</hi> Symphonien alles überflüssige Werke
+         <lb facs="#facs_3_region_1779518513572_731_tl_26" n="N026"/>des Verfalls; nach <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> kommt <hi rendition="#em">als Symphoni
+         <lb facs="#facs_3_region_1779518513572_731_tl_27" n="N027" break="no"/>ker</hi> nur Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>. Die Orchesterbegleitung in
+         <lb facs="#facs_3_region_1779518513572_731_tl_28" n="N028"/>„<rs type="bibl" ref="#hsl_work_id_417">Tristan</rs>“ und den „<rs type="bibl" ref="#hsl_work_id_418">Nibelungen</rs>“ ersetzt uns vollkommen und
+         <lb facs="#facs_3_region_1779518513572_731_tl_29" n="N029"/>in verklärter Gestalt die Symphonie, die mit <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> be
+         <lb facs="#facs_3_region_1779518513572_731_tl_30" n="N030" break="no"/>graben worden ist.
+            </p><p>
+         <lb facs="#facs_3_region_1779518513572_731_tl_31" n="N031"/>Es hieße den „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther Blättern</rs>“ zu viel Ehre oder
+         <lb facs="#facs_3_region_1779518513572_731_tl_32" n="N032"/>zu viel Unglimpf erweisen, wollte man sie allein für die
+         <lb facs="#facs_3_region_1779518513572_731_tl_33" n="N033"/>literarische Klinik des <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Paroxysmus halten. In zahl
+         <lb facs="#facs_3_region_1779518513572_731_tl_34" n="N034" break="no"/>reichen, mitunter recht merkwürdigen Büchern und Broschüren
+         <lb facs="#facs_3_region_1779518513572_731_tl_35" n="N035"/>tritt acut zu Tage, was dort chronisch herrscht. Heute haben
+         <lb facs="#facs_3_region_1779518513572_731_tl_36" n="N036"/>wir den freundlichen Leser schon mit den „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther Blät
+         <lb facs="#facs_3_region_1779518513572_731_tl_37" n="N037" break="no"/>tern</rs>“ zu lange in Anspruch genommen. Er möge nun die
+         <lb facs="#facs_3_region_1779518513572_731_tl_38" n="N038"/>einzelnen Posten selber summiren und urtheilen, ob die gegen
+         <lb facs="#facs_3_region_1779518513572_731_tl_39" n="N039" break="no"/>wärtige <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Vergötterung nach Form und Inhalt zu den
+         <lb facs="#facs_3_region_1779518513572_731_tl_40" n="N040"/>epidemischen Geisteskrankheiten gezählt werden darf oder nicht.</p>
          </div>
       </body>
    </text>

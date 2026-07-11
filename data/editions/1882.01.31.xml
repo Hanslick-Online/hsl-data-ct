@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 6261. Wien, Dienstag, den 31. Januar 1882</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +70,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 6261. Wien, Dienstag, den 31. Januar 1882</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1882-01-31">31.01.1882</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18820131"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-06-11">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-06-19">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-07-04">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1076,435 +1076,324 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_line_1779607259206_1292" n="N001"/><head type="h1">Hofoperntheater.</head>
+            <lb facs="#facs_1_region_1779606216712_808_tl_1" n="N002"/><head type="h2">(„<rs type="bibl" ref="#hsl_work_id_6608">Die Zwillingsbrüder</rs>.“ — „<rs type="bibl" ref="#hsl_work_id_784">Der Widerspenstigen Zähmung</rs>.“ — „<rs type="bibl" ref="#hsl_work_id_174">Don Juan.</rs>“ —
+            <lb facs="#facs_1_line_1779607261326_1295" n="N003"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_16">Auber</rs>’s</hi> hunderthjähriges Jubiläum.)</head>
             <p>
-               <lb facs="#facs_1_line_1779606941729_1036" n="N001"/>Nr. 6261. Wien, Dienstag, den 31. Januar 1882
-            </p>
+         <lb facs="#facs_1_region_1779606216712_808_tl_4" n="N004"/>Ed. H. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s</hi> einactiges Singspiel „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_6608">Die
+         <lb facs="#facs_1_region_1779606216712_808_tl_5" n="N005"/>Zwillingsbrüder</rs></hi>“ präsentirte sich unserem Publicum
+         <lb facs="#facs_1_region_1779606216712_808_tl_6" n="N006"/>vor acht Tagen als vollständige Novität — wenigstens hat
+         <lb facs="#facs_1_region_1779606216712_808_tl_7" n="N007"/>keiner von den Zuhörern so alt ausgesehen, daß er schon
+         <lb facs="#facs_1_region_1779606216712_808_tl_8" n="N008"/>vor 62 Jahren zu den Theater-Habitués gehören konnte. Im
+         <lb facs="#facs_1_region_1779606216712_808_tl_9" n="N009"/>Jahre <date>1820</date> erschienen <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s „<rs type="bibl" ref="#hsl_work_id_6608">Zwillingsbrüder</rs>“ als
+         <lb facs="#facs_1_region_1779606216712_808_tl_10" n="N010"/>„<hi rendition="#em">Posse</hi> in Einem Acte“ zum erstenmale im Kärntnerthor-
+         <lb facs="#facs_1_region_1779606216712_808_tl_11" n="N011"/>Theater, brachten es aber kaum zu einem Halbdutzend Wieder
+         <lb facs="#facs_1_region_1779606216712_808_tl_12" n="N012" break="no"/>holungen. Einactige Operetten waren zu jener Zeit sehr be
+         <lb facs="#facs_1_region_1779606216712_808_tl_13" n="N013" break="no"/>liebt im Hofoperntheater, das sie später fast gänzlich ver
+         <lb facs="#facs_1_region_1779606216712_808_tl_14" n="N014" break="no"/>bannte, um sie wieder in neuester Zeit als willkommene
+         <lb facs="#facs_1_region_1779606216712_808_tl_15" n="N015"/>Balletzugaben zurückzurufen. Die<rs type="place" ref="#hsl_place_id_21">französisch</rs>e Opéra comique
+         <lb facs="#facs_1_region_1779606216712_808_tl_16" n="N016"/>lieferte uns in den drei ersten Decennien dieses Jahrhunderts
+         <lb facs="#facs_1_region_1779606216712_808_tl_17" n="N017"/>ein stattliches, aber noch immer nicht ausreichendes Contin
+         <lb facs="#facs_1_region_1779606216712_808_tl_18" n="N018" break="no"/>gent von solchen Singspielen, so daß einheimische Componisten
+         <lb facs="#facs_1_region_1779606216712_808_tl_19" n="N019"/>fleißig nachhelfen mußten. Die Stücke selbst waren meist
+         <lb facs="#facs_1_region_1779606216712_808_tl_20" n="N020"/>possenhafter Natur und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5088">Schenk</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_3375">Dorfbarbier</rs>“ das be
+         <lb facs="#facs_1_region_1779606216712_808_tl_21" n="N021" break="no"/>liebteste von allen. Als <hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schubert</rs></hi> die „<rs type="bibl" ref="#hsl_work_id_6608">Zwillingsbrüder</rs>“
+         <lb facs="#facs_1_region_1779606216712_808_tl_22" n="N022"/>componirte, war er dreiundzwanzigjährig und hatte bereits
+         <lb facs="#facs_1_region_1779606216712_808_tl_23" n="N023"/>mehrere seiner schönsten Tondichtungen geschaffen, aber noch
+         <lb facs="#facs_1_region_1779606216712_808_tl_24" n="N024"/>keinen dramatischen Versuch auf die Bühne gebracht. Ein
+         <lb facs="#facs_1_region_1779606216712_808_tl_25" n="N025"/>Auftrag für das Hofoperntheater mußte ihm äußerst werth
+         <lb facs="#facs_1_region_1779606216712_808_tl_26" n="N026" break="no"/>voll sein, und so ging er denn — überhaupt nicht wählerisch
+         <lb facs="#facs_1_region_1779606216712_808_tl_27" n="N027"/>in Operntexten — wohlgemuth an das possenhafte Libretto,
+         <lb facs="#facs_1_region_1779606216712_808_tl_28" n="N028"/>das seinem Talente nur einen niedrigen und kurzen
+         <lb facs="#facs_1_region_1779606216712_808_tl_29" n="N029"/>Flug gestattete. Die Handlung dreht sich um zwei
+         <lb facs="#facs_1_region_1779606216712_808_tl_30" n="N030"/><rs type="person" ref="#hsl_person_id_9084 #hsl_person_id_9085">Brüder</rs>, die ob ihrer Aehnlichkeit fortwährend verwechselt wer
+         <lb facs="#facs_1_region_1779606216712_808_tl_31" n="N031" break="no"/>den — ein Lustspielmotiv, das so uralt ist, daß es eigentlich
+         <lb facs="#facs_1_region_1779606216712_808_tl_32" n="N032"/>gar nicht mehr veralten kann. Von den „<rs type="bibl" ref="#hsl_work_id_4906">Menächmen</rs>“ des
+         <lb facs="#facs_1_region_1779606216712_808_tl_33" n="N033"/><rs type="person" ref="#hsl_person_id_6914">Plautus</rs> bis zu <rs type="person" ref="#hsl_person_id_287">Shakspeare</rs>’s „<rs type="bibl" ref="#hsl_work_id_4907">Comödie der Irrungen</rs>“ und
+         <lb facs="#facs_1_region_1779606216712_808_tl_34" n="N034"/>dem durch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1288">Fichtner</rs>’s</hi> virtuose Darstellung berühmten
+         <lb facs="#facs_1_region_1779606216712_808_tl_35" n="N035"/>„<rs type="bibl" ref="#hsl_work_id_4908">Doppelgänger</rs>“ von <rs type="person" ref="#hsl_person_id_128">Holbein</rs> — wie viele Wanderungen
+         <lb facs="#facs_1_region_1779606216712_808_tl_36" n="N036"/>und Wandlungen desselben Themas! Noch in neuester Zeit
+         <lb facs="#facs_1_region_1779606216712_808_tl_37" n="N037"/>bewährte es seine Wirkung in <hi rendition="#em"><rs type="person" ref="#hsl_person_id_12">Adam</rs>’s</hi> ergötzlicher komischer
+         <lb facs="#facs_1_region_1779606216712_808_tl_38" n="N038"/>Oper „<rs type="bibl" ref="#hsl_work_id_175">Der Brauer von Preston</rs>“ und in <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3633">Lecocq</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_4846">Gi
+         <lb facs="#facs_1_region_1779606216712_808_tl_39" n="N039" break="no"/>roflé-Girofla</rs>“. <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s Libretto behandelt das Thema mit<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_line_1779607259206_1292" n="N001"/>Hofoperntheater.
-               <lb facs="#facs_1_region_1779606216712_808_tl_1" n="N002"/>(„<rs type="bibl">Die Zwillingsbrüder</rs>.“ — „<rs type="bibl">Der Widerspensigen Zähmung</rs>.“ — „<rs type="bibl">Don Juan.</rs>“ —
-               <lb facs="#facs_1_line_1779607261326_1295" n="N003"/>
-               <hi rendition="#em">
-                  <rs type="person">Auber</rs>'s</hi> hunderthjähriges Jubiläum.)
-               <lb facs="#facs_1_region_1779606216712_808_tl_4" n="N004"/>Ed. H. <hi rendition="#em">
-                  <rs type="person">Schubert</rs>'s</hi> einactiges Singspiel „<hi rendition="#em">
-                  <rs type="bibl">Die</rs>
-               </hi>
-               <lb facs="#facs_1_region_1779606216712_808_tl_5" n="N005"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Zwillingsbrüder</rs>
-               </hi>“ präsentirte sich unserem Publicum
-               <lb facs="#facs_1_region_1779606216712_808_tl_6" n="N006"/>vor acht Tagen als vollständige Novität — wenigstens hat
-               <lb facs="#facs_1_region_1779606216712_808_tl_7" n="N007"/>keiner von den Zuhörern so alt ausgesehen, daß er schon
-               <lb facs="#facs_1_region_1779606216712_808_tl_8" n="N008"/>vor 62 Jahren zu den Theater-Habitués gehören konnte. Im
-               <lb facs="#facs_1_region_1779606216712_808_tl_9" n="N009"/>Jahre <date month="0" day="0" year="0">1820</date> erschienen <rs type="person">Schubert</rs>'s „<rs type="bibl">Zwillingsbrüder</rs>“ als
-               <lb facs="#facs_1_region_1779606216712_808_tl_10" n="N010"/>„<hi rendition="#em">Posse</hi> in Einem Acte“ zum erstenmale im Kärntnerthor-
-               <lb facs="#facs_1_region_1779606216712_808_tl_11" n="N011"/>Theater, brachten es aber kaum zu einem Halbdutzend Wieder¬
-               <lb facs="#facs_1_region_1779606216712_808_tl_12" n="N012"/>holungen. Einactige Operetten waren zu jener Zeit sehr be¬
-               <lb facs="#facs_1_region_1779606216712_808_tl_13" n="N013"/>liebt im Hofoperntheater, das sie später fast gänzlich ver¬
-               <lb facs="#facs_1_region_1779606216712_808_tl_14" n="N014"/>bannte, um sie wieder in neuester Zeit als willkommene
-               <lb facs="#facs_1_region_1779606216712_808_tl_15" n="N015"/>Balletzugaben zurückzurufen. Die<rs type="place"> französisch</rs>e Opéra comique
-               <lb facs="#facs_1_region_1779606216712_808_tl_16" n="N016"/>lieferte uns in den drei ersten Decennien dieses Jahrhunderts
-               <lb facs="#facs_1_region_1779606216712_808_tl_17" n="N017"/>ein stattliches, aber noch immer nicht ausreichendes Contin¬
-               <lb facs="#facs_1_region_1779606216712_808_tl_18" n="N018"/>gent von solchen Singspielen, so daß einheimische Componisten
-               <lb facs="#facs_1_region_1779606216712_808_tl_19" n="N019"/>fleißig nachhelfen mußten. Die Stücke selbst waren meist
-               <lb facs="#facs_1_region_1779606216712_808_tl_20" n="N020"/>possenhafter Natur und <hi rendition="#em">
-                  <rs type="person">Schenk</rs>'s</hi> „<rs type="bibl">Dorfbarbier</rs>“ das be¬
-               <lb facs="#facs_1_region_1779606216712_808_tl_21" n="N021"/>liebteste von allen. Als <hi rendition="#em">
-                  <rs type="person">Schubert</rs>
-               </hi> die „<rs type="bibl">Zwillingsbrüder</rs>“
-               <lb facs="#facs_1_region_1779606216712_808_tl_22" n="N022"/>componirte, war er dreiundzwanzigjährig und hatte bereits
-               <lb facs="#facs_1_region_1779606216712_808_tl_23" n="N023"/>mehrere seiner schönsten Tondichtungen geschaffen, aber noch
-               <lb facs="#facs_1_region_1779606216712_808_tl_24" n="N024"/>keinen dramatischen Versuch auf die Bühne gebracht. Ein
-               <lb facs="#facs_1_region_1779606216712_808_tl_25" n="N025"/>Auftrag für das Hofoperntheater mußte ihm äußerst werth¬
-               <lb facs="#facs_1_region_1779606216712_808_tl_26" n="N026"/>voll sein, und so ging er denn — überhaupt nicht wählerisch
-               <lb facs="#facs_1_region_1779606216712_808_tl_27" n="N027"/>in Operntexten — wohlgemuth an das possenhafte Libretto,
-               <lb facs="#facs_1_region_1779606216712_808_tl_28" n="N028"/>das seinem Talente nur einen niedrigen und kurzen
-               <lb facs="#facs_1_region_1779606216712_808_tl_29" n="N029"/>Flug gestattete. Die Handlung dreht sich um zwei
-               <lb facs="#facs_1_region_1779606216712_808_tl_30" n="N030"/>
-               <rs type="person">Brüder</rs>, die ob ihrer Aehnlichkeit fortwährend verwechselt wer¬
-               <lb facs="#facs_1_region_1779606216712_808_tl_31" n="N031"/>den — ein Lustspielmotiv, das so uralt ist, daß es eigentlich
-               <lb facs="#facs_1_region_1779606216712_808_tl_32" n="N032"/>gar nicht mehr veralten kann. Von den „<rs type="bibl">Menächmen</rs>“ des
-               <lb facs="#facs_1_region_1779606216712_808_tl_33" n="N033"/>
-               <rs type="person">Plautus</rs> bis zu <rs type="person">Shakspeare</rs>'s „<rs type="bibl">Comödie der Irrungen</rs>“ und
-               <lb facs="#facs_1_region_1779606216712_808_tl_34" n="N034"/>dem durch <hi rendition="#em">
-                  <rs type="person">Fichtner</rs>'s</hi> virtuose Darstellung berühmten
-               <lb facs="#facs_1_region_1779606216712_808_tl_35" n="N035"/>„<rs type="bibl">Doppelgänger</rs>“ von <rs type="person">Holbein</rs> — wie viele Wanderungen
-               <lb facs="#facs_1_region_1779606216712_808_tl_36" n="N036"/>und Wandlungen desselben Themas! Noch in neuester Zeit
-               <lb facs="#facs_1_region_1779606216712_808_tl_37" n="N037"/>bewährte es seine Wirkung in <hi rendition="#em">
-                  <rs type="person">Adam</rs>'s</hi> ergötzlicher komischer
-               <lb facs="#facs_1_region_1779606216712_808_tl_38" n="N038"/>Oper „<rs type="bibl">Der Brauer von Preston</rs>“ und in <hi rendition="#em">
-                  <rs type="person">Lecocq</rs>'s</hi> „<rs type="bibl">Gi¬</rs>
-               <lb facs="#facs_1_region_1779606216712_808_tl_39" n="N039"/>
-               <rs type="bibl">roflé-Girofla</rs>“. <rs type="person">Schubert</rs>'s Libretto behandelt das Thema mit
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1779606219712_811_tl_1" n="N001"/>wenig Witz in derb <rs type="person" ref="#hsl_person_id_925">Kotzebue</rs>’schem Geschmack, erweckt aber
+         <lb facs="#facs_1_region_1779606219712_811_tl_2" n="N002"/>doch in einigen Scenen die Lachlust der Zuschauer. Es wirkt
+         <lb facs="#facs_1_region_1779606219712_811_tl_3" n="N003"/>immer komisch, wenn derselbe Mensch, den wir eben tüchtig
+         <lb facs="#facs_1_region_1779606219712_811_tl_4" n="N004"/>essen und trinken gesehen, nach zwei Minuten zurückkommt
+         <lb facs="#facs_1_region_1779606219712_811_tl_5" n="N005"/>und flehentlich um ein Frühstück bittet, da er noch nüchtern
+         <lb facs="#facs_1_region_1779606219712_811_tl_6" n="N006"/>sei, und was solcher Wunderdinge mehr sind. Auf der Bühne
+         <lb facs="#facs_1_region_1779606219712_811_tl_7" n="N007"/>halten sie natürlich Alle einander für verrückt; wir im Par
+         <lb facs="#facs_1_region_1779606219712_811_tl_8" n="N008" break="no"/>terre sind aber die Gescheiten, haben Alles längst errathen
+         <lb facs="#facs_1_region_1779606219712_811_tl_9" n="N009"/>und freuen uns sehr unserer Pfiffigkeit. Die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schubert</rs></hi>’sche
+         <lb facs="#facs_1_region_1779606219712_811_tl_10" n="N010"/>Musik hat uns einen durchaus freundlichen Eindruck gemacht.
+         <lb facs="#facs_1_region_1779606219712_811_tl_11" n="N011"/>Dem kleinbürgerlichen Stoff und Costüm gemäß ist Alles
+         <lb facs="#facs_1_region_1779606219712_811_tl_12" n="N012"/>knapp und einfach gehalten; den romantischen Duft, den
+         <lb facs="#facs_1_region_1779606219712_811_tl_13" n="N013"/>ritterlichen Glanz, der <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s „<rs type="bibl" ref="#hsl_work_id_1397">Häuslichen Krieg</rs>“
+         <lb facs="#facs_1_region_1779606219712_811_tl_14" n="N014"/>so warm vergoldete, darf man in den „<rs type="bibl" ref="#hsl_work_id_6608">Zwillings
+         <lb facs="#facs_1_region_1779606219712_811_tl_15" n="N015" break="no"/>brüdern</rs>“ nicht suchen. Diese beiden Singspiele sind zwar
+         <lb facs="#facs_1_region_1779606219712_811_tl_16" n="N016"/>musikalisch Verwandte, aber keineswegs Zwillingsbrüder.
+         <lb facs="#facs_1_region_1779606219712_811_tl_17" n="N017"/>Die Partitur zum „<rs type="bibl" ref="#hsl_work_id_1397">Häuslichen Krieg</rs>“ überströmt von genialer
+         <lb facs="#facs_1_region_1779606219712_811_tl_18" n="N018"/>Ursprünglichkeit und enthält keine Nummer, die von einem
+         <lb facs="#facs_1_region_1779606219712_811_tl_19" n="N019"/>Andern als von Franz <rs type="person" ref="#hsl_person_id_279">Schubert</rs> herrühren könnte; sie ist
+         <lb facs="#facs_1_region_1779606219712_811_tl_20" n="N020"/>ein monumentales Werk gegen das Liederspiel von den ehren
+         <lb facs="#facs_1_region_1779606219712_811_tl_21" n="N021" break="no"/>werthen Gebrüdern <rs type="person" ref="#hsl_person_id_9084 #hsl_person_id_9085">Spieß</rs>. Letzteres möchten wir darum nicht
+         <lb facs="#facs_1_region_1779606219712_811_tl_22" n="N022"/>mißachtet wissen. Gleich der Einleitungschor ist allerliebst
+         <lb facs="#facs_1_region_1779606219712_811_tl_23" n="N023"/>und von echt <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’schem Stimmungszauber. Von den
+         <lb facs="#facs_1_region_1779606219712_811_tl_24" n="N024"/>übrigen Nummern sind die von Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2922">Scaria</rs></hi> wirksam
+         <lb facs="#facs_1_region_1779606219712_811_tl_25" n="N025"/>vorgetragene Baß-Arie „Mag es stürmen“, dann das fein
+         <lb facs="#facs_1_region_1779606219712_811_tl_26" n="N026"/>instrumentirte Quartett in B-dur: „Zu rechter Zeit“, das
+         <lb facs="#facs_1_region_1779606219712_811_tl_27" n="N027"/>resolut dreinfahrende Quintett mit Chor „Packt ihn“ beson
+         <lb facs="#facs_1_region_1779606219712_811_tl_28" n="N028" break="no"/>ders ansprechend. Ein bischen naiven Sinn muß freilich
+         <lb facs="#facs_1_region_1779606219712_811_tl_29" n="N029"/>Jeder ins Theater mitbringen, der ein einactiges Singspiel
+         <lb facs="#facs_1_region_1779606219712_811_tl_30" n="N030"/>vom Jahre <date>1820</date> hören will. Dann wird er sich nicht ent
+         <lb facs="#facs_1_region_1779606219712_811_tl_31" n="N031" break="no"/>täuscht, sondern freundlich angesprochen fühlen von dem klei
+         <lb facs="#facs_1_region_1779606219712_811_tl_32" n="N032" break="no"/>nen rothbackigen Wesen, in dem so viel Jugend, Liebe und
+         <lb facs="#facs_1_region_1779606219712_811_tl_33" n="N033"/>Sangeslust steckt. Besondere Erwähnung verdient noch die
+         <lb facs="#facs_1_region_1779606219712_811_tl_34" n="N034"/>von Herrn <rs type="person" ref="#hsl_person_id_2922">Scaria</rs> eingelegte Baß-Arie „Menschliche Herzen
+         <lb facs="#facs_1_region_1779606219712_811_tl_35" n="N035"/>ringen und streben“, welche Herr Capellmeister <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2405">Fuchs</rs></hi> nach
+         <lb facs="#facs_1_region_1779606219712_811_tl_36" n="N036"/>einer Skizze von <rs type="person" ref="#hsl_person_id_279">Schubert</rs> ausgeführt und instrumentirt hat.
+         <lb facs="#facs_1_region_1779606219712_811_tl_37" n="N037"/>Sie schlägt einen ernsteren pathetischen Ton an, der auf
+         <lb facs="#facs_1_region_1779606219712_811_tl_38" n="N038"/>vornehmere Abkunft als die der „<rs type="bibl" ref="#hsl_work_id_6608">Zwillingsbrüder</rs>“ hindeutet.
+         <lb facs="#facs_1_region_1779606219712_811_tl_39" n="N039"/>In der That stammt sie aus <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s unvollendeter Oper
+         <lb facs="#facs_1_region_1779606219712_811_tl_40" n="N040"/>„<rs type="bibl" ref="#hsl_work_id_6609">Sakuntala</rs>“, deren Original-Manuscript im Besitze des
+         <lb facs="#facs_1_region_1779606219712_811_tl_41" n="N041"/>Herrn <hi rendition="#em">Nikolaus <rs type="person" ref="#hsl_person_id_1248">Dumba</rs></hi><space quantity="1" unit="char"/> ist. Nur ein kleiner intimer
+         <lb facs="#facs_1_region_1779606219712_811_tl_42" n="N042"/>Kreis kennt den Schatz <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’scher Manuscripte, welchen<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1779606219712_811_tl_1" n="N001"/>wenig Witz in derb <rs type="person">Kotzebue</rs>'schem Geschmack, erweckt aber
-               <lb facs="#facs_1_region_1779606219712_811_tl_2" n="N002"/>doch in einigen Scenen die Lachlust der Zuschauer. Es wirkt
-               <lb facs="#facs_1_region_1779606219712_811_tl_3" n="N003"/>immer komisch, wenn derselbe Mensch, den wir eben tüchtig
-               <lb facs="#facs_1_region_1779606219712_811_tl_4" n="N004"/>essen und trinken gesehen, nach zwei Minuten zurückkommt
-               <lb facs="#facs_1_region_1779606219712_811_tl_5" n="N005"/>und flehentlich um ein Frühstück bittet, da er noch nüchtern
-               <lb facs="#facs_1_region_1779606219712_811_tl_6" n="N006"/>sei, und was solcher Wunderdinge mehr sind. Auf der Bühne
-               <lb facs="#facs_1_region_1779606219712_811_tl_7" n="N007"/>halten sie natürlich Alle einander für verrückt; wir im Par¬
-               <lb facs="#facs_1_region_1779606219712_811_tl_8" n="N008"/>terre sind aber die Gescheiten, haben Alles längst errathen
-               <lb facs="#facs_1_region_1779606219712_811_tl_9" n="N009"/>und freuen uns sehr unserer Pfiffigkeit. Die <hi rendition="#em">
-                  <rs type="person">Schubert</rs>
-               </hi>'sche
-               <lb facs="#facs_1_region_1779606219712_811_tl_10" n="N010"/>Musik hat uns einen durchaus freundlichen Eindruck gemacht.
-               <lb facs="#facs_1_region_1779606219712_811_tl_11" n="N011"/>Dem kleinbürgerlichen Stoff und Costüm gemäß ist Alles
-               <lb facs="#facs_1_region_1779606219712_811_tl_12" n="N012"/>knapp und einfach gehalten; den romantischen Duft, den
-               <lb facs="#facs_1_region_1779606219712_811_tl_13" n="N013"/>ritterlichen Glanz, der <rs type="person">Schubert</rs>'s „<rs type="bibl">Häuslichen Krieg</rs>“
-               <lb facs="#facs_1_region_1779606219712_811_tl_14" n="N014"/>so warm vergoldete, darf man in den „<rs type="bibl">Zwillings¬</rs>
-               <lb facs="#facs_1_region_1779606219712_811_tl_15" n="N015"/>
-               <rs type="bibl">brüdern</rs>“ nicht suchen. Diese beiden Singspiele sind zwar
-               <lb facs="#facs_1_region_1779606219712_811_tl_16" n="N016"/>musikalisch Verwandte, aber keineswegs Zwillingsbrüder.
-               <lb facs="#facs_1_region_1779606219712_811_tl_17" n="N017"/>Die Partitur zum „<rs type="bibl">Häuslichen Krieg</rs>“ überströmt von genialer
-               <lb facs="#facs_1_region_1779606219712_811_tl_18" n="N018"/>Ursprünglichkeit und enthält keine Nummer, die von einem
-               <lb facs="#facs_1_region_1779606219712_811_tl_19" n="N019"/>Andern als von Franz <rs type="person">Schubert</rs> herrühren könnte; sie ist
-               <lb facs="#facs_1_region_1779606219712_811_tl_20" n="N020"/>ein monumentales Werk gegen das Liederspiel von den ehren¬
-               <lb facs="#facs_1_region_1779606219712_811_tl_21" n="N021"/>werthen Gebrüdern <rs type="person">Spieß</rs>. Letzteres möchten wir darum nicht
-               <lb facs="#facs_1_region_1779606219712_811_tl_22" n="N022"/>mißachtet wissen. Gleich der Einleitungschor ist allerliebst
-               <lb facs="#facs_1_region_1779606219712_811_tl_23" n="N023"/>und von echt <rs type="person">Schubert</rs>'schem Stimmungszauber. Von den
-               <lb facs="#facs_1_region_1779606219712_811_tl_24" n="N024"/>übrigen Nummern sind die von Herrn <hi rendition="#em">
-                  <rs type="person">Scaria</rs>
-               </hi> wirksam
-               <lb facs="#facs_1_region_1779606219712_811_tl_25" n="N025"/>vorgetragene Baß-Arie „Mag es stürmen“, dann das fein
-               <lb facs="#facs_1_region_1779606219712_811_tl_26" n="N026"/>instrumentirte Quartett in B-dur: „Zu rechter Zeit“, das
-               <lb facs="#facs_1_region_1779606219712_811_tl_27" n="N027"/>resolut dreinfahrende Quintett mit Chor „Packt ihn“ beson¬
-               <lb facs="#facs_1_region_1779606219712_811_tl_28" n="N028"/>ders ansprechend. Ein bischen naiven Sinn muß freilich
-               <lb facs="#facs_1_region_1779606219712_811_tl_29" n="N029"/>Jeder ins Theater mitbringen, der ein einactiges Singspiel
-               <lb facs="#facs_1_region_1779606219712_811_tl_30" n="N030"/>vom Jahre <date month="0" day="0" year="0">1820</date> hören will. Dann wird er sich nicht ent¬
-               <lb facs="#facs_1_region_1779606219712_811_tl_31" n="N031"/>täuscht, sondern freundlich angesprochen fühlen von dem klei¬
-               <lb facs="#facs_1_region_1779606219712_811_tl_32" n="N032"/>nen rothbackigen Wesen, in dem so viel Jugend, Liebe und
-               <lb facs="#facs_1_region_1779606219712_811_tl_33" n="N033"/>Sangeslust steckt. Besondere Erwähnung verdient noch die
-               <lb facs="#facs_1_region_1779606219712_811_tl_34" n="N034"/>von Herrn <rs type="person">Scaria</rs> eingelegte Baß-Arie „Menschliche Herzen
-               <lb facs="#facs_1_region_1779606219712_811_tl_35" n="N035"/>ringen und streben“, welche Herr Capellmeister <hi rendition="#em">
-                  <rs type="person">Fuchs</rs>
-               </hi> nach
-               <lb facs="#facs_1_region_1779606219712_811_tl_36" n="N036"/>einer Skizze von <rs type="person">Schubert</rs> ausgeführt und instrumentirt hat.
-               <lb facs="#facs_1_region_1779606219712_811_tl_37" n="N037"/>Sie schlägt einen ernsteren pathetischen Ton an, der auf
-               <lb facs="#facs_1_region_1779606219712_811_tl_38" n="N038"/>vornehmere Abkunft als die der „<rs type="bibl">Zwillingsbrüder</rs>“ hindeutet.
-               <lb facs="#facs_1_region_1779606219712_811_tl_39" n="N039"/>In der That stammt sie aus <rs type="person">Schubert</rs>'s unvollendeter Oper
-               <lb facs="#facs_1_region_1779606219712_811_tl_40" n="N040"/>„<rs type="bibl">Sakuntala</rs>“, deren Original-Manuscript im Besitze des
-               <lb facs="#facs_1_region_1779606219712_811_tl_41" n="N041"/>Herrn <hi rendition="#em">Nikolaus <rs type="person">Dumba</rs>
-               </hi>
-               <rs type="person"/> ist. Nur ein kleiner intimer
-               <lb facs="#facs_1_region_1779606219712_811_tl_42" n="N042"/>Kreis kennt den Schatz <rs type="person">Schubert</rs>'scher Manuscripte, welchen
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1779606222400_814_tl_1" n="N001"/>
-               <rs type="person">Dumba</rs> — bekanntlich selbst ein vorzüglicher <rs type="person">Schubert</rs>-Sänger
-               <lb facs="#facs_1_region_1779606222400_814_tl_2" n="N002"/>— mit Glück und Verständniß nach und nach gesammelt hat.*)
-               <lb facs="#facs_1_region_1779606222400_814_tl_3" n="N003"/>Es wäre sehr zu wünschen, daß alle noch ungedruckten
-               <lb facs="#facs_1_region_1779606222400_814_tl_4" n="N004"/>
-               <rs type="person">Schubert</rs>'schen Compositionen aus <rs type="person">Dumba</rs>'s Sammlung nach
-               <lb facs="#facs_1_region_1779606222400_814_tl_5" n="N005"/>vorhergegangener genauer Revision und Redaction durch an¬
-               <lb facs="#facs_1_region_1779606222400_814_tl_6" n="N006"/>erkannte <rs type="person">Schubert</rs>-Autoritäten, wie <hi rendition="#em">
-                  <rs type="person">Nottebohm</rs>
-               </hi> und
-               <lb facs="#facs_1_region_1779606222400_814_tl_7" n="N007"/>
-               <hi rendition="#em">
-                  <rs type="person">Brahms</rs>
-               </hi>, veröffentlicht würden. Einiges daraus dürfte die
-               <lb facs="#facs_1_region_1779606222400_814_tl_8" n="N008"/>Bühne, sehr Vieles die Concertprogramme bereichern, Alles
-               <lb facs="#facs_1_region_1779606222400_814_tl_9" n="N009"/>endlich die musikalische Welt interessiren und erfreuen. Einer
-               <lb facs="#facs_1_region_1779606222400_814_tl_10" n="N010"/>künftigen Gesammt-Ausgabe aller <rs type="person">Schubert</rs>'schen Werke würde
-               <lb facs="#facs_1_region_1779606222400_814_tl_11" n="N011"/>durch die Veröffentlichung der <rs type="person">Dumba</rs>'schen Manuscripte nicht
-               <lb facs="#facs_1_region_1779606222400_814_tl_12" n="N012"/>nur nicht präjudicirt, sie würde durch diese erst möglich. Eine
-               <lb facs="#facs_1_region_1779606222400_814_tl_13" n="N013"/>genauere Präcisirung des Planes gehört nicht hieher; wir
-               <lb facs="#facs_1_region_1779606222400_814_tl_14" n="N014"/>wollten hier nur die Idee anregen, welche gewiß einem
-               <lb facs="#facs_1_region_1779606222400_814_tl_15" n="N015"/>Wunsche aller <rs type="person">Schubert</rs>-Verehrer entgegenkommt und die als
-               <lb facs="#facs_1_region_1779606222400_814_tl_16" n="N016"/>eine wahrhaft künstlerische und patriotische von Seite <hi rendition="#em">Ni¬</hi>
-               <lb facs="#facs_1_region_1779606222400_814_tl_17" n="N017"/>
-               <hi rendition="#em">kolaus <rs type="person">Dumba</rs>'s</hi> jeder Förderung gewiß sein kann.
-               <lb facs="#facs_1_region_1779606222400_814_tl_18" n="N018"/>Nach einer Pause von sieben Jahren wurde im Hof¬
-               <lb facs="#facs_1_region_1779606222400_814_tl_19" n="N019"/>operntheater „<hi rendition="#em">
-                  <rs type="bibl">Der Widerspenstigen Zähmung</rs>
-               </hi>“
-               <lb facs="#facs_1_region_1779606222400_814_tl_20" n="N020"/>von H. <hi rendition="#em">
-                  <rs type="person">Götz</rs>
-               </hi> — mit Frau <hi rendition="#em">
-                  <rs type="person">Lucca</rs>
-               </hi> in der <rs type="person">Hauptrolle</rs> —
-               <lb facs="#facs_1_region_1779606222400_814_tl_21" n="N021"/>wieder aufgeführt und äußerst beifällig aufgenommen. Be¬
-               <lb facs="#facs_1_region_1779606222400_814_tl_22" n="N022"/>kanntlich hat <hi rendition="#em">
-                  <rs type="person">Herbeck</rs>
-               </hi> diese Oper des damals ganz unbe¬
-               <lb facs="#facs_1_region_1779606222400_814_tl_23" n="N023"/>kannten Componisten <date month="0" day="0" year="0">1875</date> mit besonderer Liebe hier einstu¬
-               <lb facs="#facs_1_region_1779606222400_814_tl_24" n="N024"/>dirt und aufgeführt. Von <rs type="place">Wien</rs>, wo die Novität einen
-               <lb facs="#facs_1_region_1779606222400_814_tl_25" n="N025"/>achtungsvollen, aber weder enthusiastischen noch nachhaltigen
-               <lb facs="#facs_1_region_1779606222400_814_tl_26" n="N026"/>Erfolg errang, bahnte sie sich den Weg fast auf alle Büh¬
-               <lb facs="#facs_1_region_1779606222400_814_tl_27" n="N027"/>nen <rs type="place">Deutschland</rs>s; durch Minnie <rs type="person">Hauck</rs> gelangte sie sogar
-               <lb facs="#facs_1_region_1779606222400_814_tl_28" n="N028"/>nach <rs type="place">England</rs> und <rs type="place">Amerika</rs>. Daß <hi rendition="#em">
-                  <rs type="person">Götz</rs>'</hi> „<rs type="bibl">Widerspenstige</rs>“
-               <lb facs="#facs_1_line_1779606981685_1102" n="N029"/>*) Die <rs type="person">Dumba</rs>'sche Sammlung enthält folgende <hi rendition="#em">dramatische</hi>
-               <lb facs="#facs_1_line_1779606984469_1105" n="N030"/>Composition von Franz <rs type="person">Schubert</rs>: „<hi rendition="#em">
-                  <rs type="bibl">Fierabras</rs>
-               </hi>“, Oper in drei
-               <lb facs="#facs_1_line_1779606987861_1108" n="N031"/>Acten; „<hi rendition="#em">
-                  <rs type="bibl">Die Freunde von Salamanka</rs>
-               </hi>“, komisches Sing¬
-               <lb facs="#facs_1_line_1779606991028_1111" n="N032"/>spiel in zwei Acten; „<hi rendition="#em">
-                  <rs type="bibl">Des Teufels Lustschloß</rs>
-               </hi>“, Oper in drei
-               <lb facs="#facs_1_line_1779606994260_1114" n="N033"/>Acten; „<hi rendition="#em">
-                  <rs type="bibl">Die Zauberharfe</rs>
-               </hi>“, Singspiel in drei Acten; „<hi rendition="#em">
-                  <rs type="bibl">Die</rs>
-               </hi>
-               <lb facs="#facs_1_line_1779606997420_1117" n="N034"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Bürgschaft</rs>
-               </hi>“, Oper in drei Acten (der dritte Act unvollendet);
-               <lb facs="#facs_1_line_1779607000284_1120" n="N035"/>„<hi rendition="#em">
-                  <rs type="bibl">Fernando</rs>
-               </hi>“, Singspiel in einem Acte; „<hi rendition="#em">
-                  <rs type="bibl">Sakuntala</rs>
-               </hi>“, Skizze
-               <lb facs="#facs_1_line_1779607003652_1123" n="N036"/>einer Oper, unvollendet; „<hi rendition="#em">
-                  <rs type="bibl">Der Graf von Gleichen</rs>
-               </hi>“ (Text von
-               <lb facs="#facs_1_line_1779607006692_1126" n="N037"/>
-               <rs type="person">Bauernfeld</rs>, Skizze theilweise instrumentirt von <rs type="person">Herbeck</rs>); „<hi rendition="#em">
-                  <rs type="bibl">Adrast</rs>
-               </hi>“
-               <lb facs="#facs_1_line_1779607010356_1129" n="N038"/>(Text von <rs type="person">Mayerhofer</rs>), Fragment einer Oper. Ferner zahlreiche
-               <lb facs="#facs_1_line_1779607013356_1132" n="N039"/>Bruchstücke und Skizzen aus unvollendeten, nicht näher benannten
-               <lb facs="#facs_1_line_1779607016476_1135" n="N040"/>Opern von <rs type="person">Schubert</rs>. Außer diesen sämmtlich ungedruckten drama¬
-               <lb facs="#facs_1_line_1779607019116_1138" n="N041"/>tischen Compositionen besitzt <rs type="person">Dumba</rs> noch an <rs type="person">Schubert</rs>'schen Manu¬
-               <lb facs="#facs_1_line_1779607022227_1141" n="N042"/>scripten: fünf Symphonien, drei Ouvertüren, achtzehn Messen-
-               <lb facs="#facs_1_line_1779607024836_1144" n="N043"/>Einlagen, fünf Kammermusiken, fünfzehn Clavierwerke, drei Canta¬
-               <lb facs="#facs_1_line_1779607027683_1147" n="N044"/>ten, neunundzwanzig Chöre, siebzig Lieder und Arien, die zum großen
-               <lb facs="#facs_1_line_1779607029988_1150" n="N045"/>oder größten Theile gleichfalls noch unveröffentlicht sind.
-            </p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <p facs="#facs_2_region_1779517518680_117">
-               <lb facs="#facs_2_region_1779517518680_117_tl_1" n="N001"/>einen festen Platz in den <rs type="place">deutsch</rs>en Repertoires behauptet,
-               <lb facs="#facs_2_region_1779517518680_117_tl_2" n="N002"/>spricht für die Bildung und den ernsten Sinn des Publi¬
-               <lb facs="#facs_2_region_1779517518680_117_tl_3" n="N003"/>cums; denn diese Musik hat wenig sinnlich packenden Reiz
-               <lb facs="#facs_2_region_1779517518680_117_tl_4" n="N004"/>und verlangt sehr aufmerksame, ja willig entgegenkommende
-               <lb facs="#facs_2_region_1779517518680_117_tl_5" n="N005"/>Zuhörer. Der Componist zeigt sich vom ersten bis zum letz¬
-               <lb facs="#facs_2_region_1779517518680_117_tl_6" n="N006"/>ten Tacte als gewissenhafter Künstler, als feine, vornehme
-               <lb facs="#facs_2_region_1779517518680_117_tl_7" n="N007"/>Natur. Was seiner „komischen Oper“ fehlt, ist der Lustspiel¬
-               <lb facs="#facs_2_region_1779517518680_117_tl_8" n="N008"/>ton, die melodiöse Frische, das leichte Blut. Er bringt zu
-               <lb facs="#facs_2_region_1779517518680_117_tl_9" n="N009"/>viel künstliche und schwere Musik, überhaupt zu viel Musik.
-               <lb facs="#facs_2_region_1779517518680_117_tl_10" n="N010"/>Seine dramatische Methode ist vorwiegend <rs type="person">Wagner</rs>isch:
-               <lb facs="#facs_2_region_1779517518680_117_tl_11" n="N011"/>der Schwerpunkt des musikalischen Gedankens liegt meistens
-               <lb facs="#facs_2_region_1779517518680_117_tl_12" n="N012"/>im Orchester, die Singstimmen verflechten sich darein mehr
-               <lb facs="#facs_2_region_1779517518680_117_tl_13" n="N013"/>declamatorisch als melodieführend und streben vor Allem
-               <lb facs="#facs_2_region_1779517518680_117_tl_14" n="N014"/>nach prägnanter Ausgestaltung der Phrase und des Wortes.
-               <lb facs="#facs_2_region_1779517518680_117_tl_15" n="N015"/>Der Componist hat sich seinerzeit in einem Briefe an <rs type="person">Herbeck</rs>
-               <lb facs="#facs_2_region_1779517518680_117_tl_16" n="N016"/>sehr darüber beklagt, daß die gesammte <rs type="place">Wien</rs>er Kritik sich
-               <lb facs="#facs_2_region_1779517518680_117_tl_17" n="N017"/>durch den Styl der „<rs type="bibl">Widerspenstigen</rs>“ an die „<rs type="bibl">Meister¬</rs>
-               <lb facs="#facs_2_region_1779517518680_117_tl_18" n="N018"/>
-               <rs type="bibl">singer</rs>“ erinnert fand, welche <hi rendition="#em">
-                  <rs type="person">Götz</rs>
-               </hi> auf der Bühne gar nicht
-               <lb facs="#facs_2_region_1779517518680_117_tl_19" n="N019"/>und in der Partitur nur ganz flüchtig kennen gelernt habe;
-               <lb facs="#facs_2_region_1779517518680_117_tl_20" n="N020"/>das hebt jenen Eindruck und jenes Urtheil nicht auf. Wie
-               <lb facs="#facs_2_region_1779517518680_117_tl_21" n="N021"/>der Richter im Civilprocesse, so urtheilt auch der Kritiker
-               <lb facs="#facs_2_region_1779517518680_117_tl_22" n="N022"/>nach den vorliegenden Acten. Und man wird für die rast¬
-               <lb facs="#facs_2_region_1779517518680_117_tl_23" n="N023"/>lose Geschäftigkeit der Orchester-Begleitung, für die irrlichte¬
-               <lb facs="#facs_2_region_1779517518680_117_tl_24" n="N024"/>rirende Declamation, kurz für den ganzen Styl der „<rs type="bibl">Wider¬</rs>
-               <lb facs="#facs_2_region_1779517518680_117_tl_25" n="N025"/>
-               <rs type="bibl">spenstigen</rs>“ in der gesammten Opern-Literatur kein anderes
-               <lb facs="#facs_2_region_1779517518680_117_tl_26" n="N026"/>Vorbild aufzeigen können, als eben die „<rs type="bibl">Meistersinger</rs>“.
-               <lb facs="#facs_2_region_1779517518680_117_tl_27" n="N027"/>Diese sind ungleich genialer, jene ist musikalisch maß- und
-               <lb facs="#facs_2_region_1779517518680_117_tl_28" n="N028"/>rücksichtsvoller. Hätte <hi rendition="#em">
-                  <rs type="person">Götze</rs>ns</hi> feine, sorgsam ausgefeilte
-               <lb facs="#facs_2_region_1779517518680_117_tl_29" n="N029"/>und interessante Musik nur auch den frischen, flotten Lust¬
-               <lb facs="#facs_2_region_1779517518680_117_tl_30" n="N030"/>spielton, der uns nirgends vergessen läßt, daß es sich hier
-               <lb facs="#facs_2_region_1779517518680_117_tl_31" n="N031"/>um ein heiteres Spiel handle! Mit ihrer pathetischen Decla¬
-               <lb facs="#facs_2_region_1779517518680_117_tl_32" n="N032"/>mation, ihrem aufgeregten Orchesterspiele drückt diese Musik
-               <lb facs="#facs_2_region_1779517518680_117_tl_33" n="N033"/>schwer auf die Handlung, anstatt sie wie ein einströmendes
-               <lb facs="#facs_2_region_1779517518680_117_tl_34" n="N034"/>Gas leicht in die Höhe zu tragen. Wir fanden somit neuer¬
-               <lb facs="#facs_2_region_1779517518680_117_tl_35" n="N035"/>dings bestätigt, was wir vor sieben Jahren über die Vor¬
-               <lb facs="#facs_2_region_1779517518680_117_tl_36" n="N036"/>züge und Mängel dieser komischen Oper geäußert. Wenn
-               <lb facs="#facs_2_region_1779517518680_117_tl_37" n="N037"/>uns demungeachtet die „<rs type="bibl">Widerspenstige</rs>“ heute ein viel leb¬
-               <lb facs="#facs_2_region_1779517518680_117_tl_38" n="N038"/>hafteres Vergnügen bereitete, als bei ihrer ersten Aufführung, so
-               <lb facs="#facs_2_region_1779517518680_117_tl_39" n="N039"/>haben wir es vornehmlich der unvergleichlichen Darstellung
-               <lb facs="#facs_2_region_1779517518680_117_tl_40" n="N040"/>der <rs type="person">Katharina</rs> durch Frau <hi rendition="#em">
-                  <rs type="person">Lucca</rs>
-               </hi> zu danken. Hier erlebten wir
-               <lb facs="#facs_2_region_1779517518680_117_tl_41" n="N041"/>wieder einmal, was eine geniale Natur, die sich beherzt auf
-               <lb facs="#facs_2_region_1779517518680_117_tl_42" n="N042"/>eine ihr homogene Aufgabe stürzt, aus dieser zu machen ver¬
-               <lb facs="#facs_2_region_1779517518680_117_tl_43" n="N043"/>mag. Ein fast ungeahntes neues Leben strömte mit der</p>
-            <p facs="#facs_2_region_1779517522945_120">
-               <lb facs="#facs_2_region_1779517522945_120_tl_1" n="N001"/>
-               <hi rendition="#em">
-                  <rs type="person">Lucca</rs>
-               </hi> in die ganze Oper. Wie charakteristisch gleich ihr
-               <lb facs="#facs_2_region_1779517522945_120_tl_2" n="N002"/>erstes Auftreten oder vielmehr Hereinstürmen während der
-               <lb facs="#facs_2_region_1779517522945_120_tl_3" n="N003"/>Dienstboten-Revolte im ersten Act. Unter der rothen Perrücke
-               <lb facs="#facs_2_region_1779517522945_120_tl_4" n="N004"/>schienen ihre Augen noch größer aufzuflammen, ihre Gestalt
-               <lb facs="#facs_2_region_1779517522945_120_tl_5" n="N005"/>zu wachsen, während jeder Muskel des Gesichts, jeder Finger
-               <lb facs="#facs_2_region_1779517522945_120_tl_6" n="N006"/>an den beredten Händen mitspielend ihre Scheltworte beglei¬
-               <lb facs="#facs_2_region_1779517522945_120_tl_7" n="N007"/>tete. Das Bedeutendste in Frau <rs type="person">Lucca</rs>'s Leistung war viel¬
-               <lb facs="#facs_2_region_1779517522945_120_tl_8" n="N008"/>leicht ihre erste Scene mit <rs type="person">Petruchio</rs>, die verächtliche Gleich¬
-               <lb facs="#facs_2_region_1779517522945_120_tl_9" n="N009"/>giltigkeit, mit der sie seine Werbung anhört und ihm —
-               <lb facs="#facs_2_region_1779517522945_120_tl_10" n="N010"/>noch immer mit beleidigender Ruhe — die Thür weist. Als
-               <lb facs="#facs_2_region_1779517522945_120_tl_11" n="N011"/>er aber, statt zu gehen, sich bequem im Lehnstuhle installirt
-               <lb facs="#facs_2_region_1779517522945_120_tl_12" n="N012"/>und immer herausfordernder wird mit seiner Liebeswerbung,
-               <lb facs="#facs_2_region_1779517522945_120_tl_13" n="N013"/>da muß man die ganze Scala von Hohn und Entrüstung
-               <lb facs="#facs_2_region_1779517522945_120_tl_14" n="N014"/>sehen, welche das Mienen- und Geberdenspiel der <rs type="person">Lucca</rs>
-               <lb facs="#facs_2_region_1779517522945_120_tl_15" n="N015"/>durchmißt. Hier bricht noch keineswegs die Liebe zu <rs type="person">Petruchio</rs>
-               <lb facs="#facs_2_region_1779517522945_120_tl_16" n="N016"/>hervor, wol aber der Respect vor seiner männlichen Ueber¬
-               <lb facs="#facs_2_region_1779517522945_120_tl_17" n="N017"/>legenheit. Im dritten Acte, unter den demüthigenden Vor¬
-               <lb facs="#facs_2_region_1779517522945_120_tl_18" n="N018"/>fällen der Hochzeitsfeier, widersetzt sich <rs type="person">Katharina</rs> noch
-               <lb facs="#facs_2_region_1779517522945_120_tl_19" n="N019"/>immer voll leidenschaftlicher Gereiztheit, aber der Ausdruck
-               <lb facs="#facs_2_region_1779517522945_120_tl_20" n="N020"/>des <hi rendition="#em">Hohnes</hi> ist bereits gewichen. Ebenso trefflich wie den
-               <lb facs="#facs_2_region_1779517522945_120_tl_21" n="N021"/>Uebergang vom zweiten zum dritten Acte vollzieht die <rs type="person">Lucca</rs>
-               <lb facs="#facs_2_region_1779517522945_120_tl_22" n="N022"/>den noch schwierigeren zum vierten Acte; von trotziger
-               <lb facs="#facs_2_region_1779517522945_120_tl_23" n="N023"/>Auflehnung zu resignirt duldendem Gehorsam und schließlich
-               <lb facs="#facs_2_region_1779517522945_120_tl_24" n="N024"/>zur gewaltsam durchbrechenden Liebe, die ihren Stolz, ihre
-               <lb facs="#facs_2_region_1779517522945_120_tl_25" n="N025"/>Freude findet in der selbstlosen Hingebung an den Willen
-               <lb facs="#facs_2_region_1779517522945_120_tl_26" n="N026"/>des <rs type="person">Gatte</rs>n. Hat uns die <rs type="person">Lucca</rs> in den drei ersten Acten als
-               <lb facs="#facs_2_region_1779517522945_120_tl_27" n="N027"/>Keiserin höchlich ergötzt, so weiß sie uns im vierten zu tiefstem
-               <lb facs="#facs_2_region_1779517522945_120_tl_28" n="N028"/>Mitleid zu rühren durch den Herzenston ihrer Klage. Ein
-               <lb facs="#facs_2_region_1779517522945_120_tl_29" n="N029"/>einziges kleines Fleckchen wünschten wir hinweg von dem so
-               <lb facs="#facs_2_region_1779517522945_120_tl_30" n="N030"/>meisterhaften Bilde: es ist der lange Triller, womit Frau
-               <lb facs="#facs_2_region_1779517522945_120_tl_31" n="N031"/>
-               <rs type="person">Lucca</rs> eigenmächtig jene rührende Arie schließt, ganz im
-               <lb facs="#facs_2_region_1779517522945_120_tl_32" n="N032"/>Widerspruche zu der Situation und dem Style der ganzen
-               <lb facs="#facs_2_region_1779517522945_120_tl_33" n="N033"/>Oper. Es mag eine verzeihliche Schwäche heißen, wenn eine
-               <lb facs="#facs_2_region_1779517522945_120_tl_34" n="N034"/>große Sängerin durchaus ihren Triller produciren will —
-               <lb facs="#facs_2_region_1779517522945_120_tl_35" n="N035"/>eine Schwäche bleibt es doch. Daß die ganze Oper durch
-               <lb facs="#facs_2_region_1779517522945_120_tl_36" n="N036"/>Frau <rs type="person">Lucca</rs>'s lebensvolle, ununterbrochen interessirende Dar¬
-               <lb facs="#facs_2_region_1779517522945_120_tl_37" n="N037"/>stellung ein neues, reizenderes Gesicht gewonnen hatte, wurde
-               <lb facs="#facs_2_region_1779517522945_120_tl_38" n="N038"/>von den Zuhörern sofort empfunden und anerkannt; die
-               <lb facs="#facs_2_region_1779517522945_120_tl_39" n="N039"/>„<rs type="bibl">Widerspenstige</rs>“ erntete ungleich mehr Beifall als vor sieben
-               <lb facs="#facs_2_region_1779517522945_120_tl_40" n="N040"/>Jahren. Das Haus widerhallte nicht blos von lautem Beifall,
-               <lb facs="#facs_2_region_1779517522945_120_tl_41" n="N041"/>man hörte häufig, was noch werthvoller, jenes leise, ver¬
-               <lb facs="#facs_2_region_1779517522945_120_tl_42" n="N042"/>gnügte Murmeln der Zustimmung oder Ueberraschung, wie
-               <lb facs="#facs_2_region_1779517522945_120_tl_43" n="N043"/>es sonst nur im Burgtheater vernommen wird. Ja, diese</p>
-            <p facs="#facs_2_region_1779517527408_123">
-               <lb facs="#facs_2_region_1779517527408_123_tl_1" n="N001"/>
-               <rs type="person">Katharina</rs> reiht sich als eine neue Perle an die <rs type="person">Carmen</rs>,
-               <lb facs="#facs_2_region_1779517527408_123_tl_2" n="N002"/>Frau <rs type="person">Fluth</rs>, <rs type="person">Despina</rs> und all die Rollen, in welchen die
-               <lb facs="#facs_2_region_1779517527408_123_tl_3" n="N003"/>
-               <rs type="person">Lucca</rs> durch starke, fast trotzige Grazie so unnachahmlich
-               <lb facs="#facs_2_region_1779517527408_123_tl_4" n="N004"/>wirkt. Auch ihre <rs type="person">Zerline</rs> in „<rs type="bibl">Don Juan</rs>“ nähert sich durch
-               <lb facs="#facs_2_region_1779517527408_123_tl_5" n="N005"/>kräftige, dabei stets anmuthige Natürlichkeit diesen Gestalten.
-               <lb facs="#facs_2_region_1779517527408_123_tl_6" n="N006"/>Frau <hi rendition="#em">
-                  <rs type="person">Lucca</rs>
-               </hi> sang die <rs type="person">Zerline</rs>, mit der sie <date month="0" day="0" year="0">1874</date> ihr
-               <lb facs="#facs_2_region_1779517527408_123_tl_7" n="N007"/>Gastspiel in der Komischen Oper eröffnet hatte, jetzt zum
-               <lb facs="#facs_2_region_1779517527408_123_tl_8" n="N008"/>erstenmale im Hofoperntheater, am 27. Januar, dem Ge¬
-               <lb facs="#facs_2_region_1779517527408_123_tl_9" n="N009"/>burtstage <rs type="person">Mozart</rs>'s. Unbekümmert um blos Conventionelles,
-               <lb facs="#facs_2_region_1779517527408_123_tl_10" n="N010"/>schafft sie auch diese Rolle ganz und voll aus sich heraus.
-               <lb facs="#facs_2_region_1779517527408_123_tl_11" n="N011"/>Da ist nichts von jener unaufhörlich lächelnden und an der
-               <lb facs="#facs_2_region_1779517527408_123_tl_12" n="N012"/>Schürze zupfenden Koketterie der meisten <rs type="person">Zerline</rs>n; Frau
-               <lb facs="#facs_2_region_1779517527408_123_tl_13" n="N013"/>
-               <rs type="person">Lucca</rs> lächelte nicht und hatte gar keine Schürze an. Mit
-               <lb facs="#facs_2_region_1779517527408_123_tl_14" n="N014"/>einer köstlichen Unbefangenheit, um nicht zu sagen Dumm¬
-               <lb facs="#facs_2_region_1779517527408_123_tl_15" n="N015"/>lichkeit, schaut sie dem <rs type="person">Don Juan</rs> während der ganzen ersten
-               <lb facs="#facs_2_region_1779517527408_123_tl_16" n="N016"/>Scene in's Gesicht; erst während seines zweimaligen Aus¬
-               <lb facs="#facs_2_region_1779517527408_123_tl_17" n="N017"/>rufes im Duette: „O komm'! O komm'!“ fliegt ein leuch¬
-               <lb facs="#facs_2_region_1779517527408_123_tl_18" n="N018"/>tender Schein über ihr Antlitz, das zweitemal stärker und
-               <lb facs="#facs_2_region_1779517527408_123_tl_19" n="N019"/>nachhaltiger, bis sie mit dem entschlossenen „Wolan!“ ihm
-               <lb facs="#facs_2_region_1779517527408_123_tl_20" n="N020"/>in die offenen Arme eilt. Dieser gefährliche Uebergang war
-               <lb facs="#facs_2_region_1779517527408_123_tl_21" n="N021"/>bewunderungswürdig ausgeführt — man erwäge nur, wie
-               <lb facs="#facs_2_region_1779517527408_123_tl_22" n="N022"/>wenig Zeit <rs type="person">Mozart</rs> seiner <rs type="person">Zerline</rs> dazu gönnt. Auch die
-               <lb facs="#facs_2_region_1779517527408_123_tl_23" n="N023"/>Arie „Schmähle, schmähle“ schmückt die <rs type="person">Lucca</rs> mit originellen,
-               <lb facs="#facs_2_region_1779517527408_123_tl_24" n="N024"/>naturwahren Zügen und schließt sie nach allerhand Schmei¬
-               <lb facs="#facs_2_region_1779517527408_123_tl_25" n="N025"/>cheln und Streicheln mit einem kleinen Backenstreich. Auch
-               <lb facs="#facs_2_region_1779517527408_123_tl_26" n="N026"/>die Ohrfeigen der <rs type="person">Lucca</rs> unterscheiden sich von einander durch
-               <lb facs="#facs_2_region_1779517527408_123_tl_27" n="N027"/>tiefsinnige Auffassung: was <hi rendition="#em">
-                  <rs type="person">Masetto</rs>
-               </hi> abbekommt, ist ein
-               <lb facs="#facs_2_region_1779517527408_123_tl_28" n="N028"/>neckischer Gießkannenspritzer gegen den Rheinfall auf <hi rendition="#em">
-                  <rs type="person" continued="true">Petru¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1779517527408_123_tl_29" n="N029"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">chio</rs>
-               </hi>'s Wange.
-               <lb facs="#facs_2_region_1779517527408_123_tl_30" n="N030"/>Die Aufführung der „<rs type="bibl">Widerspenstigen</rs>“, um auf diese
-               <lb facs="#facs_2_region_1779517527408_123_tl_31" n="N031"/>zurückzukommen, gehört zu den allerbesten des Hofopern¬
-               <lb facs="#facs_2_region_1779517527408_123_tl_32" n="N032"/>theaters. Alles harmonisch ineinandergreifend, fein abge¬
-               <lb facs="#facs_2_region_1779517527408_123_tl_33" n="N033"/>stimmt, nichts Ungenügendes oder Störendes den ganzen
-               <lb facs="#facs_2_region_1779517527408_123_tl_34" n="N034"/>Abend hindurch. Herr <hi rendition="#em">
-                  <rs type="person">Sommer</rs>
-               </hi> singt den <rs type="person">Petruchio</rs> mit
-               <lb facs="#facs_2_region_1779517527408_123_tl_35" n="N035"/>guter Wirkung. Wen erquickt nicht diese prächtige Bariton¬
-               <lb facs="#facs_2_region_1779517527408_123_tl_36" n="N036"/>stimme, die so gesund und mühelos ausströmt, weich, kräftig,
-               <lb facs="#facs_2_region_1779517527408_123_tl_37" n="N037"/>noch vom Thau der Jugend glänzend! Für eine musikalisch
-               <lb facs="#facs_2_region_1779517527408_123_tl_38" n="N038"/>und dramatisch so schwierige Partie ist wol Herr <rs type="person">Sommer</rs>
-               <lb facs="#facs_2_region_1779517527408_123_tl_39" n="N039"/>heute noch ein bischen jung — das gibt sich — und ver¬
-               <lb facs="#facs_2_region_1779517527408_123_tl_40" n="N040"/>fügt nicht ganz über den Ausdruck geistiger Ueberlegenheit.
-               <lb facs="#facs_2_region_1779517527408_123_tl_41" n="N041"/>Vortrefflich begonnen, drohte die Rolle ihm schließlich über
-               <lb facs="#facs_2_region_1779517527408_123_tl_42" n="N042"/>den Kopf zu wachsen; doch blieb er, Dank seiner beneidens¬
-               <lb facs="#facs_2_region_1779517527408_123_tl_43" n="N043"/>werthen Mittel, stets eine rechte Ohren- und Augenweide.</p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1779606222400_814_tl_1" n="N001"/><rs type="person" ref="#hsl_person_id_1248">Dumba</rs> — bekanntlich selbst ein vorzüglicher <rs type="person" ref="#hsl_person_id_279">Schubert</rs>-Sänger
+         <lb facs="#facs_1_region_1779606222400_814_tl_2" n="N002"/>— mit Glück und Verständniß nach und nach gesammelt hat.
+            <note type="footnote" n="*)">
+            <lb facs="#facs_1_line_1779606981685_1102" n="N029"/>Die <rs type="person" ref="#hsl_person_id_1248">Dumba</rs>’sche Sammlung enthält folgende <hi rendition="#em">dramatische</hi><space quantity="1" unit="char"/>
+            <lb facs="#facs_1_line_1779606984469_1105" n="N030"/>Composition von Franz <rs type="person" ref="#hsl_person_id_279">Schubert</rs>: „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_18">Fierabras</rs></hi>“, Oper in drei
+            <lb facs="#facs_1_line_1779606987861_1108" n="N031"/>Acten; „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_1404">Die Freunde von Salamanka</rs></hi>“, komisches Sing
+            <lb facs="#facs_1_line_1779606991028_1111" n="N032" break="no"/>spiel in zwei Acten; „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_5932">Des Teufels Lustschloß</rs></hi>“, Oper in drei
+            <lb facs="#facs_1_line_1779606994260_1114" n="N033"/>Acten; „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_19">Die Zauberharfe</rs></hi>“, Singspiel in drei Acten; „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_6610">Die
+            <lb facs="#facs_1_line_1779606997420_1117" n="N034"/>Bürgschaft</rs></hi>“, Oper in drei Acten (der dritte Act unvollendet);
+            <lb facs="#facs_1_line_1779607000284_1120" n="N035"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_1406">Fernando</rs></hi>“, Singspiel in einem Acte; „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_6609">Sakuntala</rs></hi>“, Skizze
+            <lb facs="#facs_1_line_1779607003652_1123" n="N036"/>einer Oper, unvollendet; „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_538">Der Graf von Gleichen</rs></hi>“ (Text von
+            <lb facs="#facs_1_line_1779607006692_1126" n="N037"/><rs type="person" ref="#hsl_person_id_22">Bauernfeld</rs>, Skizze theilweise instrumentirt von <rs type="person" ref="#hsl_person_id_121">Herbeck</rs>); „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_4878">Adrast</rs></hi>“
+            <lb facs="#facs_1_line_1779607010356_1129" n="N038"/>(Text von <rs type="person" ref="#hsl_person_id_183">Mayerhofer</rs>), Fragment einer Oper. Ferner zahlreiche
+            <lb facs="#facs_1_line_1779607013356_1132" n="N039"/>Bruchstücke und Skizzen aus unvollendeten, nicht näher benannten
+            <lb facs="#facs_1_line_1779607016476_1135" n="N040"/>Opern von <rs type="person" ref="#hsl_person_id_279">Schubert</rs>. Außer diesen sämmtlich ungedruckten drama
+            <lb facs="#facs_1_line_1779607019116_1138" n="N041" break="no"/>tischen Compositionen besitzt <rs type="person" ref="#hsl_person_id_1248">Dumba</rs> noch an <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’schen Manu
+            <lb facs="#facs_1_line_1779607022227_1141" n="N042" break="no"/>scripten: fünf Symphonien, drei Ouvertüren, achtzehn Messen-
+            <lb facs="#facs_1_line_1779607024836_1144" n="N043"/>Einlagen, fünf Kammermusiken, fünfzehn Clavierwerke, drei Canta
+            <lb facs="#facs_1_line_1779607027683_1147" n="N044" break="no"/>ten, neunundzwanzig Chöre, siebzig Lieder und Arien, die zum großen
+            <lb facs="#facs_1_line_1779607029988_1150" n="N045"/>oder größten Theile gleichfalls noch unveröffentlicht sind.
+            </note>
+         <lb facs="#facs_1_region_1779606222400_814_tl_3" n="N003"/>Es wäre sehr zu wünschen, daß alle noch ungedruckten
+         <lb facs="#facs_1_region_1779606222400_814_tl_4" n="N004"/><rs type="person" ref="#hsl_person_id_279">Schubert</rs>’schen Compositionen aus <rs type="person" ref="#hsl_person_id_1248">Dumba</rs>’s Sammlung nach
+         <lb facs="#facs_1_region_1779606222400_814_tl_5" n="N005"/>vorhergegangener genauer Revision und Redaction durch an
+         <lb facs="#facs_1_region_1779606222400_814_tl_6" n="N006" break="no"/>erkannte <rs type="person" ref="#hsl_person_id_279">Schubert</rs>-Autoritäten, wie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_365">Nottebohm</rs></hi> und
+         <lb facs="#facs_1_region_1779606222400_814_tl_7" n="N007"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi>, veröffentlicht würden. Einiges daraus dürfte die
+         <lb facs="#facs_1_region_1779606222400_814_tl_8" n="N008"/>Bühne, sehr Vieles die Concertprogramme bereichern, Alles
+         <lb facs="#facs_1_region_1779606222400_814_tl_9" n="N009"/>endlich die musikalische Welt interessiren und erfreuen. Einer
+         <lb facs="#facs_1_region_1779606222400_814_tl_10" n="N010"/>künftigen Gesammt-Ausgabe aller <rs type="person" ref="#hsl_person_id_279">Schubert</rs>’schen Werke würde
+         <lb facs="#facs_1_region_1779606222400_814_tl_11" n="N011"/>durch die Veröffentlichung der <rs type="person" ref="#hsl_person_id_1248">Dumba</rs>’schen Manuscripte nicht
+         <lb facs="#facs_1_region_1779606222400_814_tl_12" n="N012"/>nur nicht präjudicirt, sie würde durch diese erst möglich. Eine
+         <lb facs="#facs_1_region_1779606222400_814_tl_13" n="N013"/>genauere Präcisirung des Planes gehört nicht hieher; wir
+         <lb facs="#facs_1_region_1779606222400_814_tl_14" n="N014"/>wollten hier nur die Idee anregen, welche gewiß einem
+         <lb facs="#facs_1_region_1779606222400_814_tl_15" n="N015"/>Wunsche aller <rs type="person" ref="#hsl_person_id_279">Schubert</rs>-Verehrer entgegenkommt und die als
+         <lb facs="#facs_1_region_1779606222400_814_tl_16" n="N016"/>eine wahrhaft künstlerische und patriotische von Seite <hi rendition="#em">Ni
+         <lb facs="#facs_1_region_1779606222400_814_tl_17" n="N017" break="no"/>kolaus <rs type="person" ref="#hsl_person_id_1248">Dumba</rs>’s</hi> jeder Förderung gewiß sein kann.
+            </p><p>
+         <lb facs="#facs_1_region_1779606222400_814_tl_18" n="N018"/>Nach einer Pause von sieben Jahren wurde im Hof
+         <lb facs="#facs_1_region_1779606222400_814_tl_19" n="N019" break="no"/>operntheater „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_784">Der Widerspenstigen Zähmung</rs></hi>“
+         <lb facs="#facs_1_region_1779606222400_814_tl_20" n="N020"/>von H. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1268">Götz</rs></hi> — mit Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_820">Lucca</rs></hi> in der <rs type="person" ref="#hsl_person_id_5768">Hauptrolle</rs> —
+         <lb facs="#facs_1_region_1779606222400_814_tl_21" n="N021"/>wieder aufgeführt und äußerst beifällig aufgenommen. Be
+         <lb facs="#facs_1_region_1779606222400_814_tl_22" n="N022" break="no"/>kanntlich hat <hi rendition="#em"><rs type="person" ref="#hsl_person_id_121">Herbeck</rs></hi> diese Oper des damals ganz unbe
+         <lb facs="#facs_1_region_1779606222400_814_tl_23" n="N023" break="no"/>kannten Componisten <date>1875</date> mit besonderer Liebe hier einstu
+         <lb facs="#facs_1_region_1779606222400_814_tl_24" n="N024" break="no"/>dirt und aufgeführt. Von <rs type="place" ref="#hsl_place_id_55">Wien</rs>, wo die Novität einen
+         <lb facs="#facs_1_region_1779606222400_814_tl_25" n="N025"/>achtungsvollen, aber weder enthusiastischen noch nachhaltigen
+         <lb facs="#facs_1_region_1779606222400_814_tl_26" n="N026"/>Erfolg errang, bahnte sie sich den Weg fast auf alle Büh
+         <lb facs="#facs_1_region_1779606222400_814_tl_27" n="N027" break="no"/>nen <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>s; durch Minnie <rs type="person" ref="#hsl_person_id_1047">Hauck</rs> gelangte sie sogar
+         <lb facs="#facs_1_region_1779606222400_814_tl_28" n="N028"/>nach <rs type="place" ref="#hsl_place_id_17">England</rs> und <rs type="place" ref="#hsl_place_id_176">Amerika</rs>. Daß <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1268">Götz</rs>’</hi> „<rs type="bibl" ref="#hsl_work_id_784">Widerspenstige</rs>“<space quantity="1" unit="char"/></p>
+               <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+               <cb n="4"/>
+               <p prev="true">
+         <lb facs="#facs_2_region_1779517518680_117_tl_1" n="N001"/>einen festen Platz in den <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Repertoires behauptet,
+         <lb facs="#facs_2_region_1779517518680_117_tl_2" n="N002"/>spricht für die Bildung und den ernsten Sinn des Publi
+         <lb facs="#facs_2_region_1779517518680_117_tl_3" n="N003" break="no"/>cums; denn diese Musik hat wenig sinnlich packenden Reiz
+         <lb facs="#facs_2_region_1779517518680_117_tl_4" n="N004"/>und verlangt sehr aufmerksame, ja willig entgegenkommende
+         <lb facs="#facs_2_region_1779517518680_117_tl_5" n="N005"/>Zuhörer. Der Componist zeigt sich vom ersten bis zum letz
+         <lb facs="#facs_2_region_1779517518680_117_tl_6" n="N006" break="no"/>ten Tacte als gewissenhafter Künstler, als feine, vornehme
+         <lb facs="#facs_2_region_1779517518680_117_tl_7" n="N007"/>Natur. Was seiner „komischen Oper“ fehlt, ist der Lustspiel
+         <lb facs="#facs_2_region_1779517518680_117_tl_8" n="N008" break="no"/>ton, die melodiöse Frische, das leichte Blut. Er bringt zu
+         <lb facs="#facs_2_region_1779517518680_117_tl_9" n="N009"/>viel künstliche und schwere Musik, überhaupt zu viel Musik.
+         <lb facs="#facs_2_region_1779517518680_117_tl_10" n="N010"/>Seine dramatische Methode ist vorwiegend <rs type="person" ref="#hsl_person_id_319">Wagner</rs>isch:
+         <lb facs="#facs_2_region_1779517518680_117_tl_11" n="N011"/>der Schwerpunkt des musikalischen Gedankens liegt meistens
+         <lb facs="#facs_2_region_1779517518680_117_tl_12" n="N012"/>im Orchester, die Singstimmen verflechten sich darein mehr
+         <lb facs="#facs_2_region_1779517518680_117_tl_13" n="N013"/>declamatorisch als melodieführend und streben vor Allem
+         <lb facs="#facs_2_region_1779517518680_117_tl_14" n="N014"/>nach prägnanter Ausgestaltung der Phrase und des Wortes.
+         <lb facs="#facs_2_region_1779517518680_117_tl_15" n="N015"/>Der Componist hat sich seinerzeit in einem Briefe an <rs type="person" ref="#hsl_person_id_121">Herbeck</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1779517518680_117_tl_16" n="N016"/>sehr darüber beklagt, daß die gesammte <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Kritik sich
+         <lb facs="#facs_2_region_1779517518680_117_tl_17" n="N017"/>durch den Styl der „<rs type="bibl" ref="#hsl_work_id_784">Widerspenstigen</rs>“ an die „<rs type="bibl" ref="#hsl_work_id_217">Meister
+         <lb facs="#facs_2_region_1779517518680_117_tl_18" n="N018" break="no"/>singer</rs>“ erinnert fand, welche <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1268">Götz</rs></hi> auf der Bühne gar nicht
+         <lb facs="#facs_2_region_1779517518680_117_tl_19" n="N019"/>und in der Partitur nur ganz flüchtig kennen gelernt habe;
+         <lb facs="#facs_2_region_1779517518680_117_tl_20" n="N020"/>das hebt jenen Eindruck und jenes Urtheil nicht auf. Wie
+         <lb facs="#facs_2_region_1779517518680_117_tl_21" n="N021"/>der Richter im Civilprocesse, so urtheilt auch der Kritiker
+         <lb facs="#facs_2_region_1779517518680_117_tl_22" n="N022"/>nach den vorliegenden Acten. Und man wird für die rast
+         <lb facs="#facs_2_region_1779517518680_117_tl_23" n="N023" break="no"/>lose Geschäftigkeit der Orchester-Begleitung, für die irrlichte
+         <lb facs="#facs_2_region_1779517518680_117_tl_24" n="N024" break="no"/>rirende Declamation, kurz für den ganzen Styl der „<rs type="bibl" ref="#hsl_work_id_784">Wider
+         <lb facs="#facs_2_region_1779517518680_117_tl_25" n="N025" break="no"/>spenstigen</rs>“ in der gesammten Opern-Literatur kein anderes
+         <lb facs="#facs_2_region_1779517518680_117_tl_26" n="N026"/>Vorbild aufzeigen können, als eben die „<rs type="bibl" ref="#hsl_work_id_217">Meistersinger</rs>“.
+         <lb facs="#facs_2_region_1779517518680_117_tl_27" n="N027"/>Diese sind ungleich genialer, jene ist musikalisch maß- und
+         <lb facs="#facs_2_region_1779517518680_117_tl_28" n="N028"/>rücksichtsvoller. Hätte <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1268">Götze</rs>ns</hi> feine, sorgsam ausgefeilte
+         <lb facs="#facs_2_region_1779517518680_117_tl_29" n="N029"/>und interessante Musik nur auch den frischen, flotten Lust
+         <lb facs="#facs_2_region_1779517518680_117_tl_30" n="N030" break="no"/>spielton, der uns nirgends vergessen läßt, daß es sich hier
+         <lb facs="#facs_2_region_1779517518680_117_tl_31" n="N031"/>um ein heiteres Spiel handle! Mit ihrer pathetischen Decla
+         <lb facs="#facs_2_region_1779517518680_117_tl_32" n="N032" break="no"/>mation, ihrem aufgeregten Orchesterspiele drückt diese Musik
+         <lb facs="#facs_2_region_1779517518680_117_tl_33" n="N033"/>schwer auf die Handlung, anstatt sie wie ein einströmendes
+         <lb facs="#facs_2_region_1779517518680_117_tl_34" n="N034"/>Gas leicht in die Höhe zu tragen. Wir fanden somit neuer
+         <lb facs="#facs_2_region_1779517518680_117_tl_35" n="N035" break="no"/>dings bestätigt, was wir vor sieben Jahren über die Vor
+         <lb facs="#facs_2_region_1779517518680_117_tl_36" n="N036" break="no"/>züge und Mängel dieser komischen Oper geäußert. Wenn
+         <lb facs="#facs_2_region_1779517518680_117_tl_37" n="N037"/>uns demungeachtet die „<rs type="bibl" ref="#hsl_work_id_784">Widerspenstige</rs>“ heute ein viel leb
+         <lb facs="#facs_2_region_1779517518680_117_tl_38" n="N038" break="no"/>hafteres Vergnügen bereitete, als bei ihrer ersten Aufführung, so
+         <lb facs="#facs_2_region_1779517518680_117_tl_39" n="N039"/>haben wir es vornehmlich der unvergleichlichen Darstellung
+         <lb facs="#facs_2_region_1779517518680_117_tl_40" n="N040"/>der <rs type="person" ref="#hsl_person_id_5768">Katharina</rs> durch Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_820">Lucca</rs></hi> zu danken. Hier erlebten wir
+         <lb facs="#facs_2_region_1779517518680_117_tl_41" n="N041"/>wieder einmal, was eine geniale Natur, die sich beherzt auf
+         <lb facs="#facs_2_region_1779517518680_117_tl_42" n="N042"/>eine ihr homogene Aufgabe stürzt, aus dieser zu machen ver
+         <lb facs="#facs_2_region_1779517518680_117_tl_43" n="N043" break="no"/>mag. Ein fast ungeahntes neues Leben strömte mit der<space quantity="1" unit="char"/></p>
+               <cb n="5"/>
+               <p prev="true">
+         <lb facs="#facs_2_region_1779517522945_120_tl_1" n="N001"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_820">Lucca</rs></hi> in die ganze Oper. Wie charakteristisch gleich ihr
+         <lb facs="#facs_2_region_1779517522945_120_tl_2" n="N002"/>erstes Auftreten oder vielmehr Hereinstürmen während der
+         <lb facs="#facs_2_region_1779517522945_120_tl_3" n="N003"/>Dienstboten-Revolte im ersten Act. Unter der rothen Perrücke
+         <lb facs="#facs_2_region_1779517522945_120_tl_4" n="N004"/>schienen ihre Augen noch größer aufzuflammen, ihre Gestalt
+         <lb facs="#facs_2_region_1779517522945_120_tl_5" n="N005"/>zu wachsen, während jeder Muskel des Gesichts, jeder Finger
+         <lb facs="#facs_2_region_1779517522945_120_tl_6" n="N006"/>an den beredten Händen mitspielend ihre Scheltworte beglei
+         <lb facs="#facs_2_region_1779517522945_120_tl_7" n="N007" break="no"/>tete. Das Bedeutendste in Frau <rs type="person" ref="#hsl_person_id_820">Lucca</rs>’s Leistung war viel
+         <lb facs="#facs_2_region_1779517522945_120_tl_8" n="N008" break="no"/>leicht ihre erste Scene mit <rs type="person" ref="#hsl_person_id_6927">Petruchio</rs>, die verächtliche Gleich
+         <lb facs="#facs_2_region_1779517522945_120_tl_9" n="N009" break="no"/>giltigkeit, mit der sie seine Werbung anhört und ihm —
+         <lb facs="#facs_2_region_1779517522945_120_tl_10" n="N010"/>noch immer mit beleidigender Ruhe — die Thür weist. Als
+         <lb facs="#facs_2_region_1779517522945_120_tl_11" n="N011"/>er aber, statt zu gehen, sich bequem im Lehnstuhle installirt
+         <lb facs="#facs_2_region_1779517522945_120_tl_12" n="N012"/>und immer herausfordernder wird mit seiner Liebeswerbung,
+         <lb facs="#facs_2_region_1779517522945_120_tl_13" n="N013"/>da muß man die ganze Scala von Hohn und Entrüstung
+         <lb facs="#facs_2_region_1779517522945_120_tl_14" n="N014"/>sehen, welche das Mienen- und Geberdenspiel der <rs type="person" ref="#hsl_person_id_820">Lucca</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1779517522945_120_tl_15" n="N015"/>durchmißt. Hier bricht noch keineswegs die Liebe zu <rs type="person" ref="#hsl_person_id_6927">Petruchio</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1779517522945_120_tl_16" n="N016"/>hervor, wol aber der Respect vor seiner männlichen Ueber
+         <lb facs="#facs_2_region_1779517522945_120_tl_17" n="N017" break="no"/>legenheit. Im dritten Acte, unter den demüthigenden Vor
+         <lb facs="#facs_2_region_1779517522945_120_tl_18" n="N018" break="no"/>fällen der Hochzeitsfeier, widersetzt sich <rs type="person" ref="#hsl_person_id_5768">Katharina</rs> noch
+         <lb facs="#facs_2_region_1779517522945_120_tl_19" n="N019"/>immer voll leidenschaftlicher Gereiztheit, aber der Ausdruck
+         <lb facs="#facs_2_region_1779517522945_120_tl_20" n="N020"/>des <hi rendition="#em">Hohnes</hi> ist bereits gewichen. Ebenso trefflich wie den
+         <lb facs="#facs_2_region_1779517522945_120_tl_21" n="N021"/>Uebergang vom zweiten zum dritten Acte vollzieht die <rs type="person" ref="#hsl_person_id_820">Lucca</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1779517522945_120_tl_22" n="N022"/>den noch schwierigeren zum vierten Acte; von trotziger
+         <lb facs="#facs_2_region_1779517522945_120_tl_23" n="N023"/>Auflehnung zu resignirt duldendem Gehorsam und schließlich
+         <lb facs="#facs_2_region_1779517522945_120_tl_24" n="N024"/>zur gewaltsam durchbrechenden Liebe, die ihren Stolz, ihre
+         <lb facs="#facs_2_region_1779517522945_120_tl_25" n="N025"/>Freude findet in der selbstlosen Hingebung an den Willen
+         <lb facs="#facs_2_region_1779517522945_120_tl_26" n="N026"/>des <rs type="person" ref="#hsl_person_id_6927">Gatte</rs>n. Hat uns die <rs type="person" ref="#hsl_person_id_820">Lucca</rs> in den drei ersten Acten als
+         <lb facs="#facs_2_region_1779517522945_120_tl_27" n="N027"/>Keiserin höchlich ergötzt, so weiß sie uns im vierten zu tiefstem
+         <lb facs="#facs_2_region_1779517522945_120_tl_28" n="N028"/>Mitleid zu rühren durch den Herzenston ihrer Klage. Ein
+         <lb facs="#facs_2_region_1779517522945_120_tl_29" n="N029"/>einziges kleines Fleckchen wünschten wir hinweg von dem so
+         <lb facs="#facs_2_region_1779517522945_120_tl_30" n="N030"/>meisterhaften Bilde: es ist der lange Triller, womit Frau
+         <lb facs="#facs_2_region_1779517522945_120_tl_31" n="N031"/><rs type="person" ref="#hsl_person_id_820">Lucca</rs> eigenmächtig jene rührende Arie schließt, ganz im
+         <lb facs="#facs_2_region_1779517522945_120_tl_32" n="N032"/>Widerspruche zu der Situation und dem Style der ganzen
+         <lb facs="#facs_2_region_1779517522945_120_tl_33" n="N033"/>Oper. Es mag eine verzeihliche Schwäche heißen, wenn eine
+         <lb facs="#facs_2_region_1779517522945_120_tl_34" n="N034"/>große Sängerin durchaus ihren Triller produciren will —
+         <lb facs="#facs_2_region_1779517522945_120_tl_35" n="N035"/>eine Schwäche bleibt es doch. Daß die ganze Oper durch
+         <lb facs="#facs_2_region_1779517522945_120_tl_36" n="N036"/>Frau <rs type="person" ref="#hsl_person_id_820">Lucca</rs>’s lebensvolle, ununterbrochen interessirende Dar
+         <lb facs="#facs_2_region_1779517522945_120_tl_37" n="N037" break="no"/>stellung ein neues, reizenderes Gesicht gewonnen hatte, wurde
+         <lb facs="#facs_2_region_1779517522945_120_tl_38" n="N038"/>von den Zuhörern sofort empfunden und anerkannt; die
+         <lb facs="#facs_2_region_1779517522945_120_tl_39" n="N039"/>„<rs type="bibl" ref="#hsl_work_id_784">Widerspenstige</rs>“ erntete ungleich mehr Beifall als vor sieben
+         <lb facs="#facs_2_region_1779517522945_120_tl_40" n="N040"/>Jahren. Das Haus widerhallte nicht blos von lautem Beifall,
+         <lb facs="#facs_2_region_1779517522945_120_tl_41" n="N041"/>man hörte häufig, was noch werthvoller, jenes leise, ver
+         <lb facs="#facs_2_region_1779517522945_120_tl_42" n="N042" break="no"/>gnügte Murmeln der Zustimmung oder Ueberraschung, wie
+         <lb facs="#facs_2_region_1779517522945_120_tl_43" n="N043"/>es sonst nur im Burgtheater vernommen wird. Ja, diese<space quantity="1" unit="char"/></p>
+               <cb n="6"/>
+               <p prev="true">
+         <lb facs="#facs_2_region_1779517527408_123_tl_1" n="N001"/><rs type="person" ref="#hsl_person_id_5768">Katharina</rs> reiht sich als eine neue Perle an die <rs type="person" ref="#hsl_person_id_1884">Carmen</rs>,
+         <lb facs="#facs_2_region_1779517527408_123_tl_2" n="N002"/>Frau <rs type="person" ref="#hsl_person_id_538">Fluth</rs>, <rs type="person" ref="#hsl_person_id_1883">Despina</rs> und all die Rollen, in welchen die
+         <lb facs="#facs_2_region_1779517527408_123_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_820">Lucca</rs> durch starke, fast trotzige Grazie so unnachahmlich
+         <lb facs="#facs_2_region_1779517527408_123_tl_4" n="N004"/>wirkt. Auch ihre <rs type="person" ref="#hsl_person_id_672">Zerline</rs> in „<rs type="bibl" ref="#hsl_work_id_174">Don Juan</rs>“ nähert sich durch
+         <lb facs="#facs_2_region_1779517527408_123_tl_5" n="N005"/>kräftige, dabei stets anmuthige Natürlichkeit diesen Gestalten.
+               </p><p>
+         <lb facs="#facs_2_region_1779517527408_123_tl_6" n="N006"/>Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_820">Lucca</rs></hi> sang die <rs type="person" ref="#hsl_person_id_672">Zerline</rs>, mit der sie <date>1874</date> ihr
+         <lb facs="#facs_2_region_1779517527408_123_tl_7" n="N007"/>Gastspiel in der Komischen Oper eröffnet hatte, jetzt zum
+         <lb facs="#facs_2_region_1779517527408_123_tl_8" n="N008"/>erstenmale im Hofoperntheater, am 27. Januar, dem Ge
+         <lb facs="#facs_2_region_1779517527408_123_tl_9" n="N009" break="no"/>burtstage <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s. Unbekümmert um blos Conventionelles,
+         <lb facs="#facs_2_region_1779517527408_123_tl_10" n="N010"/>schafft sie auch diese Rolle ganz und voll aus sich heraus.
+         <lb facs="#facs_2_region_1779517527408_123_tl_11" n="N011"/>Da ist nichts von jener unaufhörlich lächelnden und an der
+         <lb facs="#facs_2_region_1779517527408_123_tl_12" n="N012"/>Schürze zupfenden Koketterie der meisten <rs type="person" ref="#hsl_person_id_672">Zerline</rs>n; Frau
+         <lb facs="#facs_2_region_1779517527408_123_tl_13" n="N013"/><rs type="person" ref="#hsl_person_id_820">Lucca</rs> lächelte nicht und hatte gar keine Schürze an. Mit
+         <lb facs="#facs_2_region_1779517527408_123_tl_14" n="N014"/>einer köstlichen Unbefangenheit, um nicht zu sagen Dumm
+         <lb facs="#facs_2_region_1779517527408_123_tl_15" n="N015" break="no"/>lichkeit, schaut sie dem <rs type="person" ref="#hsl_person_id_475">Don Juan</rs> während der ganzen ersten
+         <lb facs="#facs_2_region_1779517527408_123_tl_16" n="N016"/>Scene in’s Gesicht; erst während seines zweimaligen Aus
+         <lb facs="#facs_2_region_1779517527408_123_tl_17" n="N017" break="no"/>rufes im Duette: „O komm’! O komm’!“ fliegt ein leuch
+         <lb facs="#facs_2_region_1779517527408_123_tl_18" n="N018" break="no"/>tender Schein über ihr Antlitz, das zweitemal stärker und
+         <lb facs="#facs_2_region_1779517527408_123_tl_19" n="N019"/>nachhaltiger, bis sie mit dem entschlossenen „Wolan!“ ihm
+         <lb facs="#facs_2_region_1779517527408_123_tl_20" n="N020"/>in die offenen Arme eilt. Dieser gefährliche Uebergang war
+         <lb facs="#facs_2_region_1779517527408_123_tl_21" n="N021"/>bewunderungswürdig ausgeführt — man erwäge nur, wie
+         <lb facs="#facs_2_region_1779517527408_123_tl_22" n="N022"/>wenig Zeit <rs type="person" ref="#hsl_person_id_189">Mozart</rs> seiner <rs type="person" ref="#hsl_person_id_672">Zerline</rs> dazu gönnt. Auch die
+         <lb facs="#facs_2_region_1779517527408_123_tl_23" n="N023"/>Arie „Schmähle, schmähle“ schmückt die <rs type="person" ref="#hsl_person_id_820">Lucca</rs> mit originellen,
+         <lb facs="#facs_2_region_1779517527408_123_tl_24" n="N024"/>naturwahren Zügen und schließt sie nach allerhand Schmei
+         <lb facs="#facs_2_region_1779517527408_123_tl_25" n="N025" break="no"/>cheln und Streicheln mit einem kleinen Backenstreich. Auch
+         <lb facs="#facs_2_region_1779517527408_123_tl_26" n="N026"/>die Ohrfeigen der <rs type="person" ref="#hsl_person_id_820">Lucca</rs> unterscheiden sich von einander durch
+         <lb facs="#facs_2_region_1779517527408_123_tl_27" n="N027"/>tiefsinnige Auffassung: was <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1479">Masetto</rs></hi> abbekommt, ist ein
+         <lb facs="#facs_2_region_1779517527408_123_tl_28" n="N028"/>neckischer Gießkannenspritzer gegen den Rheinfall auf <hi rendition="#em"><rs type="person" ref="#hsl_person_id_6927">Petru
+         <lb facs="#facs_2_region_1779517527408_123_tl_29" n="N029" break="no"/>chio</rs></hi>’s Wange.
+               </p><p>
+         <lb facs="#facs_2_region_1779517527408_123_tl_30" n="N030"/>Die Aufführung der „<rs type="bibl" ref="#hsl_work_id_784">Widerspenstigen</rs>“, um auf diese
+         <lb facs="#facs_2_region_1779517527408_123_tl_31" n="N031"/>zurückzukommen, gehört zu den allerbesten des Hofopern
+         <lb facs="#facs_2_region_1779517527408_123_tl_32" n="N032" break="no"/>theaters. Alles harmonisch ineinandergreifend, fein abge
+         <lb facs="#facs_2_region_1779517527408_123_tl_33" n="N033" break="no"/>stimmt, nichts Ungenügendes oder Störendes den ganzen
+         <lb facs="#facs_2_region_1779517527408_123_tl_34" n="N034"/>Abend hindurch. Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4587">Sommer</rs></hi> singt den <rs type="person" ref="#hsl_person_id_6927">Petruchio</rs> mit
+         <lb facs="#facs_2_region_1779517527408_123_tl_35" n="N035"/>guter Wirkung. Wen erquickt nicht diese prächtige Bariton
+         <lb facs="#facs_2_region_1779517527408_123_tl_36" n="N036" break="no"/>stimme, die so gesund und mühelos ausströmt, weich, kräftig,
+         <lb facs="#facs_2_region_1779517527408_123_tl_37" n="N037"/>noch vom Thau der Jugend glänzend! Für eine musikalisch
+         <lb facs="#facs_2_region_1779517527408_123_tl_38" n="N038"/>und dramatisch so schwierige Partie ist wol Herr <rs type="person" ref="#hsl_person_id_4587">Sommer</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1779517527408_123_tl_39" n="N039"/>heute noch ein bischen jung — das gibt sich — und ver
+         <lb facs="#facs_2_region_1779517527408_123_tl_40" n="N040" break="no"/>fügt nicht ganz über den Ausdruck geistiger Ueberlegenheit.
+         <lb facs="#facs_2_region_1779517527408_123_tl_41" n="N041"/>Vortrefflich begonnen, drohte die Rolle ihm schließlich über
+         <lb facs="#facs_2_region_1779517527408_123_tl_42" n="N042"/>den Kopf zu wachsen; doch blieb er, Dank seiner beneidens
+         <lb facs="#facs_2_region_1779517527408_123_tl_43" n="N043" break="no"/>werthen Mittel, stets eine rechte Ohren- und Augenweide.<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <p facs="#facs_3_region_1779517537575_129">
-               <lb facs="#facs_3_region_1779517537575_129_tl_1" n="N001"/>Wir freuen uns aufrichtig dieser neuesten Leistung des Herrn
-               <lb facs="#facs_3_region_1779517537575_129_tl_2" n="N002"/>
-               <rs type="person">Sommer</rs>, theils weil sie an sich des Guten so viel enthält,
-               <lb facs="#facs_3_region_1779517537575_129_tl_3" n="N003"/>theils weil sie eine neue Bürgschaft dessen ist, was unser
-               <lb facs="#facs_3_region_1779517537575_129_tl_4" n="N004"/>jüngster Sänger einst leisten kann und wird. Außer den
-               <lb facs="#facs_3_region_1779517537575_129_tl_5" n="N005"/>beiden Hauptrollen war noch der geckenhafte Freier <rs type="person">Hortensio</rs>
-               <lb facs="#facs_3_region_1779517537575_129_tl_6" n="N006"/>neu besetzt. Herr <hi rendition="#em">
-                  <rs type="person">Horwitz</rs>
-               </hi> gibt ihn sehr ergötzlich und theilt
-               <lb facs="#facs_3_region_1779517537575_129_tl_7" n="N007"/>mit Herrn <hi rendition="#em">
-                  <rs type="person">Mayerhofer</rs>
-               </hi> (<rs type="person">Baptista</rs>) das Verdienst, das
-               <lb facs="#facs_3_region_1779517537575_129_tl_8" n="N008"/>komische Element in dieser Oper kräftig an die Oberfläche
-               <lb facs="#facs_3_region_1779517537575_129_tl_9" n="N009"/>zu bringen. Endlich findet das sanfte Liebespaar <rs type="person">Bianca</rs> und
-               <lb facs="#facs_3_region_1779517537575_129_tl_10" n="N010"/>
-               <rs type="person">Lucentio</rs> in Frau <hi rendition="#em">
-                  <rs type="person">Dillner</rs>
-               </hi> und Herrn <hi rendition="#em">
-                  <rs type="person">Müller</rs>
-               </hi> be¬
-               <lb facs="#facs_3_region_1779517537575_129_tl_11" n="N011"/>währte und sympathische Darsteller, welche durch die Art,
-               <lb facs="#facs_3_region_1779517537575_129_tl_12" n="N012"/>wie sie im dritten Act den <rs type="person">Virgil</rs> übersetzen, den heftigsten
-               <lb facs="#facs_3_region_1779517537575_129_tl_13" n="N013"/>Gegner der lateinischen Gymnasial-Studien bekehren könnten.
-               <lb facs="#facs_3_region_1779517537575_129_tl_14" n="N014"/>Gestern, am 29. Januar, feierte <rs type="place">Frankreich</rs> und mit
-               <lb facs="#facs_3_region_1779517537575_129_tl_15" n="N015"/>diesem wol die ganze musikgebildete Welt das hundertjährige
-               <lb facs="#facs_3_region_1779517537575_129_tl_16" n="N016"/>Jubiläum der Geburt <hi rendition="#em">
-                  <rs type="person">Auber</rs>'s</hi>. Im Jahre <date month="0" day="0" year="0">1820</date> erschien
-               <lb facs="#facs_3_region_1779517537575_129_tl_17" n="N017"/>die erste erfolgreiche Oper <hi rendition="#em">
-                  <rs type="person">Auber</rs>'s</hi>, „<rs type="bibl">La Bergère châte¬</rs>
-               <lb facs="#facs_3_region_1779517537575_129_tl_18" n="N018"/>
-               <rs type="bibl">laine</rs>“, im Jahre <date month="0" day="0" year="0">1868</date> seine letzte, „<rs type="bibl">Le premier jour de</rs>
-               <lb facs="#facs_3_region_1779517537575_129_tl_19" n="N019"/>
-               <rs type="bibl">bonheur</rs>“. So hat dieser merkwürdige Mann durch ein halbes
-               <lb facs="#facs_3_region_1779517537575_129_tl_20" n="N020"/>Jahrhundert für die Oper gewirkt, immer thätig, immer
-               <lb facs="#facs_3_region_1779517537575_129_tl_21" n="N021"/>jugendfrisch, eine lange Reihe von Werken hinterlassend, die
-               <lb facs="#facs_3_region_1779517537575_129_tl_22" n="N022"/>großentheils heute noch zu den Zierden des Repertoires und
-               <lb facs="#facs_3_region_1779517537575_129_tl_23" n="N023"/>zu unseren Lieblingsopern gehören. Wie tief insbesondere die
-               <lb facs="#facs_3_region_1779517537575_129_tl_24" n="N024"/>
-               <rs type="place">Wien</rs>er Oper dem Componisten der „<rs type="bibl">Stummen von Portici</rs>“,
-               <lb facs="#facs_3_region_1779517537575_129_tl_25" n="N025"/>der „<rs type="bibl">Ballnacht</rs>“, des „<rs type="bibl">Fra Diavolo</rs>“ und des „<rs type="bibl">Schwarzen</rs>
-               <lb facs="#facs_3_region_1779517537575_129_tl_26" n="N026"/>
-               <rs type="bibl">Domino</rs>“ verpflichtet ist, davon geben unsere theatralischen
-               <lb facs="#facs_3_region_1779517537575_129_tl_27" n="N027"/>Jahrbücher Kunde. Es hätte sich für das Hofoperntheater
-               <lb facs="#facs_3_region_1779517537575_129_tl_28" n="N028"/>wohl geschickt, den hundertsten Geburtstag <rs type="person">Auber</rs>'s durch die
-               <lb facs="#facs_3_region_1779517537575_129_tl_29" n="N029"/>Mustervorstellung einer seiner Opern zu feiern. Keinerlei
-               <lb facs="#facs_3_region_1779517537575_129_tl_30" n="N030"/>Schwierigkeit stand dem im Wege, und wenn schon der
-               <lb facs="#facs_3_region_1779517537575_129_tl_31" n="N031"/>29. Januar für die Redoute vorbestimmt war, so konnte
-               <lb facs="#facs_3_region_1779517537575_129_tl_32" n="N032"/>doch am Vorabende die „<rs type="bibl">Stumme von Portici</rs>“ oder der
-               <lb facs="#facs_3_region_1779517537575_129_tl_33" n="N033"/>„<rs type="bibl">Schwarze Domino</rs>“ anstandslos erscheinen. Am liebsten
-               <lb facs="#facs_3_region_1779517537575_129_tl_34" n="N034"/>hatten wir freilich „<rs type="bibl">Fra Diavolo</rs>“ mit der <hi rendition="#em">
-                  <rs type="person">Lucca</rs>
-               </hi> als
-               <lb facs="#facs_3_region_1779517537575_129_tl_35" n="N035"/>
-               <rs type="person">Zerline</rs> dazu ausersehen. Die Künstlerin, welche jüngst die
-               <lb facs="#facs_3_region_1779517537575_129_tl_36" n="N036"/>
-               <rs type="person">Zerline</rs> im „<rs type="bibl">Don Juan</rs>“ zum Geburtstage <hi rendition="#em">
-                  <rs type="person">Mozart</rs>'s</hi> ge¬
-               <lb facs="#facs_3_region_1779517537575_129_tl_37" n="N037"/>sungen, hätte gewiß auch gern <hi rendition="#em">
-                  <rs type="person">Auber</rs>
-               </hi> zu Ehren mit ihrer
-               <lb facs="#facs_3_region_1779517537575_129_tl_38" n="N038"/>andern unvergleichlichen <rs type="person">Zerline</rs> eine Festvorstellung des
-               <lb facs="#facs_3_region_1779517537575_129_tl_39" n="N039"/>„<rs type="bibl">Fra Diavolo</rs>“ geschmückt. Zum Lobe gereicht es dem Hof¬
-               <lb facs="#facs_3_region_1779517537575_129_tl_40" n="N040"/>operntheater sicherlich nicht, den 29. Januar <date month="0" day="0" year="0">1882</date> ebenso
-               <lb facs="#facs_3_region_1779517537575_129_tl_41" n="N041"/>vollständig ignorirt zu haben, wie es den 15. December <date month="0" day="0" year="0">1875</date>,
-               <lb facs="#facs_3_region_1779517537575_129_tl_42" n="N042"/>den hundertsten Geburtstag <hi rendition="#em">
-                  <rs type="person">Boieldieu</rs>'s</hi>, ignorirt hat.</p>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1779517537575_129_tl_1" n="N001"/>Wir freuen uns aufrichtig dieser neuesten Leistung des Herrn
+         <lb facs="#facs_3_region_1779517537575_129_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_4587">Sommer</rs>, theils weil sie an sich des Guten so viel enthält,
+         <lb facs="#facs_3_region_1779517537575_129_tl_3" n="N003"/>theils weil sie eine neue Bürgschaft dessen ist, was unser
+         <lb facs="#facs_3_region_1779517537575_129_tl_4" n="N004"/>jüngster Sänger einst leisten kann und wird. Außer den
+         <lb facs="#facs_3_region_1779517537575_129_tl_5" n="N005"/>beiden Hauptrollen war noch der geckenhafte Freier <rs type="person" ref="#hsl_person_id_6931">Hortensio</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1779517537575_129_tl_6" n="N006"/>neu besetzt. Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3065">Horwitz</rs></hi> gibt ihn sehr ergötzlich und theilt
+         <lb facs="#facs_3_region_1779517537575_129_tl_7" n="N007"/>mit Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_183">Mayerhofer</rs></hi> (<rs type="person" ref="#hsl_person_id_6929">Baptista</rs>) das Verdienst, das
+         <lb facs="#facs_3_region_1779517537575_129_tl_8" n="N008"/>komische Element in dieser Oper kräftig an die Oberfläche
+         <lb facs="#facs_3_region_1779517537575_129_tl_9" n="N009"/>zu bringen. Endlich findet das sanfte Liebespaar <rs type="person" ref="#hsl_person_id_6930">Bianca</rs> und
+         <lb facs="#facs_3_region_1779517537575_129_tl_10" n="N010"/><rs type="person" ref="#hsl_person_id_6928">Lucentio</rs> in Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_61">Dillner</rs></hi> und Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1348">Müller</rs></hi> be
+         <lb facs="#facs_3_region_1779517537575_129_tl_11" n="N011" break="no"/>währte und sympathische Darsteller, welche durch die Art,
+         <lb facs="#facs_3_region_1779517537575_129_tl_12" n="N012"/>wie sie im dritten Act den <rs type="person" ref="#hsl_person_id_315">Virgil</rs> übersetzen, den heftigsten
+         <lb facs="#facs_3_region_1779517537575_129_tl_13" n="N013"/>Gegner der lateinischen Gymnasial-Studien bekehren könnten.
+            </p><p>
+         <lb facs="#facs_3_region_1779517537575_129_tl_14" n="N014"/>Gestern, am 29. Januar, feierte <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> und mit
+         <lb facs="#facs_3_region_1779517537575_129_tl_15" n="N015"/>diesem wol die ganze musikgebildete Welt das hundertjährige
+         <lb facs="#facs_3_region_1779517537575_129_tl_16" n="N016"/>Jubiläum der Geburt <hi rendition="#em"><rs type="person" ref="#hsl_person_id_16">Auber</rs>’s</hi>. Im Jahre <date>1820</date> erschien
+         <lb facs="#facs_3_region_1779517537575_129_tl_17" n="N017"/>die erste erfolgreiche Oper <hi rendition="#em"><rs type="person" ref="#hsl_person_id_16">Auber</rs>’s</hi>, „<rs type="bibl" ref="#hsl_work_id_136">La Bergère châte
+         <lb facs="#facs_3_region_1779517537575_129_tl_18" n="N018" break="no"/>laine</rs>“, im Jahre <date>1868</date> seine letzte, „<rs type="bibl" ref="#hsl_work_id_1610">Le premier jour de
+         <lb facs="#facs_3_region_1779517537575_129_tl_19" n="N019"/>bonheur</rs>“. So hat dieser merkwürdige Mann durch ein halbes
+         <lb facs="#facs_3_region_1779517537575_129_tl_20" n="N020"/>Jahrhundert für die Oper gewirkt, immer thätig, immer
+         <lb facs="#facs_3_region_1779517537575_129_tl_21" n="N021"/>jugendfrisch, eine lange Reihe von Werken hinterlassend, die
+         <lb facs="#facs_3_region_1779517537575_129_tl_22" n="N022"/>großentheils heute noch zu den Zierden des Repertoires und
+         <lb facs="#facs_3_region_1779517537575_129_tl_23" n="N023"/>zu unseren Lieblingsopern gehören. Wie tief insbesondere die
+         <lb facs="#facs_3_region_1779517537575_129_tl_24" n="N024"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Oper dem Componisten der „<rs type="bibl" ref="#hsl_work_id_128">Stummen von Portici</rs>“,
+         <lb facs="#facs_3_region_1779517537575_129_tl_25" n="N025"/>der „<rs type="bibl" ref="#hsl_work_id_185">Ballnacht</rs>“, des „<rs type="bibl" ref="#hsl_work_id_194">Fra Diavolo</rs>“ und des „<rs type="bibl" ref="#hsl_work_id_118">Schwarzen
+         <lb facs="#facs_3_region_1779517537575_129_tl_26" n="N026"/>Domino</rs>“ verpflichtet ist, davon geben unsere theatralischen
+         <lb facs="#facs_3_region_1779517537575_129_tl_27" n="N027"/>Jahrbücher Kunde. Es hätte sich für das Hofoperntheater
+         <lb facs="#facs_3_region_1779517537575_129_tl_28" n="N028"/>wohl geschickt, den hundertsten Geburtstag <rs type="person" ref="#hsl_person_id_16">Auber</rs>’s durch die
+         <lb facs="#facs_3_region_1779517537575_129_tl_29" n="N029"/>Mustervorstellung einer seiner Opern zu feiern. Keinerlei
+         <lb facs="#facs_3_region_1779517537575_129_tl_30" n="N030"/>Schwierigkeit stand dem im Wege, und wenn schon der
+         <lb facs="#facs_3_region_1779517537575_129_tl_31" n="N031"/>29. Januar für die Redoute vorbestimmt war, so konnte
+         <lb facs="#facs_3_region_1779517537575_129_tl_32" n="N032"/>doch am Vorabende die „<rs type="bibl" ref="#hsl_work_id_128">Stumme von Portici</rs>“ oder der
+         <lb facs="#facs_3_region_1779517537575_129_tl_33" n="N033"/>„<rs type="bibl" ref="#hsl_work_id_118">Schwarze Domino</rs>“ anstandslos erscheinen. Am liebsten
+         <lb facs="#facs_3_region_1779517537575_129_tl_34" n="N034"/>hatten wir freilich „<rs type="bibl" ref="#hsl_work_id_194">Fra Diavolo</rs>“ mit der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_820">Lucca</rs></hi> als
+         <lb facs="#facs_3_region_1779517537575_129_tl_35" n="N035"/><rs type="person" ref="#hsl_person_id_672">Zerline</rs> dazu ausersehen. Die Künstlerin, welche jüngst die
+         <lb facs="#facs_3_region_1779517537575_129_tl_36" n="N036"/><rs type="person" ref="#hsl_person_id_672">Zerline</rs> im „<rs type="bibl" ref="#hsl_work_id_174">Don Juan</rs>“ zum Geburtstage <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s</hi> ge
+         <lb facs="#facs_3_region_1779517537575_129_tl_37" n="N037" break="no"/>sungen, hätte gewiß auch gern <hi rendition="#em"><rs type="person" ref="#hsl_person_id_16">Auber</rs></hi> zu Ehren mit ihrer
+         <lb facs="#facs_3_region_1779517537575_129_tl_38" n="N038"/>andern unvergleichlichen <rs type="person" ref="#hsl_person_id_672">Zerline</rs> eine Festvorstellung des
+         <lb facs="#facs_3_region_1779517537575_129_tl_39" n="N039"/>„<rs type="bibl" ref="#hsl_work_id_194">Fra Diavolo</rs>“ geschmückt. Zum Lobe gereicht es dem Hof
+         <lb facs="#facs_3_region_1779517537575_129_tl_40" n="N040" break="no"/>operntheater sicherlich nicht, den 29. Januar <date>1882</date> ebenso
+         <lb facs="#facs_3_region_1779517537575_129_tl_41" n="N041"/>vollständig ignorirt zu haben, wie es den 15. December <date>1875</date>,
+         <lb facs="#facs_3_region_1779517537575_129_tl_42" n="N042"/>den hundertsten Geburtstag <hi rendition="#em"><rs type="person" ref="#hsl_person_id_36">Boieldieu</rs>’s</hi>, ignorirt hat.</p>
          </div>
       </body>
    </text>

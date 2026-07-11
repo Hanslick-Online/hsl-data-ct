@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 6357. Wien, Dienstag, den 9. Mai 1882</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +70,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 6357. Wien, Dienstag, den 9. Mai 1882</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1882-05-09">09.05.1882</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18820509"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-06-14">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-06-19">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2027-07-09">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1169,459 +1169,365 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1779518155880_486_tl_1" n="N001"/><head type="h1"><rs type="bibl" ref="#hsl_work_id_2389">Joseph Haydn</rs>.</head>
             <p>
-               <lb facs="#facs_1_line_1780206065985_19" n="N001"/>Nr. 6357. Wien, Dienstag, den 9. Mai 1882
-            </p>
+         <lb facs="#facs_1_region_1779518155880_486_tl_2" n="N002"/>Ed. H. Herr C. F. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3866">Pohl</rs></hi> — bekanntlich Archivar und
+         <lb facs="#facs_1_region_1779518155880_486_tl_3" n="N003"/>Bibliothekar der Gesellschaft der Musikfreunde in <rs type="place" ref="#hsl_place_id_55">Wien</rs> —
+         <lb facs="#facs_1_region_1779518155880_486_tl_4" n="N004"/>ist das Muster eines gewissenhaften und gründlichen Musik
+         <lb facs="#facs_1_region_1779518155880_486_tl_5" n="N005" break="no"/>historikers. Er läßt sich viel lieber den Vorwurf übertriebener
+         <lb facs="#facs_1_region_1779518155880_486_tl_6" n="N006"/>Genauigkeit gefallen — falls er solchen „Vorwurf“ über
+         <lb facs="#facs_1_region_1779518155880_486_tl_7" n="N007" break="no"/>haupt anerkennt — als daß er einen Band seiner <rs type="bibl" ref="#hsl_work_id_2389">Haydn-
+         <lb facs="#facs_1_region_1779518155880_486_tl_8" n="N008"/>Biographie</rs> aus Händen gäbe, so lange möglicherweise noch
+         <lb facs="#facs_1_region_1779518155880_486_tl_9" n="N009"/>irgend ein Detail in der Ferne schimmert, das er noch nicht
+         <lb facs="#facs_1_region_1779518155880_486_tl_10" n="N010"/>ergründet oder bewiesen hat. Aus diesem ehrenwerthen
+         <lb facs="#facs_1_region_1779518155880_486_tl_11" n="N011"/>Beweggrund ließ uns <rs type="person" ref="#hsl_person_id_3866">Pohl</rs> an die sechs Jahre lang auf
+         <lb facs="#facs_1_region_1779518155880_486_tl_12" n="N012"/>den zweiten Band seines „<rs type="bibl" ref="#hsl_work_id_2389">Haydn</rs>“
+            <note type="footnote" n="*)">
+            <lb facs="#facs_1_region_1779518155880_486_tl_37" n="N037" break="no"/><rs type="bibl" ref="#hsl_work_id_2389">Joseph Haydn</rs>. Von C. F. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3866">Pohl</rs></hi>. 2. Halbband. <rs type="place" ref="#hsl_place_id_32">Leipzig</rs>,
+            <lb facs="#facs_1_region_1779518155880_486_tl_38" n="N038"/>Breitkopf und Härtel, <date>1882</date>.
+            </note>
+            warten, dessen erster
+         <lb facs="#facs_1_region_1779518155880_486_tl_13" n="N013"/>uns doch begierig genug gemacht hatte auf die Fortsetzung.
+         <lb facs="#facs_1_region_1779518155880_486_tl_14" n="N014"/>Wir haben jenen ersten Band seinerzeit (zu Weihnachten <date>1875</date>)
+         <lb facs="#facs_1_region_1779518155880_486_tl_15" n="N015"/>hier besprochen und als wichtige Bereicherung unserer Musik
+         <lb facs="#facs_1_region_1779518155880_486_tl_16" n="N016" break="no"/>literatur mit aufrichtiger Freude begrüßt. Eine leise Klage
+         <lb facs="#facs_1_region_1779518155880_486_tl_17" n="N017"/>über allzu große Ausführlichkeit konnten wir dem ersten und
+         <lb facs="#facs_1_region_1779518155880_486_tl_18" n="N018"/>können wir auch dem zweiten Bande nicht ersparen, und
+         <lb facs="#facs_1_region_1779518155880_486_tl_19" n="N019"/>wenn (nach einem geistreichen Worte von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1846">Ehlert</rs></hi>) Kürze
+         <lb facs="#facs_1_region_1779518155880_486_tl_20" n="N020"/>die Höflichkeit der Schriftsteller ist, so dürfen wir unsern
+         <lb facs="#facs_1_region_1779518155880_486_tl_21" n="N021"/>Freund <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3866">Pohl</rs></hi> — was ihm gewiß noch nie passirte — einen
+         <lb facs="#facs_1_region_1779518155880_486_tl_22" n="N022"/>unhöflichen Mann nennen. Haben wir mit diesem Stoß
+         <lb facs="#facs_1_region_1779518155880_486_tl_23" n="N023" break="no"/>seufzer unserem kritischen Gewissen genug gethan, so können
+         <lb facs="#facs_1_region_1779518155880_486_tl_24" n="N024"/>wir <rs type="person" ref="#hsl_person_id_3866">Pohl</rs>’s zweiten Band nunmehr aus vollem Herzen loben
+         <lb facs="#facs_1_region_1779518155880_486_tl_25" n="N025"/>und nur loben. Er bringt viel Neues und Interessantes.
+         <lb facs="#facs_1_region_1779518155880_486_tl_26" n="N026"/>Im ersten Bande hatten wir Haydn’s Kinderjahre in
+         <lb facs="#facs_1_region_1779518155880_486_tl_27" n="N027"/><rs type="place" ref="#hsl_place_id_1474">Rohrau</rs> und <rs type="place" ref="#hsl_place_id_1475">Hainburg</rs> mitgelebt und hierauf den jungen
+         <lb facs="#facs_1_region_1779518155880_486_tl_28" n="N028"/>Sängerknaben nach <rs type="place" ref="#hsl_place_id_55">Wien</rs> in das Capellhaus von St. Stephan
+         <lb facs="#facs_1_region_1779518155880_486_tl_29" n="N029"/>begleitet. Theilnehmend folgten wir seinen freudlosen mühe
+         <lb facs="#facs_1_region_1779518155880_486_tl_30" n="N030" break="no"/>vollen Lehrjahren.
+            </p><p>
+         <lb facs="#facs_1_region_1779518155880_486_tl_31" n="N031"/>Es liegt eine eigene Ironie des Schicksals darin, daß
+         <lb facs="#facs_1_region_1779518155880_486_tl_32" n="N032"/><rs type="person" ref="#hsl_person_id_114">Haydn</rs>, dem man so gerne den „Zopf“ vorwirft, aus dem
+         <lb facs="#facs_1_region_1779518155880_486_tl_33" n="N033"/>Capellhause verwiesen wurde, weil er in jugendlichem Ueber
+         <lb facs="#facs_1_region_1779518155880_486_tl_34" n="N034" break="no"/>muthe einem Mitschüler den Zopf abgeschnitten hatte. Hun
+         <lb facs="#facs_1_region_1779518155880_486_tl_35" n="N035" break="no"/>gernd und frierend sah sich hierauf der Knabe, von aller Welt
+         <lb facs="#facs_1_region_1779518155880_486_tl_36" n="N036"/>verlassen, auf der Straße. Man kennt das Weitere: die un</p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1779518155880_486_tl_1" n="N001"/>
-               <rs type="bibl">Joseph Haydn</rs>.
-               <lb facs="#facs_1_region_1779518155880_486_tl_2" n="N002"/>Ed. H. Herr C. F. <hi rendition="#em">
-                  <rs type="person">Pohl</rs>
-               </hi> — bekanntlich Archivar und
-               <lb facs="#facs_1_region_1779518155880_486_tl_3" n="N003"/>Bibliothekar der Gesellschaft der Musikfreunde in <rs type="place">Wien</rs> —
-               <lb facs="#facs_1_region_1779518155880_486_tl_4" n="N004"/>ist das Muster eines gewissenhaften und gründlichen Musik¬
-               <lb facs="#facs_1_region_1779518155880_486_tl_5" n="N005"/>historikers. Er läßt sich viel lieber den Vorwurf übertriebener
-               <lb facs="#facs_1_region_1779518155880_486_tl_6" n="N006"/>Genauigkeit gefallen — falls er solchen „Vorwurf“ über¬
-               <lb facs="#facs_1_region_1779518155880_486_tl_7" n="N007"/>haupt anerkennt — als daß er einen Band seiner <rs type="bibl">Haydn-</rs>
-               <lb facs="#facs_1_region_1779518155880_486_tl_8" n="N008"/>
-               <rs type="bibl">Biographie</rs> aus Händen gäbe, so lange möglicherweise noch
-               <lb facs="#facs_1_region_1779518155880_486_tl_9" n="N009"/>irgend ein Detail in der Ferne schimmert, das er noch nicht
-               <lb facs="#facs_1_region_1779518155880_486_tl_10" n="N010"/>ergründet oder bewiesen hat. Aus diesem ehrenwerthen
-               <lb facs="#facs_1_region_1779518155880_486_tl_11" n="N011"/>Beweggrund ließ uns <rs type="person">Pohl</rs> an die sechs Jahre lang auf
-               <lb facs="#facs_1_region_1779518155880_486_tl_12" n="N012"/>den zweiten Band seines „<rs type="bibl">Haydn</rs>“*) warten, dessen erster
-               <lb facs="#facs_1_region_1779518155880_486_tl_13" n="N013"/>uns doch begierig genug gemacht hatte auf die Fortsetzung.
-               <lb facs="#facs_1_region_1779518155880_486_tl_14" n="N014"/>Wir haben jenen ersten Band seinerzeit (zu Weihnachten <date month="0" day="0" year="0">1875</date>)
-               <lb facs="#facs_1_region_1779518155880_486_tl_15" n="N015"/>hier besprochen und als wichtige Bereicherung unserer Musik¬
-               <lb facs="#facs_1_region_1779518155880_486_tl_16" n="N016"/>literatur mit aufrichtiger Freude begrüßt. Eine leise Klage
-               <lb facs="#facs_1_region_1779518155880_486_tl_17" n="N017"/>über allzu große Ausführlichkeit konnten wir dem ersten und
-               <lb facs="#facs_1_region_1779518155880_486_tl_18" n="N018"/>können wir auch dem zweiten Bande nicht ersparen, und
-               <lb facs="#facs_1_region_1779518155880_486_tl_19" n="N019"/>wenn (nach einem geistreichen Worte von <hi rendition="#em">
-                  <rs type="person">Ehlert</rs>
-               </hi>) Kürze
-               <lb facs="#facs_1_region_1779518155880_486_tl_20" n="N020"/>die Höflichkeit der Schriftsteller ist, so dürfen wir unsern
-               <lb facs="#facs_1_region_1779518155880_486_tl_21" n="N021"/>Freund <hi rendition="#em">
-                  <rs type="person">Pohl</rs>
-               </hi> — was ihm gewiß noch nie passirte — einen
-               <lb facs="#facs_1_region_1779518155880_486_tl_22" n="N022"/>unhöflichen Mann nennen. Haben wir mit diesem Stoß¬
-               <lb facs="#facs_1_region_1779518155880_486_tl_23" n="N023"/>seufzer unserem kritischen Gewissen genug gethan, so können
-               <lb facs="#facs_1_region_1779518155880_486_tl_24" n="N024"/>wir <rs type="person">Pohl</rs>'s zweiten Band nunmehr aus vollem Herzen loben
-               <lb facs="#facs_1_region_1779518155880_486_tl_25" n="N025"/>und nur loben. Er bringt viel Neues und Interessantes.
-               <lb facs="#facs_1_region_1779518155880_486_tl_26" n="N026"/>Im ersten Bande hatten wir Haydn's Kinderjahre in
-               <lb facs="#facs_1_region_1779518155880_486_tl_27" n="N027"/>
-               <rs type="place">Rohrau</rs> und <rs type="place">Hainburg</rs> mitgelebt und hierauf den jungen
-               <lb facs="#facs_1_region_1779518155880_486_tl_28" n="N028"/>Sängerknaben nach <rs type="place">Wien</rs> in das Capellhaus von St. Stephan
-               <lb facs="#facs_1_region_1779518155880_486_tl_29" n="N029"/>begleitet. Theilnehmend folgten wir seinen freudlosen mühe¬
-               <lb facs="#facs_1_region_1779518155880_486_tl_30" n="N030"/>vollen Lehrjahren.
-               <lb facs="#facs_1_region_1779518155880_486_tl_31" n="N031"/>Es liegt eine eigene Ironie des Schicksals darin, daß
-               <lb facs="#facs_1_region_1779518155880_486_tl_32" n="N032"/>
-               <rs type="person">Haydn</rs>, dem man so gerne den „Zopf“ vorwirft, aus dem
-               <lb facs="#facs_1_region_1779518155880_486_tl_33" n="N033"/>Capellhause verwiesen wurde, weil er in jugendlichem Ueber¬
-               <lb facs="#facs_1_region_1779518155880_486_tl_34" n="N034"/>muthe einem Mitschüler den Zopf abgeschnitten hatte. Hun¬
-               <lb facs="#facs_1_region_1779518155880_486_tl_35" n="N035"/>gernd und frierend sah sich hierauf der Knabe, von aller Welt
-               <lb facs="#facs_1_region_1779518155880_486_tl_36" n="N036"/>verlassen, auf der Straße. Man kennt das Weitere: die un¬
-               <lb facs="#facs_1_region_1779518155880_486_tl_37" n="N037"/>*) <rs type="bibl">Joseph Haydn</rs>. Von C. F. <hi rendition="#em">
-                  <rs type="person">Pohl</rs>
-               </hi>. 2. Halbband. <rs type="place">Leipzig</rs>,
-               <lb facs="#facs_1_region_1779518155880_486_tl_38" n="N038"/>Breitkopf und Härtel, <date month="0" day="0" year="0">1882</date>.
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1779518159192_489_tl_1" n="N001" break="no"/>verhoffte erste Hilfe durch brave Leute, die es <rs type="person" ref="#hsl_person_id_114">Haydn</rs> ermög
+         <lb facs="#facs_1_region_1779518159192_489_tl_2" n="N002" break="no"/>lichten, ein Dachkämmerchen im Michaelerhause zu miethen,
+         <lb facs="#facs_1_region_1779518159192_489_tl_3" n="N003"/>und das günstige Geschick, das ihn mit zwei berühmten Be
+         <lb facs="#facs_1_region_1779518159192_489_tl_4" n="N004" break="no"/>wohnern dieses Hauses, mit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2118">Metastasio</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4297">Porpora</rs></hi>,
+         <lb facs="#facs_1_region_1779518159192_489_tl_5" n="N005"/>zusammenführte. Wir verließen am Schlusse des ersten
+         <lb facs="#facs_1_region_1779518159192_489_tl_6" n="N006"/>Bandes <rs type="person" ref="#hsl_person_id_114">Haydn</rs> als Capellmeister des Fürsten Paul Anton
+         <lb facs="#facs_1_region_1779518159192_489_tl_7" n="N007"/><rs type="person" ref="#hsl_person_id_1873">Eszterhazy</rs> in <rs type="place" ref="#hsl_place_id_95">Eisenstadt</rs>. Mit der Uebersiedlung <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s
+         <lb facs="#facs_1_region_1779518159192_489_tl_8" n="N008"/>und der fürstlichen Capelle nach Eszterhaz und mit einer
+         <lb facs="#facs_1_region_1779518159192_489_tl_9" n="N009"/>anschaulichen Schilderung dieses Ortes beginnt der zweite
+         <lb facs="#facs_1_region_1779518159192_489_tl_10" n="N010"/>Band von <rs type="person" ref="#hsl_person_id_3866">Pohl</rs>’s <rs type="bibl" ref="#hsl_work_id_2389">Werk</rs>. Das Lustschloß Eszterhaz hatte der
+         <lb facs="#facs_1_region_1779518159192_489_tl_11" n="N011"/>prachtliebende Fürst <rs type="person" ref="#hsl_person_id_827">Nikolaus</rs> aus einem Sumpfe hervor
+         <lb facs="#facs_1_region_1779518159192_489_tl_12" n="N012" break="no"/>gezaubert und zu einem zweiten Versailles ausstaffirt. Heute
+         <lb facs="#facs_1_region_1779518159192_489_tl_13" n="N013"/>ist dort Alles wieder öde und verlassen, nur Trümmer der
+         <lb facs="#facs_1_region_1779518159192_489_tl_14" n="N014"/>ehemaligen Herrlichkeit erzählen von der glänzenden Zeit,
+         <lb facs="#facs_1_region_1779518159192_489_tl_15" n="N015"/>die <rs type="person" ref="#hsl_person_id_114">Haydn</rs> in Eszterhaz verlebt hat. Hier residirte der Fürst
+         <lb facs="#facs_1_region_1779518159192_489_tl_16" n="N016"/>den größten Theil des Jahres mit seinem zahlreichen Hof
+         <lb facs="#facs_1_region_1779518159192_489_tl_17" n="N017" break="no"/>staate, seiner Musikcapelle und den Opernsängern. <rs type="person" ref="#hsl_person_id_3866">Pohl</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1779518159192_489_tl_18" n="N018"/>beschreibt uns das prachtvolle Schloß, den Park, das Theater,
+         <lb facs="#facs_1_region_1779518159192_489_tl_19" n="N019"/>es ist eine märchenhafte fremde Welt, die sich uns da auf
+         <lb facs="#facs_1_region_1779518159192_489_tl_20" n="N020" break="no"/>thut — und liegt doch nur hundert Jahre hinter uns. In
+         <lb facs="#facs_1_region_1779518159192_489_tl_21" n="N021"/>einem besonderen Gebäude, welches im Parterre 17, im
+         <lb facs="#facs_1_region_1779518159192_489_tl_22" n="N022"/>ersten Stock 37 Zimmer hatte, wohnten die Musiker und
+         <lb facs="#facs_1_region_1779518159192_489_tl_23" n="N023"/>Sänger. Es befanden sich darunter elf Ehepaare, welche je
+         <lb facs="#facs_1_region_1779518159192_489_tl_24" n="N024"/>zwei Zimmer zur Verfügung hatten; nur <rs type="person" ref="#hsl_person_id_114">Haydn</rs> mit seiner
+         <lb facs="#facs_1_region_1779518159192_489_tl_25" n="N025"/>Frau waren drei Zimmer eingeräumt. Die Orchestermit
+         <lb facs="#facs_1_region_1779518159192_489_tl_26" n="N026" break="no"/>glieder wohnten je zwei in einer Stube. In dem geräu
+         <lb facs="#facs_1_region_1779518159192_489_tl_27" n="N027" break="no"/>migen, geschmackvoll ausgestatteten Schloßtheater wurde täg
+         <lb facs="#facs_1_region_1779518159192_489_tl_28" n="N028" break="no"/>lich gespielt; der Anfang war um 6 Uhr; Zutritt hatten
+         <lb facs="#facs_1_region_1779518159192_489_tl_29" n="N029"/>alle fürstlichen Beamten und Diener, wie auch die zufällig
+         <lb facs="#facs_1_region_1779518159192_489_tl_30" n="N030"/>anwesenden Fremden. Zweimal in der Woche war Oper, die
+         <lb facs="#facs_1_region_1779518159192_489_tl_31" n="N031"/>übrigen Tage Schau- und Lustspiel; hier erlebte <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s
+         <lb facs="#facs_1_region_1779518159192_489_tl_32" n="N032"/>erste Oper ihre Première. Das Opernpersonal bestand aus
+         <lb facs="#facs_1_region_1779518159192_489_tl_33" n="N033"/>fünf bis sechs Sängern und eben so viel Sängerinnen, meistens
+         <lb facs="#facs_1_region_1779518159192_489_tl_34" n="N034"/>Italiener, das von <rs type="person" ref="#hsl_person_id_114">Haydn</rs> dirigirte Orchester aus sechzehn
+         <lb facs="#facs_1_region_1779518159192_489_tl_35" n="N035"/>bis zweiundzwanzig Mitgliedern. Die Aufführungen waren
+         <lb facs="#facs_1_region_1779518159192_489_tl_36" n="N036"/>weithin berühmt. „Wenn ich eine gute Oper hören will,“
+         <lb facs="#facs_1_region_1779518159192_489_tl_37" n="N037"/>sagte <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3225">Maria Theresia</rs></hi>, „gehe ich nach Eszterhaz.“
+         <lb facs="#facs_1_region_1779518159192_489_tl_38" n="N038"/>Nach einer solchen Opernvorstellung, der ein Maskenball
+         <lb facs="#facs_1_region_1779518159192_489_tl_39" n="N039"/>folgte, wurde <rs type="person" ref="#hsl_person_id_114">Haydn</rs> der <rs type="person" ref="#hsl_person_id_3225">Kaiserin</rs> vorgestellt und benützte
+         <lb facs="#facs_1_region_1779518159192_489_tl_40" n="N040"/>die Gelegenheit, sie an den „recenten Schilling“ zu erinnern,
+         <lb facs="#facs_1_region_1779518159192_489_tl_42" n="N041"/>den er einst als Sängerknabe im <rs type="place" ref="#hsl_place_id_703">Schloßgarten</rs> zu Schön
+         <lb facs="#facs_1_region_1779518159192_489_tl_41" n="N042" break="no"/>brunn auf ihren Befehl ausgemessen bekam, weil er trotz<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1779518159192_489_tl_1" n="N001"/>verhoffte erste Hilfe durch brave Leute, die es <rs type="person">Haydn</rs> ermög¬
-               <lb facs="#facs_1_region_1779518159192_489_tl_2" n="N002"/>lichten, ein Dachkämmerchen im Michaelerhause zu miethen,
-               <lb facs="#facs_1_region_1779518159192_489_tl_3" n="N003"/>und das günstige Geschick, das ihn mit zwei berühmten Be¬
-               <lb facs="#facs_1_region_1779518159192_489_tl_4" n="N004"/>wohnern dieses Hauses, mit <hi rendition="#em">
-                  <rs type="person">Metastasio</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Porpora</rs>
-               </hi>,
-               <lb facs="#facs_1_region_1779518159192_489_tl_5" n="N005"/>zusammenführte. Wir verließen am Schlusse des ersten
-               <lb facs="#facs_1_region_1779518159192_489_tl_6" n="N006"/>Bandes <rs type="person">Haydn</rs> als Capellmeister des Fürsten Paul Anton
-               <lb facs="#facs_1_region_1779518159192_489_tl_7" n="N007"/>
-               <rs type="person">Eszterhazy</rs> in <rs type="place">Eisenstadt</rs>. Mit der Uebersiedlung <rs type="person">Haydn</rs>'s
-               <lb facs="#facs_1_region_1779518159192_489_tl_8" n="N008"/>und der fürstlichen Capelle nach Eszterhaz und mit einer
-               <lb facs="#facs_1_region_1779518159192_489_tl_9" n="N009"/>anschaulichen Schilderung dieses Ortes beginnt der zweite
-               <lb facs="#facs_1_region_1779518159192_489_tl_10" n="N010"/>Band von <rs type="person">Pohl</rs>'s <rs type="bibl">Werk</rs>. Das Lustschloß Eszterhaz hatte der
-               <lb facs="#facs_1_region_1779518159192_489_tl_11" n="N011"/>prachtliebende Fürst <rs type="person">Nikolaus</rs> aus einem Sumpfe hervor¬
-               <lb facs="#facs_1_region_1779518159192_489_tl_12" n="N012"/>gezaubert und zu einem zweiten Versailles ausstaffirt. Heute
-               <lb facs="#facs_1_region_1779518159192_489_tl_13" n="N013"/>ist dort Alles wieder öde und verlassen, nur Trümmer der
-               <lb facs="#facs_1_region_1779518159192_489_tl_14" n="N014"/>ehemaligen Herrlichkeit erzählen von der glänzenden Zeit,
-               <lb facs="#facs_1_region_1779518159192_489_tl_15" n="N015"/>die <rs type="person">Haydn</rs> in Eszterhaz verlebt hat. Hier residirte der Fürst
-               <lb facs="#facs_1_region_1779518159192_489_tl_16" n="N016"/>den größten Theil des Jahres mit seinem zahlreichen Hof¬
-               <lb facs="#facs_1_region_1779518159192_489_tl_17" n="N017"/>staate, seiner Musikcapelle und den Opernsängern. <rs type="person">Pohl</rs>
-               <lb facs="#facs_1_region_1779518159192_489_tl_18" n="N018"/>beschreibt uns das prachtvolle Schloß, den Park, das Theater,
-               <lb facs="#facs_1_region_1779518159192_489_tl_19" n="N019"/>es ist eine märchenhafte fremde Welt, die sich uns da auf¬
-               <lb facs="#facs_1_region_1779518159192_489_tl_20" n="N020"/>thut — und liegt doch nur hundert Jahre hinter uns. In
-               <lb facs="#facs_1_region_1779518159192_489_tl_21" n="N021"/>einem besonderen Gebäude, welches im Parterre 17, im
-               <lb facs="#facs_1_region_1779518159192_489_tl_22" n="N022"/>ersten Stock 37 Zimmer hatte, wohnten die Musiker und
-               <lb facs="#facs_1_region_1779518159192_489_tl_23" n="N023"/>Sänger. Es befanden sich darunter elf Ehepaare, welche je
-               <lb facs="#facs_1_region_1779518159192_489_tl_24" n="N024"/>zwei Zimmer zur Verfügung hatten; nur <rs type="person">Haydn</rs> mit seiner
-               <lb facs="#facs_1_region_1779518159192_489_tl_25" n="N025"/>Frau waren drei Zimmer eingeräumt. Die Orchestermit¬
-               <lb facs="#facs_1_region_1779518159192_489_tl_26" n="N026"/>glieder wohnten je zwei in einer Stube. In dem geräu¬
-               <lb facs="#facs_1_region_1779518159192_489_tl_27" n="N027"/>migen, geschmackvoll ausgestatteten Schloßtheater wurde täg¬
-               <lb facs="#facs_1_region_1779518159192_489_tl_28" n="N028"/>lich gespielt; der Anfang war um 6 Uhr; Zutritt hatten
-               <lb facs="#facs_1_region_1779518159192_489_tl_29" n="N029"/>alle fürstlichen Beamten und Diener, wie auch die zufällig
-               <lb facs="#facs_1_region_1779518159192_489_tl_30" n="N030"/>anwesenden Fremden. Zweimal in der Woche war Oper, die
-               <lb facs="#facs_1_region_1779518159192_489_tl_31" n="N031"/>übrigen Tage Schau- und Lustspiel; hier erlebte <rs type="person">Haydn</rs>'s
-               <lb facs="#facs_1_region_1779518159192_489_tl_32" n="N032"/>erste Oper ihre Première. Das Opernpersonal bestand aus
-               <lb facs="#facs_1_region_1779518159192_489_tl_33" n="N033"/>fünf bis sechs Sängern und eben so viel Sängerinnen, meistens
-               <lb facs="#facs_1_region_1779518159192_489_tl_34" n="N034"/>Italiener, das von <rs type="person">Haydn</rs> dirigirte Orchester aus sechzehn
-               <lb facs="#facs_1_region_1779518159192_489_tl_35" n="N035"/>bis zweiundzwanzig Mitgliedern. Die Aufführungen waren
-               <lb facs="#facs_1_region_1779518159192_489_tl_36" n="N036"/>weithin berühmt. „Wenn ich eine gute Oper hören will,“
-               <lb facs="#facs_1_region_1779518159192_489_tl_37" n="N037"/>sagte <hi rendition="#em">
-                  <rs type="person">Maria Theresia</rs>
-               </hi>, „gehe ich nach Eszterhaz.“
-               <lb facs="#facs_1_region_1779518159192_489_tl_38" n="N038"/>Nach einer solchen Opernvorstellung, der ein Maskenball
-               <lb facs="#facs_1_region_1779518159192_489_tl_39" n="N039"/>folgte, wurde <rs type="person">Haydn</rs> der <rs type="person">Kaiserin</rs> vorgestellt und benützte
-               <lb facs="#facs_1_region_1779518159192_489_tl_40" n="N040"/>die Gelegenheit, sie an den „recenten Schilling“ zu erinnern,
-               <lb facs="#facs_1_region_1779518159192_489_tl_42" n="N041"/>den er einst als Sängerknabe im <rs type="place">Schloßgarten</rs> zu Schön¬
-               <lb facs="#facs_1_region_1779518159192_489_tl_41" n="N042"/>brunn auf ihren Befehl ausgemessen bekam, weil er trotz
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1779518163223_492_tl_1" n="N001"/>wiederholter Abmahnung auf den Baugerüsten herumgeklettert
-               <lb facs="#facs_1_region_1779518163223_492_tl_2" n="N002"/>war. „Sieht Er, lieber <rs type="person">Haydn</rs>,“ antwortete <rs type="person">Maria Theresia</rs>,
-               <lb facs="#facs_1_region_1779518163223_492_tl_3" n="N003"/>gutmüthig scherzend, „der Schilling hat doch seine guten
-               <lb facs="#facs_1_region_1779518163223_492_tl_4" n="N004"/>Früchte getragen!“ — Außer dem Opern- und Schauspiel¬
-               <lb facs="#facs_1_region_1779518163223_492_tl_5" n="N005"/>hause hatte der <rs type="person">Fürst</rs> auch ein eigenes <hi rendition="#em">Marionetten-</hi>
-               <lb facs="#facs_1_region_1779518163223_492_tl_6" n="N006"/>
-               <hi rendition="#em">Theater</hi>, das nach Art einer Grotte gebaut und mit
-               <lb facs="#facs_1_region_1779518163223_492_tl_7" n="N007"/>bunten Steinen, Schnecken und Muscheln phantastisch aus¬
-               <lb facs="#facs_1_region_1779518163223_492_tl_8" n="N008"/>gelegt war. Als überraschend schön rühmte man dessen Deco¬
-               <lb facs="#facs_1_region_1779518163223_492_tl_9" n="N009"/>rationen und Maschinerien, sowie die kunstvoll gearbeiteten,
-               <lb facs="#facs_1_region_1779518163223_492_tl_10" n="N010"/>reich gekleideten Marionetten von ansehnlicher Größe. Die
-               <lb facs="#facs_1_region_1779518163223_492_tl_11" n="N011"/>Rollen wurden hinter der Scene von Mitgliedern des Schau¬
-               <lb facs="#facs_1_region_1779518163223_492_tl_12" n="N012"/>spiels gesprochen und gesungen. Für dieses Marionetten-Theater,
-               <lb facs="#facs_1_region_1779518163223_492_tl_13" n="N013"/>das in hoher Gunst bei dem Fürsten und seinen Gästen
-               <lb facs="#facs_1_region_1779518163223_492_tl_14" n="N014"/>stand, hat <rs type="person">Haydn</rs> eine Anzahl kleiner Opern geschrieben.*)
-               <lb facs="#facs_1_region_1779518163223_492_tl_15" n="N015"/>Das Schauspiel wurde von den besten wandernden
-               <lb facs="#facs_1_region_1779518163223_492_tl_16" n="N016"/>Truppen besorgt, welche abwechselnd auf eine Reihe von
-               <lb facs="#facs_1_region_1779518163223_492_tl_17" n="N017"/>Monaten in Eszterhaz engagirt waren und auch große clas¬
-               <lb facs="#facs_1_region_1779518163223_492_tl_18" n="N018"/>sische Stücke spielten. <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
-               </hi> schrieb unter Anderm die
-               <lb facs="#facs_1_region_1779518163223_492_tl_19" n="N019"/>
-               <rs type="bibl">Zwischenactsmusik</rs> zu „<rs type="bibl">Hamlet</rs>“, „<rs type="bibl">König Lear</rs>“ und „<rs type="bibl">Götz</rs>
-               <lb facs="#facs_1_region_1779518163223_492_tl_20" n="N020"/>
-               <rs type="bibl">von Berlichingen</rs>“.
-               <lb facs="#facs_1_region_1779518163223_492_tl_21" n="N021"/>Der ganze Musikerstand in Eszterhaz bildete nach <rs type="person">Pohl</rs>'s
-               <lb facs="#facs_1_region_1779518163223_492_tl_22" n="N022"/>Schilderung sozusagen Eine große Familie, die treu zusammen¬
-               <lb facs="#facs_1_region_1779518163223_492_tl_23" n="N023"/>hielt und in gegenseitiger Erheiterung Ersatz suchte für den
-               <lb facs="#facs_1_region_1779518163223_492_tl_24" n="N024"/>gänzlichen Mangel an lohnenden Ausflügen und sonstiger
-               <lb facs="#facs_1_region_1779518163223_492_tl_25" n="N025"/>Unterhaltung. Das Leben mag zeitweise ziemlich locker gewesen
-               <lb facs="#facs_1_region_1779518163223_492_tl_26" n="N026"/>sein, und auch <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
-               </hi> blieb nicht vor Versuchung bewahrt.
-               <lb facs="#facs_1_region_1779518163223_492_tl_27" n="N027"/>Zum erstenmale erfahren wir durch <rs type="person">Pohl</rs> Authentisches über
-               <lb facs="#facs_1_region_1779518163223_492_tl_28" n="N028"/>
-               <rs type="person">Haydn</rs>'s Liebesverhältniß mit der Sängerin <hi rendition="#em">Luigia <rs type="person" continued="true">Pol¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1779518163223_492_tl_29" n="N029"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">zelli</rs>
-               </hi>. Sie war 19 Jahre alt, als sie <date month="0" day="0" year="0">1779</date> mit ihrem
-               <lb facs="#facs_1_region_1779518163223_492_tl_30" n="N030"/>Gatten, dem Violinspieler <rs type="person">Polzelli</rs>, in die fürstliche Musik¬
-               <lb facs="#facs_1_region_1779518163223_492_tl_31" n="N031"/>capelle aufgenommen wurde. Dem <rs type="person">Fürst</rs>en schienen Beide
-               <lb facs="#facs_1_region_1779518163223_492_tl_32" n="N032"/>nicht behagt zu haben; er wollte sie noch vor Ablauf ihres
-               <lb facs="#facs_1_region_1779518163223_492_tl_33" n="N033"/>zweijährigen Contractes entlassen; offenbar geschah es
-               <lb facs="#facs_1_region_1779518163223_492_tl_34" n="N034"/>*) Es ist eigentlich schade, daß dieses possirliche Vergnügen
-               <lb facs="#facs_1_line_1780206618936_323" n="N035"/>gänzlich ausgestorben ist und nur in einigen untergeordneten Volks¬
-               <lb facs="#facs_1_line_1780206621990_326" n="N036"/>theatern <rs type="place">Italien</rs>s noch einen bescheidenen Schlupfwinkel innehat.
-               <lb facs="#facs_1_line_1780206625181_329" n="N037"/>
-               <hi rendition="#em">
-                  <rs type="person">Stendhal</rs>
-               </hi>, der im vorigen Jahrhundert zu <rs type="place">Neapel</rs> in feingebil¬
-               <lb facs="#facs_1_line_1780206628422_332" n="N038"/>deten Kreisen Marionetten-Theatern aufführen sah, war ganz entzückt
-               <lb facs="#facs_1_line_1780206631104_335" n="N039"/>davon, insbesondere von dem geheimnisvoll improvisirten Dialog. Er be¬
-               <lb facs="#facs_1_line_1780206633589_338" n="N040"/>merkt, daß die Leute, unbekümmert um Gesten und Mimik, viel
-               <lb facs="#facs_1_line_1780206636405_341" n="N041"/>besser sprechen, als wenn sie auf der Scene wären, und ruft schließ¬
-               <lb facs="#facs_1_line_1780206639031_344" n="N042"/>lich aus: „Könnte man dieses Genre nicht nach <rs type="place">Paris</rs> verpflanzen:
-               <lb facs="#facs_1_line_1780206641253_347" n="N043"/>Es bietet eines der lebhaftesten Vergnügen.“
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1779518163223_492_tl_1" n="N001"/>wiederholter Abmahnung auf den Baugerüsten herumgeklettert
+         <lb facs="#facs_1_region_1779518163223_492_tl_2" n="N002"/>war. „Sieht Er, lieber <rs type="person" ref="#hsl_person_id_114">Haydn</rs>,“ antwortete <rs type="person" ref="#hsl_person_id_3225">Maria Theresia</rs>,
+         <lb facs="#facs_1_region_1779518163223_492_tl_3" n="N003"/>gutmüthig scherzend, „der Schilling hat doch seine guten
+         <lb facs="#facs_1_region_1779518163223_492_tl_4" n="N004"/>Früchte getragen!“ — Außer dem Opern- und Schauspiel
+         <lb facs="#facs_1_region_1779518163223_492_tl_5" n="N005" break="no"/>hause hatte der <rs type="person" ref="#hsl_person_id_827">Fürst</rs> auch ein eigenes <hi rendition="#em">Marionetten-
+         <lb facs="#facs_1_region_1779518163223_492_tl_6" n="N006"/>Theater</hi>, das nach Art einer Grotte gebaut und mit
+         <lb facs="#facs_1_region_1779518163223_492_tl_7" n="N007"/>bunten Steinen, Schnecken und Muscheln phantastisch aus
+         <lb facs="#facs_1_region_1779518163223_492_tl_8" n="N008" break="no"/>gelegt war. Als überraschend schön rühmte man dessen Deco
+         <lb facs="#facs_1_region_1779518163223_492_tl_9" n="N009" break="no"/>rationen und Maschinerien, sowie die kunstvoll gearbeiteten,
+         <lb facs="#facs_1_region_1779518163223_492_tl_10" n="N010"/>reich gekleideten Marionetten von ansehnlicher Größe. Die
+         <lb facs="#facs_1_region_1779518163223_492_tl_11" n="N011"/>Rollen wurden hinter der Scene von Mitgliedern des Schau
+         <lb facs="#facs_1_region_1779518163223_492_tl_12" n="N012" break="no"/>spiels gesprochen und gesungen. Für dieses Marionetten-Theater,
+         <lb facs="#facs_1_region_1779518163223_492_tl_13" n="N013"/>das in hoher Gunst bei dem Fürsten und seinen Gästen
+         <lb facs="#facs_1_region_1779518163223_492_tl_14" n="N014"/>stand, hat <rs type="person" ref="#hsl_person_id_114">Haydn</rs> eine Anzahl kleiner Opern geschrieben.
+            <note type="footnote" n="**)">
+            <lb facs="#facs_1_region_1779518163223_492_tl_34" n="N034"/>Es ist eigentlich schade, daß dieses possirliche Vergnügen
+            <lb facs="#facs_1_line_1780206618936_323" n="N035"/>gänzlich ausgestorben ist und nur in einigen untergeordneten Volks
+            <lb facs="#facs_1_line_1780206621990_326" n="N036" break="no"/>theatern <rs type="place" ref="#hsl_place_id_28">Italien</rs>s noch einen bescheidenen Schlupfwinkel innehat.
+            <lb facs="#facs_1_line_1780206625181_329" n="N037"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_931">Stendhal</rs></hi>, der im vorigen Jahrhundert zu <rs type="place" ref="#hsl_place_id_40">Neapel</rs> in feingebil
+            <lb facs="#facs_1_line_1780206628422_332" n="N038" break="no"/>deten Kreisen Marionetten-Theatern aufführen sah, war ganz entzückt
+            <lb facs="#facs_1_line_1780206631104_335" n="N039"/>davon, insbesondere von dem geheimnisvoll improvisirten Dialog. Er be
+            <lb facs="#facs_1_line_1780206633589_338" n="N040" break="no"/>merkt, daß die Leute, unbekümmert um Gesten und Mimik, viel
+            <lb facs="#facs_1_line_1780206636405_341" n="N041"/>besser sprechen, als wenn sie auf der Scene wären, und ruft schließ
+            <lb facs="#facs_1_line_1780206639031_344" n="N042" break="no"/>lich aus: „Könnte man dieses Genre nicht nach <rs type="place" ref="#hsl_place_id_44">Paris</rs> verpflanzen:
+            <lb facs="#facs_1_line_1780206641253_347" n="N043"/>Es bietet eines der lebhaftesten Vergnügen.“
+            </note>
+            </p><p>
+         <lb facs="#facs_1_region_1779518163223_492_tl_15" n="N015"/>Das Schauspiel wurde von den besten wandernden
+         <lb facs="#facs_1_region_1779518163223_492_tl_16" n="N016"/>Truppen besorgt, welche abwechselnd auf eine Reihe von
+         <lb facs="#facs_1_region_1779518163223_492_tl_17" n="N017"/>Monaten in Eszterhaz engagirt waren und auch große clas
+         <lb facs="#facs_1_region_1779518163223_492_tl_18" n="N018" break="no"/>sische Stücke spielten. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs></hi> schrieb unter Anderm die
+         <lb facs="#facs_1_region_1779518163223_492_tl_19" n="N019"/><rs type="bibl" ref="#hsl_work_id_6671">Zwischenactsmusik</rs> zu „<rs type="bibl" ref="#hsl_work_id_518">Hamlet</rs>“, „<rs type="bibl" ref="#hsl_work_id_362">König Lear</rs>“ und „<rs type="bibl" ref="#hsl_work_id_492">Götz
+         <lb facs="#facs_1_region_1779518163223_492_tl_20" n="N020"/>von Berlichingen</rs>“.
+            </p><p>
+         <lb facs="#facs_1_region_1779518163223_492_tl_21" n="N021"/>Der ganze Musikerstand in Eszterhaz bildete nach <rs type="person" ref="#hsl_person_id_3866">Pohl</rs>’s
+         <lb facs="#facs_1_region_1779518163223_492_tl_22" n="N022"/>Schilderung sozusagen Eine große Familie, die treu zusammen
+         <lb facs="#facs_1_region_1779518163223_492_tl_23" n="N023" break="no"/>hielt und in gegenseitiger Erheiterung Ersatz suchte für den
+         <lb facs="#facs_1_region_1779518163223_492_tl_24" n="N024"/>gänzlichen Mangel an lohnenden Ausflügen und sonstiger
+         <lb facs="#facs_1_region_1779518163223_492_tl_25" n="N025"/>Unterhaltung. Das Leben mag zeitweise ziemlich locker gewesen
+         <lb facs="#facs_1_region_1779518163223_492_tl_26" n="N026"/>sein, und auch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs></hi> blieb nicht vor Versuchung bewahrt.
+         <lb facs="#facs_1_region_1779518163223_492_tl_27" n="N027"/>Zum erstenmale erfahren wir durch <rs type="person" ref="#hsl_person_id_3866">Pohl</rs> Authentisches über
+         <lb facs="#facs_1_region_1779518163223_492_tl_28" n="N028"/><rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s Liebesverhältniß mit der Sängerin <hi rendition="#em">Luigia <rs type="person" ref="#hsl_person_id_9112">Pol
+         <lb facs="#facs_1_region_1779518163223_492_tl_29" n="N029" break="no"/>zelli</rs></hi>. Sie war 19 Jahre alt, als sie <date>1779</date> mit ihrem
+         <lb facs="#facs_1_region_1779518163223_492_tl_30" n="N030"/>Gatten, dem Violinspieler <rs type="person" ref="#hsl_person_id_9114">Polzelli</rs>, in die fürstliche Musik
+         <lb facs="#facs_1_region_1779518163223_492_tl_31" n="N031" break="no"/>capelle aufgenommen wurde. Dem <rs type="person" ref="#hsl_person_id_827">Fürst</rs>en schienen Beide
+         <lb facs="#facs_1_region_1779518163223_492_tl_32" n="N032"/>nicht behagt zu haben; er wollte sie noch vor Ablauf ihres
+         <lb facs="#facs_1_region_1779518163223_492_tl_33" n="N033"/>zweijährigen Contractes entlassen; offenbar geschah es<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1779518173398_498_tl_1" n="N001"/>auf <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s Verwendung, daß sie dennoch bis zur Auf
+         <lb facs="#facs_2_region_1779518173398_498_tl_2" n="N002" break="no"/>lösung der Capelle (<date>1790</date>) im Dienste verblieben,
+         <lb facs="#facs_2_region_1779518173398_498_tl_3" n="N003"/>obgleich der immer kränkliche <rs type="person" ref="#hsl_person_id_9114">Polzelli</rs> keine Dienste mehr
+         <lb facs="#facs_2_region_1779518173398_498_tl_4" n="N004"/>leistete. <rs type="person" ref="#hsl_person_id_114">Haydn</rs> hatte eine heftige Neigung zu der Sängerin
+         <lb facs="#facs_2_region_1779518173398_498_tl_5" n="N005"/>gefaßt, welche ihrerseits mehr von Habsucht als von Liebe
+         <lb facs="#facs_2_region_1779518173398_498_tl_6" n="N006"/>beseelt erscheint. Jedenfalls hat sie ihm viel Geld gekostet.
+         <lb facs="#facs_2_region_1779518173398_498_tl_7" n="N007"/>Nach der Auflösung der fürstlichen Capelle verschaffte ihr
+         <lb facs="#facs_2_region_1779518173398_498_tl_8" n="N008"/><rs type="person" ref="#hsl_person_id_114">Haydn</rs> Engagements an kleinen <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Bühnen. Nach
+         <lb facs="#facs_2_region_1779518173398_498_tl_9" n="N009"/><rs type="place" ref="#hsl_place_id_1476">Piacenza</rs>, <rs type="place" ref="#hsl_place_id_338">Bologna</rs>, überallhin folgt ihr <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s Liebe
+         <lb facs="#facs_2_region_1779518173398_498_tl_10" n="N010"/>und — sein Geld. Er beabsichtigte sogar, nach seiner ersten
+         <lb facs="#facs_2_line_1780206536805_256" n="N011"/><rs type="place" ref="#hsl_place_id_34">London</rs>er Reise selbst nach <rs type="place" ref="#hsl_place_id_28">Italien</rs> zu gehen, um die <rs type="person" ref="#hsl_person_id_9112">Polzelli</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_line_1780206529926_252" n="N012"/>wiederzusehen. „Ich schätze dich und liebe dich“ — schreibt
+         <lb facs="#facs_2_region_1779518173398_498_tl_15" n="N013"/>er ihr — „wie am ersten Tage, und bin immer betrübt,
+         <lb facs="#facs_2_region_1779518173398_498_tl_16" n="N014"/>wenn ich nicht im Stande bin, mehr für dich zu thun. Doch
+         <lb facs="#facs_2_region_1779518173398_498_tl_17" n="N015"/>habe Geduld, vielleicht kommt jener Tag, an dem ich dir
+         <lb facs="#facs_2_region_1779518173398_498_tl_18" n="N016"/>zeigen kann, wie sehr ich dich liebe.“ Aber dieser Tag wollte
+         <lb facs="#facs_2_region_1779518173398_498_tl_19" n="N017"/>nicht kommen, selbst dann nicht, als das beiderseitige
+         <lb facs="#facs_2_region_1779518173398_498_tl_20" n="N018"/>Hinderniß durch den Tod Signor <rs type="person" ref="#hsl_person_id_9114">Polzelli</rs>’s und der <rs type="person" ref="#hsl_person_id_9115">Frau</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1779518173398_498_tl_21" n="N019"/><rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s behoben war. Luigia <rs type="person" ref="#hsl_person_id_9112">Polzelli</rs> heiratete noch vor
+         <lb facs="#facs_2_region_1779518173398_498_tl_22" n="N020"/><rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s Ableben den Sänger <rs type="person" ref="#hsl_person_id_9113">Franchi</rs> in <rs type="place" ref="#hsl_place_id_338">Bologna</rs>; sie ist
+         <lb facs="#facs_2_region_1779518173398_498_tl_23" n="N021"/>erst <date>1832</date>, zweiundachtzigjährig, in <rs type="place" ref="#hsl_place_id_1477">Kaschau</rs> gestorben. <rs type="person" ref="#hsl_person_id_114">Haydn</rs>,
+         <lb facs="#facs_2_region_1779518173398_498_tl_24" n="N022"/>den man sonst als ein Muster von Sittenstrenge anzusehen
+         <lb facs="#facs_2_region_1779518173398_498_tl_25" n="N023"/>gewohnt ist, hat für dieses Liebesverhältniß wenigstens Eine
+         <lb facs="#facs_2_region_1779518173398_498_tl_26" n="N024"/>Entschuldigung: seine unglückliche Ehe. Er hatte bekanntlich
+         <lb facs="#facs_2_region_1779518173398_498_tl_27" n="N025"/>in seinem neunundzwanzigsten Jahre die älteste <rs type="person" ref="#hsl_person_id_9115">Tochter</rs> des
+         <lb facs="#facs_2_region_1779518173398_498_tl_28" n="N026"/>Perrückenmachers <rs type="person" ref="#hsl_person_id_9116">Keller</rs> in <rs type="place" ref="#hsl_place_id_55">Wien</rs> geheiratet, oder besser: sich
+         <lb facs="#facs_2_region_1779518173398_498_tl_29" n="N027"/>aus Gutmüthigkeit von ihr heiraten lassen, nachdem ihre von
+         <lb facs="#facs_2_region_1779518173398_498_tl_30" n="N028"/>ihm begehrte jüngere <rs type="person" ref="#hsl_person_id_9117">Schwester</rs> es vorzog, ins Kloster zu
+         <lb facs="#facs_2_region_1779518173398_498_tl_31" n="N029"/>gehen. Frau <rs type="person" ref="#hsl_person_id_114">Haydn</rs> ward die größte Dissonanz in dem Leben
+         <lb facs="#facs_2_region_1779518173398_498_tl_32" n="N030"/>ihres so harmonischen Gatten. Boshaft, geizig und bigott, vergällte
+         <lb facs="#facs_2_region_1779518173398_498_tl_33" n="N031"/>sie ihrem <rs type="person" ref="#hsl_person_id_114">Gatte</rs>n so consequent das Leben, daß er sie nach
+         <lb facs="#facs_2_region_1779518173398_498_tl_34" n="N032"/>dreißigjähriger Quälerei schließlich ins Exil schicken mußte,
+         <lb facs="#facs_2_region_1779518173398_498_tl_35" n="N033"/>wo sie (in <rs type="place" ref="#hsl_place_id_5">Baden</rs> bei <rs type="place" ref="#hsl_place_id_55">Wien</rs>) im Jahre <date>1800</date> starb. Obwol
+         <lb facs="#facs_2_region_1779518173398_498_tl_36" n="N034"/>wir im Zeitalter der literarischen „Rettungen“ leben, hat
+         <lb facs="#facs_2_region_1779518173398_498_tl_37" n="N035"/>doch noch Niemand den Muth gehabt, diese <rs type="person" ref="#hsl_person_id_9115">Frau</rs> weißzu
+         <lb facs="#facs_2_region_1779518173398_498_tl_38" n="N036" break="no"/>waschen, welche der gutmüthige <rs type="person" ref="#hsl_person_id_114">Haydn</rs> kurzweg als „una
+         <lb facs="#facs_2_region_1779518173398_498_tl_39" n="N037"/>bestia infernale“ bezeichnet. Mit einem geistreichen Citat legt
+         <lb facs="#facs_2_region_1779518173398_498_tl_40" n="N038"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_3866">Pohl</rs></hi> diesem die Worte aus <rs type="person" ref="#hsl_person_id_697">Lessing</rs>’s „<rs type="bibl" ref="#hsl_work_id_6672">Jungen Gelehrten</rs>“
+         <lb facs="#facs_2_region_1779518173398_498_tl_41" n="N039"/>in den Mund: „Man wird es zugestehen müssen, daß ich
+         <lb facs="#facs_2_region_1779518173398_498_tl_42" n="N040"/>keine andere Absicht gehabt habe als die, mich in den Tugen
+         <lb facs="#facs_2_region_1779518173398_498_tl_43" n="N041" break="no"/>den zu üben, die bei Erduldung eines solchen Weibes nöthig<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1779518173398_498_tl_1" n="N001"/>auf <rs type="person">Haydn</rs>'s Verwendung, daß sie dennoch bis zur Auf¬
-               <lb facs="#facs_2_region_1779518173398_498_tl_2" n="N002"/>lösung der Capelle (<date month="0" day="0" year="0">1790</date>) im Dienste verblieben,
-               <lb facs="#facs_2_region_1779518173398_498_tl_3" n="N003"/>obgleich der immer kränkliche <rs type="person">Polzelli</rs> keine Dienste mehr
-               <lb facs="#facs_2_region_1779518173398_498_tl_4" n="N004"/>leistete. <rs type="person">Haydn</rs> hatte eine heftige Neigung zu der Sängerin
-               <lb facs="#facs_2_region_1779518173398_498_tl_5" n="N005"/>gefaßt, welche ihrerseits mehr von Habsucht als von Liebe
-               <lb facs="#facs_2_region_1779518173398_498_tl_6" n="N006"/>beseelt erscheint. Jedenfalls hat sie ihm viel Geld gekostet.
-               <lb facs="#facs_2_region_1779518173398_498_tl_7" n="N007"/>Nach der Auflösung der fürstlichen Capelle verschaffte ihr
-               <lb facs="#facs_2_region_1779518173398_498_tl_8" n="N008"/>
-               <rs type="person">Haydn</rs> Engagements an kleinen <rs type="place">italienisch</rs>en Bühnen. Nach
-               <lb facs="#facs_2_region_1779518173398_498_tl_9" n="N009"/>
-               <rs type="place">Piacenza</rs>, <rs type="place">Bologna</rs>, überallhin folgt ihr <rs type="person">Haydn</rs>'s Liebe
-               <lb facs="#facs_2_region_1779518173398_498_tl_10" n="N010"/>und — sein Geld. Er beabsichtigte sogar, nach seiner ersten
-               <lb facs="#facs_2_line_1780206536805_256" n="N011"/>
-               <rs type="place">London</rs>er Reise selbst nach <rs type="place">Italien</rs> zu gehen, um die <rs type="person">Polzelli</rs>
-               <lb facs="#facs_2_line_1780206529926_252" n="N012"/>wiederzusehen. „Ich schätze dich und liebe dich“ — schreibt
-               <lb facs="#facs_2_region_1779518173398_498_tl_15" n="N013"/>er ihr — „wie am ersten Tage, und bin immer betrübt,
-               <lb facs="#facs_2_region_1779518173398_498_tl_16" n="N014"/>wenn ich nicht im Stande bin, mehr für dich zu thun. Doch
-               <lb facs="#facs_2_region_1779518173398_498_tl_17" n="N015"/>habe Geduld, vielleicht kommt jener Tag, an dem ich dir
-               <lb facs="#facs_2_region_1779518173398_498_tl_18" n="N016"/>zeigen kann, wie sehr ich dich liebe.“ Aber dieser Tag wollte
-               <lb facs="#facs_2_region_1779518173398_498_tl_19" n="N017"/>nicht kommen, selbst dann nicht, als das beiderseitige
-               <lb facs="#facs_2_region_1779518173398_498_tl_20" n="N018"/>Hinderniß durch den Tod Signor <rs type="person">Polzelli</rs>'s und der <rs type="person">Frau</rs>
-               <lb facs="#facs_2_region_1779518173398_498_tl_21" n="N019"/>
-               <rs type="person">Haydn</rs>'s behoben war. Luigia <rs type="person">Polzelli</rs> heiratete noch vor
-               <lb facs="#facs_2_region_1779518173398_498_tl_22" n="N020"/>
-               <rs type="person">Haydn</rs>'s Ableben den Sänger <rs type="person">Franchi</rs> in <rs type="place">Bologna</rs>; sie ist
-               <lb facs="#facs_2_region_1779518173398_498_tl_23" n="N021"/>erst <date month="0" day="0" year="0">1832</date>, zweiundachtzigjährig, in <rs type="place">Kaschau</rs> gestorben. <rs type="person">Haydn</rs>,
-               <lb facs="#facs_2_region_1779518173398_498_tl_24" n="N022"/>den man sonst als ein Muster von Sittenstrenge anzusehen
-               <lb facs="#facs_2_region_1779518173398_498_tl_25" n="N023"/>gewohnt ist, hat für dieses Liebesverhältniß wenigstens Eine
-               <lb facs="#facs_2_region_1779518173398_498_tl_26" n="N024"/>Entschuldigung: seine unglückliche Ehe. Er hatte bekanntlich
-               <lb facs="#facs_2_region_1779518173398_498_tl_27" n="N025"/>in seinem neunundzwanzigsten Jahre die älteste <rs type="person">Tochter</rs> des
-               <lb facs="#facs_2_region_1779518173398_498_tl_28" n="N026"/>Perrückenmachers <rs type="person">Keller</rs> in <rs type="place">Wien</rs> geheiratet, oder besser: sich
-               <lb facs="#facs_2_region_1779518173398_498_tl_29" n="N027"/>aus Gutmüthigkeit von ihr heiraten lassen, nachdem ihre von
-               <lb facs="#facs_2_region_1779518173398_498_tl_30" n="N028"/>ihm begehrte jüngere <rs type="person">Schwester</rs> es vorzog, ins Kloster zu
-               <lb facs="#facs_2_region_1779518173398_498_tl_31" n="N029"/>gehen. Frau <rs type="person">Haydn</rs> ward die größte Dissonanz in dem Leben
-               <lb facs="#facs_2_region_1779518173398_498_tl_32" n="N030"/>ihres so harmonischen Gatten. Boshaft, geizig und bigott, vergällte
-               <lb facs="#facs_2_region_1779518173398_498_tl_33" n="N031"/>sie ihrem <rs type="person">Gatte</rs>n so consequent das Leben, daß er sie nach
-               <lb facs="#facs_2_region_1779518173398_498_tl_34" n="N032"/>dreißigjähriger Quälerei schließlich ins Exil schicken mußte,
-               <lb facs="#facs_2_region_1779518173398_498_tl_35" n="N033"/>wo sie (in <rs type="place">Baden</rs> bei <rs type="place">Wien</rs>) im Jahre <date month="0" day="0" year="0">1800</date> starb. Obwol
-               <lb facs="#facs_2_region_1779518173398_498_tl_36" n="N034"/>wir im Zeitalter der literarischen „Rettungen“ leben, hat
-               <lb facs="#facs_2_region_1779518173398_498_tl_37" n="N035"/>doch noch Niemand den Muth gehabt, diese <rs type="person">Frau</rs> weißzu¬
-               <lb facs="#facs_2_region_1779518173398_498_tl_38" n="N036"/>waschen, welche der gutmüthige <rs type="person">Haydn</rs> kurzweg als „una
-               <lb facs="#facs_2_region_1779518173398_498_tl_39" n="N037"/>bestia infernale“ bezeichnet. Mit einem geistreichen Citat legt
-               <lb facs="#facs_2_region_1779518173398_498_tl_40" n="N038"/>
-               <hi rendition="#em">
-                  <rs type="person">Pohl</rs>
-               </hi> diesem die Worte aus <rs type="person">Lessing</rs>'s „<rs type="bibl">Jungen Gelehrten</rs>“
-               <lb facs="#facs_2_region_1779518173398_498_tl_41" n="N039"/>in den Mund: „Man wird es zugestehen müssen, daß ich
-               <lb facs="#facs_2_region_1779518173398_498_tl_42" n="N040"/>keine andere Absicht gehabt habe als die, mich in den Tugen¬
-               <lb facs="#facs_2_region_1779518173398_498_tl_43" n="N041"/>den zu üben, die bei Erduldung eines solchen Weibes nöthig
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1779518177023_501_tl_1" n="N001"/>sind.“ Das einmal aufgetauchte, auch schon für ausgebreitete
+         <lb facs="#facs_2_region_1779518177023_501_tl_2" n="N002"/>Betteleien verwerthete Gerücht, <rs type="person" ref="#hsl_person_id_114">Haydn</rs> sei der Vater des
+         <lb facs="#facs_2_region_1779518177023_501_tl_3" n="N003"/>jüngeren „<rs type="person" ref="#hsl_person_id_9118">Polzelli</rs>“, wird von <rs type="person" ref="#hsl_person_id_3866">Pohl</rs> mit überzeugenden
+         <lb facs="#facs_2_region_1779518177023_501_tl_4" n="N004"/>Gründen widerlegt.
+            </p><p>
+         <lb facs="#facs_2_region_1779518177023_501_tl_5" n="N005"/>Einen erfreulicheren Eindruck, als dieses nichts weniger
+         <lb facs="#facs_2_region_1779518177023_501_tl_6" n="N006"/>als ideale Liebesverhältniß mit der <rs type="person" ref="#hsl_person_id_9112">Polzelli</rs>, macht die aus
+         <lb facs="#facs_2_region_1779518177023_501_tl_7" n="N007" break="no"/>dauernde edle Freundschaft, welche <rs type="person" ref="#hsl_person_id_114">Haydn</rs> mit Frau v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4154">Gen
+         <lb facs="#facs_2_region_1779518177023_501_tl_8" n="N008" break="no"/>zinger</rs></hi> in <rs type="place" ref="#hsl_place_id_55">Wien</rs> verband. Sie war die Gattin des Arztes
+         <lb facs="#facs_2_region_1779518177023_501_tl_9" n="N009"/>Peter Leopold <rs type="person" ref="#hsl_person_id_4154">Genzinger</rs>, der <date>1780</date> für seine großen Ver
+         <lb facs="#facs_2_region_1779518177023_501_tl_10" n="N010" break="no"/>dienste von <rs type="person" ref="#hsl_person_id_3225">Maria Theresia</rs> in den Adelsstand erhoben wurde.
+         <lb facs="#facs_2_region_1779518177023_501_tl_11" n="N011"/>Eine kunstsinnige, namentlich sehr musikalische Dame, war
+         <lb facs="#facs_2_region_1779518177023_501_tl_12" n="N012"/>Frau v. <rs type="person" ref="#hsl_person_id_4154">Genzinger</rs> zur Zeit, als sie <rs type="person" ref="#hsl_person_id_114">Haydn</rs> kennen lernte,
+         <lb facs="#facs_2_region_1779518177023_501_tl_13" n="N013"/>Mutter von sechs Kindern. So oft <rs type="person" ref="#hsl_person_id_114">Haydn</rs> von Eszterhaz
+         <lb facs="#facs_2_region_1779518177023_501_tl_14" n="N014"/>nach <rs type="place" ref="#hsl_place_id_55">Wien</rs> kam, war er bei Genzingers im Schottenhofe
+         <lb facs="#facs_2_region_1779518177023_501_tl_15" n="N015"/>ein willkommener Gast, ließ sich von der <rs type="person" ref="#hsl_person_id_9119">Tochter</rs> vorsingen, von
+         <lb facs="#facs_2_region_1779518177023_501_tl_16" n="N016"/>der <rs type="person" ref="#hsl_person_id_4154">Mutter</rs> auf dem Clavier vorspielen und setzte sich selbst als Aus
+         <lb facs="#facs_2_region_1779518177023_501_tl_17" n="N017" break="no"/>übender zum Quartett. Seine zahlreichen <rs type="bibl" ref="#hsl_work_id_2564">Briefe</rs> an Frau v. <rs type="person" ref="#hsl_person_id_4154">Gen
+         <lb facs="#facs_2_region_1779518177023_501_tl_18" n="N018" break="no"/>zinger</rs> (zuerst von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4153">Karajan</rs></hi><space unit="char" quantity="1"/><date>1861</date> veröffentlicht), charakterisirt
+         <lb facs="#facs_2_region_1779518177023_501_tl_19" n="N019"/>eine seltsame Mischung von respectvoller, ja ceremoniöser
+         <lb facs="#facs_2_region_1779518177023_501_tl_20" n="N020"/>Höflichkeit mit inniger, echt freundschaftlicher Hingebung. In
+         <lb facs="#facs_2_region_1779518177023_501_tl_21" n="N021"/>diesem Familienkreise fühlte sich <rs type="person" ref="#hsl_person_id_114">Haydn</rs> am glücklichsten. Nur
+         <lb facs="#facs_2_region_1779518177023_501_tl_22" n="N022"/>zu schnell verflog ihm jedesmal die Zeit seines Besuches in
+         <lb facs="#facs_2_region_1779518177023_501_tl_23" n="N023"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>; die Dienstpflicht ruft ihn immer wieder nach Esterhaz,
+         <lb facs="#facs_2_region_1779518177023_501_tl_24" n="N024"/>wo er mit jedem Jahre sich einsamer und unbefriedigter
+         <lb facs="#facs_2_region_1779518177023_501_tl_25" n="N025"/>fühlte. „O könnt’ ich nur,“ schreibt er der Freundin, „eine
+         <lb facs="#facs_2_region_1779518177023_501_tl_26" n="N026"/>Viertelstunde bei Ihro Gnaden seyn, um meine Widerwär
+         <lb facs="#facs_2_region_1779518177023_501_tl_27" n="N027" break="no"/>tigkeiten auszuschütten und von Euer Gnaden Trost einzu
+         <lb facs="#facs_2_region_1779518177023_501_tl_28" n="N028" break="no"/>hauchen. Ich unterliege bey unsrer dermahligen Regierung
+         <lb facs="#facs_2_region_1779518177023_501_tl_29" n="N029"/>vielen Verdrießlichkeiten, welche ich aber hier mit Stillschwei
+         <lb facs="#facs_2_region_1779518177023_501_tl_30" n="N030" break="no"/>gen übergehen muß.“ „Nun in <rs type="person" ref="#hsl_person_id_416">Gott</rs>es Namen,“ heißt es
+         <lb facs="#facs_2_region_1779518177023_501_tl_31" n="N031"/>weiter, „es wird auch diese Zeit vorübergehen und jene wieder
+         <lb facs="#facs_2_region_1779518177023_501_tl_32" n="N032"/>kommen, in welcher ich das unschätzbare Vergnügen haben
+         <lb facs="#facs_2_region_1779518177023_501_tl_33" n="N033"/>werde, neben Euer Gnaden am Clavier zu sitzen, <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s
+         <lb facs="#facs_2_region_1779518177023_501_tl_34" n="N034"/>Meisterstücke spielen zu hören und für so viele schöne Sachen
+         <lb facs="#facs_2_region_1779518177023_501_tl_35" n="N035"/>die Hände zu küssen.“
+            </p><p>
+         <lb facs="#facs_2_region_1779518177023_501_tl_36" n="N036"/>Außer Genzingers waren es hauptsächlich die Familien
+         <lb facs="#facs_2_region_1779518177023_501_tl_37" n="N037"/>v. <hi rendition="#em">Greiner</hi>, <hi rendition="#em">Martinez</hi>, <hi rendition="#em">Weigl</hi> und <hi rendition="#em">Frieberth</hi>,
+         <lb facs="#facs_2_region_1779518177023_501_tl_38" n="N038"/>dann das musikalische Haus des Hofrathes v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9120">Kees</rs></hi>, wohin
+         <lb facs="#facs_2_region_1779518177023_501_tl_39" n="N039"/>sich <rs type="person" ref="#hsl_person_id_114">Haydn</rs> gezogen fühlte. Außerdem hatte er in Wien
+         <lb facs="#facs_2_region_1779518177023_501_tl_40" n="N040"/>immer Geschäftliches mit <rs type="person" ref="#hsl_person_id_9122">Artaria</rs> abzumachen und wollte von
+         <lb facs="#facs_2_region_1779518177023_501_tl_41" n="N041"/>Opern und Concerten möglichst profitiren. In <rs type="place" ref="#hsl_place_id_55">Wien</rs> be</p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1779518177023_501_tl_1" n="N001"/>sind.“ Das einmal aufgetauchte, auch schon für ausgebreitete
-               <lb facs="#facs_2_region_1779518177023_501_tl_2" n="N002"/>Betteleien verwerthete Gerücht, <rs type="person">Haydn</rs> sei der Vater des
-               <lb facs="#facs_2_region_1779518177023_501_tl_3" n="N003"/>jüngeren „<rs type="person">Polzelli</rs>“, wird von <rs type="person">Pohl</rs> mit überzeugenden
-               <lb facs="#facs_2_region_1779518177023_501_tl_4" n="N004"/>Gründen widerlegt.
-               <lb facs="#facs_2_region_1779518177023_501_tl_5" n="N005"/>Einen erfreulicheren Eindruck, als dieses nichts weniger
-               <lb facs="#facs_2_region_1779518177023_501_tl_6" n="N006"/>als ideale Liebesverhältniß mit der <rs type="person">Polzelli</rs>, macht die aus¬
-               <lb facs="#facs_2_region_1779518177023_501_tl_7" n="N007"/>dauernde edle Freundschaft, welche <rs type="person">Haydn</rs> mit Frau v. <hi rendition="#em">
-                  <rs type="person" continued="true">Gen¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1779518177023_501_tl_8" n="N008"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">zinger</rs>
-               </hi> in <rs type="place">Wien</rs> verband. Sie war die Gattin des Arztes
-               <lb facs="#facs_2_region_1779518177023_501_tl_9" n="N009"/>Peter Leopold <rs type="person">Genzinger</rs>, der <date month="0" day="0" year="0">1780</date> für seine großen Ver¬
-               <lb facs="#facs_2_region_1779518177023_501_tl_10" n="N010"/>dienste von <rs type="person">Maria Theresia</rs> in den Adelsstand erhoben wurde.
-               <lb facs="#facs_2_region_1779518177023_501_tl_11" n="N011"/>Eine kunstsinnige, namentlich sehr musikalische Dame, war
-               <lb facs="#facs_2_region_1779518177023_501_tl_12" n="N012"/>Frau v. <rs type="person">Genzinger</rs> zur Zeit, als sie <rs type="person">Haydn</rs> kennen lernte,
-               <lb facs="#facs_2_region_1779518177023_501_tl_13" n="N013"/>Mutter von sechs Kindern. So oft <rs type="person">Haydn</rs> von Eszterhaz
-               <lb facs="#facs_2_region_1779518177023_501_tl_14" n="N014"/>nach <rs type="place">Wien</rs> kam, war er bei Genzingers im <rs type="place">Schottenhof</rs>e
-               <lb facs="#facs_2_region_1779518177023_501_tl_15" n="N015"/>ein willkommener Gast, ließ sich von der <rs type="person">Tochter</rs> vorsingen, von
-               <lb facs="#facs_2_region_1779518177023_501_tl_16" n="N016"/>der <rs type="person">Mutter</rs> auf dem Clavier vorspielen und setzte sich selbst als Aus¬
-               <lb facs="#facs_2_region_1779518177023_501_tl_17" n="N017"/>übender zum Quartett. Seine zahlreichen Briefe an Frau v. <rs type="person" continued="true">Gen¬</rs>
-               <lb facs="#facs_2_region_1779518177023_501_tl_18" n="N018"/>
-               <rs type="person" continued="true">zinger</rs> (zuerst von <hi rendition="#em">
-                  <rs type="person">Karajan</rs>
-               </hi>
-               <date month="0" day="0" year="0">1861</date> veröffentlicht), charakterisirt
-               <lb facs="#facs_2_region_1779518177023_501_tl_19" n="N019"/>eine seltsame Mischung von respectvoller, ja ceremoniöser
-               <lb facs="#facs_2_region_1779518177023_501_tl_20" n="N020"/>Höflichkeit mit inniger, echt freundschaftlicher Hingebung. In
-               <lb facs="#facs_2_region_1779518177023_501_tl_21" n="N021"/>diesem Familienkreise fühlte sich <rs type="person">Haydn</rs> am glücklichsten. Nur
-               <lb facs="#facs_2_region_1779518177023_501_tl_22" n="N022"/>zu schnell verflog ihm jedesmal die Zeit seines Besuches in
-               <lb facs="#facs_2_region_1779518177023_501_tl_23" n="N023"/>
-               <rs type="place">Wien</rs>; die Dienstpflicht ruft ihn immer wieder nach Esterhaz,
-               <lb facs="#facs_2_region_1779518177023_501_tl_24" n="N024"/>wo er mit jedem Jahre sich einsamer und unbefriedigter
-               <lb facs="#facs_2_region_1779518177023_501_tl_25" n="N025"/>fühlte. „O könnt' ich nur,“ schreibt er der Freundin, „eine
-               <lb facs="#facs_2_region_1779518177023_501_tl_26" n="N026"/>Viertelstunde bei Ihro Gnaden seyn, um meine Widerwär¬
-               <lb facs="#facs_2_region_1779518177023_501_tl_27" n="N027"/>tigkeiten auszuschütten und von Euer Gnaden Trost einzu¬
-               <lb facs="#facs_2_region_1779518177023_501_tl_28" n="N028"/>hauchen. Ich unterliege bey unsrer dermahligen Regierung
-               <lb facs="#facs_2_region_1779518177023_501_tl_29" n="N029"/>vielen Verdrießlichkeiten, welche ich aber hier mit Stillschwei¬
-               <lb facs="#facs_2_region_1779518177023_501_tl_30" n="N030"/>gen übergehen muß.“ „Nun in <rs type="person">Gott</rs>es Namen,“ heißt es
-               <lb facs="#facs_2_region_1779518177023_501_tl_31" n="N031"/>weiter, „es wird auch diese Zeit vorübergehen und jene wieder
-               <lb facs="#facs_2_region_1779518177023_501_tl_32" n="N032"/>kommen, in welcher ich das unschätzbare Vergnügen haben
-               <lb facs="#facs_2_region_1779518177023_501_tl_33" n="N033"/>werde, neben Euer Gnaden am Clavier zu sitzen, <rs type="person">Mozart</rs>'s
-               <lb facs="#facs_2_region_1779518177023_501_tl_34" n="N034"/>Meisterstücke spielen zu hören und für so viele schöne Sachen
-               <lb facs="#facs_2_region_1779518177023_501_tl_35" n="N035"/>die Hände zu küssen.“
-               <lb facs="#facs_2_region_1779518177023_501_tl_36" n="N036"/>Außer Genzingers waren es hauptsächlich die Familien
-               <lb facs="#facs_2_region_1779518177023_501_tl_37" n="N037"/>v. <hi rendition="#em">
-                  <rs type="person">Greiner</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Martinez</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Weigl</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Frieberth</rs>
-               </hi>,
-               <lb facs="#facs_2_region_1779518177023_501_tl_38" n="N038"/>dann das musikalische Haus des Hofrathes v. <hi rendition="#em">
-                  <rs type="person">Kees</rs>
-               </hi>, wohin
-               <lb facs="#facs_2_region_1779518177023_501_tl_39" n="N039"/>sich <rs type="person">Haydn</rs> gezogen fühlte. Außerdem hatte er in Wien
-               <lb facs="#facs_2_region_1779518177023_501_tl_40" n="N040"/>immer Geschäftliches mit <rs type="person">Artaria</rs> abzumachen und wollte von
-               <lb facs="#facs_2_region_1779518177023_501_tl_41" n="N041"/>Opern und Concerten möglichst profitiren. In <rs type="place">Wien</rs> be¬
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1779518181502_504_tl_1" n="N001"/>trachteten ihn die tonangebenden Musiker mehr als einen
-               <lb facs="#facs_2_region_1779518181502_504_tl_2" n="N002"/>Fremden in Folge seiner Stellung in <rs type="place">Ungarn</rs>, wollten ihn
-               <lb facs="#facs_2_region_1779518181502_504_tl_3" n="N003"/>auch lange nicht als ebenbürtig oder gar überlegen aner¬
-               <lb facs="#facs_2_region_1779518181502_504_tl_4" n="N004"/>kennen. <rs type="person">Haydn</rs> klagt über eine „Menge von Neidern und
-               <lb facs="#facs_2_region_1779518181502_504_tl_5" n="N005"/>Feinden“. Er empfand deren Einfluß zunächst bei einer
-               <lb facs="#facs_2_region_1779518181502_504_tl_6" n="N006"/>Oper, die er im Auftrage des <rs type="person">Kaiser</rs>s für das National-
-               <lb facs="#facs_2_region_1779518181502_504_tl_7" n="N007"/>Theater geschrieben hatte und deren Aufführung hintertrieben
-               <lb facs="#facs_2_region_1779518181502_504_tl_8" n="N008"/>wurde. Specielle Gegner hatte <rs type="person">Haydn</rs> in den Achtziger-Jahren
-               <lb facs="#facs_2_region_1779518181502_504_tl_9" n="N009"/>im Musikzimmer des <rs type="person">Kaiser</rs>s, wo Musikdirector <rs type="person">Kreibich</rs>
-               <lb facs="#facs_2_region_1779518181502_504_tl_10" n="N010"/>und Kammerdiener <hi rendition="#em">
-                  <rs type="person">Strack</rs>
-               </hi> Alles aufboten, <rs type="person">Haydn</rs>'s Quar¬
-               <lb facs="#facs_2_region_1779518181502_504_tl_11" n="N011"/>tette fernzuhalten, was ihnen nicht schwer fiel, da Kaiser
-               <lb facs="#facs_2_region_1779518181502_504_tl_12" n="N012"/>
-               <rs type="person">Joseph</rs> ohnehin von <rs type="person">Haydn</rs>'s „Spässen“ nicht viel hielt.
-               <lb facs="#facs_2_region_1779518181502_504_tl_13" n="N013"/>„Mein Unglück ist nur der Aufenthalt auf dem Lande,“
-               <lb facs="#facs_2_region_1779518181502_504_tl_14" n="N014"/>schreibt <rs type="person">Haydn</rs> einmal an <rs type="person">Artaria</rs>. Allein gerade diese Stel¬
-               <lb facs="#facs_2_region_1779518181502_504_tl_15" n="N015"/>lung bei <rs type="person">Eszterhazy</rs> führte auch wieder unendliche Vortheile
-               <lb facs="#facs_2_region_1779518181502_504_tl_16" n="N016"/>für <rs type="person">Haydn</rs>'s Entwicklung mit sich, und Abbé <hi rendition="#em">
-                  <rs type="person">Vogler</rs>
-               </hi> be¬
-               <lb facs="#facs_2_region_1779518181502_504_tl_17" n="N017"/>hauptete mit Grund, daß <rs type="person">Haydn</rs> um nichts so sehr zu be¬
-               <lb facs="#facs_2_region_1779518181502_504_tl_18" n="N018"/>neiden sei, als um diese Stellung, in der er bei seinen
-               <lb facs="#facs_2_region_1779518181502_504_tl_19" n="N019"/>Talenten ein großer Mann habe werden müssen. Wie sehr
-               <lb facs="#facs_2_region_1779518181502_504_tl_20" n="N020"/>kam ihm der beständige Verkehr mit dem Orchester zu statten!
-               <lb facs="#facs_2_region_1779518181502_504_tl_21" n="N021"/>
-               <hi rendition="#em">
-                  <rs type="person">Pohl</rs>
-               </hi> drückt dies sehr hübsch mit dem Worte aus: „Das
-               <lb facs="#facs_2_line_1780206358112_153" n="N022"/>Orchester war ihm eine lebendige Partitur, in der er nach
-               <lb facs="#facs_2_line_1780206352719_149" n="N023"/>Belieben streichen und zusetzen konnte.“ <rs type="person">Haydn</rs>'s Thätigkeit
-               <lb facs="#facs_2_region_1779518181502_504_tl_26" n="N024"/>in Eszterhaz ist erstaunlich. Er hat dort ein Dutzend <rs type="place" continued="true">italie¬</rs>
-               <lb facs="#facs_2_region_1779518181502_504_tl_27" n="N025"/>
-               <rs type="place" continued="true">nisch</rs>er Opern, 63 Symphonien, 44 Streichquartette, fünf
-               <lb facs="#facs_2_region_1779518181502_504_tl_28" n="N026"/>Messen, das Oratorium „<rs type="bibl">Il ritorno di Tobia</rs>“, die „<rs type="bibl">Sieben</rs>
-               <lb facs="#facs_2_region_1779518181502_504_tl_29" n="N027"/>
-               <rs type="bibl">Worte am Kreuz</rs>“, viele Ouvertüren, Concerte, Kammer¬
-               <lb facs="#facs_2_region_1779518181502_504_tl_30" n="N028"/>musiken und Lieder geschrieben. Die rührende Geschichte von
-               <lb facs="#facs_2_region_1779518181502_504_tl_31" n="N029"/>
-               <rs type="person">Haydn</rs>'s „<rs type="bibl">Abschieds-Symphonie</rs>“ erzählt <rs type="person">Pohl</rs>, abweichend
-               <lb facs="#facs_2_region_1779518181502_504_tl_32" n="N030"/>von der mythisch gewordenen Auslegung, folgenderweise:
-               <lb facs="#facs_2_region_1779518181502_504_tl_33" n="N031"/>Der <rs type="person">Fürst</rs> hatte aus Raummangel den Musikern be¬
-               <lb facs="#facs_2_region_1779518181502_504_tl_34" n="N032"/>fohlen, Weib und Kinder aus Eszterhaz zu entfernen
-               <lb facs="#facs_2_region_1779518181502_504_tl_35" n="N033"/>und sie nach dem benachbarten <rs type="place">Eisenstadt</rs> zu schaffen.
-               <lb facs="#facs_2_region_1779518181502_504_tl_36" n="N034"/>Vergebens wendeten sich die armen Ehemänner an ihren
-               <lb facs="#facs_2_region_1779518181502_504_tl_37" n="N035"/>Papa <rs type="person">Haydn</rs>, der es aber diesmal nicht unternahm, als ihr
-               <lb facs="#facs_2_region_1779518181502_504_tl_38" n="N036"/>Fürsprecher vor den <rs type="person">Fürst</rs>en zu treten, sondern nur ein
-               <lb facs="#facs_2_region_1779518181502_504_tl_39" n="N037"/>schalkhaftes Lächeln für sie hatte. Erst bei der nächsten
-               <lb facs="#facs_2_region_1779518181502_504_tl_40" n="N038"/>Orchesterprobe wurde ihnen sein humoristischer Kriegsplan
-               <lb facs="#facs_2_region_1779518181502_504_tl_41" n="N039"/>klar. Man weiß, wie im Finale dieser Symphonie die
-               <lb facs="#facs_2_region_1779518181502_504_tl_42" n="N040"/>Musiker, einer nach dem andern, ihren Platz räumen und
-               <lb facs="#facs_2_region_1779518181502_504_tl_43" n="N041"/>die Lichter löschen, bis nur noch zwei Violinen übrig bleiben.
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1779518181502_504_tl_1" n="N001" break="no"/>trachteten ihn die tonangebenden Musiker mehr als einen
+         <lb facs="#facs_2_region_1779518181502_504_tl_2" n="N002"/>Fremden in Folge seiner Stellung in <rs type="place" ref="#hsl_place_id_53">Ungarn</rs>, wollten ihn
+         <lb facs="#facs_2_region_1779518181502_504_tl_3" n="N003"/>auch lange nicht als ebenbürtig oder gar überlegen aner
+         <lb facs="#facs_2_region_1779518181502_504_tl_4" n="N004" break="no"/>kennen. <rs type="person" ref="#hsl_person_id_114">Haydn</rs> klagt über eine „Menge von Neidern und
+         <lb facs="#facs_2_region_1779518181502_504_tl_5" n="N005"/>Feinden“. Er empfand deren Einfluß zunächst bei einer
+         <lb facs="#facs_2_region_1779518181502_504_tl_6" n="N006"/>Oper, die er im Auftrage des <rs type="person" ref="#hsl_person_id_823">Kaiser</rs>s für das National-
+         <lb facs="#facs_2_region_1779518181502_504_tl_7" n="N007"/>Theater geschrieben hatte und deren Aufführung hintertrieben
+         <lb facs="#facs_2_region_1779518181502_504_tl_8" n="N008"/>wurde. Specielle Gegner hatte <rs type="person" ref="#hsl_person_id_114">Haydn</rs> in den Achtziger-Jahren
+         <lb facs="#facs_2_region_1779518181502_504_tl_9" n="N009"/>im Musikzimmer des <rs type="person" ref="#hsl_person_id_823">Kaiser</rs>s, wo Musikdirector <rs type="person" ref="#hsl_person_id_9121">Kreibich</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1779518181502_504_tl_10" n="N010"/>und Kammerdiener <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9123">Strack</rs></hi> Alles aufboten, <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s Quar
+         <lb facs="#facs_2_region_1779518181502_504_tl_11" n="N011" break="no"/>tette fernzuhalten, was ihnen nicht schwer fiel, da Kaiser
+         <lb facs="#facs_2_region_1779518181502_504_tl_12" n="N012"/><rs type="person" ref="#hsl_person_id_823">Joseph</rs> ohnehin von <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s „Spässen“ nicht viel hielt.
+            </p><p>
+         <lb facs="#facs_2_region_1779518181502_504_tl_13" n="N013"/>„Mein Unglück ist nur der Aufenthalt auf dem Lande,“
+         <lb facs="#facs_2_region_1779518181502_504_tl_14" n="N014"/>schreibt <rs type="person" ref="#hsl_person_id_114">Haydn</rs> einmal an <rs type="person" ref="#hsl_person_id_9122">Artaria</rs>. Allein gerade diese Stel
+         <lb facs="#facs_2_region_1779518181502_504_tl_15" n="N015" break="no"/>lung bei <rs type="person" ref="#hsl_person_id_827">Eszterhazy</rs> führte auch wieder unendliche Vortheile
+         <lb facs="#facs_2_region_1779518181502_504_tl_16" n="N016"/>für <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s Entwicklung mit sich, und Abbé <hi rendition="#em"><rs type="person" ref="#hsl_person_id_818">Vogler</rs></hi> be
+         <lb facs="#facs_2_region_1779518181502_504_tl_17" n="N017" break="no"/>hauptete mit Grund, daß <rs type="person" ref="#hsl_person_id_114">Haydn</rs> um nichts so sehr zu be
+         <lb facs="#facs_2_region_1779518181502_504_tl_18" n="N018" break="no"/>neiden sei, als um diese Stellung, in der er bei seinen
+         <lb facs="#facs_2_region_1779518181502_504_tl_19" n="N019"/>Talenten ein großer Mann habe werden müssen. Wie sehr
+         <lb facs="#facs_2_region_1779518181502_504_tl_20" n="N020"/>kam ihm der beständige Verkehr mit dem Orchester zu statten!
+         <lb facs="#facs_2_region_1779518181502_504_tl_21" n="N021"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_3866">Pohl</rs></hi> drückt dies sehr hübsch mit dem Worte aus: „Das
+         <lb facs="#facs_2_line_1780206358112_153" n="N022"/>Orchester war ihm eine lebendige Partitur, in der er nach
+         <lb facs="#facs_2_line_1780206352719_149" n="N023"/>Belieben streichen und zusetzen konnte.“ <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s Thätigkeit
+         <lb facs="#facs_2_region_1779518181502_504_tl_26" n="N024"/>in Eszterhaz ist erstaunlich. Er hat dort ein Dutzend <rs type="place" ref="#hsl_place_id_28">italie
+         <lb facs="#facs_2_region_1779518181502_504_tl_27" n="N025" break="no"/>nisch</rs>er Opern, 63 Symphonien, 44 Streichquartette, fünf
+         <lb facs="#facs_2_region_1779518181502_504_tl_28" n="N026"/>Messen, das Oratorium „<rs type="bibl" ref="#hsl_work_id_488">Il ritorno di Tobia</rs>“, die „<rs type="bibl" ref="#hsl_work_id_827">Sieben
+         <lb facs="#facs_2_region_1779518181502_504_tl_29" n="N027"/>Worte am Kreuz</rs>“, viele Ouvertüren, Concerte, Kammer
+         <lb facs="#facs_2_region_1779518181502_504_tl_30" n="N028" break="no"/>musiken und Lieder geschrieben. Die rührende Geschichte von
+         <lb facs="#facs_2_region_1779518181502_504_tl_31" n="N029"/><rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s „<rs type="bibl" ref="#hsl_work_id_1767">Abschieds-Symphonie</rs>“ erzählt <rs type="person" ref="#hsl_person_id_3866">Pohl</rs>, abweichend
+         <lb facs="#facs_2_region_1779518181502_504_tl_32" n="N030"/>von der mythisch gewordenen Auslegung, folgenderweise:
+         <lb facs="#facs_2_region_1779518181502_504_tl_33" n="N031"/>Der <rs type="person" ref="#hsl_person_id_827">Fürst</rs> hatte aus Raummangel den Musikern be
+         <lb facs="#facs_2_region_1779518181502_504_tl_34" n="N032" break="no"/>fohlen, Weib und Kinder aus Eszterhaz zu entfernen
+         <lb facs="#facs_2_region_1779518181502_504_tl_35" n="N033"/>und sie nach dem benachbarten <rs type="place" ref="#hsl_place_id_95">Eisenstadt</rs> zu schaffen.
+         <lb facs="#facs_2_region_1779518181502_504_tl_36" n="N034"/>Vergebens wendeten sich die armen Ehemänner an ihren
+         <lb facs="#facs_2_region_1779518181502_504_tl_37" n="N035"/>Papa <rs type="person" ref="#hsl_person_id_114">Haydn</rs>, der es aber diesmal nicht unternahm, als ihr
+         <lb facs="#facs_2_region_1779518181502_504_tl_38" n="N036"/>Fürsprecher vor den <rs type="person" ref="#hsl_person_id_827">Fürst</rs>en zu treten, sondern nur ein
+         <lb facs="#facs_2_region_1779518181502_504_tl_39" n="N037"/>schalkhaftes Lächeln für sie hatte. Erst bei der nächsten
+         <lb facs="#facs_2_region_1779518181502_504_tl_40" n="N038"/>Orchesterprobe wurde ihnen sein humoristischer Kriegsplan
+         <lb facs="#facs_2_region_1779518181502_504_tl_41" n="N039"/>klar. Man weiß, wie im Finale dieser Symphonie die
+         <lb facs="#facs_2_region_1779518181502_504_tl_42" n="N040"/>Musiker, einer nach dem andern, ihren Platz räumen und
+         <lb facs="#facs_2_region_1779518181502_504_tl_43" n="N041"/>die Lichter löschen, bis nur noch zwei Violinen übrig bleiben.<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1779518190574_510_tl_1" n="N001"/>Als sich nun <rs type="person" ref="#hsl_person_id_114">Haydn</rs> anschickte, den Letzten zu folgen, trat
+         <lb facs="#facs_3_region_1779518190574_510_tl_2" n="N002"/>der <rs type="person" ref="#hsl_person_id_827">Fürst</rs> gerührt an ihn heran und sagte: „Ich habe Ihre
+         <lb facs="#facs_3_region_1779518190574_510_tl_3" n="N003"/>Absicht wohl durchschaut, die Musiker sehnen sich nach
+         <lb facs="#facs_3_region_1779518190574_510_tl_4" n="N004"/>Hause; nun gut, morgen packen wir ein.“ Die Geschichte ist
+         <lb facs="#facs_3_region_1779518190574_510_tl_5" n="N005"/>für <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s schalkhaftes und gutherziges Wesen höchst be
+         <lb facs="#facs_3_region_1779518190574_510_tl_6" n="N006" break="no"/>zeichnend.
+            </p><p>
+         <lb facs="#facs_3_region_1779518190574_510_tl_7" n="N007"/>An Mittheilungen rein musikalischen Inhalts, über
+         <lb facs="#facs_3_region_1779518190574_510_tl_8" n="N008"/><rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s Art zu dirigiren, zu componiren u. s. w., ist
+         <lb facs="#facs_3_region_1779518190574_510_tl_9" n="N009"/><rs type="person" ref="#hsl_person_id_3866">Pohl</rs>’s zweiter Band sehr reich. Der Verfasser weiß sich, bei
+         <lb facs="#facs_3_region_1779518190574_510_tl_10" n="N010"/>aller Liebe und Verehrung für <rs type="person" ref="#hsl_person_id_114">Haydn</rs>, doch von Ueber
+         <lb facs="#facs_3_region_1779518190574_510_tl_11" n="N011" break="no"/>schwenglichkeit und blinder Bewunderung frei zu erhalten,
+         <lb facs="#facs_3_region_1779518190574_510_tl_12" n="N012"/>und beweist dies namentlich in seiner Kritik des Oratoriums
+         <lb facs="#facs_3_region_1779518190574_510_tl_13" n="N013"/>„<rs type="bibl" ref="#hsl_work_id_488">Il ritorno di Tobia</rs>“, dann der sehr überschätzten „<rs type="bibl" ref="#hsl_work_id_827">Sieben
+         <lb facs="#facs_3_region_1779518190574_510_tl_14" n="N014"/>Worte</rs>“, endlich der <hi rendition="#em">Opern</hi> und der <hi rendition="#em">Lieder</hi><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s.
+         <lb facs="#facs_3_region_1779518190574_510_tl_15" n="N015"/>Unter letzteren war uns Eines: „<rs type="bibl" ref="#hsl_work_id_6673">Der schlaue Pudel</rs>“ (ge
+         <lb facs="#facs_3_region_1779518190574_510_tl_16" n="N016" break="no"/>wöhnlich die „<rs type="bibl" ref="#hsl_work_id_6673">Pudel-Romanze</rs>“ genannt) immer merkwürdig
+         <lb facs="#facs_3_region_1779518190574_510_tl_17" n="N017"/>gewesen. Wie <rs type="person" ref="#hsl_person_id_3866">Pohl</rs> erzählt, schrieb es <rs type="person" ref="#hsl_person_id_114">Haydn</rs> in Folge der Auf
+         <lb facs="#facs_3_region_1779518190574_510_tl_18" n="N018" break="no"/>forderung einer Officierstochter aus <rs type="place" ref="#hsl_place_id_436">Coburg</rs>. Der eingeschickte Text
+         <lb facs="#facs_3_region_1779518190574_510_tl_19" n="N019"/>(20 Strophen!) schilderte die Schlauheit eines Pudels, der
+         <lb facs="#facs_3_region_1779518190574_510_tl_20" n="N020"/>einen weggelegten Thaler richtig aufzufinden wußte. Die Ein
+         <lb facs="#facs_3_region_1779518190574_510_tl_21" n="N021" break="no"/>senderin, die in einen Hauptmann, den Besitzer des Pudels,
+         <lb facs="#facs_3_region_1779518190574_510_tl_22" n="N022"/>verliebt war, hoffte durch eine Ueberraschung ihn fester an
+         <lb facs="#facs_3_region_1779518190574_510_tl_23" n="N023"/>sich zu ketten, und da er ein Verehrer <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s war, bat sie
+         <lb facs="#facs_3_region_1779518190574_510_tl_24" n="N024"/>nun diesen, das kleine Abenteuer in Musik zu setzen, doch
+         <lb facs="#facs_3_region_1779518190574_510_tl_25" n="N025"/>bemerkte sie zugleich, daß sie arm sei und daher hoffe, er
+         <lb facs="#facs_3_region_1779518190574_510_tl_26" n="N026"/>werde sich mit dem beigelegten Ducaten begnügen. <rs type="person" ref="#hsl_person_id_114">Haydn</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1779518190574_510_tl_27" n="N027"/>componirte das Lied, schickte es sammt dem Ducaten an die
+         <lb facs="#facs_3_region_1779518190574_510_tl_28" n="N028"/>Schöne ab, erbat sich aber scherzweise von ihr ein Paar
+         <lb facs="#facs_3_region_1779518190574_510_tl_29" n="N029"/>Strumpfbänder zur Strafe, daß sie ihn für eigennützig und
+         <lb facs="#facs_3_region_1779518190574_510_tl_30" n="N030"/>ungalant halten konnte. Die Bänder, aus rother und weißer
+         <lb facs="#facs_3_region_1779518190574_510_tl_31" n="N031"/>Seide, mit einer gemalten Guirlande und Vergißmeinnicht,
+         <lb facs="#facs_3_region_1779518190574_510_tl_32" n="N032"/>kamen richtig an, und <rs type="person" ref="#hsl_person_id_114">Haydn</rs> bewahrte sie sorgfältig bei seinen
+         <lb facs="#facs_3_region_1779518190574_510_tl_33" n="N033"/>Juwelen auf.
+            </p><p>
+         <lb facs="#facs_3_region_1779518190574_510_tl_34" n="N034"/>Eine ganz neue Entdeckung, die wir <rs type="person" ref="#hsl_person_id_3866">Pohl</rs> verdanken,
+         <lb facs="#facs_3_region_1779518190574_510_tl_35" n="N035"/>ist <rs type="person" ref="#hsl_person_id_114">Haydn</rs> als — <hi rendition="#em">Freimaurer</hi>. Für einen Mann von
+         <lb facs="#facs_3_region_1779518190574_510_tl_36" n="N036"/><rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s correct religiöser Gesinnung klingt das einigermaßen
+         <lb facs="#facs_3_region_1779518190574_510_tl_37" n="N037"/>überraschend. Mit Leib und Seele wie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi> war nun
+         <lb facs="#facs_3_region_1779518190574_510_tl_38" n="N038"/>allerdings <rs type="person" ref="#hsl_person_id_114">Haydn</rs> nicht dabei; seine Freimaurerschaft bildet
+         <lb facs="#facs_3_region_1779518190574_510_tl_39" n="N039"/>eine flüchtige, kaum bekannt gewordene Episode in seinem
+         <lb facs="#facs_3_region_1779518190574_510_tl_40" n="N040"/>Leben. Nach <rs type="person" ref="#hsl_person_id_3866">Pohl</rs>’s Vermuthung mag sein Freund und
+         <lb facs="#facs_3_region_1779518190574_510_tl_41" n="N041"/>Gönner v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9124">Greiner</rs></hi><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_114">Haydn</rs> zum Eintritte in die Loge<space quantity="1" unit="char"/></p>
             <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1779518190574_510_tl_1" n="N001"/>Als sich nun <rs type="person">Haydn</rs> anschickte, den Letzten zu folgen, trat
-               <lb facs="#facs_3_region_1779518190574_510_tl_2" n="N002"/>der <rs type="person">Fürst</rs> gerührt an ihn heran und sagte: „Ich habe Ihre
-               <lb facs="#facs_3_region_1779518190574_510_tl_3" n="N003"/>Absicht wohl durchschaut, die Musiker sehnen sich nach
-               <lb facs="#facs_3_region_1779518190574_510_tl_4" n="N004"/>Hause; nun gut, morgen packen wir ein.“ Die Geschichte ist
-               <lb facs="#facs_3_region_1779518190574_510_tl_5" n="N005"/>für <rs type="person">Haydn</rs>'s schalkhaftes und gutherziges Wesen höchst be¬
-               <lb facs="#facs_3_region_1779518190574_510_tl_6" n="N006"/>zeichnend.
-               <lb facs="#facs_3_region_1779518190574_510_tl_7" n="N007"/>An Mittheilungen rein musikalischen Inhalts, über
-               <lb facs="#facs_3_region_1779518190574_510_tl_8" n="N008"/>
-               <rs type="person">Haydn</rs>'s Art zu dirigiren, zu componiren u. s. w., ist
-               <lb facs="#facs_3_region_1779518190574_510_tl_9" n="N009"/>
-               <rs type="person">Pohl</rs>'s zweiter Band sehr reich. Der Verfasser weiß sich, bei
-               <lb facs="#facs_3_region_1779518190574_510_tl_10" n="N010"/>aller Liebe und Verehrung für <rs type="person">Haydn</rs>, doch von Ueber¬
-               <lb facs="#facs_3_region_1779518190574_510_tl_11" n="N011"/>schwenglichkeit und blinder Bewunderung frei zu erhalten,
-               <lb facs="#facs_3_region_1779518190574_510_tl_12" n="N012"/>und beweist dies namentlich in seiner Kritik des Oratoriums
-               <lb facs="#facs_3_region_1779518190574_510_tl_13" n="N013"/>„<rs type="bibl">Il ritorno di Tobia</rs>“, dann der sehr überschätzten „<rs type="bibl">Sieben</rs>
-               <lb facs="#facs_3_region_1779518190574_510_tl_14" n="N014"/>
-               <rs type="bibl">Worte</rs>“, endlich der <hi rendition="#em">Opern</hi> und der <hi rendition="#em">Lieder</hi>
-               <rs type="person">Haydn</rs>'s.
-               <lb facs="#facs_3_region_1779518190574_510_tl_15" n="N015"/>Unter letzteren war uns Eines: „<rs type="bibl">Der schlaue Pudel</rs>“ (ge¬
-               <lb facs="#facs_3_region_1779518190574_510_tl_16" n="N016"/>wöhnlich die „<rs type="bibl">Pudel-Romanze</rs>“ genannt) immer merkwürdig
-               <lb facs="#facs_3_region_1779518190574_510_tl_17" n="N017"/>gewesen. Wie <rs type="person">Pohl</rs> erzählt, schrieb es <rs type="person">Haydn</rs> in Folge der Auf¬
-               <lb facs="#facs_3_region_1779518190574_510_tl_18" n="N018"/>forderung einer Officierstochter aus <rs type="place">Coburg</rs>. Der eingeschickte Text
-               <lb facs="#facs_3_region_1779518190574_510_tl_19" n="N019"/>(20 Strophen!) schilderte die Schlauheit eines Pudels, der
-               <lb facs="#facs_3_region_1779518190574_510_tl_20" n="N020"/>einen weggelegten Thaler richtig aufzufinden wußte. Die Ein¬
-               <lb facs="#facs_3_region_1779518190574_510_tl_21" n="N021"/>senderin, die in einen Hauptmann, den Besitzer des Pudels,
-               <lb facs="#facs_3_region_1779518190574_510_tl_22" n="N022"/>verliebt war, hoffte durch eine Ueberraschung ihn fester an
-               <lb facs="#facs_3_region_1779518190574_510_tl_23" n="N023"/>sich zu ketten, und da er ein Verehrer <rs type="person">Haydn</rs>'s war, bat sie
-               <lb facs="#facs_3_region_1779518190574_510_tl_24" n="N024"/>nun diesen, das kleine Abenteuer in Musik zu setzen, doch
-               <lb facs="#facs_3_region_1779518190574_510_tl_25" n="N025"/>bemerkte sie zugleich, daß sie arm sei und daher hoffe, er
-               <lb facs="#facs_3_region_1779518190574_510_tl_26" n="N026"/>werde sich mit dem beigelegten Ducaten begnügen. <rs type="person">Haydn</rs>
-               <lb facs="#facs_3_region_1779518190574_510_tl_27" n="N027"/>componirte das Lied, schickte es sammt dem Ducaten an die
-               <lb facs="#facs_3_region_1779518190574_510_tl_28" n="N028"/>Schöne ab, erbat sich aber scherzweise von ihr ein Paar
-               <lb facs="#facs_3_region_1779518190574_510_tl_29" n="N029"/>Strumpfbänder zur Strafe, daß sie ihn für eigennützig und
-               <lb facs="#facs_3_region_1779518190574_510_tl_30" n="N030"/>ungalant halten konnte. Die Bänder, aus rother und weißer
-               <lb facs="#facs_3_region_1779518190574_510_tl_31" n="N031"/>Seide, mit einer gemalten Guirlande und Vergißmeinnicht,
-               <lb facs="#facs_3_region_1779518190574_510_tl_32" n="N032"/>kamen richtig an, und <rs type="person">Haydn</rs> bewahrte sie sorgfältig bei seinen
-               <lb facs="#facs_3_region_1779518190574_510_tl_33" n="N033"/>Juwelen auf.
-               <lb facs="#facs_3_region_1779518190574_510_tl_34" n="N034"/>Eine ganz neue Entdeckung, die wir <rs type="person">Pohl</rs> verdanken,
-               <lb facs="#facs_3_region_1779518190574_510_tl_35" n="N035"/>ist <rs type="person">Haydn</rs> als — <hi rendition="#em">Freimaurer</hi>. Für einen Mann von
-               <lb facs="#facs_3_region_1779518190574_510_tl_36" n="N036"/>
-               <rs type="person">Haydn</rs>'s correct religiöser Gesinnung klingt das einigermaßen
-               <lb facs="#facs_3_region_1779518190574_510_tl_37" n="N037"/>überraschend. Mit Leib und Seele wie <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi> war nun
-               <lb facs="#facs_3_region_1779518190574_510_tl_38" n="N038"/>allerdings <rs type="person">Haydn</rs> nicht dabei; seine Freimaurerschaft bildet
-               <lb facs="#facs_3_region_1779518190574_510_tl_39" n="N039"/>eine flüchtige, kaum bekannt gewordene Episode in seinem
-               <lb facs="#facs_3_region_1779518190574_510_tl_40" n="N040"/>Leben. Nach <rs type="person">Pohl</rs>'s Vermuthung mag sein Freund und
-               <lb facs="#facs_3_region_1779518190574_510_tl_41" n="N041"/>Gönner v. <hi rendition="#em">
-                  <rs type="person">Greiner</rs>
-               </hi>
-               <rs type="person">Haydn</rs> zum Eintritte in die Loge
-            </p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1779518194942_513_tl_1" n="N001"/>„Zur Eintracht“ aufgemuntert haben, wo dieser am 4. Fe¬
-               <lb facs="#facs_3_region_1779518194942_513_tl_2" n="N002"/>bruar <date month="0" day="0" year="0">1785</date> auch feierlich installirt wurde. Der „Herr
-               <lb facs="#facs_3_region_1779518194942_513_tl_3" n="N003"/>v. <hi rendition="#em">
-                  <rs type="person">Weber</rs>
-               </hi>“, welcher bei dieser Feierlichkeit als <rs type="person">Haydn</rs>'s
-               <lb facs="#facs_3_region_1779518194942_513_tl_4" n="N004"/>Pathe fungirte, ist aller Wahrscheinlichkeit nach Franz Anton
-               <lb facs="#facs_3_region_1779518194942_513_tl_5" n="N005"/>v. <rs type="person">Weber</rs>, der Vater Karl Maria <rs type="person">Weber</rs>'s.
-               <lb facs="#facs_3_region_1779518194942_513_tl_6" n="N006"/>Zu den erfreulichen Partien des <rs type="bibl">Buch</rs>es gehört Alles,
-               <lb facs="#facs_3_region_1779518194942_513_tl_7" n="N007"/>was das persönliche Verhältniß zwischen <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi> und
-               <lb facs="#facs_3_region_1779518194942_513_tl_8" n="N008"/>
-               <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
-               </hi> betrifft. Mit Rührung und wahrer Erhebung lesen
-               <lb facs="#facs_3_region_1779518194942_513_tl_9" n="N009"/>wir, mit welcher neidlosen Anerkennung diese beiden Meister
-               <lb facs="#facs_3_region_1779518194942_513_tl_10" n="N010"/>sich gegenseitig schätzten und bewunderten. Ein solches Ver¬
-               <lb facs="#facs_3_region_1779518194942_513_tl_11" n="N011"/>hältniß ist jederzeit selten, in unseren Tagen aber am aller¬
-               <lb facs="#facs_3_region_1779518194942_513_tl_12" n="N012"/>seltensten. Als der Componist L. <rs type="person">Kozeluch</rs> in <rs type="person">Mozart</rs>'s
-               <lb facs="#facs_3_region_1779518194942_513_tl_13" n="N013"/>Gegenwart an den Quartetten <rs type="person">Haydn</rs>'s zu mäkeln wagte,
-               <lb facs="#facs_3_region_1779518194942_513_tl_14" n="N014"/>rief <rs type="person">Mozart</rs> ihm heftig zu: „Herr, wenn man uns Beide
-               <lb facs="#facs_3_region_1779518194942_513_tl_15" n="N015"/>zusammenschmilzt, wird noch lange kein <rs type="person">Haydn</rs> daraus!“
-               <lb facs="#facs_3_region_1779518194942_513_tl_16" n="N016"/>Und <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
-               </hi>, der nach einer Aufführung des „<rs type="bibl">Don Juan</rs>“
-               <lb facs="#facs_3_region_1779518194942_513_tl_17" n="N017"/>in einer Gesellschaft, welche Vieles an der Oper zu tadeln
-               <lb facs="#facs_3_region_1779518194942_513_tl_18" n="N018"/>fand, um seine Meinung gefragt wurde, erwiderte: „Ich
-               <lb facs="#facs_3_region_1779518194942_513_tl_19" n="N019"/>kann den Streit nicht ausmachen, aber das weiß ich, daß
-               <lb facs="#facs_3_region_1779518194942_513_tl_20" n="N020"/>
-               <rs type="person">Mozart</rs> der größte Componist ist, den die Welt hat.“ —
-               <lb facs="#facs_3_region_1779518194942_513_tl_21" n="N021"/>Der zweite Band schließt mit der Auflösung der fürstlichen
-               <lb facs="#facs_3_region_1779518194942_513_tl_22" n="N022"/>Capelle in Eszterhaz und mit <rs type="person">Haydn</rs>'s Abreise nach <rs type="place">London</rs>
-               <lb facs="#facs_3_region_1779518194942_513_tl_23" n="N023"/>am 15. December <date month="0" day="0" year="0">1790</date>. <rs type="person">Pohl</rs> hat, um auch die gesammte
-               <lb facs="#facs_3_region_1779518194942_513_tl_24" n="N024"/>Umgebung <rs type="person">Haydn</rs>'s zu schildern, zwischen die eigentliche
-               <lb facs="#facs_3_region_1779518194942_513_tl_25" n="N025"/>Biographie eine „<rs type="bibl">Wiener Chronik</rs>“ eingeschoben, welche über
-               <lb facs="#facs_3_region_1779518194942_513_tl_26" n="N026"/>die Musikpflege bei Hofe, beim Adel und in Privathäusern,
-               <lb facs="#facs_3_region_1779518194942_513_tl_27" n="N027"/>über die Theater und musikalischen Akademien, über den
-               <lb facs="#facs_3_region_1779518194942_513_tl_28" n="N028"/>Stand der Kirchenmusik, des Musikhandels und des Instru¬
-               <lb facs="#facs_3_region_1779518194942_513_tl_29" n="N029"/>mentenbaues zur Zeit <rs type="person">Haydn</rs>'s das Wichtigste mittheilt. Von
-               <lb facs="#facs_3_region_1779518194942_513_tl_30" n="N030"/>großem Werthe für den Musiker ist das als Anhang bei¬
-               <lb facs="#facs_3_region_1779518194942_513_tl_31" n="N031"/>gegebene „<rs type="bibl">Chronologisch-thematische Verzeichniß der Composi¬</rs>
-               <lb facs="#facs_3_region_1779518194942_513_tl_32" n="N032"/>
-               <rs type="bibl">tionen Haydn's</rs>“, eine eben so mühsame als sorgfältige Arbeit,
-               <lb facs="#facs_3_region_1779518194942_513_tl_33" n="N033"/>die in dieser Vollständigkeit zum erstenmale vorliegt. Sehr
-               <lb facs="#facs_3_region_1779518194942_513_tl_34" n="N034"/>hübsch ist das Titelkupfer, ein Brustbild <rs type="person">Haydn</rs>'s, nach
-               <lb facs="#facs_3_region_1779518194942_513_tl_35" n="N035"/>einem auf Elfenbein gemalten Aquarellporträt aus den Acht¬
-               <lb facs="#facs_3_region_1779518194942_513_tl_36" n="N036"/>ziger Jahren. Wir schließen unsere Anzeige von <rs type="person">Pohl</rs>'s reich¬
-               <lb facs="#facs_3_region_1779518194942_513_tl_37" n="N037"/>haltigem zweiten Bande mit dem Wunsche, der Verfasser
-               <lb facs="#facs_3_region_1779518194942_513_tl_38" n="N038"/>möge den dritten recht bald nachfolgen lassen. Die beste Vor¬
-               <lb facs="#facs_3_region_1779518194942_513_tl_39" n="N039"/>arbeit dazu hat er ja bereits selbst verfaßt und im Jahre
-               <lb facs="#facs_3_region_1779518194942_513_tl_40" n="N040"/>
-               <date month="0" day="0" year="0">1867</date> publicirt: die werthvolle Monographie „<rs type="bibl">Haydn und</rs>
-               <lb facs="#facs_3_region_1779518194942_513_tl_41" n="N041"/>
-               <rs type="bibl">Mozart in London</rs>“.
-            </p>
+            <p prev="true">
+         <lb facs="#facs_3_region_1779518194942_513_tl_1" n="N001"/>„Zur Eintracht“ aufgemuntert haben, wo dieser am 4. Fe
+         <lb facs="#facs_3_region_1779518194942_513_tl_2" n="N002" break="no"/>bruar <date>1785</date> auch feierlich installirt wurde. Der „Herr
+         <lb facs="#facs_3_region_1779518194942_513_tl_3" n="N003"/>v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9125">Weber</rs></hi>“, welcher bei dieser Feierlichkeit als <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s
+         <lb facs="#facs_3_region_1779518194942_513_tl_4" n="N004"/>Pathe fungirte, ist aller Wahrscheinlichkeit nach Franz Anton
+         <lb facs="#facs_3_region_1779518194942_513_tl_5" n="N005"/>v. <rs type="person" ref="#hsl_person_id_9125">Weber</rs>, der Vater Karl Maria <rs type="person" ref="#hsl_person_id_321">Weber</rs>’s.
+            </p><p>
+         <lb facs="#facs_3_region_1779518194942_513_tl_6" n="N006"/>Zu den erfreulichen Partien des <rs type="bibl" ref="#hsl_work_id_2389">Buch</rs>es gehört Alles,
+         <lb facs="#facs_3_region_1779518194942_513_tl_7" n="N007"/>was das persönliche Verhältniß zwischen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi> und
+         <lb facs="#facs_3_region_1779518194942_513_tl_8" n="N008"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs></hi> betrifft. Mit Rührung und wahrer Erhebung lesen
+         <lb facs="#facs_3_region_1779518194942_513_tl_9" n="N009"/>wir, mit welcher neidlosen Anerkennung diese beiden Meister
+         <lb facs="#facs_3_region_1779518194942_513_tl_10" n="N010"/>sich gegenseitig schätzten und bewunderten. Ein solches Ver
+         <lb facs="#facs_3_region_1779518194942_513_tl_11" n="N011" break="no"/>hältniß ist jederzeit selten, in unseren Tagen aber am aller
+         <lb facs="#facs_3_region_1779518194942_513_tl_12" n="N012" break="no"/>seltensten. Als der Componist L. <rs type="person" ref="#hsl_person_id_6239">Kozeluch</rs> in <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s
+         <lb facs="#facs_3_region_1779518194942_513_tl_13" n="N013"/>Gegenwart an den Quartetten <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s zu mäkeln wagte,
+         <lb facs="#facs_3_region_1779518194942_513_tl_14" n="N014"/>rief <rs type="person" ref="#hsl_person_id_189">Mozart</rs> ihm heftig zu: „Herr, wenn man uns Beide
+         <lb facs="#facs_3_region_1779518194942_513_tl_15" n="N015"/>zusammenschmilzt, wird noch lange kein <rs type="person" ref="#hsl_person_id_114">Haydn</rs> daraus!“
+         <lb facs="#facs_3_region_1779518194942_513_tl_16" n="N016"/>Und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs></hi>, der nach einer Aufführung des „<rs type="bibl" ref="#hsl_work_id_174">Don Juan</rs>“
+         <lb facs="#facs_3_region_1779518194942_513_tl_17" n="N017"/>in einer Gesellschaft, welche Vieles an der Oper zu tadeln
+         <lb facs="#facs_3_region_1779518194942_513_tl_18" n="N018"/>fand, um seine Meinung gefragt wurde, erwiderte: „Ich
+         <lb facs="#facs_3_region_1779518194942_513_tl_19" n="N019"/>kann den Streit nicht ausmachen, aber das weiß ich, daß
+         <lb facs="#facs_3_region_1779518194942_513_tl_20" n="N020"/><rs type="person" ref="#hsl_person_id_189">Mozart</rs> der größte Componist ist, den die Welt hat.“ —
+         <lb facs="#facs_3_region_1779518194942_513_tl_21" n="N021"/>Der zweite Band schließt mit der Auflösung der fürstlichen
+         <lb facs="#facs_3_region_1779518194942_513_tl_22" n="N022"/>Capelle in Eszterhaz und mit <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s Abreise nach <rs type="place" ref="#hsl_place_id_34">London</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1779518194942_513_tl_23" n="N023"/>am 15. December <date>1790</date>. <rs type="person" ref="#hsl_person_id_3866">Pohl</rs> hat, um auch die gesammte
+         <lb facs="#facs_3_region_1779518194942_513_tl_24" n="N024"/>Umgebung <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s zu schildern, zwischen die eigentliche
+         <lb facs="#facs_3_region_1779518194942_513_tl_25" n="N025"/>Biographie eine „Wiener Chronik“ eingeschoben, welche über
+         <lb facs="#facs_3_region_1779518194942_513_tl_26" n="N026"/>die Musikpflege bei Hofe, beim Adel und in Privathäusern,
+         <lb facs="#facs_3_region_1779518194942_513_tl_27" n="N027"/>über die Theater und musikalischen Akademien, über den
+         <lb facs="#facs_3_region_1779518194942_513_tl_28" n="N028"/>Stand der Kirchenmusik, des Musikhandels und des Instru
+         <lb facs="#facs_3_region_1779518194942_513_tl_29" n="N029" break="no"/>mentenbaues zur Zeit <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s das Wichtigste mittheilt. Von
+         <lb facs="#facs_3_region_1779518194942_513_tl_30" n="N030"/>großem Werthe für den Musiker ist das als Anhang bei
+         <lb facs="#facs_3_region_1779518194942_513_tl_31" n="N031" break="no"/>gegebene „Chronologisch-thematische Verzeichniß der Composi
+         <lb facs="#facs_3_region_1779518194942_513_tl_32" n="N032" break="no"/>tionen Haydn’s“, eine eben so mühsame als sorgfältige Arbeit,
+         <lb facs="#facs_3_region_1779518194942_513_tl_33" n="N033"/>die in dieser Vollständigkeit zum erstenmale vorliegt. Sehr
+         <lb facs="#facs_3_region_1779518194942_513_tl_34" n="N034"/>hübsch ist das Titelkupfer, ein Brustbild <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s, nach
+         <lb facs="#facs_3_region_1779518194942_513_tl_35" n="N035"/>einem auf Elfenbein gemalten Aquarellporträt aus den Acht
+         <lb facs="#facs_3_region_1779518194942_513_tl_36" n="N036" break="no"/>ziger Jahren. Wir schließen unsere Anzeige von <rs type="person" ref="#hsl_person_id_3866">Pohl</rs>’s reich
+         <lb facs="#facs_3_region_1779518194942_513_tl_37" n="N037" break="no"/>haltigem zweiten Bande mit dem Wunsche, der Verfasser
+         <lb facs="#facs_3_region_1779518194942_513_tl_38" n="N038"/>möge den dritten recht bald nachfolgen lassen. Die beste Vor
+         <lb facs="#facs_3_region_1779518194942_513_tl_39" n="N039" break="no"/>arbeit dazu hat er ja bereits selbst verfaßt und im Jahre
+         <lb facs="#facs_3_region_1779518194942_513_tl_40" n="N040"/><date>1867</date> publicirt: die werthvolle Monographie „<rs type="bibl" ref="#hsl_work_id_2558">Haydn und
+         <lb facs="#facs_3_region_1779518194942_513_tl_41" n="N041"/>Mozart in London</rs>“.</p>
          </div>
       </body>
    </text>
