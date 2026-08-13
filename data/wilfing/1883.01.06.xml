@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 6595. Wien, Samstag, den 6. Januar 1883</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +70,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 6595. Wien, Samstag, den 6. Januar 1883</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1883-01-06">06.01.1883</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18830106"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-08-01">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-08-08">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-08-11">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -872,316 +872,252 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+         <lb facs="#facs_1_region_1784436907693_22_tl_1" n="N001"/><head type="h1">Hofoperntheater.</head>
+         <lb facs="#facs_1_line_1784444033299_3330" n="N002"/><head type="h2">(„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_6768">Die erste Falte</rs></hi>.“ Komische Oper in einem Acte von Th. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5544">Leschetitzky</rs></hi>. —
+         <lb facs="#facs_1_line_1784444039728_3333" n="N003"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_6769">An der Beresina</rs></hi>.“ Ballet von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7103">Rota</rs></hi>.)</head>
             <p>
-               <lb facs="#facs_1_line_1784443626941_3059" n="N001"/>Nr. 6595. <rs type="place">Wien</rs>, Samstag, den 6. Januar 1883.
-            </p>
+         <lb facs="#facs_1_region_1784436907693_22_tl_4" n="N004"/>Ed. H. Theodor <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs></hi>, der berühmte Pianist
+         <lb facs="#facs_1_region_1784436907693_22_tl_5" n="N005"/>und Clavierprofessor, hat sich als Componist rar zu machen
+         <lb facs="#facs_1_region_1784436907693_22_tl_6" n="N006"/>gewußt. Die wenigen Salonstücke und Lieder, welche er in
+         <lb facs="#facs_1_region_1784436907693_22_tl_7" n="N007"/>seiner ersten Virtuosen-Epoche herausgab, kennzeichnen ihn als
+         <lb facs="#facs_1_region_1784436907693_22_tl_8" n="N008"/>eleganten Musiker von durchaus <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er Bildung mit einem
+         <lb facs="#facs_1_region_1784436907693_22_tl_9" n="N009"/>leichten Stich ins <rs type="place" ref="#hsl_place_id_21">Französisch</rs>e. Trotz seiner <rs type="place" ref="#hsl_place_id_231">polnisch</rs>en Ab
+         <lb facs="#facs_1_region_1784436907693_22_tl_10" n="N010" break="no"/>stammung und langjährigen Thätigkeit in <rs type="place" ref="#hsl_place_id_48">Rußland</rs> hat
+         <lb facs="#facs_1_region_1784436907693_22_tl_11" n="N011"/><rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs> kein Atom slavischen Musikgeistes angezogen. Seine
+         <lb facs="#facs_1_region_1784436907693_22_tl_12" n="N012"/>spärliche Productivität entsprang wol aus richtiger Selbst
+         <lb facs="#facs_1_region_1784436907693_22_tl_13" n="N013" break="no"/>kenntniß und Selbstachtung: nicht reich genug an origineller
+         <lb facs="#facs_1_region_1784436907693_22_tl_14" n="N014"/>Erfindungskraft, war er doch stolz genug, um den Markt
+         <lb facs="#facs_1_region_1784436907693_22_tl_15" n="N015"/>nicht mit Unbedeutendem zu überschwemmen. Auch seine ein
+         <lb facs="#facs_1_region_1784436907693_22_tl_16" n="N016" break="no"/>zige Oper: „<rs type="bibl" ref="#hsl_work_id_6768">Die erste Falte</rs>“, ist eine Arbeit früherer Jahre
+         <lb facs="#facs_1_region_1784436907693_22_tl_17" n="N017"/>und vor länger als einem Decennium bereits in <rs type="place" ref="#hsl_place_id_45">Prag</rs> auf
+         <lb facs="#facs_1_region_1784436907693_22_tl_18" n="N018" break="no"/>geführt. Der Dichter des Textbuches, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_188">Mosenthal</rs></hi>, hat
+         <lb facs="#facs_1_region_1784436907693_22_tl_19" n="N019"/>für dieses wie für manches frühere Libretto einen <rs type="place" ref="#hsl_place_id_21">französi
+         <lb facs="#facs_1_region_1784436907693_22_tl_20" n="N020" break="no"/>sch</rs>en Lustspielstoff benützt. Eine elegante junge <rs type="person" ref="#hsl_person_id_9244">Witwe</rs> kann
+         <lb facs="#facs_1_region_1784436907693_22_tl_21" n="N021"/>sich nicht zur zweiten Ehe entschließen, obwol sie die Auswahl
+         <lb facs="#facs_1_region_1784436907693_22_tl_22" n="N022"/>unter drei Bewerbern hat: einem Grafen von altem Adel,
+         <lb facs="#facs_1_region_1784436907693_22_tl_23" n="N023"/>einem reichen Bankier und einem jungen hübschen <rs type="person" ref="#hsl_person_id_9245">Vicomte</rs>.
+         <lb facs="#facs_1_region_1784436907693_22_tl_24" n="N024"/>Letzterer allein scheint sie aufrichtig zu lieben, trotzdem findet
+         <lb facs="#facs_1_region_1784436907693_22_tl_25" n="N025"/>er kein Gehör. Zum Glücke nimmt ihn das Kammermädchen
+         <lb facs="#facs_1_region_1784436907693_22_tl_26" n="N026"/><rs type="person" ref="#hsl_person_id_9246">Juliette</rs> in ihren Schutz. Man kennt die Macht der
+         <lb facs="#facs_1_region_1784436907693_22_tl_27" n="N027"/>Kammerzofen in der älteren Comödie, wo sie sich nicht blos
+         <lb facs="#facs_1_region_1784436907693_22_tl_28" n="N028"/>die kecksten Einreden erlauben, sondern ohneweiters auch Herz
+         <lb facs="#facs_1_region_1784436907693_22_tl_29" n="N029"/>und Hand ihrer Herrin nach Belieben lenken. <rs type="person" ref="#hsl_person_id_9246">Juliette</rs> hat
+         <lb facs="#facs_1_region_1784436907693_22_tl_30" n="N030"/>eben wieder vergebliche Heiratsermahnungen verschwendet, als
+         <lb facs="#facs_1_region_1784436907693_22_tl_31" n="N031"/>sie auf der Stirne der <rs type="person" ref="#hsl_person_id_9244">Marquise</rs> plötzlich etwas Unerhörtes,
+         <lb facs="#facs_1_region_1784436907693_22_tl_32" n="N032"/>Entsetzliches entdeckt — die erste Falte! Das stärkste Argu
+         <lb facs="#facs_1_region_1784436907693_22_tl_33" n="N033" break="no"/>ment, mit dem Heiraten nicht länger zu zögern. Schnell
+         <lb facs="#facs_1_region_1784436907693_22_tl_34" n="N034"/>schreibt die <rs type="person" ref="#hsl_person_id_9244">Marquise</rs> drei Briefchen an ihre drei Freier. —<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1784436907693_22_tl_1" n="N001"/>Hofoperntheater.
-               <lb facs="#facs_1_line_1784444033299_3330" n="N002"/>(„<hi rendition="#em">
-                  <rs type="bibl">Die erste Falte</rs>
-               </hi>.“ Komische Oper in einem Acte von Th. <hi rendition="#em">
-                  <rs type="person">Leschetitzky</rs>
-               </hi>. —
-               <lb facs="#facs_1_line_1784444039728_3333" n="N003"/>„<hi rendition="#em">
-                  <rs type="bibl">An der Beresina</rs>
-               </hi>.“ Ballet von <hi rendition="#em">
-                  <rs type="person">Rota</rs>
-               </hi>.)
-               <lb facs="#facs_1_region_1784436907693_22_tl_4" n="N004"/>Ed. H. Theodor <hi rendition="#em">
-                  <rs type="person">Leschetizky</rs>
-               </hi>, der berühmte Pianist
-               <lb facs="#facs_1_region_1784436907693_22_tl_5" n="N005"/>und Clavierprofessor, hat sich als Componist rar zu machen
-               <lb facs="#facs_1_region_1784436907693_22_tl_6" n="N006"/>gewußt. Die wenigen Salonstücke und Lieder, welche er in
-               <lb facs="#facs_1_region_1784436907693_22_tl_7" n="N007"/>seiner ersten Virtuosen-Epoche herausgab, kennzeichnen ihn als
-               <lb facs="#facs_1_region_1784436907693_22_tl_8" n="N008"/>eleganten Musiker von durchaus <rs type="place">deutsch</rs>er Bildung mit einem
-               <lb facs="#facs_1_region_1784436907693_22_tl_9" n="N009"/>leichten Stich ins <rs type="place">Französisch</rs>e. Trotz seiner <rs type="place">polnisch</rs>en Ab¬
-               <lb facs="#facs_1_region_1784436907693_22_tl_10" n="N010"/>stammung und langjährigen Thätigkeit in <rs type="place">Rußland</rs> hat
-               <lb facs="#facs_1_region_1784436907693_22_tl_11" n="N011"/>
-               <rs type="person">Leschetizky</rs> kein Atom slavischen Musikgeistes angezogen. Seine
-               <lb facs="#facs_1_region_1784436907693_22_tl_12" n="N012"/>spärliche Productivität entsprang wol aus richtiger Selbst¬
-               <lb facs="#facs_1_region_1784436907693_22_tl_13" n="N013"/>kenntniß und Selbstachtung: nicht reich genug an origineller
-               <lb facs="#facs_1_region_1784436907693_22_tl_14" n="N014"/>Erfindungskraft, war er doch stolz genug, um den Markt
-               <lb facs="#facs_1_region_1784436907693_22_tl_15" n="N015"/>nicht mit Unbedeutendem zu überschwemmen. Auch seine ein¬
-               <lb facs="#facs_1_region_1784436907693_22_tl_16" n="N016"/>zige Oper: „<rs type="bibl">Die erste Falte</rs>“, ist eine Arbeit früherer Jahre
-               <lb facs="#facs_1_region_1784436907693_22_tl_17" n="N017"/>und vor länger als einem Decennium bereits in <rs type="place">Prag</rs> auf¬
-               <lb facs="#facs_1_region_1784436907693_22_tl_18" n="N018"/>geführt. Der Dichter des Textbuches, <hi rendition="#em">
-                  <rs type="person">Mosenthal</rs>
-               </hi>, hat
-               <lb facs="#facs_1_region_1784436907693_22_tl_19" n="N019"/>für dieses wie für manches frühere Libretto einen <rs type="place" continued="true">französi¬</rs>
-               <lb facs="#facs_1_region_1784436907693_22_tl_20" n="N020"/>
-               <rs type="place" continued="true">sch</rs>en Lustspielstoff benützt. Eine elegante junge <rs type="person">Witwe</rs> kann
-               <lb facs="#facs_1_region_1784436907693_22_tl_21" n="N021"/>sich nicht zur zweiten Ehe entschließen, obwol sie die Auswahl
-               <lb facs="#facs_1_region_1784436907693_22_tl_22" n="N022"/>unter drei Bewerbern hat: einem <rs type="person">Graf</rs>en von altem Adel,
-               <lb facs="#facs_1_region_1784436907693_22_tl_23" n="N023"/>einem reichen <rs type="person">Bankier</rs> und einem jungen hübschen <rs type="person">Vicomte</rs>.
-               <lb facs="#facs_1_region_1784436907693_22_tl_24" n="N024"/>Letzterer allein scheint sie aufrichtig zu lieben, trotzdem findet
-               <lb facs="#facs_1_region_1784436907693_22_tl_25" n="N025"/>er kein Gehör. Zum Glücke nimmt ihn das Kammermädchen
-               <lb facs="#facs_1_region_1784436907693_22_tl_26" n="N026"/>
-               <rs type="person">Juliette</rs> in ihren Schutz. Man kennt die Macht der
-               <lb facs="#facs_1_region_1784436907693_22_tl_27" n="N027"/>Kammerzofen in der älteren Comödie, wo sie sich nicht blos
-               <lb facs="#facs_1_region_1784436907693_22_tl_28" n="N028"/>die kecksten Einreden erlauben, sondern ohneweiters auch Herz
-               <lb facs="#facs_1_region_1784436907693_22_tl_29" n="N029"/>und Hand ihrer Herrin nach Belieben lenken. <rs type="person">Juliette</rs> hat
-               <lb facs="#facs_1_region_1784436907693_22_tl_30" n="N030"/>eben wieder vergebliche Heiratsermahnungen verschwendet, als
-               <lb facs="#facs_1_region_1784436907693_22_tl_31" n="N031"/>sie auf der Stirne der <rs type="person">Marquise</rs> plötzlich etwas Unerhörtes,
-               <lb facs="#facs_1_region_1784436907693_22_tl_32" n="N032"/>Entsetzliches entdeckt — die erste Falte! Das stärkste Argu¬
-               <lb facs="#facs_1_region_1784436907693_22_tl_33" n="N033"/>ment, mit dem Heiraten nicht länger zu zögern. Schnell
-               <lb facs="#facs_1_region_1784436907693_22_tl_34" n="N034"/>schreibt die <rs type="person">Marquise</rs> drei Briefchen an ihre drei <rs type="person">Freier</rs>. —
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1784436912482_25_tl_1" n="N001"/>Einer von ihnen wird zu intimer Unterredung für den Abend
+         <lb facs="#facs_1_region_1784436912482_25_tl_2" n="N002"/>gebeten, die beiden anderen erhalten höfliche Abschiede. Die
+         <lb facs="#facs_1_region_1784436912482_25_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_9244">Marquise</rs>, die eben zur Messe eilte, überläßt es dem <rs type="person" ref="#hsl_person_id_9246">Kammer
+         <lb facs="#facs_1_region_1784436912482_25_tl_4" n="N004" break="no"/>mädchen</rs>, die Adressen auf die drei Briefe zu schreiben. <rs type="person" ref="#hsl_person_id_9246">Ju
+         <lb facs="#facs_1_region_1784436912482_25_tl_5" n="N005" break="no"/>liette</rs> will den Zufall walten lassen; sie schüttelt die Briefe
+         <lb facs="#facs_1_region_1784436912482_25_tl_6" n="N006"/>in ihrer Schürze durcheinander, schreibt dann aufs Gerathe
+         <lb facs="#facs_1_region_1784436912482_25_tl_7" n="N007" break="no"/>wohl die Adressen und schickt den <rs type="person" ref="#hsl_person_id_9247">Kammerdiener</rs> eiligst mit
+         <lb facs="#facs_1_region_1784436912482_25_tl_8" n="N008"/>den verhängnißvollen Depeschen fort. Wie man vermuthen
+         <lb facs="#facs_1_region_1784436912482_25_tl_9" n="N009"/>kann, gelangt der günstige Bescheid an den <rs type="person" ref="#hsl_person_id_9245">Vicomte</rs>, der nun
+         <lb facs="#facs_1_region_1784436912482_25_tl_10" n="N010"/>überglücklich sich einstellt und nach mannichfachen, nicht gerade
+         <lb facs="#facs_1_region_1784436912482_25_tl_11" n="N011"/>unumgänglich nothwendigen Hin- und Herreden die Hand der
+         <lb facs="#facs_1_region_1784436912482_25_tl_12" n="N012"/><rs type="person" ref="#hsl_person_id_9244">Marquise</rs> erhält. — Der Stoff ist nicht übel für ein einactiges Lust
+         <lb facs="#facs_1_region_1784436912482_25_tl_13" n="N013" break="no"/>spiel, das im Kreuzfeuer eines witzigen Dialogs sich rasch abspielt.
+         <lb facs="#facs_1_region_1784436912482_25_tl_14" n="N014"/>Weniger eignet er sich für musikalische Bearbeitung; die
+         <lb facs="#facs_1_region_1784436912482_25_tl_15" n="N015"/>Musik will ihrer Natur gemäß sich ausbreiten, vertiefen, und
+         <lb facs="#facs_1_region_1784436912482_25_tl_16" n="N016"/>da geräth jede Scene, zumal wenn sie mit <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er Gründ
+         <lb facs="#facs_1_region_1784436912482_25_tl_17" n="N017" break="no"/>lichkeit componirt wird, zu lang. Wie schnell ist im Lustspiel-
+         <lb facs="#facs_1_region_1784436912482_25_tl_18" n="N018"/>Dialog die unglückliche Falte entdeckt und besprochen, die in
+         <lb facs="#facs_1_region_1784436912482_25_tl_19" n="N019"/>der Oper ein unsäglich langes Duett in Anspruch nimmt.
+         <lb facs="#facs_1_region_1784436912482_25_tl_20" n="N020"/>Das macht die Sache ernsthafter, als sich geziemt, und lang
+         <lb facs="#facs_1_region_1784436912482_25_tl_21" n="N021" break="no"/>wieriger, als uns lieb ist. Aehnlich verhält es sich mit dem
+         <lb facs="#facs_1_region_1784436912482_25_tl_22" n="N022"/>Angelpunkte der Intrigue, dem Vermischen der drei Briefe;
+         <lb facs="#facs_1_region_1784436912482_25_tl_23" n="N023"/>wie viel Gesang verbraucht <rs type="person" ref="#hsl_person_id_9246">Juliette</rs> dazu und obendrein eine
+         <lb facs="#facs_1_region_1784436912482_25_tl_24" n="N024"/>Beschwörungs-Declamation mit melodramatischer Begleitung
+         <lb facs="#facs_1_region_1784436912482_25_tl_25" n="N025"/>des Orchesters! <rs type="person" ref="#hsl_person_id_9246">Juliette</rs> hat außer dem Duett mit der <rs type="person" ref="#hsl_person_id_9244">Mar
+         <lb facs="#facs_1_region_1784436912482_25_tl_26" n="N026" break="no"/>quise</rs> ein zweites mit dem <rs type="person" ref="#hsl_person_id_9245">Vicomte</rs> und ein drittes mit dem
+         <lb facs="#facs_1_region_1784436912482_25_tl_27" n="N027"/><rs type="person" ref="#hsl_person_id_9247">Kammerdiener</rs> — Letzterer müßte nicht <rs type="person" ref="#hsl_person_id_9246">Juliette</rs>ns Verehrer
+         <lb facs="#facs_1_region_1784436912482_25_tl_28" n="N028"/>sein, wenn er ohne zwei Ohrfeigen aus dem Duett heraus
+         <lb facs="#facs_1_region_1784436912482_25_tl_29" n="N029" break="no"/>käme; das ist ein ehrwürdiger Brauch in der komischen
+         <lb facs="#facs_1_region_1784436912482_25_tl_30" n="N030"/>Oper. In der längsten und gefühlvollsten Arie (mit obliga
+         <lb facs="#facs_1_region_1784436912482_25_tl_31" n="N031" break="no"/>tem Violin-Solo) spricht sich natürlich die <rs type="person" ref="#hsl_person_id_9244">Marquise</rs> aus, und
+         <lb facs="#facs_1_region_1784436912482_25_tl_32" n="N032"/>als endlich alle Personen zum Schlusse auf der Bühne ver
+         <lb facs="#facs_1_region_1784436912482_25_tl_33" n="N033" break="no"/>sammelt und keinerlei Schwierigkeiten mehr zu besiegen sind,
+         <lb facs="#facs_1_region_1784436912482_25_tl_34" n="N034"/>wird noch lange fort und fort gesungen. Dieses Ueberwuchern
+         <lb facs="#facs_1_region_1784436912482_25_tl_35" n="N035"/>der Musik über den Rahmen einer so winzigen Handlung
+         <lb facs="#facs_1_region_1784436912482_25_tl_36" n="N036"/>hinaus gibt dem Ganzen einen schwerfälligen, schleichen
+         <lb facs="#facs_1_region_1784436912482_25_tl_37" n="N037" break="no"/>den Gang — die gewöhnliche Folge lyrischer Verfettung.
+         <lb facs="#facs_1_region_1784436912482_25_tl_38" n="N038"/>Der Schwäche des <rs type="person" ref="#hsl_person_id_188">Mosenthal</rs>’schen Textbuchs kommt <rs type="person" ref="#hsl_person_id_5544">Lesche
+         <lb facs="#facs_1_region_1784436912482_25_tl_39" n="N039" break="no"/>tizky</rs>’s mehr musikalische als dramatische Natur auf halbem
+         <lb facs="#facs_1_region_1784436912482_25_tl_40" n="N040"/>Wege entgegen. Er arbeitet jedes Musikstück sorgfältig und<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1784436912482_25_tl_1" n="N001"/>Einer von ihnen wird zu intimer Unterredung für den Abend
-               <lb facs="#facs_1_region_1784436912482_25_tl_2" n="N002"/>gebeten, die beiden anderen erhalten höfliche Abschiede. Die
-               <lb facs="#facs_1_region_1784436912482_25_tl_3" n="N003"/>
-               <rs type="person">Marquise</rs>, die eben zur Messe eilte, überläßt es dem <rs type="person" continued="true">Kammer¬</rs>
-               <lb facs="#facs_1_region_1784436912482_25_tl_4" n="N004"/>
-               <rs type="person" continued="true">mädchen</rs>, die Adressen auf die drei Briefe zu schreiben. <rs type="person" continued="true">Ju¬</rs>
-               <lb facs="#facs_1_region_1784436912482_25_tl_5" n="N005"/>
-               <rs type="person" continued="true">liette</rs> will den Zufall walten lassen; sie schüttelt die Briefe
-               <lb facs="#facs_1_region_1784436912482_25_tl_6" n="N006"/>in ihrer Schürze durcheinander, schreibt dann aufs Gerathe¬
-               <lb facs="#facs_1_region_1784436912482_25_tl_7" n="N007"/>wohl die Adressen und schickt den <rs type="person">Kammerdiener</rs> eiligst mit
-               <lb facs="#facs_1_region_1784436912482_25_tl_8" n="N008"/>den verhängnißvollen Depeschen fort. Wie man vermuthen
-               <lb facs="#facs_1_region_1784436912482_25_tl_9" n="N009"/>kann, gelangt der günstige Bescheid an den <rs type="person">Vicomte</rs>, der nun
-               <lb facs="#facs_1_region_1784436912482_25_tl_10" n="N010"/>überglücklich sich einstellt und nach mannichfachen, nicht gerade
-               <lb facs="#facs_1_region_1784436912482_25_tl_11" n="N011"/>unumgänglich nothwendigen Hin- und Herreden die Hand der
-               <lb facs="#facs_1_region_1784436912482_25_tl_12" n="N012"/>
-               <rs type="person">Marquise</rs> erhält. — Der Stoff ist nicht übel für ein einactiges Lust¬
-               <lb facs="#facs_1_region_1784436912482_25_tl_13" n="N013"/>spiel, das im Kreuzfeuer eines witzigen Dialogs sich rasch abspielt.
-               <lb facs="#facs_1_region_1784436912482_25_tl_14" n="N014"/>Weniger eignet er sich für musikalische Bearbeitung; die
-               <lb facs="#facs_1_region_1784436912482_25_tl_15" n="N015"/>Musik will ihrer Natur gemäß sich ausbreiten, vertiefen, und
-               <lb facs="#facs_1_region_1784436912482_25_tl_16" n="N016"/>da geräth jede Scene, zumal wenn sie mit <rs type="place">deutsch</rs>er Gründ¬
-               <lb facs="#facs_1_region_1784436912482_25_tl_17" n="N017"/>lichkeit componirt wird, zu lang. Wie schnell ist im Lustspiel-
-               <lb facs="#facs_1_region_1784436912482_25_tl_18" n="N018"/>Dialog die unglückliche Falte entdeckt und besprochen, die in
-               <lb facs="#facs_1_region_1784436912482_25_tl_19" n="N019"/>der Oper ein unsäglich langes Duett in Anspruch nimmt.
-               <lb facs="#facs_1_region_1784436912482_25_tl_20" n="N020"/>Das macht die Sache ernsthafter, als sich geziemt, und lang¬
-               <lb facs="#facs_1_region_1784436912482_25_tl_21" n="N021"/>wieriger, als uns lieb ist. Aehnlich verhält es sich mit dem
-               <lb facs="#facs_1_region_1784436912482_25_tl_22" n="N022"/>Angelpunkte der Intrigue, dem Vermischen der drei Briefe;
-               <lb facs="#facs_1_region_1784436912482_25_tl_23" n="N023"/>wie viel Gesang verbraucht <rs type="person">Juliette</rs> dazu und obendrein eine
-               <lb facs="#facs_1_region_1784436912482_25_tl_24" n="N024"/>Beschwörungs-Declamation mit melodramatischer Begleitung
-               <lb facs="#facs_1_region_1784436912482_25_tl_25" n="N025"/>des Orchesters! <rs type="person">Juliette</rs> hat außer dem Duett mit der <rs type="person" continued="true">Mar¬</rs>
-               <lb facs="#facs_1_region_1784436912482_25_tl_26" n="N026"/>
-               <rs type="person" continued="true">quise</rs> ein zweites mit dem <rs type="person">Vicomte</rs> und ein drittes mit dem
-               <lb facs="#facs_1_region_1784436912482_25_tl_27" n="N027"/>
-               <rs type="person">Kammerdiener</rs> — Letzterer müßte nicht <rs type="person">Juliette</rs>ns Verehrer
-               <lb facs="#facs_1_region_1784436912482_25_tl_28" n="N028"/>sein, wenn er ohne zwei Ohrfeigen aus dem Duett heraus¬
-               <lb facs="#facs_1_region_1784436912482_25_tl_29" n="N029"/>käme; das ist ein ehrwürdiger Brauch in der komischen
-               <lb facs="#facs_1_region_1784436912482_25_tl_30" n="N030"/>Oper. In der längsten und gefühlvollsten Arie (mit obliga¬
-               <lb facs="#facs_1_region_1784436912482_25_tl_31" n="N031"/>tem Violin-Solo) spricht sich natürlich die <rs type="person">Marquise</rs> aus, und
-               <lb facs="#facs_1_region_1784436912482_25_tl_32" n="N032"/>als endlich alle Personen zum Schlusse auf der Bühne ver¬
-               <lb facs="#facs_1_region_1784436912482_25_tl_33" n="N033"/>sammelt und keinerlei Schwierigkeiten mehr zu besiegen sind,
-               <lb facs="#facs_1_region_1784436912482_25_tl_34" n="N034"/>wird noch lange fort und fort gesungen. Dieses Ueberwuchern
-               <lb facs="#facs_1_region_1784436912482_25_tl_35" n="N035"/>der Musik über den Rahmen einer so winzigen Handlung
-               <lb facs="#facs_1_region_1784436912482_25_tl_36" n="N036"/>hinaus gibt dem Ganzen einen schwerfälligen, schleichen¬
-               <lb facs="#facs_1_region_1784436912482_25_tl_37" n="N037"/>den Gang — die gewöhnliche Folge lyrischer Verfettung.
-               <lb facs="#facs_1_region_1784436912482_25_tl_38" n="N038"/>Der Schwäche des <rs type="person">Mosenthal</rs>'schen Textbuchs kommt <rs type="person" continued="true">Lesche¬</rs>
-               <lb facs="#facs_1_region_1784436912482_25_tl_39" n="N039"/>
-               <rs type="person" continued="true">tizky</rs>'s mehr musikalische als dramatische Natur auf halbem
-               <lb facs="#facs_1_region_1784436912482_25_tl_40" n="N040"/>Wege entgegen. Er arbeitet jedes Musikstück sorgfältig und
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1784436915899_28_tl_1" n="N001"/>umständlich aus, so umständlich, daß er selber in dem ge¬
-               <lb facs="#facs_1_region_1784436915899_28_tl_2" n="N002"/>druckten Clavierauszug zahlreiche Weisungen für die Diri¬
-               <lb facs="#facs_1_region_1784436915899_28_tl_3" n="N003"/>genten gibt, wo und wie viel sie bei der Aufführung streichen
-               <lb facs="#facs_1_region_1784436915899_28_tl_4" n="N004"/>können. Man hat sich das in <rs type="place">Wien</rs> nicht zweimal sagen
-               <lb facs="#facs_1_region_1784436915899_28_tl_5" n="N005"/>lassen, und gleich die reizend anhebende, aber niemals auf¬
-               <lb facs="#facs_1_region_1784436915899_28_tl_6" n="N006"/>hörende Ouvertüre zeigte sich, sehr zu ihrem Vortheil, auf
-               <lb facs="#facs_1_region_1784436915899_28_tl_7" n="N007"/>ein Drittheil ihres ursprünglichen Volumens eingeschmolzen.
-               <lb facs="#facs_1_region_1784436915899_28_tl_8" n="N008"/>
-               <rs type="person">Leschetizky</rs> gehört zu den Tondichtern, die mit ihrer technischen
-               <lb facs="#facs_1_region_1784436915899_28_tl_9" n="N009"/>Gewandtheit und geschmackvollen Anempfindung componiren,
-               <lb facs="#facs_1_region_1784436915899_28_tl_10" n="N010"/>wie es heute so viele Dichter gibt, die lediglich aus ihrer
-               <lb facs="#facs_1_region_1784436915899_28_tl_11" n="N011"/>Bildung heraus dichten, nicht aus ureigener poetischer Kraft.
-               <lb facs="#facs_1_region_1784436915899_28_tl_12" n="N012"/>In der „<rs type="bibl">Ersten Falte</rs>“ hat uns <rs type="person">Leschetizky</rs> eigentlich nichts
-               <lb facs="#facs_1_region_1784436915899_28_tl_13" n="N013"/>Neues zu sagen, aber ein feiner guter Gesellschafter, der er
-               <lb facs="#facs_1_region_1784436915899_28_tl_14" n="N014"/>ist, sagt er Gewöhnliches in gewählten Ausdrücken und äußert
-               <lb facs="#facs_1_region_1784436915899_28_tl_15" n="N015"/>seine Empfindungen nicht als Poet, sondern als Homme du
-               <lb facs="#facs_1_region_1784436915899_28_tl_16" n="N016"/>monde. So macht denn seine Oper den Eindruck einer
-               <lb facs="#facs_1_region_1784436915899_28_tl_17" n="N017"/>durchaus sorgfältigen, distinguirten Arbeit, nicht aber einer
-               <lb facs="#facs_1_region_1784436915899_28_tl_18" n="N018"/>dramatisch lebensvollen Schöpfung. Der gute Musiker offen¬
-               <lb facs="#facs_1_region_1784436915899_28_tl_19" n="N019"/>bart sich darin überall, der graziöse häufig, der originelle
-               <lb facs="#facs_1_region_1784436915899_28_tl_20" n="N020"/>nirgends. Gehen wir die einzelnen Stücke der „<rs type="bibl">Ersten</rs>
-               <lb facs="#facs_1_region_1784436915899_28_tl_21" n="N021"/>
-               <rs type="bibl">Falte</rs>“ durch, so müssen wir einem jeden formelle
-               <lb facs="#facs_1_region_1784436915899_28_tl_22" n="N022"/>Abrundung, richtigen Ausdruck und feine Instrumentirung
-               <lb facs="#facs_1_region_1784436915899_28_tl_23" n="N023"/>nachrühmen. Aber nicht Eines wüßten wir zu nennen, das
-               <lb facs="#facs_1_region_1784436915899_28_tl_24" n="N024"/>durch eine originelle glückliche Melodie oder durch überströ¬
-               <lb facs="#facs_1_region_1784436915899_28_tl_25" n="N025"/>menden Humor den Hörer mit sich fortreißen könnte. Als
-               <lb facs="#facs_1_region_1784436915899_28_tl_26" n="N026"/>Eigenheiten, welche der dramatischen Wirkung abträglich sind,
-               <lb facs="#facs_1_region_1784436915899_28_tl_27" n="N027"/>finden wir bei <rs type="person">Leschetizky</rs> die allzu strenge Symmetrie des
-               <lb facs="#facs_1_region_1784436915899_28_tl_28" n="N028"/>Periodenbaues, ferner maßlos gehäufte Textwiederholungen,
-               <lb facs="#facs_1_region_1784436915899_28_tl_29" n="N029"/>endlich gewisse conventionell ausgesponnene Gesangszierrathen
-               <lb facs="#facs_1_region_1784436915899_28_tl_30" n="N030"/>und Schlußcadenzen. Als das beste, weil lebendigste und
-               <lb facs="#facs_1_region_1784436915899_28_tl_31" n="N031"/>heiterste Stück erscheint uns die Ariette <rs type="person">Juliette</rs>ns in As-dur
-               <lb facs="#facs_1_region_1784436915899_28_tl_32" n="N032"/>(„All' ihr Amoretten“); sie mahnt wenigstens in ihrem An¬
-               <lb facs="#facs_1_region_1784436915899_28_tl_33" n="N033"/>fange an die schelmische Grazie der <rs type="place">französisch</rs>en Opéra co¬
-               <lb facs="#facs_1_region_1784436915899_28_tl_34" n="N034"/>mique. Bei dem oben geschilderten Charakter von Text und
-               <lb facs="#facs_1_region_1784436915899_28_tl_35" n="N035"/>Musik konnte es nicht anders kommen, als daß die neue
-               <lb facs="#facs_1_region_1784436915899_28_tl_36" n="N036"/>Oper mit achtungsvollem Wohlwollen, aber ohne besondere
-               <lb facs="#facs_1_region_1784436915899_28_tl_37" n="N037"/>Aufregung angehört wurde. <rs type="person">Leschetizky</rs>'s Oper, von Herrn Hof¬
-               <lb facs="#facs_1_region_1784436915899_28_tl_38" n="N038"/>capellmeister Hanns <hi rendition="#em">
-                  <rs type="person">Richter</rs>
-               </hi> mit freundschaftlicher Sorgfalt
-               <lb facs="#facs_1_region_1784436915899_28_tl_39" n="N039"/>studirt und dirigirt, wird von den Damen <hi rendition="#em">
-                  <rs type="person">Lehmann</rs>
-               </hi> und
-               <lb facs="#facs_1_region_1784436915899_28_tl_40" n="N040"/>
-               <hi rendition="#em">
-                  <rs type="person">Braga</rs>
-               </hi> vortrefflich gesungen, von den Herren <hi rendition="#em">
-                  <rs type="person">Peschier</rs>
-               </hi>
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1784436915899_28_tl_1" n="N001"/>umständlich aus, so umständlich, daß er selber in dem ge
+         <lb facs="#facs_1_region_1784436915899_28_tl_2" n="N002" break="no"/>druckten Clavierauszug zahlreiche Weisungen für die Diri
+         <lb facs="#facs_1_region_1784436915899_28_tl_3" n="N003" break="no"/>genten gibt, wo und wie viel sie bei der Aufführung streichen
+         <lb facs="#facs_1_region_1784436915899_28_tl_4" n="N004"/>können. Man hat sich das in <rs type="place" ref="#hsl_place_id_55">Wien</rs> nicht zweimal sagen
+         <lb facs="#facs_1_region_1784436915899_28_tl_5" n="N005"/>lassen, und gleich die reizend anhebende, aber niemals auf
+         <lb facs="#facs_1_region_1784436915899_28_tl_6" n="N006" break="no"/>hörende Ouvertüre zeigte sich, sehr zu ihrem Vortheil, auf
+         <lb facs="#facs_1_region_1784436915899_28_tl_7" n="N007"/>ein Drittheil ihres ursprünglichen Volumens eingeschmolzen.
+         <lb facs="#facs_1_region_1784436915899_28_tl_8" n="N008"/><rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs> gehört zu den Tondichtern, die mit ihrer technischen
+         <lb facs="#facs_1_region_1784436915899_28_tl_9" n="N009"/>Gewandtheit und geschmackvollen Anempfindung componiren,
+         <lb facs="#facs_1_region_1784436915899_28_tl_10" n="N010"/>wie es heute so viele Dichter gibt, die lediglich aus ihrer
+         <lb facs="#facs_1_region_1784436915899_28_tl_11" n="N011"/>Bildung heraus dichten, nicht aus ureigener poetischer Kraft.
+         <lb facs="#facs_1_region_1784436915899_28_tl_12" n="N012"/>In der „<rs type="bibl" ref="#hsl_work_id_6768">Ersten Falte</rs>“ hat uns <rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs> eigentlich nichts
+         <lb facs="#facs_1_region_1784436915899_28_tl_13" n="N013"/>Neues zu sagen, aber ein feiner guter Gesellschafter, der er
+         <lb facs="#facs_1_region_1784436915899_28_tl_14" n="N014"/>ist, sagt er Gewöhnliches in gewählten Ausdrücken und äußert
+         <lb facs="#facs_1_region_1784436915899_28_tl_15" n="N015"/>seine Empfindungen nicht als Poet, sondern als Homme du
+         <lb facs="#facs_1_region_1784436915899_28_tl_16" n="N016"/>monde. So macht denn seine Oper den Eindruck einer
+         <lb facs="#facs_1_region_1784436915899_28_tl_17" n="N017"/>durchaus sorgfältigen, distinguirten Arbeit, nicht aber einer
+         <lb facs="#facs_1_region_1784436915899_28_tl_18" n="N018"/>dramatisch lebensvollen Schöpfung. Der gute Musiker offen
+         <lb facs="#facs_1_region_1784436915899_28_tl_19" n="N019" break="no"/>bart sich darin überall, der graziöse häufig, der originelle
+         <lb facs="#facs_1_region_1784436915899_28_tl_20" n="N020"/>nirgends. Gehen wir die einzelnen Stücke der „<rs type="bibl" ref="#hsl_work_id_6768">Ersten
+         <lb facs="#facs_1_region_1784436915899_28_tl_21" n="N021"/>Falte</rs>“ durch, so müssen wir einem jeden formelle
+         <lb facs="#facs_1_region_1784436915899_28_tl_22" n="N022"/>Abrundung, richtigen Ausdruck und feine Instrumentirung
+         <lb facs="#facs_1_region_1784436915899_28_tl_23" n="N023"/>nachrühmen. Aber nicht Eines wüßten wir zu nennen, das
+         <lb facs="#facs_1_region_1784436915899_28_tl_24" n="N024"/>durch eine originelle glückliche Melodie oder durch überströ
+         <lb facs="#facs_1_region_1784436915899_28_tl_25" n="N025" break="no"/>menden Humor den Hörer mit sich fortreißen könnte. Als
+         <lb facs="#facs_1_region_1784436915899_28_tl_26" n="N026"/>Eigenheiten, welche der dramatischen Wirkung abträglich sind,
+         <lb facs="#facs_1_region_1784436915899_28_tl_27" n="N027"/>finden wir bei <rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs> die allzu strenge Symmetrie des
+         <lb facs="#facs_1_region_1784436915899_28_tl_28" n="N028"/>Periodenbaues, ferner maßlos gehäufte Textwiederholungen,
+         <lb facs="#facs_1_region_1784436915899_28_tl_29" n="N029"/>endlich gewisse conventionell ausgesponnene Gesangszierrathen
+         <lb facs="#facs_1_region_1784436915899_28_tl_30" n="N030"/>und Schlußcadenzen. Als das beste, weil lebendigste und
+         <lb facs="#facs_1_region_1784436915899_28_tl_31" n="N031"/>heiterste Stück erscheint uns die Ariette <rs type="person" ref="#hsl_person_id_9246">Juliette</rs>ns in As-dur
+         <lb facs="#facs_1_region_1784436915899_28_tl_32" n="N032"/>(„All’ ihr Amoretten“); sie mahnt wenigstens in ihrem An
+         <lb facs="#facs_1_region_1784436915899_28_tl_33" n="N033" break="no"/>fange an die schelmische Grazie der <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Opéra co
+         <lb facs="#facs_1_region_1784436915899_28_tl_34" n="N034" break="no"/>mique. Bei dem oben geschilderten Charakter von Text und
+         <lb facs="#facs_1_region_1784436915899_28_tl_35" n="N035"/>Musik konnte es nicht anders kommen, als daß die neue
+         <lb facs="#facs_1_region_1784436915899_28_tl_36" n="N036"/>Oper mit achtungsvollem Wohlwollen, aber ohne besondere
+         <lb facs="#facs_1_region_1784436915899_28_tl_37" n="N037"/>Aufregung angehört wurde. <rs type="person" ref="#hsl_person_id_5544">Leschetizky</rs>’s Oper, von Herrn Hof
+         <lb facs="#facs_1_region_1784436915899_28_tl_38" n="N038" break="no"/>capellmeister Hanns <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1399">Richter</rs></hi> mit freundschaftlicher Sorgfalt
+         <lb facs="#facs_1_region_1784436915899_28_tl_39" n="N039"/>studirt und dirigirt, wird von den Damen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3746">Lehmann</rs></hi> und
+         <lb facs="#facs_1_region_1784436915899_28_tl_40" n="N040"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_7790">Braga</rs></hi> vortrefflich gesungen, von den Herren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9255">Peschier</rs></hi><space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784436933172_34_tl_1" n="N001"/>und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_183">Mayerhofer</rs></hi> wacker unterstützt. Eine bessere Be
+         <lb facs="#facs_2_region_1784436933172_34_tl_2" n="N002" break="no"/>setzung, ein vorzüglicheres Orchester dürfte die „<rs type="bibl" ref="#hsl_work_id_6768">Erste Falte</rs>“
+         <lb facs="#facs_2_region_1784436933172_34_tl_3" n="N003"/>gewiß auf keiner anderen Bühne finden. Und doch sind wir
+         <lb facs="#facs_2_region_1784436933172_34_tl_4" n="N004"/>überzeugt, daß sie auf einem kleineren Theater mehr Wir
+         <lb facs="#facs_2_region_1784436933172_34_tl_5" n="N005" break="no"/>kung erzielen wird, als in den weiten Räumen des Hof
+         <lb facs="#facs_2_region_1784436933172_34_tl_6" n="N006" break="no"/>operntheaters, das nun einmal für dergleichen kleine Spiel
+         <lb facs="#facs_2_region_1784436933172_34_tl_7" n="N007" break="no"/>opern ungünstig ist und bleibt. Die Mitwirkenden wurden
+         <lb facs="#facs_2_region_1784436933172_34_tl_8" n="N008"/>nach Verdienst am Schlusse der Oper lebhaft gerufen. Trotz
+         <lb facs="#facs_2_region_1784436933172_34_tl_9" n="N009" break="no"/>dem glauben wir, die nächste Zukunft werde diese „<rs type="bibl" ref="#hsl_work_id_6768">erste
+         <lb facs="#facs_2_region_1784436933172_34_tl_10" n="N010"/>Falte</rs>“ in unserem Opern-Repertoire so gründlich glätten,
+         <lb facs="#facs_2_region_1784436933172_34_tl_11" n="N011"/>daß bald gar nichts mehr davon zu sehen sein wird.
+            </p><p>
+         <lb facs="#facs_2_region_1784436933172_34_tl_12" n="N012"/>Wenn das Publicum in der „<rs type="bibl" ref="#hsl_work_id_6768">Ersten Falte</rs>“ über
+         <lb facs="#facs_2_region_1784436933172_34_tl_13" n="N013"/>Mangel an Handlung und scenischem Leben klagen mochte
+         <lb facs="#facs_2_region_1784436933172_34_tl_14" n="N014"/>— das folgende Ballet „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_6769">An der Beresina</rs></hi>“ gab dafür
+         <lb facs="#facs_2_region_1784436933172_34_tl_15" n="N015"/>vollauf zu sehen. Unter dem Titel „<rs type="bibl" ref="#hsl_work_id_6769">Carlo il guastatore</rs>“
+         <lb facs="#facs_2_region_1784436933172_34_tl_16" n="N016"/>ist dieses Ballet vor etwa zwanzig Jahren in <rs type="place" ref="#hsl_place_id_73">Mailand</rs> zuerst
+         <lb facs="#facs_2_region_1784436933172_34_tl_17" n="N017"/>erschienen und spielte bis vor Kurzem eine große Rolle auf
+         <lb facs="#facs_2_region_1784436933172_34_tl_18" n="N018"/>den verschiedenen Opernbühnen <rs type="place" ref="#hsl_place_id_28">Italien</rs>s. Der kürzlich ver
+         <lb facs="#facs_2_region_1784436933172_34_tl_19" n="N019" break="no"/>storbene Balletmeister <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4140">Rota</rs></hi> hatte es „gedichtet“, und der
+         <lb facs="#facs_2_region_1784436933172_34_tl_20" n="N020"/>Componist <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2714">Giorza</rs></hi>, gegenwärtig Weinhändler in <rs type="place" ref="#hsl_place_id_186">Newyork</rs>,
+         <lb facs="#facs_2_region_1784436933172_34_tl_21" n="N021"/>schrieb eine Musik dazu, die mehr nach der Schnapsbude
+         <lb facs="#facs_2_region_1784436933172_34_tl_22" n="N022"/>als nach dem Weinkeller schmeckt. Das reine „Assommoir“.
+         <lb facs="#facs_2_region_1784436933172_34_tl_23" n="N023"/>Wir haben es hier mit einem militärisch-tragischen Stoffe zu
+         <lb facs="#facs_2_region_1784436933172_34_tl_24" n="N024"/>thun — für ein Ballet eine mißliche Vereinigung zweier an
+         <lb facs="#facs_2_region_1784436933172_34_tl_25" n="N025"/>sich nicht schlechthin abzuweisender Elemente. Militärischer
+         <lb facs="#facs_2_region_1784436933172_34_tl_26" n="N026"/>Glanz und buntes Soldatentreiben bringen erquickende Ab
+         <lb facs="#facs_2_region_1784436933172_34_tl_27" n="N027" break="no"/>wechslung in das durch seine ewigen Schäferinnen und Elfen
+         <lb facs="#facs_2_region_1784436933172_34_tl_28" n="N028"/>eintönig gewordene Ballet-Repertoire. Aber die Nachtseite
+         <lb facs="#facs_2_region_1784436933172_34_tl_29" n="N029"/>des Kriegslebens ist zu grauenhaft, seine Tragik zu blutig,
+         <lb facs="#facs_2_region_1784436933172_34_tl_30" n="N030"/>zu entsetzlich für die realistische Darstellung im Ballet. Daß
+         <lb facs="#facs_2_region_1784436933172_34_tl_31" n="N031"/>wir diesmal verurtheilt sind, die braven Soldaten, deren
+         <lb facs="#facs_2_region_1784436933172_34_tl_32" n="N032"/>fröhlichen Ausmarsch wir mitgefeiert, in furchtbarem Elende
+         <lb facs="#facs_2_region_1784436933172_34_tl_33" n="N033"/>umkommen zu sehen, das verräth uns schon der Titel „<rs type="bibl" ref="#hsl_work_id_6769">An
+         <lb facs="#facs_2_region_1784436933172_34_tl_34" n="N034"/>der Beresina</rs>“. Das neue Ballet behandelt ein Stück
+         <lb facs="#facs_2_region_1784436933172_34_tl_35" n="N035"/>Historie, und die Kriegsgeschichte aller Zeiten kennt
+         <lb facs="#facs_2_region_1784436933172_34_tl_36" n="N036"/>kaum einen entsetzlicheren Ausgang, als die Flucht der <rs type="person" ref="#hsl_person_id_39">na
+         <lb facs="#facs_2_region_1784436933172_34_tl_37" n="N037" break="no"/>poleonisch</rs>en Armee nach dem Brande von <rs type="place" ref="#hsl_place_id_151">Moskau</rs> und ihren
+         <lb facs="#facs_2_region_1784436933172_34_tl_38" n="N038"/>letzten Kampf an der <rs type="place" ref="#hsl_place_id_1486">Beresina</rs>. Eine seltsame Wahl für ein
+         <lb facs="#facs_2_region_1784436933172_34_tl_39" n="N039"/>Ballet. Nicht einmal erklärlich aus äußerlich bestechenden,
+         <lb facs="#facs_2_region_1784436933172_34_tl_40" n="N040"/>malerischen Vortheilen; denn das militärische Costüm von<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1784436933172_34_tl_1" n="N001"/>und <hi rendition="#em">
-                  <rs type="person">Mayerhofer</rs>
-               </hi> wacker unterstützt. Eine bessere Be¬
-               <lb facs="#facs_2_region_1784436933172_34_tl_2" n="N002"/>setzung, ein vorzüglicheres Orchester dürfte die „<rs type="bibl">Erste Falte</rs>“
-               <lb facs="#facs_2_region_1784436933172_34_tl_3" n="N003"/>gewiß auf keiner anderen Bühne finden. Und doch sind wir
-               <lb facs="#facs_2_region_1784436933172_34_tl_4" n="N004"/>überzeugt, daß sie auf einem kleineren Theater mehr Wir¬
-               <lb facs="#facs_2_region_1784436933172_34_tl_5" n="N005"/>kung erzielen wird, als in den weiten Räumen des Hof¬
-               <lb facs="#facs_2_region_1784436933172_34_tl_6" n="N006"/>operntheaters, das nun einmal für dergleichen kleine Spiel¬
-               <lb facs="#facs_2_region_1784436933172_34_tl_7" n="N007"/>opern ungünstig ist und bleibt. Die Mitwirkenden wurden
-               <lb facs="#facs_2_region_1784436933172_34_tl_8" n="N008"/>nach Verdienst am Schlusse der Oper lebhaft gerufen. Trotz¬
-               <lb facs="#facs_2_region_1784436933172_34_tl_9" n="N009"/>dem glauben wir, die nächste Zukunft werde diese „<rs type="bibl">erste</rs>
-               <lb facs="#facs_2_region_1784436933172_34_tl_10" n="N010"/>
-               <rs type="bibl">Falte</rs>“ in unserem Opern-Repertoire so gründlich glätten,
-               <lb facs="#facs_2_region_1784436933172_34_tl_11" n="N011"/>daß bald gar nichts mehr davon zu sehen sein wird.
-               <lb facs="#facs_2_region_1784436933172_34_tl_12" n="N012"/>Wenn das Publicum in der „<rs type="bibl">Ersten Falte</rs>“ über
-               <lb facs="#facs_2_region_1784436933172_34_tl_13" n="N013"/>Mangel an Handlung und scenischem Leben klagen mochte
-               <lb facs="#facs_2_region_1784436933172_34_tl_14" n="N014"/>— das folgende Ballet „<hi rendition="#em">
-                  <rs type="bibl">An der Beresina</rs>
-               </hi>“ gab dafür
-               <lb facs="#facs_2_region_1784436933172_34_tl_15" n="N015"/>vollauf zu sehen. Unter dem Titel „<rs type="bibl">Carlo il guastatore</rs>“
-               <lb facs="#facs_2_region_1784436933172_34_tl_16" n="N016"/>ist dieses Ballet vor etwa zwanzig Jahren in <rs type="place">Mailand</rs> zuerst
-               <lb facs="#facs_2_region_1784436933172_34_tl_17" n="N017"/>erschienen und spielte bis vor Kurzem eine große Rolle auf
-               <lb facs="#facs_2_region_1784436933172_34_tl_18" n="N018"/>den verschiedenen Opernbühnen <rs type="place">Italien</rs>s. Der kürzlich ver¬
-               <lb facs="#facs_2_region_1784436933172_34_tl_19" n="N019"/>storbene Balletmeister <hi rendition="#em">
-                  <rs type="person">Rota</rs>
-               </hi> hatte es „gedichtet“, und der
-               <lb facs="#facs_2_region_1784436933172_34_tl_20" n="N020"/>Componist <hi rendition="#em">
-                  <rs type="person">Giorza</rs>
-               </hi>, gegenwärtig Weinhändler in <rs type="place">Newyork</rs>,
-               <lb facs="#facs_2_region_1784436933172_34_tl_21" n="N021"/>schrieb eine Musik dazu, die mehr nach der Schnapsbude
-               <lb facs="#facs_2_region_1784436933172_34_tl_22" n="N022"/>als nach dem Weinkeller schmeckt. Das reine „Assommoir“.
-               <lb facs="#facs_2_region_1784436933172_34_tl_23" n="N023"/>Wir haben es hier mit einem militärisch-tragischen Stoffe zu
-               <lb facs="#facs_2_region_1784436933172_34_tl_24" n="N024"/>thun — für ein Ballet eine mißliche Vereinigung zweier an
-               <lb facs="#facs_2_region_1784436933172_34_tl_25" n="N025"/>sich nicht schlechthin abzuweisender Elemente. Militärischer
-               <lb facs="#facs_2_region_1784436933172_34_tl_26" n="N026"/>Glanz und buntes Soldatentreiben bringen erquickende Ab¬
-               <lb facs="#facs_2_region_1784436933172_34_tl_27" n="N027"/>wechslung in das durch seine ewigen Schäferinnen und Elfen
-               <lb facs="#facs_2_region_1784436933172_34_tl_28" n="N028"/>eintönig gewordene Ballet-Repertoire. Aber die Nachtseite
-               <lb facs="#facs_2_region_1784436933172_34_tl_29" n="N029"/>des Kriegslebens ist zu grauenhaft, seine Tragik zu blutig,
-               <lb facs="#facs_2_region_1784436933172_34_tl_30" n="N030"/>zu entsetzlich für die realistische Darstellung im Ballet. Daß
-               <lb facs="#facs_2_region_1784436933172_34_tl_31" n="N031"/>wir diesmal verurtheilt sind, die braven Soldaten, deren
-               <lb facs="#facs_2_region_1784436933172_34_tl_32" n="N032"/>fröhlichen Ausmarsch wir mitgefeiert, in furchtbarem Elende
-               <lb facs="#facs_2_region_1784436933172_34_tl_33" n="N033"/>umkommen zu sehen, das verräth uns schon der Titel „<rs type="bibl">An</rs>
-               <lb facs="#facs_2_region_1784436933172_34_tl_34" n="N034"/>
-               <rs type="bibl">der Beresina</rs>“. Das neue Ballet behandelt ein Stück
-               <lb facs="#facs_2_region_1784436933172_34_tl_35" n="N035"/>Historie, und die Kriegsgeschichte aller Zeiten kennt
-               <lb facs="#facs_2_region_1784436933172_34_tl_36" n="N036"/>kaum einen entsetzlicheren Ausgang, als die Flucht der <rs type="person" continued="true">na¬</rs>
-               <lb facs="#facs_2_region_1784436933172_34_tl_37" n="N037"/>
-               <rs type="person" continued="true">poleonisch</rs>en Armee nach dem Brande von <rs type="place">Moskau</rs> und ihren
-               <lb facs="#facs_2_region_1784436933172_34_tl_38" n="N038"/>letzten Kampf an der <rs type="place">Beresina</rs>. Eine seltsame Wahl für ein
-               <lb facs="#facs_2_region_1784436933172_34_tl_39" n="N039"/>Ballet. Nicht einmal erklärlich aus äußerlich bestechenden,
-               <lb facs="#facs_2_region_1784436933172_34_tl_40" n="N040"/>malerischen Vortheilen; denn das militärische Costüm von
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784436936425_37_tl_1" n="N001"/><date>1812</date> ist unschön, an Caricatur streifend, und die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e
+         <lb facs="#facs_2_region_1784436936425_37_tl_2" n="N002"/>Damentracht jener Zeit (wie sie uns das Ballfest im fünften
+         <lb facs="#facs_2_region_1784436936425_37_tl_3" n="N003"/>Bilde vorführt) gehört zu den ästhetischen Auswüchsen, welche
+         <lb facs="#facs_2_region_1784436936425_37_tl_4" n="N004"/>der moderne Theaterdichter fast nur noch für komische Zwecke
+         <lb facs="#facs_2_region_1784436936425_37_tl_5" n="N005"/>benützt. Der kriegerische Stoff bringt es obendrein mit sich,
+         <lb facs="#facs_2_region_1784436936425_37_tl_6" n="N006"/>daß in dem neuen Ballet mehr geschossen als getanzt wird.
+         <lb facs="#facs_2_region_1784436936425_37_tl_7" n="N007"/>Der Anfang ist ungemein effectvoll. Wir stehen am Vor
+         <lb facs="#facs_2_region_1784436936425_37_tl_8" n="N008" break="no"/>abende des <rs type="place" ref="#hsl_place_id_48">russisch</rs>en Feldzuges, <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Truppen aller
+         <lb facs="#facs_2_region_1784436936425_37_tl_9" n="N009"/>Waffengattungen sammeln sich zum Abmarsch in einer Hafen
+         <lb facs="#facs_2_region_1784436936425_37_tl_10" n="N010" break="no"/>stadt, deren bewimpelte Schiffe einen malerischen Hintergrund
+         <lb facs="#facs_2_region_1784436936425_37_tl_11" n="N011"/>bilden zu dem fröhlich bewegten Treiben der Soldaten und
+         <lb facs="#facs_2_region_1784436936425_37_tl_12" n="N012"/>Marketenderinnen. Da erscheint <rs type="person" ref="#hsl_person_id_9248">Napoleon</rs> auf seinem
+         <lb facs="#facs_2_region_1784436936425_37_tl_13" n="N013"/>Schimmel, um die Revue abzuhalten, in seiner Suite er
+         <lb facs="#facs_2_region_1784436936425_37_tl_14" n="N014" break="no"/>kennt man unschwer die porträtgetreuen Gestalten seiner be
+         <lb facs="#facs_2_region_1784436936425_37_tl_15" n="N015" break="no"/>rühmtesten Generale: Marschall <rs type="person" ref="#hsl_person_id_9254">Ney</rs>, <rs type="person" ref="#hsl_person_id_9253">Poniatowski</rs>, <rs type="person" ref="#hsl_person_id_4801">Murat</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784436936425_37_tl_16" n="N016"/>u. A., auch den treuen Mameluken dicht hinter dem <rs type="person" ref="#hsl_person_id_9248">Kaiser</rs>.
+         <lb facs="#facs_2_region_1784436936425_37_tl_17" n="N017"/>Ueber diese glänzende Revue fällt zum erstenmale der Vorhang.
+         <lb facs="#facs_2_region_1784436936425_37_tl_18" n="N018"/>Der zweite Art führt uns in ein bescheidenes Wohnzimmer, in
+         <lb facs="#facs_2_region_1784436936425_37_tl_19" n="N019"/>welchem sich gleich einer der schwersten sittlichen Conflicte abspielt.
+         <lb facs="#facs_2_region_1784436936425_37_tl_20" n="N020"/>Der tapfere Sergeant Charles <rs type="person" ref="#hsl_person_id_9251">Duval</rs> (Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_262">Frappart</rs></hi>),
+         <lb facs="#facs_2_region_1784436936425_37_tl_21" n="N021"/>der eben mit Wunden bedeckt aus dem <rs type="place" ref="#hsl_place_id_2">spanisch</rs>en Feldzuge
+         <lb facs="#facs_2_region_1784436936425_37_tl_22" n="N022"/>heimgekehrt ist, eilt zu seiner Braut <rs type="person" ref="#hsl_person_id_9250">Louise</rs> und findet sie —
+         <lb facs="#facs_2_region_1784436936425_37_tl_23" n="N023"/>als die Gattin eines Andern. Nachdem <rs type="person" ref="#hsl_person_id_9251">Charles</rs> officiell unter
+         <lb facs="#facs_2_region_1784436936425_37_tl_24" n="N024"/>den Gefallenen aufgeführt war, hat <rs type="person" ref="#hsl_person_id_9250">Louise</rs> (Fräulein
+         <lb facs="#facs_2_region_1784436936425_37_tl_25" n="N025"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_4200">Cerale</rs></hi>), von seinem Tode überzeugt, einem andern braven
+         <lb facs="#facs_2_region_1784436936425_37_tl_26" n="N026"/>Freier, dem Officier <rs type="person" ref="#hsl_person_id_9249">Armand</rs> (Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_866">Price</rs></hi>), ihre Hand
+         <lb facs="#facs_2_region_1784436936425_37_tl_27" n="N027"/>gereicht. Während der leidenschaftlichen Auseinandersetzungen
+         <lb facs="#facs_2_region_1784436936425_37_tl_28" n="N028"/>zwischen den Dreien erhält <rs type="person" ref="#hsl_person_id_9249">Armand</rs> den Befehl zum unver
+         <lb facs="#facs_2_region_1784436936425_37_tl_29" n="N029" break="no"/>züglichen Abmarsche nach <rs type="place" ref="#hsl_place_id_48">Rußland</rs>. <rs type="person" ref="#hsl_person_id_9250">Louise</rs> will ihn nicht
+         <lb facs="#facs_2_region_1784436936425_37_tl_30" n="N030"/>verlassen und eilt ihm sammt ihrem kleinen Söhnchen nach.
+         <lb facs="#facs_2_region_1784436936425_37_tl_31" n="N031"/>Wir finden sie als Marketenderin in einem <rs type="place" ref="#hsl_place_id_48">russisch</rs>en Dorfe
+         <lb facs="#facs_2_region_1784436936425_37_tl_32" n="N032"/>wieder, wo der <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Proviantzug neben einem Feld
+         <lb facs="#facs_2_region_1784436936425_37_tl_33" n="N033" break="no"/>lazareth Halt gemacht hat. Da wird das Herannahen eines
+         <lb facs="#facs_2_region_1784436936425_37_tl_34" n="N034"/>feindlichen Streifcorps gemeldet. Zur Stunde ohne militä
+         <lb facs="#facs_2_region_1784436936425_37_tl_35" n="N035" break="no"/>rischen Schutz, ist der Platz in größter Gefahr, wenn er
+         <lb facs="#facs_2_region_1784436936425_37_tl_36" n="N036"/>nicht so lange von den Zurückgebliebenen — Weibern und
+         <lb facs="#facs_2_region_1784436936425_37_tl_37" n="N037"/>Invaliden — vertheidigt wird, bis von <rs type="place" ref="#hsl_place_id_21">französisch</rs>er Seite
+         <lb facs="#facs_2_region_1784436936425_37_tl_38" n="N038"/>Succurs eintrifft. <rs type="person" ref="#hsl_person_id_9250">Louise</rs> versteht ihre weibliche Schaar mit
+         <lb facs="#facs_2_region_1784436936425_37_tl_39" n="N039"/>merkwürdiger Schnelligkeit einzuexerciren und den angreifen
+         <lb facs="#facs_2_region_1784436936425_37_tl_40" n="N040" break="no"/>den Russen bewaffneten Widerstand zu leisten. Diese trefflich aus</p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1784436936425_37_tl_1" n="N001"/>
-               <date>1812</date> ist unschön, an Caricatur streifend, und die <rs type="place">französisch</rs>e
-               <lb facs="#facs_2_region_1784436936425_37_tl_2" n="N002"/>Damentracht jener Zeit (wie sie uns das Ballfest im fünften
-               <lb facs="#facs_2_region_1784436936425_37_tl_3" n="N003"/>Bilde vorführt) gehört zu den ästhetischen Auswüchsen, welche
-               <lb facs="#facs_2_region_1784436936425_37_tl_4" n="N004"/>der moderne Theaterdichter fast nur noch für komische Zwecke
-               <lb facs="#facs_2_region_1784436936425_37_tl_5" n="N005"/>benützt. Der kriegerische Stoff bringt es obendrein mit sich,
-               <lb facs="#facs_2_region_1784436936425_37_tl_6" n="N006"/>daß in dem neuen Ballet mehr geschossen als getanzt wird.
-               <lb facs="#facs_2_region_1784436936425_37_tl_7" n="N007"/>Der Anfang ist ungemein effectvoll. Wir stehen am Vor¬
-               <lb facs="#facs_2_region_1784436936425_37_tl_8" n="N008"/>abende des <rs type="place">russisch</rs>en Feldzuges, <rs type="place">französisch</rs>e Truppen aller
-               <lb facs="#facs_2_region_1784436936425_37_tl_9" n="N009"/>Waffengattungen sammeln sich zum Abmarsch in einer Hafen¬
-               <lb facs="#facs_2_region_1784436936425_37_tl_10" n="N010"/>stadt, deren bewimpelte Schiffe einen malerischen Hintergrund
-               <lb facs="#facs_2_region_1784436936425_37_tl_11" n="N011"/>bilden zu dem fröhlich bewegten Treiben der Soldaten und
-               <lb facs="#facs_2_region_1784436936425_37_tl_12" n="N012"/>Marketenderinnen. Da erscheint <rs type="person">Napoleon</rs> auf seinem
-               <lb facs="#facs_2_region_1784436936425_37_tl_13" n="N013"/>Schimmel, um die Revue abzuhalten, in seiner Suite er¬
-               <lb facs="#facs_2_region_1784436936425_37_tl_14" n="N014"/>kennt man unschwer die porträtgetreuen Gestalten seiner be¬
-               <lb facs="#facs_2_region_1784436936425_37_tl_15" n="N015"/>rühmtesten Generale: Marschall <rs type="person">Ney</rs>, <rs type="person">Poniatowski</rs>, <rs type="person">Murat</rs>
-               <lb facs="#facs_2_region_1784436936425_37_tl_16" n="N016"/>u. A., auch den treuen Mameluken dicht hinter dem <rs type="person">Kaiser</rs>.
-               <lb facs="#facs_2_region_1784436936425_37_tl_17" n="N017"/>Ueber diese glänzende Revue fällt zum erstenmale der Vorhang.
-               <lb facs="#facs_2_region_1784436936425_37_tl_18" n="N018"/>Der zweite Art führt uns in ein bescheidenes Wohnzimmer, in
-               <lb facs="#facs_2_region_1784436936425_37_tl_19" n="N019"/>welchem sich gleich einer der schwersten sittlichen Conflicte abspielt.
-               <lb facs="#facs_2_region_1784436936425_37_tl_20" n="N020"/>Der tapfere Sergeant Charles <rs type="person">Duval</rs> (Herr <hi rendition="#em">
-                  <rs type="person">Frappart</rs>
-               </hi>),
-               <lb facs="#facs_2_region_1784436936425_37_tl_21" n="N021"/>der eben mit Wunden bedeckt aus dem <rs type="place">spanisch</rs>en Feldzuge
-               <lb facs="#facs_2_region_1784436936425_37_tl_22" n="N022"/>heimgekehrt ist, eilt zu seiner Braut <rs type="person">Louise</rs> und findet sie —
-               <lb facs="#facs_2_region_1784436936425_37_tl_23" n="N023"/>als die Gattin eines Andern. Nachdem <rs type="person">Charles</rs> officiell unter
-               <lb facs="#facs_2_region_1784436936425_37_tl_24" n="N024"/>den Gefallenen aufgeführt war, hat <rs type="person">Louise</rs> (Fräulein
-               <lb facs="#facs_2_region_1784436936425_37_tl_25" n="N025"/>
-               <hi rendition="#em">
-                  <rs type="person">Cerale</rs>
-               </hi>), von seinem Tode überzeugt, einem andern braven
-               <lb facs="#facs_2_region_1784436936425_37_tl_26" n="N026"/>Freier, dem Officier <rs type="person">Armand</rs> (Herr <hi rendition="#em">
-                  <rs type="person">Price</rs>
-               </hi>), ihre Hand
-               <lb facs="#facs_2_region_1784436936425_37_tl_27" n="N027"/>gereicht. Während der leidenschaftlichen Auseinandersetzungen
-               <lb facs="#facs_2_region_1784436936425_37_tl_28" n="N028"/>zwischen den Dreien erhält <rs type="person">Armand</rs> den Befehl zum unver¬
-               <lb facs="#facs_2_region_1784436936425_37_tl_29" n="N029"/>züglichen Abmarsche nach <rs type="place">Rußland</rs>. <rs type="person">Louise</rs> will ihn nicht
-               <lb facs="#facs_2_region_1784436936425_37_tl_30" n="N030"/>verlassen und eilt ihm sammt ihrem kleinen Söhnchen nach.
-               <lb facs="#facs_2_region_1784436936425_37_tl_31" n="N031"/>Wir finden sie als Marketenderin in einem <rs type="place">russisch</rs>en Dorfe
-               <lb facs="#facs_2_region_1784436936425_37_tl_32" n="N032"/>wieder, wo der <rs type="place">französisch</rs>e Proviantzug neben einem Feld¬
-               <lb facs="#facs_2_region_1784436936425_37_tl_33" n="N033"/>lazareth Halt gemacht hat. Da wird das Herannahen eines
-               <lb facs="#facs_2_region_1784436936425_37_tl_34" n="N034"/>feindlichen Streifcorps gemeldet. Zur Stunde ohne militä¬
-               <lb facs="#facs_2_region_1784436936425_37_tl_35" n="N035"/>rischen Schutz, ist der Platz in größter Gefahr, wenn er
-               <lb facs="#facs_2_region_1784436936425_37_tl_36" n="N036"/>nicht so lange von den Zurückgebliebenen — Weibern und
-               <lb facs="#facs_2_region_1784436936425_37_tl_37" n="N037"/>Invaliden — vertheidigt wird, bis von <rs type="place">französisch</rs>er Seite
-               <lb facs="#facs_2_region_1784436936425_37_tl_38" n="N038"/>Succurs eintrifft. <rs type="person">Louise</rs> versteht ihre weibliche Schaar mit
-               <lb facs="#facs_2_region_1784436936425_37_tl_39" n="N039"/>merkwürdiger Schnelligkeit einzuexerciren und den angreifen¬
-               <lb facs="#facs_2_region_1784436936425_37_tl_40" n="N040"/>den Russen bewaffneten Widerstand zu leisten. Diese trefflich aus¬
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1784436942458_40_tl_1" n="N001"/>geführten militärischen Evolutionen, insbesondere die Präcision
-               <lb facs="#facs_2_region_1784436942458_40_tl_2" n="N002"/>und Unerschrockenheit, mit welcher das weibliche Balletcorps
-               <lb facs="#facs_2_region_1784436942458_40_tl_3" n="N003"/>die wiederholten Dechargen gibt, erregen stürmischen Applaus.
-               <lb facs="#facs_2_region_1784436942458_40_tl_4" n="N004"/>Aus dem Feldlager gelangen wir direct nach <rs type="place">Moskau</rs>, und
-               <lb facs="#facs_2_region_1784436942458_40_tl_5" n="N005"/>zwar in den Ballsaal. Ein glänzendes Ballfest wird in
-               <lb facs="#facs_2_region_1784436942458_40_tl_6" n="N006"/>Gegenwart <rs type="person">Napoleon</rs>'s gefeiert, mit dem üblichen großen
-               <lb facs="#facs_2_region_1784436942458_40_tl_7" n="N007"/>Pas de deux und dem unvermeidlichen, lächerlichen Solospring-
-               <lb facs="#facs_2_region_1784436942458_40_tl_8" n="N008"/>und Kreiselmenschen. An diesem fragwürdigen Inventarstück
-               <lb facs="#facs_2_region_1784436942458_40_tl_9" n="N009"/>der Ballettpoesie scheint keine Macht rütteln zu können. Ein
-               <lb facs="#facs_2_region_1784436942458_40_tl_10" n="N010"/>Kanonenschuß schreckt die Tänzer auseinander, Alles flüchtet,
-               <lb facs="#facs_2_region_1784436942458_40_tl_11" n="N011"/>die rückwärtige Saalwand stürzt ein und man erblickt <rs type="place" continued="true">Mos¬</rs>
-               <lb facs="#facs_2_region_1784436942458_40_tl_12" n="N012"/>
-               <rs type="place" continued="true">kau</rs> in einem Flammenmeer. Das letzte Bild zeigt uns das
-               <lb facs="#facs_2_region_1784436942458_40_tl_13" n="N013"/>öde Schneegefilde an der <rs type="place">Beresina</rs>. Vom Hügel herab wanken
-               <lb facs="#facs_2_region_1784436942458_40_tl_14" n="N014"/>langsam die letzten Reste der unglücklichen <rs type="place">französisch</rs>en Armee,
-               <lb facs="#facs_2_region_1784436942458_40_tl_15" n="N015"/>arme Krüppel in zerfetztem Gewand, mit eingebundenen
-               <lb facs="#facs_2_region_1784436942458_40_tl_16" n="N016"/>Armen und blutrünstigen Stirnen, hin und wieder eine
-               <lb facs="#facs_2_region_1784436942458_40_tl_17" n="N017"/>Tragbahre mit einem Schwerverwundeten; im Vordergrunde
-               <lb facs="#facs_2_region_1784436942458_40_tl_18" n="N018"/>liegen Verhungernde, Erfrierende, Sterbende, Todte. Auch
-               <lb facs="#facs_2_region_1784436942458_40_tl_19" n="N019"/>
-               <rs type="person">Charles</rs>, schwer verwundet, noch immer die Fahne fest um¬
-               <lb facs="#facs_2_region_1784436942458_40_tl_20" n="N020"/>klammernd, sinkt entkräftet nieder, nachdem er von <rs type="person">Louise</rs>n
-               <lb facs="#facs_2_region_1784436942458_40_tl_21" n="N021"/>rührenden Abschied genommen und sich mit seinem braven
-               <lb facs="#facs_2_region_1784436942458_40_tl_22" n="N022"/>Nebenbuhler <rs type="person">Armand</rs> versöhnt hat. Schon glauben wir ihn
-               <lb facs="#facs_2_region_1784436942458_40_tl_23" n="N023"/>todt, da rafft er sich noch einmal vom Boden, kriecht müh¬
-               <lb facs="#facs_2_region_1784436942458_40_tl_24" n="N024"/>sam den Hügel hinan und sprengt die Brücke in die Luft, den an¬
-               <lb facs="#facs_2_region_1784436942458_40_tl_25" n="N025"/>rückenden Feinden den Uebergang zu vereiteln. Nach dieser letzten
-               <lb facs="#facs_2_region_1784436942458_40_tl_26" n="N026"/>Heldenthat sinkt er zerschmettert nieder, eine Leiche neben
-               <lb facs="#facs_2_region_1784436942458_40_tl_27" n="N027"/>Leichen. Die ganze Scene wird von <hi rendition="#em">
-                  <rs type="person">Frappart</rs>
-               </hi> ergreifend
-               <lb facs="#facs_2_region_1784436942458_40_tl_28" n="N028"/>gespielt, mit echtem, großem Schauspielertalente. Diese theils
-               <lb facs="#facs_2_region_1784436942458_40_tl_29" n="N029"/>rührenden, theils erschütternden Vorgänge, gehoben von der
-               <lb facs="#facs_2_region_1784436942458_40_tl_30" n="N030"/>stimmungsvoll componirten Winterlandschaft und der reali¬
-               <lb facs="#facs_2_region_1784436942458_40_tl_31" n="N031"/>stischen Wahrheit der Scenirung, üben den grauenvollen Reiz
-               <lb facs="#facs_2_region_1784436942458_40_tl_32" n="N032"/>eines Bildes von <rs type="person">Vereschagin</rs>. Für meinen Theil gestehe ich
-               <lb facs="#facs_2_region_1784436942458_40_tl_33" n="N033"/>offen, daß ich solchen Eindruck lieber meide, als aufsuche,
-               <lb facs="#facs_2_region_1784436942458_40_tl_34" n="N034"/>namentlich in einem Ballet. Bei dem anhaltenden Schießen
-               <lb facs="#facs_2_region_1784436942458_40_tl_35" n="N035"/>im dritten Acte zittert blos unser Trommelfell, hier zittert
-               <lb facs="#facs_2_region_1784436942458_40_tl_36" n="N036"/>und zuckt unser Herz unter der Pein des Gräßlichen. Andere
-               <lb facs="#facs_2_region_1784436942458_40_tl_37" n="N037"/>mögen anders fühlen, und ich constatire gerne, daß der laute
-               <lb facs="#facs_2_region_1784436942458_40_tl_38" n="N038"/>Beifall überwiegend zu Gunsten dieser Ballet-Novität sprach.
-               <lb facs="#facs_2_region_1784436942458_40_tl_39" n="N039"/>Aufgeführt und ausgestattet ist sie ganz vortrefflich.
+            <p prev="true">
+         <lb facs="#facs_2_region_1784436942458_40_tl_1" n="N001" break="no"/>geführten militärischen Evolutionen, insbesondere die Präcision
+         <lb facs="#facs_2_region_1784436942458_40_tl_2" n="N002"/>und Unerschrockenheit, mit welcher das weibliche Balletcorps
+         <lb facs="#facs_2_region_1784436942458_40_tl_3" n="N003"/>die wiederholten Dechargen gibt, erregen stürmischen Applaus.
+         <lb facs="#facs_2_region_1784436942458_40_tl_4" n="N004"/>Aus dem Feldlager gelangen wir direct nach <rs type="place" ref="#hsl_place_id_151">Moskau</rs>, und
+         <lb facs="#facs_2_region_1784436942458_40_tl_5" n="N005"/>zwar in den Ballsaal. Ein glänzendes Ballfest wird in
+         <lb facs="#facs_2_region_1784436942458_40_tl_6" n="N006"/>Gegenwart <rs type="person" ref="#hsl_person_id_9248">Napoleon</rs>’s gefeiert, mit dem üblichen großen
+         <lb facs="#facs_2_region_1784436942458_40_tl_7" n="N007"/>Pas de deux und dem unvermeidlichen, lächerlichen Solospring-
+         <lb facs="#facs_2_region_1784436942458_40_tl_8" n="N008"/>und Kreiselmenschen. An diesem fragwürdigen Inventarstück
+         <lb facs="#facs_2_region_1784436942458_40_tl_9" n="N009"/>der Ballettpoesie scheint keine Macht rütteln zu können. Ein
+         <lb facs="#facs_2_region_1784436942458_40_tl_10" n="N010"/>Kanonenschuß schreckt die Tänzer auseinander, Alles flüchtet,
+         <lb facs="#facs_2_region_1784436942458_40_tl_11" n="N011"/>die rückwärtige Saalwand stürzt ein und man erblickt <rs type="place" ref="#hsl_place_id_151">Mos
+         <lb facs="#facs_2_region_1784436942458_40_tl_12" n="N012" break="no"/>kau</rs> in einem Flammenmeer. Das letzte Bild zeigt uns das
+         <lb facs="#facs_2_region_1784436942458_40_tl_13" n="N013"/>öde Schneegefilde an der <rs type="place" ref="#hsl_place_id_1486">Beresina</rs>. Vom Hügel herab wanken
+         <lb facs="#facs_2_region_1784436942458_40_tl_14" n="N014"/>langsam die letzten Reste der unglücklichen <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Armee,
+         <lb facs="#facs_2_region_1784436942458_40_tl_15" n="N015"/>arme Krüppel in zerfetztem Gewand, mit eingebundenen
+         <lb facs="#facs_2_region_1784436942458_40_tl_16" n="N016"/>Armen und blutrünstigen Stirnen, hin und wieder eine
+         <lb facs="#facs_2_region_1784436942458_40_tl_17" n="N017"/>Tragbahre mit einem Schwerverwundeten; im Vordergrunde
+         <lb facs="#facs_2_region_1784436942458_40_tl_18" n="N018"/>liegen Verhungernde, Erfrierende, Sterbende, Todte. Auch
+         <lb facs="#facs_2_region_1784436942458_40_tl_19" n="N019"/><rs type="person" ref="#hsl_person_id_9251">Charles</rs>, schwer verwundet, noch immer die Fahne fest um
+         <lb facs="#facs_2_region_1784436942458_40_tl_20" n="N020" break="no"/>klammernd, sinkt entkräftet nieder, nachdem er von <rs type="person" ref="#hsl_person_id_9250">Louise</rs>n
+         <lb facs="#facs_2_region_1784436942458_40_tl_21" n="N021"/>rührenden Abschied genommen und sich mit seinem braven
+         <lb facs="#facs_2_region_1784436942458_40_tl_22" n="N022"/>Nebenbuhler <rs type="person" ref="#hsl_person_id_9249">Armand</rs> versöhnt hat. Schon glauben wir ihn
+         <lb facs="#facs_2_region_1784436942458_40_tl_23" n="N023"/>todt, da rafft er sich noch einmal vom Boden, kriecht müh
+         <lb facs="#facs_2_region_1784436942458_40_tl_24" n="N024" break="no"/>sam den Hügel hinan und sprengt die Brücke in die Luft, den an
+         <lb facs="#facs_2_region_1784436942458_40_tl_25" n="N025" break="no"/>rückenden Feinden den Uebergang zu vereiteln. Nach dieser letzten
+         <lb facs="#facs_2_region_1784436942458_40_tl_26" n="N026"/>Heldenthat sinkt er zerschmettert nieder, eine Leiche neben
+         <lb facs="#facs_2_region_1784436942458_40_tl_27" n="N027"/>Leichen. Die ganze Scene wird von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_262">Frappart</rs></hi> ergreifend
+         <lb facs="#facs_2_region_1784436942458_40_tl_28" n="N028"/>gespielt, mit echtem, großem Schauspielertalente. Diese theils
+         <lb facs="#facs_2_region_1784436942458_40_tl_29" n="N029"/>rührenden, theils erschütternden Vorgänge, gehoben von der
+         <lb facs="#facs_2_region_1784436942458_40_tl_30" n="N030"/>stimmungsvoll componirten Winterlandschaft und der reali
+         <lb facs="#facs_2_region_1784436942458_40_tl_31" n="N031" break="no"/>stischen Wahrheit der Scenirung, üben den grauenvollen Reiz
+         <lb facs="#facs_2_region_1784436942458_40_tl_32" n="N032"/>eines Bildes von <rs type="person" ref="#hsl_person_id_9252">Vereschagin</rs>. Für meinen Theil gestehe ich
+         <lb facs="#facs_2_region_1784436942458_40_tl_33" n="N033"/>offen, daß ich solchen Eindruck lieber meide, als aufsuche,
+         <lb facs="#facs_2_region_1784436942458_40_tl_34" n="N034"/>namentlich in einem Ballet. Bei dem anhaltenden Schießen
+         <lb facs="#facs_2_region_1784436942458_40_tl_35" n="N035"/>im dritten Acte zittert blos unser Trommelfell, hier zittert
+         <lb facs="#facs_2_region_1784436942458_40_tl_36" n="N036"/>und zuckt unser Herz unter der Pein des Gräßlichen. Andere
+         <lb facs="#facs_2_region_1784436942458_40_tl_37" n="N037"/>mögen anders fühlen, und ich constatire gerne, daß der laute
+         <lb facs="#facs_2_region_1784436942458_40_tl_38" n="N038"/>Beifall überwiegend zu Gunsten dieser Ballet-Novität sprach.
+         <lb facs="#facs_2_region_1784436942458_40_tl_39" n="N039"/>Aufgeführt und ausgestattet ist sie ganz vortrefflich.
             </p>
          </div>
       </body>
