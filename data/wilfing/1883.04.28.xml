@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 6705. Wien, Samstag, den 28. April 1883</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +70,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 6705. Wien, Samstag, den 28. April 1883</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1883-04-28">28.04.1883</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18830428"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-08-04">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-08-08">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-08-15">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1015,389 +1015,305 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1784437528279_406_tl_1" n="N001"/><head type="h1"><hi rendition="#em">Musik</hi>.</head>
+            <lb facs="#facs_1_region_1784437528279_406_tl_2" n="N002"/><head type="h2">(<rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Concert des Männergesang-Vereins. — Das <rs type="person" ref="#hsl_person_id_189">Mozart</rs>-Denkmal.)</head>
             <p>
-               <lb facs="#facs_1_line_1784871388921_709" n="N001"/>Nr. 6705. <rs type="place">Wien</rs>, Samstag, den 28. April 1883
-            </p>
+         <lb facs="#facs_1_region_1784437528279_406_tl_3" n="N003"/>Ed. H. Zu den Corporationen, die musikalische Trauer
+         <lb facs="#facs_1_region_1784437528279_406_tl_4" n="N004" break="no"/>feierlichkeiten zum Andenken Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s veranstaltet
+         <lb facs="#facs_1_region_1784437528279_406_tl_5" n="N005"/>haben, ist jetzt auch unser Männergesang-Verein hinzugetreten
+         <lb facs="#facs_1_region_1784437528279_406_tl_6" n="N006"/>mit einem großen, blos <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’sche Musik enthaltenden
+         <lb facs="#facs_1_region_1784437528279_406_tl_7" n="N007"/>Concerte. Anfangs Herzenssache, scheinen diese Todtenklagen
+         <lb facs="#facs_1_region_1784437528279_406_tl_8" n="N008"/>in Concertform allmälig zur Modesache verflacht zu sein.
+         <lb facs="#facs_1_region_1784437528279_406_tl_9" n="N009"/>Und so wie manche Dame eine ihr unvortheilhafte Mode
+         <lb facs="#facs_1_region_1784437528279_406_tl_10" n="N010"/>mitmacht, weil angeblich „die ganze Welt“ sie trägt, so hat
+         <lb facs="#facs_1_region_1784437528279_406_tl_11" n="N011"/>der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Männergesang-Verein ein trauerfeierliches <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-
+         <lb facs="#facs_1_region_1784437528279_406_tl_12" n="N012"/>gewand umgethan, das gerade <hi rendition="#em">ihn</hi> fremdartig genug kleidet.
+         <lb facs="#facs_1_region_1784437528279_406_tl_13" n="N013"/>Wir meinen das Programm: <rs type="bibl" ref="#hsl_work_id_1578">Huldigungsmarsch</rs> an den <rs type="person" ref="#hsl_person_id_1026">König</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784437528279_406_tl_14" n="N014"/>von <rs type="place" ref="#hsl_place_id_7">Bayern</rs>, Pilgermarsch aus „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“, „<rs type="bibl" ref="#hsl_work_id_240">Liebesmal
+         <lb facs="#facs_1_region_1784437528279_406_tl_15" n="N015"/>der Apostel</rs>“. Das letztgenannte Werk ist die einzige selbst
+         <lb facs="#facs_1_region_1784437528279_406_tl_16" n="N016" break="no"/>ständige Composition <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s für den Männerchor, und der
+         <lb facs="#facs_1_region_1784437528279_406_tl_17" n="N017"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Verein hätte besser gethan, sich damit zu begnügen
+         <lb facs="#facs_1_region_1784437528279_406_tl_18" n="N018"/>und die andere kleinere Hälfte des Programms werthvollen
+         <lb facs="#facs_1_region_1784437528279_406_tl_19" n="N019"/>Compositionen anderer Meister zu widmen. Ein exclusiv
+         <lb facs="#facs_1_region_1784437528279_406_tl_20" n="N020"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’sches Programm konnten die strengsten Wagnerianer
+         <lb facs="#facs_1_region_1784437528279_406_tl_21" n="N021"/>einem Männerchorverein nicht zumuthen. Sie haben es selbst
+         <lb facs="#facs_1_region_1784437528279_406_tl_22" n="N022"/>in ihren eigenen Trauerconcerten nicht beobachtet; enthielt
+         <lb facs="#facs_1_region_1784437528279_406_tl_23" n="N023"/>doch die vom Hofopern-Orchester veranstaltete Gedenkfeier
+         <lb facs="#facs_1_line_1784871918754_1047" n="N024"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s <rs type="bibl" ref="#hsl_work_id_272">Neunte Symphonie</rs>, jene des <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Vereins
+         <lb facs="#facs_1_region_1784437528279_406_tl_26" n="N025"/>die „<rs type="bibl" ref="#hsl_work_id_42">Eroica</rs>“.
+            <note type="footnote" n="*)">
+            <lb facs="#facs_1_region_1784437528279_406_tl_34" n="N031" break="no"/>Zur Beschwichtigung meiner übereifrigen <rs type="place" ref="#hsl_place_id_32">Leipzig</rs>er Freunde
+            <lb facs="#facs_1_line_1784871879648_1016" n="N032"/>bemerke ich hier, daß ich der Trauerfeierlichkeit des <rs type="place" ref="#hsl_place_id_55">Wien</rs>er <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-
+            <lb facs="#facs_1_line_1784871882359_1019" n="N033"/>Vereins weder beigewohnt noch darüber eine Zeile geschrieben habe.
+            <lb facs="#facs_1_line_1784871884802_1022" n="N034"/>Ebenso verhält es sich mit zahlreichen ähnlichen Notizen, um derent
+            <lb facs="#facs_1_line_1784871887537_1025" n="N035" break="no"/>willen die <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Blätter <hi rendition="#em">mich</hi> persönlich mit ihren Liebenswürdig
+            <lb facs="#facs_1_line_1784871889111_1028" n="N036" break="no"/>keiten überhäufen.
+            </note>
+            Den unzähligemale gehörten Pilgerchor aus
+         <lb facs="#facs_1_region_1784437528279_406_tl_27" n="N026"/>dem „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ nochmals und im Concertsaale zu hören,
+         <lb facs="#facs_1_region_1784437528279_406_tl_28" n="N027"/>fühlte wol Niemand ein Bedürfniß: das Stück wirkt be
+         <lb facs="#facs_1_line_1784871906618_1040" n="N028" break="no"/>deutend in der Oper und gehört in die Oper. Der <rs type="place" ref="#hsl_place_id_7">bayrisch</rs>e
+         <lb facs="#facs_1_line_1784871901576_1035" n="N029"/>„<rs type="bibl" ref="#hsl_work_id_1578">Huldigungsmarsch</rs>“, den kaum ein dünner Strahl von
+         <lb facs="#facs_1_region_1784437528279_406_tl_33" n="N030"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Talente erhellt, ist zwar viel seltener, doch immer<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1784437528279_406_tl_1" n="N001"/>
-               <hi rendition="#em">Musik</hi>.
-               <lb facs="#facs_1_region_1784437528279_406_tl_2" n="N002"/>(<rs type="person">Wagner</rs>-Concert des Männergesang-Vereins. — Das <rs type="person">Mozart</rs>-Denkmal.)
-               <lb facs="#facs_1_region_1784437528279_406_tl_3" n="N003"/>Ed. H. Zu den Corporationen, die musikalische Trauer¬
-               <lb facs="#facs_1_region_1784437528279_406_tl_4" n="N004"/>feierlichkeiten zum Andenken Richard <rs type="person">Wagner</rs>'s veranstaltet
-               <lb facs="#facs_1_region_1784437528279_406_tl_5" n="N005"/>haben, ist jetzt auch unser Männergesang-Verein hinzugetreten
-               <lb facs="#facs_1_region_1784437528279_406_tl_6" n="N006"/>mit einem großen, blos <rs type="person">Wagner</rs>'sche Musik enthaltenden
-               <lb facs="#facs_1_region_1784437528279_406_tl_7" n="N007"/>Concerte. Anfangs Herzenssache, scheinen diese Todtenklagen
-               <lb facs="#facs_1_region_1784437528279_406_tl_8" n="N008"/>in Concertform allmälig zur Modesache verflacht zu sein.
-               <lb facs="#facs_1_region_1784437528279_406_tl_9" n="N009"/>Und so wie manche Dame eine ihr unvortheilhafte Mode
-               <lb facs="#facs_1_region_1784437528279_406_tl_10" n="N010"/>mitmacht, weil angeblich „die ganze Welt“ sie trägt, so hat
-               <lb facs="#facs_1_region_1784437528279_406_tl_11" n="N011"/>der <rs type="place">Wien</rs>er Männergesang-Verein ein trauerfeierliches <rs type="person">Wagner</rs>-
-               <lb facs="#facs_1_region_1784437528279_406_tl_12" n="N012"/>gewand umgethan, das gerade <hi rendition="#em">ihn</hi> fremdartig genug kleidet.
-               <lb facs="#facs_1_region_1784437528279_406_tl_13" n="N013"/>Wir meinen das Programm: <rs type="bibl">Huldigungsmarsch</rs> an den <rs type="person">König</rs>
-               <lb facs="#facs_1_region_1784437528279_406_tl_14" n="N014"/>von <rs type="place">Bayern</rs>, <rs type="bibl">Pilgermarsch</rs> aus „<rs type="bibl">Tannhäuser</rs>“, „<rs type="bibl">Liebesmal</rs>
-               <lb facs="#facs_1_region_1784437528279_406_tl_15" n="N015"/>
-               <rs type="bibl">der Apostel</rs>“. Das letztgenannte Werk ist die einzige selbst¬
-               <lb facs="#facs_1_region_1784437528279_406_tl_16" n="N016"/>ständige Composition <rs type="person">Wagner</rs>'s für den Männerchor, und der
-               <lb facs="#facs_1_region_1784437528279_406_tl_17" n="N017"/>
-               <rs type="place">Wien</rs>er Verein hätte besser gethan, sich damit zu begnügen
-               <lb facs="#facs_1_region_1784437528279_406_tl_18" n="N018"/>und die andere kleinere Hälfte des Programms werthvollen
-               <lb facs="#facs_1_region_1784437528279_406_tl_19" n="N019"/>Compositionen anderer Meister zu widmen. Ein exclusiv
-               <lb facs="#facs_1_region_1784437528279_406_tl_20" n="N020"/>
-               <rs type="person">Wagner</rs>'sches Programm konnten die strengsten Wagnerianer
-               <lb facs="#facs_1_region_1784437528279_406_tl_21" n="N021"/>einem Männerchorverein nicht zumuthen. Sie haben es selbst
-               <lb facs="#facs_1_region_1784437528279_406_tl_22" n="N022"/>in ihren eigenen Trauerconcerten nicht beobachtet; enthielt
-               <lb facs="#facs_1_region_1784437528279_406_tl_23" n="N023"/>doch die vom Hofopern-Orchester veranstaltete Gedenkfeier
-               <lb facs="#facs_1_line_1784871918754_1047" n="N024"/>
-               <rs type="person">Beethoven</rs>'s <rs type="bibl">Neunte Symphonie</rs>, jene des <rs type="person">Wagner</rs>-Vereins
-               <lb facs="#facs_1_region_1784437528279_406_tl_26" n="N025"/>die „<rs type="bibl">Eroica</rs>“.*) Den unzähligemale gehörten Pilgerchor aus
-               <lb facs="#facs_1_region_1784437528279_406_tl_27" n="N026"/>dem „<rs type="bibl">Tannhäuser</rs>“ nochmals und im Concertsaale zu hören,
-               <lb facs="#facs_1_region_1784437528279_406_tl_28" n="N027"/>fühlte wol Niemand ein Bedürfniß: das Stück wirkt be¬
-               <lb facs="#facs_1_line_1784871906618_1040" n="N028"/>deutend in der Oper und gehört in die Oper. Der <rs type="place">bayrisch</rs>e
-               <lb facs="#facs_1_line_1784871901576_1035" n="N029"/>„<rs type="bibl">Huldigungsmarsch</rs>“, den kaum ein dünner Strahl von
-               <lb facs="#facs_1_region_1784437528279_406_tl_33" n="N030"/>
-               <rs type="person">Wagner</rs>'s Talente erhellt, ist zwar viel seltener, doch immer¬
-               <lb facs="#facs_1_region_1784437528279_406_tl_34" n="N031"/>*) Zur Beschwichtigung meiner übereifrigen <rs type="place">Leipzig</rs>er Freunde
-               <lb facs="#facs_1_line_1784871879648_1016" n="N032"/>bemerke ich hier, daß ich der Trauerfeierlichkeit des <rs type="place">Wien</rs>er <rs type="person">Wagner</rs>-
-               <lb facs="#facs_1_line_1784871882359_1019" n="N033"/>Vereins weder beigewohnt noch darüber eine Zeile geschrieben habe.
-               <lb facs="#facs_1_line_1784871884802_1022" n="N034"/>Ebenso verhält es sich mit zahlreichen ähnlichen Notizen, um derent¬
-               <lb facs="#facs_1_line_1784871887537_1025" n="N035"/>willen die <rs type="person">Wagner</rs>-Blätter <hi rendition="#em">mich</hi> persönlich mit ihren Liebenswürdig¬
-               <lb facs="#facs_1_line_1784871889111_1028" n="N036"/>keiten überhäufen.
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1784437533758_409_tl_1" n="N001"/>hin auch zur Genüge gehört worden. Nachdem kein Chor darin
+         <lb facs="#facs_1_region_1784437533758_409_tl_2" n="N002"/>mitwirkt, wie (wenigstens ad libitum) bei <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s „<rs type="bibl" ref="#hsl_work_id_4431">Kaiser
+         <lb facs="#facs_1_region_1784437533758_409_tl_3" n="N003" break="no"/>marsch</rs>“, so erschien uns die Wahl für ein Chor-Concert von
+         <lb facs="#facs_1_region_1784437533758_409_tl_4" n="N004"/>nur drei Nummern schwer begreiflich. Durch die genannten
+         <lb facs="#facs_1_region_1784437533758_409_tl_5" n="N005"/>beiden Vorposten gelangte man endlich zu dem „<rs type="bibl" ref="#hsl_work_id_240">Liebesmal
+         <lb facs="#facs_1_region_1784437533758_409_tl_6" n="N006"/>der Apostel</rs>“, ein Werk, das durch seinen weihevollen Gegen
+         <lb facs="#facs_1_region_1784437533758_409_tl_7" n="N007" break="no"/>stand, seine breite Form und effectvolle Ausführung sich wohl
+         <lb facs="#facs_1_region_1784437533758_409_tl_8" n="N008"/>eignet für eine Erinnerungsfeier. Diese „<rs type="bibl" ref="#hsl_work_id_820">biblisch</rs>e Scene für
+         <lb facs="#facs_1_region_1784437533758_409_tl_9" n="N009"/>Männerchor und Orchester“ war von <rs type="person" ref="#hsl_person_id_319">Wagner</rs> mehrere Jahre
+         <lb facs="#facs_1_region_1784437533758_409_tl_10" n="N010"/>vor dem „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ zu einer besonderen Gelegenheit com
+         <lb facs="#facs_1_region_1784437533758_409_tl_11" n="N011" break="no"/>ponirt und zuerst in der <rs type="place" ref="#hsl_place_id_15">Dresden</rs>er Frauenkirche im Juli
+         <lb facs="#facs_1_region_1784437533758_409_tl_12" n="N012"/><date>1843</date> aufgeführt worden. Es blieb lange völlig unbeachtet
+         <lb facs="#facs_1_region_1784437533758_409_tl_13" n="N013"/>und erfreute sich auch seitens des Componisten keiner beson
+         <lb facs="#facs_1_region_1784437533758_409_tl_14" n="N014" break="no"/>deren Werthschätzung. Die ganze umfangreiche Cantate scheint
+         <lb facs="#facs_1_region_1784437533758_409_tl_15" n="N015"/>einem einzigen Orchester-Effecte zuliebe componirt zu sein,
+         <lb facs="#facs_1_region_1784437533758_409_tl_16" n="N016"/>freilich einem Effecte auserlesenster Art. Gute zwei Dritt
+         <lb facs="#facs_1_region_1784437533758_409_tl_17" n="N017" break="no"/>theile des Werkes füllt nämlich bloßer Männerchor ohne Be
+         <lb facs="#facs_1_region_1784437533758_409_tl_18" n="N018" break="no"/>gleitung: Die Jünger und Apostel sind nach <rs type="person" ref="#hsl_person_id_463">Christi</rs> Himmel
+         <lb facs="#facs_1_region_1784437533758_409_tl_19" n="N019" break="no"/>fahrt in andächtiger Heimlichkeit versammelt, Furcht und
+         <lb facs="#facs_1_region_1784437533758_409_tl_20" n="N020"/>Zagen erfüllt ihre Seele. Plötzlich horchen sie auf: „Welch
+         <lb facs="#facs_1_region_1784437533758_409_tl_21" n="N021"/>Brausen erfüllt die Luft? Du heiliger Geist, dich fühlen
+         <lb facs="#facs_1_region_1784437533758_409_tl_22" n="N022"/>wir das Haupt umwehen!“ Hier erst fällt das Orchester
+         <lb facs="#facs_1_region_1784437533758_409_tl_23" n="N023"/>ein — eine überraschende Wirkung, welche mit größter tech
+         <lb facs="#facs_1_region_1784437533758_409_tl_24" n="N024" break="no"/>nischer Meisterschaft herbeigeführt ist. Geigen, Bratschen
+         <lb facs="#facs_1_region_1784437533758_409_tl_25" n="N025"/>und Celli, vierfach getheilt, beginnen leise ein zauberhaftes
+         <lb facs="#facs_1_region_1784437533758_409_tl_26" n="N026"/>Schwirren, über welchem gehaltene Accorde der Flöten,
+         <lb facs="#facs_1_region_1784437533758_409_tl_27" n="N027"/>Clarinetten und Fagotte wie schwacher Lichtschimmer glänzen;
+         <lb facs="#facs_1_region_1784437533758_409_tl_28" n="N028"/>das Schwirren wächst immer brausender an, das Licht wird
+         <lb facs="#facs_1_region_1784437533758_409_tl_29" n="N029"/>immer intensiver, zwei Pauken wirbeln leise, beide auf C,
+         <lb facs="#facs_1_region_1784437533758_409_tl_30" n="N030"/>zwei andere schlagen anfangs in Viertelnoten, dann heftiger
+         <lb facs="#facs_1_region_1784437533758_409_tl_31" n="N031"/>in Achteln dazu: nun fallen im Fortissimo auch alle Blech
+         <lb facs="#facs_1_region_1784437533758_409_tl_32" n="N032" break="no"/>instrumente schmetternd ein. In mächtigen Donnerschlägen
+         <lb facs="#facs_1_region_1784437533758_409_tl_33" n="N033"/>entladen sich Chor und Orchester. Es versteht sich, daß ein
+         <lb facs="#facs_1_region_1784437533758_409_tl_34" n="N034"/>solcher Effect, nachdem das Ohr eine Stunde lang in trocke
+         <lb facs="#facs_1_region_1784437533758_409_tl_35" n="N035" break="no"/>nem Vocalsatz geschmachtet, so sicher ist, wie bares Geld. Er
+         <lb facs="#facs_1_region_1784437533758_409_tl_36" n="N036"/>ist an dieser Stelle auch vollkommen durch die Situation
+         <lb facs="#facs_1_region_1784437533758_409_tl_37" n="N037"/>motivirt, ästhetisch berechtigt. Trotzdem gestehen wir, von
+         <lb facs="#facs_1_region_1784437533758_409_tl_38" n="N038"/>dem Ganzen keinen tieferen, bleibenden Eindruck empfangen
+         <lb facs="#facs_1_region_1784437533758_409_tl_39" n="N039"/>zu haben, keine Erregung, die über die rein sinnliche dieses
+         <lb facs="#facs_1_region_1784437533758_409_tl_40" n="N040"/>effectvollen Contrastes hinausreichte. Der erste, rein vocale
+         <lb facs="#facs_1_region_1784437533758_409_tl_41" n="N041"/>Theil bereitet dem Componisten allerdings den Boden für<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1784437533758_409_tl_1" n="N001"/>hin auch zur Genüge gehört worden. Nachdem kein Chor darin
-               <lb facs="#facs_1_region_1784437533758_409_tl_2" n="N002"/>mitwirkt, wie (wenigstens ad libitum) bei <rs type="person">Wagner</rs>'s „<rs type="bibl">Kaiser¬</rs>
-               <lb facs="#facs_1_region_1784437533758_409_tl_3" n="N003"/>
-               <rs type="bibl">marsch</rs>“, so erschien uns die Wahl für ein Chor-Concert von
-               <lb facs="#facs_1_region_1784437533758_409_tl_4" n="N004"/>nur drei Nummern schwer begreiflich. Durch die genannten
-               <lb facs="#facs_1_region_1784437533758_409_tl_5" n="N005"/>beiden Vorposten gelangte man endlich zu dem „<rs type="bibl">Liebesmal</rs>
-               <lb facs="#facs_1_region_1784437533758_409_tl_6" n="N006"/>
-               <rs type="bibl">der Apostel</rs>“, ein Werk, das durch seinen weihevollen Gegen¬
-               <lb facs="#facs_1_region_1784437533758_409_tl_7" n="N007"/>stand, seine breite Form und effectvolle Ausführung sich wohl
-               <lb facs="#facs_1_region_1784437533758_409_tl_8" n="N008"/>eignet für eine Erinnerungsfeier. Diese „<rs type="bibl">biblisch</rs>e Scene für
-               <lb facs="#facs_1_region_1784437533758_409_tl_9" n="N009"/>Männerchor und Orchester“ war von <rs type="person">Wagner</rs> mehrere Jahre
-               <lb facs="#facs_1_region_1784437533758_409_tl_10" n="N010"/>vor dem „<rs type="bibl">Tannhäuser</rs>“ zu einer besonderen Gelegenheit com¬
-               <lb facs="#facs_1_region_1784437533758_409_tl_11" n="N011"/>ponirt und zuerst in der <rs type="place">Dresden</rs>er Frauenkirche im Juli
-               <lb facs="#facs_1_region_1784437533758_409_tl_12" n="N012"/>
-               <date>1843</date> aufgeführt worden. Es blieb lange völlig unbeachtet
-               <lb facs="#facs_1_region_1784437533758_409_tl_13" n="N013"/>und erfreute sich auch seitens des Componisten keiner beson¬
-               <lb facs="#facs_1_region_1784437533758_409_tl_14" n="N014"/>deren Werthschätzung. Die ganze umfangreiche Cantate scheint
-               <lb facs="#facs_1_region_1784437533758_409_tl_15" n="N015"/>einem einzigen Orchester-Effecte zuliebe componirt zu sein,
-               <lb facs="#facs_1_region_1784437533758_409_tl_16" n="N016"/>freilich einem Effecte auserlesenster Art. Gute zwei Dritt¬
-               <lb facs="#facs_1_region_1784437533758_409_tl_17" n="N017"/>theile des Werkes füllt nämlich bloßer Männerchor ohne Be¬
-               <lb facs="#facs_1_region_1784437533758_409_tl_18" n="N018"/>gleitung: Die Jünger und Apostel sind nach <rs type="person">Christi</rs> Himmel¬
-               <lb facs="#facs_1_region_1784437533758_409_tl_19" n="N019"/>fahrt in andächtiger Heimlichkeit versammelt, Furcht und
-               <lb facs="#facs_1_region_1784437533758_409_tl_20" n="N020"/>Zagen erfüllt ihre Seele. Plötzlich horchen sie auf: „Welch
-               <lb facs="#facs_1_region_1784437533758_409_tl_21" n="N021"/>Brausen erfüllt die Luft? Du heiliger Geist, dich fühlen
-               <lb facs="#facs_1_region_1784437533758_409_tl_22" n="N022"/>wir das Haupt umwehen!“ Hier erst fällt das Orchester
-               <lb facs="#facs_1_region_1784437533758_409_tl_23" n="N023"/>ein — eine überraschende Wirkung, welche mit größter tech¬
-               <lb facs="#facs_1_region_1784437533758_409_tl_24" n="N024"/>nischer Meisterschaft herbeigeführt ist. Geigen, Bratschen
-               <lb facs="#facs_1_region_1784437533758_409_tl_25" n="N025"/>und Celli, vierfach getheilt, beginnen leise ein zauberhaftes
-               <lb facs="#facs_1_region_1784437533758_409_tl_26" n="N026"/>Schwirren, über welchem gehaltene Accorde der Flöten,
-               <lb facs="#facs_1_region_1784437533758_409_tl_27" n="N027"/>Clarinetten und Fagotte wie schwacher Lichtschimmer glänzen;
-               <lb facs="#facs_1_region_1784437533758_409_tl_28" n="N028"/>das Schwirren wächst immer brausender an, das Licht wird
-               <lb facs="#facs_1_region_1784437533758_409_tl_29" n="N029"/>immer intensiver, zwei Pauken wirbeln leise, beide auf C,
-               <lb facs="#facs_1_region_1784437533758_409_tl_30" n="N030"/>zwei andere schlagen anfangs in Viertelnoten, dann heftiger
-               <lb facs="#facs_1_region_1784437533758_409_tl_31" n="N031"/>in Achteln dazu: nun fallen im Fortissimo auch alle Blech¬
-               <lb facs="#facs_1_region_1784437533758_409_tl_32" n="N032"/>instrumente schmetternd ein. In mächtigen Donnerschlägen
-               <lb facs="#facs_1_region_1784437533758_409_tl_33" n="N033"/>entladen sich Chor und Orchester. Es versteht sich, daß ein
-               <lb facs="#facs_1_region_1784437533758_409_tl_34" n="N034"/>solcher Effect, nachdem das Ohr eine Stunde lang in trocke¬
-               <lb facs="#facs_1_region_1784437533758_409_tl_35" n="N035"/>nem Vocalsatz geschmachtet, so sicher ist, wie bares Geld. Er
-               <lb facs="#facs_1_region_1784437533758_409_tl_36" n="N036"/>ist an dieser Stelle auch vollkommen durch die Situation
-               <lb facs="#facs_1_region_1784437533758_409_tl_37" n="N037"/>motivirt, ästhetisch berechtigt. Trotzdem gestehen wir, von
-               <lb facs="#facs_1_region_1784437533758_409_tl_38" n="N038"/>dem Ganzen keinen tieferen, bleibenden Eindruck empfangen
-               <lb facs="#facs_1_region_1784437533758_409_tl_39" n="N039"/>zu haben, keine Erregung, die über die rein sinnliche dieses
-               <lb facs="#facs_1_region_1784437533758_409_tl_40" n="N040"/>effectvollen Contrastes hinausreichte. Der erste, rein vocale
-               <lb facs="#facs_1_region_1784437533758_409_tl_41" n="N041"/>Theil bereitet dem Componisten allerdings den Boden für
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1784437537008_412_tl_1" n="N001"/>jene Wirkung, er verräth aber auch dessen Ungeübtheit im
-               <lb facs="#facs_1_region_1784437537008_412_tl_2" n="N002"/>polyphonen Satze. Seine Anstrengung, den Ausdruck reli¬
-               <lb facs="#facs_1_region_1784437537008_412_tl_3" n="N003"/>giöser Würde und Einfachheit festzuhalten, führt nicht zu
-               <lb facs="#facs_1_region_1784437537008_412_tl_4" n="N004"/>rechtem Gelingen. Der Gesang der zwölf Apostel bewegt sich
-               <lb facs="#facs_1_region_1784437537008_412_tl_5" n="N005"/>meist unison in trockener, declamatorischer Weise; was die
-               <lb facs="#facs_1_region_1784437537008_412_tl_6" n="N006"/>Jünger vortragen (erst allein, dann mit den Aposteln),
-               <lb facs="#facs_1_region_1784437537008_412_tl_7" n="N007"/>klingt so un<rs type="bibl">biblisch</rs> modern und sentimental, daß wir nicht
-               <lb facs="#facs_1_region_1784437537008_412_tl_8" n="N008"/>das erste Pfingstfest, sondern eine gesellige Apostel-Lieder¬
-               <lb facs="#facs_1_region_1784437537008_412_tl_9" n="N009"/>tafel vor uns zu haben glauben. Diese schmachtenden
-               <lb facs="#facs_1_region_1784437537008_412_tl_10" n="N010"/>Septimen- und Nonen-Accorde, diese Vorhälte und Mo¬
-               <lb facs="#facs_1_region_1784437537008_412_tl_11" n="N011"/>dulationen führen uns weit weg von den ehrwürdigen
-               <lb facs="#facs_1_region_1784437537008_412_tl_12" n="N012"/>Ambosstätten des Christenthums, sie führen uns direct nach
-               <lb facs="#facs_1_region_1784437537008_412_tl_13" n="N013"/>
-               <rs type="person">Wagner</rs>'s romantischer Wartburg, vor welcher der Baritonist
-               <lb facs="#facs_1_region_1784437537008_412_tl_14" n="N014"/>
-               <rs type="person">Wolfram von Eschenbach</rs> seine liebeswunde Seele aussingt.
-               <lb facs="#facs_1_region_1784437537008_412_tl_15" n="N015"/>Heute gewinnt dieses vierzig Jahre vor dem „<rs type="bibl">Parsifal</rs>“ ge¬
-               <lb facs="#facs_1_region_1784437537008_412_tl_16" n="N016"/>schriebene Werk ein neues Interesse, indem es das poetisch-
-               <lb facs="#facs_1_region_1784437537008_412_tl_17" n="N017"/>religiöse Motiv des Liebesmales schon behandelt und mit
-               <lb facs="#facs_1_region_1784437537008_412_tl_18" n="N018"/>seinen „Stimmen aus der Höhe“ auf Aehnliches im <rs type="bibl">Parsifal</rs>
-               <lb facs="#facs_1_region_1784437537008_412_tl_19" n="N019"/>eigenthümlich vorausbeutet. Diese „Stimmen aus der Höhe“
-               <lb facs="#facs_1_region_1784437537008_412_tl_20" n="N020"/>hatte Herr Chormeister <hi rendition="#em">
-                  <rs type="person">Kremser</rs>
-               </hi> hinter das Orchester,
-               <lb facs="#facs_1_region_1784437537008_412_tl_21" n="N021"/>unsichtbar (in dem sogenannten großen Foyer des Musik¬
-               <lb facs="#facs_1_region_1784437537008_412_tl_22" n="N022"/>vereinssaales) postirt und durch diese Anordnung einen früher
-               <lb facs="#facs_1_region_1784437537008_412_tl_23" n="N023"/>nicht geahnten Effect erzielt. Ueberhaupt hat Herr <hi rendition="#em">
-                  <rs type="person">Kremser</rs>
-               </hi>
-               <lb facs="#facs_1_region_1784437537008_412_tl_24" n="N024"/>um das treffliche Gelingen dieses überaus schwierigen Werkes
-               <lb facs="#facs_1_region_1784437537008_412_tl_25" n="N025"/>das vornehmste Verdienst; nur durch den hingebenden Eifer,
-               <lb facs="#facs_1_region_1784437537008_412_tl_26" n="N026"/>mit welchem er eine ungewöhnliche Zahl von Proben mit
-               <lb facs="#facs_1_region_1784437537008_412_tl_27" n="N027"/>jedem der drei Chöre, mit den Aposteln, den „Stimmen von
-               <lb facs="#facs_1_region_1784437537008_412_tl_28" n="N028"/>oben“, endlich mit dem ganzen Ensemble abhielt, war ein
-               <lb facs="#facs_1_region_1784437537008_412_tl_29" n="N029"/>so befriedigendes Resultat erreichbar.
-               <lb facs="#facs_1_region_1784437537008_412_tl_30" n="N030"/>Als die wichtigste und erfreulichste Neuigkeit begrüßen
-               <lb facs="#facs_1_region_1784437537008_412_tl_31" n="N031"/>wir die endgiltig beschlossene Errichtung eines <hi rendition="#em">
-                  <rs type="person">Mozart</rs>-</hi>
-               <lb facs="#facs_1_region_1784437537008_412_tl_32" n="N032"/>
-               <hi rendition="#em">Denkmals</hi> in <rs type="place">Wien</rs>. Eine alte und doch unverjährbare
-               <lb facs="#facs_1_region_1784437537008_412_tl_33" n="N033"/>Ehrenschuld, gehört sie doch nicht zu jenen, die man später
-               <lb facs="#facs_1_region_1784437537008_412_tl_34" n="N034"/>nur aus strengem Pflichtgefühl, gleichsam geschäftsmäßig ab¬
-               <lb facs="#facs_1_region_1784437537008_412_tl_35" n="N035"/>zahlt; vielmehr ist die Erfüllung dieser Pflicht für uns zu¬
-               <lb facs="#facs_1_region_1784437537008_412_tl_36" n="N036"/>gleich Erfüllung eines heißen Wunsches. Auch unsere <rs type="person">Mozart</rs>-
-               <lb facs="#facs_1_region_1784437537008_412_tl_37" n="N037"/>Liebe verjährt nicht. Die Idee, den größten musikalischen
-               <lb facs="#facs_1_region_1784437537008_412_tl_38" n="N038"/>Genius, der, ein Besitz der ganzen Welt, doch zunächst <rs type="place">Wien</rs>
-               <lb facs="#facs_1_region_1784437537008_412_tl_39" n="N039"/>angehört hat, hier durch ein Monument zu verkörpern, datirt
-               <lb facs="#facs_1_region_1784437537008_412_tl_40" n="N040"/>selbstverständlich nicht erst von heute. Im <rs type="place">deutsch</rs>en Herzen
-               <lb facs="#facs_1_region_1784437537008_412_tl_41" n="N041"/>der Monarchie geboren, hat <rs type="person">Mozart</rs> schon als sechsjähriger
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1784437537008_412_tl_1" n="N001"/>jene Wirkung, er verräth aber auch dessen Ungeübtheit im
+         <lb facs="#facs_1_region_1784437537008_412_tl_2" n="N002"/>polyphonen Satze. Seine Anstrengung, den Ausdruck reli
+         <lb facs="#facs_1_region_1784437537008_412_tl_3" n="N003" break="no"/>giöser Würde und Einfachheit festzuhalten, führt nicht zu
+         <lb facs="#facs_1_region_1784437537008_412_tl_4" n="N004"/>rechtem Gelingen. Der Gesang der zwölf Apostel bewegt sich
+         <lb facs="#facs_1_region_1784437537008_412_tl_5" n="N005"/>meist unison in trockener, declamatorischer Weise; was die
+         <lb facs="#facs_1_region_1784437537008_412_tl_6" n="N006"/>Jünger vortragen (erst allein, dann mit den Aposteln),
+         <lb facs="#facs_1_region_1784437537008_412_tl_7" n="N007"/>klingt so un<rs type="bibl" ref="#hsl_work_id_820">biblisch</rs> modern und sentimental, daß wir nicht
+         <lb facs="#facs_1_region_1784437537008_412_tl_8" n="N008"/>das erste Pfingstfest, sondern eine gesellige Apostel-Lieder
+         <lb facs="#facs_1_region_1784437537008_412_tl_9" n="N009" break="no"/>tafel vor uns zu haben glauben. Diese schmachtenden
+         <lb facs="#facs_1_region_1784437537008_412_tl_10" n="N010"/>Septimen- und Nonen-Accorde, diese Vorhälte und Mo
+         <lb facs="#facs_1_region_1784437537008_412_tl_11" n="N011" break="no"/>dulationen führen uns weit weg von den ehrwürdigen
+         <lb facs="#facs_1_region_1784437537008_412_tl_12" n="N012"/>Ambosstätten des Christenthums, sie führen uns direct nach
+         <lb facs="#facs_1_region_1784437537008_412_tl_13" n="N013"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s romantischer Wartburg, vor welcher der Baritonist
+         <lb facs="#facs_1_region_1784437537008_412_tl_14" n="N014"/><rs type="person" ref="#hsl_person_id_671">Wolfram von Eschenbach</rs> seine liebeswunde Seele aussingt.
+         <lb facs="#facs_1_region_1784437537008_412_tl_15" n="N015"/>Heute gewinnt dieses vierzig Jahre vor dem „<rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>“ ge
+         <lb facs="#facs_1_region_1784437537008_412_tl_16" n="N016" break="no"/>schriebene Werk ein neues Interesse, indem es das poetisch-
+         <lb facs="#facs_1_region_1784437537008_412_tl_17" n="N017"/>religiöse Motiv des Liebesmales schon behandelt und mit
+         <lb facs="#facs_1_region_1784437537008_412_tl_18" n="N018"/>seinen „Stimmen aus der Höhe“ auf Aehnliches im <rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784437537008_412_tl_19" n="N019"/>eigenthümlich vorausbeutet. Diese „Stimmen aus der Höhe“
+         <lb facs="#facs_1_region_1784437537008_412_tl_20" n="N020"/>hatte Herr Chormeister <hi rendition="#em"><rs type="person" ref="#hsl_person_id_150">Kremser</rs></hi> hinter das Orchester,
+         <lb facs="#facs_1_region_1784437537008_412_tl_21" n="N021"/>unsichtbar (in dem sogenannten großen Foyer des Musik
+         <lb facs="#facs_1_region_1784437537008_412_tl_22" n="N022" break="no"/>vereinssaales) postirt und durch diese Anordnung einen früher
+         <lb facs="#facs_1_region_1784437537008_412_tl_23" n="N023"/>nicht geahnten Effect erzielt. Ueberhaupt hat Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_150">Kremser</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784437537008_412_tl_24" n="N024"/>um das treffliche Gelingen dieses überaus schwierigen Werkes
+         <lb facs="#facs_1_region_1784437537008_412_tl_25" n="N025"/>das vornehmste Verdienst; nur durch den hingebenden Eifer,
+         <lb facs="#facs_1_region_1784437537008_412_tl_26" n="N026"/>mit welchem er eine ungewöhnliche Zahl von Proben mit
+         <lb facs="#facs_1_region_1784437537008_412_tl_27" n="N027"/>jedem der drei Chöre, mit den Aposteln, den „Stimmen von
+         <lb facs="#facs_1_region_1784437537008_412_tl_28" n="N028"/>oben“, endlich mit dem ganzen Ensemble abhielt, war ein
+         <lb facs="#facs_1_region_1784437537008_412_tl_29" n="N029"/>so befriedigendes Resultat erreichbar.
+            </p><p>
+         <lb facs="#facs_1_region_1784437537008_412_tl_30" n="N030"/>Als die wichtigste und erfreulichste Neuigkeit begrüßen
+         <lb facs="#facs_1_region_1784437537008_412_tl_31" n="N031"/>wir die endgiltig beschlossene Errichtung eines <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs>-</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784437537008_412_tl_32" n="N032"/><hi rendition="#em">Denkmals</hi> in <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Eine alte und doch unverjährbare
+         <lb facs="#facs_1_region_1784437537008_412_tl_33" n="N033"/>Ehrenschuld, gehört sie doch nicht zu jenen, die man später
+         <lb facs="#facs_1_region_1784437537008_412_tl_34" n="N034"/>nur aus strengem Pflichtgefühl, gleichsam geschäftsmäßig ab
+         <lb facs="#facs_1_region_1784437537008_412_tl_35" n="N035" break="no"/>zahlt; vielmehr ist die Erfüllung dieser Pflicht für uns zu
+         <lb facs="#facs_1_region_1784437537008_412_tl_36" n="N036" break="no"/>gleich Erfüllung eines heißen Wunsches. Auch unsere <rs type="person" ref="#hsl_person_id_189">Mozart</rs>-
+         <lb facs="#facs_1_region_1784437537008_412_tl_37" n="N037"/>Liebe verjährt nicht. Die Idee, den größten musikalischen
+         <lb facs="#facs_1_region_1784437537008_412_tl_38" n="N038"/>Genius, der, ein Besitz der ganzen Welt, doch zunächst <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784437537008_412_tl_39" n="N039"/>angehört hat, hier durch ein Monument zu verkörpern, datirt
+         <lb facs="#facs_1_region_1784437537008_412_tl_40" n="N040"/>selbstverständlich nicht erst von heute. Im <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Herzen
+         <lb facs="#facs_1_region_1784437537008_412_tl_41" n="N041"/>der Monarchie geboren, hat <rs type="person" ref="#hsl_person_id_189">Mozart</rs> schon als sechsjähriger<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784437549870_418_tl_1" n="N001"/>Knabe seine ersten Lorbeern in <rs type="place" ref="#hsl_place_id_55">Wien</rs> gepflückt, als Jüngling
+         <lb facs="#facs_2_region_1784437549870_418_tl_2" n="N002"/>hier seinen bleibenden Wohnsitz aufgeschlagen. <rs type="place" ref="#hsl_place_id_55">Wien</rs> war
+         <lb facs="#facs_2_region_1784437549870_418_tl_3" n="N003"/>von <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s fünfundzwanzigstem Jahre an die ausschließ
+         <lb facs="#facs_2_region_1784437549870_418_tl_4" n="N004" break="no"/>liche Stätte seines Wirkens als Tondichter, Lehrer, Virtuose.
+         <lb facs="#facs_2_region_1784437549870_418_tl_5" n="N005"/>In <rs type="place" ref="#hsl_place_id_55">Wien</rs> und für <rs type="place" ref="#hsl_place_id_55">Wien</rs> schuf er seine bedeutendsten Werke
+         <lb facs="#facs_2_region_1784437549870_418_tl_6" n="N006"/>und wurde durch die „<rs type="bibl" ref="#hsl_work_id_1292">Entführung</rs>“ und die „<rs type="bibl" ref="#hsl_work_id_350">Zauberflöte</rs>“
+         <lb facs="#facs_2_region_1784437549870_418_tl_7" n="N007"/>der Schöpfer der <hi rendition="#em">nationalen <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Oper</hi>. In
+         <lb facs="#facs_2_region_1784437549870_418_tl_8" n="N008"/>seinem <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en Patriotismus, seinem treuen weichen
+         <lb facs="#facs_2_region_1784437549870_418_tl_9" n="N009"/>Gemüthe, seinem liebenswürdigen Frohsinn ist <rs type="person" ref="#hsl_person_id_189">Mozart</rs> der
+         <lb facs="#facs_2_region_1784437549870_418_tl_10" n="N010"/>ideale Wiener. Sein Tod fiel in eine Zeit, da man Monu
+         <lb facs="#facs_2_region_1784437549870_418_tl_11" n="N011" break="no"/>mente noch als ein Privilegium von Monarchen und Feld
+         <lb facs="#facs_2_region_1784437549870_418_tl_12" n="N012" break="no"/>herren betrachtete. Auch die folgenden zwanzig Jahre ließen
+         <lb facs="#facs_2_region_1784437549870_418_tl_13" n="N013"/>den Gedanken an ein <rs type="person" ref="#hsl_person_id_189">Mozart</rs>-Denkmal nicht aufkommen,
+         <lb facs="#facs_2_region_1784437549870_418_tl_14" n="N014"/><rs type="place" ref="#hsl_place_id_43">Oesterreich</rs> lag danieder unter dem Drucke langer unglück
+         <lb facs="#facs_2_region_1784437549870_418_tl_15" n="N015" break="no"/>licher Kriege, die Bevölkerung war entmuthigt und verarmt.
+         <lb facs="#facs_2_region_1784437549870_418_tl_16" n="N016"/>Im Jahre <date>1815</date> sehen wir in <rs type="place" ref="#hsl_place_id_55">Wien</rs> zum erstenmale die
+         <lb facs="#facs_2_region_1784437549870_418_tl_17" n="N017"/>Idee eines Monumentes für <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi> auftauchen, aber
+         <lb facs="#facs_2_region_1784437549870_418_tl_18" n="N018"/>bald wieder verschwinden. Dann regte sich vor etwa fünfzig
+         <lb facs="#facs_2_region_1784437549870_418_tl_19" n="N019"/>Jahren das Project, in der Karlskirche ein gemeinsames Mo
+         <lb facs="#facs_2_region_1784437549870_418_tl_20" n="N020" break="no"/>nument für <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784437549870_418_tl_21" n="N021"/>zu errichten. Einzelne bescheidene Beiträge stellten sich sofort
+         <lb facs="#facs_2_region_1784437549870_418_tl_22" n="N022"/>ein; die erste größere Summe lieferte ein von der Gesellschaft der
+         <lb facs="#facs_2_region_1784437549870_418_tl_23" n="N023"/>Musikfreunde <date>1841</date> in der Winter-Reitschule gegebenes Concert,
+         <lb facs="#facs_2_region_1784437549870_418_tl_24" n="N024"/>welchem <date>1845</date> und <date>1858</date> ein zweites und drittes folgte.
+         <lb facs="#facs_2_region_1784437549870_418_tl_25" n="N025"/>Trotzdem blieb dieser Denkmalfonds ganz unzureichend und
+         <lb facs="#facs_2_region_1784437549870_418_tl_26" n="N026"/>wurde vom Publicum geradezu ignorirt. Das Jubiläum von
+         <lb facs="#facs_2_region_1784437549870_418_tl_27" n="N027"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Geburt <date>1870</date> gab endlich einen neuen Anstoß für
+         <lb facs="#facs_2_region_1784437549870_418_tl_28" n="N028"/>ein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs></hi>-Denkmal, nachdem kurz vorher Franz
+         <lb facs="#facs_2_region_1784437549870_418_tl_29" n="N029"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schubert</rs></hi> ein eigenes Monument im <rs type="place" ref="#hsl_place_id_256">Stadtpark</rs> schon er
+         <lb facs="#facs_2_region_1784437549870_418_tl_30" n="N030" break="no"/>halten hatte. In der Begeisterung für diese Standbilder
+         <lb facs="#facs_2_region_1784437549870_418_tl_31" n="N031"/><rs type="person" ref="#hsl_person_id_279">Schubert</rs>’s und <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s schien man wieder auf <rs type="person" ref="#hsl_person_id_189">Mozart</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784437549870_418_tl_32" n="N032"/>vergessen zu haben. Nur die Bezirksvertretung <rs type="place" ref="#hsl_place_id_61">Wieden</rs> machte
+         <lb facs="#facs_2_region_1784437549870_418_tl_33" n="N033"/>noch im Frühjahr <date>1866</date> eine rühmliche Anstrengung mit
+         <lb facs="#facs_2_region_1784437549870_418_tl_34" n="N034"/>einem großen Concert, an welchem die ersten musikalischen
+         <lb facs="#facs_2_region_1784437549870_418_tl_35" n="N035"/>Kräfte <rs type="place" ref="#hsl_place_id_55">Wien</rs>s sich betheiligten und zu welchem <hi rendition="#em"><rs type="person" ref="#hsl_person_id_241">Rossini</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784437549870_418_tl_36" n="N036"/>eigens zwei noch ungedruckte Männerchöre („<rs type="bibl" ref="#hsl_work_id_1370">Le chant des
+         <lb facs="#facs_2_region_1784437549870_418_tl_37" n="N037"/>Titans</rs>“ und „<rs type="bibl" ref="#hsl_work_id_1371">La nuit de Noël</rs>“) gespendet hatte. „Ich
+         <lb facs="#facs_2_region_1784437549870_418_tl_38" n="N038"/>erkläre mich stolz und glücklich,“ schrieb damals <rs type="person" ref="#hsl_person_id_241">Rossini</rs>, „eine
+         <lb facs="#facs_2_region_1784437549870_418_tl_39" n="N039"/>kleine Huldigung darzubringen dem Gedächtnisse des wahren
+         <lb facs="#facs_2_region_1784437549870_418_tl_40" n="N040"/>Titanen der Musik, <rs type="person" ref="#hsl_person_id_189">Mozart</rs>, den ich zu bewundern anfing<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1784437549870_418_tl_1" n="N001"/>Knabe seine ersten Lorbeern in <rs type="place">Wien</rs> gepflückt, als Jüngling
-               <lb facs="#facs_2_region_1784437549870_418_tl_2" n="N002"/>hier seinen bleibenden Wohnsitz aufgeschlagen. <rs type="place">Wien</rs> war
-               <lb facs="#facs_2_region_1784437549870_418_tl_3" n="N003"/>von <rs type="person">Mozart</rs>'s fünfundzwanzigstem Jahre an die ausschließ¬
-               <lb facs="#facs_2_region_1784437549870_418_tl_4" n="N004"/>liche Stätte seines Wirkens als Tondichter, Lehrer, Virtuose.
-               <lb facs="#facs_2_region_1784437549870_418_tl_5" n="N005"/>In <rs type="place">Wien</rs> und für <rs type="place">Wien</rs> schuf er seine bedeutendsten Werke
-               <lb facs="#facs_2_region_1784437549870_418_tl_6" n="N006"/>und wurde durch die „<rs type="bibl">Entführung</rs>“ und die „<rs type="bibl">Zauberflöte</rs>“
-               <lb facs="#facs_2_region_1784437549870_418_tl_7" n="N007"/>der Schöpfer der <hi rendition="#em">nationalen <rs type="place">deutsch</rs>en Oper</hi>. In
-               <lb facs="#facs_2_region_1784437549870_418_tl_8" n="N008"/>seinem <rs type="place">österreichisch</rs>en Patriotismus, seinem treuen weichen
-               <lb facs="#facs_2_region_1784437549870_418_tl_9" n="N009"/>Gemüthe, seinem liebenswürdigen Frohsinn ist <rs type="person">Mozart</rs> der
-               <lb facs="#facs_2_region_1784437549870_418_tl_10" n="N010"/>ideale Wiener. Sein Tod fiel in eine Zeit, da man Monu¬
-               <lb facs="#facs_2_region_1784437549870_418_tl_11" n="N011"/>mente noch als ein Privilegium von Monarchen und Feld¬
-               <lb facs="#facs_2_region_1784437549870_418_tl_12" n="N012"/>herren betrachtete. Auch die folgenden zwanzig Jahre ließen
-               <lb facs="#facs_2_region_1784437549870_418_tl_13" n="N013"/>den Gedanken an ein <rs type="person">Mozart</rs>-Denkmal nicht aufkommen,
-               <lb facs="#facs_2_region_1784437549870_418_tl_14" n="N014"/>
-               <rs type="place">Oesterreich</rs> lag danieder unter dem Drucke langer unglück¬
-               <lb facs="#facs_2_region_1784437549870_418_tl_15" n="N015"/>licher Kriege, die Bevölkerung war entmuthigt und verarmt.
-               <lb facs="#facs_2_region_1784437549870_418_tl_16" n="N016"/>Im Jahre <date>1815</date> sehen wir in <rs type="place">Wien</rs> zum erstenmale die
-               <lb facs="#facs_2_region_1784437549870_418_tl_17" n="N017"/>Idee eines Monumentes für <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi> auftauchen, aber
-               <lb facs="#facs_2_region_1784437549870_418_tl_18" n="N018"/>bald wieder verschwinden. Dann regte sich vor etwa fünfzig
-               <lb facs="#facs_2_region_1784437549870_418_tl_19" n="N019"/>Jahren das Project, in der Karlskirche ein gemeinsames Mo¬
-               <lb facs="#facs_2_region_1784437549870_418_tl_20" n="N020"/>nument für <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi>
-               <lb facs="#facs_2_region_1784437549870_418_tl_21" n="N021"/>zu errichten. Einzelne bescheidene Beiträge stellten sich sofort
-               <lb facs="#facs_2_region_1784437549870_418_tl_22" n="N022"/>ein; die erste größere Summe lieferte ein von der Gesellschaft der
-               <lb facs="#facs_2_region_1784437549870_418_tl_23" n="N023"/>Musikfreunde <date>1841</date> in der Winter-Reitschule gegebenes Concert,
-               <lb facs="#facs_2_region_1784437549870_418_tl_24" n="N024"/>welchem <date>1845</date> und <date>1858</date> ein zweites und drittes folgte.
-               <lb facs="#facs_2_region_1784437549870_418_tl_25" n="N025"/>Trotzdem blieb dieser Denkmalfonds ganz unzureichend und
-               <lb facs="#facs_2_region_1784437549870_418_tl_26" n="N026"/>wurde vom Publicum geradezu ignorirt. Das Jubiläum von
-               <lb facs="#facs_2_region_1784437549870_418_tl_27" n="N027"/>
-               <rs type="person">Beethoven</rs>'s Geburt <date>1870</date> gab endlich einen neuen Anstoß für
-               <lb facs="#facs_2_region_1784437549870_418_tl_28" n="N028"/>ein <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi>-Denkmal, nachdem kurz vorher Franz
-               <lb facs="#facs_2_region_1784437549870_418_tl_29" n="N029"/>
-               <hi rendition="#em">
-                  <rs type="person">Schubert</rs>
-               </hi> ein eigenes Monument im <rs type="place">Stadtpark</rs> schon er¬
-               <lb facs="#facs_2_region_1784437549870_418_tl_30" n="N030"/>halten hatte. In der Begeisterung für diese Standbilder
-               <lb facs="#facs_2_region_1784437549870_418_tl_31" n="N031"/>
-               <rs type="person">Schubert</rs>'s und <rs type="person">Beethoven</rs>'s schien man wieder auf <rs type="person">Mozart</rs>
-               <lb facs="#facs_2_region_1784437549870_418_tl_32" n="N032"/>vergessen zu haben. Nur die Bezirksvertretung <rs type="place">Wieden</rs> machte
-               <lb facs="#facs_2_region_1784437549870_418_tl_33" n="N033"/>noch im Frühjahr <date>1866</date> eine rühmliche Anstrengung mit
-               <lb facs="#facs_2_region_1784437549870_418_tl_34" n="N034"/>einem großen Concert, an welchem die ersten musikalischen
-               <lb facs="#facs_2_region_1784437549870_418_tl_35" n="N035"/>Kräfte <rs type="place">Wien</rs>s sich betheiligten und zu welchem <hi rendition="#em">
-                  <rs type="person">Rossini</rs>
-               </hi>
-               <lb facs="#facs_2_region_1784437549870_418_tl_36" n="N036"/>eigens zwei noch ungedruckte Männerchöre („<rs type="bibl">Le chant des</rs>
-               <lb facs="#facs_2_region_1784437549870_418_tl_37" n="N037"/>
-               <rs type="bibl">Titans</rs>“ und „<rs type="bibl">La nuit de Noël</rs>“) gespendet hatte. „Ich
-               <lb facs="#facs_2_region_1784437549870_418_tl_38" n="N038"/>erkläre mich stolz und glücklich,“ schrieb damals <rs type="person">Rossini</rs>, „eine
-               <lb facs="#facs_2_region_1784437549870_418_tl_39" n="N039"/>kleine Huldigung darzubringen dem Gedächtnisse des wahren
-               <lb facs="#facs_2_region_1784437549870_418_tl_40" n="N040"/>Titanen der Musik, <rs type="person">Mozart</rs>, den ich zu bewundern anfing
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784437554235_421_tl_1" n="N001"/>im Jünglingsalter und der heute noch mein Abgott und
+         <lb facs="#facs_2_region_1784437554235_421_tl_2" n="N002"/>mein Vorbild geblieben ist.“
+            </p><p>
+         <lb facs="#facs_2_region_1784437554235_421_tl_3" n="N003"/>Daß jetzt mit Einemmale das halbvergessene <rs type="person" ref="#hsl_person_id_189">Mozart</rs>-
+         <lb facs="#facs_2_region_1784437554235_421_tl_4" n="N004"/>Denkmal wieder auftaucht, und nicht als bloßes Project auf
+         <lb facs="#facs_2_region_1784437554235_421_tl_5" n="N005" break="no"/>taucht, sondern thatkräftig angepackt und mit Begeisterung
+         <lb facs="#facs_2_region_1784437554235_421_tl_6" n="N006"/>gefördert wird, das verdanken wir — den Wagnerianern.
+         <lb facs="#facs_2_region_1784437554235_421_tl_7" n="N007"/>Darüber herrscht nicht der mindeste Zweifel. Als Ri
+         <lb facs="#facs_2_region_1784437554235_421_tl_8" n="N008" break="no"/>chard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> kaum die Augen geschlossen hatte, be
+         <lb facs="#facs_2_region_1784437554235_421_tl_9" n="N009" break="no"/>gingen einige seiner Verehrer sofort die Tactlosigkeit, zu
+         <lb facs="#facs_2_region_1784437554235_421_tl_10" n="N010"/>Geldsammlungen für ein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Monument in
+         <lb facs="#facs_2_region_1784437554235_421_tl_11" n="N011"/><rs type="place" ref="#hsl_place_id_55">Wien</rs></hi> aufzufordern. Diesem Ansinnen antwortete wie aus
+         <lb facs="#facs_2_region_1784437554235_421_tl_12" n="N012"/>Einer Kehle der laute Ruf: <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi>! Die <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Be
+         <lb facs="#facs_2_region_1784437554235_421_tl_13" n="N013" break="no"/>völkerung befand sich ungefähr in der Situation des <rs type="person" ref="#hsl_person_id_319">Wag
+         <lb facs="#facs_2_region_1784437554235_421_tl_14" n="N014" break="no"/>ner</rs>’schen <rs type="person" ref="#hsl_person_id_3627">Parsifal</rs>, der, von den Schmeichelworten der Zauberin
+         <lb facs="#facs_2_region_1784437554235_421_tl_15" n="N015"/><rs type="person" ref="#hsl_person_id_3628">Kundry</rs> umstrickt und beinahe gefangen, sich ihr plötzlich mit
+         <lb facs="#facs_2_region_1784437554235_421_tl_16" n="N016"/>dem Ausrufe: <rs type="person" ref="#hsl_person_id_3625">Amfortas</rs>!! entreißt. <rs type="person" ref="#hsl_person_id_3627">Parsifal</rs> hatte, <rs type="person" ref="#hsl_person_id_3628">Kundry</rs>’s
+         <lb facs="#facs_2_region_1784437554235_421_tl_17" n="N017"/>wollüstigen Tönen lauschend, auf <rs type="person" ref="#hsl_person_id_3625">Amfortas</rs> vergessen, unge
+         <lb facs="#facs_2_region_1784437554235_421_tl_18" n="N018" break="no"/>fähr wie die Wiener auf <rs type="person" ref="#hsl_person_id_189">Mozart</rs>; sobald ihm aber das Ziel
+         <lb facs="#facs_2_region_1784437554235_421_tl_19" n="N019"/>der Verführung klar wird und die Erinnerung wiederkehrt,
+         <lb facs="#facs_2_region_1784437554235_421_tl_20" n="N020"/>überläßt er <rs type="person" ref="#hsl_person_id_3628">Kundry</rs> ihrem Schicksale und eilt zu seiner
+         <lb facs="#facs_2_region_1784437554235_421_tl_21" n="N021"/>Pflicht, eilt zu <rs type="person" ref="#hsl_person_id_3625">Amfortas</rs> zurück. <rs type="place" ref="#hsl_place_id_55">Wien</rs>, die <rs type="person" ref="#hsl_person_id_189">Mozart</rs>stadt,
+         <lb facs="#facs_2_region_1784437554235_421_tl_22" n="N022"/>mußte sich in ihrem patriotischen und künstlerischen Ehrgefühle
+         <lb facs="#facs_2_region_1784437554235_421_tl_23" n="N023"/>angetastet fühlen durch die Aufforderung, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi> ein
+         <lb facs="#facs_2_region_1784437554235_421_tl_24" n="N024"/>Denkmal zu errichten, bevor <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi> eines besitzt. Und
+         <lb facs="#facs_2_region_1784437554235_421_tl_25" n="N025"/>dann, wenn einmal diese Schuld an <rs type="person" ref="#hsl_person_id_189">Mozart</rs> abgetragen ist,
+         <lb facs="#facs_2_region_1784437554235_421_tl_26" n="N026"/>wird wol jeder Mund die Namen <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_114">Haydn</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784437554235_421_tl_27" n="N027"/>nennen und keinen andern. <rs type="place" ref="#hsl_place_id_55">Wien</rs> ist gottlob reich genug an
+         <lb facs="#facs_2_region_1784437554235_421_tl_28" n="N028"/>eigenen großen Tondichtern und leider auch reich genug an
+         <lb facs="#facs_2_region_1784437554235_421_tl_29" n="N029"/>eigenen Ehrenschulden gegen dieselben, um nicht auswärts
+         <lb facs="#facs_2_region_1784437554235_421_tl_30" n="N030"/>Stoff für seine Monumente suchen zu müssen, suchen zu
+         <lb facs="#facs_2_region_1784437554235_421_tl_31" n="N031"/>dürfen. <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Anspruch auf ein Denkmal, selbst auf
+         <lb facs="#facs_2_region_1784437554235_421_tl_32" n="N032"/>mehrere, bestreitet Niemand. <hi rendition="#em"><rs type="place" ref="#hsl_place_id_32">Leipzig</rs></hi>, sein Geburtsort;
+         <lb facs="#facs_2_region_1784437554235_421_tl_33" n="N033"/><hi rendition="#em"><rs type="place" ref="#hsl_place_id_15">Dresden</rs></hi>, die Stätte der ersten Aufführung seines
+         <lb facs="#facs_2_region_1784437554235_421_tl_34" n="N034"/>„<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“, „<rs type="bibl" ref="#hsl_work_id_237">Holländer</rs>“, „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“; endlich <hi rendition="#em"><rs type="place" ref="#hsl_place_id_8">Bayreuth</rs></hi>,
+         <lb facs="#facs_2_region_1784437554235_421_tl_35" n="N035"/>an sich schon ein ruhmvolles <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Monument — sie mögen
+         <lb facs="#facs_2_region_1784437554235_421_tl_36" n="N036"/>wetteifern, die Gestalt <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s in Erz oder Marmor zu
+         <lb facs="#facs_2_region_1784437554235_421_tl_37" n="N037"/>verewigen. Aber <rs type="place" ref="#hsl_place_id_55">Wien</rs>? Wie kommt <rs type="place" ref="#hsl_place_id_55">Wien</rs> zu dieser Ehre?
+         <lb facs="#facs_2_region_1784437554235_421_tl_38" n="N038"/>Man müßte den Satz aufstellen, daß <hi rendition="#em">jedem</hi> großen Com
+         <lb facs="#facs_2_region_1784437554235_421_tl_39" n="N039" break="no"/>ponisten in <hi rendition="#em">jeder</hi> Stadt ein Denkmal gebühre, um ein
+         <lb facs="#facs_2_region_1784437554235_421_tl_40" n="N040"/>Standbild <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s</hi> in <rs type="place" ref="#hsl_place_id_55">Wien</rs> zu begreifen. Einen engeren<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1784437554235_421_tl_1" n="N001"/>im Jünglingsalter und der heute noch mein Abgott und
-               <lb facs="#facs_2_region_1784437554235_421_tl_2" n="N002"/>mein Vorbild geblieben ist.“
-               <lb facs="#facs_2_region_1784437554235_421_tl_3" n="N003"/>Daß jetzt mit Einemmale das halbvergessene <rs type="person">Mozart</rs>-
-               <lb facs="#facs_2_region_1784437554235_421_tl_4" n="N004"/>Denkmal wieder auftaucht, und nicht als bloßes Project auf¬
-               <lb facs="#facs_2_region_1784437554235_421_tl_5" n="N005"/>taucht, sondern thatkräftig angepackt und mit Begeisterung
-               <lb facs="#facs_2_region_1784437554235_421_tl_6" n="N006"/>gefördert wird, das verdanken wir — den Wagnerianern.
-               <lb facs="#facs_2_region_1784437554235_421_tl_7" n="N007"/>Darüber herrscht nicht der mindeste Zweifel. Als Ri¬
-               <lb facs="#facs_2_region_1784437554235_421_tl_8" n="N008"/>chard <rs type="person">Wagner</rs> kaum die Augen geschlossen hatte, be¬
-               <lb facs="#facs_2_region_1784437554235_421_tl_9" n="N009"/>gingen einige seiner Verehrer sofort die Tactlosigkeit, zu
-               <lb facs="#facs_2_region_1784437554235_421_tl_10" n="N010"/>Geldsammlungen für ein <hi rendition="#em">
-                  <rs type="person">Wagner</rs>-Monument in</hi>
-               <lb facs="#facs_2_region_1784437554235_421_tl_11" n="N011"/>
-               <hi rendition="#em">
-                  <rs type="place">Wien</rs>
-               </hi> aufzufordern. Diesem Ansinnen antwortete wie aus
-               <lb facs="#facs_2_region_1784437554235_421_tl_12" n="N012"/>Einer Kehle der laute Ruf: <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi>! Die <rs type="place">Wien</rs>er Be¬
-               <lb facs="#facs_2_region_1784437554235_421_tl_13" n="N013"/>völkerung befand sich ungefähr in der Situation des <rs type="person" continued="true">Wag¬</rs>
-               <lb facs="#facs_2_region_1784437554235_421_tl_14" n="N014"/>
-               <rs type="person" continued="true">ner</rs>'schen <rs type="person">Parsifal</rs>, der, von den Schmeichelworten der Zauberin
-               <lb facs="#facs_2_region_1784437554235_421_tl_15" n="N015"/>
-               <rs type="person">Kundry</rs> umstrickt und beinahe gefangen, sich ihr plötzlich mit
-               <lb facs="#facs_2_region_1784437554235_421_tl_16" n="N016"/>dem Ausrufe: <rs type="person">Amfortas</rs>!! entreißt. <rs type="person">Parsifal</rs> hatte, <rs type="person">Kundry</rs>'s
-               <lb facs="#facs_2_region_1784437554235_421_tl_17" n="N017"/>wollüstigen Tönen lauschend, auf <rs type="person">Amfortas</rs> vergessen, unge¬
-               <lb facs="#facs_2_region_1784437554235_421_tl_18" n="N018"/>fähr wie die Wiener auf <rs type="person">Mozart</rs>; sobald ihm aber das Ziel
-               <lb facs="#facs_2_region_1784437554235_421_tl_19" n="N019"/>der Verführung klar wird und die Erinnerung wiederkehrt,
-               <lb facs="#facs_2_region_1784437554235_421_tl_20" n="N020"/>überläßt er <rs type="person">Kundry</rs> ihrem Schicksale und eilt zu seiner
-               <lb facs="#facs_2_region_1784437554235_421_tl_21" n="N021"/>Pflicht, eilt zu <rs type="person">Amfortas</rs> zurück. <rs type="place">Wien</rs>, die <rs type="person">Mozart</rs>stadt,
-               <lb facs="#facs_2_region_1784437554235_421_tl_22" n="N022"/>mußte sich in ihrem patriotischen und künstlerischen Ehrgefühle
-               <lb facs="#facs_2_region_1784437554235_421_tl_23" n="N023"/>angetastet fühlen durch die Aufforderung, <hi rendition="#em">
-                  <rs type="person">Wagner</rs>
-               </hi> ein
-               <lb facs="#facs_2_region_1784437554235_421_tl_24" n="N024"/>Denkmal zu errichten, bevor <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi> eines besitzt. Und
-               <lb facs="#facs_2_region_1784437554235_421_tl_25" n="N025"/>dann, wenn einmal diese Schuld an <rs type="person">Mozart</rs> abgetragen ist,
-               <lb facs="#facs_2_region_1784437554235_421_tl_26" n="N026"/>wird wol jeder Mund die Namen <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
-               </hi>
-               <lb facs="#facs_2_region_1784437554235_421_tl_27" n="N027"/>nennen und keinen andern. <rs type="place">Wien</rs> ist gottlob reich genug an
-               <lb facs="#facs_2_region_1784437554235_421_tl_28" n="N028"/>eigenen großen Tondichtern und leider auch reich genug an
-               <lb facs="#facs_2_region_1784437554235_421_tl_29" n="N029"/>eigenen Ehrenschulden gegen dieselben, um nicht auswärts
-               <lb facs="#facs_2_region_1784437554235_421_tl_30" n="N030"/>Stoff für seine Monumente suchen zu müssen, suchen zu
-               <lb facs="#facs_2_region_1784437554235_421_tl_31" n="N031"/>dürfen. <rs type="person">Wagner</rs>'s Anspruch auf ein Denkmal, selbst auf
-               <lb facs="#facs_2_region_1784437554235_421_tl_32" n="N032"/>mehrere, bestreitet Niemand. <hi rendition="#em">
-                  <rs type="place">Leipzig</rs>
-               </hi>, sein Geburtsort;
-               <lb facs="#facs_2_region_1784437554235_421_tl_33" n="N033"/>
-               <hi rendition="#em">
-                  <rs type="place">Dresden</rs>
-               </hi>, die Stätte der ersten Aufführung seines
-               <lb facs="#facs_2_region_1784437554235_421_tl_34" n="N034"/>„<rs type="bibl">Rienzi</rs>“, „<rs type="bibl">Holländer</rs>“, „<rs type="bibl">Tannhäuser</rs>“; endlich <hi rendition="#em">
-                  <rs type="place">Bayreuth</rs>
-               </hi>,
-               <lb facs="#facs_2_region_1784437554235_421_tl_35" n="N035"/>an sich schon ein ruhmvolles <rs type="person">Wagner</rs>-Monument — sie mögen
-               <lb facs="#facs_2_region_1784437554235_421_tl_36" n="N036"/>wetteifern, die Gestalt <rs type="person">Wagner</rs>'s in Erz oder Marmor zu
-               <lb facs="#facs_2_region_1784437554235_421_tl_37" n="N037"/>verewigen. Aber <rs type="place">Wien</rs>? Wie kommt <rs type="place">Wien</rs> zu dieser Ehre?
-               <lb facs="#facs_2_region_1784437554235_421_tl_38" n="N038"/>Man müßte den Satz aufstellen, daß <hi rendition="#em">jedem</hi> großen Com¬
-               <lb facs="#facs_2_region_1784437554235_421_tl_39" n="N039"/>ponisten in <hi rendition="#em">jeder</hi> Stadt ein Denkmal gebühre, um ein
-               <lb facs="#facs_2_region_1784437554235_421_tl_40" n="N040"/>Standbild <hi rendition="#em">
-                  <rs type="person">Wagner</rs>'s</hi> in <rs type="place">Wien</rs> zu begreifen. Einen engeren
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784437557452_424_tl_1" n="N001"/>persönlichen Zusammenhang zwischen dem Künstler und dem
+         <lb facs="#facs_2_region_1784437557452_424_tl_2" n="N002"/>Lande oder der Stadt müssen wir doch immer voraussetzen.
+         <lb facs="#facs_2_region_1784437557452_424_tl_3" n="N003"/>Es ist noch keinem Verehrer <rs type="person" ref="#hsl_person_id_18">Bach</rs>’s und <rs type="person" ref="#hsl_person_id_108">Händel</rs>’s einge
+         <lb facs="#facs_2_region_1784437557452_424_tl_4" n="N004" break="no"/>fallen, für ein Monument dieser Meister in <rs type="place" ref="#hsl_place_id_55">Wien</rs> zu agitiren,
+         <lb facs="#facs_2_region_1784437557452_424_tl_5" n="N005"/>denn sie hatten keinen Zusammenhang mit <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Selbst an
+         <lb facs="#facs_2_region_1784437557452_424_tl_6" n="N006"/>ein Denkmal Karl Maria <hi rendition="#em"><rs type="person" ref="#hsl_person_id_321">Weber</rs>’s</hi> in <rs type="place" ref="#hsl_place_id_55">Wien</rs> hat kaum
+         <lb facs="#facs_2_region_1784437557452_424_tl_7" n="N007"/>Jemand gedacht, obwol er seine „<rs type="bibl" ref="#hsl_work_id_201">Euryanthe</rs>“ eigens für
+         <lb facs="#facs_2_region_1784437557452_424_tl_8" n="N008"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> geschrieben und hier oft persönlich thätig war. Ein
+         <lb facs="#facs_2_region_1784437557452_424_tl_9" n="N009"/>halbes Jahrhundert ist seit <rs type="person" ref="#hsl_person_id_321">Weber</rs>’s Tod verstrichen und
+         <lb facs="#facs_2_region_1784437557452_424_tl_10" n="N010"/>hat die dauernde Lebenskraft seiner Werke erprobt. Das
+         <lb facs="#facs_2_region_1784437557452_424_tl_11" n="N011"/>ist nicht bedeutungslos für unsere Frage. Ein Monument
+         <lb facs="#facs_2_region_1784437557452_424_tl_12" n="N012"/>wollen wir doch nicht blos für die Zeitgenossen des Meisters
+         <lb facs="#facs_2_region_1784437557452_424_tl_13" n="N013"/>setzen, sondern recht tief in die Nachwelt hinein, und darum
+         <lb facs="#facs_2_region_1784437557452_424_tl_14" n="N014"/>sollte auch die Nachwelt noch eine Stimme dabei haben.
+         <lb facs="#facs_2_region_1784437557452_424_tl_15" n="N015"/>Das verleiht einem Monument erst die rechte Weihe, wenn
+         <lb facs="#facs_2_region_1784437557452_424_tl_16" n="N016"/>es fünfzig, hundert Jahre nach dem Tode des gefeierten
+         <lb facs="#facs_2_region_1784437557452_424_tl_17" n="N017"/>Mannes aus der einhelligen und abgeklärten Verehrung
+         <lb facs="#facs_2_region_1784437557452_424_tl_18" n="N018"/>eines späteren, unbefangenen Geschlechtes heraus ersteht.
+         <lb facs="#facs_2_region_1784437557452_424_tl_19" n="N019"/>Hören wir, wie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_164">Liszt</rs></hi>, dieser wärmste und werkthätigste
+         <lb facs="#facs_2_region_1784437557452_424_tl_20" n="N020"/>Bewunderer <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s, sich über die Monument-Frage
+         <lb facs="#facs_2_region_1784437557452_424_tl_21" n="N021"/>äußert. Er preist die in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> üblichen „Erinnerungs
+         <lb facs="#facs_2_region_1784437557452_424_tl_22" n="N022" break="no"/>feste zum Andenken großer Männer, welche, weit entfernt,
+         <lb facs="#facs_2_region_1784437557452_424_tl_23" n="N023"/>den nicht minder schönen Brauch der Errichtung von <hi rendition="#em">Denk
+         <lb facs="#facs_2_region_1784437557452_424_tl_24" n="N024" break="no"/>mälern</hi> zu verdrängen, solche vielmehr anregen und die
+         <lb facs="#facs_2_region_1784437557452_424_tl_25" n="N025"/>Bevölkerung aufrufen, zu ihrer Erfüllung beizutragen“. Nur
+         <lb facs="#facs_2_region_1784437557452_424_tl_26" n="N026"/>müßte eine längere Periode seit dem Tode des berühmten
+         <lb facs="#facs_2_region_1784437557452_424_tl_27" n="N027"/>Mannes verflossen und eine Zeit angebrochen sein, „in der
+         <lb facs="#facs_2_region_1784437557452_424_tl_28" n="N028"/>sich nach und nach die unvermeidlichen Wogen des Für und
+         <lb facs="#facs_2_region_1784437557452_424_tl_29" n="N029"/>Wider beruhigt und die Schwankungen sich ausgeglichen haben,
+         <lb facs="#facs_2_region_1784437557452_424_tl_30" n="N030"/>welche sein Ruhm einerseits durch die Böswilligkeit seiner
+         <lb facs="#facs_2_region_1784437557452_424_tl_31" n="N031"/>Gegner erdulden mußte“ — andererseits „durch den lauten
+         <lb facs="#facs_2_region_1784437557452_424_tl_32" n="N032"/>Beifall der Coterie und <hi rendition="#em">der sich neben einen kaum
+         <lb facs="#facs_2_region_1784437557452_424_tl_33" n="N033"/>geschlossenen Sarg drängenden Panegy
+         <lb facs="#facs_2_region_1784437557452_424_tl_34" n="N034" break="no"/>riker, die auf ihr eigenes Antlitz einige der
+         <lb facs="#facs_2_region_1784437557452_424_tl_35" n="N035"/>ihn umgebenden Strahlen lenken wollen,
+         <lb facs="#facs_2_region_1784437557452_424_tl_36" n="N036"/>ich gleichsam mit der Unfähigkeit ihres
+         <lb facs="#facs_2_region_1784437557452_424_tl_37" n="N037"/>Schaffens hinter seinem Todtengeleite
+         <lb facs="#facs_2_region_1784437557452_424_tl_38" n="N038"/>verschanzen und ihre Existenz zu befestigen
+         <lb facs="#facs_2_region_1784437557452_424_tl_39" n="N039"/>suchen, indem sie sich zu Clienten eines durch
+         <lb facs="#facs_2_region_1784437557452_424_tl_40" n="N040"/>den Tod heilig gesprochenen Patrons auf</hi></p>
+            <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <cb n="7"/>
             <p>
-               <lb facs="#facs_2_region_1784437557452_424_tl_1" n="N001"/>persönlichen Zusammenhang zwischen dem Künstler und dem
-               <lb facs="#facs_2_region_1784437557452_424_tl_2" n="N002"/>Lande oder der Stadt müssen wir doch immer voraussetzen.
-               <lb facs="#facs_2_region_1784437557452_424_tl_3" n="N003"/>Es ist noch keinem Verehrer <rs type="person">Bach</rs>'s und <rs type="person">Händel</rs>'s einge¬
-               <lb facs="#facs_2_region_1784437557452_424_tl_4" n="N004"/>fallen, für ein Monument dieser Meister in <rs type="place">Wien</rs> zu agitiren,
-               <lb facs="#facs_2_region_1784437557452_424_tl_5" n="N005"/>denn sie hatten keinen Zusammenhang mit <rs type="place">Wien</rs>. Selbst an
-               <lb facs="#facs_2_region_1784437557452_424_tl_6" n="N006"/>ein Denkmal Karl Maria <hi rendition="#em">
-                  <rs type="person">Weber</rs>'s</hi> in <rs type="place">Wien</rs> hat kaum
-               <lb facs="#facs_2_region_1784437557452_424_tl_7" n="N007"/>Jemand gedacht, obwol er seine „<rs type="bibl">Euryanthe</rs>“ eigens für
-               <lb facs="#facs_2_region_1784437557452_424_tl_8" n="N008"/>
-               <rs type="place">Wien</rs> geschrieben und hier oft persönlich thätig war. Ein
-               <lb facs="#facs_2_region_1784437557452_424_tl_9" n="N009"/>halbes Jahrhundert ist seit <rs type="person">Weber</rs>'s Tod verstrichen und
-               <lb facs="#facs_2_region_1784437557452_424_tl_10" n="N010"/>hat die dauernde Lebenskraft seiner Werke erprobt. Das
-               <lb facs="#facs_2_region_1784437557452_424_tl_11" n="N011"/>ist nicht bedeutungslos für unsere Frage. Ein Monument
-               <lb facs="#facs_2_region_1784437557452_424_tl_12" n="N012"/>wollen wir doch nicht blos für die Zeitgenossen des Meisters
-               <lb facs="#facs_2_region_1784437557452_424_tl_13" n="N013"/>setzen, sondern recht tief in die Nachwelt hinein, und darum
-               <lb facs="#facs_2_region_1784437557452_424_tl_14" n="N014"/>sollte auch die Nachwelt noch eine Stimme dabei haben.
-               <lb facs="#facs_2_region_1784437557452_424_tl_15" n="N015"/>Das verleiht einem Monument erst die rechte Weihe, wenn
-               <lb facs="#facs_2_region_1784437557452_424_tl_16" n="N016"/>es fünfzig, hundert Jahre nach dem Tode des gefeierten
-               <lb facs="#facs_2_region_1784437557452_424_tl_17" n="N017"/>Mannes aus der einhelligen und abgeklärten Verehrung
-               <lb facs="#facs_2_region_1784437557452_424_tl_18" n="N018"/>eines späteren, unbefangenen Geschlechtes heraus ersteht.
-               <lb facs="#facs_2_region_1784437557452_424_tl_19" n="N019"/>Hören wir, wie <hi rendition="#em">
-                  <rs type="person">Liszt</rs>
-               </hi>, dieser wärmste und werkthätigste
-               <lb facs="#facs_2_region_1784437557452_424_tl_20" n="N020"/>Bewunderer <rs type="person">Wagner</rs>'s, sich über die Monument-Frage
-               <lb facs="#facs_2_region_1784437557452_424_tl_21" n="N021"/>äußert. Er preist die in <rs type="place">Deutschland</rs> üblichen „Erinnerungs¬
-               <lb facs="#facs_2_region_1784437557452_424_tl_22" n="N022"/>feste zum Andenken großer Männer, welche, weit entfernt,
-               <lb facs="#facs_2_region_1784437557452_424_tl_23" n="N023"/>den nicht minder schönen Brauch der Errichtung von <hi rendition="#em">Denk¬</hi>
-               <lb facs="#facs_2_region_1784437557452_424_tl_24" n="N024"/>
-               <hi rendition="#em">mälern</hi> zu verdrängen, solche vielmehr anregen und die
-               <lb facs="#facs_2_region_1784437557452_424_tl_25" n="N025"/>Bevölkerung aufrufen, zu ihrer Erfüllung beizutragen“. Nur
-               <lb facs="#facs_2_region_1784437557452_424_tl_26" n="N026"/>müßte eine längere Periode seit dem Tode des berühmten
-               <lb facs="#facs_2_region_1784437557452_424_tl_27" n="N027"/>Mannes verflossen und eine Zeit angebrochen sein, „in der
-               <lb facs="#facs_2_region_1784437557452_424_tl_28" n="N028"/>sich nach und nach die unvermeidlichen Wogen des Für und
-               <lb facs="#facs_2_region_1784437557452_424_tl_29" n="N029"/>Wider beruhigt und die Schwankungen sich ausgeglichen haben,
-               <lb facs="#facs_2_region_1784437557452_424_tl_30" n="N030"/>welche sein Ruhm einerseits durch die Böswilligkeit seiner
-               <lb facs="#facs_2_region_1784437557452_424_tl_31" n="N031"/>Gegner erdulden mußte“ — andererseits „durch den lauten
-               <lb facs="#facs_2_region_1784437557452_424_tl_32" n="N032"/>Beifall der Coterie und <hi rendition="#em">der sich neben einen kaum</hi>
-               <lb facs="#facs_2_region_1784437557452_424_tl_33" n="N033"/>
-               <hi rendition="#em">geschlossenen Sarg drängenden Panegy¬</hi>
-               <lb facs="#facs_2_region_1784437557452_424_tl_34" n="N034"/>
-               <hi rendition="#em">riker, die auf ihr eigenes Antlitz einige der</hi>
-               <lb facs="#facs_2_region_1784437557452_424_tl_35" n="N035"/>
-               <hi rendition="#em">ihn umgebenden Strahlen lenken wollen,</hi>
-               <lb facs="#facs_2_region_1784437557452_424_tl_36" n="N036"/>
-               <hi rendition="#em">ich gleichsam mit der Unfähigkeit ihres</hi>
-               <lb facs="#facs_2_region_1784437557452_424_tl_37" n="N037"/>
-               <hi rendition="#em">Schaffens hinter seinem Todtengeleite</hi>
-               <lb facs="#facs_2_region_1784437557452_424_tl_38" n="N038"/>
-               <hi rendition="#em">verschanzen und ihre Existenz zu befestigen</hi>
-               <lb facs="#facs_2_region_1784437557452_424_tl_39" n="N039"/>
-               <hi rendition="#em">suchen, indem sie sich zu Clienten eines durch</hi>
-               <lb facs="#facs_2_region_1784437557452_424_tl_40" n="N040"/>
-               <hi rendition="#em">den Tod heilig gesprochenen Patrons auf¬</hi>
-            </p>
-            <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1784437567941_430_tl_1" n="N001"/>
-               <hi rendition="#em">werfen</hi>“. <rs type="person">Liszt</rs> schrieb diese Worte, die so wunderbar auf
-               <lb facs="#facs_3_region_1784437567941_430_tl_2" n="N002"/>die jüngsten Ereignisse passen, bei Gelegenheit des <rs type="person">Mozart</rs>-
-               <lb facs="#facs_3_region_1784437567941_430_tl_3" n="N003"/>Jubiläums <date>1856</date> in <rs type="place">Wien</rs>. Die vortreffliche Stelle, die wir
-               <lb facs="#facs_3_region_1784437567941_430_tl_4" n="N004"/>oben hervorgehoben, trifft allerdings mehr die „Panegyriker“
-               <lb facs="#facs_3_region_1784437567941_430_tl_5" n="N005"/>von heute, als jene von <date>1791</date>; damals ist dem Tonkünstler,
-               <lb facs="#facs_3_region_1784437567941_430_tl_6" n="N006"/>selbst dem größten, noch nicht entfernt jene Wichtigkeit beige¬
-               <lb facs="#facs_3_region_1784437567941_430_tl_7" n="N007"/>legt worden, wie in unseren Tagen, und vollends die Ver¬
-               <lb facs="#facs_3_region_1784437567941_430_tl_8" n="N008"/>ehrer <hi rendition="#em">
-                  <rs type="person">Mozart</rs>'s</hi> haben nach seinem Hinscheiden sich keines¬
-               <lb facs="#facs_3_region_1784437567941_430_tl_9" n="N009"/>wegs durch übermäßige Huldigungen, sondern leider nur durch
-               <lb facs="#facs_3_region_1784437567941_430_tl_10" n="N010"/>übermäßige Indolenz hervorgethan.
-               <lb facs="#facs_3_region_1784437567941_430_tl_11" n="N011"/>Die überstürzte Denkmal-Agitation der <rs type="place">Wien</rs>er Wagne¬
-               <lb facs="#facs_3_region_1784437567941_430_tl_12" n="N012"/>rianer hat keine andere Folge gehabt, als den lauten Ruf
-               <lb facs="#facs_3_region_1784437567941_430_tl_13" n="N013"/>nach einem <rs type="person">Mozart</rs>-Monument. Es blieb dem rührigen Ur¬
-               <lb facs="#facs_3_region_1784437567941_430_tl_14" n="N014"/>heber jener Agitation nichts Anderes übrig, als die nachträg¬
-               <lb facs="#facs_3_region_1784437567941_430_tl_15" n="N015"/>liche gewundene Erklärung, er habe die Sache „bis auf
-               <lb facs="#facs_3_region_1784437567941_430_tl_16" n="N016"/>günstigere Zeit sistirt“. Die Motivirung dieses Rückzuges
-               <lb facs="#facs_3_region_1784437567941_430_tl_17" n="N017"/>mit <hi rendition="#em">politischen</hi> Bedenken, welche sich gegen ein <rs type="person">Wagner</rs>-
-               <lb facs="#facs_3_region_1784437567941_430_tl_18" n="N018"/>Denkmal in <rs type="place">Wien</rs> erhoben hätten, hat etwas Komisches. Wir
-               <lb facs="#facs_3_region_1784437567941_430_tl_19" n="N019"/>sind überzeugt, daß nicht einmal der <rs type="person">König</rs> von <rs type="place">Sachsen</rs>,
-               <lb facs="#facs_3_region_1784437567941_430_tl_20" n="N020"/>der sich doch gewiß zuerst „politischer Tendenzen“, <rs type="person">Wagner</rs>'s
-               <lb facs="#facs_3_region_1784437567941_430_tl_21" n="N021"/>erinnern dürfte, einem Denkmal dieses Componisten Schwie¬
-               <lb facs="#facs_3_region_1784437567941_430_tl_22" n="N022"/>rigkeiten bereiten wird. Und <rs type="place">Oesterreich</rs> sollte sich vor dessen
-               <lb facs="#facs_3_region_1784437567941_430_tl_23" n="N023"/>politischer Bedeutung zu fürchten haben? Am Ende macht
-               <lb facs="#facs_3_region_1784437567941_430_tl_24" n="N024"/>man uns noch glauben, daß Richard <rs type="person">Wagner</rs> es gewesen,
-               <lb facs="#facs_3_region_1784437567941_430_tl_25" n="N025"/>der uns bei <rs type="place">Königgrätz</rs> besiegt und <rs type="place">Oesterreich</rs> aus <rs type="place" continued="true">Deutsch¬</rs>
-               <lb facs="#facs_3_region_1784437567941_430_tl_26" n="N026"/>
-               <rs type="place" continued="true">land</rs> herausgedrängt hat. Nein, wir halten uns lieber an
-               <lb facs="#facs_3_region_1784437567941_430_tl_27" n="N027"/>die einfacher, natürliche Erklärung: daß man die Aussichts¬
-               <lb facs="#facs_3_region_1784437567941_430_tl_28" n="N028"/>losigkeit dieses im Trauerrausch beschlossenen Unternehmens
-               <lb facs="#facs_3_region_1784437567941_430_tl_29" n="N029"/>nachträglich einsah. Der „rührige Unternehmer“ kann sich
-               <lb facs="#facs_3_region_1784437567941_430_tl_30" n="N030"/>übrigens mit der Gewißheit trösten, daß die von ihm bereits
-               <lb facs="#facs_3_region_1784437567941_430_tl_31" n="N031"/>gesammelten Beträge anderswo höchst willkommen sein wer¬
-               <lb facs="#facs_3_region_1784437567941_430_tl_32" n="N032"/>den. Wir Anderen hingegen verfolgen fortan mit freudiger
-               <lb facs="#facs_3_region_1784437567941_430_tl_33" n="N033"/>Theilnahme die rüstigen Vorbereitungen zu unserem <rs type="person">Mozart</rs>-
-               <lb facs="#facs_3_region_1784437567941_430_tl_34" n="N034"/>Denkmal. Der General-Intendant der kaiserlichen Hoftheater
-               <lb facs="#facs_3_region_1784437567941_430_tl_35" n="N035"/>hat bereits mit freigebiger Hand und in musterhafter Form
-               <lb facs="#facs_3_region_1784437567941_430_tl_36" n="N036"/>für die ersten Zuflüsse gesorgt, und jene energisch vordenkende
-               <lb facs="#facs_3_region_1784437567941_430_tl_37" n="N037"/>und nachdrängende Kraft, welche vom <rs type="place">Parkring</rs> aus das
-               <lb facs="#facs_3_region_1784437567941_430_tl_38" n="N038"/>
-               <rs type="person">Schubert</rs>- und das <rs type="person">Beethoven</rs>-Denkmal gefördert hat, sie
-               <lb facs="#facs_3_region_1784437567941_430_tl_39" n="N039"/>wird uns gewiß auch für <hi rendition="#em">
-                  <rs type="person">Mozart</rs>'s</hi> Standbild den besten,
-               <lb facs="#facs_3_region_1784437567941_430_tl_40" n="N040"/>harmonischesten Platz ersinnen und erwirken.
+         <lb facs="#facs_3_region_1784437567941_430_tl_1" n="N001" break="no"/><hi rendition="#em">werfen</hi>“. <rs type="person" ref="#hsl_person_id_164">Liszt</rs> schrieb diese Worte, die so wunderbar auf
+         <lb facs="#facs_3_region_1784437567941_430_tl_2" n="N002"/>die jüngsten Ereignisse passen, bei Gelegenheit des <rs type="person" ref="#hsl_person_id_189">Mozart</rs>-
+         <lb facs="#facs_3_region_1784437567941_430_tl_3" n="N003"/>Jubiläums <date>1856</date> in <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Die vortreffliche Stelle, die wir
+         <lb facs="#facs_3_region_1784437567941_430_tl_4" n="N004"/>oben hervorgehoben, trifft allerdings mehr die „Panegyriker“
+         <lb facs="#facs_3_region_1784437567941_430_tl_5" n="N005"/>von heute, als jene von <date>1791</date>; damals ist dem Tonkünstler,
+         <lb facs="#facs_3_region_1784437567941_430_tl_6" n="N006"/>selbst dem größten, noch nicht entfernt jene Wichtigkeit beige
+         <lb facs="#facs_3_region_1784437567941_430_tl_7" n="N007" break="no"/>legt worden, wie in unseren Tagen, und vollends die Ver
+         <lb facs="#facs_3_region_1784437567941_430_tl_8" n="N008" break="no"/>ehrer <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s</hi> haben nach seinem Hinscheiden sich keines
+         <lb facs="#facs_3_region_1784437567941_430_tl_9" n="N009" break="no"/>wegs durch übermäßige Huldigungen, sondern leider nur durch
+         <lb facs="#facs_3_region_1784437567941_430_tl_10" n="N010"/>übermäßige Indolenz hervorgethan.
+            </p><p>
+         <lb facs="#facs_3_region_1784437567941_430_tl_11" n="N011"/>Die überstürzte Denkmal-Agitation der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Wagne
+         <lb facs="#facs_3_region_1784437567941_430_tl_12" n="N012" break="no"/>rianer hat keine andere Folge gehabt, als den lauten Ruf
+         <lb facs="#facs_3_region_1784437567941_430_tl_13" n="N013"/>nach einem <rs type="person" ref="#hsl_person_id_189">Mozart</rs>-Monument. Es blieb dem rührigen Ur
+         <lb facs="#facs_3_region_1784437567941_430_tl_14" n="N014" break="no"/>heber jener Agitation nichts Anderes übrig, als die nachträg
+         <lb facs="#facs_3_region_1784437567941_430_tl_15" n="N015" break="no"/>liche gewundene Erklärung, er habe die Sache „bis auf
+         <lb facs="#facs_3_region_1784437567941_430_tl_16" n="N016"/>günstigere Zeit sistirt“. Die Motivirung dieses Rückzuges
+         <lb facs="#facs_3_region_1784437567941_430_tl_17" n="N017"/>mit <hi rendition="#em">politischen</hi> Bedenken, welche sich gegen ein <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-
+         <lb facs="#facs_3_region_1784437567941_430_tl_18" n="N018"/>Denkmal in <rs type="place" ref="#hsl_place_id_55">Wien</rs> erhoben hätten, hat etwas Komisches. Wir
+         <lb facs="#facs_3_region_1784437567941_430_tl_19" n="N019"/>sind überzeugt, daß nicht einmal der <rs type="person" ref="#hsl_person_id_9269">König</rs> von <rs type="place" ref="#hsl_place_id_165">Sachsen</rs>,
+         <lb facs="#facs_3_region_1784437567941_430_tl_20" n="N020"/>der sich doch gewiß zuerst „politischer Tendenzen“, <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s
+         <lb facs="#facs_3_region_1784437567941_430_tl_21" n="N021"/>erinnern dürfte, einem Denkmal dieses Componisten Schwie
+         <lb facs="#facs_3_region_1784437567941_430_tl_22" n="N022" break="no"/>rigkeiten bereiten wird. Und <rs type="place" ref="#hsl_place_id_43">Oesterreich</rs> sollte sich vor dessen
+         <lb facs="#facs_3_region_1784437567941_430_tl_23" n="N023"/>politischer Bedeutung zu fürchten haben? Am Ende macht
+         <lb facs="#facs_3_region_1784437567941_430_tl_24" n="N024"/>man uns noch glauben, daß Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> es gewesen,
+         <lb facs="#facs_3_region_1784437567941_430_tl_25" n="N025"/>der uns bei <rs type="place" ref="#hsl_place_id_381">Königgrätz</rs> besiegt und <rs type="place" ref="#hsl_place_id_43">Oesterreich</rs> aus <rs type="place" ref="#hsl_place_id_14">Deutsch
+         <lb facs="#facs_3_region_1784437567941_430_tl_26" n="N026" break="no"/>land</rs> herausgedrängt hat. Nein, wir halten uns lieber an
+         <lb facs="#facs_3_region_1784437567941_430_tl_27" n="N027"/>die einfacher, natürliche Erklärung: daß man die Aussichts
+         <lb facs="#facs_3_region_1784437567941_430_tl_28" n="N028" break="no"/>losigkeit dieses im Trauerrausch beschlossenen Unternehmens
+         <lb facs="#facs_3_region_1784437567941_430_tl_29" n="N029"/>nachträglich einsah. Der „rührige Unternehmer“ kann sich
+         <lb facs="#facs_3_region_1784437567941_430_tl_30" n="N030"/>übrigens mit der Gewißheit trösten, daß die von ihm bereits
+         <lb facs="#facs_3_region_1784437567941_430_tl_31" n="N031"/>gesammelten Beträge anderswo höchst willkommen sein wer
+         <lb facs="#facs_3_region_1784437567941_430_tl_32" n="N032" break="no"/>den. Wir Anderen hingegen verfolgen fortan mit freudiger
+         <lb facs="#facs_3_region_1784437567941_430_tl_33" n="N033"/>Theilnahme die rüstigen Vorbereitungen zu unserem <rs type="person" ref="#hsl_person_id_189">Mozart</rs>-
+         <lb facs="#facs_3_region_1784437567941_430_tl_34" n="N034"/>Denkmal. Der General-Intendant der kaiserlichen Hoftheater
+         <lb facs="#facs_3_region_1784437567941_430_tl_35" n="N035"/>hat bereits mit freigebiger Hand und in musterhafter Form
+         <lb facs="#facs_3_region_1784437567941_430_tl_36" n="N036"/>für die ersten Zuflüsse gesorgt, und jene energisch vordenkende
+         <lb facs="#facs_3_region_1784437567941_430_tl_37" n="N037"/>und nachdrängende Kraft, welche vom <rs type="place" ref="#hsl_place_id_1488">Parkring</rs> aus das
+         <lb facs="#facs_3_region_1784437567941_430_tl_38" n="N038"/><rs type="person" ref="#hsl_person_id_279">Schubert</rs>- und das <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Denkmal gefördert hat, sie
+         <lb facs="#facs_3_region_1784437567941_430_tl_39" n="N039"/>wird uns gewiß auch für <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s</hi> Standbild den besten,
+         <lb facs="#facs_3_region_1784437567941_430_tl_40" n="N040"/>harmonischesten Platz ersinnen und erwirken.
             </p>
          </div>
       </body>

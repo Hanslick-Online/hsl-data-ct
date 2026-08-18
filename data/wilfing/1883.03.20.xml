@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 6667. Wien, Dienstag, den 20. März 1883</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +70,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 6667. Wien, Dienstag, den 20. März 1883</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1883-03-20">20.03.1883</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18830320"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-08-03">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-08-08">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-08-18">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1212,425 +1212,374 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1784437399009_317_tl_1" n="N001"/><head type="h1">Das <rs type="bibl" ref="#hsl_work_id_572">Requiem</rs> von Hector <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>.</head>
+            <lb facs="#facs_1_region_1784437399009_317_tl_2" n="N002"/><head type="h2">(Aus Anlaß der bevorstehenden Aufführung durch die Gesellschaft der Musikfreunde.)</head>
             <p>
-               <lb facs="#facs_1_line_1784785420794_685" n="N001"/>Nr. 6667. Wien, Dienstag, den 20. März 1883
-            </p>
+         <lb facs="#facs_1_region_1784437399009_317_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_1">Ed. H.</rs> Nach einem Ausspruche Karl Maria <hi rendition="#em"><rs type="person" ref="#hsl_person_id_321">Weber</rs>’s</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784437399009_317_tl_4" n="N004"/>wäre es dem Publicum meistens nützlicher, wenn es Bespre
+         <lb facs="#facs_1_region_1784437399009_317_tl_5" n="N005" break="no"/>chungen bedeutender neuer Compositionen <hi rendition="#em">vor</hi> der Auf
+         <lb facs="#facs_1_region_1784437399009_317_tl_6" n="N006" break="no"/>führung zu lesen bekäme, als nach derselben. Als Capell
+         <lb facs="#facs_1_region_1784437399009_317_tl_7" n="N007" break="no"/>meister am <rs type="place" ref="#hsl_place_id_45">Prag</rs>er Theater hat <rs type="person" ref="#hsl_person_id_321">Weber</rs> diese Idee häufig
+         <lb facs="#facs_1_region_1784437399009_317_tl_8" n="N008"/>selbst verwirklicht, indem er vor der ersten Aufführung hervor
+         <lb facs="#facs_1_region_1784437399009_317_tl_9" n="N009" break="no"/>ragender Opern oder Oratorien das musikalische Publicum
+         <lb facs="#facs_1_region_1784437399009_317_tl_10" n="N010"/>durch längere oder kürzere Zeitungsartikel über die Geschichte,
+         <lb facs="#facs_1_region_1784437399009_317_tl_11" n="N011"/>den Charakter und die hervorstechendsten Einzelheiten der
+         <lb facs="#facs_1_region_1784437399009_317_tl_12" n="N012"/>Novität informirte. Die bevorstehende erste Aufführung von
+         <lb facs="#facs_1_region_1784437399009_317_tl_13" n="N013"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’</hi> berühmten „<rs type="bibl" ref="#hsl_work_id_572">Requiem</rs>“ scheint uns ein sehr pas
+         <lb facs="#facs_1_region_1784437399009_317_tl_14" n="N014" break="no"/>sender Anlaß, <rs type="person" ref="#hsl_person_id_321">Weber</rs>’s Beispiel zu folgen und unsere Leser
+         <lb facs="#facs_1_region_1784437399009_317_tl_15" n="N015"/>auf die Geschichte dieser merkwürdigen Composition, sowie auf
+         <lb facs="#facs_1_region_1784437399009_317_tl_16" n="N016"/>deren charakteristische Eigenschaften aufmerksam zu machen.
+            </p><p>
+         <lb facs="#facs_1_region_1784437399009_317_tl_17" n="N017"/>Die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Juli-Monarchie hat es bekanntlich an
+         <lb facs="#facs_1_region_1784437399009_317_tl_18" n="N018"/>fördernder Liberalität für die Musik empfindlich fehlen
+         <lb facs="#facs_1_region_1784437399009_317_tl_19" n="N019"/>lassen. Einmal jedoch ging die Regierung <rs type="person" ref="#hsl_person_id_5947">Louis Philippe</rs>’s
+         <lb facs="#facs_1_region_1784437399009_317_tl_20" n="N020"/>trotzdem heraus aus ihrem Principe der Sparsamkeit, und
+         <lb facs="#facs_1_region_1784437399009_317_tl_21" n="N021"/>zwar zu Gunsten des jungen Hector <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>. Derselbe war
+         <lb facs="#facs_1_region_1784437399009_317_tl_22" n="N022"/>eben erst als Staatsstipendist aus <rs type="place" ref="#hsl_place_id_47">Rom</rs> zurückgekehrt und
+         <lb facs="#facs_1_region_1784437399009_317_tl_23" n="N023"/>lediglich durch sein excentrisches Wesen und seine „<rs type="bibl" ref="#hsl_work_id_65">Sinfonie
+         <lb facs="#facs_1_region_1784437399009_317_tl_24" n="N024"/>fantastique</rs>“ bekannt. Er hatte das Glück, damals —
+         <lb facs="#facs_1_region_1784437399009_317_tl_25" n="N025"/>noch bei Lebzeiten der officiellen Kirchen-Componisten
+         <lb facs="#facs_1_region_1784437399009_317_tl_26" n="N026"/><rs type="person" ref="#hsl_person_id_160">Lesueur</rs> und <rs type="person" ref="#hsl_person_id_47">Cherubini</rs> — vom Minister des Innern,
+         <lb facs="#facs_1_region_1784437399009_317_tl_27" n="N027"/>Grafen <rs type="person" ref="#hsl_person_id_3520">Gasparin</rs>, den Auftrag zur Composition eines
+         <lb facs="#facs_1_region_1784437399009_317_tl_28" n="N028"/>Requiems zu erhalten, das zum Trauergottesdienste
+         <lb facs="#facs_1_region_1784437399009_317_tl_29" n="N029"/>für die Opfer der Juli-Revolution bestimmt war.
+         <lb facs="#facs_1_region_1784437399009_317_tl_30" n="N030"/>Die Regierung sollte die Kosten der Aufführung tragen und
+         <lb facs="#facs_1_region_1784437399009_317_tl_31" n="N031"/>dem Componisten ein Honorar von 3000 Francs ausbezah
+         <lb facs="#facs_1_region_1784437399009_317_tl_32" n="N032" break="no"/>len. Aber der Stern des <rs type="person" ref="#hsl_person_id_3520">Minister</rs>s war im jähen Nieder
+         <lb facs="#facs_1_region_1784437399009_317_tl_33" n="N033" break="no"/>gange, seine Demission bevorstehend, und da gedachten die
+         <lb facs="#facs_1_region_1784437399009_317_tl_34" n="N034"/>leitenden Sections-Chefs die Sache lieber einschlafen zu lassen.
+         <lb facs="#facs_1_region_1784437399009_317_tl_35" n="N035"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs>, der schon mit den Proben begonnen hatte, erhielt<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1784437399009_317_tl_1" n="N001"/>Das <rs type="bibl">Requiem</rs> von Hector <rs type="person">Berlioz</rs>.
-               <lb facs="#facs_1_region_1784437399009_317_tl_2" n="N002"/>(Aus Anlaß der bevorstehenden Aufführung durch die Gesellschaft der Musikfreunde.)
-               <lb facs="#facs_1_region_1784437399009_317_tl_3" n="N003"/>Ed. H. Nach einem Ausspruche Karl Maria <hi rendition="#em">
-                  <rs type="person">Weber</rs>'s</hi>
-               <lb facs="#facs_1_region_1784437399009_317_tl_4" n="N004"/>wäre es dem Publicum meistens nützlicher, wenn es Bespre¬
-               <lb facs="#facs_1_region_1784437399009_317_tl_5" n="N005"/>chungen bedeutender neuer Compositionen <hi rendition="#em">vor</hi> der Auf¬
-               <lb facs="#facs_1_region_1784437399009_317_tl_6" n="N006"/>führung zu lesen bekäme, als nach derselben. Als Capell¬
-               <lb facs="#facs_1_region_1784437399009_317_tl_7" n="N007"/>meister am <rs type="place">Prag</rs>er Theater hat <rs type="person">Weber</rs> diese Idee häufig
-               <lb facs="#facs_1_region_1784437399009_317_tl_8" n="N008"/>selbst verwirklicht, indem er vor der ersten Aufführung hervor¬
-               <lb facs="#facs_1_region_1784437399009_317_tl_9" n="N009"/>ragender Opern oder Oratorien das musikalische Publicum
-               <lb facs="#facs_1_region_1784437399009_317_tl_10" n="N010"/>durch längere oder kürzere Zeitungsartikel über die Geschichte,
-               <lb facs="#facs_1_region_1784437399009_317_tl_11" n="N011"/>den Charakter und die hervorstechendsten Einzelheiten der
-               <lb facs="#facs_1_region_1784437399009_317_tl_12" n="N012"/>Novität informirte. Die bevorstehende erste Aufführung von
-               <lb facs="#facs_1_region_1784437399009_317_tl_13" n="N013"/>
-               <hi rendition="#em">
-                  <rs type="person">Berlioz</rs>'</hi> berühmten „<rs type="bibl">Requiem</rs>“ scheint uns ein sehr pas¬
-               <lb facs="#facs_1_region_1784437399009_317_tl_14" n="N014"/>sender Anlaß, <rs type="person">Weber</rs>'s Beispiel zu folgen und unsere Leser
-               <lb facs="#facs_1_region_1784437399009_317_tl_15" n="N015"/>auf die Geschichte dieser merkwürdigen Composition, sowie auf
-               <lb facs="#facs_1_region_1784437399009_317_tl_16" n="N016"/>deren charakteristische Eigenschaften aufmerksam zu machen.
-               <lb facs="#facs_1_region_1784437399009_317_tl_17" n="N017"/>Die <rs type="place">französisch</rs>e Juli-Monarchie hat es bekanntlich an
-               <lb facs="#facs_1_region_1784437399009_317_tl_18" n="N018"/>fördernder Liberalität für die Musik empfindlich fehlen
-               <lb facs="#facs_1_region_1784437399009_317_tl_19" n="N019"/>lassen. Einmal jedoch ging die Regierung <rs type="person">Louis Philippe</rs>'s
-               <lb facs="#facs_1_region_1784437399009_317_tl_20" n="N020"/>trotzdem heraus aus ihrem Principe der Sparsamkeit, und
-               <lb facs="#facs_1_region_1784437399009_317_tl_21" n="N021"/>zwar zu Gunsten des jungen Hector <rs type="person">Berlioz</rs>. Derselbe war
-               <lb facs="#facs_1_region_1784437399009_317_tl_22" n="N022"/>eben erst als Staatsstipendist aus <rs type="place">Rom</rs> zurückgekehrt und
-               <lb facs="#facs_1_region_1784437399009_317_tl_23" n="N023"/>lediglich durch sein excentrisches Wesen und seine „<rs type="bibl">Sinfonie</rs>
-               <lb facs="#facs_1_region_1784437399009_317_tl_24" n="N024"/>
-               <rs type="bibl">fantastique</rs>“ bekannt. Er hatte das Glück, damals —
-               <lb facs="#facs_1_region_1784437399009_317_tl_25" n="N025"/>noch bei Lebzeiten der officiellen Kirchen-Componisten
-               <lb facs="#facs_1_region_1784437399009_317_tl_26" n="N026"/>
-               <rs type="person">Lesueur</rs> und <rs type="person">Cherubini</rs> — vom Minister des Innern,
-               <lb facs="#facs_1_region_1784437399009_317_tl_27" n="N027"/>Grafen <rs type="person">Gasparin</rs>, den Auftrag zur Composition eines
-               <lb facs="#facs_1_region_1784437399009_317_tl_28" n="N028"/>Requiems zu erhalten, das zum Trauergottesdienste
-               <lb facs="#facs_1_region_1784437399009_317_tl_29" n="N029"/>für die Opfer der Juli-Revolution bestimmt war.
-               <lb facs="#facs_1_region_1784437399009_317_tl_30" n="N030"/>Die Regierung sollte die Kosten der Aufführung tragen und
-               <lb facs="#facs_1_region_1784437399009_317_tl_31" n="N031"/>dem Componisten ein Honorar von 3000 Francs ausbezah¬
-               <lb facs="#facs_1_region_1784437399009_317_tl_32" n="N032"/>len. Aber der Stern des <rs type="person">Minister</rs>s war im jähen Nieder¬
-               <lb facs="#facs_1_region_1784437399009_317_tl_33" n="N033"/>gange, seine Demission bevorstehend, und da gedachten die
-               <lb facs="#facs_1_region_1784437399009_317_tl_34" n="N034"/>leitenden Sections-Chefs die Sache lieber einschlafen zu lassen.
-               <lb facs="#facs_1_region_1784437399009_317_tl_35" n="N035"/>
-               <rs type="person">Berlioz</rs>, der schon mit den Proben begonnen hatte, erhielt
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1784437402275_320_tl_1" n="N001"/>plötzlich die officielle Erklärung, die Trauerfeierlichkeit werde
+         <lb facs="#facs_1_region_1784437402275_320_tl_2" n="N002"/>ohne Musik stattfinden. <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> bestand ungeduldig auf seinem
+         <lb facs="#facs_1_region_1784437402275_320_tl_3" n="N003"/>Schein und hatte eben eine sehr heftige Auseinandersetzung
+         <lb facs="#facs_1_region_1784437402275_320_tl_4" n="N004"/>mit dem Vorstand des Kunstdepartements, als die Kanonen
+         <lb facs="#facs_1_region_1784437402275_320_tl_5" n="N005"/>vom Invalidendom die Einnahme von <rs type="place" ref="#hsl_place_id_1493">Constantine</rs> verkün
+         <lb facs="#facs_1_region_1784437402275_320_tl_6" n="N006" break="no"/>digten. General <rs type="person" ref="#hsl_person_id_9292">Damremont</rs> war bei <rs type="place" ref="#hsl_place_id_1493">Constantine</rs> gefallen
+         <lb facs="#facs_1_region_1784437402275_320_tl_7" n="N007"/>und sollte durch einen feierlichen Trauergottesdienst geehrt
+         <lb facs="#facs_1_region_1784437402275_320_tl_8" n="N008"/>werden. Das gehörte ins Ressort des Kriegsministers General
+         <lb facs="#facs_1_region_1784437402275_320_tl_9" n="N009"/><rs type="person" ref="#hsl_person_id_9296">Bernard</rs>, welcher nun einwilligte, daß <hi rendition="#em"><rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’</hi><space quantity="1" unit="char"/><rs type="bibl" ref="#hsl_work_id_572">Requiem</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784437402275_320_tl_10" n="N010"/>für diesen Anlaß gewählt und in der Invaliden-Kirche auf
+         <lb facs="#facs_1_region_1784437402275_320_tl_11" n="N011" break="no"/>geführt werde. Kaum war es aber bekannt geworden, daß
+         <lb facs="#facs_1_region_1784437402275_320_tl_12" n="N012"/>für diese großartige officielle Feierlichkeit die Musik eines
+         <lb facs="#facs_1_region_1784437402275_320_tl_13" n="N013"/>unberühmten jungen Menschen auserwählt worden, als leb
+         <lb facs="#facs_1_region_1784437402275_320_tl_14" n="N014" break="no"/>hafte Kabalen sich gegen <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> regten. Zuerst bekam
+         <lb facs="#facs_1_region_1784437402275_320_tl_15" n="N015"/><rs type="person" ref="#hsl_person_id_47">Cherubini</rs> das Fieber bei dieser Nachricht. Bestand doch seit
+         <lb facs="#facs_1_region_1784437402275_320_tl_16" n="N016"/>Jahren die Sitte, daß für ähnliche Anlässe stets eine Com
+         <lb facs="#facs_1_region_1784437402275_320_tl_17" n="N017" break="no"/>position von <rs type="person" ref="#hsl_person_id_47">Cherubini</rs> bestimmt wurde. Er mußte die Be
+         <lb facs="#facs_1_region_1784437402275_320_tl_18" n="N018" break="no"/>vorzugung <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’ als einen kränkenden Angriff auf seine
+         <lb facs="#facs_1_region_1784437402275_320_tl_19" n="N019"/>Würde, seine Vorrechte empfinden. <rs type="person" ref="#hsl_person_id_47">Cherubini</rs>’s Schüler ver
+         <lb facs="#facs_1_region_1784437402275_320_tl_20" n="N020" break="no"/>schworen sich, und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_106">Halévy</rs></hi>, der angesehenste von ihnen,
+         <lb facs="#facs_1_region_1784437402275_320_tl_21" n="N021"/>begab sich sofort zu dem Eigenthümer des <rs type="bibl" ref="#hsl_work_id_639">Journal des Dé
+         <lb facs="#facs_1_region_1784437402275_320_tl_22" n="N022" break="no"/>bats</rs>, <rs type="person" ref="#hsl_person_id_9294">Bertin</rs>, um gegen <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> für <rs type="person" ref="#hsl_person_id_47">Cherubini</rs> zu agitiren.
+         <lb facs="#facs_1_region_1784437402275_320_tl_23" n="N023"/>Aber <rs type="person" ref="#hsl_person_id_9294">Bertin</rs> und sein Sohn <rs type="person" ref="#hsl_person_id_9295">Armand</rs> blieben fest in ihren
+         <lb facs="#facs_1_region_1784437402275_320_tl_24" n="N024"/>Sympathien für <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>, und <rs type="person" ref="#hsl_person_id_47">Cherubini</rs> wurde mit
+         <lb facs="#facs_1_region_1784437402275_320_tl_25" n="N025"/>dem Commandeurkreuz der Ehrenlegion beschwichtigt.
+         <lb facs="#facs_1_region_1784437402275_320_tl_26" n="N026"/>Eine neue böse Ueberraschung für <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> war es, als Ge
+         <lb facs="#facs_1_region_1784437402275_320_tl_27" n="N027" break="no"/>neral <rs type="person" ref="#hsl_person_id_9296">Bernard</rs> ihm eines Tages mittheilte, daß <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2346">Habeneck</rs></hi>,
+         <lb facs="#facs_1_region_1784437402275_320_tl_28" n="N028"/>der berühmte Dirigent der Conservatoriums-Concerte, auch
+         <lb facs="#facs_1_region_1784437402275_320_tl_29" n="N029"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’ <rs type="bibl" ref="#hsl_work_id_572">Requiem</rs> dirigiren werde. „Sie sind zwar gewohnt,
+         <lb facs="#facs_1_region_1784437402275_320_tl_30" n="N030"/>Herr <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>, Ihre Werke selbst zu dirigiren, aber <rs type="person" ref="#hsl_person_id_2346">Habeneck</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784437402275_320_tl_31" n="N031"/>ist ein alter Mann, welchen es tief schmerzen würde, sich
+         <lb facs="#facs_1_region_1784437402275_320_tl_32" n="N032"/>hier zurückgesetzt zu sehen.“ <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> mußte sich fügen, obwol
+         <lb facs="#facs_1_region_1784437402275_320_tl_33" n="N033"/>er mit <rs type="person" ref="#hsl_person_id_2346">Habeneck</rs> seit drei Jahren auf gespanntem Fuße
+         <lb facs="#facs_1_region_1784437402275_320_tl_34" n="N034"/>stand. Der Tag der Aufführung im Invalidendom, der
+         <lb facs="#facs_1_region_1784437402275_320_tl_35" n="N035"/>5. December <date>1837</date>, war gekommen, die Prinzen, die Mini
+         <lb facs="#facs_1_region_1784437402275_320_tl_36" n="N036" break="no"/>ster, die Pairs und Deputirten, die gesammte Presse und ein
+         <lb facs="#facs_1_region_1784437402275_320_tl_37" n="N037"/>zahlloses Publicum waren versammelt. Der Tag hatte ent
+         <lb facs="#facs_1_region_1784437402275_320_tl_38" n="N038" break="no"/>scheidende Wichtigkeit für <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’ ganze Zukunft, ein Miß</p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1784437402275_320_tl_1" n="N001"/>plötzlich die officielle Erklärung, die Trauerfeierlichkeit werde
-               <lb facs="#facs_1_region_1784437402275_320_tl_2" n="N002"/>ohne Musik stattfinden. <rs type="person">Berlioz</rs> bestand ungeduldig auf seinem
-               <lb facs="#facs_1_region_1784437402275_320_tl_3" n="N003"/>Schein und hatte eben eine sehr heftige Auseinandersetzung
-               <lb facs="#facs_1_region_1784437402275_320_tl_4" n="N004"/>mit dem Vorstand des Kunstdepartements, als die Kanonen
-               <lb facs="#facs_1_region_1784437402275_320_tl_5" n="N005"/>vom Invalidendom die Einnahme von <rs type="place">Constantine</rs> verkün¬
-               <lb facs="#facs_1_region_1784437402275_320_tl_6" n="N006"/>digten. General <rs type="person">Damremont</rs> war bei <rs type="place">Constantine</rs> gefallen
-               <lb facs="#facs_1_region_1784437402275_320_tl_7" n="N007"/>und sollte durch einen feierlichen Trauergottesdienst geehrt
-               <lb facs="#facs_1_region_1784437402275_320_tl_8" n="N008"/>werden. Das gehörte ins Ressort des Kriegsministers General
-               <lb facs="#facs_1_region_1784437402275_320_tl_9" n="N009"/>
-               <rs type="person">Bernard</rs>, welcher nun einwilligte, daß <hi rendition="#em">
-                  <rs type="person">Berlioz</rs>'</hi>
-               <rs type="bibl">Requiem</rs>
-               <lb facs="#facs_1_region_1784437402275_320_tl_10" n="N010"/>für diesen Anlaß gewählt und in der Invaliden-Kirche auf¬
-               <lb facs="#facs_1_region_1784437402275_320_tl_11" n="N011"/>geführt werde. Kaum war es aber bekannt geworden, daß
-               <lb facs="#facs_1_region_1784437402275_320_tl_12" n="N012"/>für diese großartige officielle Feierlichkeit die Musik eines
-               <lb facs="#facs_1_region_1784437402275_320_tl_13" n="N013"/>unberühmten jungen Menschen auserwählt worden, als leb¬
-               <lb facs="#facs_1_region_1784437402275_320_tl_14" n="N014"/>hafte Kabalen sich gegen <rs type="person">Berlioz</rs> regten. Zuerst bekam
-               <lb facs="#facs_1_region_1784437402275_320_tl_15" n="N015"/>
-               <rs type="person">Cherubini</rs> das Fieber bei dieser Nachricht. Bestand doch seit
-               <lb facs="#facs_1_region_1784437402275_320_tl_16" n="N016"/>Jahren die Sitte, daß für ähnliche Anlässe stets eine Com¬
-               <lb facs="#facs_1_region_1784437402275_320_tl_17" n="N017"/>position von <rs type="person">Cherubini</rs> bestimmt wurde. Er mußte die Be¬
-               <lb facs="#facs_1_region_1784437402275_320_tl_18" n="N018"/>vorzugung <rs type="person">Berlioz</rs>' als einen kränkenden Angriff auf seine
-               <lb facs="#facs_1_region_1784437402275_320_tl_19" n="N019"/>Würde, seine Vorrechte empfinden. <rs type="person">Cherubini</rs>'s Schüler ver¬
-               <lb facs="#facs_1_region_1784437402275_320_tl_20" n="N020"/>schworen sich, und <hi rendition="#em">
-                  <rs type="person">Halévy</rs>
-               </hi>, der angesehenste von ihnen,
-               <lb facs="#facs_1_region_1784437402275_320_tl_21" n="N021"/>begab sich sofort zu dem Eigenthümer des <rs type="bibl">Journal des Dé¬</rs>
-               <lb facs="#facs_1_region_1784437402275_320_tl_22" n="N022"/>
-               <rs type="bibl">bats</rs>, <rs type="person">Bertin</rs>, um gegen <rs type="person">Berlioz</rs> für <rs type="person">Cherubini</rs> zu agitiren.
-               <lb facs="#facs_1_region_1784437402275_320_tl_23" n="N023"/>Aber <rs type="person">Bertin</rs> und sein Sohn <rs type="person">Armand</rs> blieben fest in ihren
-               <lb facs="#facs_1_region_1784437402275_320_tl_24" n="N024"/>Sympathien für <rs type="person">Berlioz</rs>, und <rs type="person">Cherubini</rs> wurde mit
-               <lb facs="#facs_1_region_1784437402275_320_tl_25" n="N025"/>dem Commandeurkreuz der Ehrenlegion beschwichtigt.
-               <lb facs="#facs_1_region_1784437402275_320_tl_26" n="N026"/>Eine neue böse Ueberraschung für <rs type="person">Berlioz</rs> war es, als Ge¬
-               <lb facs="#facs_1_region_1784437402275_320_tl_27" n="N027"/>neral <rs type="person">Bernard</rs> ihm eines Tages mittheilte, daß <hi rendition="#em">
-                  <rs type="person">Habeneck</rs>
-               </hi>,
-               <lb facs="#facs_1_region_1784437402275_320_tl_28" n="N028"/>der berühmte Dirigent der Conservatoriums-Concerte, auch
-               <lb facs="#facs_1_region_1784437402275_320_tl_29" n="N029"/>
-               <rs type="person">Berlioz</rs>' <rs type="bibl">Requiem</rs> dirigiren werde. „Sie sind zwar gewohnt,
-               <lb facs="#facs_1_region_1784437402275_320_tl_30" n="N030"/>Herr <rs type="person">Berlioz</rs>, Ihre Werke selbst zu dirigiren, aber <rs type="person">Habeneck</rs>
-               <lb facs="#facs_1_region_1784437402275_320_tl_31" n="N031"/>ist ein alter Mann, welchen es tief schmerzen würde, sich
-               <lb facs="#facs_1_region_1784437402275_320_tl_32" n="N032"/>hier zurückgesetzt zu sehen.“ <rs type="person">Berlioz</rs> mußte sich fügen, obwol
-               <lb facs="#facs_1_region_1784437402275_320_tl_33" n="N033"/>er mit <rs type="person">Habeneck</rs> seit drei Jahren auf gespanntem Fuße
-               <lb facs="#facs_1_region_1784437402275_320_tl_34" n="N034"/>stand. Der Tag der Aufführung im Invalidendom, der
-               <lb facs="#facs_1_region_1784437402275_320_tl_35" n="N035"/>5. December <date>1837</date>, war gekommen, die Prinzen, die Mini¬
-               <lb facs="#facs_1_region_1784437402275_320_tl_36" n="N036"/>ster, die Pairs und Deputirten, die gesammte Presse und ein
-               <lb facs="#facs_1_region_1784437402275_320_tl_37" n="N037"/>zahlloses Publicum waren versammelt. Der Tag hatte ent¬
-               <lb facs="#facs_1_region_1784437402275_320_tl_38" n="N038"/>scheidende Wichtigkeit für <rs type="person">Berlioz</rs>' ganze Zukunft, ein Miß¬
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1784437407329_323_tl_1" n="N001"/>erfolg konnte ihn vernichten. Da geschah Folgendes: Bei der
-               <lb facs="#facs_1_region_1784437407329_323_tl_2" n="N002"/>gefährlichsten Stelle des ganzen <rs type="bibl">Requiem</rs>s, wo im „Tuba
-               <lb facs="#facs_1_region_1784437407329_323_tl_3" n="N003"/>mirum“ vier in den Ecken postirte Blechorchester plötzlich mit
-               <lb facs="#facs_1_region_1784437407329_323_tl_4" n="N004"/>ganzer Kraft einzufallen haben, legt <rs type="person">Habeneck</rs> den Tackstock
-               <lb facs="#facs_1_region_1784437407329_323_tl_5" n="N005"/>nieder, zieht seine Tabaksdose heraus und nimmt eine Prise.
-               <lb facs="#facs_1_region_1784437407329_323_tl_6" n="N006"/>Allein <rs type="person">Berlioz</rs> wachte: er stürzt zum Pulte des zerstreuten
-               <lb facs="#facs_1_region_1784437407329_323_tl_7" n="N007"/>Dirigenten, gibt mit hoch ausgestreckten Armen den Tact und
-               <lb facs="#facs_1_region_1784437407329_323_tl_8" n="N008"/>führt das Stück glücklich zu Ende. Als bei den letzten Worten
-               <lb facs="#facs_1_region_1784437407329_323_tl_9" n="N009"/>des Chors <rs type="person">Habeneck</rs> das Stück gerettet sah, sagte er zu <rs type="person" continued="true">Ber¬</rs>
-               <lb facs="#facs_1_region_1784437407329_323_tl_10" n="N010"/>
-               <rs type="person" continued="true">lioz</rs>: „Der kalte Schweiß stand mir auf der Stirne; ohne
-               <lb facs="#facs_1_region_1784437407329_323_tl_11" n="N011"/>Sie wären wir verloren gewesen!“ — „Ja, das weiß ich wohl,“
-               <lb facs="#facs_1_region_1784437407329_323_tl_12" n="N012"/>entgegnete <rs type="person">Berlioz</rs>, indem er ihn fest ansah. Kein Wort
-               <lb facs="#facs_1_region_1784437407329_323_tl_13" n="N013"/>weiter. <rs type="person">Berlioz</rs> äußert in seinen <rs type="bibl">Memoiren</rs> die Vermuthung,
-               <lb facs="#facs_1_region_1784437407329_323_tl_14" n="N014"/>daß <rs type="person">Habeneck</rs> ihm den Streich absichtlich gespielt habe. Es ist
-               <lb facs="#facs_1_region_1784437407329_323_tl_15" n="N015"/>uns kaum möglich, einer so schweren Anklage zu glauben.
-               <lb facs="#facs_1_region_1784437407329_323_tl_16" n="N016"/>Verbittert und mißtrauisch, war <rs type="person">Berlioz</rs> nur zu sehr geneigt,
-               <lb facs="#facs_1_region_1784437407329_323_tl_17" n="N017"/>den Gegnern seiner Musik alles erdenkliche Schlimme zuzu¬
-               <lb facs="#facs_1_region_1784437407329_323_tl_18" n="N018"/>muthen; man muß insbesondere seine Aeußerungen über
-               <lb facs="#facs_1_region_1784437407329_323_tl_19" n="N019"/>
-               <rs type="person">Cherubini</rs> und <rs type="person">Habeneck</rs> mit großer Vorsicht aufnehmen.
-               <lb facs="#facs_1_region_1784437407329_323_tl_20" n="N020"/>Wir übergehen hier die zahllosen Schwierigkeiten und Placke¬
-               <lb facs="#facs_1_region_1784437407329_323_tl_21" n="N021"/>reien, die <rs type="person">Berlioz</rs> zu bestehen hatte, um nach der Auffüh¬
-               <lb facs="#facs_1_region_1784437407329_323_tl_22" n="N022"/>rung zu seinem versprochenen Honorar zu kommen. Nach
-               <lb facs="#facs_1_region_1784437407329_323_tl_23" n="N023"/>vielen Monaten gelang auch dies. Sein erster Beschützer,
-               <lb facs="#facs_1_region_1784437407329_323_tl_24" n="N024"/>Graf <rs type="person">Gasparin</rs>, war nicht mehr Minister; ihm hat <rs type="person">Berlioz</rs>
-               <lb facs="#facs_1_region_1784437407329_323_tl_25" n="N025"/>sein „<rs type="bibl">Requiem</rs>“ nachträglich dedicirt.
-               <lb facs="#facs_1_region_1784437407329_323_tl_26" n="N026"/>Für jeden mit <rs type="person">Berlioz</rs>' Kunstrichtung und Persönlichkeit
-               <lb facs="#facs_1_region_1784437407329_323_tl_27" n="N027"/>näher Vertrauten muß es seltsam erscheinen, daß gerade <hi rendition="#em">er</hi>
-               <lb facs="#facs_1_region_1784437407329_323_tl_28" n="N028"/>sich für die Composition einer Todtenmesse begeistern konnte.
-               <lb facs="#facs_1_region_1784437407329_323_tl_29" n="N029"/>In <rs type="person">Berlioz</rs> war religiöses Gefühl sehr schwach entwickelt,
-               <lb facs="#facs_1_region_1784437407329_323_tl_30" n="N030"/>desto stärker hatten schmerzliche Jugendeindrücke einen an Haß
-               <lb facs="#facs_1_region_1784437407329_323_tl_31" n="N031"/>grenzenden Widerwillen gegen alles orthodox Kirchliche ihm
-               <lb facs="#facs_1_region_1784437407329_323_tl_32" n="N032"/>bleibend eingeprägt. Als er nämlich nach harten Kämpfen
-               <lb facs="#facs_1_region_1784437407329_323_tl_33" n="N033"/>und Entbehrungen seinen Eltern den Entschluß eröffnete, sich
-               <lb facs="#facs_1_region_1784437407329_323_tl_34" n="N034"/>der Musik zu widmen, gerieth seine fromme <rs type="person">Mutter</rs>, für
-               <lb facs="#facs_1_line_1784785909665_1009" n="N035"/>welche Musik, Theater und ewig Verdammniß gleichbedeu¬
-               <lb facs="#facs_1_region_1784437407329_323_tl_37" n="N036"/>tend waren, in solche Verzweiflung, daß sie ihren Fluch gegen
-               <lb facs="#facs_1_region_1784437407329_323_tl_38" n="N037"/>den Sohn schleuderte, sich in ein entferntes Landhaus flüch¬
-               <lb facs="#facs_1_region_1784437407329_323_tl_39" n="N038"/>tete und sich nicht wieder sehen ließ, als bis <rs type="person">Berlioz</rs> nach
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1784437407329_323_tl_1" n="N001" break="no"/>erfolg konnte ihn vernichten. Da geschah Folgendes: Bei der
+         <lb facs="#facs_1_region_1784437407329_323_tl_2" n="N002"/>gefährlichsten Stelle des ganzen <rs type="bibl" ref="#hsl_work_id_572">Requiem</rs>s, wo im „Tuba
+         <lb facs="#facs_1_region_1784437407329_323_tl_3" n="N003"/>mirum“ vier in den Ecken postirte Blechorchester plötzlich mit
+         <lb facs="#facs_1_region_1784437407329_323_tl_4" n="N004"/>ganzer Kraft einzufallen haben, legt <rs type="person" ref="#hsl_person_id_2346">Habeneck</rs> den Tackstock
+         <lb facs="#facs_1_region_1784437407329_323_tl_5" n="N005"/>nieder, zieht seine Tabaksdose heraus und nimmt eine Prise.
+         <lb facs="#facs_1_region_1784437407329_323_tl_6" n="N006"/>Allein <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> wachte: er stürzt zum Pulte des zerstreuten
+         <lb facs="#facs_1_region_1784437407329_323_tl_7" n="N007"/>Dirigenten, gibt mit hoch ausgestreckten Armen den Tact und
+         <lb facs="#facs_1_region_1784437407329_323_tl_8" n="N008"/>führt das Stück glücklich zu Ende. Als bei den letzten Worten
+         <lb facs="#facs_1_region_1784437407329_323_tl_9" n="N009"/>des Chors <rs type="person" ref="#hsl_person_id_2346">Habeneck</rs> das Stück gerettet sah, sagte er zu <rs type="person" ref="#hsl_person_id_28">Ber
+         <lb facs="#facs_1_region_1784437407329_323_tl_10" n="N010" break="no"/>lioz</rs>: „Der kalte Schweiß stand mir auf der Stirne; ohne
+         <lb facs="#facs_1_region_1784437407329_323_tl_11" n="N011"/>Sie wären wir verloren gewesen!“ — „Ja, das weiß ich wohl,“
+         <lb facs="#facs_1_region_1784437407329_323_tl_12" n="N012"/>entgegnete <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>, indem er ihn fest ansah. Kein Wort
+         <lb facs="#facs_1_region_1784437407329_323_tl_13" n="N013"/>weiter. <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> äußert in seinen <rs type="bibl" ref="#hsl_work_id_561">Memoiren</rs> die Vermuthung,
+         <lb facs="#facs_1_region_1784437407329_323_tl_14" n="N014"/>daß <rs type="person" ref="#hsl_person_id_2346">Habeneck</rs> ihm den Streich absichtlich gespielt habe. Es ist
+         <lb facs="#facs_1_region_1784437407329_323_tl_15" n="N015"/>uns kaum möglich, einer so schweren Anklage zu glauben.
+         <lb facs="#facs_1_region_1784437407329_323_tl_16" n="N016"/>Verbittert und mißtrauisch, war <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> nur zu sehr geneigt,
+         <lb facs="#facs_1_region_1784437407329_323_tl_17" n="N017"/>den Gegnern seiner Musik alles erdenkliche Schlimme zuzu
+         <lb facs="#facs_1_region_1784437407329_323_tl_18" n="N018" break="no"/>muthen; man muß insbesondere seine Aeußerungen über
+         <lb facs="#facs_1_region_1784437407329_323_tl_19" n="N019"/><rs type="person" ref="#hsl_person_id_47">Cherubini</rs> und <rs type="person" ref="#hsl_person_id_2346">Habeneck</rs> mit großer Vorsicht aufnehmen.
+         <lb facs="#facs_1_region_1784437407329_323_tl_20" n="N020"/>Wir übergehen hier die zahllosen Schwierigkeiten und Placke
+         <lb facs="#facs_1_region_1784437407329_323_tl_21" n="N021" break="no"/>reien, die <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> zu bestehen hatte, um nach der Auffüh
+         <lb facs="#facs_1_region_1784437407329_323_tl_22" n="N022" break="no"/>rung zu seinem versprochenen Honorar zu kommen. Nach
+         <lb facs="#facs_1_region_1784437407329_323_tl_23" n="N023"/>vielen Monaten gelang auch dies. Sein erster Beschützer,
+         <lb facs="#facs_1_region_1784437407329_323_tl_24" n="N024"/>Graf <rs type="person" ref="#hsl_person_id_3520">Gasparin</rs>, war nicht mehr Minister; ihm hat <rs type="person" ref="#hsl_person_id_28">Berlioz</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784437407329_323_tl_25" n="N025"/>sein „<rs type="bibl" ref="#hsl_work_id_572">Requiem</rs>“ nachträglich dedicirt.
+            </p><p>
+         <lb facs="#facs_1_region_1784437407329_323_tl_26" n="N026"/>Für jeden mit <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’ Kunstrichtung und Persönlichkeit
+         <lb facs="#facs_1_region_1784437407329_323_tl_27" n="N027"/>näher Vertrauten muß es seltsam erscheinen, daß gerade <hi rendition="#em">er</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784437407329_323_tl_28" n="N028"/>sich für die Composition einer Todtenmesse begeistern konnte.
+         <lb facs="#facs_1_region_1784437407329_323_tl_29" n="N029"/>In <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> war religiöses Gefühl sehr schwach entwickelt,
+         <lb facs="#facs_1_region_1784437407329_323_tl_30" n="N030"/>desto stärker hatten schmerzliche Jugendeindrücke einen an Haß
+         <lb facs="#facs_1_region_1784437407329_323_tl_31" n="N031"/>grenzenden Widerwillen gegen alles orthodox Kirchliche ihm
+         <lb facs="#facs_1_region_1784437407329_323_tl_32" n="N032"/>bleibend eingeprägt. Als er nämlich nach harten Kämpfen
+         <lb facs="#facs_1_region_1784437407329_323_tl_33" n="N033"/>und Entbehrungen seinen Eltern den Entschluß eröffnete, sich
+         <lb facs="#facs_1_region_1784437407329_323_tl_34" n="N034"/>der Musik zu widmen, gerieth seine fromme <rs type="person" ref="#hsl_person_id_5786">Mutter</rs>, für
+         <lb facs="#facs_1_line_1784785909665_1009" n="N035"/>welche Musik, Theater und ewig Verdammniß gleichbedeu
+         <lb facs="#facs_1_region_1784437407329_323_tl_37" n="N036" break="no"/>tend waren, in solche Verzweiflung, daß sie ihren Fluch gegen
+         <lb facs="#facs_1_region_1784437407329_323_tl_38" n="N037"/>den Sohn schleuderte, sich in ein entferntes Landhaus flüch
+         <lb facs="#facs_1_region_1784437407329_323_tl_39" n="N038" break="no"/>tete und sich nicht wieder sehen ließ, als bis <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> nach<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784437420206_329_tl_1" n="N001"/><rs type="place" ref="#hsl_place_id_44">Paris</rs> abgereist war. Diese furchtbaren Scenen, sagt <rs type="person" ref="#hsl_person_id_28">Berlioz</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784437420206_329_tl_2" n="N002"/>in seinen <rs type="bibl" ref="#hsl_work_id_561">Memoiren</rs>, haben am meisten dazu beigetragen, ihn
+         <lb facs="#facs_2_region_1784437420206_329_tl_3" n="N003"/>zeitlebens mit Haß gegen religiöse Verfinsterung und frommen
+         <lb facs="#facs_2_region_1784437420206_329_tl_4" n="N004"/>Aberglauben zu erfüllen. Auffallend ist ferner, daß <rs type="person" ref="#hsl_person_id_28">Berlioz</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784437420206_329_tl_5" n="N005"/>sein <rs type="bibl" ref="#hsl_work_id_572">Requiem</rs> im Anfang seiner Carrière schrieb — es ist
+         <lb facs="#facs_2_region_1784437420206_329_tl_6" n="N006"/>sein fünftes Werk — während alle modernen Componisten
+         <lb facs="#facs_2_region_1784437420206_329_tl_7" n="N007"/>dieses kirchlichen Textes, von <rs type="person" ref="#hsl_person_id_189">Mozart</rs> bis <rs type="person" ref="#hsl_person_id_312">Verdi</rs>, erst gegen
+         <lb facs="#facs_2_region_1784437420206_329_tl_8" n="N008"/>den Ausgang ihrer Laufbahn daran dachten. Und doch nennt
+         <lb facs="#facs_2_region_1784437420206_329_tl_9" n="N009"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> den Text des „<rs type="bibl" ref="#hsl_work_id_572">Requiem</rs>“ eine von ihm „lang
+         <lb facs="#facs_2_region_1784437420206_329_tl_10" n="N010"/>ersehnte Beute“. Als sie ihm endlich ausgefolgt war,
+         <lb facs="#facs_2_region_1784437420206_329_tl_11" n="N011"/>stürzt er sich mit einer Art Raserei darauf. Mit
+         <lb facs="#facs_2_region_1784437420206_329_tl_12" n="N012"/>einer bei ihm ganz ungewöhnlichen Raschheit vollendet
+         <lb facs="#facs_2_region_1784437420206_329_tl_13" n="N013"/>er die Composition. „Mein Kopf,“ schreibt er, „schien bersten
+         <lb facs="#facs_2_region_1784437420206_329_tl_14" n="N014"/>zu wollen unter dem Andrange der in mir aufwallenden
+         <lb facs="#facs_2_region_1784437420206_329_tl_15" n="N015"/>Ideen. Noch war der Plan des einen Stückes nicht skizzirt,
+         <lb facs="#facs_2_region_1784437420206_329_tl_16" n="N016"/>und schon drängte sich der eines andern auf. Die Unmöglich
+         <lb facs="#facs_2_region_1784437420206_329_tl_17" n="N017" break="no"/>keit, schnell genug zu schreiben, brachte mich auf die Erfin
+         <lb facs="#facs_2_region_1784437420206_329_tl_18" n="N018" break="no"/>dung stenographischer Zeichen, die mir große Hilfe gewährten.
+         <lb facs="#facs_2_region_1784437420206_329_tl_19" n="N019"/>Die Componisten kennen die Qual und Verzweiflung, welche
+         <lb facs="#facs_2_region_1784437420206_329_tl_20" n="N020"/>dadurch entsteht, daß gewisse Gedanken dem Gedächtnisse für
+         <lb facs="#facs_2_region_1784437420206_329_tl_21" n="N021"/>immer entschlüpfen, weil man nicht die Zeit hat, sie augen
+         <lb facs="#facs_2_region_1784437420206_329_tl_22" n="N022" break="no"/>blicklich niederzuschreiben.“
+            </p><p>
+         <lb facs="#facs_2_region_1784437420206_329_tl_23" n="N023"/>Was <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>, den Componisten der heftigsten Leiden
+         <lb facs="#facs_2_region_1784437420206_329_tl_24" n="N024" break="no"/>schaftlichkeit, gerade zu dem „<rs type="bibl" ref="#hsl_work_id_572">Requiem</rs>“ trieb, war nicht die
+         <lb facs="#facs_2_region_1784437420206_329_tl_25" n="N025"/>kirchliche Bedeutung, nicht die religiöse Weihe dieser Dich
+         <lb facs="#facs_2_region_1784437420206_329_tl_26" n="N026" break="no"/>tung, sondern ihre unvergleichliche dramatische Lebendigkeit.
+         <lb facs="#facs_2_region_1784437420206_329_tl_27" n="N027"/>Es ist ein Drama des Todes, was <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> schaffen wollte
+         <lb facs="#facs_2_region_1784437420206_329_tl_28" n="N028"/>und für dessen Schilderung ihm die stärksten Effecte, die
+         <lb facs="#facs_2_region_1784437420206_329_tl_29" n="N029"/>grellsten Contraste, die fremdartigsten Instrumental-Com
+         <lb facs="#facs_2_region_1784437420206_329_tl_30" n="N030" break="no"/>binationen erlaubt und geboten schienen. Das Gigantische
+         <lb facs="#facs_2_region_1784437420206_329_tl_31" n="N031"/>übte allezeit einen verführerischen Reiz auf <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>, er be
+         <lb facs="#facs_2_region_1784437420206_329_tl_32" n="N032" break="no"/>rauschte sich in unerhörten Schallwirkungen, er träumte von
+         <lb facs="#facs_2_region_1784437420206_329_tl_33" n="N033"/>riesigen Sänger- und Musikermassen, von colossalen Räumen.
+         <lb facs="#facs_2_region_1784437420206_329_tl_34" n="N034"/>Für sein <rs type="bibl" ref="#hsl_work_id_572">Requiem</rs> verlangt er mindestens 80 Soprane,
+         <lb facs="#facs_2_region_1784437420206_329_tl_35" n="N035"/>60 Tenore, 70 Bässe. An Instrumenten verzeichnet die
+         <lb facs="#facs_2_region_1784437420206_329_tl_36" n="N036"/>Partitur neben vielen anderen: 4 Flöten, 4 Clarinetten,
+         <lb facs="#facs_2_region_1784437420206_329_tl_37" n="N037"/>12 Hörner, 8 Fagotte, 12 Trompeten, 20 Posaunen und Tuben,
+         <lb facs="#facs_2_region_1784437420206_329_tl_38" n="N038"/>8 Paar Pauken für 10 Paukenschläger, 2 große Trommeln, 10 Paar
+         <lb facs="#facs_2_region_1784437420206_329_tl_39" n="N039"/>Becken und 4 Tamtams! Man sieht, daß es sich hier um eine emi</p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1784437420206_329_tl_1" n="N001"/>
-               <rs type="place">Paris</rs> abgereist war. Diese furchtbaren Scenen, sagt <rs type="person">Berlioz</rs>
-               <lb facs="#facs_2_region_1784437420206_329_tl_2" n="N002"/>in seinen <rs type="bibl">Memoiren</rs>, haben am meisten dazu beigetragen, ihn
-               <lb facs="#facs_2_region_1784437420206_329_tl_3" n="N003"/>zeitlebens mit Haß gegen religiöse Verfinsterung und frommen
-               <lb facs="#facs_2_region_1784437420206_329_tl_4" n="N004"/>Aberglauben zu erfüllen. Auffallend ist ferner, daß <rs type="person">Berlioz</rs>
-               <lb facs="#facs_2_region_1784437420206_329_tl_5" n="N005"/>sein <rs type="bibl">Requiem</rs> im Anfang seiner Carrière schrieb — es ist
-               <lb facs="#facs_2_region_1784437420206_329_tl_6" n="N006"/>sein fünftes Werk — während alle modernen Componisten
-               <lb facs="#facs_2_region_1784437420206_329_tl_7" n="N007"/>dieses kirchlichen Textes, von <rs type="person">Mozart</rs> bis <rs type="person">Verdi</rs>, erst gegen
-               <lb facs="#facs_2_region_1784437420206_329_tl_8" n="N008"/>den Ausgang ihrer Laufbahn daran dachten. Und doch nennt
-               <lb facs="#facs_2_region_1784437420206_329_tl_9" n="N009"/>
-               <rs type="person">Berlioz</rs> den Text des „<rs type="bibl">Requiem</rs>“ eine von ihm „lang
-               <lb facs="#facs_2_region_1784437420206_329_tl_10" n="N010"/>ersehnte Beute“. Als sie ihm endlich ausgefolgt war,
-               <lb facs="#facs_2_region_1784437420206_329_tl_11" n="N011"/>stürzt er sich mit einer Art Raserei darauf. Mit
-               <lb facs="#facs_2_region_1784437420206_329_tl_12" n="N012"/>einer bei ihm ganz ungewöhnlichen Raschheit vollendet
-               <lb facs="#facs_2_region_1784437420206_329_tl_13" n="N013"/>er die Composition. „Mein Kopf,“ schreibt er, „schien bersten
-               <lb facs="#facs_2_region_1784437420206_329_tl_14" n="N014"/>zu wollen unter dem Andrange der in mir aufwallenden
-               <lb facs="#facs_2_region_1784437420206_329_tl_15" n="N015"/>Ideen. Noch war der Plan des einen Stückes nicht skizzirt,
-               <lb facs="#facs_2_region_1784437420206_329_tl_16" n="N016"/>und schon drängte sich der eines andern auf. Die Unmöglich¬
-               <lb facs="#facs_2_region_1784437420206_329_tl_17" n="N017"/>keit, schnell genug zu schreiben, brachte mich auf die Erfin¬
-               <lb facs="#facs_2_region_1784437420206_329_tl_18" n="N018"/>dung stenographischer Zeichen, die mir große Hilfe gewährten.
-               <lb facs="#facs_2_region_1784437420206_329_tl_19" n="N019"/>Die Componisten kennen die Qual und Verzweiflung, welche
-               <lb facs="#facs_2_region_1784437420206_329_tl_20" n="N020"/>dadurch entsteht, daß gewisse Gedanken dem Gedächtnisse für
-               <lb facs="#facs_2_region_1784437420206_329_tl_21" n="N021"/>immer entschlüpfen, weil man nicht die Zeit hat, sie augen¬
-               <lb facs="#facs_2_region_1784437420206_329_tl_22" n="N022"/>blicklich niederzuschreiben.“
-               <lb facs="#facs_2_region_1784437420206_329_tl_23" n="N023"/>Was <rs type="person">Berlioz</rs>, den Componisten der heftigsten Leiden¬
-               <lb facs="#facs_2_region_1784437420206_329_tl_24" n="N024"/>schaftlichkeit, gerade zu dem „<rs type="bibl">Requiem</rs>“ trieb, war nicht die
-               <lb facs="#facs_2_region_1784437420206_329_tl_25" n="N025"/>kirchliche Bedeutung, nicht die religiöse Weihe dieser Dich¬
-               <lb facs="#facs_2_region_1784437420206_329_tl_26" n="N026"/>tung, sondern ihre unvergleichliche dramatische Lebendigkeit.
-               <lb facs="#facs_2_region_1784437420206_329_tl_27" n="N027"/>Es ist ein Drama des Todes, was <rs type="person">Berlioz</rs> schaffen wollte
-               <lb facs="#facs_2_region_1784437420206_329_tl_28" n="N028"/>und für dessen Schilderung ihm die stärksten Effecte, die
-               <lb facs="#facs_2_region_1784437420206_329_tl_29" n="N029"/>grellsten Contraste, die fremdartigsten Instrumental-Com¬
-               <lb facs="#facs_2_region_1784437420206_329_tl_30" n="N030"/>binationen erlaubt und geboten schienen. Das Gigantische
-               <lb facs="#facs_2_region_1784437420206_329_tl_31" n="N031"/>übte allezeit einen verführerischen Reiz auf <rs type="person">Berlioz</rs>, er be¬
-               <lb facs="#facs_2_region_1784437420206_329_tl_32" n="N032"/>rauschte sich in unerhörten Schallwirkungen, er träumte von
-               <lb facs="#facs_2_region_1784437420206_329_tl_33" n="N033"/>riesigen Sänger- und Musikermassen, von colossalen Räumen.
-               <lb facs="#facs_2_region_1784437420206_329_tl_34" n="N034"/>Für sein <rs type="bibl">Requiem</rs> verlangt er mindestens 80 Soprane,
-               <lb facs="#facs_2_region_1784437420206_329_tl_35" n="N035"/>60 Tenore, 70 Bässe. An Instrumenten verzeichnet die
-               <lb facs="#facs_2_region_1784437420206_329_tl_36" n="N036"/>Partitur neben vielen anderen: 4 Flöten, 4 Clarinetten,
-               <lb facs="#facs_2_region_1784437420206_329_tl_37" n="N037"/>12 Hörner, 8 Fagotte, 12 Trompeten, 20 Posaunen und Tuben,
-               <lb facs="#facs_2_region_1784437420206_329_tl_38" n="N038"/>8 Paar Pauken für 10 Paukenschläger, 2 große Trommeln, 10 Paar
-               <lb facs="#facs_2_region_1784437420206_329_tl_39" n="N039"/>Becken und 4 Tamtams! Man sieht, daß es sich hier um eine emi¬
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784437423471_332_tl_1" n="N001" break="no"/>nent romantische Composition handelt, nicht um eine Kirchenmusik
+         <lb facs="#facs_2_region_1784437423471_332_tl_2" n="N002"/>im traditionellen, strengeren Sinne des Wortes. <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> bindet
+         <lb facs="#facs_2_region_1784437423471_332_tl_3" n="N003"/>sich nicht einmal an eine genaue Befolgung des Textes,
+         <lb facs="#facs_2_region_1784437423471_332_tl_4" n="N004"/>dem er z. B. einen Vers aus dem Credo eigenmächtig ein
+         <lb facs="#facs_2_region_1784437423471_332_tl_5" n="N005" break="no"/>schiebt. Die Worte sind ihm gleichsam nur Sklaven, die er
+         <lb facs="#facs_2_region_1784437423471_332_tl_6" n="N006"/>beliebig commandirt und tyrannisirt im Dienste seiner musi
+         <lb facs="#facs_2_region_1784437423471_332_tl_7" n="N007" break="no"/>kalischen Inspiration. Nichts ist dem Kirchenstyle ferner, als
+         <lb facs="#facs_2_region_1784437423471_332_tl_8" n="N008"/>die langen, sonderbaren Vocalisen, welche die ersten Tenore
+         <lb facs="#facs_2_region_1784437423471_332_tl_9" n="N009"/>über dem Satze: „Quantus tremor est futurus“ ausfüh
+         <lb facs="#facs_2_region_1784437423471_332_tl_10" n="N010" break="no"/>ren, oder das Zerhacken der Worte „Dies illa“ in vier
+         <lb facs="#facs_2_region_1784437423471_332_tl_11" n="N011"/>Theile gegen Ende des „Lacrymosa“, oder das athemlos be
+         <lb facs="#facs_2_region_1784437423471_332_tl_12" n="N012" break="no"/>schleunigte „Kyrie eleison“ am Schlusse des ersten Stückes.
+         <lb facs="#facs_2_region_1784437423471_332_tl_13" n="N013"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> zerbricht und knetet die Worte, um sie dem einmal
+         <lb facs="#facs_2_region_1784437423471_332_tl_14" n="N014"/>gewählten Rhythmus anzupassen. Auch in dem selbstgewähl
+         <lb facs="#facs_2_region_1784437423471_332_tl_15" n="N015" break="no"/>ten, romantisch emancipirten Style bleibt der Componist
+         <lb facs="#facs_2_region_1784437423471_332_tl_16" n="N016"/>nicht consequent; er greift wiederholt zu den alten, traditio
+         <lb facs="#facs_2_region_1784437423471_332_tl_17" n="N017" break="no"/>nellen Formen zurück, aber nur um sich hierauf desto unge
+         <lb facs="#facs_2_region_1784437423471_332_tl_18" n="N018" break="no"/>zügelterer Freiheit hinzugeben. Sogar eine lange Fuge bringt
+         <lb facs="#facs_2_region_1784437423471_332_tl_19" n="N019"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> auf „Hosiannah“, er, der sich stets über die Fuge
+         <lb facs="#facs_2_region_1784437423471_332_tl_20" n="N020"/>lustig gemacht und sie einmal „la bestialité dans toute
+         <lb facs="#facs_2_region_1784437423471_332_tl_21" n="N021"/>sa splendeur“ genannt hat. Bekannt ist das Wort <rs type="person" ref="#hsl_person_id_47">Cheru
+         <lb facs="#facs_2_region_1784437423471_332_tl_22" n="N022" break="no"/>bini</rs>’s, welcher bei dieser Gelegenheit äußerte: „Daß <rs type="person" ref="#hsl_person_id_28">Berlioz</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784437423471_332_tl_23" n="N023"/>die Fuge nicht liebt, kommt nur daher, weil die Fuge <hi rendition="#em">ihn</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784437423471_332_tl_24" n="N024"/>nicht liebt.“ Und darin wird <rs type="person" ref="#hsl_person_id_47">Cherubini</rs> wol Recht behalten.
+         <lb facs="#facs_2_region_1784437423471_332_tl_25" n="N025"/>Ein Requiem in dem kirchlichen edlen Style <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s oder
+         <lb facs="#facs_2_region_1784437423471_332_tl_26" n="N026"/><rs type="person" ref="#hsl_person_id_47">Cherubini</rs>’s zu schreiben, war <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> weder fähig noch ge
+         <lb facs="#facs_2_region_1784437423471_332_tl_27" n="N027" break="no"/>willt. Mit diesem Maßstabe darf man sein Werk nicht
+         <lb facs="#facs_2_region_1784437423471_332_tl_28" n="N028"/>messen. Es will, nach dem Ausspruche eines <rs type="place" ref="#hsl_place_id_21">französisch</rs>en
+         <lb facs="#facs_2_region_1784437423471_332_tl_29" n="N029"/><rs type="person" ref="#hsl_person_id_9298">Kritiker</rs>s, diese in Exaltation geschriebene Musik auch mit
+         <lb facs="#facs_2_region_1784437423471_332_tl_30" n="N030"/>einer Art Exaltation angehört sein; man muß sich von ihr
+         <lb facs="#facs_2_region_1784437423471_332_tl_31" n="N031"/>fortreißen lassen, um ihr gerecht zu werden. Und wahrlich,
+         <lb facs="#facs_2_region_1784437423471_332_tl_32" n="N032"/>das <rs type="bibl" ref="#hsl_work_id_572">Requiem</rs> von <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> ist häufig bizarr und unschön, aber
+         <lb facs="#facs_2_region_1784437423471_332_tl_33" n="N033"/>durchweg interessant und in manchen Partien von ungewöhn
+         <lb facs="#facs_2_region_1784437423471_332_tl_34" n="N034" break="no"/>licher Eigenart und Größe. Neben Stellen von auffallend
+         <lb facs="#facs_2_region_1784437423471_332_tl_35" n="N035"/>armer Erfindung und technischer Unbeholfenheit stehen glän
+         <lb facs="#facs_2_region_1784437423471_332_tl_36" n="N036" break="no"/>zende Einfälle und überraschend geistvolle Combinationen,
+         <lb facs="#facs_2_region_1784437423471_332_tl_37" n="N037"/>und der Autor, in rein musikalischer Arbeit keineswegs ein
+         <lb facs="#facs_2_region_1784437423471_332_tl_38" n="N038"/>„Meister“ im strengen Sinne, offenbart sich doch im Großen
+         <lb facs="#facs_2_region_1784437423471_332_tl_39" n="N039"/>und Ganzen als ein Künstler von glühendster Phantasie,<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1784437423471_332_tl_1" n="N001"/>nent romantische Composition handelt, nicht um eine Kirchenmusik
-               <lb facs="#facs_2_region_1784437423471_332_tl_2" n="N002"/>im traditionellen, strengeren Sinne des Wortes. <rs type="person">Berlioz</rs> bindet
-               <lb facs="#facs_2_region_1784437423471_332_tl_3" n="N003"/>sich nicht einmal an eine genaue Befolgung des Textes,
-               <lb facs="#facs_2_region_1784437423471_332_tl_4" n="N004"/>dem er z. B. einen Vers aus dem Credo eigenmächtig ein¬
-               <lb facs="#facs_2_region_1784437423471_332_tl_5" n="N005"/>schiebt. Die Worte sind ihm gleichsam nur Sklaven, die er
-               <lb facs="#facs_2_region_1784437423471_332_tl_6" n="N006"/>beliebig commandirt und tyrannisirt im Dienste seiner musi¬
-               <lb facs="#facs_2_region_1784437423471_332_tl_7" n="N007"/>kalischen Inspiration. Nichts ist dem Kirchenstyle ferner, als
-               <lb facs="#facs_2_region_1784437423471_332_tl_8" n="N008"/>die langen, sonderbaren Vocalisen, welche die ersten Tenore
-               <lb facs="#facs_2_region_1784437423471_332_tl_9" n="N009"/>über dem Satze: „Quantus tremor est futurus“ ausfüh¬
-               <lb facs="#facs_2_region_1784437423471_332_tl_10" n="N010"/>ren, oder das Zerhacken der Worte „Dies illa“ in vier
-               <lb facs="#facs_2_region_1784437423471_332_tl_11" n="N011"/>Theile gegen Ende des „Lacrymosa“, oder das athemlos be¬
-               <lb facs="#facs_2_region_1784437423471_332_tl_12" n="N012"/>schleunigte „Kyrie eleison“ am Schlusse des ersten Stückes.
-               <lb facs="#facs_2_region_1784437423471_332_tl_13" n="N013"/>
-               <rs type="person">Berlioz</rs> zerbricht und knetet die Worte, um sie dem einmal
-               <lb facs="#facs_2_region_1784437423471_332_tl_14" n="N014"/>gewählten Rhythmus anzupassen. Auch in dem selbstgewähl¬
-               <lb facs="#facs_2_region_1784437423471_332_tl_15" n="N015"/>ten, romantisch emancipirten Style bleibt der Componist
-               <lb facs="#facs_2_region_1784437423471_332_tl_16" n="N016"/>nicht consequent; er greift wiederholt zu den alten, traditio¬
-               <lb facs="#facs_2_region_1784437423471_332_tl_17" n="N017"/>nellen Formen zurück, aber nur um sich hierauf desto unge¬
-               <lb facs="#facs_2_region_1784437423471_332_tl_18" n="N018"/>zügelterer Freiheit hinzugeben. Sogar eine lange Fuge bringt
-               <lb facs="#facs_2_region_1784437423471_332_tl_19" n="N019"/>
-               <rs type="person">Berlioz</rs> auf „Hosiannah“, er, der sich stets über die Fuge
-               <lb facs="#facs_2_region_1784437423471_332_tl_20" n="N020"/>lustig gemacht und sie einmal „la bestialité dans toute
-               <lb facs="#facs_2_region_1784437423471_332_tl_21" n="N021"/>sa splendeur“ genannt hat. Bekannt ist das Wort <rs type="person" continued="true">Cheru¬</rs>
-               <lb facs="#facs_2_region_1784437423471_332_tl_22" n="N022"/>
-               <rs type="person" continued="true">bini</rs>'s, welcher bei dieser Gelegenheit äußerte: „Daß <rs type="person">Berlioz</rs>
-               <lb facs="#facs_2_region_1784437423471_332_tl_23" n="N023"/>die Fuge nicht liebt, kommt nur daher, weil die Fuge <hi rendition="#em">ihn</hi>
-               <lb facs="#facs_2_region_1784437423471_332_tl_24" n="N024"/>nicht liebt.“ Und darin wird <rs type="person">Cherubini</rs> wol Recht behalten.
-               <lb facs="#facs_2_region_1784437423471_332_tl_25" n="N025"/>Ein Requiem in dem kirchlichen edlen Style <rs type="person">Mozart</rs>'s oder
-               <lb facs="#facs_2_region_1784437423471_332_tl_26" n="N026"/>
-               <rs type="person">Cherubini</rs>'s zu schreiben, war <rs type="person">Berlioz</rs> weder fähig noch ge¬
-               <lb facs="#facs_2_region_1784437423471_332_tl_27" n="N027"/>willt. Mit diesem Maßstabe darf man sein Werk nicht
-               <lb facs="#facs_2_region_1784437423471_332_tl_28" n="N028"/>messen. Es will, nach dem Ausspruche eines <rs type="place">französisch</rs>en
-               <lb facs="#facs_2_region_1784437423471_332_tl_29" n="N029"/>
-               <rs type="person">Kritiker</rs>s, diese in Exaltation geschriebene Musik auch mit
-               <lb facs="#facs_2_region_1784437423471_332_tl_30" n="N030"/>einer Art Exaltation angehört sein; man muß sich von ihr
-               <lb facs="#facs_2_region_1784437423471_332_tl_31" n="N031"/>fortreißen lassen, um ihr gerecht zu werden. Und wahrlich,
-               <lb facs="#facs_2_region_1784437423471_332_tl_32" n="N032"/>das <rs type="bibl">Requiem</rs> von <rs type="person">Berlioz</rs> ist häufig bizarr und unschön, aber
-               <lb facs="#facs_2_region_1784437423471_332_tl_33" n="N033"/>durchweg interessant und in manchen Partien von ungewöhn¬
-               <lb facs="#facs_2_region_1784437423471_332_tl_34" n="N034"/>licher Eigenart und Größe. Neben Stellen von auffallend
-               <lb facs="#facs_2_region_1784437423471_332_tl_35" n="N035"/>armer Erfindung und technischer Unbeholfenheit stehen glän¬
-               <lb facs="#facs_2_region_1784437423471_332_tl_36" n="N036"/>zende Einfälle und überraschend geistvolle Combinationen,
-               <lb facs="#facs_2_region_1784437423471_332_tl_37" n="N037"/>und der Autor, in rein musikalischer Arbeit keineswegs ein
-               <lb facs="#facs_2_region_1784437423471_332_tl_38" n="N038"/>„Meister“ im strengen Sinne, offenbart sich doch im Großen
-               <lb facs="#facs_2_region_1784437423471_332_tl_39" n="N039"/>und Ganzen als ein Künstler von glühendster Phantasie,
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1784437426516_335_tl_1" n="N001"/>stärkster Leidenschaft und blendender Originalität. Letztere
-               <lb facs="#facs_2_region_1784437426516_335_tl_2" n="N002"/>äußert sich vor Allem in seiner Orchester-Behandlung.
-               <lb facs="#facs_2_region_1784437426516_335_tl_3" n="N003"/>Das erste Stück (Requiem und Kyrie) ist wol das
-               <lb facs="#facs_2_region_1784437426516_335_tl_4" n="N004"/>einfachste und in der Einfachheit ausdrucksvollste. Düster,
-               <lb facs="#facs_2_region_1784437426516_335_tl_5" n="N005"/>geheimnißvoll steigt eine unscheinbare Figur wiederholt auf,
-               <lb facs="#facs_2_region_1784437426516_335_tl_6" n="N006"/>an die sich ein dreimaliger, starker Hammerschlag des ganzen
-               <lb facs="#facs_2_region_1784437426516_335_tl_7" n="N007"/>Orchesters fügt: das Anklopfen des Todes. Sanft melodisch
-               <lb facs="#facs_2_region_1784437426516_335_tl_8" n="N008"/>erklingt das „Te decet hymnus“ der Tenore und Bässe
-               <lb facs="#facs_2_region_1784437426516_335_tl_9" n="N009"/>über einer wogenden Violoncell-Figur, weiche Frauenstimmen,
-               <lb facs="#facs_2_region_1784437426516_335_tl_10" n="N010"/>von Flöten und Oboën begleitet, gesellen sich dazu. Hier ist
-               <lb facs="#facs_2_region_1784437426516_335_tl_11" n="N011"/>doch ein Anklang an die fromme Weise älterer Kirchen¬
-               <lb facs="#facs_2_region_1784437426516_335_tl_12" n="N012"/>gesänge, wol der einzige im ganzen <rs type="bibl">Requiem</rs>. Es folgt dieser
-               <lb facs="#facs_2_region_1784437426516_335_tl_13" n="N013"/>Einleitung die eigentliche Schilderung des jüngsten Gerichtes.
-               <lb facs="#facs_2_region_1784437426516_335_tl_14" n="N014"/>Der Anfang des „Dies irae“ wirkt etwas enttäuschend.
-               <lb facs="#facs_2_region_1784437426516_335_tl_15" n="N015"/>Hier, wo die meisten Componisten mit voller, erschütternder
-               <lb facs="#facs_2_region_1784437426516_335_tl_16" n="N016"/>Kraft einsetzen, beginnt <rs type="person">Berlioz</rs> fast zaghaft mit einem dürf¬
-               <lb facs="#facs_2_region_1784437426516_335_tl_17" n="N017"/>tigen, stockenden, von wenigen Instrumenten unisono beglei¬
-               <lb facs="#facs_2_region_1784437426516_335_tl_18" n="N018"/>teten Thema der Soprane. Aber <rs type="person">Berlioz</rs> bereitet seinen
-               <lb facs="#facs_2_region_1784437426516_335_tl_19" n="N019"/>Effect nur vor. Eine zitternde Unruhe bemächtigt sich der
-               <lb facs="#facs_2_region_1784437426516_335_tl_20" n="N020"/>Stimmen, die bald jede Oberherrschaft verlieren und Eins
-               <lb facs="#facs_2_region_1784437426516_335_tl_21" n="N021"/>werden mit dem immer stärker aufgewühlten Orchester. Da
-               <lb facs="#facs_2_region_1784437426516_335_tl_22" n="N022"/>rast ein stürmischer chromatischer Gang aller Saiten-Instru¬
-               <lb facs="#facs_2_region_1784437426516_335_tl_23" n="N023"/>mente empor, wie ein furchtbarer Windstoß, er wiederholt
-               <lb facs="#facs_2_region_1784437426516_335_tl_24" n="N024"/>sich stärker nach einem beängstigenden allgemeinen Still¬
-               <lb facs="#facs_2_region_1784437426516_335_tl_25" n="N025"/>schweigen, und nun bricht die furchtbare Fanfare des „Tuba
-               <lb facs="#facs_2_region_1784437426516_335_tl_26" n="N026"/>mirum“ los, erst im Osten, dann im Westen, dann
-               <lb facs="#facs_2_region_1784437426516_335_tl_27" n="N027"/>von Nord und Süd, endlich von überallher zugleich.
-               <lb facs="#facs_2_region_1784437426516_335_tl_28" n="N028"/>
-               <rs type="person">Berlioz</rs> hat um das große Orchester herum noch
-               <lb facs="#facs_2_region_1784437426516_335_tl_29" n="N029"/>vier kleinere Blechorchester in die vier Ecken postirt; von
-               <lb facs="#facs_2_region_1784437426516_335_tl_30" n="N030"/>allen Weltgegenden soll die Posaune des letzten Gerichtes die
-               <lb facs="#facs_2_region_1784437426516_335_tl_31" n="N031"/>Todten erwecken. Eine ungeheure Wirkung, freilich mit un¬
-               <lb facs="#facs_2_region_1784437426516_335_tl_32" n="N032"/>geheuren Mitteln erreicht. Hier ist <rs type="person">Berlioz</rs> in seinem Ele¬
-               <lb facs="#facs_2_region_1784437426516_335_tl_33" n="N033"/>mente, und er war nicht wenig stolz auf sein „Tuba mirum“.
-               <lb facs="#facs_2_region_1784437426516_335_tl_34" n="N034"/>„Armer <rs type="person">Mozart</rs>!“ ruft er einmal bei Erwähnung des <rs type="person" continued="true">Mo¬</rs>
-               <lb facs="#facs_2_region_1784437426516_335_tl_35" n="N035"/>
-               <rs type="person" continued="true">zart</rs>'schen <rs type="bibl">Requiem</rs>s aus, „sich mit Einer Posaune zu begnü¬
-               <lb facs="#facs_2_region_1784437426516_335_tl_36" n="N036"/>gen, wo 500 Posaunen nicht hinreichen würden, die Schrecken
-               <lb facs="#facs_2_region_1784437426516_335_tl_37" n="N037"/>des letzten Gerichtes zu malen!“ Er vergaß, daß, gegen die
-               <lb facs="#facs_2_region_1784437426516_335_tl_38" n="N038"/>Unendlichkeit gehalten, 500 Posaunen nicht viel mehr bedeuten,
-               <lb facs="#facs_2_region_1784437426516_335_tl_39" n="N039"/>als eine oder zwei, und daß die musikalische Idee doch noch
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784437426516_335_tl_1" n="N001"/>stärkster Leidenschaft und blendender Originalität. Letztere
+         <lb facs="#facs_2_region_1784437426516_335_tl_2" n="N002"/>äußert sich vor Allem in seiner Orchester-Behandlung.
+            </p><p>
+         <lb facs="#facs_2_region_1784437426516_335_tl_3" n="N003"/>Das erste Stück (Requiem und Kyrie) ist wol das
+         <lb facs="#facs_2_region_1784437426516_335_tl_4" n="N004"/>einfachste und in der Einfachheit ausdrucksvollste. Düster,
+         <lb facs="#facs_2_region_1784437426516_335_tl_5" n="N005"/>geheimnißvoll steigt eine unscheinbare Figur wiederholt auf,
+         <lb facs="#facs_2_region_1784437426516_335_tl_6" n="N006"/>an die sich ein dreimaliger, starker Hammerschlag des ganzen
+         <lb facs="#facs_2_region_1784437426516_335_tl_7" n="N007"/>Orchesters fügt: das Anklopfen des Todes. Sanft melodisch
+         <lb facs="#facs_2_region_1784437426516_335_tl_8" n="N008"/>erklingt das „Te decet hymnus“ der Tenore und Bässe
+         <lb facs="#facs_2_region_1784437426516_335_tl_9" n="N009"/>über einer wogenden Violoncell-Figur, weiche Frauenstimmen,
+         <lb facs="#facs_2_region_1784437426516_335_tl_10" n="N010"/>von Flöten und Oboën begleitet, gesellen sich dazu. Hier ist
+         <lb facs="#facs_2_region_1784437426516_335_tl_11" n="N011"/>doch ein Anklang an die fromme Weise älterer Kirchen
+         <lb facs="#facs_2_region_1784437426516_335_tl_12" n="N012" break="no"/>gesänge, wol der einzige im ganzen <rs type="bibl" ref="#hsl_work_id_572">Requiem</rs>. Es folgt dieser
+         <lb facs="#facs_2_region_1784437426516_335_tl_13" n="N013"/>Einleitung die eigentliche Schilderung des jüngsten Gerichtes.
+         <lb facs="#facs_2_region_1784437426516_335_tl_14" n="N014"/>Der Anfang des „Dies irae“ wirkt etwas enttäuschend.
+         <lb facs="#facs_2_region_1784437426516_335_tl_15" n="N015"/>Hier, wo die meisten Componisten mit voller, erschütternder
+         <lb facs="#facs_2_region_1784437426516_335_tl_16" n="N016"/>Kraft einsetzen, beginnt <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> fast zaghaft mit einem dürf
+         <lb facs="#facs_2_region_1784437426516_335_tl_17" n="N017" break="no"/>tigen, stockenden, von wenigen Instrumenten unisono beglei
+         <lb facs="#facs_2_region_1784437426516_335_tl_18" n="N018" break="no"/>teten Thema der Soprane. Aber <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> bereitet seinen
+         <lb facs="#facs_2_region_1784437426516_335_tl_19" n="N019"/>Effect nur vor. Eine zitternde Unruhe bemächtigt sich der
+         <lb facs="#facs_2_region_1784437426516_335_tl_20" n="N020"/>Stimmen, die bald jede Oberherrschaft verlieren und Eins
+         <lb facs="#facs_2_region_1784437426516_335_tl_21" n="N021"/>werden mit dem immer stärker aufgewühlten Orchester. Da
+         <lb facs="#facs_2_region_1784437426516_335_tl_22" n="N022"/>rast ein stürmischer chromatischer Gang aller Saiten-Instru
+         <lb facs="#facs_2_region_1784437426516_335_tl_23" n="N023" break="no"/>mente empor, wie ein furchtbarer Windstoß, er wiederholt
+         <lb facs="#facs_2_region_1784437426516_335_tl_24" n="N024"/>sich stärker nach einem beängstigenden allgemeinen Still
+         <lb facs="#facs_2_region_1784437426516_335_tl_25" n="N025" break="no"/>schweigen, und nun bricht die furchtbare Fanfare des „Tuba
+         <lb facs="#facs_2_region_1784437426516_335_tl_26" n="N026"/>mirum“ los, erst im Osten, dann im Westen, dann
+         <lb facs="#facs_2_region_1784437426516_335_tl_27" n="N027"/>von Nord und Süd, endlich von überallher zugleich.
+         <lb facs="#facs_2_region_1784437426516_335_tl_28" n="N028"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> hat um das große Orchester herum noch
+         <lb facs="#facs_2_region_1784437426516_335_tl_29" n="N029"/>vier kleinere Blechorchester in die vier Ecken postirt; von
+         <lb facs="#facs_2_region_1784437426516_335_tl_30" n="N030"/>allen Weltgegenden soll die Posaune des letzten Gerichtes die
+         <lb facs="#facs_2_region_1784437426516_335_tl_31" n="N031"/>Todten erwecken. Eine ungeheure Wirkung, freilich mit un
+         <lb facs="#facs_2_region_1784437426516_335_tl_32" n="N032" break="no"/>geheuren Mitteln erreicht. Hier ist <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> in seinem Ele
+         <lb facs="#facs_2_region_1784437426516_335_tl_33" n="N033" break="no"/>mente, und er war nicht wenig stolz auf sein „Tuba mirum“.
+         <lb facs="#facs_2_region_1784437426516_335_tl_34" n="N034"/>„Armer <rs type="person" ref="#hsl_person_id_189">Mozart</rs>!“ ruft er einmal bei Erwähnung des <rs type="person" ref="#hsl_person_id_189">Mo
+         <lb facs="#facs_2_region_1784437426516_335_tl_35" n="N035" break="no"/>zart</rs>’schen <rs type="bibl" ref="#hsl_work_id_427">Requiem</rs>s aus, „sich mit Einer Posaune zu begnü
+         <lb facs="#facs_2_region_1784437426516_335_tl_36" n="N036" break="no"/>gen, wo 500 Posaunen nicht hinreichen würden, die Schrecken
+         <lb facs="#facs_2_region_1784437426516_335_tl_37" n="N037"/>des letzten Gerichtes zu malen!“ Er vergaß, daß, gegen die
+         <lb facs="#facs_2_region_1784437426516_335_tl_38" n="N038"/>Unendlichkeit gehalten, 500 Posaunen nicht viel mehr bedeuten,
+         <lb facs="#facs_2_region_1784437426516_335_tl_39" n="N039"/>als eine oder zwei, und daß die musikalische Idee doch noch<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1784437435402_341_tl_1" n="N001"/>wichtiger ist, als der materielle Schall. Selbst mit 500 Po
+         <lb facs="#facs_3_region_1784437435402_341_tl_2" n="N002" break="no"/>saunen ausgerüstet, dürfte sich <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> nicht neben <rs type="person" ref="#hsl_person_id_189">Mozart</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1784437435402_341_tl_3" n="N003"/>sehen lassen. Die fünf Orchester <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’ sind übrigens in der
+         <lb facs="#facs_3_region_1784437435402_341_tl_4" n="N004"/>Geschichte der Kirchenmusik nicht ohne Vorläufer und nicht
+         <lb facs="#facs_3_region_1784437435402_341_tl_5" n="N005"/>ohne Nachfolger. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_160">Lesueur</rs></hi>, der Meister und in manchen
+         <lb facs="#facs_3_region_1784437435402_341_tl_6" n="N006"/>Stücken das Vorbild <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’, hatte im Jahre <date>1801</date> im
+         <lb facs="#facs_3_region_1784437435402_341_tl_7" n="N007"/>Invalidendome (damals „Tempel des Mars“) eine <rs type="bibl" ref="#hsl_work_id_6799">Sym
+         <lb facs="#facs_3_region_1784437435402_341_tl_8" n="N008" break="no"/>phonie-Ode</rs> zur Feier des wiedererlangten Friedens aufführen
+         <lb facs="#facs_3_region_1784437435402_341_tl_9" n="N009"/>lassen, wobei er vier Orchester, welche vier verschiedene Ge
+         <lb facs="#facs_3_region_1784437435402_341_tl_10" n="N010" break="no"/>müthsbewegungen charakterisiren sollten, in die vier Ecken der
+         <lb facs="#facs_3_region_1784437435402_341_tl_11" n="N011"/>Kirche vertheilt hatte. Und einige Monate vorher hatte
+         <lb facs="#facs_3_region_1784437435402_341_tl_12" n="N012"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_179">Méhul</rs></hi> zur Jahresfeier des 14. Juli in einer ähnlichen
+         <lb facs="#facs_3_region_1784437435402_341_tl_13" n="N013"/><rs type="bibl" ref="#hsl_work_id_3858">Composition</rs> drei Orchester verwendet. Wenn <rs type="person" ref="#hsl_person_id_179">Méhul</rs> drei
+         <lb facs="#facs_3_region_1784437435402_341_tl_14" n="N014"/>und <rs type="person" ref="#hsl_person_id_160">Lesueur</rs> vier Orchester sich erlaubt hatte, so konnte es
+         <lb facs="#facs_3_region_1784437435402_341_tl_15" n="N015"/><rs type="person" ref="#hsl_person_id_28">Berlioz</rs> doch nicht unter fünfen thun. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_312">Verdi</rs></hi> hat den Effect
+         <lb facs="#facs_3_region_1784437435402_341_tl_16" n="N016"/>in mäßigerer Weise nachgeahmt in seinem Requiem, wo er
+         <lb facs="#facs_3_region_1784437435402_341_tl_17" n="N017"/>durch einander antwortende, von den vier Ecken des Or
+         <lb facs="#facs_3_region_1784437435402_341_tl_18" n="N018" break="no"/>chesters ertönende Trompeten- und Posaunenrufe denselben
+         <lb facs="#facs_3_region_1784437435402_341_tl_19" n="N019"/>Moment versinnlicht. Die ergreifende Wirkung von <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’
+         <lb facs="#facs_3_region_1784437435402_341_tl_20" n="N020"/>„Tuba mirum“ ist unfehlbar; es kann sich ihr Niemand
+         <lb facs="#facs_3_line_1784785677289_854" n="N021"/>entziehen. Man bemerke aber, mit welcher Kunst er
+         <lb facs="#facs_3_line_1784785674722_851" n="N022"/>diese donnerschlagähnliche Explosion vorbereitet. Bis dahin
+         <lb facs="#facs_3_region_1784437435402_341_tl_21" n="N023"/>verhielten sich das Blech und die Pauken, die Becken und
+         <lb facs="#facs_3_region_1784437435402_341_tl_22" n="N024"/>die große Trommel schweigend: das Ohr hat den Klang
+         <lb facs="#facs_3_region_1784437435402_341_tl_23" n="N025"/>von Trompeten und Posaunen noch gar nicht vernommen.
+         <lb facs="#facs_3_region_1784437435402_341_tl_24" n="N026"/>Nun erst erfolgt deren gewaltigster Ausbruch.
+            <note type="footnote" n="*)">
+            <lb facs="#facs_3_line_1784785640339_820" n="N034" break="no"/>Einen bei aller Verschiedenheit doch verwandten Effect hat
+            <lb facs="#facs_3_line_1784785646499_826" n="N035"/>Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> in seinem „<rs type="bibl" ref="#hsl_work_id_240">Liebesmal der Apostel</rs>“. Die ersten zwei
+            <lb facs="#facs_3_line_1784785648454_829" n="N036"/>Drittheile dieses Werkes füllt blos der Männerchor, ohne alle Beglei
+            <lb facs="#facs_3_line_1784785650633_832" n="N037" break="no"/>tung. Erst bei den Worten: „Welch’ Brausen erfüllet die Luft?“
+            <lb facs="#facs_3_line_1784785652705_835" n="N038"/>fällt das Orchester mit überraschendem Effect ein.
+            </note>
+            Nach dem
+         <lb facs="#facs_3_region_1784437435402_341_tl_25" n="N027" break="no"/>selben begleiten alle Klänge des Orchesters, gestopfte Horn
+         <lb facs="#facs_3_region_1784437435402_341_tl_26" n="N028" break="no"/>töne, das dumpfe Grollen der tremolirenden Violoncelle und
+         <lb facs="#facs_3_region_1784437435402_341_tl_27" n="N029"/>Contrabässe die ersten Tacte des „Mors stupebit“. Ein
+         <lb facs="#facs_3_region_1784437435402_341_tl_28" n="N030"/>ergreifender Satz, den alle Schauer der Vernichtung durch
+         <lb facs="#facs_3_region_1784437435402_341_tl_29" n="N031" break="no"/>rieseln. Mit den Worten „liber scriptis proferetur“ schlägt
+         <lb facs="#facs_3_region_1784437435402_341_tl_30" n="N032"/>wieder die gewaltige Blechharmonie ein, zuletzt verstärkt durch
+         <lb facs="#facs_3_region_1784437435402_341_tl_31" n="N033"/>den grauenvollen Klang des Tamtam und der Becken. Merk</p>
             <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1784437435402_341_tl_1" n="N001"/>wichtiger ist, als der materielle Schall. Selbst mit 500 Po¬
-               <lb facs="#facs_3_region_1784437435402_341_tl_2" n="N002"/>saunen ausgerüstet, dürfte sich <rs type="person">Berlioz</rs> nicht neben <rs type="person">Mozart</rs>
-               <lb facs="#facs_3_region_1784437435402_341_tl_3" n="N003"/>sehen lassen. Die fünf Orchester <rs type="person">Berlioz</rs>' sind übrigens in der
-               <lb facs="#facs_3_region_1784437435402_341_tl_4" n="N004"/>Geschichte der Kirchenmusik nicht ohne Vorläufer und nicht
-               <lb facs="#facs_3_region_1784437435402_341_tl_5" n="N005"/>ohne Nachfolger. <hi rendition="#em">
-                  <rs type="person">Lesueur</rs>
-               </hi>, der Meister und in manchen
-               <lb facs="#facs_3_region_1784437435402_341_tl_6" n="N006"/>Stücken das Vorbild <rs type="person">Berlioz</rs>', hatte im Jahre <date>1801</date> im
-               <lb facs="#facs_3_region_1784437435402_341_tl_7" n="N007"/>Invalidendome (damals „Tempel des Mars“) eine <rs type="bibl">Sym¬</rs>
-               <lb facs="#facs_3_region_1784437435402_341_tl_8" n="N008"/>
-               <rs type="bibl">phonie-Ode</rs> zur Feier des wiedererlangten Friedens aufführen
-               <lb facs="#facs_3_region_1784437435402_341_tl_9" n="N009"/>lassen, wobei er vier Orchester, welche vier verschiedene Ge¬
-               <lb facs="#facs_3_region_1784437435402_341_tl_10" n="N010"/>müthsbewegungen charakterisiren sollten, in die vier Ecken der
-               <lb facs="#facs_3_region_1784437435402_341_tl_11" n="N011"/>Kirche vertheilt hatte. Und einige Monate vorher hatte
-               <lb facs="#facs_3_region_1784437435402_341_tl_12" n="N012"/>
-               <hi rendition="#em">
-                  <rs type="person">Méhul</rs>
-               </hi> zur Jahresfeier des 14. Juli in einer ähnlichen
-               <lb facs="#facs_3_region_1784437435402_341_tl_13" n="N013"/>
-               <rs type="bibl">Composition</rs> drei Orchester verwendet. Wenn <rs type="person">Méhul</rs> drei
-               <lb facs="#facs_3_region_1784437435402_341_tl_14" n="N014"/>und <rs type="person">Lesueur</rs> vier Orchester sich erlaubt hatte, so konnte es
-               <lb facs="#facs_3_region_1784437435402_341_tl_15" n="N015"/>
-               <rs type="person">Berlioz</rs> doch nicht unter fünfen thun. <hi rendition="#em">
-                  <rs type="person">Verdi</rs>
-               </hi> hat den Effect
-               <lb facs="#facs_3_region_1784437435402_341_tl_16" n="N016"/>in mäßigerer Weise nachgeahmt in seinem Requiem, wo er
-               <lb facs="#facs_3_region_1784437435402_341_tl_17" n="N017"/>durch einander antwortende, von den vier Ecken des Or¬
-               <lb facs="#facs_3_region_1784437435402_341_tl_18" n="N018"/>chesters ertönende Trompeten- und Posaunenrufe denselben
-               <lb facs="#facs_3_region_1784437435402_341_tl_19" n="N019"/>Moment versinnlicht. Die ergreifende Wirkung von <rs type="person">Berlioz</rs>'
-               <lb facs="#facs_3_region_1784437435402_341_tl_20" n="N020"/>„Tuba mirum“ ist unfehlbar; es kann sich ihr Niemand
-               <lb facs="#facs_3_line_1784785677289_854" n="N021"/>entziehen. Man bemerke aber, mit welcher Kunst er
-               <lb facs="#facs_3_line_1784785674722_851" n="N022"/>diese donnerschlagähnliche Explosion vorbereitet. Bis dahin
-               <lb facs="#facs_3_region_1784437435402_341_tl_21" n="N023"/>verhielten sich das Blech und die Pauken, die Becken und
-               <lb facs="#facs_3_region_1784437435402_341_tl_22" n="N024"/>die große Trommel schweigend: das Ohr hat den Klang
-               <lb facs="#facs_3_region_1784437435402_341_tl_23" n="N025"/>von Trompeten und Posaunen noch gar nicht vernommen.
-               <lb facs="#facs_3_region_1784437435402_341_tl_24" n="N026"/>Nun erst erfolgt deren gewaltigster Ausbruch.*) Nach dem¬
-               <lb facs="#facs_3_region_1784437435402_341_tl_25" n="N027"/>selben begleiten alle Klänge des Orchesters, gestopfte Horn¬
-               <lb facs="#facs_3_region_1784437435402_341_tl_26" n="N028"/>töne, das dumpfe Grollen der tremolirenden Violoncelle und
-               <lb facs="#facs_3_region_1784437435402_341_tl_27" n="N029"/>Contrabässe die ersten Tacte des „Mors stupebit“. Ein
-               <lb facs="#facs_3_region_1784437435402_341_tl_28" n="N030"/>ergreifender Satz, den alle Schauer der Vernichtung durch¬
-               <lb facs="#facs_3_region_1784437435402_341_tl_29" n="N031"/>rieseln. Mit den Worten „liber scriptis proferetur“ schlägt
-               <lb facs="#facs_3_region_1784437435402_341_tl_30" n="N032"/>wieder die gewaltige Blechharmonie ein, zuletzt verstärkt durch
-               <lb facs="#facs_3_region_1784437435402_341_tl_31" n="N033"/>den grauenvollen Klang des Tamtam und der Becken. Merk¬
-               <lb facs="#facs_3_line_1784785640339_820" n="N034"/>*) Einen bei aller Verschiedenheit doch verwandten Effect hat
-               <lb facs="#facs_3_line_1784785646499_826" n="N035"/>Richard <rs type="person">Wagner</rs> in seinem „<rs type="bibl">Liebesmal der Apostel</rs>“. Die ersten zwei
-               <lb facs="#facs_3_line_1784785648454_829" n="N036"/>Drittheile dieses Werkes füllt blos der Männerchor, ohne alle Beglei¬
-               <lb facs="#facs_3_line_1784785650633_832" n="N037"/>tung. Erst bei den Worten: „Welch' Brausen erfüllet die Luft?“
-               <lb facs="#facs_3_line_1784785652705_835" n="N038"/>fällt das Orchester mit überraschendem Effect ein.
-            </p>
+            <p prev="true">
+         <lb facs="#facs_3_region_1784437438181_344_tl_1" n="N001" break="no"/>würdig wirken dabei die vollständigen Accorde der zehn Paar
+         <lb facs="#facs_3_line_1784785623872_792" n="N002"/>Pauken. Wie sehr sich <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> auf die Kunst der Contraste
+         <lb facs="#facs_3_line_1784785618248_788" n="N003"/>versteht, beweist er auch, indem er zwischen das „Tuba
+         <lb facs="#facs_3_region_1784437438181_344_tl_6" n="N004"/>mirum“ und das gleichfalls gewaltig erdröhnende „Rex
+         <lb facs="#facs_3_region_1784437438181_344_tl_7" n="N005"/>tremendae majestatis“ einen langsameren Klaggesang der
+         <lb facs="#facs_3_region_1784437438181_344_tl_8" n="N006"/>Tenore einschiebt (Quid sum miser), den nur Englischhorn,
+         <lb facs="#facs_3_region_1784437438181_344_tl_9" n="N007"/>Violoncelle und Fagotte begleiten. Doch gehört dieser Satz,
+         <lb facs="#facs_3_region_1784437438181_344_tl_10" n="N008"/>sowie der folgende a capella-Chor „Quaerens me“ zu den
+         <lb facs="#facs_3_region_1784437438181_344_tl_11" n="N009"/>schwächsten Partien des Werkes. Wo <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> nicht durch
+         <lb facs="#facs_3_region_1784437438181_344_tl_12" n="N010"/>Orchester-Colorit wirken kann, ist er verloren; sein Vocalsatz
+         <lb facs="#facs_3_region_1784437438181_344_tl_13" n="N011"/>klingt nicht. Man denke an ähnliche Sätze von <rs type="person" ref="#hsl_person_id_189">Mozart</rs>,
+         <lb facs="#facs_3_region_1784437438181_344_tl_14" n="N012"/>z. B. das „Ave verum“. Bedeutender wirkt das breit an
+         <lb facs="#facs_3_region_1784437438181_344_tl_15" n="N013" break="no"/>gelegte und glänzend instrumentirte „Lacrymosa“, trotz
+         <lb facs="#facs_3_region_1784437438181_344_tl_16" n="N014"/>mancherlei Bizarrerien eine der besten Nummern dieses
+         <lb facs="#facs_3_region_1784437438181_344_tl_17" n="N015"/><rs type="bibl" ref="#hsl_work_id_572">Requiem</rs>s, welcher nur die angestrengt hohe Lage der Tenor
+         <lb facs="#facs_3_region_1784437438181_344_tl_18" n="N016" break="no"/>stimmen gefährlich werden kann. Herr Capellmeister <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3517">Gericke</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1784437438181_344_tl_19" n="N017"/>hat zu dem geschickten Aushilfsmittel gegriffen, die Tenore
+         <lb facs="#facs_3_region_1784437438181_344_tl_20" n="N018"/>fast durchwegs durch Altstimmen zu verstärken. Man kennt
+         <lb facs="#facs_3_region_1784437438181_344_tl_21" n="N019"/>die glückliche Wirkung dieser Klangmischung aus dem ersten
+         <lb facs="#facs_3_region_1784437438181_344_tl_22" n="N020"/>Acte von <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s „<rs type="bibl" ref="#hsl_work_id_97">Lohengrin</rs>“. Eine bizarre Composition
+         <lb facs="#facs_3_region_1784437438181_344_tl_23" n="N021"/>ist das folgende Offertorium in D-moll, das <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> „Chor
+         <lb facs="#facs_3_region_1784437438181_344_tl_24" n="N022"/>der Seelen im Fegefeuer“ bezeichnet. Die eigenthümlich herbe
+         <lb facs="#facs_3_region_1784437438181_344_tl_25" n="N023"/>Melodie liegt vollständig im Orchester, der dazu ertönende
+         <lb facs="#facs_3_region_1784437438181_344_tl_26" n="N024"/>Gesang der armen Seelen bewegt sich blos zwischen zwei
+         <lb facs="#facs_3_region_1784437438181_344_tl_27" n="N025"/>Noten: a und b. <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> erzählt in seinen <rs type="bibl" ref="#hsl_work_id_561">Memoiren</rs>, es
+         <lb facs="#facs_3_region_1784437438181_344_tl_28" n="N026"/>habe nach einem seiner <rs type="place" ref="#hsl_place_id_32">Leipzig</rs>er Concerte <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi> sein
+         <lb facs="#facs_3_line_1784785578087_761" n="N027"/>gewohnheitsmäßiges Schweigen gebrochen und gesagt: „Dieses
+         <lb facs="#facs_3_region_1784437438181_344_tl_31" n="N028"/>Offertorium übertrifft Alles.“ Wir zweifeln, daß <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s
+         <lb facs="#facs_3_region_1784437438181_344_tl_32" n="N029"/>Enthusiasmus gerade für dieses immerhin interessante Stück
+         <lb facs="#facs_3_region_1784437438181_344_tl_33" n="N030"/>von Vielen getheilt werde. Eine der seltsamsten Instrumental-
+         <lb facs="#facs_3_region_1784437438181_344_tl_34" n="N031"/>Combinationen bringt <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> in dem Satze: „Hostias et
+         <lb facs="#facs_3_region_1784437438181_344_tl_35" n="N032"/>preces“, Accorde von Flöten und Posaunen, also eine Mischung
+         <lb facs="#facs_3_region_1784437438181_344_tl_36" n="N033"/>der höchsten mit den tiefsten Klängen des Orchesters, unter
+         <lb facs="#facs_3_region_1784437438181_344_tl_37" n="N034" break="no"/>brechen jeden Absatz des vom Chor psalmodirten „Hostias“.
+         <lb facs="#facs_3_region_1784437438181_344_tl_38" n="N035"/>Ungleich sympathischer berührt uns das sich anschließende
+         <lb facs="#facs_3_region_1784437438181_344_tl_39" n="N036"/>„Sanctus“. Die anfänglich vom Solo-Tenor vorgetragene,
+         <lb facs="#facs_3_region_1784437438181_344_tl_40" n="N037"/>dann vom Chor aufgenommene Melodie ist von vier Solo-
+         <lb facs="#facs_3_region_1784437438181_344_tl_41" n="N038"/>Violinen mit Sordinen, einer Flöte und tremolirenden Violen<space quantity="1" unit="char"/></p>
             <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1784437438181_344_tl_1" n="N001"/>würdig wirken dabei die vollständigen Accorde der zehn Paar
-               <lb facs="#facs_3_line_1784785623872_792" n="N002"/>Pauken. Wie sehr sich <rs type="person">Berlioz</rs> auf die Kunst der Contraste
-               <lb facs="#facs_3_line_1784785618248_788" n="N003"/>versteht, beweist er auch, indem er zwischen das „Tuba
-               <lb facs="#facs_3_region_1784437438181_344_tl_6" n="N004"/>mirum“ und das gleichfalls gewaltig erdröhnende „Rex
-               <lb facs="#facs_3_region_1784437438181_344_tl_7" n="N005"/>tremendae majestatis“ einen langsameren Klaggesang der
-               <lb facs="#facs_3_region_1784437438181_344_tl_8" n="N006"/>Tenore einschiebt (Quid sum miser), den nur Englischhorn,
-               <lb facs="#facs_3_region_1784437438181_344_tl_9" n="N007"/>Violoncelle und Fagotte begleiten. Doch gehört dieser Satz,
-               <lb facs="#facs_3_region_1784437438181_344_tl_10" n="N008"/>sowie der folgende a capella-Chor „Quaerens me“ zu den
-               <lb facs="#facs_3_region_1784437438181_344_tl_11" n="N009"/>schwächsten Partien des Werkes. Wo <rs type="person">Berlioz</rs> nicht durch
-               <lb facs="#facs_3_region_1784437438181_344_tl_12" n="N010"/>Orchester-Colorit wirken kann, ist er verloren; sein Vocalsatz
-               <lb facs="#facs_3_region_1784437438181_344_tl_13" n="N011"/>klingt nicht. Man denke an ähnliche Sätze von <rs type="person">Mozart</rs>,
-               <lb facs="#facs_3_region_1784437438181_344_tl_14" n="N012"/>z. B. das „Ave verum“. Bedeutender wirkt das breit an¬
-               <lb facs="#facs_3_region_1784437438181_344_tl_15" n="N013"/>gelegte und glänzend instrumentirte „Lacrymosa“, trotz
-               <lb facs="#facs_3_region_1784437438181_344_tl_16" n="N014"/>mancherlei Bizarrerien eine der besten Nummern dieses
-               <lb facs="#facs_3_region_1784437438181_344_tl_17" n="N015"/>
-               <rs type="bibl">Requiem</rs>s, welcher nur die angestrengt hohe Lage der Tenor¬
-               <lb facs="#facs_3_region_1784437438181_344_tl_18" n="N016"/>stimmen gefährlich werden kann. Herr Capellmeister <hi rendition="#em">
-                  <rs type="person">Gericke</rs>
-               </hi>
-               <lb facs="#facs_3_region_1784437438181_344_tl_19" n="N017"/>hat zu dem geschickten Aushilfsmittel gegriffen, die Tenore
-               <lb facs="#facs_3_region_1784437438181_344_tl_20" n="N018"/>fast durchwegs durch Altstimmen zu verstärken. Man kennt
-               <lb facs="#facs_3_region_1784437438181_344_tl_21" n="N019"/>die glückliche Wirkung dieser Klangmischung aus dem ersten
-               <lb facs="#facs_3_region_1784437438181_344_tl_22" n="N020"/>Acte von <rs type="person">Wagner</rs>'s „<rs type="bibl">Lohengrin</rs>“. Eine bizarre Composition
-               <lb facs="#facs_3_region_1784437438181_344_tl_23" n="N021"/>ist das folgende Offertorium in D-moll, das <rs type="person">Berlioz</rs> „Chor
-               <lb facs="#facs_3_region_1784437438181_344_tl_24" n="N022"/>der Seelen im Fegefeuer“ bezeichnet. Die eigenthümlich herbe
-               <lb facs="#facs_3_region_1784437438181_344_tl_25" n="N023"/>Melodie liegt vollständig im Orchester, der dazu ertönende
-               <lb facs="#facs_3_region_1784437438181_344_tl_26" n="N024"/>Gesang der armen Seelen bewegt sich blos zwischen zwei
-               <lb facs="#facs_3_region_1784437438181_344_tl_27" n="N025"/>Noten: a und b. <rs type="person">Berlioz</rs> erzählt in seinen <rs type="bibl">Memoiren</rs>, es
-               <lb facs="#facs_3_region_1784437438181_344_tl_28" n="N026"/>habe nach einem seiner <rs type="place">Leipzig</rs>er Concerte <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi> sein
-               <lb facs="#facs_3_line_1784785578087_761" n="N027"/>gewohnheitsmäßiges Schweigen gebrochen und gesagt: „Dieses
-               <lb facs="#facs_3_region_1784437438181_344_tl_31" n="N028"/>Offertorium übertrifft Alles.“ Wir zweifeln, daß <rs type="person">Schumann</rs>'s
-               <lb facs="#facs_3_region_1784437438181_344_tl_32" n="N029"/>Enthusiasmus gerade für dieses immerhin interessante Stück
-               <lb facs="#facs_3_region_1784437438181_344_tl_33" n="N030"/>von Vielen getheilt werde. Eine der seltsamsten Instrumental-
-               <lb facs="#facs_3_region_1784437438181_344_tl_34" n="N031"/>Combinationen bringt <rs type="person">Berlioz</rs> in dem Satze: „Hostias et
-               <lb facs="#facs_3_region_1784437438181_344_tl_35" n="N032"/>preces“, Accorde von Flöten und Posaunen, also eine Mischung
-               <lb facs="#facs_3_region_1784437438181_344_tl_36" n="N033"/>der höchsten mit den tiefsten Klängen des Orchesters, unter¬
-               <lb facs="#facs_3_region_1784437438181_344_tl_37" n="N034"/>brechen jeden Absatz des vom Chor psalmodirten „Hostias“.
-               <lb facs="#facs_3_region_1784437438181_344_tl_38" n="N035"/>Ungleich sympathischer berührt uns das sich anschließende
-               <lb facs="#facs_3_region_1784437438181_344_tl_39" n="N036"/>„Sanctus“. Die anfänglich vom Solo-Tenor vorgetragene,
-               <lb facs="#facs_3_region_1784437438181_344_tl_40" n="N037"/>dann vom Chor aufgenommene Melodie ist von vier Solo-
-               <lb facs="#facs_3_region_1784437438181_344_tl_41" n="N038"/>Violinen mit Sordinen, einer Flöte und tremolirenden Violen
-            </p>
-            <cb n="10"/>
-            <p>
-               <lb facs="#facs_3_region_1784437442564_347_tl_1" n="N001"/>begleitet; ein wahrhaft seraphischer Klang. Das „Agnus Dei“
-               <lb facs="#facs_3_region_1784437442564_347_tl_2" n="N002"/>(in welchem wir wieder der Zusammenstellung von Flöten
-               <lb facs="#facs_3_region_1784437442564_347_tl_3" n="N003"/>und Posaunen begegnen) führt zur Wiederkehr des „Requiem
-               <lb facs="#facs_3_region_1784437442564_347_tl_4" n="N004"/>aeternam“, das nun auf Arpeggien der Saiten-Instrumente
-               <lb facs="#facs_3_region_1784437442564_347_tl_5" n="N005"/>still und beruhigt ausklingt.
-               <lb facs="#facs_3_region_1784437442564_347_tl_6" n="N006"/>Zu <rs type="person">Berlioz</rs>' Lebzeiten ist sein <rs type="bibl">Requiem</rs> in <rs type="place">Paris</rs> nur
-               <lb facs="#facs_3_region_1784437442564_347_tl_7" n="N007"/>viermal zur Aufführung gelangt und hat, wie damals fast
-               <lb facs="#facs_3_region_1784437442564_347_tl_8" n="N008"/>alle seine Werke, mehr Befremden als Bewunderung erregt.
-               <lb facs="#facs_3_region_1784437442564_347_tl_9" n="N009"/>Als später die von dem <rs type="place">deutsch</rs>-<rs type="place">französisch</rs>en Kriege mächtig
-               <lb facs="#facs_3_region_1784437442564_347_tl_10" n="N010"/>aufgerüttelte nationale Begeisterung auch eine plötzliche Wen¬
-               <lb facs="#facs_3_region_1784437442564_347_tl_11" n="N011"/>dung des <rs type="place">französisch</rs>en Geschmackes zu Gunsten <rs type="person">Berlioz</rs> be¬
-               <lb facs="#facs_3_region_1784437442564_347_tl_12" n="N012"/>wirkte, suchte man sein „<rs type="bibl">Requiem</rs>“ wieder hervor. Ein <rs type="place" continued="true">Pa¬</rs>
-               <lb facs="#facs_3_region_1784437442564_347_tl_13" n="N013"/>
-               <rs type="place" continued="true">ris</rs>er Kritiker versichert, daß am 17. März <date>1878</date>, dem Tage
-               <lb facs="#facs_3_region_1784437442564_347_tl_14" n="N014"/>der Wiederaufführung dieses halbverschollenen Werkes, kaum
-               <lb facs="#facs_3_region_1784437442564_347_tl_15" n="N015"/>fünfzig Personen in <rs type="place">Paris</rs> dasselbe gekannt haben. Desto
-               <lb facs="#facs_3_region_1784437442564_347_tl_16" n="N016"/>gewaltiger wirkte es nun. Die namhaftesten <rs type="place">Paris</rs>er Kritiker,
-               <lb facs="#facs_3_region_1784437442564_347_tl_17" n="N017"/>
-               <rs type="person">Fouque</rs>, E. <rs type="person">Reyer</rs>, Ad. <rs type="person">Jullien</rs>, stimmen überein in ihrer
-               <lb facs="#facs_3_region_1784437442564_347_tl_18" n="N018"/>Schilderung des unerhörten Erfolges dieser Aufführung. Bei
-               <lb facs="#facs_3_region_1784437442564_347_tl_19" n="N019"/>dem Posaunenrufe des „Tuba mirum“ sprang das Publicum
-               <lb facs="#facs_3_region_1784437442564_347_tl_20" n="N020"/>von den Sitzen auf und schrie, seiner nicht mächtig, vor Auf¬
-               <lb facs="#facs_3_region_1784437442564_347_tl_21" n="N021"/>regung und Enthusiasmus so laut, daß die Musiker abbrechen
-               <lb facs="#facs_3_region_1784437442564_347_tl_22" n="N022"/>und das Stück von vorne wieder anfangen mußten. Daß
-               <lb facs="#facs_3_region_1784437442564_347_tl_23" n="N023"/>diese revoltirende Wirkung sich bei den späteren Aufführungen
-               <lb facs="#facs_3_region_1784437442564_347_tl_24" n="N024"/>nicht wiederholte, beweist übrigens, wie schnell sich das Ohr
-               <lb facs="#facs_3_region_1784437442564_347_tl_25" n="N025"/>an solche Massen-Effecte gewöhnt und dafür abstumpft. Seit¬
-               <lb facs="#facs_3_region_1784437442564_347_tl_26" n="N026"/>her wird <rs type="person">Berlioz</rs>' <rs type="bibl">Requiem</rs> alljährlich vier- bis fünfmal in
-               <lb facs="#facs_3_region_1784437442564_347_tl_27" n="N027"/>den größeren <rs type="place">Paris</rs>er Concerten aufgeführt. Wir können der
-               <lb facs="#facs_3_region_1784437442564_347_tl_28" n="N028"/>Gesellschaft der Musikfreunde nur dankbar sein, daß sie
-               <lb facs="#facs_3_region_1784437442564_347_tl_29" n="N029"/>diese merkwürdige Composition, die schon durch ihre starke
-               <lb facs="#facs_3_region_1784437442564_347_tl_30" n="N030"/>Besetzung ungewöhnliche Mühe und Kosten verursacht, dem
-               <lb facs="#facs_3_region_1784437442564_347_tl_31" n="N031"/>
-               <rs type="place">Wien</rs>er Publicum vorführt, und zwar, wie es sich geziemt,
-               <lb facs="#facs_3_region_1784437442564_347_tl_32" n="N032"/>in der Charwoche und zur Abendstunde. Die Generalprobe,
-               <lb facs="#facs_3_region_1784437442564_347_tl_33" n="N033"/>der wir eben beigewohnt, hat uns eine lebhafte Vorstellung
-               <lb facs="#facs_3_region_1784437442564_347_tl_34" n="N034"/>von den außerordentlichen Schwierigkeiten dieser Production
-               <lb facs="#facs_3_region_1784437442564_347_tl_35" n="N035"/>verschafft, zugleich aber auch die Beruhigung, daß die An¬
-               <lb facs="#facs_3_region_1784437442564_347_tl_36" n="N036"/>strengungen des unermüdlichen Dirigenten W. <hi rendition="#em">
-                  <rs type="person">Gericke</rs>
-               </hi>
-               <lb facs="#facs_3_region_1784437442564_347_tl_37" n="N037"/>keine vergeblichen sein werden.
+            <p prev="true">
+         <lb facs="#facs_3_region_1784437442564_347_tl_1" n="N001"/>begleitet; ein wahrhaft seraphischer Klang. Das „Agnus Dei“
+         <lb facs="#facs_3_region_1784437442564_347_tl_2" n="N002"/>(in welchem wir wieder der Zusammenstellung von Flöten
+         <lb facs="#facs_3_region_1784437442564_347_tl_3" n="N003"/>und Posaunen begegnen) führt zur Wiederkehr des „Requiem
+         <lb facs="#facs_3_region_1784437442564_347_tl_4" n="N004"/>aeternam“, das nun auf Arpeggien der Saiten-Instrumente
+         <lb facs="#facs_3_region_1784437442564_347_tl_5" n="N005"/>still und beruhigt ausklingt.
+            </p><p>
+         <lb facs="#facs_3_region_1784437442564_347_tl_6" n="N006"/>Zu <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’ Lebzeiten ist sein <rs type="bibl" ref="#hsl_work_id_572">Requiem</rs> in <rs type="place" ref="#hsl_place_id_44">Paris</rs> nur
+         <lb facs="#facs_3_region_1784437442564_347_tl_7" n="N007"/>viermal zur Aufführung gelangt und hat, wie damals fast
+         <lb facs="#facs_3_region_1784437442564_347_tl_8" n="N008"/>alle seine Werke, mehr Befremden als Bewunderung erregt.
+         <lb facs="#facs_3_region_1784437442564_347_tl_9" n="N009"/>Als später die von dem <rs type="place" ref="#hsl_place_id_14">deutsch</rs>-<rs type="place" ref="#hsl_place_id_21">französisch</rs>en Kriege mächtig
+         <lb facs="#facs_3_region_1784437442564_347_tl_10" n="N010"/>aufgerüttelte nationale Begeisterung auch eine plötzliche Wen
+         <lb facs="#facs_3_region_1784437442564_347_tl_11" n="N011" break="no"/>dung des <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Geschmackes zu Gunsten <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> be
+         <lb facs="#facs_3_region_1784437442564_347_tl_12" n="N012" break="no"/>wirkte, suchte man sein „<rs type="bibl" ref="#hsl_work_id_572">Requiem</rs>“ wieder hervor. Ein <rs type="place" ref="#hsl_place_id_44">Pa
+         <lb facs="#facs_3_region_1784437442564_347_tl_13" n="N013" break="no"/>ris</rs>er Kritiker versichert, daß am 17. März <date>1878</date>, dem Tage
+         <lb facs="#facs_3_region_1784437442564_347_tl_14" n="N014"/>der Wiederaufführung dieses halbverschollenen Werkes, kaum
+         <lb facs="#facs_3_region_1784437442564_347_tl_15" n="N015"/>fünfzig Personen in <rs type="place" ref="#hsl_place_id_44">Paris</rs> dasselbe gekannt haben. Desto
+         <lb facs="#facs_3_region_1784437442564_347_tl_16" n="N016"/>gewaltiger wirkte es nun. Die namhaftesten <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Kritiker,
+         <lb facs="#facs_3_region_1784437442564_347_tl_17" n="N017"/><rs type="person" ref="#hsl_person_id_1870">Fouque</rs>, E. <rs type="person" ref="#hsl_person_id_1312">Reyer</rs>, Ad. <rs type="person" ref="#hsl_person_id_2898">Jullien</rs>, stimmen überein in ihrer
+         <lb facs="#facs_3_region_1784437442564_347_tl_18" n="N018"/>Schilderung des unerhörten Erfolges dieser Aufführung. Bei
+         <lb facs="#facs_3_region_1784437442564_347_tl_19" n="N019"/>dem Posaunenrufe des „Tuba mirum“ sprang das Publicum
+         <lb facs="#facs_3_region_1784437442564_347_tl_20" n="N020"/>von den Sitzen auf und schrie, seiner nicht mächtig, vor Auf
+         <lb facs="#facs_3_region_1784437442564_347_tl_21" n="N021" break="no"/>regung und Enthusiasmus so laut, daß die Musiker abbrechen
+         <lb facs="#facs_3_region_1784437442564_347_tl_22" n="N022"/>und das Stück von vorne wieder anfangen mußten. Daß
+         <lb facs="#facs_3_region_1784437442564_347_tl_23" n="N023"/>diese revoltirende Wirkung sich bei den späteren Aufführungen
+         <lb facs="#facs_3_region_1784437442564_347_tl_24" n="N024"/>nicht wiederholte, beweist übrigens, wie schnell sich das Ohr
+         <lb facs="#facs_3_region_1784437442564_347_tl_25" n="N025"/>an solche Massen-Effecte gewöhnt und dafür abstumpft. Seit
+         <lb facs="#facs_3_region_1784437442564_347_tl_26" n="N026" break="no"/>her wird <rs type="person" ref="#hsl_person_id_28">Berlioz</rs>’ <rs type="bibl" ref="#hsl_work_id_572">Requiem</rs> alljährlich vier- bis fünfmal in
+         <lb facs="#facs_3_region_1784437442564_347_tl_27" n="N027"/>den größeren <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Concerten aufgeführt. Wir können der
+         <lb facs="#facs_3_region_1784437442564_347_tl_28" n="N028"/>Gesellschaft der Musikfreunde nur dankbar sein, daß sie
+         <lb facs="#facs_3_region_1784437442564_347_tl_29" n="N029"/>diese merkwürdige Composition, die schon durch ihre starke
+         <lb facs="#facs_3_region_1784437442564_347_tl_30" n="N030"/>Besetzung ungewöhnliche Mühe und Kosten verursacht, dem
+         <lb facs="#facs_3_region_1784437442564_347_tl_31" n="N031"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Publicum vorführt, und zwar, wie es sich geziemt,
+         <lb facs="#facs_3_region_1784437442564_347_tl_32" n="N032"/>in der Charwoche und zur Abendstunde. Die Generalprobe,
+         <lb facs="#facs_3_region_1784437442564_347_tl_33" n="N033"/>der wir eben beigewohnt, hat uns eine lebhafte Vorstellung
+         <lb facs="#facs_3_region_1784437442564_347_tl_34" n="N034"/>von den außerordentlichen Schwierigkeiten dieser Production
+         <lb facs="#facs_3_region_1784437442564_347_tl_35" n="N035"/>verschafft, zugleich aber auch die Beruhigung, daß die An
+         <lb facs="#facs_3_region_1784437442564_347_tl_36" n="N036" break="no"/>strengungen des unermüdlichen Dirigenten W. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3517">Gericke</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1784437442564_347_tl_37" n="N037"/>keine vergeblichen sein werden.
             </p>
          </div>
       </body>
