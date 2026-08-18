@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 6620. Wien, Donnerstag, den 1. Februar 1883</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,29 +70,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 6620. Wien, Donnerstag, den 1. Februar 1883</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1883-02-01">01.02.1883</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
-         </sourceDesc>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18830201"/>
+            </bibl></sourceDesc>
       </fileDesc>
       <profileDesc>
       </profileDesc>
@@ -108,9 +105,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-08-02">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-08-08">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1224,455 +1223,374 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1784437036283_99_tl_1" n="N001"/><head type="h1"><rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s „<rs type="bibl" ref="#hsl_work_id_2976">Tribut von Zamora</rs>“.</head>
+            <lb facs="#facs_1_region_1784437036283_99_tl_2" n="N002"/><head type="h2">(Erste Aufführung im Hofoperntheater am 30. Januar <date>1883</date>.)</head>
             <p>
-               <lb facs="#facs_1_line_1784608963488_17" n="N001"/>Nr. 6620. <rs type="place">Wien</rs>, Donnerstag, den 1. Februar 1883
-            </p>
+         <lb facs="#facs_1_region_1784437036283_99_tl_3" n="N003"/>Ed. H. In unseren Tagen ist fast jede Opern-Pre
+         <lb facs="#facs_1_region_1784437036283_99_tl_4" n="N004" break="no"/>mière ein Kind der Verlegenheit, das seine Anmeldung:
+         <lb facs="#facs_1_region_1784437036283_99_tl_5" n="N005"/>„Zum erstenmale“ wie eine verschämte Bitte um Entschul
+         <lb facs="#facs_1_region_1784437036283_99_tl_6" n="N006" break="no"/>digung vorbringt. Wo Bestes mangelt, wählt man das An
+         <lb facs="#facs_1_region_1784437036283_99_tl_7" n="N007" break="no"/>ständigste. Das gilt auch von <rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s neuester, bisher nur
+         <lb facs="#facs_1_region_1784437036283_99_tl_8" n="N008"/>in <rs type="place" ref="#hsl_place_id_44">Paris</rs> (<date>1882</date>) gegebener Oper „<rs type="bibl" ref="#hsl_work_id_2976">Der Tribut von Za
+         <lb facs="#facs_1_region_1784437036283_99_tl_9" n="N009" break="no"/>mora</rs>“. Die Armuth wächst bedrohlich bei allen drei musika
+         <lb facs="#facs_1_region_1784437036283_99_tl_10" n="N010" break="no"/>lischen Nationen. Was <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> betrifft, so hat kürzlich
+         <lb facs="#facs_1_region_1784437036283_99_tl_11" n="N011"/>eine genaue Durchschnittsberechnung ergeben, daß jährlich
+         <lb facs="#facs_1_region_1784437036283_99_tl_12" n="N012"/><hi rendition="#em">zehn</hi> neue original-<rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Opern zur ersten Aufführung
+         <lb facs="#facs_1_region_1784437036283_99_tl_13" n="N013"/>gelangen, somit in den letzten zwanzig Jahren nicht weniger
+         <lb facs="#facs_1_region_1784437036283_99_tl_14" n="N014"/>als <hi rendition="#em">zweihundert</hi><space quantity="1" unit="char"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Opern-Novitäten die Bühne
+         <lb facs="#facs_1_region_1784437036283_99_tl_15" n="N015"/>beschritten haben. Wie viel von diesen zweihundert sind noch
+         <lb facs="#facs_1_region_1784437036283_99_tl_16" n="N016"/>am Leben? Außer den <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’schen kaum mehr als vier
+         <lb facs="#facs_1_region_1784437036283_99_tl_17" n="N017"/>oder fünf. Und doch haben seinerzeit wohlwollend patrio
+         <lb facs="#facs_1_region_1784437036283_99_tl_18" n="N018" break="no"/>tische Berichte fast von jeder der übrigen Verschollenen ge
+         <lb facs="#facs_1_region_1784437036283_99_tl_19" n="N019" break="no"/>meldet, daß sie einen entschiedenen Erfolg errang und dem
+         <lb facs="#facs_1_region_1784437036283_99_tl_20" n="N020"/>anwesenden Componisten mehr Hervorrufe eintrug, als sie selbst
+         <lb facs="#facs_1_region_1784437036283_99_tl_21" n="N021"/>Wiederholungen erlebte. Dabei müssen wir uns noch glücklich
+         <lb facs="#facs_1_region_1784437036283_99_tl_22" n="N022"/>schätzen, unsere Vorliebe für <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Opern allmälig ab
+         <lb facs="#facs_1_region_1784437036283_99_tl_23" n="N023" break="no"/>gelegt zu haben; denn <rs type="place" ref="#hsl_place_id_28">Italien</rs>, das uns bis tief in die Vier
+         <lb facs="#facs_1_region_1784437036283_99_tl_24" n="N024" break="no"/>ziger Jahre so reichlich versorgte, ist jetzt selber herabge
+         <lb facs="#facs_1_region_1784437036283_99_tl_25" n="N025" break="no"/>kommen und fristet sein Opern-Repertoire zur Hälfte mit
+         <lb facs="#facs_1_region_1784437036283_99_tl_26" n="N026"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en und <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Darlehen. Es erinnert dieser
+         <lb facs="#facs_1_region_1784437036283_99_tl_27" n="N027"/>Zustand an den ironischen Ausruf: „<hi rendition="#em">Zu wem?</hi>“
+         <lb facs="#facs_1_region_1784437036283_99_tl_28" n="N028"/>mit dem ein witziger <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Bankier die Klage
+         <lb facs="#facs_1_region_1784437036283_99_tl_29" n="N029"/>eines Geschäftsfreundes beantwortete, sie würden, wenn
+         <lb facs="#facs_1_region_1784437036283_99_tl_30" n="N030"/>es so fortgeht, bald Alle betteln gehen müssen.
+         <lb facs="#facs_1_region_1784437036283_99_tl_31" n="N031"/>Zu wem? Denn auch bei den Franzosen ist nichts Rechtes
+         <lb facs="#facs_1_region_1784437036283_99_tl_32" n="N032"/>mehr zu holen für unser Opern-Repertoire. In Georges
+         <lb facs="#facs_1_region_1784437036283_99_tl_33" n="N033"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1298">Bizet</rs></hi> ist ihnen das zukunftsreichste junge Talent vorzeitig
+         <lb facs="#facs_1_region_1784437036283_99_tl_34" n="N034"/>gestorben, die Musik von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1302">Massenet</rs></hi> hat keine Jugend und
+         <lb facs="#facs_1_region_1784437036283_99_tl_35" n="N035"/>die berühmten <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Dioscuren Ambroise <hi rendition="#em"><rs type="person" ref="#hsl_person_id_305">Thomas</rs></hi> und<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1784437036283_99_tl_1" n="N001"/>
-               <rs type="person">Gounod</rs>'s „<rs type="bibl">Tribut von Zamora</rs>“.
-               <lb facs="#facs_1_region_1784437036283_99_tl_2" n="N002"/>(Erste Aufführung im Hofoperntheater am 30. Januar <date>1883</date>.)
-               <lb facs="#facs_1_region_1784437036283_99_tl_3" n="N003"/>Ed. H. In unseren Tagen ist fast jede Opern-Pre¬
-               <lb facs="#facs_1_region_1784437036283_99_tl_4" n="N004"/>mière ein Kind der Verlegenheit, das seine Anmeldung:
-               <lb facs="#facs_1_region_1784437036283_99_tl_5" n="N005"/>„Zum erstenmale“ wie eine verschämte Bitte um Entschul¬
-               <lb facs="#facs_1_region_1784437036283_99_tl_6" n="N006"/>digung vorbringt. Wo Bestes mangelt, wählt man das An¬
-               <lb facs="#facs_1_region_1784437036283_99_tl_7" n="N007"/>ständigste. Das gilt auch von <rs type="person">Gounod</rs>'s neuester, bisher nur
-               <lb facs="#facs_1_region_1784437036283_99_tl_8" n="N008"/>in <rs type="place">Paris</rs> (<date>1882</date>) gegebener Oper „<rs type="bibl">Der Tribut von Za¬</rs>
-               <lb facs="#facs_1_region_1784437036283_99_tl_9" n="N009"/>
-               <rs type="bibl">mora</rs>“. Die Armuth wächst bedrohlich bei allen drei musika¬
-               <lb facs="#facs_1_region_1784437036283_99_tl_10" n="N010"/>lischen Nationen. Was <rs type="place">Deutschland</rs> betrifft, so hat kürzlich
-               <lb facs="#facs_1_region_1784437036283_99_tl_11" n="N011"/>eine genaue Durchschnittsberechnung ergeben, daß jährlich
-               <lb facs="#facs_1_region_1784437036283_99_tl_12" n="N012"/>
-               <hi rendition="#em">zehn</hi> neue original-<rs type="place">deutsch</rs>e Opern zur ersten Aufführung
-               <lb facs="#facs_1_region_1784437036283_99_tl_13" n="N013"/>gelangen, somit in den letzten zwanzig Jahren nicht weniger
-               <lb facs="#facs_1_region_1784437036283_99_tl_14" n="N014"/>als <hi rendition="#em">zweihundert</hi>
-               <rs type="place">deutsch</rs>e Opern-Novitäten die Bühne
-               <lb facs="#facs_1_region_1784437036283_99_tl_15" n="N015"/>beschritten haben. Wie viel von diesen zweihundert sind noch
-               <lb facs="#facs_1_region_1784437036283_99_tl_16" n="N016"/>am Leben? Außer den <rs type="person">Wagner</rs>'schen kaum mehr als vier
-               <lb facs="#facs_1_region_1784437036283_99_tl_17" n="N017"/>oder fünf. Und doch haben seinerzeit wohlwollend patrio¬
-               <lb facs="#facs_1_region_1784437036283_99_tl_18" n="N018"/>tische Berichte fast von jeder der übrigen Verschollenen ge¬
-               <lb facs="#facs_1_region_1784437036283_99_tl_19" n="N019"/>meldet, daß sie einen entschiedenen Erfolg errang und dem
-               <lb facs="#facs_1_region_1784437036283_99_tl_20" n="N020"/>anwesenden Componisten mehr Hervorrufe eintrug, als sie selbst
-               <lb facs="#facs_1_region_1784437036283_99_tl_21" n="N021"/>Wiederholungen erlebte. Dabei müssen wir uns noch glücklich
-               <lb facs="#facs_1_region_1784437036283_99_tl_22" n="N022"/>schätzen, unsere Vorliebe für <rs type="place">italienisch</rs>e Opern allmälig ab¬
-               <lb facs="#facs_1_region_1784437036283_99_tl_23" n="N023"/>gelegt zu haben; denn <rs type="place">Italien</rs>, das uns bis tief in die Vier¬
-               <lb facs="#facs_1_region_1784437036283_99_tl_24" n="N024"/>ziger Jahre so reichlich versorgte, ist jetzt selber herabge¬
-               <lb facs="#facs_1_region_1784437036283_99_tl_25" n="N025"/>kommen und fristet sein Opern-Repertoire zur Hälfte mit
-               <lb facs="#facs_1_region_1784437036283_99_tl_26" n="N026"/>
-               <rs type="place">deutsch</rs>en und <rs type="place">französisch</rs>en Darlehen. Es erinnert dieser
-               <lb facs="#facs_1_region_1784437036283_99_tl_27" n="N027"/>Zustand an den ironischen Ausruf: „<hi rendition="#em">Zu wem?</hi>“
-               <lb facs="#facs_1_region_1784437036283_99_tl_28" n="N028"/>mit dem ein witziger <rs type="place">Wien</rs>er Bankier die Klage
-               <lb facs="#facs_1_region_1784437036283_99_tl_29" n="N029"/>eines Geschäftsfreundes beantwortete, sie würden, wenn
-               <lb facs="#facs_1_region_1784437036283_99_tl_30" n="N030"/>es so fortgeht, bald Alle betteln gehen müssen.
-               <lb facs="#facs_1_region_1784437036283_99_tl_31" n="N031"/>Zu wem? Denn auch bei den Franzosen ist nichts Rechtes
-               <lb facs="#facs_1_region_1784437036283_99_tl_32" n="N032"/>mehr zu holen für unser Opern-Repertoire. In Georges
-               <lb facs="#facs_1_region_1784437036283_99_tl_33" n="N033"/>
-               <hi rendition="#em">
-                  <rs type="person">Bizet</rs>
-               </hi> ist ihnen das zukunftsreichste junge Talent vorzeitig
-               <lb facs="#facs_1_region_1784437036283_99_tl_34" n="N034"/>gestorben, die Musik von <hi rendition="#em">
-                  <rs type="person">Massenet</rs>
-               </hi> hat keine Jugend und
-               <lb facs="#facs_1_region_1784437036283_99_tl_35" n="N035"/>die berühmten <rs type="place">Paris</rs>er Dioscuren Ambroise <hi rendition="#em">
-                  <rs type="person">Thomas</rs>
-               </hi> und
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1784437040633_102_tl_1" n="N001"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs></hi> sind alt geworden. Ach, es ist ein traurig Ding um das
+         <lb facs="#facs_1_region_1784437040633_102_tl_2" n="N002"/>Altwerden, wenn der Ehrgeiz noch jugendlich fiebert und trotz
+         <lb facs="#facs_1_region_1784437040633_102_tl_3" n="N003" break="no"/>dem der erkalteten Phantasie das Feuer von ehedem nicht
+         <lb facs="#facs_1_region_1784437040633_102_tl_4" n="N004"/>mehr einzuhauchen vermag: „Man muß keine alte Tänzerin
+         <lb facs="#facs_1_region_1784437040633_102_tl_5" n="N005"/>werden wollen,“ pflegte <rs type="person" ref="#hsl_person_id_241">Rossini</rs> zu sagen, „— mich bringt
+         <lb facs="#facs_1_region_1784437040633_102_tl_6" n="N006"/>man nicht mehr zum Tanzen.“ Es war ein bequemes Alter,
+         <lb facs="#facs_1_region_1784437040633_102_tl_7" n="N007"/>ein faules, wenn man will, aber dem feiernden <rs type="person" ref="#hsl_person_id_241">Rossini</rs> mußte
+         <lb facs="#facs_1_region_1784437040633_102_tl_8" n="N008"/>der oft gehörte Ausruf: „Wie schade, daß er keine Oper mehr
+         <lb facs="#facs_1_region_1784437040633_102_tl_9" n="N009"/>schreibt!“ noch immer lieblicher klingen, als heute seinen Col
+         <lb facs="#facs_1_region_1784437040633_102_tl_10" n="N010" break="no"/>legen in <rs type="place" ref="#hsl_place_id_44">Paris</rs> das ehrerbietige Gemurmel: „Schade, daß sie
+         <lb facs="#facs_1_region_1784437040633_102_tl_11" n="N011"/>noch immer componiren.“ „<rs type="bibl" ref="#hsl_work_id_782">Francesca di Rimini</rs>“, die neueste
+         <lb facs="#facs_1_region_1784437040633_102_tl_12" n="N012"/>Oper des liebenswürdigen Componisten der <rs type="bibl" ref="#hsl_work_id_894">Mignon</rs>, verlockt
+         <lb facs="#facs_1_region_1784437040633_102_tl_13" n="N013"/>wol kaum einen <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Theater-Director, der zwischen den
+         <lb facs="#facs_1_region_1784437040633_102_tl_14" n="N014"/>Zeilen der <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Kritiken oder gar in der Partitur selbst
+         <lb facs="#facs_1_region_1784437040633_102_tl_15" n="N015"/>zu lesen versteht. Neben dem grauen Mumienpomp dieser
+         <lb facs="#facs_1_region_1784437040633_102_tl_16" n="N016"/>„<rs type="bibl" ref="#hsl_work_id_782">Francesca</rs>“ zeigt die letzte Oper <hi rendition="#em"><rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s</hi> noch immer
+         <lb facs="#facs_1_region_1784437040633_102_tl_17" n="N017"/>einen recht frischen Teint und elastischen Gang. Man könnte
+         <lb facs="#facs_1_region_1784437040633_102_tl_18" n="N018"/>in den <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Kritiken zwar auch zwischen den Zeilen lesen,
+         <lb facs="#facs_1_region_1784437040633_102_tl_19" n="N019"/>es sei der Erfolg des „<rs type="bibl" ref="#hsl_work_id_2976">Tributs von Zamora</rs>“ eigentlich
+         <lb facs="#facs_1_region_1784437040633_102_tl_20" n="N020"/>der Sängerin <hi rendition="#em"><rs type="person" ref="#hsl_person_id_148">Krauß</rs></hi> zu verdanken. Das durfte <rs type="place" ref="#hsl_place_id_55">Wien</rs> nicht
+         <lb facs="#facs_1_region_1784437040633_102_tl_21" n="N021"/>abschrecken, vielmehr müssen wir in den Zeilen und recht
+         <lb facs="#facs_1_region_1784437040633_102_tl_22" n="N022"/>groß gedruckt verkünden, daß hier die Leistung der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_820">Lucca</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784437040633_102_tl_23" n="N023"/>einen noch größeren Erfolg garantirte und auch erreicht hat. Es
+         <lb facs="#facs_1_region_1784437040633_102_tl_24" n="N024"/>war, wie <rs type="person" ref="#hsl_person_id_202">Offenbach</rs> einmal in einem rebellischen Sprachanfalle
+         <lb facs="#facs_1_region_1784437040633_102_tl_25" n="N025"/>sich ausdrückte, „der größte Erfolg, der überhaupt zu sein ist“.
+            </p><p>
+         <lb facs="#facs_1_region_1784437040633_102_tl_26" n="N026"/>So viele Opern <rs type="person" ref="#hsl_person_id_102">Gounod</rs> auch componirt hat, er heißt
+         <lb facs="#facs_1_region_1784437040633_102_tl_27" n="N027"/>noch immer nur „der Componist des <rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“. Was er vor
+         <lb facs="#facs_1_region_1784437040633_102_tl_28" n="N028" break="no"/>her geschrieben („<rs type="bibl" ref="#hsl_work_id_1222">Sappho</rs>“, „<rs type="bibl" ref="#hsl_work_id_1224">Die blutende Nonne</rs>“, „<rs type="bibl" ref="#hsl_work_id_1698">Die
+         <lb facs="#facs_1_region_1784437040633_102_tl_29" n="N029"/>Königin von Saba</rs>“) und was dem <rs type="bibl" ref="#hsl_work_id_199">Faust</rs> nachfolgte
+         <lb facs="#facs_1_region_1784437040633_102_tl_30" n="N030"/>(„<rs type="bibl" ref="#hsl_work_id_2091">Mireille</rs>“, „<rs type="bibl" ref="#hsl_work_id_2974">Cinq-Mars</rs>“, „<rs type="bibl" ref="#hsl_work_id_1220">Polyeucte</rs>“) ist spurlos ver
+         <lb facs="#facs_1_region_1784437040633_102_tl_31" n="N031" break="no"/>schollen. Der Spruch des <rs type="bibl" ref="#hsl_work_id_236">Freischütz</rs>en kehrt sich hier um:
+         <lb facs="#facs_1_region_1784437040633_102_tl_32" n="N032"/>sechse äffen. „<rs type="bibl" ref="#hsl_work_id_56">Romeo und Julie</rs>“ zählen wir nicht zu diesem
+         <lb facs="#facs_1_region_1784437040633_102_tl_33" n="N033"/>unglücklichen Halbdutzend. Zwar hat das Sujet den Com
+         <lb facs="#facs_1_region_1784437040633_102_tl_34" n="N034" break="no"/>ponisten in ein Meer von süßer Monotonie versenkt, auf
+         <lb facs="#facs_1_region_1784437040633_102_tl_35" n="N035"/>dessen ruhigem Spiegel die ganze Oper wie ein langes Liebes
+         <lb facs="#facs_1_region_1784437040633_102_tl_36" n="N036" break="no"/>duett erscheint. Allein <rs type="person" ref="#hsl_person_id_102">Gounod</rs> war noch mit seiner vollen
+         <lb facs="#facs_1_region_1784437040633_102_tl_37" n="N037"/>Begeisterung bei dieser Schöpfung und sein Talent stand auf
+         <lb facs="#facs_1_region_1784437040633_102_tl_38" n="N038"/>solchem Gebiete noch nicht weit zurück hinter dem Enthusias</p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1784437040633_102_tl_1" n="N001"/>
-               <hi rendition="#em">
-                  <rs type="person">Gounod</rs>
-               </hi> sind alt geworden. Ach, es ist ein traurig Ding um das
-               <lb facs="#facs_1_region_1784437040633_102_tl_2" n="N002"/>Altwerden, wenn der Ehrgeiz noch jugendlich fiebert und trotz¬
-               <lb facs="#facs_1_region_1784437040633_102_tl_3" n="N003"/>dem der erkalteten Phantasie das Feuer von ehedem nicht
-               <lb facs="#facs_1_region_1784437040633_102_tl_4" n="N004"/>mehr einzuhauchen vermag: „Man muß keine alte Tänzerin
-               <lb facs="#facs_1_region_1784437040633_102_tl_5" n="N005"/>werden wollen,“ pflegte <rs type="person">Rossini</rs> zu sagen, „— mich bringt
-               <lb facs="#facs_1_region_1784437040633_102_tl_6" n="N006"/>man nicht mehr zum Tanzen.“ Es war ein bequemes Alter,
-               <lb facs="#facs_1_region_1784437040633_102_tl_7" n="N007"/>ein faules, wenn man will, aber dem feiernden <rs type="person">Rossini</rs> mußte
-               <lb facs="#facs_1_region_1784437040633_102_tl_8" n="N008"/>der oft gehörte Ausruf: „Wie schade, daß er keine Oper mehr
-               <lb facs="#facs_1_region_1784437040633_102_tl_9" n="N009"/>schreibt!“ noch immer lieblicher klingen, als heute seinen Col¬
-               <lb facs="#facs_1_region_1784437040633_102_tl_10" n="N010"/>legen in <rs type="place">Paris</rs> das ehrerbietige Gemurmel: „Schade, daß sie
-               <lb facs="#facs_1_region_1784437040633_102_tl_11" n="N011"/>noch immer componiren.“ „<rs type="bibl">Francesca di Rimini</rs>“, die neueste
-               <lb facs="#facs_1_region_1784437040633_102_tl_12" n="N012"/>Oper des liebenswürdigen Componisten der <rs type="bibl">Mignon</rs>, verlockt
-               <lb facs="#facs_1_region_1784437040633_102_tl_13" n="N013"/>wol kaum einen <rs type="place">deutsch</rs>en Theater-Director, der zwischen den
-               <lb facs="#facs_1_region_1784437040633_102_tl_14" n="N014"/>Zeilen der <rs type="place">Paris</rs>er Kritiken oder gar in der Partitur selbst
-               <lb facs="#facs_1_region_1784437040633_102_tl_15" n="N015"/>zu lesen versteht. Neben dem grauen Mumienpomp dieser
-               <lb facs="#facs_1_region_1784437040633_102_tl_16" n="N016"/>„<rs type="bibl">Francesca</rs>“ zeigt die letzte Oper <hi rendition="#em">
-                  <rs type="person">Gounod</rs>'s</hi> noch immer
-               <lb facs="#facs_1_region_1784437040633_102_tl_17" n="N017"/>einen recht frischen Teint und elastischen Gang. Man könnte
-               <lb facs="#facs_1_region_1784437040633_102_tl_18" n="N018"/>in den <rs type="place">Paris</rs>er Kritiken zwar auch zwischen den Zeilen lesen,
-               <lb facs="#facs_1_region_1784437040633_102_tl_19" n="N019"/>es sei der Erfolg des „<rs type="bibl">Tributs von Zamora</rs>“ eigentlich
-               <lb facs="#facs_1_region_1784437040633_102_tl_20" n="N020"/>der Sängerin <hi rendition="#em">
-                  <rs type="person">Krauß</rs>
-               </hi> zu verdanken. Das durfte <rs type="place">Wien</rs> nicht
-               <lb facs="#facs_1_region_1784437040633_102_tl_21" n="N021"/>abschrecken, vielmehr müssen wir in den Zeilen und recht
-               <lb facs="#facs_1_region_1784437040633_102_tl_22" n="N022"/>groß gedruckt verkünden, daß hier die Leistung der <hi rendition="#em">
-                  <rs type="person">Lucca</rs>
-               </hi>
-               <lb facs="#facs_1_region_1784437040633_102_tl_23" n="N023"/>einen noch größeren Erfolg garantirte und auch erreicht hat. Es
-               <lb facs="#facs_1_region_1784437040633_102_tl_24" n="N024"/>war, wie <rs type="person">Offenbach</rs> einmal in einem rebellischen Sprachanfalle
-               <lb facs="#facs_1_region_1784437040633_102_tl_25" n="N025"/>sich ausdrückte, „der größte Erfolg, der überhaupt zu sein ist“.
-               <lb facs="#facs_1_region_1784437040633_102_tl_26" n="N026"/>So viele Opern <rs type="person">Gounod</rs> auch componirt hat, er heißt
-               <lb facs="#facs_1_region_1784437040633_102_tl_27" n="N027"/>noch immer nur „der Componist des <rs type="bibl">Faust</rs>“. Was er vor¬
-               <lb facs="#facs_1_region_1784437040633_102_tl_28" n="N028"/>her geschrieben („<rs type="bibl">Sappho</rs>“, „<rs type="bibl">Die blutende Nonne</rs>“, „<rs type="bibl">Die</rs>
-               <lb facs="#facs_1_region_1784437040633_102_tl_29" n="N029"/>
-               <rs type="bibl">Königin von Saba</rs>“) und was dem <rs type="bibl">Faust</rs> nachfolgte
-               <lb facs="#facs_1_region_1784437040633_102_tl_30" n="N030"/>(„<rs type="bibl">Mireille</rs>“, „<rs type="bibl">Cinq-Mars</rs>“, „<rs type="bibl">Polyeucte</rs>“) ist spurlos ver¬
-               <lb facs="#facs_1_region_1784437040633_102_tl_31" n="N031"/>schollen. Der Spruch des <rs type="bibl">Freischütz</rs>en kehrt sich hier um:
-               <lb facs="#facs_1_region_1784437040633_102_tl_32" n="N032"/>sechse äffen. „<rs type="bibl">Romeo und Julie</rs>“ zählen wir nicht zu diesem
-               <lb facs="#facs_1_region_1784437040633_102_tl_33" n="N033"/>unglücklichen Halbdutzend. Zwar hat das Sujet den Com¬
-               <lb facs="#facs_1_region_1784437040633_102_tl_34" n="N034"/>ponisten in ein Meer von süßer Monotonie versenkt, auf
-               <lb facs="#facs_1_region_1784437040633_102_tl_35" n="N035"/>dessen ruhigem Spiegel die ganze Oper wie ein langes Liebes¬
-               <lb facs="#facs_1_region_1784437040633_102_tl_36" n="N036"/>duett erscheint. Allein <rs type="person">Gounod</rs> war noch mit seiner vollen
-               <lb facs="#facs_1_region_1784437040633_102_tl_37" n="N037"/>Begeisterung bei dieser Schöpfung und sein Talent stand auf
-               <lb facs="#facs_1_region_1784437040633_102_tl_38" n="N038"/>solchem Gebiete noch nicht weit zurück hinter dem Enthusias¬
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1784437044745_105_tl_1" n="N001"/>mus. Die Gartenscene im zweiten Acte zittert in einem
-               <lb facs="#facs_1_region_1784437044745_105_tl_2" n="N002"/>Dämmerglanz und süßem Duft, wie er in <rs type="place">französisch</rs>er Musik
-               <lb facs="#facs_1_region_1784437044745_105_tl_3" n="N003"/>weder früher noch später vorkommt. Nach dem „<rs type="bibl">Romeo</rs>“
-               <lb facs="#facs_1_region_1784437044745_105_tl_4" n="N004"/>(<date>1867</date>) streckt sich in <rs type="person">Gounod</rs>'s Schaffen eine Pause von
-               <lb facs="#facs_1_region_1784437044745_105_tl_5" n="N005"/>zehn Jahren, und diese zehn Jahre scheinen arg genagt zu
-               <lb facs="#facs_1_region_1784437044745_105_tl_6" n="N006"/>haben an seinem Mark. Eine für die Opéra Comique
-               <lb facs="#facs_1_region_1784437044745_105_tl_7" n="N007"/>geschriebene Conversations-Oper mit tragischem Ausgang:
-               <lb facs="#facs_1_region_1784437044745_105_tl_8" n="N008"/>„<rs type="bibl">Cinq-Mars</rs>“ (<date>1877</date>), war schnell geschrieben und — schnell
-               <lb facs="#facs_1_region_1784437044745_105_tl_9" n="N009"/>verschwunden. Zwei anmuthige Gesangstücke nahmen sich darin
-               <lb facs="#facs_1_region_1784437044745_105_tl_10" n="N010"/>aus wie die rothen Röschen auf den Wangen eines Lungen¬
-               <lb facs="#facs_1_region_1784437044745_105_tl_11" n="N011"/>süchtigen. Nicht einmal das dem berühmten Romane Alfred
-               <lb facs="#facs_1_region_1784437044745_105_tl_12" n="N012"/>de <rs type="person">Vigny</rs>'s entlehnte patriotische Sujet konnte die Oper
-               <lb facs="#facs_1_region_1784437044745_105_tl_13" n="N013"/>retten. Die musikalische Entkräftung des Componisten mußte
-               <lb facs="#facs_1_region_1784437044745_105_tl_14" n="N014"/>noch augenfälliger hervortreten an einem gewaltigen Tra¬
-               <lb facs="#facs_1_region_1784437044745_105_tl_15" n="N015"/>gödienstoffe — den ja <rs type="person">Gounod</rs>'s zartbesaitetes Talent auch
-               <lb facs="#facs_1_region_1784437044745_105_tl_16" n="N016"/>in seiner besten Zeit nicht ausfüllte. Religiöse Schwärmerei
-               <lb facs="#facs_1_region_1784437044745_105_tl_17" n="N017"/>war wieder einmal mit der Gewalt eines Anfalles bei
-               <lb facs="#facs_1_region_1784437044745_105_tl_18" n="N018"/>
-               <rs type="person">Gounod</rs> eingekehrt und hieß ihn christlichen Glaubenseifer
-               <lb facs="#facs_1_region_1784437044745_105_tl_19" n="N019"/>und Märtyrertod in einem musikalischen Drama verherr¬
-               <lb facs="#facs_1_region_1784437044745_105_tl_20" n="N020"/>lichen. „<rs type="bibl">Polyeucte</rs>“ (nach dem <rs type="bibl">Drama</rs>
-               <rs type="person">Corneille</rs>'s) war diese
-               <lb facs="#facs_1_region_1784437044745_105_tl_21" n="N021"/>religiöse Oper (<date>1878</date>), in welcher <rs type="person">Gounod</rs> die Apotheose der
-               <lb facs="#facs_1_region_1784437044745_105_tl_22" n="N022"/>christlichen Selbstverleugnung und Aufopferung mit dem Eifer
-               <lb facs="#facs_1_region_1784437044745_105_tl_23" n="N023"/>eines Apostels betrieb. Leider erprobte die Musik, die ihm
-               <lb facs="#facs_1_region_1784437044745_105_tl_24" n="N024"/>dieser fromme Vorsatz eingab, nur wenig bekehrende Kraft;
-               <lb facs="#facs_1_region_1784437044745_105_tl_25" n="N025"/>der Besuch der Kirchen steigerte sich nicht nach dem „<rs type="bibl">Polyeucte</rs>“,
-               <lb facs="#facs_1_region_1784437044745_105_tl_26" n="N026"/>aber der des Operntheaters ließ nach. <rs type="person">Gounod</rs>'s <rs type="person">Polyeuct</rs>
-               <lb facs="#facs_1_region_1784437044745_105_tl_27" n="N027"/>wäre der richtige Held für Madame <rs type="person">Autheman</rs> in <rs type="person">Daudet</rs>'s
-               <lb facs="#facs_1_region_1784437044745_105_tl_28" n="N028"/>„<rs type="bibl">Evangelistin</rs>“. Glücklicher Gatte einer schönen, edlen Frau,
-               <lb facs="#facs_1_region_1784437044745_105_tl_29" n="N029"/>die ihn innig liebt, verläßt er sie doch und erstickt jede mensch¬
-               <lb facs="#facs_1_region_1784437044745_105_tl_30" n="N030"/>liche Regung in seinem Herzen, um, ohne irgend eine äußere
-               <lb facs="#facs_1_region_1784437044745_105_tl_31" n="N031"/>Nöthigung, Christ zu werden und für den neuen Glauben
-               <lb facs="#facs_1_region_1784437044745_105_tl_32" n="N032"/>den Märtyrertod zu sterben. Das heutige <rs type="place">Frankreich</rs> schien
-               <lb facs="#facs_1_region_1784437044745_105_tl_33" n="N033"/>mit diesem frommen Ungeheuer doch nicht recht sym¬
-               <lb facs="#facs_1_region_1784437044745_105_tl_34" n="N034"/>pathisiren zu können, und die Oper schied wie ihr
-               <lb facs="#facs_1_region_1784437044745_105_tl_35" n="N035"/>Held rasch und christlich aus dieser schnöden Welt.
-               <lb facs="#facs_1_line_1784609435079_313" n="N036"/>So unerwünschter Ausgang den Glaubenseifer <rs type="person">Gounod</rs>'s
-               <lb facs="#facs_1_region_1784437044745_105_tl_38" n="N037"/>doch wieder abgekühlt haben; er ließ eine bereits begonnene
-               <lb facs="#facs_1_region_1784437044745_105_tl_39" n="N038"/>Oper „<rs type="bibl">Abälard</rs>“, in welcher das Licht der wahren Religion
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1784437044745_105_tl_1" n="N001" break="no"/>mus. Die Gartenscene im zweiten Acte zittert in einem
+         <lb facs="#facs_1_region_1784437044745_105_tl_2" n="N002"/>Dämmerglanz und süßem Duft, wie er in <rs type="place" ref="#hsl_place_id_21">französisch</rs>er Musik
+         <lb facs="#facs_1_region_1784437044745_105_tl_3" n="N003"/>weder früher noch später vorkommt. Nach dem „<rs type="bibl" ref="#hsl_work_id_56">Romeo</rs>“
+         <lb facs="#facs_1_region_1784437044745_105_tl_4" n="N004"/>(<date>1867</date>) streckt sich in <rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s Schaffen eine Pause von
+         <lb facs="#facs_1_region_1784437044745_105_tl_5" n="N005"/>zehn Jahren, und diese zehn Jahre scheinen arg genagt zu
+         <lb facs="#facs_1_region_1784437044745_105_tl_6" n="N006"/>haben an seinem Mark. Eine für die Opéra Comique
+         <lb facs="#facs_1_region_1784437044745_105_tl_7" n="N007"/>geschriebene Conversations-Oper mit tragischem Ausgang:
+         <lb facs="#facs_1_region_1784437044745_105_tl_8" n="N008"/>„<rs type="bibl" ref="#hsl_work_id_2974">Cinq-Mars</rs>“ (<date>1877</date>), war schnell geschrieben und — schnell
+         <lb facs="#facs_1_region_1784437044745_105_tl_9" n="N009"/>verschwunden. Zwei anmuthige Gesangstücke nahmen sich darin
+         <lb facs="#facs_1_region_1784437044745_105_tl_10" n="N010"/>aus wie die rothen Röschen auf den Wangen eines Lungen
+         <lb facs="#facs_1_region_1784437044745_105_tl_11" n="N011" break="no"/>süchtigen. Nicht einmal das dem berühmten Romane Alfred
+         <lb facs="#facs_1_region_1784437044745_105_tl_12" n="N012"/>de <rs type="person" ref="#hsl_person_id_3521">Vigny</rs>’s entlehnte patriotische Sujet konnte die Oper
+         <lb facs="#facs_1_region_1784437044745_105_tl_13" n="N013"/>retten. Die musikalische Entkräftung des Componisten mußte
+         <lb facs="#facs_1_region_1784437044745_105_tl_14" n="N014"/>noch augenfälliger hervortreten an einem gewaltigen Tra
+         <lb facs="#facs_1_region_1784437044745_105_tl_15" n="N015" break="no"/>gödienstoffe — den ja <rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s zartbesaitetes Talent auch
+         <lb facs="#facs_1_region_1784437044745_105_tl_16" n="N016"/>in seiner besten Zeit nicht ausfüllte. Religiöse Schwärmerei
+         <lb facs="#facs_1_region_1784437044745_105_tl_17" n="N017"/>war wieder einmal mit der Gewalt eines Anfalles bei
+         <lb facs="#facs_1_region_1784437044745_105_tl_18" n="N018"/><rs type="person" ref="#hsl_person_id_102">Gounod</rs> eingekehrt und hieß ihn christlichen Glaubenseifer
+         <lb facs="#facs_1_region_1784437044745_105_tl_19" n="N019"/>und Märtyrertod in einem musikalischen Drama verherr
+         <lb facs="#facs_1_region_1784437044745_105_tl_20" n="N020" break="no"/>lichen. „<rs type="bibl" ref="#hsl_work_id_1220">Polyeucte</rs>“ (nach dem <rs type="bibl" ref="#hsl_work_id_2727">Drama</rs><space unit="char" quantity="1"/><rs type="person" ref="#hsl_person_id_51">Corneille</rs>’s) war diese
+         <lb facs="#facs_1_region_1784437044745_105_tl_21" n="N021"/>religiöse Oper (<date>1878</date>), in welcher <rs type="person" ref="#hsl_person_id_102">Gounod</rs> die Apotheose der
+         <lb facs="#facs_1_region_1784437044745_105_tl_22" n="N022"/>christlichen Selbstverleugnung und Aufopferung mit dem Eifer
+         <lb facs="#facs_1_region_1784437044745_105_tl_23" n="N023"/>eines Apostels betrieb. Leider erprobte die Musik, die ihm
+         <lb facs="#facs_1_region_1784437044745_105_tl_24" n="N024"/>dieser fromme Vorsatz eingab, nur wenig bekehrende Kraft;
+         <lb facs="#facs_1_region_1784437044745_105_tl_25" n="N025"/>der Besuch der Kirchen steigerte sich nicht nach dem „<rs type="bibl" ref="#hsl_work_id_1220">Polyeucte</rs>“,
+         <lb facs="#facs_1_region_1784437044745_105_tl_26" n="N026"/>aber der des Operntheaters ließ nach. <rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s <rs type="person" ref="#hsl_work_id_1220">Polyeuct</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784437044745_105_tl_27" n="N027"/>wäre der richtige Held für Madame <rs type="person">Autheman</rs> in <rs type="person">Daudet</rs>’s
+         <lb facs="#facs_1_region_1784437044745_105_tl_28" n="N028"/>„<rs type="bibl">Evangelistin</rs>“. Glücklicher Gatte einer schönen, edlen Frau,
+         <lb facs="#facs_1_region_1784437044745_105_tl_29" n="N029"/>die ihn innig liebt, verläßt er sie doch und erstickt jede mensch
+         <lb facs="#facs_1_region_1784437044745_105_tl_30" n="N030" break="no"/>liche Regung in seinem Herzen, um, ohne irgend eine äußere
+         <lb facs="#facs_1_region_1784437044745_105_tl_31" n="N031"/>Nöthigung, Christ zu werden und für den neuen Glauben
+         <lb facs="#facs_1_region_1784437044745_105_tl_32" n="N032"/>den Märtyrertod zu sterben. Das heutige <rs type="place" ref="#hsl_place_id_21">Frankreich</rs> schien
+         <lb facs="#facs_1_region_1784437044745_105_tl_33" n="N033"/>mit diesem frommen Ungeheuer doch nicht recht sym
+         <lb facs="#facs_1_region_1784437044745_105_tl_34" n="N034" break="no"/>pathisiren zu können, und die Oper schied wie ihr
+         <lb facs="#facs_1_region_1784437044745_105_tl_35" n="N035"/>Held rasch und christlich aus dieser schnöden Welt.
+         <lb facs="#facs_1_line_1784609435079_313" n="N036"/>So unerwünschter Ausgang den Glaubenseifer <rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s
+         <lb facs="#facs_1_region_1784437044745_105_tl_38" n="N037"/>doch wieder abgekühlt haben; er ließ eine bereits begonnene
+         <lb facs="#facs_1_region_1784437044745_105_tl_39" n="N038"/>Oper „<rs type="bibl">Abälard</rs>“, in welcher das Licht der wahren Religion<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784437057964_111_tl_1" n="N001"/>über pfäffische Unterdrückung und Finsterniß siegen sollte,
+         <lb facs="#facs_2_region_1784437057964_111_tl_2" n="N002"/>mitten in der Arbeit liegen und ergriff herzhaft einen Opern
+         <lb facs="#facs_2_region_1784437057964_111_tl_3" n="N003" break="no"/>text, worin von religiösem Geist, überhaupt von Geist keine
+         <lb facs="#facs_2_region_1784437057964_111_tl_4" n="N004"/>Rede mehr war. Das ist „<rs type="bibl">Der Tribut von Zamora</rs>“, bei
+         <lb facs="#facs_2_region_1784437057964_111_tl_5" n="N005"/>welchem wir auf diesem Umwege endlich angelangt sind.
+            </p><p>
+         <lb facs="#facs_2_region_1784437057964_111_tl_6" n="N006"/>Das Libretto (von <rs type="person">Dennery</rs> und <rs type="person">Brésil</rs>) ist ein mit
+         <lb facs="#facs_2_region_1784437057964_111_tl_7" n="N007"/>geübter derber Hand gezimmertes Boulevardstück, das kein
+         <lb facs="#facs_2_region_1784437057964_111_tl_8" n="N008"/>tieferes ethisches und psychologisches Interesse in uns erweckt.
+         <lb facs="#facs_2_region_1784437057964_111_tl_9" n="N009"/>Ein Mann von der feinen Bildung <rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s konnte sich
+         <lb facs="#facs_2_region_1784437057964_111_tl_10" n="N010"/>unmöglich daran begeistern. Er hat es wahrscheinlich aus
+         <lb facs="#facs_2_region_1784437057964_111_tl_11" n="N011"/>dem nämlichen Grunde componirt, aus dem wir jetzt seine
+         <lb facs="#facs_2_region_1784437057964_111_tl_12" n="N012"/>Oper aufführen: weil ihm nichts Besseres vorlag. Werfen
+         <lb facs="#facs_2_region_1784437057964_111_tl_13" n="N013"/>wir einen Blick auf die Handlung. Sie beginnt heiter und
+         <lb facs="#facs_2_region_1784437057964_111_tl_14" n="N014"/>festlich in der <rs type="place" ref="#hsl_place_id_2">spanisch</rs>en Stadt <rs type="place">Oviedo</rs>. <rs type="person" ref="#hsl_person_id_9261">Manuel</rs>, ein junger
+         <lb facs="#facs_2_region_1784437057964_111_tl_15" n="N015"/>Soldat (Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1348">Müller</rs></hi>), ist im Begriffe, seine geliebte
+         <lb facs="#facs_2_region_1784437057964_111_tl_16" n="N016"/>Braut <rs type="person" ref="#hsl_person_id_9258">Xaima</rs> (Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4591">Kupfer</rs></hi>) zum Traualtare zu führen.
+         <lb facs="#facs_2_region_1784437057964_111_tl_17" n="N017"/>Die Hochzeitsvorbereitungen werden durch den maurischen
+         <lb facs="#facs_2_region_1784437057964_111_tl_18" n="N018"/>Gesandten <rs type="person" ref="#hsl_person_id_9256">Ben-Saïd</rs> (Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4587">Sommer</rs></hi>) gestört, welcher den
+         <lb facs="#facs_2_region_1784437057964_111_tl_19" n="N019"/>Befehl des Khalifen verkündigt, es müsse die Stadt <rs type="place">Oviedo</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784437057964_111_tl_20" n="N020"/>sofort zwanzig Jungfrauen nach <rs type="place" ref="#hsl_place_id_798">Cordova</rs> liefern. Das ist
+         <lb facs="#facs_2_region_1784437057964_111_tl_21" n="N021"/>der „<rs type="bibl" ref="#hsl_work_id_2976">Tribut von Zamora</rs>“, so genannt, weil er nach der
+         <lb facs="#facs_2_region_1784437057964_111_tl_22" n="N022"/>Niederlage der Spanier in der Schlacht bei <rs type="place">Zamora</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784437057964_111_tl_23" n="N023"/>(im elften Jahrhundert) den Besiegten auferlegt ward.
+         <lb facs="#facs_2_region_1784437057964_111_tl_24" n="N024"/>Obwol Schmerz und Entrüstung der Bevölkerung sich Luft
+         <lb facs="#facs_2_region_1784437057964_111_tl_25" n="N025"/>machen, findet doch sofort das Auslosen der zwanzig Mäd
+         <lb facs="#facs_2_region_1784437057964_111_tl_26" n="N026" break="no"/>chen statt, und gleich der zweite aus der Urne gezogene Name
+         <lb facs="#facs_2_region_1784437057964_111_tl_27" n="N027"/>lautet „<rs type="person" ref="#hsl_person_id_9258">Xaima</rs>“. Ob nicht <rs type="person" ref="#hsl_person_id_9256">Ben-Saïd</rs>, der beim ersten An
+         <lb facs="#facs_2_region_1784437057964_111_tl_28" n="N028" break="no"/>blick über die Schönheit <rs type="person" ref="#hsl_person_id_9258">Xaima</rs>’s außer sich geräth, ein wenig
+         <lb facs="#facs_2_region_1784437057964_111_tl_29" n="N029"/>Vorsehung gespielt hat bei dieser Lotterie? Gleichviel, die
+         <lb facs="#facs_2_region_1784437057964_111_tl_30" n="N030"/>unglückliche Braut wird mit den anderen Opfern der <rs type="place" ref="#hsl_place_id_635">arabi
+         <lb facs="#facs_2_region_1784437057964_111_tl_31" n="N031" break="no"/>sch</rs>en Staatsraison von <rs type="person" ref="#hsl_person_id_9256">Ben-Saïd</rs> fortgeführt, während die
+         <lb facs="#facs_2_region_1784437057964_111_tl_32" n="N032"/>Spanier, <rs type="person" ref="#hsl_person_id_9261">Manuel</rs> an der Spitze, ihr ohnmächtiges Rache
+         <lb facs="#facs_2_region_1784437057964_111_tl_33" n="N033" break="no"/>gefühl in einer ziemlich banalen Kriegshymne aussingen,
+         <lb facs="#facs_2_region_1784437057964_111_tl_34" n="N034"/>welche im Verlaufe der Oper noch bedeutsamer auftreten
+         <lb facs="#facs_2_region_1784437057964_111_tl_35" n="N035"/>soll. Haben wir im ersten Act der Auslosung der zwanzig
+         <lb facs="#facs_2_region_1784437057964_111_tl_36" n="N036"/>Tribut-Jungfrauen beigewohnt, so müssen wir im zweiten
+         <lb facs="#facs_2_region_1784437057964_111_tl_37" n="N037"/>die Licitation selbst mitmachen. Die Mädchen werden auf
+         <lb facs="#facs_2_region_1784437057964_111_tl_38" n="N038"/>offenem Markte an den Meistbietenden versteigert. Auch
+         <lb facs="#facs_2_region_1784437057964_111_tl_39" n="N039"/><rs type="person" ref="#hsl_person_id_9261">Manuel</rs>, der in maurischer Tracht seiner Braut unerkannt<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1784437057964_111_tl_1" n="N001"/>über pfäffische Unterdrückung und Finsterniß siegen sollte,
-               <lb facs="#facs_2_region_1784437057964_111_tl_2" n="N002"/>mitten in der Arbeit liegen und ergriff herzhaft einen Opern¬
-               <lb facs="#facs_2_region_1784437057964_111_tl_3" n="N003"/>text, worin von religiösem Geist, überhaupt von Geist keine
-               <lb facs="#facs_2_region_1784437057964_111_tl_4" n="N004"/>Rede mehr war. Das ist „<rs type="bibl">Der Tribut von Zamora</rs>“, bei
-               <lb facs="#facs_2_region_1784437057964_111_tl_5" n="N005"/>welchem wir auf diesem Umwege endlich angelangt sind.
-               <lb facs="#facs_2_region_1784437057964_111_tl_6" n="N006"/>Das Libretto (von <rs type="person">Dennery</rs> und <rs type="person">Brésil</rs>) ist ein mit
-               <lb facs="#facs_2_region_1784437057964_111_tl_7" n="N007"/>geübter derber Hand gezimmertes Boulevardstück, das kein
-               <lb facs="#facs_2_region_1784437057964_111_tl_8" n="N008"/>tieferes ethisches und psychologisches Interesse in uns erweckt.
-               <lb facs="#facs_2_region_1784437057964_111_tl_9" n="N009"/>Ein Mann von der feinen Bildung <rs type="person">Gounod</rs>'s konnte sich
-               <lb facs="#facs_2_region_1784437057964_111_tl_10" n="N010"/>unmöglich daran begeistern. Er hat es wahrscheinlich aus
-               <lb facs="#facs_2_region_1784437057964_111_tl_11" n="N011"/>dem nämlichen Grunde componirt, aus dem wir jetzt seine
-               <lb facs="#facs_2_region_1784437057964_111_tl_12" n="N012"/>Oper aufführen: weil ihm nichts Besseres vorlag. Werfen
-               <lb facs="#facs_2_region_1784437057964_111_tl_13" n="N013"/>wir einen Blick auf die Handlung. Sie beginnt heiter und
-               <lb facs="#facs_2_region_1784437057964_111_tl_14" n="N014"/>festlich in der <rs type="place">spanisch</rs>en Stadt <rs type="place">Oviedo</rs>. <rs type="person">Manuel</rs>, ein junger
-               <lb facs="#facs_2_region_1784437057964_111_tl_15" n="N015"/>Soldat (Herr <hi rendition="#em">
-                  <rs type="person">Müller</rs>
-               </hi>), ist im Begriffe, seine geliebte
-               <lb facs="#facs_2_region_1784437057964_111_tl_16" n="N016"/>Braut <rs type="person">Xaima</rs> (Frau <hi rendition="#em">
-                  <rs type="person">Kupfer</rs>
-               </hi>) zum Traualtare zu führen.
-               <lb facs="#facs_2_region_1784437057964_111_tl_17" n="N017"/>Die Hochzeitsvorbereitungen werden durch den maurischen
-               <lb facs="#facs_2_region_1784437057964_111_tl_18" n="N018"/>Gesandten <rs type="person">Ben-Saïd</rs> (Herr <hi rendition="#em">
-                  <rs type="person">Sommer</rs>
-               </hi>) gestört, welcher den
-               <lb facs="#facs_2_region_1784437057964_111_tl_19" n="N019"/>Befehl des Khalifen verkündigt, es müsse die Stadt <rs type="place">Oviedo</rs>
-               <lb facs="#facs_2_region_1784437057964_111_tl_20" n="N020"/>sofort zwanzig Jungfrauen nach <rs type="place">Cordova</rs> liefern. Das ist
-               <lb facs="#facs_2_region_1784437057964_111_tl_21" n="N021"/>der „<rs type="bibl">Tribut von Zamora</rs>“, so genannt, weil er nach der
-               <lb facs="#facs_2_region_1784437057964_111_tl_22" n="N022"/>Niederlage der Spanier in der Schlacht bei <rs type="place">Zamora</rs>
-               <lb facs="#facs_2_region_1784437057964_111_tl_23" n="N023"/>(im elften Jahrhundert) den Besiegten auferlegt ward.
-               <lb facs="#facs_2_region_1784437057964_111_tl_24" n="N024"/>Obwol Schmerz und Entrüstung der Bevölkerung sich Luft
-               <lb facs="#facs_2_region_1784437057964_111_tl_25" n="N025"/>machen, findet doch sofort das Auslosen der zwanzig Mäd¬
-               <lb facs="#facs_2_region_1784437057964_111_tl_26" n="N026"/>chen statt, und gleich der zweite aus der Urne gezogene Name
-               <lb facs="#facs_2_region_1784437057964_111_tl_27" n="N027"/>lautet „<rs type="person">Xaima</rs>“. Ob nicht <rs type="person">Ben-Saïd</rs>, der beim ersten An¬
-               <lb facs="#facs_2_region_1784437057964_111_tl_28" n="N028"/>blick über die Schönheit <rs type="person">Xaima</rs>'s außer sich geräth, ein wenig
-               <lb facs="#facs_2_region_1784437057964_111_tl_29" n="N029"/>Vorsehung gespielt hat bei dieser Lotterie? Gleichviel, die
-               <lb facs="#facs_2_region_1784437057964_111_tl_30" n="N030"/>unglückliche Braut wird mit den anderen Opfern der <rs type="place" continued="true">arabi¬</rs>
-               <lb facs="#facs_2_region_1784437057964_111_tl_31" n="N031"/>
-               <rs type="place" continued="true">sch</rs>en Staatsraison von <rs type="person">Ben-Saïd</rs> fortgeführt, während die
-               <lb facs="#facs_2_region_1784437057964_111_tl_32" n="N032"/>Spanier, <rs type="person">Manuel</rs> an der Spitze, ihr ohnmächtiges Rache¬
-               <lb facs="#facs_2_region_1784437057964_111_tl_33" n="N033"/>gefühl in einer ziemlich banalen Kriegshymne aussingen,
-               <lb facs="#facs_2_region_1784437057964_111_tl_34" n="N034"/>welche im Verlaufe der Oper noch bedeutsamer auftreten
-               <lb facs="#facs_2_region_1784437057964_111_tl_35" n="N035"/>soll. Haben wir im ersten Act der Auslosung der zwanzig
-               <lb facs="#facs_2_region_1784437057964_111_tl_36" n="N036"/>Tribut-Jungfrauen beigewohnt, so müssen wir im zweiten
-               <lb facs="#facs_2_region_1784437057964_111_tl_37" n="N037"/>die Licitation selbst mitmachen. Die Mädchen werden auf
-               <lb facs="#facs_2_region_1784437057964_111_tl_38" n="N038"/>offenem Markte an den Meistbietenden versteigert. Auch
-               <lb facs="#facs_2_region_1784437057964_111_tl_39" n="N039"/>
-               <rs type="person">Manuel</rs>, der in maurischer Tracht seiner Braut unerkannt
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784437060777_114_tl_1" n="N001"/>nachgefolgt ist, sieht sich in der glücklichen Lage, um <rs type="person" ref="#hsl_person_id_9258">Xaima</rs>
+         <lb facs="#facs_2_region_1784437060777_114_tl_2" n="N002"/>bis zu einem hohen Betrage mitzubieten. Er hat nämlich in
+         <lb facs="#facs_2_region_1784437060777_114_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_9260">Hadjar</rs> (Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3065">Horwitz</rs></hi>), dem Bruder <rs type="person">Saïd</rs>’s, unver
+         <lb facs="#facs_2_region_1784437060777_114_tl_4" n="N004" break="no"/>muthet einen vornehmen Mauren wiedergefunden, dem er
+         <lb facs="#facs_2_region_1784437060777_114_tl_5" n="N005"/>(wie die meisten militärischen Tenoristen in der Oper) einmal
+         <lb facs="#facs_2_region_1784437060777_114_tl_6" n="N006"/>in der Schlacht das Leben gerettet hat und der ihm nun eine be
+         <lb facs="#facs_2_region_1784437060777_114_tl_7" n="N007" break="no"/>deutende Summe vorstreckt. Leider wird sie doch von dem höheren
+         <lb facs="#facs_2_region_1784437060777_114_tl_8" n="N008"/>Anbot <rs type="person" ref="#hsl_person_id_9256">Ben-Saïd</rs>’s übertrumpft, dem schließlich die schöne
+         <lb facs="#facs_2_region_1784437060777_114_tl_9" n="N009"/>Waare zugeschlagen wird. Vorher schreitet noch die geheimnißvolle
+         <lb facs="#facs_2_region_1784437060777_114_tl_10" n="N010"/>Gestalt der wahnsinnigen <rs type="person" ref="#hsl_person_id_4639">Hermosa</rs> (Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_820">Lucca</rs></hi>) über die
+         <lb facs="#facs_2_region_1784437060777_114_tl_11" n="N011"/>Bühne. Ohne noch in die Handlung einzugreifen, erweckt sie
+         <lb facs="#facs_2_region_1784437060777_114_tl_12" n="N012"/>doch zum erstenmale das Interesse des bisher ziemlich theil
+         <lb facs="#facs_2_region_1784437060777_114_tl_13" n="N013" break="no"/>nahmslos gebliebenen Publicums. Die Alte, die in dem Ge
+         <lb facs="#facs_2_region_1784437060777_114_tl_14" n="N014" break="no"/>metzel von <rs type="place">Zamora</rs> Gatten und Tochter verloren hat und
+         <lb facs="#facs_2_region_1784437060777_114_tl_15" n="N015"/>den Siegern als Gefangene folgen mußte, lebt seither un
+         <lb facs="#facs_2_region_1784437060777_114_tl_16" n="N016" break="no"/>angefochten unter dem Schutze der religiösen Meinung, welche
+         <lb facs="#facs_2_region_1784437060777_114_tl_17" n="N017"/>die Wahnsinnigen als heilig und unverletzlich achtet. Der
+         <lb facs="#facs_2_region_1784437060777_114_tl_18" n="N018"/>dritte Act spielt in dem prunkvollen Palaste <rs type="person" ref="#hsl_person_id_9256">Ben-Saïd</rs>’s.
+         <lb facs="#facs_2_region_1784437060777_114_tl_19" n="N019"/>Obwol verliebte Despoten es aus unzähligen Opern endlich
+         <lb facs="#facs_2_region_1784437060777_114_tl_20" n="N020"/>wissen sollten, daß sie ihre melancholische Favoritin durch
+         <lb facs="#facs_2_region_1784437060777_114_tl_21" n="N021"/>Aufführung von Ballettänzen durchaus nicht erheitern, grei
+         <lb facs="#facs_2_region_1784437060777_114_tl_22" n="N022" break="no"/>fen sie doch immer wieder zu demselben Recept. So auch
+         <lb facs="#facs_2_region_1784437060777_114_tl_23" n="N023"/><rs type="person" ref="#hsl_person_id_9256">Ben-Saïd</rs>. Das richtige Mittel gegen die Schwermuth der
+         <lb facs="#facs_2_region_1784437060777_114_tl_24" n="N024"/>Schönen ist immer nur das Erscheinen des geliebten Tenori
+         <lb facs="#facs_2_region_1784437060777_114_tl_25" n="N025" break="no"/>sten. Und so kommt auch hier unser <rs type="person" ref="#hsl_person_id_9261">Manuel</rs> zur rechten
+         <lb facs="#facs_2_region_1784437060777_114_tl_26" n="N026"/>Zeit, eingeführt von seinem Beschützer <rs type="person" ref="#hsl_person_id_9260">Hadjar</rs>. Vorläufig ist’s
+         <lb facs="#facs_2_region_1784437060777_114_tl_27" n="N027"/>freilich nur ein Duell mit <rs type="person" ref="#hsl_person_id_9256">Ben-Saïd</rs>, was er erreicht, da
+         <lb facs="#facs_2_region_1784437060777_114_tl_28" n="N028"/>Letzterer seine theuer erkaufte <rs type="person" ref="#hsl_person_id_9258">Xaima</rs> gutwillig nicht abzu
+         <lb facs="#facs_2_region_1784437060777_114_tl_29" n="N029" break="no"/>treten gedenkt. Der Maure besiegt den Spanier, schenkt ihm
+         <lb facs="#facs_2_region_1784437060777_114_tl_30" n="N030"/>aber auf <rs type="person" ref="#hsl_person_id_9258">Xaima</rs>’s Drohung, sich vom Fenster herabzustürzen,
+         <lb facs="#facs_2_region_1784437060777_114_tl_31" n="N031"/>das Leben. Mit dem plötzlichen Erscheinen der <rs type="person" ref="#hsl_person_id_4639">Hermosa</rs> im
+         <lb facs="#facs_2_region_1784437060777_114_tl_32" n="N032"/>Palaste — Wahnsinnige fragt man nicht nach dem Wie und
+         <lb facs="#facs_2_region_1784437060777_114_tl_33" n="N033"/>Warum — hebt sich wieder das Interesse an der Handlung.
+         <lb facs="#facs_2_region_1784437060777_114_tl_34" n="N034"/><rs type="person" ref="#hsl_person_id_9258">Xaima</rs>’s Erwähnung ihrer Vaterstadt <rs type="place">Zamora</rs> bringt die
+         <lb facs="#facs_2_region_1784437060777_114_tl_35" n="N035"/>Wahnsinnige in eine visionäre Ekstase. Ihre wild auf
+         <lb facs="#facs_2_region_1784437060777_114_tl_36" n="N036" break="no"/>geregte Phantasie lebt noch einmal die blutigen Schrecken
+         <lb facs="#facs_2_region_1784437060777_114_tl_37" n="N037"/>jener Schlacht durch, sie hört die Klänge der <rs type="place" ref="#hsl_place_id_2">spanisch</rs>en
+         <lb facs="#facs_2_region_1784437060777_114_tl_38" n="N038"/>Kriegshymne, die ihr Gatte bei <rs type="place">Zamora</rs> noch im Sterben
+         <lb facs="#facs_2_region_1784437060777_114_tl_39" n="N039"/>gesungen. Wir haben hier ein Meisterstück vor uns — nicht<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1784437060777_114_tl_1" n="N001"/>nachgefolgt ist, sieht sich in der glücklichen Lage, um <rs type="person">Xaima</rs>
-               <lb facs="#facs_2_region_1784437060777_114_tl_2" n="N002"/>bis zu einem hohen Betrage mitzubieten. Er hat nämlich in
-               <lb facs="#facs_2_region_1784437060777_114_tl_3" n="N003"/>
-               <rs type="person">Hadjar</rs> (Herrn <hi rendition="#em">
-                  <rs type="person">Horwitz</rs>
-               </hi>), dem Bruder <rs type="person">Saïd</rs>'s, unver¬
-               <lb facs="#facs_2_region_1784437060777_114_tl_4" n="N004"/>muthet einen vornehmen Mauren wiedergefunden, dem er
-               <lb facs="#facs_2_region_1784437060777_114_tl_5" n="N005"/>(wie die meisten militärischen Tenoristen in der Oper) einmal
-               <lb facs="#facs_2_region_1784437060777_114_tl_6" n="N006"/>in der Schlacht das Leben gerettet hat und der ihm nun eine be¬
-               <lb facs="#facs_2_region_1784437060777_114_tl_7" n="N007"/>deutende Summe vorstreckt. Leider wird sie doch von dem höheren
-               <lb facs="#facs_2_region_1784437060777_114_tl_8" n="N008"/>Anbot <rs type="person">Ben-Saïd</rs>'s übertrumpft, dem schließlich die schöne
-               <lb facs="#facs_2_region_1784437060777_114_tl_9" n="N009"/>Waare zugeschlagen wird. Vorher schreitet noch die geheimnißvolle
-               <lb facs="#facs_2_region_1784437060777_114_tl_10" n="N010"/>Gestalt der wahnsinnigen <rs type="person">Hermosa</rs> (Frau <hi rendition="#em">
-                  <rs type="person">Lucca</rs>
-               </hi>) über die
-               <lb facs="#facs_2_region_1784437060777_114_tl_11" n="N011"/>Bühne. Ohne noch in die Handlung einzugreifen, erweckt sie
-               <lb facs="#facs_2_region_1784437060777_114_tl_12" n="N012"/>doch zum erstenmale das Interesse des bisher ziemlich theil¬
-               <lb facs="#facs_2_region_1784437060777_114_tl_13" n="N013"/>nahmslos gebliebenen Publicums. Die Alte, die in dem Ge¬
-               <lb facs="#facs_2_region_1784437060777_114_tl_14" n="N014"/>metzel von <rs type="place">Zamora</rs> Gatten und Tochter verloren hat und
-               <lb facs="#facs_2_region_1784437060777_114_tl_15" n="N015"/>den Siegern als Gefangene folgen mußte, lebt seither un¬
-               <lb facs="#facs_2_region_1784437060777_114_tl_16" n="N016"/>angefochten unter dem Schutze der religiösen Meinung, welche
-               <lb facs="#facs_2_region_1784437060777_114_tl_17" n="N017"/>die Wahnsinnigen als heilig und unverletzlich achtet. Der
-               <lb facs="#facs_2_region_1784437060777_114_tl_18" n="N018"/>dritte Act spielt in dem prunkvollen Palaste <rs type="person">Ben-Saïd</rs>'s.
-               <lb facs="#facs_2_region_1784437060777_114_tl_19" n="N019"/>Obwol verliebte Despoten es aus unzähligen Opern endlich
-               <lb facs="#facs_2_region_1784437060777_114_tl_20" n="N020"/>wissen sollten, daß sie ihre melancholische Favoritin durch
-               <lb facs="#facs_2_region_1784437060777_114_tl_21" n="N021"/>Aufführung von Ballettänzen durchaus nicht erheitern, grei¬
-               <lb facs="#facs_2_region_1784437060777_114_tl_22" n="N022"/>fen sie doch immer wieder zu demselben Recept. So auch
-               <lb facs="#facs_2_region_1784437060777_114_tl_23" n="N023"/>
-               <rs type="person">Ben-Saïd</rs>. Das richtige Mittel gegen die Schwermuth der
-               <lb facs="#facs_2_region_1784437060777_114_tl_24" n="N024"/>Schönen ist immer nur das Erscheinen des geliebten Tenori¬
-               <lb facs="#facs_2_region_1784437060777_114_tl_25" n="N025"/>sten. Und so kommt auch hier unser <rs type="person">Manuel</rs> zur rechten
-               <lb facs="#facs_2_region_1784437060777_114_tl_26" n="N026"/>Zeit, eingeführt von seinem Beschützer <rs type="person">Hadjar</rs>. Vorläufig ist's
-               <lb facs="#facs_2_region_1784437060777_114_tl_27" n="N027"/>freilich nur ein Duell mit <rs type="person">Ben-Saïd</rs>, was er erreicht, da
-               <lb facs="#facs_2_region_1784437060777_114_tl_28" n="N028"/>Letzterer seine theuer erkaufte <rs type="person">Xaima</rs> gutwillig nicht abzu¬
-               <lb facs="#facs_2_region_1784437060777_114_tl_29" n="N029"/>treten gedenkt. Der Maure besiegt den Spanier, schenkt ihm
-               <lb facs="#facs_2_region_1784437060777_114_tl_30" n="N030"/>aber auf <rs type="person">Xaima</rs>'s Drohung, sich vom Fenster herabzustürzen,
-               <lb facs="#facs_2_region_1784437060777_114_tl_31" n="N031"/>das Leben. Mit dem plötzlichen Erscheinen der <rs type="person">Hermosa</rs> im
-               <lb facs="#facs_2_region_1784437060777_114_tl_32" n="N032"/>Palaste — Wahnsinnige fragt man nicht nach dem Wie und
-               <lb facs="#facs_2_region_1784437060777_114_tl_33" n="N033"/>Warum — hebt sich wieder das Interesse an der Handlung.
-               <lb facs="#facs_2_region_1784437060777_114_tl_34" n="N034"/>
-               <rs type="person">Xaima</rs>'s Erwähnung ihrer Vaterstadt <rs type="place">Zamora</rs> bringt die
-               <lb facs="#facs_2_region_1784437060777_114_tl_35" n="N035"/>Wahnsinnige in eine visionäre Ekstase. Ihre wild auf¬
-               <lb facs="#facs_2_region_1784437060777_114_tl_36" n="N036"/>geregte Phantasie lebt noch einmal die blutigen Schrecken
-               <lb facs="#facs_2_region_1784437060777_114_tl_37" n="N037"/>jener Schlacht durch, sie hört die Klänge der <rs type="place">spanisch</rs>en
-               <lb facs="#facs_2_region_1784437060777_114_tl_38" n="N038"/>Kriegshymne, die ihr Gatte bei <rs type="place">Zamora</rs> noch im Sterben
-               <lb facs="#facs_2_region_1784437060777_114_tl_39" n="N039"/>gesungen. Wir haben hier ein Meisterstück vor uns — nicht
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1784437068289_117_tl_1" n="N001"/>des Componisten, sondern der <hi rendition="#em">
-                  <rs type="person">Lucca</rs>
-               </hi>, welche die Scene mit
-               <lb facs="#facs_2_region_1784437068289_117_tl_2" n="N002"/>genialer Auffassung und hinreißender Energie singt und
-               <lb facs="#facs_2_region_1784437068289_117_tl_3" n="N003"/>spielt. <rs type="person">Hermosa</rs> erkennt in <rs type="person">Xaima</rs> ihre todtgeglaubte Tochter
-               <lb facs="#facs_2_region_1784437068289_117_tl_4" n="N004"/>und findet in Folge dieser Gemüthserschütterung die Klarheit
-               <lb facs="#facs_2_region_1784437068289_117_tl_5" n="N005"/>des Geistes wieder. Ein melodiöses Duett zwischen Mutter und
-               <lb facs="#facs_2_region_1784437068289_117_tl_6" n="N006"/>Tochter bildet den Schluß des Actes, zugleich den Höhepunkt
-               <lb facs="#facs_2_region_1784437068289_117_tl_7" n="N007"/>des ganzen Werkes. Der vierte und letzte Act sinkt wieder dra¬
-               <lb facs="#facs_2_region_1784437068289_117_tl_8" n="N008"/>matisch und noch mehr musikalisch beträchtlich herab. Er führt
-               <lb facs="#facs_2_region_1784437068289_117_tl_9" n="N009"/>in <rs type="person">Ben-Saïd</rs>'s Schloßgarten <rs type="person">Manuel</rs> und <rs type="person">Xaima</rs> zusammen:
-               <lb facs="#facs_2_region_1784437068289_117_tl_10" n="N010"/>ihr Liebes- und Verzweiflungs-Duett macht Miene, in einen
-               <lb facs="#facs_2_region_1784437068289_117_tl_11" n="N011"/>Doppelselbstmord auszugehen, als zum Glück <rs type="person">Hermosa</rs> dazu¬
-               <lb facs="#facs_2_region_1784437068289_117_tl_12" n="N012"/>tritt. Sie will dem Liebespaar zur Flucht verhelfen — <rs type="person" continued="true">Ben-</rs>
-               <lb facs="#facs_2_region_1784437068289_117_tl_13" n="N013"/>
-               <rs type="person" continued="true">Saïd</rs> stellt sich ihnen in den Weg. Nochmals bedrängt er
-               <lb facs="#facs_2_region_1784437068289_117_tl_14" n="N014"/>
-               <rs type="person">Xaima</rs> mit zärtlicher Liebeswerbung; aufs neue zurückgewiesen,
-               <lb facs="#facs_2_region_1784437068289_117_tl_15" n="N015"/>droht er mit Gewalt. Zum Aeußersten gebracht, greift end¬
-               <lb facs="#facs_2_region_1784437068289_117_tl_16" n="N016"/>lich <rs type="person">Hermosa</rs>, ihre Tochter beschützend, zum Dolche und er¬
-               <lb facs="#facs_2_region_1784437068289_117_tl_17" n="N017"/>sticht den <rs type="person">Ben-Saïd</rs>, der, großmüthig wie immer, noch im
-               <lb facs="#facs_2_region_1784437068289_117_tl_18" n="N018"/>Sterben verzeiht. <rs type="person">Hermosa</rs> aber zieht ungehindert mit <rs type="person">Xaima</rs>
-               <lb facs="#facs_2_region_1784437068289_117_tl_19" n="N019"/>und <rs type="person">Manuel</rs> in ihre Heimat.
-               <lb facs="#facs_2_region_1784437068289_117_tl_20" n="N020"/>Ohne Frage erinnern die dramatischen Motive, aus
-               <lb facs="#facs_2_region_1784437068289_117_tl_21" n="N021"/>denen sich diese Handlung entwickelt, mehr an die Operette,
-               <lb facs="#facs_2_region_1784437068289_117_tl_22" n="N022"/>als an die große Oper: die Auslosung der Jungfrauen im
-               <lb facs="#facs_2_region_1784437068289_117_tl_23" n="N023"/>ersten, die Licitation derselben im zweiten Acte und dergleichen.
-               <lb facs="#facs_2_region_1784437068289_117_tl_24" n="N024"/>Erst von der Mitte des dritten Actes an münden Text und
-               <lb facs="#facs_2_region_1784437068289_117_tl_25" n="N025"/>Musik entschiedener in den Styl des Heroischen und Tra¬
-               <lb facs="#facs_2_region_1784437068289_117_tl_26" n="N026"/>gischen. Die entscheidenden Situationen sind allerdings theils
-               <lb facs="#facs_2_region_1784437068289_117_tl_27" n="N027"/>gewaltsam, theils verbraucht. Den handelnden Personen fehlt
-               <lb facs="#facs_2_region_1784437068289_117_tl_28" n="N028"/>jedes individuelle Gepräge; mit Ausnahme der wahnsinnigen
-               <lb facs="#facs_2_region_1784437068289_117_tl_29" n="N029"/>
-               <rs type="person">Hermosa</rs>, deren Verwandtschaft mit <rs type="person">Fides</rs> und mit <rs type="person">Azucena</rs>
-               <lb facs="#facs_2_region_1784437068289_117_tl_30" n="N030"/>wir nicht weiter bemängeln wollen, gleichen sie Alle bekannten,
-               <lb facs="#facs_2_region_1784437068289_117_tl_31" n="N031"/>hundertmal dagewesenen Theater-Figuren. Trotzdem gehört
-               <lb facs="#facs_2_region_1784437068289_117_tl_32" n="N032"/>der „<rs type="bibl">Tribut von Zamora</rs>“ noch nicht zu den schlechtesten
-               <lb facs="#facs_2_region_1784437068289_117_tl_33" n="N033"/>Textbüchern, denn diese sind obendrein unverständlich oder
-               <lb facs="#facs_2_region_1784437068289_117_tl_34" n="N034"/>widerwärtig. Was <rs type="person">Gounod</rs>'s Musik betrifft, so wirkt sie
-               <lb facs="#facs_2_region_1784437068289_117_tl_35" n="N035"/>hier wie überall am glücklichsten im Ausdruck des Zärtlichen,
-               <lb facs="#facs_2_region_1784437068289_117_tl_36" n="N036"/>Schwärmerischen und eingerahmt in kleinere, übersichtliche
-               <lb facs="#facs_2_region_1784437068289_117_tl_37" n="N037"/>Musikformen. Kunstreicheren, hoch aufgebauten Ensembles
-               <lb facs="#facs_2_region_1784437068289_117_tl_38" n="N038"/>scheint der Komponist im „<rs type="bibl">Tribut von Zamora</rs>“ lieber aus
-               <lb facs="#facs_2_region_1784437068289_117_tl_39" n="N039"/>dem Wege zu gehen. Desto zahlreicher sind die Romanzen.
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784437068289_117_tl_1" n="N001"/>des Componisten, sondern der <hi rendition="#em"><rs type="person" ref="#hsl_person_id_820">Lucca</rs></hi>, welche die Scene mit
+         <lb facs="#facs_2_region_1784437068289_117_tl_2" n="N002"/>genialer Auffassung und hinreißender Energie singt und
+         <lb facs="#facs_2_region_1784437068289_117_tl_3" n="N003"/>spielt. <rs type="person" ref="#hsl_person_id_4639">Hermosa</rs> erkennt in <rs type="person" ref="#hsl_person_id_9258">Xaima</rs> ihre todtgeglaubte Tochter
+         <lb facs="#facs_2_region_1784437068289_117_tl_4" n="N004"/>und findet in Folge dieser Gemüthserschütterung die Klarheit
+         <lb facs="#facs_2_region_1784437068289_117_tl_5" n="N005"/>des Geistes wieder. Ein melodiöses Duett zwischen Mutter und
+         <lb facs="#facs_2_region_1784437068289_117_tl_6" n="N006"/>Tochter bildet den Schluß des Actes, zugleich den Höhepunkt
+         <lb facs="#facs_2_region_1784437068289_117_tl_7" n="N007"/>des ganzen Werkes. Der vierte und letzte Act sinkt wieder dra
+         <lb facs="#facs_2_region_1784437068289_117_tl_8" n="N008" break="no"/>matisch und noch mehr musikalisch beträchtlich herab. Er führt
+         <lb facs="#facs_2_region_1784437068289_117_tl_9" n="N009"/>in <rs type="person" ref="#hsl_person_id_9256">Ben-Saïd</rs>’s Schloßgarten <rs type="person" ref="#hsl_person_id_9261">Manuel</rs> und <rs type="person" ref="#hsl_person_id_9258">Xaima</rs> zusammen:
+         <lb facs="#facs_2_region_1784437068289_117_tl_10" n="N010"/>ihr Liebes- und Verzweiflungs-Duett macht Miene, in einen
+         <lb facs="#facs_2_region_1784437068289_117_tl_11" n="N011"/>Doppelselbstmord auszugehen, als zum Glück <rs type="person" ref="#hsl_person_id_4639">Hermosa</rs> dazu
+         <lb facs="#facs_2_region_1784437068289_117_tl_12" n="N012" break="no"/>tritt. Sie will dem Liebespaar zur Flucht verhelfen — <rs type="person" ref="#hsl_person_id_9256">Ben-
+         <lb facs="#facs_2_region_1784437068289_117_tl_13" n="N013"/>Saïd</rs> stellt sich ihnen in den Weg. Nochmals bedrängt er
+         <lb facs="#facs_2_region_1784437068289_117_tl_14" n="N014"/><rs type="person" ref="#hsl_person_id_9258">Xaima</rs> mit zärtlicher Liebeswerbung; aufs neue zurückgewiesen,
+         <lb facs="#facs_2_region_1784437068289_117_tl_15" n="N015"/>droht er mit Gewalt. Zum Aeußersten gebracht, greift end
+         <lb facs="#facs_2_region_1784437068289_117_tl_16" n="N016" break="no"/>lich <rs type="person" ref="#hsl_person_id_4639">Hermosa</rs>, ihre Tochter beschützend, zum Dolche und er
+         <lb facs="#facs_2_region_1784437068289_117_tl_17" n="N017" break="no"/>sticht den <rs type="person" ref="#hsl_person_id_9256">Ben-Saïd</rs>, der, großmüthig wie immer, noch im
+         <lb facs="#facs_2_region_1784437068289_117_tl_18" n="N018"/>Sterben verzeiht. <rs type="person" ref="#hsl_person_id_4639">Hermosa</rs> aber zieht ungehindert mit <rs type="person" ref="#hsl_person_id_9258">Xaima</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784437068289_117_tl_19" n="N019"/>und <rs type="person" ref="#hsl_person_id_9261">Manuel</rs> in ihre Heimat.
+            </p><p>
+         <lb facs="#facs_2_region_1784437068289_117_tl_20" n="N020"/>Ohne Frage erinnern die dramatischen Motive, aus
+         <lb facs="#facs_2_region_1784437068289_117_tl_21" n="N021"/>denen sich diese Handlung entwickelt, mehr an die Operette,
+         <lb facs="#facs_2_region_1784437068289_117_tl_22" n="N022"/>als an die große Oper: die Auslosung der Jungfrauen im
+         <lb facs="#facs_2_region_1784437068289_117_tl_23" n="N023"/>ersten, die Licitation derselben im zweiten Acte und dergleichen.
+         <lb facs="#facs_2_region_1784437068289_117_tl_24" n="N024"/>Erst von der Mitte des dritten Actes an münden Text und
+         <lb facs="#facs_2_region_1784437068289_117_tl_25" n="N025"/>Musik entschiedener in den Styl des Heroischen und Tra
+         <lb facs="#facs_2_region_1784437068289_117_tl_26" n="N026" break="no"/>gischen. Die entscheidenden Situationen sind allerdings theils
+         <lb facs="#facs_2_region_1784437068289_117_tl_27" n="N027"/>gewaltsam, theils verbraucht. Den handelnden Personen fehlt
+         <lb facs="#facs_2_region_1784437068289_117_tl_28" n="N028"/>jedes individuelle Gepräge; mit Ausnahme der wahnsinnigen
+         <lb facs="#facs_2_region_1784437068289_117_tl_29" n="N029"/><rs type="person" ref="#hsl_person_id_4639">Hermosa</rs>, deren Verwandtschaft mit <rs type="person">Fides</rs> und mit <rs type="person">Azucena</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784437068289_117_tl_30" n="N030"/>wir nicht weiter bemängeln wollen, gleichen sie Alle bekannten,
+         <lb facs="#facs_2_region_1784437068289_117_tl_31" n="N031"/>hundertmal dagewesenen Theater-Figuren. Trotzdem gehört
+         <lb facs="#facs_2_region_1784437068289_117_tl_32" n="N032"/>der „<rs type="bibl" ref="#hsl_work_id_2976">Tribut von Zamora</rs>“ noch nicht zu den schlechtesten
+         <lb facs="#facs_2_region_1784437068289_117_tl_33" n="N033"/>Textbüchern, denn diese sind obendrein unverständlich oder
+         <lb facs="#facs_2_region_1784437068289_117_tl_34" n="N034"/>widerwärtig. Was <rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s Musik betrifft, so wirkt sie
+         <lb facs="#facs_2_region_1784437068289_117_tl_35" n="N035"/>hier wie überall am glücklichsten im Ausdruck des Zärtlichen,
+         <lb facs="#facs_2_region_1784437068289_117_tl_36" n="N036"/>Schwärmerischen und eingerahmt in kleinere, übersichtliche
+         <lb facs="#facs_2_region_1784437068289_117_tl_37" n="N037"/>Musikformen. Kunstreicheren, hoch aufgebauten Ensembles
+         <lb facs="#facs_2_region_1784437068289_117_tl_38" n="N038"/>scheint der Komponist im „<rs type="bibl" ref="#hsl_work_id_2976">Tribut von Zamora</rs>“ lieber aus
+         <lb facs="#facs_2_region_1784437068289_117_tl_39" n="N039"/>dem Wege zu gehen. Desto zahlreicher sind die Romanzen.<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1784437083978_123_tl_1" n="N001"/>Strophengesänge und liedmäßig abgeschlossenen Sätze: das
+         <lb facs="#facs_3_region_1784437083978_123_tl_2" n="N002"/>Morgenständchen <rs type="person" ref="#hsl_person_id_9261">Manuel</rs>’s, das Lied <rs type="person" ref="#hsl_person_id_9260">Hadjar</rs>’s, zwei Ro
+         <lb facs="#facs_3_region_1784437083978_123_tl_3" n="N003" break="no"/>manzen <rs type="person" ref="#hsl_person_id_4639">Hermosa</rs>’s, das Tanzlied der <rs type="person" ref="#hsl_person_id_9259">Iglesia</rs> und andere.
+         <lb facs="#facs_3_region_1784437083978_123_tl_4" n="N004"/><rs type="person" ref="#hsl_person_id_9256">Ben-Saïd</rs> singt in jedem Acte eine zärtliche Romanze; man
+         <lb facs="#facs_3_region_1784437083978_123_tl_5" n="N005"/>könnte auf den ersten Blick meinen, es sei immer dieselbe.
+         <lb facs="#facs_3_region_1784437083978_123_tl_6" n="N006"/>Alles echter <rs type="person" ref="#hsl_person_id_102">Gounod</rs>, aber in starker Verdünnung. Die sym
+         <lb facs="#facs_3_region_1784437083978_123_tl_7" n="N007" break="no"/>pathische zarte Empfindung, die melodiöse Sangbarkeit,
+         <lb facs="#facs_3_region_1784437083978_123_tl_8" n="N008"/>eine gewisse Noblesse und Anmuth der musikalischen
+         <lb facs="#facs_3_region_1784437083978_123_tl_9" n="N009"/>Ausführung, zumal des Orchesters, sind ihm ge
+         <lb facs="#facs_3_region_1784437083978_123_tl_10" n="N010" break="no"/>blieben, allein was die Anmuth erst zur vollen
+         <lb facs="#facs_3_region_1784437083978_123_tl_11" n="N011"/>Wirkung hebt, der Widerhalt von Strenge und Energie,
+         <lb facs="#facs_3_region_1784437083978_123_tl_12" n="N012"/>fehlt beinahe gänzlich. Ohne Frage hat <rs type="person" ref="#hsl_person_id_102">Gounod</rs> für jenes
+         <lb facs="#facs_3_region_1784437083978_123_tl_13" n="N013"/>begrenzte Empfindungsgebiet sich eine eigenthümliche, ihm an
+         <lb facs="#facs_3_region_1784437083978_123_tl_14" n="N014" break="no"/>gehörige Ausdrucksweise geschaffen, die ja vom „<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“ aus
+         <lb facs="#facs_3_region_1784437083978_123_tl_15" n="N015"/>als musikalischer <rs type="person" ref="#hsl_person_id_102">Gounod</rs>ismus förmlich ansteckend geworden.
+         <lb facs="#facs_3_region_1784437083978_123_tl_16" n="N016"/>Aber auf diese aus „<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“ und „<rs type="bibl" ref="#hsl_work_id_56">Romeo</rs>“ uns bekannten
+         <lb facs="#facs_3_region_1784437083978_123_tl_17" n="N017"/>Gesangsphrasen, Modulationen und Schlußfälle kommt er
+         <lb facs="#facs_3_region_1784437083978_123_tl_18" n="N018"/>immer wieder zurück. Die Kritik braucht die Reminiscenzen
+         <lb facs="#facs_3_region_1784437083978_123_tl_19" n="N019"/>im „<rs type="bibl" ref="#hsl_work_id_2976">Tribut von Zamora</rs>“ nicht erst steckbrieflich zu bezeichnen,
+         <lb facs="#facs_3_region_1784437083978_123_tl_20" n="N020"/>das Publicum hört sie sofort heraus. Es ist kaum eine
+         <lb facs="#facs_3_region_1784437083978_123_tl_21" n="N021"/>Nummer im „<rs type="bibl" ref="#hsl_work_id_2976">Tribut</rs>“, die nicht irgendwie an den früheren
+         <lb facs="#facs_3_region_1784437083978_123_tl_22" n="N022"/><rs type="person" ref="#hsl_person_id_102">Gounod</rs> anklänge, aber auch nicht Eine, die auf der Höhe
+         <lb facs="#facs_3_region_1784437083978_123_tl_23" n="N023"/>der <rs type="bibl" ref="#hsl_work_id_199">Faust</rs>- oder <rs type="bibl" ref="#hsl_work_id_56">Romeo</rs>-Partitur stünde. Wir nehmen auch
+         <lb facs="#facs_3_region_1784437083978_123_tl_24" n="N024"/>das Frauenduett im vierten Acte nicht aus, das hier wie in
+         <lb facs="#facs_3_region_1784437083978_123_tl_25" n="N025"/><rs type="place" ref="#hsl_place_id_44">Paris</rs> den Erfolg der Oper rettete. Die große kriegerische
+         <lb facs="#facs_3_region_1784437083978_123_tl_26" n="N026"/>Vision der Wahnsinnigen ist musikalisch mit ziemlich gewöhn
+         <lb facs="#facs_3_region_1784437083978_123_tl_27" n="N027" break="no"/>lichen Mitteln besorgt, die Schlachtscene (in <rs type="place" ref="#hsl_place_id_44">Paris</rs> „<rs type="place" ref="#hsl_place_id_2">spanisch</rs>e
+         <lb facs="#facs_3_region_1784437083978_123_tl_28" n="N028"/><rs type="bibl">Marsellaise</rs>“ genannt) mit ihrer auf der Ober-Dominante
+         <lb facs="#facs_3_region_1784437083978_123_tl_29" n="N029"/>klebenden Melodie klingt weder originell, noch edel; sie gibt
+         <lb facs="#facs_3_region_1784437083978_123_tl_30" n="N030"/>nur durch verschieden nuancirten Vortrag einer großen drama
+         <lb facs="#facs_3_region_1784437083978_123_tl_31" n="N031" break="no"/>tischen Malerin wie die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_820">Lucca</rs></hi> dankbare Gelegenheit zur
+         <lb facs="#facs_3_region_1784437083978_123_tl_32" n="N032"/>Entfaltung individuellen Talentes. Den sich anschließenden
+         <lb facs="#facs_3_region_1784437083978_123_tl_33" n="N033"/>Duettsatz in As-dur kann man hübsch, angenehm, wohlklingend
+         <lb facs="#facs_3_region_1784437083978_123_tl_34" n="N034"/>nennen, bedeutend nimmermehr. Sein Unisono-Effect ist un
+         <lb facs="#facs_3_region_1784437083978_123_tl_35" n="N035" break="no"/>verholen <rs type="place" ref="#hsl_place_id_28">italienisch</rs>. Ueberhaupt fällt es auf, welch großen
+         <lb facs="#facs_3_region_1784437083978_123_tl_36" n="N036"/>Tribut <rs type="person" ref="#hsl_person_id_102">Gounod</rs> in diesem „<rs type="bibl" ref="#hsl_work_id_2976">Tribut</rs>“ an die Italiener zahlt.
+         <lb facs="#facs_3_region_1784437083978_123_tl_37" n="N037"/>Das Unisono der Singstimmen in den Schlußsätzen der
+         <lb facs="#facs_3_region_1784437083978_123_tl_38" n="N038"/>Duette und Terzette bildet geradezu die Regel und übt
+         <lb facs="#facs_3_region_1784437083978_123_tl_39" n="N039"/>auch in den Ensembles (Kriegshymne im ersten Act,<space quantity="1" unit="char"/></p>
             <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1784437083978_123_tl_1" n="N001"/>Strophengesänge und liedmäßig abgeschlossenen Sätze: das
-               <lb facs="#facs_3_region_1784437083978_123_tl_2" n="N002"/>Morgenständchen <rs type="person">Manuel</rs>'s, das Lied <rs type="person">Hadjar</rs>'s, zwei Ro¬
-               <lb facs="#facs_3_region_1784437083978_123_tl_3" n="N003"/>manzen <rs type="person">Hermosa</rs>'s, das Tanzlied der <rs type="person">Iglesia</rs> und andere.
-               <lb facs="#facs_3_region_1784437083978_123_tl_4" n="N004"/>
-               <rs type="person">Ben-Saïd</rs> singt in jedem Acte eine zärtliche Romanze; man
-               <lb facs="#facs_3_region_1784437083978_123_tl_5" n="N005"/>könnte auf den ersten Blick meinen, es sei immer dieselbe.
-               <lb facs="#facs_3_region_1784437083978_123_tl_6" n="N006"/>Alles echter <rs type="person">Gounod</rs>, aber in starker Verdünnung. Die sym¬
-               <lb facs="#facs_3_region_1784437083978_123_tl_7" n="N007"/>pathische zarte Empfindung, die melodiöse Sangbarkeit,
-               <lb facs="#facs_3_region_1784437083978_123_tl_8" n="N008"/>eine gewisse Noblesse und Anmuth der musikalischen
-               <lb facs="#facs_3_region_1784437083978_123_tl_9" n="N009"/>Ausführung, zumal des Orchesters, sind ihm ge¬
-               <lb facs="#facs_3_region_1784437083978_123_tl_10" n="N010"/>blieben, allein was die Anmuth erst zur vollen
-               <lb facs="#facs_3_region_1784437083978_123_tl_11" n="N011"/>Wirkung hebt, der Widerhalt von Strenge und Energie,
-               <lb facs="#facs_3_region_1784437083978_123_tl_12" n="N012"/>fehlt beinahe gänzlich. Ohne Frage hat <rs type="person">Gounod</rs> für jenes
-               <lb facs="#facs_3_region_1784437083978_123_tl_13" n="N013"/>begrenzte Empfindungsgebiet sich eine eigenthümliche, ihm an¬
-               <lb facs="#facs_3_region_1784437083978_123_tl_14" n="N014"/>gehörige Ausdrucksweise geschaffen, die ja vom „<rs type="bibl">Faust</rs>“ aus
-               <lb facs="#facs_3_region_1784437083978_123_tl_15" n="N015"/>als musikalischer <rs type="person">Gounod</rs>ismus förmlich ansteckend geworden.
-               <lb facs="#facs_3_region_1784437083978_123_tl_16" n="N016"/>Aber auf diese aus „<rs type="bibl">Faust</rs>“ und „<rs type="bibl">Romeo</rs>“ uns bekannten
-               <lb facs="#facs_3_region_1784437083978_123_tl_17" n="N017"/>Gesangsphrasen, Modulationen und Schlußfälle kommt er
-               <lb facs="#facs_3_region_1784437083978_123_tl_18" n="N018"/>immer wieder zurück. Die Kritik braucht die Reminiscenzen
-               <lb facs="#facs_3_region_1784437083978_123_tl_19" n="N019"/>im „<rs type="bibl">Tribut von Zamora</rs>“ nicht erst steckbrieflich zu bezeichnen,
-               <lb facs="#facs_3_region_1784437083978_123_tl_20" n="N020"/>das Publicum hört sie sofort heraus. Es ist kaum eine
-               <lb facs="#facs_3_region_1784437083978_123_tl_21" n="N021"/>Nummer im „<rs type="bibl">Tribut</rs>“, die nicht irgendwie an den früheren
-               <lb facs="#facs_3_region_1784437083978_123_tl_22" n="N022"/>
-               <rs type="person">Gounod</rs> anklänge, aber auch nicht Eine, die auf der Höhe
-               <lb facs="#facs_3_region_1784437083978_123_tl_23" n="N023"/>der <rs type="bibl">Faust</rs>- oder <rs type="bibl">Romeo</rs>-Partitur stünde. Wir nehmen auch
-               <lb facs="#facs_3_region_1784437083978_123_tl_24" n="N024"/>das Frauenduett im vierten Acte nicht aus, das hier wie in
-               <lb facs="#facs_3_region_1784437083978_123_tl_25" n="N025"/>
-               <rs type="place">Paris</rs> den Erfolg der Oper rettete. Die große kriegerische
-               <lb facs="#facs_3_region_1784437083978_123_tl_26" n="N026"/>Vision der Wahnsinnigen ist musikalisch mit ziemlich gewöhn¬
-               <lb facs="#facs_3_region_1784437083978_123_tl_27" n="N027"/>lichen Mitteln besorgt, die Schlachtscene (in <rs type="place">Paris</rs> „<rs type="place">spanisch</rs>e
-               <lb facs="#facs_3_region_1784437083978_123_tl_28" n="N028"/>
-               <rs type="bibl">Marsellaise</rs>“ genannt) mit ihrer auf der Ober-Dominante
-               <lb facs="#facs_3_region_1784437083978_123_tl_29" n="N029"/>klebenden Melodie klingt weder originell, noch edel; sie gibt
-               <lb facs="#facs_3_region_1784437083978_123_tl_30" n="N030"/>nur durch verschieden nuancirten Vortrag einer großen drama¬
-               <lb facs="#facs_3_region_1784437083978_123_tl_31" n="N031"/>tischen Malerin wie die <hi rendition="#em">
-                  <rs type="person">Lucca</rs>
-               </hi> dankbare Gelegenheit zur
-               <lb facs="#facs_3_region_1784437083978_123_tl_32" n="N032"/>Entfaltung individuellen Talentes. Den sich anschließenden
-               <lb facs="#facs_3_region_1784437083978_123_tl_33" n="N033"/>Duettsatz in As-dur kann man hübsch, angenehm, wohlklingend
-               <lb facs="#facs_3_region_1784437083978_123_tl_34" n="N034"/>nennen, bedeutend nimmermehr. Sein Unisono-Effect ist un¬
-               <lb facs="#facs_3_region_1784437083978_123_tl_35" n="N035"/>verholen <rs type="place">italienisch</rs>. Ueberhaupt fällt es auf, welch großen
-               <lb facs="#facs_3_region_1784437083978_123_tl_36" n="N036"/>Tribut <rs type="person">Gounod</rs> in diesem „<rs type="bibl">Tribut</rs>“ an die Italiener zahlt.
-               <lb facs="#facs_3_region_1784437083978_123_tl_37" n="N037"/>Das Unisono der Singstimmen in den Schlußsätzen der
-               <lb facs="#facs_3_region_1784437083978_123_tl_38" n="N038"/>Duette und Terzette bildet geradezu die Regel und übt
-               <lb facs="#facs_3_region_1784437083978_123_tl_39" n="N039"/>auch in den Ensembles (Kriegshymne im ersten Act,
-            </p>
+            <p prev="true">
+         <lb facs="#facs_3_region_1784437087056_126_tl_1" n="N001"/>Es-dur-Satz vor der Versteigerung der <rs type="person" ref="#hsl_person_id_9258">Xaima</rs> etc.)
+         <lb facs="#facs_3_region_1784437087056_126_tl_2" n="N002"/>seine bequeme Herrschaft. Man möchte mitunter auf <rs type="person" ref="#hsl_person_id_63">Doni
+         <lb facs="#facs_3_region_1784437087056_126_tl_3" n="N003" break="no"/>zetti</rs> oder <rs type="person" ref="#hsl_person_id_312">Verdi</rs> rathen. Nun ist uns <rs type="place" ref="#hsl_place_id_28">Italienisch</rs> keineswegs
+         <lb facs="#facs_3_region_1784437087056_126_tl_4" n="N004"/>gleichbedeutend mit schlecht in der Musik. Aber wo es in
+         <lb facs="#facs_3_region_1784437087056_126_tl_5" n="N005"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en oder <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Partituren souverän auftritt, da
+         <lb facs="#facs_3_region_1784437087056_126_tl_6" n="N006"/>begründet es Styllosigkeit, und da wird Manches trivial
+         <lb facs="#facs_3_region_1784437087056_126_tl_7" n="N007"/>klingen, was aus <rs type="place" ref="#hsl_place_id_28">italienisch</rs>em Munde natürlich und volks
+         <lb facs="#facs_3_region_1784437087056_126_tl_8" n="N008" break="no"/>thümlich klang. In dem Maße, als sich <rs type="person" ref="#hsl_person_id_102">Gounod</rs> im „<rs type="bibl" ref="#hsl_work_id_2976">Tribut
+         <lb facs="#facs_3_region_1784437087056_126_tl_9" n="N009"/>von Zamora</rs>“ den Italienern nähert, entfernt er sich von
+         <lb facs="#facs_3_region_1784437087056_126_tl_10" n="N010"/>Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs>, dessen Einfluß den „<rs type="bibl" ref="#hsl_work_id_56">Romeo</rs>“ doch hin und
+         <lb facs="#facs_3_region_1784437087056_126_tl_11" n="N011"/>wieder gestreift hatte. Kein einziges Leitmotiv (die Wieder
+         <lb facs="#facs_3_region_1784437087056_126_tl_12" n="N012" break="no"/>holung der Schlachthymne ist etwas ganz Anderes), kein
+         <lb facs="#facs_3_region_1784437087056_126_tl_13" n="N013"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’scher Orchester-Effect, hingegen entschiedenes Ueber
+         <lb facs="#facs_3_region_1784437087056_126_tl_14" n="N014" break="no"/>gewicht der Melodie über das Declamatorische und Restitu
+         <lb facs="#facs_3_region_1784437087056_126_tl_15" n="N015" break="no"/>tion der alten Formen ohne Scheu vor sehr häufiger Text
+         <lb facs="#facs_3_region_1784437087056_126_tl_16" n="N016" break="no"/>wiederholung. Daß sich <rs type="person" ref="#hsl_person_id_102">Gounod</rs> überall als guter Musiker
+         <lb facs="#facs_3_region_1784437087056_126_tl_17" n="N017"/>bewährt, als Mann von Geschmack und Bildung, dem es
+         <lb facs="#facs_3_region_1784437087056_126_tl_18" n="N018"/>auch an einzelnen geistreichen Einfällen nicht fehlt, bedarf
+         <lb facs="#facs_3_region_1784437087056_126_tl_19" n="N019"/>nicht ausdrücklicher Versicherung. Der „<rs type="bibl" ref="#hsl_work_id_2976">Tribut von Zamora</rs>“
+         <lb facs="#facs_3_region_1784437087056_126_tl_20" n="N020"/>enthält nichts, was musikalisch abstößt, aber auch kaum etwas,
+         <lb facs="#facs_3_region_1784437087056_126_tl_21" n="N021"/>das zu begeistern vermöchte. Zu <rs type="person" ref="#hsl_person_id_102">Gounod</rs>’s „<rs type="bibl" ref="#hsl_work_id_199">Faust</rs>“ verhält
+         <lb facs="#facs_3_region_1784437087056_126_tl_22" n="N022"/>er sich ungefähr, wie getrocknete Blumen zu frischen.
+            </p><p>
+         <lb facs="#facs_3_region_1784437087056_126_tl_23" n="N023"/>Die neue Oper erfreute sich am 30. d. M. einer
+         <lb facs="#facs_3_region_1784437087056_126_tl_24" n="N024"/>günstigen Aufnahme. Sie verdankt dieselbe zumeist der guten
+         <lb facs="#facs_3_region_1784437087056_126_tl_25" n="N025"/>Aufführung, vor Allem der außerordentlichen Leistung Frau
+         <lb facs="#facs_3_region_1784437087056_126_tl_26" n="N026"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_820">Lucca</rs>’s</hi>. Wenn von einer Rolle behauptet werden darf,
+         <lb facs="#facs_3_line_1784609133470_103" n="N027"/>Frau <rs type="person" ref="#hsl_person_id_820">Lucca</rs> habe dieselbe „geschaffen“, so ist es diese <rs type="person" ref="#hsl_person_id_4639">Hermosa</rs>.
+         <lb facs="#facs_3_line_1784609135830_106" n="N028"/>„<rs type="bibl" ref="#hsl_work_id_1225">Carmen</rs>“ und die „<rs type="bibl" ref="#hsl_work_id_784">Bezähmte Widerspenstige</rs>“ hat die
+         <lb facs="#facs_3_region_1784437087056_126_tl_29" n="N029"/><rs type="person" ref="#hsl_person_id_820">Lucca</rs> für <rs type="place" ref="#hsl_place_id_55">Wien</rs> im eigentlichen Sinne auch geschaffen, in
+         <lb facs="#facs_3_region_1784437087056_126_tl_30" n="N030" break="no"/>dem sie diese Rollen zwar nicht zuerst sang, aber zuerst
+         <lb facs="#facs_3_region_1784437087056_126_tl_31" n="N031"/>hier zu voller Wirkung brachte — aber wie kräftig hatten
+         <lb facs="#facs_3_region_1784437087056_126_tl_32" n="N032"/>Dichter und Componist ihr da vorgearbeitet! Was Frau
+         <lb facs="#facs_3_region_1784437087056_126_tl_33" n="N033"/><rs type="person" ref="#hsl_person_id_820">Lucca</rs> aus der wahnsinnigen <rs type="person" ref="#hsl_person_id_4639">Hermosa</rs> gemacht, ist noch be
+         <lb facs="#facs_3_region_1784437087056_126_tl_34" n="N034" break="no"/>wunderungswürdiger. Ihr Auftreten im zweiten Act, mit dem
+         <lb facs="#facs_3_region_1784437087056_126_tl_35" n="N035"/>erst aufflackernden, dann wieder erlöschenden Erkennen ihrer
+         <lb facs="#facs_3_region_1784437087056_126_tl_36" n="N036"/>Tochter, ihre große Scene mit dem Duett im dritten Act,
+         <lb facs="#facs_3_region_1784437087056_126_tl_37" n="N037"/>ihr gewaltiges Spiel mit <rs type="person" ref="#hsl_person_id_9256">Ben-Saïd</rs> im vierten — das sind
+         <lb facs="#facs_3_region_1784437087056_126_tl_38" n="N038"/>Lichtblicke, die kein Theaterfreund vergessen wird. Und trotz
+         <lb facs="#facs_3_region_1784437087056_126_tl_39" n="N039"/>dieses glänzenden Aufgebotes schauspielerischer Kunst hat die<space quantity="1" unit="char"/></p>
             <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1784437087056_126_tl_1" n="N001"/>Es-dur-Satz vor der Versteigerung der <rs type="person">Xaima</rs> etc.)
-               <lb facs="#facs_3_region_1784437087056_126_tl_2" n="N002"/>seine bequeme Herrschaft. Man möchte mitunter auf <rs type="person" continued="true">Doni¬</rs>
-               <lb facs="#facs_3_region_1784437087056_126_tl_3" n="N003"/>
-               <rs type="person" continued="true">zetti</rs> oder <rs type="person">Verdi</rs> rathen. Nun ist uns <rs type="place">Italienisch</rs> keineswegs
-               <lb facs="#facs_3_region_1784437087056_126_tl_4" n="N004"/>gleichbedeutend mit schlecht in der Musik. Aber wo es in
-               <lb facs="#facs_3_region_1784437087056_126_tl_5" n="N005"/>
-               <rs type="place">deutsch</rs>en oder <rs type="place">französisch</rs>en Partituren souverän auftritt, da
-               <lb facs="#facs_3_region_1784437087056_126_tl_6" n="N006"/>begründet es Styllosigkeit, und da wird Manches trivial
-               <lb facs="#facs_3_region_1784437087056_126_tl_7" n="N007"/>klingen, was aus <rs type="place">italienisch</rs>em Munde natürlich und volks¬
-               <lb facs="#facs_3_region_1784437087056_126_tl_8" n="N008"/>thümlich klang. In dem Maße, als sich <rs type="person">Gounod</rs> im „<rs type="bibl">Tribut</rs>
-               <lb facs="#facs_3_region_1784437087056_126_tl_9" n="N009"/>
-               <rs type="bibl">von Zamora</rs>“ den Italienern nähert, entfernt er sich von
-               <lb facs="#facs_3_region_1784437087056_126_tl_10" n="N010"/>Richard <rs type="person">Wagner</rs>, dessen Einfluß den „<rs type="bibl">Romeo</rs>“ doch hin und
-               <lb facs="#facs_3_region_1784437087056_126_tl_11" n="N011"/>wieder gestreift hatte. Kein einziges Leitmotiv (die Wieder¬
-               <lb facs="#facs_3_region_1784437087056_126_tl_12" n="N012"/>holung der Schlachthymne ist etwas ganz Anderes), kein
-               <lb facs="#facs_3_region_1784437087056_126_tl_13" n="N013"/>
-               <rs type="person">Wagner</rs>'scher Orchester-Effect, hingegen entschiedenes Ueber¬
-               <lb facs="#facs_3_region_1784437087056_126_tl_14" n="N014"/>gewicht der Melodie über das Declamatorische und Restitu¬
-               <lb facs="#facs_3_region_1784437087056_126_tl_15" n="N015"/>tion der alten Formen ohne Scheu vor sehr häufiger Text¬
-               <lb facs="#facs_3_region_1784437087056_126_tl_16" n="N016"/>wiederholung. Daß sich <rs type="person">Gounod</rs> überall als guter Musiker
-               <lb facs="#facs_3_region_1784437087056_126_tl_17" n="N017"/>bewährt, als Mann von Geschmack und Bildung, dem es
-               <lb facs="#facs_3_region_1784437087056_126_tl_18" n="N018"/>auch an einzelnen geistreichen Einfällen nicht fehlt, bedarf
-               <lb facs="#facs_3_region_1784437087056_126_tl_19" n="N019"/>nicht ausdrücklicher Versicherung. Der „<rs type="bibl">Tribut von Zamora</rs>“
-               <lb facs="#facs_3_region_1784437087056_126_tl_20" n="N020"/>enthält nichts, was musikalisch abstößt, aber auch kaum etwas,
-               <lb facs="#facs_3_region_1784437087056_126_tl_21" n="N021"/>das zu begeistern vermöchte. Zu <rs type="person">Gounod</rs>'s „<rs type="bibl">Faust</rs>“ verhält
-               <lb facs="#facs_3_region_1784437087056_126_tl_22" n="N022"/>er sich ungefähr, wie getrocknete Blumen zu frischen.
-               <lb facs="#facs_3_region_1784437087056_126_tl_23" n="N023"/>Die neue Oper erfreute sich am 30. d. M. einer
-               <lb facs="#facs_3_region_1784437087056_126_tl_24" n="N024"/>günstigen Aufnahme. Sie verdankt dieselbe zumeist der guten
-               <lb facs="#facs_3_region_1784437087056_126_tl_25" n="N025"/>Aufführung, vor Allem der außerordentlichen Leistung Frau
-               <lb facs="#facs_3_region_1784437087056_126_tl_26" n="N026"/>
-               <hi rendition="#em">
-                  <rs type="person">Lucca</rs>'s</hi>. Wenn von einer Rolle behauptet werden darf,
-               <lb facs="#facs_3_line_1784609133470_103" n="N027"/>Frau <rs type="person">Lucca</rs> habe dieselbe „geschaffen“, so ist es diese <rs type="person">Hermosa</rs>.
-               <lb facs="#facs_3_line_1784609135830_106" n="N028"/>„<rs type="bibl">Carmen</rs>“ und die „<rs type="bibl">Bezähmte Widerspenstige</rs>“ hat die
-               <lb facs="#facs_3_region_1784437087056_126_tl_29" n="N029"/>
-               <rs type="person">Lucca</rs> für <rs type="place">Wien</rs> im eigentlichen Sinne auch geschaffen, in¬
-               <lb facs="#facs_3_region_1784437087056_126_tl_30" n="N030"/>dem sie diese Rollen zwar nicht zuerst sang, aber zuerst
-               <lb facs="#facs_3_region_1784437087056_126_tl_31" n="N031"/>hier zu voller Wirkung brachte — aber wie kräftig hatten
-               <lb facs="#facs_3_region_1784437087056_126_tl_32" n="N032"/>Dichter und Componist ihr da vorgearbeitet! Was Frau
-               <lb facs="#facs_3_region_1784437087056_126_tl_33" n="N033"/>
-               <rs type="person">Lucca</rs> aus der wahnsinnigen <rs type="person">Hermosa</rs> gemacht, ist noch be¬
-               <lb facs="#facs_3_region_1784437087056_126_tl_34" n="N034"/>wunderungswürdiger. Ihr Auftreten im zweiten Act, mit dem
-               <lb facs="#facs_3_region_1784437087056_126_tl_35" n="N035"/>erst aufflackernden, dann wieder erlöschenden Erkennen ihrer
-               <lb facs="#facs_3_region_1784437087056_126_tl_36" n="N036"/>Tochter, ihre große Scene mit dem Duett im dritten Act,
-               <lb facs="#facs_3_region_1784437087056_126_tl_37" n="N037"/>ihr gewaltiges Spiel mit <rs type="person">Ben-Saïd</rs> im vierten — das sind
-               <lb facs="#facs_3_region_1784437087056_126_tl_38" n="N038"/>Lichtblicke, die kein Theaterfreund vergessen wird. Und trotz
-               <lb facs="#facs_3_region_1784437087056_126_tl_39" n="N039"/>dieses glänzenden Aufgebotes schauspielerischer Kunst hat die
-            </p>
-            <cb n="10"/>
-            <p>
-               <lb facs="#facs_3_region_1784437091265_129_tl_1" n="N001"/>
-               <rs type="person">Lucca</rs> den ganzen Abend hindurch das musikalische Element
-               <lb facs="#facs_3_region_1784437091265_129_tl_2" n="N002"/>nirgends dem dramatischen Effect zulieb verletzt oder beein¬
-               <lb facs="#facs_3_region_1784437091265_129_tl_3" n="N003"/>trächtigt. Ihr Vortrag blieb edel, ihr Ton rein und bestimmt.
-               <lb facs="#facs_3_region_1784437091265_129_tl_4" n="N004"/>Frau <hi rendition="#em">
-                  <rs type="person">Kupfer</rs>
-               </hi> hat sich mit der <rs type="person">Xaima</rs> sichtliche Mühe ge¬
-               <lb facs="#facs_3_region_1784437091265_129_tl_5" n="N005"/>geben und findet in ihrer schmucken Persönlichkeit eine für
-               <lb facs="#facs_3_region_1784437091265_129_tl_6" n="N006"/>diese Rolle besonders erwünschte Hilfe. Gerne würden wir
-               <lb facs="#facs_3_region_1784437091265_129_tl_7" n="N007"/>auch ihre Leistung loben, wenn wir den ganzen Abend hin¬
-               <lb facs="#facs_3_region_1784437091265_129_tl_8" n="N008"/>durch Einen ruhigen Ton gehört hätten, nur Einen Ton,
-               <lb facs="#facs_3_region_1784437091265_129_tl_9" n="N009"/>der nicht geflackert und gewackelt hätte. Dieses unausgesetzte
-               <lb facs="#facs_3_region_1784437091265_129_tl_10" n="N010"/>Beben, welches sich für überschwengliches Gefühl ausgibt, es
-               <lb facs="#facs_3_region_1784437091265_129_tl_11" n="N011"/>möglicherweise auch ist, wird dem musikalischen Hörer nach¬
-               <lb facs="#facs_3_region_1784437091265_129_tl_12" n="N012"/>gerade zur Pein. Von den beiden männlichen — im Grunde
-               <lb facs="#facs_3_region_1784437091265_129_tl_13" n="N013"/>recht unmännlichen — Helden der Oper hat der Tenorist
-               <lb facs="#facs_3_region_1784437091265_129_tl_14" n="N014"/>(<rs type="person">Manuel</rs>) die undankbarere Rolle; dramatisch hilflos, behilft
-               <lb facs="#facs_3_region_1784437091265_129_tl_15" n="N015"/>er sich auch musikalisch mit einem schmalen Einkommen.
-               <lb facs="#facs_3_region_1784437091265_129_tl_16" n="N016"/>Herr <hi rendition="#em">
-                  <rs type="person">Müller</rs>
-               </hi> thut für diesen <rs type="person">Manuel</rs> das Möglichste und
-               <lb facs="#facs_3_region_1784437091265_129_tl_17" n="N017"/>verdient dafür aufrichtiges Lob. Von Herrn <hi rendition="#em">
-                  <rs type="person">Sommer</rs>
-               </hi>
-               <lb facs="#facs_3_region_1784437091265_129_tl_18" n="N018"/>(<rs type="person">Ben-Saïd</rs>) kann man niemals sprechen, ohne mit
-               <lb facs="#facs_3_region_1784437091265_129_tl_19" n="N019"/>einem Lob- und Preislied auf seine Stimme zu be¬
-               <lb facs="#facs_3_region_1784437091265_129_tl_20" n="N020"/>ginnen; zum Glück zeigt er auch im Spiele und Vor¬
-               <lb facs="#facs_3_line_1784612670661_796" n="N021"/>trage sehr erfreuliche Fortschritte. <rs type="person">Gounod</rs> verlockt den Sänger
-               <lb facs="#facs_3_line_1784612673345_799" n="N022"/>des <rs type="person">Ben-Saïd</rs> in eine weiche schwärmerische Lyrik, und Herr
-               <lb facs="#facs_3_region_1784437091265_129_tl_21" n="N023"/>
-               <rs type="person">Sommer</rs> folgte wol allzu willig dieser Lockung. Liebes¬
-               <lb facs="#facs_3_region_1784437091265_129_tl_22" n="N024"/>romanzen wie die <rs type="person">Ben-Saïd</rs>'s im dritten und vierten Acte
-               <lb facs="#facs_3_region_1784437091265_129_tl_23" n="N025"/>könnten, lediglich auf die Musik angesehen, von jedem weißen
-               <lb facs="#facs_3_region_1784437091265_129_tl_24" n="N026"/>
-               <rs type="person">Romeo</rs> gesungen sein; ein <rs type="person">Ben-Saïd</rs> sollte sie aber etwas
-               <lb facs="#facs_3_region_1784437091265_129_tl_25" n="N027"/>brauner färben. Er darf uns nicht vergessen lassen, daß hinter
-               <lb facs="#facs_3_region_1784437091265_129_tl_26" n="N028"/>dem bittenden Liebhaber der wilde Despot und hinter seiner
-               <lb facs="#facs_3_region_1784437091265_129_tl_27" n="N029"/>Galanterie die Brutalität lauert. Zwei kleinere Rollen von
-               <lb facs="#facs_3_region_1784437091265_129_tl_28" n="N030"/>Wichtigkeit, <rs type="person">Iglesia</rs> und <rs type="person">Hadjar</rs>, werden von Fräulein
-               <lb facs="#facs_3_region_1784437091265_129_tl_29" n="N031"/>
-               <hi rendition="#em">
-                  <rs type="person">Braga</rs>
-               </hi> und Herrn <hi rendition="#em">
-                  <rs type="person">Horwitz</rs>
-               </hi> gut gespielt und gesungen.
-               <lb facs="#facs_3_region_1784437091265_129_tl_30" n="N032"/>Der „<rs type="bibl">Tribut von Zamora</rs>“ ist von Herrn Hanns <hi rendition="#em">
-                  <rs type="person">Richter</rs>
-               </hi>
-               <lb facs="#facs_3_region_1784437091265_129_tl_31" n="N033"/>vortrefflich einstudirt und erfrischt mit allerlei charakteristi¬
-               <lb facs="#facs_3_region_1784437091265_129_tl_32" n="N034"/>schen üppigen Tänzen rechtzeitig das Auge, wenn das Ohr
-               <lb facs="#facs_3_region_1784437091265_129_tl_33" n="N035"/>sich zu langweilen beginnt. Man hat hier sehr zum Vortheile
-               <lb facs="#facs_3_region_1784437091265_129_tl_34" n="N036"/>der Oper das im Original unerträglich lange Ballet bis
-               <lb facs="#facs_3_region_1784437091265_129_tl_35" n="N037"/>auf zwei Nummern zusammengestrichen, welche glücklicherweise
-               <lb facs="#facs_3_region_1784437091265_129_tl_36" n="N038"/>zu den frischesten und pilantesten Seiten der ganzen Partitur
-               <lb facs="#facs_3_line_1784609053689_40" n="N039"/>gehören.
+            <p prev="true">
+         <lb facs="#facs_3_region_1784437091265_129_tl_1" n="N001"/><rs type="person" ref="#hsl_person_id_820">Lucca</rs> den ganzen Abend hindurch das musikalische Element
+         <lb facs="#facs_3_region_1784437091265_129_tl_2" n="N002"/>nirgends dem dramatischen Effect zulieb verletzt oder beein
+         <lb facs="#facs_3_region_1784437091265_129_tl_3" n="N003" break="no"/>trächtigt. Ihr Vortrag blieb edel, ihr Ton rein und bestimmt.
+         <lb facs="#facs_3_region_1784437091265_129_tl_4" n="N004"/>Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4591">Kupfer</rs></hi> hat sich mit der <rs type="person" ref="#hsl_person_id_9258">Xaima</rs> sichtliche Mühe ge
+         <lb facs="#facs_3_region_1784437091265_129_tl_5" n="N005" break="no"/>geben und findet in ihrer schmucken Persönlichkeit eine für
+         <lb facs="#facs_3_region_1784437091265_129_tl_6" n="N006"/>diese Rolle besonders erwünschte Hilfe. Gerne würden wir
+         <lb facs="#facs_3_region_1784437091265_129_tl_7" n="N007"/>auch ihre Leistung loben, wenn wir den ganzen Abend hin
+         <lb facs="#facs_3_region_1784437091265_129_tl_8" n="N008" break="no"/>durch Einen ruhigen Ton gehört hätten, nur Einen Ton,
+         <lb facs="#facs_3_region_1784437091265_129_tl_9" n="N009"/>der nicht geflackert und gewackelt hätte. Dieses unausgesetzte
+         <lb facs="#facs_3_region_1784437091265_129_tl_10" n="N010"/>Beben, welches sich für überschwengliches Gefühl ausgibt, es
+         <lb facs="#facs_3_region_1784437091265_129_tl_11" n="N011"/>möglicherweise auch ist, wird dem musikalischen Hörer nach
+         <lb facs="#facs_3_region_1784437091265_129_tl_12" n="N012" break="no"/>gerade zur Pein. Von den beiden männlichen — im Grunde
+         <lb facs="#facs_3_region_1784437091265_129_tl_13" n="N013"/>recht unmännlichen — Helden der Oper hat der Tenorist
+         <lb facs="#facs_3_region_1784437091265_129_tl_14" n="N014"/>(<rs type="person" ref="#hsl_person_id_9261">Manuel</rs>) die undankbarere Rolle; dramatisch hilflos, behilft
+         <lb facs="#facs_3_region_1784437091265_129_tl_15" n="N015"/>er sich auch musikalisch mit einem schmalen Einkommen.
+         <lb facs="#facs_3_region_1784437091265_129_tl_16" n="N016"/>Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1348">Müller</rs></hi> thut für diesen <rs type="person" ref="#hsl_person_id_9261">Manuel</rs> das Möglichste und
+         <lb facs="#facs_3_region_1784437091265_129_tl_17" n="N017"/>verdient dafür aufrichtiges Lob. Von Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4587">Sommer</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1784437091265_129_tl_18" n="N018"/>(<rs type="person" ref="#hsl_person_id_9256">Ben-Saïd</rs>) kann man niemals sprechen, ohne mit
+         <lb facs="#facs_3_region_1784437091265_129_tl_19" n="N019"/>einem Lob- und Preislied auf seine Stimme zu be
+         <lb facs="#facs_3_region_1784437091265_129_tl_20" n="N020" break="no"/>ginnen; zum Glück zeigt er auch im Spiele und Vor
+         <lb facs="#facs_3_line_1784612670661_796" n="N021" break="no"/>trage sehr erfreuliche Fortschritte. <rs type="person" ref="#hsl_person_id_102">Gounod</rs> verlockt den Sänger
+         <lb facs="#facs_3_line_1784612673345_799" n="N022"/>des <rs type="person" ref="#hsl_person_id_9256">Ben-Saïd</rs> in eine weiche schwärmerische Lyrik, und Herr
+         <lb facs="#facs_3_region_1784437091265_129_tl_21" n="N023"/><rs type="person" ref="#hsl_person_id_4587">Sommer</rs> folgte wol allzu willig dieser Lockung. Liebes
+         <lb facs="#facs_3_region_1784437091265_129_tl_22" n="N024" break="no"/>romanzen wie die <rs type="person" ref="#hsl_person_id_9256">Ben-Saïd</rs>’s im dritten und vierten Acte
+         <lb facs="#facs_3_region_1784437091265_129_tl_23" n="N025"/>könnten, lediglich auf die Musik angesehen, von jedem weißen
+         <lb facs="#facs_3_region_1784437091265_129_tl_24" n="N026"/><rs type="person">Romeo</rs> gesungen sein; ein <rs type="person" ref="#hsl_person_id_9256">Ben-Saïd</rs> sollte sie aber etwas
+         <lb facs="#facs_3_region_1784437091265_129_tl_25" n="N027"/>brauner färben. Er darf uns nicht vergessen lassen, daß hinter
+         <lb facs="#facs_3_region_1784437091265_129_tl_26" n="N028"/>dem bittenden Liebhaber der wilde Despot und hinter seiner
+         <lb facs="#facs_3_region_1784437091265_129_tl_27" n="N029"/>Galanterie die Brutalität lauert. Zwei kleinere Rollen von
+         <lb facs="#facs_3_region_1784437091265_129_tl_28" n="N030"/>Wichtigkeit, <rs type="person" ref="#hsl_person_id_9259">Iglesia</rs> und <rs type="person" ref="#hsl_person_id_9260">Hadjar</rs>, werden von Fräulein
+         <lb facs="#facs_3_region_1784437091265_129_tl_29" n="N031"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_7790">Braga</rs></hi> und Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3065">Horwitz</rs></hi> gut gespielt und gesungen.
+         <lb facs="#facs_3_region_1784437091265_129_tl_30" n="N032"/>Der „<rs type="bibl" ref="#hsl_work_id_2976">Tribut von Zamora</rs>“ ist von Herrn Hanns <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1399">Richter</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1784437091265_129_tl_31" n="N033"/>vortrefflich einstudirt und erfrischt mit allerlei charakteristi
+         <lb facs="#facs_3_region_1784437091265_129_tl_32" n="N034" break="no"/>schen üppigen Tänzen rechtzeitig das Auge, wenn das Ohr
+         <lb facs="#facs_3_region_1784437091265_129_tl_33" n="N035"/>sich zu langweilen beginnt. Man hat hier sehr zum Vortheile
+         <lb facs="#facs_3_region_1784437091265_129_tl_34" n="N036"/>der Oper das im Original unerträglich lange Ballet bis
+         <lb facs="#facs_3_region_1784437091265_129_tl_35" n="N037"/>auf zwei Nummern zusammengestrichen, welche glücklicherweise
+         <lb facs="#facs_3_region_1784437091265_129_tl_36" n="N038"/>zu den frischesten und pilantesten Seiten der ganzen Partitur
+         <lb facs="#facs_3_line_1784609053689_40" n="N039"/>gehören.
             </p>
          </div>
       </body>

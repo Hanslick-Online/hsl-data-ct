@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 6639. Wien, Dienstag, den 20. Februar 1883</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +70,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 6639. Wien, Dienstag, den 20. Februar 1883</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1883-02-20">20.02.1883</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18830220"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-08-03">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-08-08">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1045,350 +1045,311 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1784437195063_194_tl_1" n="N001"/><head type="h1"><hi rendition="#em">Musik</hi>.</head>
             <p>
-               <lb facs="#facs_1_line_1784695433859_21" n="N001"/>Nr. 6639. Wien, Dienstag, den 20. Februar 1883
-            </p>
+         <lb facs="#facs_1_region_1784437195063_194_tl_2" n="N002"/>Ed. H. Die Kunde von Richard <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s</hi> plötz
+         <lb facs="#facs_1_region_1784437195063_194_tl_3" n="N003" break="no"/>lichem Tode hat unsere musikalischen Kreise schmerzlich über
+         <lb facs="#facs_1_region_1784437195063_194_tl_4" n="N004" break="no"/>rascht und erschüttert. Stand es auch kaum in menschlicher
+         <lb facs="#facs_1_region_1784437195063_194_tl_5" n="N005"/>Voraussicht, daß der Siebzigjährige die stolze Reihe seiner
+         <lb facs="#facs_1_region_1784437195063_194_tl_6" n="N006"/>Werke noch weiter vermehren, seinen Ruhm noch höher steigern
+         <lb facs="#facs_1_region_1784437195063_194_tl_7" n="N007"/>werde — das Verschwinden einer so außerordentlichen Per
+         <lb facs="#facs_1_region_1784437195063_194_tl_8" n="N008" break="no"/>sönlichkeit ist und bleibt ein schwerer Verlust. Sobald dieser
+         <lb facs="#facs_1_region_1784437195063_194_tl_9" n="N009"/>Mann sich nur zeigte, gab es Anregung, Aufregung, lebhaf
+         <lb facs="#facs_1_region_1784437195063_194_tl_10" n="N010" break="no"/>teste Discussion, die vom Centrum der Kunst aus immer
+         <lb facs="#facs_1_region_1784437195063_194_tl_11" n="N011"/>weitere Wellenkreise zog nach allen Richtungen der Cultur.
+         <lb facs="#facs_1_region_1784437195063_194_tl_12" n="N012"/>Wo immer die Wünschelruthe seines Thuns oder Wollens
+         <lb facs="#facs_1_region_1784437195063_194_tl_13" n="N013"/>aufschlug, da sprudelte irgend ein verborgenes Problem auf.
+         <lb facs="#facs_1_region_1784437195063_194_tl_14" n="N014"/>Und wenn es ein Kennzeichen bahnbrechender Künstler ist,
+         <lb facs="#facs_1_region_1784437195063_194_tl_15" n="N015"/>daß sie über den unmittelbar ästhetischen Eindruck hinaus
+         <lb facs="#facs_1_region_1784437195063_194_tl_16" n="N016"/>Principienfragen hervorrufen, so steht <rs type="person" ref="#hsl_person_id_319">Wagner</rs> unter den be
+         <lb facs="#facs_1_region_1784437195063_194_tl_17" n="N017" break="no"/>wegenden Mächten der modernen Kunst obenan. Durch volle
+         <lb facs="#facs_1_region_1784437195063_194_tl_18" n="N018"/>vierzig Jahre hielt er die Welt in Athem, und wenn schließ
+         <lb facs="#facs_1_region_1784437195063_194_tl_19" n="N019" break="no"/>lich dieser Athem geradezu krankhaft, fieberisch flog, die nächste
+         <lb facs="#facs_1_region_1784437195063_194_tl_20" n="N020"/>Zeit wird ihn wieder zu gelassenerem Tempo besänftigen.
+         <lb facs="#facs_1_region_1784437195063_194_tl_21" n="N021"/>Aus einer an Stagnation grenzenden bequemen Ruhe hat
+         <lb facs="#facs_1_region_1784437195063_194_tl_22" n="N022"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> die Oper und alle daran hängenden theoretischen und
+         <lb facs="#facs_1_region_1784437195063_194_tl_23" n="N023"/>praktischen Fragen aufgerüttelt — wir können nur wünschen,
+         <lb facs="#facs_1_region_1784437195063_194_tl_24" n="N024"/>daß die jetzt naturgemäß eintretende Beschwichtigung nicht
+         <lb facs="#facs_1_region_1784437195063_194_tl_25" n="N025"/>abermals zur Stagnation führe. Ein Mann, dem so weit
+         <lb facs="#facs_1_region_1784437195063_194_tl_26" n="N026" break="no"/>greifende Wirkung und beispielloser Erfolg vergönnt war,
+         <lb facs="#facs_1_region_1784437195063_194_tl_27" n="N027"/>hinterläßt, wenn er nicht aus geistigem Scheintod, sondern
+         <lb facs="#facs_1_region_1784437195063_194_tl_28" n="N028"/>in voller Thatkraft plötzlich abberufen wird, eine von Freunden
+         <lb facs="#facs_1_region_1784437195063_194_tl_29" n="N029"/>und Gegnern tief empfundene klaffende Lücke. Gegner im Sinne
+         <lb facs="#facs_1_region_1784437195063_194_tl_30" n="N030"/>einer absolut feindseligen Einseitigkeit hatte <rs type="person" ref="#hsl_person_id_319">Wagner</rs> eigentlich
+         <lb facs="#facs_1_region_1784437195063_194_tl_31" n="N031"/>gar nicht; kein Musiker ist uns noch begegnet, der so unfähig
+         <lb facs="#facs_1_region_1784437195063_194_tl_32" n="N032"/>oder so leidenschaftlich wäre, die glänzende Begabung und
+         <lb facs="#facs_1_region_1784437195063_194_tl_33" n="N033"/>erstaunliche Kunst <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s zu verkennen, seinen enormen
+         <lb facs="#facs_1_region_1784437195063_194_tl_34" n="N034"/>Einfluß zu unterschätzen, sich dem Großen und Genialen seiner
+         <lb facs="#facs_1_region_1784437195063_194_tl_35" n="N035"/>letzten Werke selbst bei eingestandener Antipathie zu ver
+         <lb facs="#facs_1_region_1784437195063_194_tl_36" n="N036" break="no"/>schließen. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> ist bekämpft worden, aber niemals geleug
+         <lb facs="#facs_1_region_1784437195063_194_tl_37" n="N037" break="no"/>det. Wer mit uns dafür hält, es habe <rs type="person" ref="#hsl_person_id_319">Wagner</rs> mit der
+         <lb facs="#facs_1_region_1784437195063_194_tl_38" n="N038"/>theoretisch erklügelten und eigensinnig durchgeführten Methode<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1784437195063_194_tl_1" n="N001"/>
-               <hi rendition="#em">Musik</hi>.
-               <lb facs="#facs_1_region_1784437195063_194_tl_2" n="N002"/>Ed. H. Die Kunde von Richard <hi rendition="#em">
-                  <rs type="person">Wagner</rs>'s</hi> plötz¬
-               <lb facs="#facs_1_region_1784437195063_194_tl_3" n="N003"/>lichem Tode hat unsere musikalischen Kreise schmerzlich über¬
-               <lb facs="#facs_1_region_1784437195063_194_tl_4" n="N004"/>rascht und erschüttert. Stand es auch kaum in menschlicher
-               <lb facs="#facs_1_region_1784437195063_194_tl_5" n="N005"/>Voraussicht, daß der Siebzigjährige die stolze Reihe seiner
-               <lb facs="#facs_1_region_1784437195063_194_tl_6" n="N006"/>Werke noch weiter vermehren, seinen Ruhm noch höher steigern
-               <lb facs="#facs_1_region_1784437195063_194_tl_7" n="N007"/>werde — das Verschwinden einer so außerordentlichen Per¬
-               <lb facs="#facs_1_region_1784437195063_194_tl_8" n="N008"/>sönlichkeit ist und bleibt ein schwerer Verlust. Sobald dieser
-               <lb facs="#facs_1_region_1784437195063_194_tl_9" n="N009"/>Mann sich nur zeigte, gab es Anregung, Aufregung, lebhaf¬
-               <lb facs="#facs_1_region_1784437195063_194_tl_10" n="N010"/>teste Discussion, die vom Centrum der Kunst aus immer
-               <lb facs="#facs_1_region_1784437195063_194_tl_11" n="N011"/>weitere Wellenkreise zog nach allen Richtungen der Cultur.
-               <lb facs="#facs_1_region_1784437195063_194_tl_12" n="N012"/>Wo immer die Wünschelruthe seines Thuns oder Wollens
-               <lb facs="#facs_1_region_1784437195063_194_tl_13" n="N013"/>aufschlug, da sprudelte irgend ein verborgenes Problem auf.
-               <lb facs="#facs_1_region_1784437195063_194_tl_14" n="N014"/>Und wenn es ein Kennzeichen bahnbrechender Künstler ist,
-               <lb facs="#facs_1_region_1784437195063_194_tl_15" n="N015"/>daß sie über den unmittelbar ästhetischen Eindruck hinaus
-               <lb facs="#facs_1_region_1784437195063_194_tl_16" n="N016"/>Principienfragen hervorrufen, so steht <rs type="person">Wagner</rs> unter den be¬
-               <lb facs="#facs_1_region_1784437195063_194_tl_17" n="N017"/>wegenden Mächten der modernen Kunst obenan. Durch volle
-               <lb facs="#facs_1_region_1784437195063_194_tl_18" n="N018"/>vierzig Jahre hielt er die Welt in Athem, und wenn schließ¬
-               <lb facs="#facs_1_region_1784437195063_194_tl_19" n="N019"/>lich dieser Athem geradezu krankhaft, fieberisch flog, die nächste
-               <lb facs="#facs_1_region_1784437195063_194_tl_20" n="N020"/>Zeit wird ihn wieder zu gelassenerem Tempo besänftigen.
-               <lb facs="#facs_1_region_1784437195063_194_tl_21" n="N021"/>Aus einer an Stagnation grenzenden bequemen Ruhe hat
-               <lb facs="#facs_1_region_1784437195063_194_tl_22" n="N022"/>
-               <rs type="person">Wagner</rs> die Oper und alle daran hängenden theoretischen und
-               <lb facs="#facs_1_region_1784437195063_194_tl_23" n="N023"/>praktischen Fragen aufgerüttelt — wir können nur wünschen,
-               <lb facs="#facs_1_region_1784437195063_194_tl_24" n="N024"/>daß die jetzt naturgemäß eintretende Beschwichtigung nicht
-               <lb facs="#facs_1_region_1784437195063_194_tl_25" n="N025"/>abermals zur Stagnation führe. Ein Mann, dem so weit¬
-               <lb facs="#facs_1_region_1784437195063_194_tl_26" n="N026"/>greifende Wirkung und beispielloser Erfolg vergönnt war,
-               <lb facs="#facs_1_region_1784437195063_194_tl_27" n="N027"/>hinterläßt, wenn er nicht aus geistigem Scheintod, sondern
-               <lb facs="#facs_1_region_1784437195063_194_tl_28" n="N028"/>in voller Thatkraft plötzlich abberufen wird, eine von Freunden
-               <lb facs="#facs_1_region_1784437195063_194_tl_29" n="N029"/>und Gegnern tief empfundene klaffende Lücke. Gegner im Sinne
-               <lb facs="#facs_1_region_1784437195063_194_tl_30" n="N030"/>einer absolut feindseligen Einseitigkeit hatte <rs type="person">Wagner</rs> eigentlich
-               <lb facs="#facs_1_region_1784437195063_194_tl_31" n="N031"/>gar nicht; kein Musiker ist uns noch begegnet, der so unfähig
-               <lb facs="#facs_1_region_1784437195063_194_tl_32" n="N032"/>oder so leidenschaftlich wäre, die glänzende Begabung und
-               <lb facs="#facs_1_region_1784437195063_194_tl_33" n="N033"/>erstaunliche Kunst <rs type="person">Wagner</rs>'s zu verkennen, seinen enormen
-               <lb facs="#facs_1_region_1784437195063_194_tl_34" n="N034"/>Einfluß zu unterschätzen, sich dem Großen und Genialen seiner
-               <lb facs="#facs_1_region_1784437195063_194_tl_35" n="N035"/>letzten Werke selbst bei eingestandener Antipathie zu ver¬
-               <lb facs="#facs_1_region_1784437195063_194_tl_36" n="N036"/>schließen. <rs type="person">Wagner</rs> ist bekämpft worden, aber niemals geleug¬
-               <lb facs="#facs_1_region_1784437195063_194_tl_37" n="N037"/>det. Wer mit uns dafür hält, es habe <rs type="person">Wagner</rs> mit der
-               <lb facs="#facs_1_region_1784437195063_194_tl_38" n="N038"/>theoretisch erklügelten und eigensinnig durchgeführten Methode
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1784437199338_197_tl_1" n="N001"/>seines letzten Styls die Oper auf einen lebensgefährlichen Ab
+         <lb facs="#facs_1_region_1784437199338_197_tl_2" n="N002" break="no"/>weg gedrängt, dem fehlt doch nimmermehr die bewundernde
+         <lb facs="#facs_1_region_1784437199338_197_tl_3" n="N003"/>Einsicht, daß <rs type="person" ref="#hsl_person_id_319">Wagner</rs> diesen schwindelnden Pfad sich aus
+         <lb facs="#facs_1_region_1784437199338_197_tl_4" n="N004"/>eigenster Kraft allein gebahnt, daß er eine neue Gattung,
+         <lb facs="#facs_1_region_1784437199338_197_tl_5" n="N005"/>eine neue Kunst geschaffen hat. Vor der Kühnheit und Con
+         <lb facs="#facs_1_region_1784437199338_197_tl_6" n="N006" break="no"/>sequenz dieser neuen Kunst ziehen wir den Hut, ohne ihr
+         <lb facs="#facs_1_region_1784437199338_197_tl_7" n="N007"/>Heerfolge zu leisten und ohne der „alten“ Kunst <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s,
+         <lb facs="#facs_1_region_1784437199338_197_tl_8" n="N008"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s, <rs type="person" ref="#hsl_person_id_321">Weber</rs>’s einen Augenblick untreu zu werden.
+         <lb facs="#facs_1_region_1784437199338_197_tl_9" n="N009"/>Den Versuch, <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s kunstgeschichtliche Bedeutung im Großen
+         <lb facs="#facs_1_region_1784437199338_197_tl_10" n="N010"/>und Ganzen zu würdigen, müssen wir uns auf einen ruhi
+         <lb facs="#facs_1_region_1784437199338_197_tl_11" n="N011" break="no"/>geren Augenblick versparen. Noch tief eingetaucht in die Er
+         <lb facs="#facs_1_region_1784437199338_197_tl_12" n="N012" break="no"/>regung des Tages, wollten wir heute nur den so oft miß
+         <lb facs="#facs_1_region_1784437199338_197_tl_13" n="N013" break="no"/>deuteten Sinn der „Gegnerschaft“ richtigstellen und aussprechen,
+         <lb facs="#facs_1_region_1784437199338_197_tl_14" n="N014"/>daß eine „factiöse Opposition“ nicht gegen <rs type="person" ref="#hsl_person_id_319">Wagner</rs> besteht,
+         <lb facs="#facs_1_region_1784437199338_197_tl_15" n="N015"/>sondern nur gegen die Wagnerianer. Uebrigens dürfte auch
+         <lb facs="#facs_1_region_1784437199338_197_tl_16" n="N016"/>unter diesen eine mildere, maßvollere Stimmung sich geltend
+         <lb facs="#facs_1_region_1784437199338_197_tl_17" n="N017"/>machen, nicht heute schon, aber in naher Zeit. Was
+         <lb facs="#facs_1_region_1784437199338_197_tl_18" n="N018"/>tröstend wie eine weiche Hand sich auf ihre Trauer legen
+         <lb facs="#facs_1_region_1784437199338_197_tl_19" n="N019"/>muß, ist der Gedanke an den beneidenswerthen, schönen Tod,
+         <lb facs="#facs_1_region_1784437199338_197_tl_20" n="N020"/>der dem Meister beschieden war. Nur halb wahr ist das
+         <lb facs="#facs_1_region_1784437199338_197_tl_21" n="N021"/>Wort des <rs type="place" ref="#hsl_place_id_23">griechisch</rs>en <rs type="person">Dichter</rs>s, daß die Götter ihre Lieblinge
+         <lb facs="#facs_1_region_1784437199338_197_tl_22" n="N022"/>jung abberufen. Glücklicher preisen wir den Sterblichen, der
+         <lb facs="#facs_1_region_1784437199338_197_tl_23" n="N023"/>wie <rs type="person" ref="#hsl_person_id_319">Wagner</rs> zu hohen Jahren und hohen Ehren aufgestiegen
+         <lb facs="#facs_1_region_1784437199338_197_tl_24" n="N024"/>ist, um dann ohne Siechthum heiter und ahnungslos aus
+         <lb facs="#facs_1_region_1784437199338_197_tl_25" n="N025"/>dem Leben zu scheiden. Ja, als ein Glücklicher ist <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784437199338_197_tl_26" n="N026"/>gestorben. Es war ihm noch vor wenig Monden beschieden,
+         <lb facs="#facs_1_region_1784437199338_197_tl_27" n="N027"/>sein letztes großes Werk in <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs> lebendig zu machen, sich
+         <lb facs="#facs_1_region_1784437199338_197_tl_28" n="N028"/>tagtäglich an der eigenen Rüstigkeit zu erfreuen und im
+         <lb facs="#facs_1_region_1784437199338_197_tl_29" n="N029"/>vollen Sonnenschein eines Erfolges zu schwelgen, wie er
+         <lb facs="#facs_1_region_1784437199338_197_tl_30" n="N030"/>keinem Künstler irgend einer Zeit oder Nation je zuvor ge
+         <lb facs="#facs_1_region_1784437199338_197_tl_31" n="N031" break="no"/>leuchtet hat. Wie wir ihn dort zuletzt gesehen, auf dem Söller
+         <lb facs="#facs_1_region_1784437199338_197_tl_32" n="N032"/>seines „Festspielhauses“ — das bald nur ein historisches
+         <lb facs="#facs_1_region_1784437199338_197_tl_33" n="N033"/>Monument sein wird — siegesfroh in seiner Alles bändi
+         <lb facs="#facs_1_region_1784437199338_197_tl_34" n="N034" break="no"/>genden Willenskraft, so hegen wir Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> gerne
+         <lb facs="#facs_1_region_1784437199338_197_tl_35" n="N035"/>in der Erinnerung. Und will man uns an seine irdischen
+         <lb facs="#facs_1_region_1784437199338_197_tl_36" n="N036"/>Schwächen und Leidenschaften mahnen, so finden wir ihre
+         <lb facs="#facs_1_region_1784437199338_197_tl_37" n="N037"/>Spur nicht mehr in unserem Gedächtnisse, „denn der Tod,“
+         <lb facs="#facs_1_region_1784437199338_197_tl_38" n="N038"/>sagen wir mit <rs type="person" ref="#hsl_person_id_721">Grillparzer</rs>, „ist wie ein Blitzstrahl, der <hi rendition="#em">ver
+         <lb facs="#facs_1_region_1784437199338_197_tl_39" n="N039" break="no"/>klärt</hi>, was er <hi rendition="#em">verzehrt</hi>.“
+            </p><p>
+         <lb facs="#facs_1_region_1784437199338_197_tl_40" n="N040"/>Für die musikalischen Productionen dieser Woche war
+         <lb facs="#facs_1_region_1784437199338_197_tl_41" n="N041"/>in den tief erregten Kreisen nur sehr geringe Aufmerksamkeit<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1784437199338_197_tl_1" n="N001"/>seines letzten Styls die Oper auf einen lebensgefährlichen Ab¬
-               <lb facs="#facs_1_region_1784437199338_197_tl_2" n="N002"/>weg gedrängt, dem fehlt doch nimmermehr die bewundernde
-               <lb facs="#facs_1_region_1784437199338_197_tl_3" n="N003"/>Einsicht, daß <rs type="person">Wagner</rs> diesen schwindelnden Pfad sich aus
-               <lb facs="#facs_1_region_1784437199338_197_tl_4" n="N004"/>eigenster Kraft allein gebahnt, daß er eine neue Gattung,
-               <lb facs="#facs_1_region_1784437199338_197_tl_5" n="N005"/>eine neue Kunst geschaffen hat. Vor der Kühnheit und Con¬
-               <lb facs="#facs_1_region_1784437199338_197_tl_6" n="N006"/>sequenz dieser neuen Kunst ziehen wir den Hut, ohne ihr
-               <lb facs="#facs_1_region_1784437199338_197_tl_7" n="N007"/>Heerfolge zu leisten und ohne der „alten“ Kunst <rs type="person">Mozart</rs>'s,
-               <lb facs="#facs_1_region_1784437199338_197_tl_8" n="N008"/>
-               <rs type="person">Beethoven</rs>'s, <rs type="person">Weber</rs>'s einen Augenblick untreu zu werden.
-               <lb facs="#facs_1_region_1784437199338_197_tl_9" n="N009"/>Den Versuch, <rs type="person">Wagner</rs>'s kunstgeschichtliche Bedeutung im Großen
-               <lb facs="#facs_1_region_1784437199338_197_tl_10" n="N010"/>und Ganzen zu würdigen, müssen wir uns auf einen ruhi¬
-               <lb facs="#facs_1_region_1784437199338_197_tl_11" n="N011"/>geren Augenblick versparen. Noch tief eingetaucht in die Er¬
-               <lb facs="#facs_1_region_1784437199338_197_tl_12" n="N012"/>regung des Tages, wollten wir heute nur den so oft miß¬
-               <lb facs="#facs_1_region_1784437199338_197_tl_13" n="N013"/>deuteten Sinn der „Gegnerschaft“ richtigstellen und aussprechen,
-               <lb facs="#facs_1_region_1784437199338_197_tl_14" n="N014"/>daß eine „factiöse Opposition“ nicht gegen <rs type="person">Wagner</rs> besteht,
-               <lb facs="#facs_1_region_1784437199338_197_tl_15" n="N015"/>sondern nur gegen die Wagnerianer. Uebrigens dürfte auch
-               <lb facs="#facs_1_region_1784437199338_197_tl_16" n="N016"/>unter diesen eine mildere, maßvollere Stimmung sich geltend
-               <lb facs="#facs_1_region_1784437199338_197_tl_17" n="N017"/>machen, nicht heute schon, aber in naher Zeit. Was
-               <lb facs="#facs_1_region_1784437199338_197_tl_18" n="N018"/>tröstend wie eine weiche Hand sich auf ihre Trauer legen
-               <lb facs="#facs_1_region_1784437199338_197_tl_19" n="N019"/>muß, ist der Gedanke an den beneidenswerthen, schönen Tod,
-               <lb facs="#facs_1_region_1784437199338_197_tl_20" n="N020"/>der dem Meister beschieden war. Nur halb wahr ist das
-               <lb facs="#facs_1_region_1784437199338_197_tl_21" n="N021"/>Wort des <rs type="place">griechisch</rs>en <rs type="person">Dichter</rs>s, daß die Götter ihre Lieblinge
-               <lb facs="#facs_1_region_1784437199338_197_tl_22" n="N022"/>jung abberufen. Glücklicher preisen wir den Sterblichen, der
-               <lb facs="#facs_1_region_1784437199338_197_tl_23" n="N023"/>wie <rs type="person">Wagner</rs> zu hohen Jahren und hohen Ehren aufgestiegen
-               <lb facs="#facs_1_region_1784437199338_197_tl_24" n="N024"/>ist, um dann ohne Siechthum heiter und ahnungslos aus
-               <lb facs="#facs_1_region_1784437199338_197_tl_25" n="N025"/>dem Leben zu scheiden. Ja, als ein Glücklicher ist <rs type="person">Wagner</rs>
-               <lb facs="#facs_1_region_1784437199338_197_tl_26" n="N026"/>gestorben. Es war ihm noch vor wenig Monden beschieden,
-               <lb facs="#facs_1_region_1784437199338_197_tl_27" n="N027"/>sein letztes großes Werk in <rs type="place">Bayreuth</rs> lebendig zu machen, sich
-               <lb facs="#facs_1_region_1784437199338_197_tl_28" n="N028"/>tagtäglich an der eigenen Rüstigkeit zu erfreuen und im
-               <lb facs="#facs_1_region_1784437199338_197_tl_29" n="N029"/>vollen Sonnenschein eines Erfolges zu schwelgen, wie er
-               <lb facs="#facs_1_region_1784437199338_197_tl_30" n="N030"/>keinem Künstler irgend einer Zeit oder Nation je zuvor ge¬
-               <lb facs="#facs_1_region_1784437199338_197_tl_31" n="N031"/>leuchtet hat. Wie wir ihn dort zuletzt gesehen, auf dem Söller
-               <lb facs="#facs_1_region_1784437199338_197_tl_32" n="N032"/>seines „Festspielhauses“ — das bald nur ein historisches
-               <lb facs="#facs_1_region_1784437199338_197_tl_33" n="N033"/>Monument sein wird — siegesfroh in seiner Alles bändi¬
-               <lb facs="#facs_1_region_1784437199338_197_tl_34" n="N034"/>genden Willenskraft, so hegen wir Richard <rs type="person">Wagner</rs> gerne
-               <lb facs="#facs_1_region_1784437199338_197_tl_35" n="N035"/>in der Erinnerung. Und will man uns an seine irdischen
-               <lb facs="#facs_1_region_1784437199338_197_tl_36" n="N036"/>Schwächen und Leidenschaften mahnen, so finden wir ihre
-               <lb facs="#facs_1_region_1784437199338_197_tl_37" n="N037"/>Spur nicht mehr in unserem Gedächtnisse, „denn der Tod,“
-               <lb facs="#facs_1_region_1784437199338_197_tl_38" n="N038"/>sagen wir mit <rs type="person">Grillparzer</rs>, „ist wie ein Blitzstrahl, der <hi rendition="#em">ver¬</hi>
-               <lb facs="#facs_1_region_1784437199338_197_tl_39" n="N039"/>
-               <hi rendition="#em">klärt</hi>, was er <hi rendition="#em">verzehrt</hi>.“
-               <lb facs="#facs_1_region_1784437199338_197_tl_40" n="N040"/>Für die musikalischen Productionen dieser Woche war
-               <lb facs="#facs_1_region_1784437199338_197_tl_41" n="N041"/>in den tief erregten Kreisen nur sehr geringe Aufmerksamkeit
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1784437202306_200_tl_1" n="N001"/>und Theilnahme übrig geblieben. Auch uns kostet es
-               <lb facs="#facs_1_region_1784437202306_200_tl_2" n="N002"/>einige Anstrengung, heute mit gewohnter Regelmäßig¬
-               <lb facs="#facs_1_region_1784437202306_200_tl_3" n="N003"/>keit über die verschiedenen kleinen und großen Con¬
-               <lb facs="#facs_1_region_1784437202306_200_tl_4" n="N004"/>certe zu berichten. Wir könnten uns dieser Mühe
-               <lb facs="#facs_1_region_1784437202306_200_tl_5" n="N005"/>vielleicht ganz entheben, wären nicht gerade jetzt einige der
-               <lb facs="#facs_1_region_1784437202306_200_tl_6" n="N006"/>bedeutendsten Compositionen zur ersten Aufführung gelangt.
-               <lb facs="#facs_1_region_1784437202306_200_tl_7" n="N007"/>Die Lebenden wollen ihr Recht. Keiner von ihnen hat aber
-               <lb facs="#facs_1_region_1784437202306_200_tl_8" n="N008"/>ein stärkeres Recht auf allgemeine wärmste Theilnahme, als
-               <lb facs="#facs_1_region_1784437202306_200_tl_9" n="N009"/>unser Johannes <hi rendition="#em">
-                  <rs type="person">Brahms</rs>
-               </hi>. Wir haben eben zwei neue größere
-               <lb facs="#facs_1_region_1784437202306_200_tl_10" n="N010"/>Werke von ihm gehört: ein <rs type="bibl">Quintett</rs> für zwei Violinen,
-               <lb facs="#facs_1_region_1784437202306_200_tl_11" n="N011"/>zwei Bratschen und Violoncell und das „<rs type="bibl">Parzenlied</rs>“ aus
-               <lb facs="#facs_1_region_1784437202306_200_tl_12" n="N012"/>
-               <rs type="person">Goethe</rs>'s <rs type="bibl">Iphigenie</rs> für Chor und Orchester. In dem neuen
-               <lb facs="#facs_1_region_1784437202306_200_tl_13" n="N013"/>
-               <rs type="bibl">Quintett</rs> (F-dur, Op. 88) tritt uns eine der vollkommensten
-               <lb facs="#facs_1_region_1784437202306_200_tl_14" n="N014"/>Schöpfungen <rs type="person">Brahms</rs>' entgegen, eine der klarsten zumal und
-               <lb facs="#facs_1_region_1784437202306_200_tl_15" n="N015"/>liebenswürdigsten. Seine neueren Compositionen bringen wol
-               <lb facs="#facs_1_region_1784437202306_200_tl_16" n="N016"/>weniger Ueberraschendes, im Vergleich zu seinen revolutionären
-               <lb facs="#facs_1_region_1784437202306_200_tl_17" n="N017"/>Jugendwerken, an welche vielleicht nur die reckenhafte zweite
-               <lb facs="#facs_1_region_1784437202306_200_tl_18" n="N018"/>
-               <rs type="bibl">Clavier-Rhapsodie</rs> wieder anknüpft — aber das Schöne concentrirt
-               <lb facs="#facs_1_region_1784437202306_200_tl_19" n="N019"/>sich mehr in ihnen und ihre Gesammtstimmung wird heiterer,
-               <lb facs="#facs_1_region_1784437202306_200_tl_20" n="N020"/>befriedigter. So auch in dem neuen <rs type="bibl">Quintett</rs>. Gleich das
-               <lb facs="#facs_1_region_1784437202306_200_tl_21" n="N021"/>einfach singende Hauptthema schlägt einen idyllischen Ton an,
-               <lb facs="#facs_1_region_1784437202306_200_tl_22" n="N022"/>der in dem reizenden Gegenthema A-dur sich belebt und in
-               <lb facs="#facs_1_region_1784437202306_200_tl_23" n="N023"/>durchsichtigem Wechselspiel dieser beiden Motive einen dauern¬
-               <lb facs="#facs_1_region_1784437202306_200_tl_24" n="N024"/>den Sonnenschein über den ganzen ersten Satz breitet. Na¬
-               <lb facs="#facs_1_region_1784437202306_200_tl_25" n="N025"/>türlich sieht es anders aus, wenn bei <rs type="person">Brahms</rs> die Sonne
-               <lb facs="#facs_1_region_1784437202306_200_tl_26" n="N026"/>scheint, als bei <rs type="person">Haydn</rs> oder <rs type="person">Mozart</rs> — sie beleuchtet eben
-               <lb facs="#facs_1_region_1784437202306_200_tl_27" n="N027"/>eine ernstere, herbere Landschaft, in welcher es an einzelnen
-               <lb facs="#facs_1_region_1784437202306_200_tl_28" n="N028"/>Felsriffen und seltsam geästeten Bäumen nicht fehlt. An sich
-               <lb facs="#facs_1_region_1784437202306_200_tl_29" n="N029"/>einer der blühendsten Sätze <rs type="person">Brahms</rs>'scher Kammermusik,
-               <lb facs="#facs_1_region_1784437202306_200_tl_30" n="N030"/>wird dieses Allegro doch noch übertroffen von dem folgenden
-               <lb facs="#facs_1_region_1784437202306_200_tl_31" n="N031"/>Adagio. Es ist von ergreifend innigem Gesang, dabei neu
-               <lb facs="#facs_1_region_1784437202306_200_tl_32" n="N032"/>und eigenthümlich in der Form: eine Art Verschmelzung
-               <lb facs="#facs_1_region_1784437202306_200_tl_33" n="N033"/>von Adagio und Scherzo, welch letzteres als selbstständiger
-               <lb facs="#facs_1_region_1784437202306_200_tl_34" n="N034"/>Bestandtheil in dem (nur dreisätzigen) Quintett fehlt.
-               <lb facs="#facs_1_region_1784437202306_200_tl_35" n="N035"/>Das Adagio beginnt mit einer schwermüthigen, leidenschaft¬
-               <lb facs="#facs_1_region_1784437202306_200_tl_36" n="N036"/>lichen Melodie in Cis-moll, weicht aber bald einem muntern
-               <lb facs="#facs_1_line_1784695870938_231" n="N037"/>Allegretto in A-dur, das nach längerem Flug wieder in die
-               <lb facs="#facs_1_line_1784695859183_227" n="N038"/>gedankenvolle Tiefe des Adagio zurücksinkt. Letzteres ergeht
-               <lb facs="#facs_1_region_1784437202306_200_tl_41" n="N039"/>sich diesmal etwas breiter als anfangs und schließt wieder in
-               <lb facs="#facs_1_region_1784437202306_200_tl_42" n="N040"/>der Haupttonart, aber nur scheinbar, denn unangemeldet flattert
-               <lb facs="#facs_1_region_1784437202306_200_tl_43" n="N041"/>abermals ein zierliches Presto in A-dur herein, um endlich,
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1784437202306_200_tl_1" n="N001"/>und Theilnahme übrig geblieben. Auch uns kostet es
+         <lb facs="#facs_1_region_1784437202306_200_tl_2" n="N002"/>einige Anstrengung, heute mit gewohnter Regelmäßig
+         <lb facs="#facs_1_region_1784437202306_200_tl_3" n="N003" break="no"/>keit über die verschiedenen kleinen und großen Con
+         <lb facs="#facs_1_region_1784437202306_200_tl_4" n="N004" break="no"/>certe zu berichten. Wir könnten uns dieser Mühe
+         <lb facs="#facs_1_region_1784437202306_200_tl_5" n="N005"/>vielleicht ganz entheben, wären nicht gerade jetzt einige der
+         <lb facs="#facs_1_region_1784437202306_200_tl_6" n="N006"/>bedeutendsten Compositionen zur ersten Aufführung gelangt.
+         <lb facs="#facs_1_region_1784437202306_200_tl_7" n="N007"/>Die Lebenden wollen ihr Recht. Keiner von ihnen hat aber
+         <lb facs="#facs_1_region_1784437202306_200_tl_8" n="N008"/>ein stärkeres Recht auf allgemeine wärmste Theilnahme, als
+         <lb facs="#facs_1_region_1784437202306_200_tl_9" n="N009"/>unser Johannes <hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi>. Wir haben eben zwei neue größere
+         <lb facs="#facs_1_region_1784437202306_200_tl_10" n="N010"/>Werke von ihm gehört: ein <rs type="bibl">Quintett</rs> für zwei Violinen,
+         <lb facs="#facs_1_region_1784437202306_200_tl_11" n="N011"/>zwei Bratschen und Violoncell und das „<rs type="bibl" ref="#hsl_work_id_2265">Parzenlied</rs>“ aus
+         <lb facs="#facs_1_region_1784437202306_200_tl_12" n="N012"/><rs type="person" ref="#hsl_person_id_100">Goethe</rs>’s <rs type="bibl" ref="#hsl_work_id_3315">Iphigenie</rs> für Chor und Orchester. In dem neuen
+         <lb facs="#facs_1_region_1784437202306_200_tl_13" n="N013"/><rs type="bibl">Quintett</rs> (F-dur, Op. 88) tritt uns eine der vollkommensten
+         <lb facs="#facs_1_region_1784437202306_200_tl_14" n="N014"/>Schöpfungen <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’ entgegen, eine der klarsten zumal und
+         <lb facs="#facs_1_region_1784437202306_200_tl_15" n="N015"/>liebenswürdigsten. Seine neueren Compositionen bringen wol
+         <lb facs="#facs_1_region_1784437202306_200_tl_16" n="N016"/>weniger Ueberraschendes, im Vergleich zu seinen revolutionären
+         <lb facs="#facs_1_region_1784437202306_200_tl_17" n="N017"/>Jugendwerken, an welche vielleicht nur die reckenhafte zweite
+         <lb facs="#facs_1_region_1784437202306_200_tl_18" n="N018"/><rs type="bibl">Clavier-Rhapsodie</rs> wieder anknüpft — aber das Schöne concentrirt
+         <lb facs="#facs_1_region_1784437202306_200_tl_19" n="N019"/>sich mehr in ihnen und ihre Gesammtstimmung wird heiterer,
+         <lb facs="#facs_1_region_1784437202306_200_tl_20" n="N020"/>befriedigter. So auch in dem neuen <rs type="bibl">Quintett</rs>. Gleich das
+         <lb facs="#facs_1_region_1784437202306_200_tl_21" n="N021"/>einfach singende Hauptthema schlägt einen idyllischen Ton an,
+         <lb facs="#facs_1_region_1784437202306_200_tl_22" n="N022"/>der in dem reizenden Gegenthema A-dur sich belebt und in
+         <lb facs="#facs_1_region_1784437202306_200_tl_23" n="N023"/>durchsichtigem Wechselspiel dieser beiden Motive einen dauern
+         <lb facs="#facs_1_region_1784437202306_200_tl_24" n="N024" break="no"/>den Sonnenschein über den ganzen ersten Satz breitet. Na
+         <lb facs="#facs_1_region_1784437202306_200_tl_25" n="N025" break="no"/>türlich sieht es anders aus, wenn bei <rs type="person" ref="#hsl_person_id_41">Brahms</rs> die Sonne
+         <lb facs="#facs_1_region_1784437202306_200_tl_26" n="N026"/>scheint, als bei <rs type="person" ref="#hsl_person_id_114">Haydn</rs> oder <rs type="person" ref="#hsl_person_id_189">Mozart</rs> — sie beleuchtet eben
+         <lb facs="#facs_1_region_1784437202306_200_tl_27" n="N027"/>eine ernstere, herbere Landschaft, in welcher es an einzelnen
+         <lb facs="#facs_1_region_1784437202306_200_tl_28" n="N028"/>Felsriffen und seltsam geästeten Bäumen nicht fehlt. An sich
+         <lb facs="#facs_1_region_1784437202306_200_tl_29" n="N029"/>einer der blühendsten Sätze <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’scher Kammermusik,
+         <lb facs="#facs_1_region_1784437202306_200_tl_30" n="N030"/>wird dieses Allegro doch noch übertroffen von dem folgenden
+         <lb facs="#facs_1_region_1784437202306_200_tl_31" n="N031"/>Adagio. Es ist von ergreifend innigem Gesang, dabei neu
+         <lb facs="#facs_1_region_1784437202306_200_tl_32" n="N032"/>und eigenthümlich in der Form: eine Art Verschmelzung
+         <lb facs="#facs_1_region_1784437202306_200_tl_33" n="N033"/>von Adagio und Scherzo, welch letzteres als selbstständiger
+         <lb facs="#facs_1_region_1784437202306_200_tl_34" n="N034"/>Bestandtheil in dem (nur dreisätzigen) Quintett fehlt.
+         <lb facs="#facs_1_region_1784437202306_200_tl_35" n="N035"/>Das Adagio beginnt mit einer schwermüthigen, leidenschaft
+         <lb facs="#facs_1_region_1784437202306_200_tl_36" n="N036" break="no"/>lichen Melodie in Cis-moll, weicht aber bald einem muntern
+         <lb facs="#facs_1_line_1784695870938_231" n="N037"/>Allegretto in A-dur, das nach längerem Flug wieder in die
+         <lb facs="#facs_1_line_1784695859183_227" n="N038"/>gedankenvolle Tiefe des Adagio zurücksinkt. Letzteres ergeht
+         <lb facs="#facs_1_region_1784437202306_200_tl_41" n="N039"/>sich diesmal etwas breiter als anfangs und schließt wieder in
+         <lb facs="#facs_1_region_1784437202306_200_tl_42" n="N040"/>der Haupttonart, aber nur scheinbar, denn unangemeldet flattert
+         <lb facs="#facs_1_region_1784437202306_200_tl_43" n="N041"/>abermals ein zierliches Presto in A-dur herein, um endlich,<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784437215130_206_tl_1" n="N001"/>gleich dem früheren Allegretto, wieder in das erste Adagio ein
+         <lb facs="#facs_2_region_1784437215130_206_tl_2" n="N002" break="no"/>zumünden, das jetzt in A-dur erscheint und verbleibt. Das
+         <lb facs="#facs_2_region_1784437215130_206_tl_3" n="N003"/>allmälige leise Ausathmen dieses Satzes ist von überirdischer
+         <lb facs="#facs_2_region_1784437215130_206_tl_4" n="N004"/>Schönheit. Freunde poetischer Auslegung mögen an diesem
+         <lb facs="#facs_2_region_1784437215130_206_tl_5" n="N005"/>seltsamen und doch nirgends willkürlichen Wechsel von Stim
+         <lb facs="#facs_2_region_1784437215130_206_tl_6" n="N006" break="no"/>mungen ihre Kunst versuchen. Wir können ihnen dabei nicht helfen,
+         <lb facs="#facs_2_region_1784437215130_206_tl_7" n="N007"/>freilich auch nicht widersprechen, wenn sie sich in eine veilchen
+         <lb facs="#facs_2_region_1784437215130_206_tl_8" n="N008" break="no"/>duftende stille Frühlingsnacht versetzt wähnen, am offenen
+         <lb facs="#facs_2_region_1784437215130_206_tl_9" n="N009"/>Fenster freudvoll und leidvoll in das mondbeglänzte Gärtchen
+         <lb facs="#facs_2_region_1784437215130_206_tl_10" n="N010"/>blickend. — Auch in dem Finale ist Alles klar, durchsichtig,
+         <lb facs="#facs_2_region_1784437215130_206_tl_11" n="N011"/>in Einem Guß. Es setzt mit einer durch vier Tacte auf
+         <lb facs="#facs_2_region_1784437215130_206_tl_12" n="N012" break="no"/>rauschenden Achtelfigur der Bratsche ein, die später als Be
+         <lb facs="#facs_2_region_1784437215130_206_tl_13" n="N013" break="no"/>gleitungsmotiv eines Gesangsthemas auftritt und durch eine
+         <lb facs="#facs_2_region_1784437215130_206_tl_14" n="N014"/>Reihe geistvoller Wandlungen hindurch zu einem glänzenden,
+         <lb facs="#facs_2_region_1784437215130_206_tl_15" n="N015"/>feurigen Schluß führt. Es ist ein vortrefflicher Satz und sein
+         <lb facs="#facs_2_region_1784437215130_206_tl_16" n="N016"/>einziges Unglück der kaum zu überbietende Reiz der beiden
+         <lb facs="#facs_2_region_1784437215130_206_tl_17" n="N017"/>vorhergehenden. Das <rs type="bibl">Quintett</rs>, für <rs type="person" ref="#hsl_person_id_41">Brahms</rs> auffallend kurz
+         <lb facs="#facs_2_region_1784437215130_206_tl_18" n="N018"/>und gedrungen, machte in <rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs>’s jüngster Soirée die
+         <lb facs="#facs_2_region_1784437215130_206_tl_19" n="N019"/>gehoffte Wirkung: es entzückte allgemein. Wir haben es
+         <lb facs="#facs_2_region_1784437215130_206_tl_20" n="N020"/>übrigens im Hause des großen Doctors, welcher das
+         <lb facs="#facs_2_region_1784437215130_206_tl_21" n="N021"/>jus primae noctis der <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’schen Muse besitzt,
+         <lb facs="#facs_2_region_1784437215130_206_tl_22" n="N022"/>von denselben Künstlern weit schöner gehört. Jedenfalls feiner
+         <lb facs="#facs_2_region_1784437215130_206_tl_23" n="N023"/>und ausdrucksvoller, als in dem großen Musikvereinssaale,
+         <lb facs="#facs_2_region_1784437215130_206_tl_24" n="N024"/>dessen schlechte Eignung für Quartettvortrag sich immer be
+         <lb facs="#facs_2_region_1784437215130_206_tl_25" n="N025" break="no"/>denklicher herausstellt. Die Tempi der raschen Sätze waren
+         <lb facs="#facs_2_region_1784437215130_206_tl_26" n="N026"/>fast alle verzögert und die Töne deutlichkeitshalber mit über
+         <lb facs="#facs_2_region_1784437215130_206_tl_27" n="N027" break="no"/>triebenem Nachdrucke herausgestrichen. Wir mußten uns über
+         <lb facs="#facs_2_region_1784437215130_206_tl_28" n="N028" break="no"/>dies die <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’sche Novität ziemlich sauer verdienen durch
+         <lb facs="#facs_2_region_1784437215130_206_tl_29" n="N029"/>Anhörung eines unsäglich veralteten <rs type="bibl">Clavier-Quintett</rs>s von
+         <lb facs="#facs_2_region_1784437215130_206_tl_30" n="N030"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_293">Spohr</rs></hi>, das trotz vorzüglicher Mitwirkung der Pianistin
+         <lb facs="#facs_2_region_1784437215130_206_tl_31" n="N031"/>Fräulein <hi rendition="#em"><rs type="person">Dürnberger</rs></hi> eine Art Geduldprobe abgab für
+         <lb facs="#facs_2_region_1784437215130_206_tl_32" n="N032"/>das Publicum.
+            </p><p>
+         <lb facs="#facs_2_region_1784437215130_206_tl_33" n="N033"/>Zu den seltenen Juwelen moderner Chormusik gehört
+         <lb facs="#facs_2_region_1784437215130_206_tl_34" n="N034"/><rs type="person" ref="#hsl_person_id_41">Brahms</rs>’ „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_2265">Gesang der Parzen</rs></hi>“ (Op. 89), dessen erste
+         <lb facs="#facs_2_region_1784437215130_206_tl_35" n="N035"/>Aufführung im vorigen Gesellschafts-Concert unter Herrn
+         <lb facs="#facs_2_region_1784437215130_206_tl_36" n="N036"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_3517">Gericke</rs>’s</hi> Leitung stattfand. Befremden mag vielleicht die
+         <lb facs="#facs_2_region_1784437215130_206_tl_37" n="N037"/>Wahl des an sich herrlichen <rs type="bibl">Gedicht</rs>es, das, aus dem Drama
+         <lb facs="#facs_2_region_1784437215130_206_tl_38" n="N038"/>herausgerissen, im Concert-Publicum kein allgemeines Ver
+         <lb facs="#facs_2_region_1784437215130_206_tl_39" n="N039" break="no"/>ständniß vorfindet und in dieser Isolirung uns trostlos zu
+         <lb facs="#facs_2_region_1784437215130_206_tl_40" n="N040"/>Boden drückt. Zu grausig berührt uns dieser kalte, willkür
+         <lb facs="#facs_2_region_1784437215130_206_tl_41" n="N041" break="no"/>liche Neid der Götter, dem hier nicht (wie in „<rs type="bibl">Prometheus</rs>“)
+         <lb facs="#facs_2_region_1784437215130_206_tl_42" n="N042"/>das Gegengewicht menschlicher Erhebung entgegensteht. Dem<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1784437215130_206_tl_1" n="N001"/>gleich dem früheren Allegretto, wieder in das erste Adagio ein¬
-               <lb facs="#facs_2_region_1784437215130_206_tl_2" n="N002"/>zumünden, das jetzt in A-dur erscheint und verbleibt. Das
-               <lb facs="#facs_2_region_1784437215130_206_tl_3" n="N003"/>allmälige leise Ausathmen dieses Satzes ist von überirdischer
-               <lb facs="#facs_2_region_1784437215130_206_tl_4" n="N004"/>Schönheit. Freunde poetischer Auslegung mögen an diesem
-               <lb facs="#facs_2_region_1784437215130_206_tl_5" n="N005"/>seltsamen und doch nirgends willkürlichen Wechsel von Stim¬
-               <lb facs="#facs_2_region_1784437215130_206_tl_6" n="N006"/>mungen ihre Kunst versuchen. Wir können ihnen dabei nicht helfen,
-               <lb facs="#facs_2_region_1784437215130_206_tl_7" n="N007"/>freilich auch nicht widersprechen, wenn sie sich in eine veilchen¬
-               <lb facs="#facs_2_region_1784437215130_206_tl_8" n="N008"/>duftende stille Frühlingsnacht versetzt wähnen, am offenen
-               <lb facs="#facs_2_region_1784437215130_206_tl_9" n="N009"/>Fenster freudvoll und leidvoll in das mondbeglänzte Gärtchen
-               <lb facs="#facs_2_region_1784437215130_206_tl_10" n="N010"/>blickend. — Auch in dem Finale ist Alles klar, durchsichtig,
-               <lb facs="#facs_2_region_1784437215130_206_tl_11" n="N011"/>in Einem Guß. Es setzt mit einer durch vier Tacte auf¬
-               <lb facs="#facs_2_region_1784437215130_206_tl_12" n="N012"/>rauschenden Achtelfigur der Bratsche ein, die später als Be¬
-               <lb facs="#facs_2_region_1784437215130_206_tl_13" n="N013"/>gleitungsmotiv eines Gesangsthemas auftritt und durch eine
-               <lb facs="#facs_2_region_1784437215130_206_tl_14" n="N014"/>Reihe geistvoller Wandlungen hindurch zu einem glänzenden,
-               <lb facs="#facs_2_region_1784437215130_206_tl_15" n="N015"/>feurigen Schluß führt. Es ist ein vortrefflicher Satz und sein
-               <lb facs="#facs_2_region_1784437215130_206_tl_16" n="N016"/>einziges Unglück der kaum zu überbietende Reiz der beiden
-               <lb facs="#facs_2_region_1784437215130_206_tl_17" n="N017"/>vorhergehenden. Das <rs type="bibl">Quintett</rs>, für <rs type="person">Brahms</rs> auffallend kurz
-               <lb facs="#facs_2_region_1784437215130_206_tl_18" n="N018"/>und gedrungen, machte in <rs type="person">Hellmesberger</rs>'s jüngster Soirée die
-               <lb facs="#facs_2_region_1784437215130_206_tl_19" n="N019"/>gehoffte Wirkung: es entzückte allgemein. Wir haben es
-               <lb facs="#facs_2_region_1784437215130_206_tl_20" n="N020"/>übrigens im Hause des großen Doctors, welcher das
-               <lb facs="#facs_2_region_1784437215130_206_tl_21" n="N021"/>jus primae noctis der <rs type="person">Brahms</rs>'schen Muse besitzt,
-               <lb facs="#facs_2_region_1784437215130_206_tl_22" n="N022"/>von denselben Künstlern weit schöner gehört. Jedenfalls feiner
-               <lb facs="#facs_2_region_1784437215130_206_tl_23" n="N023"/>und ausdrucksvoller, als in dem großen Musikvereinssaale,
-               <lb facs="#facs_2_region_1784437215130_206_tl_24" n="N024"/>dessen schlechte Eignung für Quartettvortrag sich immer be¬
-               <lb facs="#facs_2_region_1784437215130_206_tl_25" n="N025"/>denklicher herausstellt. Die Tempi der raschen Sätze waren
-               <lb facs="#facs_2_region_1784437215130_206_tl_26" n="N026"/>fast alle verzögert und die Töne deutlichkeitshalber mit über¬
-               <lb facs="#facs_2_region_1784437215130_206_tl_27" n="N027"/>triebenem Nachdrucke herausgestrichen. Wir mußten uns über¬
-               <lb facs="#facs_2_region_1784437215130_206_tl_28" n="N028"/>dies die <rs type="person">Brahms</rs>'sche Novität ziemlich sauer verdienen durch
-               <lb facs="#facs_2_region_1784437215130_206_tl_29" n="N029"/>Anhörung eines unsäglich veralteten <rs type="bibl">Clavier-Quintett</rs>s von
-               <lb facs="#facs_2_region_1784437215130_206_tl_30" n="N030"/>
-               <hi rendition="#em">
-                  <rs type="person">Spohr</rs>
-               </hi>, das trotz vorzüglicher Mitwirkung der Pianistin
-               <lb facs="#facs_2_region_1784437215130_206_tl_31" n="N031"/>Fräulein <hi rendition="#em">
-                  <rs type="person">Dürnberger</rs>
-               </hi> eine Art Geduldprobe abgab für
-               <lb facs="#facs_2_region_1784437215130_206_tl_32" n="N032"/>das Publicum.
-               <lb facs="#facs_2_region_1784437215130_206_tl_33" n="N033"/>Zu den seltenen Juwelen moderner Chormusik gehört
-               <lb facs="#facs_2_region_1784437215130_206_tl_34" n="N034"/>
-               <rs type="person">Brahms</rs>' „<hi rendition="#em">
-                  <rs type="bibl">Gesang der Parzen</rs>
-               </hi>“ (Op. 89), dessen erste
-               <lb facs="#facs_2_region_1784437215130_206_tl_35" n="N035"/>Aufführung im vorigen Gesellschafts-Concert unter Herrn
-               <lb facs="#facs_2_region_1784437215130_206_tl_36" n="N036"/>
-               <hi rendition="#em">
-                  <rs type="person">Gericke</rs>'s</hi> Leitung stattfand. Befremden mag vielleicht die
-               <lb facs="#facs_2_region_1784437215130_206_tl_37" n="N037"/>Wahl des an sich herrlichen <rs type="bibl">Gedicht</rs>es, das, aus dem Drama
-               <lb facs="#facs_2_region_1784437215130_206_tl_38" n="N038"/>herausgerissen, im Concert-Publicum kein allgemeines Ver¬
-               <lb facs="#facs_2_region_1784437215130_206_tl_39" n="N039"/>ständniß vorfindet und in dieser Isolirung uns trostlos zu
-               <lb facs="#facs_2_region_1784437215130_206_tl_40" n="N040"/>Boden drückt. Zu grausig berührt uns dieser kalte, willkür¬
-               <lb facs="#facs_2_region_1784437215130_206_tl_41" n="N041"/>liche Neid der Götter, dem hier nicht (wie in „<rs type="bibl">Prometheus</rs>“)
-               <lb facs="#facs_2_region_1784437215130_206_tl_42" n="N042"/>das Gegengewicht menschlicher Erhebung entgegensteht. Dem
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784437218543_209_tl_1" n="N001"/>Stoffe nach bildet das „<rs type="bibl" ref="#hsl_work_id_2265">Parzenlied</rs>“ ein Seitenstück zu
+         <lb facs="#facs_2_region_1784437218543_209_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_41">Brahms</rs>’ „<rs type="bibl" ref="#hsl_work_id_878">Schicksalslied</rs>“ (von <rs type="person" ref="#hsl_person_id_2094">Hölderlin</rs>), das die ewig un
+         <lb facs="#facs_2_region_1784437218543_209_tl_3" n="N003" break="no"/>getrübte Ruhe der Götter dem wechselvollen, in stetem Kampf
+         <lb facs="#facs_2_region_1784437218543_209_tl_4" n="N004"/>sich aufreibenden Dasein der armen Menschen gegenüberstellt.
+         <lb facs="#facs_2_region_1784437218543_209_tl_5" n="N005"/>Eine andere musikalische Analogie zu <rs type="person" ref="#hsl_person_id_41">Brahms</rs>’ neuestem Werke
+         <lb facs="#facs_2_region_1784437218543_209_tl_6" n="N006"/>kennen wir in seiner „<rs type="bibl" ref="#hsl_work_id_611">Nänie</rs>“, der erhabenen Todtenklage <rs type="person" ref="#hsl_person_id_248">Schiller</rs>’s.
+         <lb facs="#facs_2_region_1784437218543_209_tl_7" n="N007"/>Nach wenigen Einleitungstacten von schneidendstem tragischen
+         <lb facs="#facs_2_region_1784437218543_209_tl_8" n="N008"/>Ausdrucke beginnt der Chor (dreistimmiger Männerchor mit
+         <lb facs="#facs_2_region_1784437218543_209_tl_9" n="N009"/>dreistimmigem Frauenchor abwechselnd) einfach recitirend:
+         <lb facs="#facs_2_region_1784437218543_209_tl_10" n="N010"/>„Die Götter fürchte das Menschengeschlecht.“ Bei den Worten
+         <lb facs="#facs_2_region_1784437218543_209_tl_11" n="N011"/>„der fürchte sie doppelt“ vereinigt sich der ganze sechsstim
+         <lb facs="#facs_2_region_1784437218543_209_tl_12" n="N012" break="no"/>mige Chor zu gewaltiger Kraft. Es bricht der Zwist aus,
+         <lb facs="#facs_2_region_1784437218543_209_tl_13" n="N013"/>dumpfe Klagetöne und ein durchdringender Schrei wie aus
+         <lb facs="#facs_2_region_1784437218543_209_tl_14" n="N014"/>der Tiefe verkünden den Sturz in den Tartarus, als glän
+         <lb facs="#facs_2_region_1784437218543_209_tl_15" n="N015" break="no"/>zender Gegensatz, von Wohllaut erfüllt, erhebt sich dagegen
+         <lb facs="#facs_2_region_1784437218543_209_tl_16" n="N016"/>die Strophe: „Sie aber, sie bleiben in ewigen Festen.“ Noch
+         <lb facs="#facs_2_region_1784437218543_209_tl_17" n="N017"/>einmal wiederholt der Chor das erste finstere Motiv: „Es
+         <lb facs="#facs_2_region_1784437218543_209_tl_18" n="N018"/>fürchte die Götter“, das nun zu einem milden, getragenen
+         <lb facs="#facs_2_region_1784437218543_209_tl_19" n="N019"/>Gesange in D-dur sich aufhellt: „Es wenden die Herrscher
+         <lb facs="#facs_2_line_1784695710754_154" n="N020"/>ihr segnendes Auge.“ Dieser versöhnende, fast verklärte Ab
+         <lb facs="#facs_2_region_1784437218543_209_tl_22" n="N021" break="no"/>schluß ist aus dem Gedichte selbst nicht recht erklärlich; mit
+         <lb facs="#facs_2_region_1784437218543_209_tl_23" n="N022"/>Nothwendigkeit ergibt er sich jedenfalls nicht daraus; denn
+         <lb facs="#facs_2_region_1784437218543_209_tl_24" n="N023"/>daß die Götter ihr segnendes Auge noch von dem schuldlosen
+         <lb facs="#facs_2_region_1784437218543_209_tl_25" n="N024"/>Enkel des unglücklichen, einst geliebten Ahnherrn abwenden,
+         <lb facs="#facs_2_region_1784437218543_209_tl_26" n="N025"/>bedeutet kein Erweichen, sondern ein erbarmungsloses Fort
+         <lb facs="#facs_2_region_1784437218543_209_tl_27" n="N026" break="no"/>leben ihres grausamen Sinnes. Wir überlassen es Anderen,
+         <lb facs="#facs_2_region_1784437218543_209_tl_28" n="N027"/>für diesen überraschenden Stimmungswechsel bei <rs type="person" ref="#hsl_person_id_41">Brahms</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784437218543_209_tl_29" n="N028"/>tiefsinnige Deutungen zu finden, und möchten den Schlüssel
+         <lb facs="#facs_2_region_1784437218543_209_tl_30" n="N029"/>eher auf der Oberfläche suchen, nämlich in dem <hi rendition="#em">musika
+         <lb facs="#facs_2_region_1784437218543_209_tl_31" n="N030" break="no"/>lischen</hi> Bedürfnisse des Tondichters. Wie <rs type="person" ref="#hsl_person_id_3706">Rubens</rs> oder
+         <lb facs="#facs_2_region_1784437218543_209_tl_32" n="N031"/><rs type="person">Rembrandt</rs> oft eine hellere Farbe braucht und, ohne Nöthi
+         <lb facs="#facs_2_region_1784437218543_209_tl_33" n="N032" break="no"/>gung vom Sujet aus, anwendet für einzelne Partien eines
+         <lb facs="#facs_2_region_1784437218543_209_tl_34" n="N033"/>dunkel gehaltenen Gemäldes, so, denken wir uns, hat <rs type="person" ref="#hsl_person_id_41">Brahms</rs>,
+         <lb facs="#facs_2_region_1784437218543_209_tl_35" n="N034"/>der Musiker, ein versöhnteres Ausklingen seines Chors für
+         <lb facs="#facs_2_region_1784437218543_209_tl_36" n="N035"/>unentbehrlich erachtet und dasselbe so rührend schön gestaltet,
+         <lb facs="#facs_2_region_1784437218543_209_tl_37" n="N036"/>daß auch wir es fortan nicht entbehren könnten. Die letzte
+         <lb facs="#facs_2_region_1784437218543_209_tl_38" n="N037"/>Strophe: „So sangen die Parzen“, ist in die Composition
+         <lb facs="#facs_2_region_1784437218543_209_tl_39" n="N038"/>aufgenommen, mit Recht, denn sie gehört noch zu dem Liede,
+         <lb facs="#facs_2_region_1784437218543_209_tl_40" n="N039"/>welches <rs type="person">Iphigenie</rs> als Kind von ihrer Amme singen gehört.
+         <lb facs="#facs_2_region_1784437218543_209_tl_41" n="N040"/><rs type="person" ref="#hsl_person_id_41">Brahms</rs>’ „<rs type="bibl" ref="#hsl_work_id_2265">Gesang der Parzen</rs>“ ist hochbedeutend in seiner
+         <lb facs="#facs_2_region_1784437218543_209_tl_42" n="N041"/>vollkommenen Vereinigung von antiker Strenge und Ein
+         <lb facs="#facs_2_region_1784437218543_209_tl_43" n="N042" break="no"/>fachheit mit dem lebendigsten, ergreifendsten Ausdrucke der<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1784437218543_209_tl_1" n="N001"/>Stoffe nach bildet das „<rs type="bibl">Parzenlied</rs>“ ein Seitenstück zu
-               <lb facs="#facs_2_region_1784437218543_209_tl_2" n="N002"/>
-               <rs type="person">Brahms</rs>' „<rs type="bibl">Schicksalslied</rs>“ (von <rs type="person">Hölderlin</rs>), das die ewig un¬
-               <lb facs="#facs_2_region_1784437218543_209_tl_3" n="N003"/>getrübte Ruhe der Götter dem wechselvollen, in stetem Kampf
-               <lb facs="#facs_2_region_1784437218543_209_tl_4" n="N004"/>sich aufreibenden Dasein der armen Menschen gegenüberstellt.
-               <lb facs="#facs_2_region_1784437218543_209_tl_5" n="N005"/>Eine andere musikalische Analogie zu <rs type="person">Brahms</rs>' neuestem Werke
-               <lb facs="#facs_2_region_1784437218543_209_tl_6" n="N006"/>kennen wir in seiner „<rs type="bibl">Nänie</rs>“, der erhabenen Todtenklage <rs type="person">Schiller</rs>'s.
-               <lb facs="#facs_2_region_1784437218543_209_tl_7" n="N007"/>Nach wenigen Einleitungstacten von schneidendstem tragischen
-               <lb facs="#facs_2_region_1784437218543_209_tl_8" n="N008"/>Ausdrucke beginnt der Chor (dreistimmiger Männerchor mit
-               <lb facs="#facs_2_region_1784437218543_209_tl_9" n="N009"/>dreistimmigem Frauenchor abwechselnd) einfach recitirend:
-               <lb facs="#facs_2_region_1784437218543_209_tl_10" n="N010"/>„Die Götter fürchte das Menschengeschlecht.“ Bei den Worten
-               <lb facs="#facs_2_region_1784437218543_209_tl_11" n="N011"/>„der fürchte sie doppelt“ vereinigt sich der ganze sechsstim¬
-               <lb facs="#facs_2_region_1784437218543_209_tl_12" n="N012"/>mige Chor zu gewaltiger Kraft. Es bricht der Zwist aus,
-               <lb facs="#facs_2_region_1784437218543_209_tl_13" n="N013"/>dumpfe Klagetöne und ein durchdringender Schrei wie aus
-               <lb facs="#facs_2_region_1784437218543_209_tl_14" n="N014"/>der Tiefe verkünden den Sturz in den Tartarus, als glän¬
-               <lb facs="#facs_2_region_1784437218543_209_tl_15" n="N015"/>zender Gegensatz, von Wohllaut erfüllt, erhebt sich dagegen
-               <lb facs="#facs_2_region_1784437218543_209_tl_16" n="N016"/>die Strophe: „Sie aber, sie bleiben in ewigen Festen.“ Noch
-               <lb facs="#facs_2_region_1784437218543_209_tl_17" n="N017"/>einmal wiederholt der Chor das erste finstere Motiv: „Es
-               <lb facs="#facs_2_region_1784437218543_209_tl_18" n="N018"/>fürchte die Götter“, das nun zu einem milden, getragenen
-               <lb facs="#facs_2_region_1784437218543_209_tl_19" n="N019"/>Gesange in D-dur sich aufhellt: „Es wenden die Herrscher
-               <lb facs="#facs_2_line_1784695710754_154" n="N020"/>ihr segnendes Auge.“ Dieser versöhnende, fast verklärte Ab¬
-               <lb facs="#facs_2_region_1784437218543_209_tl_22" n="N021"/>schluß ist aus dem Gedichte selbst nicht recht erklärlich; mit
-               <lb facs="#facs_2_region_1784437218543_209_tl_23" n="N022"/>Nothwendigkeit ergibt er sich jedenfalls nicht daraus; denn
-               <lb facs="#facs_2_region_1784437218543_209_tl_24" n="N023"/>daß die Götter ihr segnendes Auge noch von dem schuldlosen
-               <lb facs="#facs_2_region_1784437218543_209_tl_25" n="N024"/>Enkel des unglücklichen, einst geliebten Ahnherrn abwenden,
-               <lb facs="#facs_2_region_1784437218543_209_tl_26" n="N025"/>bedeutet kein Erweichen, sondern ein erbarmungsloses Fort¬
-               <lb facs="#facs_2_region_1784437218543_209_tl_27" n="N026"/>leben ihres grausamen Sinnes. Wir überlassen es Anderen,
-               <lb facs="#facs_2_region_1784437218543_209_tl_28" n="N027"/>für diesen überraschenden Stimmungswechsel bei <rs type="person">Brahms</rs>
-               <lb facs="#facs_2_region_1784437218543_209_tl_29" n="N028"/>tiefsinnige Deutungen zu finden, und möchten den Schlüssel
-               <lb facs="#facs_2_region_1784437218543_209_tl_30" n="N029"/>eher auf der Oberfläche suchen, nämlich in dem <hi rendition="#em">musika¬</hi>
-               <lb facs="#facs_2_region_1784437218543_209_tl_31" n="N030"/>
-               <hi rendition="#em">lischen</hi> Bedürfnisse des Tondichters. Wie <rs type="person">Rubens</rs> oder
-               <lb facs="#facs_2_region_1784437218543_209_tl_32" n="N031"/>
-               <rs type="person">Rembrandt</rs> oft eine hellere Farbe braucht und, ohne Nöthi¬
-               <lb facs="#facs_2_region_1784437218543_209_tl_33" n="N032"/>gung vom Sujet aus, anwendet für einzelne Partien eines
-               <lb facs="#facs_2_region_1784437218543_209_tl_34" n="N033"/>dunkel gehaltenen Gemäldes, so, denken wir uns, hat <rs type="person">Brahms</rs>,
-               <lb facs="#facs_2_region_1784437218543_209_tl_35" n="N034"/>der Musiker, ein versöhnteres Ausklingen seines Chors für
-               <lb facs="#facs_2_region_1784437218543_209_tl_36" n="N035"/>unentbehrlich erachtet und dasselbe so rührend schön gestaltet,
-               <lb facs="#facs_2_region_1784437218543_209_tl_37" n="N036"/>daß auch wir es fortan nicht entbehren könnten. Die letzte
-               <lb facs="#facs_2_region_1784437218543_209_tl_38" n="N037"/>Strophe: „So sangen die Parzen“, ist in die Composition
-               <lb facs="#facs_2_region_1784437218543_209_tl_39" n="N038"/>aufgenommen, mit Recht, denn sie gehört noch zu dem Liede,
-               <lb facs="#facs_2_region_1784437218543_209_tl_40" n="N039"/>welches <rs type="person">Iphigenie</rs> als Kind von ihrer Amme singen gehört.
-               <lb facs="#facs_2_region_1784437218543_209_tl_41" n="N040"/>
-               <rs type="person">Brahms</rs>' „<rs type="bibl">Gesang der Parzen</rs>“ ist hochbedeutend in seiner
-               <lb facs="#facs_2_region_1784437218543_209_tl_42" n="N041"/>vollkommenen Vereinigung von antiker Strenge und Ein¬
-               <lb facs="#facs_2_region_1784437218543_209_tl_43" n="N042"/>fachheit mit dem lebendigsten, ergreifendsten Ausdrucke der
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1784437222444_212_tl_1" n="N001"/>Empfindungen. Nach dem düsteren Hauptmotive wirken die
-               <lb facs="#facs_2_region_1784437222444_212_tl_2" n="N002"/>Zwischensätze mit entzückender Klangschönheit; Alles reich
-               <lb facs="#facs_2_region_1784437222444_212_tl_3" n="N003"/>harmonisch, dabei weniger polyphon gearbeitet, als Aehnliches
-               <lb facs="#facs_2_region_1784437222444_212_tl_4" n="N004"/>von <rs type="person">Brahms</rs>. Unempfindlich für die reife, feierliche Schön¬
-               <lb facs="#facs_2_region_1784437222444_212_tl_5" n="N005"/>heit des „<rs type="bibl">Parzenliedes</rs>“ kann wol Niemand bleiben; eine
-               <lb facs="#facs_2_region_1784437222444_212_tl_6" n="N006"/>große populäre Wirkung wird dasselbe jedoch ebensowenig
-               <lb facs="#facs_2_region_1784437222444_212_tl_7" n="N007"/>erzielen, wie die „<rs type="bibl">Nänie</rs>“ oder das „<rs type="bibl">Schicksalslied</rs>“. Ander¬
-               <lb facs="#facs_2_region_1784437222444_212_tl_8" n="N008"/>wärts freilich, wo die Pflege ernster Chormusik ebenso ver¬
-               <lb facs="#facs_2_region_1784437222444_212_tl_9" n="N009"/>breitet und intensiv ist, wie bei uns sporadisch und ober¬
-               <lb facs="#facs_2_region_1784437222444_212_tl_10" n="N010"/>flächlich — in <rs type="place">schweizerisch</rs>en und <rs type="place">rheinisch</rs>en Städten z. B.
-               <lb facs="#facs_2_region_1784437222444_212_tl_11" n="N011"/>— ist sowol die „<rs type="bibl">Nänie</rs>“ als das „<rs type="bibl">Parzenlied</rs>“ gleich bei
-               <lb facs="#facs_2_region_1784437222444_212_tl_12" n="N012"/>der ersten Aufführung stürmisch zur Wiederholung verlangt
-               <lb facs="#facs_2_region_1784437222444_212_tl_13" n="N013"/>worden. In <rs type="place">Wien</rs> bringen es solche ernste, strenge Chor¬
-               <lb facs="#facs_2_region_1784437222444_212_tl_14" n="N014"/>compositionen über eine respectvolle Aufnahme selten hinaus.
-               <lb facs="#facs_2_region_1784437222444_212_tl_15" n="N015"/>Diese allmälig zu einer warmen, verständnißvoll innigen zu
-               <lb facs="#facs_2_region_1784437222444_212_tl_16" n="N016"/>steigern, gibt es nur Ein Mittel: die häufigere Wieder¬
-               <lb facs="#facs_2_region_1784437222444_212_tl_17" n="N017"/>holung solcher Werke. Wenn man die <rs type="place">Wien</rs>er Concertpro¬
-               <lb facs="#facs_2_region_1784437222444_212_tl_18" n="N018"/>gramme der letzten zehn Jahre durchsieht, so erstaunt man,
-               <lb facs="#facs_2_region_1784437222444_212_tl_19" n="N019"/>wie selten hier eine bedeutende neue Composition, sei es in
-               <lb facs="#facs_2_region_1784437222444_212_tl_20" n="N020"/>den Philharmonischen oder den Gesellschafts-Concerten oder
-               <lb facs="#facs_2_region_1784437222444_212_tl_21" n="N021"/>bei <rs type="person">Hellmesberger</rs>, zu einer zweiten oder gar dritten Auf¬
-               <lb facs="#facs_2_region_1784437222444_212_tl_22" n="N022"/>führung gelangt. Es ist gerade, als ob man in
-               <lb facs="#facs_2_region_1784437222444_212_tl_23" n="N023"/>einer Bildergalerie fünf Minuten vor dem Gemälde
-               <lb facs="#facs_2_region_1784437222444_212_tl_24" n="N024"/>eines großen Meisters verweilt hätte, das man dann nie
-               <lb facs="#facs_2_region_1784437222444_212_tl_25" n="N025"/>wieder zu Gesicht bekommt. Die Aufführung des „<rs type="bibl">Parzen¬</rs>
-               <lb facs="#facs_2_region_1784437222444_212_tl_26" n="N026"/>
-               <rs type="bibl">liedes</rs>“ konnte strengeren Ansprüchen nicht genügen. Es fehlte
-               <lb facs="#facs_2_region_1784437222444_212_tl_27" n="N027"/>dem Ganzen die plastische Ausgestaltung, die sichere Festig¬
-               <lb facs="#facs_2_region_1784437222444_212_tl_28" n="N028"/>keit der Einsätze. Die Auftacte (gleich das erste Wort „Es“)
-               <lb facs="#facs_2_region_1784437222444_212_tl_29" n="N029"/>wurden verschluckt, die Schlußverse durch übertriebenes
-               <lb facs="#facs_2_region_1784437222444_212_tl_30" n="N030"/>Pianissimo der Singstimmen total unverständlich. Weit besser
-               <lb facs="#facs_2_region_1784437222444_212_tl_31" n="N031"/>gelang Herrn <rs type="person">Gericke</rs> die erste Aufführung von <hi rendition="#em">
-                  <rs type="person">Dvorak</rs>'s</hi>
-               <lb facs="#facs_2_region_1784437222444_212_tl_32" n="N032"/>neuer <rs type="bibl">Symphonie</rs> in D-dur. Sie ist Hanns <hi rendition="#em">
-                  <rs type="person">Richter</rs>
-               </hi>
-               <lb facs="#facs_2_region_1784437222444_212_tl_33" n="N033"/>gewidmet, der sie in <rs type="place">London</rs> wiederholt mit großem Erfolge
-               <lb facs="#facs_2_region_1784437222444_212_tl_34" n="N034"/>aufgeführt und auch bereits für das Programm der Philhar¬
-               <lb facs="#facs_2_region_1784437222444_212_tl_35" n="N035"/>monischen Concerte vorgemerkt hatte. Unsere Philharmoniker
-               <lb facs="#facs_2_region_1784437222444_212_tl_36" n="N036"/>kümmern sich leider ebensowenig darum, wie um <rs type="person">Dvorak</rs>'s
-               <lb facs="#facs_2_region_1784437222444_212_tl_37" n="N037"/>schöne „<rs type="bibl">Serenade für Blasinstrumente</rs>“. Um so dankbarer
-               <lb facs="#facs_2_region_1784437222444_212_tl_38" n="N038"/>sind wir Herrn <rs type="person">Gericke</rs> für die Bekanntschaft der neuen
-               <lb facs="#facs_2_region_1784437222444_212_tl_39" n="N039"/>
-               <rs type="bibl">Symphonie</rs>, die gewiß zu dem Talentvollsten und Besten
-               <lb facs="#facs_2_region_1784437222444_212_tl_40" n="N040"/>gehört, was die letzten dreißig Jahre auf diesem Gebiete
-               <lb facs="#facs_2_region_1784437222444_212_tl_41" n="N041"/>hervorgebracht. Es ist durchaus gesunde Musik, ungequält
-               <lb facs="#facs_2_region_1784437222444_212_tl_42" n="N042"/>und ursprünglich, was uns <rs type="person">Dvorak</rs> in dieser <rs type="bibl">Symphonie</rs>
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784437222444_212_tl_1" n="N001"/>Empfindungen. Nach dem düsteren Hauptmotive wirken die
+         <lb facs="#facs_2_region_1784437222444_212_tl_2" n="N002"/>Zwischensätze mit entzückender Klangschönheit; Alles reich
+         <lb facs="#facs_2_region_1784437222444_212_tl_3" n="N003"/>harmonisch, dabei weniger polyphon gearbeitet, als Aehnliches
+         <lb facs="#facs_2_region_1784437222444_212_tl_4" n="N004"/>von <rs type="person" ref="#hsl_person_id_41">Brahms</rs>. Unempfindlich für die reife, feierliche Schön
+         <lb facs="#facs_2_region_1784437222444_212_tl_5" n="N005" break="no"/>heit des „<rs type="bibl" ref="#hsl_work_id_2265">Parzenliedes</rs>“ kann wol Niemand bleiben; eine
+         <lb facs="#facs_2_region_1784437222444_212_tl_6" n="N006"/>große populäre Wirkung wird dasselbe jedoch ebensowenig
+         <lb facs="#facs_2_region_1784437222444_212_tl_7" n="N007"/>erzielen, wie die „<rs type="bibl" ref="#hsl_work_id_611">Nänie</rs>“ oder das „<rs type="bibl" ref="#hsl_work_id_878">Schicksalslied</rs>“. Ander
+         <lb facs="#facs_2_region_1784437222444_212_tl_8" n="N008" break="no"/>wärts freilich, wo die Pflege ernster Chormusik ebenso ver
+         <lb facs="#facs_2_region_1784437222444_212_tl_9" n="N009" break="no"/>breitet und intensiv ist, wie bei uns sporadisch und ober
+         <lb facs="#facs_2_region_1784437222444_212_tl_10" n="N010" break="no"/>flächlich — in <rs type="place" ref="#hsl_place_id_97">schweizerisch</rs>en und <rs type="place" ref="#hsl_place_id_245">rheinisch</rs>en Städten z. B.
+         <lb facs="#facs_2_region_1784437222444_212_tl_11" n="N011"/>— ist sowol die „<rs type="bibl" ref="#hsl_work_id_611">Nänie</rs>“ als das „<rs type="bibl" ref="#hsl_work_id_2265">Parzenlied</rs>“ gleich bei
+         <lb facs="#facs_2_region_1784437222444_212_tl_12" n="N012"/>der ersten Aufführung stürmisch zur Wiederholung verlangt
+         <lb facs="#facs_2_region_1784437222444_212_tl_13" n="N013"/>worden. In <rs type="place" ref="#hsl_place_id_55">Wien</rs> bringen es solche ernste, strenge Chor
+         <lb facs="#facs_2_region_1784437222444_212_tl_14" n="N014" break="no"/>compositionen über eine respectvolle Aufnahme selten hinaus.
+         <lb facs="#facs_2_region_1784437222444_212_tl_15" n="N015"/>Diese allmälig zu einer warmen, verständnißvoll innigen zu
+         <lb facs="#facs_2_region_1784437222444_212_tl_16" n="N016"/>steigern, gibt es nur Ein Mittel: die häufigere Wieder
+         <lb facs="#facs_2_region_1784437222444_212_tl_17" n="N017" break="no"/>holung solcher Werke. Wenn man die <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Concertpro
+         <lb facs="#facs_2_region_1784437222444_212_tl_18" n="N018" break="no"/>gramme der letzten zehn Jahre durchsieht, so erstaunt man,
+         <lb facs="#facs_2_region_1784437222444_212_tl_19" n="N019"/>wie selten hier eine bedeutende neue Composition, sei es in
+         <lb facs="#facs_2_region_1784437222444_212_tl_20" n="N020"/>den Philharmonischen oder den Gesellschafts-Concerten oder
+         <lb facs="#facs_2_region_1784437222444_212_tl_21" n="N021"/>bei <rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs>, zu einer zweiten oder gar dritten Auf
+         <lb facs="#facs_2_region_1784437222444_212_tl_22" n="N022" break="no"/>führung gelangt. Es ist gerade, als ob man in
+         <lb facs="#facs_2_region_1784437222444_212_tl_23" n="N023"/>einer Bildergalerie fünf Minuten vor dem Gemälde
+         <lb facs="#facs_2_region_1784437222444_212_tl_24" n="N024"/>eines großen Meisters verweilt hätte, das man dann nie
+         <lb facs="#facs_2_region_1784437222444_212_tl_25" n="N025"/>wieder zu Gesicht bekommt. Die Aufführung des „<rs type="bibl" ref="#hsl_work_id_2265">Parzen
+         <lb facs="#facs_2_region_1784437222444_212_tl_26" n="N026" break="no"/>liedes</rs>“ konnte strengeren Ansprüchen nicht genügen. Es fehlte
+         <lb facs="#facs_2_region_1784437222444_212_tl_27" n="N027"/>dem Ganzen die plastische Ausgestaltung, die sichere Festig
+         <lb facs="#facs_2_region_1784437222444_212_tl_28" n="N028" break="no"/>keit der Einsätze. Die Auftacte (gleich das erste Wort „Es“)
+         <lb facs="#facs_2_region_1784437222444_212_tl_29" n="N029"/>wurden verschluckt, die Schlußverse durch übertriebenes
+         <lb facs="#facs_2_region_1784437222444_212_tl_30" n="N030"/>Pianissimo der Singstimmen total unverständlich. Weit besser
+         <lb facs="#facs_2_region_1784437222444_212_tl_31" n="N031"/>gelang Herrn <rs type="person" ref="#hsl_person_id_3517">Gericke</rs> die erste Aufführung von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1265">Dvorak</rs>’s</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784437222444_212_tl_32" n="N032"/>neuer <rs type="bibl">Symphonie</rs> in D-dur. Sie ist Hanns <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1399">Richter</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784437222444_212_tl_33" n="N033"/>gewidmet, der sie in <rs type="place" ref="#hsl_place_id_34">London</rs> wiederholt mit großem Erfolge
+         <lb facs="#facs_2_region_1784437222444_212_tl_34" n="N034"/>aufgeführt und auch bereits für das Programm der Philhar
+         <lb facs="#facs_2_region_1784437222444_212_tl_35" n="N035" break="no"/>monischen Concerte vorgemerkt hatte. Unsere Philharmoniker
+         <lb facs="#facs_2_region_1784437222444_212_tl_36" n="N036"/>kümmern sich leider ebensowenig darum, wie um <rs type="person" ref="#hsl_person_id_1265">Dvorak</rs>’s
+         <lb facs="#facs_2_region_1784437222444_212_tl_37" n="N037"/>schöne „<rs type="bibl">Serenade für Blasinstrumente</rs>“. Um so dankbarer
+         <lb facs="#facs_2_region_1784437222444_212_tl_38" n="N038"/>sind wir Herrn <rs type="person" ref="#hsl_person_id_3517">Gericke</rs> für die Bekanntschaft der neuen
+         <lb facs="#facs_2_region_1784437222444_212_tl_39" n="N039"/><rs type="bibl">Symphonie</rs>, die gewiß zu dem Talentvollsten und Besten
+         <lb facs="#facs_2_region_1784437222444_212_tl_40" n="N040"/>gehört, was die letzten dreißig Jahre auf diesem Gebiete
+         <lb facs="#facs_2_region_1784437222444_212_tl_41" n="N041"/>hervorgebracht. Es ist durchaus gesunde Musik, ungequält
+         <lb facs="#facs_2_region_1784437222444_212_tl_42" n="N042"/>und ursprünglich, was uns <rs type="person" ref="#hsl_person_id_1265">Dvorak</rs> in dieser <rs type="bibl">Symphonie</rs><space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1784437232085_218_tl_1" n="N001"/>bietet. Zu der reizenden Frische und Natürlichkeit seiner
-               <lb facs="#facs_3_region_1784437232085_218_tl_2" n="N002"/>früheren Werke gesellt sich nunmehr auch eine erfreuliche Be¬
-               <lb facs="#facs_3_region_1784437232085_218_tl_3" n="N003"/>herrschung der Form. Gleich das Thema des ersten Satzes
-               <lb facs="#facs_3_region_1784437232085_218_tl_4" n="N004"/>ist ein wahrer Glückstreffer: ein echtes Symphonienthema,
-               <lb facs="#facs_3_region_1784437232085_218_tl_5" n="N005"/>einfach, kraftvoll, wie aus Erz gegossen. Die kunstreiche und
-               <lb facs="#facs_3_region_1784437232085_218_tl_6" n="N006"/>doch nirgends trockene Verarbeitung dieses Themas mit seinen
-               <lb facs="#facs_3_region_1784437232085_218_tl_7" n="N007"/>Nebengedanken verfolgen wir mit ungetheilter Freude: der Com¬
-               <lb facs="#facs_3_region_1784437232085_218_tl_8" n="N008"/>ponist bleibt siegreicher Herr seines Stoffes bis zum Schluß.
-               <lb facs="#facs_3_region_1784437232085_218_tl_9" n="N009"/>Im Adagio herrscht ein edler, träumerischer Gesang, der
-               <lb facs="#facs_3_region_1784437232085_218_tl_10" n="N010"/>durch geschickteste Mischung der Klangfarben in immer neue
-               <lb facs="#facs_3_region_1784437232085_218_tl_11" n="N011"/>Beleuchtung tritt. Der romantische Inhalt verwässert sich
-               <lb facs="#facs_3_region_1784437232085_218_tl_12" n="N012"/>keineswegs zu bloßer „Stimmung“, sondern bleibt durch die
-               <lb facs="#facs_3_region_1784437232085_218_tl_13" n="N013"/>strenge Logik des Gedankens zusammengehalten. Die Wirkung
-               <lb facs="#facs_3_region_1784437232085_218_tl_14" n="N014"/>dieses Satzes wird nur im späteren Verlaufe durch dessen
-               <lb facs="#facs_3_region_1784437232085_218_tl_15" n="N015"/>allzu große Länge abgeschwächt, eine bedenkliche Gewohnheit
-               <lb facs="#facs_3_region_1784437232085_218_tl_16" n="N016"/>unserer neueren, an <rs type="person">Beethoven</rs>'s letzten Werken herangebil¬
-               <lb facs="#facs_3_region_1784437232085_218_tl_17" n="N017"/>deten Componisten, welche selten zur rechten Zeit zu schließen
-               <lb facs="#facs_3_region_1784437232085_218_tl_18" n="N018"/>wissen. Es ist dies für den Symphoniker gewiß eine schwie¬
-               <lb facs="#facs_3_region_1784437232085_218_tl_19" n="N019"/>rige Kunst, aber eine der wichtigsten. Aus der Traum¬
-               <lb facs="#facs_3_region_1784437232085_218_tl_20" n="N020"/>seligkeit des Adagio rüttelt uns das Scherzo der <rs type="person">Dvorak</rs>'schen
-               <lb facs="#facs_3_region_1784437232085_218_tl_21" n="N021"/>
-               <rs type="bibl">Symphonie</rs> mit packender Lebendigkeit auf. Welch unver¬
-               <lb facs="#facs_3_region_1784437232085_218_tl_22" n="N022"/>gleichliche derbe Volksthümlichkeit und strotzende Lebenskraft
-               <lb facs="#facs_3_region_1784437232085_218_tl_23" n="N023"/>in diesem Stücke! Wie originell und hinreißend die Rhyth¬
-               <lb facs="#facs_3_region_1784437232085_218_tl_24" n="N024"/>mik, wie geistvoll die Modulationen! An fortreißender Ge¬
-               <lb facs="#facs_3_region_1784437232085_218_tl_25" n="N025"/>walt steht das Finale hinter diesem Scherzo zurück, sein
-               <lb facs="#facs_3_region_1784437232085_218_tl_26" n="N026"/>Werth liegt hauptsächlich in der zwanglosen Entfaltung
-               <lb facs="#facs_3_region_1784437232085_218_tl_27" n="N027"/>contrapunktischer Kunst. Im Charakter dem ersten Satze
-               <lb facs="#facs_3_region_1784437232085_218_tl_28" n="N028"/>nahe verwandt, schließt das Finale in echt künstlerischer
-               <lb facs="#facs_3_region_1784437232085_218_tl_29" n="N029"/>Harmonie den Ring dieser Tondichtung. Die für unsere
-               <lb facs="#facs_3_region_1784437232085_218_tl_30" n="N030"/>Empfindung etwas zu lange Ausspinnung des Adagio und
-               <lb facs="#facs_3_region_1784437232085_218_tl_31" n="N031"/>des Finales ist das Einzige, was wir an <rs type="person">Dvorak</rs>'s <rs type="bibl">Sym¬</rs>
-               <lb facs="#facs_3_region_1784437232085_218_tl_32" n="N032"/>
-               <rs type="bibl">phonie</rs> bemängeln möchten. Oder sollen wir uns ob einiger
-               <lb facs="#facs_3_region_1784437232085_218_tl_33" n="N033"/>flüchtiger Reminiscenzen an <rs type="person">Beethoven</rs> und <rs type="person">Schubert</rs> er¬
-               <lb facs="#facs_3_region_1784437232085_218_tl_34" n="N034"/>eifern? Dergleichen leichte, vereinzelte Anklänge, wie sie den
-               <lb facs="#facs_3_region_1784437232085_218_tl_35" n="N035"/>größten Meistern unbewußt entschlüpfen, wird kein Einsichts¬
-               <lb facs="#facs_3_region_1784437232085_218_tl_36" n="N036"/>voller einem eminent originellen Componisten ernstlich an¬
-               <lb facs="#facs_3_region_1784437232085_218_tl_37" n="N037"/>kreiden wollen. Freuen wir uns, in unserer productions¬
-               <lb facs="#facs_3_region_1784437232085_218_tl_38" n="N038"/>armen, reflectirten Zeit noch einem naiv empfindenden, fröhlich
-               <lb facs="#facs_3_region_1784437232085_218_tl_39" n="N039"/>schaffenden Talent wie <rs type="person">Dvorak</rs> zu begegnen, das in die
-               <lb facs="#facs_3_region_1784437232085_218_tl_40" n="N040"/>höchsten Formen der Instrumental-Musik sich hineingewachsen
-               <lb facs="#facs_3_region_1784437232085_218_tl_41" n="N041"/>und bei ausgesprochener Eigenthümlichkeit dem Ideale unserer
-               <lb facs="#facs_3_region_1784437232085_218_tl_42" n="N042"/>classischen Periode die Treue bewahrt hat.
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1784437232085_218_tl_1" n="N001"/>bietet. Zu der reizenden Frische und Natürlichkeit seiner
+         <lb facs="#facs_3_region_1784437232085_218_tl_2" n="N002"/>früheren Werke gesellt sich nunmehr auch eine erfreuliche Be
+         <lb facs="#facs_3_region_1784437232085_218_tl_3" n="N003" break="no"/>herrschung der Form. Gleich das Thema des ersten Satzes
+         <lb facs="#facs_3_region_1784437232085_218_tl_4" n="N004"/>ist ein wahrer Glückstreffer: ein echtes Symphonienthema,
+         <lb facs="#facs_3_region_1784437232085_218_tl_5" n="N005"/>einfach, kraftvoll, wie aus Erz gegossen. Die kunstreiche und
+         <lb facs="#facs_3_region_1784437232085_218_tl_6" n="N006"/>doch nirgends trockene Verarbeitung dieses Themas mit seinen
+         <lb facs="#facs_3_region_1784437232085_218_tl_7" n="N007"/>Nebengedanken verfolgen wir mit ungetheilter Freude: der Com
+         <lb facs="#facs_3_region_1784437232085_218_tl_8" n="N008" break="no"/>ponist bleibt siegreicher Herr seines Stoffes bis zum Schluß.
+         <lb facs="#facs_3_region_1784437232085_218_tl_9" n="N009"/>Im Adagio herrscht ein edler, träumerischer Gesang, der
+         <lb facs="#facs_3_region_1784437232085_218_tl_10" n="N010"/>durch geschickteste Mischung der Klangfarben in immer neue
+         <lb facs="#facs_3_region_1784437232085_218_tl_11" n="N011"/>Beleuchtung tritt. Der romantische Inhalt verwässert sich
+         <lb facs="#facs_3_region_1784437232085_218_tl_12" n="N012"/>keineswegs zu bloßer „Stimmung“, sondern bleibt durch die
+         <lb facs="#facs_3_region_1784437232085_218_tl_13" n="N013"/>strenge Logik des Gedankens zusammengehalten. Die Wirkung
+         <lb facs="#facs_3_region_1784437232085_218_tl_14" n="N014"/>dieses Satzes wird nur im späteren Verlaufe durch dessen
+         <lb facs="#facs_3_region_1784437232085_218_tl_15" n="N015"/>allzu große Länge abgeschwächt, eine bedenkliche Gewohnheit
+         <lb facs="#facs_3_region_1784437232085_218_tl_16" n="N016"/>unserer neueren, an <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s letzten Werken herangebil
+         <lb facs="#facs_3_region_1784437232085_218_tl_17" n="N017" break="no"/>deten Componisten, welche selten zur rechten Zeit zu schließen
+         <lb facs="#facs_3_region_1784437232085_218_tl_18" n="N018"/>wissen. Es ist dies für den Symphoniker gewiß eine schwie
+         <lb facs="#facs_3_region_1784437232085_218_tl_19" n="N019" break="no"/>rige Kunst, aber eine der wichtigsten. Aus der Traum
+         <lb facs="#facs_3_region_1784437232085_218_tl_20" n="N020" break="no"/>seligkeit des Adagio rüttelt uns das Scherzo der <rs type="person" ref="#hsl_person_id_1265">Dvorak</rs>’schen
+         <lb facs="#facs_3_region_1784437232085_218_tl_21" n="N021"/><rs type="bibl">Symphonie</rs> mit packender Lebendigkeit auf. Welch unver
+         <lb facs="#facs_3_region_1784437232085_218_tl_22" n="N022" break="no"/>gleichliche derbe Volksthümlichkeit und strotzende Lebenskraft
+         <lb facs="#facs_3_region_1784437232085_218_tl_23" n="N023"/>in diesem Stücke! Wie originell und hinreißend die Rhyth
+         <lb facs="#facs_3_region_1784437232085_218_tl_24" n="N024" break="no"/>mik, wie geistvoll die Modulationen! An fortreißender Ge
+         <lb facs="#facs_3_region_1784437232085_218_tl_25" n="N025" break="no"/>walt steht das Finale hinter diesem Scherzo zurück, sein
+         <lb facs="#facs_3_region_1784437232085_218_tl_26" n="N026"/>Werth liegt hauptsächlich in der zwanglosen Entfaltung
+         <lb facs="#facs_3_region_1784437232085_218_tl_27" n="N027"/>contrapunktischer Kunst. Im Charakter dem ersten Satze
+         <lb facs="#facs_3_region_1784437232085_218_tl_28" n="N028"/>nahe verwandt, schließt das Finale in echt künstlerischer
+         <lb facs="#facs_3_region_1784437232085_218_tl_29" n="N029"/>Harmonie den Ring dieser Tondichtung. Die für unsere
+         <lb facs="#facs_3_region_1784437232085_218_tl_30" n="N030"/>Empfindung etwas zu lange Ausspinnung des Adagio und
+         <lb facs="#facs_3_region_1784437232085_218_tl_31" n="N031"/>des Finales ist das Einzige, was wir an <rs type="person" ref="#hsl_person_id_1265">Dvorak</rs>’s <rs type="bibl">Sym
+         <lb facs="#facs_3_region_1784437232085_218_tl_32" n="N032" break="no"/>phonie</rs> bemängeln möchten. Oder sollen wir uns ob einiger
+         <lb facs="#facs_3_region_1784437232085_218_tl_33" n="N033"/>flüchtiger Reminiscenzen an <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> und <rs type="person" ref="#hsl_person_id_279">Schubert</rs> er
+         <lb facs="#facs_3_region_1784437232085_218_tl_34" n="N034" break="no"/>eifern? Dergleichen leichte, vereinzelte Anklänge, wie sie den
+         <lb facs="#facs_3_region_1784437232085_218_tl_35" n="N035"/>größten Meistern unbewußt entschlüpfen, wird kein Einsichts
+         <lb facs="#facs_3_region_1784437232085_218_tl_36" n="N036" break="no"/>voller einem eminent originellen Componisten ernstlich an
+         <lb facs="#facs_3_region_1784437232085_218_tl_37" n="N037" break="no"/>kreiden wollen. Freuen wir uns, in unserer productions
+         <lb facs="#facs_3_region_1784437232085_218_tl_38" n="N038" break="no"/>armen, reflectirten Zeit noch einem naiv empfindenden, fröhlich
+         <lb facs="#facs_3_region_1784437232085_218_tl_39" n="N039"/>schaffenden Talent wie <rs type="person" ref="#hsl_person_id_1265">Dvorak</rs> zu begegnen, das in die
+         <lb facs="#facs_3_region_1784437232085_218_tl_40" n="N040"/>höchsten Formen der Instrumental-Musik sich hineingewachsen
+         <lb facs="#facs_3_region_1784437232085_218_tl_41" n="N041"/>und bei ausgesprochener Eigenthümlichkeit dem Ideale unserer
+         <lb facs="#facs_3_region_1784437232085_218_tl_42" n="N042"/>classischen Periode die Treue bewahrt hat.
             </p>
          </div>
       </body>
