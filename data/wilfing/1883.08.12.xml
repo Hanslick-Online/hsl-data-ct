@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a"/>
+            <title level="a">Nr. 6810. Wien, Sonntag, den 12. August 1883</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -31,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -69,24 +70,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title/>
+                     <title>Nr. 6810. Wien, Sonntag, den 12. August 1883</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub"/>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1883-08-12">12.08.1883</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18830812"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -102,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-08-05">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-08-08">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-08-20">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -835,285 +841,242 @@
       <body>
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
-            <p facs="#facs_1_region_1784437699516_514">
-               <lb facs="#facs_1_l" n="N001"/>Neue Freie Presse
-               <lb facs="#facs_1_region_1784437699516_514_tl_1" n="N002"/>
-            </p>
-            <p facs="#facs_1_region_1784437701400_517">
-               <lb facs="#facs_1_region_1784437701400_517_tl_1" n="N001"/>Morgenblatt</p>
-            <p facs="#facs_1_region_1784437704558_520">
-               <lb facs="#facs_1_l_2" n="N001"/>Nr. 6810. Wien, Sonntag, den 12. August 1883</p>
-            <p facs="#facs_1_region_1784437711638_523">
-               <lb facs="#facs_1_region_1784437711638_523_tl_1" n="N001"/>Zur Rückkehr von <rs type="place">Bayreuth</rs>.
-               <lb facs="#facs_1_region_1784437711638_523_tl_2" n="N002"/>Ed. H. Die <rs type="bibl">Parsifal</rs>-Pilger sind nunmehr zurück¬
-               <lb facs="#facs_1_region_1784437711638_523_tl_3" n="N003"/>gekehrt von <rs type="place">Bayreuth</rs>. Ihren Erzählungen lauscht mit be¬
-               <lb facs="#facs_1_region_1784437711638_523_tl_4" n="N004"/>gierigem Antheil, wer, gleich uns, selbst kein Verlangen trug,
-               <lb facs="#facs_1_region_1784437711638_523_tl_5" n="N005"/>sich den bedeutenden Eindruck der ersten <rs type="bibl">Parsifal</rs>-Vorstellung
-               <lb facs="#facs_1_region_1784437711638_523_tl_6" n="N006"/>(<date>1882</date>) durch eine geschwächte und getrübte Wiederholung
-               <lb facs="#facs_1_region_1784437711638_523_tl_7" n="N007"/>verwischen zu lassen. Jene erste Aufführung hatte noch
-               <lb facs="#facs_1_region_1784437711638_523_tl_8" n="N008"/>
-               <rs type="person">Wagner</rs> selbst, der lebendigste aller Menschen, zu Stande ge¬
-               <lb facs="#facs_1_region_1784437711638_523_tl_9" n="N009"/>bracht — die diesjährige zweite der Tod <rs type="person">Wagner</rs>'s. Gleich
-               <lb facs="#facs_1_region_1784437711638_523_tl_10" n="N010"/>einem unsichtbaren Mantel, verdunkelnd zugleich und beschützend,
-               <lb facs="#facs_1_l_3" n="N011"/>breitete sich sein Bahrtuch aus über dem verwaisten Festspiel.
-               <lb facs="#facs_1_region_1784437711638_523_tl_11" n="N012"/>Durch <rs type="person">Wagner</rs>'s plötzlichen Tod zur Trauerfeier geworden,
-               <lb facs="#facs_1_region_1784437711638_523_tl_12" n="N013"/>hielt „<rs type="bibl">Parsifal</rs>“ die näheren und ferneren Anhänger des
-               <lb facs="#facs_1_region_1784437711638_523_tl_13" n="N014"/>Meisters noch pietätvoll in <rs type="place">Bayreuth</rs> zusammen. Vollständig
-               <lb facs="#facs_1_region_1784437711638_523_tl_14" n="N015"/>und ohne Störung haben die Vorstellungen sich abgespielt.
-               <lb facs="#facs_1_region_1784437711638_523_tl_15" n="N016"/>Die einst die Leiche des Cid <rs type="person">Campeador</rs> die Spanier zum
-               <lb facs="#facs_1_region_1784437711638_523_tl_16" n="N017"/>letzten Sieg geführt hat, so gewann der todte <rs type="person">Wagner</rs> noch
-               <lb facs="#facs_1_region_1784437711638_523_tl_17" n="N018"/>einmal die Schlacht von <rs type="place">Bayreuth</rs>. So leicht und glänzend
-               <lb facs="#facs_1_region_1784437711638_523_tl_18" n="N019"/>wie im Jahre <date>1882</date> gelang der Sieg freilich nicht mehr.
-               <lb facs="#facs_1_region_1784437711638_523_tl_19" n="N020"/>Daß die allgemeine Begeisterung und der Andrang des
-               <lb facs="#facs_1_region_1784437711638_523_tl_20" n="N021"/>Publicums, trotz reichlich ausgestreuter Freibillette, die frühere
-               <lb facs="#facs_1_region_1784437711638_523_tl_21" n="N022"/>Höhe nicht entfernt erreichten, ja daß die Aufführung selbst
-               <lb facs="#facs_1_region_1784437711638_523_tl_22" n="N023"/>die ordnende und anfeuernde Hand des Autors häufig ver¬
-               <lb facs="#facs_1_region_1784437711638_523_tl_23" n="N024"/>missen ließ, das bezeugen die mündlichen Berichte der Rück¬
-               <lb facs="#facs_1_region_1784437711638_523_tl_24" n="N025"/>gekehrten noch einstimmiger, als die gedruckten.
-               <lb facs="#facs_1_region_1784437711638_523_tl_25" n="N026"/>Wird ein dritter <rs type="bibl">Parsifal</rs>-Cyklus im nächsten Jahre
-               <lb facs="#facs_1_region_1784437711638_523_tl_26" n="N027"/>durchzusetzen sein? Und mit welchem Erfolge? Von allem
-               <lb facs="#facs_1_region_1784437711638_523_tl_27" n="N028"/>Anfange an erschien uns das proclamirte „ewige Monopol“
-               <lb facs="#facs_1_region_1784437711638_523_tl_28" n="N029"/>des <rs type="place">Bayreuth</rs>er Theaters als eine phantastische und undurch¬
-               <lb facs="#facs_1_region_1784437711638_523_tl_29" n="N030"/>führbare Idee; wir haben trotz der Protestationen <rs type="person">Wagner</rs>'s
-               <lb facs="#facs_1_region_1784437711638_523_tl_30" n="N031"/>Recht behalten bezüglich der „<rs type="bibl">Nibelungen</rs>“, und werden es
-               <lb facs="#facs_1_region_1784437711638_523_tl_31" n="N032"/>auch bezüglich des „<rs type="bibl">Parsifal</rs>“. Möchten, so fragen wir, die
-               <lb facs="#facs_1_region_1784437711638_523_tl_32" n="N033"/>ehrlichen Freunde <rs type="person">Wagner</rs>'s heute wirklich alle die erfolg¬
-               <lb facs="#facs_1_region_1784437711638_523_tl_33" n="N034"/>reiche <rs type="bibl">Nibelungen</rs>-Aufführungen ungeschehen machen, welche</p>
-            <p facs="#facs_1_region_1784437714480_526">
-               <lb facs="#facs_1_region_1784437714480_526_tl_1" n="N001"/>seit sieben Jahren in den <rs type="place">deutsch</rs>en Hauptstädten stattfanden?
-               <lb facs="#facs_1_region_1784437714480_526_tl_2" n="N002"/>Unser Antrag, es möchte „<rs type="bibl">Parsifal</rs>“ gleich der <rs type="bibl">Nibelungen-</rs>
-               <lb facs="#facs_1_region_1784437714480_526_tl_3" n="N003"/>
-               <rs type="bibl">Trilogie</rs> nunmehr auch auf den großen Bühnen erscheinen, geschah
-               <lb facs="#facs_1_region_1784437714480_526_tl_4" n="N004"/>doch nur im Interesse des Werkes selbst, das hier allerdings nicht
-               <lb facs="#facs_1_region_1784437714480_526_tl_5" n="N005"/>mit dem localen Interesse der Stadt <rs type="place">Bayreuth</rs> zusammenfällt.
-               <lb facs="#facs_1_region_1784437714480_526_tl_6" n="N006"/>Es zeugt von der leidenschaftlichen Befangenheit der Wagnerianer,
-               <lb facs="#facs_1_region_1784437714480_526_tl_7" n="N007"/>wenn Einer derselben, ein <rs type="place">Wien</rs>er <rs type="person">Musik-Kritiker</rs>, uns von
-               <lb facs="#facs_1_region_1784437714480_526_tl_8" n="N008"/>
-               <rs type="place">Bayreuth</rs> aus anklagt, mit jenem Vorschlage den „<rs type="bibl">Parsifal</rs>“
-               <lb facs="#facs_1_region_1784437714480_526_tl_9" n="N009"/>herabwürdigen und schädigen zu wollen. Im Gegensatze zu
-               <lb facs="#facs_1_region_1784437714480_526_tl_10" n="N010"/>diesem hat jetzt ein anderer, vernünftigerer <rs type="person">Wagner</rs>-Apostel aus
-               <lb facs="#facs_1_region_1784437714480_526_tl_11" n="N011"/>
-               <rs type="place">Wien</rs> öffentlich seine Stimme für die „Freigebung des <rs type="bibl">Par¬</rs>
-               <lb facs="#facs_1_region_1784437714480_526_tl_12" n="N012"/>
-               <rs type="bibl">sifal</rs>“ erhoben und vielfache Zustimmung gefunden. So sehen
-               <lb facs="#facs_1_region_1784437714480_526_tl_13" n="N013"/>wir — so bald schon — durch inneren Zwist die Partei
-               <lb facs="#facs_1_region_1784437714480_526_tl_14" n="N014"/>selbst gespalten, welche früher wie Ein Mann stimmte, das
-               <lb facs="#facs_1_region_1784437714480_526_tl_15" n="N015"/>heißt wie der Eine Mann, der sie commandirte.
-               <lb facs="#facs_1_region_1784437714480_526_tl_16" n="N016"/>Wir sind nicht der Meinung, daß von der Aufführung
-               <lb facs="#facs_1_region_1784437714480_526_tl_17" n="N017"/>einer Oper, und wäre sie die allervollkommenste, das
-               <lb facs="#facs_1_region_1784437714480_526_tl_18" n="N018"/>irdische und ewige Heil der Menschheit abhängt. Aber
-               <lb facs="#facs_1_region_1784437714480_526_tl_19" n="N019"/>die Fanatiker, welche dieser rührenden Ansicht sind,
-               <lb facs="#facs_1_region_1784437714480_526_tl_20" n="N020"/>
-               <hi rendition="#em">sie</hi> sollten mit aller Macht dafür agitiren, solches Heil Allen
-               <lb facs="#facs_1_region_1784437714480_526_tl_21" n="N021"/>zugänglich zu machen, den <rs type="bibl">Parsifal</rs> hinauszusenden in die
-               <lb facs="#facs_1_region_1784437714480_526_tl_22" n="N022"/>Welt, wie <rs type="person">Christus</rs> seine Apostel, die ja auch nicht unbeweg¬
-               <lb facs="#facs_1_region_1784437714480_526_tl_23" n="N023"/>lich in <rs type="place">Jerusalem</rs> blos für Geldaristokraten, Touristen und
-               <lb facs="#facs_1_region_1784437714480_526_tl_24" n="N024"/>Reporters gepredigt haben. Daß aber ohne den „<rs type="bibl">Parsifal</rs>“
-               <lb facs="#facs_1_region_1784437714480_526_tl_25" n="N025"/>eine Veredlung der <rs type="place">deutsch</rs>en Kunst, der <rs type="place">deutsch</rs>en Moral,
-               <lb facs="#facs_1_region_1784437714480_526_tl_26" n="N026"/>der <rs type="place">deutsch</rs>en Cultur unmöglich sei, das lesen wir ja alle
-               <lb facs="#facs_1_region_1784437714480_526_tl_27" n="N027"/>Tage. „<rs type="person">Wagner</rs>'s <rs type="bibl">Parsifal</rs>,“ schreibt der fürchterliche <hi rendition="#em">
-                  <rs type="person">Nohl</rs>
-               </hi>
-               <lb facs="#facs_1_region_1784437714480_526_tl_28" n="N028"/>in seiner <rs type="bibl">Wagner-Biographie</rs>, „ist im hervorragenden Sinne
-               <lb facs="#facs_1_region_1784437714480_526_tl_29" n="N029"/>
-               <hi rendition="#em">unser National-Drama</hi>, es soll einem weltgeschicht¬
-               <lb facs="#facs_1_region_1784437714480_526_tl_30" n="N030"/>lichen Volke den Zeitpunkt ins Bewußtsein rufen, in
-               <lb facs="#facs_1_region_1784437714480_526_tl_31" n="N031"/>welchem <hi rendition="#em">es in der Weltgeschichte steht</hi>, und
-               <lb facs="#facs_1_region_1784437714480_526_tl_32" n="N032"/>damit <hi rendition="#em">die Aufgabe klar machen</hi>, welche es in
-               <lb facs="#facs_1_region_1784437714480_526_tl_33" n="N033"/>derselben zu lösen hat.“ „<rs type="bibl">Parsifal</rs>,“ fährt er fort, „heißt
-               <lb facs="#facs_1_region_1784437714480_526_tl_34" n="N034"/>der Stoß, der das Herz des Drachen der modernen Theater
-               <lb facs="#facs_1_region_1784437714480_526_tl_35" n="N035"/>traf, und der <rs type="person">Siegfried</rs>, der ihn stieß, gewann mit seiner
-               <lb facs="#facs_1_region_1784437714480_526_tl_36" n="N036"/>Kunst die schlummernde Braut, das <hi rendition="#em">neu erwachte</hi>
-               <lb facs="#facs_1_region_1784437714480_526_tl_37" n="N037"/>
-               <hi rendition="#em">Herz der Nation und der Menschheit</hi>" u. s. w.</p>
-            <p facs="#facs_1_region_1784437717635_529">
-               <lb facs="#facs_1_region_1784437717635_529_tl_1" n="N001"/>Was uns an dem Ton dieser neuesten <rs type="person">Wagner</rs>-
-               <lb facs="#facs_1_region_1784437717635_529_tl_2" n="N002"/>Hymnen am widerwärtigsten berührt, ist neben der augen¬
-               <lb facs="#facs_1_region_1784437717635_529_tl_3" n="N003"/>verdrehenden Frömmelei (man erinnere sich, wie Herr
-               <lb facs="#facs_1_region_1784437717635_529_tl_4" n="N004"/>v. <hi rendition="#em">
-                  <rs type="person">Wolzogen</rs>
-               </hi> in seinem <rs type="place">Wien</rs>er Vortrage statt von
-               <lb facs="#facs_1_region_1784437717635_529_tl_5" n="N005"/>
-               <rs type="person">Wagner</rs>'s Musik immer von dessen „<rs type="person">Christus</rs>glauben“
-               <lb facs="#facs_1_region_1784437717635_529_tl_6" n="N006"/>und „tiefem religiösen Bedürfniß“ sprach) das Hervor¬
-               <lb facs="#facs_1_region_1784437717635_529_tl_7" n="N007"/>heben der unermeßlichen <hi rendition="#em">nationalen</hi> Bedeutung <rs type="person" continued="true">Wag¬</rs>
-               <lb facs="#facs_1_region_1784437717635_529_tl_8" n="N008"/>
-               <rs type="person" continued="true">ner</rs>'s. Das <rs type="place">deutsch</rs>e Volk, die <rs type="place">deutsch</rs>e Nation, die
-               <lb facs="#facs_1_region_1784437717635_529_tl_9" n="N009"/>
-               <rs type="place">deutsch</rs>e Cultur — ist überall das zweite Wort dieser Herren.
-               <lb facs="#facs_1_region_1784437717635_529_tl_10" n="N010"/>
-               <hi rendition="#em">
-                  <rs type="person">Nohl</rs>
-               </hi> zufolge (den wir nur als den Repräsentanten einer
-               <lb facs="#facs_1_region_1784437717635_529_tl_11" n="N011"/>ganzen Schriftstellerclasse hier herausgreifen) hat <rs type="person">Wagner</rs> mit
-               <lb facs="#facs_1_region_1784437717635_529_tl_12" n="N012"/>seinem <rs type="bibl">Siegfried</rs> „eine neue Seelengrundlage für seine
-               <lb facs="#facs_1_region_1784437717635_529_tl_13" n="N013"/>Nation“ geschaffen. „Die Begeisterung von <date>1870</date>,“ fährt er
-               <lb facs="#facs_1_region_1784437717635_529_tl_14" n="N014"/>fort, „entstammte der gleichen Quelle, und sie hat uns <hi rendition="#em">das</hi>
-               <lb facs="#facs_1_region_1784437717635_529_tl_15" n="N015"/>
-               <hi rendition="#em">Reich</hi> gebracht, wie die von <date>1876</date> die Kunst.“ Was soll
-               <lb facs="#facs_1_region_1784437717635_529_tl_16" n="N016"/>der Nation „die wacklige <hi rendition="#em">
-                  <rs type="person">Mendelssohn</rs>-<rs type="person">Schumann</rs>
-               </hi>'sche
-               <lb facs="#facs_1_region_1784437717635_529_tl_17" n="N017"/>Handwerksmache“ — erst „<rs type="person">Wagner</rs> schrieb <hi rendition="#em">Weltgeschichte</hi>
-               <lb facs="#facs_1_region_1784437717635_529_tl_18" n="N018"/>in Kunstthaten!“ Diese Phrasen, in der <rs type="person">Wagner</rs>-Literatur
-               <lb facs="#facs_1_region_1784437717635_529_tl_19" n="N019"/>zu Hunderten aufgehäuft, charakterisiren durchweg die herr¬
-               <lb facs="#facs_1_region_1784437717635_529_tl_20" n="N020"/>schende Tendenz, <rs type="person">Wagner</rs> als <rs type="place">deutsch</rs>en Patrioten allen großen
-               <lb facs="#facs_1_region_1784437717635_529_tl_21" n="N021"/>Tondichtern <rs type="place">Deutschland</rs>s entgegenzustellen, ja seine nationale
-               <lb facs="#facs_1_region_1784437717635_529_tl_22" n="N022"/>Bedeutung noch über seine künstlerische zu erheben. Den <rs type="place" continued="true">deut¬</rs>
-               <lb facs="#facs_1_region_1784437717635_529_tl_23" n="N023"/>
-               <rs type="place" continued="true">sch</rs>en Charakter von <rs type="person">Wagner</rs>'s Kunst haben wir jederzeit er¬
-               <lb facs="#facs_1_region_1784437717635_529_tl_24" n="N024"/>kannt und geehrt. Aber die tendenziöse Uebertreibung gerade
-               <lb facs="#facs_1_region_1784437717635_529_tl_25" n="N025"/>dieses Moments treibt seine Biographen tief ins Lächerliche
-               <lb facs="#facs_1_region_1784437717635_529_tl_26" n="N026"/>und Aergerliche. Nach unserem Gefühle ist es eine Beleidi¬
-               <lb facs="#facs_1_region_1784437717635_529_tl_27" n="N027"/>gung der <rs type="place">deutsch</rs>en Nation, wenn man ihr unausgesetzt zu¬
-               <lb facs="#facs_1_region_1784437717635_529_tl_28" n="N028"/>ruft, sie besitze eine nationale Kunst und ein patriotisches
-               <lb facs="#facs_1_region_1784437717635_529_tl_29" n="N029"/>Bewußtsein erst durch Richard <rs type="person">Wagner</rs> und habe überhaupt
-               <lb facs="#facs_1_region_1784437717635_529_tl_30" n="N030"/>alles Große und Werthvolle in ihrer gesammten Cultur
-               <lb facs="#facs_1_region_1784437717635_529_tl_31" n="N031"/>eigentlich Richard <rs type="person">Wagner</rs> zu verdanken.
-               <lb facs="#facs_1_region_1784437717635_529_tl_32" n="N032"/>Diese <rs type="place">deutsch</rs>-patriotische Tendenz läßt unsere <rs type="person">Wagner</rs>-
-               <lb facs="#facs_1_l_1" n="N033"/>Biographen mitunter auch recht ungleiches Maß und Gewicht
-               <lb facs="#facs_1_region_1784437717635_529_tl_35" n="N034"/>handhaben. Eine bestimmte Handlungsweise, welche sie z. B.
-               <lb facs="#facs_1_region_1784437717635_529_tl_36" n="N035"/>an <rs type="person">Meyerbeer</rs> tadelnswerth und verächtlich nennen, finden sie
-               <lb facs="#facs_1_region_1784437717635_529_tl_37" n="N036"/>bei <rs type="person">Wagner</rs> ganz in der Ordnung, was sie auch wirklich
-               <lb facs="#facs_1_region_1784437717635_529_tl_38" n="N037"/>war: das Streben, von <rs type="place">Paris</rs> aus Carrière zu machen.</p>
+            <cb n="1"/>
+            <lb facs="#facs_1_region_1784437711638_523_tl_1" n="N001"/><head type="h1">Zur Rückkehr von <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>.</head>
+            <p>
+         <lb facs="#facs_1_region_1784437711638_523_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_1">Ed. H.</rs> Die <rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>-Pilger sind nunmehr zurück
+         <lb facs="#facs_1_region_1784437711638_523_tl_3" n="N003" break="no"/>gekehrt von <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>. Ihren Erzählungen lauscht mit be
+         <lb facs="#facs_1_region_1784437711638_523_tl_4" n="N004" break="no"/>gierigem Antheil, wer, gleich uns, selbst kein Verlangen trug,
+         <lb facs="#facs_1_region_1784437711638_523_tl_5" n="N005"/>sich den bedeutenden Eindruck der ersten <rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>-Vorstellung
+         <lb facs="#facs_1_region_1784437711638_523_tl_6" n="N006"/>(<date>1882</date>) durch eine geschwächte und getrübte Wiederholung
+         <lb facs="#facs_1_region_1784437711638_523_tl_7" n="N007"/>verwischen zu lassen. Jene erste Aufführung hatte noch
+         <lb facs="#facs_1_region_1784437711638_523_tl_8" n="N008"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> selbst, der lebendigste aller Menschen, zu Stande ge
+         <lb facs="#facs_1_region_1784437711638_523_tl_9" n="N009" break="no"/>bracht — die diesjährige zweite der Tod <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s. Gleich
+         <lb facs="#facs_1_region_1784437711638_523_tl_10" n="N010"/>einem unsichtbaren Mantel, verdunkelnd zugleich und beschützend,
+         <lb facs="#facs_1_l_3" n="N011"/>breitete sich sein Bahrtuch aus über dem verwaisten Festspiel.
+         <lb facs="#facs_1_region_1784437711638_523_tl_11" n="N012"/>Durch <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s plötzlichen Tod zur Trauerfeier geworden,
+         <lb facs="#facs_1_region_1784437711638_523_tl_12" n="N013"/>hielt „<rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>“ die näheren und ferneren Anhänger des
+         <lb facs="#facs_1_region_1784437711638_523_tl_13" n="N014"/>Meisters noch pietätvoll in <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs> zusammen. Vollständig
+         <lb facs="#facs_1_region_1784437711638_523_tl_14" n="N015"/>und ohne Störung haben die Vorstellungen sich abgespielt.
+         <lb facs="#facs_1_region_1784437711638_523_tl_15" n="N016"/>Die einst die Leiche des Cid <rs type="person" ref="#hsl_person_id_7584">Campeador</rs> die Spanier zum
+         <lb facs="#facs_1_region_1784437711638_523_tl_16" n="N017"/>letzten Sieg geführt hat, so gewann der todte <rs type="person" ref="#hsl_person_id_319">Wagner</rs> noch
+         <lb facs="#facs_1_region_1784437711638_523_tl_17" n="N018"/>einmal die Schlacht von <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>. So leicht und glänzend
+         <lb facs="#facs_1_region_1784437711638_523_tl_18" n="N019"/>wie im Jahre <date>1882</date> gelang der Sieg freilich nicht mehr.
+         <lb facs="#facs_1_region_1784437711638_523_tl_19" n="N020"/>Daß die allgemeine Begeisterung und der Andrang des
+         <lb facs="#facs_1_region_1784437711638_523_tl_20" n="N021"/>Publicums, trotz reichlich ausgestreuter Freibillette, die frühere
+         <lb facs="#facs_1_region_1784437711638_523_tl_21" n="N022"/>Höhe nicht entfernt erreichten, ja daß die Aufführung selbst
+         <lb facs="#facs_1_region_1784437711638_523_tl_22" n="N023"/>die ordnende und anfeuernde Hand des Autors häufig ver
+         <lb facs="#facs_1_region_1784437711638_523_tl_23" n="N024" break="no"/>missen ließ, das bezeugen die mündlichen Berichte der Rück
+         <lb facs="#facs_1_region_1784437711638_523_tl_24" n="N025" break="no"/>gekehrten noch einstimmiger, als die gedruckten.
+            </p><p>
+         <lb facs="#facs_1_region_1784437711638_523_tl_25" n="N026"/>Wird ein dritter <rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>-Cyklus im nächsten Jahre
+         <lb facs="#facs_1_region_1784437711638_523_tl_26" n="N027"/>durchzusetzen sein? Und mit welchem Erfolge? Von allem
+         <lb facs="#facs_1_region_1784437711638_523_tl_27" n="N028"/>Anfange an erschien uns das proclamirte „ewige Monopol“
+         <lb facs="#facs_1_region_1784437711638_523_tl_28" n="N029"/>des <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs>er Theaters als eine phantastische und undurch
+         <lb facs="#facs_1_region_1784437711638_523_tl_29" n="N030" break="no"/>führbare Idee; wir haben trotz der Protestationen <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s
+         <lb facs="#facs_1_region_1784437711638_523_tl_30" n="N031"/>Recht behalten bezüglich der „<rs type="bibl" ref="#hsl_work_id_418">Nibelungen</rs>“, und werden es
+         <lb facs="#facs_1_region_1784437711638_523_tl_31" n="N032"/>auch bezüglich des „<rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>“. Möchten, so fragen wir, die
+         <lb facs="#facs_1_region_1784437711638_523_tl_32" n="N033"/>ehrlichen Freunde <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s heute wirklich alle die erfolg
+         <lb facs="#facs_1_region_1784437711638_523_tl_33" n="N034" break="no"/>reiche <rs type="bibl" ref="#hsl_work_id_418">Nibelungen</rs>-Aufführungen ungeschehen machen, welche<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+         <lb facs="#facs_1_region_1784437714480_526_tl_1" n="N001"/>seit sieben Jahren in den <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Hauptstädten stattfanden?
+         <lb facs="#facs_1_region_1784437714480_526_tl_2" n="N002"/>Unser Antrag, es möchte „<rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>“ gleich der <rs type="bibl" ref="#hsl_work_id_418">Nibelungen-
+         <lb facs="#facs_1_region_1784437714480_526_tl_3" n="N003"/>Trilogie</rs> nunmehr auch auf den großen Bühnen erscheinen, geschah
+         <lb facs="#facs_1_region_1784437714480_526_tl_4" n="N004"/>doch nur im Interesse des Werkes selbst, das hier allerdings nicht
+         <lb facs="#facs_1_region_1784437714480_526_tl_5" n="N005"/>mit dem localen Interesse der Stadt <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs> zusammenfällt.
+         <lb facs="#facs_1_region_1784437714480_526_tl_6" n="N006"/>Es zeugt von der leidenschaftlichen Befangenheit der Wagnerianer,
+         <lb facs="#facs_1_region_1784437714480_526_tl_7" n="N007"/>wenn Einer derselben, ein <rs type="place" ref="#hsl_place_id_55">Wien</rs>er <rs type="person" ref="#hsl_person_id_7023">Musik-Kritiker</rs>, uns von
+         <lb facs="#facs_1_region_1784437714480_526_tl_8" n="N008"/><rs type="place" ref="#hsl_place_id_8">Bayreuth</rs> aus anklagt, mit jenem Vorschlage den „<rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>“
+         <lb facs="#facs_1_region_1784437714480_526_tl_9" n="N009"/>herabwürdigen und schädigen zu wollen. Im Gegensatze zu
+         <lb facs="#facs_1_region_1784437714480_526_tl_10" n="N010"/>diesem hat jetzt ein anderer, vernünftigerer <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Apostel aus
+         <lb facs="#facs_1_region_1784437714480_526_tl_11" n="N011"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> öffentlich seine Stimme für die „Freigebung des <rs type="bibl" ref="#hsl_work_id_275">Par
+         <lb facs="#facs_1_region_1784437714480_526_tl_12" n="N012" break="no"/>sifal</rs>“ erhoben und vielfache Zustimmung gefunden. So sehen
+         <lb facs="#facs_1_region_1784437714480_526_tl_13" n="N013"/>wir — so bald schon — durch inneren Zwist die Partei
+         <lb facs="#facs_1_region_1784437714480_526_tl_14" n="N014"/>selbst gespalten, welche früher wie Ein Mann stimmte, das
+         <lb facs="#facs_1_region_1784437714480_526_tl_15" n="N015"/>heißt wie der Eine Mann, der sie commandirte.
+            </p><p>
+         <lb facs="#facs_1_region_1784437714480_526_tl_16" n="N016"/>Wir sind nicht der Meinung, daß von der Aufführung
+         <lb facs="#facs_1_region_1784437714480_526_tl_17" n="N017"/>einer Oper, und wäre sie die allervollkommenste, das
+         <lb facs="#facs_1_region_1784437714480_526_tl_18" n="N018"/>irdische und ewige Heil der Menschheit abhängt. Aber
+         <lb facs="#facs_1_region_1784437714480_526_tl_19" n="N019"/>die Fanatiker, welche dieser rührenden Ansicht sind,
+         <lb facs="#facs_1_region_1784437714480_526_tl_20" n="N020"/><hi rendition="#em">sie</hi> sollten mit aller Macht dafür agitiren, solches Heil Allen
+         <lb facs="#facs_1_region_1784437714480_526_tl_21" n="N021"/>zugänglich zu machen, den <rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs> hinauszusenden in die
+         <lb facs="#facs_1_region_1784437714480_526_tl_22" n="N022"/>Welt, wie <rs type="person" ref="#hsl_person_id_463">Christus</rs> seine Apostel, die ja auch nicht unbeweg
+         <lb facs="#facs_1_region_1784437714480_526_tl_23" n="N023" break="no"/>lich in <rs type="place" ref="#hsl_place_id_63">Jerusalem</rs> blos für Geldaristokraten, Touristen und
+         <lb facs="#facs_1_region_1784437714480_526_tl_24" n="N024"/>Reporters gepredigt haben. Daß aber ohne den „<rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>“
+         <lb facs="#facs_1_region_1784437714480_526_tl_25" n="N025"/>eine Veredlung der <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Kunst, der <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Moral,
+         <lb facs="#facs_1_region_1784437714480_526_tl_26" n="N026"/>der <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Cultur unmöglich sei, das lesen wir ja alle
+         <lb facs="#facs_1_region_1784437714480_526_tl_27" n="N027"/>Tage. „<rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s <rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>,“ schreibt der fürchterliche <hi rendition="#em"><rs type="person" ref="#hsl_person_id_195">Nohl</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784437714480_526_tl_28" n="N028"/>in seiner <rs type="bibl" ref="#hsl_work_id_6816">Wagner-Biographie</rs>, „ist im hervorragenden Sinne
+         <lb facs="#facs_1_region_1784437714480_526_tl_29" n="N029"/><hi rendition="#em">unser National-Drama</hi>, es soll einem weltgeschicht
+         <lb facs="#facs_1_region_1784437714480_526_tl_30" n="N030" break="no"/>lichen Volke den Zeitpunkt ins Bewußtsein rufen, in
+         <lb facs="#facs_1_region_1784437714480_526_tl_31" n="N031"/>welchem <hi rendition="#em">es in der Weltgeschichte steht</hi>, und
+         <lb facs="#facs_1_region_1784437714480_526_tl_32" n="N032"/>damit <hi rendition="#em">die Aufgabe klar machen</hi>, welche es in
+         <lb facs="#facs_1_region_1784437714480_526_tl_33" n="N033"/>derselben zu lösen hat.“ „<rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>,“ fährt er fort, „heißt
+         <lb facs="#facs_1_region_1784437714480_526_tl_34" n="N034"/>der Stoß, der das Herz des Drachen der modernen Theater
+         <lb facs="#facs_1_region_1784437714480_526_tl_35" n="N035"/>traf, und der <rs type="person" ref="#hsl_person_id_1684">Siegfried</rs>, der ihn stieß, gewann mit seiner
+         <lb facs="#facs_1_region_1784437714480_526_tl_36" n="N036"/>Kunst die schlummernde Braut, das <hi rendition="#em">neu erwachte
+         <lb facs="#facs_1_region_1784437714480_526_tl_37" n="N037"/>Herz der Nation und der Menschheit</hi>" u. s. w.<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
+         <lb facs="#facs_1_region_1784437717635_529_tl_1" n="N001"/>Was uns an dem Ton dieser neuesten <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-
+         <lb facs="#facs_1_region_1784437717635_529_tl_2" n="N002"/>Hymnen am widerwärtigsten berührt, ist neben der augen
+         <lb facs="#facs_1_region_1784437717635_529_tl_3" n="N003" break="no"/>verdrehenden Frömmelei (man erinnere sich, wie Herr
+         <lb facs="#facs_1_region_1784437717635_529_tl_4" n="N004"/>v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2768">Wolzogen</rs></hi> in seinem <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Vortrage statt von
+         <lb facs="#facs_1_region_1784437717635_529_tl_5" n="N005"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Musik immer von dessen „<rs type="person" ref="#hsl_person_id_463">Christus</rs>glauben“
+         <lb facs="#facs_1_region_1784437717635_529_tl_6" n="N006"/>und „tiefem religiösen Bedürfniß“ sprach) das Hervor
+         <lb facs="#facs_1_region_1784437717635_529_tl_7" n="N007" break="no"/>heben der unermeßlichen <hi rendition="#em">nationalen</hi> Bedeutung <rs type="person" ref="#hsl_person_id_319">Wag
+         <lb facs="#facs_1_region_1784437717635_529_tl_8" n="N008" break="no"/>ner</rs>’s. Das <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Volk, die <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Nation, die
+         <lb facs="#facs_1_region_1784437717635_529_tl_9" n="N009"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Cultur — ist überall das zweite Wort dieser Herren.
+         <lb facs="#facs_1_region_1784437717635_529_tl_10" n="N010"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_195">Nohl</rs></hi> zufolge (den wir nur als den Repräsentanten einer
+         <lb facs="#facs_1_region_1784437717635_529_tl_11" n="N011"/>ganzen Schriftstellerclasse hier herausgreifen) hat <rs type="person" ref="#hsl_person_id_319">Wagner</rs> mit
+         <lb facs="#facs_1_region_1784437717635_529_tl_12" n="N012"/>seinem <rs type="bibl" ref="#hsl_work_id_1315">Siegfried</rs> „eine neue Seelengrundlage für seine
+         <lb facs="#facs_1_region_1784437717635_529_tl_13" n="N013"/>Nation“ geschaffen. „Die Begeisterung von <date>1870</date>,“ fährt er
+         <lb facs="#facs_1_region_1784437717635_529_tl_14" n="N014"/>fort, „entstammte der gleichen Quelle, und sie hat uns <hi rendition="#em">das
+         <lb facs="#facs_1_region_1784437717635_529_tl_15" n="N015"/>Reich</hi> gebracht, wie die von <date>1876</date> die Kunst.“ Was soll
+         <lb facs="#facs_1_region_1784437717635_529_tl_16" n="N016"/>der Nation „die wacklige <hi rendition="#em"><rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>-<rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi>’sche
+         <lb facs="#facs_1_region_1784437717635_529_tl_17" n="N017"/>Handwerksmache“ — erst „<rs type="person" ref="#hsl_person_id_319">Wagner</rs> schrieb <hi rendition="#em">Weltgeschichte</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784437717635_529_tl_18" n="N018"/>in Kunstthaten!“ Diese Phrasen, in der <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Literatur
+         <lb facs="#facs_1_region_1784437717635_529_tl_19" n="N019"/>zu Hunderten aufgehäuft, charakterisiren durchweg die herr
+         <lb facs="#facs_1_region_1784437717635_529_tl_20" n="N020" break="no"/>schende Tendenz, <rs type="person" ref="#hsl_person_id_319">Wagner</rs> als <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Patrioten allen großen
+         <lb facs="#facs_1_region_1784437717635_529_tl_21" n="N021"/>Tondichtern <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>s entgegenzustellen, ja seine nationale
+         <lb facs="#facs_1_region_1784437717635_529_tl_22" n="N022"/>Bedeutung noch über seine künstlerische zu erheben. Den <rs type="place" ref="#hsl_place_id_14">deut
+         <lb facs="#facs_1_region_1784437717635_529_tl_23" n="N023" break="no"/>sch</rs>en Charakter von <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Kunst haben wir jederzeit er
+         <lb facs="#facs_1_region_1784437717635_529_tl_24" n="N024" break="no"/>kannt und geehrt. Aber die tendenziöse Uebertreibung gerade
+         <lb facs="#facs_1_region_1784437717635_529_tl_25" n="N025"/>dieses Moments treibt seine Biographen tief ins Lächerliche
+         <lb facs="#facs_1_region_1784437717635_529_tl_26" n="N026"/>und Aergerliche. Nach unserem Gefühle ist es eine Beleidi
+         <lb facs="#facs_1_region_1784437717635_529_tl_27" n="N027" break="no"/>gung der <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Nation, wenn man ihr unausgesetzt zu
+         <lb facs="#facs_1_region_1784437717635_529_tl_28" n="N028" break="no"/>ruft, sie besitze eine nationale Kunst und ein patriotisches
+         <lb facs="#facs_1_region_1784437717635_529_tl_29" n="N029"/>Bewußtsein erst durch Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> und habe überhaupt
+         <lb facs="#facs_1_region_1784437717635_529_tl_30" n="N030"/>alles Große und Werthvolle in ihrer gesammten Cultur
+         <lb facs="#facs_1_region_1784437717635_529_tl_31" n="N031"/>eigentlich Richard <rs type="person" ref="#hsl_person_id_319">Wagner</rs> zu verdanken.
+            </p><p>
+         <lb facs="#facs_1_region_1784437717635_529_tl_32" n="N032"/>Diese <rs type="place" ref="#hsl_place_id_14">deutsch</rs>-patriotische Tendenz läßt unsere <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-
+         <lb facs="#facs_1_l_1" n="N033"/>Biographen mitunter auch recht ungleiches Maß und Gewicht
+         <lb facs="#facs_1_region_1784437717635_529_tl_35" n="N034"/>handhaben. Eine bestimmte Handlungsweise, welche sie z. B.
+         <lb facs="#facs_1_region_1784437717635_529_tl_36" n="N035"/>an <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> tadelnswerth und verächtlich nennen, finden sie
+         <lb facs="#facs_1_region_1784437717635_529_tl_37" n="N036"/>bei <rs type="person" ref="#hsl_person_id_319">Wagner</rs> ganz in der Ordnung, was sie auch wirklich
+         <lb facs="#facs_1_region_1784437717635_529_tl_38" n="N037"/>war: das Streben, von <rs type="place" ref="#hsl_place_id_44">Paris</rs> aus Carrière zu machen.<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <p facs="#facs_2_region_1784437732282_535">
-               <lb facs="#facs_2_region_1784437732282_535_tl_1" n="N001"/>Schon <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi> hatte sich nach <rs type="place">Paris</rs> gewendet, als er in
-               <lb facs="#facs_2_region_1784437732282_535_tl_2" n="N002"/>seiner <rs type="place">deutsch</rs>en Heimat nicht den gewünschten Boden fand
-               <lb facs="#facs_2_region_1784437732282_535_tl_3" n="N003"/>für seine Kunst. Zur Zeit von <hi rendition="#em">
-                  <rs type="person">Meyerbeer</rs>'s</hi> Anfängen
-               <lb facs="#facs_2_region_1784437732282_535_tl_4" n="N004"/>lagen die Theater-Verhältnisse in <rs type="place">Deutschland</rs> allerdings
-               <lb facs="#facs_2_region_1784437732282_535_tl_5" n="N005"/>schon günstiger, aber noch immer nicht günstig. Einem
-               <lb facs="#facs_2_region_1784437732282_535_tl_6" n="N006"/>jungen <rs type="place">deutsch</rs>en Componisten war es da nicht leicht ge¬
-               <lb facs="#facs_2_region_1784437732282_535_tl_7" n="N007"/>macht, seine Erstlingsopern anzubringen; und hatte er
-               <lb facs="#facs_2_region_1784437732282_535_tl_8" n="N008"/>sie an einem unserer zahlreichen Hof- oder Stadt¬
-               <lb facs="#facs_2_region_1784437732282_535_tl_9" n="N009"/>theater glücklich durchgesetzt und damit sogar reussirt, so ent¬
-               <lb facs="#facs_2_region_1784437732282_535_tl_10" n="N010"/>schied dieser Local-Erfolg noch lange nicht für die übrigen
-               <lb facs="#facs_2_region_1784437732282_535_tl_11" n="N011"/>
-               <rs type="place">deutsch</rs>en Bühnen, die erst wieder einzeln erobert werden
-               <lb facs="#facs_2_region_1784437732282_535_tl_12" n="N012"/>mußten. Wie anders in <rs type="place">Paris</rs>, wo alle Telegraphendrähte
-               <lb facs="#facs_2_region_1784437732282_535_tl_13" n="N013"/>des Erfolges zusammenlaufen! Von <rs type="place">Paris</rs> aus war <rs type="place" continued="true">Deutsch¬</rs>
-               <lb facs="#facs_2_region_1784437732282_535_tl_14" n="N014"/>
-               <rs type="place" continued="true">land</rs> musikalisch zu erobern, und dieses Ziel durfte auch
-               <lb facs="#facs_2_region_1784437732282_535_tl_15" n="N015"/>einem guten Deutschen verlockend erscheinen. Wie <rs type="person">Meyerbeer</rs>,
-               <lb facs="#facs_2_region_1784437732282_535_tl_16" n="N016"/>so hatte auch <rs type="person">Wagner</rs> mit seinen Erstlingswerken in <rs type="place" continued="true">Deutsch¬</rs>
-               <lb facs="#facs_2_region_1784437732282_535_tl_17" n="N017"/>
-               <rs type="place" continued="true">land</rs> kein Glück gehabt; so wie <rs type="person">Meyerbeer</rs> verzweifelt er
-               <lb facs="#facs_2_region_1784437732282_535_tl_18" n="N018"/>sofort an einer Carrière in <rs type="place">Deutschland</rs>, so wie <rs type="person">Meyerbeer</rs> geht
-               <lb facs="#facs_2_region_1784437732282_535_tl_19" n="N019"/>er nach <rs type="place">Paris</rs>, fest überzeugt, ein Erfolg an der „Académie
-               <lb facs="#facs_2_region_1784437732282_535_tl_20" n="N020"/>royale“ werde ihm auch die heimatlichen Bühnen erschließen.
-               <lb facs="#facs_2_region_1784437732282_535_tl_21" n="N021"/>Wie <rs type="person">Meyerbeer</rs> seinen „<rs type="bibl">Robert</rs>“, so hatte <rs type="person">Wagner</rs> seinen
-               <lb facs="#facs_2_region_1784437732282_535_tl_22" n="N022"/>„<hi rendition="#em">
-                  <rs type="bibl">Rienzi</rs>
-               </hi>“ und seinen „<hi rendition="#em">
-                  <rs type="bibl">Fliegenden Holländer</rs>
-               </hi>“
-               <lb facs="#facs_2_region_1784437732282_535_tl_23" n="N023"/>für die <rs type="place">französisch</rs>e Große Oper bestimmt und außerdem seine
-               <lb facs="#facs_2_region_1784437732282_535_tl_24" n="N024"/>Oper „<rs type="bibl">Das Liebesverbot</rs>“ für das Renaissance-Theater ins
-               <lb facs="#facs_2_region_1784437732282_535_tl_25" n="N025"/>
-               <rs type="place">Französisch</rs>e übersetzen lassen. Warum an dem Einen ver¬
-               <lb facs="#facs_2_region_1784437732282_535_tl_26" n="N026"/>dammen, was man an dem Andern lobenswerth oder doch
-               <lb facs="#facs_2_region_1784437732282_535_tl_27" n="N027"/>natürlich findet? <rs type="person">Meyerbeer</rs> hat von <rs type="place">Paris</rs> aus seinen Opern
-               <lb facs="#facs_2_region_1784437732282_535_tl_28" n="N028"/>ganz <rs type="place">Deutschland</rs> erobert, <rs type="person">Wagner</rs> wollte dasselbe, der Unter¬
-               <lb facs="#facs_2_region_1784437732282_535_tl_29" n="N029"/>schied ist nur, daß es Jenem gelang, diesem nicht. An drei volle
-               <lb facs="#facs_2_region_1784437732282_535_tl_30" n="N030"/>Jahre hat <rs type="person">Wagner</rs> in <rs type="place">Paris</rs> verlebt (<date>1839</date> bis <date>1842</date>), unter
-               <lb facs="#facs_2_region_1784437732282_535_tl_31" n="N031"/>den erdenklichsten Mühen, Sorgen, Entbehrungen. Er war
-               <lb facs="#facs_2_region_1784437732282_535_tl_32" n="N032"/>nicht der Mann, so schnell nachzugeben, zu resigniren. Erst
-               <lb facs="#facs_2_region_1784437732282_535_tl_33" n="N033"/>als er die Berufung nach <rs type="place">Dresden</rs> erhielt, kehrte er <rs type="place">Paris</rs>
-               <lb facs="#facs_2_region_1784437732282_535_tl_34" n="N034"/>den Rücken. Wie sich <rs type="person">Wagner</rs>'s Laufbahn gestaltet hätte, wären
-               <lb facs="#facs_2_region_1784437732282_535_tl_35" n="N035"/>sein „<rs type="bibl">Rienzi</rs>“, sein „<rs type="bibl">Holländer</rs>“ in <rs type="place">Paris</rs> gegeben worden,
-               <lb facs="#facs_2_region_1784437732282_535_tl_36" n="N036"/>mit demselben Erfolge gegeben worden wie <rs type="person">Meyerbeer</rs>'s
-               <lb facs="#facs_2_region_1784437732282_535_tl_37" n="N037"/>„<rs type="bibl">Robert</rs>“ — das kann Niemand wissen. Aber nicht genug.</p>
-            <p facs="#facs_2_region_1784437737418_538">
-               <lb facs="#facs_2_region_1784437737418_538_tl_1" n="N001"/>Als <rs type="person">Wagner</rs> nach dem demüthigendsten <rs type="place">Paris</rs>er Aufenthalte
-               <lb facs="#facs_2_region_1784437737418_538_tl_2" n="N002"/>die Herzen der Deutschen mit dem „<rs type="bibl">Tannhäuser</rs>“, „<rs type="bibl">Hollän¬</rs>
-               <lb facs="#facs_2_region_1784437737418_538_tl_3" n="N003"/>
-               <rs type="bibl">der</rs>“ und „<rs type="bibl">Lohengrin</rs>“ bereits gewonnen hatte, eine Nöthigung
-               <lb facs="#facs_2_region_1784437737418_538_tl_4" n="N004"/>also gar nicht mehr vorlag, sie von <rs type="place">Paris</rs> aus zu erobern,
-               <lb facs="#facs_2_region_1784437737418_538_tl_5" n="N005"/>sehen wir ihn (<date>1861</date>) abermals nach <rs type="place">Paris</rs> wandern und die
-               <lb facs="#facs_2_region_1784437737418_538_tl_6" n="N006"/>unglaublichsten Anstrengungen machen, um den Franzosen
-               <lb facs="#facs_2_region_1784437737418_538_tl_7" n="N007"/>seinen „<rs type="bibl">Tannhäuser</rs>“ vorzuführen. Er scheut nicht die
-               <lb facs="#facs_2_region_1784437737418_538_tl_8" n="N008"/>Kosten und die Arbeit der Uebersetzung und Um¬
-               <lb facs="#facs_2_region_1784437737418_538_tl_9" n="N009"/>arbeitung dieses durchaus <rs type="place">deutsch</rs>en Werkes für die
-               <lb facs="#facs_2_region_1784437737418_538_tl_10" n="N010"/>
-               <rs type="place">französisch</rs>e Oper, nicht die mühevolle Unterweisung der
-               <lb facs="#facs_2_region_1784437737418_538_tl_11" n="N011"/>fremden Sänger und Musiker — kurz, er setzt abermals
-               <lb facs="#facs_2_region_1784437737418_538_tl_12" n="N012"/>eines seiner besten Jahre an einen Erfolg in <rs type="place">Paris</rs>. Erst als
-               <lb facs="#facs_2_region_1784437737418_538_tl_13" n="N013"/>diese Hoffnung abermals scheitert und „<rs type="bibl">Tannhäuser</rs>“ in Folge
-               <lb facs="#facs_2_region_1784437737418_538_tl_14" n="N014"/>einer abgekarteten brutalen Opposition durchfällt, verzichtet
-               <lb facs="#facs_2_region_1784437737418_538_tl_15" n="N015"/>
-               <rs type="person">Wagner</rs> endgiltig auf seine Versuche, die Franzosen für seine
-               <lb facs="#facs_2_region_1784437737418_538_tl_16" n="N016"/>Musik zu gewinnen. <rs type="person">Wagner</rs> hat, wie gesagt, mit seinen
-               <lb facs="#facs_2_region_1784437737418_538_tl_17" n="N017"/>
-               <rs type="place">Paris</rs>er Bestrebungen gehandelt, wie vor ihm seine berühm¬
-               <lb facs="#facs_2_region_1784437737418_538_tl_18" n="N018"/>ten Landsleute <rs type="person">Gluck</rs> und <rs type="person">Meyerbeer</rs>, nur mit verschiedenem
-               <lb facs="#facs_2_region_1784437737418_538_tl_19" n="N019"/>Erfolge. Dies hätte der <rs type="person">Wagner</rs>-Biograph objectiv und ohne
-               <lb facs="#facs_2_region_1784437737418_538_tl_20" n="N020"/>die stereotypen patriotischen Hymnen darzustellen. Es ist in
-               <lb facs="#facs_2_region_1784437737418_538_tl_21" n="N021"/>
-               <rs type="person">Wagner</rs>'s Leben eines der wichtigsten Blätter, das weder
-               <lb facs="#facs_2_region_1784437737418_538_tl_22" n="N022"/>gepriesen, noch getadelt, sondern blos verstanden zu werden
-               <lb facs="#facs_2_region_1784437737418_538_tl_23" n="N023"/>braucht.
-               <lb facs="#facs_2_region_1784437737418_538_tl_24" n="N024"/>Von dieser <rs type="place">Paris</rs>er Epoche, überhaupt von <rs type="person">Wagner</rs>'s
-               <lb facs="#facs_2_region_1784437737418_538_tl_25" n="N025"/>ersten dreißig Jahren wissen seine Biographen genau nur so
-               <lb facs="#facs_2_region_1784437737418_538_tl_26" n="N026"/>viel, als in der bekannten „<rs type="bibl">Autobiographischen Skizze</rs>“ steht.
-               <lb facs="#facs_2_region_1784437737418_538_tl_27" n="N027"/>Ein werthvolles, auch stylistisch merkwürdiges Document.
-               <lb facs="#facs_2_region_1784437737418_538_tl_28" n="N028"/>Gleich den anderen noch in <rs type="place">Paris</rs> geschriebenen Aufsätzen
-               <lb facs="#facs_2_region_1784437737418_538_tl_29" n="N029"/>
-               <rs type="person">Wagner</rs>'s bewegt sich seine Selbstbiographie in einer frischen,
-               <lb facs="#facs_2_region_1784437737418_538_tl_30" n="N030"/>lebhaften und natürlichen Sprache — in vollstem Gegensatze
-               <lb facs="#facs_2_region_1784437737418_538_tl_31" n="N031"/>zu seinen späteren Schriften, deren athemverletzender Perioden¬
-               <lb facs="#facs_2_region_1784437737418_538_tl_32" n="N032"/>bau, philosophischer Bombast und mystisch orakelnder Ton
-               <lb facs="#facs_2_region_1784437737418_538_tl_33" n="N033"/>so abschreckend wirken. <rs type="person">Wagner</rs>'s Erzählung, diese vornehmste,
-               <lb facs="#facs_2_region_1784437737418_538_tl_34" n="N034"/>aber keineswegs ausreichende Quelle, aus eigener Forschung
-               <lb facs="#facs_2_region_1784437737418_538_tl_35" n="N035"/>zu vervollständigen und im Einzelnen zu prüfen, ist noch
-               <lb facs="#facs_2_region_1784437737418_538_tl_36" n="N036"/>keinem seiner Biographen eingefallen. Was kürzlich Fr. <hi rendition="#em">
-                  <rs type="person">Pecht</rs>
-               </hi>,
-               <lb facs="#facs_2_region_1784437737418_538_tl_37" n="N037"/>leicht idealisirend, in der <rs type="bibl">A. A. Z.</rs> und Heinrich <hi rendition="#em">
-                  <rs type="person">Laube</rs>
-               </hi>
-            </p>
-            <p facs="#facs_2_region_1784437741156_541">
-               <lb facs="#facs_2_region_1784437741156_541_tl_1" n="N001"/>mit herber Wahrhaftigkeit in der „<rs type="bibl">Neuen Freien Presse</rs>“ über
-               <lb facs="#facs_2_region_1784437741156_541_tl_2" n="N002"/>den jungen <rs type="person">Wagner</rs> und seine <rs type="place">Paris</rs>er Zeit veröffentlicht
-               <lb facs="#facs_2_region_1784437741156_541_tl_3" n="N003"/>haben, ist werthvoller für dessen Charakteristik, als alle die
-               <lb facs="#facs_2_region_1784437741156_541_tl_4" n="N004"/>angeblichen „Biographien“ <rs type="person">Wagner</rs>'s zusammengenommen.
-               <lb facs="#facs_2_region_1784437741156_541_tl_5" n="N005"/>Daß letztere nichts als Parteischriften sind, Monumente der
-               <lb facs="#facs_2_region_1784437741156_541_tl_6" n="N006"/>Lobhudelei, aus denen ein ernsthafter Leser nichts lernen
-               <lb facs="#facs_2_region_1784437741156_541_tl_7" n="N007"/>kann, dürfte jetzt mit jedem Tage klarer erkannt werden.
-               <lb facs="#facs_2_region_1784437741156_541_tl_8" n="N008"/>
-               <rs type="person">Wagner</rs>'s Tod wird die gute Folge haben, nicht blos seine
-               <lb facs="#facs_2_region_1784437741156_541_tl_9" n="N009"/>Werke in die Nachmittagssonne historischer Beleuchtung
-               <lb facs="#facs_2_region_1784437741156_541_tl_10" n="N010"/>zu rücken, sondern auch seine Hofkritiker und -Biographen
-               <lb facs="#facs_2_region_1784437741156_541_tl_11" n="N011"/>des mäßigen von ihm erborgten Lichtes zu entkleiden.
-               <lb facs="#facs_2_region_1784437741156_541_tl_12" n="N012"/>Die ehrliche Schwärmerei bleibt <rs type="person">Wagner</rs> nach wie vor zur
-               <lb facs="#facs_2_region_1784437741156_541_tl_13" n="N013"/>Seite, aber die Bajonnette der „<rs type="bibl">Bayreuther Blätter</rs>“ dürften
-               <lb facs="#facs_2_region_1784437741156_541_tl_14" n="N014"/>ausgedient haben. Zwar besteht der ungeheure Apparat der
-               <lb facs="#facs_2_region_1784437741156_541_tl_15" n="N015"/>ganz <rs type="place">Deutschland</rs> überziehenden <rs type="person">Wagner</rs>-Vereine noch fort,
-               <lb facs="#facs_2_region_1784437741156_541_tl_16" n="N016"/>aber die belebende Kraft derselben ist erloschen. Es war dies
-               <lb facs="#facs_2_region_1784437741156_541_tl_17" n="N017"/>keine blos mechanische Kraft, die sich ersetzen läßt, sondern
-               <lb facs="#facs_2_region_1784437741156_541_tl_18" n="N018"/>eine geistige, höchst individuelle Kraft, vor der man Respect
-               <lb facs="#facs_2_region_1784437741156_541_tl_19" n="N019"/>hatte. Heute wüßten wir wahrlich nicht, vor wem wir be¬
-               <lb facs="#facs_2_region_1784437741156_541_tl_20" n="N020"/>sonderen Respect haben solten in diesen herrnlosen Volks¬
-               <lb facs="#facs_2_region_1784437741156_541_tl_21" n="N021"/>küchen des <rs type="person">Wagner</rs>-Enthusiasmus. Sie haben durch ihre Be¬
-               <lb facs="#facs_2_region_1784437741156_541_tl_22" n="N022"/>einflussung des öffentlichen Urtheils ihrem Herrn und
-               <lb facs="#facs_2_region_1784437741156_541_tl_23" n="N023"/>Meister mannichfachen Vortheil, aber auch schweren
-               <lb facs="#facs_2_region_1784437741156_541_tl_24" n="N024"/>moralischen Schaden gebracht. Die stärksten Fäuste führten
-               <lb facs="#facs_2_region_1784437741156_541_tl_25" n="N025"/>sie ihm zu und entfremdeten ihm die vornehmsten Köpfe.
-               <lb facs="#facs_2_region_1784437741156_541_tl_26" n="N026"/>Erst mit dem allmäligen Aufhören dieser in der Kunst¬
-               <lb facs="#facs_2_region_1784437741156_541_tl_27" n="N027"/>geschichte unerhörten Anstalten wird <rs type="person">Wagner</rs>'s Werk voll¬
-               <lb facs="#facs_2_region_1784437741156_541_tl_28" n="N028"/>ständig seine eigenste Kraft erproben und vielleicht nicht
-               <lb facs="#facs_2_region_1784437741156_541_tl_29" n="N029"/>schlecht dabei fahren. Es wird sich <hi rendition="#em">von</hi> ihm Mancher ge¬
-               <lb facs="#facs_2_region_1784437741156_541_tl_30" n="N030"/>winnen lassen, der sich nicht <hi rendition="#em">zu</hi> ihm terrorisiren ließ. Aus
-               <lb facs="#facs_2_region_1784437741156_541_tl_31" n="N031"/>Andeutungen der rückgekehrten <rs type="bibl">Parsifal</rs>-Pilger schöpfen wir die
-               <lb facs="#facs_2_region_1784437741156_541_tl_32" n="N032"/>Vermuthung, daß immer zahlreichere <rs type="person">Wagner</rs>seelen der
-               <lb facs="#facs_2_region_1784437741156_541_tl_33" n="N033"/>aufdringlichen Seelsorger von <rs type="place">Bayreuth</rs> überdrüssig sind.
-               <lb facs="#facs_2_region_1784437741156_541_tl_34" n="N034"/>Seitdem Er nicht persönlich hinter seinen Bonzen steht,
-               <lb facs="#facs_2_region_1784437741156_541_tl_35" n="N035"/>bleiben ihre Heiligsprechungen und ihre Bannflüche unbe¬
-               <lb facs="#facs_2_region_1784437741156_541_tl_36" n="N036"/>achtet. Und in diesem Sinne dürfte man den Tod <rs type="person">Wagner</rs>'s,
-               <lb facs="#facs_2_region_1784437741156_541_tl_37" n="N037"/>so schwer auch der Verlust wiegt, eine Wohlthat nennen.</p>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784437732282_535_tl_1" n="N001"/>Schon <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi> hatte sich nach <rs type="place" ref="#hsl_place_id_44">Paris</rs> gewendet, als er in
+         <lb facs="#facs_2_region_1784437732282_535_tl_2" n="N002"/>seiner <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Heimat nicht den gewünschten Boden fand
+         <lb facs="#facs_2_region_1784437732282_535_tl_3" n="N003"/>für seine Kunst. Zur Zeit von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s</hi> Anfängen
+         <lb facs="#facs_2_region_1784437732282_535_tl_4" n="N004"/>lagen die Theater-Verhältnisse in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> allerdings
+         <lb facs="#facs_2_region_1784437732282_535_tl_5" n="N005"/>schon günstiger, aber noch immer nicht günstig. Einem
+         <lb facs="#facs_2_region_1784437732282_535_tl_6" n="N006"/>jungen <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Componisten war es da nicht leicht ge
+         <lb facs="#facs_2_region_1784437732282_535_tl_7" n="N007" break="no"/>macht, seine Erstlingsopern anzubringen; und hatte er
+         <lb facs="#facs_2_region_1784437732282_535_tl_8" n="N008"/>sie an einem unserer zahlreichen Hof- oder Stadt
+         <lb facs="#facs_2_region_1784437732282_535_tl_9" n="N009" break="no"/>theater glücklich durchgesetzt und damit sogar reussirt, so ent
+         <lb facs="#facs_2_region_1784437732282_535_tl_10" n="N010" break="no"/>schied dieser Local-Erfolg noch lange nicht für die übrigen
+         <lb facs="#facs_2_region_1784437732282_535_tl_11" n="N011"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Bühnen, die erst wieder einzeln erobert werden
+         <lb facs="#facs_2_region_1784437732282_535_tl_12" n="N012"/>mußten. Wie anders in <rs type="place" ref="#hsl_place_id_44">Paris</rs>, wo alle Telegraphendrähte
+         <lb facs="#facs_2_region_1784437732282_535_tl_13" n="N013"/>des Erfolges zusammenlaufen! Von <rs type="place" ref="#hsl_place_id_44">Paris</rs> aus war <rs type="place" ref="#hsl_place_id_14">Deutsch
+         <lb facs="#facs_2_region_1784437732282_535_tl_14" n="N014" break="no"/>land</rs> musikalisch zu erobern, und dieses Ziel durfte auch
+         <lb facs="#facs_2_region_1784437732282_535_tl_15" n="N015"/>einem guten Deutschen verlockend erscheinen. Wie <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>,
+         <lb facs="#facs_2_region_1784437732282_535_tl_16" n="N016"/>so hatte auch <rs type="person" ref="#hsl_person_id_319">Wagner</rs> mit seinen Erstlingswerken in <rs type="place" ref="#hsl_place_id_14">Deutsch
+         <lb facs="#facs_2_region_1784437732282_535_tl_17" n="N017" break="no"/>land</rs> kein Glück gehabt; so wie <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> verzweifelt er
+         <lb facs="#facs_2_region_1784437732282_535_tl_18" n="N018"/>sofort an einer Carrière in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs>, so wie <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> geht
+         <lb facs="#facs_2_region_1784437732282_535_tl_19" n="N019"/>er nach <rs type="place" ref="#hsl_place_id_44">Paris</rs>, fest überzeugt, ein Erfolg an der „Académie
+         <lb facs="#facs_2_region_1784437732282_535_tl_20" n="N020"/>royale“ werde ihm auch die heimatlichen Bühnen erschließen.
+         <lb facs="#facs_2_region_1784437732282_535_tl_21" n="N021"/>Wie <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> seinen „<rs type="bibl" ref="#hsl_work_id_58">Robert</rs>“, so hatte <rs type="person" ref="#hsl_person_id_319">Wagner</rs> seinen
+         <lb facs="#facs_2_region_1784437732282_535_tl_22" n="N022"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs></hi>“ und seinen „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_237">Fliegenden Holländer</rs></hi>“
+         <lb facs="#facs_2_region_1784437732282_535_tl_23" n="N023"/>für die <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Große Oper bestimmt und außerdem seine
+         <lb facs="#facs_2_region_1784437732282_535_tl_24" n="N024"/>Oper „<rs type="bibl" ref="#hsl_work_id_1021">Das Liebesverbot</rs>“ für das Renaissance-Theater ins
+         <lb facs="#facs_2_region_1784437732282_535_tl_25" n="N025"/><rs type="place" ref="#hsl_place_id_21">Französisch</rs>e übersetzen lassen. Warum an dem Einen ver
+         <lb facs="#facs_2_region_1784437732282_535_tl_26" n="N026" break="no"/>dammen, was man an dem Andern lobenswerth oder doch
+         <lb facs="#facs_2_region_1784437732282_535_tl_27" n="N027"/>natürlich findet? <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> hat von <rs type="place" ref="#hsl_place_id_44">Paris</rs> aus seinen Opern
+         <lb facs="#facs_2_region_1784437732282_535_tl_28" n="N028"/>ganz <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> erobert, <rs type="person" ref="#hsl_person_id_319">Wagner</rs> wollte dasselbe, der Unter
+         <lb facs="#facs_2_region_1784437732282_535_tl_29" n="N029" break="no"/>schied ist nur, daß es Jenem gelang, diesem nicht. An drei volle
+         <lb facs="#facs_2_region_1784437732282_535_tl_30" n="N030"/>Jahre hat <rs type="person" ref="#hsl_person_id_319">Wagner</rs> in <rs type="place" ref="#hsl_place_id_44">Paris</rs> verlebt (<date>1839</date> bis <date>1842</date>), unter
+         <lb facs="#facs_2_region_1784437732282_535_tl_31" n="N031"/>den erdenklichsten Mühen, Sorgen, Entbehrungen. Er war
+         <lb facs="#facs_2_region_1784437732282_535_tl_32" n="N032"/>nicht der Mann, so schnell nachzugeben, zu resigniren. Erst
+         <lb facs="#facs_2_region_1784437732282_535_tl_33" n="N033"/>als er die Berufung nach <rs type="place" ref="#hsl_place_id_15">Dresden</rs> erhielt, kehrte er <rs type="place" ref="#hsl_place_id_44">Paris</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784437732282_535_tl_34" n="N034"/>den Rücken. Wie sich <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Laufbahn gestaltet hätte, wären
+         <lb facs="#facs_2_region_1784437732282_535_tl_35" n="N035"/>sein „<rs type="bibl" ref="#hsl_work_id_60">Rienzi</rs>“, sein „<rs type="bibl" ref="#hsl_work_id_237">Holländer</rs>“ in <rs type="place" ref="#hsl_place_id_44">Paris</rs> gegeben worden,
+         <lb facs="#facs_2_region_1784437732282_535_tl_36" n="N036"/>mit demselben Erfolge gegeben worden wie <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>’s
+         <lb facs="#facs_2_region_1784437732282_535_tl_37" n="N037"/>„<rs type="bibl" ref="#hsl_work_id_58">Robert</rs>“ — das kann Niemand wissen. Aber nicht genug.<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784437737418_538_tl_1" n="N001"/>Als <rs type="person" ref="#hsl_person_id_319">Wagner</rs> nach dem demüthigendsten <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Aufenthalte
+         <lb facs="#facs_2_region_1784437737418_538_tl_2" n="N002"/>die Herzen der Deutschen mit dem „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“, „<rs type="bibl" ref="#hsl_work_id_237">Hollän
+         <lb facs="#facs_2_region_1784437737418_538_tl_3" n="N003" break="no"/>der</rs>“ und „<rs type="bibl" ref="#hsl_work_id_97">Lohengrin</rs>“ bereits gewonnen hatte, eine Nöthigung
+         <lb facs="#facs_2_region_1784437737418_538_tl_4" n="N004"/>also gar nicht mehr vorlag, sie von <rs type="place" ref="#hsl_place_id_44">Paris</rs> aus zu erobern,
+         <lb facs="#facs_2_region_1784437737418_538_tl_5" n="N005"/>sehen wir ihn (<date>1861</date>) abermals nach <rs type="place" ref="#hsl_place_id_44">Paris</rs> wandern und die
+         <lb facs="#facs_2_region_1784437737418_538_tl_6" n="N006"/>unglaublichsten Anstrengungen machen, um den Franzosen
+         <lb facs="#facs_2_region_1784437737418_538_tl_7" n="N007"/>seinen „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ vorzuführen. Er scheut nicht die
+         <lb facs="#facs_2_region_1784437737418_538_tl_8" n="N008"/>Kosten und die Arbeit der Uebersetzung und Um
+         <lb facs="#facs_2_region_1784437737418_538_tl_9" n="N009" break="no"/>arbeitung dieses durchaus <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Werkes für die
+         <lb facs="#facs_2_region_1784437737418_538_tl_10" n="N010"/><rs type="place" ref="#hsl_place_id_21">französisch</rs>e Oper, nicht die mühevolle Unterweisung der
+         <lb facs="#facs_2_region_1784437737418_538_tl_11" n="N011"/>fremden Sänger und Musiker — kurz, er setzt abermals
+         <lb facs="#facs_2_region_1784437737418_538_tl_12" n="N012"/>eines seiner besten Jahre an einen Erfolg in <rs type="place" ref="#hsl_place_id_44">Paris</rs>. Erst als
+         <lb facs="#facs_2_region_1784437737418_538_tl_13" n="N013"/>diese Hoffnung abermals scheitert und „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ in Folge
+         <lb facs="#facs_2_region_1784437737418_538_tl_14" n="N014"/>einer abgekarteten brutalen Opposition durchfällt, verzichtet
+         <lb facs="#facs_2_region_1784437737418_538_tl_15" n="N015"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs> endgiltig auf seine Versuche, die Franzosen für seine
+         <lb facs="#facs_2_region_1784437737418_538_tl_16" n="N016"/>Musik zu gewinnen. <rs type="person" ref="#hsl_person_id_319">Wagner</rs> hat, wie gesagt, mit seinen
+         <lb facs="#facs_2_region_1784437737418_538_tl_17" n="N017"/><rs type="place" ref="#hsl_place_id_44">Paris</rs>er Bestrebungen gehandelt, wie vor ihm seine berühm
+         <lb facs="#facs_2_region_1784437737418_538_tl_18" n="N018" break="no"/>ten Landsleute <rs type="person" ref="#hsl_person_id_99">Gluck</rs> und <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs>, nur mit verschiedenem
+         <lb facs="#facs_2_region_1784437737418_538_tl_19" n="N019"/>Erfolge. Dies hätte der <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Biograph objectiv und ohne
+         <lb facs="#facs_2_region_1784437737418_538_tl_20" n="N020"/>die stereotypen patriotischen Hymnen darzustellen. Es ist in
+         <lb facs="#facs_2_region_1784437737418_538_tl_21" n="N021"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Leben eines der wichtigsten Blätter, das weder
+         <lb facs="#facs_2_region_1784437737418_538_tl_22" n="N022"/>gepriesen, noch getadelt, sondern blos verstanden zu werden
+         <lb facs="#facs_2_region_1784437737418_538_tl_23" n="N023"/>braucht.
+            </p><p>
+         <lb facs="#facs_2_region_1784437737418_538_tl_24" n="N024"/>Von dieser <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Epoche, überhaupt von <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s
+         <lb facs="#facs_2_region_1784437737418_538_tl_25" n="N025"/>ersten dreißig Jahren wissen seine Biographen genau nur so
+         <lb facs="#facs_2_region_1784437737418_538_tl_26" n="N026"/>viel, als in der bekannten „<rs type="bibl" ref="#hsl_work_id_6814">Autobiographischen Skizze</rs>“ steht.
+         <lb facs="#facs_2_region_1784437737418_538_tl_27" n="N027"/>Ein werthvolles, auch stylistisch merkwürdiges Document.
+         <lb facs="#facs_2_region_1784437737418_538_tl_28" n="N028"/>Gleich den anderen noch in <rs type="place" ref="#hsl_place_id_44">Paris</rs> geschriebenen Aufsätzen
+         <lb facs="#facs_2_region_1784437737418_538_tl_29" n="N029"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s bewegt sich seine Selbstbiographie in einer frischen,
+         <lb facs="#facs_2_region_1784437737418_538_tl_30" n="N030"/>lebhaften und natürlichen Sprache — in vollstem Gegensatze
+         <lb facs="#facs_2_region_1784437737418_538_tl_31" n="N031"/>zu seinen späteren Schriften, deren athemverletzender Perioden
+         <lb facs="#facs_2_region_1784437737418_538_tl_32" n="N032" break="no"/>bau, philosophischer Bombast und mystisch orakelnder Ton
+         <lb facs="#facs_2_region_1784437737418_538_tl_33" n="N033"/>so abschreckend wirken. <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Erzählung, diese vornehmste,
+         <lb facs="#facs_2_region_1784437737418_538_tl_34" n="N034"/>aber keineswegs ausreichende Quelle, aus eigener Forschung
+         <lb facs="#facs_2_region_1784437737418_538_tl_35" n="N035"/>zu vervollständigen und im Einzelnen zu prüfen, ist noch
+         <lb facs="#facs_2_region_1784437737418_538_tl_36" n="N036"/>keinem seiner Biographen eingefallen. Was kürzlich Fr. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3829">Pecht</rs></hi>,
+         <lb facs="#facs_2_region_1784437737418_538_tl_37" n="N037"/>leicht idealisirend, in der <rs type="bibl" ref="#hsl_work_id_361">A. A. Z.</rs> und Heinrich <hi rendition="#em"><rs type="person" ref="#hsl_person_id_153">Laube</rs></hi><space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784437741156_541_tl_1" n="N001"/>mit herber Wahrhaftigkeit in der „<rs type="bibl" ref="#hsl_work_id_82">Neuen Freien Presse</rs>“ über
+         <lb facs="#facs_2_region_1784437741156_541_tl_2" n="N002"/>den jungen <rs type="person" ref="#hsl_person_id_319">Wagner</rs> und seine <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Zeit veröffentlicht
+         <lb facs="#facs_2_region_1784437741156_541_tl_3" n="N003"/>haben, ist werthvoller für dessen Charakteristik, als alle die
+         <lb facs="#facs_2_region_1784437741156_541_tl_4" n="N004"/>angeblichen „Biographien“ <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s zusammengenommen.
+         <lb facs="#facs_2_region_1784437741156_541_tl_5" n="N005"/>Daß letztere nichts als Parteischriften sind, Monumente der
+         <lb facs="#facs_2_region_1784437741156_541_tl_6" n="N006"/>Lobhudelei, aus denen ein ernsthafter Leser nichts lernen
+         <lb facs="#facs_2_region_1784437741156_541_tl_7" n="N007"/>kann, dürfte jetzt mit jedem Tage klarer erkannt werden.
+         <lb facs="#facs_2_region_1784437741156_541_tl_8" n="N008"/><rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Tod wird die gute Folge haben, nicht blos seine
+         <lb facs="#facs_2_region_1784437741156_541_tl_9" n="N009"/>Werke in die Nachmittagssonne historischer Beleuchtung
+         <lb facs="#facs_2_region_1784437741156_541_tl_10" n="N010"/>zu rücken, sondern auch seine Hofkritiker und -Biographen
+         <lb facs="#facs_2_region_1784437741156_541_tl_11" n="N011"/>des mäßigen von ihm erborgten Lichtes zu entkleiden.
+         <lb facs="#facs_2_region_1784437741156_541_tl_12" n="N012"/>Die ehrliche Schwärmerei bleibt <rs type="person" ref="#hsl_person_id_319">Wagner</rs> nach wie vor zur
+         <lb facs="#facs_2_region_1784437741156_541_tl_13" n="N013"/>Seite, aber die Bajonnette der „<rs type="bibl" ref="#hsl_work_id_1982">Bayreuther Blätter</rs>“ dürften
+         <lb facs="#facs_2_region_1784437741156_541_tl_14" n="N014"/>ausgedient haben. Zwar besteht der ungeheure Apparat der
+         <lb facs="#facs_2_region_1784437741156_541_tl_15" n="N015"/>ganz <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> überziehenden <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Vereine noch fort,
+         <lb facs="#facs_2_region_1784437741156_541_tl_16" n="N016"/>aber die belebende Kraft derselben ist erloschen. Es war dies
+         <lb facs="#facs_2_region_1784437741156_541_tl_17" n="N017"/>keine blos mechanische Kraft, die sich ersetzen läßt, sondern
+         <lb facs="#facs_2_region_1784437741156_541_tl_18" n="N018"/>eine geistige, höchst individuelle Kraft, vor der man Respect
+         <lb facs="#facs_2_region_1784437741156_541_tl_19" n="N019"/>hatte. Heute wüßten wir wahrlich nicht, vor wem wir be
+         <lb facs="#facs_2_region_1784437741156_541_tl_20" n="N020" break="no"/>sonderen Respect haben solten in diesen herrnlosen Volks
+         <lb facs="#facs_2_region_1784437741156_541_tl_21" n="N021" break="no"/>küchen des <rs type="person" ref="#hsl_person_id_319">Wagner</rs>-Enthusiasmus. Sie haben durch ihre Be
+         <lb facs="#facs_2_region_1784437741156_541_tl_22" n="N022" break="no"/>einflussung des öffentlichen Urtheils ihrem Herrn und
+         <lb facs="#facs_2_region_1784437741156_541_tl_23" n="N023"/>Meister mannichfachen Vortheil, aber auch schweren
+         <lb facs="#facs_2_region_1784437741156_541_tl_24" n="N024"/>moralischen Schaden gebracht. Die stärksten Fäuste führten
+         <lb facs="#facs_2_region_1784437741156_541_tl_25" n="N025"/>sie ihm zu und entfremdeten ihm die vornehmsten Köpfe.
+         <lb facs="#facs_2_region_1784437741156_541_tl_26" n="N026"/>Erst mit dem allmäligen Aufhören dieser in der Kunst
+         <lb facs="#facs_2_region_1784437741156_541_tl_27" n="N027" break="no"/>geschichte unerhörten Anstalten wird <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s Werk voll
+         <lb facs="#facs_2_region_1784437741156_541_tl_28" n="N028" break="no"/>ständig seine eigenste Kraft erproben und vielleicht nicht
+         <lb facs="#facs_2_region_1784437741156_541_tl_29" n="N029"/>schlecht dabei fahren. Es wird sich <hi rendition="#em">von</hi> ihm Mancher ge
+         <lb facs="#facs_2_region_1784437741156_541_tl_30" n="N030" break="no"/>winnen lassen, der sich nicht <hi rendition="#em">zu</hi> ihm terrorisiren ließ. Aus
+         <lb facs="#facs_2_region_1784437741156_541_tl_31" n="N031"/>Andeutungen der rückgekehrten <rs type="bibl" ref="#hsl_work_id_275">Parsifal</rs>-Pilger schöpfen wir die
+         <lb facs="#facs_2_region_1784437741156_541_tl_32" n="N032"/>Vermuthung, daß immer zahlreichere <rs type="person" ref="#hsl_person_id_319">Wagner</rs>seelen der
+         <lb facs="#facs_2_region_1784437741156_541_tl_33" n="N033"/>aufdringlichen Seelsorger von <rs type="place" ref="#hsl_place_id_8">Bayreuth</rs> überdrüssig sind.
+         <lb facs="#facs_2_region_1784437741156_541_tl_34" n="N034"/>Seitdem Er nicht persönlich hinter seinen Bonzen steht,
+         <lb facs="#facs_2_region_1784437741156_541_tl_35" n="N035"/>bleiben ihre Heiligsprechungen und ihre Bannflüche unbe
+         <lb facs="#facs_2_region_1784437741156_541_tl_36" n="N036" break="no"/>achtet. Und in diesem Sinne dürfte man den Tod <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’s,
+         <lb facs="#facs_2_region_1784437741156_541_tl_37" n="N037"/>so schwer auch der Verlust wiegt, eine Wohlthat nennen.</p>
          </div>
       </body>
    </text>

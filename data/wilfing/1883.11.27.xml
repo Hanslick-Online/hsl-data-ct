@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a"/>
+            <title level="a">Nr. 6916. Wien, Dienstag, den 27. November 1883</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -31,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -69,24 +70,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title/>
+                     <title>Nr. 6916. Wien, Dienstag, den 27. November 1883</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub"/>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1883-11-27">27.11.1883</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18831127"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -102,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-08-07">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-08-08">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-08-22">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -871,328 +877,259 @@
       <body>
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
-            <p facs="#facs_1_region_1784438162082_783">
-               <lb facs="#facs_1_l_1" n="N001"/>Neue Freie Presse</p>
-            <p facs="#facs_1_region_1784438163887_786">
-               <lb facs="#facs_1_region_1784438163887_786_tl_1" n="N001"/>Morgenblatt</p>
-            <p facs="#facs_1_region_1784438167027_789">
-               <lb facs="#facs_1_l_2" n="N001"/>Nr. 6916. <rs type="place">Wien</rs>, Dienstag, den 27. November 1883</p>
-            <p facs="#facs_1_region_1784438173438_792">
-               <lb facs="#facs_1_region_1784438173438_792_tl_1" n="N001"/>Zur Erinnerung an <rs type="person">Vesque</rs> v. <rs type="person">Püttlingen</rs>
-               <lb facs="#facs_1_region_1784438173438_792_tl_2" n="N002"/>(J. <rs type="person">Hoven</rs>).
-               <lb facs="#facs_1_l" n="N003"/>„Dunkle Cypressen!
-               <lb facs="#facs_1_l_3" n="N004"/>Die Welt ist gar so lustig,
-               <lb facs="#facs_1_l_4" n="N005"/>Es wird doch Alles vergessen.“
-               <lb facs="#facs_1_l_5" n="N006"/>(Th. <rs type="person">Storm</rs>.)
-               <lb facs="#facs_1_region_1784438173438_792_tl_4" n="N007"/>Ed. H. Wer dem trefflichen Manne, der kürzlich in
-               <lb facs="#facs_1_region_1784438173438_792_tl_5" n="N008"/>hohem Greisenalter von uns geschieden, nur in den letzten
-               <lb facs="#facs_1_region_1784438173438_792_tl_6" n="N009"/>Jahren begegnet ist, der vermuthete schwerlich, einer der
-               <lb facs="#facs_1_region_1784438173438_792_tl_7" n="N010"/>glänzendsten Erscheinungen des ehemaligen <rs type="place">Wien</rs> gegenüber¬
-               <lb facs="#facs_1_region_1784438173438_792_tl_8" n="N011"/>zustehen. Der Name <hi rendition="#em">
-                  <rs type="person">Vesque</rs> v. <rs type="person">Püttlingen</rs>
-               </hi> hatte
-               <lb facs="#facs_1_region_1784438173438_792_tl_9" n="N012"/>der höchsten Bureaukratie des vormärzlichen <rs type="place">Oesterreich</rs>
-               <lb facs="#facs_1_region_1784438173438_792_tl_10" n="N013"/>einen ebenso hellen Klang, wie sein Pseudonym „J. <rs type="person">Hoven</rs>“
-               <lb facs="#facs_1_region_1784438173438_792_tl_11" n="N014"/>in den musikalischen Kreisen. Das Eigenthümlichste und Beste
-               <lb facs="#facs_1_region_1784438173438_792_tl_12" n="N015"/>seines Wesens erschöpfte aber weder der eine noch der andere
-               <lb facs="#facs_1_region_1784438173438_792_tl_13" n="N016"/>Name, sondern erst der harmonische Einklang beider. Der
-               <lb facs="#facs_1_region_1784438173438_792_tl_14" n="N017"/>Künstler und der Diplomat, der Poet und der Weltmann
-               <lb facs="#facs_1_region_1784438173438_792_tl_15" n="N018"/>flossen in <rs type="person">Vesque</rs> zu einer der interessantesten und an¬
-               <lb facs="#facs_1_region_1784438173438_792_tl_16" n="N019"/>muthigsten Persönlichkeiten zusammen, die mir vorgekommen.
-               <lb facs="#facs_1_region_1784438173438_792_tl_17" n="N020"/>Von jedem der beiden Pole seiner Thätigkeit fiel ein ver¬
-               <lb facs="#facs_1_region_1784438173438_792_tl_18" n="N021"/>goldender Schimmer auf den andern. Der Opern- und
-               <lb facs="#facs_1_region_1784438173438_792_tl_19" n="N022"/>Liedercomponist erschien der <rs type="place">Wien</rs>er Gesellschaft verherrlicht
-               <lb facs="#facs_1_region_1784438173438_792_tl_20" n="N023"/>durch seine hohe bureaukratische Stellung, der Staatsmann
-               <lb facs="#facs_1_region_1784438173438_792_tl_21" n="N024"/>wieder durch seinen künstlerischen Nimbus hoch er¬
-               <lb facs="#facs_1_region_1784438173438_792_tl_22" n="N025"/>hoben über das prosaische Niveau seiner Amtsbrüder.
-               <lb facs="#facs_1_region_1784438173438_792_tl_23" n="N026"/>Heute bedarf es freilich eines fast angestrengten Erinnerns,
-               <lb facs="#facs_1_region_1784438173438_792_tl_24" n="N027"/>um uns in die politischen und geselligen Zustände des vor¬
-               <lb facs="#facs_1_region_1784438173438_792_tl_25" n="N028"/>märzlichen <rs type="place">Wien</rs> und damit in die eigenartige Stellung
-               <lb facs="#facs_1_region_1784438173438_792_tl_26" n="N029"/>
-               <rs type="person">Vesque</rs>'s zu versetzen. Es war unerhört, daß unter <rs type="place" continued="true">Metter¬</rs>
-               <lb facs="#facs_1_region_1784438173438_792_tl_27" n="N030"/>
-               <rs type="place" continued="true">nich</rs>'s Augen ein beliebter Componist eines der wichtigsten
-               <lb facs="#facs_1_region_1784438173438_792_tl_28" n="N031"/>Staatsämter nicht nur bekleidete, sondern durch seine emi¬
-               <lb facs="#facs_1_region_1784438173438_792_tl_29" n="N032"/>nente Fähigkeit und Arbeitskraft zierte; ebenso unerhört,
-               <lb facs="#facs_1_region_1784438173438_792_tl_30" n="N033"/>daß ein Hof- und Staatsrath Opern von seiner Composi¬
-               <lb facs="#facs_1_region_1784438173438_792_tl_31" n="N034"/>tion am Kärntnerthor-Theater aufführen ließ und mit allen
-               <lb facs="#facs_1_region_1784438173438_792_tl_32" n="N035"/>Künstlern <rs type="place">Wien</rs>s den regsten kameradschaftlichen Verkehr
-               <lb facs="#facs_1_region_1784438173438_792_tl_33" n="N036"/>unterhielt. Letzteres obendrein in der als liberal übel ange¬
-               <lb facs="#facs_1_region_1784438173438_792_tl_34" n="N037"/>schriebenen „Concordia“, zu deren rührigsten Mitgliedern</p>
-            <p facs="#facs_1_region_1784438176926_795">
-               <lb facs="#facs_1_region_1784438176926_795_tl_1" n="N001"/>
-               <rs type="person">Vesque</rs> gehörte. In dem <rs type="person">Metternich</rs>'schen <rs type="place">Oesterreich</rs> hatte
-               <lb facs="#facs_1_region_1784438176926_795_tl_2" n="N002"/>
-               <rs type="person">Vesque</rs>'s offenes Auftreten als Künstler geradezu eine revo¬
-               <lb facs="#facs_1_region_1784438176926_795_tl_3" n="N003"/>lutionäre Bedeutung. Entbehren konnte man ihn nicht im
-               <lb facs="#facs_1_region_1784438176926_795_tl_4" n="N004"/>Staatsrathe, für dessen juristisches Orakel er galt, und um
-               <lb facs="#facs_1_region_1784438176926_795_tl_5" n="N005"/>das Nasenrümpfen in hohen und höchsten Kreisen scheerte er
-               <lb facs="#facs_1_region_1784438176926_795_tl_6" n="N006"/>sich wenig. Die Liebe zu seiner Kunst arbeitete stärker in ihm,
-               <lb facs="#facs_1_region_1784438176926_795_tl_7" n="N007"/>als die Sorge um sein Avancement, die er Anderen überließ.
-               <lb facs="#facs_1_region_1784438176926_795_tl_8" n="N008"/>Meine erste Begegnung mit <rs type="person">Vesque</rs> bleibt mir eine un¬
-               <lb facs="#facs_1_region_1784438176926_795_tl_9" n="N009"/>verwüstlich frische Erinnerung aus der Jugendzeit. Es war
-               <lb facs="#facs_1_region_1784438176926_795_tl_10" n="N010"/>an einem December-Abende des Jahres <date>1846</date>, als ich die
-               <lb facs="#facs_1_region_1784438176926_795_tl_11" n="N011"/>für einen Studenten doppelt ehrenvolle Auszeichnung erfuhr,
-               <lb facs="#facs_1_region_1784438176926_795_tl_12" n="N012"/>in den seinerzeit recht exclusiven geselligen Künstlerverein „Con¬
-               <lb facs="#facs_1_region_1784438176926_795_tl_13" n="N013"/>cordia“ eingeführt zu werden. <hi rendition="#em">
-                  <rs type="person">Castelli</rs>
-               </hi> fungirte als
-               <lb facs="#facs_1_region_1784438176926_795_tl_14" n="N014"/>Präses, Friedrich <hi rendition="#em">
-                  <rs type="person">Kaiser</rs>
-               </hi> als Secretär des Vereins;
-               <lb facs="#facs_1_region_1784438176926_795_tl_15" n="N015"/>die hervorragendsten Dichter, Musiker und Maler <rs type="place">Wien</rs>s
-               <lb facs="#facs_1_region_1784438176926_795_tl_16" n="N016"/>füllten in lebhaft conversirenden Gruppen den bescheidenen
-               <lb facs="#facs_1_region_1784438176926_795_tl_17" n="N017"/>Gasthaussaal. <hi rendition="#em">
-                  <rs type="person">Meyerbeer</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi> waren
-               <lb facs="#facs_1_region_1784438176926_795_tl_18" n="N018"/>gerade als Gäste anwesend und wichen Einer dem Andern
-               <lb facs="#facs_1_region_1784438176926_795_tl_19" n="N019"/>sorgfältig aus. Mich hatte der durch seine geistreichen
-               <lb facs="#facs_1_region_1784438176926_795_tl_20" n="N020"/>Kritiken, später durch sein tragisches Ende bekannte Musik¬
-               <lb facs="#facs_1_region_1784438176926_795_tl_21" n="N021"/>schriftsteller Dr. <hi rendition="#em">
-                  <rs type="person">Becher</rs>
-               </hi> eingeführt, eine martialische, ver¬
-               <lb facs="#facs_1_region_1784438176926_795_tl_22" n="N022"/>wilderte Figur, welche eher den Namen „Humpen“ verdient
-               <lb facs="#facs_1_region_1784438176926_795_tl_23" n="N023"/>hätte. Zu den intimen Freunden <rs type="person">Vesque</rs>'s gehörend, stellte
-               <lb facs="#facs_1_region_1784438176926_795_tl_24" n="N024"/>er mich diesem vor. <rs type="person">Vesque</rs>, damals im kräftigsten Mannes¬
-               <lb facs="#facs_1_region_1784438176926_795_tl_25" n="N025"/>alter, war ein auffallend hübscher Charakterkopf mit kraus¬
-               <lb facs="#facs_1_region_1784438176926_795_tl_26" n="N026"/>gelocktem dunklen Haare, kohlschwarzen, blitzenden Augen,
-               <lb facs="#facs_1_region_1784438176926_795_tl_27" n="N027"/>immer voll Beweglichkeit, dabei doch von ungezwungen vor¬
-               <lb facs="#facs_1_region_1784438176926_795_tl_28" n="N028"/>nehmer Haltung. Es lag in seinem Aussehen und seinem
-               <lb facs="#facs_1_region_1784438176926_795_tl_29" n="N029"/>lebhaften Gebahren etwas Südländisches, als rege sich in
-               <lb facs="#facs_1_region_1784438176926_795_tl_30" n="N030"/>dem <rs type="place">Wien</rs>er Kinde noch die <rs type="place">wallonisch</rs>e Abkunft. Seine
-               <lb facs="#facs_1_region_1784438176926_795_tl_31" n="N031"/>Unterhaltung überströmte von heiterer Anmuth, von Witz
-               <lb facs="#facs_1_region_1784438176926_795_tl_32" n="N032"/>und treffenden Aperçus. Er fühle sich, meinte <rs type="person">Vesque</rs>, von
-               <lb facs="#facs_1_region_1784438176926_795_tl_33" n="N033"/>meiner Doppelstellung als Jurist und Musiker ver¬
-               <lb facs="#facs_1_region_1784438176926_795_tl_34" n="N034"/>wandtschaftlich berührt, und säumte nicht, mich in sein
-               <lb facs="#facs_1_region_1784438176926_795_tl_35" n="N035"/>Haus einzuladen. Dort, in dem <rs type="person">Vesque</rs>'schen Familien¬
-               <lb facs="#facs_1_region_1784438176926_795_tl_36" n="N036"/>hause in der <rs type="place">Jacobergasse</rs>, zur Sommerzeit in seiner
-               <lb facs="#facs_1_region_1784438176926_795_tl_37" n="N037"/>
-               <rs type="place">Penzig</rs>er Villa, habe ich durch eine Reihe von Jahren
-               <lb facs="#facs_1_region_1784438176926_795_tl_38" n="N038"/>die genußreichsten Abende verlebt, Stunden geistiger und ge¬
-               <lb facs="#facs_1_region_1784438176926_795_tl_39" n="N039"/>müthlicher Anregung und fröhlichsten Musicirens. Joseph</p>
-            <p facs="#facs_1_region_1784438181938_798">
-               <lb facs="#facs_1_region_1784438181938_798_tl_1" n="N001"/>
-               <hi rendition="#em">
-                  <rs type="person">Dessauer</rs>
-               </hi>, Professor <hi rendition="#em">
-                  <rs type="person">Fischhof</rs>
-               </hi>, Alexander <hi rendition="#em">
-                  <rs type="person" continued="true">Bau¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1784438181938_798_tl_2" n="N002"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">mann</rs>
-               </hi>, Otto <hi rendition="#em">
-                  <rs type="person">Prechtler</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Mosenthal</rs>
-               </hi>, Dr. <hi rendition="#em">
-                  <rs type="person">Becher</rs>
-               </hi>
-               <lb facs="#facs_1_region_1784438181938_798_tl_3" n="N003"/>von Jüngeren <hi rendition="#em">
-                  <rs type="person">Herbeck</rs>
-               </hi> und Ed. <hi rendition="#em">
-                  <rs type="person">Schön</rs>
-               </hi> (<rs type="person">Engelsberg</rs>)
-               <lb facs="#facs_1_region_1784438181938_798_tl_4" n="N004"/>kamen häufig als Freunde des Hauses. Eine Todtenliste!
-               <lb facs="#facs_1_region_1784438181938_798_tl_5" n="N005"/>Selten erschien ein berühmter Virtuose oder Componist in
-               <lb facs="#facs_1_region_1784438181938_798_tl_6" n="N006"/>
-               <rs type="place">Wien</rs>, ohne sich bei <rs type="person">Vesque</rs> einzufinden; es war dies ein
-               <lb facs="#facs_1_region_1784438181938_798_tl_7" n="N007"/>unvergleichlich gastliches musikalisches Haus, wie es heute
-               <lb facs="#facs_1_region_1784438181938_798_tl_8" n="N008"/>kaum mehr eines in <rs type="place">Wien</rs> gibt.
-               <lb facs="#facs_1_region_1784438181938_798_tl_9" n="N009"/>
-               <rs type="person">Vesque</rs> verband mit raschester Auffassung eine unge¬
-               <lb facs="#facs_1_region_1784438181938_798_tl_10" n="N010"/>wöhnliche Arbeitskraft und Elasticität. Von langwierigen
-               <lb facs="#facs_1_region_1784438181938_798_tl_11" n="N011"/>Bureau-Arbeiten oder ermüdendsten Sitzungen heimgekehrt,
-               <lb facs="#facs_1_region_1784438181938_798_tl_12" n="N012"/>setzte er sich am liebsten gleich ans Piano und componirte.
-               <lb facs="#facs_1_region_1784438181938_798_tl_13" n="N013"/>Kam einer von uns Freunden dazu, so freute sich <rs type="person">Vesque</rs>,
-               <lb facs="#facs_1_region_1784438181938_798_tl_14" n="N014"/>ihm das eben Entstandene vorzusingen. Es war nicht blos
-               <lb facs="#facs_1_region_1784438181938_798_tl_15" n="N015"/>ein geselliger Schmuck, sondern ein künstlerischer Vortheil,
-               <lb facs="#facs_1_region_1784438181938_798_tl_16" n="N016"/>den <rs type="person">Vesque</rs> vor vielen seiner <rs type="place">deutsch</rs>en Kunstgenossen voraus
-               <lb facs="#facs_1_region_1784438181938_798_tl_17" n="N017"/>hatte, daß er selbst vortrefflich sang. Es wäre ihm nicht
-               <lb facs="#facs_1_region_1784438181938_798_tl_18" n="N018"/>möglich gewesen, unsangbar oder stimmwidrig zu componiren.
-               <lb facs="#facs_1_region_1784438181938_798_tl_19" n="N019"/>Auf den einmal von <rs type="person">Dessauer</rs> scherzhaft geäußerten Vor¬
-               <lb facs="#facs_1_region_1784438181938_798_tl_20" n="N020"/>wurf, daß <rs type="person">Vesque</rs> seinen Gästen am liebsten seine eigenen
-               <lb facs="#facs_1_region_1784438181938_798_tl_21" n="N021"/>Lieder vorsinge, konnte man entgegnen, daß eben Nie¬
-               <lb facs="#facs_1_region_1784438181938_798_tl_22" n="N022"/>mand sie so gut vorzutragen verstand, als er selbst.
-               <lb facs="#facs_1_region_1784438181938_798_tl_23" n="N023"/>Der geistreiche, leicht pointirende, fast <rs type="place">französisch</rs>
-               <lb facs="#facs_1_region_1784438181938_798_tl_24" n="N024"/>angehauchte Ton, den <rs type="person">Vesque</rs> in den Vortrag namentlich
-               <lb facs="#facs_1_region_1784438181938_798_tl_25" n="N025"/>seiner humoristischen Lieder zu legen wußte, war ganz einzig.
-               <lb facs="#facs_1_region_1784438181938_798_tl_26" n="N026"/>Hatte er ein Duett componirt, so secundirte seine <rs type="person">Gattin</rs>,
-               <lb facs="#facs_1_region_1784438181938_798_tl_27" n="N027"/>eine an Geist und Bildung, an Lebhaftigkeit und Musikliebe
-               <lb facs="#facs_1_region_1784438181938_798_tl_28" n="N028"/>ihm ebenbürtige, von uns Allen hochverehrte Frau. Das gab
-               <lb facs="#facs_1_region_1784438181938_798_tl_29" n="N029"/>ein schönes Familienbild, die Eltern <rs type="person">Vesque</rs> musicirend im
-               <lb facs="#facs_1_region_1784438181938_798_tl_30" n="N030"/>Kreise ihrer zahlreichen Söhne und Töchter, deren <rs type="person">eine</rs> auch
-               <lb facs="#facs_1_region_1784438181938_798_tl_31" n="N031"/>das Talent des <rs type="person">Vater</rs>s geerbt hat.
-               <lb facs="#facs_1_region_1784438181938_798_tl_32" n="N032"/>Die Compositionen von <rs type="person">Hoven</rs>*) gehören meines Wis¬
-               <lb facs="#facs_1_region_1784438181938_798_tl_33" n="N033"/>sens durchaus der Vocalmusik an, und zwar zum größten
-               <lb facs="#facs_1_region_1784438181938_798_tl_34" n="N034"/>Theile dem Liede. Von seinen drei großen Opern: „<rs type="bibl">Johanna</rs>
-               <lb facs="#facs_1_region_1784438181938_798_tl_35" n="N035"/>
-               <rs type="bibl">d'Arc</rs>“, „<rs type="bibl">Turandot</rs>“ und „<rs type="bibl">Liebeszauber</rs>“ (<rs type="bibl">Käthchen von Heil¬</rs>
-               <lb facs="#facs_1_region_1784438181938_798_tl_36" n="N036"/>
-               <rs type="bibl">bronn</rs>) ist mir keine bekannt geworden; sie waren, als ich
-               <lb facs="#facs_1_region_1784438181938_798_tl_37" n="N037"/>nach <rs type="place">Wien</rs> kam, bereits vom Repertoire verschwunden. Es
-               <lb facs="#facs_1_region_1784438181938_798_tl_38" n="N038"/>*) <rs type="person">Vesque</rs> hatte dieses Pseudonym von einem seinem Großvater
-               <lb facs="#facs_1_region_1784438181938_798_tl_39" n="N039"/>gehörigen Gute „<rs type="person">Hoven</rs>“ angenommen.</p>
+            <cb n="1"/>
+            <lb facs="#facs_1_region_1784438173438_792_tl_1" n="N001"/><head type="h1">Zur Erinnerung an Vesque v. <rs type="person" ref="#hsl_person_id_1172">Püttlingen</rs>
+            <lb facs="#facs_1_region_1784438173438_792_tl_2" n="N002"/>(J. <rs type="person" ref="#hsl_person_id_1172">Hoven</rs>).</head>
+            <lb facs="#facs_1_l" n="N003"/><head type="h3"><l>„Dunkle Cypressen!</l>
+            <lb facs="#facs_1_l_3" n="N004"/><l>Die Welt ist gar so lustig,</l>
+            <lb facs="#facs_1_l_4" n="N005"/><l>Es wird doch Alles vergessen.“</l>
+            <lb facs="#facs_1_l_5" n="N006"/>(Th. <rs type="person" ref="#hsl_person_id_5114">Storm</rs>.)</head>
+            <p>
+         <lb facs="#facs_1_region_1784438173438_792_tl_4" n="N007"/><rs type="person" ref="#hsl_person_id_1">Ed. H.</rs> Wer dem trefflichen Manne, der kürzlich in
+         <lb facs="#facs_1_region_1784438173438_792_tl_5" n="N008"/>hohem Greisenalter von uns geschieden, nur in den letzten
+         <lb facs="#facs_1_region_1784438173438_792_tl_6" n="N009"/>Jahren begegnet ist, der vermuthete schwerlich, einer der
+         <lb facs="#facs_1_region_1784438173438_792_tl_7" n="N010"/>glänzendsten Erscheinungen des ehemaligen <rs type="place" ref="#hsl_place_id_55">Wien</rs> gegenüber
+         <lb facs="#facs_1_region_1784438173438_792_tl_8" n="N011" break="no"/>zustehen. Der Name <hi rendition="#em">Vesque v. <rs type="person" ref="#hsl_person_id_1172">Püttlingen</rs></hi> hatte
+         <lb facs="#facs_1_region_1784438173438_792_tl_9" n="N012"/>der höchsten Bureaukratie des vormärzlichen <rs type="place" ref="#hsl_place_id_43">Oesterreich</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784438173438_792_tl_10" n="N013"/>einen ebenso hellen Klang, wie sein Pseudonym „J. <rs type="person" ref="#hsl_person_id_1172">Hoven</rs>“
+         <lb facs="#facs_1_region_1784438173438_792_tl_11" n="N014"/>in den musikalischen Kreisen. Das Eigenthümlichste und Beste
+         <lb facs="#facs_1_region_1784438173438_792_tl_12" n="N015"/>seines Wesens erschöpfte aber weder der eine noch der andere
+         <lb facs="#facs_1_region_1784438173438_792_tl_13" n="N016"/>Name, sondern erst der harmonische Einklang beider. Der
+         <lb facs="#facs_1_region_1784438173438_792_tl_14" n="N017"/>Künstler und der Diplomat, der Poet und der Weltmann
+         <lb facs="#facs_1_region_1784438173438_792_tl_15" n="N018"/>flossen in <rs type="person" ref="#hsl_person_id_1172">Vesque</rs> zu einer der interessantesten und an
+         <lb facs="#facs_1_region_1784438173438_792_tl_16" n="N019" break="no"/>muthigsten Persönlichkeiten zusammen, die mir vorgekommen.
+         <lb facs="#facs_1_region_1784438173438_792_tl_17" n="N020"/>Von jedem der beiden Pole seiner Thätigkeit fiel ein ver
+         <lb facs="#facs_1_region_1784438173438_792_tl_18" n="N021" break="no"/>goldender Schimmer auf den andern. Der Opern- und
+         <lb facs="#facs_1_region_1784438173438_792_tl_19" n="N022"/>Liedercomponist erschien der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Gesellschaft verherrlicht
+         <lb facs="#facs_1_region_1784438173438_792_tl_20" n="N023"/>durch seine hohe bureaukratische Stellung, der Staatsmann
+         <lb facs="#facs_1_region_1784438173438_792_tl_21" n="N024"/>wieder durch seinen künstlerischen Nimbus hoch er
+         <lb facs="#facs_1_region_1784438173438_792_tl_22" n="N025" break="no"/>hoben über das prosaische Niveau seiner Amtsbrüder.
+         <lb facs="#facs_1_region_1784438173438_792_tl_23" n="N026"/>Heute bedarf es freilich eines fast angestrengten Erinnerns,
+         <lb facs="#facs_1_region_1784438173438_792_tl_24" n="N027"/>um uns in die politischen und geselligen Zustände des vor
+         <lb facs="#facs_1_region_1784438173438_792_tl_25" n="N028" break="no"/>märzlichen <rs type="place" ref="#hsl_place_id_55">Wien</rs> und damit in die eigenartige Stellung
+         <lb facs="#facs_1_region_1784438173438_792_tl_26" n="N029"/><rs type="person" ref="#hsl_person_id_1172">Vesque</rs>’s zu versetzen. Es war unerhört, daß unter <rs type="person" ref="#hsl_person_id_2537">Metter
+         <lb facs="#facs_1_region_1784438173438_792_tl_27" n="N030" break="no"/>nich</rs>’s Augen ein beliebter Componist eines der wichtigsten
+         <lb facs="#facs_1_region_1784438173438_792_tl_28" n="N031"/>Staatsämter nicht nur bekleidete, sondern durch seine emi
+         <lb facs="#facs_1_region_1784438173438_792_tl_29" n="N032" break="no"/>nente Fähigkeit und Arbeitskraft zierte; ebenso unerhört,
+         <lb facs="#facs_1_region_1784438173438_792_tl_30" n="N033"/>daß ein Hof- und Staatsrath Opern von seiner Composi
+         <lb facs="#facs_1_region_1784438173438_792_tl_31" n="N034" break="no"/>tion am Kärntnerthor-Theater aufführen ließ und mit allen
+         <lb facs="#facs_1_region_1784438173438_792_tl_32" n="N035"/>Künstlern <rs type="place" ref="#hsl_place_id_55">Wien</rs>s den regsten kameradschaftlichen Verkehr
+         <lb facs="#facs_1_region_1784438173438_792_tl_33" n="N036"/>unterhielt. Letzteres obendrein in der als liberal übel ange
+         <lb facs="#facs_1_region_1784438173438_792_tl_34" n="N037" break="no"/>schriebenen „Concordia“, zu deren rührigsten Mitgliedern<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+         <lb facs="#facs_1_region_1784438176926_795_tl_1" n="N001"/><rs type="person" ref="#hsl_person_id_1172">Vesque</rs> gehörte. In dem <rs type="person" ref="#hsl_person_id_2537">Metternich</rs>’schen <rs type="place" ref="#hsl_place_id_43">Oesterreich</rs> hatte
+         <lb facs="#facs_1_region_1784438176926_795_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_1172">Vesque</rs>’s offenes Auftreten als Künstler geradezu eine revo
+         <lb facs="#facs_1_region_1784438176926_795_tl_3" n="N003" break="no"/>lutionäre Bedeutung. Entbehren konnte man ihn nicht im
+         <lb facs="#facs_1_region_1784438176926_795_tl_4" n="N004"/>Staatsrathe, für dessen juristisches Orakel er galt, und um
+         <lb facs="#facs_1_region_1784438176926_795_tl_5" n="N005"/>das Nasenrümpfen in hohen und höchsten Kreisen scheerte er
+         <lb facs="#facs_1_region_1784438176926_795_tl_6" n="N006"/>sich wenig. Die Liebe zu seiner Kunst arbeitete stärker in ihm,
+         <lb facs="#facs_1_region_1784438176926_795_tl_7" n="N007"/>als die Sorge um sein Avancement, die er Anderen überließ.
+            </p><p>
+         <lb facs="#facs_1_region_1784438176926_795_tl_8" n="N008"/>Meine erste Begegnung mit <rs type="person" ref="#hsl_person_id_1172">Vesque</rs> bleibt mir eine un
+         <lb facs="#facs_1_region_1784438176926_795_tl_9" n="N009" break="no"/>verwüstlich frische Erinnerung aus der Jugendzeit. Es war
+         <lb facs="#facs_1_region_1784438176926_795_tl_10" n="N010"/>an einem December-Abende des Jahres <date>1846</date>, als ich die
+         <lb facs="#facs_1_region_1784438176926_795_tl_11" n="N011"/>für einen Studenten doppelt ehrenvolle Auszeichnung erfuhr,
+         <lb facs="#facs_1_region_1784438176926_795_tl_12" n="N012"/>in den seinerzeit recht exclusiven geselligen Künstlerverein „Con
+         <lb facs="#facs_1_region_1784438176926_795_tl_13" n="N013" break="no"/>cordia“ eingeführt zu werden. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_376">Castelli</rs></hi> fungirte als
+         <lb facs="#facs_1_region_1784438176926_795_tl_14" n="N014"/>Präses, Friedrich <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9336">Kaiser</rs></hi> als Secretär des Vereins;
+         <lb facs="#facs_1_region_1784438176926_795_tl_15" n="N015"/>die hervorragendsten Dichter, Musiker und Maler <rs type="place" ref="#hsl_place_id_55">Wien</rs>s
+         <lb facs="#facs_1_region_1784438176926_795_tl_16" n="N016"/>füllten in lebhaft conversirenden Gruppen den bescheidenen
+         <lb facs="#facs_1_region_1784438176926_795_tl_17" n="N017"/>Gasthaussaal. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi> waren
+         <lb facs="#facs_1_region_1784438176926_795_tl_18" n="N018"/>gerade als Gäste anwesend und wichen Einer dem Andern
+         <lb facs="#facs_1_region_1784438176926_795_tl_19" n="N019"/>sorgfältig aus. Mich hatte der durch seine geistreichen
+         <lb facs="#facs_1_region_1784438176926_795_tl_20" n="N020"/>Kritiken, später durch sein tragisches Ende bekannte Musik
+         <lb facs="#facs_1_region_1784438176926_795_tl_21" n="N021" break="no"/>schriftsteller Dr. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_414">Becher</rs></hi> eingeführt, eine martialische, ver
+         <lb facs="#facs_1_region_1784438176926_795_tl_22" n="N022" break="no"/>wilderte Figur, welche eher den Namen „Humpen“ verdient
+         <lb facs="#facs_1_region_1784438176926_795_tl_23" n="N023"/>hätte. Zu den intimen Freunden <rs type="person" ref="#hsl_person_id_1172">Vesque</rs>’s gehörend, stellte
+         <lb facs="#facs_1_region_1784438176926_795_tl_24" n="N024"/>er mich diesem vor. <rs type="person" ref="#hsl_person_id_1172">Vesque</rs>, damals im kräftigsten Mannes
+         <lb facs="#facs_1_region_1784438176926_795_tl_25" n="N025" break="no"/>alter, war ein auffallend hübscher Charakterkopf mit kraus
+         <lb facs="#facs_1_region_1784438176926_795_tl_26" n="N026" break="no"/>gelocktem dunklen Haare, kohlschwarzen, blitzenden Augen,
+         <lb facs="#facs_1_region_1784438176926_795_tl_27" n="N027"/>immer voll Beweglichkeit, dabei doch von ungezwungen vor
+         <lb facs="#facs_1_region_1784438176926_795_tl_28" n="N028" break="no"/>nehmer Haltung. Es lag in seinem Aussehen und seinem
+         <lb facs="#facs_1_region_1784438176926_795_tl_29" n="N029"/>lebhaften Gebahren etwas Südländisches, als rege sich in
+         <lb facs="#facs_1_region_1784438176926_795_tl_30" n="N030"/>dem <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Kinde noch die <rs type="place" ref="#hsl_place_id_1497">wallonisch</rs>e Abkunft. Seine
+         <lb facs="#facs_1_region_1784438176926_795_tl_31" n="N031"/>Unterhaltung überströmte von heiterer Anmuth, von Witz
+         <lb facs="#facs_1_region_1784438176926_795_tl_32" n="N032"/>und treffenden Aperçus. Er fühle sich, meinte <rs type="person" ref="#hsl_person_id_1172">Vesque</rs>, von
+         <lb facs="#facs_1_region_1784438176926_795_tl_33" n="N033"/>meiner Doppelstellung als Jurist und Musiker ver
+         <lb facs="#facs_1_region_1784438176926_795_tl_34" n="N034" break="no"/>wandtschaftlich berührt, und säumte nicht, mich in sein
+         <lb facs="#facs_1_region_1784438176926_795_tl_35" n="N035"/>Haus einzuladen. Dort, in dem <rs type="person" ref="#hsl_person_id_1172">Vesque</rs>’schen Familien
+         <lb facs="#facs_1_region_1784438176926_795_tl_36" n="N036" break="no"/>hause in der <rs type="place" ref="#hsl_place_id_1498">Jacobergasse</rs>, zur Sommerzeit in seiner
+         <lb facs="#facs_1_region_1784438176926_795_tl_37" n="N037"/><rs type="place" ref="#hsl_place_id_1490">Penzig</rs>er Villa, habe ich durch eine Reihe von Jahren
+         <lb facs="#facs_1_region_1784438176926_795_tl_38" n="N038"/>die genußreichsten Abende verlebt, Stunden geistiger und ge
+         <lb facs="#facs_1_region_1784438176926_795_tl_39" n="N039" break="no"/>müthlicher Anregung und fröhlichsten Musicirens. Joseph<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
+         <lb facs="#facs_1_region_1784438181938_798_tl_1" n="N001"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_751">Dessauer</rs></hi>, Professor <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1173">Fischhof</rs></hi>, Alexander <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2116">Bau
+         <lb facs="#facs_1_region_1784438181938_798_tl_2" n="N002" break="no"/>mann</rs></hi>, Otto <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2115">Prechtler</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_188">Mosenthal</rs></hi>, Dr. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_414">Becher</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784438181938_798_tl_3" n="N003"/>von Jüngeren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_121">Herbeck</rs></hi> und Ed. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_274">Schön</rs></hi> (<rs type="person" ref="#hsl_person_id_274">Engelsberg</rs>)
+         <lb facs="#facs_1_region_1784438181938_798_tl_4" n="N004"/>kamen häufig als Freunde des Hauses. Eine Todtenliste!
+         <lb facs="#facs_1_region_1784438181938_798_tl_5" n="N005"/>Selten erschien ein berühmter Virtuose oder Componist in
+         <lb facs="#facs_1_region_1784438181938_798_tl_6" n="N006"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>, ohne sich bei <rs type="person" ref="#hsl_person_id_1172">Vesque</rs> einzufinden; es war dies ein
+         <lb facs="#facs_1_region_1784438181938_798_tl_7" n="N007"/>unvergleichlich gastliches musikalisches Haus, wie es heute
+         <lb facs="#facs_1_region_1784438181938_798_tl_8" n="N008"/>kaum mehr eines in <rs type="place" ref="#hsl_place_id_55">Wien</rs> gibt.
+            </p><p>
+         <lb facs="#facs_1_region_1784438181938_798_tl_9" n="N009"/><rs type="person" ref="#hsl_person_id_1172">Vesque</rs> verband mit raschester Auffassung eine unge
+         <lb facs="#facs_1_region_1784438181938_798_tl_10" n="N010" break="no"/>wöhnliche Arbeitskraft und Elasticität. Von langwierigen
+         <lb facs="#facs_1_region_1784438181938_798_tl_11" n="N011"/>Bureau-Arbeiten oder ermüdendsten Sitzungen heimgekehrt,
+         <lb facs="#facs_1_region_1784438181938_798_tl_12" n="N012"/>setzte er sich am liebsten gleich ans Piano und componirte.
+         <lb facs="#facs_1_region_1784438181938_798_tl_13" n="N013"/>Kam einer von uns Freunden dazu, so freute sich <rs type="person" ref="#hsl_person_id_1172">Vesque</rs>,
+         <lb facs="#facs_1_region_1784438181938_798_tl_14" n="N014"/>ihm das eben Entstandene vorzusingen. Es war nicht blos
+         <lb facs="#facs_1_region_1784438181938_798_tl_15" n="N015"/>ein geselliger Schmuck, sondern ein künstlerischer Vortheil,
+         <lb facs="#facs_1_region_1784438181938_798_tl_16" n="N016"/>den <rs type="person" ref="#hsl_person_id_1172">Vesque</rs> vor vielen seiner <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Kunstgenossen voraus
+         <lb facs="#facs_1_region_1784438181938_798_tl_17" n="N017"/>hatte, daß er selbst vortrefflich sang. Es wäre ihm nicht
+         <lb facs="#facs_1_region_1784438181938_798_tl_18" n="N018"/>möglich gewesen, unsangbar oder stimmwidrig zu componiren.
+         <lb facs="#facs_1_region_1784438181938_798_tl_19" n="N019"/>Auf den einmal von <rs type="person" ref="#hsl_person_id_751">Dessauer</rs> scherzhaft geäußerten Vor
+         <lb facs="#facs_1_region_1784438181938_798_tl_20" n="N020" break="no"/>wurf, daß <rs type="person" ref="#hsl_person_id_1172">Vesque</rs> seinen Gästen am liebsten seine eigenen
+         <lb facs="#facs_1_region_1784438181938_798_tl_21" n="N021"/>Lieder vorsinge, konnte man entgegnen, daß eben Nie
+         <lb facs="#facs_1_region_1784438181938_798_tl_22" n="N022" break="no"/>mand sie so gut vorzutragen verstand, als er selbst.
+         <lb facs="#facs_1_region_1784438181938_798_tl_23" n="N023"/>Der geistreiche, leicht pointirende, fast <rs type="place" ref="#hsl_place_id_21">französisch</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1784438181938_798_tl_24" n="N024"/>angehauchte Ton, den <rs type="person" ref="#hsl_person_id_1172">Vesque</rs> in den Vortrag namentlich
+         <lb facs="#facs_1_region_1784438181938_798_tl_25" n="N025"/>seiner humoristischen Lieder zu legen wußte, war ganz einzig.
+         <lb facs="#facs_1_region_1784438181938_798_tl_26" n="N026"/>Hatte er ein Duett componirt, so secundirte seine <rs type="person" ref="#hsl_person_id_6509">Gattin</rs>,
+         <lb facs="#facs_1_region_1784438181938_798_tl_27" n="N027"/>eine an Geist und Bildung, an Lebhaftigkeit und Musikliebe
+         <lb facs="#facs_1_region_1784438181938_798_tl_28" n="N028"/>ihm ebenbürtige, von uns Allen hochverehrte Frau. Das gab
+         <lb facs="#facs_1_region_1784438181938_798_tl_29" n="N029"/>ein schönes Familienbild, die Eltern <rs type="person" ref="#hsl_person_id_1172">Vesque</rs> musicirend im
+         <lb facs="#facs_1_region_1784438181938_798_tl_30" n="N030"/>Kreise ihrer zahlreichen Söhne und Töchter, deren eine auch
+         <lb facs="#facs_1_region_1784438181938_798_tl_31" n="N031"/>das Talent des <rs type="person" ref="#hsl_person_id_1172">Vater</rs>s geerbt hat.
+            </p><p>
+         <lb facs="#facs_1_region_1784438181938_798_tl_32" n="N032"/>Die Compositionen von <rs type="person" ref="#hsl_person_id_1172">Hoven</rs>
+            <note type="footnote" n="*)">
+            <lb facs="#facs_1_region_1784438181938_798_tl_38" n="N038"/>*) <rs type="person" ref="#hsl_person_id_1172">Vesque</rs> hatte dieses Pseudonym von einem seinem Großvater
+            <lb facs="#facs_1_region_1784438181938_798_tl_39" n="N039"/>gehörigen Gute „<rs type="person" ref="#hsl_person_id_1172">Hoven</rs>“ angenommen.
+            </note>
+            gehören meines Wis
+         <lb facs="#facs_1_region_1784438181938_798_tl_33" n="N033" break="no"/>sens durchaus der Vocalmusik an, und zwar zum größten
+         <lb facs="#facs_1_region_1784438181938_798_tl_34" n="N034"/>Theile dem Liede. Von seinen drei großen Opern: „<rs type="bibl" ref="#hsl_work_id_6852">Johanna
+         <lb facs="#facs_1_region_1784438181938_798_tl_35" n="N035"/>d’Arc</rs>“, „<rs type="bibl" ref="#hsl_work_id_6853">Turandot</rs>“ und „<rs type="bibl" ref="#hsl_work_id_6854">Liebeszauber</rs>“ (<rs type="bibl" ref="#hsl_work_id_6854">Käthchen von Heil
+         <lb facs="#facs_1_region_1784438181938_798_tl_36" n="N036" break="no"/>bronn</rs>) ist mir keine bekannt geworden; sie waren, als ich
+         <lb facs="#facs_1_region_1784438181938_798_tl_37" n="N037"/>nach <rs type="place" ref="#hsl_place_id_55">Wien</rs> kam, bereits vom Repertoire verschwunden. Es<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <p facs="#facs_2_region_1784438196455_804">
-               <lb facs="#facs_2_region_1784438196455_804_tl_1" n="N001"/>mag bei allen schönen Einzelheiten, die man ihnen nachrühmt
-               <lb facs="#facs_2_region_1784438196455_804_tl_2" n="N002"/>doch an der mächtig zusammenhaltenden Kraft und der voll¬
-               <lb facs="#facs_2_region_1784438196455_804_tl_3" n="N003"/>kommenen technischen Meisterschaft gefehlt haben, wie dies bei
-               <lb facs="#facs_2_region_1784438196455_804_tl_4" n="N004"/>einem so getheilten, anstrengenden Berufe kaum anders denk¬
-               <lb facs="#facs_2_region_1784438196455_804_tl_5" n="N005"/>bar ist. Eine kleine komische Oper hingegen, die ich wieder¬
-               <lb facs="#facs_2_region_1784438196455_804_tl_6" n="N006"/>holt mit Vergnügen gehört, ist ihm aufs schönste gelungen,
-               <lb facs="#facs_2_region_1784438196455_804_tl_7" n="N007"/>das (von <rs type="person">Mosenthal</rs> gedichtete) „<hi rendition="#em">
-                  <rs type="bibl">Abenteuer Karl's des</rs>
-               </hi>
-               <lb facs="#facs_2_region_1784438196455_804_tl_8" n="N008"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Zweiten</rs>
-               </hi>“. Die Musik hat einen frischen Zug, dramatische Be¬
-               <lb facs="#facs_2_region_1784438196455_804_tl_9" n="N009"/>weglichkeit und anmuthige Melodien. Mit entschiedener Vorliebe
-               <lb facs="#facs_2_region_1784438196455_804_tl_10" n="N010"/>und mit dem meisten Erfolge hat <rs type="person">Vesque</rs> das Lied cultivirt.
-               <lb facs="#facs_2_region_1784438196455_804_tl_11" n="N011"/>Es gibt in der Musik-Literatur keinen auch nur annähernd
-               <lb facs="#facs_2_region_1784438196455_804_tl_12" n="N012"/>so umfangreichen Liederzyklus, wie <rs type="person">Hoven</rs>'s Composition der
-               <lb facs="#facs_2_region_1784438196455_804_tl_13" n="N013"/>„<rs type="person">
-                  <rs type="bibl">Heimkehr</rs>
-               </rs>“ von Heine. Achtundachtzig <rs type="person">Heine</rs>'sche Lieder!
-               <lb facs="#facs_2_region_1784438196455_804_tl_14" n="N014"/>Man sieht, <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>'s</hi> „<rs type="bibl">Entfernte Geliebte</rs>“, <hi rendition="#em">
-                  <rs type="person" continued="true">Schu¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1784438196455_804_tl_15" n="N015"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">bert</rs>'s</hi> „<rs type="bibl">Winterreise</rs>“ und „<rs type="bibl">Schöne Müllerin</rs>“, <hi rendition="#em">
-                  <rs type="person">Loewe</rs>'s</hi>
-               <lb facs="#facs_2_region_1784438196455_804_tl_16" n="N016"/>„<rs type="bibl">Hebräische Gesänge</rs>“, <hi rendition="#em">
-                  <rs type="person">Marschner</rs>'s</hi> „<rs type="bibl">Klänge aus Osten</rs>“,
-               <lb facs="#facs_2_region_1784438196455_804_tl_17" n="N017"/>und was die musikalische Literatur in dieser Gattung sonst
-               <lb facs="#facs_2_region_1784438196455_804_tl_18" n="N018"/>noch aufzuweisen hat, sind kleine Unternehmungen dagegen.
-               <lb facs="#facs_2_region_1784438196455_804_tl_19" n="N019"/>
-               <rs type="person">Heine</rs>'s „<rs type="bibl">Heimkehr</rs>“ hat eigentlich keinen innern Zusammen¬
-               <lb facs="#facs_2_region_1784438196455_804_tl_20" n="N020"/>hang, sie bietet in bunter Mischung Lieder und Balladen,
-               <lb facs="#facs_2_region_1784438196455_804_tl_21" n="N021"/>beschreibende und epigrammatische Gedichte, tollen Scherz und
-               <lb facs="#facs_2_region_1784438196455_804_tl_22" n="N022"/>trostloses Leid. Viele dieser Gedichte sind lediglich Erzeugnisse
-               <lb facs="#facs_2_region_1784438196455_804_tl_23" n="N023"/>des Witzes und der Ironie, also musikalischem Ausdruck
-               <lb facs="#facs_2_region_1784438196455_804_tl_24" n="N024"/>schwer zugänglich. Allein gerade diese schienen den Esprit in
-               <lb facs="#facs_2_region_1784438196455_804_tl_25" n="N025"/>
-               <rs type="person">Vesque</rs> zu reizen und seinen musikalischen Witz zu wecken. Es
-               <lb facs="#facs_2_region_1784438196455_804_tl_26" n="N026"/>ist ihm in der That gelungen, vielen dieser anscheinend un¬
-               <lb facs="#facs_2_region_1784438196455_804_tl_27" n="N027"/>componirbaren Gedichte <rs type="person">Heine</rs>'s musikalisch beizukommen und
-               <lb facs="#facs_2_region_1784438196455_804_tl_28" n="N028"/>sich damit zu einer Specialität in der Musik-Literatur zu machen.
-               <lb facs="#facs_2_region_1784438196455_804_tl_29" n="N029"/>Wie schwierig ist die musikalische Paraphrasirung der feinen,
-               <lb facs="#facs_2_region_1784438196455_804_tl_30" n="N030"/>wie mit Nadelspitzen stechenden Ironie, welche den Grundton
-               <lb facs="#facs_2_region_1784438196455_804_tl_31" n="N031"/>oder den Ausgang so vieler Gedichte <rs type="person">Heine</rs>'s bildet! Diese
-               <lb facs="#facs_2_region_1784438196455_804_tl_32" n="N032"/>Mischung von Naivetät und sich selbst überspringendem Be¬
-               <lb facs="#facs_2_region_1784438196455_804_tl_33" n="N033"/>wußtsein, diese Selbstvernichtung alles Schönen und Innigen
-               <lb facs="#facs_2_region_1784438196455_804_tl_34" n="N034"/>liegt so weit ab vom Wesen der Harmonie, daß sie kaum
-               <lb facs="#facs_2_region_1784438196455_804_tl_35" n="N035"/>fähig scheint, ein musikalisches Spiegelbild hervorzurufen.
-               <lb facs="#facs_2_region_1784438196455_804_tl_36" n="N036"/>
-               <hi rendition="#em">
-                  <rs type="person">Hebbel</rs>'s</hi> Definition, der Humor sei empfundener Dualis¬
-               <lb facs="#facs_2_region_1784438196455_804_tl_37" n="N037"/>mus, verkörpert sich in manchem <rs type="person">Heine</rs>'schen Gedichte, sogar
-               <lb facs="#facs_2_region_1784438196455_804_tl_38" n="N038"/>in dem engeren Sinne der Form, da nämlich, wo etwas in
-               <lb facs="#facs_2_region_1784438196455_804_tl_39" n="N039"/>lustig-frivolem Tone erzählt wird, während das Herz in tiefstem</p>
-            <p facs="#facs_2_region_1784438200247_807">
-               <lb facs="#facs_2_region_1784438200247_807_tl_1" n="N001"/>Verdrusse zuckt. <hi rendition="#em">
-                  <rs type="person">Vesque</rs>
-               </hi>, der gerade solchen heiklen Auf¬
-               <lb facs="#facs_2_region_1784438200247_807_tl_2" n="N002"/>gaben gegenüber sich durch scharfen Verstand, Witz und feine
-               <lb facs="#facs_2_region_1784438200247_807_tl_3" n="N003"/>Bildung wesentlich unterstützt sah, hat sie nicht selten über¬
-               <lb facs="#facs_2_region_1784438200247_807_tl_4" n="N004"/>raschend gelöst. Compositionen von Gedichten, wie: „<rs type="bibl">Mir</rs>
-               <lb facs="#facs_2_region_1784438200247_807_tl_5" n="N005"/>
-               <rs type="bibl">träumt', ich wär' der liebe Gott</rs>“, „<rs type="bibl">O König Wismaritra</rs>“,
-               <lb facs="#facs_2_region_1784438200247_807_tl_6" n="N006"/>„<rs type="bibl">Ich will mich zum deutschen Professor begeben</rs>“, „<rs type="bibl">Theurer</rs>
-               <lb facs="#facs_2_region_1784438200247_807_tl_7" n="N007"/>
-               <rs type="bibl">Freund, du bist geliebt</rs>“ u. dgl., werden stets ästhetische Cu¬
-               <lb facs="#facs_2_region_1784438200247_807_tl_8" n="N008"/>riosa bleiben, bei <rs type="person">Hoven</rs> sind es wenigstens geistreiche Curiosa.
-               <lb facs="#facs_2_region_1784438200247_807_tl_9" n="N009"/>Glücklicherweise hat sich <rs type="person">Vesque</rs> durch die vielen gefährlichen
-               <lb facs="#facs_2_region_1784438200247_807_tl_10" n="N010"/>Probleme dieser Art die Stimmung für echte Lyrik nicht ver¬
-               <lb facs="#facs_2_region_1784438200247_807_tl_11" n="N011"/>kümmern lassen und sowol in der „<rs type="bibl">Heimkehr</rs>“ als unab¬
-               <lb facs="#facs_2_region_1784438200247_807_tl_12" n="N012"/>hängig von dieser manches einfache Lied von herzlichem Aus¬
-               <lb facs="#facs_2_region_1784438200247_807_tl_13" n="N013"/>drucke und melodiöser Anmuth gebracht. Sein Vorbild und
-               <lb facs="#facs_2_region_1784438200247_807_tl_14" n="N014"/>Ideal blieb auf diesem Gebiete Franz <rs type="person">Schubert</rs>. Zu dem
-               <lb facs="#facs_2_region_1784438200247_807_tl_15" n="N015"/>Besten, was <rs type="person">Hoven</rs> geschrieben, gehören die Compositionen
-               <lb facs="#facs_2_region_1784438200247_807_tl_16" n="N016"/>einiger Gedichte von <hi rendition="#em">
-                  <rs type="person">Chamisso</rs>
-               </hi>: „<rs type="bibl">Katzennatur</rs>“, „<rs type="bibl">Minne¬</rs>
-               <lb facs="#facs_2_region_1784438200247_807_tl_17" n="N017"/>
-               <rs type="bibl">dienst</rs>“ und der geradezu classische „<rs type="bibl">Zopf</rs>“.
-               <lb facs="#facs_2_region_1784438200247_807_tl_18" n="N018"/>Die Freude am eigenen Schaffen und der Wunsch, sich
-               <lb facs="#facs_2_region_1784438200247_807_tl_19" n="N019"/>als Tonkünstler anerkannt zu sehen, haben <rs type="person">Vesque</rs> keineswegs
-               <lb facs="#facs_2_region_1784438200247_807_tl_20" n="N020"/>zum musikalischen Egoisten verhärtet. Er nahm stets den
-               <lb facs="#facs_2_region_1784438200247_807_tl_21" n="N021"/>regsten Antheil an dem Gedeihen unserer Musikzustände und
-               <lb facs="#facs_2_region_1784438200247_807_tl_22" n="N022"/>hat ihnen jederzeit den Einfluß redlich zugeführt, den seine
-               <lb facs="#facs_2_region_1784438200247_807_tl_23" n="N023"/>hohe amtliche und gesellschaftliche Stellung ihm gewährten.
-               <lb facs="#facs_2_region_1784438200247_807_tl_24" n="N024"/>Und die Musik in <rs type="place">Wien</rs> bedurfte damals solcher Hilfe mehr
-               <lb facs="#facs_2_region_1784438200247_807_tl_25" n="N025"/>als je. In Folge der Ereignisse von <date>1848</date> war die „Ge¬
-               <lb facs="#facs_2_region_1784438200247_807_tl_26" n="N026"/>sellschaft der Musikfreunde“ und ihr Conservatorium so gut
-               <lb facs="#facs_2_region_1784438200247_807_tl_27" n="N027"/>wie vernichtet. Ihre Reorganisation verdankt man zum gro¬
-               <lb facs="#facs_2_region_1784438200247_807_tl_28" n="N028"/>ßen Theile den Rathschlägen und Bemühungen <rs type="person">Vesque</rs>'s, der
-               <lb facs="#facs_2_region_1784438200247_807_tl_29" n="N029"/>seine echt patriotischen Anträge persönlich bis an die Stufen
-               <lb facs="#facs_2_region_1784438200247_807_tl_30" n="N030"/>des Thrones brachte. Im Jahre <date>1850</date> veröffentlichte er in
-               <lb facs="#facs_2_region_1784438200247_807_tl_32" n="N031"/>der Beilage der <rs type="bibl">Wiener Zeitung</rs> einen einsichtsvollen Aufsatz
-               <lb facs="#facs_2_region_1784438200247_807_tl_31" n="N032"/>„<hi rendition="#em">
-                  <rs type="bibl">Ueber die Gründung eines österreichischen</rs>
-               </hi>
-               <lb facs="#facs_2_region_1784438200247_807_tl_33" n="N033"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Conservatoriums von staatswegen</rs>
-               </hi>“. Derselbe
-               <lb facs="#facs_2_region_1784438200247_807_tl_34" n="N034"/>constatirt mit großem Freimuthe, daß der <rs type="place">österreichisch</rs>e Staat,
-               <lb facs="#facs_2_region_1784438200247_807_tl_35" n="N035"/>im Gegensatze zu anderen, für Pflege und Hebung der Ton¬
-               <lb facs="#facs_2_region_1784438200247_807_tl_36" n="N036"/>kunst so gut wie gar nichts thue. „Der Staat aber,“ fährt
-               <lb facs="#facs_2_region_1784438200247_807_tl_37" n="N037"/>
-               <rs type="person">Vesque</rs> fort, „ist der Repräsentant des Bleibenden im
-               <lb facs="#facs_2_region_1784438200247_807_tl_38" n="N038"/>Wechsel, der Staat ist der Conservator kat' exochen, und
-               <lb facs="#facs_2_region_1784438200247_807_tl_39" n="N039"/>so ist er auch allein berufen und befähigt, das Conservatorium</p>
-            <p facs="#facs_2_region_1784438207585_810">
-               <lb facs="#facs_2_region_1784438207585_810_tl_1" n="N001"/>der Musik zu unternehmen und für die Erhaltung der echten
-               <lb facs="#facs_2_region_1784438207585_810_tl_2" n="N002"/>Tonkunst zu sorgen.“ <rs type="person">Vesque</rs> war meines Wissens der Erste,
-               <lb facs="#facs_2_region_1784438207585_810_tl_3" n="N003"/>welcher dieses Wort, das jetzt auf Aller Lippen schwebt,
-               <lb facs="#facs_2_region_1784438207585_810_tl_4" n="N004"/>öffentlich mit Entschiedenheit ausgesprochen hat. Wir zweifeln
-               <lb facs="#facs_2_region_1784438207585_810_tl_5" n="N005"/>nicht, daß es in Erfüllung gehen wird. Obwol mit Berufs¬
-               <lb facs="#facs_2_region_1784438207585_810_tl_6" n="N006"/>geschäften überhäuft, nahm <rs type="person">Vesque</rs> doch die Stelle eines
-               <lb facs="#facs_2_region_1784438207585_810_tl_7" n="N007"/>Directions-Mitgliedes der „Gesellschaft der Musikfreunde“
-               <lb facs="#facs_2_region_1784438207585_810_tl_8" n="N008"/>an und versah sie durch mehrere Jahre mit vollem Eifer.
-               <lb facs="#facs_2_region_1784438207585_810_tl_9" n="N009"/>Wie schwankend und armselig war damals die Existenz dieser
-               <lb facs="#facs_2_region_1784438207585_810_tl_10" n="N010"/>„Gesellschaft“, deren Concerte obendrein seit dem Abgange
-               <lb facs="#facs_2_region_1784438207585_810_tl_11" n="N011"/>Otto <rs type="person">Nicolai</rs>'s das einzige Asyl classischer Musik bildeten,
-               <lb facs="#facs_2_region_1784438207585_810_tl_12" n="N012"/>mit dem bescheidensten Orchester, in den dürftigsten Locali¬
-               <lb facs="#facs_2_region_1784438207585_810_tl_13" n="N013"/>täten! Charakteristisch für jene Zustände wie für <rs type="person">Vesque</rs>'s
-               <lb facs="#facs_2_region_1784438207585_810_tl_14" n="N014"/>künstlerischen Eifer ist folgende Thatsache. Nachdem <rs type="person" continued="true">Mendels¬</rs>
-               <lb facs="#facs_2_region_1784438207585_810_tl_15" n="N015"/>
-               <rs type="person" continued="true">sohn</rs>'s Oratorium „<rs type="bibl">Paulus</rs>“ bereits siegreich durch ganz
-               <lb facs="#facs_2_region_1784438207585_810_tl_16" n="N016"/>
-               <rs type="place">Deutschland</rs> gezogen, in <rs type="place">Wien</rs> aber noch immer nicht gegeben
-               <lb facs="#facs_2_region_1784438207585_810_tl_17" n="N017"/>war, hat <rs type="person">Vesque</rs> (im Vereine mit Leopold <rs type="person">Sonnleithner</rs>
-               <lb facs="#facs_2_region_1784438207585_810_tl_18" n="N018"/>und F. <rs type="person">Klemm</rs>) auf eigene Kosten hier die erste Aufführung
-               <lb facs="#facs_2_region_1784438207585_810_tl_19" n="N019"/>dieses Werkes (<date>1839</date>) veranstaltet.
-               <lb facs="#facs_2_region_1784438207585_810_tl_20" n="N020"/>Die beneidenswerthe körperliche und geistige Rüstigkeit
-               <lb facs="#facs_2_region_1784438207585_810_tl_21" n="N021"/>
-               <rs type="person">Vesque</rs>'s hielt lange Stand gegen die Unbilden des anrücken¬
-               <lb facs="#facs_2_region_1784438207585_810_tl_22" n="N022"/>den Alters. Noch im Jahre <date>1873</date> nahm er thätigen Antheil
-               <lb facs="#facs_2_region_1784438207585_810_tl_23" n="N023"/>an unseren Vorberathungen für die musikalische Abtheilung
-               <lb facs="#facs_2_region_1784438207585_810_tl_24" n="N024"/>der <rs type="place">Wien</rs>er Weltausstellung. Von da an zog er sich immer
-               <lb facs="#facs_2_region_1784438207585_810_tl_25" n="N025"/>mehr zurück von öffentlichem und geselligem Wesen. Ich sah
-               <lb facs="#facs_2_region_1784438207585_810_tl_26" n="N026"/>ihn zuletzt im Frühjahre <date>1879</date> im Musikvereinssaale, wo er
-               <lb facs="#facs_2_region_1784438207585_810_tl_27" n="N027"/>sich an der gelungenen Aufführung seines „<rs type="bibl">Abenteuer Karl's</rs>
-               <lb facs="#facs_2_region_1784438207585_810_tl_28" n="N028"/>
-               <rs type="bibl">des Zweiten</rs>“ erfreute, welche <rs type="person">Hellmesberger</rs> mit den Zöglingen
-               <lb facs="#facs_2_region_1784438207585_810_tl_29" n="N029"/>des Conservatoriums auf der kleinen Prüfungsbühne bewerk¬
-               <lb facs="#facs_2_region_1784438207585_810_tl_30" n="N030"/>stelligt hatte. Der aufrichtige lebhafte Beifall, den die halb¬
-               <lb facs="#facs_2_region_1784438207585_810_tl_31" n="N031"/>verschollene graziöse Operette diesmal einer ganz neuen Ge¬
-               <lb facs="#facs_2_region_1784438207585_810_tl_32" n="N032"/>neration entlockte, schien den greisen Componisten zu beglücken
-               <lb facs="#facs_2_region_1784438207585_810_tl_33" n="N033"/>und sichtlich zu verjüngen. Sein noch immer schönes Auge
-               <lb facs="#facs_2_region_1784438207585_810_tl_34" n="N034"/>leuchtete auf, als zögen die längst entschwundenen sonnigen
-               <lb facs="#facs_2_region_1784438207585_810_tl_35" n="N035"/>Tage an ihm vorüber, da er in seinem von Jasmin und
-               <lb facs="#facs_2_region_1784438207585_810_tl_36" n="N036"/>Flieder umblühten Gartenhause die Liebesabenteuer König
-               <lb facs="#facs_2_region_1784438207585_810_tl_37" n="N037"/>
-               <rs type="person">Karl</rs>'s besang. Der Garten ist jetzt verwaist und entlaubt,
-               <lb facs="#facs_2_region_1784438207585_810_tl_38" n="N038"/>der Sänger zur ewigen Ruhe gebettet zwischen dunkle Cypressen.
-               <lb facs="#facs_2_region_1784438207585_810_tl_39" n="N039"/>Es wird doch nicht „Alles vergessen“.</p>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784438196455_804_tl_1" n="N001"/>mag bei allen schönen Einzelheiten, die man ihnen nachrühmt
+         <lb facs="#facs_2_region_1784438196455_804_tl_2" n="N002"/>doch an der mächtig zusammenhaltenden Kraft und der voll
+         <lb facs="#facs_2_region_1784438196455_804_tl_3" n="N003" break="no"/>kommenen technischen Meisterschaft gefehlt haben, wie dies bei
+         <lb facs="#facs_2_region_1784438196455_804_tl_4" n="N004"/>einem so getheilten, anstrengenden Berufe kaum anders denk
+         <lb facs="#facs_2_region_1784438196455_804_tl_5" n="N005" break="no"/>bar ist. Eine kleine komische Oper hingegen, die ich wieder
+         <lb facs="#facs_2_region_1784438196455_804_tl_6" n="N006" break="no"/>holt mit Vergnügen gehört, ist ihm aufs schönste gelungen,
+         <lb facs="#facs_2_region_1784438196455_804_tl_7" n="N007"/>das (von <rs type="person" ref="#hsl_person_id_188">Mosenthal</rs> gedichtete) „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_5881">Abenteuer Karl’s des
+         <lb facs="#facs_2_region_1784438196455_804_tl_8" n="N008"/>Zweiten</rs></hi>“. Die Musik hat einen frischen Zug, dramatische Be
+         <lb facs="#facs_2_region_1784438196455_804_tl_9" n="N009" break="no"/>weglichkeit und anmuthige Melodien. Mit entschiedener Vorliebe
+         <lb facs="#facs_2_region_1784438196455_804_tl_10" n="N010"/>und mit dem meisten Erfolge hat <rs type="person" ref="#hsl_person_id_1172">Vesque</rs> das Lied cultivirt.
+         <lb facs="#facs_2_region_1784438196455_804_tl_11" n="N011"/>Es gibt in der Musik-Literatur keinen auch nur annähernd
+         <lb facs="#facs_2_region_1784438196455_804_tl_12" n="N012"/>so umfangreichen Liederzyklus, wie <rs type="person" ref="#hsl_person_id_1172">Hoven</rs>’s Composition der
+         <lb facs="#facs_2_region_1784438196455_804_tl_13" n="N013"/>„<rs type="bibl" ref="#hsl_work_id_4520">Heimkehr</rs>“ von Heine. Achtundachtzig <rs type="person" ref="#hsl_person_id_116">Heine</rs>’sche Lieder!
+         <lb facs="#facs_2_region_1784438196455_804_tl_14" n="N014"/>Man sieht, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_1312">Entfernte Geliebte</rs>“, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_279">Schu
+         <lb facs="#facs_2_region_1784438196455_804_tl_15" n="N015" break="no"/>bert</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_1437">Winterreise</rs>“ und „<rs type="bibl" ref="#hsl_work_id_214">Schöne Müllerin</rs>“, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1069">Loewe</rs>’s</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784438196455_804_tl_16" n="N016"/>„<rs type="bibl" ref="#hsl_work_id_6856 #hsl_work_id_6857 #hsl_work_id_6858 #hsl_work_id_6860">Hebräische Gesänge</rs>“, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_6855">Klänge aus Osten</rs>“,
+         <lb facs="#facs_2_region_1784438196455_804_tl_17" n="N017"/>und was die musikalische Literatur in dieser Gattung sonst
+         <lb facs="#facs_2_region_1784438196455_804_tl_18" n="N018"/>noch aufzuweisen hat, sind kleine Unternehmungen dagegen.
+         <lb facs="#facs_2_region_1784438196455_804_tl_19" n="N019"/><rs type="person" ref="#hsl_person_id_116">Heine</rs>’s „<rs type="bibl" ref="#hsl_work_id_4520">Heimkehr</rs>“ hat eigentlich keinen innern Zusammen
+         <lb facs="#facs_2_region_1784438196455_804_tl_20" n="N020" break="no"/>hang, sie bietet in bunter Mischung Lieder und Balladen,
+         <lb facs="#facs_2_region_1784438196455_804_tl_21" n="N021"/>beschreibende und epigrammatische Gedichte, tollen Scherz und
+         <lb facs="#facs_2_region_1784438196455_804_tl_22" n="N022"/>trostloses Leid. Viele dieser Gedichte sind lediglich Erzeugnisse
+         <lb facs="#facs_2_region_1784438196455_804_tl_23" n="N023"/>des Witzes und der Ironie, also musikalischem Ausdruck
+         <lb facs="#facs_2_region_1784438196455_804_tl_24" n="N024"/>schwer zugänglich. Allein gerade diese schienen den Esprit in
+         <lb facs="#facs_2_region_1784438196455_804_tl_25" n="N025"/><rs type="person" ref="#hsl_person_id_1172">Vesque</rs> zu reizen und seinen musikalischen Witz zu wecken. Es
+         <lb facs="#facs_2_region_1784438196455_804_tl_26" n="N026"/>ist ihm in der That gelungen, vielen dieser anscheinend un
+         <lb facs="#facs_2_region_1784438196455_804_tl_27" n="N027" break="no"/>componirbaren Gedichte <rs type="person" ref="#hsl_person_id_116">Heine</rs>’s musikalisch beizukommen und
+         <lb facs="#facs_2_region_1784438196455_804_tl_28" n="N028"/>sich damit zu einer Specialität in der Musik-Literatur zu machen.
+         <lb facs="#facs_2_region_1784438196455_804_tl_29" n="N029"/>Wie schwierig ist die musikalische Paraphrasirung der feinen,
+         <lb facs="#facs_2_region_1784438196455_804_tl_30" n="N030"/>wie mit Nadelspitzen stechenden Ironie, welche den Grundton
+         <lb facs="#facs_2_region_1784438196455_804_tl_31" n="N031"/>oder den Ausgang so vieler Gedichte <rs type="person" ref="#hsl_person_id_116">Heine</rs>’s bildet! Diese
+         <lb facs="#facs_2_region_1784438196455_804_tl_32" n="N032"/>Mischung von Naivetät und sich selbst überspringendem Be
+         <lb facs="#facs_2_region_1784438196455_804_tl_33" n="N033" break="no"/>wußtsein, diese Selbstvernichtung alles Schönen und Innigen
+         <lb facs="#facs_2_region_1784438196455_804_tl_34" n="N034"/>liegt so weit ab vom Wesen der Harmonie, daß sie kaum
+         <lb facs="#facs_2_region_1784438196455_804_tl_35" n="N035"/>fähig scheint, ein musikalisches Spiegelbild hervorzurufen.
+         <lb facs="#facs_2_region_1784438196455_804_tl_36" n="N036"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_115">Hebbel</rs>’s</hi> Definition, der Humor sei empfundener Dualis
+         <lb facs="#facs_2_region_1784438196455_804_tl_37" n="N037" break="no"/>mus, verkörpert sich in manchem <rs type="person" ref="#hsl_person_id_116">Heine</rs>’schen Gedichte, sogar
+         <lb facs="#facs_2_region_1784438196455_804_tl_38" n="N038"/>in dem engeren Sinne der Form, da nämlich, wo etwas in
+         <lb facs="#facs_2_region_1784438196455_804_tl_39" n="N039"/>lustig-frivolem Tone erzählt wird, während das Herz in tiefstem<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784438200247_807_tl_1" n="N001"/>Verdrusse zuckt. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1172">Vesque</rs></hi>, der gerade solchen heiklen Auf
+         <lb facs="#facs_2_region_1784438200247_807_tl_2" n="N002" break="no"/>gaben gegenüber sich durch scharfen Verstand, Witz und feine
+         <lb facs="#facs_2_region_1784438200247_807_tl_3" n="N003"/>Bildung wesentlich unterstützt sah, hat sie nicht selten über
+         <lb facs="#facs_2_region_1784438200247_807_tl_4" n="N004" break="no"/>raschend gelöst. Compositionen von Gedichten, wie: „<rs type="bibl" ref="#hsl_work_id_6859">Mir
+         <lb facs="#facs_2_region_1784438200247_807_tl_5" n="N005"/>träumt’, ich wär’ der liebe Gott</rs>“, „<rs type="bibl" ref="#hsl_work_id_6861">O König Wismaritra</rs>“,
+         <lb facs="#facs_2_region_1784438200247_807_tl_6" n="N006"/>„<rs type="bibl" ref="#hsl_work_id_6862">Ich will mich zum deutschen Professor begeben</rs>“, „<rs type="bibl" ref="#hsl_work_id_6863">Theurer
+         <lb facs="#facs_2_region_1784438200247_807_tl_7" n="N007"/>Freund, du bist geliebt</rs>“ u. dgl., werden stets ästhetische Cu
+         <lb facs="#facs_2_region_1784438200247_807_tl_8" n="N008" break="no"/>riosa bleiben, bei <rs type="person" ref="#hsl_person_id_1172">Hoven</rs> sind es wenigstens geistreiche Curiosa.
+         <lb facs="#facs_2_region_1784438200247_807_tl_9" n="N009"/>Glücklicherweise hat sich <rs type="person" ref="#hsl_person_id_1172">Vesque</rs> durch die vielen gefährlichen
+         <lb facs="#facs_2_region_1784438200247_807_tl_10" n="N010"/>Probleme dieser Art die Stimmung für echte Lyrik nicht ver
+         <lb facs="#facs_2_region_1784438200247_807_tl_11" n="N011" break="no"/>kümmern lassen und sowol in der „<rs type="bibl" ref="#hsl_work_id_4520">Heimkehr</rs>“ als unab
+         <lb facs="#facs_2_region_1784438200247_807_tl_12" n="N012" break="no"/>hängig von dieser manches einfache Lied von herzlichem Aus
+         <lb facs="#facs_2_region_1784438200247_807_tl_13" n="N013" break="no"/>drucke und melodiöser Anmuth gebracht. Sein Vorbild und
+         <lb facs="#facs_2_region_1784438200247_807_tl_14" n="N014"/>Ideal blieb auf diesem Gebiete Franz <rs type="person" ref="#hsl_person_id_279">Schubert</rs>. Zu dem
+         <lb facs="#facs_2_region_1784438200247_807_tl_15" n="N015"/>Besten, was <rs type="person" ref="#hsl_person_id_1172">Hoven</rs> geschrieben, gehören die Compositionen
+         <lb facs="#facs_2_region_1784438200247_807_tl_16" n="N016"/>einiger Gedichte von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2232">Chamisso</rs></hi>: „<rs type="bibl" ref="#hsl_work_id_6865">Katzennatur</rs>“, „<rs type="bibl" ref="#hsl_work_id_6866">Minne
+         <lb facs="#facs_2_region_1784438200247_807_tl_17" n="N017" break="no"/>dienst</rs>“ und der geradezu classische „<rs type="bibl" ref="#hsl_work_id_6867">Zopf</rs>“.
+            </p><p>
+         <lb facs="#facs_2_region_1784438200247_807_tl_18" n="N018"/>Die Freude am eigenen Schaffen und der Wunsch, sich
+         <lb facs="#facs_2_region_1784438200247_807_tl_19" n="N019"/>als Tonkünstler anerkannt zu sehen, haben <rs type="person" ref="#hsl_person_id_1172">Vesque</rs> keineswegs
+         <lb facs="#facs_2_region_1784438200247_807_tl_20" n="N020"/>zum musikalischen Egoisten verhärtet. Er nahm stets den
+         <lb facs="#facs_2_region_1784438200247_807_tl_21" n="N021"/>regsten Antheil an dem Gedeihen unserer Musikzustände und
+         <lb facs="#facs_2_region_1784438200247_807_tl_22" n="N022"/>hat ihnen jederzeit den Einfluß redlich zugeführt, den seine
+         <lb facs="#facs_2_region_1784438200247_807_tl_23" n="N023"/>hohe amtliche und gesellschaftliche Stellung ihm gewährten.
+         <lb facs="#facs_2_region_1784438200247_807_tl_24" n="N024"/>Und die Musik in <rs type="place" ref="#hsl_place_id_55">Wien</rs> bedurfte damals solcher Hilfe mehr
+         <lb facs="#facs_2_region_1784438200247_807_tl_25" n="N025"/>als je. In Folge der Ereignisse von <date>1848</date> war die „Ge
+         <lb facs="#facs_2_region_1784438200247_807_tl_26" n="N026" break="no"/>sellschaft der Musikfreunde“ und ihr Conservatorium so gut
+         <lb facs="#facs_2_region_1784438200247_807_tl_27" n="N027"/>wie vernichtet. Ihre Reorganisation verdankt man zum gro
+         <lb facs="#facs_2_region_1784438200247_807_tl_28" n="N028" break="no"/>ßen Theile den Rathschlägen und Bemühungen <rs type="person" ref="#hsl_person_id_1172">Vesque</rs>’s, der
+         <lb facs="#facs_2_region_1784438200247_807_tl_29" n="N029"/>seine echt patriotischen Anträge persönlich bis an die Stufen
+         <lb facs="#facs_2_region_1784438200247_807_tl_30" n="N030"/>des Thrones brachte. Im Jahre <date>1850</date> veröffentlichte er in
+         <lb facs="#facs_2_region_1784438200247_807_tl_32" n="N031"/>der Beilage der <rs type="bibl" ref="#hsl_work_id_156">Wiener Zeitung</rs> einen einsichtsvollen Aufsatz
+         <lb facs="#facs_2_region_1784438200247_807_tl_31" n="N032"/>„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_6868">Ueber die Gründung eines österreichischen
+         <lb facs="#facs_2_region_1784438200247_807_tl_33" n="N033"/>Conservatoriums von staatswegen</rs></hi>“. Derselbe
+         <lb facs="#facs_2_region_1784438200247_807_tl_34" n="N034"/>constatirt mit großem Freimuthe, daß der <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>e Staat,
+         <lb facs="#facs_2_region_1784438200247_807_tl_35" n="N035"/>im Gegensatze zu anderen, für Pflege und Hebung der Ton
+         <lb facs="#facs_2_region_1784438200247_807_tl_36" n="N036" break="no"/>kunst so gut wie gar nichts thue. „Der Staat aber,“ fährt
+         <lb facs="#facs_2_region_1784438200247_807_tl_37" n="N037"/><rs type="person" ref="#hsl_person_id_1172">Vesque</rs> fort, „ist der Repräsentant des Bleibenden im
+         <lb facs="#facs_2_region_1784438200247_807_tl_38" n="N038"/>Wechsel, der Staat ist der Conservator kat’ exochen, und
+         <lb facs="#facs_2_region_1784438200247_807_tl_39" n="N039"/>so ist er auch allein berufen und befähigt, das Conservatorium<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1784438207585_810_tl_1" n="N001"/>der Musik zu unternehmen und für die Erhaltung der echten
+         <lb facs="#facs_2_region_1784438207585_810_tl_2" n="N002"/>Tonkunst zu sorgen.“ <rs type="person" ref="#hsl_person_id_1172">Vesque</rs> war meines Wissens der Erste,
+         <lb facs="#facs_2_region_1784438207585_810_tl_3" n="N003"/>welcher dieses Wort, das jetzt auf Aller Lippen schwebt,
+         <lb facs="#facs_2_region_1784438207585_810_tl_4" n="N004"/>öffentlich mit Entschiedenheit ausgesprochen hat. Wir zweifeln
+         <lb facs="#facs_2_region_1784438207585_810_tl_5" n="N005"/>nicht, daß es in Erfüllung gehen wird. Obwol mit Berufs
+         <lb facs="#facs_2_region_1784438207585_810_tl_6" n="N006" break="no"/>geschäften überhäuft, nahm <rs type="person" ref="#hsl_person_id_1172">Vesque</rs> doch die Stelle eines
+         <lb facs="#facs_2_region_1784438207585_810_tl_7" n="N007"/>Directions-Mitgliedes der „Gesellschaft der Musikfreunde“
+         <lb facs="#facs_2_region_1784438207585_810_tl_8" n="N008"/>an und versah sie durch mehrere Jahre mit vollem Eifer.
+         <lb facs="#facs_2_region_1784438207585_810_tl_9" n="N009"/>Wie schwankend und armselig war damals die Existenz dieser
+         <lb facs="#facs_2_region_1784438207585_810_tl_10" n="N010"/>„Gesellschaft“, deren Concerte obendrein seit dem Abgange
+         <lb facs="#facs_2_region_1784438207585_810_tl_11" n="N011"/>Otto <rs type="person" ref="#hsl_person_id_193">Nicolai</rs>’s das einzige Asyl classischer Musik bildeten,
+         <lb facs="#facs_2_region_1784438207585_810_tl_12" n="N012"/>mit dem bescheidensten Orchester, in den dürftigsten Locali
+         <lb facs="#facs_2_region_1784438207585_810_tl_13" n="N013" break="no"/>täten! Charakteristisch für jene Zustände wie für <rs type="person" ref="#hsl_person_id_1172">Vesque</rs>’s
+         <lb facs="#facs_2_region_1784438207585_810_tl_14" n="N014"/>künstlerischen Eifer ist folgende Thatsache. Nachdem <rs type="person" ref="#hsl_person_id_21">Mendels
+         <lb facs="#facs_2_region_1784438207585_810_tl_15" n="N015" break="no"/>sohn</rs>’s Oratorium „<rs type="bibl" ref="#hsl_work_id_67">Paulus</rs>“ bereits siegreich durch ganz
+         <lb facs="#facs_2_region_1784438207585_810_tl_16" n="N016"/><rs type="place" ref="#hsl_place_id_14">Deutschland</rs> gezogen, in <rs type="place" ref="#hsl_place_id_55">Wien</rs> aber noch immer nicht gegeben
+         <lb facs="#facs_2_region_1784438207585_810_tl_17" n="N017"/>war, hat <rs type="person" ref="#hsl_person_id_1172">Vesque</rs> (im Vereine mit Leopold <rs type="person" ref="#hsl_person_id_289">Sonnleithner</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1784438207585_810_tl_18" n="N018"/>und F. <rs type="person" ref="#hsl_person_id_2614">Klemm</rs>) auf eigene Kosten hier die erste Aufführung
+         <lb facs="#facs_2_region_1784438207585_810_tl_19" n="N019"/>dieses Werkes (<date>1839</date>) veranstaltet.
+            </p><p>
+         <lb facs="#facs_2_region_1784438207585_810_tl_20" n="N020"/>Die beneidenswerthe körperliche und geistige Rüstigkeit
+         <lb facs="#facs_2_region_1784438207585_810_tl_21" n="N021"/><rs type="person" ref="#hsl_person_id_1172">Vesque</rs>’s hielt lange Stand gegen die Unbilden des anrücken
+         <lb facs="#facs_2_region_1784438207585_810_tl_22" n="N022" break="no"/>den Alters. Noch im Jahre <date>1873</date> nahm er thätigen Antheil
+         <lb facs="#facs_2_region_1784438207585_810_tl_23" n="N023"/>an unseren Vorberathungen für die musikalische Abtheilung
+         <lb facs="#facs_2_region_1784438207585_810_tl_24" n="N024"/>der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Weltausstellung. Von da an zog er sich immer
+         <lb facs="#facs_2_region_1784438207585_810_tl_25" n="N025"/>mehr zurück von öffentlichem und geselligem Wesen. Ich sah
+         <lb facs="#facs_2_region_1784438207585_810_tl_26" n="N026"/>ihn zuletzt im Frühjahre <date>1879</date> im Musikvereinssaale, wo er
+         <lb facs="#facs_2_region_1784438207585_810_tl_27" n="N027"/>sich an der gelungenen Aufführung seines „<rs type="bibl" ref="#hsl_work_id_5881">Abenteuer Karl’s
+         <lb facs="#facs_2_region_1784438207585_810_tl_28" n="N028"/>des Zweiten</rs>“ erfreute, welche <rs type="person" ref="#hsl_person_id_120">Hellmesberger</rs> mit den Zöglingen
+         <lb facs="#facs_2_region_1784438207585_810_tl_29" n="N029"/>des Conservatoriums auf der kleinen Prüfungsbühne bewerk
+         <lb facs="#facs_2_region_1784438207585_810_tl_30" n="N030" break="no"/>stelligt hatte. Der aufrichtige lebhafte Beifall, den die halb
+         <lb facs="#facs_2_region_1784438207585_810_tl_31" n="N031" break="no"/>verschollene graziöse Operette diesmal einer ganz neuen Ge
+         <lb facs="#facs_2_region_1784438207585_810_tl_32" n="N032" break="no"/>neration entlockte, schien den greisen Componisten zu beglücken
+         <lb facs="#facs_2_region_1784438207585_810_tl_33" n="N033"/>und sichtlich zu verjüngen. Sein noch immer schönes Auge
+         <lb facs="#facs_2_region_1784438207585_810_tl_34" n="N034"/>leuchtete auf, als zögen die längst entschwundenen sonnigen
+         <lb facs="#facs_2_region_1784438207585_810_tl_35" n="N035"/>Tage an ihm vorüber, da er in seinem von Jasmin und
+         <lb facs="#facs_2_region_1784438207585_810_tl_36" n="N036"/>Flieder umblühten Gartenhause die Liebesabenteuer König
+         <lb facs="#facs_2_region_1784438207585_810_tl_37" n="N037"/><rs type="person" ref="#hsl_person_id_9337">Karl</rs>’s besang. Der Garten ist jetzt verwaist und entlaubt,
+         <lb facs="#facs_2_region_1784438207585_810_tl_38" n="N038"/>der Sänger zur ewigen Ruhe gebettet zwischen dunkle Cypressen.
+         <lb facs="#facs_2_region_1784438207585_810_tl_39" n="N039"/>Es wird doch nicht „Alles vergessen“.</p>
          </div>
       </body>
    </text>

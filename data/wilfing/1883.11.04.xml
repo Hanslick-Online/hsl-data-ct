@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt.
-            </title>
+            <title level="a">Nr. 6893. Wien, Sonntag, den 4. November 1883</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,13 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +70,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt.
-            </title>
+                     <title>Nr. 6893. Wien, Sonntag, den 4. November 1883</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Freie Presse.
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1883-11-04">04.11.1883</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18831104"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-08-06">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-08-08">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-08-21">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1079,433 +1079,324 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1771688327630_2427_tl_1" n="N001"/><head type="h1">Hofoperntheater.</head>
+            <lb facs="#facs_1_region_1771688327630_2427_tl_2" n="N002"/><head type="h2">(„<rs type="bibl" ref="#hsl_work_id_230">Der Templer und die Jüdin</rs>“ von H. <rs type="person" ref="#hsl_person_id_174">Marschner</rs>.)</head>
             <p>
-               <lb facs="#facs_1_line_1771688886670_2512" n="N001"/>Nr. 6893. Wien, Sonntag, den 4. November 1883.
-            </p>
+         <lb facs="#facs_1_region_1771688327630_2427_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_1">Ed. H.</rs><space unit="char" quantity="1"/><rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s berühmteste Oper hat in <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1771688327630_2427_tl_4" n="N004"/>eine gar seltsame Geschichte. So oft sie hier erschien, war sie
+         <lb facs="#facs_1_region_1771688327630_2427_tl_5" n="N005"/>eigentlich jedesmal Novität zugleich und verspäteter Nach
+         <lb facs="#facs_1_region_1771688327630_2427_tl_6" n="N006" break="no"/>zügler. <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s „<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“ herrschte bereits zwanzig Jahre
+         <lb facs="#facs_1_region_1771688327630_2427_tl_7" n="N007"/>lang auf allen <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Bühnen, als er in <rs type="place" ref="#hsl_place_id_55">Wien</rs> (<date>1849</date>)
+         <lb facs="#facs_1_region_1771688327630_2427_tl_8" n="N008"/>zur ersten Aufführung gelangte. <rs type="place" ref="#hsl_place_id_55">Wien</rs> war die letzte Stadt,
+         <lb facs="#facs_1_region_1771688327630_2427_tl_9" n="N009"/>welche diese Lieblingsoper der Deutschen aufgeführt hat, und
+         <lb facs="#facs_1_region_1771688327630_2427_tl_10" n="N010"/>die erste, welche sie — durchfallen ließ. Der „<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“ ver
+         <lb facs="#facs_1_region_1771688327630_2427_tl_11" n="N011" break="no"/>schwand vom Hofoperntheater nach einer einzigen Wieder
+         <lb facs="#facs_1_region_1771688327630_2427_tl_12" n="N012" break="no"/>holung, ohne daß damals ein gottloser „<rs type="person" ref="#hsl_person_id_1050">Bruder Tuck</rs>“ durch
+         <lb facs="#facs_1_region_1771688327630_2427_tl_13" n="N013"/>Beleidigung der heiligen Censur ihm den Lebensfaden ab
+         <lb facs="#facs_1_region_1771688327630_2427_tl_14" n="N014" break="no"/>geschnitten hätte. Letzteres geschah erst im November <date>1862</date>,
+         <lb facs="#facs_1_region_1771688327630_2427_tl_15" n="N015"/>als man, volle dreizehn Jahre später, „<rs type="bibl" ref="#hsl_work_id_230">Templer und Jüdin</rs>“
+         <lb facs="#facs_1_region_1771688327630_2427_tl_16" n="N016"/>neu einstudirt wieder auf die Bühne brachte. Die Vorstellung
+         <lb facs="#facs_1_region_1771688327630_2427_tl_17" n="N017"/>— mit Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_67">Dustmann</rs></hi> als <rs type="person" ref="#hsl_person_id_1051">Rebekka</rs>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_14">Ander</rs></hi> als
+         <lb facs="#facs_1_region_1771688327630_2427_tl_18" n="N018"/><rs type="person" ref="#hsl_person_id_597">Ivanhoe</rs>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_24">Beck</rs></hi> als <rs type="person" ref="#hsl_person_id_1052">Guilbert</rs>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_129">Hölzl</rs></hi> als <rs type="person" ref="#hsl_person_id_1050">Tuck</rs> — glänzte
+         <lb facs="#facs_1_region_1771688327630_2427_tl_19" n="N019"/>in seltener Vollkommenheit und schien volle Bürg
+         <lb facs="#facs_1_region_1771688327630_2427_tl_20" n="N020" break="no"/>schaft zu leisten für das Fortleben der Oper in
+         <lb facs="#facs_1_region_1771688327630_2427_tl_21" n="N021"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>. Aber was mußte dich damals berücken, o wackerer
+         <lb facs="#facs_1_region_1771688327630_2427_tl_22" n="N022"/><rs type="person" ref="#hsl_person_id_129">Hölzl</rs>, daß du ohneweiters gegen die Subordination
+         <lb facs="#facs_1_region_1771688327630_2427_tl_23" n="N023"/>verstießest? Freilich warst du nur in derselben braunen
+         <lb facs="#facs_1_region_1771688327630_2427_tl_24" n="N024"/>Mönchskutte erschienen, welche schon <hi rendition="#em"><rs type="person" ref="#hsl_person_id_8">Staudigl</rs></hi> im Jahre
+         <lb facs="#facs_1_region_1771688327630_2427_tl_25" n="N025"/><date>1849</date> als <rs type="person" ref="#hsl_person_id_1050">Tuck</rs> getragen, und mit demselben Liedrefrain:
+         <lb facs="#facs_1_region_1771688327630_2427_tl_26" n="N026"/>„Ora pro nobis!“, den nicht blos <rs type="person" ref="#hsl_person_id_8">Staudigl</rs>, sondern jeder
+         <lb facs="#facs_1_region_1771688327630_2427_tl_27" n="N027"/>Darsteller des <rs type="person" ref="#hsl_person_id_1050">Tuck</rs> auf irgend einer <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en Provinz
+         <lb facs="#facs_1_region_1771688327630_2427_tl_28" n="N028" break="no"/>bühne anstandslos gesungen hatte. Allein man fand in <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1771688327630_2427_tl_29" n="N029"/>die braune Kutte und das harmlose „Bitt’ für uns“ mit
+         <lb facs="#facs_1_region_1771688327630_2427_tl_30" n="N030"/>Einemmale gotteslästerlich und untersagte Herrn <rs type="person" ref="#hsl_person_id_129">Hölzl</rs> Beides
+         <lb facs="#facs_1_region_1771688327630_2427_tl_31" n="N031"/>aufs ernstlichste. Unvergeßlich ist mir die trostlose Aufregung,
+         <lb facs="#facs_1_region_1771688327630_2427_tl_32" n="N032"/>in welcher <rs type="person" ref="#hsl_person_id_129">Hölzl</rs> bei der Generalprobe das neu vorgeschrie</p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1771688327630_2427_tl_1" n="N001"/>Hofoperntheater.
-               <lb facs="#facs_1_region_1771688327630_2427_tl_2" n="N002"/>(„<rs type="bibl">Der Templer und die Jüdin</rs>“ von H. <rs type="person">Marschner</rs>.)
-               <lb facs="#facs_1_region_1771688327630_2427_tl_3" n="N003"/>Ed. H. <rs type="person">Marschner</rs>'s berühmteste Oper hat in <rs type="place">Wien</rs>
-               <lb facs="#facs_1_region_1771688327630_2427_tl_4" n="N004"/>eine gar seltsame Geschichte. So oft sie hier erschien, war sie
-               <lb facs="#facs_1_region_1771688327630_2427_tl_5" n="N005"/>eigentlich jedesmal Novität zugleich und verspäteter Nach¬
-               <lb facs="#facs_1_region_1771688327630_2427_tl_6" n="N006"/>zügler. <rs type="person">Marschner</rs>'s „<rs type="bibl">Templer</rs>“ herrschte bereits zwanzig Jahre
-               <lb facs="#facs_1_region_1771688327630_2427_tl_7" n="N007"/>lang auf allen <rs type="place">deutsch</rs>en Bühnen, als er in <rs type="place">Wien</rs> (<date>1849</date>)
-               <lb facs="#facs_1_region_1771688327630_2427_tl_8" n="N008"/>zur ersten Aufführung gelangte. <rs type="place">Wien</rs> war die letzte Stadt,
-               <lb facs="#facs_1_region_1771688327630_2427_tl_9" n="N009"/>welche diese Lieblingsoper der Deutschen aufgeführt hat, und
-               <lb facs="#facs_1_region_1771688327630_2427_tl_10" n="N010"/>die erste, welche sie — durchfallen ließ. Der „<rs type="bibl">Templer</rs>“ ver¬
-               <lb facs="#facs_1_region_1771688327630_2427_tl_11" n="N011"/>schwand vom Hofoperntheater nach einer einzigen Wieder¬
-               <lb facs="#facs_1_region_1771688327630_2427_tl_12" n="N012"/>holung, ohne daß damals ein gottloser „<rs type="person">Bruder Tuck</rs>“ durch
-               <lb facs="#facs_1_region_1771688327630_2427_tl_13" n="N013"/>Beleidigung der heiligen Censur ihm den Lebensfaden ab¬
-               <lb facs="#facs_1_region_1771688327630_2427_tl_14" n="N014"/>geschnitten hätte. Letzteres geschah erst im November <date>1862</date>,
-               <lb facs="#facs_1_region_1771688327630_2427_tl_15" n="N015"/>als man, volle dreizehn Jahre später, „<rs type="bibl">Templer und Jüdin</rs>“
-               <lb facs="#facs_1_region_1771688327630_2427_tl_16" n="N016"/>neu einstudirt wieder auf die Bühne brachte. Die Vorstellung
-               <lb facs="#facs_1_region_1771688327630_2427_tl_17" n="N017"/>— mit Frau <hi rendition="#em">
-                  <rs type="person">Dustmann</rs>
-               </hi> als <rs type="person">Rebekka</rs>, <hi rendition="#em">
-                  <rs type="person">Ander</rs>
-               </hi> als
-               <lb facs="#facs_1_region_1771688327630_2427_tl_18" n="N018"/>
-               <rs type="person">Ivanhoe</rs>, <hi rendition="#em">
-                  <rs type="person">Beck</rs>
-               </hi> als <rs type="person">Guilbert</rs>, <hi rendition="#em">
-                  <rs type="person">Hölzl</rs>
-               </hi> als <rs type="person">Tuck</rs> — glänzte
-               <lb facs="#facs_1_region_1771688327630_2427_tl_19" n="N019"/>in seltener Vollkommenheit und schien volle Bürg¬
-               <lb facs="#facs_1_region_1771688327630_2427_tl_20" n="N020"/>schaft zu leisten für das Fortleben der Oper in
-               <lb facs="#facs_1_region_1771688327630_2427_tl_21" n="N021"/>
-               <rs type="place">Wien</rs>. Aber was mußte dich damals berücken, o wackerer
-               <lb facs="#facs_1_region_1771688327630_2427_tl_22" n="N022"/>
-               <rs type="person">Hölzl</rs>, daß du ohneweiters gegen die Subordination
-               <lb facs="#facs_1_region_1771688327630_2427_tl_23" n="N023"/>verstießest? Freilich warst du nur in derselben braunen
-               <lb facs="#facs_1_region_1771688327630_2427_tl_24" n="N024"/>Mönchskutte erschienen, welche schon <hi rendition="#em">
-                  <rs type="person">Staudigl</rs>
-               </hi> im Jahre
-               <lb facs="#facs_1_region_1771688327630_2427_tl_25" n="N025"/>
-               <date>1849</date> als <rs type="person">Tuck</rs> getragen, und mit demselben Liedrefrain:
-               <lb facs="#facs_1_region_1771688327630_2427_tl_26" n="N026"/>„Ora pro nobis!“, den nicht blos <rs type="person">Staudigl</rs>, sondern jeder
-               <lb facs="#facs_1_region_1771688327630_2427_tl_27" n="N027"/>Darsteller des <rs type="person">Tuck</rs> auf irgend einer <rs type="place">österreichisch</rs>en Provinz¬
-               <lb facs="#facs_1_region_1771688327630_2427_tl_28" n="N028"/>bühne anstandslos gesungen hatte. Allein man fand in <rs type="place">Wien</rs>
-               <lb facs="#facs_1_region_1771688327630_2427_tl_29" n="N029"/>die braune Kutte und das harmlose „Bitt' für uns“ mit
-               <lb facs="#facs_1_region_1771688327630_2427_tl_30" n="N030"/>Einemmale gotteslästerlich und untersagte Herrn <rs type="person">Hölzl</rs> Beides
-               <lb facs="#facs_1_region_1771688327630_2427_tl_31" n="N031"/>aufs ernstlichste. Unvergeßlich ist mir die trostlose Aufregung,
-               <lb facs="#facs_1_region_1771688327630_2427_tl_32" n="N032"/>in welcher <rs type="person">Hölzl</rs> bei der Generalprobe das neu vorgeschrie¬
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1771688331582_2430_tl_1" n="N001" break="no"/>bene Costüm, eine Art blauleinenen Pfründnerkittels, anzog
+         <lb facs="#facs_1_region_1771688331582_2430_tl_2" n="N002"/>und in dem köstlichen Barfüßlerliede anstatt „Ora pro nobis“
+         <lb facs="#facs_1_region_1771688331582_2430_tl_3" n="N003"/>den die ganze Composition auf den Kopf stellenden Unsinn
+         <lb facs="#facs_1_region_1771688331582_2430_tl_4" n="N004"/>„Ergo bibamus!“ herauswürgte. Wir alle in der General
+         <lb facs="#facs_1_region_1771688331582_2430_tl_5" n="N005" break="no"/>probe Anwesenden waren nicht weniger betroffen als
+         <lb facs="#facs_1_region_1771688331582_2430_tl_6" n="N006"/><rs type="person" ref="#hsl_person_id_129">Hölzl</rs> über die neue unerwartete Censur-Empfindlichkeit,
+         <lb facs="#facs_1_region_1771688331582_2430_tl_7" n="N007"/>welche uns geradezu prostituirend vorkam für das künst
+         <lb facs="#facs_1_region_1771688331582_2430_tl_8" n="N008" break="no"/>lerische Ansehen des <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Operntheaters. <rs type="person" ref="#hsl_person_id_129">Hölzl</rs> aber
+         <lb facs="#facs_1_region_1771688331582_2430_tl_9" n="N009"/>trug Tags darauf bei der wirklichen Aufführung
+         <lb facs="#facs_1_region_1771688331582_2430_tl_10" n="N010"/>zum großen Schrecken seiner Vorgesetzten die verpönte Kutte
+         <lb facs="#facs_1_region_1771688331582_2430_tl_11" n="N011"/>und sang die verpönten drei Worte. Er machte seine Sache
+         <lb facs="#facs_1_region_1771688331582_2430_tl_12" n="N012"/>vortrefflich und dürfte schwerlich einer Menschenseele Aerger
+         <lb facs="#facs_1_region_1771688331582_2430_tl_13" n="N013" break="no"/>niß damit gegeben haben, dennoch entlud sich blitzschnell ein
+         <lb facs="#facs_1_region_1771688331582_2430_tl_14" n="N014"/>furchtbares Disciplinar-Gewitter über seiner Tonsur. Man
+         <lb facs="#facs_1_region_1771688331582_2430_tl_15" n="N015"/>stieß (um ein Kraftwort Johannes <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9309">Scherr</rs>’s</hi> zu brauchen)
+         <lb facs="#facs_1_region_1771688331582_2430_tl_16" n="N016"/>sofort in das beliebte Religionsgefahr-Bockshorn, <rs type="person" ref="#hsl_person_id_129">Hölzl</rs> wurde
+         <lb facs="#facs_1_region_1771688331582_2430_tl_17" n="N017"/>entlassen, und mit ihm verschwand zum zweitenmale —
+         <lb facs="#facs_1_region_1771688331582_2430_tl_18" n="N018"/>wiederum unmittelbar nach der Première — <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s
+         <lb facs="#facs_1_region_1771688331582_2430_tl_19" n="N019"/>„<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“ vom Repertoire.
+            </p><p>
+         <lb facs="#facs_1_region_1771688331582_2430_tl_20" n="N020"/>Seither sind wieder wohlgezählte zwanzig Jahre ver
+         <lb facs="#facs_1_region_1771688331582_2430_tl_21" n="N021" break="no"/>flossen, die guten neuen Opern wuchsen immer spärlicher und
+         <lb facs="#facs_1_region_1771688331582_2430_tl_22" n="N022"/>die guten alten stiegen im Werthe. So besann sich denn auch
+         <lb facs="#facs_1_region_1771688331582_2430_tl_23" n="N023"/>unsere Hofopern-Direction auf den unglücklichen „<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“
+         <lb facs="#facs_1_region_1771688331582_2430_tl_24" n="N024"/>und faßte den dankenswerthen Entschluß, seinen so grausam
+         <lb facs="#facs_1_region_1771688331582_2430_tl_25" n="N025"/>abgeschnittenen Lebensfaden noch einmal neu anzustückeln. Die
+         <lb facs="#facs_1_region_1771688331582_2430_tl_26" n="N026"/>Oper ist werth, auf dem Repertoire erhalten zu bleiben, wie
+         <lb facs="#facs_1_region_1771688331582_2430_tl_27" n="N027"/>sie auch thatsächlich von keiner der größeren Bühnen
+         <lb facs="#facs_1_region_1771688331582_2430_tl_28" n="N028"/><rs type="place" ref="#hsl_place_id_14">Deutschland</rs>s je verschwunden ist. Das hat sie „im
+         <lb facs="#facs_1_region_1771688331582_2430_tl_29" n="N029"/>Reiche“ voraus vor <rs type="place" ref="#hsl_place_id_55">Wien</rs>: die Continuität, ein Factor,
+         <lb facs="#facs_1_region_1771688331582_2430_tl_30" n="N030"/>der im Bühnenleben kaum geringeren Einfluß übt, als in
+         <lb facs="#facs_1_region_1771688331582_2430_tl_31" n="N031"/>politischen und socialen Dingen. Was hält bejahrtere, dem
+         <lb facs="#facs_1_region_1771688331582_2430_tl_32" n="N032"/>heutigen Geschmack weit mehr entfremdete Opern noch lebendig
+         <lb facs="#facs_1_region_1771688331582_2430_tl_33" n="N033"/>auf einzelnen bevorzugten Bühnen, z. B. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_99">Gluck</rs></hi> und
+         <lb facs="#facs_1_region_1771688331582_2430_tl_34" n="N034"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_294">Spontini</rs></hi> in <rs type="place" ref="#hsl_place_id_9">Berlin</rs>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_103">Grétry</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_187">Monsigny</rs></hi> in
+         <lb facs="#facs_1_region_1771688331582_2430_tl_35" n="N035"/><rs type="place" ref="#hsl_place_id_44">Paris</rs>? Der glückliche Umstand, daß man sie niemals gänz
+         <lb facs="#facs_1_region_1771688331582_2430_tl_36" n="N036" break="no"/>lich hat in Vergessenheit fallen lassen, sondern einen zu
+         <lb facs="#facs_1_region_1771688331582_2430_tl_37" n="N037" break="no"/>sammenhaltenden, wenngleich stark gelockerten Faden von ihrer
+         <lb facs="#facs_1_region_1771688331582_2430_tl_38" n="N038"/>Jugendzeit weiter fortspann bis in ihr gegenwärtiges Greisen</p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1771688331582_2430_tl_1" n="N001"/>bene Costüm, eine Art blauleinenen Pfründnerkittels, anzog
-               <lb facs="#facs_1_region_1771688331582_2430_tl_2" n="N002"/>und in dem köstlichen Barfüßlerliede anstatt „Ora pro nobis“
-               <lb facs="#facs_1_region_1771688331582_2430_tl_3" n="N003"/>den die ganze Composition auf den Kopf stellenden Unsinn
-               <lb facs="#facs_1_region_1771688331582_2430_tl_4" n="N004"/>„Ergo bibamus!“ herauswürgte. Wir alle in der General¬
-               <lb facs="#facs_1_region_1771688331582_2430_tl_5" n="N005"/>probe Anwesenden waren nicht weniger betroffen als
-               <lb facs="#facs_1_region_1771688331582_2430_tl_6" n="N006"/>
-               <rs type="person">Hölzl</rs> über die neue unerwartete Censur-Empfindlichkeit,
-               <lb facs="#facs_1_region_1771688331582_2430_tl_7" n="N007"/>welche uns geradezu prostituirend vorkam für das künst¬
-               <lb facs="#facs_1_region_1771688331582_2430_tl_8" n="N008"/>lerische Ansehen des <rs type="place">Wien</rs>er Operntheaters. <rs type="person">Hölzl</rs> aber
-               <lb facs="#facs_1_region_1771688331582_2430_tl_9" n="N009"/>trug Tags darauf bei der wirklichen Aufführung
-               <lb facs="#facs_1_region_1771688331582_2430_tl_10" n="N010"/>zum großen Schrecken seiner Vorgesetzten die verpönte Kutte
-               <lb facs="#facs_1_region_1771688331582_2430_tl_11" n="N011"/>und sang die verpönten drei Worte. Er machte seine Sache
-               <lb facs="#facs_1_region_1771688331582_2430_tl_12" n="N012"/>vortrefflich und dürfte schwerlich einer Menschenseele Aerger¬
-               <lb facs="#facs_1_region_1771688331582_2430_tl_13" n="N013"/>niß damit gegeben haben, dennoch entlud sich blitzschnell ein
-               <lb facs="#facs_1_region_1771688331582_2430_tl_14" n="N014"/>furchtbares Disciplinar-Gewitter über seiner Tonsur. Man
-               <lb facs="#facs_1_region_1771688331582_2430_tl_15" n="N015"/>stieß (um ein Kraftwort Johannes <hi rendition="#em">
-                  <rs type="person">Scherr</rs>'s</hi> zu brauchen)
-               <lb facs="#facs_1_region_1771688331582_2430_tl_16" n="N016"/>sofort in das beliebte Religionsgefahr-Bockshorn, <rs type="person">Hölzl</rs> wurde
-               <lb facs="#facs_1_region_1771688331582_2430_tl_17" n="N017"/>entlassen, und mit ihm verschwand zum zweitenmale —
-               <lb facs="#facs_1_region_1771688331582_2430_tl_18" n="N018"/>wiederum unmittelbar nach der Première — <rs type="person">Marschner</rs>'s
-               <lb facs="#facs_1_region_1771688331582_2430_tl_19" n="N019"/>„<rs type="bibl">Templer</rs>“ vom Repertoire.
-               <lb facs="#facs_1_region_1771688331582_2430_tl_20" n="N020"/>Seither sind wieder wohlgezählte zwanzig Jahre ver¬
-               <lb facs="#facs_1_region_1771688331582_2430_tl_21" n="N021"/>flossen, die guten neuen Opern wuchsen immer spärlicher und
-               <lb facs="#facs_1_region_1771688331582_2430_tl_22" n="N022"/>die guten alten stiegen im Werthe. So besann sich denn auch
-               <lb facs="#facs_1_region_1771688331582_2430_tl_23" n="N023"/>unsere Hofopern-Direction auf den unglücklichen „<rs type="bibl">Templer</rs>“
-               <lb facs="#facs_1_region_1771688331582_2430_tl_24" n="N024"/>und faßte den dankenswerthen Entschluß, seinen so grausam
-               <lb facs="#facs_1_region_1771688331582_2430_tl_25" n="N025"/>abgeschnittenen Lebensfaden noch einmal neu anzustückeln. Die
-               <lb facs="#facs_1_region_1771688331582_2430_tl_26" n="N026"/>Oper ist werth, auf dem Repertoire erhalten zu bleiben, wie
-               <lb facs="#facs_1_region_1771688331582_2430_tl_27" n="N027"/>sie auch thatsächlich von keiner der größeren Bühnen
-               <lb facs="#facs_1_region_1771688331582_2430_tl_28" n="N028"/>
-               <rs type="place">Deutschland</rs>s je verschwunden ist. Das hat sie „im
-               <lb facs="#facs_1_region_1771688331582_2430_tl_29" n="N029"/>Reiche“ voraus vor <rs type="place">Wien</rs>: die Continuität, ein Factor,
-               <lb facs="#facs_1_region_1771688331582_2430_tl_30" n="N030"/>der im Bühnenleben kaum geringeren Einfluß übt, als in
-               <lb facs="#facs_1_region_1771688331582_2430_tl_31" n="N031"/>politischen und socialen Dingen. Was hält bejahrtere, dem
-               <lb facs="#facs_1_region_1771688331582_2430_tl_32" n="N032"/>heutigen Geschmack weit mehr entfremdete Opern noch lebendig
-               <lb facs="#facs_1_region_1771688331582_2430_tl_33" n="N033"/>auf einzelnen bevorzugten Bühnen, z. B. <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi> und
-               <lb facs="#facs_1_region_1771688331582_2430_tl_34" n="N034"/>
-               <hi rendition="#em">
-                  <rs type="person">Spontini</rs>
-               </hi> in <rs type="place">Berlin</rs>, <hi rendition="#em">
-                  <rs type="person">Grétry</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Monsigny</rs>
-               </hi> in
-               <lb facs="#facs_1_region_1771688331582_2430_tl_35" n="N035"/>
-               <rs type="place">Paris</rs>? Der glückliche Umstand, daß man sie niemals gänz¬
-               <lb facs="#facs_1_region_1771688331582_2430_tl_36" n="N036"/>lich hat in Vergessenheit fallen lassen, sondern einen zu¬
-               <lb facs="#facs_1_region_1771688331582_2430_tl_37" n="N037"/>sammenhaltenden, wenngleich stark gelockerten Faden von ihrer
-               <lb facs="#facs_1_region_1771688331582_2430_tl_38" n="N038"/>Jugendzeit weiter fortspann bis in ihr gegenwärtiges Greisen¬
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1771688334525_2433_tl_1" n="N001"/>alter. Für den Erfolg von <rs type="person">Marschner</rs>'s „<rs type="bibl">Templer</rs>“ in <rs type="place">Wien</rs>
-               <lb facs="#facs_1_region_1771688334525_2433_tl_2" n="N002"/>bleibt es verhängnißvoll, daß man hier seine Bekanntschaft
-               <lb facs="#facs_1_region_1771688334525_2433_tl_3" n="N003"/>so spät gemacht und immer wieder voreilig abgebrochen hat.
-               <lb facs="#facs_1_region_1771688334525_2433_tl_4" n="N004"/>Zur Zeit, da das Kärntnerthor-Theater „<rs type="bibl">Templer und</rs>
-               <lb facs="#facs_1_region_1771688334525_2433_tl_5" n="N005"/>
-               <rs type="bibl">Jüdin</rs>“ als Novität brachte, war die Stimmung für die
-               <lb facs="#facs_1_region_1771688334525_2433_tl_6" n="N006"/>romantische <rs type="place">deutsch</rs>e Oper (<rs type="person">Weber</rs>, <rs type="person">Spohr</rs>, <rs type="person">Marschner</rs>) nicht
-               <lb facs="#facs_1_region_1771688334525_2433_tl_7" n="N007"/>mehr die herrschende. Es entsprach dies vollkommen dem
-               <lb facs="#facs_1_region_1771688334525_2433_tl_8" n="N008"/>„verspäteten Charakter“, den das alte <rs type="place">Wien</rs> auch auf dem
-               <lb facs="#facs_1_region_1771688334525_2433_tl_9" n="N009"/>Gebiete der bildenden und dichtenden Künste aufweist. Die
-               <lb facs="#facs_1_region_1771688334525_2433_tl_10" n="N010"/>
-               <rs type="place">deutsch</rs>e Musik der Dreißiger- und Vierziger-Jahre begegnete
-               <lb facs="#facs_1_region_1771688334525_2433_tl_11" n="N011"/>hier obendrein einem speciellen starken Gegendruck: dem Cultus
-               <lb facs="#facs_1_region_1771688334525_2433_tl_12" n="N012"/>der <rs type="place">italienisch</rs>en Oper. <rs type="place">Wien</rs> schwärmte für <rs type="person">Bellini</rs> und
-               <lb facs="#facs_1_region_1771688334525_2433_tl_13" n="N013"/>
-               <rs type="person">Donizetti</rs>, für die <rs type="person">Tadolini</rs> und <rs type="person">Medori</rs> — da standen <rs type="person">Marschner</rs>
-               <lb facs="#facs_1_region_1771688334525_2433_tl_14" n="N014"/>und <rs type="person">Spohr</rs>, mit Ausnahme des <rs type="bibl">Freischütz</rs>en auch <rs type="person">Weber</rs>,
-               <lb facs="#facs_1_region_1771688334525_2433_tl_15" n="N015"/>weit abseits der allgemeinen Geschmacksströmung. In auf¬
-               <lb facs="#facs_1_region_1771688334525_2433_tl_16" n="N016"/>fallendem Gegensatze dazu pflegte <hi rendition="#em">
-                  <rs type="place">Prag</rs>
-               </hi>, das keine <rs type="place" continued="true">italie¬</rs>
-               <lb facs="#facs_1_region_1771688334525_2433_tl_17" n="N017"/>
-               <rs type="place" continued="true">nisch</rs>e Oper, auch keinen <rs type="person">Strauß</rs> und <rs type="person">Lanner</rs> besaß, die ro¬
-               <lb facs="#facs_1_region_1771688334525_2433_tl_18" n="N018"/>mantische <rs type="place">deutsch</rs>e Oper mit ausgesprochener Vorliebe. Von
-               <lb facs="#facs_1_region_1771688334525_2433_tl_19" n="N019"/>
-               <rs type="place">norddeutsch</rs>em Wesen getränkt — <rs type="place">czechisch</rs>es Wesen kannte
-               <lb facs="#facs_1_region_1771688334525_2433_tl_20" n="N020"/>man damals noch nicht in Sachen der Kunst und Wissen¬
-               <lb facs="#facs_1_region_1771688334525_2433_tl_21" n="N021"/>schaft — bildete <rs type="place">Prag</rs> eine bevorzugte musikalische Zwischen¬
-               <lb facs="#facs_1_region_1771688334525_2433_tl_22" n="N022"/>station zwischen <rs type="place">Leipzig</rs>, dem Vororte <rs type="place">deutsch</rs>er Tonkunst,
-               <lb facs="#facs_1_region_1771688334525_2433_tl_23" n="N023"/>und <rs type="place">Wien</rs>. Diese Gravitation äußerte sich nicht blos in
-               <lb facs="#facs_1_region_1771688334525_2433_tl_24" n="N024"/>rascher und nachhaltiger Aneignung der dramatischen, sondern
-               <lb facs="#facs_1_region_1771688334525_2433_tl_25" n="N025"/>auch der Orchester- und Kammermusik des jungen <rs type="place" continued="true">Deutsch¬</rs>
-               <lb facs="#facs_1_region_1771688334525_2433_tl_26" n="N026"/>
-               <rs type="place" continued="true">land</rs>. <rs type="person">Mendelssohn</rs> und <rs type="person">Schumann</rs> sind in <rs type="place">Prag</rs> viel früher
-               <lb facs="#facs_1_region_1771688334525_2433_tl_27" n="N027"/>eingekehrt und haben darum auch weit stärker gewirkt, als in
-               <lb facs="#facs_1_region_1771688334525_2433_tl_28" n="N028"/>
-               <rs type="place">Wien</rs>. Jugendeindrücke bewahren eine verklärende Macht, und
-               <lb facs="#facs_1_region_1771688334525_2433_tl_29" n="N029"/>wer damals in jener goldenen <rs type="place">Prag</rs>er Studentenzeit mit uns
-               <lb facs="#facs_1_region_1771688334525_2433_tl_30" n="N030"/>für <rs type="person">Marschner</rs>'s „<rs type="bibl">Templer</rs>“ und „<rs type="bibl">Hanns Heiling</rs>“, für
-               <lb facs="#facs_1_region_1771688334525_2433_tl_31" n="N031"/>
-               <rs type="person">Spohr</rs>'s „<rs type="bibl">Faust</rs>“ und „<rs type="bibl">Jessonda</rs>“ geschwärmt hat, der
-               <lb facs="#facs_1_region_1771688334525_2433_tl_32" n="N032"/>beurtheilt sie jedenfalls günstiger, als wenn er sie heute zum
-               <lb facs="#facs_1_region_1771688334525_2433_tl_33" n="N033"/>erstenmale hörte. Noch wichtiger für den vollen Eindruck ist es,
-               <lb facs="#facs_1_line_1771689446228_2757" n="N034"/>daß die Opern selbst noch jung seien, wenn sie zum erstenmale zum
-               <lb facs="#facs_1_line_1771689442252_2753" n="N035"/>Publicum sprechen. Nicht nur der Mensch, auch die Musik
-               <lb facs="#facs_1_line_1771689438437_2749" n="N036"/>wird alt; am schnellsten durch ihre so vielfach gemischten
-               <lb facs="#facs_1_region_1771688334525_2433_tl_40" n="N037"/>Elemente die Opernmusik. Die eine verfällt früher und auf
-               <lb facs="#facs_1_region_1771688334525_2433_tl_41" n="N038"/>einmal, die andere später und stückweise ihrem Schicksale;
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1771688334525_2433_tl_1" n="N001" break="no"/>alter. Für den Erfolg von <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s „<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“ in <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1771688334525_2433_tl_2" n="N002"/>bleibt es verhängnißvoll, daß man hier seine Bekanntschaft
+         <lb facs="#facs_1_region_1771688334525_2433_tl_3" n="N003"/>so spät gemacht und immer wieder voreilig abgebrochen hat.
+         <lb facs="#facs_1_region_1771688334525_2433_tl_4" n="N004"/>Zur Zeit, da das Kärntnerthor-Theater „<rs type="bibl" ref="#hsl_work_id_230">Templer und
+         <lb facs="#facs_1_region_1771688334525_2433_tl_5" n="N005"/>Jüdin</rs>“ als Novität brachte, war die Stimmung für die
+         <lb facs="#facs_1_region_1771688334525_2433_tl_6" n="N006"/>romantische <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Oper (<rs type="person" ref="#hsl_person_id_321">Weber</rs>, <rs type="person" ref="#hsl_person_id_293">Spohr</rs>, <rs type="person" ref="#hsl_person_id_174">Marschner</rs>) nicht
+         <lb facs="#facs_1_region_1771688334525_2433_tl_7" n="N007"/>mehr die herrschende. Es entsprach dies vollkommen dem
+         <lb facs="#facs_1_region_1771688334525_2433_tl_8" n="N008"/>„verspäteten Charakter“, den das alte <rs type="place" ref="#hsl_place_id_55">Wien</rs> auch auf dem
+         <lb facs="#facs_1_region_1771688334525_2433_tl_9" n="N009"/>Gebiete der bildenden und dichtenden Künste aufweist. Die
+         <lb facs="#facs_1_region_1771688334525_2433_tl_10" n="N010"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Musik der Dreißiger- und Vierziger-Jahre begegnete
+         <lb facs="#facs_1_region_1771688334525_2433_tl_11" n="N011"/>hier obendrein einem speciellen starken Gegendruck: dem Cultus
+         <lb facs="#facs_1_region_1771688334525_2433_tl_12" n="N012"/>der <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Oper. <rs type="place" ref="#hsl_place_id_55">Wien</rs> schwärmte für <rs type="person" ref="#hsl_person_id_26">Bellini</rs> und
+         <lb facs="#facs_1_region_1771688334525_2433_tl_13" n="N013"/><rs type="person" ref="#hsl_person_id_63">Donizetti</rs>, für die <rs type="person" ref="#hsl_person_id_774">Tadolini</rs> und <rs type="person" ref="#hsl_person_id_2544">Medori</rs> — da standen <rs type="person" ref="#hsl_person_id_174">Marschner</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1771688334525_2433_tl_14" n="N014"/>und <rs type="person" ref="#hsl_person_id_293">Spohr</rs>, mit Ausnahme des <rs type="bibl" ref="#hsl_work_id_236">Freischütz</rs>en auch <rs type="person" ref="#hsl_person_id_321">Weber</rs>,
+         <lb facs="#facs_1_region_1771688334525_2433_tl_15" n="N015"/>weit abseits der allgemeinen Geschmacksströmung. In auf
+         <lb facs="#facs_1_region_1771688334525_2433_tl_16" n="N016" break="no"/>fallendem Gegensatze dazu pflegte <hi rendition="#em"><rs type="place" ref="#hsl_place_id_45">Prag</rs></hi>, das keine <rs type="place" ref="#hsl_place_id_28">italie
+         <lb facs="#facs_1_region_1771688334525_2433_tl_17" n="N017" break="no"/>nisch</rs>e Oper, auch keinen <rs type="person" ref="#hsl_person_id_1150">Strauß</rs> und <rs type="person" ref="#hsl_person_id_724">Lanner</rs> besaß, die ro
+         <lb facs="#facs_1_region_1771688334525_2433_tl_18" n="N018" break="no"/>mantische <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Oper mit ausgesprochener Vorliebe. Von
+         <lb facs="#facs_1_region_1771688334525_2433_tl_19" n="N019"/><rs type="place" ref="#hsl_place_id_502">norddeutsch</rs>em Wesen getränkt — <rs type="place" ref="#hsl_place_id_204">czechisch</rs>es Wesen kannte
+         <lb facs="#facs_1_region_1771688334525_2433_tl_20" n="N020"/>man damals noch nicht in Sachen der Kunst und Wissen
+         <lb facs="#facs_1_region_1771688334525_2433_tl_21" n="N021" break="no"/>schaft — bildete <rs type="place" ref="#hsl_place_id_45">Prag</rs> eine bevorzugte musikalische Zwischen
+         <lb facs="#facs_1_region_1771688334525_2433_tl_22" n="N022" break="no"/>station zwischen <rs type="place" ref="#hsl_place_id_32">Leipzig</rs>, dem Vororte <rs type="place" ref="#hsl_place_id_14">deutsch</rs>er Tonkunst,
+         <lb facs="#facs_1_region_1771688334525_2433_tl_23" n="N023"/>und <rs type="place" ref="#hsl_place_id_55">Wien</rs>. Diese Gravitation äußerte sich nicht blos in
+         <lb facs="#facs_1_region_1771688334525_2433_tl_24" n="N024"/>rascher und nachhaltiger Aneignung der dramatischen, sondern
+         <lb facs="#facs_1_region_1771688334525_2433_tl_25" n="N025"/>auch der Orchester- und Kammermusik des jungen <rs type="place" ref="#hsl_place_id_14">Deutsch
+         <lb facs="#facs_1_region_1771688334525_2433_tl_26" n="N026" break="no"/>land</rs>. <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs> und <rs type="person" ref="#hsl_person_id_282">Schumann</rs> sind in <rs type="place" ref="#hsl_place_id_45">Prag</rs> viel früher
+         <lb facs="#facs_1_region_1771688334525_2433_tl_27" n="N027"/>eingekehrt und haben darum auch weit stärker gewirkt, als in
+         <lb facs="#facs_1_region_1771688334525_2433_tl_28" n="N028"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>. Jugendeindrücke bewahren eine verklärende Macht, und
+         <lb facs="#facs_1_region_1771688334525_2433_tl_29" n="N029"/>wer damals in jener goldenen <rs type="place" ref="#hsl_place_id_45">Prag</rs>er Studentenzeit mit uns
+         <lb facs="#facs_1_region_1771688334525_2433_tl_30" n="N030"/>für <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s „<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“ und „<rs type="bibl" ref="#hsl_work_id_184">Hanns Heiling</rs>“, für
+         <lb facs="#facs_1_region_1771688334525_2433_tl_31" n="N031"/><rs type="person" ref="#hsl_person_id_293">Spohr</rs>’s „<rs type="bibl" ref="#hsl_work_id_198">Faust</rs>“ und „<rs type="bibl" ref="#hsl_work_id_162">Jessonda</rs>“ geschwärmt hat, der
+         <lb facs="#facs_1_region_1771688334525_2433_tl_32" n="N032"/>beurtheilt sie jedenfalls günstiger, als wenn er sie heute zum
+         <lb facs="#facs_1_region_1771688334525_2433_tl_33" n="N033"/>erstenmale hörte. Noch wichtiger für den vollen Eindruck ist es,
+         <lb facs="#facs_1_line_1771689446228_2757" n="N034"/>daß die Opern selbst noch jung seien, wenn sie zum erstenmale zum
+         <lb facs="#facs_1_line_1771689442252_2753" n="N035"/>Publicum sprechen. Nicht nur der Mensch, auch die Musik
+         <lb facs="#facs_1_line_1771689438437_2749" n="N036"/>wird alt; am schnellsten durch ihre so vielfach gemischten
+         <lb facs="#facs_1_region_1771688334525_2433_tl_40" n="N037"/>Elemente die Opernmusik. Die eine verfällt früher und auf
+         <lb facs="#facs_1_region_1771688334525_2433_tl_41" n="N038"/>einmal, die andere später und stückweise ihrem Schicksale;<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1771688356937_2448_tl_1" n="N001"/>endlich kommt die Zeit für jede. Ein halbes Jahrhundert
+         <lb facs="#facs_2_region_1771688356937_2448_tl_2" n="N002"/>bedeutet für eine Oper schon ein respectables Alter, und
+         <lb facs="#facs_2_region_1771688356937_2448_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s „<rs type="bibl" ref="#hsl_work_id_230">Templer</rs>“ hat es bereits hinter sich. Der Ein
+         <lb facs="#facs_2_region_1771688356937_2448_tl_4" n="N004" break="no"/>druck, welchen diese Oper heute noch macht, beweist, daß echte
+         <lb facs="#facs_2_region_1771688356937_2448_tl_5" n="N005"/>und starke Vorzüge ihr innewohnen müssen. Nur fünf <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e
+         <lb facs="#facs_2_region_1771688356937_2448_tl_6" n="N006"/>Opern aus unserem Jahrhundert wüßte ich zu nennen, welche,
+         <lb facs="#facs_2_region_1771688356937_2448_tl_7" n="N007"/>älter als „<rs type="bibl" ref="#hsl_work_id_230">Templer und Jüdin</rs>“, ihre Lebenskraft noch heute
+         <lb facs="#facs_2_region_1771688356937_2448_tl_8" n="N008"/>bewähren: „<rs type="bibl" ref="#hsl_work_id_348">Fidelio</rs>“, „<rs type="bibl" ref="#hsl_work_id_162">Jessonda</rs>“ und die drei <rs type="person" ref="#hsl_person_id_321">Weber</rs>’schen
+         <lb facs="#facs_2_region_1771688356937_2448_tl_9" n="N009"/><rs type="bibl" ref="#hsl_work_id_236 #hsl_work_id_201 #hsl_work_id_79">Opern</rs>. Das ist recht wenig für so lange Zeit, nicht wahr?
+         <lb facs="#facs_2_region_1771688356937_2448_tl_10" n="N010"/>Und aus dem so opernreichen vorigen Jahrhunderte haben von
+         <lb facs="#facs_2_region_1771688356937_2448_tl_11" n="N011"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Meistern nur <rs type="person" ref="#hsl_person_id_189">Mozart</rs> mit fünf <rs type="bibl" ref="#hsl_work_id_1292 #hsl_work_id_4 #hsl_work_id_174 #hsl_work_id_1030 #hsl_work_id_350">Opern</rs> sich lebendig
+         <lb facs="#facs_2_region_1771688356937_2448_tl_12" n="N012"/>erhalten, und <rs type="person" ref="#hsl_person_id_99">Gluck</rs> mit vier <rs type="bibl" ref="#hsl_work_id_166 #hsl_work_id_267 #hsl_work_id_260 #hsl_work_id_165">Werken</rs> — mehr lebensfähig als
+         <lb facs="#facs_2_region_1771688356937_2448_tl_13" n="N013"/>wirklich lebendig. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_174">Marschner</rs></hi> ist kein bahnbrechender Re
+         <lb facs="#facs_2_region_1771688356937_2448_tl_14" n="N014" break="no"/>formator wie <rs type="person" ref="#hsl_person_id_99">Gluck</rs>, kein Genie höchster Ordnung wie <rs type="person" ref="#hsl_person_id_189">Mozart</rs>.
+         <lb facs="#facs_2_region_1771688356937_2448_tl_15" n="N015"/>Seine Musik, so energisch sie strömt, so lieblich sie schmeichelt,
+         <lb facs="#facs_2_region_1771688356937_2448_tl_16" n="N016"/>ist nicht Musik von der Quelle, sie fließt aus C. M. <rs type="person" ref="#hsl_person_id_321">Weber</rs>.
+         <lb facs="#facs_2_region_1771688356937_2448_tl_17" n="N017"/>Bloßer Nachahmer <rs type="person" ref="#hsl_person_id_321">Weber</rs>’s ist Heinrich <rs type="person" ref="#hsl_person_id_174">Marschner</rs> keines
+         <lb facs="#facs_2_region_1771688356937_2448_tl_18" n="N018" break="no"/>wegs, aber er ist ohne diesen nicht denkbar. <rs type="person" ref="#hsl_person_id_321">Weber</rs> ist sein
+         <lb facs="#facs_2_region_1771688356937_2448_tl_19" n="N019"/>Vater; der Sohn hat sich mit tüchtiger Kraft selbst fort
+         <lb facs="#facs_2_region_1771688356937_2448_tl_20" n="N020" break="no"/>gebildet, dem Alten überall ähnlich, in Vielem zu
+         <lb facs="#facs_2_region_1771688356937_2448_tl_21" n="N021" break="no"/>rückstehend, in Einzelnen überlegen, zum Beispiel im
+         <lb facs="#facs_2_region_1771688356937_2448_tl_22" n="N022"/>Ausdruck kräftigen Humors und charaktervoller Komik.
+         <lb facs="#facs_2_region_1771688356937_2448_tl_23" n="N023"/>Robert <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs></hi>, der sich gegen neue Opern ebenso
+         <lb facs="#facs_2_region_1771688356937_2448_tl_24" n="N024"/>streng und maßleidig verhielt, als wohlwollend nachsichtig gegen
+         <lb facs="#facs_2_region_1771688356937_2448_tl_25" n="N025"/>die Instrumental-Compositionen seiner Zeitgenossen, nennt
+         <lb facs="#facs_2_region_1771688356937_2448_tl_26" n="N026"/><rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s „<rs type="bibl" ref="#hsl_work_id_230">Templer und Jüdin</rs>“ „nach den <rs type="person" ref="#hsl_person_id_321">Weber</rs>’schen
+         <lb facs="#facs_2_region_1771688356937_2448_tl_27" n="N027"/>die bedeutendste <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Oper der neueren Zeit“ (<date>1847</date>). Er
+         <lb facs="#facs_2_region_1771688356937_2448_tl_28" n="N028"/>hat sie „mit großem Genuß gehört“ und charakterisirt sie
+         <lb facs="#facs_2_region_1771688356937_2448_tl_29" n="N029"/>als einen „Edelstein, der sich nicht ganz von seiner rohen
+         <lb facs="#facs_2_region_1771688356937_2448_tl_30" n="N030"/>Hülle befreien konnte“. Die weiteren Bemerkungen <rs type="person" ref="#hsl_person_id_282">Schu
+         <lb facs="#facs_2_region_1771688356937_2448_tl_31" n="N031" break="no"/>mann</rs>’s, wie er sie ganz rhapsodisch in sein Tagebuch hin
+         <lb facs="#facs_2_region_1771688356937_2448_tl_32" n="N032" break="no"/>warf, lauten: „Die Composition hie und da unruhig, nicht
+         <lb facs="#facs_2_region_1771688356937_2448_tl_33" n="N033"/>ganz klar instrumentirt, neben einer Fülle geistreicher Me
+         <lb facs="#facs_2_region_1771688356937_2448_tl_34" n="N034" break="no"/>lodien, Behandlung der Singstimmen zum Theile nicht dank
+         <lb facs="#facs_2_region_1771688356937_2448_tl_35" n="N035" break="no"/>bar und vom Orchester gedrückt, zu viel Posaunen. Be
+         <lb facs="#facs_2_region_1771688356937_2448_tl_36" n="N036" break="no"/>deutendes dramatisches Talent, einzelne Anklänge an <rs type="person" ref="#hsl_person_id_321">Weber</rs>.“
+         <lb facs="#facs_2_region_1771688356937_2448_tl_37" n="N037"/>Die Vorzüge wie die Schwächen der <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’schen Oper
+         <lb facs="#facs_2_region_1771688356937_2448_tl_38" n="N038"/>sind mit diesen Schlagworten, so vollkommen angedeutet, daß<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1771688356937_2448_tl_1" n="N001"/>endlich kommt die Zeit für jede. Ein halbes Jahrhundert
-               <lb facs="#facs_2_region_1771688356937_2448_tl_2" n="N002"/>bedeutet für eine Oper schon ein respectables Alter, und
-               <lb facs="#facs_2_region_1771688356937_2448_tl_3" n="N003"/>
-               <rs type="person">Marschner</rs>'s „<rs type="bibl">Templer</rs>“ hat es bereits hinter sich. Der Ein¬
-               <lb facs="#facs_2_region_1771688356937_2448_tl_4" n="N004"/>druck, welchen diese Oper heute noch macht, beweist, daß echte
-               <lb facs="#facs_2_region_1771688356937_2448_tl_5" n="N005"/>und starke Vorzüge ihr innewohnen müssen. Nur fünf <rs type="place">deutsch</rs>e
-               <lb facs="#facs_2_region_1771688356937_2448_tl_6" n="N006"/>Opern aus unserem Jahrhundert wüßte ich zu nennen, welche,
-               <lb facs="#facs_2_region_1771688356937_2448_tl_7" n="N007"/>älter als „<rs type="bibl">Templer und Jüdin</rs>“, ihre Lebenskraft noch heute
-               <lb facs="#facs_2_region_1771688356937_2448_tl_8" n="N008"/>bewähren: „<rs type="bibl">Fidelio</rs>“, „<rs type="bibl">Jessonda</rs>“ und die drei <rs type="person">Weber</rs>'schen
-               <lb facs="#facs_2_region_1771688356937_2448_tl_9" n="N009"/>
-               <rs type="bibl">Opern</rs>. Das ist recht wenig für so lange Zeit, nicht wahr?
-               <lb facs="#facs_2_region_1771688356937_2448_tl_10" n="N010"/>Und aus dem so opernreichen vorigen Jahrhunderte haben von
-               <lb facs="#facs_2_region_1771688356937_2448_tl_11" n="N011"/>
-               <rs type="place">deutsch</rs>en Meistern nur <rs type="person">Mozart</rs> mit fünf <rs type="bibl">Opern</rs> sich lebendig
-               <lb facs="#facs_2_region_1771688356937_2448_tl_12" n="N012"/>erhalten, und <rs type="person">Gluck</rs> mit vier <rs type="bibl">Werken</rs> — mehr lebensfähig als
-               <lb facs="#facs_2_region_1771688356937_2448_tl_13" n="N013"/>wirklich lebendig. <hi rendition="#em">
-                  <rs type="person">Marschner</rs>
-               </hi> ist kein bahnbrechender Re¬
-               <lb facs="#facs_2_region_1771688356937_2448_tl_14" n="N014"/>formator wie <rs type="person">Gluck</rs>, kein Genie höchster Ordnung wie <rs type="person">Mozart</rs>.
-               <lb facs="#facs_2_region_1771688356937_2448_tl_15" n="N015"/>Seine Musik, so energisch sie strömt, so lieblich sie schmeichelt,
-               <lb facs="#facs_2_region_1771688356937_2448_tl_16" n="N016"/>ist nicht Musik von der Quelle, sie fließt aus C. M. <rs type="person">Weber</rs>.
-               <lb facs="#facs_2_region_1771688356937_2448_tl_17" n="N017"/>Bloßer Nachahmer <rs type="person">Weber</rs>'s ist Heinrich <rs type="person">Marschner</rs> keines¬
-               <lb facs="#facs_2_region_1771688356937_2448_tl_18" n="N018"/>wegs, aber er ist ohne diesen nicht denkbar. <rs type="person">Weber</rs> ist sein
-               <lb facs="#facs_2_region_1771688356937_2448_tl_19" n="N019"/>Vater; der Sohn hat sich mit tüchtiger Kraft selbst fort¬
-               <lb facs="#facs_2_region_1771688356937_2448_tl_20" n="N020"/>gebildet, dem Alten überall ähnlich, in Vielem zu¬
-               <lb facs="#facs_2_region_1771688356937_2448_tl_21" n="N021"/>rückstehend, in Einzelnen überlegen, zum Beispiel im
-               <lb facs="#facs_2_region_1771688356937_2448_tl_22" n="N022"/>Ausdruck kräftigen Humors und charaktervoller Komik.
-               <lb facs="#facs_2_region_1771688356937_2448_tl_23" n="N023"/>Robert <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi>, der sich gegen neue Opern ebenso
-               <lb facs="#facs_2_region_1771688356937_2448_tl_24" n="N024"/>streng und maßleidig verhielt, als wohlwollend nachsichtig gegen
-               <lb facs="#facs_2_region_1771688356937_2448_tl_25" n="N025"/>die Instrumental-Compositionen seiner Zeitgenossen, nennt
-               <lb facs="#facs_2_region_1771688356937_2448_tl_26" n="N026"/>
-               <rs type="person">Marschner</rs>'s „<rs type="bibl">Templer und Jüdin</rs>“ „nach den <rs type="person">Weber</rs>'schen
-               <lb facs="#facs_2_region_1771688356937_2448_tl_27" n="N027"/>die bedeutendste <rs type="place">deutsch</rs>e Oper der neueren Zeit“ (<date>1847</date>). Er
-               <lb facs="#facs_2_region_1771688356937_2448_tl_28" n="N028"/>hat sie „mit großem Genuß gehört“ und charakterisirt sie
-               <lb facs="#facs_2_region_1771688356937_2448_tl_29" n="N029"/>als einen „Edelstein, der sich nicht ganz von seiner rohen
-               <lb facs="#facs_2_region_1771688356937_2448_tl_30" n="N030"/>Hülle befreien konnte“. Die weiteren Bemerkungen <rs type="person" continued="true">Schu¬</rs>
-               <lb facs="#facs_2_region_1771688356937_2448_tl_31" n="N031"/>
-               <rs type="person" continued="true">mann</rs>'s, wie er sie ganz rhapsodisch in sein Tagebuch hin¬
-               <lb facs="#facs_2_region_1771688356937_2448_tl_32" n="N032"/>warf, lauten: „Die Composition hie und da unruhig, nicht
-               <lb facs="#facs_2_region_1771688356937_2448_tl_33" n="N033"/>ganz klar instrumentirt, neben einer Fülle geistreicher Me¬
-               <lb facs="#facs_2_region_1771688356937_2448_tl_34" n="N034"/>lodien, Behandlung der Singstimmen zum Theile nicht dank¬
-               <lb facs="#facs_2_region_1771688356937_2448_tl_35" n="N035"/>bar und vom Orchester gedrückt, zu viel Posaunen. Be¬
-               <lb facs="#facs_2_region_1771688356937_2448_tl_36" n="N036"/>deutendes dramatisches Talent, einzelne Anklänge an <rs type="person">Weber</rs>.“
-               <lb facs="#facs_2_region_1771688356937_2448_tl_37" n="N037"/>Die Vorzüge wie die Schwächen der <rs type="person">Marschner</rs>'schen Oper
-               <lb facs="#facs_2_region_1771688356937_2448_tl_38" n="N038"/>sind mit diesen Schlagworten, so vollkommen angedeutet, daß
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1771688360462_2451_tl_1" n="N001"/>man nur jedes derselben auszuführen brauchte, um eine aus
+         <lb facs="#facs_2_region_1771688360462_2451_tl_2" n="N002" break="no"/>reichende Kritik dieser Partitur zu liefern. Weniger hand
+         <lb facs="#facs_2_region_1771688360462_2451_tl_3" n="N003" break="no"/>greiflich als die Anklänge an <hi rendition="#em"><rs type="person" ref="#hsl_person_id_321">Weber</rs></hi>, doch immerhin wahr
+         <lb facs="#facs_2_region_1771688360462_2451_tl_4" n="N004" break="no"/>nehmbar sind die prophetischen Anklänge an <hi rendition="#em"><rs type="person" ref="#hsl_person_id_319">Wagner</rs></hi>. Hat
+         <lb facs="#facs_2_region_1771688360462_2451_tl_5" n="N005"/><rs type="person" ref="#hsl_person_id_174">Marschner</rs>’s „<rs type="bibl" ref="#hsl_work_id_184">Hanns Heiling</rs>“ starken Einfluß geübt auf
+         <lb facs="#facs_2_region_1771688360462_2451_tl_6" n="N006"/>die ganze Gestalt des „<rs type="bibl" ref="#hsl_work_id_237">Fliegenden Holländer</rs>“, so leuchtet
+         <lb facs="#facs_2_region_1771688360462_2451_tl_7" n="N007"/>manchen Einzelheiten des „<rs type="bibl" ref="#hsl_work_id_40">Tannhäuser</rs>“ und „<rs type="bibl" ref="#hsl_work_id_97">Lohen
+         <lb facs="#facs_2_region_1771688360462_2451_tl_8" n="N008" break="no"/>grin</rs>“ ein Widerschein aus „<rs type="bibl" ref="#hsl_work_id_230">Templer und Jüdin</rs>“.
+         <lb facs="#facs_2_region_1771688360462_2451_tl_9" n="N009"/>Schlagend ist die Aehnlichkeit der Situation zwischen dem
+         <lb facs="#facs_2_region_1771688360462_2451_tl_10" n="N010"/>Gottesgericht, vor welchem <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1051">Rebekka</rs></hi>, und jenem andern,
+         <lb facs="#facs_2_region_1771688360462_2451_tl_11" n="N011"/>vor welchem <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2640">Elsa</rs></hi> als unschuldig Angeklagte erscheint und,
+         <lb facs="#facs_2_region_1771688360462_2451_tl_12" n="N012"/>auf <rs type="person" ref="#hsl_person_id_416">Gott</rs>es Hilfe vertrauend, einen Kämpfer für ihre Un
+         <lb facs="#facs_2_region_1771688360462_2451_tl_13" n="N013" break="no"/>schuld erwartet. Die Analogie setzt sich bis in Nebendinge
+         <lb facs="#facs_2_region_1771688360462_2451_tl_14" n="N014"/>fort, z. B. daß der ungerechte Ankläger (hier <rs type="person" ref="#hsl_person_id_1052">Guilbert</rs>, dort
+         <lb facs="#facs_2_region_1771688360462_2451_tl_15" n="N015"/><rs type="person" ref="#hsl_person_id_833">Telramund</rs>) nicht durch das Schwert seines Gegners, son
+         <lb facs="#facs_2_region_1771688360462_2451_tl_16" n="N016" break="no"/>dern gleichsam durch <rs type="person" ref="#hsl_person_id_416">Gott</rs>es Finger niedergestreckt wird. Die
+         <lb facs="#facs_2_region_1771688360462_2451_tl_17" n="N017"/>große Aehnlichkeit dieser Scenen gereicht in unserer <rs type="person" ref="#hsl_person_id_319">Wag
+         <lb facs="#facs_2_region_1771688360462_2451_tl_18" n="N018" break="no"/>ner</rs>’schen Zeit dem älteren Werke zum Nachtheile; <rs type="person" ref="#hsl_person_id_319">Wagner</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1771688360462_2451_tl_19" n="N019"/>selbst hat offenbar Vortheil daraus gezogen; die Melodie
+         <lb facs="#facs_2_region_1771688360462_2451_tl_20" n="N020"/><rs type="person" ref="#hsl_person_id_1051">Rebekka</rs>’s in D-dur: „<rs type="person" ref="#hsl_person_id_416">Gott</rs> wird mir den Kämpen schicken“,
+         <lb facs="#facs_2_region_1771688360462_2451_tl_21" n="N021"/>dazu die charakteristische Verwendung der Holzbläser und
+         <lb facs="#facs_2_region_1771688360462_2451_tl_22" n="N022"/>Aehnliches hat ihm im ersten Acte des „<rs type="bibl" ref="#hsl_work_id_97">Lohengrin</rs>“ vorge
+         <lb facs="#facs_2_region_1771688360462_2451_tl_23" n="N023" break="no"/>schwebt; leider auch das etwas banale Jubel-Allegro, in welches
+         <lb facs="#facs_2_region_1771688360462_2451_tl_24" n="N024"/>nach beendigtem Zweikampfe die gerettete Unschuld ausbricht.
+            </p><p>
+         <lb facs="#facs_2_region_1771688360462_2451_tl_25" n="N025"/>Ein bedeutender Uebelstand der Oper, nämlich die Ver
+         <lb facs="#facs_2_region_1771688360462_2451_tl_26" n="N026" break="no"/>worrenheit des Textbuches, wurde in der Jugendzeit von
+         <lb facs="#facs_2_region_1771688360462_2451_tl_27" n="N027"/>„<rs type="bibl" ref="#hsl_work_id_230">Templer und Jüdin</rs>“ viel weniger empfunden, als heute.
+         <lb facs="#facs_2_region_1771688360462_2451_tl_28" n="N028"/>Die Lectüre der Walter <rs type="person" ref="#hsl_person_id_5360">Scott</rs>’schen Romane, gegenwärtig
+         <lb facs="#facs_2_region_1771688360462_2451_tl_29" n="N029"/>nur mehr sporadisch vorkommend, herrschte damals in
+         <lb facs="#facs_2_region_1771688360462_2451_tl_30" n="N030"/>allen Kreisen, Jung und Alt entzückend. Das Theater-
+         <lb facs="#facs_2_region_1771688360462_2451_tl_31" n="N031"/>Publicum der Dreißiger- und Vierziger-Jahre, ver
+         <lb facs="#facs_2_region_1771688360462_2451_tl_32" n="N032" break="no"/>mochte, mit Walter <rs type="person" ref="#hsl_person_id_5360">Scott</rs>’s „<rs type="bibl" ref="#hsl_work_id_6821">Ivanhoe</rs>“ vollkommen vertraut,
+         <lb facs="#facs_2_region_1771688360462_2451_tl_33" n="N033"/>sich die Lücken des <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’schen Operntextes leicht zu er
+         <lb facs="#facs_2_region_1771688360462_2451_tl_34" n="N034" break="no"/>gänzen, während wir heute in diesem Tumulte von Sachsen
+         <lb facs="#facs_2_region_1771688360462_2451_tl_35" n="N035"/>und Normannen, von Tempelherren und Geächteten, von
+         <lb facs="#facs_2_region_1771688360462_2451_tl_36" n="N036"/>Anhängern und Feinden König <rs type="person" ref="#hsl_person_id_9312">Richard</rs>’s hilflos wie vor
+         <lb facs="#facs_2_region_1771688360462_2451_tl_37" n="N037"/>Räthseln stehen. Uns fehlt der erklärende Zusammenhang für
+         <lb facs="#facs_2_region_1771688360462_2451_tl_38" n="N038"/>diese Reihe von wechselnden Bildern, die sich vor unseren<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1771688360462_2451_tl_1" n="N001"/>man nur jedes derselben auszuführen brauchte, um eine aus¬
-               <lb facs="#facs_2_region_1771688360462_2451_tl_2" n="N002"/>reichende Kritik dieser Partitur zu liefern. Weniger hand¬
-               <lb facs="#facs_2_region_1771688360462_2451_tl_3" n="N003"/>greiflich als die Anklänge an <hi rendition="#em">
-                  <rs type="person">Weber</rs>
-               </hi>, doch immerhin wahr¬
-               <lb facs="#facs_2_region_1771688360462_2451_tl_4" n="N004"/>nehmbar sind die prophetischen Anklänge an <hi rendition="#em">
-                  <rs type="person">Wagner</rs>
-               </hi>. Hat
-               <lb facs="#facs_2_region_1771688360462_2451_tl_5" n="N005"/>
-               <rs type="person">Marschner</rs>'s „<rs type="bibl">Hanns Heiling</rs>“ starken Einfluß geübt auf
-               <lb facs="#facs_2_region_1771688360462_2451_tl_6" n="N006"/>die ganze Gestalt des „<rs type="bibl">Fliegenden Holländer</rs>“, so leuchtet
-               <lb facs="#facs_2_region_1771688360462_2451_tl_7" n="N007"/>manchen Einzelheiten des „<rs type="bibl">Tannhäuser</rs>“ und „<rs type="bibl">Lohen¬</rs>
-               <lb facs="#facs_2_region_1771688360462_2451_tl_8" n="N008"/>
-               <rs type="bibl">grin</rs>“ ein Widerschein aus „<rs type="bibl">Templer und Jüdin</rs>“.
-               <lb facs="#facs_2_region_1771688360462_2451_tl_9" n="N009"/>Schlagend ist die Aehnlichkeit der Situation zwischen dem
-               <lb facs="#facs_2_region_1771688360462_2451_tl_10" n="N010"/>Gottesgericht, vor welchem <hi rendition="#em">
-                  <rs type="person">Rebekka</rs>
-               </hi>, und jenem andern,
-               <lb facs="#facs_2_region_1771688360462_2451_tl_11" n="N011"/>vor welchem <hi rendition="#em">
-                  <rs type="person">Elsa</rs>
-               </hi> als unschuldig Angeklagte erscheint und,
-               <lb facs="#facs_2_region_1771688360462_2451_tl_12" n="N012"/>auf <rs type="person">Gott</rs>es Hilfe vertrauend, einen Kämpfer für ihre Un¬
-               <lb facs="#facs_2_region_1771688360462_2451_tl_13" n="N013"/>schuld erwartet. Die Analogie setzt sich bis in Nebendinge
-               <lb facs="#facs_2_region_1771688360462_2451_tl_14" n="N014"/>fort, z. B. daß der ungerechte Ankläger (hier <rs type="person">Guilbert</rs>, dort
-               <lb facs="#facs_2_region_1771688360462_2451_tl_15" n="N015"/>
-               <rs type="person">Telamund</rs>) nicht durch das Schwert seines Gegners, son¬
-               <lb facs="#facs_2_region_1771688360462_2451_tl_16" n="N016"/>dern gleichsam durch <rs type="person">Gott</rs>es Finger niedergestreckt wird. Die
-               <lb facs="#facs_2_region_1771688360462_2451_tl_17" n="N017"/>große Aehnlichkeit dieser Scenen gereicht in unserer <rs type="person" continued="true">Wag¬</rs>
-               <lb facs="#facs_2_region_1771688360462_2451_tl_18" n="N018"/>
-               <rs type="person" continued="true">ner</rs>'schen Zeit dem älteren Werke zum Nachtheile; <rs type="person">Wagner</rs>
-               <lb facs="#facs_2_region_1771688360462_2451_tl_19" n="N019"/>selbst hat offenbar Vortheil daraus gezogen; die Melodie
-               <lb facs="#facs_2_region_1771688360462_2451_tl_20" n="N020"/>
-               <rs type="person">Rebekka</rs>'s in D-dur: „<rs type="person">Gott</rs> wird mir den Kämpen schicken“,
-               <lb facs="#facs_2_region_1771688360462_2451_tl_21" n="N021"/>dazu die charakteristische Verwendung der Holzbläser und
-               <lb facs="#facs_2_region_1771688360462_2451_tl_22" n="N022"/>Aehnliches hat ihm im ersten Acte des „<rs type="bibl">Lohengrin</rs>“ vorge¬
-               <lb facs="#facs_2_region_1771688360462_2451_tl_23" n="N023"/>schwebt; leider auch das etwas banale Jubel-Allegro, in welches
-               <lb facs="#facs_2_region_1771688360462_2451_tl_24" n="N024"/>nach beendigtem Zweikampfe die gerettete Unschuld ausbricht.
-               <lb facs="#facs_2_region_1771688360462_2451_tl_25" n="N025"/>Ein bedeutender Uebelstand der Oper, nämlich die Ver¬
-               <lb facs="#facs_2_region_1771688360462_2451_tl_26" n="N026"/>worrenheit des Textbuches, wurde in der Jugendzeit von
-               <lb facs="#facs_2_region_1771688360462_2451_tl_27" n="N027"/>„<rs type="bibl">Templer und Jüdin</rs>“ viel weniger empfunden, als heute.
-               <lb facs="#facs_2_region_1771688360462_2451_tl_28" n="N028"/>Die Lectüre der Walter <rs type="person">Scott</rs>'schen Romane, gegenwärtig
-               <lb facs="#facs_2_region_1771688360462_2451_tl_29" n="N029"/>nur mehr sporadisch vorkommend, herrschte damals in
-               <lb facs="#facs_2_region_1771688360462_2451_tl_30" n="N030"/>allen Kreisen, Jung und Alt entzückend. Das Theater-
-               <lb facs="#facs_2_region_1771688360462_2451_tl_31" n="N031"/>Publicum der Dreißiger- und Vierziger-Jahre, ver¬
-               <lb facs="#facs_2_region_1771688360462_2451_tl_32" n="N032"/>mochte, mit Walter <rs type="person">Scott</rs>'s „<rs type="person">
-                  <rs type="bibl">Ivanhoe</rs>
-               </rs>“ vollkommen vertraut,
-               <lb facs="#facs_2_region_1771688360462_2451_tl_33" n="N033"/>sich die Lücken des <rs type="person">Marschner</rs>'schen Operntextes leicht zu er¬
-               <lb facs="#facs_2_region_1771688360462_2451_tl_34" n="N034"/>gänzen, während wir heute in diesem Tumulte von Sachsen
-               <lb facs="#facs_2_region_1771688360462_2451_tl_35" n="N035"/>und Normannen, von Tempelherren und Geächteten, von
-               <lb facs="#facs_2_region_1771688360462_2451_tl_36" n="N036"/>Anhängern und Feinden König <rs type="person">Richard</rs>'s hilflos wie vor
-               <lb facs="#facs_2_region_1771688360462_2451_tl_37" n="N037"/>Räthseln stehen. Uns fehlt der erklärende Zusammenhang für
-               <lb facs="#facs_2_region_1771688360462_2451_tl_38" n="N038"/>diese Reihe von wechselnden Bildern, die sich vor unseren
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1771688364093_2454_tl_1" n="N001"/>Augen abrollen. Diese Scenen sind, einzeln betrachtet, meist
-               <lb facs="#facs_2_region_1771688364093_2454_tl_2" n="N002"/>von bedeutender Wirkung und musikalisch ganz vorzüglich
-               <lb facs="#facs_2_region_1771688364093_2454_tl_3" n="N003"/>illustrirt. Gleich zu allem Anfange tritt uns ein lebens¬
-               <lb facs="#facs_2_region_1771688364093_2454_tl_4" n="N004"/>frisches, stimmungsvolles Bild entgegen, das die ganze kräftige
-               <lb facs="#facs_2_region_1771688364093_2454_tl_5" n="N005"/>Waldromantik des <rs type="person">Scott</rs>'schen <rs type="bibl">Roman</rs>s widertönt. Nach
-               <lb facs="#facs_2_region_1771688364093_2454_tl_6" n="N006"/>dieser trefflichen Reproduction das hübsche Lied des Narren:
-               <lb facs="#facs_2_line_1771689216100_2651" n="N007"/>„'s wird besser geh'n“, der geniale Humor des Bruder
-               <lb facs="#facs_2_region_1771688364093_2454_tl_9" n="N008"/>
-               <rs type="person">Tuck</rs>, der wuchtige Chor der Sachsen! Es folgen die pathe¬
-               <lb facs="#facs_2_region_1771688364093_2454_tl_10" n="N009"/>tischen Scenen: <rs type="person">Rebekka</rs>'s leidenschaftsvolles Duett mit dem
-               <lb facs="#facs_2_region_1771688364093_2454_tl_11" n="N010"/>
-               <rs type="person">Templer</rs> und das wehmüthig zarte mit <rs type="person">Ivanhoe</rs>. Das Finale
-               <lb facs="#facs_2_region_1771688364093_2454_tl_12" n="N011"/>erdrückt uns durch sein lang ausgesponnenes Getümmel. Der
-               <lb facs="#facs_2_region_1771688364093_2454_tl_13" n="N012"/>zweite Act führt uns wieder in den grünen Wald, der von
-               <lb facs="#facs_2_region_1771688364093_2454_tl_14" n="N013"/>
-               <rs type="person">Tuck</rs>'s frischem Jägerlied widerhallt. <rs type="person">Ivanhoe</rs>'s Romanze:
-               <lb facs="#facs_2_region_1771688364093_2454_tl_15" n="N014"/>„Wer ist der Ritter hochgeehrt?“ hat in <rs type="place">Deutschland</rs> die
-               <lb facs="#facs_2_region_1771688364093_2454_tl_16" n="N015"/>Popularität einer Volksweise erlangt. In dem Duett des
-               <lb facs="#facs_2_region_1771688364093_2454_tl_17" n="N016"/>
-               <rs type="person">Templer</rs>s mit <rs type="person">Rebekka</rs> finden wir große dramatische Züge,
-               <lb facs="#facs_2_region_1771688364093_2454_tl_18" n="N017"/>Feuer und Pathos, leider zum Schlusse die unausweichliche
-               <lb facs="#facs_2_region_1771688364093_2454_tl_19" n="N018"/>Concession jener Zeit an Sänger und Publicum. Im letzten
-               <lb facs="#facs_2_region_1771688364093_2454_tl_20" n="N019"/>Finale sind die feierliche Todesstimmung, der Antheil des Volkes,
-               <lb facs="#facs_2_region_1771688364093_2454_tl_21" n="N020"/>
-               <rs type="person">Guilbert</rs>'s wahnsinnige Leidenschaft, die rührende Ergebung der
-               <lb facs="#facs_2_region_1771688364093_2454_tl_22" n="N021"/>schuldlos Verurtheilten wahr und ergreifend geschildert. So
-               <lb facs="#facs_2_region_1771688364093_2454_tl_23" n="N022"/>hat jeder Act Scenen von großer Schönheit, nur das
-               <lb facs="#facs_2_region_1771688364093_2454_tl_24" n="N023"/>Ganze hat keinen eigentlichen Höhen- und Mittelpunkt. Es
-               <lb facs="#facs_2_region_1771688364093_2454_tl_25" n="N024"/>ist, um mich modern auszudrücken, nach dem Pavillonsystem
-               <lb facs="#facs_2_region_1771688364093_2454_tl_26" n="N025"/>gebaut, was sich doch mehr für Spitäler als für Dramen
-               <lb facs="#facs_2_region_1771688364093_2454_tl_27" n="N026"/>und Opern empfiehlt. Ganz ähnliche Situationen wieder¬
-               <lb facs="#facs_2_region_1771688364093_2454_tl_28" n="N027"/>holen sich in „<rs type="bibl">Templer und Jüdin</rs>“, so das Gericht der
-               <lb facs="#facs_2_region_1771688364093_2454_tl_29" n="N028"/>Tempelherren im zweiten wie im dritten Finale, das Ein¬
-               <lb facs="#facs_2_region_1771688364093_2454_tl_30" n="N029"/>dringen des Templers <rs type="person">Guilbert</rs> bei der gefangenen <rs type="person">Rebekka</rs>
-               <lb facs="#facs_2_region_1771688364093_2454_tl_31" n="N030"/>im ersten wie im dritten Acte, mit ganz analoger Disposition
-               <lb facs="#facs_2_region_1771688364093_2454_tl_32" n="N031"/>des Duetts; dazu die zwei Lieder des Narren und die zwei
-               <lb facs="#facs_2_region_1771688364093_2454_tl_33" n="N032"/>des Bruders <rs type="person">Tuck</rs>, die alle mit der Handlung nicht das Min¬
-               <lb facs="#facs_2_region_1771688364093_2454_tl_34" n="N033"/>deste zu thun haben. Diese Einführung episodischer Figuren
-               <lb facs="#facs_2_region_1771688364093_2454_tl_35" n="N034"/>und komischer Strophenlieder in die tragische Haupthandlung
-               <lb facs="#facs_2_region_1771688364093_2454_tl_36" n="N035"/>geschah ganz im Geiste der alten „Oper“, welche von den
-               <lb facs="#facs_2_region_1771688364093_2454_tl_37" n="N036"/>strengen Gesetzen des <rs type="person">Wagner</rs>'schen Musikdramas nichts wußte
-               <lb facs="#facs_2_region_1771688364093_2454_tl_38" n="N037"/>und der rein musikalischen Befriedigung lieber ein Opfer von
-               <lb facs="#facs_2_region_1771688364093_2454_tl_39" n="N038"/>Seite des Dramatischen brachte, als umgekehrt. Als eine
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1771688364093_2454_tl_1" n="N001"/>Augen abrollen. Diese Scenen sind, einzeln betrachtet, meist
+         <lb facs="#facs_2_region_1771688364093_2454_tl_2" n="N002"/>von bedeutender Wirkung und musikalisch ganz vorzüglich
+         <lb facs="#facs_2_region_1771688364093_2454_tl_3" n="N003"/>illustrirt. Gleich zu allem Anfange tritt uns ein lebens
+         <lb facs="#facs_2_region_1771688364093_2454_tl_4" n="N004" break="no"/>frisches, stimmungsvolles Bild entgegen, das die ganze kräftige
+         <lb facs="#facs_2_region_1771688364093_2454_tl_5" n="N005"/>Waldromantik des <rs type="person" ref="#hsl_person_id_5360">Scott</rs>’schen <rs type="bibl" ref="#hsl_work_id_6821">Roman</rs>s widertönt. Nach
+         <lb facs="#facs_2_region_1771688364093_2454_tl_6" n="N006"/>dieser trefflichen Reproduction das hübsche Lied des Narren:
+         <lb facs="#facs_2_line_1771689216100_2651" n="N007"/>„’s wird besser geh’n“, der geniale Humor des Bruder
+         <lb facs="#facs_2_region_1771688364093_2454_tl_9" n="N008"/><rs type="person" ref="#hsl_person_id_1050">Tuck</rs>, der wuchtige Chor der Sachsen! Es folgen die pathe
+         <lb facs="#facs_2_region_1771688364093_2454_tl_10" n="N009" break="no"/>tischen Scenen: <rs type="person" ref="#hsl_person_id_1051">Rebekka</rs>’s leidenschaftsvolles Duett mit dem
+         <lb facs="#facs_2_region_1771688364093_2454_tl_11" n="N010"/><rs type="person" ref="#hsl_person_id_1052">Templer</rs> und das wehmüthig zarte mit <rs type="person" ref="#hsl_person_id_597">Ivanhoe</rs>. Das Finale
+         <lb facs="#facs_2_region_1771688364093_2454_tl_12" n="N011"/>erdrückt uns durch sein lang ausgesponnenes Getümmel. Der
+         <lb facs="#facs_2_region_1771688364093_2454_tl_13" n="N012"/>zweite Act führt uns wieder in den grünen Wald, der von
+         <lb facs="#facs_2_region_1771688364093_2454_tl_14" n="N013"/><rs type="person" ref="#hsl_person_id_1050">Tuck</rs>’s frischem Jägerlied widerhallt. <rs type="person" ref="#hsl_person_id_597">Ivanhoe</rs>’s Romanze:
+         <lb facs="#facs_2_region_1771688364093_2454_tl_15" n="N014"/>„Wer ist der Ritter hochgeehrt?“ hat in <rs type="place" ref="#hsl_place_id_14">Deutschland</rs> die
+         <lb facs="#facs_2_region_1771688364093_2454_tl_16" n="N015"/>Popularität einer Volksweise erlangt. In dem Duett des
+         <lb facs="#facs_2_region_1771688364093_2454_tl_17" n="N016"/><rs type="person" ref="#hsl_person_id_1052">Templer</rs>s mit <rs type="person" ref="#hsl_person_id_1051">Rebekka</rs> finden wir große dramatische Züge,
+         <lb facs="#facs_2_region_1771688364093_2454_tl_18" n="N017"/>Feuer und Pathos, leider zum Schlusse die unausweichliche
+         <lb facs="#facs_2_region_1771688364093_2454_tl_19" n="N018"/>Concession jener Zeit an Sänger und Publicum. Im letzten
+         <lb facs="#facs_2_region_1771688364093_2454_tl_20" n="N019"/>Finale sind die feierliche Todesstimmung, der Antheil des Volkes,
+         <lb facs="#facs_2_region_1771688364093_2454_tl_21" n="N020"/><rs type="person" ref="#hsl_person_id_1052">Guilbert</rs>’s wahnsinnige Leidenschaft, die rührende Ergebung der
+         <lb facs="#facs_2_region_1771688364093_2454_tl_22" n="N021"/>schuldlos Verurtheilten wahr und ergreifend geschildert. So
+         <lb facs="#facs_2_region_1771688364093_2454_tl_23" n="N022"/>hat jeder Act Scenen von großer Schönheit, nur das
+         <lb facs="#facs_2_region_1771688364093_2454_tl_24" n="N023"/>Ganze hat keinen eigentlichen Höhen- und Mittelpunkt. Es
+         <lb facs="#facs_2_region_1771688364093_2454_tl_25" n="N024"/>ist, um mich modern auszudrücken, nach dem Pavillonsystem
+         <lb facs="#facs_2_region_1771688364093_2454_tl_26" n="N025"/>gebaut, was sich doch mehr für Spitäler als für Dramen
+         <lb facs="#facs_2_region_1771688364093_2454_tl_27" n="N026"/>und Opern empfiehlt. Ganz ähnliche Situationen wieder
+         <lb facs="#facs_2_region_1771688364093_2454_tl_28" n="N027" break="no"/>holen sich in „<rs type="bibl" ref="#hsl_work_id_230">Templer und Jüdin</rs>“, so das Gericht der
+         <lb facs="#facs_2_region_1771688364093_2454_tl_29" n="N028"/>Tempelherren im zweiten wie im dritten Finale, das Ein
+         <lb facs="#facs_2_region_1771688364093_2454_tl_30" n="N029" break="no"/>dringen des Templers <rs type="person" ref="#hsl_person_id_1052">Guilbert</rs> bei der gefangenen <rs type="person" ref="#hsl_person_id_1051">Rebekka</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1771688364093_2454_tl_31" n="N030"/>im ersten wie im dritten Acte, mit ganz analoger Disposition
+         <lb facs="#facs_2_region_1771688364093_2454_tl_32" n="N031"/>des Duetts; dazu die zwei Lieder des Narren und die zwei
+         <lb facs="#facs_2_region_1771688364093_2454_tl_33" n="N032"/>des Bruders <rs type="person" ref="#hsl_person_id_1050">Tuck</rs>, die alle mit der Handlung nicht das Min
+         <lb facs="#facs_2_region_1771688364093_2454_tl_34" n="N033" break="no"/>deste zu thun haben. Diese Einführung episodischer Figuren
+         <lb facs="#facs_2_region_1771688364093_2454_tl_35" n="N034"/>und komischer Strophenlieder in die tragische Haupthandlung
+         <lb facs="#facs_2_region_1771688364093_2454_tl_36" n="N035"/>geschah ganz im Geiste der alten „Oper“, welche von den
+         <lb facs="#facs_2_region_1771688364093_2454_tl_37" n="N036"/>strengen Gesetzen des <rs type="person" ref="#hsl_person_id_319">Wagner</rs>’schen Musikdramas nichts wußte
+         <lb facs="#facs_2_region_1771688364093_2454_tl_38" n="N037"/>und der rein musikalischen Befriedigung lieber ein Opfer von
+         <lb facs="#facs_2_region_1771688364093_2454_tl_39" n="N038"/>Seite des Dramatischen brachte, als umgekehrt. Als eine<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1771688377797_2460_tl_1" n="N001"/>eigentliche „Oper“ von älterem deutschen Zuschnitt mani
+         <lb facs="#facs_3_region_1771688377797_2460_tl_2" n="N002" break="no"/>festirt sich „<rs type="bibl" ref="#hsl_work_id_230">Templer und Jüdin</rs>“ auch dadurch, daß
+         <lb facs="#facs_3_region_1771688377797_2460_tl_3" n="N003"/>gesprochener Dialog mit dem Gesang wechselt. Es ist
+         <lb facs="#facs_3_region_1771688377797_2460_tl_4" n="N004"/>dies ein Uebelstand, welcher in den heutigen großen
+         <lb facs="#facs_3_region_1771688377797_2460_tl_5" n="N005"/>Opernhäusern und von einem mit <rs type="person" ref="#hsl_person_id_319">Wagner</rs> aufgewach
+         <lb facs="#facs_3_region_1771688377797_2460_tl_6" n="N006" break="no"/>senen Publicum störender als ehedem empfunden wird. Er
+         <lb facs="#facs_3_region_1771688377797_2460_tl_7" n="N007"/>laßt sich aber nicht so leicht und unbedenklich beseitigen, wie
+         <lb facs="#facs_3_region_1771688377797_2460_tl_8" n="N008"/>Manche glauben und <rs type="person" ref="#hsl_person_id_174">Marschner</rs> selbst geglaubt hat. Der
+         <lb facs="#facs_3_region_1771688377797_2460_tl_9" n="N009"/>Componist von „<rs type="bibl" ref="#hsl_work_id_230">Templer und Jüdin</rs>“ ließ sich in seinen
+         <lb facs="#facs_3_region_1771688377797_2460_tl_10" n="N010"/>letzten Lebensjahren bereden, den gesprochenen Dialog in Re
+         <lb facs="#facs_3_region_1771688377797_2460_tl_11" n="N011" break="no"/>citative zu verwandeln, und obendrein ziemlich ausgedehnte
+         <lb facs="#facs_3_region_1771688377797_2460_tl_12" n="N012"/>Ariosos, Ensemble-Erweiterungen und dergleichen hinzuzufügen,
+         <lb facs="#facs_3_region_1771688377797_2460_tl_13" n="N013"/>welche sämmtlich an den bekannten Uebeln seines geschwätzig
+         <lb facs="#facs_3_region_1771688377797_2460_tl_14" n="N014"/>gewordenen Alters leiden und die Handlung des Stückes noch
+         <lb facs="#facs_3_region_1771688377797_2460_tl_15" n="N015"/>unverständlicher machen. Herr Director <hi rendition="#em"><rs type="person" ref="#hsl_person_id_979">Jahn</rs></hi> that, wie ich
+         <lb facs="#facs_3_region_1771688377797_2460_tl_16" n="N016"/>glaube, sehr wohl daran, dieser Neubearbeitung die alte
+         <lb facs="#facs_3_region_1771688377797_2460_tl_17" n="N017"/>Originalform vorzuziehen. Es gibt auch in der Opernmusik
+         <lb facs="#facs_3_region_1771688377797_2460_tl_18" n="N018"/>ein historisches Recht, das geachtet sein will und das will
+         <lb facs="#facs_3_region_1771688377797_2460_tl_19" n="N019" break="no"/>kürliche Verletzung rächt. Man wird — seltene Fälle aus
+         <lb facs="#facs_3_region_1771688377797_2460_tl_20" n="N020" break="no"/>genommen, zu welchen wir z. B. die „<rs type="bibl" ref="#hsl_work_id_370">Medea</rs>“ von <rs type="person" ref="#hsl_person_id_47">Cheru
+         <lb facs="#facs_3_region_1771688377797_2460_tl_21" n="N021" break="no"/>bini</rs> zählen — stets am besten thun, Opern, die mit Prosa-
+         <lb facs="#facs_3_region_1771688377797_2460_tl_22" n="N022"/>Dialog geschrieben und damit alt geworden sind, auch ferner
+         <lb facs="#facs_3_region_1771688377797_2460_tl_23" n="N023"/>dabei zu belassen. Wir möchten auch im „<rs type="bibl" ref="#hsl_work_id_348">Fidelio</rs>“, im „<rs type="bibl" ref="#hsl_work_id_236">Frei
+         <lb facs="#facs_3_region_1771688377797_2460_tl_24" n="N024" break="no"/>schütz</rs>“ den Dialog nicht missen, so gering sein poetischer Werth
+         <lb facs="#facs_3_region_1771688377797_2460_tl_25" n="N025"/>auch sei. Auch auf den Nebendingen dieser beiden Opern
+         <lb facs="#facs_3_region_1771688377797_2460_tl_26" n="N026"/>ruht bereits die Weihe des Historischgewordenen.
+            </p><p>
+         <lb facs="#facs_3_region_1771688377797_2460_tl_27" n="N027"/>In der jüngsten Aufführung der <rs type="person" ref="#hsl_person_id_174">Marschner</rs>’schen <rs type="bibl" ref="#hsl_work_id_230">Oper</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1771688377797_2460_tl_28" n="N028"/>bedauerten wir das Weglassen des Auftrittes von <rs type="person" ref="#hsl_person_id_9314">Isaak</rs> und
+         <lb facs="#facs_3_region_1771688377797_2460_tl_29" n="N029"/><rs type="person" ref="#hsl_person_id_1051">Rebekka</rs> in der Waldscene des ersten Actes. Die Scene ist
+         <lb facs="#facs_3_region_1771688377797_2460_tl_30" n="N030"/>charakteristisch und nothwendig für das Verständniß des
+         <lb facs="#facs_3_region_1771688377797_2460_tl_31" n="N031"/>dramatischen Zusammenhanges. Außerdem hat uns die häufige
+         <lb facs="#facs_3_region_1771688377797_2460_tl_32" n="N032"/>Verwendung des Zwischenvorhanges gestört, der alle Augen
+         <lb facs="#facs_3_region_1771688377797_2460_tl_33" n="N033" break="no"/>blicke die Scene durchschneidet. Fast hatte es diesmal den
+         <lb facs="#facs_3_region_1771688377797_2460_tl_34" n="N034"/>Anschein, als fiele der fatale blaue Störenfried so häufig,
+         <lb facs="#facs_3_region_1771688377797_2460_tl_35" n="N035"/>um den einzelnen Sängern Gelegenheit zu bieten, herauszu
+         <lb facs="#facs_3_region_1771688377797_2460_tl_36" n="N036" break="no"/>treten und sich dankend für den Applaus zu verneigen. Da
+         <lb facs="#facs_3_region_1771688377797_2460_tl_37" n="N037" break="no"/>durch wird die Störung eine doppelte und ganz unstatthafte,
+         <lb facs="#facs_3_region_1771688377797_2460_tl_38" n="N038"/>da nach unseren Theatergesetzen die Sänger blos nach einem<space quantity="1" unit="char"/></p>
             <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1771688377797_2460_tl_1" n="N001"/>eigentliche „Oper“ von älterem deutschen Zuschnitt mani¬
-               <lb facs="#facs_3_region_1771688377797_2460_tl_2" n="N002"/>festirt sich „<rs type="bibl">Templer und Jüdin</rs>“ auch dadurch, daß
-               <lb facs="#facs_3_region_1771688377797_2460_tl_3" n="N003"/>gesprochener Dialog mit dem Gesang wechselt. Es ist
-               <lb facs="#facs_3_region_1771688377797_2460_tl_4" n="N004"/>dies ein Uebelstand, welcher in den heutigen großen
-               <lb facs="#facs_3_region_1771688377797_2460_tl_5" n="N005"/>Opernhäusern und von einem mit <rs type="person">Wagner</rs> aufgewach¬
-               <lb facs="#facs_3_region_1771688377797_2460_tl_6" n="N006"/>senen Publicum störender als ehedem empfunden wird. Er
-               <lb facs="#facs_3_region_1771688377797_2460_tl_7" n="N007"/>laßt sich aber nicht so leicht und unbedenklich beseitigen, wie
-               <lb facs="#facs_3_region_1771688377797_2460_tl_8" n="N008"/>Manche glauben und <rs type="person">Marschner</rs> selbst geglaubt hat. Der
-               <lb facs="#facs_3_region_1771688377797_2460_tl_9" n="N009"/>Componist von „<rs type="bibl">Templer und Jüdin</rs>“ ließ sich in seinen
-               <lb facs="#facs_3_region_1771688377797_2460_tl_10" n="N010"/>letzten Lebensjahren bereden, den gesprochenen Dialog in Re¬
-               <lb facs="#facs_3_region_1771688377797_2460_tl_11" n="N011"/>citative zu verwandeln, und obendrein ziemlich ausgedehnte
-               <lb facs="#facs_3_region_1771688377797_2460_tl_12" n="N012"/>Ariosos, Ensemble-Erweiterungen und dergleichen hinzuzufügen,
-               <lb facs="#facs_3_region_1771688377797_2460_tl_13" n="N013"/>welche sämmtlich an den bekannten Uebeln seines geschwätzig
-               <lb facs="#facs_3_region_1771688377797_2460_tl_14" n="N014"/>gewordenen Alters leiden und die Handlung des Stückes noch
-               <lb facs="#facs_3_region_1771688377797_2460_tl_15" n="N015"/>unverständlicher machen. Herr Director <hi rendition="#em">
-                  <rs type="person">Jahn</rs>
-               </hi> that, wie ich
-               <lb facs="#facs_3_region_1771688377797_2460_tl_16" n="N016"/>glaube, sehr wohl daran, dieser Neubearbeitung die alte
-               <lb facs="#facs_3_region_1771688377797_2460_tl_17" n="N017"/>Originalform vorzuziehen. Es gibt auch in der Opernmusik
-               <lb facs="#facs_3_region_1771688377797_2460_tl_18" n="N018"/>ein historisches Recht, das geachtet sein will und das will¬
-               <lb facs="#facs_3_region_1771688377797_2460_tl_19" n="N019"/>kürliche Verletzung rächt. Man wird — seltene Fälle aus¬
-               <lb facs="#facs_3_region_1771688377797_2460_tl_20" n="N020"/>genommen, zu welchen wir z. B. die „<rs type="bibl">Medea</rs>“ von <rs type="person" continued="true">Cheru¬</rs>
-               <lb facs="#facs_3_region_1771688377797_2460_tl_21" n="N021"/>
-               <rs type="person" continued="true">bini</rs> zählen — stets am besten thun, Opern, die mit Prosa-
-               <lb facs="#facs_3_region_1771688377797_2460_tl_22" n="N022"/>Dialog geschrieben und damit alt geworden sind, auch ferner
-               <lb facs="#facs_3_region_1771688377797_2460_tl_23" n="N023"/>dabei zu belassen. Wir möchten auch im „<rs type="bibl">Fidelio</rs>“, im „<rs type="bibl">Frei¬</rs>
-               <lb facs="#facs_3_region_1771688377797_2460_tl_24" n="N024"/>
-               <rs type="bibl">schütz</rs>“ den Dialog nicht missen, so gering sein poetischer Werth
-               <lb facs="#facs_3_region_1771688377797_2460_tl_25" n="N025"/>auch sei. Auch auf den Nebendingen dieser beiden Opern
-               <lb facs="#facs_3_region_1771688377797_2460_tl_26" n="N026"/>ruht bereits die Weihe des Historischgewordenen.
-               <lb facs="#facs_3_region_1771688377797_2460_tl_27" n="N027"/>In der jüngsten Aufführung der <rs type="person">Marschner</rs>'schen <rs type="bibl">Oper</rs>
-               <lb facs="#facs_3_region_1771688377797_2460_tl_28" n="N028"/>bedauerten wir das Weglassen des Auftrittes von <rs type="person">Isaak</rs> und
-               <lb facs="#facs_3_region_1771688377797_2460_tl_29" n="N029"/>
-               <rs type="person">Rebekka</rs> in der Waldscene des ersten Actes. Die Scene ist
-               <lb facs="#facs_3_region_1771688377797_2460_tl_30" n="N030"/>charakteristisch und nothwendig für das Verständniß des
-               <lb facs="#facs_3_region_1771688377797_2460_tl_31" n="N031"/>dramatischen Zusammenhanges. Außerdem hat uns die häufige
-               <lb facs="#facs_3_region_1771688377797_2460_tl_32" n="N032"/>Verwendung des Zwischenvorhanges gestört, der alle Augen¬
-               <lb facs="#facs_3_region_1771688377797_2460_tl_33" n="N033"/>blicke die Scene durchschneidet. Fast hatte es diesmal den
-               <lb facs="#facs_3_region_1771688377797_2460_tl_34" n="N034"/>Anschein, als fiele der fatale blaue Störenfried so häufig,
-               <lb facs="#facs_3_region_1771688377797_2460_tl_35" n="N035"/>um den einzelnen Sängern Gelegenheit zu bieten, herauszu¬
-               <lb facs="#facs_3_region_1771688377797_2460_tl_36" n="N036"/>treten und sich dankend für den Applaus zu verneigen. Da¬
-               <lb facs="#facs_3_region_1771688377797_2460_tl_37" n="N037"/>durch wird die Störung eine doppelte und ganz unstatthafte,
-               <lb facs="#facs_3_region_1771688377797_2460_tl_38" n="N038"/>da nach unseren Theatergesetzen die Sänger blos nach einem
-            </p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1771688381629_2463_tl_1" n="N001"/>förmlichen <hi rendition="#em">Actschlusse</hi> berechtigt sind, dem Hervorrufe zu
-               <lb facs="#facs_3_region_1771688381629_2463_tl_2" n="N002"/>folgen. Von diesen nebensächlichen Bedenken abgesehen, kann
-               <lb facs="#facs_3_region_1771688381629_2463_tl_3" n="N003"/>man die neueste Scenirung von „<rs type="bibl">Templer und Jüdin</rs>“ nur
-               <lb facs="#facs_3_region_1771688381629_2463_tl_4" n="N004"/>loben; wahrlich ein schweres Stück Arbeit und aufs beste
-               <lb facs="#facs_3_region_1771688381629_2463_tl_5" n="N005"/>vollbracht. Musikalisch ist die Oper von Herrn Director
-               <lb facs="#facs_3_region_1771688381629_2463_tl_6" n="N006"/>
-               <hi rendition="#em">
-                  <rs type="person">Jahn</rs>
-               </hi> auf das feinste und effectvollste studirt und aus¬
-               <lb facs="#facs_3_region_1771688381629_2463_tl_7" n="N007"/>geführt. Die männlichen Rollen sind durchaus vortrefflich
-               <lb facs="#facs_3_region_1771688381629_2463_tl_8" n="N008"/>besetzt; gewiß vermöchte keine andere Bühne für die
-               <lb facs="#facs_3_region_1771688381629_2463_tl_9" n="N009"/>fünf wichtigen Partien: <rs type="person">Guilbert</rs>, <rs type="person">Ivanhoe</rs>, <rs type="person">Beaumanoir</rs>,
-               <lb facs="#facs_3_region_1771688381629_2463_tl_10" n="N010"/>
-               <rs type="person">Tuck</rs> und <rs type="person">Wamba</rs> ein Künstlerquintett ins Feld zu stellen,
-               <lb facs="#facs_3_region_1771688381629_2463_tl_11" n="N011"/>wie es hier die Herren <hi rendition="#em">
-                  <rs type="person">Reichmann</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Winkelmann</rs>
-               </hi>,
-               <lb facs="#facs_3_region_1771688381629_2463_tl_12" n="N012"/>
-               <hi rendition="#em">
-                  <rs type="person">Rokitansky</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Scaria</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Schittenhelm</rs>
-               </hi> reprä¬
-               <lb facs="#facs_3_region_1771688381629_2463_tl_13" n="N013"/>sentirten. <hi rendition="#em">
-                  <rs type="person">Reichmann</rs>
-               </hi> darf den Templer <rs type="person">Guilbert</rs>,
-               <lb facs="#facs_3_region_1771688381629_2463_tl_14" n="N014"/>
-               <hi rendition="#em">
-                  <rs type="person">Winkelmann</rs>
-               </hi> den <rs type="person">Ivanhoe</rs> zu seinen besten Rollen
-               <lb facs="#facs_3_region_1771688381629_2463_tl_15" n="N015"/>zählen; beide Sänger waren überdies prachtvoll bei Stimme.
-               <lb facs="#facs_3_region_1771688381629_2463_tl_16" n="N016"/>Herr <hi rendition="#em">
-                  <rs type="person">Scaria</rs>
-               </hi> gab den zum „Einsiedler“ herabgemilderten
-               <lb facs="#facs_3_region_1771688381629_2463_tl_17" n="N017"/>
-               <rs type="person">Barfüßlermönch</rs> mit durchaus starker Wirkung. Wenn wir
-               <lb facs="#facs_3_region_1771688381629_2463_tl_18" n="N018"/>Eines daran vermißten, so war es die unvergleichliche Gut¬
-               <lb facs="#facs_3_region_1771688381629_2463_tl_19" n="N019"/>müthigkeit und das natürliche Behagen, womit <hi rendition="#em">
-                  <rs type="person">Hölzl</rs>
-               </hi> diese
-               <lb facs="#facs_3_region_1771688381629_2463_tl_20" n="N020"/>seine Schicksalsrolle gespielt hat. Herrn <rs type="person">Scaria</rs>'s Komik klebt
-               <lb facs="#facs_3_region_1771688381629_2463_tl_21" n="N021"/>immer etwas Gezwungenes, Gewaltsames an, das sich be¬
-               <lb facs="#facs_3_region_1771688381629_2463_tl_22" n="N022"/>sonders in dem überlauten und überlangsamen Vortrage
-               <lb facs="#facs_3_region_1771688381629_2463_tl_23" n="N023"/>des gesprochenen Dialogs verräth. <rs type="person">Hölzl</rs>'s Bruder <rs type="person">Tuck</rs> war
-               <lb facs="#facs_3_region_1771688381629_2463_tl_24" n="N024"/>ein richtiger Mönch, der gerne singt, trinkt und jagt, ein
-               <lb facs="#facs_3_region_1771688381629_2463_tl_25" n="N025"/>echter <hi rendition="#em">
-                  <rs type="person">Grützner</rs>
-               </hi> zur Zeit der Kreuzzüge. Dagegen glich
-               <lb facs="#facs_3_region_1771688381629_2463_tl_26" n="N026"/>Scaria's <rs type="person">Tuck</rs> mehr einem Raufbolde von Fach in der
-               <lb facs="#facs_3_region_1771688381629_2463_tl_27" n="N027"/>Maske eines Einsiedlers. Die Darstellerin der <rs type="person">Rebekka</rs>, von
-               <lb facs="#facs_3_region_1771688381629_2463_tl_28" n="N028"/>welcher das Schicksal der ganzen Oper zumeist abhängt, stand
-               <lb facs="#facs_3_region_1771688381629_2463_tl_29" n="N029"/>leider nicht auf der gleichen Höhe mit ihren Collegen. Wir
-               <lb facs="#facs_3_region_1771688381629_2463_tl_30" n="N030"/>können an Frau <hi rendition="#em">
-                  <rs type="person">Kupfer</rs>
-               </hi> als <rs type="person">Rebekka</rs> lediglich ihre schmucke
-               <lb facs="#facs_3_region_1771688381629_2463_tl_31" n="N031"/>Erscheinung, ihr äußerlich recht gewandtes Spiel und den
-               <lb facs="#facs_3_region_1771688381629_2463_tl_32" n="N032"/>hingebenden Eifer loben, womit sie an einer ihre Kräfte
-               <lb facs="#facs_3_region_1771688381629_2463_tl_33" n="N033"/>weit übersteigenden Aufgabe sich abmühte. Die zum dritten¬
-               <lb facs="#facs_3_region_1771688381629_2463_tl_34" n="N034"/>male Novität gewordene Oper wurde von dem sehr zahlreichen
-               <lb facs="#facs_3_region_1771688381629_2463_tl_35" n="N035"/>Auditorium mit großer Aufmerksamkeit und lebhaftem Bei¬
-               <lb facs="#facs_3_region_1771688381629_2463_tl_36" n="N036"/>falle verfolgt. Wir wünschen und hoffen, sie möchte jetzt eine
-               <lb facs="#facs_3_region_1771688381629_2463_tl_37" n="N037"/>dauerndere Stätte bei uns gefunden haben, als in den Jahren
-               <lb facs="#facs_3_region_1771688381629_2463_tl_38" n="N038"/>
-               <date>1849</date> und <date>1862</date>.
+            <p prev="true">
+         <lb facs="#facs_3_region_1771688381629_2463_tl_1" n="N001"/>förmlichen <hi rendition="#em">Actschlusse</hi> berechtigt sind, dem Hervorrufe zu
+         <lb facs="#facs_3_region_1771688381629_2463_tl_2" n="N002"/>folgen. Von diesen nebensächlichen Bedenken abgesehen, kann
+         <lb facs="#facs_3_region_1771688381629_2463_tl_3" n="N003"/>man die neueste Scenirung von „<rs type="bibl" ref="#hsl_work_id_230">Templer und Jüdin</rs>“ nur
+         <lb facs="#facs_3_region_1771688381629_2463_tl_4" n="N004"/>loben; wahrlich ein schweres Stück Arbeit und aufs beste
+         <lb facs="#facs_3_region_1771688381629_2463_tl_5" n="N005"/>vollbracht. Musikalisch ist die Oper von Herrn Director
+         <lb facs="#facs_3_region_1771688381629_2463_tl_6" n="N006"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_979">Jahn</rs></hi> auf das feinste und effectvollste studirt und aus
+         <lb facs="#facs_3_region_1771688381629_2463_tl_7" n="N007" break="no"/>geführt. Die männlichen Rollen sind durchaus vortrefflich
+         <lb facs="#facs_3_region_1771688381629_2463_tl_8" n="N008"/>besetzt; gewiß vermöchte keine andere Bühne für die
+         <lb facs="#facs_3_region_1771688381629_2463_tl_9" n="N009"/>fünf wichtigen Partien: <rs type="person" ref="#hsl_person_id_1052">Guilbert</rs>, <rs type="person" ref="#hsl_person_id_597">Ivanhoe</rs>, <rs type="person" ref="#hsl_person_id_9315">Beaumanoir</rs>,
+         <lb facs="#facs_3_region_1771688381629_2463_tl_10" n="N010"/><rs type="person" ref="#hsl_person_id_1050">Tuck</rs> und <rs type="person" ref="#hsl_person_id_9316">Wamba</rs> ein Künstlerquintett ins Feld zu stellen,
+         <lb facs="#facs_3_region_1771688381629_2463_tl_11" n="N011"/>wie es hier die Herren <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1049">Reichmann</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_370">Winkelmann</rs></hi>,
+         <lb facs="#facs_3_region_1771688381629_2463_tl_12" n="N012"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_240">Rokitansky</rs></hi>, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2922">Scaria</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1058">Schittenhelm</rs></hi> reprä
+         <lb facs="#facs_3_region_1771688381629_2463_tl_13" n="N013" break="no"/>sentirten. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1049">Reichmann</rs></hi> darf den Templer <rs type="person" ref="#hsl_person_id_1052">Guilbert</rs>,
+         <lb facs="#facs_3_region_1771688381629_2463_tl_14" n="N014"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_370">Winkelmann</rs></hi> den <rs type="person" ref="#hsl_person_id_597">Ivanhoe</rs> zu seinen besten Rollen
+         <lb facs="#facs_3_region_1771688381629_2463_tl_15" n="N015"/>zählen; beide Sänger waren überdies prachtvoll bei Stimme.
+         <lb facs="#facs_3_region_1771688381629_2463_tl_16" n="N016"/>Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2922">Scaria</rs></hi> gab den zum „Einsiedler“ herabgemilderten
+         <lb facs="#facs_3_region_1771688381629_2463_tl_17" n="N017"/><rs type="person" ref="#hsl_person_id_1050">Barfüßlermönch</rs> mit durchaus starker Wirkung. Wenn wir
+         <lb facs="#facs_3_region_1771688381629_2463_tl_18" n="N018"/>Eines daran vermißten, so war es die unvergleichliche Gut
+         <lb facs="#facs_3_region_1771688381629_2463_tl_19" n="N019" break="no"/>müthigkeit und das natürliche Behagen, womit <hi rendition="#em"><rs type="person" ref="#hsl_person_id_129">Hölzl</rs></hi> diese
+         <lb facs="#facs_3_region_1771688381629_2463_tl_20" n="N020"/>seine Schicksalsrolle gespielt hat. Herrn <rs type="person" ref="#hsl_person_id_2922">Scaria</rs>’s Komik klebt
+         <lb facs="#facs_3_region_1771688381629_2463_tl_21" n="N021"/>immer etwas Gezwungenes, Gewaltsames an, das sich be
+         <lb facs="#facs_3_region_1771688381629_2463_tl_22" n="N022" break="no"/>sonders in dem überlauten und überlangsamen Vortrage
+         <lb facs="#facs_3_region_1771688381629_2463_tl_23" n="N023"/>des gesprochenen Dialogs verräth. <rs type="person" ref="#hsl_person_id_129">Hölzl</rs>’s Bruder <rs type="person" ref="#hsl_person_id_1050">Tuck</rs> war
+         <lb facs="#facs_3_region_1771688381629_2463_tl_24" n="N024"/>ein richtiger Mönch, der gerne singt, trinkt und jagt, ein
+         <lb facs="#facs_3_region_1771688381629_2463_tl_25" n="N025"/>echter <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9317">Grützner</rs></hi> zur Zeit der Kreuzzüge. Dagegen glich
+         <lb facs="#facs_3_region_1771688381629_2463_tl_26" n="N026"/>Scaria’s <rs type="person" ref="#hsl_person_id_1050">Tuck</rs> mehr einem Raufbolde von Fach in der
+         <lb facs="#facs_3_region_1771688381629_2463_tl_27" n="N027"/>Maske eines Einsiedlers. Die Darstellerin der <rs type="person" ref="#hsl_person_id_1051">Rebekka</rs>, von
+         <lb facs="#facs_3_region_1771688381629_2463_tl_28" n="N028"/>welcher das Schicksal der ganzen Oper zumeist abhängt, stand
+         <lb facs="#facs_3_region_1771688381629_2463_tl_29" n="N029"/>leider nicht auf der gleichen Höhe mit ihren Collegen. Wir
+         <lb facs="#facs_3_region_1771688381629_2463_tl_30" n="N030"/>können an Frau <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4591">Kupfer</rs></hi> als <rs type="person" ref="#hsl_person_id_1051">Rebekka</rs> lediglich ihre schmucke
+         <lb facs="#facs_3_region_1771688381629_2463_tl_31" n="N031"/>Erscheinung, ihr äußerlich recht gewandtes Spiel und den
+         <lb facs="#facs_3_region_1771688381629_2463_tl_32" n="N032"/>hingebenden Eifer loben, womit sie an einer ihre Kräfte
+         <lb facs="#facs_3_region_1771688381629_2463_tl_33" n="N033"/>weit übersteigenden Aufgabe sich abmühte. Die zum dritten
+         <lb facs="#facs_3_region_1771688381629_2463_tl_34" n="N034" break="no"/>male Novität gewordene Oper wurde von dem sehr zahlreichen
+         <lb facs="#facs_3_region_1771688381629_2463_tl_35" n="N035"/>Auditorium mit großer Aufmerksamkeit und lebhaftem Bei
+         <lb facs="#facs_3_region_1771688381629_2463_tl_36" n="N036" break="no"/>falle verfolgt. Wir wünschen und hoffen, sie möchte jetzt eine
+         <lb facs="#facs_3_region_1771688381629_2463_tl_37" n="N037"/>dauerndere Stätte bei uns gefunden haben, als in den Jahren
+         <lb facs="#facs_3_region_1771688381629_2463_tl_38" n="N038"/><date>1849</date> und <date>1862</date>.
             </p>
          </div>
       </body>
