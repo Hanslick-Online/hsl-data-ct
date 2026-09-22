@@ -31,6 +31,7 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -77,16 +78,19 @@
                      <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1884-01-25">25.01.1884</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18840125"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -102,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-09-14">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-09-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-09-22">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -235,50 +241,35 @@
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
             <p>
-               <lb facs="#facs_1_l_2" n="N001"/>Nr. 6973. Wien, Freitag, den 25. Januar 1884
-            </p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <cb n="2"/>
-            <p>
-               <lb facs="#facs_2_region_1706947893154_529_tl_1" n="N001"/>Ed. H. [Der richtige Geburtstag <rs type="person">Auber</rs>'s.] Fast
-               <lb facs="#facs_2_region_1706947893154_529_tl_2" n="N002"/>alle <rs type="place">Wien</rs>er Journale veröffentlichen die Notiz, es werde am
-               <lb facs="#facs_2_region_1706947893154_529_tl_3" n="N003"/>29. d. im Hofoperntheater „zur Feier des hundertsten Geburts¬
-               <lb facs="#facs_2_region_1706947893154_529_tl_4" n="N004"/>tages <hi rendition="#em">
-                  <rs type="person">Auber</rs>'s</hi>“ dessen „<rs type="bibl">Stumme von Portici</rs>“ aufgeführt wer¬
-               <lb facs="#facs_2_region_1706947893154_529_tl_5" n="N005"/>den. Eine musterhafte Vorstellung dieser lange hier ausgesetzten
-               <lb facs="#facs_2_region_1706947893154_529_tl_6" n="N006"/>Oper wird uns jederzeit, also auch am 29. d., sehr willkommen
-               <lb facs="#facs_2_region_1706947893154_529_tl_7" n="N007"/>sein, aber eine „Jubiläums-Feier“ ist sie keineswegs Diese hätte
-               <lb facs="#facs_2_region_1706947893154_529_tl_8" n="N008"/>bereits vor zwei Jahren stattfinden müssen, denn <rs type="person">Auber</rs> ist am
-               <lb facs="#facs_2_region_1706947893154_529_tl_9" n="N009"/>29. Januar <hi rendition="#em">1782</hi> geboren. Schon <hi rendition="#em">
-                  <rs type="person">Fétis</rs>
-               </hi> hat in seiner „<rs type="bibl">Bio¬</rs>
-               <lb facs="#facs_2_region_1706947893154_529_tl_10" n="N010"/>
-               <rs type="bibl">graphie des Musiciens</rs>“ (<date>1860</date>) dieses ihm von <rs type="person">Auber</rs>'s <rs type="person">Vater</rs>
-               <lb facs="#facs_2_region_1706947893154_529_tl_11" n="N011"/>authentisch mitgetheilte Datum festgestellt. Bei Gelegenheit von
-               <lb facs="#facs_2_region_1706947893154_529_tl_12" n="N012"/>
-               <rs type="person">Auber</rs>'s Hinscheiden († 12. Mai <date>1871</date>) ist auch der Taufschein
-               <lb facs="#facs_2_region_1706947893154_529_tl_13" n="N013"/>desselben aus den Kirchenbüchern seines Geburtsortes <rs type="place">Caën</rs> in
-               <lb facs="#facs_2_region_1706947893154_529_tl_14" n="N014"/>der <rs type="place">Normandie</rs> wortgetreu veröffentlicht worden, welcher nicht den
-               <lb facs="#facs_2_region_1706947893154_529_tl_15" n="N015"/>geringsten Zweifel über <rs type="person">Auber</rs>'s Geburtsjahr <date>1782</date> zuläßt. In
-               <lb facs="#facs_2_region_1706947893154_529_tl_16" n="N016"/>ganz <rs type="place">Frankreich</rs>, auch in mehreren <rs type="place">deutsch</rs>en Hauptstädten, ist
-               <lb facs="#facs_2_region_1706947893154_529_tl_17" n="N017"/>thatsächlich der 29. Januar <date>1882</date> durch festliche Aufführungen
-               <lb facs="#facs_2_region_1706947893154_529_tl_18" n="N018"/>seiner Opern gefeiert worden; in <rs type="place">Caën</rs> überdies durch die Ent¬
-               <lb facs="#facs_2_region_1706947893154_529_tl_19" n="N019"/>hüllung der Statue <rs type="person">Auber</rs>'s. Von diesen Festlichkeiten war seiner¬
-               <lb facs="#facs_2_region_1706947893154_529_tl_20" n="N020"/>zeit in allen Blättern ausführlich zu lesen und in dem Musik-
-               <lb facs="#facs_2_l" n="N021"/>
-               <rs type="bibl">Feuilleton</rs> der „<rs type="bibl">Neuen Freien Presse</rs>“ vom 31. Januar <date>1882</date>
-               <lb facs="#facs_2_region_1706947893154_529_tl_23" n="N022"/>das lebhafteste Bedauern ausgesprochen, daß das <rs type="place">Wien</rs>er Hof¬
-               <lb facs="#facs_2_region_1706947893154_529_tl_24" n="N023"/>operntheater von dem hundertjährigen Geburtstage <hi rendition="#em">
-                  <rs type="person">Auber</rs>'s</hi>
-               <lb facs="#facs_2_region_1706947893154_529_tl_25" n="N024"/>ebensowenig Notiz genommen habe, wie am 15. December <date>1875</date>
-               <lb facs="#facs_2_region_1706947893154_529_tl_26" n="N025"/>von der Säcularfeier <hi rendition="#em">
-                  <rs type="person">Boïeldieu</rs>'s</hi>. Beiläufig bemerkt ist die
-               <lb facs="#facs_2_region_1706947893154_529_tl_27" n="N026"/>gestern von einem <rs type="place">Wien</rs>er Journale gebrachte Notiz, daß in dieses
-               <lb facs="#facs_2_region_1706947893154_529_tl_28" n="N027"/>Jahr auch der hundertste Geburtstag <rs type="person">Spontini</rs>'s falle, ebenso
-               <lb facs="#facs_2_region_1706947893154_529_tl_29" n="N028"/>unrichtig wie die „bevorstehende Säcularfeier" <hi rendition="#em">
-                  <rs type="person">Auber</rs>'s</hi>, da
-               <lb facs="#facs_2_region_1706947893154_529_tl_30" n="N029"/>
-               <rs type="person">Spontini</rs> am 14. November <date>1774</date> geboren wurde.
+         <lb facs="#facs_2_region_1706947893154_529_tl_1" n="N001"/><rs type="person" ref="#hsl_person_id_1">Ed. H.</rs> [Der richtige Geburtstag <rs type="person" ref="#hsl_person_id_16">Auber</rs>’s.] Fast
+         <lb facs="#facs_2_region_1706947893154_529_tl_2" n="N002"/>alle <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Journale veröffentlichen die Notiz, es werde am
+         <lb facs="#facs_2_region_1706947893154_529_tl_3" n="N003"/>29. d. im Hofoperntheater „zur Feier des hundertsten Geburts
+         <lb facs="#facs_2_region_1706947893154_529_tl_4" n="N004" break="no"/>tages <hi rendition="#em"><rs type="person" ref="#hsl_person_id_16">Auber</rs>’s</hi>“ dessen „<rs type="bibl" ref="#hsl_work_id_128">Stumme von Portici</rs>“ aufgeführt wer
+         <lb facs="#facs_2_region_1706947893154_529_tl_5" n="N005" break="no"/>den. Eine musterhafte Vorstellung dieser lange hier ausgesetzten
+         <lb facs="#facs_2_region_1706947893154_529_tl_6" n="N006"/>Oper wird uns jederzeit, also auch am 29. d., sehr willkommen
+         <lb facs="#facs_2_region_1706947893154_529_tl_7" n="N007"/>sein, aber eine „Jubiläums-Feier“ ist sie keineswegs Diese hätte
+         <lb facs="#facs_2_region_1706947893154_529_tl_8" n="N008"/>bereits vor zwei Jahren stattfinden müssen, denn <rs type="person" ref="#hsl_person_id_16">Auber</rs> ist am
+         <lb facs="#facs_2_region_1706947893154_529_tl_9" n="N009"/>29. Januar <hi rendition="#em">1782</hi> geboren. Schon <hi rendition="#em"><rs type="person" ref="#hsl_person_id_78">Fétis</rs></hi> hat in seiner „<rs type="bibl" ref="#hsl_work_id_4509">Bio
+         <lb facs="#facs_2_region_1706947893154_529_tl_10" n="N010" break="no"/>graphie des Musiciens</rs>“ (<date>1860</date>) dieses ihm von <rs type="person" ref="#hsl_person_id_16">Auber</rs>’s <rs type="person" ref="#hsl_person_id_6327">Vater</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1706947893154_529_tl_11" n="N011"/>authentisch mitgetheilte Datum festgestellt. Bei Gelegenheit von
+         <lb facs="#facs_2_region_1706947893154_529_tl_12" n="N012"/><rs type="person" ref="#hsl_person_id_16">Auber</rs>’s Hinscheiden († 12. Mai <date>1871</date>) ist auch der Taufschein
+         <lb facs="#facs_2_region_1706947893154_529_tl_13" n="N013"/>desselben aus den Kirchenbüchern seines Geburtsortes <rs type="place" ref="#hsl_place_id_1536">Caën</rs> in
+         <lb facs="#facs_2_region_1706947893154_529_tl_14" n="N014"/>der <rs type="place" ref="#hsl_place_id_761">Normandie</rs> wortgetreu veröffentlicht worden, welcher nicht den
+         <lb facs="#facs_2_region_1706947893154_529_tl_15" n="N015"/>geringsten Zweifel über <rs type="person" ref="#hsl_person_id_16">Auber</rs>’s Geburtsjahr <date>1782</date> zuläßt. In
+         <lb facs="#facs_2_region_1706947893154_529_tl_16" n="N016"/>ganz <rs type="place" ref="#hsl_place_id_21">Frankreich</rs>, auch in mehreren <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Hauptstädten, ist
+         <lb facs="#facs_2_region_1706947893154_529_tl_17" n="N017"/>thatsächlich der 29. Januar <date>1882</date> durch festliche Aufführungen
+         <lb facs="#facs_2_region_1706947893154_529_tl_18" n="N018"/>seiner Opern gefeiert worden; in <rs type="place" ref="#hsl_place_id_1536">Caën</rs> überdies durch die Ent
+         <lb facs="#facs_2_region_1706947893154_529_tl_19" n="N019" break="no"/>hüllung der Statue <rs type="person" ref="#hsl_person_id_16">Auber</rs>’s. Von diesen Festlichkeiten war seiner
+         <lb facs="#facs_2_region_1706947893154_529_tl_20" n="N020" break="no"/>zeit in allen Blättern ausführlich zu lesen und in dem Musik-
+         <lb facs="#facs_2_l" n="N021"/><rs type="bibl" ref="#hsl_work_id_6967">Feuilleton</rs> der „<rs type="bibl" ref="#hsl_work_id_82">Neuen Freien Presse</rs>“ vom 31. Januar <date>1882</date><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1706947893154_529_tl_23" n="N022"/>das lebhafteste Bedauern ausgesprochen, daß das <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Hof
+         <lb facs="#facs_2_region_1706947893154_529_tl_24" n="N023" break="no"/>operntheater von dem hundertjährigen Geburtstage <hi rendition="#em"><rs type="person" ref="#hsl_person_id_16">Auber</rs>’s</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1706947893154_529_tl_25" n="N024"/>ebensowenig Notiz genommen habe, wie am 15. December <date>1875</date><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1706947893154_529_tl_26" n="N025"/>von der Säcularfeier <hi rendition="#em"><rs type="person" ref="#hsl_person_id_36">Boïeldieu</rs>’s</hi>. Beiläufig bemerkt ist die
+         <lb facs="#facs_2_region_1706947893154_529_tl_27" n="N026"/>gestern von einem <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Journale gebrachte Notiz, daß in dieses
+         <lb facs="#facs_2_region_1706947893154_529_tl_28" n="N027"/>Jahr auch der hundertste Geburtstag <rs type="person" ref="#hsl_person_id_294">Spontini</rs>’s falle, ebenso
+         <lb facs="#facs_2_region_1706947893154_529_tl_29" n="N028"/>unrichtig wie die „bevorstehende Säcularfeier" <hi rendition="#em"><rs type="person" ref="#hsl_person_id_16">Auber</rs>’s</hi>, da
+         <lb facs="#facs_2_region_1706947893154_529_tl_30" n="N029"/><rs type="person" ref="#hsl_person_id_294">Spontini</rs> am 14. November <date>1774</date> geboren wurde.
             </p>
          </div>
       </body>
