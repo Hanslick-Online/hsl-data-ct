@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 8350 Wien, Donnerstag, den 24. November 1887</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,14 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
+               <name ref="https://orcid.org/0009-0007-9767-072X">Thell, Annika</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +71,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 8350 Wien, Donnerstag, den 24. November 1887</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1887-11-24">24.11.1887</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18871124"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +107,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="athell" when="2026-07-20">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-09-22">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="athell" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1088,425 +1089,330 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1776574343563_77_tl_1" n="N001"/><head type="h1">Hofoperntheater.</head>
+            <lb facs="#facs_1_region_1776574343563_77_tl_2" n="N002"/><head type="h2">(„<hi rendition="#em"><rs type="bibl">Der Cid</rs></hi>“. Große Oper in vier Acten von J. <hi rendition="#em"><rs type="person">Massenet</rs></hi>.)</head>
             <p>
-               <lb facs="#facs_1_line_1783593121168_660" n="N001"/>Nr. 8350 Wien, Donnerstag, den 24. November 1887
-            </p>
+         <lb facs="#facs_1_region_1776574343563_77_tl_3" n="N003"/><rs type="person">Ed. H.</rs> Die ritterliche Gestalt des jugendlichen Ruy
+         <lb facs="#facs_1_region_1776574343563_77_tl_4" n="N004"/>Diaz da <rs type="person">Vivar</rs>, von den Spaniern „<rs type="person">Campeador</rs>“ (der
+         <lb facs="#facs_1_region_1776574343563_77_tl_5" n="N005"/>Kämpfer), von den Mauren „<rs type="person">el Cid</rs>“ (der Herr) genannt,
+         <lb facs="#facs_1_region_1776574343563_77_tl_6" n="N006"/>hat die Phantasie <rs type="place">italienisch</rs>er, <rs type="place">deutsch</rs>er und <rs type="place">französisch</rs>er
+         <lb facs="#facs_1_region_1776574343563_77_tl_7" n="N007"/>Componisten wiederholt beschäftigt. Ueber ein Dutzend Opern,
+         <lb facs="#facs_1_region_1776574343563_77_tl_8" n="N008"/>welche den <rs type="person">Cid</rs> verherrlichen, nennt uns die Musikgeschichte.
+         <lb facs="#facs_1_region_1776574343563_77_tl_9" n="N009"/>Sie alle sind von der Zeitfluth rettungslos weggespült und
+         <lb facs="#facs_1_region_1776574343563_77_tl_10" n="N010"/>auf die Sandbank der Archive geworfen, wo der gelehrte
+         <lb facs="#facs_1_region_1776574343563_77_tl_11" n="N011"/>und geduldige Musikfreund studiren mag, wie der <rs type="place">spanisch</rs>e
+         <lb facs="#facs_1_region_1776574343563_77_tl_12" n="N012"/>Nationalheld in <hi rendition="#em"><rs type="person">Händel</rs>’s</hi> Jugendwerk „<rs type="bibl">Rodrigo</rs>“, dann
+         <lb facs="#facs_1_region_1776574343563_77_tl_13" n="N013"/>später in den gefeierten <rs type="bibl">Opern</rs> von <hi rendition="#em"><rs type="person">Paisiello</rs></hi>, <hi rendition="#em"><rs type="person">Sacchini</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1776574343563_77_tl_14" n="N014"/>und <hi rendition="#em"><rs type="person">Piccinni</rs></hi> und endlich in den <rs type="place">deutsch</rs>en <rs type="bibl">Partituren</rs> von
+         <lb facs="#facs_1_region_1776574343563_77_tl_15" n="N015"/>P. <hi rendition="#em"><rs type="person">Cornelius</rs></hi>, <hi rendition="#em"><rs type="person">Aiblinger</rs></hi> und Emil <hi rendition="#em"><rs type="person">Mayer</rs></hi> ge
+         <lb facs="#facs_1_region_1776574343563_77_tl_16" n="N016" break="no"/>sungen habe. Zwei neuere Tondichter schienen berufen, dem
+         <lb facs="#facs_1_region_1776574343563_77_tl_17" n="N017"/><rs type="person">Cid</rs> einen dauerhafteren Athem einzuhauchen: Karl Maria
+         <lb facs="#facs_1_region_1776574343563_77_tl_18" n="N018"/><hi rendition="#em"><rs type="person">Weber</rs></hi> und George <hi rendition="#em"><rs type="person">Bizet</rs></hi>. Wir wissen, daß <rs type="person">Weber</rs> mit
+         <lb facs="#facs_1_region_1776574343563_77_tl_19" n="N019"/>Vorliebe an die Composition einer Oper „<rs type="bibl">Der Cid</rs>“ dachte,
+         <lb facs="#facs_1_region_1776574343563_77_tl_20" n="N020"/>zu welcher Friedrich <rs type="person">Kind</rs>, der Dichter des <rs type="bibl">Freischütz</rs>en, ihm
+         <lb facs="#facs_1_region_1776574343563_77_tl_21" n="N021"/>einen zusagenden Plan vorgelegt hatte. Welcher Gewinn für
+         <lb facs="#facs_1_region_1776574343563_77_tl_22" n="N022"/>ihn und für uns, wäre <rs type="person">Weber</rs> diesem ihm so herrlich ent
+         <lb facs="#facs_1_region_1776574343563_77_tl_23" n="N023" break="no"/>gegenkommenden Stoff treu geblieben, anstatt zu dem Text
+         <lb facs="#facs_1_region_1776574343563_77_tl_24" n="N024" break="no"/>buch der „<rs type="bibl">Euryanthe</rs>“ zu greifen! Gewiß hätte er den her
+         <lb facs="#facs_1_region_1776574343563_77_tl_25" n="N025" break="no"/>lichen, naiven Ton angeschlagen, der <rs type="person">Herder</rs>’s köstliche, in
+         <lb facs="#facs_1_region_1776574343563_77_tl_26" n="N026"/>ganz <rs type="place">Deutschland</rs> populäre <rs type="bibl">Romanzen</rs> vom <rs type="person">Cid</rs> durchweht.
+         <lb facs="#facs_1_region_1776574343563_77_tl_27" n="N027"/>Wie <rs type="person">Herder</rs> als Poet einen so unvergleichlichen Sinn für den
+         <lb facs="#facs_1_region_1776574343563_77_tl_28" n="N028"/>eigenartigen Duft, für den Erdgeruch des Volksliedes besaß,
+         <lb facs="#facs_1_region_1776574343563_77_tl_29" n="N029"/>so <rs type="person">Weber</rs> als Musiker. In neuester Zeit war es <rs type="person">Bizet</rs>, der
+         <lb facs="#facs_1_region_1776574343563_77_tl_30" n="N030"/>Componist von „<rs type="bibl">Carmen</rs>“, der, berauscht von dem Zauber
+         <lb facs="#facs_1_region_1776574343563_77_tl_31" n="N031"/>maurisch-<rs type="place">castilianisch</rs>er Romantik, sich gleichfalls den <rs type="person">Cid</rs> als
+         <lb facs="#facs_1_region_1776574343563_77_tl_32" n="N032"/>Opernhelden auserwählt und zahlreiche Skizzen dazu hinter
+         <lb facs="#facs_1_region_1776574343563_77_tl_33" n="N033" break="no"/>lassen hat. Aber, ach — Niemand konnte diese Aufzeichnungen
+         <lb facs="#facs_1_region_1776574343563_77_tl_34" n="N034"/>entziffern. <rs type="person">Bizet</rs> hatte sich eine eigene Art von Noten-Ge
+         <lb facs="#facs_1_region_1776574343563_77_tl_35" n="N035" break="no"/>heimschrift erdacht, zu welcher er allein den Schlüssel besaß,<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1776574343563_77_tl_1" n="N001"/>Hofoperntheater
-               <lb facs="#facs_1_region_1776574343563_77_tl_2" n="N002"/>(„<hi rendition="#em">
-                  <rs type="bibl">Der Cid</rs>
-               </hi>“. Große Oper in vier Acten von J. <hi rendition="#em">
-                  <rs type="person">Massenet</rs>
-               </hi>.)
-               <lb facs="#facs_1_region_1776574343563_77_tl_3" n="N003"/>
-               <rs type="person">Ed. H.</rs> Die ritterliche Gestalt des jugendlichen Ruy
-               <lb facs="#facs_1_region_1776574343563_77_tl_4" n="N004"/>Diaz da <rs type="person">Vivar</rs>, von den Spaniern „<rs type="person">Campeador</rs>“ (der
-               <lb facs="#facs_1_region_1776574343563_77_tl_5" n="N005"/>Kämpfer), von den Mauren „<rs type="person">el Cid</rs>“ (der Herr) genannt,
-               <lb facs="#facs_1_region_1776574343563_77_tl_6" n="N006"/>hat die Phantasie <rs type="place">italienisch</rs>er, <rs type="place">deutsch</rs>er und <rs type="place">französisch</rs>er
-               <lb facs="#facs_1_region_1776574343563_77_tl_7" n="N007"/>Componisten wiederholt beschäftigt. Ueber ein Dutzend Opern,
-               <lb facs="#facs_1_region_1776574343563_77_tl_8" n="N008"/>welche den <rs type="person">Cid</rs> verherrlichen, nennt uns die Musikgeschichte.
-               <lb facs="#facs_1_region_1776574343563_77_tl_9" n="N009"/>Sie alle sind von der Zeitfluth rettungslos weggespült und
-               <lb facs="#facs_1_region_1776574343563_77_tl_10" n="N010"/>auf die Sandbank der Archive geworfen, wo der gelehrte
-               <lb facs="#facs_1_region_1776574343563_77_tl_11" n="N011"/>und geduldige Musikfreund studiren mag, wie der <rs type="place">spanisch</rs>e
-               <lb facs="#facs_1_region_1776574343563_77_tl_12" n="N012"/>Nationalheld in <hi rendition="#em">
-                  <rs type="person">Händel</rs>’s</hi> Jugendwerk „<rs type="bibl">Rodrigo</rs>“, dann
-               <lb facs="#facs_1_region_1776574343563_77_tl_13" n="N013"/>später in den gefeierten <rs type="bibl">Opern</rs> von <hi rendition="#em">
-                  <rs type="person">Paisiello</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Sacchini</rs>
-               </hi>
-               <lb facs="#facs_1_region_1776574343563_77_tl_14" n="N014"/>und <hi rendition="#em">
-                  <rs type="person">Piccinni</rs>
-               </hi> und endlich in den <rs type="place">deutsch</rs>en <rs type="bibl">Partituren</rs> von
-               <lb facs="#facs_1_region_1776574343563_77_tl_15" n="N015"/>P. <hi rendition="#em">
-                  <rs type="person">Cornelius</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Aiblinger</rs>
-               </hi> und Emil <hi rendition="#em">
-                  <rs type="person">Mayer</rs>
-               </hi> ge¬
-               <lb facs="#facs_1_region_1776574343563_77_tl_16" n="N016"/>sungen habe. Zwei neuere Tondichter schienen berufen, dem
-               <lb facs="#facs_1_region_1776574343563_77_tl_17" n="N017"/>
-               <rs type="person">Cid</rs> einen dauerhafteren Athem einzuhauchen: Karl Maria
-               <lb facs="#facs_1_region_1776574343563_77_tl_18" n="N018"/>
-               <hi rendition="#em">
-                  <rs type="person">Weber</rs>
-               </hi> und George <hi rendition="#em">
-                  <rs type="person">Bizet</rs>
-               </hi>. Wir wissen, daß <rs type="person">Weber</rs> mit
-               <lb facs="#facs_1_region_1776574343563_77_tl_19" n="N019"/>Vorliebe an die Composition einer Oper „<rs type="bibl">Der Cid</rs>“ dachte,
-               <lb facs="#facs_1_region_1776574343563_77_tl_20" n="N020"/>zu welcher Friedrich <rs type="person">Kind</rs>, der Dichter des <rs type="bibl">Freischütz</rs>en, ihm
-               <lb facs="#facs_1_region_1776574343563_77_tl_21" n="N021"/>einen zusagenden Plan vorgelegt hatte. Welcher Gewinn für
-               <lb facs="#facs_1_region_1776574343563_77_tl_22" n="N022"/>ihn und für uns, wäre <rs type="person">Weber</rs> diesem ihm so herrlich ent¬
-               <lb facs="#facs_1_region_1776574343563_77_tl_23" n="N023"/>gegenkommenden Stoff treu geblieben, anstatt zu dem Text¬
-               <lb facs="#facs_1_region_1776574343563_77_tl_24" n="N024"/>buch der „<rs type="bibl">Euryanthe</rs>“ zu greifen! Gewiß hätte er den her¬
-               <lb facs="#facs_1_region_1776574343563_77_tl_25" n="N025"/>lichen, naiven Ton angeschlagen, der <rs type="person">Herder</rs>’s köstliche, in
-               <lb facs="#facs_1_region_1776574343563_77_tl_26" n="N026"/>ganz <rs type="place">Deutschland</rs> populäre <rs type="bibl">Romanzen</rs> vom <rs type="person">Cid</rs> durchweht.
-               <lb facs="#facs_1_region_1776574343563_77_tl_27" n="N027"/>Wie <rs type="person">Herder</rs> als Poet einen so unvergleichlichen Sinn für den
-               <lb facs="#facs_1_region_1776574343563_77_tl_28" n="N028"/>eigenartigen Duft, für den Erdgeruch des Volksliedes besaß,
-               <lb facs="#facs_1_region_1776574343563_77_tl_29" n="N029"/>so <rs type="person">Weber</rs> als Musiker. In neuester Zeit war es <rs type="person">Bizet</rs>, der
-               <lb facs="#facs_1_region_1776574343563_77_tl_30" n="N030"/>Componist von „<rs type="bibl">Carmen</rs>“, der, berauscht von dem Zauber
-               <lb facs="#facs_1_region_1776574343563_77_tl_31" n="N031"/>maurisch-<rs type="place">castilianisch</rs>er Romantik, sich gleichfalls den <rs type="person">Cid</rs> als
-               <lb facs="#facs_1_region_1776574343563_77_tl_32" n="N032"/>Opernhelden auserwählt und zahlreiche Skizzen dazu hinter¬
-               <lb facs="#facs_1_region_1776574343563_77_tl_33" n="N033"/>lassen hat. Aber, ach — Niemand konnte diese Aufzeichnungen
-               <lb facs="#facs_1_region_1776574343563_77_tl_34" n="N034"/>entziffern. <rs type="person">Bizet</rs> hatte sich eine eigene Art von Noten-Ge¬
-               <lb facs="#facs_1_region_1776574343563_77_tl_35" n="N035"/>heimschrift erdacht, zu welcher er allein den Schlüssel besaß,
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1776574352403_80_tl_1" n="N001"/>und so ging mit ihm zu Grabe, was bereits von seinem
+         <lb facs="#facs_1_region_1776574352403_80_tl_2" n="N002"/>„<rs type="bibl">Cid</rs>“ componirt war. Ein Verlust, für welchen <hi rendition="#em"><rs type="person">Massenet</rs>’s</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1776574352403_80_tl_3" n="N003"/><rs type="bibl">Composition</rs> ein sehr ungenügender Trost ist.
+            </p><p>
+         <lb facs="#facs_1_region_1776574352403_80_tl_4" n="N004"/><hi rendition="#em"><rs type="person">Massenet</rs></hi> hat natürlich <rs type="person">Corneille</rs>’s berühmte <rs type="bibl">Tra
+         <lb facs="#facs_1_region_1776574352403_80_tl_5" n="N005" break="no"/>gödie</rs> zur Grundlage seiner Oper genommen. Die Fran
+         <lb facs="#facs_1_region_1776574352403_80_tl_6" n="N006" break="no"/>zosen kennen und lieben die Gestalt des <rs type="person">Cid</rs> aus ihrem <rs type="person">Cor
+         <lb facs="#facs_1_region_1776574352403_80_tl_7" n="N007" break="no"/>neille</rs>, wir Deutschen aus unserem <rs type="person">Herder</rs>. Das sind zwei
+         <lb facs="#facs_1_region_1776574352403_80_tl_8" n="N008"/>sehr verschiedene Wesen; der Eine herzenswarm, jugendlich
+         <lb facs="#facs_1_region_1776574352403_80_tl_9" n="N009"/>naiv — der Andere vornehm, kühl, schönrednerisch. Es gibt
+         <lb facs="#facs_1_region_1776574352403_80_tl_10" n="N010"/>in jeder Literatur gewisse steinerne Reputationen. In <rs type="place">Deutsch
+         <lb facs="#facs_1_region_1776574352403_80_tl_11" n="N011" break="no"/>land</rs> würdigt man an Stücken wie <rs type="person">Corneille</rs>’s <rs type="bibl">Cid</rs> die
+         <lb facs="#facs_1_region_1776574352403_80_tl_12" n="N012"/>Thatsache einer epochemachenden Erscheinung; man ehrt sie,
+         <lb facs="#facs_1_region_1776574352403_80_tl_13" n="N013"/>wie <rs type="person">Faust</rs> die Sacramente,  „ohne Verlangen“. Hingegen die
+         <lb facs="#facs_1_region_1776574352403_80_tl_14" n="N014"/>Franzosen heben ihren <rs type="person">Corneille</rs> allmonatlich von seinem
+         <lb facs="#facs_1_region_1776574352403_80_tl_15" n="N015"/>marmornen Sockel und tragen ihn aus dem Tempel der
+         <lb facs="#facs_1_region_1776574352403_80_tl_16" n="N016"/>Literaturgeschichte hinaus auf die Bretter, welche das
+         <lb facs="#facs_1_region_1776574352403_80_tl_17" n="N017"/>Leben bedeuten — sollen. Sehen wir derlei kaltgewordene
+         <lb facs="#facs_1_region_1776574352403_80_tl_18" n="N018"/>Trauerspiele im Théâtre Français, so bewundern wir die
+         <lb facs="#facs_1_region_1776574352403_80_tl_19" n="N019"/>patriotische Pietät der Franzosen, können ihr aber kaum
+         <lb facs="#facs_1_region_1776574352403_80_tl_20" n="N020"/>nachfühlen. Und doch ist dieser „<rs type="bibl">Cid</rs>“ von allen Tragödien
+         <lb facs="#facs_1_region_1776574352403_80_tl_21" n="N021"/>des großen <rs type="person">Corneille</rs> noch die modernste und menschlich
+         <lb facs="#facs_1_region_1776574352403_80_tl_22" n="N022"/>rührendste. Sie wird es durch die Gestalt der <rs type="person">Chimene</rs>;
+         <lb facs="#facs_1_region_1776574352403_80_tl_23" n="N023"/>ihr wagt der Dichter zum erstenmal die Liebe als den Beruf
+         <lb facs="#facs_1_region_1776574352403_80_tl_24" n="N024"/>des Weibes anzuerkennen, und nicht den Heroismus, wie in
+         <lb facs="#facs_1_region_1776574352403_80_tl_25" n="N025"/>seinen <rs type="place">römisch</rs>en und <rs type="place">griechisch</rs>en Stücken. Das war eine un
+         <lb facs="#facs_1_region_1776574352403_80_tl_26" n="N026" break="no"/>erhörte Neuerung und beschwor den Zorn der Akademie über
+         <lb facs="#facs_1_region_1776574352403_80_tl_27" n="N027"/><rs type="person">Corneille</rs>, der sich veranlaßt sah, in einer eigenen <rs type="bibl">Vorrede</rs> sich und
+         <lb facs="#facs_1_region_1776574352403_80_tl_28" n="N028"/>die arme <rs type="person">Chimene</rs> möglichst reinzuwaschen. Uns kümmert es
+         <lb facs="#facs_1_region_1776574352403_80_tl_29" n="N029"/>heute wenig, ob dieser Tadel (wie die Akademie ge
+         <lb facs="#facs_1_region_1776574352403_80_tl_30" n="N030" break="no"/>meint) oder dieses Lob (wie wir meinen) <rs type="person">Corneille</rs> selbst
+         <lb facs="#facs_1_region_1776574352403_80_tl_31" n="N031"/>treffe oder nicht vielmehr jenes <rs type="place">spanisch</rs>e Drama, das der
+         <lb facs="#facs_1_region_1776574352403_80_tl_32" n="N032"/>Franzose mit sehr weitem Gewissen „benützt“ hat: den <rs type="bibl">Cid</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1776574352403_80_tl_33" n="N033"/>von <hi rendition="#em">Guillen <rs type="person">de Castro</rs></hi>. Dieser alte Spanier ist es,
+         <lb facs="#facs_1_region_1776574352403_80_tl_34" n="N034"/>welchen die drei Väter des <rs type="person">Massenet</rs>’schen Librettos, die Herren
+         <lb facs="#facs_1_region_1776574352403_80_tl_35" n="N035"/><rs type="person">d’Ennery</rs>, <rs type="person">Gallet</rs> und <rs type="person">Blau</rs>, neben <rs type="person">Corneille</rs> als den Großvater
+         <lb facs="#facs_1_region_1776574352403_80_tl_36" n="N036"/>ihres Sujets auf dem Textbuche namhaft machen. Für Opern
+         <lb facs="#facs_1_region_1776574352403_80_tl_37" n="N037" break="no"/>zwecke war <rs type="person">Corneille</rs>’s <rs type="bibl">Original</rs> natürlich nur zu gebrauchen,
+         <lb facs="#facs_1_region_1776574352403_80_tl_38" n="N038"/>wenn dessen spärliche Handlung durch Episoden bereichert und<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1776574352403_80_tl_1" n="N001"/>und so ging mit ihm zu Grabe, was bereits von seinem
-               <lb facs="#facs_1_region_1776574352403_80_tl_2" n="N002"/>„<rs type="bibl">Cid</rs>“ componirt war. Ein Verlust, für welchen <hi rendition="#em">
-                  <rs type="person">Massenet</rs>’s</hi>
-               <lb facs="#facs_1_region_1776574352403_80_tl_3" n="N003"/>
-               <rs type="bibl">Composition</rs> ein sehr ungenügender Trost ist.
-               <lb facs="#facs_1_region_1776574352403_80_tl_4" n="N004"/>
-               <hi rendition="#em">
-                  <rs type="person">Massenet</rs>
-               </hi> hat natürlich <rs type="person">Corneille</rs>’s berühmte <rs type="bibl">Tra¬</rs>
-               <lb facs="#facs_1_region_1776574352403_80_tl_5" n="N005"/>
-               <rs type="bibl">gödie</rs> zur Grundlage seiner Oper genommen. Die Fran¬
-               <lb facs="#facs_1_region_1776574352403_80_tl_6" n="N006"/>zosen kennen und lieben die Gestalt des <rs type="person">Cid</rs> aus ihrem <rs type="person" continued="true">Cor¬</rs>
-               <lb facs="#facs_1_region_1776574352403_80_tl_7" n="N007"/>
-               <rs type="person" continued="true">neille</rs>, wir Deutschen aus unserem <rs type="person">Herder</rs>. Das sind zwei
-               <lb facs="#facs_1_region_1776574352403_80_tl_8" n="N008"/>sehr verschiedene Wesen; der Eine herzenswarm, jugendlich
-               <lb facs="#facs_1_region_1776574352403_80_tl_9" n="N009"/>naiv — der Andere vornehm, kühl, schönrednerisch. Es gibt
-               <lb facs="#facs_1_region_1776574352403_80_tl_10" n="N010"/>in jeder Literatur gewisse steinerne Reputationen. In <rs type="place" continued="true">Deutsch¬</rs>
-               <lb facs="#facs_1_region_1776574352403_80_tl_11" n="N011"/>
-               <rs type="place" continued="true">land</rs> würdigt man an Stücken wie <rs type="person">Corneille</rs>’s <rs type="bibl">Cid</rs> die
-               <lb facs="#facs_1_region_1776574352403_80_tl_12" n="N012"/>Thatsache einer epochemachenden Erscheinung; man ehrt sie,
-               <lb facs="#facs_1_region_1776574352403_80_tl_13" n="N013"/>wie <rs type="person">Faust</rs> die Sacramente,  „ohne Verlangen“. Hingegen die
-               <lb facs="#facs_1_region_1776574352403_80_tl_14" n="N014"/>Franzosen heben ihren <rs type="person">Corneille</rs> allmonatlich von seinem
-               <lb facs="#facs_1_region_1776574352403_80_tl_15" n="N015"/>marmornen Sockel und tragen ihn aus dem Tempel der
-               <lb facs="#facs_1_region_1776574352403_80_tl_16" n="N016"/>Literaturgeschichte hinaus auf die Bretter, welche das
-               <lb facs="#facs_1_region_1776574352403_80_tl_17" n="N017"/>Leben bedeuten — sollen. Sehen wir derlei kaltgewordene
-               <lb facs="#facs_1_region_1776574352403_80_tl_18" n="N018"/>Trauerspiele im Théâtre Français, so bewundern wir die
-               <lb facs="#facs_1_region_1776574352403_80_tl_19" n="N019"/>patriotische Pietät der Franzosen, können ihr aber kaum
-               <lb facs="#facs_1_region_1776574352403_80_tl_20" n="N020"/>nachfühlen. Und doch ist dieser „<rs type="bibl">Cid</rs>“ von allen Tragödien
-               <lb facs="#facs_1_region_1776574352403_80_tl_21" n="N021"/>des großen <rs type="person">Corneille</rs> noch die modernste und menschlich
-               <lb facs="#facs_1_region_1776574352403_80_tl_22" n="N022"/>rührendste. Sie wird es durch die Gestalt der <rs type="person">Chimene</rs>;
-               <lb facs="#facs_1_region_1776574352403_80_tl_23" n="N023"/>ihr wagt der Dichter zum erstenmal die Liebe als den Beruf
-               <lb facs="#facs_1_region_1776574352403_80_tl_24" n="N024"/>des Weibes anzuerkennen, und nicht den Heroismus, wie in
-               <lb facs="#facs_1_region_1776574352403_80_tl_25" n="N025"/>seinen <rs type="place">römisch</rs>en und <rs type="place">griechisch</rs>en Stücken. Das war eine un¬
-               <lb facs="#facs_1_region_1776574352403_80_tl_26" n="N026"/>erhörte Neuerung und beschwor den Zorn der Akademie über
-               <lb facs="#facs_1_region_1776574352403_80_tl_27" n="N027"/>
-               <rs type="person">Corneille</rs>, der sich veranlaßt sah, in einer eigenen <rs type="bibl">Vorrede</rs> sich und
-               <lb facs="#facs_1_region_1776574352403_80_tl_28" n="N028"/>die arme <rs type="person">Chimene</rs> möglichst reinzuwaschen. Uns kümmert es
-               <lb facs="#facs_1_region_1776574352403_80_tl_29" n="N029"/>heute wenig, ob dieser Tadel (wie die Akademie ge¬
-               <lb facs="#facs_1_region_1776574352403_80_tl_30" n="N030"/>meint) oder dieses Lob (wie wir meinen) <rs type="person">Corneille</rs> selbst
-               <lb facs="#facs_1_region_1776574352403_80_tl_31" n="N031"/>treffe oder nicht vielmehr jenes <rs type="place">spanisch</rs>e Drama, das der
-               <lb facs="#facs_1_region_1776574352403_80_tl_32" n="N032"/>Franzose mit sehr weitem Gewissen „benützt“ hat: den <rs type="bibl">Cid</rs>
-               <lb facs="#facs_1_region_1776574352403_80_tl_33" n="N033"/>von <hi rendition="#em">Guillen <rs type="person">de Castro</rs>
-               </hi>
-               <rs type="person"/>. Dieser alte Spanier ist es,
-               <lb facs="#facs_1_region_1776574352403_80_tl_34" n="N034"/>welchen die drei Väter des <rs type="person">Massenet</rs>’schen Librettos, die Herren
-               <lb facs="#facs_1_region_1776574352403_80_tl_35" n="N035"/>
-               <rs type="person">d'Ennery</rs>, <rs type="person">Gallet</rs> und <rs type="person">Blau</rs>, neben <rs type="person">Corneille</rs> als den Großvater
-               <lb facs="#facs_1_region_1776574352403_80_tl_36" n="N036"/>ihres Sujets auf dem Textbuche namhaft machen. Für Opern¬
-               <lb facs="#facs_1_region_1776574352403_80_tl_37" n="N037"/>zwecke war <rs type="person">Corneille</rs>’s <rs type="bibl">Original</rs> natürlich nur zu gebrauchen,
-               <lb facs="#facs_1_region_1776574352403_80_tl_38" n="N038"/>wenn dessen spärliche Handlung durch Episoden bereichert und
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1776574358226_83_tl_1" n="N001"/>die Redseligkeit der Personen energisch gedämmt wurde. Das
-               <lb facs="#facs_1_region_1776574358226_83_tl_2" n="N002"/>dramatische Gerüst ist so gut wie unverändert geblieben. Die
-               <lb facs="#facs_1_region_1776574358226_83_tl_3" n="N003"/>Ausführung hingegen folgt ganz dem heutigen Geschmack der
-               <lb facs="#facs_1_region_1776574358226_83_tl_4" n="N004"/>
-               <rs type="place">Paris</rs>er Großen Oper, welche durch blendendes Schaugepränge
-               <lb facs="#facs_1_region_1776574358226_83_tl_5" n="N005"/>das Interesse an der Musik täglich mehr zurückdrängt. Schon
-               <lb facs="#facs_1_region_1776574358226_83_tl_6" n="N006"/>die Bezeichnung des Werkes als „Oper in vier Acten und
-               <lb facs="#facs_1_region_1776574358226_83_tl_7" n="N007"/>zehn Bildern“ — in <rs type="place">Wien</rs> auf sieben reducirt — ist charak¬
-               <lb facs="#facs_1_region_1776574358226_83_tl_8" n="N008"/>teristisch. Die „tableaux“ sind die Hauptsache; sie dominiren
-               <lb facs="#facs_1_region_1776574358226_83_tl_9" n="N009"/>die neue Oper, die uns viel Prächtiges zu sehen und wenig
-               <lb facs="#facs_1_region_1776574358226_83_tl_10" n="N010"/>Gutes zu hören gibt.
-               <lb facs="#facs_1_region_1776574358226_83_tl_11" n="N011"/>Im <hi rendition="#em">ersten Act</hi> sehen wir <rs type="person">Rodrigo</rs> siegreich aus der
-               <lb facs="#facs_1_region_1776574358226_83_tl_12" n="N012"/>Schlacht zurückkehren. Der <rs type="person">König</rs> ertheilt ihm vor allem
-               <lb facs="#facs_1_region_1776574358226_83_tl_13" n="N013"/>Volke den Ritterschlag. Tedeum in der Kathedrale. Graf
-               <lb facs="#facs_1_region_1776574358226_83_tl_14" n="N014"/>
-               <rs type="person">Gormas</rs>, der sich gegen den zum Gouverneur ernannten
-               <lb facs="#facs_1_region_1776574358226_83_tl_15" n="N015"/>Vater <rs type="person">Rodrigo</rs>’s, <rs type="person">Don Diego</rs>, zurückgesetzt fühlt, schlägt
-               <lb facs="#facs_1_region_1776574358226_83_tl_16" n="N016"/>diesen ins Gesicht. Der Beleidigte fordert seinen <rs type="person">Sohn</rs> zur
-               <lb facs="#facs_1_region_1776574358226_83_tl_17" n="N017"/>Rache auf. Der <hi rendition="#em">zweite Act</hi> bringt das Duell zwischen
-               <lb facs="#facs_1_region_1776574358226_83_tl_18" n="N018"/>
-               <rs type="person">Rodrigo</rs> und <rs type="person">Gormas</rs>, dem Vater <rs type="person">Chimene</rs>ns. <rs type="person">Gormas</rs>
-               <lb facs="#facs_1_region_1776574358226_83_tl_19" n="N019"/>fällt. Auf den Lärm eilt <rs type="person">Chimene</rs> entsetzt herbei, erblickt die
-               <lb facs="#facs_1_region_1776574358226_83_tl_20" n="N020"/>Leiche ihres <rs type="person">Vater</rs>s und erfährt, daß <rs type="person">Rodrigo</rs>, ihr Geliebter,
-               <lb facs="#facs_1_region_1776574358226_83_tl_21" n="N021"/>ihn getödtet. Neues Tableau: Volksfest und großes Ballet
-               <lb facs="#facs_1_region_1776574358226_83_tl_22" n="N022"/>auf dem Hauptplatze von <rs type="place">Burgos</rs>. <rs type="person">Chimene</rs> fordert Gerech¬
-               <lb facs="#facs_1_region_1776574358226_83_tl_23" n="N023"/>tigkeit vom <rs type="person">König</rs>e; mit eigener Hand will sie den Mörder
-               <lb facs="#facs_1_region_1776574358226_83_tl_24" n="N024"/>ihres <rs type="person">Vater</rs>s tödten. Da kommt ein maurischer Gesandter
-               <lb facs="#facs_1_region_1776574358226_83_tl_25" n="N025"/>herangeritten mit neuer Kriegserklärung. Der <rs type="person">König</rs> entläßt
-               <lb facs="#facs_1_region_1776574358226_83_tl_26" n="N026"/>ihn drohend und beauftragt <rs type="person">Rodrigo</rs>, sofort gegen die Un¬
-               <lb facs="#facs_1_region_1776574358226_83_tl_27" n="N027"/>gläubigen zu Felde zu ziehen. Der (mit vier Tableaux aus¬
-               <lb facs="#facs_1_region_1776574358226_83_tl_28" n="N028"/>gestattete) <hi rendition="#em">dritte Act</hi> führt uns in das Schlafgemach
-               <lb facs="#facs_1_region_1776574358226_83_tl_29" n="N029"/>
-               <rs type="person">Chimene</rs>ns, die, in Thränen aufgelöst, zwischen Pflicht und
-               <lb facs="#facs_1_region_1776574358226_83_tl_30" n="N030"/>Liebe kämpft. Plötzlich steht <rs type="person">Rodrigo</rs> vor ihr, um Abschied
-               <lb facs="#facs_1_region_1776574358226_83_tl_31" n="N031"/>zu nehmen und <rs type="person">Chimene</rs>ns Verzeihung zu erflehen. Großes
-               <lb facs="#facs_1_region_1776574358226_83_tl_32" n="N032"/>Duett. Die Scene verwandelt sich in ein Feldlager. Chor der
-               <lb facs="#facs_1_region_1776574358226_83_tl_33" n="N033"/>
-               <rs type="place">spanisch</rs>en Soldaten. Die Nacht bricht herein. <rs type="person">Rodrigo</rs> betet zu
-               <lb facs="#facs_1_region_1776574358226_83_tl_34" n="N034"/>seinem Schutzpatron <rs type="person">San Jago</rs>, der ihm, glanzumwoben, erscheint
-               <lb facs="#facs_1_region_1776574358226_83_tl_35" n="N035"/>und Sieg verheißt. Die Schlacht beginnt: Niederlage und
-               <lb facs="#facs_1_region_1776574358226_83_tl_36" n="N036"/>Flucht der Mauren. Der <hi rendition="#em">vierte Act</hi> bringt wieder einen
-               <lb facs="#facs_1_region_1776574358226_83_tl_37" n="N037"/>großen Triumphzug; <rs type="person">Rodrigo</rs>, als Sieger begrüßt, bietet
-               <lb facs="#facs_1_region_1776574358226_83_tl_38" n="N038"/>
-               <rs type="person">Chimene</rs>n sein Leben als Sühnopfer. Was thut sie, die den
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1776574358226_83_tl_1" n="N001"/>die Redseligkeit der Personen energisch gedämmt wurde. Das
+         <lb facs="#facs_1_region_1776574358226_83_tl_2" n="N002"/>dramatische Gerüst ist so gut wie unverändert geblieben. Die
+         <lb facs="#facs_1_region_1776574358226_83_tl_3" n="N003"/>Ausführung hingegen folgt ganz dem heutigen Geschmack der
+         <lb facs="#facs_1_region_1776574358226_83_tl_4" n="N004"/><rs type="place">Paris</rs>er Großen Oper, welche durch blendendes Schaugepränge
+         <lb facs="#facs_1_region_1776574358226_83_tl_5" n="N005"/>das Interesse an der Musik täglich mehr zurückdrängt. Schon
+         <lb facs="#facs_1_region_1776574358226_83_tl_6" n="N006"/>die Bezeichnung des Werkes als „Oper in vier Acten und
+         <lb facs="#facs_1_region_1776574358226_83_tl_7" n="N007"/>zehn Bildern“ — in <rs type="place">Wien</rs> auf sieben reducirt — ist charak
+         <lb facs="#facs_1_region_1776574358226_83_tl_8" n="N008" break="no"/>teristisch. Die „tableaux“ sind die Hauptsache; sie dominiren
+         <lb facs="#facs_1_region_1776574358226_83_tl_9" n="N009"/>die neue Oper, die uns viel Prächtiges zu sehen und wenig
+         <lb facs="#facs_1_region_1776574358226_83_tl_10" n="N010"/>Gutes zu hören gibt.
+            </p><p>
+         <lb facs="#facs_1_region_1776574358226_83_tl_11" n="N011"/>Im <hi rendition="#em">ersten Act</hi> sehen wir <rs type="person">Rodrigo</rs> siegreich aus der
+         <lb facs="#facs_1_region_1776574358226_83_tl_12" n="N012"/>Schlacht zurückkehren. Der <rs type="person">König</rs> ertheilt ihm vor allem
+         <lb facs="#facs_1_region_1776574358226_83_tl_13" n="N013"/>Volke den Ritterschlag. Tedeum in der Kathedrale. Graf
+         <lb facs="#facs_1_region_1776574358226_83_tl_14" n="N014"/><rs type="person">Gormas</rs>, der sich gegen den zum Gouverneur ernannten
+         <lb facs="#facs_1_region_1776574358226_83_tl_15" n="N015"/>Vater <rs type="person">Rodrigo</rs>’s, <rs type="person">Don Diego</rs>, zurückgesetzt fühlt, schlägt
+         <lb facs="#facs_1_region_1776574358226_83_tl_16" n="N016"/>diesen ins Gesicht. Der Beleidigte fordert seinen <rs type="person">Sohn</rs> zur
+         <lb facs="#facs_1_region_1776574358226_83_tl_17" n="N017"/>Rache auf. Der <hi rendition="#em">zweite Act</hi> bringt das Duell zwischen
+         <lb facs="#facs_1_region_1776574358226_83_tl_18" n="N018"/><rs type="person">Rodrigo</rs> und <rs type="person">Gormas</rs>, dem Vater <rs type="person">Chimene</rs>ns. <rs type="person">Gormas</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1776574358226_83_tl_19" n="N019"/>fällt. Auf den Lärm eilt <rs type="person">Chimene</rs> entsetzt herbei, erblickt die
+         <lb facs="#facs_1_region_1776574358226_83_tl_20" n="N020"/>Leiche ihres <rs type="person">Vater</rs>s und erfährt, daß <rs type="person">Rodrigo</rs>, ihr Geliebter,
+         <lb facs="#facs_1_region_1776574358226_83_tl_21" n="N021"/>ihn getödtet. Neues Tableau: Volksfest und großes Ballet
+         <lb facs="#facs_1_region_1776574358226_83_tl_22" n="N022"/>auf dem Hauptplatze von <rs type="place">Burgos</rs>. <rs type="person">Chimene</rs> fordert Gerech
+         <lb facs="#facs_1_region_1776574358226_83_tl_23" n="N023" break="no"/>tigkeit vom <rs type="person">König</rs>e; mit eigener Hand will sie den Mörder
+         <lb facs="#facs_1_region_1776574358226_83_tl_24" n="N024"/>ihres <rs type="person">Vater</rs>s tödten. Da kommt ein maurischer Gesandter
+         <lb facs="#facs_1_region_1776574358226_83_tl_25" n="N025"/>herangeritten mit neuer Kriegserklärung. Der <rs type="person">König</rs> entläßt
+         <lb facs="#facs_1_region_1776574358226_83_tl_26" n="N026"/>ihn drohend und beauftragt <rs type="person">Rodrigo</rs>, sofort gegen die Un
+         <lb facs="#facs_1_region_1776574358226_83_tl_27" n="N027" break="no"/>gläubigen zu Felde zu ziehen. Der (mit vier Tableaux aus
+         <lb facs="#facs_1_region_1776574358226_83_tl_28" n="N028" break="no"/>gestattete) <hi rendition="#em">dritte Act</hi> führt uns in das Schlafgemach
+         <lb facs="#facs_1_region_1776574358226_83_tl_29" n="N029"/><rs type="person">Chimene</rs>ns, die, in Thränen aufgelöst, zwischen Pflicht und
+         <lb facs="#facs_1_region_1776574358226_83_tl_30" n="N030"/>Liebe kämpft. Plötzlich steht <rs type="person">Rodrigo</rs> vor ihr, um Abschied
+         <lb facs="#facs_1_region_1776574358226_83_tl_31" n="N031"/>zu nehmen und <rs type="person">Chimene</rs>ns Verzeihung zu erflehen. Großes
+         <lb facs="#facs_1_region_1776574358226_83_tl_32" n="N032"/>Duett. Die Scene verwandelt sich in ein Feldlager. Chor der
+         <lb facs="#facs_1_region_1776574358226_83_tl_33" n="N033"/><rs type="place">spanisch</rs>en Soldaten. Die Nacht bricht herein. <rs type="person">Rodrigo</rs> betet zu
+         <lb facs="#facs_1_region_1776574358226_83_tl_34" n="N034"/>seinem Schutzpatron <rs type="person">San Jago</rs>, der ihm, glanzumwoben, erscheint
+         <lb facs="#facs_1_region_1776574358226_83_tl_35" n="N035"/>und Sieg verheißt. Die Schlacht beginnt: Niederlage und
+         <lb facs="#facs_1_region_1776574358226_83_tl_36" n="N036"/>Flucht der Mauren. Der <hi rendition="#em">vierte Act</hi> bringt wieder einen
+         <lb facs="#facs_1_region_1776574358226_83_tl_37" n="N037"/>großen Triumphzug; <rs type="person">Rodrigo</rs>, als Sieger begrüßt, bietet
+         <lb facs="#facs_1_region_1776574358226_83_tl_38" n="N038"/><rs type="person">Chimene</rs>n sein Leben als Sühnopfer. Was thut sie, die den<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776574374010_89_tl_1" n="N001"/>Mörder ihres <rs type="person">Vater</rs>s noch immer liebt? Verzeiht sie und
+         <lb facs="#facs_2_region_1776574374010_89_tl_2" n="N002"/>heiratet den <rs type="person">Rodrigo</rs>, oder tödtet sie sich selbst? Eines oder
+         <lb facs="#facs_2_region_1776574374010_89_tl_3" n="N003"/>das Andere, wie man will. In der Original-Partitur ruft
+         <lb facs="#facs_2_region_1776574374010_89_tl_4" n="N004"/>sie: „Sire, je l’aime!“; der <rs type="person">König</rs> verlobt das Paar, und
+         <lb facs="#facs_2_region_1776574374010_89_tl_5" n="N005"/>der Chor fällt mit einem Jubelgesang ein. In der <rs type="place">Wien</rs>er
+         <lb facs="#facs_2_line_1784535470648_201" n="N006"/>Bearbeitung (wir wissen nicht, ob <rs type="person">Massenet</rs> daran Theil hat)
+         <lb facs="#facs_2_line_1784535473504_204" n="N007"/>sind blos die letzten Worte geändert. Anstatt „Ich liebe ihn!“
+         <lb facs="#facs_2_region_1776574374010_89_tl_8" n="N008"/>ruft <rs type="person">Chimene</rs> zu <rs type="person">Rodrigo</rs>: „Halt ein! Den Tod für mich!“
+         <lb facs="#facs_2_region_1776574374010_89_tl_9" n="N009"/>und ersticht sich. Wir wollen nicht darüber streiten, ob unserer
+         <lb facs="#facs_2_region_1776574374010_89_tl_10" n="N010"/>modernen Anschauung dieser tragische Ausgang gerechtfer
+         <lb facs="#facs_2_region_1776574374010_89_tl_11" n="N011" break="no"/>tigter erscheine, als der glückliche. Aber der Selbstmord <rs type="person">Chi
+         <lb facs="#facs_2_region_1776574374010_89_tl_12" n="N012" break="no"/>mene</rs>ns streitet gegen die geschichtliche Wahrheit, gegen die in
+         <lb facs="#facs_2_region_1776574374010_89_tl_13" n="N013"/>den Romanzen fortlebende Sage, endlich gegen <rs type="person">Corneille</rs>’s
+         <lb facs="#facs_2_region_1776574374010_89_tl_14" n="N014"/><rs type="bibl">Drama</rs>, von dessen Ausgang die Oper nicht wohl abweichen
+         <lb facs="#facs_2_region_1776574374010_89_tl_15" n="N015"/>konnte noch durfte. Dasselbe schließt nicht mit einer förm
+         <lb facs="#facs_2_region_1776574374010_89_tl_16" n="N016" break="no"/>lichen Heirat, doch mit einem versöhnenden Ausblick auf eine
+         <lb facs="#facs_2_region_1776574374010_89_tl_17" n="N017"/>solche. Der <rs type="person">König</rs> schickt <rs type="person">Rodrigo</rs> nochmals ins Feld, ver
+         <lb facs="#facs_2_region_1776574374010_89_tl_18" n="N018" break="no"/>spricht aber dem siegreich Zurückkehrenden die Hand <rs type="person">Chi
+         <lb facs="#facs_2_region_1776574374010_89_tl_19" n="N019" break="no"/>menen</rs>s, deren Herz er ja längst besitze. Worauf <rs type="person">Rodrigo</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1776574374010_89_tl_20" n="N020"/>mit galanter Fassung erwidert: „Quoi qu’absent de ses
+         <lb facs="#facs_2_region_1776574374010_89_tl_21" n="N021"/>yeux il me faille endurer, Sire, ça m’est trop d’heur de
+         <lb facs="#facs_2_region_1776574374010_89_tl_22" n="N022"/>pouvoir espérer.“ Thatsächlich haben <rs type="person">Rodrigo</rs> und <rs type="person">Chimene</rs> in
+         <lb facs="#facs_2_region_1776574374010_89_tl_23" n="N023"/>langer glücklicher Ehe gelebt; in <rs type="person">Herder</rs>’s <rs type="bibl">Romanzen</rs> lernen
+         <lb facs="#facs_2_region_1776574374010_89_tl_24" n="N024"/>wir sogar ihre beiden schönen <rs type="person">Töchter</rs> kennen. Aus drama
+         <lb facs="#facs_2_region_1776574374010_89_tl_25" n="N025" break="no"/>turgischem Gesichtspunkte ist der tragische <rs type="place">Wien</rs>er Ausgang
+         <lb facs="#facs_2_region_1776574374010_89_tl_26" n="N026"/>ganzmißlungen; in seiner Plötzlichkeit überrumpelt er den
+         <lb facs="#facs_2_region_1776574374010_89_tl_27" n="N027"/>Zuschauer und hinterläßt nur den Eindruck der Verblüffung.
+         <lb facs="#facs_2_region_1776574374010_89_tl_28" n="N028"/>Kaum daß <rs type="person">Chimene</rs> nach dem Dolch langt, ist auch schon
+         <lb facs="#facs_2_region_1776574374010_89_tl_29" n="N029"/>der Vorhang gefallen. Die Oper schließt nicht; sie stürzt
+         <lb facs="#facs_2_region_1776574374010_89_tl_30" n="N030"/>lautlos in eine Versenkung.
+            </p><p>
+         <lb facs="#facs_2_region_1776574374010_89_tl_31" n="N031"/>Der „<rs type="bibl">Cid</rs>“ ist die erste Oper von <rs type="person">Massenet</rs>, die Ein
+         <lb facs="#facs_2_region_1776574374010_89_tl_32" n="N032" break="no"/>gang ins Hofoperntheater gefunden; ja — abgesehen von
+         <lb facs="#facs_2_line_1784535981254_282" n="N033"/>einem <date>1874</date> im Ringtheater aufgeführten leichteren Jugend
+         <lb facs="#facs_2_line_1784535984405_285" n="N034" break="no"/>werke „<rs type="bibl">Don César de Bazan</rs>“ — die einzige Oper dieses
+         <lb facs="#facs_2_region_1776574374010_89_tl_37" n="N035"/>Componisten, welche den Wienern bekannt worden ist. Das
+         <lb facs="#facs_2_region_1776574374010_89_tl_38" n="N036"/>allein rechtfertigt schon die Wahl der Hofopern-Direction:
+         <lb facs="#facs_2_region_1776574374010_89_tl_39" n="N037"/>sie wollte ihr Publicum endlich mit einem gefeierten <rs type="place">fran
+         <lb facs="#facs_2_region_1776574374010_89_tl_40" n="N038" break="no"/>zösisch</rs>en Tondichter bekannt machen, dessen frühere Opern —<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1776574374010_89_tl_1" n="N001"/>Mörder ihres <rs type="person">Vater</rs>s noch immer liebt? Verzeiht sie und
-               <lb facs="#facs_2_region_1776574374010_89_tl_2" n="N002"/>heiratet den <rs type="person">Rodrigo</rs>, oder tödtet sie sich selbst? Eines oder
-               <lb facs="#facs_2_region_1776574374010_89_tl_3" n="N003"/>das Andere, wie man will. In der Original-Partitur ruft
-               <lb facs="#facs_2_region_1776574374010_89_tl_4" n="N004"/>sie: „Sire, je l’aime!“; der <rs type="person">König</rs> verlobt das Paar, und
-               <lb facs="#facs_2_region_1776574374010_89_tl_5" n="N005"/>der Chor fällt mit einem Jubelgesang ein. In der <rs type="place">Wien</rs>er
-               <lb facs="#facs_2_line_1784535470648_201" n="N006"/>Bearbeitung (wir wissen nicht, ob <rs type="person">Massenet</rs> daran Theil hat)
-               <lb facs="#facs_2_line_1784535473504_204" n="N007"/>sind blos die letzten Worte geändert. Anstatt „Ich liebe ihn!“
-               <lb facs="#facs_2_region_1776574374010_89_tl_8" n="N008"/>ruft <rs type="person">Chimene</rs> zu <rs type="person">Rodrigo</rs>: „Halt ein! Den Tod für mich!“
-               <lb facs="#facs_2_region_1776574374010_89_tl_9" n="N009"/>und ersticht sich. Wir wollen nicht darüber streiten, ob unserer
-               <lb facs="#facs_2_region_1776574374010_89_tl_10" n="N010"/>modernen Anschauung dieser tragische Ausgang gerechtfer¬
-               <lb facs="#facs_2_region_1776574374010_89_tl_11" n="N011"/>tigter erscheine, als der glückliche. Aber der Selbstmord <rs type="person" continued="true">Chi¬</rs>
-               <lb facs="#facs_2_region_1776574374010_89_tl_12" n="N012"/>
-               <rs type="person" continued="true">mene</rs>ns streitet gegen die geschichtliche Wahrheit, gegen die in
-               <lb facs="#facs_2_region_1776574374010_89_tl_13" n="N013"/>den Romanzen fortlebende Sage, endlich gegen <rs type="person">Corneille</rs>’s
-               <lb facs="#facs_2_region_1776574374010_89_tl_14" n="N014"/>
-               <rs type="bibl">Drama</rs>, von dessen Ausgang die Oper nicht wohl abweichen
-               <lb facs="#facs_2_region_1776574374010_89_tl_15" n="N015"/>konnte noch durfte. Dasselbe schließt nicht mit einer förm¬
-               <lb facs="#facs_2_region_1776574374010_89_tl_16" n="N016"/>lichen Heirat, doch mit einem versöhnenden Ausblick auf eine
-               <lb facs="#facs_2_region_1776574374010_89_tl_17" n="N017"/>solche. Der <rs type="person">König</rs> schickt <rs type="person">Rodrigo</rs> nochmals ins Feld, ver¬
-               <lb facs="#facs_2_region_1776574374010_89_tl_18" n="N018"/>spricht aber dem siegreich Zurückkehrenden die Hand <rs type="person" continued="true">Chi¬</rs>
-               <lb facs="#facs_2_region_1776574374010_89_tl_19" n="N019"/>
-               <rs type="person" continued="true">menen</rs>s, deren Herz er ja längst besitze. Worauf <rs type="person">Rodrigo</rs>
-               <lb facs="#facs_2_region_1776574374010_89_tl_20" n="N020"/>mit galanter Fassung erwidert: „Quoi qu’absent de ses
-               <lb facs="#facs_2_region_1776574374010_89_tl_21" n="N021"/>yeux il me faille endurer, Sire, ça m'est trop d’heur de
-               <lb facs="#facs_2_region_1776574374010_89_tl_22" n="N022"/>pouvoir espérer.“ Thatsächlich haben <rs type="person">Rodrigo</rs> und <rs type="person">Chimene</rs> in
-               <lb facs="#facs_2_region_1776574374010_89_tl_23" n="N023"/>langer glücklicher Ehe gelebt; in <rs type="person">Herder</rs>’s <rs type="bibl">Romanzen</rs> lernen
-               <lb facs="#facs_2_region_1776574374010_89_tl_24" n="N024"/>wir sogar ihre beiden schönen <rs type="person">Töchter</rs> kennen. Aus drama¬
-               <lb facs="#facs_2_region_1776574374010_89_tl_25" n="N025"/>turgischem Gesichtspunkte ist der tragische <rs type="place">Wien</rs>er Ausgang
-               <lb facs="#facs_2_region_1776574374010_89_tl_26" n="N026"/>ganz mißlungen; in seiner Plötzlichkeit überrumpelt er den
-               <lb facs="#facs_2_region_1776574374010_89_tl_27" n="N027"/>Zuschauer und hinterläßt nur den Eindruck der Verblüffung.
-               <lb facs="#facs_2_region_1776574374010_89_tl_28" n="N028"/>Kaum daß <rs type="person">Chimene</rs> nach dem Dolch langt, ist auch schon
-               <lb facs="#facs_2_region_1776574374010_89_tl_29" n="N029"/>der Vorhang gefallen. Die Oper schließt nicht; sie stürzt
-               <lb facs="#facs_2_region_1776574374010_89_tl_30" n="N030"/>lautlos in eine Versenkung.
-               <lb facs="#facs_2_region_1776574374010_89_tl_31" n="N031"/>Der „<rs type="bibl">Cid</rs>“ ist die erste Oper von <rs type="person">Massenet</rs>, die Ein¬
-               <lb facs="#facs_2_region_1776574374010_89_tl_32" n="N032"/>gang ins Hofoperntheater gefunden; ja — abgesehen von
-               <lb facs="#facs_2_line_1784535981254_282" n="N033"/>einem <date month="0" day="0" year="0">1874</date> im Ringtheater aufgeführten leichteren Jugend¬
-               <lb facs="#facs_2_line_1784535984405_285" n="N034"/>werke „<rs type="bibl">Don César de Bazan</rs>“ — die einzige Oper dieses
-               <lb facs="#facs_2_region_1776574374010_89_tl_37" n="N035"/>Componisten, welche den Wienern bekannt worden ist. Das
-               <lb facs="#facs_2_region_1776574374010_89_tl_38" n="N036"/>allein rechtfertigt schon die Wahl der Hofopern-Direction:
-               <lb facs="#facs_2_region_1776574374010_89_tl_39" n="N037"/>sie wollte ihr Publicum endlich mit einem gefeierten <rs type="place" continued="true">fran¬</rs>
-               <lb facs="#facs_2_region_1776574374010_89_tl_40" n="N038"/>
-               <rs type="place" continued="true">zösisch</rs>en Tondichter bekannt machen, dessen frühere Opern —
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776574389938_92_tl_1" n="N001"/>„<rs type="bibl">Der König von Lahore</rs>“, „<rs type="bibl">Herodias</rs>“ und „<rs type="bibl">Manon Les
+         <lb facs="#facs_2_region_1776574389938_92_tl_2" n="N002" break="no"/>caut</rs>“ — bereits auf zahlreichen Bühnen des Auslandes Fuß
+         <lb facs="#facs_2_region_1776574389938_92_tl_3" n="N003"/>gefaßt haben. Den beiden erstgenannten großen Opern steht
+         <lb facs="#facs_2_region_1776574389938_92_tl_4" n="N004"/>der „<rs type="bibl">Cid</rs>" in keinem Betrachte nach; eher hätten wir die
+         <lb facs="#facs_2_region_1776574389938_92_tl_5" n="N005"/>für die Opéra Comique geschriebene „<rs type="bibl">Manon</rs>“ vorgezogen,
+         <lb facs="#facs_2_region_1776574389938_92_tl_6" n="N006"/>welche neben vielem Unerquicklichen doch auch sehr anmuthige
+         <lb facs="#facs_2_region_1776574389938_92_tl_7" n="N007"/>Stellen enthält, wie denn überhaupt <rs type="person">Massenet</rs>’s Talent weit
+         <lb facs="#facs_2_region_1776574389938_92_tl_8" n="N008"/>mehr dem Genrebilde als dem großen historischen Gemälde
+         <lb facs="#facs_2_region_1776574389938_92_tl_9" n="N009"/>entspricht. Indessen bezeichnen die meisten <rs type="place">Paris</rs>er Kritiker
+         <lb facs="#facs_2_region_1776574389938_92_tl_10" n="N010"/>den „<hi rendition="#em"><rs type="bibl">Cid</rs></hi>“ als das beste Werk <rs type="person">Massenet</rs>’s und feiern diesen
+         <lb facs="#facs_2_region_1776574389938_92_tl_11" n="N011"/>als grand maître und Haupt der jüngeren <rs type="place">französisch</rs>en
+         <lb facs="#facs_2_region_1776574389938_92_tl_12" n="N012"/>Schule. Ein Zeugniß für die musikalische Verarmung <rs type="place">Frank
+         <lb facs="#facs_2_region_1776574389938_92_tl_13" n="N013" break="no"/>reich</rs>s, wie es beredter kaum sein kann. <rs type="person">Massenet</rs>’s Erfindung
+         <lb facs="#facs_2_region_1776574389938_92_tl_14" n="N014"/>ist ebenso arm, wie spröde; mit zwei bis drei gefälligen Me
+         <lb facs="#facs_2_region_1776574389938_92_tl_15" n="N015" break="no"/>lodien oder melodiösen Ansätzen in einer langen vieractigen
+         <lb facs="#facs_2_region_1776574389938_92_tl_16" n="N016"/>Oper hat sie sich ausgegeben. Ein athemloses Jagen nach
+         <lb facs="#facs_2_region_1776574389938_92_tl_17" n="N017"/>Effect bei stets gekünstelter, raffinirter Ausführung beherrscht
+         <lb facs="#facs_2_region_1776574389938_92_tl_18" n="N018"/>jede seiner Opern. So vorschlagend ist seine Absichtlichkeit,
+         <lb facs="#facs_2_region_1776574389938_92_tl_19" n="N019"/>daß es ihm fast unmöglich ist, eine natürlich fließende Me
+         <lb facs="#facs_2_region_1776574389938_92_tl_20" n="N020" break="no"/>lodie zu schreiben; Alles ist verzwickt, gebrochen, zu einer
+         <lb facs="#facs_2_region_1776574389938_92_tl_21" n="N021"/>Originalität gequält, die durch keine Anstrengung erreicht
+         <lb facs="#facs_2_region_1776574389938_92_tl_22" n="N022"/>wird. Von <rs type="person">Auber</rs>, <rs type="person">Meyerbeer</rs> und <rs type="person">Halévy</rs> gar nicht zu sprechen,
+         <lb facs="#facs_2_region_1776574389938_92_tl_23" n="N023"/>stehen <rs type="person">Gounod</rs> und Ambroise <rs type="person">Thomas</rs> an musikalischem Ta
+         <lb facs="#facs_2_region_1776574389938_92_tl_24" n="N024" break="no"/>lent und natürlicher Empfindung hoch über <rs type="person">Massenet</rs>. Auch
+         <lb facs="#facs_2_region_1776574389938_92_tl_25" n="N025"/><rs type="person">Delibes</rs>, dessen Begabung sich allerdings glücklicher in seinen
+         <lb facs="#facs_2_region_1776574389938_92_tl_26" n="N026"/>Balletten als in der Oper manifestirt, ist ursprünglicher.
+         <lb facs="#facs_2_region_1776574389938_92_tl_27" n="N027"/><hi rendition="#em">Jules <rs type="person">Massenet</rs></hi> die musikalische Spitze des heutigen
+         <lb facs="#facs_2_region_1776574389938_92_tl_28" n="N028"/><rs type="place">Frankreich</rs>! Freilich, wenn man lärmende Armseligkeiten wie
+         <lb facs="#facs_2_region_1776574389938_92_tl_29" n="N029"/>„<rs type="bibl">Sigurd</rs>“ von Ernest <rs type="person">Reyer</rs>, „<rs type="bibl">La Patrie</rs>“ von <rs type="person">Pala
+         <lb facs="#facs_2_region_1776574389938_92_tl_30" n="N030" break="no"/>dilhe</rs> und Aehnliches ansieht, begreift man es allen
+         <lb facs="#facs_2_region_1776574389938_92_tl_31" n="N031" break="no"/>falls. In sicherer und blendender Technik, insbesondere
+         <lb facs="#facs_2_region_1776574389938_92_tl_32" n="N032"/>der Orchesterbehandlung, in geistreichem Detail, im Pathos
+         <lb facs="#facs_2_region_1776574389938_92_tl_33" n="N033"/>einer ganz aufs „Dramatische“ dressirten Beredsamkeit thut
+         <lb facs="#facs_2_region_1776574389938_92_tl_34" n="N034"/><rs type="person">Massenet</rs> es seinen Collegen zuvor. Die Declamation ist
+         <lb facs="#facs_2_region_1776574389938_92_tl_35" n="N035"/>sorgfältig beachtet; die Instrumentirung, wo sie nicht in bru
+         <lb facs="#facs_2_region_1776574389938_92_tl_36" n="N036" break="no"/>talem Lärm zerplatzt, interessant und geistreich; der Gesang
+         <lb facs="#facs_2_region_1776574389938_92_tl_37" n="N037"/>hingegen stockend, blutleer, ein steter Wechsel von Krampf
+         <lb facs="#facs_2_region_1776574389938_92_tl_38" n="N038"/>und Hinfälligkeit. Wie lange müssen wir auf einen schönen,<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1776574389938_92_tl_1" n="N001"/>„<rs type="bibl">Der König von Lahore</rs>“, „<rs type="bibl">Herodias</rs>“ und „<rs type="bibl">Manon Les¬</rs>
-               <lb facs="#facs_2_region_1776574389938_92_tl_2" n="N002"/>
-               <rs type="bibl">caut</rs>“ — bereits auf zahlreichen Bühnen des Auslandes Fuß
-               <lb facs="#facs_2_region_1776574389938_92_tl_3" n="N003"/>gefaßt haben. Den beiden erstgenannten großen Opern steht
-               <lb facs="#facs_2_region_1776574389938_92_tl_4" n="N004"/>der „<rs type="bibl">Cid</rs>" in keinem Betrachte nach; eher hätten wir die
-               <lb facs="#facs_2_region_1776574389938_92_tl_5" n="N005"/>für die Opéra Comique geschriebene „<rs type="bibl">Manon</rs>“ vorgezogen,
-               <lb facs="#facs_2_region_1776574389938_92_tl_6" n="N006"/>welche neben vielem Unerquicklichen doch auch sehr anmuthige
-               <lb facs="#facs_2_region_1776574389938_92_tl_7" n="N007"/>Stellen enthält, wie denn überhaupt <rs type="person">Massenet</rs>’s Talent weit
-               <lb facs="#facs_2_region_1776574389938_92_tl_8" n="N008"/>mehr dem Genrebilde als dem großen historischen Gemälde
-               <lb facs="#facs_2_region_1776574389938_92_tl_9" n="N009"/>entspricht. Indessen bezeichnen die meisten <rs type="place">Paris</rs>er Kritiker
-               <lb facs="#facs_2_region_1776574389938_92_tl_10" n="N010"/>den „<hi rendition="#em">
-                  <rs type="bibl">Cid</rs>
-               </hi>“ als das beste Werk <rs type="person">Massenet</rs>’s und feiern diesen
-               <lb facs="#facs_2_region_1776574389938_92_tl_11" n="N011"/>als grand maître und Haupt der jüngeren <rs type="place">französisch</rs>en
-               <lb facs="#facs_2_region_1776574389938_92_tl_12" n="N012"/>Schule. Ein Zeugniß für die musikalische Verarmung <rs type="place" continued="true">Frank¬</rs>
-               <lb facs="#facs_2_region_1776574389938_92_tl_13" n="N013"/>
-               <rs type="place" continued="true">reich</rs>s, wie es beredter kaum sein kann. <rs type="person">Massenet</rs>’s Erfindung
-               <lb facs="#facs_2_region_1776574389938_92_tl_14" n="N014"/>ist ebenso arm, wie spröde; mit zwei bis drei gefälligen Me¬
-               <lb facs="#facs_2_region_1776574389938_92_tl_15" n="N015"/>lodien oder melodiösen Ansätzen in einer langen vieractigen
-               <lb facs="#facs_2_region_1776574389938_92_tl_16" n="N016"/>Oper hat sie sich ausgegeben. Ein athemloses Jagen nach
-               <lb facs="#facs_2_region_1776574389938_92_tl_17" n="N017"/>Effect bei stets gekünstelter, raffinirter Ausführung beherrscht
-               <lb facs="#facs_2_region_1776574389938_92_tl_18" n="N018"/>jede seiner Opern. So vorschlagend ist seine Absichtlichkeit,
-               <lb facs="#facs_2_region_1776574389938_92_tl_19" n="N019"/>daß es ihm fast unmöglich ist, eine natürlich fließende Me¬
-               <lb facs="#facs_2_region_1776574389938_92_tl_20" n="N020"/>lodie zu schreiben; Alles ist verzwickt, gebrochen, zu einer
-               <lb facs="#facs_2_region_1776574389938_92_tl_21" n="N021"/>Originalität gequält, die durch keine Anstrengung erreicht
-               <lb facs="#facs_2_region_1776574389938_92_tl_22" n="N022"/>wird. Von <rs type="person">Auber</rs>, <rs type="person">Meyerbeer</rs> und <rs type="person">Halévy</rs> gar nicht zu sprechen,
-               <lb facs="#facs_2_region_1776574389938_92_tl_23" n="N023"/>stehen <rs type="person">Gounod</rs> und Ambroise <rs type="person">Thomas</rs> an musikalischem Ta¬
-               <lb facs="#facs_2_region_1776574389938_92_tl_24" n="N024"/>lent und natürlicher Empfindung hoch über <rs type="person">Massenet</rs>. Auch
-               <lb facs="#facs_2_region_1776574389938_92_tl_25" n="N025"/>
-               <rs type="person">Delibes</rs>, dessen Begabung sich allerdings glücklicher in seinen
-               <lb facs="#facs_2_region_1776574389938_92_tl_26" n="N026"/>Balletten als in der Oper manifestirt, ist ursprünglicher.
-               <lb facs="#facs_2_region_1776574389938_92_tl_27" n="N027"/>
-               <hi rendition="#em">Jules <rs type="person">Massenet</rs>
-               </hi> die musikalische Spitze des heutigen
-               <lb facs="#facs_2_region_1776574389938_92_tl_28" n="N028"/>
-               <rs type="place">Frankreich</rs>! Freilich, wenn man lärmende Armseligkeiten wie
-               <lb facs="#facs_2_region_1776574389938_92_tl_29" n="N029"/>„<rs type="bibl">Sigurd</rs>“ von Ernest <rs type="person">Reyer</rs>, „<rs type="bibl">La Patrie</rs>“ von <rs type="person" continued="true">Pala¬</rs>
-               <lb facs="#facs_2_region_1776574389938_92_tl_30" n="N030"/>
-               <rs type="person" continued="true">dilhe</rs> und Aehnliches ansieht, begreift man es allen¬
-               <lb facs="#facs_2_region_1776574389938_92_tl_31" n="N031"/>falls. In sicherer und blendender Technik, insbesondere
-               <lb facs="#facs_2_region_1776574389938_92_tl_32" n="N032"/>der Orchesterbehandlung, in geistreichem Detail, im Pathos
-               <lb facs="#facs_2_region_1776574389938_92_tl_33" n="N033"/>einer ganz aufs „Dramatische“ dressirten Beredsamkeit thut
-               <lb facs="#facs_2_region_1776574389938_92_tl_34" n="N034"/>
-               <rs type="person">Massenet</rs> es seinen Collegen zuvor. Die Declamation ist
-               <lb facs="#facs_2_region_1776574389938_92_tl_35" n="N035"/>sorgfältig beachtet; die Instrumentirung, wo sie nicht in bru¬
-               <lb facs="#facs_2_region_1776574389938_92_tl_36" n="N036"/>talem Lärm zerplatzt, interessant und geistreich; der Gesang
-               <lb facs="#facs_2_region_1776574389938_92_tl_37" n="N037"/>hingegen stockend, blutleer, ein steter Wechsel von Krampf
-               <lb facs="#facs_2_region_1776574389938_92_tl_38" n="N038"/>und Hinfälligkeit. Wie lange müssen wir auf einen schönen,
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1776574396003_95_tl_1" n="N001"/>originellen Gedanken warten, auf eine Melodie, die aus dem
-               <lb facs="#facs_2_region_1776574396003_95_tl_2" n="N002"/>Herzen quillt und zum Herzen spricht! Wie selten erhebt sich
-               <lb facs="#facs_2_region_1776574396003_95_tl_3" n="N003"/>ein natürlich und eigenartig empfundenes Stück Musik aus
-               <lb facs="#facs_2_region_1776574396003_95_tl_4" n="N004"/>diesem unabsehbaren Phrasensee, der fortwährend durch Zu¬
-               <lb facs="#facs_2_region_1776574396003_95_tl_5" n="N005"/>flüsse aus <rs type="person">Meyerbeer</rs>, <rs type="person">Halévy</rs> und <rs type="person">Gounod</rs> gespeist wird!
-               <lb facs="#facs_2_region_1776574396003_95_tl_6" n="N006"/>Auch einige harmonische und melodische Wendungen aus dem
-               <lb facs="#facs_2_region_1776574396003_95_tl_7" n="N007"/>
-               <rs type="bibl">Tannhäuser</rs> hat sich der „<rs type="bibl">Cid</rs>“ gemerkt. <rs type="person">Massenet</rs> gilt in
-               <lb facs="#facs_2_region_1776574396003_95_tl_8" n="N008"/>
-               <rs type="place">Paris</rs> für den entschiedensten Wagnerianer, und wer von
-               <lb facs="#facs_2_region_1776574396003_95_tl_9" n="N009"/>„<rs type="person">Wagner</rs>“ nur ganz unbestimmte Vorstellungen hat, mag
-               <lb facs="#facs_2_line_1784536788341_379" n="N010"/>ihn dafür halten. Jedenfalls ist von <rs type="person">Massenet</rs>’s <rs type="place">Bayreuth</rs>er
-               <lb facs="#facs_2_line_1784536791991_382" n="N011"/>Pilgerfahrt nichts in seine Partituren übergegangen; diese
-               <lb facs="#facs_2_region_1776574396003_95_tl_14" n="N012"/>sind ganz so componirt, wie es die rasche, consequente Ent¬
-               <lb facs="#facs_2_region_1776574396003_95_tl_15" n="N013"/>wicklung der <rs type="place">Paris</rs>er Großen Oper seit <rs type="person">Meyerbeer</rs> und
-               <lb facs="#facs_2_region_1776574396003_95_tl_16" n="N014"/>
-               <rs type="person">Halévy</rs> bedingt. Die Franzosen sind eben seit fünfzig Jahren
-               <lb facs="#facs_2_region_1776574396003_95_tl_17" n="N015"/>in Zuspitzung des dramatischen Accents, in Lockerung der
-               <lb facs="#facs_2_region_1776574396003_95_tl_18" n="N016"/>musikalischen Form, in äußerster Anspannung aller Effect¬
-               <lb facs="#facs_2_region_1776574396003_95_tl_19" n="N017"/>mittel weiter und weiter gegangen. Nichts nöthigt dazu,
-               <lb facs="#facs_2_region_1776574396003_95_tl_20" n="N018"/>
-               <hi rendition="#em">
-                  <rs type="person">Wagner</rs>
-               </hi> als ein nothwendiges Mittelglied zwischen <rs type="person" continued="true">Meyer¬</rs>
-               <lb facs="#facs_2_region_1776574396003_95_tl_21" n="N019"/>
-               <rs type="person" continued="true">beer</rs> und <rs type="person">Massenet</rs> anzusehen.
-               <lb facs="#facs_2_region_1776574396003_95_tl_22" n="N020"/>Noch vor dem Aufziehen des Vorhanges überrascht uns
-               <lb facs="#facs_2_region_1776574396003_95_tl_23" n="N021"/>etwas Erstaunliches: eine <hi rendition="#em">Ouvertüre</hi>. Die Sitte, eine
-               <lb facs="#facs_2_region_1776574396003_95_tl_24" n="N022"/>selbstständige Ouvertüre zu schreiben, hat in der Großen
-               <lb facs="#facs_2_region_1776574396003_95_tl_25" n="N023"/>Oper seit <rs type="person">Meyerbeer</rs> und <rs type="person">Halévy</rs> aufgehört; sie lebt nur
-               <lb facs="#facs_2_region_1776574396003_95_tl_26" n="N024"/>noch in der Opéra Comique fort. Von <rs type="person">Massenet</rs>’s Opern
-               <lb facs="#facs_2_region_1776574396003_95_tl_27" n="N025"/>ist der „<rs type="bibl">Cid</rs>“ die einzige, die sich den Luxus einer eigenen
-               <lb facs="#facs_2_region_1776574396003_95_tl_28" n="N026"/>Ouvertüre gestattet. Die Hauptmotive der Oper wühlen
-               <lb facs="#facs_2_region_1776574396003_95_tl_29" n="N027"/>darin in nichtssagender Aufgeregtheit durcheinander. Der
-               <lb facs="#facs_2_region_1776574396003_95_tl_30" n="N028"/>Componist hätte sich und uns diese Ouvertüre um so
-               <lb facs="#facs_2_region_1776574396003_95_tl_31" n="N029"/>leichter erlassen können, als ja der erste Act ohnehin mit
-               <lb facs="#facs_2_region_1776574396003_95_tl_32" n="N030"/>einer stattlichen Reihe von Trompeten-Fanfaren anhebt, zu
-               <lb facs="#facs_2_region_1776574396003_95_tl_33" n="N031"/>welcher sich beim Herannahen <rs type="person">Rodrigo</rs>’s vier gestimmte
-               <lb facs="#facs_2_region_1776574396003_95_tl_34" n="N032"/>Kirchenglocken, die Orgel und ein auf Einem Ton plärren¬
-               <lb facs="#facs_2_region_1776574396003_95_tl_35" n="N033"/>der Gebetchor noch zugesellen. Die Siegeshymne <rs type="person">Rodrigo</rs>’s
-               <lb facs="#facs_2_region_1776574396003_95_tl_36" n="N034"/>(mit Harfenbegleitung) ist eine schwache Nachbildung des
-               <lb facs="#facs_2_region_1776574396003_95_tl_37" n="N035"/>„<rs type="bibl">Propheten</rs>“, unnatürlich geschraubt und trotz der langsamen
-               <lb facs="#facs_2_region_1776574396003_95_tl_38" n="N036"/>Bewegung unruhig und zerrissen. Da sie dem Tenoristen
-               <lb facs="#facs_2_region_1776574396003_95_tl_39" n="N037"/>Gelegenheit gibt, ein halb Dutzend hohe B herauszuschmet¬
-               <lb facs="#facs_2_region_1776574396003_95_tl_40" n="N038"/>tern, müssen wir sie leider in der Schlachtscene des dritten
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776574396003_95_tl_1" n="N001"/>originellen Gedanken warten, auf eine Melodie, die aus dem
+         <lb facs="#facs_2_region_1776574396003_95_tl_2" n="N002"/>Herzen quillt und zum Herzen spricht! Wie selten erhebt sich
+         <lb facs="#facs_2_region_1776574396003_95_tl_3" n="N003"/>ein natürlich und eigenartig empfundenes Stück Musik aus
+         <lb facs="#facs_2_region_1776574396003_95_tl_4" n="N004"/>diesem unabsehbaren Phrasensee, der fortwährend durch Zu
+         <lb facs="#facs_2_region_1776574396003_95_tl_5" n="N005" break="no"/>flüsse aus <rs type="person">Meyerbeer</rs>, <rs type="person">Halévy</rs> und <rs type="person">Gounod</rs> gespeist wird!
+         <lb facs="#facs_2_region_1776574396003_95_tl_6" n="N006"/>Auch einige harmonische und melodische Wendungen aus dem
+         <lb facs="#facs_2_region_1776574396003_95_tl_7" n="N007"/><rs type="bibl">Tannhäuser</rs> hat sich der „<rs type="bibl">Cid</rs>“ gemerkt. <rs type="person">Massenet</rs> gilt in
+         <lb facs="#facs_2_region_1776574396003_95_tl_8" n="N008"/><rs type="place">Paris</rs> für den entschiedensten Wagnerianer, und wer von
+         <lb facs="#facs_2_region_1776574396003_95_tl_9" n="N009"/>„<rs type="person">Wagner</rs>“ nur ganz unbestimmte Vorstellungen hat, mag
+         <lb facs="#facs_2_line_1784536788341_379" n="N010"/>ihn dafür halten. Jedenfalls ist von <rs type="person">Massenet</rs>’s <rs type="place">Bayreuth</rs>er
+         <lb facs="#facs_2_line_1784536791991_382" n="N011"/>Pilgerfahrt nichts in seine Partituren übergegangen; diese
+         <lb facs="#facs_2_region_1776574396003_95_tl_14" n="N012"/>sind ganz so componirt, wie es die rasche, consequente Ent
+         <lb facs="#facs_2_region_1776574396003_95_tl_15" n="N013" break="no"/>wicklung der <rs type="place">Paris</rs>er Großen Oper seit <rs type="person">Meyerbeer</rs> und
+         <lb facs="#facs_2_region_1776574396003_95_tl_16" n="N014"/><rs type="person">Halévy</rs> bedingt. Die Franzosen sind eben seit fünfzig Jahren
+         <lb facs="#facs_2_region_1776574396003_95_tl_17" n="N015"/>in Zuspitzung des dramatischen Accents, in Lockerung der
+         <lb facs="#facs_2_region_1776574396003_95_tl_18" n="N016"/>musikalischen Form, in äußerster Anspannung aller Effect
+         <lb facs="#facs_2_region_1776574396003_95_tl_19" n="N017" break="no"/>mittel weiter und weiter gegangen. Nichts nöthigt dazu,
+         <lb facs="#facs_2_region_1776574396003_95_tl_20" n="N018"/><hi rendition="#em"><rs type="person">Wagner</rs></hi> als ein nothwendiges Mittelglied zwischen <rs type="person">Meyer
+         <lb facs="#facs_2_region_1776574396003_95_tl_21" n="N019" break="no"/>beer</rs> und <rs type="person">Massenet</rs> anzusehen.
+            </p><p>
+         <lb facs="#facs_2_region_1776574396003_95_tl_22" n="N020"/>Noch vor dem Aufziehen des Vorhanges überrascht uns
+         <lb facs="#facs_2_region_1776574396003_95_tl_23" n="N021"/>etwas Erstaunliches: eine <hi rendition="#em">Ouvertüre</hi>. Die Sitte, eine
+         <lb facs="#facs_2_region_1776574396003_95_tl_24" n="N022"/>selbstständige Ouvertüre zu schreiben, hat in der Großen
+         <lb facs="#facs_2_region_1776574396003_95_tl_25" n="N023"/>Oper seit <rs type="person">Meyerbeer</rs> und <rs type="person">Halévy</rs> aufgehört; sie lebt nur
+         <lb facs="#facs_2_region_1776574396003_95_tl_26" n="N024"/>noch in der Opéra Comique fort. Von <rs type="person">Massenet</rs>’s Opern
+         <lb facs="#facs_2_region_1776574396003_95_tl_27" n="N025"/>ist der „<rs type="bibl">Cid</rs>“ die einzige, die sich den Luxus einer eigenen
+         <lb facs="#facs_2_region_1776574396003_95_tl_28" n="N026"/>Ouvertüre gestattet. Die Hauptmotive der Oper wühlen
+         <lb facs="#facs_2_region_1776574396003_95_tl_29" n="N027"/>darin in nichtssagender Aufgeregtheit durcheinander. Der
+         <lb facs="#facs_2_region_1776574396003_95_tl_30" n="N028"/>Componist hätte sich und uns diese Ouvertüre um so
+         <lb facs="#facs_2_region_1776574396003_95_tl_31" n="N029"/>leichter erlassen können, als ja der erste Act ohnehin mit
+         <lb facs="#facs_2_region_1776574396003_95_tl_32" n="N030"/>einer stattlichen Reihe von Trompeten-Fanfaren anhebt, zu
+         <lb facs="#facs_2_region_1776574396003_95_tl_33" n="N031"/>welcher sich beim Herannahen <rs type="person">Rodrigo</rs>’s vier gestimmte
+         <lb facs="#facs_2_region_1776574396003_95_tl_34" n="N032"/>Kirchenglocken, die Orgel und ein auf Einem Ton plärren
+         <lb facs="#facs_2_region_1776574396003_95_tl_35" n="N033" break="no"/>der Gebetchor noch zugesellen. Die Siegeshymne <rs type="person">Rodrigo</rs>’s
+         <lb facs="#facs_2_region_1776574396003_95_tl_36" n="N034"/>(mit Harfenbegleitung) ist eine schwache Nachbildung des
+         <lb facs="#facs_2_region_1776574396003_95_tl_37" n="N035"/>„<rs type="bibl">Propheten</rs>“, unnatürlich geschraubt und trotz der langsamen
+         <lb facs="#facs_2_region_1776574396003_95_tl_38" n="N036"/>Bewegung unruhig und zerrissen. Da sie dem Tenoristen
+         <lb facs="#facs_2_region_1776574396003_95_tl_39" n="N037"/>Gelegenheit gibt, ein halb Dutzend hohe B herauszuschmet
+         <lb facs="#facs_2_region_1776574396003_95_tl_40" n="N038" break="no"/>tern, müssen wir sie leider in der Schlachtscene des dritten<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1776574407009_101_tl_1" n="N001"/>Actes noch einmal anhören. Der ganze unverhältnißmäßig
+         <lb facs="#facs_3_region_1776574407009_101_tl_2" n="N002"/>lange erste Act des „<rs type="bibl">Cid</rs>“ ist musikalisch trostlos. Im zwei
+         <lb facs="#facs_3_region_1776574407009_101_tl_3" n="N003" break="no"/>ten Act versöhnt uns einigermaßen die sehr pikante Ballet
+         <lb facs="#facs_3_region_1776574407009_101_tl_4" n="N004" break="no"/>musik. <rs type="person">Massenet</rs> hat sieben original-<rs type="place">spanisch</rs>e Nationaltänze,
+         <lb facs="#facs_3_region_1776574407009_101_tl_5" n="N005"/>im Charakter wirksam contrastirend, sehr geschickt aneinander
+         <lb facs="#facs_3_region_1776574407009_101_tl_6" n="N006" break="no"/>gereiht. Die koketten Reize einer fremdartig prickelnden
+         <lb facs="#facs_3_region_1776574407009_101_tl_7" n="N007"/>Instrumentirung und Rhythmik stimmen vortrefflich zu den
+         <lb facs="#facs_3_region_1776574407009_101_tl_8" n="N008"/>malerischen Trachten und Bewegungen der Tänzerinnen.
+         <lb facs="#facs_3_region_1776574407009_101_tl_9" n="N009"/>Ueberdies mußte die Tanzform, die nun einmal des symme
+         <lb facs="#facs_3_region_1776574407009_101_tl_10" n="N010" break="no"/>trischen Periodenbaues nicht entbehren kann, den Componisten
+         <lb facs="#facs_3_region_1776574407009_101_tl_11" n="N011"/>zu einem ihm sonst ungewohnten Zusammenfassen der Form
+         <lb facs="#facs_3_region_1776574407009_101_tl_12" n="N012"/>nöthigen. Die Klage der <rs type="person">Chimene</rs> („Justice!“) ist ausdrucks
+         <lb facs="#facs_3_region_1776574407009_101_tl_13" n="N013" break="no"/>voll und mit dramatischer Kraft wiedergegeben. Hingegen
+         <lb facs="#facs_3_region_1776574407009_101_tl_14" n="N014"/>wirkt das folgende große Ensemble in G-moll nur durch
+         <lb facs="#facs_3_region_1776574407009_101_tl_15" n="N015"/>betäubenden Tonschwall; in seinen Motiven ganz armselig,
+         <lb facs="#facs_3_region_1776574407009_101_tl_16" n="N016"/>in seinen Steigerungen abgenützt, erinnert es zu seinem Nach
+         <lb facs="#facs_3_region_1776574407009_101_tl_17" n="N017" break="no"/>theil an bekannte bessere Vorbilder von <rs type="person">Halévy</rs> und <rs type="person">Verdi</rs>.
+         <lb facs="#facs_3_region_1776574407009_101_tl_18" n="N018"/>Wir eilen weiter zum dritten Act. Die einleitende Romanze
+         <lb facs="#facs_3_region_1776574407009_101_tl_19" n="N019"/><rs type="person">Chimene</rs>ns, von einem seinen Ritornell der Clarinette
+         <lb facs="#facs_3_region_1776574407009_101_tl_20" n="N020"/>stimmungsvoll angekündigt und durchflochten, erscheint uns
+         <lb facs="#facs_3_region_1776574407009_101_tl_21" n="N021"/>als das weitaus beste Gesangsstück der Oper. Hier dringt
+         <lb facs="#facs_3_region_1776574407009_101_tl_22" n="N022"/>zum erstenmal ein Strahl wahrer, zarter Empfindung durch
+         <lb facs="#facs_3_region_1776574407009_101_tl_23" n="N023"/>und gewinnt uns sofort. Das folgende große Duett zwischen
+         <lb facs="#facs_3_region_1776574407009_101_tl_24" n="N024"/><rs type="person">Rodrigo</rs> und <rs type="person">Chimene</rs> enthält einige dramatisch packende
+         <lb facs="#facs_3_region_1776574407009_101_tl_25" n="N025"/>Momente und gehört, bei übrigens nicht hervorragender me
+         <lb facs="#facs_3_region_1776574407009_101_tl_26" n="N026" break="no"/>lodischer Erfindung, zu den wenigen lebhafter ansprechenden
+         <lb facs="#facs_3_region_1776574407009_101_tl_27" n="N027"/>Nummern der Oper. An das große Duett in den <rs type="bibl">Hugenotten</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776574407009_101_tl_28" n="N028"/>darf man dabei freilich nicht denken. Ueber alles Folgende
+         <lb facs="#facs_3_region_1776574407009_101_tl_29" n="N029"/>können wir schnell hinwegeilen; es kommt nach dem Duett
+         <lb facs="#facs_3_region_1776574407009_101_tl_30" n="N030"/>nichts mehr, was der Rede werth ist. Ein ganz banaler,
+         <lb facs="#facs_3_region_1776574407009_101_tl_31" n="N031"/>nicht einmal lustiger Soldatenchor, eine sträflich langweilende
+         <lb facs="#facs_3_region_1776574407009_101_tl_32" n="N032"/>Anrufung des heiligen <rs type="person">Jago</rs> mit prompt nachfolgender Ant
+         <lb facs="#facs_3_region_1776574407009_101_tl_33" n="N033" break="no"/>wort dieses Patrons und schließlich ein vierter Act, wie er
+         <lb facs="#facs_3_region_1776574407009_101_tl_34" n="N034"/>trotz allen Lärmens dürftiger und unwirksamer nicht gedacht
+         <lb facs="#facs_3_region_1776574407009_101_tl_35" n="N035"/>werden kann. Hier ist dem Componisten der letzte Faden
+         <lb facs="#facs_3_region_1776574407009_101_tl_36" n="N036"/>seiner Erfindung ausgegangen.
+            </p><p>
+         <lb facs="#facs_3_region_1776574407009_101_tl_37" n="N037"/>Von dem Lobe, das wir der <rs type="place">Wien</rs>er Aufführung des
+         <lb facs="#facs_3_region_1776574407009_101_tl_38" n="N038"/>„<rs type="bibl">Cid</rs>“ schuldig sind, gebührt eigentlich die erste Rate dem<space quantity="1" unit="char"/></p>
             <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1776574407009_101_tl_1" n="N001"/>Actes noch einmal anhören. Der ganze unverhältnißmäßig
-               <lb facs="#facs_3_region_1776574407009_101_tl_2" n="N002"/>lange erste Act des „<rs type="bibl">Cid</rs>“ ist musikalisch trostlos. Im zwei¬
-               <lb facs="#facs_3_region_1776574407009_101_tl_3" n="N003"/>ten Act versöhnt uns einigermaßen die sehr pikante Ballet¬
-               <lb facs="#facs_3_region_1776574407009_101_tl_4" n="N004"/>musik. <rs type="person">Massenet</rs> hat sieben original-<rs type="place">spanisch</rs>e Nationaltänze,
-               <lb facs="#facs_3_region_1776574407009_101_tl_5" n="N005"/>im Charakter wirksam contrastirend, sehr geschickt aneinander¬
-               <lb facs="#facs_3_region_1776574407009_101_tl_6" n="N006"/>gereiht. Die koketten Reize einer fremdartig prickelnden
-               <lb facs="#facs_3_region_1776574407009_101_tl_7" n="N007"/>Instrumentirung und Rhythmik stimmen vortrefflich zu den
-               <lb facs="#facs_3_region_1776574407009_101_tl_8" n="N008"/>malerischen Trachten und Bewegungen der Tänzerinnen.
-               <lb facs="#facs_3_region_1776574407009_101_tl_9" n="N009"/>Ueberdies mußte die Tanzform, die nun einmal des symme¬
-               <lb facs="#facs_3_region_1776574407009_101_tl_10" n="N010"/>trischen Periodenbaues nicht entbehren kann, den Componisten
-               <lb facs="#facs_3_region_1776574407009_101_tl_11" n="N011"/>zu einem ihm sonst ungewohnten Zusammenfassen der Form
-               <lb facs="#facs_3_region_1776574407009_101_tl_12" n="N012"/>nöthigen. Die Klage der <rs type="person">Chimene</rs> („Justice!“) ist ausdrucks¬
-               <lb facs="#facs_3_region_1776574407009_101_tl_13" n="N013"/>voll und mit dramatischer Kraft wiedergegeben. Hingegen
-               <lb facs="#facs_3_region_1776574407009_101_tl_14" n="N014"/>wirkt das folgende große Ensemble in G-moll nur durch
-               <lb facs="#facs_3_region_1776574407009_101_tl_15" n="N015"/>betäubenden Tonschwall; in seinen Motiven ganz armselig,
-               <lb facs="#facs_3_region_1776574407009_101_tl_16" n="N016"/>in seinen Steigerungen abgenützt, erinnert es zu seinem Nach¬
-               <lb facs="#facs_3_region_1776574407009_101_tl_17" n="N017"/>theil an bekannte bessere Vorbilder von <rs type="person">Halévy</rs> und <rs type="person">Verdi</rs>.
-               <lb facs="#facs_3_region_1776574407009_101_tl_18" n="N018"/>Wir eilen weiter zum dritten Act. Die einleitende Romanze
-               <lb facs="#facs_3_region_1776574407009_101_tl_19" n="N019"/>
-               <rs type="person">Chimene</rs>ns, von einem seinen Ritornell der Clarinette
-               <lb facs="#facs_3_region_1776574407009_101_tl_20" n="N020"/>stimmungsvoll angekündigt und durchflochten, erscheint uns
-               <lb facs="#facs_3_region_1776574407009_101_tl_21" n="N021"/>als das weitaus beste Gesangsstück der Oper. Hier dringt
-               <lb facs="#facs_3_region_1776574407009_101_tl_22" n="N022"/>zum erstenmal ein Strahl wahrer, zarter Empfindung durch
-               <lb facs="#facs_3_region_1776574407009_101_tl_23" n="N023"/>und gewinnt uns sofort. Das folgende große Duett zwischen
-               <lb facs="#facs_3_region_1776574407009_101_tl_24" n="N024"/>
-               <rs type="person">Rodrigo</rs> und <rs type="person">Chimene</rs> enthält einige dramatisch packende
-               <lb facs="#facs_3_region_1776574407009_101_tl_25" n="N025"/>Momente und gehört, bei übrigens nicht hervorragender me¬
-               <lb facs="#facs_3_region_1776574407009_101_tl_26" n="N026"/>lodischer Erfindung, zu den wenigen lebhafter ansprechenden
-               <lb facs="#facs_3_region_1776574407009_101_tl_27" n="N027"/>Nummern der Oper. An das große Duett in den <rs type="bibl">Hugenotten</rs>
-               <lb facs="#facs_3_region_1776574407009_101_tl_28" n="N028"/>darf man dabei freilich nicht denken. Ueber alles Folgende
-               <lb facs="#facs_3_region_1776574407009_101_tl_29" n="N029"/>können wir schnell hinwegeilen; es kommt nach dem Duett
-               <lb facs="#facs_3_region_1776574407009_101_tl_30" n="N030"/>nichts mehr, was der Rede werth ist. Ein ganz banaler,
-               <lb facs="#facs_3_region_1776574407009_101_tl_31" n="N031"/>nicht einmal lustiger Soldatenchor, eine sträflich langweilende
-               <lb facs="#facs_3_region_1776574407009_101_tl_32" n="N032"/>Anrufung des heiligen <rs type="person">Jago</rs> mit prompt nachfolgender Ant¬
-               <lb facs="#facs_3_region_1776574407009_101_tl_33" n="N033"/>wort dieses Patrons und schließlich ein vierter Act, wie er
-               <lb facs="#facs_3_region_1776574407009_101_tl_34" n="N034"/>trotz allen Lärmens dürftiger und unwirksamer nicht gedacht
-               <lb facs="#facs_3_region_1776574407009_101_tl_35" n="N035"/>werden kann. Hier ist dem Componisten der letzte Faden
-               <lb facs="#facs_3_region_1776574407009_101_tl_36" n="N036"/>seiner Erfindung ausgegangen.
-               <lb facs="#facs_3_region_1776574407009_101_tl_37" n="N037"/>Von dem Lobe, das wir der <rs type="place">Wien</rs>er Aufführung des
-               <lb facs="#facs_3_region_1776574407009_101_tl_38" n="N038"/>„<rs type="bibl">Cid</rs>“ schuldig sind, gebührt eigentlich die erste Rate dem
-            </p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1776574411938_104_tl_1" n="N001"/>Decorations-Maler <hi rendition="#em">
-                  <rs type="person">Brioschi</rs>
-               </hi>, dem Ober-Regisseur <hi rendition="#em">
-                  <rs type="person">Tetzlaff</rs>
-               </hi>
-               <lb facs="#facs_3_region_1776574411938_104_tl_2" n="N002"/>und dem Balletmeister <hi rendition="#em">
-                  <rs type="person">Telle</rs>
-               </hi>. Selten haben wir so male¬
-               <lb facs="#facs_3_region_1776574411938_104_tl_3" n="N003"/>rische Landschaftsbilder, so glänzende Aufzüge, so reizvolle
-               <lb facs="#facs_3_region_1776574411938_104_tl_4" n="N004"/>Tänze gesehen. Unter den Sängern ist Herrn <hi rendition="#em">
-                  <rs type="person" continued="true">Winkel¬</rs>
-               </hi>
-               <lb facs="#facs_3_region_1776574411938_104_tl_5" n="N005"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">mann</rs>
-               </hi> die anstrengendste Aufgabe zugefallen; die Partie
-               <lb facs="#facs_3_region_1776574411938_104_tl_6" n="N006"/>
-               <rs type="person">Rodrigo</rs>’s, welche sich in anhaltend hoher und höchster Lage
-               <lb facs="#facs_3_region_1776574411938_104_tl_7" n="N007"/>bewegt. Man weiß, wie heldenhaft Herr <rs type="person">Winkelmann</rs> derlei
-               <lb facs="#facs_3_region_1776574411938_104_tl_8" n="N008"/>tapfere Ritter singt und spielt; dieser <rs type="person">Cid</rs> gehört zu seinen
-               <lb facs="#facs_3_region_1776574411938_104_tl_9" n="N009"/>besten. Kaum minder schwierig, aber in jedem Betracht
-               <lb facs="#facs_3_region_1776574411938_104_tl_10" n="N010"/>dankbarer ist die Rolle der <rs type="person">Chimene</rs>; eine hochdramatische
-               <lb facs="#facs_3_region_1776574411938_104_tl_11" n="N011"/>Partie, die eine sehr bedeutende Schauspielerin von leiden¬
-               <lb facs="#facs_3_region_1776574411938_104_tl_12" n="N012"/>schaftlichem Temperament erheischt. Fräulein <hi rendition="#em">
-                  <rs type="person">Schläger</rs>
-               </hi>
-               <lb facs="#facs_3_region_1776574411938_104_tl_13" n="N013"/>hat in dieser Rolle außerordentlichen Beifall geerntet und
-               <lb facs="#facs_3_region_1776574411938_104_tl_14" n="N014"/>thatsächlich gegen ihre bisherigen Leistungen einen über¬
-               <lb facs="#facs_3_region_1776574411938_104_tl_15" n="N015"/>raschenden Fortschritt gezeigt. Sie setzt ihre besten Kräfte
-               <lb facs="#facs_3_region_1776574411938_104_tl_16" n="N016"/>an diese Aufgabe; man darf dies vollauf anerkennen, ohne
-               <lb facs="#facs_3_region_1776574411938_104_tl_17" n="N017"/>darum zu verhehlen, daß diese Kräfte der dramatischen Be¬
-               <lb facs="#facs_3_region_1776574411938_104_tl_18" n="N018"/>deutung der Rolle doch nicht ganz entsprechen. Was diese
-               <lb facs="#facs_3_region_1776574411938_104_tl_19" n="N019"/>schlechterdings verlangt, das macht Fräulein <rs type="person">Schläger</rs>; aber
-               <lb facs="#facs_3_region_1776574411938_104_tl_20" n="N020"/>was Alles daraus zu machen wäre, davon hat sie kaum eine
-               <lb facs="#facs_3_region_1776574411938_104_tl_21" n="N021"/>Ahnung. Das hätte die <hi rendition="#em">
-                  <rs type="person">Lucca</rs>
-               </hi> gewußt und gemacht. Wie
-               <lb facs="#facs_3_region_1776574411938_104_tl_22" n="N022"/>es geschehen konnte, daß die <rs type="person">Lucca</rs>, die für diese Partie be¬
-               <lb facs="#facs_3_region_1776574411938_104_tl_23" n="N023"/>geistert und ursprünglich auch dafür bestimmt war, sie trotz¬
-               <lb facs="#facs_3_region_1776574411938_104_tl_24" n="N024"/>dem nicht singt, bleibt uns ein Räthsel. Ihre Mitwirkung
-               <lb facs="#facs_3_region_1776574411938_104_tl_25" n="N025"/>ganz allein hätte der mittelmäßigen Novität ein hohes und
-               <lb facs="#facs_3_region_1776574411938_104_tl_26" n="N026"/>nachhaltiges Interesse verliehen und sich als dreifacher Ge¬
-               <lb facs="#facs_3_region_1776574411938_104_tl_27" n="N027"/>winn bewährt: für das Werk, für das Publicum und —
-               <lb facs="#facs_3_region_1776574411938_104_tl_28" n="N028"/>für die Kasse.
-               <lb facs="#facs_3_region_1776574411938_104_tl_29" n="N029"/>Neben <rs type="person">Rodrigo</rs> und <rs type="person">Chimene</rs> treten die übrigen Rollen
-               <lb facs="#facs_3_region_1776574411938_104_tl_30" n="N030"/>tief in den Schatten. Das hat Fräulein <hi rendition="#em">
-                  <rs type="person">Forster</rs>
-               </hi>, die
-               <lb facs="#facs_3_region_1776574411938_104_tl_31" n="N031"/>Herren <hi rendition="#em">
-                  <rs type="person">Rokitansky</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Sommer</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Reichenberg</rs>
-               </hi>
-               <lb facs="#facs_3_region_1776574411938_104_tl_32" n="N032"/>nicht gehindert, diese Partien mit der größten künstlerischen
-               <lb facs="#facs_3_region_1776574411938_104_tl_33" n="N033"/>Sorgfalt auszuführen. Mit besonderer Auszeichnung sind
-               <lb facs="#facs_3_region_1776574411938_104_tl_34" n="N034"/>endlich die Leistungen des Chors und des Orchesters unter
-               <lb facs="#facs_3_region_1776574411938_104_tl_35" n="N035"/>
-               <hi rendition="#em">Hanns <rs type="person">Richter</rs>’s</hi> Leitung zu nennen. Und wie sollen
-               <lb facs="#facs_3_region_1776574411938_104_tl_36" n="N036"/>wir den thatsächlichen Erfolg des „<rs type="bibl">Cid</rs>“ charakterisiren?
-               <lb facs="#facs_3_region_1776574411938_104_tl_37" n="N037"/>„Succès d'estime“ würden wir sagen — wäre nur etwas
-               <lb facs="#facs_3_region_1776574411938_104_tl_38" n="N038"/>mehr succès und ein bischen mehr estime dabei gewesen.
+            <p prev="true">
+         <lb facs="#facs_3_region_1776574411938_104_tl_1" n="N001"/>Decorations-Maler <hi rendition="#em"><rs type="person">Brioschi</rs></hi>, dem Ober-Regisseur <hi rendition="#em"><rs type="person">Tetzlaff</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776574411938_104_tl_2" n="N002"/>und dem Balletmeister <hi rendition="#em"><rs type="person">Telle</rs></hi>. Selten haben wir so male
+         <lb facs="#facs_3_region_1776574411938_104_tl_3" n="N003" break="no"/>rische Landschaftsbilder, so glänzende Aufzüge, so reizvolle
+         <lb facs="#facs_3_region_1776574411938_104_tl_4" n="N004"/>Tänze gesehen. Unter den Sängern ist Herrn <hi rendition="#em"><rs type="person">Winkel
+         <lb facs="#facs_3_region_1776574411938_104_tl_5" n="N005" break="no"/>mann</rs></hi> die anstrengendste Aufgabe zugefallen; die Partie
+         <lb facs="#facs_3_region_1776574411938_104_tl_6" n="N006"/><rs type="person">Rodrigo</rs>’s, welche sich in anhaltend hoher und höchster Lage
+         <lb facs="#facs_3_region_1776574411938_104_tl_7" n="N007"/>bewegt. Man weiß, wie heldenhaft Herr <rs type="person">Winkelmann</rs> derlei
+         <lb facs="#facs_3_region_1776574411938_104_tl_8" n="N008"/>tapfere Ritter singt und spielt; dieser <rs type="person">Cid</rs> gehört zu seinen
+         <lb facs="#facs_3_region_1776574411938_104_tl_9" n="N009"/>besten. Kaum minder schwierig, aber in jedem Betracht
+         <lb facs="#facs_3_region_1776574411938_104_tl_10" n="N010"/>dankbarer ist die Rolle der <rs type="person">Chimene</rs>; eine hochdramatische
+         <lb facs="#facs_3_region_1776574411938_104_tl_11" n="N011"/>Partie, die eine sehr bedeutende Schauspielerin von leiden
+         <lb facs="#facs_3_region_1776574411938_104_tl_12" n="N012" break="no"/>schaftlichem Temperament erheischt. Fräulein <hi rendition="#em"><rs type="person">Schläger</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776574411938_104_tl_13" n="N013"/>hat in dieser Rolle außerordentlichen Beifall geerntet und
+         <lb facs="#facs_3_region_1776574411938_104_tl_14" n="N014"/>thatsächlich gegen ihre bisherigen Leistungen einen über
+         <lb facs="#facs_3_region_1776574411938_104_tl_15" n="N015" break="no"/>raschenden Fortschritt gezeigt. Sie setzt ihre besten Kräfte
+         <lb facs="#facs_3_region_1776574411938_104_tl_16" n="N016"/>an diese Aufgabe; man darf dies vollauf anerkennen, ohne
+         <lb facs="#facs_3_region_1776574411938_104_tl_17" n="N017"/>darum zu verhehlen, daß diese Kräfte der dramatischen Be
+         <lb facs="#facs_3_region_1776574411938_104_tl_18" n="N018" break="no"/>deutung der Rolle doch nicht ganz entsprechen. Was diese
+         <lb facs="#facs_3_region_1776574411938_104_tl_19" n="N019"/>schlechterdings verlangt, das macht Fräulein <rs type="person">Schläger</rs>; aber
+         <lb facs="#facs_3_region_1776574411938_104_tl_20" n="N020"/>was Alles daraus zu machen wäre, davon hat sie kaum eine
+         <lb facs="#facs_3_region_1776574411938_104_tl_21" n="N021"/>Ahnung. Das hätte die <hi rendition="#em"><rs type="person">Lucca</rs></hi> gewußt und gemacht. Wie
+         <lb facs="#facs_3_region_1776574411938_104_tl_22" n="N022"/>es geschehen konnte, daß die <rs type="person">Lucca</rs>, die für diese Partie be
+         <lb facs="#facs_3_region_1776574411938_104_tl_23" n="N023" break="no"/>geistert und ursprünglich auch dafür bestimmt war, sie trotz
+         <lb facs="#facs_3_region_1776574411938_104_tl_24" n="N024" break="no"/>dem nicht singt, bleibt uns ein Räthsel. Ihre Mitwirkung
+         <lb facs="#facs_3_region_1776574411938_104_tl_25" n="N025"/>ganz allein hätte der mittelmäßigen Novität ein hohes und
+         <lb facs="#facs_3_region_1776574411938_104_tl_26" n="N026"/>nachhaltiges Interesse verliehen und sich als dreifacher Ge
+         <lb facs="#facs_3_region_1776574411938_104_tl_27" n="N027" break="no"/>winn bewährt: für das Werk, für das Publicum und —
+         <lb facs="#facs_3_region_1776574411938_104_tl_28" n="N028"/>für die Kasse.
+            </p><p>
+         <lb facs="#facs_3_region_1776574411938_104_tl_29" n="N029"/>Neben <rs type="person">Rodrigo</rs> und <rs type="person">Chimene</rs> treten die übrigen Rollen
+         <lb facs="#facs_3_region_1776574411938_104_tl_30" n="N030"/>tief in den Schatten. Das hat Fräulein <hi rendition="#em"><rs type="person">Forster</rs></hi>, die
+         <lb facs="#facs_3_region_1776574411938_104_tl_31" n="N031"/>Herren <hi rendition="#em"><rs type="person">Rokitansky</rs></hi>, <hi rendition="#em"><rs type="person">Sommer</rs></hi> und <hi rendition="#em"><rs type="person">Reichenberg</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776574411938_104_tl_32" n="N032"/>nicht gehindert, diese Partien mit der größten künstlerischen
+         <lb facs="#facs_3_region_1776574411938_104_tl_33" n="N033"/>Sorgfalt auszuführen. Mit besonderer Auszeichnung sind
+         <lb facs="#facs_3_region_1776574411938_104_tl_34" n="N034"/>endlich die Leistungen des Chors und des Orchesters unter
+         <lb facs="#facs_3_region_1776574411938_104_tl_35" n="N035"/><hi rendition="#em">Hanns <rs type="person">Richter</rs>’s</hi> Leitung zu nennen. Und wie sollen
+         <lb facs="#facs_3_region_1776574411938_104_tl_36" n="N036"/>wir den thatsächlichen Erfolg des „<rs type="bibl">Cid</rs>“ charakterisiren?
+         <lb facs="#facs_3_region_1776574411938_104_tl_37" n="N037"/>„Succès d’estime“ würden wir sagen — wäre nur etwas
+         <lb facs="#facs_3_region_1776574411938_104_tl_38" n="N038"/>mehr succès und ein bischen mehr estime dabei gewesen.
             </p>
          </div>
       </body>

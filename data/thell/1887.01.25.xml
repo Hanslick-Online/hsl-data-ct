@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt.
-            </title>
+            <title level="a">Nr. 8050. Wien, Dienstag, den 25. Januar 1887</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,14 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
+               <name ref="https://orcid.org/0009-0007-9767-072X">Thell, Annika</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +71,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt.
-            </title>
+                     <title>Nr. 8050. Wien, Dienstag, den 25. Januar 1887</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse.
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1887-01-25">25.01.1887</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18870125"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +107,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="athell" when="2026-06-21">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-09-22">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="athell" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1085,407 +1086,327 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1776574869988_301_tl_1" n="N001"/><head type="h1">Concerte.</head>
+            <lb facs="#facs_1_region_1776574869988_301_tl_2" n="N002"/><head type="h2">(<hi rendition="#em"><rs type="person">Bülow</rs>’s</hi><space quantity="1" unit="char"/><rs type="person">Beethoven</rs>-Abende. Philharmonisches Concert. <hi rendition="#em"><rs type="person">Schumann</rs>’s</hi> Ouvertüre
+            <lb facs="#facs_1_region_1776574869988_301_tl_3" n="N003"/>zu „<rs type="bibl">Hermann und Dorothea</rs>“. Neueste <rs type="person">Schumann</rs>-Literatur.)</head>
             <p>
-               <lb facs="#facs_1_line_1781114243691_846" n="N001"/>Nr. 8050. Wien, Dienstag, den 25. Januar 1887.
-            </p>
+         <lb facs="#facs_1_region_1776574869988_301_tl_4" n="N004"/><rs type="person">Ed. H.</rs> Hanns v. <hi rendition="#em"><rs type="person">Bülow</rs></hi> hat den ersten seiner vier
+         <lb facs="#facs_1_region_1776574869988_301_tl_5" n="N005"/>„<rs type="person">Beethoven</rs>-Abende“ unter lebhafter Theilnahme des Publicums
+         <lb facs="#facs_1_region_1776574869988_301_tl_6" n="N006"/>abgespielt. Vortrefflich wie immer, wenngleich etwas nervös
+         <lb facs="#facs_1_region_1776574869988_301_tl_7" n="N007"/>in Gewärtigung eines politisch-nationalen Accompagnements,
+         <lb facs="#facs_1_region_1776574869988_301_tl_8" n="N008"/>das glücklicherweise ausblieb. <rs type="person">Bülow</rs>’s <rs type="person">Beethoven</rs>-Cyklus ge
+         <lb facs="#facs_1_region_1776574869988_301_tl_9" n="N009" break="no"/>währt uns das Vergnügen, neben den bekanntesten Clavier
+         <lb facs="#facs_1_region_1776574869988_301_tl_10" n="N010" break="no"/>stücken des Meisters auch einige selten gehörte anzutreffen,
+         <lb facs="#facs_1_region_1776574869988_301_tl_11" n="N011"/>welche den Concertgebern entweder zu leicht oder zu schwer
+         <lb facs="#facs_1_region_1776574869988_301_tl_12" n="N012"/>dünken für öffentlichen Vortrag. Indem <rs type="person">Bülow</rs> sein Pro
+         <lb facs="#facs_1_region_1776574869988_301_tl_13" n="N013" break="no"/>gramm chronologisch ordnet, betont er die lehrhafte Absicht
+         <lb facs="#facs_1_region_1776574869988_301_tl_14" n="N014"/>des Unternehmens. Eine Art Collegium über die Entwicklung
+         <lb facs="#facs_1_region_1776574869988_301_tl_15" n="N015"/><rs type="person">Beethoven</rs>’s in lauter Musikbeispielen. Das ist sehr verdienst
+         <lb facs="#facs_1_region_1776574869988_301_tl_16" n="N016" break="no"/>voll, wenngleich nicht ganz unbedenklich. Nacheinander eine
+         <lb facs="#facs_1_region_1776574869988_301_tl_17" n="N017"/>lange Reihe von Clavier-Solostücken aus derselben Periode
+         <lb facs="#facs_1_region_1776574869988_301_tl_18" n="N018"/>desselben Meisters zu hören — und so durch vier Abende —
+         <lb facs="#facs_1_region_1776574869988_301_tl_19" n="N019"/>muß schließlich ermüden. Gegen die Befriedigung unserer
+         <lb facs="#facs_1_region_1776574869988_301_tl_20" n="N020"/>Lernbegierde erhebt sich doch allmälig das Verlangen des
+         <lb facs="#facs_1_region_1776574869988_301_tl_21" n="N021"/>Ohres nach Abwechslung. Und diese war ja, unbeschadet
+         <lb facs="#facs_1_region_1776574869988_301_tl_22" n="N022"/>der chronologischen Ordnung und des didaktischen Zweckes,
+         <lb facs="#facs_1_region_1776574869988_301_tl_23" n="N023"/>leicht zu beschaffen: durch Einreihung <rs type="person">Beethoven</rs>’scher Clavier-
+         <lb facs="#facs_1_region_1776574869988_301_tl_24" n="N024"/>Trios, Violin- und Cello-Sonaten in das Programm. Da
+         <lb facs="#facs_1_region_1776574869988_301_tl_25" n="N025"/>brauchte Herr v. <rs type="person">Bülow</rs> keinen Augenblick vom Piano auf
+         <lb facs="#facs_1_region_1776574869988_301_tl_26" n="N026" break="no"/>zustehen; wir würden ihn in der Kammermusik von neuer
+         <lb facs="#facs_1_region_1776574869988_301_tl_27" n="N027"/>Seite kennen lernen und ihm für zwei oder drei Compositionen
+         <lb facs="#facs_1_region_1776574869988_301_tl_28" n="N028"/>von reicherer Klangfülle sehr dankbar sein. Obendrein ist
+         <lb facs="#facs_1_region_1776574869988_301_tl_29" n="N029"/>unser großer Musikvereinssaal für Claviersolos nicht vor
+         <lb facs="#facs_1_region_1776574869988_301_tl_30" n="N030" break="no"/>theilhaft; der intime Reiz der so einfach gesetzten, zierlichen
+         <lb facs="#facs_1_region_1776574869988_301_tl_31" n="N031"/>und gemüthlichen Stücke aus <rs type="person">Beethoven</rs>’s erster Periode
+         <lb facs="#facs_1_region_1776574869988_301_tl_32" n="N032"/>verflüchtigt sich vollends in so weitem Local. <hi rendition="#em"><rs type="person">Bülow</rs>’s</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1776574869988_301_tl_33" n="N033"/>musikalisches Feingefühl entging der Versuchung, die
+         <lb facs="#facs_1_region_1776574869988_301_tl_34" n="N034"/>Ungunst des großen Raumes durch übertriebenen Kraft
+         <lb facs="#facs_1_region_1776574869988_301_tl_35" n="N035" break="no"/>aufwand zu bekämpfen; zart und anmuthig spielte er die<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1776574869988_301_tl_1" n="N001"/>Concerte.
-               <lb facs="#facs_1_region_1776574869988_301_tl_2" n="N002"/>(<hi rendition="#em">
-                  <rs type="person">Bülow</rs>’s</hi>
-               <rs type="person">Beethoven</rs>-Abende. Philharmonisches Concert. <hi rendition="#em">
-                  <rs type="person">Schumann</rs>’s</hi> Ouvertüre
-               <lb facs="#facs_1_region_1776574869988_301_tl_3" n="N003"/>zu „<rs type="bibl">Hermann und Dorothea</rs>“. Neueste <rs type="person">Schumann</rs>-Literatur.)
-               <lb facs="#facs_1_region_1776574869988_301_tl_4" n="N004"/>
-               <rs type="person">Ed. H.</rs> Hanns v. <hi rendition="#em">
-                  <rs type="person">Bülow</rs>
-               </hi> hat den ersten seiner vier
-               <lb facs="#facs_1_region_1776574869988_301_tl_5" n="N005"/>„<rs type="person">Beethoven</rs>-Abende“ unter lebhafter Theilnahme des Publicums
-               <lb facs="#facs_1_region_1776574869988_301_tl_6" n="N006"/>abgespielt. Vortrefflich wie immer, wenngleich etwas nervös
-               <lb facs="#facs_1_region_1776574869988_301_tl_7" n="N007"/>in Gewärtigung eines politisch-nationalen Accompagnements,
-               <lb facs="#facs_1_region_1776574869988_301_tl_8" n="N008"/>das glücklicherweise ausblieb. <rs type="person">Bülow</rs>’s <rs type="person">Beethoven</rs>-Cyklus ge¬
-               <lb facs="#facs_1_region_1776574869988_301_tl_9" n="N009"/>währt uns das Vergnügen, neben den bekanntesten Clavier¬
-               <lb facs="#facs_1_region_1776574869988_301_tl_10" n="N010"/>stücken des Meisters auch einige selten gehörte anzutreffen,
-               <lb facs="#facs_1_region_1776574869988_301_tl_11" n="N011"/>welche den Concertgebern entweder zu leicht oder zu schwer
-               <lb facs="#facs_1_region_1776574869988_301_tl_12" n="N012"/>dünken für öffentlichen Vortrag. Indem <rs type="person">Bülow</rs> sein Pro¬
-               <lb facs="#facs_1_region_1776574869988_301_tl_13" n="N013"/>gramm chronologisch ordnet, betont er die lehrhafte Absicht
-               <lb facs="#facs_1_region_1776574869988_301_tl_14" n="N014"/>des Unternehmens. Eine Art Collegium über die Entwicklung
-               <lb facs="#facs_1_region_1776574869988_301_tl_15" n="N015"/>
-               <rs type="person">Beethoven</rs>’s in lauter Musikbeispielen. Das ist sehr verdienst¬
-               <lb facs="#facs_1_region_1776574869988_301_tl_16" n="N016"/>voll, wenngleich nicht ganz unbedenklich. Nacheinander eine
-               <lb facs="#facs_1_region_1776574869988_301_tl_17" n="N017"/>lange Reihe von Clavier-Solostücken aus derselben Periode
-               <lb facs="#facs_1_region_1776574869988_301_tl_18" n="N018"/>desselben Meisters zu hören — und so durch vier Abende —
-               <lb facs="#facs_1_region_1776574869988_301_tl_19" n="N019"/>muß schließlich ermüden. Gegen die Befriedigung unserer
-               <lb facs="#facs_1_region_1776574869988_301_tl_20" n="N020"/>Lernbegierde erhebt sich doch allmälig das Verlangen des
-               <lb facs="#facs_1_region_1776574869988_301_tl_21" n="N021"/>Ohres nach Abwechslung. Und diese war ja, unbeschadet
-               <lb facs="#facs_1_region_1776574869988_301_tl_22" n="N022"/>der chronologischen Ordnung und des didaktischen Zweckes,
-               <lb facs="#facs_1_region_1776574869988_301_tl_23" n="N023"/>leicht zu beschaffen: durch Einreihung <rs type="person">Beethoven</rs>’scher Clavier-
-               <lb facs="#facs_1_region_1776574869988_301_tl_24" n="N024"/>Trios, Violin- und Cello-Sonaten in das Programm. Da
-               <lb facs="#facs_1_region_1776574869988_301_tl_25" n="N025"/>brauchte Herr v. <rs type="person">Bülow</rs> keinen Augenblick vom Piano auf¬
-               <lb facs="#facs_1_region_1776574869988_301_tl_26" n="N026"/>zustehen; wir würden ihn in der Kammermusik von neuer
-               <lb facs="#facs_1_region_1776574869988_301_tl_27" n="N027"/>Seite kennen lernen und ihm für zwei oder drei Compositionen
-               <lb facs="#facs_1_region_1776574869988_301_tl_28" n="N028"/>von reicherer Klangfülle sehr dankbar sein. Obendrein ist
-               <lb facs="#facs_1_region_1776574869988_301_tl_29" n="N029"/>unser großer Musikvereinssaal für Claviersolos nicht vor¬
-               <lb facs="#facs_1_region_1776574869988_301_tl_30" n="N030"/>theilhaft; der intime Reiz der so einfach gesetzten, zierlichen
-               <lb facs="#facs_1_region_1776574869988_301_tl_31" n="N031"/>und gemüthlichen Stücke aus <rs type="person">Beethoven</rs>’s erster Periode
-               <lb facs="#facs_1_region_1776574869988_301_tl_32" n="N032"/>verflüchtigt sich vollends in so weitem Local. <hi rendition="#em">
-                  <rs type="person">Bülow</rs>’s</hi>
-               <lb facs="#facs_1_region_1776574869988_301_tl_33" n="N033"/>musikalisches Feingefühl entging der Versuchung, die
-               <lb facs="#facs_1_region_1776574869988_301_tl_34" n="N034"/>Ungunst des großen Raumes durch übertriebenen Kraft¬
-               <lb facs="#facs_1_region_1776574869988_301_tl_35" n="N035"/>aufwand zu bekämpfen; zart und anmuthig spielte er die
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1776574873854_304_tl_1" n="N001"/><rs type="bibl">A-dur-Sonate</rs> (aus dem <hi rendition="#em"><rs type="person">Haydn</rs></hi> gewidmeten op. 2) und
+         <lb facs="#facs_1_region_1776574873854_304_tl_2" n="N002"/>die <rs type="bibl">F-dur-Sonate</rs> aus op. 10. Mit Interesse hörten wir
+         <lb facs="#facs_1_region_1776574873854_304_tl_3" n="N003"/>auch die „<rs type="bibl">Zwölf Variationen über ein russisches Tanzlied</rs>“
+         <lb facs="#facs_1_region_1776574873854_304_tl_4" n="N004"/>aus dem Jahre <date>1796</date>, ohne Opuszahl. Ob es wol heute
+         <lb facs="#facs_1_region_1776574873854_304_tl_5" n="N005"/>Edelleute gibt, die einem jungen Componisten für die Dedi
+         <lb facs="#facs_1_region_1776574873854_304_tl_6" n="N006" break="no"/>cation von zwölf Variationen ein schönes Reitpferd schenken,
+         <lb facs="#facs_1_region_1776574873854_304_tl_7" n="N007"/>wie es der <rs type="person">Graf v. Browne</rs> in diesem Falle that? Und ob
+         <lb facs="#facs_1_region_1776574873854_304_tl_8" n="N008"/>wol einer unserer Musensöhne so zerstreut wäre, daß er,
+         <lb facs="#facs_1_region_1776574873854_304_tl_9" n="N009"/>wie <rs type="person">Beethoven</rs>, gänzlich auf das Pferd und dessen Futter
+         <lb facs="#facs_1_region_1776574873854_304_tl_10" n="N010"/>vergessen könnte? An diesem ersten Abende, welcher sich auf
+         <lb facs="#facs_1_region_1776574873854_304_tl_11" n="N011"/>Compositionen aus der Zeit von 1795 bis 1802 beschränkte,
+         <lb facs="#facs_1_region_1776574873854_304_tl_12" n="N012"/>spielte <rs type="person">Bülow</rs> noch die beiden <rs type="bibl">Sonaten op. 14</rs>, die in <rs type="bibl">D-dur
+         <lb facs="#facs_1_region_1776574873854_304_tl_13" n="N013"/>op. 28</rs>, die „<rs type="bibl">Pathétique</rs>“ und sechs <rs type="bibl">Variationen über ein
+         <lb facs="#facs_1_region_1776574873854_304_tl_14" n="N014"/>Original-Thema</rs> op. 28. Die weiteren Vorträge <rs type="person">Bülow</rs>’s
+         <lb facs="#facs_1_region_1776574873854_304_tl_15" n="N015"/>versprechen jedenfalls noch ein stärkeres Interesse. Der erste
+         <lb facs="#facs_1_region_1776574873854_304_tl_16" n="N016"/>Abend mit den einfacheren und technisch leichteren Composi
+         <lb facs="#facs_1_region_1776574873854_304_tl_17" n="N017" break="no"/>tionen <rs type="person">Beethoven</rs>’s bildete gleichsam eine einleitende Vor
+         <lb facs="#facs_1_region_1776574873854_304_tl_18" n="N018" break="no"/>schule. Der Virtuosität eines Künstlers wie <rs type="person">Bülow</rs> geben sie
+         <lb facs="#facs_1_region_1776574873854_304_tl_19" n="N019"/>gar zu wenig zu thun und der Auffassung des Hörers auch
+         <lb facs="#facs_1_region_1776574873854_304_tl_20" n="N020"/>nicht viel. Selbst die Jüngsten im Publicum spielen heute
+         <lb facs="#facs_1_region_1776574873854_304_tl_21" n="N021"/>diese <rs type="person">Beethoven</rs>’schen Erstlingswerke selbst, wenn auch nicht
+         <lb facs="#facs_1_region_1776574873854_304_tl_22" n="N022"/>so gut wie <rs type="person">Bülow</rs>. Diese Classe von Zuhörern und Selbst
+         <lb facs="#facs_1_region_1776574873854_304_tl_23" n="N023" break="no"/>spielern gewann aus der ersten <rs type="person">Bülow</rs>-Soirée den größten
+         <lb facs="#facs_1_region_1776574873854_304_tl_24" n="N024"/>Nutzen und gewiß das schönste Vorbild.
+            </p><p>
+         <lb facs="#facs_1_region_1776574873854_304_tl_25" n="N025"/>Im sechsten <hi rendition="#em">Philharmoniker-Concerte</hi> hör
+         <lb facs="#facs_1_region_1776574873854_304_tl_26" n="N026" break="no"/>ten wir nach <hi rendition="#em"><rs type="person">Berlioz</rs>’</hi> „<rs type="bibl">Römischem Carneval</rs>“ eine drei
+         <lb facs="#facs_1_region_1776574873854_304_tl_27" n="N027" break="no"/>stimmige <rs type="bibl">Clavierfuge (A-moll)</rs> von Seb. <rs type="person">Bach</rs>, für Streich
+         <lb facs="#facs_1_region_1776574873854_304_tl_28" n="N028" break="no"/>orchester gesetzt von Director <rs type="person">J. <hi rendition="#em">Hellmesberger</hi></rs>. Weß
+         <lb facs="#facs_1_region_1776574873854_304_tl_29" n="N029" break="no"/>halb diese Uebertragung nothwendig war oder wozu sie gut
+         <lb facs="#facs_1_region_1776574873854_304_tl_30" n="N030"/>sein soll, fragen wir uns vergebens. Die Kunst, eine drei-
+         <lb facs="#facs_1_region_1776574873854_304_tl_31" n="N031"/>oder vierstimmige Fuge unter die Streichinstrumente zu ver
+         <lb facs="#facs_1_region_1776574873854_304_tl_32" n="N032" break="no"/>theilen, ist sehr gering und der Genuß des Hörers nicht
+         <lb facs="#facs_1_region_1776574873854_304_tl_33" n="N033"/>größer. Der Pianist vermag die in raschen Achtelfiguren fort
+         <lb facs="#facs_1_region_1776574873854_304_tl_34" n="N034" break="no"/>rollende Fuge klar und nüancirt vorzutragen; von fünfzig
+         <lb facs="#facs_1_region_1776574873854_304_tl_35" n="N035"/>bis sechzig Bogen-Instrumenten herabgestrichen, klingt sie ver
+         <lb facs="#facs_1_region_1776574873854_304_tl_36" n="N036" break="no"/>wirrt, ausdruckslos, beinahe roh. Den Beschluß machte
+         <lb facs="#facs_1_region_1776574873854_304_tl_37" n="N037"/>Anton <hi rendition="#em"><rs type="person">Dvořak</rs>’s</hi> zweite <rs type="bibl">Symphonie in D-moll</rs>. Für <rs type="place">Wien</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1776574873854_304_tl_38" n="N038"/>neu, ist dieses Werk in den musikalischen Hauptstädten <rs type="place">Deutsch</rs></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1776574873854_304_tl_1" n="N001"/>
-               <rs type="bibl">A-dur-Sonate</rs> (aus dem <hi rendition="#em">
-                  <rs type="person">Haydn</rs>
-               </hi> gewidmeten op. 2) und
-               <lb facs="#facs_1_region_1776574873854_304_tl_2" n="N002"/>die <rs type="bibl">F-dur-Sonate</rs> aus op. 10. Mit Interesse hörten wir
-               <lb facs="#facs_1_region_1776574873854_304_tl_3" n="N003"/>auch die „<rs type="bibl">Zwölf Variationen über ein russisches Tanzlied</rs>“
-               <lb facs="#facs_1_region_1776574873854_304_tl_4" n="N004"/>aus dem Jahre <date month="0" day="0" year="0">1796</date>, ohne Opuszahl. Ob es wol heute
-               <lb facs="#facs_1_region_1776574873854_304_tl_5" n="N005"/>Edelleute gibt, die einem jungen Componisten für die Dedi¬
-               <lb facs="#facs_1_region_1776574873854_304_tl_6" n="N006"/>cation von zwölf Variationen ein schönes Reitpferd schenken,
-               <lb facs="#facs_1_region_1776574873854_304_tl_7" n="N007"/>wie es der <rs type="person">Graf v. Browne</rs> in diesem Falle that? Und ob
-               <lb facs="#facs_1_region_1776574873854_304_tl_8" n="N008"/>wol einer unserer Musensöhne so zerstreut wäre, daß er,
-               <lb facs="#facs_1_region_1776574873854_304_tl_9" n="N009"/>wie <rs type="person">Beethoven</rs>, gänzlich auf das Pferd und dessen Futter
-               <lb facs="#facs_1_region_1776574873854_304_tl_10" n="N010"/>vergessen könnte? An diesem ersten Abende, welcher sich auf
-               <lb facs="#facs_1_region_1776574873854_304_tl_11" n="N011"/>Compositionen aus der Zeit von 1795 bis 1802 beschränkte,
-               <lb facs="#facs_1_region_1776574873854_304_tl_12" n="N012"/>spielte <rs type="person">Bülow</rs> noch die beiden <rs type="bibl">Sonaten op. 14</rs>, die in <rs type="bibl">D-dur</rs>
-               <lb facs="#facs_1_region_1776574873854_304_tl_13" n="N013"/>
-               <rs type="bibl">op. 28</rs>, die „<rs type="bibl">Pathétique</rs>“ und sechs <rs type="bibl">Variationen über ein</rs>
-               <lb facs="#facs_1_region_1776574873854_304_tl_14" n="N014"/>
-               <rs type="bibl">Original-Thema</rs> op. 28. Die weiteren Vorträge <rs type="person">Bülow</rs>’s
-               <lb facs="#facs_1_region_1776574873854_304_tl_15" n="N015"/>versprechen jedenfalls noch ein stärkeres Interesse. Der erste
-               <lb facs="#facs_1_region_1776574873854_304_tl_16" n="N016"/>Abend mit den einfacheren und technisch leichteren Composi¬
-               <lb facs="#facs_1_region_1776574873854_304_tl_17" n="N017"/>tionen <rs type="person">Beethoven</rs>’s bildete gleichsam eine einleitende Vor¬
-               <lb facs="#facs_1_region_1776574873854_304_tl_18" n="N018"/>schule. Der Virtuosität eines Künstlers wie <rs type="person">Bülow</rs> geben sie
-               <lb facs="#facs_1_region_1776574873854_304_tl_19" n="N019"/>gar zu wenig zu thun und der Auffassung des Hörers auch
-               <lb facs="#facs_1_region_1776574873854_304_tl_20" n="N020"/>nicht viel. Selbst die Jüngsten im Publicum spielen heute
-               <lb facs="#facs_1_region_1776574873854_304_tl_21" n="N021"/>diese <rs type="person">Beethoven</rs>’schen Erstlingswerke selbst, wenn auch nicht
-               <lb facs="#facs_1_region_1776574873854_304_tl_22" n="N022"/>so gut wie <rs type="person">Bülow</rs>. Diese Classe von Zuhörern und Selbst¬
-               <lb facs="#facs_1_region_1776574873854_304_tl_23" n="N023"/>spielern gewann aus der ersten <rs type="person">Bülow</rs>-Soirée den größten
-               <lb facs="#facs_1_region_1776574873854_304_tl_24" n="N024"/>Nutzen und gewiß das schönste Vorbild.
-               <lb facs="#facs_1_region_1776574873854_304_tl_25" n="N025"/>Im sechsten <hi rendition="#em">Philharmoniker-Concerte</hi> hör¬
-               <lb facs="#facs_1_region_1776574873854_304_tl_26" n="N026"/>ten wir nach <hi rendition="#em">
-                  <rs type="person">Berlioz</rs>’</hi> „<rs type="bibl">Römischem Carneval</rs>“ eine drei¬
-               <lb facs="#facs_1_region_1776574873854_304_tl_27" n="N027"/>stimmige <rs type="bibl">Clavierfuge (A-moll)</rs> von Seb. <rs type="person">Bach</rs>, für Streich¬
-               <lb facs="#facs_1_region_1776574873854_304_tl_28" n="N028"/>orchester gesetzt von Director <rs type="person">J. <hi rendition="#em">Hellmesberger</hi>
-               </rs>. Weß¬
-               <lb facs="#facs_1_region_1776574873854_304_tl_29" n="N029"/>halb diese Uebertragung nothwendig war oder wozu sie gut
-               <lb facs="#facs_1_region_1776574873854_304_tl_30" n="N030"/>sein soll, fragen wir uns vergebens. Die Kunst, eine drei-
-               <lb facs="#facs_1_region_1776574873854_304_tl_31" n="N031"/>oder vierstimmige Fuge unter die Streichinstrumente zu ver¬
-               <lb facs="#facs_1_region_1776574873854_304_tl_32" n="N032"/>theilen, ist sehr gering und der Genuß des Hörers nicht
-               <lb facs="#facs_1_region_1776574873854_304_tl_33" n="N033"/>größer. Der Pianist vermag die in raschen Achtelfiguren fort¬
-               <lb facs="#facs_1_region_1776574873854_304_tl_34" n="N034"/>rollende Fuge klar und nüancirt vorzutragen; von fünfzig
-               <lb facs="#facs_1_region_1776574873854_304_tl_35" n="N035"/>bis sechzig Bogen-Instrumenten herabgestrichen, klingt sie ver¬
-               <lb facs="#facs_1_region_1776574873854_304_tl_36" n="N036"/>wirrt, ausdruckslos, beinahe roh. Den Beschluß machte
-               <lb facs="#facs_1_region_1776574873854_304_tl_37" n="N037"/>Anton <hi rendition="#em">
-                  <rs type="person">Dvořak</rs>’s</hi> zweite <rs type="bibl">Symphonie in D-moll</rs>. Für <rs type="place">Wien</rs>
-               <lb facs="#facs_1_region_1776574873854_304_tl_38" n="N038"/>neu, ist dieses Werk in den musikalischen Hauptstädten <rs type="place" continued="true">Deutsch¬</rs>
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1776574876881_307_tl_1" n="N001"/>
-               <rs type="place" continued="true">land</rs>s, <rs type="place">England</rs>s, sogar <rs type="place">Nordamerika</rs>s bereits mit günstigstem
-               <lb facs="#facs_1_region_1776574876881_307_tl_2" n="N002"/>Erfolge gegeben worden. Wenn wir schon gelegentlich früherer
-               <lb facs="#facs_1_region_1776574876881_307_tl_3" n="N003"/>Compositionen <rs type="person">Dvořak</rs>’s es eine Freude nannten, in unserer
-               <lb facs="#facs_1_region_1776574876881_307_tl_4" n="N004"/>productionsarmen und reflectirten Zeit einem so originellen,
-               <lb facs="#facs_1_region_1776574876881_307_tl_5" n="N005"/>naiv und fröhlich schaffenden Talent zu begegnen, so fühlen
-               <lb facs="#facs_1_region_1776574876881_307_tl_6" n="N006"/>wir uns durch diese zweite <rs type="bibl">Symphonie</rs> darin neuerdings be¬
-               <lb facs="#facs_1_region_1776574876881_307_tl_7" n="N007"/>stärkt. <rs type="person">Dvořak</rs> zeigt sich auch hier als ein Mann, der, im
-               <lb facs="#facs_1_region_1776574876881_307_tl_8" n="N008"/>Studium unserer <rs type="place">deutsch</rs>en Classiker herangebildet, auf eigenen
-               <lb facs="#facs_1_region_1776574876881_307_tl_9" n="N009"/>Füßen steht. Es fehlt ihm manchmal an akademischer Glätte,
-               <lb facs="#facs_1_region_1776574876881_307_tl_10" n="N010"/>an tadellosem Ebenmaß aller Theile, aber niemals an
-               <lb facs="#facs_1_region_1776574876881_307_tl_11" n="N011"/>genialen Einfällen. Die <rs type="bibl">zweite</rs> Symphonie verräth mehr als
-               <lb facs="#facs_1_region_1776574876881_307_tl_12" n="N012"/>einen Fortschritt gegen die <rs type="bibl">erste</rs> in D-dur. Ihre Motive,
-               <lb facs="#facs_1_region_1776574876881_307_tl_13" n="N013"/>echt symphonisch, athmen kräftige Ursprünglichkeit und werden
-               <lb facs="#facs_1_region_1776574876881_307_tl_14" n="N014"/>in immer neuen Wandlungen effectvoll durchgeführt. Dies
-               <lb facs="#facs_1_region_1776574876881_307_tl_15" n="N015"/>gilt namentlich vom ersten Satze, dessen düsteres Pathos
-               <lb facs="#facs_1_region_1776574876881_307_tl_16" n="N016"/>zuerst durch ein sanftes Gesangsthema sich erhellt, dann
-               <lb facs="#facs_1_region_1776574876881_307_tl_17" n="N017"/>mächtig anwächst und schließlich wie ein immer weiter ziehen¬
-               <lb facs="#facs_1_region_1776574876881_307_tl_18" n="N018"/>des Gewitter leise grollend verhallt. Man sehe sich den
-               <lb facs="#facs_1_region_1776574876881_307_tl_19" n="N019"/>Schlußtheil dieses Satzes an (etwa vom „poco accelerando“
-               <lb facs="#facs_1_region_1776574876881_307_tl_20" n="N020"/>angefangen) und wie die immer neuen Lichter durch har¬
-               <lb facs="#facs_1_region_1776574876881_307_tl_21" n="N021"/>monische und rhythmische Verwandlungskunst und wechselnde
-               <lb facs="#facs_1_region_1776574876881_307_tl_22" n="N022"/>Klangfärbung auf das Hauptmotiv fallen. Am glücklichsten
-               <lb facs="#facs_1_region_1776574876881_307_tl_23" n="N023"/>ist <rs type="person">Dvořak</rs> fast immer in seinen Anfängen und Schlüssen;
-               <lb facs="#facs_1_region_1776574876881_307_tl_24" n="N024"/>am Ausgange jedes Satzes weiß er uns wenigstens noch mit
-               <lb facs="#facs_1_region_1776574876881_307_tl_25" n="N025"/>neuen geistreichen Wendungen zu überraschen. Das Adagio
-               <lb facs="#facs_1_region_1776574876881_307_tl_26" n="N026"/>wirkt weniger durch sein zartes, von den Holzbläsern über
-               <lb facs="#facs_1_region_1776574876881_307_tl_27" n="N027"/>leisem Pizzicato des Streichquartetts vorgetragenes Thema,
-               <lb facs="#facs_1_region_1776574876881_307_tl_28" n="N028"/>als durch charakteristische Seitenmotive und einen sehr stim¬
-               <lb facs="#facs_1_region_1776574876881_307_tl_29" n="N029"/>mungsvollen Schluß. Das Scherzo, ein rascher Sechsviertel¬
-               <lb facs="#facs_1_region_1776574876881_307_tl_30" n="N030"/>tact in D-moll, ist ein Stück von strotzender Lebenskraft
-               <lb facs="#facs_1_region_1776574876881_307_tl_31" n="N031"/>und hinreißendem Zuge; jedenfalls das glänzendste der
-               <lb facs="#facs_1_region_1776574876881_307_tl_32" n="N032"/>
-               <rs type="bibl">Symphonie</rs>. Im Finale tobt ein wildes Blut und treibt
-               <lb facs="#facs_1_region_1776574876881_307_tl_33" n="N033"/>ein krankhaft trübes Roth an die Oberfläche. Es widerfährt
-               <lb facs="#facs_1_region_1776574876881_307_tl_34" n="N034"/>dem Componisten nicht zum erstenmale, daß er gerade das
-               <lb facs="#facs_1_region_1776574876881_307_tl_36" n="N035"/>Finale eines mehrsätzigen Werkes durch übertriebenen Kraft¬
-               <lb facs="#facs_1_region_1776574876881_307_tl_38" n="N036"/>aufwand (auch in der Instrumentirung) und durch allzu
-               <lb facs="#facs_1_region_1776574876881_307_tl_40" n="N037"/>heftiges Moduliren schädigt. Doch fesselt uns auch dieser
-               <lb facs="#facs_1_region_1776574876881_307_tl_42" n="N038"/>stürmische Satz sowol durch sein Temperament wie durch
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1776574876881_307_tl_1" n="N001" break="no"/><rs type="place" prev="true">land</rs>s, <rs type="place">England</rs>s, sogar <rs type="place">Nordamerika</rs>s bereits mit günstigstem
+         <lb facs="#facs_1_region_1776574876881_307_tl_2" n="N002"/>Erfolge gegeben worden. Wenn wir schon gelegentlich früherer
+         <lb facs="#facs_1_region_1776574876881_307_tl_3" n="N003"/>Compositionen <rs type="person">Dvořak</rs>’s es eine Freude nannten, in unserer
+         <lb facs="#facs_1_region_1776574876881_307_tl_4" n="N004"/>productionsarmen und reflectirten Zeit einem so originellen,
+         <lb facs="#facs_1_region_1776574876881_307_tl_5" n="N005"/>naiv und fröhlich schaffenden Talent zu begegnen, so fühlen
+         <lb facs="#facs_1_region_1776574876881_307_tl_6" n="N006"/>wir uns durch diese zweite <rs type="bibl">Symphonie</rs> darin neuerdings be
+         <lb facs="#facs_1_region_1776574876881_307_tl_7" n="N007" break="no"/>stärkt. <rs type="person">Dvořak</rs> zeigt sich auch hier als ein Mann, der, im
+         <lb facs="#facs_1_region_1776574876881_307_tl_8" n="N008"/>Studium unserer <rs type="place">deutsch</rs>en Classiker herangebildet, auf eigenen
+         <lb facs="#facs_1_region_1776574876881_307_tl_9" n="N009"/>Füßen steht. Es fehlt ihm manchmal an akademischer Glätte,
+         <lb facs="#facs_1_region_1776574876881_307_tl_10" n="N010"/>an tadellosem Ebenmaß aller Theile, aber niemals an
+         <lb facs="#facs_1_region_1776574876881_307_tl_11" n="N011"/>genialen Einfällen. Die <rs type="bibl">zweite</rs> Symphonie verräth mehr als
+         <lb facs="#facs_1_region_1776574876881_307_tl_12" n="N012"/>einen Fortschritt gegen die <rs type="bibl">erste</rs> in D-dur. Ihre Motive,
+         <lb facs="#facs_1_region_1776574876881_307_tl_13" n="N013"/>echt symphonisch, athmen kräftige Ursprünglichkeit und werden
+         <lb facs="#facs_1_region_1776574876881_307_tl_14" n="N014"/>in immer neuen Wandlungen effectvoll durchgeführt. Dies
+         <lb facs="#facs_1_region_1776574876881_307_tl_15" n="N015"/>gilt namentlich vom ersten Satze, dessen düsteres Pathos
+         <lb facs="#facs_1_region_1776574876881_307_tl_16" n="N016"/>zuerst durch ein sanftes Gesangsthema sich erhellt, dann
+         <lb facs="#facs_1_region_1776574876881_307_tl_17" n="N017"/>mächtig anwächst und schließlich wie ein immer weiter ziehen
+         <lb facs="#facs_1_region_1776574876881_307_tl_18" n="N018" break="no"/>des Gewitter leise grollend verhallt. Man sehe sich den
+         <lb facs="#facs_1_region_1776574876881_307_tl_19" n="N019"/>Schlußtheil dieses Satzes an (etwa vom „poco accelerando“
+         <lb facs="#facs_1_region_1776574876881_307_tl_20" n="N020"/>angefangen) und wie die immer neuen Lichter durch har
+         <lb facs="#facs_1_region_1776574876881_307_tl_21" n="N021" break="no"/>monische und rhythmische Verwandlungskunst und wechselnde
+         <lb facs="#facs_1_region_1776574876881_307_tl_22" n="N022"/>Klangfärbung auf das Hauptmotiv fallen. Am glücklichsten
+         <lb facs="#facs_1_region_1776574876881_307_tl_23" n="N023"/>ist <rs type="person">Dvořak</rs> fast immer in seinen Anfängen und Schlüssen;
+         <lb facs="#facs_1_region_1776574876881_307_tl_24" n="N024"/>am Ausgange jedes Satzes weiß er uns wenigstens noch mit
+         <lb facs="#facs_1_region_1776574876881_307_tl_25" n="N025"/>neuen geistreichen Wendungen zu überraschen. Das Adagio
+         <lb facs="#facs_1_region_1776574876881_307_tl_26" n="N026"/>wirkt weniger durch sein zartes, von den Holzbläsern über
+         <lb facs="#facs_1_region_1776574876881_307_tl_27" n="N027"/>leisem Pizzicato des Streichquartetts vorgetragenes Thema,
+         <lb facs="#facs_1_region_1776574876881_307_tl_28" n="N028"/>als durch charakteristische Seitenmotive und einen sehr stim
+         <lb facs="#facs_1_region_1776574876881_307_tl_29" n="N029" break="no"/>mungsvollen Schluß. Das Scherzo, ein rascher Sechsviertel
+         <lb facs="#facs_1_region_1776574876881_307_tl_30" n="N030" break="no"/>tact in D-moll, ist ein Stück von strotzender Lebenskraft
+         <lb facs="#facs_1_region_1776574876881_307_tl_31" n="N031"/>und hinreißendem Zuge; jedenfalls das glänzendste der
+         <lb facs="#facs_1_region_1776574876881_307_tl_32" n="N032"/><rs type="bibl">Symphonie</rs>. Im Finale tobt ein wildes Blut und treibt
+         <lb facs="#facs_1_region_1776574876881_307_tl_33" n="N033"/>ein krankhaft trübes Roth an die Oberfläche. Es widerfährt
+         <lb facs="#facs_1_region_1776574876881_307_tl_34" n="N034"/>dem Componisten nicht zum erstenmale, daß er gerade das
+         <lb facs="#facs_1_region_1776574876881_307_tl_36" n="N035"/>Finale eines mehrsätzigen Werkes durch übertriebenen Kraft
+         <lb facs="#facs_1_region_1776574876881_307_tl_38" n="N036" break="no"/>aufwand (auch in der Instrumentirung) und durch allzu
+         <lb facs="#facs_1_region_1776574876881_307_tl_40" n="N037"/>heftiges Moduliren schädigt. Doch fesselt uns auch dieser
+         <lb facs="#facs_1_region_1776574876881_307_tl_42" n="N038"/>stürmische Satz sowol durch sein Temperament wie durch<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776574886913_313_tl_1" n="N001"/>sein contrapunktisches Detail. <rs type="person">Dvořak</rs>’s eigenartiges, inten
+         <lb facs="#facs_2_region_1776574886913_313_tl_2" n="N002" break="no"/>sives Talent blickt uns mit freundlicheren Augen auch aus
+         <lb facs="#facs_2_region_1776574886913_313_tl_3" n="N003"/>einer neuesten, kleineren Publication entgegen. Es sind dies
+         <lb facs="#facs_2_region_1776574886913_313_tl_5" n="N004"/>„<rs type="bibl">Vier Lieder im Volkstone</rs>“ (op. 73) nach <rs type="place">slovakisch</rs>en und
+         <lb facs="#facs_2_region_1776574886913_313_tl_7" n="N005"/><rs type="place">böhmisch</rs>en Gedichten. An allen, besonders aber an dem
+         <lb facs="#facs_2_region_1776574886913_313_tl_8" n="N006"/>schönen Liede „<rs type="bibl">Die Klage</rs>“, erfreut uns die Verschmelzung
+         <lb facs="#facs_2_region_1776574886913_313_tl_9" n="N007"/>naiven, in volksthümlicher Melodie hervortretenden Empfindens
+         <lb facs="#facs_2_region_1776574886913_313_tl_10" n="N008"/>mit durchwegs charakteristischer, musikalisch tüchtiger Ge
+         <lb facs="#facs_2_region_1776574886913_313_tl_11" n="N009" break="no"/>staltung.
+            </p><p>
+         <lb facs="#facs_2_region_1776574886913_313_tl_12" n="N010"/>In <hi rendition="#em"><rs type="person">Kretschmann</rs>’s</hi> letztem Orchester-Concert hörten
+         <lb facs="#facs_2_region_1776574886913_313_tl_13" n="N011"/>wir zum erstenmale die <rs type="bibl">Ouvertüre</rs> zu <rs type="person">Goethe</rs>’s „<rs type="bibl">Hermann
+         <lb facs="#facs_2_region_1776574886913_313_tl_14" n="N012"/>und Dorothea</rs>“ von Robert <rs type="person">Schumann</rs>. Er schrieb sie in
+         <lb facs="#facs_2_region_1776574886913_313_tl_15" n="N013"/>seiner letzten <rs type="place">Düsseldorf</rs>er Zeit „mit großer Lust in wenigen
+         <lb facs="#facs_2_region_1776574886913_313_tl_16" n="N014"/>Stunden“. Von dem Gefühle großer Lust ist nichts in die
+         <lb facs="#facs_2_region_1776574886913_313_tl_17" n="N015"/>Composition selbst übergeflossen. Eines der schwächsten, uner
+         <lb facs="#facs_2_region_1776574886913_313_tl_18" n="N016" break="no"/>quicklichsten Werke <rs type="person">Schumann</rs>’s, ist sie obendrein unbegreif
+         <lb facs="#facs_2_region_1776574886913_313_tl_19" n="N017" break="no"/>lich in ihrer Auffassung eines so durchaus klaren Stoffes
+         <lb facs="#facs_2_region_1776574886913_313_tl_20" n="N018"/>wie „<rs type="bibl">Hermann und Dorothea</rs>“. <rs type="person">Schumann</rs> räumt in seiner
+         <lb facs="#facs_2_region_1776574886913_313_tl_21" n="N019"/><rs type="bibl">Ouvertüre</rs> der <hi rendition="#em"><rs type="bibl">Marseillaise</rs></hi> die Hauptrolle ein. Vier-
+         <lb facs="#facs_2_region_1776574886913_313_tl_22" n="N020"/>bis fünfmal erklingt sie im Laufe des kurzen Stückes, stets
+         <lb facs="#facs_2_region_1776574886913_313_tl_23" n="N021"/>in hellem Dur, in den lustigen hohen Tönen der Flöten und
+         <lb facs="#facs_2_region_1776574886913_313_tl_24" n="N022"/>Oboën, später noch illuminirt durch Trompete und kleine
+         <lb facs="#facs_2_region_1776574886913_313_tl_25" n="N023"/>Trommel — während die eigentliche Idylle, die Herzens
+         <lb facs="#facs_2_region_1776574886913_313_tl_26" n="N024" break="no"/>geschichte von <rs type="person">Hermann</rs> und <rs type="person">Dorothea</rs>, sich nebenher in trü
+         <lb facs="#facs_2_region_1776574886913_313_tl_27" n="N025" break="no"/>bem Moll schwunglos, matt, verdrießlich durchschleicht. Bei
+         <lb facs="#facs_2_region_1776574886913_313_tl_28" n="N026"/><rs type="person">Goethe</rs> von alledem das gerade Gegentheil. Sein Gedicht ist
+         <lb facs="#facs_2_region_1776574886913_313_tl_29" n="N027"/>eine sonnenhelle Landschaft, die von den dunklen Wolken des
+         <lb facs="#facs_2_region_1776574886913_313_tl_30" n="N028"/>Anfangs sich in erquickender Frische abhebt und weiterhin
+         <lb facs="#facs_2_region_1776574886913_313_tl_31" n="N029"/>kaum eine Erinnerung an jenes ferne politische Gewitter auf
+         <lb facs="#facs_2_region_1776574886913_313_tl_32" n="N030" break="no"/>kommen läßt. Am Schlusse seiner Romanze von den „<rs type="bibl">Bei
+         <lb facs="#facs_2_region_1776574886913_313_tl_34" n="N031" break="no"/>den Grenadieren</rs>“ bringt <rs type="person">Schumann</rs> als geistreiches musi
+         <lb facs="#facs_2_region_1776574886913_313_tl_36" n="N032" break="no"/>kalisches Citat die <rs type="bibl">Marseillaise</rs> — aber erst am Schlusse,
+         <lb facs="#facs_2_region_1776574886913_313_tl_37" n="N033"/>wo der Grenadier im Geiste den Kaiser über sein
+         <lb facs="#facs_2_region_1776574886913_313_tl_38" n="N034"/>Grab reiten sieht. In analoger Weise, glaube ich, hatte in
+         <lb facs="#facs_2_region_1776574886913_313_tl_39" n="N035"/>einer <rs type="bibl">Ouvertüre</rs> zu „<rs type="bibl">Hermann und Dorothea</rs>“ die <rs type="bibl">Mar
+         <lb facs="#facs_2_region_1776574886913_313_tl_40" n="N036" break="no"/>seillaise</rs> (wenn sie überhaupt nothwendig war) nur zu An
+         <lb facs="#facs_2_region_1776574886913_313_tl_41" n="N037" break="no"/>fang, drohend, schattenhaft aufzutauchen und dann nicht
+         <lb facs="#facs_2_region_1776574886913_313_tl_42" n="N038"/>wieder. Damit wäre an die <rs type="person">Goethe</rs>’sche Exposition, die vor<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1776574886913_313_tl_1" n="N001"/>sein contrapunktisches Detail. <rs type="person">Dvořak</rs>’s eigenartiges, inten¬
-               <lb facs="#facs_2_region_1776574886913_313_tl_2" n="N002"/>sives Talent blickt uns mit freundlicheren Augen auch aus
-               <lb facs="#facs_2_region_1776574886913_313_tl_3" n="N003"/>einer neuesten, kleineren Publication entgegen. Es sind dies
-               <lb facs="#facs_2_region_1776574886913_313_tl_5" n="N004"/>„<rs type="bibl">Vier Lieder im Volkstone</rs>“ (op. 73) nach <rs type="place">slovakisch</rs>en und
-               <lb facs="#facs_2_region_1776574886913_313_tl_7" n="N005"/>
-               <rs type="place">böhmisch</rs>en Gedichten. An allen, besonders aber an dem
-               <lb facs="#facs_2_region_1776574886913_313_tl_8" n="N006"/>schönen Liede „<rs type="bibl">Die Klage</rs>“, erfreut uns die Verschmelzung
-               <lb facs="#facs_2_region_1776574886913_313_tl_9" n="N007"/>naiven, in volksthümlicher Melodie hervortretenden Empfindens
-               <lb facs="#facs_2_region_1776574886913_313_tl_10" n="N008"/>mit durchwegs charakteristischer, musikalisch tüchtiger Ge¬
-               <lb facs="#facs_2_region_1776574886913_313_tl_11" n="N009"/>staltung.
-               <lb facs="#facs_2_region_1776574886913_313_tl_12" n="N010"/>In <hi rendition="#em">
-                  <rs type="person">Kretschmann</rs>’s</hi> letztem Orchester-Concert hörten
-               <lb facs="#facs_2_region_1776574886913_313_tl_13" n="N011"/>wir zum erstenmale die <rs type="bibl">Ouvertüre</rs> zu <rs type="person">Goethe</rs>’s „<rs type="bibl">Hermann</rs>
-               <lb facs="#facs_2_region_1776574886913_313_tl_14" n="N012"/>
-               <rs type="bibl">Dorothea</rs>“ von Robert <rs type="person">Schumann</rs>. Er schrieb sie in
-               <lb facs="#facs_2_region_1776574886913_313_tl_15" n="N013"/>seiner letzten <rs type="place">Düsseldorf</rs>er Zeit „mit großer Lust in wenigen
-               <lb facs="#facs_2_region_1776574886913_313_tl_16" n="N014"/>Stunden“. Von dem Gefühle großer Lust ist nichts in die
-               <lb facs="#facs_2_region_1776574886913_313_tl_17" n="N015"/>Composition selbst übergeflossen. Eines der schwächsten, uner¬
-               <lb facs="#facs_2_region_1776574886913_313_tl_18" n="N016"/>quicklichsten Werke <rs type="person">Schumann</rs>’s, ist sie obendrein unbegreif¬
-               <lb facs="#facs_2_region_1776574886913_313_tl_19" n="N017"/>lich in ihrer Auffassung eines so durchaus klaren Stoffes
-               <lb facs="#facs_2_region_1776574886913_313_tl_20" n="N018"/>wie „<rs type="bibl">Hermann und Dorothea</rs>“. <rs type="person">Schumann</rs> räumt in seiner
-               <lb facs="#facs_2_region_1776574886913_313_tl_21" n="N019"/>
-               <rs type="bibl">Ouvertüre</rs> der <hi rendition="#em">
-                  <rs type="bibl">Marseillaise</rs>
-               </hi> die Hauptrolle ein. Vier-
-               <lb facs="#facs_2_region_1776574886913_313_tl_22" n="N020"/>bis fünfmal erklingt sie im Laufe des kurzen Stückes, stets
-               <lb facs="#facs_2_region_1776574886913_313_tl_23" n="N021"/>in hellem Dur, in den lustigen hohen Tönen der Flöten und
-               <lb facs="#facs_2_region_1776574886913_313_tl_24" n="N022"/>Oboën, später noch illuminirt durch Trompete und kleine
-               <lb facs="#facs_2_region_1776574886913_313_tl_25" n="N023"/>Trommel — während die eigentliche Idylle, die Herzens¬
-               <lb facs="#facs_2_region_1776574886913_313_tl_26" n="N024"/>geschichte von <rs type="person">Hermann</rs> und <rs type="person">Dorothea</rs>, sich nebenher in trü¬
-               <lb facs="#facs_2_region_1776574886913_313_tl_27" n="N025"/>bem Moll schwunglos, matt, verdrießlich durchschleicht. Bei
-               <lb facs="#facs_2_region_1776574886913_313_tl_28" n="N026"/>
-               <rs type="person">Goethe</rs> von alledem das gerade Gegentheil. Sein Gedicht ist
-               <lb facs="#facs_2_region_1776574886913_313_tl_29" n="N027"/>eine sonnenhelle Landschaft, die von den dunklen Wolken des
-               <lb facs="#facs_2_region_1776574886913_313_tl_30" n="N028"/>Anfangs sich in erquickender Frische abhebt und weiterhin
-               <lb facs="#facs_2_region_1776574886913_313_tl_31" n="N029"/>kaum eine Erinnerung an jenes ferne politische Gewitter auf¬
-               <lb facs="#facs_2_region_1776574886913_313_tl_32" n="N030"/>kommen läßt. Am Schlusse seiner Romanze von den „<rs type="bibl">Bei¬</rs>
-               <lb facs="#facs_2_region_1776574886913_313_tl_34" n="N031"/>
-               <rs type="bibl">den Grenadieren</rs>“ bringt <rs type="person">Schumann</rs> als geistreiches musi¬
-               <lb facs="#facs_2_region_1776574886913_313_tl_36" n="N032"/>kalisches Citat die <rs type="bibl">Marseillaise</rs> — aber erst am Schlusse,
-               <lb facs="#facs_2_region_1776574886913_313_tl_37" n="N033"/>wo der Grenadier im Geiste den Kaiser über sein
-               <lb facs="#facs_2_region_1776574886913_313_tl_38" n="N034"/>Grab reiten sieht. In analoger Weise, glaube ich, hatte in
-               <lb facs="#facs_2_region_1776574886913_313_tl_39" n="N035"/>einer <rs type="bibl">Ouvertüre</rs> zu „<rs type="bibl">Hermann und Dorothea</rs>“ die <rs type="bibl">Mar¬</rs>
-               <lb facs="#facs_2_region_1776574886913_313_tl_40" n="N036"/>
-               <rs type="bibl">seillaise</rs> (wenn sie überhaupt nothwendig war) nur zu An¬
-               <lb facs="#facs_2_region_1776574886913_313_tl_41" n="N037"/>fang, drohend, schattenhaft aufzutauchen und dann nicht
-               <lb facs="#facs_2_region_1776574886913_313_tl_42" n="N038"/>wieder. Damit wäre an die <rs type="person">Goethe</rs>’sche Exposition, die vor
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776574890561_316_tl_1" n="N001"/>den plündernden Franzosen herüberflüchtenden Auswanderer,
+         <lb facs="#facs_2_region_1776574890561_316_tl_2" n="N002"/>hinreichend erinnert. Die <rs type="place">französisch</rs>e Revolution durfte höch
+         <lb facs="#facs_2_region_1776574890561_316_tl_3" n="N003" break="no"/>stens der Hintergrund des Bildes werden; das Bild selbst,
+         <lb facs="#facs_2_region_1776574890561_316_tl_4" n="N004"/>ein einheitliches Tongemälde voll Anmuth und schlichter Herz
+         <lb facs="#facs_2_region_1776574890561_316_tl_5" n="N005" break="no"/>lichkeit, ein Nachklang des beglückendsten und vollendetsten
+         <lb facs="#facs_2_region_1776574890561_316_tl_6" n="N006"/>Gedichtes, das <rs type="person">Goethe</rs> geschaffen. Für solchen Nachklang
+         <lb facs="#facs_2_region_1776574890561_316_tl_7" n="N007"/>fehlten damals schon der goldenen Leier <rs type="person">Schumann</rs>’s die
+         <lb facs="#facs_2_region_1776574890561_316_tl_8" n="N008"/>Saiten. Die <rs type="bibl">Ouvertüre</rs>, sowie das übrige Programm des
+         <lb facs="#facs_2_region_1776574890561_316_tl_9" n="N009"/><rs type="person">Kretschmann</rs>’schen Concerts dirigirte Herr Ludwig <hi rendition="#em"><rs type="person">Rotten
+         <lb facs="#facs_2_region_1776574890561_316_tl_10" n="N010" break="no"/>berg</rs></hi>, den wir zum Beginne dieser neuen Laufbahn
+         <lb facs="#facs_2_region_1776574890561_316_tl_11" n="N011"/>gerne beglückwünschen. Der junge Mann ist als vorzüglicher
+         <lb facs="#facs_2_region_1776574890561_316_tl_12" n="N012"/>Pianist, tüchtiger Violinspieler, vor Allem als eminenter
+         <lb facs="#facs_2_region_1776574890561_316_tl_13" n="N013"/>Lieder-Accompagnateur bekannt; möge er auch als Dirigent
+         <lb facs="#facs_2_region_1776574890561_316_tl_14" n="N014"/>gleiche Anerkennung erwerben. Die kühle Aufnahme der
+         <lb facs="#facs_2_region_1776574890561_316_tl_15" n="N015"/><rs type="bibl">Ouvertüre</rs> zu „<rs type="bibl">Hermann und Dorothea</rs>“ würde <hi rendition="#em"><rs type="person">Schumann</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1776574890561_316_tl_16" n="N016"/>wahrscheinlich ebenso befremdet haben, wie seinerzeit der
+         <lb facs="#facs_2_region_1776574890561_316_tl_17" n="N017"/>schwache Erfolg seiner <rs type="bibl">Ouvertüre</rs> zu <rs type="person">Schiller</rs>’s „<rs type="bibl">Braut von
+         <lb facs="#facs_2_region_1776574890561_316_tl_18" n="N018"/>Messina</rs>“. „Ich bin daran gewöhnt,“ schreibt er im Jahre
+         <lb facs="#facs_2_region_1776574890561_316_tl_19" n="N019"/><date>1851</date> an einen Freund, „meine Compositionen, die besseren
+         <lb facs="#facs_2_region_1776574890561_316_tl_20" n="N020"/>und tieferen zumal, auf das erste Hören vom größten Theil
+         <lb facs="#facs_2_region_1776574890561_316_tl_21" n="N021"/>des Publicums nicht verstanden zu sehen. Bei dieser <rs type="bibl">Ouver
+         <lb facs="#facs_2_region_1776574890561_316_tl_22" n="N022" break="no"/>türe</rs> jedoch, so klar und einfach in der Erfindung, hätte ich
+         <lb facs="#facs_2_region_1776574890561_316_tl_23" n="N023"/>schnelleres Verständniß erwartet.“ <rs type="person">Schumann</rs> übersah, daß
+         <lb facs="#facs_2_region_1776574890561_316_tl_24" n="N024"/>es auch Compositionen geben kann, die, „klar und einfach“,
+         <lb facs="#facs_2_region_1776574890561_316_tl_25" n="N025"/>den Hörern kein Kopfbrechen machen, aber auch keine Freude.
+         <lb facs="#facs_2_region_1776574890561_316_tl_26" n="N026"/>Die <rs type="bibl">Ouvertüre</rs> zur „<rs type="bibl">Braut von Messina</rs>“ hat damals kalt
+         <lb facs="#facs_2_region_1776574890561_316_tl_27" n="N027"/>gelassen, wie später überall die Ouvertüren zum „<rs type="bibl">Julius
+         <lb facs="#facs_2_region_1776574890561_316_tl_28" n="N028"/>Cäsar</rs>“, zum „<rs type="bibl">Rheinweinlied</rs>“ und jetzt die zu „<rs type="bibl">Hermann
+         <lb facs="#facs_2_region_1776574890561_316_tl_30" n="N029"/>und Dorothea</rs>“. Diesen vier letzten Ouvertüren <rs type="person">Schumann</rs>’s
+         <lb facs="#facs_2_region_1776574890561_316_tl_31" n="N030"/>ist der traurige hippokratische Zug gemeinsam, welcher die
+         <lb facs="#facs_2_region_1776574890561_316_tl_32" n="N031"/>letzte Epoche dieses genialen Meisters kennzeichnet.
+            </p><p>
+         <lb facs="#facs_2_region_1776574890561_316_tl_33" n="N032"/>Den oben citirten Ausspruch entnehme ich der kürzlich
+         <lb facs="#facs_2_region_1776574890561_316_tl_34" n="N033"/>von Gustav <rs type="person">Jansen</rs> herausgegebenen „<rs type="bibl">Neuen Folge von
+         <lb facs="#facs_2_region_1776574890561_316_tl_35" n="N034"/>Schumann’s Briefen</rs>“. Dieselbe bietet jedem Verehrer <rs type="person">Schu
+         <lb facs="#facs_2_region_1776574890561_316_tl_36" n="N035" break="no"/>mann</rs>’s eine willkommene Lectüre, obwol sie einen ziemlichen
+         <lb facs="#facs_2_region_1776574890561_316_tl_37" n="N036"/>Ballast unerheblicher, auch rein geschäftlicher Zuschriften
+         <lb facs="#facs_2_region_1776574890561_316_tl_38" n="N037"/>mit sich führt. An <rs type="person">Schumann</rs>’s Kritiken reichen diese
+         <lb facs="#facs_2_region_1776574890561_316_tl_39" n="N038"/>Briefe in Form und Inhalt nicht entfernt. Aber eine<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1776574890561_316_tl_1" n="N001"/>den plündernden Franzosen herüberflüchtenden Auswanderer,
-               <lb facs="#facs_2_region_1776574890561_316_tl_2" n="N002"/>hinreichend erinnert. Die <rs type="place">französisch</rs>e Revolution durfte höch¬
-               <lb facs="#facs_2_region_1776574890561_316_tl_3" n="N003"/>stens der Hintergrund des Bildes werden; das Bild selbst,
-               <lb facs="#facs_2_region_1776574890561_316_tl_4" n="N004"/>ein einheitliches Tongemälde voll Anmuth und schlichter Herz¬
-               <lb facs="#facs_2_region_1776574890561_316_tl_5" n="N005"/>lichkeit, ein Nachklang des beglückendsten und vollendetsten
-               <lb facs="#facs_2_region_1776574890561_316_tl_6" n="N006"/>Gedichtes, das <rs type="person">Goethe</rs> geschaffen. Für solchen Nachklang
-               <lb facs="#facs_2_region_1776574890561_316_tl_7" n="N007"/>fehlten damals schon der goldenen Leier <rs type="person">Schumann</rs>’s die
-               <lb facs="#facs_2_region_1776574890561_316_tl_8" n="N008"/>Saiten. Die <rs type="bibl">Ouvertüre</rs>, sowie das übrige Programm des
-               <lb facs="#facs_2_region_1776574890561_316_tl_9" n="N009"/>
-               <rs type="person">Kretschmann</rs>’schen Concerts dirigirte Herr Ludwig <hi rendition="#em">
-                  <rs type="person" continued="true">Rotten¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1776574890561_316_tl_10" n="N010"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">berg</rs>
-               </hi>, den wir zum Beginne dieser neuen Laufbahn
-               <lb facs="#facs_2_region_1776574890561_316_tl_11" n="N011"/>gerne beglückwünschen. Der junge Mann ist als vorzüglicher
-               <lb facs="#facs_2_region_1776574890561_316_tl_12" n="N012"/>Pianist, tüchtiger Violinspieler, vor Allem als eminenter
-               <lb facs="#facs_2_region_1776574890561_316_tl_13" n="N013"/>Lieder-Accompagnateur bekannt; möge er auch als Dirigent
-               <lb facs="#facs_2_region_1776574890561_316_tl_14" n="N014"/>gleiche Anerkennung erwerben. Die kühle Aufnahme der
-               <lb facs="#facs_2_region_1776574890561_316_tl_15" n="N015"/>
-               <rs type="bibl">Ouvertüre</rs> zu „<rs type="bibl">Hermann und Dorothea</rs>“ würde <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi>
-               <lb facs="#facs_2_region_1776574890561_316_tl_16" n="N016"/>wahrscheinlich ebenso befremdet haben, wie seinerzeit der
-               <lb facs="#facs_2_region_1776574890561_316_tl_17" n="N017"/>schwache Erfolg seiner <rs type="bibl">Ouvertüre</rs> zu <rs type="person">Schiller</rs>’s „<rs type="bibl">Braut von</rs>
-               <lb facs="#facs_2_region_1776574890561_316_tl_18" n="N018"/>
-               <rs type="bibl">Messina</rs>“. „Ich bin daran gewöhnt,“ schreibt er im Jahre
-               <lb facs="#facs_2_region_1776574890561_316_tl_19" n="N019"/>
-               <date month="0" day="0" year="0">1851</date> an einen Freund, „meine Compositionen, die besseren
-               <lb facs="#facs_2_region_1776574890561_316_tl_20" n="N020"/>und tieferen zumal, auf das erste Hören vom größten Theil
-               <lb facs="#facs_2_region_1776574890561_316_tl_21" n="N021"/>des Publicums nicht verstanden zu sehen. Bei dieser <rs type="bibl">Ouver¬</rs>
-               <lb facs="#facs_2_region_1776574890561_316_tl_22" n="N022"/>
-               <rs type="bibl">türe</rs> jedoch, so klar und einfach in der Erfindung, hätte ich
-               <lb facs="#facs_2_region_1776574890561_316_tl_23" n="N023"/>schnelleres Verständniß erwartet.“ <rs type="person">Schumann</rs> übersah, daß
-               <lb facs="#facs_2_region_1776574890561_316_tl_24" n="N024"/>es auch Compositionen geben kann, die, „klar und einfach“,
-               <lb facs="#facs_2_region_1776574890561_316_tl_25" n="N025"/>den Hörern kein Kopfbrechen machen, aber auch keine Freude.
-               <lb facs="#facs_2_region_1776574890561_316_tl_26" n="N026"/>Die <rs type="bibl">Ouvertüre</rs> zur „<rs type="bibl">Braut von Messina</rs>“ hat damals kalt
-               <lb facs="#facs_2_region_1776574890561_316_tl_27" n="N027"/>gelassen, wie später überall die Ouvertüren zum „<rs type="bibl">Julius</rs>
-               <lb facs="#facs_2_region_1776574890561_316_tl_28" n="N028"/>
-               <rs type="bibl">Cäsar</rs>“, zum „<rs type="bibl">Rheinweinlied</rs>“ und jetzt die zu „<rs type="bibl">Hermann</rs>
-               <lb facs="#facs_2_region_1776574890561_316_tl_30" n="N029"/>
-               <rs type="bibl">und Dorothea</rs>“. Diesen vier letzten Ouvertüren <rs type="person">Schumann</rs>’s
-               <lb facs="#facs_2_region_1776574890561_316_tl_31" n="N030"/>ist der traurige hippokratische Zug gemeinsam, welcher die
-               <lb facs="#facs_2_region_1776574890561_316_tl_32" n="N031"/>letzte Epoche dieses genialen Meisters kennzeichnet.
-               <lb facs="#facs_2_region_1776574890561_316_tl_33" n="N032"/>Den oben citirten Ausspruch entnehme ich der kürzlich
-               <lb facs="#facs_2_region_1776574890561_316_tl_34" n="N033"/>von Gustav <rs type="person">Jansen</rs> herausgegebenen „<rs type="bibl">Neuen Folge von</rs>
-               <lb facs="#facs_2_region_1776574890561_316_tl_35" n="N034"/>
-               <rs type="bibl">Schumann’s Briefen</rs>“. Dieselbe bietet jedem Verehrer <rs type="person" continued="true">Schu¬</rs>
-               <lb facs="#facs_2_region_1776574890561_316_tl_36" n="N035"/>
-               <rs type="person" continued="true">mann</rs>’s eine willkommene Lectüre, obwol sie einen ziemlichen
-               <lb facs="#facs_2_region_1776574890561_316_tl_37" n="N036"/>Ballast unerheblicher, auch rein geschäftlicher Zuschriften
-               <lb facs="#facs_2_region_1776574890561_316_tl_38" n="N037"/>mit sich führt. An <rs type="person">Schumann</rs>’s Kritiken reichen diese
-               <lb facs="#facs_2_region_1776574890561_316_tl_39" n="N038"/>Briefe in Form und Inhalt nicht entfernt. Aber eine
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1776574896305_319_tl_1" n="N001"/>auffallende Wahrnehmung verdanken wir dieser Samm¬
-               <lb facs="#facs_2_region_1776574896305_319_tl_2" n="N002"/>lung. Bekanntlich charakterisirt alle jugendlichen Briefe
-               <lb facs="#facs_2_region_1776574896305_319_tl_3" n="N003"/>und Aufsätze <rs type="person">Schumann</rs>’s ein sehr bilderreicher, in
-               <lb facs="#facs_2_region_1776574896305_319_tl_4" n="N004"/>Humor und Empfindsamkeit überschwänglicher Styl.
-               <lb facs="#facs_2_region_1776574896305_319_tl_5" n="N005"/>Der ganze (von Clara <rs type="person">Schumann</rs> herausgegebene) <hi rendition="#em">erste</hi>
-               <lb facs="#facs_2_region_1776574896305_319_tl_6" n="N006"/>
-               <rs type="bibl">Band</rs> seiner Briefe trägt diese Jean <rs type="person">Paul</rs>’sche Färbung. In
-               <lb facs="#facs_2_region_1776574896305_319_tl_7" n="N007"/>dem vorliegenden zweiten <rs type="bibl">Band</rs>e schimmert sie noch in den
-               <lb facs="#facs_2_region_1776574896305_319_tl_8" n="N008"/>ersten Briefen an seine Schwägerin <rs type="person">Therese</rs>, an Henriette
-               <lb facs="#facs_2_region_1776574896305_319_tl_9" n="N009"/>
-               <rs type="person" continued="true">Voigt</rs>, an Freund <rs type="person">Rosen</rs> nach. Vom Jahre <date month="0" day="0" year="0">1835</date> an ver¬
-               <lb facs="#facs_2_region_1776574896305_319_tl_10" n="N010"/>schwindet diese luxurirende Rhetorik vollständig; an ihre
-               <lb facs="#facs_2_region_1776574896305_319_tl_11" n="N011"/>Stelle tritt ein ruhiger, sachgemäß klarer, sogar nüchterner
-               <lb facs="#facs_2_region_1776574896305_319_tl_12" n="N012"/>Styl, welcher sich fortan gleich bleibt und den früheren
-               <lb facs="#facs_2_region_1776574896305_319_tl_13" n="N013"/>Schwärmgeist <rs type="person">Schumann</rs> kaum wiedererkennen läßt. Aber
-               <lb facs="#facs_2_region_1776574896305_319_tl_14" n="N014"/>nun, gegen den Ausgang seines Lebens, geschieht etwas Merk¬
-               <lb facs="#facs_2_region_1776574896305_319_tl_15" n="N015"/>würdiges: das Ende biegt sich wieder zum Anfang zurück,
-               <lb facs="#facs_2_region_1776574896305_319_tl_16" n="N016"/>
-               <rs type="person">Schumann</rs>’s stylistische Eigenart schließt einen Ring. In
-               <lb facs="#facs_2_region_1776574896305_319_tl_17" n="N017"/>seinen allerletzten Briefen taucht ganz plötzlich der alte Jean
-               <lb facs="#facs_2_region_1776574896305_319_tl_18" n="N018"/>
-               <rs type="person" continued="true">Paul</rs>’sche Zug wieder auf, das Reden in Bildern, der
-               <lb facs="#facs_2_region_1776574896305_319_tl_19" n="N019"/>schwärmerische Ton. Dieser Wandel knüpft sich ganz genau
-               <lb facs="#facs_2_region_1776574896305_319_tl_20" n="N020"/>an das Erscheinen des jungen <hi rendition="#em">
-                  <rs type="person">Brahms</rs>
-               </hi>. Sobald <rs type="person">Schumann</rs>
-               <lb facs="#facs_2_region_1776574896305_319_tl_21" n="N021"/>von diesem spricht, hören wir wieder die längst verklungenen
-               <lb facs="#facs_2_region_1776574896305_319_tl_22" n="N022"/>Stimmen von Florestan und Eusebius. In einem Briefe an
-               <lb facs="#facs_2_region_1776574896305_319_tl_23" n="N023"/>
-               <rs type="person">Joachim</rs> (<date month="0" day="0" year="0">1851</date>) nennt er <rs type="person">Brahms</rs> „den jungen Adler, der
-               <lb facs="#facs_2_region_1776574896305_319_tl_24" n="N024"/>so plötzlich und unvermuthet aus den Alpen dahergeflogen
-               <lb facs="#facs_2_region_1776574896305_319_tl_25" n="N025"/>nach <rs type="place">Düsseldorf</rs>“. „Oder man könnte ihn auch einem präch¬
-               <lb facs="#facs_2_region_1776574896305_319_tl_26" n="N026"/>tigen Strome vergleichen, der wie der <rs type="place">Niagara</rs> am schönsten
-               <lb facs="#facs_2_region_1776574896305_319_tl_27" n="N027"/>sich zeigt, wenn er als Wasserfall brausend aus der Höhe
-               <lb facs="#facs_2_region_1776574896305_319_tl_28" n="N028"/>herabstürzt, auf seinen Wellen den Regenbogen tragend und
-               <lb facs="#facs_2_region_1776574896305_319_tl_29" n="N029"/>am Ufer von Schmetterlingen umspielt und von Nachtigallen¬
-               <lb facs="#facs_2_region_1776574896305_319_tl_30" n="N030"/>stimmen begleitet.“ Und später: „Der junge Aar scheint sich im
-               <lb facs="#facs_2_region_1776574896305_319_tl_31" n="N031"/>Plattland zu behagen; er hat einen älteren Wärter gefunden, der,
-               <lb facs="#facs_2_region_1776574896305_319_tl_32" n="N032"/>mit solch jungem Aufflug umzugehen gewohnt, die wilden Flügel¬
-               <lb facs="#facs_2_region_1776574896305_319_tl_33" n="N033"/>schläge zu sänftigen versteht und die Schwungkräfte nicht hindert.“
-               <lb facs="#facs_2_region_1776574896305_319_tl_34" n="N034"/>In einem andern Briefe an <rs type="person">Joachim</rs> heißt es: „<rs type="person">Johannes</rs>
-               <lb facs="#facs_2_region_1776574896305_319_tl_35" n="N035"/>scheint sehr fleißig; er ist im Stande, die Erde in wenigen
-               <lb facs="#facs_2_region_1776574896305_319_tl_36" n="N036"/>Tagen zu umschiffen . . . Ich habe angefangen, meine Ge¬
-               <lb facs="#facs_2_region_1776574896305_319_tl_37" n="N037"/>danken über den jungen Aar zu sammeln und aufzusetzen,
-               <lb facs="#facs_2_region_1776574896305_319_tl_38" n="N038"/>ihm bei seinem ersten Fluge über die Welt zur Seite zu
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776574896305_319_tl_1" n="N001"/>auffallende Wahrnehmung verdanken wir dieser Samm
+         <lb facs="#facs_2_region_1776574896305_319_tl_2" n="N002" break="no"/>lung. Bekanntlich charakterisirt alle jugendlichen Briefe
+         <lb facs="#facs_2_region_1776574896305_319_tl_3" n="N003"/>und Aufsätze <rs type="person">Schumann</rs>’s ein sehr bilderreicher, in
+         <lb facs="#facs_2_region_1776574896305_319_tl_4" n="N004"/>Humor und Empfindsamkeit überschwänglicher Styl.
+         <lb facs="#facs_2_region_1776574896305_319_tl_5" n="N005"/>Der ganze (von Clara <rs type="person">Schumann</rs> herausgegebene) <hi rendition="#em">erste</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1776574896305_319_tl_6" n="N006"/><rs type="bibl">Band</rs> seiner Briefe trägt diese Jean <rs type="person">Paul</rs>’sche Färbung. In
+         <lb facs="#facs_2_region_1776574896305_319_tl_7" n="N007"/>dem vorliegenden zweiten <rs type="bibl">Band</rs>e schimmert sie noch in den
+         <lb facs="#facs_2_region_1776574896305_319_tl_8" n="N008"/>ersten Briefen an seine Schwägerin <rs type="person">Therese</rs>, an Henriette
+         <lb facs="#facs_2_region_1776574896305_319_tl_9" n="N009"/><rs type="person">Voigt</rs>, an Freund <rs type="person">Rosen</rs> nach. Vom Jahre <date>1835</date> an ver
+         <lb facs="#facs_2_region_1776574896305_319_tl_10" n="N010" break="no"/>schwindet diese luxurirende Rhetorik vollständig; an ihre
+         <lb facs="#facs_2_region_1776574896305_319_tl_11" n="N011"/>Stelle tritt ein ruhiger, sachgemäß klarer, sogar nüchterner
+         <lb facs="#facs_2_region_1776574896305_319_tl_12" n="N012"/>Styl, welcher sich fortan gleich bleibt und den früheren
+         <lb facs="#facs_2_region_1776574896305_319_tl_13" n="N013"/>Schwärmgeist <rs type="person">Schumann</rs> kaum wiedererkennen läßt. Aber
+         <lb facs="#facs_2_region_1776574896305_319_tl_14" n="N014"/>nun, gegen den Ausgang seines Lebens, geschieht etwas Merk
+         <lb facs="#facs_2_region_1776574896305_319_tl_15" n="N015" break="no"/>würdiges: das Ende biegt sich wieder zum Anfang zurück,
+         <lb facs="#facs_2_region_1776574896305_319_tl_16" n="N016"/><rs type="person">Schumann</rs>’s stylistische Eigenart schließt einen Ring. In
+         <lb facs="#facs_2_region_1776574896305_319_tl_17" n="N017"/>seinen allerletzten Briefen taucht ganz plötzlich der alte Jean
+         <lb facs="#facs_2_region_1776574896305_319_tl_18" n="N018"/><rs type="person">Paul</rs>’sche Zug wieder auf, das Reden in Bildern, der
+         <lb facs="#facs_2_region_1776574896305_319_tl_19" n="N019"/>schwärmerische Ton. Dieser Wandel knüpft sich ganz genau
+         <lb facs="#facs_2_region_1776574896305_319_tl_20" n="N020"/>an das Erscheinen des jungen <hi rendition="#em"><rs type="person">Brahms</rs></hi>. Sobald <rs type="person">Schumann</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1776574896305_319_tl_21" n="N021"/>von diesem spricht, hören wir wieder die längst verklungenen
+         <lb facs="#facs_2_region_1776574896305_319_tl_22" n="N022"/>Stimmen von Florestan und Eusebius. In einem Briefe an
+         <lb facs="#facs_2_region_1776574896305_319_tl_23" n="N023"/><rs type="person">Joachim</rs> (<date>1851</date>) nennt er <rs type="person">Brahms</rs> „den jungen Adler, der
+         <lb facs="#facs_2_region_1776574896305_319_tl_24" n="N024"/>so plötzlich und unvermuthet aus den Alpen dahergeflogen
+         <lb facs="#facs_2_region_1776574896305_319_tl_25" n="N025"/>nach <rs type="place">Düsseldorf</rs>“. „Oder man könnte ihn auch einem präch
+         <lb facs="#facs_2_region_1776574896305_319_tl_26" n="N026" break="no"/>tigen Strome vergleichen, der wie der <rs type="place">Niagara</rs> am schönsten
+         <lb facs="#facs_2_region_1776574896305_319_tl_27" n="N027"/>sich zeigt, wenn er als Wasserfall brausend aus der Höhe
+         <lb facs="#facs_2_region_1776574896305_319_tl_28" n="N028"/>herabstürzt, auf seinen Wellen den Regenbogen tragend und
+         <lb facs="#facs_2_region_1776574896305_319_tl_29" n="N029"/>am Ufer von Schmetterlingen umspielt und von Nachtigallen
+         <lb facs="#facs_2_region_1776574896305_319_tl_30" n="N030" break="no"/>stimmen begleitet.“ Und später: „Der junge Aar scheint sich im
+         <lb facs="#facs_2_region_1776574896305_319_tl_31" n="N031"/>Plattland zu behagen; er hat einen älteren Wärter gefunden, der,
+         <lb facs="#facs_2_region_1776574896305_319_tl_32" n="N032"/>mit solch jungem Aufflug umzugehen gewohnt, die wilden Flügel
+         <lb facs="#facs_2_region_1776574896305_319_tl_33" n="N033" break="no"/>schläge zu sänftigen versteht und die Schwungkräfte nicht hindert.“
+         <lb facs="#facs_2_region_1776574896305_319_tl_34" n="N034"/>In einem andern Briefe an <rs type="person">Joachim</rs> heißt es: „<rs type="person">Johannes</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1776574896305_319_tl_35" n="N035"/>scheint sehr fleißig; er ist im Stande, die Erde in wenigen
+         <lb facs="#facs_2_region_1776574896305_319_tl_36" n="N036"/>Tagen zu umschiffen . . . Ich habe angefangen, meine Ge
+         <lb facs="#facs_2_region_1776574896305_319_tl_37" n="N037" break="no"/>danken über den jungen Aar zu sammeln und aufzusetzen,
+         <lb facs="#facs_2_region_1776574896305_319_tl_38" n="N038"/>ihm bei seinem ersten Fluge über die Welt zur Seite zu<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1776574908057_325_tl_1" n="N001"/>stehen. Aber ich fürchte, es ist noch zu viel persönliche Zu
+         <lb facs="#facs_3_region_1776574908057_325_tl_2" n="N002" break="no"/>neigung vorhanden, um die dunklen und hellen Farben sei
+         <lb facs="#facs_3_region_1776574908057_325_tl_3" n="N003" break="no"/>nes Gefieders ganz klar vor Augen zu bringen.“ Im Januar
+         <lb facs="#facs_3_line_1781121302410_1153" n="N004"/><date>1854</date> schreibt <rs type="person">Schumann</rs> wieder an <rs type="person">Joachim</rs>: „Nun, wo ist
+         <lb facs="#facs_3_region_1776574908057_325_tl_4" n="N005"/><rs type="person">Johannes</rs>? Fliegt er hoch — oder nur unter Blumen?“
+         <lb facs="#facs_3_region_1776574908057_325_tl_5" n="N006"/>Und später im Februar: „Acht Tage sind wir fort und
+         <lb facs="#facs_3_region_1776574908057_325_tl_6" n="N007"/>haben Ihnen und Ihren Gesellen (<rs type="person">Joachim</rs>, <rs type="person">Brahms</rs> und
+         <lb facs="#facs_3_region_1776574908057_325_tl_7" n="N008"/>O. <rs type="person">Grimm</rs>) noch kein Wort zukommen lassen! Aber mit
+         <lb facs="#facs_3_region_1776574908057_325_tl_8" n="N009"/>sympathetischer Tinte habe ich euch oft geschrieben, und auch
+         <lb facs="#facs_3_region_1776574908057_325_tl_9" n="N010"/>zwischen diesen Zeilen steht eine Geheimschrift, die später
+         <lb facs="#facs_3_region_1776574908057_325_tl_10" n="N011"/>hervorgehoben wird . . . Die Cigarren munden mir sehr.
+         <lb facs="#facs_3_region_1776574908057_325_tl_12" n="N012"/>Es scheint ein <rs type="person">Brahms</rs>’scher Griff zu sein und, wie er
+         <lb facs="#facs_3_region_1776574908057_325_tl_14" n="N013"/>pflegt, ein sehr schwerer, aber wohlschmeckender! Jetzt seh’
+         <lb facs="#facs_3_region_1776574908057_325_tl_15" n="N014"/>ich ein Lächeln über ihm schweben. Nun will ich schließen. Es
+         <lb facs="#facs_3_region_1776574908057_325_tl_16" n="N015"/>dunkelt schon.“ So schließt der letzte Brief, der von <rs type="person">Schu
+         <lb facs="#facs_3_region_1776574908057_325_tl_17" n="N016" break="no"/>mann</rs> bekannt geworden ist.
+            </p><p>
+         <lb facs="#facs_3_region_1776574908057_325_tl_18" n="N017"/>Um <rs type="person">Schumann</rs> dreht sich gegenwärtig eine auffallend
+         <lb facs="#facs_3_region_1776574908057_325_tl_19" n="N018"/>rege Geschäftigkeit im Buchhandel und Musikverlag. Der
+         <lb facs="#facs_3_region_1776574908057_325_tl_20" n="N019"/>Zeitablauf von 30 Jahren nach <rs type="person">Schumann</rs>’s Tod (<date>1856</date>)
+         <lb facs="#facs_3_region_1776574908057_325_tl_21" n="N020"/>hat die Publication seiner Werke allerwärts freigegeben. Wie
+         <lb facs="#facs_3_region_1776574908057_325_tl_22" n="N021"/>vor sieben Jahren <hi rendition="#em"><rs type="person">Chopin</rs></hi> durch zahlreiche Concurrenz-
+         <lb facs="#facs_3_region_1776574908057_325_tl_23" n="N022"/>Ausgaben popularisirt und enorm verbreitet worden ist, so
+         <lb facs="#facs_3_region_1776574908057_325_tl_24" n="N023"/>geschieht es jetzt mit <hi rendition="#em"><rs type="person">Schumann</rs></hi>. Voran steht die Firma
+         <lb facs="#facs_3_region_1776574908057_325_tl_25" n="N024"/>Breitkopf und Härtel, welche ihrer bekannten großen <rs type="bibl">Ge
+         <lb facs="#facs_3_region_1776574908057_325_tl_26" n="N025" break="no"/>sammt-Ausgabe</rs> rasch eine „<rs type="bibl">Billige Volksausgabe</rs>“ nachge
+         <lb facs="#facs_3_region_1776574908057_325_tl_27" n="N026" break="no"/>schickt hat. (In dieser correcten und handlichen Ausgabe
+         <lb facs="#facs_3_region_1776574908057_325_tl_28" n="N027"/>kosten sämmtliche Lieder <rs type="person">Schumann</rs>’s in vier Bänden nur
+         <lb facs="#facs_3_region_1776574908057_325_tl_29" n="N028"/>9 Mark.) <rs type="person">Schumann</rs>’s Clavier-Compositionen sind,
+         <lb facs="#facs_3_region_1776574908057_325_tl_30" n="N029"/>von Hanns <rs type="person">Bischoff</rs> sorgfältig revidirt, vollständig
+         <lb facs="#facs_3_region_1776574908057_325_tl_31" n="N030"/>in elf <rs type="bibl">Bänden</rs> bei <rs type="person">Steingräber</rs> in <rs type="place">Hannover</rs> erschie
+         <lb facs="#facs_3_region_1776574908057_325_tl_32" n="N031" break="no"/>nen und sehr hübsch ausgestattet. Als eigentliche
+         <lb facs="#facs_3_region_1776574908057_325_tl_33" n="N032"/><rs type="bibl">Schulausgabe</rs> empfiehlt sich die von Professor Anton <hi rendition="#em"><rs type="person">Door</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776574908057_325_tl_34" n="N033"/>(<rs type="place">Wien</rs>, bei Engelmann-Wetzler). Sie enthält nur ausgewählte
+         <lb facs="#facs_3_region_1776574908057_325_tl_35" n="N034"/>Clavierwerke, deren Studium angehenden Pianisten durch
+         <lb facs="#facs_3_region_1776574908057_325_tl_36" n="N035"/>beigefügten Fingersatz, durch pädagogische Winke und kurze
+         <lb facs="#facs_3_region_1776574908057_325_tl_37" n="N036"/>ästhetische Erklärungen erleichtert wird. Alle diese neuen
+         <lb facs="#facs_3_region_1776574908057_325_tl_38" n="N037"/><rs type="person">Schumann</rs>-Ausgaben sind werthvolle Früchte der freien
+         <lb facs="#facs_3_region_1776574908057_325_tl_39" n="N038"/>Concurrenz. Neben ihnen treibt der musikalische Freihandel<space quantity="1" unit="char"/></p>
             <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1776574908057_325_tl_1" n="N001"/>stehen. Aber ich fürchte, es ist noch zu viel persönliche Zu¬
-               <lb facs="#facs_3_region_1776574908057_325_tl_2" n="N002"/>neigung vorhanden, um die dunklen und hellen Farben sei¬
-               <lb facs="#facs_3_region_1776574908057_325_tl_3" n="N003"/>nes Gefieders ganz klar vor Augen zu bringen.“ Im Januar
-               <lb facs="#facs_3_line_1781121302410_1153" n="N004"/>
-               <date month="0" day="0" year="0">1854</date> schreibt <rs type="person">Schumann</rs> wieder an <rs type="person">Joachim</rs>: „Nun, wo ist
-               <lb facs="#facs_3_region_1776574908057_325_tl_4" n="N005"/>
-               <rs type="person">Johannes</rs>? Fliegt er hoch — oder nur unter Blumen?“
-               <lb facs="#facs_3_region_1776574908057_325_tl_5" n="N006"/>Und später im Februar: „Acht Tage sind wir fort und
-               <lb facs="#facs_3_region_1776574908057_325_tl_6" n="N007"/>haben Ihnen und Ihren Gesellen (<rs type="person">Joachim</rs>, <rs type="person">Brahms</rs> und
-               <lb facs="#facs_3_region_1776574908057_325_tl_7" n="N008"/>O. <rs type="person">Grimm</rs>) noch kein Wort zukommen lassen! Aber mit
-               <lb facs="#facs_3_region_1776574908057_325_tl_8" n="N009"/>sympathetischer Tinte habe ich euch oft geschrieben, und auch
-               <lb facs="#facs_3_region_1776574908057_325_tl_9" n="N010"/>zwischen diesen Zeilen steht eine Geheimschrift, die später
-               <lb facs="#facs_3_region_1776574908057_325_tl_10" n="N011"/>hervorgehoben wird . . . Die Cigarren munden mir sehr.
-               <lb facs="#facs_3_region_1776574908057_325_tl_12" n="N012"/>Es scheint ein <rs type="person">Brahms</rs>’scher Griff zu sein und, wie er
-               <lb facs="#facs_3_region_1776574908057_325_tl_14" n="N013"/>pflegt, ein sehr schwerer, aber wohlschmeckender! Jetzt seh’
-               <lb facs="#facs_3_region_1776574908057_325_tl_15" n="N014"/>ich ein Lächeln über ihm schweben. Nun will ich schließen. Es
-               <lb facs="#facs_3_region_1776574908057_325_tl_16" n="N015"/>dunkelt schon.“ So schließt der letzte Brief, der von <rs type="person" continued="true">Schu¬</rs>
-               <lb facs="#facs_3_region_1776574908057_325_tl_17" n="N016"/>
-               <rs type="person" continued="true">mann</rs> bekannt geworden ist.
-               <lb facs="#facs_3_region_1776574908057_325_tl_18" n="N017"/>Um <rs type="person">Schumann</rs> dreht sich gegenwärtig eine auffallend
-               <lb facs="#facs_3_region_1776574908057_325_tl_19" n="N018"/>rege Geschäftigkeit im Buchhandel und Musikverlag. Der
-               <lb facs="#facs_3_region_1776574908057_325_tl_20" n="N019"/>Zeitablauf von 30 Jahren nach <rs type="person">Schumann</rs>’s Tod (<date month="0" day="0" year="0">1856</date>)
-               <lb facs="#facs_3_region_1776574908057_325_tl_21" n="N020"/>hat die Publication seiner Werke allerwärts freigegeben. Wie
-               <lb facs="#facs_3_region_1776574908057_325_tl_22" n="N021"/>vor sieben Jahren <hi rendition="#em">
-                  <rs type="person">Chopin</rs>
-               </hi> durch zahlreiche Concurrenz-
-               <lb facs="#facs_3_region_1776574908057_325_tl_23" n="N022"/>Ausgaben popularisirt und enorm verbreitet worden ist, so
-               <lb facs="#facs_3_region_1776574908057_325_tl_24" n="N023"/>geschieht es jetzt mit <hi rendition="#em">
-                  <rs type="person">Schumann</rs>
-               </hi>. Voran steht die Firma
-               <lb facs="#facs_3_region_1776574908057_325_tl_25" n="N024"/>Breitkopf und Härtel, welche ihrer bekannten großen <rs type="bibl">Ge¬</rs>
-               <lb facs="#facs_3_region_1776574908057_325_tl_26" n="N025"/>
-               <rs type="bibl">sammt-Ausgabe</rs> rasch eine „<rs type="bibl">Billige Volksausgabe</rs>“ nachge¬
-               <lb facs="#facs_3_region_1776574908057_325_tl_27" n="N026"/>schickt hat. (In dieser correcten und handlichen Ausgabe
-               <lb facs="#facs_3_region_1776574908057_325_tl_28" n="N027"/>kosten sämmtliche Lieder <rs type="person">Schumann</rs>’s in vier Bänden nur
-               <lb facs="#facs_3_region_1776574908057_325_tl_29" n="N028"/>9 Mark.) <rs type="person">Schumann</rs>’s Clavier-Compositionen sind,
-               <lb facs="#facs_3_region_1776574908057_325_tl_30" n="N029"/>von Hanns <rs type="person">Bischoff</rs> sorgfältig revidirt, vollständig
-               <lb facs="#facs_3_region_1776574908057_325_tl_31" n="N030"/>in elf <rs type="bibl">Bänden</rs> bei <rs type="person">Steingräber</rs> in <rs type="place">Hannover</rs> erschie¬
-               <lb facs="#facs_3_region_1776574908057_325_tl_32" n="N031"/>nen und sehr hübsch ausgestattet. Als eigentliche
-               <lb facs="#facs_3_region_1776574908057_325_tl_33" n="N032"/>
-               <rs type="bibl">Schulausgabe</rs> empfiehlt sich die von Professor Anton <hi rendition="#em">
-                  <rs type="person">Door</rs>
-               </hi>
-               <lb facs="#facs_3_region_1776574908057_325_tl_34" n="N033"/>(<rs type="place">Wien</rs>, bei Engelmann-Wetzler). Sie enthält nur ausgewählte
-               <lb facs="#facs_3_region_1776574908057_325_tl_35" n="N034"/>Clavierwerke, deren Studium angehenden Pianisten durch
-               <lb facs="#facs_3_region_1776574908057_325_tl_36" n="N035"/>beigefügten Fingersatz, durch pädagogische Winke und kurze
-               <lb facs="#facs_3_region_1776574908057_325_tl_37" n="N036"/>ästhetische Erklärungen erleichtert wird. Alle diese neuen
-               <lb facs="#facs_3_region_1776574908057_325_tl_38" n="N037"/>
-               <rs type="person">Schumann</rs>-Ausgaben sind werthvolle Früchte der freien
-               <lb facs="#facs_3_region_1776574908057_325_tl_39" n="N038"/>Concurrenz. Neben ihnen treibt der musikalische Freihandel
-            </p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1776574913857_328_tl_1" n="N001"/>mitunter auch wunderliche Speculations-Blüthen. Vor uns
-               <lb facs="#facs_3_region_1776574913857_328_tl_2" n="N002"/>liegt ein eben in <rs type="place">Leipzig</rs> erschienenes Heft, betitelt: „<hi rendition="#em">
-                  <rs type="bibl">Neues</rs>
-               </hi>
-               <lb facs="#facs_3_region_1776574913857_328_tl_3" n="N003"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Liederalbum</rs>
-               </hi>. 27 Lieder für eine Singstimme mit
-               <lb facs="#facs_3_region_1776574913857_328_tl_4" n="N004"/>Pianoforte Begleitung <hi rendition="#em">von Robert <rs type="person">Schumann</rs>
-               </hi>.“ Neu¬
-               <lb facs="#facs_3_region_1776574913857_328_tl_5" n="N005"/>gierig verfolgen wir es Blatt für Blatt, und — was finden
-               <lb facs="#facs_3_region_1776574913857_328_tl_6" n="N006"/>wir? 27 Lieder, welche <rs type="person">Schumann</rs> niemals componirt hat.
-               <lb facs="#facs_3_region_1776574913857_328_tl_7" n="N007"/>Es sind einzelne seiner Clavierstücke, durch Unterlegung von
-               <lb facs="#facs_3_region_1776574913857_328_tl_8" n="N008"/>Gedichten zu Liedern für eine Singstimme umgeformt. So
-               <lb facs="#facs_3_region_1776574913857_328_tl_9" n="N009"/>ist z. B. das Lied „<rs type="bibl">Zugvögel</rs>“ dem zweiten <rs type="bibl">Stück</rs>e aus den
-               <lb facs="#facs_3_region_1776574913857_328_tl_10" n="N010"/>
-               <rs type="bibl">Davidsbündlertänze</rs>n entnommen; „<rs type="bibl">Blau und Roth</rs>“ eben¬
-               <lb facs="#facs_3_region_1776574913857_328_tl_11" n="N011"/>daher dem vierzehnten <rs type="bibl">Stück</rs>. Dem <rs type="bibl">G-moll-Satz Nr. 15</rs>
-               <lb facs="#facs_3_region_1776574913857_328_tl_12" n="N012"/>aus den <rs type="bibl">Davidsbündlertänze</rs>n ist Anfang und Schluß ab¬
-               <lb facs="#facs_3_region_1776574913857_328_tl_13" n="N013"/>gehackt und der Mittelsatz in Es zu einem „<rs type="bibl">Gesang der</rs>
-               <lb facs="#facs_3_region_1776574913857_328_tl_14" n="N014"/>
-               <rs type="bibl">Lorley</rs>“ eingerichtet; da aber die <rs type="person">Lorley</rs> wahrscheinlich keinen
-               <lb facs="#facs_3_region_1776574913857_328_tl_15" n="N015"/>so langen Athem hat, sind die Achtelnoten der Begleitung in
-               <lb facs="#facs_3_region_1776574913857_328_tl_16" n="N016"/>Sechzehntel verwandelt und in der Melodie die halben
-               <lb facs="#facs_3_region_1776574913857_328_tl_17" n="N017"/>Noten in Viertel. Das Lied „<rs type="bibl">Nachruf</rs>“ besteht aus dem
-               <lb facs="#facs_3_region_1776574913857_328_tl_19" n="N018"/>Thema der „<rs type="bibl">symphonischen Etüden</rs>“ u.s.w. Wir fragen
-               <lb facs="#facs_3_region_1776574913857_328_tl_21" n="N019"/>nun: sind das „Lieder von <rs type="person">Schumann</rs>“? Darf ein Ver¬
-               <lb facs="#facs_3_region_1776574913857_328_tl_23" n="N020"/>leger solche Arrangements dafür ausgeben? Verfällt er
-               <lb facs="#facs_3_region_1776574913857_328_tl_24" n="N021"/>nicht dem doppelten Vorwurf, das Publicum irrege¬
-               <lb facs="#facs_3_region_1776574913857_328_tl_25" n="N022"/>führt und den Meister, der sich nicht mehr wehren
-               <lb facs="#facs_3_region_1776574913857_328_tl_26" n="N023"/>kann, vergewaltigt zu haben? Das Vergnügen, Clavierstücke
-               <lb facs="#facs_3_region_1776574913857_328_tl_27" n="N024"/>für Gesang einzurichten, kann Niemandem verwehrt sein,
-               <lb facs="#facs_3_region_1776574913857_328_tl_28" n="N025"/>nur müßte er auf dem Titelblatte deutlich sagen, daß hier
-               <lb facs="#facs_3_region_1776574913857_328_tl_29" n="N026"/>nicht „Lieder von <rs type="person">Schumann</rs>“ vorliegen, sondern <rs type="person" continued="true">Schu¬</rs>
-               <lb facs="#facs_3_region_1776574913857_328_tl_30" n="N027"/>
-               <rs type="person" continued="true">mann</rs>’sche Clavierstücke mit Gedichten versehen und für Ge¬
-               <lb facs="#facs_3_region_1776574913857_328_tl_31" n="N028"/>sang bearbeitet von N. N. Dann wird das Arrangement
-               <lb facs="#facs_3_region_1776574913857_328_tl_32" n="N029"/>blos dem Richterspruche des ästhetischen Geschmacks unter¬
-               <lb facs="#facs_3_region_1776574913857_328_tl_33" n="N030"/>liegen. <hi rendition="#em">
-                  <rs type="person">Gounod</rs>
-               </hi> äußerte eines Tages, als er sehr irritirt
-               <lb facs="#facs_3_region_1776574913857_328_tl_34" n="N031"/>aus der Probe seines „<rs type="bibl">Romeo</rs>“ kam: der Sänger, der eine
-               <lb facs="#facs_3_region_1776574913857_328_tl_35" n="N032"/>Arie durch eine Fermate, eine Verzierung, einen Tempowechsel
-               <lb facs="#facs_3_region_1776574913857_328_tl_36" n="N033"/>sich zu verändern erlaube, sei eigentlich ein Verleumder; er
-               <lb facs="#facs_3_region_1776574913857_328_tl_37" n="N034"/>lasse den Componisten etwas sagen, was dieser nie gesagt
-               <lb facs="#facs_3_region_1776574913857_328_tl_38" n="N035"/>oder in ganz anderer Bedeutung gemeint hat. In diesem
-               <lb facs="#facs_3_line_1781122279881_1245" n="N036"/>Sinne dürfte der Geist Robert <rs type="person">Schumann</rs>’s den Verleger
-               <lb facs="#facs_3_region_1776574913857_328_tl_39" n="N037"/>seines „<rs type="bibl">Neuen Liederalbums</rs>“ auf Verleumdung klagen.
+            <p prev="true">
+         <lb facs="#facs_3_region_1776574913857_328_tl_1" n="N001"/>mitunter auch wunderliche Speculations-Blüthen. Vor uns
+         <lb facs="#facs_3_region_1776574913857_328_tl_2" n="N002"/>liegt ein eben in <rs type="place">Leipzig</rs> erschienenes Heft, betitelt: „<hi rendition="#em"><rs type="bibl">Neues
+         <lb facs="#facs_3_region_1776574913857_328_tl_3" n="N003"/>Liederalbum</rs></hi>. 27 Lieder für eine Singstimme mit
+         <lb facs="#facs_3_region_1776574913857_328_tl_4" n="N004"/>Pianoforte Begleitung <hi rendition="#em">von Robert <rs type="person">Schumann</rs></hi>.“ Neu
+         <lb facs="#facs_3_region_1776574913857_328_tl_5" n="N005" break="no"/>gierig verfolgen wir es Blatt für Blatt, und — was finden
+         <lb facs="#facs_3_region_1776574913857_328_tl_6" n="N006"/>wir? 27 Lieder, welche <rs type="person">Schumann</rs> niemals componirt hat.
+         <lb facs="#facs_3_region_1776574913857_328_tl_7" n="N007"/>Es sind einzelne seiner Clavierstücke, durch Unterlegung von
+         <lb facs="#facs_3_region_1776574913857_328_tl_8" n="N008"/>Gedichten zu Liedern für eine Singstimme umgeformt. So
+         <lb facs="#facs_3_region_1776574913857_328_tl_9" n="N009"/>ist z. B. das Lied „<rs type="bibl">Zugvögel</rs>“ dem zweiten <rs type="bibl">Stück</rs>e aus den
+         <lb facs="#facs_3_region_1776574913857_328_tl_10" n="N010"/><rs type="bibl">Davidsbündlertänze</rs>n entnommen; „<rs type="bibl">Blau und Roth</rs>“ eben
+         <lb facs="#facs_3_region_1776574913857_328_tl_11" n="N011" break="no"/>daher dem vierzehnten <rs type="bibl">Stück</rs>. Dem <rs type="bibl">G-moll-Satz Nr. 15</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776574913857_328_tl_12" n="N012"/>aus den <rs type="bibl">Davidsbündlertänze</rs>n ist Anfang und Schluß ab
+         <lb facs="#facs_3_region_1776574913857_328_tl_13" n="N013" break="no"/>gehackt und der Mittelsatz in Es zu einem „<rs type="bibl">Gesang der
+         <lb facs="#facs_3_region_1776574913857_328_tl_14" n="N014"/>Lorley</rs>“ eingerichtet; da aber die <rs type="person">Lorley</rs> wahrscheinlich keinen
+         <lb facs="#facs_3_region_1776574913857_328_tl_15" n="N015"/>so langen Athem hat, sind die Achtelnoten der Begleitung in
+         <lb facs="#facs_3_region_1776574913857_328_tl_16" n="N016"/>Sechzehntel verwandelt und in der Melodie die halben
+         <lb facs="#facs_3_region_1776574913857_328_tl_17" n="N017"/>Noten in Viertel. Das Lied „<rs type="bibl">Nachruf</rs>“ besteht aus dem
+         <lb facs="#facs_3_region_1776574913857_328_tl_19" n="N018"/>Thema der „<rs type="bibl">symphonischen Etüden</rs>“ u.s.w. Wir fragen
+         <lb facs="#facs_3_region_1776574913857_328_tl_21" n="N019"/>nun: sind das „Lieder von <rs type="person">Schumann</rs>“? Darf ein Ver
+         <lb facs="#facs_3_region_1776574913857_328_tl_23" n="N020" break="no"/>leger solche Arrangements dafür ausgeben? Verfällt er
+         <lb facs="#facs_3_region_1776574913857_328_tl_24" n="N021"/>nicht dem doppelten Vorwurf, das Publicum irrege
+         <lb facs="#facs_3_region_1776574913857_328_tl_25" n="N022" break="no"/>führt und den Meister, der sich nicht mehr wehren
+         <lb facs="#facs_3_region_1776574913857_328_tl_26" n="N023"/>kann, vergewaltigt zu haben? Das Vergnügen, Clavierstücke
+         <lb facs="#facs_3_region_1776574913857_328_tl_27" n="N024"/>für Gesang einzurichten, kann Niemandem verwehrt sein,
+         <lb facs="#facs_3_region_1776574913857_328_tl_28" n="N025"/>nur müßte er auf dem Titelblatte deutlich sagen, daß hier
+         <lb facs="#facs_3_region_1776574913857_328_tl_29" n="N026"/>nicht „Lieder von <rs type="person">Schumann</rs>“ vorliegen, sondern <rs type="person">Schu
+         <lb facs="#facs_3_region_1776574913857_328_tl_30" n="N027" break="no"/>mann</rs>’sche Clavierstücke mit Gedichten versehen und für Ge
+         <lb facs="#facs_3_region_1776574913857_328_tl_31" n="N028" break="no"/>sang bearbeitet von N. N. Dann wird das Arrangement
+         <lb facs="#facs_3_region_1776574913857_328_tl_32" n="N029"/>blos dem Richterspruche des ästhetischen Geschmacks unter
+         <lb facs="#facs_3_region_1776574913857_328_tl_33" n="N030" break="no"/>liegen. <hi rendition="#em"><rs type="person">Gounod</rs></hi> äußerte eines Tages, als er sehr irritirt
+         <lb facs="#facs_3_region_1776574913857_328_tl_34" n="N031"/>aus der Probe seines „<rs type="bibl">Romeo</rs>“ kam: der Sänger, der eine
+         <lb facs="#facs_3_region_1776574913857_328_tl_35" n="N032"/>Arie durch eine Fermate, eine Verzierung, einen Tempowechsel
+         <lb facs="#facs_3_region_1776574913857_328_tl_36" n="N033"/>sich zu verändern erlaube, sei eigentlich ein Verleumder; er
+         <lb facs="#facs_3_region_1776574913857_328_tl_37" n="N034"/>lasse den Componisten etwas sagen, was dieser nie gesagt
+         <lb facs="#facs_3_region_1776574913857_328_tl_38" n="N035"/>oder in ganz anderer Bedeutung gemeint hat. In diesem
+         <lb facs="#facs_3_line_1781122279881_1245" n="N036"/>Sinne dürfte der Geist Robert <rs type="person">Schumann</rs>’s den Verleger
+         <lb facs="#facs_3_region_1776574913857_328_tl_39" n="N037"/>seines „<rs type="bibl">Neuen Liederalbums</rs>“ auf Verleumdung klagen.
             </p>
          </div>
       </body>

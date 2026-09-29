@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 8235. Wien, Sonntag, den 31. Juli 1887</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,14 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
+               <name ref="https://orcid.org/0009-0007-9767-072X">Thell, Annika</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +71,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 8235. Wien, Sonntag, den 31. Juli 1887</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1887-07-31">31.07.1887</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18870731"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +107,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="athell" when="2026-07-07">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-09-22">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="athell" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1239,440 +1240,384 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1776575482668_648_tl_1" n="N001"/><head type="h1">Die <rs type="bibl">Memoiren</rs> von Ernest <rs type="person">Legouvé</rs>. I.</head>
             <p>
-               <lb facs="#facs_1_line_1783345099413_250" n="N001"/>Nr. 8235. Wien, Sonntag, den 31. Juli 1887
-            </p>
+         <lb facs="#facs_1_region_1776575482668_648_tl_2" n="N002"/><rs type="person">Ed. H.</rs> Es war vor zwölf Jahren in <rs type="place">Paris</rs>, daß
+         <lb facs="#facs_1_region_1776575482668_648_tl_3" n="N003"/>knapp vor Beginn eines Wohlthätigkeits-Concerts mein Be
+         <lb facs="#facs_1_region_1776575482668_648_tl_4" n="N004" break="no"/>gleiter, der liebenswürdige Musikverleger <rs type="person">Heugel</rs>, mir plötzlich
+         <lb facs="#facs_1_region_1776575482668_648_tl_5" n="N005"/>mit einer Art aufgeregter Feierlichkeit zuflüsterte: „Voilà
+         <lb facs="#facs_1_region_1776575482668_648_tl_6" n="N006"/>Mr. <rs type="person">Legouvé</rs>! C’est Mr. <rs type="person">Legouvé</rs>. Il faut que je vous
+         <lb facs="#facs_1_region_1776575482668_648_tl_7" n="N007"/>présente à Mr. <rs type="person">Legouvé</rs>!“ Ich folgte dieser Aufforderung
+         <lb facs="#facs_1_region_1776575482668_648_tl_9" n="N008"/>dankend, doch ohne besonderen Enthusiasmus, denn ich war
+         <lb facs="#facs_1_region_1776575482668_648_tl_10" n="N009"/>über die Verdienste <rs type="person">Legouvé</rs>’s sehr wenig unterrichtet und
+         <lb facs="#facs_1_region_1776575482668_648_tl_11" n="N010"/>kannte nur seine „Adrienne <rs type="person">Lecouvreur</rs>“, die durchaus nicht
+         <lb facs="#facs_1_region_1776575482668_648_tl_12" n="N011"/>zu meinen Lieblingen gehörte. Sympathischer berührte mich
+         <lb facs="#facs_1_region_1776575482668_648_tl_13" n="N012"/>der Autor selbst: ein kleiner alter Herr mit weißen Haaren
+         <lb facs="#facs_1_region_1776575482668_648_tl_14" n="N013"/>und einem feinen glattrasirten Gesicht, das ein ruhiges Licht
+         <lb facs="#facs_1_region_1776575482668_648_tl_15" n="N014"/>von Geist und Wohlwollen ausstrahlte. Der erste Accord der
+         <lb facs="#facs_1_region_1776575482668_648_tl_16" n="N015"/>Symphonie schnitt die Formalität der Vorstellung kurz und
+         <lb facs="#facs_1_region_1776575482668_648_tl_17" n="N016"/>ohne Gewinn für mich ab. Kennen gelernt habe ich Herrn
+         <lb facs="#facs_1_region_1776575482668_648_tl_18" n="N017"/><rs type="person">Legouvé</rs> erst jetzt, nach zwölf Jahren, durch die Lectüre sei
+         <lb facs="#facs_1_region_1776575482668_648_tl_19" n="N018" break="no"/>ner <rs type="bibl">Memoiren</rs>.
+            <note type="footnote" n="*)">
+            <lb facs="#facs_1_region_1776575482668_648_tl_35" n="N034"/>„<rs type="bibl">Soixante ans de souvenirs</rs>.“ Deux volumes. <rs type="place">Paris</rs>, chez
+            <lb facs="#facs_1_region_1776575482668_648_tl_36" n="N035"/>J. <rs type="person">Hetzel</rs> (<date>1878</date>).
+            </note>
+            Durch sie ist mir der Mann werth und
+         <lb facs="#facs_1_region_1776575482668_648_tl_20" n="N019"/>vertraut geworden, wie ein persönlicher Freund; durch
+         <lb facs="#facs_1_region_1776575482668_648_tl_21" n="N020"/>sie begriff ich nachträglich den an Ehrfurcht grenzenden Re
+         <lb facs="#facs_1_region_1776575482668_648_tl_22" n="N021" break="no"/>spect, mit welchem die Pariser, dem alten Herrn überall
+         <lb facs="#facs_1_region_1776575482668_648_tl_23" n="N022"/>Platz machend, einander zuflüsterten: „C’est Mr. <rs type="person">Legouvé</rs>!“
+            </p><p>
+         <lb facs="#facs_1_region_1776575482668_648_tl_24" n="N023"/><rs type="person">Legouvé</rs>, heute ein Greis von achtzig Jahren, gilt noch
+         <lb facs="#facs_1_region_1776575482668_648_tl_25" n="N024"/>immer für einen der besten Vorleser, für einen der geist-
+         <lb facs="#facs_1_region_1776575482668_648_tl_26" n="N025"/>und kenntnißreichsten Gesellschafter in <rs type="place">Paris</rs>. Er ist Mitglied
+         <lb facs="#facs_1_region_1776575482668_648_tl_27" n="N026"/>der Akademie, Verfasser mehrerer erfolgreicher Theaterstücke,
+         <lb facs="#facs_1_region_1776575482668_648_tl_28" n="N027"/>sowie gediegener Schriften über Familie und Erziehung.
+         <lb facs="#facs_1_region_1776575482668_648_tl_29" n="N028"/>Den weiten Zeitraum von <date>1813</date> bis <date>1876</date> umfassend, be
+         <lb facs="#facs_1_region_1776575482668_648_tl_30" n="N029" break="no"/>wegen sich seine „<rs type="bibl">Erinnerungen</rs>“, die Politik nur flüchtig
+         <lb facs="#facs_1_region_1776575482668_648_tl_31" n="N030"/>streifend, in dem Kreise von Theater, Poesie, Musik. Der
+         <lb facs="#facs_1_region_1776575482668_648_tl_32" n="N031"/>Schauplatz bleibt sein geliebtes <rs type="place">Paris</rs>, das er gleich seinem
+         <lb facs="#facs_1_region_1776575482668_648_tl_33" n="N032"/>berühmten Zeitgenossen <hi rendition="#em"><rs type="person">Auber</rs></hi> nur selten verlassen hat.
+         <lb facs="#facs_1_region_1776575482668_648_tl_34" n="N033"/>Ja, er übertrifft diesen noch an conservativer Beharrlichkeit,<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1776575482668_648_tl_1" n="N001"/>Die <rs type="bibl">Memoiren</rs> von Ernest <rs type="person">Legouvé</rs>. I.
-               <lb facs="#facs_1_region_1776575482668_648_tl_2" n="N002"/>
-               <rs type="person">Ed. H.</rs> Es war vor zwölf Jahren in <rs type="place">Paris</rs>, daß
-               <lb facs="#facs_1_region_1776575482668_648_tl_3" n="N003"/>knapp vor Beginn eines Wohlthätigkeits-Concerts mein Be¬
-               <lb facs="#facs_1_region_1776575482668_648_tl_4" n="N004"/>gleiter, der liebenswürdige Musikverleger <rs type="person">Heugel</rs>, mir plötzlich
-               <lb facs="#facs_1_region_1776575482668_648_tl_5" n="N005"/>mit einer Art aufgeregter Feierlichkeit zuflüsterte: „Voilà
-               <lb facs="#facs_1_region_1776575482668_648_tl_6" n="N006"/>Mr. <rs type="person">Legouvé</rs>! C’est Mr. <rs type="person">Legouvé</rs>. Il faut que je vous
-               <lb facs="#facs_1_region_1776575482668_648_tl_7" n="N007"/>présente à Mr. <rs type="person">Legouvé</rs>!“ Ich folgte dieser Aufforderung
-               <lb facs="#facs_1_region_1776575482668_648_tl_9" n="N008"/>dankend, doch ohne besonderen Enthusiasmus, denn ich war
-               <lb facs="#facs_1_region_1776575482668_648_tl_10" n="N009"/>über die Verdienste <rs type="person">Legouvé</rs>’s sehr wenig unterrichtet und
-               <lb facs="#facs_1_region_1776575482668_648_tl_11" n="N010"/>kannte nur seine „Adrienne <rs type="person">Lecouvreur</rs>“, die durchaus nicht
-               <lb facs="#facs_1_region_1776575482668_648_tl_12" n="N011"/>zu meinen Lieblingen gehörte. Sympathischer berührte mich
-               <lb facs="#facs_1_region_1776575482668_648_tl_13" n="N012"/>der Autor selbst: ein kleiner alter Herr mit weißen Haaren
-               <lb facs="#facs_1_region_1776575482668_648_tl_14" n="N013"/>und einem feinen glattrasirten Gesicht, das ein ruhiges Licht
-               <lb facs="#facs_1_region_1776575482668_648_tl_15" n="N014"/>von Geist und Wohlwollen ausstrahlte. Der erste Accord der
-               <lb facs="#facs_1_region_1776575482668_648_tl_16" n="N015"/>Symphonie schnitt die Formalität der Vorstellung kurz und
-               <lb facs="#facs_1_region_1776575482668_648_tl_17" n="N016"/>ohne Gewinn für mich ab. Kennen gelernt habe ich Herrn
-               <lb facs="#facs_1_region_1776575482668_648_tl_18" n="N017"/>
-               <rs type="person">Legouvé</rs> erst jetzt, nach zwölf Jahren, durch die Lectüre sei¬
-               <lb facs="#facs_1_region_1776575482668_648_tl_19" n="N018"/>ner <rs type="bibl">Memoiren</rs>.*) Durch sie ist mir der Mann werth und
-               <lb facs="#facs_1_region_1776575482668_648_tl_20" n="N019"/>vertraut geworden, wie ein persönlicher Freund; durch
-               <lb facs="#facs_1_region_1776575482668_648_tl_21" n="N020"/>sie begriff ich nachträglich den an Ehrfurcht grenzenden Re¬
-               <lb facs="#facs_1_region_1776575482668_648_tl_22" n="N021"/>spect, mit welchem die Pariser, dem alten Herrn überall
-               <lb facs="#facs_1_region_1776575482668_648_tl_23" n="N022"/>Platz machend, einander zuflüsterten: „C’est Mr. <rs type="person">Legouvé</rs>!“
-               <lb facs="#facs_1_region_1776575482668_648_tl_24" n="N023"/>
-               <rs type="person">Legouvé</rs>, heute ein Greis von achtzig Jahren, gilt noch
-               <lb facs="#facs_1_region_1776575482668_648_tl_25" n="N024"/>immer für einen der besten Vorleser, für einen der geist-
-               <lb facs="#facs_1_region_1776575482668_648_tl_26" n="N025"/>und kenntnißreichsten Gesellschafter in <rs type="place">Paris</rs>. Er ist Mitglied
-               <lb facs="#facs_1_region_1776575482668_648_tl_27" n="N026"/>der Akademie, Verfasser mehrerer erfolgreicher Theaterstücke,
-               <lb facs="#facs_1_region_1776575482668_648_tl_28" n="N027"/>sowie gediegener Schriften über Familie und Erziehung.
-               <lb facs="#facs_1_region_1776575482668_648_tl_29" n="N028"/>Den weiten Zeitraum von <date>1813</date> bis <date>1876</date> umfassend, be¬
-               <lb facs="#facs_1_region_1776575482668_648_tl_30" n="N029"/>wegen sich seine „<rs type="bibl">Erinnerungen</rs>“, die Politik nur flüchtig
-               <lb facs="#facs_1_region_1776575482668_648_tl_31" n="N030"/>streifend, in dem Kreise von Theater, Poesie, Musik. Der
-               <lb facs="#facs_1_region_1776575482668_648_tl_32" n="N031"/>Schauplatz bleibt sein geliebtes <rs type="place">Paris</rs>, das er gleich seinem
-               <lb facs="#facs_1_region_1776575482668_648_tl_33" n="N032"/>berühmten Zeitgenossen <hi rendition="#em">
-                  <rs type="person">Auber</rs>
-               </hi> nur selten verlassen hat.
-               <lb facs="#facs_1_region_1776575482668_648_tl_34" n="N033"/>Ja, er übertrifft diesen noch an conservativer Beharrlichkeit,
-               <lb facs="#facs_1_region_1776575482668_648_tl_35" n="N034"/>*) „<rs type="bibl">Soixante ans de souvenirs</rs>.“ Deux volumes. <rs type="place">Paris</rs>, chez
-               <lb facs="#facs_1_region_1776575482668_648_tl_36" n="N035"/>J. <rs type="person">Hetzel</rs> (<date>1878</date>)
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1776575488027_651_tl_1" n="N001"/>indem er sich rühmt, außer <rs type="place">Frankreich</rs> und seiner Geburts
+         <lb facs="#facs_1_region_1776575488027_651_tl_2" n="N002" break="no"/>stadt <rs type="place">Paris</rs> noch ein „drittes Vaterland“ zu be
+         <lb facs="#facs_1_region_1776575488027_651_tl_3" n="N003" break="no"/>sitzen, das den meisten unserer nomadisch lebenden Städter
+         <lb facs="#facs_1_region_1776575488027_651_tl_4" n="N004"/>fehlt: das Haus. Er bewohnt noch heute dasselbe Haus,
+         <lb facs="#facs_1_region_1776575488027_651_tl_5" n="N005"/>in welchem er geboren wurde. Sein jetziges Arbeitszimmer
+         <lb facs="#facs_1_region_1776575488027_651_tl_6" n="N006"/>war das Arbeitszimmer seines Vaters. Auf allen Vieren ist
+         <lb facs="#facs_1_region_1776575488027_651_tl_7" n="N007"/>er als Kind in demselben Salon herumgekrochen, in welchem
+         <lb facs="#facs_1_region_1776575488027_651_tl_8" n="N008"/>er nachmals seine Kinder und Enkel spielen und heranwachsen
+         <lb facs="#facs_1_region_1776575488027_651_tl_9" n="N009"/>sah. Und wie hat sein Leben, sein Charakter sich entwickelt?
+         <lb facs="#facs_1_region_1776575488027_651_tl_10" n="N010"/><hi rendition="#em"><rs type="person">Sainte-Beuve</rs></hi> gedachte ein literarisches Porträt von <rs type="person">Le
+         <lb facs="#facs_1_region_1776575488027_651_tl_11" n="N011" break="no"/>gouvé</rs> zu zeichnen und behauptete, dessen Wesen genau zu
+         <lb facs="#facs_1_region_1776575488027_651_tl_12" n="N012"/>durchschauen. „Was an Ihnen frappirt,“ sprach er zu <rs type="person">Legouvé</rs>,
+         <lb facs="#facs_1_region_1776575488027_651_tl_13" n="N013"/>„ist die Einheit Ihres ganzen Lebens. In früher Jugend
+         <lb facs="#facs_1_region_1776575488027_651_tl_14" n="N014"/>haben Sie sich einen festen Lebensplan entworfen, wie ein
+         <lb facs="#facs_1_region_1776575488027_651_tl_15" n="N015"/>Theaterdichter für sein Drama, und sind mit Sicherheit stetig
+         <lb facs="#facs_1_region_1776575488027_651_tl_16" n="N016"/>auf Ihr Ziel losgeschritten. Sie sind der Sohn Ihres
+         <lb facs="#facs_1_region_1776575488027_651_tl_17" n="N017"/>Willens.“ <rs type="person">Legouvé</rs> erwiderte lachend, das so schmeichelhaft
+         <lb facs="#facs_1_region_1776575488027_651_tl_18" n="N018"/>Porträt habe einen großen Fehler: es sei nicht ähnlich, ja
+         <lb facs="#facs_1_region_1776575488027_651_tl_19" n="N019"/>das gerade Gegentheil vom Original. „Ich bin,“ sagte er,
+         <lb facs="#facs_1_region_1776575488027_651_tl_20" n="N020"/>„nicht der Sohn meines Willens, sondern der Zögling meiner
+         <lb facs="#facs_1_region_1776575488027_651_tl_21" n="N021"/>Herzensneigungen. Nicht ich habe mein Leben dirigirt, sondern
+         <lb facs="#facs_1_region_1776575488027_651_tl_22" n="N022"/>mein Leben mich. Freilich sind wir Alle im Grunde nur die
+         <lb facs="#facs_1_region_1776575488027_651_tl_23" n="N023"/>Entwicklung unseres Selbst. Aber nicht eine einzige Phase
+         <lb facs="#facs_1_region_1776575488027_651_tl_24" n="N024"/>dieser Entwicklung gab es, wo nicht irgend ein Anderer als
+         <lb facs="#facs_1_region_1776575488027_651_tl_25" n="N025"/>Helfer, Anreger, ja Urheber meiner Handlungen eingetreten
+         <lb facs="#facs_1_region_1776575488027_651_tl_26" n="N026"/>wäre. Wenn ich einmal meine Memoiren schreibe, so müßte
+         <lb facs="#facs_1_region_1776575488027_651_tl_27" n="N027"/>ich sie betiteln: Memoiren der Anderen.“ Und wirklich bilden
+         <lb facs="#facs_1_region_1776575488027_651_tl_28" n="N028"/>in <rs type="person">Legouvé</rs>’s Denkwürdigkeiten seine eigenen Erlebnisse nur
+         <lb facs="#facs_1_region_1776575488027_651_tl_29" n="N029"/>den Rahmen für die sorgfältig und liebevoll ausgeführten
+         <lb facs="#facs_1_region_1776575488027_651_tl_30" n="N030"/>Bildnisse seiner Freunde, unter welchen wir die berühmtesten
+         <lb facs="#facs_1_region_1776575488027_651_tl_31" n="N031"/>Persönlichkeiten finden: die Dichter Casimir <rs type="person">Delavigne</rs>, <rs type="person">Bé
+         <lb facs="#facs_1_region_1776575488027_651_tl_32" n="N032" break="no"/>ranger</rs>, Eugène <rs type="person">Sue</rs>, <rs type="person">Jony</rs>, <rs type="person">Scribe</rs>, <rs type="person">Lamartine</rs>, Victor <rs type="person">Hugo</rs>,
+         <lb facs="#facs_1_region_1776575488027_651_tl_33" n="N033"/>Alfred de <rs type="person">Musset</rs>; die Tragödinnen <rs type="person">Mars</rs> und <rs type="person">Rachel</rs>, den
+         <lb facs="#facs_1_region_1776575488027_651_tl_34" n="N034"/>Tondichter <rs type="person">Berlioz</rs>, die Sängerin <rs type="person">Malibran</rs> nebst anderen
+         <lb facs="#facs_1_region_1776575488027_651_tl_35" n="N035"/>weniger bekannten persönlichen Freunden, welche durch <rs type="person">Le
+         <lb facs="#facs_1_region_1776575488027_651_tl_36" n="N036" break="no"/>gouvé</rs>’s lebenswarme Schilderung uns fast ebenso großen
+         <lb facs="#facs_1_region_1776575488027_651_tl_37" n="N037"/>Antheil abgewinnen. Auf sein langes Leben zurückblickend,
+         <lb facs="#facs_1_region_1776575488027_651_tl_38" n="N038"/>will <rs type="person">Legouvé</rs> sich oft vorkommen wie der <rs type="bibl">biblisch</rs>e <rs type="person">Tobias</rs>,
+         <lb facs="#facs_1_region_1776575488027_651_tl_39" n="N039"/>dem vor einer langen gefährlichen Reise unversehens ein an</p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1776575488027_651_tl_1" n="N001"/>indem er sich rühmt, außer <rs type="place">Frankreich</rs> und seiner Geburts¬
-               <lb facs="#facs_1_region_1776575488027_651_tl_2" n="N002"/>stadt <rs type="place">Paris</rs> noch ein „drittes Vaterland“ zu be¬
-               <lb facs="#facs_1_region_1776575488027_651_tl_3" n="N003"/>sitzen, das den meisten unserer nomadisch lebenden Städter
-               <lb facs="#facs_1_region_1776575488027_651_tl_4" n="N004"/>fehlt: das Haus. Er bewohnt noch heute dasselbe Haus,
-               <lb facs="#facs_1_region_1776575488027_651_tl_5" n="N005"/>in welchem er geboren wurde. Sein jetziges Arbeitszimmer
-               <lb facs="#facs_1_region_1776575488027_651_tl_6" n="N006"/>war das Arbeitszimmer seines Vaters. Auf allen Vieren ist
-               <lb facs="#facs_1_region_1776575488027_651_tl_7" n="N007"/>er als Kind in demselben Salon herumgekrochen, in welchem
-               <lb facs="#facs_1_region_1776575488027_651_tl_8" n="N008"/>er nachmals seine Kinder und Enkel spielen und heranwachsen
-               <lb facs="#facs_1_region_1776575488027_651_tl_9" n="N009"/>sah. Und wie hat sein Leben, sein Charakter sich entwickelt?
-               <lb facs="#facs_1_region_1776575488027_651_tl_10" n="N010"/>
-               <hi rendition="#em">
-                  <rs type="person">Sainte-Beuve</rs>
-               </hi> gedachte ein literarisches Porträt von <rs type="person" continued="true">Le¬</rs>
-               <lb facs="#facs_1_region_1776575488027_651_tl_11" n="N011"/>
-               <rs type="person" continued="true">gouvé</rs> zu zeichnen und behauptete, dessen Wesen genau zu
-               <lb facs="#facs_1_region_1776575488027_651_tl_12" n="N012"/>durchschauen. „Was an Ihnen frappirt,“ sprach er zu <rs type="person">Legouvé</rs>,
-               <lb facs="#facs_1_region_1776575488027_651_tl_13" n="N013"/>„ist die Einheit Ihres ganzen Lebens. In früher Jugend
-               <lb facs="#facs_1_region_1776575488027_651_tl_14" n="N014"/>haben Sie sich einen festen Lebensplan entworfen, wie ein
-               <lb facs="#facs_1_region_1776575488027_651_tl_15" n="N015"/>Theaterdichter für sein Drama, und sind mit Sicherheit stetig
-               <lb facs="#facs_1_region_1776575488027_651_tl_16" n="N016"/>auf Ihr Ziel losgeschritten. Sie sind der Sohn Ihres
-               <lb facs="#facs_1_region_1776575488027_651_tl_17" n="N017"/>Willens.“ <rs type="person">Legouvé</rs> erwiderte lachend, das so schmeichelhaft
-               <lb facs="#facs_1_region_1776575488027_651_tl_18" n="N018"/>Porträt habe einen großen Fehler: es sei nicht ähnlich, ja
-               <lb facs="#facs_1_region_1776575488027_651_tl_19" n="N019"/>das gerade Gegentheil vom Original. „Ich bin,“ sagte er,
-               <lb facs="#facs_1_region_1776575488027_651_tl_20" n="N020"/>„nicht der Sohn meines Willens, sondern der Zögling meiner
-               <lb facs="#facs_1_region_1776575488027_651_tl_21" n="N021"/>Herzensneigungen. Nicht ich habe mein Leben dirigirt, sondern
-               <lb facs="#facs_1_region_1776575488027_651_tl_22" n="N022"/>mein Leben mich. Freilich sind wir Alle im Grunde nur die
-               <lb facs="#facs_1_region_1776575488027_651_tl_23" n="N023"/>Entwicklung unseres Selbst. Aber nicht eine einzige Phase
-               <lb facs="#facs_1_region_1776575488027_651_tl_24" n="N024"/>dieser Entwicklung gab es, wo nicht irgend ein Anderer als
-               <lb facs="#facs_1_region_1776575488027_651_tl_25" n="N025"/>Helfer, Anreger, ja Urheber meiner Handlungen eingetreten
-               <lb facs="#facs_1_region_1776575488027_651_tl_26" n="N026"/>wäre. Wenn ich einmal meine Memoiren schreibe, so müßte
-               <lb facs="#facs_1_region_1776575488027_651_tl_27" n="N027"/>ich sie betiteln: Memoiren der Anderen.“ Und wirklich bilden
-               <lb facs="#facs_1_region_1776575488027_651_tl_28" n="N028"/>in <rs type="person">Legouvé</rs>’s Denkwürdigkeiten seine eigenen Erlebnisse nur
-               <lb facs="#facs_1_region_1776575488027_651_tl_29" n="N029"/>den Rahmen für die sorgfältig und liebevoll ausgeführten
-               <lb facs="#facs_1_region_1776575488027_651_tl_30" n="N030"/>Bildnisse seiner Freunde, unter welchen wir die berühmtesten
-               <lb facs="#facs_1_region_1776575488027_651_tl_31" n="N031"/>Persönlichkeiten finden: die Dichter Casimir <rs type="person">Delavigne</rs>, <rs type="person" continued="true">Bé¬</rs>
-               <lb facs="#facs_1_region_1776575488027_651_tl_32" n="N032"/>
-               <rs type="person" continued="true">ranger</rs>, Eugène <rs type="person">Sue</rs>, <rs type="person">Jony</rs>, <rs type="person">Scribe</rs>, <rs type="person">Lamartine</rs>, Victor <rs type="person">Hugo</rs>,
-               <lb facs="#facs_1_region_1776575488027_651_tl_33" n="N033"/>Alfred de <rs type="person">Musset</rs>; die Tragödinnen <rs type="person">Mars</rs> und <rs type="person">Rachel</rs>, den
-               <lb facs="#facs_1_region_1776575488027_651_tl_34" n="N034"/>Tondichter <rs type="person">Berlioz</rs>, die Sängerin <rs type="person">Malibran</rs> nebst anderen
-               <lb facs="#facs_1_region_1776575488027_651_tl_35" n="N035"/>weniger bekannten persönlichen Freunden, welche durch <rs type="person" continued="true">Le¬</rs>
-               <lb facs="#facs_1_region_1776575488027_651_tl_36" n="N036"/>
-               <rs type="person" continued="true">gouvé</rs>’s lebenswarme Schilderung uns fast ebenso großen
-               <lb facs="#facs_1_region_1776575488027_651_tl_37" n="N037"/>Antheil abgewinnen. Auf sein langes Leben zurückblickend,
-               <lb facs="#facs_1_region_1776575488027_651_tl_38" n="N038"/>will <rs type="person">Legouvé</rs> sich oft vorkommen wie der <rs type="bibl">biblisch</rs>e <rs type="person">Tobias</rs>,
-               <lb facs="#facs_1_region_1776575488027_651_tl_39" n="N039"/>dem vor einer langen gefährlichen Reise unversehens ein an¬
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1776575492284_654_tl_1" n="N001"/>muthiger junger Mann aufstößt, der sich ihm zum Führer
-               <lb facs="#facs_1_region_1776575492284_654_tl_2" n="N002"/>anbietet. Immer sei auf den verschiedensten Kreuzwegen des
-               <lb facs="#facs_1_region_1776575492284_654_tl_3" n="N003"/>Lebens irgend ein junger oder alter, ein berühmter oder unge¬
-               <lb facs="#facs_1_region_1776575492284_654_tl_4" n="N004"/>kannter Mann ihm genaht und habe ihm als Führer gedient.
-               <lb facs="#facs_1_region_1776575492284_654_tl_5" n="N005"/>Diese Männer will <rs type="person">Legouvé</rs> wieder aufleben machen durch
-               <lb facs="#facs_1_region_1776575492284_654_tl_6" n="N006"/>sein <rs type="bibl">Buch</rs>; es soll eine Menschenseele schildern, wie sie sich
-               <lb facs="#facs_1_region_1776575492284_654_tl_7" n="N007"/>im Contact mit anderen, fast immer überlegenen Seelen
-               <lb facs="#facs_1_region_1776575492284_654_tl_8" n="N008"/>formt. Der Wunsch, welchen er seinen „Souvenirs“ auf den
-               <lb facs="#facs_1_region_1776575492284_654_tl_9" n="N009"/>Weg mitgibt, bildet den Grundton, der rein gestimmt, harmo¬
-               <lb facs="#facs_1_region_1776575492284_654_tl_10" n="N010"/>nisch das ganze Wesen, das ganze <rs type="bibl">Buch</rs>
-               <rs type="person">Legouvé</rs>’s durch¬
-               <lb facs="#facs_1_region_1776575492284_654_tl_11" n="N011"/>klingt: es möchte im Leser den Eindruck hinterlassen, daß die
-               <lb facs="#facs_1_region_1776575492284_654_tl_12" n="N012"/>Sympathie ein verläßlicherer Führer im Leben ist, als die
-               <lb facs="#facs_1_region_1776575492284_654_tl_13" n="N013"/>Zweifelsucht — Vertrauen nicht gleichbedeutend mit Betrogen¬
-               <lb facs="#facs_1_region_1776575492284_654_tl_14" n="N014"/>werden; daß schließlich Niemand unter uns ist, der im ge¬
-               <lb facs="#facs_1_region_1776575492284_654_tl_15" n="N015"/>gebenen Moment nicht abwechselnd die Rolle des <rs type="person">Tobias</rs> und
-               <lb facs="#facs_1_region_1776575492284_654_tl_16" n="N016"/>die Rolle des Engels spielen könnte und sollte.
-               <lb facs="#facs_1_region_1776575492284_654_tl_17" n="N017"/>Den entscheidendsten Einfluß auf den Charakter und das
-               <lb facs="#facs_1_region_1776575492284_654_tl_18" n="N018"/>Schicksal unseres Autors hat ein Mann genommen, den er
-               <lb facs="#facs_1_region_1776575492284_654_tl_19" n="N019"/>fast gar nicht gekannt hat: sein eigener Vater. <rs type="person">Legouvé</rs> war
-               <lb facs="#facs_1_region_1776575492284_654_tl_20" n="N020"/>noch nicht fünf Jahre alt, als er seinen Vater verlor. Aber
-               <lb facs="#facs_1_region_1776575492284_654_tl_21" n="N021"/>von frühester Jugend an fand er ihn auf jedem Schritte wie
-               <lb facs="#facs_1_region_1776575492284_654_tl_22" n="N022"/>einen unsichtbaren Freund. Er hat ihm überall die Hand
-               <lb facs="#facs_1_region_1776575492284_654_tl_23" n="N023"/>gereicht; sein Name war der erste Beschützer des verwaisten
-               <lb facs="#facs_1_region_1776575492284_654_tl_24" n="N024"/>Knaben. Von seinen Großeltern erzogen — die Mutter war
-               <lb facs="#facs_1_region_1776575492284_654_tl_25" n="N025"/>schon früher gestorben — hörte der kleine <rs type="person">Ernst</rs> unausgesetzt
-               <lb facs="#facs_1_region_1776575492284_654_tl_26" n="N026"/>von den glänzenden Erfolgen und Vorzügen seines Vaters
-               <lb facs="#facs_1_region_1776575492284_654_tl_27" n="N027"/>erzählen, von dessen Gewohnheiten und Ansichten; bald wußte
-               <lb facs="#facs_1_region_1776575492284_654_tl_28" n="N028"/>er den Vater auswendig, wie seine Werke. Letztere sind längst
-               <lb facs="#facs_1_region_1776575492284_654_tl_29" n="N029"/>verschollen; sie modern in dem gemeinsamen Schachtgrabe
-               <lb facs="#facs_1_region_1776575492284_654_tl_30" n="N030"/>mit allen <rs type="place">französisch</rs>en Tragödien, welche nicht den Namen
-               <lb facs="#facs_1_region_1776575492284_654_tl_31" n="N031"/>
-               <rs type="person">Corneille</rs> oder <rs type="person">Racine</rs> führen. Selbst das beste Trauerspiel
-               <lb facs="#facs_1_region_1776575492284_654_tl_32" n="N032"/>des alten <rs type="person">Legouvé</rs>: „<rs type="bibl">Der Tod Heinrich’s des Vierten</rs>“, dürfte
-               <lb facs="#facs_1_region_1776575492284_654_tl_33" n="N033"/>kaum über <rs type="place">Frankreich</rs> hinaus bekannt geworden sein. Seinerzeit
-               <lb facs="#facs_1_region_1776575492284_654_tl_34" n="N034"/>war es immerhin ein literarisches und ein politisches Ereig¬
-               <lb facs="#facs_1_region_1776575492284_654_tl_35" n="N035"/>niß. Als der Dichter seinen Freunden die Absicht mittheilte,
-               <lb facs="#facs_1_region_1776575492284_654_tl_36" n="N036"/>
-               <rs type="person">Heinrich</rs> den Vierten zum Sujet einer Tragödie zu wählen
-               <lb facs="#facs_1_region_1776575492284_654_tl_37" n="N037"/>erhoben Alle einen furchtbaren Lärm. „Was fällt Ihnen ein!
-               <lb facs="#facs_1_region_1776575492284_654_tl_38" n="N038"/>Der Stoff eines Trauerspiels muß doch mindestens 6- bis 700
-               <lb facs="#facs_1_region_1776575492284_654_tl_39" n="N039"/>Jahre hinter uns liegen! In <rs type="place">Paris</rs>, im Jahre <date>1806</date>, eine Tra¬
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1776575492284_654_tl_1" n="N001" break="no"/>muthiger junger Mann aufstößt, der sich ihm zum Führer
+         <lb facs="#facs_1_region_1776575492284_654_tl_2" n="N002"/>anbietet. Immer sei auf den verschiedensten Kreuzwegen des
+         <lb facs="#facs_1_region_1776575492284_654_tl_3" n="N003"/>Lebens irgend ein junger oder alter, ein berühmter oder unge
+         <lb facs="#facs_1_region_1776575492284_654_tl_4" n="N004" break="no"/>kannter Mann ihm genaht und habe ihm als Führer gedient.
+         <lb facs="#facs_1_region_1776575492284_654_tl_5" n="N005"/>Diese Männer will <rs type="person">Legouvé</rs> wieder aufleben machen durch
+         <lb facs="#facs_1_region_1776575492284_654_tl_6" n="N006"/>sein <rs type="bibl">Buch</rs>; es soll eine Menschenseele schildern, wie sie sich
+         <lb facs="#facs_1_region_1776575492284_654_tl_7" n="N007"/>im Contact mit anderen, fast immer überlegenen Seelen
+         <lb facs="#facs_1_region_1776575492284_654_tl_8" n="N008"/>formt. Der Wunsch, welchen er seinen „Souvenirs“ auf den
+         <lb facs="#facs_1_region_1776575492284_654_tl_9" n="N009"/>Weg mitgibt, bildet den Grundton, der rein gestimmt, harmo
+         <lb facs="#facs_1_region_1776575492284_654_tl_10" n="N010" break="no"/>nisch das ganze Wesen, das ganze <rs type="bibl">Buch</rs><space quantity="1" unit="char"/><rs type="person">Legouvé</rs>’s durch
+         <lb facs="#facs_1_region_1776575492284_654_tl_11" n="N011" break="no"/>klingt: es möchte im Leser den Eindruck hinterlassen, daß die
+         <lb facs="#facs_1_region_1776575492284_654_tl_12" n="N012"/>Sympathie ein verläßlicherer Führer im Leben ist, als die
+         <lb facs="#facs_1_region_1776575492284_654_tl_13" n="N013"/>Zweifelsucht — Vertrauen nicht gleichbedeutend mit Betrogen
+         <lb facs="#facs_1_region_1776575492284_654_tl_14" n="N014" break="no"/>werden; daß schließlich Niemand unter uns ist, der im ge
+         <lb facs="#facs_1_region_1776575492284_654_tl_15" n="N015" break="no"/>gebenen Moment nicht abwechselnd die Rolle des <rs type="person">Tobias</rs> und
+         <lb facs="#facs_1_region_1776575492284_654_tl_16" n="N016"/>die Rolle des Engels spielen könnte und sollte.
+            </p><p>
+         <lb facs="#facs_1_region_1776575492284_654_tl_17" n="N017"/>Den entscheidendsten Einfluß auf den Charakter und das
+         <lb facs="#facs_1_region_1776575492284_654_tl_18" n="N018"/>Schicksal unseres Autors hat ein Mann genommen, den er
+         <lb facs="#facs_1_region_1776575492284_654_tl_19" n="N019"/>fast gar nicht gekannt hat: sein eigener Vater. <rs type="person">Legouvé</rs> war
+         <lb facs="#facs_1_region_1776575492284_654_tl_20" n="N020"/>noch nicht fünf Jahre alt, als er seinen Vater verlor. Aber
+         <lb facs="#facs_1_region_1776575492284_654_tl_21" n="N021"/>von frühester Jugend an fand er ihn auf jedem Schritte wie
+         <lb facs="#facs_1_region_1776575492284_654_tl_22" n="N022"/>einen unsichtbaren Freund. Er hat ihm überall die Hand
+         <lb facs="#facs_1_region_1776575492284_654_tl_23" n="N023"/>gereicht; sein Name war der erste Beschützer des verwaisten
+         <lb facs="#facs_1_region_1776575492284_654_tl_24" n="N024"/>Knaben. Von seinen Großeltern erzogen — die Mutter war
+         <lb facs="#facs_1_region_1776575492284_654_tl_25" n="N025"/>schon früher gestorben — hörte der kleine <rs type="person">Ernst</rs> unausgesetzt
+         <lb facs="#facs_1_region_1776575492284_654_tl_26" n="N026"/>von den glänzenden Erfolgen und Vorzügen seines Vaters
+         <lb facs="#facs_1_region_1776575492284_654_tl_27" n="N027"/>erzählen, von dessen Gewohnheiten und Ansichten; bald wußte
+         <lb facs="#facs_1_region_1776575492284_654_tl_28" n="N028"/>er den Vater auswendig, wie seine Werke. Letztere sind längst
+         <lb facs="#facs_1_region_1776575492284_654_tl_29" n="N029"/>verschollen; sie modern in dem gemeinsamen Schachtgrabe
+         <lb facs="#facs_1_region_1776575492284_654_tl_30" n="N030"/>mit allen <rs type="place">französisch</rs>en Tragödien, welche nicht den Namen
+         <lb facs="#facs_1_region_1776575492284_654_tl_31" n="N031"/><rs type="person">Corneille</rs> oder <rs type="person">Racine</rs> führen. Selbst das beste Trauerspiel
+         <lb facs="#facs_1_region_1776575492284_654_tl_32" n="N032"/>des alten <rs type="person">Legouvé</rs>: „<rs type="bibl">Der Tod Heinrich’s des Vierten</rs>“, dürfte
+         <lb facs="#facs_1_region_1776575492284_654_tl_33" n="N033"/>kaum über <rs type="place">Frankreich</rs> hinaus bekannt geworden sein. Seinerzeit
+         <lb facs="#facs_1_region_1776575492284_654_tl_34" n="N034"/>war es immerhin ein literarisches und ein politisches Ereig
+         <lb facs="#facs_1_region_1776575492284_654_tl_35" n="N035" break="no"/>niß. Als der Dichter seinen Freunden die Absicht mittheilte,
+         <lb facs="#facs_1_region_1776575492284_654_tl_36" n="N036"/><rs type="person">Heinrich</rs> den Vierten zum Sujet einer Tragödie zu wählen
+         <lb facs="#facs_1_region_1776575492284_654_tl_37" n="N037"/>erhoben Alle einen furchtbaren Lärm. „Was fällt Ihnen ein!
+         <lb facs="#facs_1_region_1776575492284_654_tl_38" n="N038"/>Der Stoff eines Trauerspiels muß doch mindestens 6- bis 700
+         <lb facs="#facs_1_region_1776575492284_654_tl_39" n="N039"/>Jahre hinter uns liegen! In <rs type="place">Paris</rs>, im Jahre <date>1806</date>, eine Tra</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776575503578_660_tl_1" n="N001" break="no"/>gödie in Versen aufführen zu lassen, die sich hier vor kaum
+         <lb facs="#facs_2_region_1776575503578_660_tl_2" n="N002"/>200 Jahren in Prosa abgespielt hat — das ist nicht blos
+         <lb facs="#facs_2_region_1776575503578_660_tl_3" n="N003"/>absurd, es ist frevelhaft. Und was für ein Tragödienheld!
+         <lb facs="#facs_2_region_1776575503578_660_tl_4" n="N004"/>Ein Held, der flucht; ein Held, der „ventre-saint-gris“
+         <lb facs="#facs_2_region_1776575503578_660_tl_5" n="N005"/>sagt und vom „Huhn im Topfe“ spricht!“ Aber der alte
+         <lb facs="#facs_2_region_1776575503578_660_tl_6" n="N006"/><rs type="person">Legouvé</rs> blieb unerschütterlich. In sechs Monaten war das
+         <lb facs="#facs_2_region_1776575503578_660_tl_7" n="N007"/>Stück fertig und eingereicht. Die ganze Bureaukratie gerieth
+         <lb facs="#facs_2_region_1776575503578_660_tl_8" n="N008"/>in Aufruhr; alle Regierungsbeamten, vom Größten bis zum
+         <lb facs="#facs_2_region_1776575503578_660_tl_9" n="N009"/>Kleinsten, erklärten die Verherrlichung eines Königs, eines
+         <lb facs="#facs_2_region_1776575503578_660_tl_10" n="N010"/>Bourbon, für eine Beleidigung des Kaisers <rs type="person">Napoleon</rs>. Die
+         <lb facs="#facs_2_region_1776575503578_660_tl_11" n="N011"/>Censur verbot das Stück, und die Minister fügten eigens ein
+         <lb facs="#facs_2_region_1776575503578_660_tl_12" n="N012"/>entrüstetes Veto hinzu. Die Tragödie schien verloren. Zum
+         <lb facs="#facs_2_region_1776575503578_660_tl_13" n="N013"/>Glück besaß der Dichter eine geistreiche, unternehmende <rs type="person">Frau</rs>;
+         <lb facs="#facs_2_region_1776575503578_660_tl_14" n="N014"/>sie schwor, <rs type="person">Heinrich IV.</rs> werde im Théâtre Français gespielt
+         <lb facs="#facs_2_region_1776575503578_660_tl_15" n="N015"/>werden. Und wie fing sie das an? Ganz einfach. Sie ver
+         <lb facs="#facs_2_region_1776575503578_660_tl_16" n="N016" break="no"/>anlaßte ihren <rs type="person">Gatte</rs>n, sein Trauerspiel dreimal vor einer
+         <lb facs="#facs_2_region_1776575503578_660_tl_17" n="N017"/>zahlreichen und vornehmen Gesellschaft zu lesen, so daß der
+         <lb facs="#facs_2_region_1776575503578_660_tl_18" n="N018"/>Lärm davon bis zu <rs type="person">Napoleon</rs> drang. Wirklich erhielt <rs type="person">Legouvé</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1776575503578_660_tl_19" n="N019"/>einen Befehl des <rs type="person">Kaiser</rs>s, nach <rs type="place">St. Cloud</rs> zu kommen und
+         <lb facs="#facs_2_region_1776575503578_660_tl_20" n="N020"/>ihm das Stück vorzulesen. <rs type="person">Napoleon</rs> erwartete ihn in einem
+         <lb facs="#facs_2_region_1776575503578_660_tl_21" n="N021"/>kleinen Salon mit der Kaiserin <rs type="person">Josephine</rs> und zwei Gene
+         <lb facs="#facs_2_region_1776575503578_660_tl_22" n="N022" break="no"/>ralen. Während der Vorlesung erhob sich <rs type="person">Napoleon</rs> alle
+         <lb facs="#facs_2_region_1776575503578_660_tl_23" n="N023"/>Augenblicke und schritt auf und ab, mitunter Zeichen der
+         <lb facs="#facs_2_region_1776575503578_660_tl_24" n="N024"/>Zustimmung gebend. Ein einziger Vers mißfiel ihm.
+         <lb facs="#facs_2_region_1776575503578_660_tl_25" n="N025"/><rs type="person">Heinrich IV.</rs> sagt in einer Scene zu <rs type="person">Sully</rs>: Ich zittere!
+         <lb facs="#facs_2_line_1783427998807_937" n="N026"/>„Das Wort ist unmöglich,“ ruft <rs type="person">Napoleon</rs>, „Sie müssen
+         <lb facs="#facs_2_line_1783428002724_940" n="N027"/>es streichen!“ „Sire,“ erwidert der Dichter, „die Angst
+         <lb facs="#facs_2_region_1776575503578_660_tl_31" n="N028"/><rs type="person">Heinrich’s</rs> des Vierten ist historisch.“ „Gleichviel, das Wort
+         <lb facs="#facs_2_region_1776575503578_660_tl_32" n="N029"/>muß gestrichen werden. Ein Souverän kann Furcht haben;
+         <lb facs="#facs_2_region_1776575503578_660_tl_33" n="N030"/><hi rendition="#em">sagen darf er’s niemals</hi>.“ Der <rs type="person">Kaiser</rs> gestattete zum
+         <lb facs="#facs_2_region_1776575503578_660_tl_34" n="N031"/>allgemeinen Erstaunen die Aufführung des Trauerspiels; die
+         <lb facs="#facs_2_region_1776575503578_660_tl_35" n="N032"/>Minister tadelten ihn laut als „zu liberal“. Trotzdem zeigte
+         <lb facs="#facs_2_region_1776575503578_660_tl_36" n="N033"/>sich wieder einmal, daß der Liberalismus kein so schlechter
+         <lb facs="#facs_2_region_1776575503578_660_tl_37" n="N034"/>Rathgeber ist: es gab bei der Aufführung keinen anderen
+         <lb facs="#facs_2_region_1776575503578_660_tl_38" n="N035"/>Tumult, als den Lärm des Beifalls.
+            </p><p>
+         <lb facs="#facs_2_region_1776575503578_660_tl_39" n="N036"/>Noch ein anderes Streiflicht auf das damalige Bühnen
+         <lb facs="#facs_2_region_1776575503578_660_tl_40" n="N037" break="no"/>wesen verdanken wir dieser Tragödie. <hi rendition="#em"><rs type="person">Talma</rs></hi> äußerte das
+         <lb facs="#facs_2_region_1776575503578_660_tl_41" n="N038"/>lebhafteste Verlangen, <rs type="person">Heinrich</rs> den Vierten zu spielen. Aber
+         <lb facs="#facs_2_region_1776575503578_660_tl_42" n="N039"/>das Théâtre Français erhob die größten Schwierigkeiten, weil<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1776575503578_660_tl_1" n="N001"/>gödie in Versen aufführen zu lassen, die sich hier vor kaum
-               <lb facs="#facs_2_region_1776575503578_660_tl_2" n="N002"/>200 Jahren in Prosa abgespielt hat — das ist nicht blos
-               <lb facs="#facs_2_region_1776575503578_660_tl_3" n="N003"/>absurd, es ist frevelhaft. Und was für ein Tragödienheld!
-               <lb facs="#facs_2_region_1776575503578_660_tl_4" n="N004"/>Ein Held, der flucht; ein Held, der „ventre-saint-gris“
-               <lb facs="#facs_2_region_1776575503578_660_tl_5" n="N005"/>sagt und vom „Huhn im Topfe“ spricht!“ Aber der alte
-               <lb facs="#facs_2_region_1776575503578_660_tl_6" n="N006"/>
-               <rs type="person">Legouvé</rs> blieb unerschütterlich. In sechs Monaten war das
-               <lb facs="#facs_2_region_1776575503578_660_tl_7" n="N007"/>Stück fertig und eingereicht. Die ganze Bureaukratie gerieth
-               <lb facs="#facs_2_region_1776575503578_660_tl_8" n="N008"/>in Aufruhr; alle Regierungsbeamten, vom Größten bis zum
-               <lb facs="#facs_2_region_1776575503578_660_tl_9" n="N009"/>Kleinsten, erklärten die Verherrlichung eines Königs, eines
-               <lb facs="#facs_2_region_1776575503578_660_tl_10" n="N010"/>Bourbon, für eine Beleidigung des Kaisers <rs type="person">Napoleon</rs>. Die
-               <lb facs="#facs_2_region_1776575503578_660_tl_11" n="N011"/>Censur verbot das Stück, und die Minister fügten eigens ein
-               <lb facs="#facs_2_region_1776575503578_660_tl_12" n="N012"/>entrüstetes Veto hinzu. Die Tragödie schien verloren. Zum
-               <lb facs="#facs_2_region_1776575503578_660_tl_13" n="N013"/>Glück besaß der Dichter eine geistreiche, unternehmende <rs type="person">Frau</rs>;
-               <lb facs="#facs_2_region_1776575503578_660_tl_14" n="N014"/>sie schwor, <rs type="person">Heinrich IV.</rs> werde im Théâtre Français gespielt
-               <lb facs="#facs_2_region_1776575503578_660_tl_15" n="N015"/>werden. Und wie fing sie das an? Ganz einfach. Sie ver¬
-               <lb facs="#facs_2_region_1776575503578_660_tl_16" n="N016"/>anlaßte ihren <rs type="person">Gatte</rs>n, sein Trauerspiel dreimal vor einer
-               <lb facs="#facs_2_region_1776575503578_660_tl_17" n="N017"/>zahlreichen und vornehmen Gesellschaft zu lesen, so daß der
-               <lb facs="#facs_2_region_1776575503578_660_tl_18" n="N018"/>Lärm davon bis zu <rs type="person">Napoleon</rs> drang. Wirklich erhielt <rs type="person">Legouvé</rs>
-               <lb facs="#facs_2_region_1776575503578_660_tl_19" n="N019"/>einen Befehl des <rs type="person">Kaiser</rs>s, nach <rs type="place">St. Cloud</rs> zu kommen und
-               <lb facs="#facs_2_region_1776575503578_660_tl_20" n="N020"/>ihm das Stück vorzulesen. <rs type="person">Napoleon</rs> erwartete ihn in einem
-               <lb facs="#facs_2_region_1776575503578_660_tl_21" n="N021"/>kleinen Salon mit der Kaiserin <rs type="person">Josephine</rs> und zwei Gene¬
-               <lb facs="#facs_2_region_1776575503578_660_tl_22" n="N022"/>ralen. Während der Vorlesung erhob sich <rs type="person">Napoleon</rs> alle
-               <lb facs="#facs_2_region_1776575503578_660_tl_23" n="N023"/>Augenblicke und schritt auf und ab, mitunter Zeichen der
-               <lb facs="#facs_2_region_1776575503578_660_tl_24" n="N024"/>Zustimmung gebend. Ein einziger Vers mißfiel ihm.
-               <lb facs="#facs_2_region_1776575503578_660_tl_25" n="N025"/>
-               <rs type="person">Heinrich IV.</rs> sagt in einer Scene zu <rs type="person">Sully</rs>: Ich zittere!
-               <lb facs="#facs_2_line_1783427998807_937" n="N026"/>„Das Wort ist unmöglich,“ ruft <rs type="person">Napoleon</rs>, „Sie müssen
-               <lb facs="#facs_2_line_1783428002724_940" n="N027"/>es streichen!“ „Sire,“ erwidert der Dichter, „die Angst
-               <lb facs="#facs_2_region_1776575503578_660_tl_31" n="N028"/>
-               <rs type="person">Heinrich’s</rs> des Vierten ist historisch.“ „Gleichviel, das Wort
-               <lb facs="#facs_2_region_1776575503578_660_tl_32" n="N029"/>muß gestrichen werden. Ein Souverän kann Furcht haben;
-               <lb facs="#facs_2_region_1776575503578_660_tl_33" n="N030"/>
-               <hi rendition="#em">sagen darf er’s niemals</hi>.“ Der <rs type="person">Kaiser</rs> gestattete zum
-               <lb facs="#facs_2_region_1776575503578_660_tl_34" n="N031"/>allgemeinen Erstaunen die Aufführung des Trauerspiels; die
-               <lb facs="#facs_2_region_1776575503578_660_tl_35" n="N032"/>Minister tadelten ihn laut als „zu liberal“. Trotzdem zeigte
-               <lb facs="#facs_2_region_1776575503578_660_tl_36" n="N033"/>sich wieder einmal, daß der Liberalismus kein so schlechter
-               <lb facs="#facs_2_region_1776575503578_660_tl_37" n="N034"/>Rathgeber ist: es gab bei der Aufführung keinen anderen
-               <lb facs="#facs_2_region_1776575503578_660_tl_38" n="N035"/>Tumult, als den Lärm des Beifalls.
-               <lb facs="#facs_2_region_1776575503578_660_tl_39" n="N036"/>Noch ein anderes Streiflicht auf das damalige Bühnen¬
-               <lb facs="#facs_2_region_1776575503578_660_tl_40" n="N037"/>wesen verdanken wir dieser Tragödie. <hi rendition="#em">
-                  <rs type="person">Talma</rs>
-               </hi> äußerte das
-               <lb facs="#facs_2_region_1776575503578_660_tl_41" n="N038"/>lebhafteste Verlangen, <rs type="person">Heinrich</rs> den Vierten zu spielen. Aber
-               <lb facs="#facs_2_region_1776575503578_660_tl_42" n="N039"/>das Théâtre Français erhob die größten Schwierigkeiten, weil
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776575511490_663_tl_1" n="N001"/>die finsteren und tyrannischen Charaktere das Rollenfach
+         <lb facs="#facs_2_region_1776575511490_663_tl_2" n="N002"/><rs type="person">Talma</rs>’s seien. „Gerade deßhalb,“ entgegnete <rs type="person">Talma</rs>, „verlange
+         <lb facs="#facs_2_region_1776575511490_663_tl_3" n="N003"/>ich die Rolle <rs type="person">Heinrich’s</rs> des Vierten. Ich habe lange genug die
+         <lb facs="#facs_2_region_1776575511490_663_tl_4" n="N004"/>Ungeheuer gespielt, ich will jetzt einen braven Mann spielen.
+         <lb facs="#facs_2_region_1776575511490_663_tl_5" n="N005"/>In unserer Kunst schreitet man nur vor, indem man sich
+         <lb facs="#facs_2_region_1776575511490_663_tl_6" n="N006"/>erneuert. Sich in ein einziges Charakterfach festzubannen,
+         <lb facs="#facs_2_region_1776575511490_663_tl_7" n="N007"/>heißt sich zur Uebertreibung und Manier verdammen.“ <rs type="person">Talma</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1776575511490_663_tl_8" n="N008"/>setzte seinen Willen durch, spielte den <rs type="person">Heinrich</rs>, und der Er
+         <lb facs="#facs_2_region_1776575511490_663_tl_9" n="N009" break="no"/>folg gab ihm Recht.
+            </p><p>
+         <lb facs="#facs_2_region_1776575511490_663_tl_10" n="N010"/>Der alte <rs type="person">Legouvé</rs> war Mitglied der Akademie gewesen;
+         <lb facs="#facs_2_region_1776575511490_663_tl_11" n="N011"/>sein Nachfolger, Alexander <rs type="person">Duval</rs>, hielt in feierlicher Sitzung
+         <lb facs="#facs_2_region_1776575511490_663_tl_12" n="N012"/>die officielle Lobrede auf den Verstorbenen. Der sechsjährige
+         <lb facs="#facs_2_region_1776575511490_663_tl_13" n="N013"/>Ernest <rs type="person">Legouvé</rs>, in Trauerkleidern nach Vater und Mutter,
+         <lb facs="#facs_2_region_1776575511490_663_tl_14" n="N014"/>wurde von seinen Großeltern in den Sitzungssaal der Aka
+         <lb facs="#facs_2_region_1776575511490_663_tl_15" n="N015" break="no"/>demie geführt, wo man ihn in der ersten Sitzreihe gegenüber
+         <lb facs="#facs_2_region_1776575511490_663_tl_16" n="N016"/>dem Redner installirte. Mit klopfendem Herzen hört er das
+         <lb facs="#facs_2_region_1776575511490_663_tl_17" n="N017"/>Eloge seines <rs type="person">Vater</rs>s, worin es an mitleidigen Anspielungen
+         <lb facs="#facs_2_region_1776575511490_663_tl_18" n="N018"/>auf den Knaben nicht fehlte. Die Erinnerung an diese Feier
+         <lb facs="#facs_2_region_1776575511490_663_tl_19" n="N019" break="no"/>lichkeit blieb ihm zeitlebens gegenwärtig und zeitlebens wirk
+         <lb facs="#facs_2_region_1776575511490_663_tl_20" n="N020" break="no"/>sam. Der Name eines hochgeachteten Vaters bleibt für den
+         <lb facs="#facs_2_region_1776575511490_663_tl_21" n="N021"/>Sohn, wenn dieser nur selbst etwas taugt, jederzeit das
+         <lb facs="#facs_2_region_1776575511490_663_tl_22" n="N022"/>größte Glück. Der Knabe ist für seine ganze Umgebung zu
+         <lb facs="#facs_2_region_1776575511490_663_tl_23" n="N023" break="no"/>gleich eine Erinnerung und eine Hoffnung. Er tritt durch
+         <lb facs="#facs_2_region_1776575511490_663_tl_24" n="N024"/>ein schönes offenes Thor ins Leben. Zudem hatte der junge
+         <lb facs="#facs_2_region_1776575511490_663_tl_25" n="N025"/><rs type="person">Legouvé</rs> von seinem <rs type="person">Vater</rs> die Liebe und das Talent für
+         <lb facs="#facs_2_region_1776575511490_663_tl_26" n="N026"/>Poesie geerbt. Früh begann er seine Versuche. Aber wie die
+         <lb facs="#facs_2_region_1776575511490_663_tl_27" n="N027"/>Verliebten, so brauchen auch die jungen Poeten nicht nur
+         <lb facs="#facs_2_region_1776575511490_663_tl_28" n="N028"/>einen Vertrauten, auch einen Beichtvater, der sie absolvire
+         <lb facs="#facs_2_region_1776575511490_663_tl_29" n="N029"/>und vor Allem confirmire. Unser siebzehnjähriger <rs type="person">Legouvé</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1776575511490_663_tl_30" n="N030"/>faßt sich ein Herz und sendet seine ersten größeren Gedichte
+         <lb facs="#facs_2_region_1776575511490_663_tl_31" n="N031"/>an Casimir <hi rendition="#em"><rs type="person">Delavigne</rs></hi>. Das war damals der Abgott
+         <lb facs="#facs_2_region_1776575511490_663_tl_32" n="N032"/>der <rs type="place">französisch</rs>en Jugend. Er hatte <rs type="place">Griechenland</rs> besungen
+         <lb facs="#facs_2_region_1776575511490_663_tl_33" n="N033"/><rs type="place">Frankreich</rs>, die Freiheit. Er war der nationale Poet. Der
+         <lb facs="#facs_2_region_1776575511490_663_tl_34" n="N034"/>junge <rs type="person">Legouvé</rs> und seine Genossen bewunderten zwar auch
+         <lb facs="#facs_2_region_1776575511490_663_tl_35" n="N035"/><rs type="person">Lamartine</rs> — aber <rs type="person">Lamartine</rs> war Royalist, er hatte <rs type="person">Bona
+         <lb facs="#facs_2_region_1776575511490_663_tl_36" n="N036" break="no"/>parte</rs> angegriffen! Das galt als Frevel bei den jungen Leuten,
+         <lb facs="#facs_2_region_1776575511490_663_tl_37" n="N037"/>die insgesammt fanatische Liberale waren und fanatische
+         <lb facs="#facs_2_region_1776575511490_663_tl_38" n="N038"/>Bonapartisten. Heute erscheint die Verschmelzung der
+         <lb facs="#facs_2_region_1776575511490_663_tl_39" n="N039"/>Begriffe <rs type="person">Napoleon</rs> und Freiheit als ein ungeheurer<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1776575511490_663_tl_1" n="N001"/>die finsteren und tyrannischen Charaktere das Rollenfach
-               <lb facs="#facs_2_region_1776575511490_663_tl_2" n="N002"/>
-               <rs type="person">Talma</rs>’s seien. „Gerade deßhalb,“ entgegnete <rs type="person">Talma</rs>, „verlange
-               <lb facs="#facs_2_region_1776575511490_663_tl_3" n="N003"/>ich die Rolle <rs type="person">Heinrich’s</rs> des Vierten. Ich habe lange genug die
-               <lb facs="#facs_2_region_1776575511490_663_tl_4" n="N004"/>Ungeheuer gespielt, ich will jetzt einen braven Mann spielen.
-               <lb facs="#facs_2_region_1776575511490_663_tl_5" n="N005"/>In unserer Kunst schreitet man nur vor, indem man sich
-               <lb facs="#facs_2_region_1776575511490_663_tl_6" n="N006"/>erneuert. Sich in ein einziges Charakterfach festzubannen,
-               <lb facs="#facs_2_region_1776575511490_663_tl_7" n="N007"/>heißt sich zur Uebertreibung und Manier verdammen.“ <rs type="person">Talma</rs>
-               <lb facs="#facs_2_region_1776575511490_663_tl_8" n="N008"/>setzte seinen Willen durch, spielte den <rs type="person">Heinrich</rs>, und der Er¬
-               <lb facs="#facs_2_region_1776575511490_663_tl_9" n="N009"/>folg gab ihm Recht.
-               <lb facs="#facs_2_region_1776575511490_663_tl_10" n="N010"/>Der alte <rs type="person">Legouvé</rs> war Mitglied der Akademie gewesen;
-               <lb facs="#facs_2_region_1776575511490_663_tl_11" n="N011"/>sein Nachfolger, Alexander <rs type="person">Duval</rs>, hielt in feierlicher Sitzung
-               <lb facs="#facs_2_region_1776575511490_663_tl_12" n="N012"/>die officielle Lobrede auf den Verstorbenen. Der sechsjährige
-               <lb facs="#facs_2_region_1776575511490_663_tl_13" n="N013"/>Ernest <rs type="person">Legouvé</rs>, in Trauerkleidern nach Vater und Mutter,
-               <lb facs="#facs_2_region_1776575511490_663_tl_14" n="N014"/>wurde von seinen Großeltern in den Sitzungssaal der Aka¬
-               <lb facs="#facs_2_region_1776575511490_663_tl_15" n="N015"/>demie geführt, wo man ihn in der ersten Sitzreihe gegenüber
-               <lb facs="#facs_2_region_1776575511490_663_tl_16" n="N016"/>dem Redner installirte. Mit klopfendem Herzen hört er das
-               <lb facs="#facs_2_region_1776575511490_663_tl_17" n="N017"/>Eloge seines <rs type="person">Vater</rs>s, worin es an mitleidigen Anspielungen
-               <lb facs="#facs_2_region_1776575511490_663_tl_18" n="N018"/>auf den Knaben nicht fehlte. Die Erinnerung an diese Feier¬
-               <lb facs="#facs_2_region_1776575511490_663_tl_19" n="N019"/>lichkeit blieb ihm zeitlebens gegenwärtig und zeitlebens wirk¬
-               <lb facs="#facs_2_region_1776575511490_663_tl_20" n="N020"/>sam. Der Name eines hochgeachteten Vaters bleibt für den
-               <lb facs="#facs_2_region_1776575511490_663_tl_21" n="N021"/>Sohn, wenn dieser nur selbst etwas taugt, jederzeit das
-               <lb facs="#facs_2_region_1776575511490_663_tl_22" n="N022"/>größte Glück. Der Knabe ist für seine ganze Umgebung zu¬
-               <lb facs="#facs_2_region_1776575511490_663_tl_23" n="N023"/>gleich eine Erinnerung und eine Hoffnung. Er tritt durch
-               <lb facs="#facs_2_region_1776575511490_663_tl_24" n="N024"/>ein schönes offenes Thor ins Leben. Zudem hatte der junge
-               <lb facs="#facs_2_region_1776575511490_663_tl_25" n="N025"/>
-               <rs type="person">Legouvé</rs> von seinem <rs type="person">Vater</rs> die Liebe und das Talent für
-               <lb facs="#facs_2_region_1776575511490_663_tl_26" n="N026"/>Poesie geerbt. Früh begann er seine Versuche. Aber wie die
-               <lb facs="#facs_2_region_1776575511490_663_tl_27" n="N027"/>Verliebten, so brauchen auch die jungen Poeten nicht nur
-               <lb facs="#facs_2_region_1776575511490_663_tl_28" n="N028"/>einen Vertrauten, auch einen Beichtvater, der sie absolvire
-               <lb facs="#facs_2_region_1776575511490_663_tl_29" n="N029"/>und vor Allem confirmire. Unser siebzehnjähriger <rs type="person">Legouvé</rs>
-               <lb facs="#facs_2_region_1776575511490_663_tl_30" n="N030"/>faßt sich ein Herz und sendet seine ersten größeren Gedichte
-               <lb facs="#facs_2_region_1776575511490_663_tl_31" n="N031"/>an Casimir <hi rendition="#em">
-                  <rs type="person">Delavigne</rs>
-               </hi>. Das war damals der Abgott
-               <lb facs="#facs_2_region_1776575511490_663_tl_32" n="N032"/>der <rs type="place">französisch</rs>en Jugend. Er hatte <rs type="place">Griechenland</rs> besungen
-               <lb facs="#facs_2_region_1776575511490_663_tl_33" n="N033"/>
-               <rs type="place">Frankreich</rs>, die Freiheit. Er war der nationale Poet. Der
-               <lb facs="#facs_2_region_1776575511490_663_tl_34" n="N034"/>junge <rs type="person">Legouvé</rs> und seine Genossen bewunderten zwar auch
-               <lb facs="#facs_2_region_1776575511490_663_tl_35" n="N035"/>
-               <rs type="person">Lamartine</rs> — aber <rs type="person">Lamartine</rs> war Royalist, er hatte <rs type="person" continued="true">Bona¬</rs>
-               <lb facs="#facs_2_region_1776575511490_663_tl_36" n="N036"/>
-               <rs type="person" continued="true">parte</rs> angegriffen! Das galt als Frevel bei den jungen Leuten,
-               <lb facs="#facs_2_region_1776575511490_663_tl_37" n="N037"/>die insgesammt fanatische Liberale waren und fanatische
-               <lb facs="#facs_2_region_1776575511490_663_tl_38" n="N038"/>Bonapartisten. Heute erscheint die Verschmelzung der
-               <lb facs="#facs_2_region_1776575511490_663_tl_39" n="N039"/>Begriffe <rs type="person">Napoleon</rs> und Freiheit als ein ungeheurer
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1776575518090_666_tl_1" n="N001"/>Widerspruch. Mit Recht. Aber jede Epoche, auch die
-               <lb facs="#facs_2_region_1776575518090_666_tl_2" n="N002"/>unsere, hat solche Widersprüche. Ehedem vergaß man
-               <lb facs="#facs_2_region_1776575518090_666_tl_3" n="N003"/>den Despotismus <rs type="person">Napoleon</rs>’s, um lediglich sein Genie zu
-               <lb facs="#facs_2_region_1776575518090_666_tl_4" n="N004"/>sehen, heute vergißt man sein Genie und sieht nur seinen
-               <lb facs="#facs_2_region_1776575518090_666_tl_5" n="N005"/>Despotismus. Beides ist ungerecht, aber beides gleicherweise
-               <lb facs="#facs_2_region_1776575518090_666_tl_6" n="N006"/>begreiflich. In Wahrheit stehen die großen Männer keines¬
-               <lb facs="#facs_2_region_1776575518090_666_tl_7" n="N007"/>wegs, wie man oft glauben möchte, als unbewegliche Marmor¬
-               <lb facs="#facs_2_region_1776575518090_666_tl_8" n="N008"/>statuen in der Geschichte. Es sind lebendige Wesen, deren
-               <lb facs="#facs_2_region_1776575518090_666_tl_9" n="N009"/>Physiognomie sich unaufhörlich verändert. Jede Epoche ver¬
-               <lb facs="#facs_2_region_1776575518090_666_tl_10" n="N010"/>wandelt sie je nach dem Bedürfniß ihrer Politik oder ihrer
-               <lb facs="#facs_2_region_1776575518090_666_tl_11" n="N011"/>Einbildungskraft. <date>1830</date> herrschte die Phantasie, die Poesie;
-               <lb facs="#facs_2_region_1776575518090_666_tl_12" n="N012"/>heute führt die Politik und die Geschichte das entscheidende
-               <lb facs="#facs_2_region_1776575518090_666_tl_13" n="N013"/>Wort. So erklärt sich, daß die jungen Freiheitsschwärmer
-               <lb facs="#facs_2_region_1776575518090_666_tl_14" n="N014"/>von damals durchaus <rs type="person">bonapart</rs>istisch gesinnt waren; sie
-               <lb facs="#facs_2_region_1776575518090_666_tl_15" n="N015"/>hörten immer und überall die unglückseligen Kanonen von
-               <lb facs="#facs_2_region_1776575518090_666_tl_16" n="N016"/>
-               <rs type="place">Waterloo</rs>.
-               <lb facs="#facs_2_region_1776575518090_666_tl_17" n="N017"/>Casimir <rs type="person">Delavigne</rs> empfing den vor Befangenheit zittern¬
-               <lb facs="#facs_2_region_1776575518090_666_tl_18" n="N018"/>den Jüngling mit herzlichem Wohlwollen. „Ich habe Ihre
-               <lb facs="#facs_2_region_1776575518090_666_tl_19" n="N019"/>Werke gelesen,“ begann er, „und Talent darin gefunden,
-               <lb facs="#facs_2_region_1776575518090_666_tl_20" n="N020"/>aber — bevor wir darüber sprechen, erlauben Sie mir eine
-               <lb facs="#facs_2_region_1776575518090_666_tl_21" n="N021"/>sehr prosaische Frage: Haben Sie zu leben?“ Diese Vor¬
-               <lb facs="#facs_2_region_1776575518090_666_tl_22" n="N022"/>frage ist Goldes werth. Wir empfehlen sie allen jenen
-               <lb facs="#facs_2_region_1776575518090_666_tl_23" n="N023"/>Notabilitäten, welchen junge Anfänger die Frage auf die
-               <lb facs="#facs_2_region_1776575518090_666_tl_24" n="N024"/>Brust setzen, ob sie sich der Dichtkunst oder der Composition
-               <lb facs="#facs_2_region_1776575518090_666_tl_25" n="N025"/>widmen sollen? Von den „nicht üblen“, „recht hübschen“,
-               <lb facs="#facs_2_region_1776575518090_666_tl_26" n="N026"/>und „hoffnungsvollen“ Proben, die sie mitbringen, ist’s in
-               <lb facs="#facs_2_region_1776575518090_666_tl_27" n="N027"/>der Regel noch sehr weit bis zu einem Talent, das für eine
-               <lb facs="#facs_2_region_1776575518090_666_tl_28" n="N028"/>ganze Laufbahn ausreichen soll. Wo nicht ein ganz evidenter
-               <lb facs="#facs_2_region_1776575518090_666_tl_29" n="N029"/>Beruf, eine jetzt schon unbestreitbare Ueberlegenheit und
-               <lb facs="#facs_2_region_1776575518090_666_tl_30" n="N030"/>Eigenart sich kundgibt, thut man am besten, einen mittel¬
-               <lb facs="#facs_2_region_1776575518090_666_tl_31" n="N031"/>losen jungen Mann davon abzureden, das Dichten oder Com¬
-               <lb facs="#facs_2_region_1776575518090_666_tl_32" n="N032"/>poniren als Lebensberuf zu wählen. „Man kann leben, um
-               <lb facs="#facs_2_region_1776575518090_666_tl_33" n="N033"/>zu dichten,“ erklärte <rs type="person">Delavigne</rs> dem jungen Poeten, „aber
-               <lb facs="#facs_2_region_1776575518090_666_tl_34" n="N034"/>man muß nicht dichten, um zu leben.“ Ueber diesen Punkt
-               <lb facs="#facs_2_region_1776575518090_666_tl_35" n="N035"/>beruhigt, analysirte er die ihm überschickten Gedichte und ent¬
-               <lb facs="#facs_2_region_1776575518090_666_tl_36" n="N036"/>ließ <rs type="person">Legouvé</rs> schließlich mit folgendem trefflichen Rath: „Sie
-               <lb facs="#facs_2_region_1776575518090_666_tl_37" n="N037"/>befinden sich in einer Krise. Machen Sie ein Jahr lang
-               <lb facs="#facs_2_region_1776575518090_666_tl_38" n="N038"/>keinen einzigen Vers. Lassen Sie die Form beiseite, Sie
-               <lb facs="#facs_2_region_1776575518090_666_tl_39" n="N039"/>werden sie wiederfinden. Arbeiten Sie am Inhalt, an den
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776575518090_666_tl_1" n="N001"/>Widerspruch. Mit Recht. Aber jede Epoche, auch die
+         <lb facs="#facs_2_region_1776575518090_666_tl_2" n="N002"/>unsere, hat solche Widersprüche. Ehedem vergaß man
+         <lb facs="#facs_2_region_1776575518090_666_tl_3" n="N003"/>den Despotismus <rs type="person">Napoleon</rs>’s, um lediglich sein Genie zu
+         <lb facs="#facs_2_region_1776575518090_666_tl_4" n="N004"/>sehen, heute vergißt man sein Genie und sieht nur seinen
+         <lb facs="#facs_2_region_1776575518090_666_tl_5" n="N005"/>Despotismus. Beides ist ungerecht, aber beides gleicherweise
+         <lb facs="#facs_2_region_1776575518090_666_tl_6" n="N006"/>begreiflich. In Wahrheit stehen die großen Männer keines
+         <lb facs="#facs_2_region_1776575518090_666_tl_7" n="N007" break="no"/>wegs, wie man oft glauben möchte, als unbewegliche Marmor
+         <lb facs="#facs_2_region_1776575518090_666_tl_8" n="N008" break="no"/>statuen in der Geschichte. Es sind lebendige Wesen, deren
+         <lb facs="#facs_2_region_1776575518090_666_tl_9" n="N009"/>Physiognomie sich unaufhörlich verändert. Jede Epoche ver
+         <lb facs="#facs_2_region_1776575518090_666_tl_10" n="N010" break="no"/>wandelt sie je nach dem Bedürfniß ihrer Politik oder ihrer
+         <lb facs="#facs_2_region_1776575518090_666_tl_11" n="N011"/>Einbildungskraft. <date>1830</date> herrschte die Phantasie, die Poesie;
+         <lb facs="#facs_2_region_1776575518090_666_tl_12" n="N012"/>heute führt die Politik und die Geschichte das entscheidende
+         <lb facs="#facs_2_region_1776575518090_666_tl_13" n="N013"/>Wort. So erklärt sich, daß die jungen Freiheitsschwärmer
+         <lb facs="#facs_2_region_1776575518090_666_tl_14" n="N014"/>von damals durchaus <rs type="person">bonapart</rs>istisch gesinnt waren; sie
+         <lb facs="#facs_2_region_1776575518090_666_tl_15" n="N015"/>hörten immer und überall die unglückseligen Kanonen von
+         <lb facs="#facs_2_region_1776575518090_666_tl_16" n="N016"/><rs type="place">Waterloo</rs>.
+            </p><p>
+         <lb facs="#facs_2_region_1776575518090_666_tl_17" n="N017"/>Casimir <rs type="person">Delavigne</rs> empfing den vor Befangenheit zittern
+         <lb facs="#facs_2_region_1776575518090_666_tl_18" n="N018" break="no"/>den Jüngling mit herzlichem Wohlwollen. „Ich habe Ihre
+         <lb facs="#facs_2_region_1776575518090_666_tl_19" n="N019"/>Werke gelesen,“ begann er, „und Talent darin gefunden,
+         <lb facs="#facs_2_region_1776575518090_666_tl_20" n="N020"/>aber — bevor wir darüber sprechen, erlauben Sie mir eine
+         <lb facs="#facs_2_region_1776575518090_666_tl_21" n="N021"/>sehr prosaische Frage: Haben Sie zu leben?“ Diese Vor
+         <lb facs="#facs_2_region_1776575518090_666_tl_22" n="N022" break="no"/>frage ist Goldes werth. Wir empfehlen sie allen jenen
+         <lb facs="#facs_2_region_1776575518090_666_tl_23" n="N023"/>Notabilitäten, welchen junge Anfänger die Frage auf die
+         <lb facs="#facs_2_region_1776575518090_666_tl_24" n="N024"/>Brust setzen, ob sie sich der Dichtkunst oder der Composition
+         <lb facs="#facs_2_region_1776575518090_666_tl_25" n="N025"/>widmen sollen? Von den „nicht üblen“, „recht hübschen“,
+         <lb facs="#facs_2_region_1776575518090_666_tl_26" n="N026"/>und „hoffnungsvollen“ Proben, die sie mitbringen, ist’s in
+         <lb facs="#facs_2_region_1776575518090_666_tl_27" n="N027"/>der Regel noch sehr weit bis zu einem Talent, das für eine
+         <lb facs="#facs_2_region_1776575518090_666_tl_28" n="N028"/>ganze Laufbahn ausreichen soll. Wo nicht ein ganz evidenter
+         <lb facs="#facs_2_region_1776575518090_666_tl_29" n="N029"/>Beruf, eine jetzt schon unbestreitbare Ueberlegenheit und
+         <lb facs="#facs_2_region_1776575518090_666_tl_30" n="N030"/>Eigenart sich kundgibt, thut man am besten, einen mittel
+         <lb facs="#facs_2_region_1776575518090_666_tl_31" n="N031" break="no"/>losen jungen Mann davon abzureden, das Dichten oder Com
+         <lb facs="#facs_2_region_1776575518090_666_tl_32" n="N032" break="no"/>poniren als Lebensberuf zu wählen. „Man kann leben, um
+         <lb facs="#facs_2_region_1776575518090_666_tl_33" n="N033"/>zu dichten,“ erklärte <rs type="person">Delavigne</rs> dem jungen Poeten, „aber
+         <lb facs="#facs_2_region_1776575518090_666_tl_34" n="N034"/>man muß nicht dichten, um zu leben.“ Ueber diesen Punkt
+         <lb facs="#facs_2_region_1776575518090_666_tl_35" n="N035"/>beruhigt, analysirte er die ihm überschickten Gedichte und ent
+         <lb facs="#facs_2_region_1776575518090_666_tl_36" n="N036" break="no"/>ließ <rs type="person">Legouvé</rs> schließlich mit folgendem trefflichen Rath: „Sie
+         <lb facs="#facs_2_region_1776575518090_666_tl_37" n="N037"/>befinden sich in einer Krise. Machen Sie ein Jahr lang
+         <lb facs="#facs_2_region_1776575518090_666_tl_38" n="N038"/>keinen einzigen Vers. Lassen Sie die Form beiseite, Sie
+         <lb facs="#facs_2_region_1776575518090_666_tl_39" n="N039"/>werden sie wiederfinden. Arbeiten Sie am Inhalt, an den<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1776575531009_672_tl_1" n="N001"/>Grundlagen. Lernen Sie, schmieden Sie Ihren Geist! Be
+         <lb facs="#facs_3_region_1776575531009_672_tl_2" n="N002" break="no"/>reisen Sie die fremden Länder in deren Meisterwerken. Enfin —
+         <lb facs="#facs_3_region_1776575531009_672_tl_3" n="N003"/>suchen Sie sich selbst zu finden, indem Sie die Anderen studiren.“
+         <lb facs="#facs_3_region_1776575531009_672_tl_4" n="N004"/><rs type="person">Legouvé</rs> hat den Rath redlich befolgt und bald die Früchte
+         <lb facs="#facs_3_region_1776575531009_672_tl_5" n="N005"/>davon geerntet. Sein Gedicht über das von der Akademie
+         <lb facs="#facs_3_region_1776575531009_672_tl_6" n="N006"/>aufgegebene Thema: „Die Erfindung der Buchdruckerkunst“,
+         <lb facs="#facs_3_region_1776575531009_672_tl_7" n="N007"/>errang den Preis. Sechzehn Jahre nach jener Sitzung, in
+         <lb facs="#facs_3_region_1776575531009_672_tl_8" n="N008"/>welcher er die Lobrede auf seinen <rs type="person">Vater</rs> angehört, saß der
+         <lb facs="#facs_3_region_1776575531009_672_tl_9" n="N009"/>junge <rs type="person">Legouvé</rs> wieder auf demselben Platze in der ersten
+         <lb facs="#facs_3_region_1776575531009_672_tl_10" n="N010"/>Reihe — aber diesmal nicht mehr als einfacher Zuhörer,
+         <lb facs="#facs_3_region_1776575531009_672_tl_11" n="N011"/>sondern als eine wichtige Person: als Sieger über seine
+         <lb facs="#facs_3_region_1776575531009_672_tl_12" n="N012"/>dichtenden Mitbewerber. Casimir <rs type="person">Delavigne</rs> selbst wohnte
+         <lb facs="#facs_3_region_1776575531009_672_tl_13" n="N013"/>dieser Sitzung nicht bei. „Ich bin ein schlechter Akademiker,“
+         <lb facs="#facs_3_region_1776575531009_672_tl_14" n="N014"/>entschuldigte er sich gegen <rs type="person">Legouvé</rs>, „ich gehe fast nie hin,
+         <lb facs="#facs_3_region_1776575531009_672_tl_15" n="N015"/>und ich habe Unrecht, denn so oft ich hingehe, amüsire ich
+         <lb facs="#facs_3_region_1776575531009_672_tl_16" n="N016"/>mich. Es ist eben Gewohnheitssache. Aber wenn Sie einmal
+         <lb facs="#facs_3_region_1776575531009_672_tl_17" n="N017"/>Mitglied der Akademie sind — und das zu werden sind
+         <lb facs="#facs_3_region_1776575531009_672_tl_18" n="N018"/>Sie Ihrem <rs type="person">Vater</rs> schuldig — seien Sie pünktlich! Wir
+         <lb facs="#facs_3_region_1776575531009_672_tl_19" n="N019"/>werden uns dort vielleicht wiederfinden, denn ich werde dann
+         <lb facs="#facs_3_region_1776575531009_672_tl_20" n="N020"/>alt sein und werde hingehen. Die Akademie hat einen großen
+         <lb facs="#facs_3_region_1776575531009_672_tl_21" n="N021"/>Vorzug: durch sie ist man noch immer Jemand, wenn man
+         <lb facs="#facs_3_region_1776575531009_672_tl_22" n="N022"/>selbst nichts mehr ist.“
+            </p><p>
+         <lb facs="#facs_3_region_1776575531009_672_tl_23" n="N023"/>Nicht Jeder verrichtete das häkelige und zur Unauf
+         <lb facs="#facs_3_region_1776575531009_672_tl_24" n="N024" break="no"/>richtigkeit verleitende Geschäft, poetische Consultationen zu
+         <lb facs="#facs_3_region_1776575531009_672_tl_25" n="N025"/>ertheilen, so gewissenhaft wie Casimir <rs type="person">Delavigne</rs>, <hi rendition="#em"><rs type="person">Lamar
+         <lb facs="#facs_3_region_1776575531009_672_tl_26" n="N026" break="no"/>tine</rs></hi> half sich mittelst Uebertreibungen; er überhäufte Einen
+         <lb facs="#facs_3_region_1776575531009_672_tl_27" n="N027"/>mit solchen Lobsprüchen, daß es unmöglich war, daran zu
+         <lb facs="#facs_3_region_1776575531009_672_tl_28" n="N028"/>glauben. <hi rendition="#em"><rs type="person">Béranger</rs></hi> war aufrichtig; nur wenn ein lästiger
+         <lb facs="#facs_3_region_1776575531009_672_tl_29" n="N029"/>Dichterling ihn allzu oft mit seinen Versen überlief, hänselte
+         <lb facs="#facs_3_region_1776575531009_672_tl_30" n="N030"/>er ihn mit geistreichem Spott. Und wie stark ist auf die
+         <lb facs="#facs_3_region_1776575531009_672_tl_31" n="N031"/>sprichwörtliche Güte und Liebenswürdigkeit <rs type="person">Béranger</rs>’s ge
+         <lb facs="#facs_3_region_1776575531009_672_tl_32" n="N032" break="no"/>sündigt worden! Nach <rs type="person">Legouvé</rs>’s Zeugniß kann man sich
+         <lb facs="#facs_3_region_1776575531009_672_tl_33" n="N033"/>heute kaum eine Vorstellung machen von dem Einfluß, den
+         <lb facs="#facs_3_region_1776575531009_672_tl_34" n="N034"/><rs type="person">Béranger</rs> seinerzeit ausübte. Aehnlich wie unser <rs type="person">Gellert</rs>, war
+         <lb facs="#facs_3_region_1776575531009_672_tl_35" n="N035"/>er der oberste Berather seiner Zeitgenossen. Niemand hat
+         <lb facs="#facs_3_region_1776575531009_672_tl_36" n="N036"/>eine größere Autorität genossen, ohne irgendwie danach zu
+         <lb facs="#facs_3_region_1776575531009_672_tl_37" n="N037"/>streben. Die angesehensten Männer jener Epoche, Benjamin
+         <lb facs="#facs_3_region_1776575531009_672_tl_38" n="N038"/><rs type="person">Constant</rs>, <rs type="person">Manuel</rs>, <rs type="person">Lafitte</rs>, <rs type="person">Thiers</rs>, unternahmen nichts
+         <lb facs="#facs_3_region_1776575531009_672_tl_39" n="N039"/>ohne <rs type="person">Béranger</rs> zu consultiren. Später hatte er
+         <lb facs="#facs_3_region_1776575531009_672_tl_40" n="N040"/>drei der glänzendsten Geister unseres Jahrhunderts zu<space quantity="1" unit="char"/></p>
             <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1776575531009_672_tl_1" n="N001"/>Grundlagen. Lernen Sie, schmieden Sie Ihren Geist! Be¬
-               <lb facs="#facs_3_region_1776575531009_672_tl_2" n="N002"/>reisen Sie die fremden Länder in deren Meisterwerken. Enfin —
-               <lb facs="#facs_3_region_1776575531009_672_tl_3" n="N003"/>suchen Sie sich selbst zu finden, indem Sie die Anderen studiren.“
-               <lb facs="#facs_3_region_1776575531009_672_tl_4" n="N004"/>
-               <rs type="person">Legouvé</rs> hat den Rath redlich befolgt und bald die Früchte
-               <lb facs="#facs_3_region_1776575531009_672_tl_5" n="N005"/>davon geerntet. Sein Gedicht über das von der Akademie
-               <lb facs="#facs_3_region_1776575531009_672_tl_6" n="N006"/>aufgegebene Thema: „Die Erfindung der Buchdruckerkunst“,
-               <lb facs="#facs_3_region_1776575531009_672_tl_7" n="N007"/>errang den Preis. Sechzehn Jahre nach jener Sitzung, in
-               <lb facs="#facs_3_region_1776575531009_672_tl_8" n="N008"/>welcher er die Lobrede auf seinen <rs type="person">Vater</rs> angehört, saß der
-               <lb facs="#facs_3_region_1776575531009_672_tl_9" n="N009"/>junge <rs type="person">Legouvé</rs> wieder auf demselben Platze in der ersten
-               <lb facs="#facs_3_region_1776575531009_672_tl_10" n="N010"/>Reihe — aber diesmal nicht mehr als einfacher Zuhörer,
-               <lb facs="#facs_3_region_1776575531009_672_tl_11" n="N011"/>sondern als eine wichtige Person: als Sieger über seine
-               <lb facs="#facs_3_region_1776575531009_672_tl_12" n="N012"/>dichtenden Mitbewerber. Casimir <rs type="person">Delavigne</rs> selbst wohnte
-               <lb facs="#facs_3_region_1776575531009_672_tl_13" n="N013"/>dieser Sitzung nicht bei. „Ich bin ein schlechter Akademiker,“
-               <lb facs="#facs_3_region_1776575531009_672_tl_14" n="N014"/>entschuldigte er sich gegen <rs type="person">Legouvé</rs>, „ich gehe fast nie hin,
-               <lb facs="#facs_3_region_1776575531009_672_tl_15" n="N015"/>und ich habe Unrecht, denn so oft ich hingehe, amüsire ich
-               <lb facs="#facs_3_region_1776575531009_672_tl_16" n="N016"/>mich. Es ist eben Gewohnheitssache. Aber wenn Sie einmal
-               <lb facs="#facs_3_region_1776575531009_672_tl_17" n="N017"/>Mitglied der Akademie sind — und das zu werden sind
-               <lb facs="#facs_3_region_1776575531009_672_tl_18" n="N018"/>Sie Ihrem <rs type="person">Vater</rs> schuldig — seien Sie pünktlich! Wir
-               <lb facs="#facs_3_region_1776575531009_672_tl_19" n="N019"/>werden uns dort vielleicht wiederfinden, denn ich werde dann
-               <lb facs="#facs_3_region_1776575531009_672_tl_20" n="N020"/>alt sein und werde hingehen. Die Akademie hat einen großen
-               <lb facs="#facs_3_region_1776575531009_672_tl_21" n="N021"/>Vorzug: durch sie ist man noch immer Jemand, wenn man
-               <lb facs="#facs_3_region_1776575531009_672_tl_22" n="N022"/>selbst nichts mehr ist.“
-               <lb facs="#facs_3_region_1776575531009_672_tl_23" n="N023"/>Nicht Jeder verrichtete das häkelige und zur Unauf¬
-               <lb facs="#facs_3_region_1776575531009_672_tl_24" n="N024"/>richtigkeit verleitende Geschäft, poetische Consultationen zu
-               <lb facs="#facs_3_region_1776575531009_672_tl_25" n="N025"/>ertheilen, so gewissenhaft wie Casimir <rs type="person">Delavigne</rs>, <hi rendition="#em">
-                  <rs type="person" continued="true">Lamar¬</rs>
-               </hi>
-               <lb facs="#facs_3_region_1776575531009_672_tl_26" n="N026"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">tine</rs>
-               </hi> half sich mittelst Uebertreibungen; er überhäufte Einen
-               <lb facs="#facs_3_region_1776575531009_672_tl_27" n="N027"/>mit solchen Lobsprüchen, daß es unmöglich war, daran zu
-               <lb facs="#facs_3_region_1776575531009_672_tl_28" n="N028"/>glauben. <hi rendition="#em">
-                  <rs type="person">Béranger</rs>
-               </hi> war aufrichtig; nur wenn ein lästiger
-               <lb facs="#facs_3_region_1776575531009_672_tl_29" n="N029"/>Dichterling ihn allzu oft mit seinen Versen überlief, hänselte
-               <lb facs="#facs_3_region_1776575531009_672_tl_30" n="N030"/>er ihn mit geistreichem Spott. Und wie stark ist auf die
-               <lb facs="#facs_3_region_1776575531009_672_tl_31" n="N031"/>sprichwörtliche Güte und Liebenswürdigkeit <rs type="person">Béranger</rs>’s ge¬
-               <lb facs="#facs_3_region_1776575531009_672_tl_32" n="N032"/>sündigt worden! Nach <rs type="person">Legouvé</rs>’s Zeugniß kann man sich
-               <lb facs="#facs_3_region_1776575531009_672_tl_33" n="N033"/>heute kaum eine Vorstellung machen von dem Einfluß, den
-               <lb facs="#facs_3_region_1776575531009_672_tl_34" n="N034"/>
-               <rs type="person">Béranger</rs> seinerzeit ausübte. Aehnlich wie unser <rs type="person">Gellert</rs>, war
-               <lb facs="#facs_3_region_1776575531009_672_tl_35" n="N035"/>er der oberste Berather seiner Zeitgenossen. Niemand hat
-               <lb facs="#facs_3_region_1776575531009_672_tl_36" n="N036"/>eine größere Autorität genossen, ohne irgendwie danach zu
-               <lb facs="#facs_3_region_1776575531009_672_tl_37" n="N037"/>streben. Die angesehensten Männer jener Epoche, Benjamin
-               <lb facs="#facs_3_region_1776575531009_672_tl_38" n="N038"/>
-               <rs type="person">Constant</rs>, <rs type="person">Manuel</rs>, <rs type="person">Lafitte</rs>, <rs type="person">Thiers</rs>, unternahmen nichts
-               <lb facs="#facs_3_region_1776575531009_672_tl_39" n="N039"/>ohne <rs type="person">Béranger</rs> zu consultiren. Später hatte er
-               <lb facs="#facs_3_region_1776575531009_672_tl_40" n="N040"/>drei der glänzendsten Geister unseres Jahrhunderts zu
-            </p>
+            <p prev="true">
+         <lb facs="#facs_3_region_1776575535208_675_tl_1" n="N001"/>Freunden: <rs type="person">Chateaubriand</rs>, <rs type="person">Lamartine</rs> und <rs type="person">Lamennais</rs>.
+         <lb facs="#facs_3_region_1776575535208_675_tl_2" n="N002"/>Er fühlte und anerkannte die Ueberlegenheit ihres Genies;
+         <lb facs="#facs_3_region_1776575535208_675_tl_3" n="N003"/>dennoch unterwarfen sich alle Drei seinem Einflusse und
+         <lb facs="#facs_3_region_1776575535208_675_tl_4" n="N004"/>wählten ihn in ihren delicatesten Angelegenheiten zum Rath
+         <lb facs="#facs_3_region_1776575535208_675_tl_5" n="N005" break="no"/>geber, zum Schiedsrichter, zum Vermittler. <rs type="person">Lamartine</rs> ver
+         <lb facs="#facs_3_region_1776575535208_675_tl_6" n="N006" break="no"/>traute ihm seine chimärischen Finanzspeculationen, <rs type="person">Chateau
+         <lb facs="#facs_3_region_1776575535208_675_tl_7" n="N007" break="no"/>briand</rs> seine unaufhörlichen Verlegenheiten, <rs type="person">Lamennais</rs> seine
+         <lb facs="#facs_3_region_1776575535208_675_tl_8" n="N008"/>Gewissensscrupel. Woher diese außerordentliche Macht bei
+         <lb facs="#facs_3_region_1776575535208_675_tl_9" n="N009"/>einem einfachen Chansonnier? <rs type="person">Legouvé</rs> erklärt sie aus drei
+         <lb facs="#facs_3_region_1776575535208_675_tl_10" n="N010"/>Ursachen. Für’s Erste <rs type="person">Béranger</rs>’s unerschöpfliche Herzens
+         <lb facs="#facs_3_region_1776575535208_675_tl_11" n="N011" break="no"/>güte. „Wie fangen Sie es an, sich nicht zu langweilen,“
+         <lb facs="#facs_3_region_1776575535208_675_tl_12" n="N012"/>fragte ihn ein Freund, „wenn Sie immer allein diniren?“
+         <lb facs="#facs_3_line_1783429909375_1110" n="N013"/>— „Mein Mittel,“ erwiderte <rs type="person">Béranger,</rs> „ist sehr einfach:
+         <lb facs="#facs_3_line_1783429913004_1113" n="N014"/>indem ich niemals an mich denke.“ Eine brave, dürftige
+         <lb facs="#facs_3_region_1776575535208_675_tl_15" n="N015"/>Frau kommt eines Tages zu <rs type="person">Béranger</rs> und klagt ihm ihre
+         <lb facs="#facs_3_region_1776575535208_675_tl_16" n="N016"/>Verlegenheit, kein Geld auftreiben zu können. „Wie viel be
+         <lb facs="#facs_3_region_1776575535208_675_tl_18" n="N017" break="no"/>nöthigen Sie?“ — „Dreihundert Francs.“ — Das war
+         <lb facs="#facs_3_region_1776575535208_675_tl_21" n="N018"/>damals eine große Summe für <rs type="person">Béranger</rs>. Er öffnet seinen
+         <lb facs="#facs_3_region_1776575535208_675_tl_23" n="N019"/>Schreibtisch: „Hier ist das Geld!“ — „Ich werde es in
+         <lb facs="#facs_3_region_1776575535208_675_tl_25" n="N020"/>sechs Monaten zurückzahlen, Herr <rs type="person">Béranger</rs>.“ — „Wenn
+         <lb facs="#facs_3_region_1776575535208_675_tl_28" n="N021"/>Sie wollen.“ — Nach sechs Monaten bringt die Schuld
+         <lb facs="#facs_3_region_1776575535208_675_tl_30" n="N022" break="no"/>nerin getreulich die dreihundert Francs. Ein Jahr später er
+         <lb facs="#facs_3_region_1776575535208_675_tl_31" n="N023" break="no"/>scheint sie wieder mit dem nämlichen Anliegen. <rs type="person">Béranger</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776575535208_675_tl_32" n="N024"/>geht wieder an seinen Schreibtisch, nimmt das Päckchen mit
+         <lb facs="#facs_3_region_1776575535208_675_tl_33" n="N025"/>dreihundert Francs heraus und sagt: „Ich war überzeugt,
+         <lb facs="#facs_3_region_1776575535208_675_tl_34" n="N026"/>daß Sie genöthigt sein würden, mich wieder um das Geld
+         <lb facs="#facs_3_region_1776575535208_675_tl_35" n="N027"/>zu bitten; ich hatte es gleich hier deponirt; es erwartete Sie.“
+         <lb facs="#facs_3_region_1776575535208_675_tl_36" n="N028"/>— So außerordentlich wie <rs type="person">Béranger</rs>’s Herzensgüte war
+         <lb facs="#facs_3_region_1776575535208_675_tl_37" n="N029"/>sein gesunder Menschenverstand. Der Rath, den er Jemandem
+         <lb facs="#facs_3_region_1776575535208_675_tl_38" n="N030"/>ertheilte, war nicht blos der beste an und für sich, sondern
+         <lb facs="#facs_3_region_1776575535208_675_tl_39" n="N031"/>der beste gerade für diesen bestimmten Jemand. Und schließ
+         <lb facs="#facs_3_region_1776575535208_675_tl_40" n="N032" break="no"/>lich: dieser gesunde Menschenverstand äußerte sich stets in
+         <lb facs="#facs_3_region_1776575535208_675_tl_41" n="N033"/>einem geistreichen, oft tiefsinnigen Wort. Es war immer
+         <lb facs="#facs_3_region_1776575535208_675_tl_42" n="N034"/>„esprit“ und doch zugleich „bon sens“. <hi rendition="#em">Alfred de
+         <lb facs="#facs_3_region_1776575535208_675_tl_43" n="N035"/><rs type="person">Musset</rs></hi> hatte ihm seine ersten Dichtungen zugeschickt. „Sie
+         <lb facs="#facs_3_region_1776575535208_675_tl_44" n="N036"/>haben prächtige Pferde in Ihrem Stall,“ antwortete ihm
+         <lb facs="#facs_3_region_1776575535208_675_tl_45" n="N037"/><rs type="person">Béranger</rs>, „aber Sie verstehen sie nicht zu kutschiren.“
+         <lb facs="#facs_3_region_1776575535208_675_tl_46" n="N038"/>„Sie werden es eines Tages schon können,“ setzte er gut
+         <lb facs="#facs_3_region_1776575535208_675_tl_47" n="N039" break="no"/>gelaunt hinzu; „leider geschieht das oft, daß die Pferde todt
+         <lb facs="#facs_3_region_1776575535208_675_tl_48" n="N040"/>sind, wenn wir kutschiren gelernt haben.“</p>
             <cb n="9"/>
             <p>
-               <lb facs="#facs_3_region_1776575535208_675_tl_1" n="N001"/>Freunden: <rs type="person">Chateaubriand</rs>, <rs type="person">Lamartine</rs> und <rs type="person">Lamennais</rs>.
-               <lb facs="#facs_3_region_1776575535208_675_tl_2" n="N002"/>Er fühlte und anerkannte die Ueberlegenheit ihres Genies;
-               <lb facs="#facs_3_region_1776575535208_675_tl_3" n="N003"/>dennoch unterwarfen sich alle Drei seinem Einflusse und
-               <lb facs="#facs_3_region_1776575535208_675_tl_4" n="N004"/>wählten ihn in ihren delicatesten Angelegenheiten zum Rath¬
-               <lb facs="#facs_3_region_1776575535208_675_tl_5" n="N005"/>geber, zum Schiedsrichter, zum Vermittler. <rs type="person">Lamartine</rs> ver¬
-               <lb facs="#facs_3_region_1776575535208_675_tl_6" n="N006"/>traute ihm seine chimärischen Finanzspeculationen, <rs type="person" continued="true">Chateau¬</rs>
-               <lb facs="#facs_3_region_1776575535208_675_tl_7" n="N007"/>
-               <rs type="person" continued="true">briand</rs> seine unaufhörlichen Verlegenheiten, <rs type="person">Lamennais</rs> seine
-               <lb facs="#facs_3_region_1776575535208_675_tl_8" n="N008"/>Gewissensscrupel. Woher diese außerordentliche Macht bei
-               <lb facs="#facs_3_region_1776575535208_675_tl_9" n="N009"/>einem einfachen Chansonnier? <rs type="person">Legouvé</rs> erklärt sie aus drei
-               <lb facs="#facs_3_region_1776575535208_675_tl_10" n="N010"/>Ursachen. Für’s Erste <rs type="person">Béranger</rs>’s unerschöpfliche Herzens¬
-               <lb facs="#facs_3_region_1776575535208_675_tl_11" n="N011"/>güte. „Wie fangen Sie es an, sich nicht zu langweilen,“
-               <lb facs="#facs_3_region_1776575535208_675_tl_12" n="N012"/>fragte ihn ein Freund, „wenn Sie immer allein diniren?“
-               <lb facs="#facs_3_line_1783429909375_1110" n="N013"/>— „Mein Mittel,“ erwiderte <rs type="person">Béranger,</rs> „ist sehr einfach:
-               <lb facs="#facs_3_line_1783429913004_1113" n="N014"/>indem ich niemals an mich denke.“ Eine brave, dürftige
-               <lb facs="#facs_3_region_1776575535208_675_tl_15" n="N015"/>Frau kommt eines Tages zu <rs type="person">Béranger</rs> und klagt ihm ihre
-               <lb facs="#facs_3_region_1776575535208_675_tl_16" n="N016"/>Verlegenheit, kein Geld auftreiben zu können. „Wie viel be¬
-               <lb facs="#facs_3_region_1776575535208_675_tl_18" n="N017"/>nöthigen Sie?“ — „Dreihundert Francs.“ — Das war
-               <lb facs="#facs_3_region_1776575535208_675_tl_21" n="N018"/>damals eine große Summe für <rs type="person">Béranger</rs>. Er öffnet seinen
-               <lb facs="#facs_3_region_1776575535208_675_tl_23" n="N019"/>Schreibtisch: „Hier ist das Geld!“ — „Ich werde es in
-               <lb facs="#facs_3_region_1776575535208_675_tl_25" n="N020"/>sechs Monaten zurückzahlen, Herr <rs type="person">Béranger</rs>.“ — „Wenn
-               <lb facs="#facs_3_region_1776575535208_675_tl_28" n="N021"/>Sie wollen.“ — Nach sechs Monaten bringt die Schuld¬
-               <lb facs="#facs_3_region_1776575535208_675_tl_30" n="N022"/>nerin getreulich die dreihundert Francs. Ein Jahr später er¬
-               <lb facs="#facs_3_region_1776575535208_675_tl_31" n="N023"/>scheint sie wieder mit dem nämlichen Anliegen. <rs type="person">Béranger</rs>
-               <lb facs="#facs_3_region_1776575535208_675_tl_32" n="N024"/>geht wieder an seinen Schreibtisch, nimmt das Päckchen mit
-               <lb facs="#facs_3_region_1776575535208_675_tl_33" n="N025"/>dreihundert Francs heraus und sagt: „Ich war überzeugt,
-               <lb facs="#facs_3_region_1776575535208_675_tl_34" n="N026"/>daß Sie genöthigt sein würden, mich wieder um das Geld
-               <lb facs="#facs_3_region_1776575535208_675_tl_35" n="N027"/>zu bitten; ich hatte es gleich hier deponirt; es erwartete Sie.“
-               <lb facs="#facs_3_region_1776575535208_675_tl_36" n="N028"/>— So außerordentlich wie <rs type="person">Béranger</rs>’s Herzensgüte war
-               <lb facs="#facs_3_region_1776575535208_675_tl_37" n="N029"/>sein gesunder Menschenverstand. Der Rath, den er Jemandem
-               <lb facs="#facs_3_region_1776575535208_675_tl_38" n="N030"/>ertheilte, war nicht blos der beste an und für sich, sondern
-               <lb facs="#facs_3_region_1776575535208_675_tl_39" n="N031"/>der beste gerade für diesen bestimmten Jemand. Und schließ¬
-               <lb facs="#facs_3_region_1776575535208_675_tl_40" n="N032"/>lich: dieser gesunde Menschenverstand äußerte sich stets in
-               <lb facs="#facs_3_region_1776575535208_675_tl_41" n="N033"/>einem geistreichen, oft tiefsinnigen Wort. Es war immer
-               <lb facs="#facs_3_region_1776575535208_675_tl_42" n="N034"/>„esprit“ und doch zugleich „bon sens“. <hi rendition="#em">Alfred de</hi>
-               <lb facs="#facs_3_region_1776575535208_675_tl_43" n="N035"/>
-               <hi rendition="#em">
-                  <rs type="person">Musset</rs>
-               </hi> hatte ihm seine ersten Dichtungen zugeschickt. „Sie
-               <lb facs="#facs_3_region_1776575535208_675_tl_44" n="N036"/>haben prächtige Pferde in Ihrem Stall,“ antwortete ihm
-               <lb facs="#facs_3_region_1776575535208_675_tl_45" n="N037"/>
-               <rs type="person">Béranger</rs>, „aber Sie verstehen sie nicht zu kutschiren.“
-               <lb facs="#facs_3_region_1776575535208_675_tl_46" n="N038"/>„Sie werden es eines Tages schon können,“ setzte er gut¬
-               <lb facs="#facs_3_region_1776575535208_675_tl_47" n="N039"/>gelaunt hinzu; „leider geschieht das oft, daß die Pferde todt
-               <lb facs="#facs_3_region_1776575535208_675_tl_48" n="N040"/>sind, wenn wir kutschiren gelernt haben.“
-            </p>
-            <cb n="10"/>
-            <p>
-               <lb facs="#facs_3_region_1776575539336_678_tl_1" n="N001"/>Drei Dinge, meint <rs type="person">Legouvé</rs>, braucht der Mensch für
-               <lb facs="#facs_3_region_1776575539336_678_tl_2" n="N002"/>sein Leben: einen Beruf, geliebte Menschen und drittens
-               <lb facs="#facs_3_region_1776575539336_678_tl_3" n="N003"/>Passionen. Mit letzterem Wort umschreiben wir vielleicht am
-               <lb facs="#facs_3_region_1776575539336_678_tl_4" n="N004"/>verständlichsten das <rs type="place">französisch</rs>e „goûts“, das weder durch
-               <lb facs="#facs_3_region_1776575539336_678_tl_5" n="N005"/>„Geschmack“ noch durch „Zeitvertreib“ wiederzugeben ist;
-               <lb facs="#facs_3_region_1776575539336_678_tl_6" n="N006"/>ganz abgesehen von dem unmöglichen Klang dieser Wörter
-               <lb facs="#facs_3_region_1776575539336_678_tl_7" n="N007"/>im Plural. Man kann nicht immer arbeiten, nicht immer
-               <lb facs="#facs_3_region_1776575539336_678_tl_8" n="N008"/>denken, selbst das Herz hat seine Pausen. Die „Passionen“
-               <lb facs="#facs_3_region_1776575539336_678_tl_9" n="N009"/>müssen diese leeren Zwischenräume ausfüllen. Sie werden
-               <lb facs="#facs_3_region_1776575539336_678_tl_10" n="N010"/>uns zur Zerstreuung, zum Vergnügen, manchmal zur Stütze.
-               <lb facs="#facs_3_region_1776575539336_678_tl_11" n="N011"/>„Wie, Sie spielen nicht Whist?“ sagte einmal <rs type="person">Talleyrand</rs>
-               <lb facs="#facs_3_region_1776575539336_678_tl_12" n="N012"/>mit dem ihm eigenen komischen Ernst zu <rs type="person">Villemain</rs>. „Dann
-               <lb facs="#facs_3_region_1776575539336_678_tl_14" n="N013"/>steht Ihnen ein unglückliches Alter bevor, und Sie werden
-               <lb facs="#facs_3_line_1783430688624_1247" n="N014"/>es verdient haben.“ <rs type="person">Legouvé</rs> bekennt, daß er jede Passion be¬
-               <lb facs="#facs_3_region_1776575539336_678_tl_15" n="N015"/>dauere, die ihm fehlt, und daß er jede anbete, die er hat.
-               <lb facs="#facs_3_region_1776575539336_678_tl_16" n="N016"/>Seine zwei Hauptpassionen waren das <hi rendition="#em">Fechten</hi> und die
-               <lb facs="#facs_3_region_1776575539336_678_tl_17" n="N017"/>
-               <hi rendition="#em">Musik</hi>. Die Musikliebe war in dem jungen <rs type="person">Legouvé</rs> lange
-               <lb facs="#facs_3_region_1776575539336_678_tl_18" n="N018"/>hartnäckig zurückgedrängt worden durch einen seltsamen
-               <lb facs="#facs_3_region_1776575539336_678_tl_19" n="N019"/>Familien-Aberglauben. Ausschließlich im Cultus seines <rs type="person">Vater</rs>s
-               <lb facs="#facs_3_region_1776575539336_678_tl_20" n="N020"/>erzogen, kannte er, wie schon erwähnt, keinen größeren Ehr¬
-               <lb facs="#facs_3_region_1776575539336_678_tl_21" n="N021"/>geiz, als diesem völlig nachzugerathen. Nun war der <rs type="person">Vater</rs>
-               <lb facs="#facs_3_region_1776575539336_678_tl_22" n="N022"/>gänzlich unmusikalisch gewesen, stimmlos, gehörlos. So oft
-               <lb facs="#facs_3_region_1776575539336_678_tl_23" n="N023"/>nun der Sohn im Collége die Absicht äußerte, singen zu
-               <lb facs="#facs_3_region_1776575539336_678_tl_24" n="N024"/>lernen, wurde ihm erbarmungslos zugerufen: Ganz unnütz!
-               <lb facs="#facs_3_region_1776575539336_678_tl_25" n="N025"/>Dein <rs type="person">Vater</rs> hatte kein Gehör! Der <rs type="person">Sohn</rs> unterdrückte seinen
-               <lb facs="#facs_3_region_1776575539336_678_tl_26" n="N026"/>Wunsch; es schien ihm unerlaubt, etwas zu lieben, was sein
-               <lb facs="#facs_3_region_1776575539336_678_tl_27" n="N027"/>
-               <rs type="person">Vater</rs> nicht geliebt hat. Später siegte aber doch seine un¬
-               <lb facs="#facs_3_region_1776575539336_678_tl_28" n="N028"/>bezwingliche Freude an der Musik. Der <hi rendition="#em">
-                  <rs type="person">Malibran</rs>
-               </hi> ver¬
-               <lb facs="#facs_3_region_1776575539336_678_tl_29" n="N029"/>dankte er die herrlichsten Genüsse <rs type="place">italienisch</rs>en Gesangs,
-               <lb facs="#facs_3_region_1776575539336_678_tl_30" n="N030"/>
-               <rs type="person">Rossini</rs>’scher Melodien. <hi rendition="#em">
-                  <rs type="person">Berlioz</rs>
-               </hi> leitete ihn in höhere
-               <lb facs="#facs_3_region_1776575539336_678_tl_31" n="N031"/>Regionen der Tonkunst, lehrte ihn <rs type="person">Gluck</rs>, <rs type="person">Beethoven</rs>, <rs type="person">Weber</rs>
-               <lb facs="#facs_3_region_1776575539336_678_tl_32" n="N032"/>verstehen und bewundern. Die reichhaltigen Capitel, welche
-               <lb facs="#facs_3_region_1776575539336_678_tl_33" n="N033"/>
-               <rs type="person">Legouvé</rs> diesen seinen musikalischen Erweckern und Führern,
-               <lb facs="#facs_3_region_1776575539336_678_tl_34" n="N034"/>
-               <rs type="person">Malibran</rs> und <rs type="person">Berlioz</rs>, widmet, enthalten mancherlei inter¬
-               <lb facs="#facs_3_region_1776575539336_678_tl_35" n="N035"/>essante Erlebnisse und Anekdoten, ohne uns gerade neue Auf¬
-               <lb facs="#facs_3_region_1776575539336_678_tl_36" n="N036"/>schlüsse über beide Künstler zu geben. Die Musik liebte
-               <lb facs="#facs_3_region_1776575539336_678_tl_37" n="N037"/>
-               <rs type="person">Legouvé</rs> als Dilettant, sie zählte zu seinen „goûts“, nicht
-               <lb facs="#facs_3_region_1776575539336_678_tl_38" n="N038"/>zu seinem Beruf. Letzteren fand er in der Poesie. Ihr ge¬
-               <lb facs="#facs_3_region_1776575539336_678_tl_39" n="N039"/>hören seine ernste Arbeit, sein Ehrgeiz, seine Erfolge.
-               <lb facs="#facs_3_region_1776575539336_678_tl_40" n="N040"/>(Ein Schlußartikel folgt.)
+         <lb facs="#facs_3_region_1776575539336_678_tl_1" n="N001"/>Drei Dinge, meint <rs type="person">Legouvé</rs>, braucht der Mensch für
+         <lb facs="#facs_3_region_1776575539336_678_tl_2" n="N002"/>sein Leben: einen Beruf, geliebte Menschen und drittens
+         <lb facs="#facs_3_region_1776575539336_678_tl_3" n="N003"/>Passionen. Mit letzterem Wort umschreiben wir vielleicht am
+         <lb facs="#facs_3_region_1776575539336_678_tl_4" n="N004"/>verständlichsten das <rs type="place">französisch</rs>e „goûts“, das weder durch
+         <lb facs="#facs_3_region_1776575539336_678_tl_5" n="N005"/>„Geschmack“ noch durch „Zeitvertreib“ wiederzugeben ist;
+         <lb facs="#facs_3_region_1776575539336_678_tl_6" n="N006"/>ganz abgesehen von dem unmöglichen Klang dieser Wörter
+         <lb facs="#facs_3_region_1776575539336_678_tl_7" n="N007"/>im Plural. Man kann nicht immer arbeiten, nicht immer
+         <lb facs="#facs_3_region_1776575539336_678_tl_8" n="N008"/>denken, selbst das Herz hat seine Pausen. Die „Passionen“
+         <lb facs="#facs_3_region_1776575539336_678_tl_9" n="N009"/>müssen diese leeren Zwischenräume ausfüllen. Sie werden
+         <lb facs="#facs_3_region_1776575539336_678_tl_10" n="N010"/>uns zur Zerstreuung, zum Vergnügen, manchmal zur Stütze.
+         <lb facs="#facs_3_region_1776575539336_678_tl_11" n="N011"/>„Wie, Sie spielen nicht Whist?“ sagte einmal <rs type="person">Talleyrand</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776575539336_678_tl_12" n="N012"/>mit dem ihm eigenen komischen Ernst zu <rs type="person">Villemain</rs>. „Dann
+         <lb facs="#facs_3_region_1776575539336_678_tl_14" n="N013"/>steht Ihnen ein unglückliches Alter bevor, und Sie werden
+         <lb facs="#facs_3_line_1783430688624_1247" n="N014"/>es verdient haben.“ <rs type="person">Legouvé</rs> bekennt, daß er jede Passion be
+         <lb facs="#facs_3_region_1776575539336_678_tl_15" n="N015" break="no"/>dauere, die ihm fehlt, und daß er jede anbete, die er hat.
+         <lb facs="#facs_3_region_1776575539336_678_tl_16" n="N016"/>Seine zwei Hauptpassionen waren das <hi rendition="#em">Fechten</hi> und die
+         <lb facs="#facs_3_region_1776575539336_678_tl_17" n="N017"/><hi rendition="#em">Musik</hi>. Die Musikliebe war in dem jungen <rs type="person">Legouvé</rs> lange
+         <lb facs="#facs_3_region_1776575539336_678_tl_18" n="N018"/>hartnäckig zurückgedrängt worden durch einen seltsamen
+         <lb facs="#facs_3_region_1776575539336_678_tl_19" n="N019"/>Familien-Aberglauben. Ausschließlich im Cultus seines <rs type="person">Vater</rs>s
+         <lb facs="#facs_3_region_1776575539336_678_tl_20" n="N020"/>erzogen, kannte er, wie schon erwähnt, keinen größeren Ehr
+         <lb facs="#facs_3_region_1776575539336_678_tl_21" n="N021" break="no"/>geiz, als diesem völlig nachzugerathen. Nun war der <rs type="person">Vater</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776575539336_678_tl_22" n="N022"/>gänzlich unmusikalisch gewesen, stimmlos, gehörlos. So oft
+         <lb facs="#facs_3_region_1776575539336_678_tl_23" n="N023"/>nun der Sohn im Collége die Absicht äußerte, singen zu
+         <lb facs="#facs_3_region_1776575539336_678_tl_24" n="N024"/>lernen, wurde ihm erbarmungslos zugerufen: Ganz unnütz!
+         <lb facs="#facs_3_region_1776575539336_678_tl_25" n="N025"/>Dein <rs type="person">Vater</rs> hatte kein Gehör! Der <rs type="person">Sohn</rs> unterdrückte seinen
+         <lb facs="#facs_3_region_1776575539336_678_tl_26" n="N026"/>Wunsch; es schien ihm unerlaubt, etwas zu lieben, was sein
+         <lb facs="#facs_3_region_1776575539336_678_tl_27" n="N027"/><rs type="person">Vater</rs> nicht geliebt hat. Später siegte aber doch seine un
+         <lb facs="#facs_3_region_1776575539336_678_tl_28" n="N028" break="no"/>bezwingliche Freude an der Musik. Der <hi rendition="#em"><rs type="person">Malibran</rs></hi> ver
+         <lb facs="#facs_3_region_1776575539336_678_tl_29" n="N029" break="no"/>dankte er die herrlichsten Genüsse <rs type="place">italienisch</rs>en Gesangs,
+         <lb facs="#facs_3_region_1776575539336_678_tl_30" n="N030"/><rs type="person">Rossini</rs>’scher Melodien. <hi rendition="#em"><rs type="person">Berlioz</rs></hi> leitete ihn in höhere
+         <lb facs="#facs_3_region_1776575539336_678_tl_31" n="N031"/>Regionen der Tonkunst, lehrte ihn <rs type="person">Gluck</rs>, <rs type="person">Beethoven</rs>, <rs type="person">Weber</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776575539336_678_tl_32" n="N032"/>verstehen und bewundern. Die reichhaltigen Capitel, welche
+         <lb facs="#facs_3_region_1776575539336_678_tl_33" n="N033"/><rs type="person">Legouvé</rs> diesen seinen musikalischen Erweckern und Führern,
+         <lb facs="#facs_3_region_1776575539336_678_tl_34" n="N034"/><rs type="person">Malibran</rs> und <rs type="person">Berlioz</rs>, widmet, enthalten mancherlei inter
+         <lb facs="#facs_3_region_1776575539336_678_tl_35" n="N035" break="no"/>essante Erlebnisse und Anekdoten, ohne uns gerade neue Auf
+         <lb facs="#facs_3_region_1776575539336_678_tl_36" n="N036" break="no"/>schlüsse über beide Künstler zu geben. Die Musik liebte
+         <lb facs="#facs_3_region_1776575539336_678_tl_37" n="N037"/><rs type="person">Legouvé</rs> als Dilettant, sie zählte zu seinen „goûts“, nicht
+         <lb facs="#facs_3_region_1776575539336_678_tl_38" n="N038"/>zu seinem Beruf. Letzteren fand er in der Poesie. Ihr ge
+         <lb facs="#facs_3_region_1776575539336_678_tl_39" n="N039" break="no"/>hören seine ernste Arbeit, sein Ehrgeiz, seine Erfolge.
+         <lb facs="#facs_3_region_1776575539336_678_tl_40" n="N040"/>(Ein Schlußartikel folgt.)
             </p>
          </div>
       </body>

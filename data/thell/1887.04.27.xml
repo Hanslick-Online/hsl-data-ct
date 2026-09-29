@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 8141. Wien, Mittwoch, den 27. April 1887</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,14 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
+               <name ref="https://orcid.org/0009-0007-9767-072X">Thell, Annika</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +71,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 8141. Wien, Mittwoch, den 27. April 1887</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1887-04-27">27.04.1887</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18870427"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +107,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="athell" when="2026-07-07">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-09-22">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="athell" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1230,447 +1231,376 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1776575398113_602_tl_1" n="N001"/><head type="h1">Erinnerungen eines Impresario.</head>
             <p>
-               <lb facs="#facs_1_line_1781648149603_43" n="N001"/>Nr. 8141. Wien, Mittwoch, den 27. April 1887
-            </p>
+         <lb facs="#facs_1_region_1776575398113_602_tl_2" n="N002"/><rs type="person">Ed. H.</rs> Wer kennt nicht <hi rendition="#em">Moriz <rs type="person">Strakosch</rs></hi>, den
+         <lb facs="#facs_1_region_1776575398113_602_tl_3" n="N003"/>vielerfahrenen, weitgereisten Operndirector und Sängerinnen-
+         <lb facs="#facs_1_region_1776575398113_602_tl_4" n="N004"/>Großhändler? Seit vierzig Jahren fungirt er als musikali
+         <lb facs="#facs_1_region_1776575398113_602_tl_5" n="N005" break="no"/>sches Kabel zwischen <rs type="place">Europa</rs> und <rs type="place">Amerika</rs>. Stets wechselvoll
+         <lb facs="#facs_1_region_1776575398113_602_tl_6" n="N006"/>und bewegt, ist seine zwischen Kunst und Geschäft emsig ver
+         <lb facs="#facs_1_region_1776575398113_602_tl_7" n="N007" break="no"/>mittelnde Thätigkeit ihm eine fortsprudelnde Quelle von
+         <lb facs="#facs_1_region_1776575398113_602_tl_8" n="N008"/>Denkwürdigkeiten geworden. <rs type="person">Strakosch</rs> hat das Opernwesen
+         <lb facs="#facs_1_region_1776575398113_602_tl_9" n="N009"/>in <rs type="place">Frankreich</rs>, <rs type="place">Italien</rs>, <rs type="place">England</rs>, <rs type="place">Deutschland</rs> und <rs type="place">Amerika</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1776575398113_602_tl_10" n="N010"/>gründlich kennen gelernt; mit allen gefeierten Sängern,
+         <lb facs="#facs_1_region_1776575398113_602_tl_11" n="N011"/>Componisten, Virtuosen hat er verkehrt und Einblick in
+         <lb facs="#facs_1_region_1776575398113_602_tl_12" n="N012"/>ihre Kunst, in ihre Lebensweise, ihre Privatverhältnisse ge
+         <lb facs="#facs_1_region_1776575398113_602_tl_13" n="N013" break="no"/>wonnen. Gewandter Erzähler, wußte er kürzlich eine vor
+         <lb facs="#facs_1_region_1776575398113_602_tl_14" n="N014" break="no"/>nehme Tischgesellschaft in <rs type="place">London</rs> so lebhaft und anhaltend
+         <lb facs="#facs_1_region_1776575398113_602_tl_15" n="N015"/>zu interessiren, daß sie ihn schließlich bestürmte, seine Er
+         <lb facs="#facs_1_region_1776575398113_602_tl_16" n="N016" break="no"/>lebnisse für die Oeffentlichkeit zu Papier zu bringen. „Ich
+         <lb facs="#facs_1_region_1776575398113_602_tl_17" n="N017"/>habe oft daran gedacht,“ erwiderte der Impresario, „aber
+         <lb facs="#facs_1_region_1776575398113_602_tl_18" n="N018"/>zwei Bedenken hielten mich immer wieder zurück. Für’s
+         <lb facs="#facs_1_region_1776575398113_602_tl_19" n="N019"/>erste ist es leichter, zu plaudern, als zu schreiben, und ich
+         <lb facs="#facs_1_region_1776575398113_602_tl_20" n="N020"/>bin kein Meister der Feder; sodann fürchte ich, gewisse
+         <lb facs="#facs_1_region_1776575398113_602_tl_21" n="N021"/>Empfindlichkeiten zu verletzen durch freimüthige Kritik oder
+         <lb facs="#facs_1_region_1776575398113_602_tl_22" n="N022"/>Mittheilung wahrhafter, nicht Jedermann willkommener
+         <lb facs="#facs_1_region_1776575398113_602_tl_23" n="N023"/>Details.“ Ueber das erste Bedenken halfen ihm die Freunde
+         <lb facs="#facs_1_region_1776575398113_602_tl_24" n="N024"/>durch den Vorschlag hinweg, er möge sich der Mitarbeit
+         <lb facs="#facs_1_region_1776575398113_602_tl_25" n="N025"/>eines gewandten <rs type="place">französisch</rs>en Stylisten versichern, welcher
+         <lb facs="#facs_1_region_1776575398113_602_tl_26" n="N026"/>das ihm von <rs type="person">Strakosch</rs> im Zusammenhange Erzählte nieder
+         <lb facs="#facs_1_region_1776575398113_602_tl_27" n="N027" break="no"/>zuschreiben und zu redigiren hätte. Auf diesem Wege sind
+         <lb facs="#facs_1_region_1776575398113_602_tl_28" n="N028"/>auch wirklich die „Souvenirs d’un Impresario“ entstanden,
+         <lb facs="#facs_1_region_1776575398113_602_tl_29" n="N029"/>welche, <rs type="person">Strakosch</rs>’s Erlebnisse in der dritten Person erzählend,
+         <lb facs="#facs_1_region_1776575398113_602_tl_30" n="N030"/>soeben, hübsch ausgestattet, bei Paul <rs type="person">Ollendorff</rs> in <rs type="place">Paris</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1776575398113_602_tl_31" n="N031"/>erschienen sind. Auch das zweite Bedenken wurde
+         <lb facs="#facs_1_region_1776575398113_602_tl_32" n="N032"/>dem Erzähler glücklich ausgeredet. Eigentlich hätte
+         <lb facs="#facs_1_region_1776575398113_602_tl_33" n="N033"/>es ernsthafter Widerlegung gar nicht bedurft, denn
+         <lb facs="#facs_1_region_1776575398113_602_tl_34" n="N034"/><rs type="person">Strakosch</rs> ist kaum fähig, ein Wort niederzuschreiben, das
+         <lb facs="#facs_1_region_1776575398113_602_tl_35" n="N035"/>Lebende compromittiren oder verletzen könnte. Ich kenne
+         <lb facs="#facs_1_region_1776575398113_602_tl_36" n="N036"/>keinen „public character“, der nachsichtiger, wohlwollender,<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1776575398113_602_tl_1" n="N001"/>Erinnerungen eines Impresario.
-               <lb facs="#facs_1_region_1776575398113_602_tl_2" n="N002"/>
-               <rs type="person">Ed. H.</rs> Wer kennt nicht <hi rendition="#em">Moriz <rs type="person">Strakosch</rs>
-               </hi>, den
-               <lb facs="#facs_1_region_1776575398113_602_tl_3" n="N003"/>vielerfahrenen, weitgereisten Operndirector und Sängerinnen-
-               <lb facs="#facs_1_region_1776575398113_602_tl_4" n="N004"/>Großhändler? Seit vierzig Jahren fungirt er als musikali¬
-               <lb facs="#facs_1_region_1776575398113_602_tl_5" n="N005"/>sches Kabel zwischen <rs type="place">Europa</rs> und <rs type="place">Amerika</rs>. Stets wechselvoll
-               <lb facs="#facs_1_region_1776575398113_602_tl_6" n="N006"/>und bewegt, ist seine zwischen Kunst und Geschäft emsig ver¬
-               <lb facs="#facs_1_region_1776575398113_602_tl_7" n="N007"/>mittelnde Thätigkeit ihm eine fortsprudelnde Quelle von
-               <lb facs="#facs_1_region_1776575398113_602_tl_8" n="N008"/>Denkwürdigkeiten geworden. <rs type="person">Strakosch</rs> hat das Opernwesen
-               <lb facs="#facs_1_region_1776575398113_602_tl_9" n="N009"/>in <rs type="place">Frankreich</rs>, <rs type="place">Italien</rs>, <rs type="place">England</rs>, <rs type="place">Deutschland</rs> und <rs type="place">Amerika</rs>
-               <lb facs="#facs_1_region_1776575398113_602_tl_10" n="N010"/>gründlich kennen gelernt; mit allen gefeierten Sängern,
-               <lb facs="#facs_1_region_1776575398113_602_tl_11" n="N011"/>Componisten, Virtuosen hat er verkehrt und Einblick in
-               <lb facs="#facs_1_region_1776575398113_602_tl_12" n="N012"/>ihre Kunst, in ihre Lebensweise, ihre Privatverhältnisse ge¬
-               <lb facs="#facs_1_region_1776575398113_602_tl_13" n="N013"/>wonnen. Gewandter Erzähler, wußte er kürzlich eine vor¬
-               <lb facs="#facs_1_region_1776575398113_602_tl_14" n="N014"/>nehme Tischgesellschaft in <rs type="place">London</rs> so lebhaft und anhaltend
-               <lb facs="#facs_1_region_1776575398113_602_tl_15" n="N015"/>zu interessiren, daß sie ihn schließlich bestürmte, seine Er¬
-               <lb facs="#facs_1_region_1776575398113_602_tl_16" n="N016"/>lebnisse für die Oeffentlichkeit zu Papier zu bringen. „Ich
-               <lb facs="#facs_1_region_1776575398113_602_tl_17" n="N017"/>habe oft daran gedacht,“ erwiderte der Impresario, „aber
-               <lb facs="#facs_1_region_1776575398113_602_tl_18" n="N018"/>zwei Bedenken hielten mich immer wieder zurück. Für’s
-               <lb facs="#facs_1_region_1776575398113_602_tl_19" n="N019"/>erste ist es leichter, zu plaudern, als zu schreiben, und ich
-               <lb facs="#facs_1_region_1776575398113_602_tl_20" n="N020"/>bin kein Meister der Feder; sodann fürchte ich, gewisse
-               <lb facs="#facs_1_region_1776575398113_602_tl_21" n="N021"/>Empfindlichkeiten zu verletzen durch freimüthige Kritik oder
-               <lb facs="#facs_1_region_1776575398113_602_tl_22" n="N022"/>Mittheilung wahrhafter, nicht Jedermann willkommener
-               <lb facs="#facs_1_region_1776575398113_602_tl_23" n="N023"/>Details.“ Ueber das erste Bedenken halfen ihm die Freunde
-               <lb facs="#facs_1_region_1776575398113_602_tl_24" n="N024"/>durch den Vorschlag hinweg, er möge sich der Mitarbeit
-               <lb facs="#facs_1_region_1776575398113_602_tl_25" n="N025"/>eines gewandten <rs type="place">französisch</rs>en Stylisten versichern, welcher
-               <lb facs="#facs_1_region_1776575398113_602_tl_26" n="N026"/>das ihm von <rs type="person">Strakosch</rs> im Zusammenhange Erzählte nieder¬
-               <lb facs="#facs_1_region_1776575398113_602_tl_27" n="N027"/>zuschreiben und zu redigiren hätte. Auf diesem Wege sind
-               <lb facs="#facs_1_region_1776575398113_602_tl_28" n="N028"/>auch wirklich die „Souvenirs d’un Impresario“ entstanden,
-               <lb facs="#facs_1_region_1776575398113_602_tl_29" n="N029"/>welche, <rs type="person">Strakosch</rs>’s Erlebnisse in der dritten Person erzählend,
-               <lb facs="#facs_1_region_1776575398113_602_tl_30" n="N030"/>soeben, hübsch ausgestattet, bei Paul <rs type="person">Ollendorff</rs> in <rs type="place">Paris</rs>
-               <lb facs="#facs_1_region_1776575398113_602_tl_31" n="N031"/>erschienen sind. Auch das zweite Bedenken wurde
-               <lb facs="#facs_1_region_1776575398113_602_tl_32" n="N032"/>dem Erzähler glücklich ausgeredet. Eigentlich hätte
-               <lb facs="#facs_1_region_1776575398113_602_tl_33" n="N033"/>es ernsthafter Widerlegung gar nicht bedurft, denn
-               <lb facs="#facs_1_region_1776575398113_602_tl_34" n="N034"/>
-               <rs type="person">Strakosch</rs> ist kaum fähig, ein Wort niederzuschreiben, das
-               <lb facs="#facs_1_region_1776575398113_602_tl_35" n="N035"/>Lebende compromittiren oder verletzen könnte. Ich kenne
-               <lb facs="#facs_1_region_1776575398113_602_tl_36" n="N036"/>keinen „public character“, der nachsichtiger, wohlwollender,
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1776575402065_605_tl_1" n="N001"/>ja bis zur Furchtsamkeit vorsichtiger in seinen Urtheilen wäre,
+         <lb facs="#facs_1_region_1776575402065_605_tl_2" n="N002"/>als Moriz <rs type="person">Strakosch</rs>. Seine „Souvenirs“ bestätigen das
+         <lb facs="#facs_1_region_1776575402065_605_tl_3" n="N003"/>vollständig. Nicht nur enthalten sie nicht die leiseste Krän
+         <lb facs="#facs_1_region_1776575402065_605_tl_4" n="N004" break="no"/>kung irgend einer Persönlichkeit, sie überschütten mit einem
+         <lb facs="#facs_1_region_1776575402065_605_tl_5" n="N005"/>wahren Sturzbad von Lob und Bewunderung alle Com
+         <lb facs="#facs_1_region_1776575402065_605_tl_6" n="N006" break="no"/>ponisten, Sängerinnen, Virtuosen, Capellmeister und Kri
+         <lb facs="#facs_1_region_1776575402065_605_tl_7" n="N007" break="no"/>tiker, mit welchen unser Impresario je in Berührung gekommen.
+         <lb facs="#facs_1_region_1776575402065_605_tl_8" n="N008"/>Das ist, um es gleich hier zu sagen, die schwache Seite des
+         <lb facs="#facs_1_region_1776575402065_605_tl_9" n="N009"/>Buches. <rs type="person">Strakosch</rs> läßt durch fünf bis sechs Capitel alle diese
+         <lb facs="#facs_1_region_1776575402065_605_tl_10" n="N010"/>großen und kleinen Celebritäten Revue passiren, um vor
+         <lb facs="#facs_1_region_1776575402065_605_tl_11" n="N011"/>jeder ein tiefes, tiefes Compliment zu machen. Der kleinste
+         <lb facs="#facs_1_region_1776575402065_605_tl_12" n="N012"/>intime Charakterzug, welchen <rs type="person">Strakosch</rs>, aber nur er, an einer
+         <lb facs="#facs_1_region_1776575402065_605_tl_13" n="N013"/>dieser Berühmtheiten beobachtete; das flüchtigste Abenteuer,
+         <lb facs="#facs_1_region_1776575402065_605_tl_14" n="N014"/>das er selbst, aber nur er, mit ihnen erlebte, hätten sein
+         <lb facs="#facs_1_region_1776575402065_605_tl_15" n="N015"/>Buch werthvoller gemacht, als dieser allen Personen gleich
+         <lb facs="#facs_1_region_1776575402065_605_tl_16" n="N016" break="no"/>mäßig gespendete und dadurch werthlose Weihrauchqualm.
+         <lb facs="#facs_1_region_1776575402065_605_tl_17" n="N017"/>Interessant und belehrend sind hingegen alle Capitel, in
+         <lb facs="#facs_1_region_1776575402065_605_tl_18" n="N018"/>welchen <rs type="person">Strakosch</rs> seine eigenen Erfahrungen und Beobach
+         <lb facs="#facs_1_region_1776575402065_605_tl_19" n="N019" break="no"/>tungen über Theaterführung und Virtuosen-Reisen mittheilt.
+         <lb facs="#facs_1_region_1776575402065_605_tl_20" n="N020"/>Mit etwas mehr Freimuth hätte er sie noch bedeutend ver
+         <lb facs="#facs_1_region_1776575402065_605_tl_21" n="N021" break="no"/>mehren, allerlei Schäden noch unverhüllter aufzeigen und
+         <lb facs="#facs_1_region_1776575402065_605_tl_22" n="N022"/>manche Celebrität noch getreuer porträtiren können.
+            </p><p>
+         <lb facs="#facs_1_region_1776575402065_605_tl_23" n="N023"/>Der bekannte Ausspruch, ein guter Impresario müsse
+         <lb facs="#facs_1_region_1776575402065_605_tl_24" n="N024"/>als Künstler und als Enthusiast geboren sein, bewährt sich
+         <lb facs="#facs_1_region_1776575402065_605_tl_25" n="N025"/>an Strakosch. Als elfjähriger Knabe schon tritt er in <rs type="place">Brünn</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1776575402065_605_tl_26" n="N026"/>mit einem Clavierconcert von Hummel vor das Publicum
+         <lb facs="#facs_1_region_1776575402065_605_tl_27" n="N027"/>und concertirt erfolgreich in <rs type="place">Deutschland</rs>. Allein der Ehrgeiz
+         <lb facs="#facs_1_region_1776575402065_605_tl_28" n="N028"/>des Clavier-Virtuosen füllt ihn nicht aus. Auf der Bühne
+         <lb facs="#facs_1_region_1776575402065_605_tl_29" n="N029"/>möchte er glänzen, Tenor werden! Wirklich wird er in dieser
+         <lb facs="#facs_1_region_1776575402065_605_tl_30" n="N030"/>Eigenschaft in <rs type="place">Agram</rs> engagirt, mit einer Monatsgage von
+         <lb facs="#facs_1_region_1776575402065_605_tl_31" n="N031"/>30 Francs. Leider reducirt der selber stark reducirte
+         <lb facs="#facs_1_region_1776575402065_605_tl_32" n="N032"/>Theater-Director bald auch diese bescheidene Gage, und
+         <lb facs="#facs_1_region_1776575402065_605_tl_33" n="N033"/><rs type="person">Strakosch</rs> wendet sich nach <rs type="place">Italien</rs>, um sich dort in
+         <lb facs="#facs_1_region_1776575402065_605_tl_34" n="N034"/>der Gesangskunst zu vervollkommnen. Er hat einen Empfeh
+         <lb facs="#facs_1_region_1776575402065_605_tl_35" n="N035" break="no"/>lungsbrief an Judith <rs type="person">Pasta</rs>, die große Sängerin, für
+         <lb facs="#facs_1_region_1776575402065_605_tl_36" n="N036"/>welche <rs type="person">Bellini</rs> seine <rs type="bibl">Norma</rs> und <rs type="bibl">Sonnambula</rs> geschrieben.
+         <lb facs="#facs_1_region_1776575402065_605_tl_37" n="N037"/>Sie lebte damals bereits von der Bühne zurückgezogen, in einer
+         <lb facs="#facs_1_region_1776575402065_605_tl_38" n="N038"/>prächtigen Villa am <rs type="place">Comer-See</rs>, wo sie unentgeltlich Ge
+         <lb facs="#facs_1_region_1776575402065_605_tl_39" n="N039" break="no"/>sangunterricht ertheilte. Die großmüthige Frau pflegte die</p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1776575402065_605_tl_1" n="N001"/>ja bis zur Furchtsamkeit vorsichtiger in seinen Urtheilen wäre,
-               <lb facs="#facs_1_region_1776575402065_605_tl_2" n="N002"/>als Moriz <rs type="person">Strakosch</rs>. Seine „Souvenirs“ bestätigen das
-               <lb facs="#facs_1_region_1776575402065_605_tl_3" n="N003"/>vollständig. Nicht nur enthalten sie nicht die leiseste Krän¬
-               <lb facs="#facs_1_region_1776575402065_605_tl_4" n="N004"/>kung irgend einer Persönlichkeit, sie überschütten mit einem
-               <lb facs="#facs_1_region_1776575402065_605_tl_5" n="N005"/>wahren Sturzbad von Lob und Bewunderung alle Com¬
-               <lb facs="#facs_1_region_1776575402065_605_tl_6" n="N006"/>ponisten, Sängerinnen, Virtuosen, Capellmeister und Kri¬
-               <lb facs="#facs_1_region_1776575402065_605_tl_7" n="N007"/>tiker, mit welchen unser Impresario je in Berührung gekommen.
-               <lb facs="#facs_1_region_1776575402065_605_tl_8" n="N008"/>Das ist, um es gleich hier zu sagen, die schwache Seite des
-               <lb facs="#facs_1_region_1776575402065_605_tl_9" n="N009"/>Buches. <rs type="person">Strakosch</rs> läßt durch fünf bis sechs Capitel alle diese
-               <lb facs="#facs_1_region_1776575402065_605_tl_10" n="N010"/>großen und kleinen Celebritäten Revue passiren, um vor
-               <lb facs="#facs_1_region_1776575402065_605_tl_11" n="N011"/>jeder ein tiefes, tiefes Compliment zu machen. Der kleinste
-               <lb facs="#facs_1_region_1776575402065_605_tl_12" n="N012"/>intime Charakterzug, welchen <rs type="person">Strakosch</rs>, aber nur er, an einer
-               <lb facs="#facs_1_region_1776575402065_605_tl_13" n="N013"/>dieser Berühmtheiten beobachtete; das flüchtigste Abenteuer,
-               <lb facs="#facs_1_region_1776575402065_605_tl_14" n="N014"/>das er selbst, aber nur er, mit ihnen erlebte, hätten sein
-               <lb facs="#facs_1_region_1776575402065_605_tl_15" n="N015"/>Buch werthvoller gemacht, als dieser allen Personen gleich¬
-               <lb facs="#facs_1_region_1776575402065_605_tl_16" n="N016"/>mäßig gespendete und dadurch werthlose Weihrauchqualm.
-               <lb facs="#facs_1_region_1776575402065_605_tl_17" n="N017"/>Interessant und belehrend sind hingegen alle Capitel, in
-               <lb facs="#facs_1_region_1776575402065_605_tl_18" n="N018"/>welchen <rs type="person">Strakosch</rs> seine eigenen Erfahrungen und Beobach¬
-               <lb facs="#facs_1_region_1776575402065_605_tl_19" n="N019"/>tungen über Theaterführung und Virtuosen-Reisen mittheilt.
-               <lb facs="#facs_1_region_1776575402065_605_tl_20" n="N020"/>Mit etwas mehr Freimuth hätte er sie noch bedeutend ver¬
-               <lb facs="#facs_1_region_1776575402065_605_tl_21" n="N021"/>mehren, allerlei Schäden noch unverhüllter aufzeigen und
-               <lb facs="#facs_1_region_1776575402065_605_tl_22" n="N022"/>manche Celebrität noch getreuer porträtiren können.
-               <lb facs="#facs_1_region_1776575402065_605_tl_23" n="N023"/>Der bekannte Ausspruch, ein guter Impresario müsse
-               <lb facs="#facs_1_region_1776575402065_605_tl_24" n="N024"/>als Künstler und als Enthusiast geboren sein, bewährt sich
-               <lb facs="#facs_1_region_1776575402065_605_tl_25" n="N025"/>an Strakosch. Als elfjähriger Knabe schon tritt er in <rs type="place">Brünn</rs>
-               <lb facs="#facs_1_region_1776575402065_605_tl_26" n="N026"/>mit einem Clavierconcert von Hummel vor das Publicum
-               <lb facs="#facs_1_region_1776575402065_605_tl_27" n="N027"/>und concertirt erfolgreich in <rs type="place">Deutschland</rs>. Allein der Ehrgeiz
-               <lb facs="#facs_1_region_1776575402065_605_tl_28" n="N028"/>des Clavier-Virtuosen füllt ihn nicht aus. Auf der Bühne
-               <lb facs="#facs_1_region_1776575402065_605_tl_29" n="N029"/>möchte er glänzen, Tenor werden! Wirklich wird er in dieser
-               <lb facs="#facs_1_region_1776575402065_605_tl_30" n="N030"/>Eigenschaft in <rs type="place">Agram</rs> engagirt, mit einer Monatsgage von
-               <lb facs="#facs_1_region_1776575402065_605_tl_31" n="N031"/>30 Francs. Leider reducirt der selber stark reducirte
-               <lb facs="#facs_1_region_1776575402065_605_tl_32" n="N032"/>Theater-Director bald auch diese bescheidene Gage, und
-               <lb facs="#facs_1_region_1776575402065_605_tl_33" n="N033"/>
-               <rs type="person">Strakosch</rs> wendet sich nach <rs type="place">Italien</rs>, um sich dort in
-               <lb facs="#facs_1_region_1776575402065_605_tl_34" n="N034"/>der Gesangskunst zu vervollkommnen. Er hat einen Empfeh¬
-               <lb facs="#facs_1_region_1776575402065_605_tl_35" n="N035"/>lungsbrief an Judith <rs type="person">Pasta</rs>, die große Sängerin, für
-               <lb facs="#facs_1_region_1776575402065_605_tl_36" n="N036"/>welche <rs type="person">Bellini</rs> seine <rs type="bibl">Norma</rs> und <rs type="bibl">Sonnambula</rs> geschrieben.
-               <lb facs="#facs_1_region_1776575402065_605_tl_37" n="N037"/>Sie lebte damals bereits von der Bühne zurückgezogen, in einer
-               <lb facs="#facs_1_region_1776575402065_605_tl_38" n="N038"/>prächtigen Villa am <rs type="place">Comer-See</rs>, wo sie unentgeltlich Ge¬
-               <lb facs="#facs_1_region_1776575402065_605_tl_39" n="N039"/>sangunterricht ertheilte. Die großmüthige Frau pflegte die¬
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1776575405360_608_tl_1" n="N001"/>jenigen ihrer Schülerinnen, von welchen sie sich keinen Erfolg
-               <lb facs="#facs_1_region_1776575405360_608_tl_2" n="N002"/>auf der Bühne versprechen konnte, zu versorgen. Damit hielt
-               <lb facs="#facs_1_region_1776575405360_608_tl_3" n="N003"/>sie dieselben von einer Laufbahn ab, die ihnen ein Leben voll
-               <lb facs="#facs_1_region_1776575405360_608_tl_4" n="N004"/>Kummer und Täuschungen bereitet hätte. Ihr Gesicht strahlte
-               <lb facs="#facs_1_region_1776575405360_608_tl_5" n="N005"/>von Gutmüthigkeit, zeigte aber zur Zeit von <rs type="person">Strakosch</rs>’s
-               <lb facs="#facs_1_region_1776575405360_608_tl_6" n="N006"/>Besuch keine Spur mehr von seiner ehemaligen Schönheit.
-               <lb facs="#facs_1_region_1776575405360_608_tl_7" n="N007"/>Sie empfing den jungen Mann sehr wohlwollend und hörte
-               <lb facs="#facs_1_region_1776575405360_608_tl_8" n="N008"/>ihn an, rieth ihm jedoch, das Clavierspiel nicht aufzugeben.
-               <lb facs="#facs_1_region_1776575405360_608_tl_9" n="N009"/>„Bleiben Sie in meiner Nähe wohnen,“ fügte sie hinzu,
-               <lb facs="#facs_1_region_1776575405360_608_tl_10" n="N010"/>„ich werde in Ihrer Gegenwart meine Gesangstunden geben,
-               <lb facs="#facs_1_region_1776575405360_608_tl_11" n="N011"/>und da können Sie lernen, was großer Vortrag, was die
-               <lb facs="#facs_1_region_1776575405360_608_tl_12" n="N012"/>echte <rs type="place">italienisch</rs>e Gesangskunst ist, die ja von Tag zu Tag
-               <lb facs="#facs_1_region_1776575405360_608_tl_13" n="N013"/>mehr verschwindet.“ Die <rs type="person">Pasta</rs> war, wie sie selbst gestand,
-               <lb facs="#facs_1_region_1776575405360_608_tl_14" n="N014"/>nur durch unablässiges Studium zu ihrer hohen Meisterschaft
-               <lb facs="#facs_1_region_1776575405360_608_tl_15" n="N015"/>gelangt, während im Gegentheil ihre einzige Rivalin, die
-               <lb facs="#facs_1_region_1776575405360_608_tl_16" n="N016"/>
-               <hi rendition="#em">
-                  <rs type="person">Malibran</rs>
-               </hi>, dem angeborenen Genie und momentaner
-               <lb facs="#facs_1_region_1776575405360_608_tl_17" n="N017"/>Begeisterung mehr verdankte, als systematischem Studium.
-               <lb facs="#facs_1_region_1776575405360_608_tl_18" n="N018"/>
-               <rs type="person">Strakosch</rs> blieb drei Jahre bei der <rs type="person">Pasta</rs> und dankt ihr die
-               <lb facs="#facs_1_region_1776575405360_608_tl_19" n="N019"/>Unterrichts-Methode, die ihn befähigt hat, später selbst eine
-               <lb facs="#facs_1_region_1776575405360_608_tl_20" n="N020"/>Sängerin wie Adelina <rs type="person">Patti</rs> auszubilden. Eine zeitlang
-               <lb facs="#facs_1_region_1776575405360_608_tl_21" n="N021"/>reist er nun wieder als Clavier-Virtuose und geräth <date>1848</date>
-               <lb facs="#facs_1_region_1776575405360_608_tl_22" n="N022"/>in <rs type="place">Paris</rs> mitten in die Februar-Revolution. Das öffentliche
-               <lb facs="#facs_1_region_1776575405360_608_tl_23" n="N023"/>Interesse für Musik war auf lange hinaus durch die Politik
-               <lb facs="#facs_1_region_1776575405360_608_tl_24" n="N024"/>verdrängt. Was hatte damals ein Clavierspieler in <rs type="place">Europa</rs>
-               <lb facs="#facs_1_region_1776575405360_608_tl_25" n="N025"/>zu hoffen? <rs type="person">Strakosch</rs>, rasch entschlossen, sucht sein Heil in
-               <lb facs="#facs_1_region_1776575405360_608_tl_26" n="N026"/>
-               <rs type="place">Amerika</rs>. Damals leitete Salvatore <rs type="person">Patti</rs>, der Vater
-               <lb facs="#facs_1_region_1776575405360_608_tl_27" n="N027"/>
-               <rs type="person">Adelina</rs>’s, die <rs type="place">italienisch</rs>e Oper in <rs type="place">Newyork</rs>, und zwar mit
-               <lb facs="#facs_1_region_1776575405360_608_tl_28" n="N028"/>sehr ungünstigem Resultat. Um ihm zu Hilfe zu kommen,
-               <lb facs="#facs_1_region_1776575405360_608_tl_29" n="N029"/>veranstaltet <rs type="person">Strakosch</rs> mit diesem Opernpersonal ein „Festival“,
-               <lb facs="#facs_1_region_1776575405360_608_tl_30" n="N030"/>das den Bedrängten viel Geld einbrachte. Nach diesem
-               <lb facs="#facs_1_region_1776575405360_608_tl_31" n="N031"/>Concert engagirte er Amalia <rs type="person">Patti</rs> (die Schwester der da¬
-               <lb facs="#facs_1_region_1776575405360_608_tl_32" n="N032"/>mals sechsjährigen <rs type="person">Adelina</rs>) nebst der Sängerin <rs type="person">Parodi</rs> und
-               <lb facs="#facs_1_region_1776575405360_608_tl_33" n="N033"/>durchzog mit ihnen concertirend <rs type="place">Amerika</rs>. Er war unver¬
-               <lb facs="#facs_1_region_1776575405360_608_tl_34" n="N034"/>sehens Impresario geworden und ist es bis heute geblieben.
-               <lb facs="#facs_1_region_1776575405360_608_tl_35" n="N035"/>Nach dieser zweijährigen Tournée in <rs type="place">Amerika</rs> vermälte
-               <lb facs="#facs_1_region_1776575405360_608_tl_36" n="N036"/>sich <rs type="person">Strakosch</rs> mit Amalia <rs type="person">Patti</rs> und wurde so der Schwager
-               <lb facs="#facs_1_region_1776575405360_608_tl_37" n="N037"/>
-               <rs type="person">Adelina</rs>’s, die er bis zu ihrer Verheiratung mit dem
-               <lb facs="#facs_1_region_1776575405360_608_tl_39" n="N038"/>
-               <rs type="person">Marquis de Caux</rs> nicht verlassen hat. Ich übergehe hier die
-               <lb facs="#facs_1_region_1776575405360_608_tl_41" n="N039"/>ohnehin bekannte Jugendgeschichte Adelina <rs type="person">Patti</rs>’s, doch kann
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1776575405360_608_tl_1" n="N001" break="no"/>jenigen ihrer Schülerinnen, von welchen sie sich keinen Erfolg
+         <lb facs="#facs_1_region_1776575405360_608_tl_2" n="N002"/>auf der Bühne versprechen konnte, zu versorgen. Damit hielt
+         <lb facs="#facs_1_region_1776575405360_608_tl_3" n="N003"/>sie dieselben von einer Laufbahn ab, die ihnen ein Leben voll
+         <lb facs="#facs_1_region_1776575405360_608_tl_4" n="N004"/>Kummer und Täuschungen bereitet hätte. Ihr Gesicht strahlte
+         <lb facs="#facs_1_region_1776575405360_608_tl_5" n="N005"/>von Gutmüthigkeit, zeigte aber zur Zeit von <rs type="person">Strakosch</rs>’s
+         <lb facs="#facs_1_region_1776575405360_608_tl_6" n="N006"/>Besuch keine Spur mehr von seiner ehemaligen Schönheit.
+         <lb facs="#facs_1_region_1776575405360_608_tl_7" n="N007"/>Sie empfing den jungen Mann sehr wohlwollend und hörte
+         <lb facs="#facs_1_region_1776575405360_608_tl_8" n="N008"/>ihn an, rieth ihm jedoch, das Clavierspiel nicht aufzugeben.
+         <lb facs="#facs_1_region_1776575405360_608_tl_9" n="N009"/>„Bleiben Sie in meiner Nähe wohnen,“ fügte sie hinzu,
+         <lb facs="#facs_1_region_1776575405360_608_tl_10" n="N010"/>„ich werde in Ihrer Gegenwart meine Gesangstunden geben,
+         <lb facs="#facs_1_region_1776575405360_608_tl_11" n="N011"/>und da können Sie lernen, was großer Vortrag, was die
+         <lb facs="#facs_1_region_1776575405360_608_tl_12" n="N012"/>echte <rs type="place">italienisch</rs>e Gesangskunst ist, die ja von Tag zu Tag
+         <lb facs="#facs_1_region_1776575405360_608_tl_13" n="N013"/>mehr verschwindet.“ Die <rs type="person">Pasta</rs> war, wie sie selbst gestand,
+         <lb facs="#facs_1_region_1776575405360_608_tl_14" n="N014"/>nur durch unablässiges Studium zu ihrer hohen Meisterschaft
+         <lb facs="#facs_1_region_1776575405360_608_tl_15" n="N015"/>gelangt, während im Gegentheil ihre einzige Rivalin, die
+         <lb facs="#facs_1_region_1776575405360_608_tl_16" n="N016"/><hi rendition="#em"><rs type="person">Malibran</rs></hi>, dem angeborenen Genie und momentaner
+         <lb facs="#facs_1_region_1776575405360_608_tl_17" n="N017"/>Begeisterung mehr verdankte, als systematischem Studium.
+         <lb facs="#facs_1_region_1776575405360_608_tl_18" n="N018"/><rs type="person">Strakosch</rs> blieb drei Jahre bei der <rs type="person">Pasta</rs> und dankt ihr die
+         <lb facs="#facs_1_region_1776575405360_608_tl_19" n="N019"/>Unterrichts-Methode, die ihn befähigt hat, später selbst eine
+         <lb facs="#facs_1_region_1776575405360_608_tl_20" n="N020"/>Sängerin wie Adelina <rs type="person">Patti</rs> auszubilden. Eine zeitlang
+         <lb facs="#facs_1_region_1776575405360_608_tl_21" n="N021"/>reist er nun wieder als Clavier-Virtuose und geräth <date>1848</date><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1776575405360_608_tl_22" n="N022"/>in <rs type="place">Paris</rs> mitten in die Februar-Revolution. Das öffentliche
+         <lb facs="#facs_1_region_1776575405360_608_tl_23" n="N023"/>Interesse für Musik war auf lange hinaus durch die Politik
+         <lb facs="#facs_1_region_1776575405360_608_tl_24" n="N024"/>verdrängt. Was hatte damals ein Clavierspieler in <rs type="place">Europa</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1776575405360_608_tl_25" n="N025"/>zu hoffen? <rs type="person">Strakosch</rs>, rasch entschlossen, sucht sein Heil in
+         <lb facs="#facs_1_region_1776575405360_608_tl_26" n="N026"/><rs type="place">Amerika</rs>. Damals leitete Salvatore <rs type="person">Patti</rs>, der Vater
+         <lb facs="#facs_1_region_1776575405360_608_tl_27" n="N027"/><rs type="person">Adelina</rs>’s, die <rs type="place">italienisch</rs>e Oper in <rs type="place">Newyork</rs>, und zwar mit
+         <lb facs="#facs_1_region_1776575405360_608_tl_28" n="N028"/>sehr ungünstigem Resultat. Um ihm zu Hilfe zu kommen,
+         <lb facs="#facs_1_region_1776575405360_608_tl_29" n="N029"/>veranstaltet <rs type="person">Strakosch</rs> mit diesem Opernpersonal ein „Festival“,
+         <lb facs="#facs_1_region_1776575405360_608_tl_30" n="N030"/>das den Bedrängten viel Geld einbrachte. Nach diesem
+         <lb facs="#facs_1_region_1776575405360_608_tl_31" n="N031"/>Concert engagirte er Amalia <rs type="person">Patti</rs> (die Schwester der da
+         <lb facs="#facs_1_region_1776575405360_608_tl_32" n="N032" break="no"/>mals sechsjährigen <rs type="person">Adelina</rs>) nebst der Sängerin <rs type="person">Parodi</rs> und
+         <lb facs="#facs_1_region_1776575405360_608_tl_33" n="N033"/>durchzog mit ihnen concertirend <rs type="place">Amerika</rs>. Er war unver
+         <lb facs="#facs_1_region_1776575405360_608_tl_34" n="N034" break="no"/>sehens Impresario geworden und ist es bis heute geblieben.
+         <lb facs="#facs_1_region_1776575405360_608_tl_35" n="N035"/>Nach dieser zweijährigen Tournée in <rs type="place">Amerika</rs> vermälte
+         <lb facs="#facs_1_region_1776575405360_608_tl_36" n="N036"/>sich <rs type="person">Strakosch</rs> mit Amalia <rs type="person">Patti</rs> und wurde so der Schwager
+         <lb facs="#facs_1_region_1776575405360_608_tl_37" n="N037"/><rs type="person">Adelina</rs>’s, die er bis zu ihrer Verheiratung mit dem
+         <lb facs="#facs_1_region_1776575405360_608_tl_39" n="N038"/><rs type="person">Marquis de Caux</rs> nicht verlassen hat. Ich übergehe hier die
+         <lb facs="#facs_1_region_1776575405360_608_tl_41" n="N039"/>ohnehin bekannte Jugendgeschichte Adelina <rs type="person">Patti</rs>’s, doch kann<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776575433518_614_tl_1" n="N001"/>ich nicht zu rühmen unterlassen, wie warm und bewundernd
+         <lb facs="#facs_2_region_1776575433518_614_tl_2" n="N002"/><rs type="person">Strakosch</rs> wiederholt von <rs type="person">Adelina</rs> spricht, mit welcher ihn
+         <lb facs="#facs_2_region_1776575433518_614_tl_3" n="N003"/>doch ihre erste und noch schroffer ihre spätere Heirat (<rs type="person">Nico
+         <lb facs="#facs_2_region_1776575433518_614_tl_4" n="N004" break="no"/>lini</rs>) entzweit hat. Charakteristisch für die <rs type="person">Patti</rs> ist folgender
+         <lb facs="#facs_2_region_1776575433518_614_tl_5" n="N005"/>Zug. Als sie im Mai <date>1868</date> in der katholischen Kirche zu
+         <lb facs="#facs_2_region_1776575433518_614_tl_6" n="N006"/><rs type="place">Clapham</rs> bei <rs type="place">London</rs> vermält werden sollte, machte man die
+         <lb facs="#facs_2_region_1776575433518_614_tl_7" n="N007"/>betrübende Entdeckung, daß sie von religiösen Pflichten und
+         <lb facs="#facs_2_region_1776575433518_614_tl_8" n="N008"/>Gebräuchen gar keine Ahnung hatte. In ihrer Kindheit war
+         <lb facs="#facs_2_region_1776575433518_614_tl_9" n="N009"/>auf religiösen Unterricht vollständig vergessen worden; un
+         <lb facs="#facs_2_region_1776575433518_614_tl_10" n="N010" break="no"/>mittelbar vor ihrer Trauung wurde die fünfundzwanzigjäh
+         <lb facs="#facs_2_region_1776575433518_614_tl_11" n="N011" break="no"/>rige Braut zur Firmung und zum erstenmale zur Beichte
+         <lb facs="#facs_2_region_1776575433518_614_tl_12" n="N012"/>geführt. Diese Geschichte erinnert mich an ein eigenes komisches
+         <lb facs="#facs_2_region_1776575433518_614_tl_13" n="N013"/>Erlebniß. Ich besuchte in <rs type="place">Wien</rs> die <rs type="person">Patti</rs> an einem Char
+         <lb facs="#facs_2_region_1776575433518_614_tl_14" n="N014" break="no"/>freitag und fand sie beim Mittagsessen, einem Braten wacker
+         <lb facs="#facs_2_region_1776575433518_614_tl_15" n="N015"/>zusprechend. Das überraschte mich, da ja Theaterleute, die
+         <lb facs="#facs_2_region_1776575433518_614_tl_16" n="N016"/>zugleich Katholiken und Italiener sind, dreifach strenge
+         <lb facs="#facs_2_region_1776575433518_614_tl_19" n="N017"/>Faster zu sein pflegen. „Wir Tänzerinnen,“ sagte mir ein
+         <lb facs="#facs_2_region_1776575433518_614_tl_20" n="N018" break="no"/>mal eine berühmte Ballerine, die auch an gewöhnlichen Frei
+         <lb facs="#facs_2_region_1776575433518_614_tl_21" n="N019" break="no"/>tagen keinen Bissen Fleisch angerührt hätte, „wir Tänzerin
+         <lb facs="#facs_2_region_1776575433518_614_tl_22" n="N020" break="no"/>nen stehen ohnehin mit einem Fuß in der Hölle; deßhalb
+         <lb facs="#facs_2_region_1776575433518_614_tl_23" n="N021"/>müssen wir den andern um so fester in den Himmel stellen.“
+         <lb facs="#facs_2_region_1776575433518_614_tl_24" n="N022"/>„Warum soll ich denn gerade am Charfreitag kein Fleisch
+         <lb facs="#facs_2_region_1776575433518_614_tl_25" n="N023"/>essen?“ fragte gereizt <rs type="person">Adelina</rs>, als ich eine leichte Verwunde
+         <lb facs="#facs_2_region_1776575433518_614_tl_26" n="N024" break="no"/>rung nicht unterdrücken konnte. „Ja, haben Sie denn nie
+         <lb facs="#facs_2_region_1776575433518_614_tl_27" n="N025"/>gehört,“ beschwichtigte ich, „daß die Kirche das Fasten in der
+         <lb facs="#facs_2_region_1776575433518_614_tl_28" n="N026"/>Charwoche vorschreibt und in der gesammten Christenheit kein
+         <lb facs="#facs_2_region_1776575433518_614_tl_29" n="N027"/>Mensch am Charfreitag Fleisch ist?“ — „Nein,“ polterte
+         <lb facs="#facs_2_region_1776575433518_614_tl_30" n="N028"/>sie, „das habe ich nie gehört, es ist auch gewiß nicht wahr,
+         <lb facs="#facs_2_region_1776575433518_614_tl_31" n="N029"/>kann nicht wahr sein und ist sicher wieder ein Scherz von
+         <lb facs="#facs_2_line_1783340190658_1545" n="N030"/>Ihnen!“
+            </p><p>
+         <lb facs="#facs_2_region_1776575433518_614_tl_32" n="N031"/>Sehr lehrreich sind die Capitel über <hi rendition="#em"><rs type="place">London</rs></hi> und
+         <lb facs="#facs_2_region_1776575433518_614_tl_33" n="N032"/>was <rs type="person">Strakosch</rs> von den beiden <rs type="place">italienisch</rs>en Opern-Unterneh
+         <lb facs="#facs_2_region_1776575433518_614_tl_34" n="N033" break="no"/>mungen daselbst erzählt, die einander fortwährend zu über
+         <lb facs="#facs_2_region_1776575433518_614_tl_35" n="N034" break="no"/>bieten suchen und richtig gegenseitig ruiniren. Diesen Kampf
+         <lb facs="#facs_2_region_1776575433518_614_tl_36" n="N035"/>zwischen dem <hi rendition="#em">Coventgarden-Theater</hi> und <hi rendition="#em">Her
+         <lb facs="#facs_2_region_1776575433518_614_tl_37" n="N036"/>Majesty’s Theater</hi> habe ich <date>1862</date> auf einem sei
+         <lb facs="#facs_2_region_1776575433518_614_tl_38" n="N037" break="no"/>ner Höhepunkte miterlebt und damals in meinen
+         <lb facs="#facs_2_region_1776575433518_614_tl_39" n="N038"/><rs type="place">London</rs>er Briefen geschildert. Es war früher nicht
+         <lb facs="#facs_2_region_1776575433518_614_tl_40" n="N039"/>besser und später auch nicht. Vor vierzig Jahren dirigirte<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1776575433518_614_tl_1" n="N001"/>ich nicht zu rühmen unterlassen, wie warm und bewundernd
-               <lb facs="#facs_2_region_1776575433518_614_tl_2" n="N002"/>
-               <rs type="person">Strakosch</rs> wiederholt von <rs type="person">Adelina</rs> spricht, mit welcher ihn
-               <lb facs="#facs_2_region_1776575433518_614_tl_3" n="N003"/>doch ihre erste und noch schroffer ihre spätere Heirat (<rs type="person" continued="true">Nico¬</rs>
-               <lb facs="#facs_2_region_1776575433518_614_tl_4" n="N004"/>
-               <rs type="person" continued="true">lini</rs>) entzweit hat. Charakteristisch für die <rs type="person">Patti</rs> ist folgender
-               <lb facs="#facs_2_region_1776575433518_614_tl_5" n="N005"/>Zug. Als sie im Mai <date>1868</date> in der katholischen Kirche zu
-               <lb facs="#facs_2_region_1776575433518_614_tl_6" n="N006"/>
-               <rs type="place" continued="true">Clapham</rs> bei <rs type="place">London</rs> vermält werden sollte, machte man die
-               <lb facs="#facs_2_region_1776575433518_614_tl_7" n="N007"/>betrübende Entdeckung, daß sie von religiösen Pflichten und
-               <lb facs="#facs_2_region_1776575433518_614_tl_8" n="N008"/>Gebräuchen gar keine Ahnung hatte. In ihrer Kindheit war
-               <lb facs="#facs_2_region_1776575433518_614_tl_9" n="N009"/>auf religiösen Unterricht vollständig vergessen worden; un¬
-               <lb facs="#facs_2_region_1776575433518_614_tl_10" n="N010"/>mittelbar vor ihrer Trauung wurde die fünfundzwanzigjäh¬
-               <lb facs="#facs_2_region_1776575433518_614_tl_11" n="N011"/>rige Braut zur Firmung und zum erstenmale zur Beichte
-               <lb facs="#facs_2_region_1776575433518_614_tl_12" n="N012"/>geführt. Diese Geschichte erinnert mich an ein eigenes komisches
-               <lb facs="#facs_2_region_1776575433518_614_tl_13" n="N013"/>Erlebniß. Ich besuchte in <rs type="place">Wien</rs> die <rs type="person">Patti</rs> an einem Char¬
-               <lb facs="#facs_2_region_1776575433518_614_tl_14" n="N014"/>freitag und fand sie beim Mittagsessen, einem Braten wacker
-               <lb facs="#facs_2_region_1776575433518_614_tl_15" n="N015"/>zusprechend. Das überraschte mich, da ja Theaterleute, die
-               <lb facs="#facs_2_region_1776575433518_614_tl_16" n="N016"/>zugleich Katholiken und Italiener sind, dreifach strenge
-               <lb facs="#facs_2_region_1776575433518_614_tl_19" n="N017"/>Faster zu sein pflegen. „Wir Tänzerinnen,“ sagte mir ein¬
-               <lb facs="#facs_2_region_1776575433518_614_tl_20" n="N018"/>mal eine berühmte Ballerine, die auch an gewöhnlichen Frei¬
-               <lb facs="#facs_2_region_1776575433518_614_tl_21" n="N019"/>tagen keinen Bissen Fleisch angerührt hätte, „wir Tänzerin¬
-               <lb facs="#facs_2_region_1776575433518_614_tl_22" n="N020"/>nen stehen ohnehin mit einem Fuß in der Hölle; deßhalb
-               <lb facs="#facs_2_region_1776575433518_614_tl_23" n="N021"/>müssen wir den andern um so fester in den Himmel stellen.“
-               <lb facs="#facs_2_region_1776575433518_614_tl_24" n="N022"/>„Warum soll ich denn gerade am Charfreitag kein Fleisch
-               <lb facs="#facs_2_region_1776575433518_614_tl_25" n="N023"/>essen?“ fragte gereizt <rs type="person">Adelina</rs>, als ich eine leichte Verwunde¬
-               <lb facs="#facs_2_region_1776575433518_614_tl_26" n="N024"/>rung nicht unterdrücken konnte. „Ja, haben Sie denn nie
-               <lb facs="#facs_2_region_1776575433518_614_tl_27" n="N025"/>gehört,“ beschwichtigte ich, „daß die Kirche das Fasten in der
-               <lb facs="#facs_2_region_1776575433518_614_tl_28" n="N026"/>Charwoche vorschreibt und in der gesammten Christenheit kein
-               <lb facs="#facs_2_region_1776575433518_614_tl_29" n="N027"/>Mensch am Charfreitag Fleisch ist?“ — „Nein,“ polterte
-               <lb facs="#facs_2_region_1776575433518_614_tl_30" n="N028"/>sie, „das habe ich nie gehört, es ist auch gewiß nicht wahr,
-               <lb facs="#facs_2_region_1776575433518_614_tl_31" n="N029"/>kann nicht wahr sein und ist sicher wieder ein Scherz von
-               <lb facs="#facs_2_line_1783340190658_1545" n="N030"/>Ihnen!“
-               <lb facs="#facs_2_region_1776575433518_614_tl_32" n="N031"/>Sehr lehrreich sind die Capitel über <hi rendition="#em">
-                  <rs type="place">London</rs>
-               </hi> und
-               <lb facs="#facs_2_region_1776575433518_614_tl_33" n="N032"/>was <rs type="person">Strakosch</rs> von den beiden <rs type="place">italienisch</rs>en Opern-Unterneh¬
-               <lb facs="#facs_2_region_1776575433518_614_tl_34" n="N033"/>mungen daselbst erzählt, die einander fortwährend zu über¬
-               <lb facs="#facs_2_region_1776575433518_614_tl_35" n="N034"/>bieten suchen und richtig gegenseitig ruiniren. Diesen Kampf
-               <lb facs="#facs_2_region_1776575433518_614_tl_36" n="N035"/>zwischen dem <hi rendition="#em">Coventgarden-Theater</hi> und <hi rendition="#em">Her</hi>
-               <lb facs="#facs_2_region_1776575433518_614_tl_37" n="N036"/>
-               <hi rendition="#em">Majesty’s Theater</hi> habe ich <date>1862</date> auf einem sei¬
-               <lb facs="#facs_2_region_1776575433518_614_tl_38" n="N037"/>ner Höhepunkte miterlebt und damals in meinen
-               <lb facs="#facs_2_region_1776575433518_614_tl_39" n="N038"/>
-               <rs type="place">London</rs>er Briefen geschildert. Es war früher nicht
-               <lb facs="#facs_2_region_1776575433518_614_tl_40" n="N039"/>besser und später auch nicht. Vor vierzig Jahren dirigirte
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776575438063_617_tl_1" n="N001"/><hi rendition="#em">Mr. <rs type="person">Lumley</rs></hi> die <rs type="place">italienisch</rs>e Oper in Her Majesty’s Theater
+         <lb facs="#facs_2_region_1776575438063_617_tl_2" n="N002"/>und darin die berühmtesten Sänger wie <rs type="person">Mario</rs>, <rs type="person">Gardoni</rs>,
+         <lb facs="#facs_2_region_1776575438063_617_tl_3" n="N003"/><rs type="person">Tamburini</rs>, <rs type="person">Lablache</rs>, die <rs type="person">Grisi</rs>, <rs type="person">Persiani</rs> etc. Am Schluß
+         <lb facs="#facs_2_region_1776575438063_617_tl_4" n="N004"/>der Saison proponirte er ihnen, wie gebräuchlich, die Er
+         <lb facs="#facs_2_region_1776575438063_617_tl_5" n="N005" break="no"/>neuerung des Contractes für die nächste Saison. Zu seinem
+         <lb facs="#facs_2_region_1776575438063_617_tl_6" n="N006"/>Erstaunen lehnten sie den Antrag einfach ab. Die Ursache,
+         <lb facs="#facs_2_region_1776575438063_617_tl_7" n="N007"/>welche <rs type="person">Lumley</rs> erst später erfuhr, war eine heimliche Ver
+         <lb facs="#facs_2_region_1776575438063_617_tl_8" n="N008" break="no"/>schwörung dieser Künstler, das Coventgarden-Theater zu
+         <lb facs="#facs_2_region_1776575438063_617_tl_9" n="N009"/>miethen, um dort auf eigene Rechnung zu spielen. <rs type="person">Lumley</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1776575438063_617_tl_10" n="N010"/>beschloß, dieser Concurrenz entgegenzutreten, suchte eine neue
+         <lb facs="#facs_2_region_1776575438063_617_tl_11" n="N011"/>Gesellschaft zusammen und gewann dafür zu seinem Glück
+         <lb facs="#facs_2_region_1776575438063_617_tl_12" n="N012"/>die Jenny <rs type="person">Lind</rs>. Mit dieser außerordentlichen Sängerin
+         <lb facs="#facs_2_region_1776575438063_617_tl_13" n="N013"/>und dem ihm treugebliebenen <rs type="person">Lablache</rs> eröffnete er die Saison
+         <lb facs="#facs_2_region_1776575438063_617_tl_14" n="N014"/>in Her Majesty’s. Gleichzeitig wirkten in Coventgarden die
+         <lb facs="#facs_2_region_1776575438063_617_tl_15" n="N015"/>gefeiertesten Künstler: <rs type="person">Mario</rs>, <rs type="person">Tamberlick</rs>, <rs type="person">Ronconi</rs>, die
+         <lb facs="#facs_2_region_1776575438063_617_tl_16" n="N016"/><rs type="person">Viardot</rs>, <rs type="person">Grisi</rs>, <rs type="person">Persiani</rs> u. A. Resultat dieses Kampfes war
+         <lb facs="#facs_2_region_1776575438063_617_tl_17" n="N017"/>der Bankerott beider Gesellschaften; profitirt hatte nur das
+         <lb facs="#facs_2_region_1776575438063_617_tl_18" n="N018"/>Publicum. Aber um ein Theater zu führen oder ein Jour
+         <lb facs="#facs_2_region_1776575438063_617_tl_19" n="N019" break="no"/>nal zu gründen, meint <rs type="person">Strakosch</rs>, findet man immer Geld.
+         <lb facs="#facs_2_region_1776575438063_617_tl_20" n="N020"/>Wirklich fand sich in der Person des Bierbrauers <hi rendition="#em"><rs type="person">Dela
+         <lb facs="#facs_2_region_1776575438063_617_tl_21" n="N021" break="no"/>field</rs></hi> ein sehr reicher Opern-Enthusiast, der den Muth hatte,
+         <lb facs="#facs_2_region_1776575438063_617_tl_22" n="N022"/>das sinkende Coventgarden-Theater zu übernehmen. Nach zwei
+         <lb facs="#facs_2_region_1776575438063_617_tl_23" n="N023"/>Saisons hatte er 2.500,000 Francs verloren und war ein
+         <lb facs="#facs_2_region_1776575438063_617_tl_24" n="N024"/>ruinirter Mann. Nun konnte wieder <rs type="person">Lumley</rs> triumphiren:
+         <lb facs="#facs_2_region_1776575438063_617_tl_25" n="N025"/>wurde Coventgarden gesperrt, so blieb sein Opernhaus das
+         <lb facs="#facs_2_region_1776575438063_617_tl_26" n="N026"/>einzige in <rs type="place">London</rs>. Allein es kam anders. Die Künstler
+         <lb facs="#facs_2_region_1776575438063_617_tl_27" n="N027"/>des Coventgarden-Theaters bildeten eine eigene Gesellschaft
+         <lb facs="#facs_2_region_1776575438063_617_tl_28" n="N028"/>und stellten einen energischen Director, Frederick <hi rendition="#em"><rs type="person">Gye</rs></hi>, an
+         <lb facs="#facs_2_region_1776575438063_617_tl_29" n="N029"/>ihre Spitze. In wenigen Jahren hatte <rs type="person">Gye</rs> dieses Opern
+         <lb facs="#facs_2_region_1776575438063_617_tl_30" n="N030" break="no"/>haus wieder hoch emporgebracht und zwang seinen Neben
+         <lb facs="#facs_2_region_1776575438063_617_tl_31" n="N031" break="no"/>buhler, Her Majesty’s Theater zu schließen. <rs type="person">Gye</rs> war vom
+         <lb facs="#facs_2_region_1776575438063_617_tl_32" n="N032"/>Administrator zum selbstständigen Chef von Coventgarden
+         <lb facs="#facs_2_region_1776575438063_617_tl_33" n="N033"/>avancirt, als ihm unversehens dasselbe widerfuhr, was früher
+         <lb facs="#facs_2_region_1776575438063_617_tl_34" n="N034"/>Herrn <rs type="person">Lumley</rs> geschehen war: seine besten Kräfte, <rs type="person">Mario</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1776575438063_617_tl_35" n="N035"/>und die <rs type="person">Grisi</rs>, verließen ihn und traten zu einem Herrn
+         <lb facs="#facs_2_region_1776575438063_617_tl_36" n="N036"/><hi rendition="#em"><rs type="person">Smith</rs></hi> über, der sich anschickte, Her Majesty’s Theater zu
+         <lb facs="#facs_2_region_1776575438063_617_tl_37" n="N037"/>eröffnen. Dieser <rs type="person">Smith</rs> war nicht so reich, wie sein Vor
+         <lb facs="#facs_2_region_1776575438063_617_tl_38" n="N038" break="no"/>gänger <rs type="person">Delafield</rs>, aber ebenso unfähig. Indessen besaß er
+         <lb facs="#facs_2_region_1776575438063_617_tl_39" n="N039"/>Schlauheit genug, um sofort ein Anerbieten anzunehmen, das<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1776575438063_617_tl_1" n="N001"/>
-               <hi rendition="#em">Mr. <rs type="person">Lumley</rs>
-               </hi>
-               <rs type="person"> </rs>die <rs type="place">italienisch</rs>e Oper in Her Majesty’s Theater
-               <lb facs="#facs_2_region_1776575438063_617_tl_2" n="N002"/>und darin die berühmtesten Sänger wie <rs type="person">Mario</rs>, <rs type="person">Gardoni</rs>,
-               <lb facs="#facs_2_region_1776575438063_617_tl_3" n="N003"/>
-               <rs type="person">Tamburini</rs>, <rs type="person">Lablache</rs>, die <rs type="person">Grisi</rs>, <rs type="person">Persiani</rs> etc. Am Schluß
-               <lb facs="#facs_2_region_1776575438063_617_tl_4" n="N004"/>der Saison proponirte er ihnen, wie gebräuchlich, die Er¬
-               <lb facs="#facs_2_region_1776575438063_617_tl_5" n="N005"/>neuerung des Contractes für die nächste Saison. Zu seinem
-               <lb facs="#facs_2_region_1776575438063_617_tl_6" n="N006"/>Erstaunen lehnten sie den Antrag einfach ab. Die Ursache,
-               <lb facs="#facs_2_region_1776575438063_617_tl_7" n="N007"/>welche <rs type="person">Lumley</rs> erst später erfuhr, war eine heimliche Ver¬
-               <lb facs="#facs_2_region_1776575438063_617_tl_8" n="N008"/>schwörung dieser Künstler, das Coventgarden-Theater zu
-               <lb facs="#facs_2_region_1776575438063_617_tl_9" n="N009"/>miethen, um dort auf eigene Rechnung zu spielen. <rs type="person">Lumley</rs>
-               <lb facs="#facs_2_region_1776575438063_617_tl_10" n="N010"/>beschloß, dieser Concurrenz entgegenzutreten, suchte eine neue
-               <lb facs="#facs_2_region_1776575438063_617_tl_11" n="N011"/>Gesellschaft zusammen und gewann dafür zu seinem Glück
-               <lb facs="#facs_2_region_1776575438063_617_tl_12" n="N012"/>die Jenny <rs type="person">Lind</rs>. Mit dieser außerordentlichen Sängerin
-               <lb facs="#facs_2_region_1776575438063_617_tl_13" n="N013"/>und dem ihm treugebliebenen <rs type="person">Lablache</rs> eröffnete er die Saison
-               <lb facs="#facs_2_region_1776575438063_617_tl_14" n="N014"/>in Her Majesty’s. Gleichzeitig wirkten in Coventgarden die
-               <lb facs="#facs_2_region_1776575438063_617_tl_15" n="N015"/>gefeiertesten Künstler: <rs type="person">Mario</rs>, <rs type="person">Tamberlick</rs>, <rs type="person">Ronconi</rs>, die
-               <lb facs="#facs_2_region_1776575438063_617_tl_16" n="N016"/>
-               <rs type="person">Viardot</rs>, <rs type="person">Grisi</rs>, <rs type="person">Persiani</rs> u. A. Resultat dieses Kampfes war
-               <lb facs="#facs_2_region_1776575438063_617_tl_17" n="N017"/>der Bankerott beider Gesellschaften; profitirt hatte nur das
-               <lb facs="#facs_2_region_1776575438063_617_tl_18" n="N018"/>Publicum. Aber um ein Theater zu führen oder ein Jour¬
-               <lb facs="#facs_2_region_1776575438063_617_tl_19" n="N019"/>nal zu gründen, meint <rs type="person">Strakosch</rs>, findet man immer Geld.
-               <lb facs="#facs_2_region_1776575438063_617_tl_20" n="N020"/>Wirklich fand sich in der Person des Bierbrauers <hi rendition="#em">
-                  <rs type="person" continued="true">Dela¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1776575438063_617_tl_21" n="N021"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">field</rs>
-               </hi> ein sehr reicher Opern-Enthusiast, der den Muth hatte,
-               <lb facs="#facs_2_region_1776575438063_617_tl_22" n="N022"/>das sinkende Coventgarden-Theater zu übernehmen. Nach zwei
-               <lb facs="#facs_2_region_1776575438063_617_tl_23" n="N023"/>Saisons hatte er 2.500,000 Francs verloren und war ein
-               <lb facs="#facs_2_region_1776575438063_617_tl_24" n="N024"/>ruinirter Mann. Nun konnte wieder <rs type="person">Lumley</rs> triumphiren:
-               <lb facs="#facs_2_region_1776575438063_617_tl_25" n="N025"/>wurde Coventgarden gesperrt, so blieb sein Opernhaus das
-               <lb facs="#facs_2_region_1776575438063_617_tl_26" n="N026"/>einzige in <rs type="place">London</rs>. Allein es kam anders. Die Künstler
-               <lb facs="#facs_2_region_1776575438063_617_tl_27" n="N027"/>des Coventgarden-Theaters bildeten eine eigene Gesellschaft
-               <lb facs="#facs_2_region_1776575438063_617_tl_28" n="N028"/>und stellten einen energischen Director, Frederick <hi rendition="#em">
-                  <rs type="person">Gye</rs>
-               </hi>, an
-               <lb facs="#facs_2_region_1776575438063_617_tl_29" n="N029"/>ihre Spitze. In wenigen Jahren hatte <rs type="person">Gye</rs> dieses Opern¬
-               <lb facs="#facs_2_region_1776575438063_617_tl_30" n="N030"/>haus wieder hoch emporgebracht und zwang seinen Neben¬
-               <lb facs="#facs_2_region_1776575438063_617_tl_31" n="N031"/>buhler, Her Majesty’s Theater zu schließen. <rs type="person">Gye</rs> war vom
-               <lb facs="#facs_2_region_1776575438063_617_tl_32" n="N032"/>Administrator zum selbstständigen Chef von Coventgarden
-               <lb facs="#facs_2_region_1776575438063_617_tl_33" n="N033"/>avancirt, als ihm unversehens dasselbe widerfuhr, was früher
-               <lb facs="#facs_2_region_1776575438063_617_tl_34" n="N034"/>Herrn <rs type="person">Lumley</rs> geschehen war: seine besten Kräfte, <rs type="person">Mario</rs>
-               <lb facs="#facs_2_region_1776575438063_617_tl_35" n="N035"/>und die <rs type="person">Grisi</rs>, verließen ihn und traten zu einem Herrn
-               <lb facs="#facs_2_region_1776575438063_617_tl_36" n="N036"/>
-               <hi rendition="#em">
-                  <rs type="person">Smith</rs>
-               </hi> über, der sich anschickte, Her Majesty’s Theater zu
-               <lb facs="#facs_2_region_1776575438063_617_tl_37" n="N037"/>eröffnen. Dieser <rs type="person">Smith</rs> war nicht so reich, wie sein Vor¬
-               <lb facs="#facs_2_region_1776575438063_617_tl_38" n="N038"/>gänger <rs type="person">Delafield</rs>, aber ebenso unfähig. Indessen besaß er
-               <lb facs="#facs_2_region_1776575438063_617_tl_39" n="N039"/>Schlauheit genug, um sofort ein Anerbieten anzunehmen, das
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1776575441727_620_tl_1" n="N001"/>ihm <rs type="person">Gye</rs> im Geheimen machte. Dieser gab <rs type="person">Smith</rs> bare 100,000
-               <lb facs="#facs_2_region_1776575441727_620_tl_2" n="N002"/>Francs gegen das Versprechen, sein Theater gar nicht zu eröffnen.
-               <lb facs="#facs_2_region_1776575441727_620_tl_3" n="N003"/>Es ward ausgemacht, daß weder das Publicum noch die
-               <lb facs="#facs_2_region_1776575441727_620_tl_4" n="N004"/>Künstler von diesem Staatsstreiche früher Kenntniß erhalten
-               <lb facs="#facs_2_region_1776575441727_620_tl_5" n="N005"/>sollten, als im Augenblicke, wo <rs type="person">Smith</rs> sein Programm zu
-               <lb facs="#facs_2_region_1776575441727_620_tl_6" n="N006"/>veröffentlichen hatte. Anstatt des Programms annoncirte
-               <lb facs="#facs_2_region_1776575441727_620_tl_7" n="N007"/>Director <rs type="person">Smith</rs>, daß Her Majesty’s Theater — geschlossen
-               <lb facs="#facs_2_region_1776575441727_620_tl_8" n="N008"/>bleibe. Ohne den geringsten Scrupel überließ dieser geriebene
-               <lb facs="#facs_2_region_1776575441727_620_tl_9" n="N009"/>Speculant die von ihm engagirten Künstler, darunter
-               <lb facs="#facs_2_region_1776575441727_620_tl_10" n="N010"/>
-               <rs type="person">Mario</rs>, die <rs type="person">Grisi</rs> und die eben von<rs type="place"> Amerika</rs> herüber¬
-               <lb facs="#facs_2_region_1776575441727_620_tl_11" n="N011"/>gekommene Adelina <rs type="person">Patti</rs> ihrem Schicksal. Durch viele Jahre
-               <lb facs="#facs_2_region_1776575441727_620_tl_12" n="N012"/>strahlte nun die <rs type="place">italienisch</rs>e Oper des Coventgarden-Theaters
-               <lb facs="#facs_2_region_1776575441727_620_tl_13" n="N013"/>in höchstem Glanze. <rs type="person">Strakosch</rs> nennt den (kürzlich verstor¬
-               <lb facs="#facs_2_region_1776575441727_620_tl_14" n="N014"/>benen) Frederick <rs type="person">Gye</rs> das Muster eines Operndirectors;
-               <lb facs="#facs_2_region_1776575441727_620_tl_15" n="N015"/>hauptsächlich weil er nicht in den heute allgemeinen Fehler
-               <lb facs="#facs_2_region_1776575441727_620_tl_16" n="N016"/>verfiel, einzelnen „Sternen“ unmäßige Gagen zu zahlen. In
-               <lb facs="#facs_2_region_1776575441727_620_tl_17" n="N017"/>diesen kaum mehr zu erschwingenden Honoraren der ersten
-               <lb facs="#facs_2_region_1776575441727_620_tl_18" n="N018"/>Sänger erblickt <rs type="person">Strakosch</rs> die Hauptursache des überall ein¬
-               <lb facs="#facs_2_region_1776575441727_620_tl_19" n="N019"/>getretenen Niederganges der <rs type="place">italienisch</rs>en Oper. Die <rs type="person">Patti</rs>,
-               <lb facs="#facs_2_region_1776575441727_620_tl_20" n="N020"/>welche mit den übrigen Künstlern des Mr. <rs type="person">Smith</rs> vor den
-               <lb facs="#facs_2_region_1776575441727_620_tl_21" n="N021"/>verschlossenen Thoren von Her Majesty’s Theater stand,
-               <lb facs="#facs_2_region_1776575441727_620_tl_22" n="N022"/>wollte <rs type="person">Gye</rs> gar nicht engagiren. „Was soll mir das kaum
-               <lb facs="#facs_2_region_1776575441727_620_tl_23" n="N023"/>siebzehnjährige, total unbekannte Mädchen neben einer <rs type="person">Grisi</rs>
-               <lb facs="#facs_2_region_1776575441727_620_tl_24" n="N024"/>und <rs type="person">Miolan-Carvalho</rs>?“ Aber dem eigensinnigen <rs type="person">Gye</rs> stand
-               <lb facs="#facs_2_region_1776575441727_620_tl_26" n="N025"/>ein hartnäckiger <rs type="person">Strakosch</rs> gegenüber. Er bestand auf dem
-               <lb facs="#facs_2_region_1776575441727_620_tl_27" n="N026"/>Debit <rs type="person">Adelina</rs>’s. Endlich bewilligte <rs type="person">Gye</rs>, daß die Kleine
-               <lb facs="#facs_2_region_1776575441727_620_tl_29" n="N027"/>dreimal ohne die geringste Entschädigung auftreten dürfe;
-               <lb facs="#facs_2_region_1776575441727_620_tl_30" n="N028"/>gefällt sie, so wolle er sie für fünf Jahre mit einem lächer¬
-               <lb facs="#facs_2_region_1776575441727_620_tl_31" n="N029"/>lich geringen Honorar engagiren. Dieser Contract mußte
-               <lb facs="#facs_2_region_1776575441727_620_tl_32" n="N030"/>
-               <hi rendition="#em">vor</hi> dem Auftreten der <rs type="person">Patti</rs> unterzeichnet werden, und er
-               <lb facs="#facs_2_region_1776575441727_620_tl_33" n="N031"/>wurde — trotz ihres unerhörten Erfolges — gewissenhaft
-               <lb facs="#facs_2_region_1776575441727_620_tl_34" n="N032"/>durch fünf Jahre eingehalten. Uebrigens hat <rs type="person">Gye</rs> auch später
-               <lb facs="#facs_2_region_1776575441727_620_tl_35" n="N033"/>der <rs type="person">Patti</rs> — bis zu ihrer Heirat mit <rs type="person">de Caux</rs> — niemals
-               <lb facs="#facs_2_region_1776575441727_620_tl_36" n="N034"/>mehr als 3000 Francs per Abend bezahlt. (Vor zwei Jahren
-               <lb facs="#facs_2_region_1776575441727_620_tl_37" n="N035"/>bezog die <rs type="person">Patti</rs> in <rs type="place">Amerika</rs> für jede Vorstellung 25,000
-               <lb facs="#facs_2_region_1776575441727_620_tl_38" n="N036"/>Francs !) Auch <rs type="person">Mario</rs> und die <rs type="person">Grisi</rs> haben im Zenith ihres
-               <lb facs="#facs_2_region_1776575441727_620_tl_39" n="N037"/>Ruhmes von <rs type="person">Gye</rs> nicht mehr als 1250 Francs für den
-               <lb facs="#facs_2_region_1776575441727_620_tl_40" n="N038"/>Abend erhalten. Nach <rs type="person">Gye</rs>’s Tode führte dessen Sohn
-               <lb facs="#facs_2_region_1776575441727_620_tl_41" n="N039"/>Ernest <hi rendition="#em">
-                  <rs type="person">Gye</rs>
-               </hi> in neuester Zeit die Idee seines Vaters aus,
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776575441727_620_tl_1" n="N001"/>ihm <rs type="person">Gye</rs> im Geheimen machte. Dieser gab <rs type="person">Smith</rs> bare 100,000
+         <lb facs="#facs_2_region_1776575441727_620_tl_2" n="N002"/>Francs gegen das Versprechen, sein Theater gar nicht zu eröffnen.
+         <lb facs="#facs_2_region_1776575441727_620_tl_3" n="N003"/>Es ward ausgemacht, daß weder das Publicum noch die
+         <lb facs="#facs_2_region_1776575441727_620_tl_4" n="N004"/>Künstler von diesem Staatsstreiche früher Kenntniß erhalten
+         <lb facs="#facs_2_region_1776575441727_620_tl_5" n="N005"/>sollten, als im Augenblicke, wo <rs type="person">Smith</rs> sein Programm zu
+         <lb facs="#facs_2_region_1776575441727_620_tl_6" n="N006"/>veröffentlichen hatte. Anstatt des Programms annoncirte
+         <lb facs="#facs_2_region_1776575441727_620_tl_7" n="N007"/>Director <rs type="person">Smith</rs>, daß Her Majesty’s Theater — geschlossen
+         <lb facs="#facs_2_region_1776575441727_620_tl_8" n="N008"/>bleibe. Ohne den geringsten Scrupel überließ dieser geriebene
+         <lb facs="#facs_2_region_1776575441727_620_tl_9" n="N009"/>Speculant die von ihm engagirten Künstler, darunter
+         <lb facs="#facs_2_region_1776575441727_620_tl_10" n="N010"/><rs type="person">Mario</rs>, die <rs type="person">Grisi</rs> und die eben von<rs type="place"> Amerika</rs> herüber
+         <lb facs="#facs_2_region_1776575441727_620_tl_11" n="N011" break="no"/>gekommene Adelina <rs type="person">Patti</rs> ihrem Schicksal. Durch viele Jahre
+         <lb facs="#facs_2_region_1776575441727_620_tl_12" n="N012"/>strahlte nun die <rs type="place">italienisch</rs>e Oper des Coventgarden-Theaters
+         <lb facs="#facs_2_region_1776575441727_620_tl_13" n="N013"/>in höchstem Glanze. <rs type="person">Strakosch</rs> nennt den (kürzlich verstor
+         <lb facs="#facs_2_region_1776575441727_620_tl_14" n="N014" break="no"/>benen) Frederick <rs type="person">Gye</rs> das Muster eines Operndirectors;
+         <lb facs="#facs_2_region_1776575441727_620_tl_15" n="N015"/>hauptsächlich weil er nicht in den heute allgemeinen Fehler
+         <lb facs="#facs_2_region_1776575441727_620_tl_16" n="N016"/>verfiel, einzelnen „Sternen“ unmäßige Gagen zu zahlen. In
+         <lb facs="#facs_2_region_1776575441727_620_tl_17" n="N017"/>diesen kaum mehr zu erschwingenden Honoraren der ersten
+         <lb facs="#facs_2_region_1776575441727_620_tl_18" n="N018"/>Sänger erblickt <rs type="person">Strakosch</rs> die Hauptursache des überall ein
+         <lb facs="#facs_2_region_1776575441727_620_tl_19" n="N019" break="no"/>getretenen Niederganges der <rs type="place">italienisch</rs>en Oper. Die <rs type="person">Patti</rs>,
+         <lb facs="#facs_2_region_1776575441727_620_tl_20" n="N020"/>welche mit den übrigen Künstlern des Mr. <rs type="person">Smith</rs> vor den
+         <lb facs="#facs_2_region_1776575441727_620_tl_21" n="N021"/>verschlossenen Thoren von Her Majesty’s Theater stand,
+         <lb facs="#facs_2_region_1776575441727_620_tl_22" n="N022"/>wollte <rs type="person">Gye</rs> gar nicht engagiren. „Was soll mir das kaum
+         <lb facs="#facs_2_region_1776575441727_620_tl_23" n="N023"/>siebzehnjährige, total unbekannte Mädchen neben einer <rs type="person">Grisi</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1776575441727_620_tl_24" n="N024"/>und <rs type="person">Miolan-Carvalho</rs>?“ Aber dem eigensinnigen <rs type="person">Gye</rs> stand
+         <lb facs="#facs_2_region_1776575441727_620_tl_26" n="N025"/>ein hartnäckiger <rs type="person">Strakosch</rs> gegenüber. Er bestand auf dem
+         <lb facs="#facs_2_region_1776575441727_620_tl_27" n="N026"/>Debit <rs type="person">Adelina</rs>’s. Endlich bewilligte <rs type="person">Gye</rs>, daß die Kleine
+         <lb facs="#facs_2_region_1776575441727_620_tl_29" n="N027"/>dreimal ohne die geringste Entschädigung auftreten dürfe;
+         <lb facs="#facs_2_region_1776575441727_620_tl_30" n="N028"/>gefällt sie, so wolle er sie für fünf Jahre mit einem lächer
+         <lb facs="#facs_2_region_1776575441727_620_tl_31" n="N029" break="no"/>lich geringen Honorar engagiren. Dieser Contract mußte
+         <lb facs="#facs_2_region_1776575441727_620_tl_32" n="N030"/><hi rendition="#em">vor</hi> dem Auftreten der <rs type="person">Patti</rs> unterzeichnet werden, und er
+         <lb facs="#facs_2_region_1776575441727_620_tl_33" n="N031"/>wurde — trotz ihres unerhörten Erfolges — gewissenhaft
+         <lb facs="#facs_2_region_1776575441727_620_tl_34" n="N032"/>durch fünf Jahre eingehalten. Uebrigens hat <rs type="person">Gye</rs> auch später
+         <lb facs="#facs_2_region_1776575441727_620_tl_35" n="N033"/>der <rs type="person">Patti</rs> — bis zu ihrer Heirat mit <rs type="person">de Caux</rs> — niemals
+         <lb facs="#facs_2_region_1776575441727_620_tl_36" n="N034"/>mehr als 3000 Francs per Abend bezahlt. (Vor zwei Jahren
+         <lb facs="#facs_2_region_1776575441727_620_tl_37" n="N035"/>bezog die <rs type="person">Patti</rs> in <rs type="place">Amerika</rs> für jede Vorstellung 25,000
+         <lb facs="#facs_2_region_1776575441727_620_tl_38" n="N036"/>Francs !) Auch <rs type="person">Mario</rs> und die <rs type="person">Grisi</rs> haben im Zenith ihres
+         <lb facs="#facs_2_region_1776575441727_620_tl_39" n="N037"/>Ruhmes von <rs type="person">Gye</rs> nicht mehr als 1250 Francs für den
+         <lb facs="#facs_2_region_1776575441727_620_tl_40" n="N038"/>Abend erhalten. Nach <rs type="person">Gye</rs>’s Tode führte dessen Sohn
+         <lb facs="#facs_2_region_1776575441727_620_tl_41" n="N039"/>Ernest <hi rendition="#em"><rs type="person">Gye</rs></hi> in neuester Zeit die Idee seines Vaters aus,<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1776575450637_626_tl_1" n="N001"/>Her Majesty’s Theater, das unter Herrn <hi rendition="#em"><rs type="person">Mapleson</rs></hi> (mit
+         <lb facs="#facs_3_region_1776575450637_626_tl_2" n="N002"/>der <hi rendition="#em"><rs type="person">Tietjens</rs></hi> als Primadonna) wieder zu floriren be
+         <lb facs="#facs_3_region_1776575450637_626_tl_3" n="N003" break="no"/>gann, ihm abzukaufen, so daß die <rs type="place">italienisch</rs>e Oper in
+         <lb facs="#facs_3_region_1776575450637_626_tl_4" n="N004"/><hi rendition="#em">Coventgarden</hi> wieder ohne Rivalen dastand. E. <rs type="person">Gye</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776575450637_626_tl_5" n="N005"/>vereinigte eine ganze Milchstraße von „Sternen“ und brachte
+         <lb facs="#facs_3_region_1776575450637_626_tl_6" n="N006"/>viele interessante Novitäten. Trotzdem machte das Unter
+         <lb facs="#facs_3_region_1776575450637_626_tl_7" n="N007" break="no"/>nehmen Bankerott, nicht etwa durch Theilnahmslosigkeit
+         <lb facs="#facs_3_region_1776575450637_626_tl_8" n="N008"/>des Publicums, sondern weil die Unkosten regelmäßig die
+         <lb facs="#facs_3_region_1776575450637_626_tl_9" n="N009"/>Einnahmen überstiegen. Ein Theater faßt nur eine bestimmte
+         <lb facs="#facs_3_region_1776575450637_626_tl_10" n="N010"/>Anzahl von Zuschauern; erhöht man die Gagen der Künstler,
+         <lb facs="#facs_3_region_1776575450637_626_tl_11" n="N011"/>so müßte man gleichmäßig den Fassungsraum des Theaters
+         <lb facs="#facs_3_region_1776575450637_626_tl_12" n="N012"/>vergrößern. Das vermag aber kein Architekt. Hätte Herr
+         <lb facs="#facs_3_region_1776575450637_626_tl_13" n="N013"/>Ernest <rs type="person">Gye</rs> diese Wahrheit begriffen, wir würden nimmer
+         <lb facs="#facs_3_region_1776575450637_626_tl_14" n="N014" break="no"/>mehr die jetzige abscheuliche Verwandlung der berühmtesten
+         <lb facs="#facs_3_region_1776575450637_626_tl_15" n="N015"/><rs type="place">italinisch</rs>en Opernbühne in einen Circus erlebt haben.
+            </p><p>
+         <lb facs="#facs_3_region_1776575450637_626_tl_16" n="N016"/>Von <rs type="place">Amerika</rs> stammen die enormen Sängerhonorare,
+         <lb facs="#facs_3_region_1776575450637_626_tl_17" n="N017"/>welche in der alten wie in der neuen Welt das Verderben
+         <lb facs="#facs_3_region_1776575450637_626_tl_18" n="N018"/>der Theater-Unternehmer geworden sind und das der <rs type="place">Italie
+         <lb facs="#facs_3_region_1776575450637_626_tl_19" n="N019" break="no"/>nisch</rs>en Oper selbst. Ein Millionär aus der <rs type="place">Havana</rs>, Namens
+         <lb facs="#facs_3_region_1776575450637_626_tl_20" n="N020"/><hi rendition="#em"><rs type="person">Marty</rs></hi>, war der Erste, der in einem auf seine Kosten er
+         <lb facs="#facs_3_region_1776575450637_626_tl_21" n="N021" break="no"/>bauten Theater <rs type="place">italienisch</rs>e Vorstellungen gab. Er verdankte
+         <lb facs="#facs_3_region_1776575450637_626_tl_22" n="N022"/>seinen außerordentlichen Reichthum dem seltsamen Privile
+         <lb facs="#facs_3_region_1776575450637_626_tl_23" n="N023" break="no"/>gium, auf der Insel <rs type="place">Cuba</rs> allein Fische verkaufen zu dürfen.
+         <lb facs="#facs_3_region_1776575450637_626_tl_24" n="N024"/><rs type="person">Marty</rs> zog mit seinen <rs type="place">italienisch</rs>en Sängern von der <rs type="place">Havana</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776575450637_626_tl_25" n="N025"/>nach <rs type="place">Newyork</rs>, wo sie in Castle Garden, einem 10,000 Zu
+         <lb facs="#facs_3_region_1776575450637_626_tl_26" n="N026" break="no"/>hörer fassenden Saale, ihre ersten Vorstellungen gaben. Von
+         <lb facs="#facs_3_region_1776575450637_626_tl_27" n="N027"/>da datirt der Geschmack der Amerikaner an der <rs type="place">italienisch</rs>en
+         <lb facs="#facs_3_region_1776575450637_626_tl_28" n="N028"/>Oper. Nachdem Castle Garden eigentlich nur für Concerte
+         <lb facs="#facs_3_region_1776575450637_626_tl_29" n="N029"/>geeignet war, baute <rs type="person">Marty</rs> ein neues, passenderes Theater,
+         <lb facs="#facs_3_region_1776575450637_626_tl_30" n="N030"/>das „Astor place Opera House“, das in den ersten zwei
+         <lb facs="#facs_3_region_1776575450637_626_tl_31" n="N031"/>Jahren von Salvatore <rs type="person">Patti</rs> dirigirt wurde. Bis dahin
+         <lb facs="#facs_3_region_1776575450637_626_tl_32" n="N032"/>(<date>1846</date>) hatte noch keine regelmäßig organisirte <rs type="place">Italienisch</rs>e
+         <lb facs="#facs_3_region_1776575450637_626_tl_33" n="N033"/>Oper in <rs type="place">Newyork</rs> stattgefunden. Nach dem Bankerott Sal
+         <lb facs="#facs_3_region_1776575450637_626_tl_34" n="N034" break="no"/>vatore <rs type="person">Patt</rs>i’s fanden Herr <hi rendition="#em"><rs type="person">Fry</rs></hi> und nach ihm ein Vetter
+         <lb facs="#facs_3_region_1776575450637_626_tl_35" n="N035"/>von <rs type="person">Strakosch</rs>, <hi rendition="#em"><rs type="person">Maretzek</rs></hi>, in diesem Unternehmen das
+         <lb facs="#facs_3_region_1776575450637_626_tl_36" n="N036"/>gleiche Schicksal. Nach solchen Erfahrungen hätte man an
+         <lb facs="#facs_3_region_1776575450637_626_tl_37" n="N037"/>das Ende der <rs type="place">italienisch</rs>en Oper in <rs type="place">Newyork</rs> glauben sollen.
+         <lb facs="#facs_3_region_1776575450637_626_tl_38" n="N038"/>Das Gegentheil geschah; reiche Kunstfreunde bauten ein neues
+         <lb facs="#facs_3_region_1776575450637_626_tl_39" n="N039"/>Operntheater, die „Academy of Music“. Moriz <rs type="person">Strakosch</rs><space quantity="1" unit="char"/></p>
             <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1776575450637_626_tl_1" n="N001"/>Her Majesty’s Theater, das unter Herrn <hi rendition="#em">
-                  <rs type="person">Mapleson</rs>
-               </hi> (mit
-               <lb facs="#facs_3_region_1776575450637_626_tl_2" n="N002"/>der <hi rendition="#em">
-                  <rs type="person">Tietjens</rs>
-               </hi> als Primadonna) wieder zu floriren be¬
-               <lb facs="#facs_3_region_1776575450637_626_tl_3" n="N003"/>gann, ihm abzukaufen, so daß die <rs type="place">italienisch</rs>e Oper in
-               <lb facs="#facs_3_region_1776575450637_626_tl_4" n="N004"/>
-               <hi rendition="#em">Coventgarden</hi> wieder ohne Rivalen dastand. E. <rs type="person">Gye</rs>
-               <lb facs="#facs_3_region_1776575450637_626_tl_5" n="N005"/>vereinigte eine ganze Milchstraße von „Sternen“ und brachte
-               <lb facs="#facs_3_region_1776575450637_626_tl_6" n="N006"/>viele interessante Novitäten. Trotzdem machte das Unter¬
-               <lb facs="#facs_3_region_1776575450637_626_tl_7" n="N007"/>nehmen Bankerott, nicht etwa durch Theilnahmslosigkeit
-               <lb facs="#facs_3_region_1776575450637_626_tl_8" n="N008"/>des Publicums, sondern weil die Unkosten regelmäßig die
-               <lb facs="#facs_3_region_1776575450637_626_tl_9" n="N009"/>Einnahmen überstiegen. Ein Theater faßt nur eine bestimmte
-               <lb facs="#facs_3_region_1776575450637_626_tl_10" n="N010"/>Anzahl von Zuschauern; erhöht man die Gagen der Künstler,
-               <lb facs="#facs_3_region_1776575450637_626_tl_11" n="N011"/>so müßte man gleichmäßig den Fassungsraum des Theaters
-               <lb facs="#facs_3_region_1776575450637_626_tl_12" n="N012"/>vergrößern. Das vermag aber kein Architekt. Hätte Herr
-               <lb facs="#facs_3_region_1776575450637_626_tl_13" n="N013"/>Ernest <rs type="person">Gye</rs> diese Wahrheit begriffen, wir würden nimmer¬
-               <lb facs="#facs_3_region_1776575450637_626_tl_14" n="N014"/>mehr die jetzige abscheuliche Verwandlung der berühmtesten
-               <lb facs="#facs_3_region_1776575450637_626_tl_15" n="N015"/>
-               <rs type="place">italinisch</rs>en Opernbühne in einen Circus erlebt haben.
-               <lb facs="#facs_3_region_1776575450637_626_tl_16" n="N016"/>Von <rs type="place">Amerika</rs> stammen die enormen Sängerhonorare,
-               <lb facs="#facs_3_region_1776575450637_626_tl_17" n="N017"/>welche in der alten wie in der neuen Welt das Verderben
-               <lb facs="#facs_3_region_1776575450637_626_tl_18" n="N018"/>der Theater-Unternehmer geworden sind und das der <rs type="place" continued="true">Italie¬</rs>
-               <lb facs="#facs_3_region_1776575450637_626_tl_19" n="N019"/>
-               <rs type="place" continued="true">nisch</rs>en Oper selbst. Ein Millionär aus der <rs type="place">Havana</rs>, Namens
-               <lb facs="#facs_3_region_1776575450637_626_tl_20" n="N020"/>
-               <hi rendition="#em">
-                  <rs type="person">Marty</rs>
-               </hi>, war der Erste, der in einem auf seine Kosten er¬
-               <lb facs="#facs_3_region_1776575450637_626_tl_21" n="N021"/>bauten Theater <rs type="place">italienisch</rs>e Vorstellungen gab. Er verdankte
-               <lb facs="#facs_3_region_1776575450637_626_tl_22" n="N022"/>seinen außerordentlichen Reichthum dem seltsamen Privile¬
-               <lb facs="#facs_3_region_1776575450637_626_tl_23" n="N023"/>gium, auf der Insel <rs type="place">Cuba</rs> allein Fische verkaufen zu dürfen.
-               <lb facs="#facs_3_region_1776575450637_626_tl_24" n="N024"/>
-               <rs type="person">Marty</rs> zog mit seinen <rs type="place">italienisch</rs>en Sängern von der <rs type="place">Havana</rs>
-               <lb facs="#facs_3_region_1776575450637_626_tl_25" n="N025"/>nach <rs type="place">Newyork</rs>, wo sie in Castle Garden, einem 10,000 Zu¬
-               <lb facs="#facs_3_region_1776575450637_626_tl_26" n="N026"/>hörer fassenden Saale, ihre ersten Vorstellungen gaben. Von
-               <lb facs="#facs_3_region_1776575450637_626_tl_27" n="N027"/>da datirt der Geschmack der Amerikaner an der <rs type="place">italienisch</rs>en
-               <lb facs="#facs_3_region_1776575450637_626_tl_28" n="N028"/>Oper. Nachdem Castle Garden eigentlich nur für Concerte
-               <lb facs="#facs_3_region_1776575450637_626_tl_29" n="N029"/>geeignet war, baute <rs type="person">Marty</rs> ein neues, passenderes Theater,
-               <lb facs="#facs_3_region_1776575450637_626_tl_30" n="N030"/>das „Astor place Opera House“, das in den ersten zwei
-               <lb facs="#facs_3_region_1776575450637_626_tl_31" n="N031"/>Jahren von Salvatore <rs type="person">Patti</rs> dirigirt wurde. Bis dahin
-               <lb facs="#facs_3_region_1776575450637_626_tl_32" n="N032"/>(<date>1846</date>) hatte noch keine regelmäßig organisirte <rs type="place">Italienisch</rs>e
-               <lb facs="#facs_3_region_1776575450637_626_tl_33" n="N033"/>Oper in <rs type="place">Newyork</rs> stattgefunden. Nach dem Bankerott Sal¬
-               <lb facs="#facs_3_region_1776575450637_626_tl_34" n="N034"/>vatore <rs type="person">Patt</rs>i’s fanden Herr <hi rendition="#em">
-                  <rs type="person">Fry</rs>
-               </hi> und nach ihm ein Vetter
-               <lb facs="#facs_3_region_1776575450637_626_tl_35" n="N035"/>von <rs type="person">Strakosch</rs>, <hi rendition="#em">
-                  <rs type="person">Maretzek</rs>
-               </hi>, in diesem Unternehmen das
-               <lb facs="#facs_3_region_1776575450637_626_tl_36" n="N036"/>gleiche Schicksal. Nach solchen Erfahrungen hätte man an
-               <lb facs="#facs_3_region_1776575450637_626_tl_37" n="N037"/>das Ende der <rs type="place">italienisch</rs>en Oper in <rs type="place">Newyork</rs> glauben sollen.
-               <lb facs="#facs_3_region_1776575450637_626_tl_38" n="N038"/>Das Gegentheil geschah; reiche Kunstfreunde bauten ein neues
-               <lb facs="#facs_3_region_1776575450637_626_tl_39" n="N039"/>Operntheater, die „Academy of Music“. Moriz <rs type="person">Strakosch</rs>
-            </p>
+            <p prev="true">
+         <lb facs="#facs_3_region_1776575454190_629_tl_1" n="N001"/>übernahm gemeinsam mit B. <rs type="person">Ulmann</rs> die Direction und
+         <lb facs="#facs_3_region_1776575454190_629_tl_2" n="N002"/>setzte trotz der mißtrauischen Opposition <rs type="person">Ulmann</rs>’s das erste
+         <lb facs="#facs_3_region_1776575454190_629_tl_3" n="N003"/>Auftreten der <rs type="person">Patti</rs> durch. Jetzt besitzt <rs type="place">Newyork</rs> zwei große,
+         <lb facs="#facs_3_region_1776575454190_629_tl_4" n="N004"/>der <rs type="place">italienisch</rs>en Oper gewidmete Theater, deren jedes 3000
+         <lb facs="#facs_3_line_1783343979774_117" n="N005"/>bis 4000 Zuschauer faßt: die Musik-Akadmie und das
+         <lb facs="#facs_3_line_1783343982888_120" n="N006"/>„Metropolitan Opera House“. Die Idee zu letzterem
+         <lb facs="#facs_3_region_1776575454190_629_tl_7" n="N007"/>stammt von Moriz <rs type="person">Strakosch</rs>. Der dafür projectirte
+         <lb facs="#facs_3_region_1776575454190_629_tl_8" n="N008"/>Baugrund gehörte dem kürzlich verstorbenen reichsten
+         <lb facs="#facs_3_region_1776575454190_629_tl_9" n="N009"/>Amerikaner <hi rendition="#em"><rs type="person">Vanderbilt</rs></hi> und war von diesem für
+         <lb facs="#facs_3_region_1776575454190_629_tl_10" n="N010"/>300,000 Dollars zugesagt worden. Als aber <rs type="person">Strakosch</rs>, mit
+         <lb facs="#facs_3_region_1776575454190_629_tl_11" n="N011"/>den nöthigen Fonds versehen, sich einfand, um den Contract
+         <lb facs="#facs_3_region_1776575454190_629_tl_12" n="N012"/>zu unterzeichnen, erklärte <rs type="person">Vanderbilt</rs> den Verkauf für unaus
+         <lb facs="#facs_3_region_1776575454190_629_tl_13" n="N013" break="no"/>führbar. Dem projectirten Theater gerade gegenüber befand
+         <lb facs="#facs_3_region_1776575454190_629_tl_14" n="N014"/>sich nämlich eine Kirche; der Geistliche derselben beschwor
+         <lb facs="#facs_3_region_1776575454190_629_tl_15" n="N015"/><rs type="person">Vanderbilt</rs>, er möge auf seinem Grunde eine solche Concur
+         <lb facs="#facs_3_region_1776575454190_629_tl_16" n="N016" break="no"/>renz zwischen dem Guten und dem Bösen nimmermehr ge
+         <lb facs="#facs_3_region_1776575454190_629_tl_17" n="N017" break="no"/>statten. Wahrscheinlich befürchtete <rs type="person">Vanderbilt</rs> selbst den Sieg
+         <lb facs="#facs_3_region_1776575454190_629_tl_18" n="N018"/>des Theaters über die Kirche und machte lieber den Verkauf
+         <lb facs="#facs_3_region_1776575454190_629_tl_19" n="N019"/>rückgängig, um nur den Platz im Himmel nicht zu gefähr
+         <lb facs="#facs_3_region_1776575454190_629_tl_20" n="N020" break="no"/>den, den er jetzt hoffentlich einnimmt. Einige Jahre später
+         <lb facs="#facs_3_region_1776575454190_629_tl_21" n="N021"/>ist <rs type="person">Strakosch</rs>’s Project auf einem andern Platze von einer
+         <lb facs="#facs_3_region_1776575454190_629_tl_22" n="N022"/>Gesellschaft von Actionären ausgeführt worden. Es wurde mit
+         <lb facs="#facs_3_region_1776575454190_629_tl_23" n="N023"/>glänzendem Erfolge unter der Direction von Henry <hi rendition="#em"><rs type="person">Abbey</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776575454190_629_tl_24" n="N024"/>eröffnet, den die Amerikaner den „<rs type="person">Napoleon</rs> der Theater-
+         <lb facs="#facs_3_region_1776575454190_629_tl_25" n="N025"/>Directoren“ nennen. Er stattete die Oper mit unerhörtem
+         <lb facs="#facs_3_region_1776575454190_629_tl_26" n="N026"/>Luxus aus, bewilligte die riesigsten Sänger-Honorare und
+         <lb facs="#facs_3_region_1776575454190_629_tl_27" n="N027"/>hatte an <hi rendition="#em">täglichen</hi> Unkosten 40,000 Francs zu zahlen.
+         <lb facs="#facs_3_region_1776575454190_629_tl_28" n="N028"/>Das Theater blieb stets gut besucht; trotzdem schloß <rs type="person">Abbey</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776575454190_629_tl_29" n="N029"/>die Saison mit einem Verlust von mehr als anderthalb Mil
+         <lb facs="#facs_3_region_1776575454190_629_tl_30" n="N030" break="no"/>lionen. Es that ihm nicht übermäßig weh; außer einem
+         <lb facs="#facs_3_region_1776575454190_629_tl_31" n="N031"/>Theater in <rs type="place">Boston</rs> und einem in <rs type="place">Chicago</rs> besaß <rs type="person">Abbey</rs> noch
+         <lb facs="#facs_3_region_1776575454190_629_tl_32" n="N032"/>zwei in <rs type="place">Newyork</rs>, und während seine Kasse im Opernhause
+         <lb facs="#facs_3_region_1776575454190_629_tl_33" n="N033"/>sich leerte, füllte sie sich in seinem Star-Theater, wo <rs type="person">Irving</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776575454190_629_tl_34" n="N034"/>und die Ellen <rs type="person">Terry</rs> das Publicum entzückten. Aber die
+         <lb facs="#facs_3_region_1776575454190_629_tl_35" n="N035"/>Oper im Metropolitan House wollte er nach solchen Er
+         <lb facs="#facs_3_region_1776575454190_629_tl_36" n="N036" break="no"/>fahrungen nicht wieder übernehmen. Auch <rs type="person">Strakosch</rs>,
+         <lb facs="#facs_3_region_1776575454190_629_tl_37" n="N037"/>dem man sie antrug, lehnte ab, und so entschlossen
+         <lb facs="#facs_3_region_1776575454190_629_tl_38" n="N038"/>sich die Actionäre, anstatt der <rs type="place">italienisch</rs>en Opernvorstel
+         <lb facs="#facs_3_region_1776575454190_629_tl_39" n="N039" break="no"/>lungen <rs type="place">deutsch</rs>e unter der Direction von L. <hi rendition="#em"><rs type="person">Damrosch</rs></hi><space quantity="1" unit="char"/></p>
             <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1776575454190_629_tl_1" n="N001"/>übernahm gemeinsam mit B. <rs type="person">Ulmann</rs> die Direction und
-               <lb facs="#facs_3_region_1776575454190_629_tl_2" n="N002"/>setzte trotz der mißtrauischen Opposition <rs type="person">Ulmann</rs>’s das erste
-               <lb facs="#facs_3_region_1776575454190_629_tl_3" n="N003"/>Auftreten der <rs type="person">Patti</rs> durch. Jetzt besitzt <rs type="place">Newyork</rs> zwei große,
-               <lb facs="#facs_3_region_1776575454190_629_tl_4" n="N004"/>der <rs type="place">italienisch</rs>en Oper gewidmete Theater, deren jedes 3000
-               <lb facs="#facs_3_line_1783343979774_117" n="N005"/>bis 4000 Zuschauer faßt: die Musik-Akadmie und das
-               <lb facs="#facs_3_line_1783343982888_120" n="N006"/>„Metropolitan Opera House“. Die Idee zu letzterem
-               <lb facs="#facs_3_region_1776575454190_629_tl_7" n="N007"/>stammt von Moriz <rs type="person">Strakosch</rs>. Der dafür projectirte
-               <lb facs="#facs_3_region_1776575454190_629_tl_8" n="N008"/>Baugrund gehörte dem kürzlich verstorbenen reichsten
-               <lb facs="#facs_3_region_1776575454190_629_tl_9" n="N009"/>Amerikaner <hi rendition="#em">
-                  <rs type="person">Vanderbilt</rs>
-               </hi> und war von diesem für
-               <lb facs="#facs_3_region_1776575454190_629_tl_10" n="N010"/>300,000 Dollars zugesagt worden. Als aber <rs type="person">Strakosch</rs>, mit
-               <lb facs="#facs_3_region_1776575454190_629_tl_11" n="N011"/>den nöthigen Fonds versehen, sich einfand, um den Contract
-               <lb facs="#facs_3_region_1776575454190_629_tl_12" n="N012"/>zu unterzeichnen, erklärte <rs type="person">Vanderbilt</rs> den Verkauf für unaus¬
-               <lb facs="#facs_3_region_1776575454190_629_tl_13" n="N013"/>führbar. Dem projectirten Theater gerade gegenüber befand
-               <lb facs="#facs_3_region_1776575454190_629_tl_14" n="N014"/>sich nämlich eine Kirche; der Geistliche derselben beschwor
-               <lb facs="#facs_3_region_1776575454190_629_tl_15" n="N015"/>
-               <rs type="person">Vanderbilt</rs>, er möge auf seinem Grunde eine solche Concur¬
-               <lb facs="#facs_3_region_1776575454190_629_tl_16" n="N016"/>renz zwischen dem Guten und dem Bösen nimmermehr ge¬
-               <lb facs="#facs_3_region_1776575454190_629_tl_17" n="N017"/>statten. Wahrscheinlich befürchtete <rs type="person">Vanderbilt</rs> selbst den Sieg
-               <lb facs="#facs_3_region_1776575454190_629_tl_18" n="N018"/>des Theaters über die Kirche und machte lieber den Verkauf
-               <lb facs="#facs_3_region_1776575454190_629_tl_19" n="N019"/>rückgängig, um nur den Platz im Himmel nicht zu gefähr¬
-               <lb facs="#facs_3_region_1776575454190_629_tl_20" n="N020"/>den, den er jetzt hoffentlich einnimmt. Einige Jahre später
-               <lb facs="#facs_3_region_1776575454190_629_tl_21" n="N021"/>ist <rs type="person">Strakosch</rs>’s Project auf einem andern Platze von einer
-               <lb facs="#facs_3_region_1776575454190_629_tl_22" n="N022"/>Gesellschaft von Actionären ausgeführt worden. Es wurde mit
-               <lb facs="#facs_3_region_1776575454190_629_tl_23" n="N023"/>glänzendem Erfolge unter der Direction von Henry <hi rendition="#em">
-                  <rs type="person">Abbey</rs>
-               </hi>
-               <lb facs="#facs_3_region_1776575454190_629_tl_24" n="N024"/>eröffnet, den die Amerikaner den „<rs type="person">Napoleon</rs> der Theater-
-               <lb facs="#facs_3_region_1776575454190_629_tl_25" n="N025"/>Directoren“ nennen. Er stattete die Oper mit unerhörtem
-               <lb facs="#facs_3_region_1776575454190_629_tl_26" n="N026"/>Luxus aus, bewilligte die riesigsten Sänger-Honorare und
-               <lb facs="#facs_3_region_1776575454190_629_tl_27" n="N027"/>hatte an <hi rendition="#em">täglichen</hi> Unkosten 40,000 Francs zu zahlen.
-               <lb facs="#facs_3_region_1776575454190_629_tl_28" n="N028"/>Das Theater blieb stets gut besucht; trotzdem schloß <rs type="person">Abbey</rs>
-               <lb facs="#facs_3_region_1776575454190_629_tl_29" n="N029"/>die Saison mit einem Verlust von mehr als anderthalb Mil¬
-               <lb facs="#facs_3_region_1776575454190_629_tl_30" n="N030"/>lionen. Es that ihm nicht übermäßig weh; außer einem
-               <lb facs="#facs_3_region_1776575454190_629_tl_31" n="N031"/>Theater in <rs type="place">Boston</rs> und einem in <rs type="place">Chicago</rs> besaß <rs type="person">Abbey</rs> noch
-               <lb facs="#facs_3_region_1776575454190_629_tl_32" n="N032"/>zwei in <rs type="place">Newyork</rs>, und während seine Kasse im Opernhause
-               <lb facs="#facs_3_region_1776575454190_629_tl_33" n="N033"/>sich leerte, füllte sie sich in seinem Star-Theater, wo <rs type="person">Irving</rs>
-               <lb facs="#facs_3_region_1776575454190_629_tl_34" n="N034"/>und die Ellen <rs type="person">Terry</rs> das Publicum entzückten. Aber die
-               <lb facs="#facs_3_region_1776575454190_629_tl_35" n="N035"/>Oper im Metropolitan House wollte er nach solchen Er¬
-               <lb facs="#facs_3_region_1776575454190_629_tl_36" n="N036"/>fahrungen nicht wieder übernehmen. Auch <rs type="person">Strakosch</rs>,
-               <lb facs="#facs_3_region_1776575454190_629_tl_37" n="N037"/>dem man sie antrug, lehnte ab, und so entschlossen
-               <lb facs="#facs_3_region_1776575454190_629_tl_38" n="N038"/>sich die Actionäre, anstatt der <rs type="place">italienisch</rs>en Opernvorstel¬
-               <lb facs="#facs_3_region_1776575454190_629_tl_39" n="N039"/>lungen <rs type="place">deutsch</rs>e unter der Direction von L. <hi rendition="#em">
-                  <rs type="person">Damrosch</rs>
-               </hi>
-            </p>
-            <cb n="10"/>
-            <p>
-               <lb facs="#facs_3_region_1776575458621_632_tl_1" n="N001"/>zu geben. Die erste Saison schloß mit einem Deficit von
-               <lb facs="#facs_3_region_1776575458621_632_tl_2" n="N002"/>500,000, die zweite sogar von 900,000 Francs. Zum Glück
-               <lb facs="#facs_3_region_1776575458621_632_tl_3" n="N003"/>sind die Millionäre, welche die Gesellschaft der Metropolitan-
-               <lb facs="#facs_3_region_1776575458621_632_tl_4" n="N004"/>Oper bilden, nicht sehr empfindlich für solchen Verlust, der,
-               <lb facs="#facs_3_region_1776575458621_632_tl_5" n="N005"/>unter sie vertheilt, nur ein geringes Opfer für jeden Einzelnen
-               <lb facs="#facs_3_line_1783344528902_164" n="N006"/>bedeutet.
-               <lb facs="#facs_3_region_1776575458621_632_tl_6" n="N007"/>Nach dem interessanten Capitel über <rs type="place">Amerika</rs> behandelt
-               <lb facs="#facs_3_region_1776575458621_632_tl_7" n="N008"/>
-               <rs type="person">Strakosch</rs> die <rs type="place">Italienisch</rs>e Oper in <rs type="place">Paris</rs>, <rs type="place">London</rs> und <rs type="place">Wien</rs>
-               <lb facs="#facs_3_region_1776575458621_632_tl_8" n="N009"/>und kommt zu dem Resultat, daß sie in allen diesen Städten,
-               <lb facs="#facs_3_region_1776575458621_632_tl_9" n="N010"/>wie in <rs type="place">Newyork</rs>, zu Grunde ging und zu Grunde gehen
-               <lb facs="#facs_3_region_1776575458621_632_tl_10" n="N011"/>mußte durch die unsinnigen Honorare der ersten Sänger. Er
-               <lb facs="#facs_3_region_1776575458621_632_tl_11" n="N012"/>glaubt an das Wiederaufleben der <rs type="place">Italienisch</rs>en Oper, sobald
-               <lb facs="#facs_3_region_1776575458621_632_tl_12" n="N013"/>jenes „Star-System“ beseitigt und dem Publicum ein gleich¬
-               <lb facs="#facs_3_region_1776575458621_632_tl_13" n="N014"/>mäßig gutes Ensemble geboten wird anstatt einer oder zweier
-               <lb facs="#facs_3_region_1776575458621_632_tl_14" n="N015"/>ungenügend unterstützter Gesangsgrößen allerersten Ranges.
-               <lb facs="#facs_3_region_1776575458621_632_tl_15" n="N016"/>Er übersieht hier, wie ich glaube, eine andere ebenso wichtige
-               <lb facs="#facs_3_region_1776575458621_632_tl_16" n="N017"/>Ursache des Niederganges dieser Unternehmungen: die jetzt
-               <lb facs="#facs_3_region_1776575458621_632_tl_17" n="N018"/>herrschende Armuth des <rs type="place">italienisch</rs>en Opern-Repertoires. Die
-               <lb facs="#facs_3_region_1776575458621_632_tl_18" n="N019"/>bekannten älteren <rs type="place">italienisch</rs>en Opern sind, da sie ja einen
-               <lb facs="#facs_3_region_1776575458621_632_tl_19" n="N020"/>festen Bestandtheil auch des <rs type="place">deutsch</rs>en und <rs type="place">französisch</rs>en Re¬
-               <lb facs="#facs_3_region_1776575458621_632_tl_20" n="N021"/>pertoires bilden, so sehr abgenützt, daß sie uns <hi rendition="#em">nur</hi> durch
-               <lb facs="#facs_3_region_1776575458621_632_tl_21" n="N022"/>ganz eminente, also sehr kostspielige, Gesangskünstler noch
-               <lb facs="#facs_3_region_1776575458621_632_tl_22" n="N023"/>anziehend gemacht werden können. Wäre die musikalische Pro¬
-               <lb facs="#facs_3_region_1776575458621_632_tl_23" n="N024"/>ductivität <rs type="place">Italien</rs>s heute so ergiebig, wie zur Zeit <rs type="person">Rossini</rs>’s,
-               <lb facs="#facs_3_region_1776575458621_632_tl_24" n="N025"/>
-               <rs type="person">Bellini</rs>’s, <rs type="person">Donizetti</rs>’s und des jungen <rs type="person">Verdi</rs>, so würde das
-               <lb facs="#facs_3_region_1776575458621_632_tl_25" n="N026"/>Interesse an den neuen Werken selbst die jetzt ausschließlich
-               <lb facs="#facs_3_region_1776575458621_632_tl_26" n="N027"/>den Sängern zugewendete Aufmerksamkeit heilsam abschwächen.
-               <lb facs="#facs_3_region_1776575458621_632_tl_27" n="N028"/>So lange uns die Italiener nicht wieder einen üppigen
-               <lb facs="#facs_3_region_1776575458621_632_tl_28" n="N029"/>Blumenflor von neuen Opern mitbringen, werden regelmäßige
-               <lb facs="#facs_3_region_1776575458621_632_tl_29" n="N030"/>
-               <rs type="place">italienisch</rs>e Stagiones, in <rs type="place">Deutschland</rs> wenigstens, keine Zu¬
-               <lb facs="#facs_3_region_1776575458621_632_tl_30" n="N031"/>kunft haben und höchstens das flüchtige Interesse an einigen
-               <lb facs="#facs_3_region_1776575458621_632_tl_31" n="N032"/>ganz auserlesenen, also sehr theuren Gesangskünstlern ge¬
-               <lb facs="#facs_3_region_1776575458621_632_tl_32" n="N033"/>währen. — Die „Erinnerungen eines Impresario“ enthalten
-               <lb facs="#facs_3_region_1776575458621_632_tl_33" n="N034"/>noch vieles Anziehende und Lehrreiche, das unser heute schon
-               <lb facs="#facs_3_region_1776575458621_632_tl_34" n="N035"/>stark angeschwollenes Feuilleton nicht mehr aufzunehmen ver¬
-               <lb facs="#facs_3_region_1776575458621_632_tl_35" n="N036"/>mag. Man nehme das Buch selbst zur Hand, das jedem
-               <lb facs="#facs_3_region_1776575458621_632_tl_36" n="N037"/>Theater- und Musikfreund zu angenehmer Unterhaltung die¬
-               <lb facs="#facs_3_region_1776575458621_632_tl_37" n="N038"/>nen wird.
+            <p prev="true">
+         <lb facs="#facs_3_region_1776575458621_632_tl_1" n="N001"/>zu geben. Die erste Saison schloß mit einem Deficit von
+         <lb facs="#facs_3_region_1776575458621_632_tl_2" n="N002"/>500,000, die zweite sogar von 900,000 Francs. Zum Glück
+         <lb facs="#facs_3_region_1776575458621_632_tl_3" n="N003"/>sind die Millionäre, welche die Gesellschaft der Metropolitan-
+         <lb facs="#facs_3_region_1776575458621_632_tl_4" n="N004"/>Oper bilden, nicht sehr empfindlich für solchen Verlust, der,
+         <lb facs="#facs_3_region_1776575458621_632_tl_5" n="N005"/>unter sie vertheilt, nur ein geringes Opfer für jeden Einzelnen
+         <lb facs="#facs_3_line_1783344528902_164" n="N006"/>bedeutet.
+            </p><p>
+         <lb facs="#facs_3_region_1776575458621_632_tl_6" n="N007"/>Nach dem interessanten Capitel über <rs type="place">Amerika</rs> behandelt
+         <lb facs="#facs_3_region_1776575458621_632_tl_7" n="N008"/><rs type="person">Strakosch</rs> die <rs type="place">Italienisch</rs>e Oper in <rs type="place">Paris</rs>, <rs type="place">London</rs> und <rs type="place">Wien</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776575458621_632_tl_8" n="N009"/>und kommt zu dem Resultat, daß sie in allen diesen Städten,
+         <lb facs="#facs_3_region_1776575458621_632_tl_9" n="N010"/>wie in <rs type="place">Newyork</rs>, zu Grunde ging und zu Grunde gehen
+         <lb facs="#facs_3_region_1776575458621_632_tl_10" n="N011"/>mußte durch die unsinnigen Honorare der ersten Sänger. Er
+         <lb facs="#facs_3_region_1776575458621_632_tl_11" n="N012"/>glaubt an das Wiederaufleben der <rs type="place">Italienisch</rs>en Oper, sobald
+         <lb facs="#facs_3_region_1776575458621_632_tl_12" n="N013"/>jenes „Star-System“ beseitigt und dem Publicum ein gleich
+         <lb facs="#facs_3_region_1776575458621_632_tl_13" n="N014" break="no"/>mäßig gutes Ensemble geboten wird anstatt einer oder zweier
+         <lb facs="#facs_3_region_1776575458621_632_tl_14" n="N015"/>ungenügend unterstützter Gesangsgrößen allerersten Ranges.
+         <lb facs="#facs_3_region_1776575458621_632_tl_15" n="N016"/>Er übersieht hier, wie ich glaube, eine andere ebenso wichtige
+         <lb facs="#facs_3_region_1776575458621_632_tl_16" n="N017"/>Ursache des Niederganges dieser Unternehmungen: die jetzt
+         <lb facs="#facs_3_region_1776575458621_632_tl_17" n="N018"/>herrschende Armuth des <rs type="place">italienisch</rs>en Opern-Repertoires. Die
+         <lb facs="#facs_3_region_1776575458621_632_tl_18" n="N019"/>bekannten älteren <rs type="place">italienisch</rs>en Opern sind, da sie ja einen
+         <lb facs="#facs_3_region_1776575458621_632_tl_19" n="N020"/>festen Bestandtheil auch des <rs type="place">deutsch</rs>en und <rs type="place">französisch</rs>en Re
+         <lb facs="#facs_3_region_1776575458621_632_tl_20" n="N021" break="no"/>pertoires bilden, so sehr abgenützt, daß sie uns <hi rendition="#em">nur</hi> durch
+         <lb facs="#facs_3_region_1776575458621_632_tl_21" n="N022"/>ganz eminente, also sehr kostspielige, Gesangskünstler noch
+         <lb facs="#facs_3_region_1776575458621_632_tl_22" n="N023"/>anziehend gemacht werden können. Wäre die musikalische Pro
+         <lb facs="#facs_3_region_1776575458621_632_tl_23" n="N024" break="no"/>ductivität <rs type="place">Italien</rs>s heute so ergiebig, wie zur Zeit <rs type="person">Rossini</rs>’s,
+         <lb facs="#facs_3_region_1776575458621_632_tl_24" n="N025"/><rs type="person">Bellini</rs>’s, <rs type="person">Donizetti</rs>’s und des jungen <rs type="person">Verdi</rs>, so würde das
+         <lb facs="#facs_3_region_1776575458621_632_tl_25" n="N026"/>Interesse an den neuen Werken selbst die jetzt ausschließlich
+         <lb facs="#facs_3_region_1776575458621_632_tl_26" n="N027"/>den Sängern zugewendete Aufmerksamkeit heilsam abschwächen.
+         <lb facs="#facs_3_region_1776575458621_632_tl_27" n="N028"/>So lange uns die Italiener nicht wieder einen üppigen
+         <lb facs="#facs_3_region_1776575458621_632_tl_28" n="N029"/>Blumenflor von neuen Opern mitbringen, werden regelmäßige
+         <lb facs="#facs_3_region_1776575458621_632_tl_29" n="N030"/><rs type="place">italienisch</rs>e Stagiones, in <rs type="place">Deutschland</rs> wenigstens, keine Zu
+         <lb facs="#facs_3_region_1776575458621_632_tl_30" n="N031" break="no"/>kunft haben und höchstens das flüchtige Interesse an einigen
+         <lb facs="#facs_3_region_1776575458621_632_tl_31" n="N032"/>ganz auserlesenen, also sehr theuren Gesangskünstlern ge
+         <lb facs="#facs_3_region_1776575458621_632_tl_32" n="N033" break="no"/>währen. — Die „Erinnerungen eines Impresario“ enthalten
+         <lb facs="#facs_3_region_1776575458621_632_tl_33" n="N034"/>noch vieles Anziehende und Lehrreiche, das unser heute schon
+         <lb facs="#facs_3_region_1776575458621_632_tl_34" n="N035"/>stark angeschwollenes Feuilleton nicht mehr aufzunehmen ver
+         <lb facs="#facs_3_region_1776575458621_632_tl_35" n="N036" break="no"/>mag. Man nehme das Buch selbst zur Hand, das jedem
+         <lb facs="#facs_3_region_1776575458621_632_tl_36" n="N037"/>Theater- und Musikfreund zu angenehmer Unterhaltung die
+         <lb facs="#facs_3_region_1776575458621_632_tl_37" n="N038" break="no"/>nen wird.
             </p>
          </div>
       </body>

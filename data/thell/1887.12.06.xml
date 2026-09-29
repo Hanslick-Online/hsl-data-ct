@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 8362 Wien, Dienstag, den 6. December 1887</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,14 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
+               <name ref="https://orcid.org/0009-0007-9767-072X">Thell, Annika</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +71,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 8362 Wien, Dienstag, den 6. December 1887</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1887-12-06">06.12.1887</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18871206"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +107,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="athell" when="2026-07-20">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-09-22">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="athell" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -781,274 +782,225 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1776574280107_46_tl_1" n="N001"/><head type="h1">Concerte.</head>
+            <lb facs="#facs_1_region_1776574280107_46_tl_2" n="N002"/><head type="h2">(<hi rendition="#em">Marie <rs type="person">van Zandt</rs></hi>. <hi rendition="#em"><rs type="person">Sarasate</rs></hi>. <hi rendition="#em">Philharmonisches Concert</hi>.)</head>
             <p>
-               <lb facs="#facs_1_line_1783593315565_732" n="N001"/>Nr. 8362 Wien, Dienstag, den 6. December 1887
-            </p>
+         <lb facs="#facs_1_region_1776574280107_46_tl_3" n="N003"/><rs type="person">Ed. H.</rs> In der <rs type="place">Paris</rs>er Oper hatte sich <date>1781</date> ein kleiner
+         <lb facs="#facs_1_region_1776574280107_46_tl_4" n="N004"/>Scandal ereignet. Es wurde <rs type="person">Piccinni</rs>’s neue Oper „<rs type="bibl">Iphigénie
+         <lb facs="#facs_1_region_1776574280107_46_tl_5" n="N005"/>en Tauride</rs>“ gegeben. Demoiselle <hi rendition="#em"><rs type="person">La Guerre</rs></hi>, die Dar
+         <lb facs="#facs_1_region_1776574280107_46_tl_6" n="N006" break="no"/>stellerin der <rs type="person">Titelrolle</rs>, war so stark angeheitert auf die Bühne
+         <lb facs="#facs_1_region_1776574280107_46_tl_7" n="N007"/>gekommen, daß sie weder gehen noch stehen konnte und fort
+         <lb facs="#facs_1_region_1776574280107_46_tl_8" n="N008" break="no"/>während von den kräftigen Priesterinnen der <rs type="person">Diana</rs> gestützt
+         <lb facs="#facs_1_region_1776574280107_46_tl_9" n="N009"/>werden mußte. Trotzdem vermochte sie, nachdem sie in den
+         <lb facs="#facs_1_region_1776574280107_46_tl_10" n="N010"/>Zwischenacten den Kopf in kaltes Wasser getaucht, ihre Partie
+         <lb facs="#facs_1_region_1776574280107_46_tl_11" n="N011"/>fehlerfrei zu Ende zu singen, aber mit matter, heiserer
+         <lb facs="#facs_1_region_1776574280107_46_tl_12" n="N012"/>Stimme, unbeweglich, katzenjämmerlich. Man discutirte während
+         <lb facs="#facs_1_region_1776574280107_46_tl_13" n="N013"/>der ganzen Vorstellung nur über die leichtsinnige „<rs type="person">Iphigénie</rs><space quantity="1" unit="char"/> 
+         <lb facs="#facs_1_region_1776574280107_46_tl_14" n="N014"/>en Champagne“, wie das blitzschnell verbreitete Bonmot
+         <lb facs="#facs_1_region_1776574280107_46_tl_15" n="N015"/>lautete, und hörte gar nicht auf die Musik. <rs type="person">Piccinni</rs> war in
+         <lb facs="#facs_1_region_1776574280107_46_tl_16" n="N016"/>Verzweiflung. Aber die Champagner-<rs type="person">Iphigenie</rs> kam auch
+         <lb facs="#facs_1_region_1776574280107_46_tl_17" n="N017"/>nicht ungestraft davon. Auf Befehl des <rs type="person">König</rs>s
+         <lb facs="#facs_1_region_1776574280107_46_tl_18" n="N018"/>führte man sie in das Gefängniß Fort l’Evéque,
+         <lb facs="#facs_1_region_1776574280107_46_tl_19" n="N019"/>aus dem sie zwei Tage später auf die Bühne escortirt wurde,
+         <lb facs="#facs_1_region_1776574280107_46_tl_20" n="N020"/>um die Partie nüchtern zu wiederholen. Zum Glück war sie
+         <lb facs="#facs_1_region_1776574280107_46_tl_21" n="N021"/>witzig genug, um die ersten Worte ihrer Rolle zu ihrem
+         <lb facs="#facs_1_region_1776574280107_46_tl_22" n="N022"/>Vortheil auszunützen. „O jour fatal, que je voulais en
+         <lb facs="#facs_1_region_1776574280107_46_tl_23" n="N023"/>vain — Ne pas compter parmi ceux de ma vie!“ be
+         <lb facs="#facs_1_region_1776574280107_46_tl_24" n="N024" break="no"/>gann sie mit einem so rührenden Ausdruck bußfertiger Reue,
+         <lb facs="#facs_1_region_1776574280107_46_tl_25" n="N025"/>daß das ganze Publicum in lauten Applaus ausbrach. Sie
+         <lb facs="#facs_1_region_1776574280107_46_tl_26" n="N026"/>war gerettet. Am Schlusse des ersten Acts wurde der De
+         <lb facs="#facs_1_region_1776574280107_46_tl_27" n="N027" break="no"/>moiselle <rs type="person">La Guerre</rs> verkündet, daß sie wieder in Freiheit
+         <lb facs="#facs_1_region_1776574280107_46_tl_28" n="N028"/>gesetzt sei. Sie sang wie ein Engel, und <rs type="person">Piccinni</rs>’s <rs type="bibl">Oper</rs><space quantity="1" unit="char"/> 
+         <lb facs="#facs_1_region_1776574280107_46_tl_29" n="N029"/>machte Furore.
+            </p><p>
+         <lb facs="#facs_1_region_1776574280107_46_tl_30" n="N030"/>Fast dieselbe Geschichte, nur mit einem andern Schluß,
+         <lb facs="#facs_1_region_1776574280107_46_tl_31" n="N031"/>hat sich hundert Jahre später in der <rs type="place">Paris</rs>er Opéra Comique
+         <lb facs="#facs_1_region_1776574280107_46_tl_32" n="N032"/>wiederholt. Eine hochbeliebte junge Künstlerin, Marie <hi rendition="#em"><rs type="person">van
+         <lb facs="#facs_1_region_1776574280107_46_tl_33" n="N033"/>Zandt</rs></hi>, sang die <rs type="person">Rosine</rs> im „<rs type="bibl">Barbier von Sevilla</rs>“ —
+         <lb facs="#facs_1_region_1776574280107_46_tl_34" n="N034"/>oder richtiger: wollte sie singen. Erhitzt, schwankend und ver
+         <lb facs="#facs_1_region_1776574280107_46_tl_35" n="N035" break="no"/>wirrt betrat sie die Bühne, verfehlte die Einsätze
+         <lb facs="#facs_1_region_1776574280107_46_tl_36" n="N036"/>und sang unzusammenhängendes Zeug. Das Publicum
+         <lb facs="#facs_1_region_1776574280107_46_tl_37" n="N037"/>brach in laute Entrüstung aus und ließ die arme <rs type="person">Rosine</rs><space quantity="1" unit="char"/> 
+         <lb facs="#facs_1_region_1776574280107_46_tl_38" n="N038"/>nicht weiter singen. Freilich erklärte Mademoiselle <rs type="person">van Zandt</rs><space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1776574280107_46_tl_1" n="N001"/>Concerte
-               <lb facs="#facs_1_region_1776574280107_46_tl_2" n="N002"/>(<hi rendition="#em">Marie <rs type="person">van Zandt</rs>
-               </hi>. <hi rendition="#em">
-                  <rs type="person">Sarasate</rs>
-               </hi>. <hi rendition="#em">Philharmonisches Concert</hi>.)
-               <lb facs="#facs_1_region_1776574280107_46_tl_3" n="N003"/>
-               <rs type="person">Ed. H.</rs> In der <rs type="place">Paris</rs>er Oper hatte sich <date month="0" day="0" year="0">1781</date> ein kleiner
-               <lb facs="#facs_1_region_1776574280107_46_tl_4" n="N004"/>Scandal ereignet. Es wurde <rs type="person">Piccinni</rs>’s neue Oper „<rs type="bibl">Iphigénie</rs>
-               <lb facs="#facs_1_region_1776574280107_46_tl_5" n="N005"/>
-               <rs type="bibl">en Tauride</rs>“ gegeben. Demoiselle <hi rendition="#em">
-                  <rs type="person">La Guerre</rs>
-               </hi>, die Dar¬
-               <lb facs="#facs_1_region_1776574280107_46_tl_6" n="N006"/>stellerin der <rs type="person">Titelrolle</rs>, war so stark angeheitert auf die Bühne
-               <lb facs="#facs_1_region_1776574280107_46_tl_7" n="N007"/>gekommen, daß sie weder gehen noch stehen konnte und fort¬
-               <lb facs="#facs_1_region_1776574280107_46_tl_8" n="N008"/>während von den kräftigen Priesterinnen der <rs type="person">Diana</rs> gestützt
-               <lb facs="#facs_1_region_1776574280107_46_tl_9" n="N009"/>werden mußte. Trotzdem vermochte sie, nachdem sie in den
-               <lb facs="#facs_1_region_1776574280107_46_tl_10" n="N010"/>Zwischenacten den Kopf in kaltes Wasser getaucht, ihre Partie
-               <lb facs="#facs_1_region_1776574280107_46_tl_11" n="N011"/>fehlerfrei zu Ende zu singen, aber mit matter, heiserer
-               <lb facs="#facs_1_region_1776574280107_46_tl_12" n="N012"/>Stimme, unbeweglich, katzenjämmerlich. Man discutirte während
-               <lb facs="#facs_1_region_1776574280107_46_tl_13" n="N013"/>der ganzen Vorstellung nur über die leichtsinnige „<rs type="person">Iphigénie</rs>
-               <lb facs="#facs_1_region_1776574280107_46_tl_14" n="N014"/>en Champagne“, wie das blitzschnell verbreitete Bonmot
-               <lb facs="#facs_1_region_1776574280107_46_tl_15" n="N015"/>lautete, und hörte gar nicht auf die Musik. <rs type="person">Piccinni</rs> war in
-               <lb facs="#facs_1_region_1776574280107_46_tl_16" n="N016"/>Verzweiflung. Aber die Champagner-<rs type="person">Iphigenie</rs> kam auch
-               <lb facs="#facs_1_region_1776574280107_46_tl_17" n="N017"/>nicht ungestraft davon. Auf Befehl des <rs type="person">König</rs>s
-               <lb facs="#facs_1_region_1776574280107_46_tl_18" n="N018"/>führte man sie in das Gefängniß Fort l'Evéque,
-               <lb facs="#facs_1_region_1776574280107_46_tl_19" n="N019"/>aus dem sie zwei Tage später auf die Bühne escortirt wurde,
-               <lb facs="#facs_1_region_1776574280107_46_tl_20" n="N020"/>um die Partie nüchtern zu wiederholen. Zum Glück war sie
-               <lb facs="#facs_1_region_1776574280107_46_tl_21" n="N021"/>witzig genug, um die ersten Worte ihrer Rolle zu ihrem
-               <lb facs="#facs_1_region_1776574280107_46_tl_22" n="N022"/>Vortheil auszunützen. „O jour fatal, que je voulais en
-               <lb facs="#facs_1_region_1776574280107_46_tl_23" n="N023"/>vain — Ne pas compter parmi ceux de ma vie!“ be¬
-               <lb facs="#facs_1_region_1776574280107_46_tl_24" n="N024"/>gann sie mit einem so rührenden Ausdruck bußfertiger Reue,
-               <lb facs="#facs_1_region_1776574280107_46_tl_25" n="N025"/>daß das ganze Publicum in lauten Applaus ausbrach. Sie
-               <lb facs="#facs_1_region_1776574280107_46_tl_26" n="N026"/>war gerettet. Am Schlusse des ersten Acts wurde der De¬
-               <lb facs="#facs_1_region_1776574280107_46_tl_27" n="N027"/>moiselle <rs type="person">La Guerre</rs> verkündet, daß sie wieder in Freiheit
-               <lb facs="#facs_1_region_1776574280107_46_tl_28" n="N028"/>gesetzt sei. Sie sang wie ein Engel, und <rs type="person">Piccinni</rs>’s <rs type="bibl">Oper</rs>
-               <lb facs="#facs_1_region_1776574280107_46_tl_29" n="N029"/>machte Furore.
-               <lb facs="#facs_1_region_1776574280107_46_tl_30" n="N030"/>Fast dieselbe Geschichte, nur mit einem andern Schluß,
-               <lb facs="#facs_1_region_1776574280107_46_tl_31" n="N031"/>hat sich hundert Jahre später in der <rs type="place">Paris</rs>er Opéra Comique
-               <lb facs="#facs_1_region_1776574280107_46_tl_32" n="N032"/>wiederholt. Eine hochbeliebte junge Künstlerin, Marie <hi rendition="#em">
-                  <rs type="person" continued="true">van</rs>
-               </hi>
-               <lb facs="#facs_1_region_1776574280107_46_tl_33" n="N033"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">Zandt</rs>
-               </hi>, sang die <rs type="person">Rosine</rs> im „<rs type="bibl">Barbier von Sevilla</rs>“ —
-               <lb facs="#facs_1_region_1776574280107_46_tl_34" n="N034"/>oder richtiger: wollte sie singen. Erhitzt, schwankend und ver¬
-               <lb facs="#facs_1_region_1776574280107_46_tl_35" n="N035"/>wirrt betrat sie die Bühne, verfehlte die Einsätze
-               <lb facs="#facs_1_region_1776574280107_46_tl_36" n="N036"/>und sang unzusammenhängendes Zeug. Das Publicum
-               <lb facs="#facs_1_region_1776574280107_46_tl_37" n="N037"/>brach in laute Entrüstung aus und ließ die arme <rs type="person">Rosine</rs>
-               <lb facs="#facs_1_region_1776574280107_46_tl_38" n="N038"/>nicht weiter singen. Freilich erklärte Mademoiselle <rs type="person">van Zandt</rs>
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1776574287562_49_tl_1" n="N001"/>Tags darauf in den Journalen, sie sei nicht von Champagner,
+         <lb facs="#facs_1_region_1776574287562_49_tl_2" n="N002"/>sondern nur von einer zu starken Dosis Morphin betäubt
+         <lb facs="#facs_1_region_1776574287562_49_tl_3" n="N003"/>gewesen, und da wir im Zweifel uns jederzeit der milderen
+         <lb facs="#facs_1_region_1776574287562_49_tl_4" n="N004"/>Auslegung anschließen, glauben wir ihr gerne aufs Wort.
+         <lb facs="#facs_1_region_1776574287562_49_tl_5" n="N005"/>Allein die Pariser wollten nicht glauben, und Marie <rs type="person">van
+         <lb facs="#facs_1_region_1776574287562_49_tl_6" n="N006"/>Zandt</rs> erschien nie wieder in der Opéra Comique, deren
+         <lb facs="#facs_1_region_1776574287562_49_tl_7" n="N007"/>Stern sie bis zu jenem Abend gewesen. Wie viel versöhn
+         <lb facs="#facs_1_region_1776574287562_49_tl_8" n="N008" break="no"/>licher und gemüthlicher war doch das <rs type="place">französisch</rs>e Publicum
+         <lb facs="#facs_1_region_1776574287562_49_tl_9" n="N009"/>des achtzehnten Jahrhunderts! Es nahm die aus dem Ge
+         <lb facs="#facs_1_region_1776574287562_49_tl_10" n="N010" break="no"/>fängniß geholte Sängerin sofort in Gnaden wieder auf,
+         <lb facs="#facs_1_region_1776574287562_49_tl_11" n="N011"/>während das heutige <rs type="place">Paris</rs> jene fatale Scene nie wieder
+         <lb facs="#facs_1_region_1776574287562_49_tl_13" n="N012"/>verziehen und sich selbst seiner anmuthigsten Künstlerin be
+         <lb facs="#facs_1_line_1784539082225_609" n="N013" break="no"/>raubt hat. Wie aber jedes Unheil auch sein Gutes nachzu
+         <lb facs="#facs_1_region_1776574287562_49_tl_14" n="N014" break="no"/>schleppen pflegt, so hat das erwähnte Mißgeschick dem
+         <lb facs="#facs_1_region_1776574287562_49_tl_15" n="N015"/>Fräulein <rs type="person">van Zandt</rs> schnell die allgemeine Aufmerksamkeit
+         <lb facs="#facs_1_region_1776574287562_49_tl_16" n="N016"/>zugewendet. Ehedem nur in <rs type="place">Paris</rs> gefeiert, erregt
+         <lb facs="#facs_1_region_1776574287562_49_tl_17" n="N017"/>sie jetzt als interessante Notabilität überall die be
+         <lb facs="#facs_1_region_1776574287562_49_tl_18" n="N018" break="no"/>gierigste Erwartung. So auch bei uns, im großen Musik
+         <lb facs="#facs_1_region_1776574287562_49_tl_19" n="N019" break="no"/>vereinssaal, wo sich die vielgenannte Dame als Concert
+         <lb facs="#facs_1_region_1776574287562_49_tl_20" n="N020" break="no"/>sängerin hören ließ. Sie begann mit einem Recitativ und
+         <lb facs="#facs_1_region_1776574287562_49_tl_21" n="N021"/>Strophenlied aus <hi rendition="#em"><rs type="person">Delibes</rs>’</hi> Oper „<rs type="bibl">Lakmé</rs>“, eine Wahl,
+         <lb facs="#facs_1_region_1776574287562_49_tl_22" n="N022"/>die mehr der Sängerin, als dem Componisten zum Vortheil
+         <lb facs="#facs_1_region_1776574287562_49_tl_23" n="N023"/>gedieh. Eine geläufig perlende Kehle, welche die höchsten Töne
+         <lb facs="#facs_1_region_1776574287562_49_tl_24" n="N024"/>mit Leichtigkeit anschlägt, vermag damit zu glänzen; die
+         <lb facs="#facs_1_region_1776574287562_49_tl_25" n="N025"/>Composition selbst berührt fast unangenehm durch die
+         <lb facs="#facs_1_region_1776574287562_49_tl_26" n="N026"/>raffinirte Grausamkeit, womit sie uns in die verzwickten
+         <lb facs="#facs_1_region_1776574287562_49_tl_27" n="N027"/>Rhythmen, die widerhaarigen Intonationen und die jammernden
+         <lb facs="#facs_1_region_1776574287562_49_tl_28" n="N028"/>Vocalisen <rs type="place">orientalisch</rs>er Melodik verstrickt. In der Oper selbst
+         <lb facs="#facs_1_region_1776574287562_49_tl_29" n="N029"/>— sie spielt in dem heutigen <rs type="place">Indien</rs> — entbehrt dieses „Air
+         <lb facs="#facs_1_region_1776574287562_49_tl_30" n="N030"/>de clochettes“, wie es wegen der gestimmten Glöckchen be
+         <lb facs="#facs_1_region_1776574287562_49_tl_31" n="N031" break="no"/>nannt wird, keineswegs der dramatischen Motivirung. Auf
+         <lb facs="#facs_1_region_1776574287562_49_tl_32" n="N032"/>Befehl ihres Vaters, eines fanatischen Brahminen und Tod
+         <lb facs="#facs_1_region_1776574287562_49_tl_33" n="N033" break="no"/>feindes der Engländer, muß die schöne <rs type="person">Lakmé</rs> bei einem
+         <lb facs="#facs_1_region_1776574287562_49_tl_34" n="N034"/>Volksfeste auf offenem Markte das Lied singen, damit
+         <lb facs="#facs_1_region_1776574287562_49_tl_35" n="N035"/>durch ihre Stimme der <rs type="place">englisch</rs>e Officier <rs type="person">Gerald</rs> herbeigelockt
+         <lb facs="#facs_1_region_1776574287562_49_tl_36" n="N036"/>werde und den Brahminen in die Hände falle. Die Situa
+         <lb facs="#facs_1_region_1776574287562_49_tl_37" n="N037" break="no"/>tion gestattet der Sängerin, in jene abenteuerlichen Colora
+         <lb facs="#facs_1_region_1776574287562_49_tl_38" n="N038" break="no"/>turen dramatisches Leben, wechselnden Ausdruck zu bringen;
+         <lb facs="#facs_1_region_1776574287562_49_tl_39" n="N039"/><rs type="person">Lakmé</rs> singt immer leidenschaftlicher, immer verzweifelter, je
+         <lb facs="#facs_1_region_1776574287562_49_tl_40" n="N040"/>mehr der heimlich Geliebte sich ihr nähert — ihr und dem
+         <lb facs="#facs_1_region_1776574287562_49_tl_41" n="N041"/>sichern Untergang! Fräulein <rs type="person">van Zandt</rs>, welche bekanntlich die<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1776574287562_49_tl_1" n="N001"/>Tags darauf in den Journalen, sie sei nicht von Champagner,
-               <lb facs="#facs_1_region_1776574287562_49_tl_2" n="N002"/>sondern nur von einer zu starken Dosis Morphin betäubt
-               <lb facs="#facs_1_region_1776574287562_49_tl_3" n="N003"/>gewesen, und da wir im Zweifel uns jederzeit der milderen
-               <lb facs="#facs_1_region_1776574287562_49_tl_4" n="N004"/>Auslegung anschließen, glauben wir ihr gerne aufs Wort.
-               <lb facs="#facs_1_region_1776574287562_49_tl_5" n="N005"/>Allein die Pariser wollten nicht glauben, und Marie <rs type="person" continued="true">van</rs>
-               <lb facs="#facs_1_region_1776574287562_49_tl_6" n="N006"/>
-               <rs type="person" continued="true">Zandt</rs> erschien nie wieder in der Opéra Comique, deren
-               <lb facs="#facs_1_region_1776574287562_49_tl_7" n="N007"/>Stern sie bis zu jenem Abend gewesen. Wie viel versöhn¬
-               <lb facs="#facs_1_region_1776574287562_49_tl_8" n="N008"/>licher und gemüthlicher war doch das <rs type="place">französisch</rs>e Publicum
-               <lb facs="#facs_1_region_1776574287562_49_tl_9" n="N009"/>des achtzehnten Jahrhunderts! Es nahm die aus dem Ge¬
-               <lb facs="#facs_1_region_1776574287562_49_tl_10" n="N010"/>fängniß geholte Sängerin sofort in Gnaden wieder auf,
-               <lb facs="#facs_1_region_1776574287562_49_tl_11" n="N011"/>während das heutige <rs type="place">Paris</rs> jene fatale Scene nie wieder
-               <lb facs="#facs_1_region_1776574287562_49_tl_13" n="N012"/>verziehen und sich selbst seiner anmuthigsten Künstlerin be¬
-               <lb facs="#facs_1_line_1784539082225_609" n="N013"/>raubt hat. Wie aber jedes Unheil auch sein Gutes nachzu¬
-               <lb facs="#facs_1_region_1776574287562_49_tl_14" n="N014"/>schleppen pflegt, so hat das erwähnte Mißgeschick dem
-               <lb facs="#facs_1_region_1776574287562_49_tl_15" n="N015"/>Fräulein <rs type="person">van Zandt</rs> schnell die allgemeine Aufmerksamkeit
-               <lb facs="#facs_1_region_1776574287562_49_tl_16" n="N016"/>zugewendet. Ehedem nur in <rs type="place">Paris</rs> gefeiert, erregt
-               <lb facs="#facs_1_region_1776574287562_49_tl_17" n="N017"/>sie jetzt als interessante Notabilität überall die be¬
-               <lb facs="#facs_1_region_1776574287562_49_tl_18" n="N018"/>gierigste Erwartung. So auch bei uns, im großen Musik¬
-               <lb facs="#facs_1_region_1776574287562_49_tl_19" n="N019"/>vereinssaal, wo sich die vielgenannte Dame als Concert¬
-               <lb facs="#facs_1_region_1776574287562_49_tl_20" n="N020"/>sängerin hören ließ. Sie begann mit einem Recitativ und
-               <lb facs="#facs_1_region_1776574287562_49_tl_21" n="N021"/>Strophenlied aus <hi rendition="#em">
-                  <rs type="person">Delibes</rs>’</hi> Oper „<rs type="bibl">Lakmé</rs>“, eine Wahl,
-               <lb facs="#facs_1_region_1776574287562_49_tl_22" n="N022"/>die mehr der Sängerin, als dem Componisten zum Vortheil
-               <lb facs="#facs_1_region_1776574287562_49_tl_23" n="N023"/>gedieh. Eine geläufig perlende Kehle, welche die höchsten Töne
-               <lb facs="#facs_1_region_1776574287562_49_tl_24" n="N024"/>mit Leichtigkeit anschlägt, vermag damit zu glänzen; die
-               <lb facs="#facs_1_region_1776574287562_49_tl_25" n="N025"/>Composition selbst berührt fast unangenehm durch die
-               <lb facs="#facs_1_region_1776574287562_49_tl_26" n="N026"/>raffinirte Grausamkeit, womit sie uns in die verzwickten
-               <lb facs="#facs_1_region_1776574287562_49_tl_27" n="N027"/>Rhythmen, die widerhaarigen Intonationen und die jammernden
-               <lb facs="#facs_1_region_1776574287562_49_tl_28" n="N028"/>Vocalisen <rs type="place">orientalisch</rs>er Melodik verstrickt. In der Oper selbst
-               <lb facs="#facs_1_region_1776574287562_49_tl_29" n="N029"/>— sie spielt in dem heutigen <rs type="place">Indien</rs> — entbehrt dieses „Air
-               <lb facs="#facs_1_region_1776574287562_49_tl_30" n="N030"/>de clochettes“, wie es wegen der gestimmten Glöckchen be¬
-               <lb facs="#facs_1_region_1776574287562_49_tl_31" n="N031"/>nannt wird, keineswegs der dramatischen Motivirung. Auf
-               <lb facs="#facs_1_region_1776574287562_49_tl_32" n="N032"/>Befehl ihres Vaters, eines fanatischen Brahminen und Tod¬
-               <lb facs="#facs_1_region_1776574287562_49_tl_33" n="N033"/>feindes der Engländer, muß die schöne <rs type="person">Lakmé</rs> bei einem
-               <lb facs="#facs_1_region_1776574287562_49_tl_34" n="N034"/>Volksfeste auf offenem Markte das Lied singen, damit
-               <lb facs="#facs_1_region_1776574287562_49_tl_35" n="N035"/>durch ihre Stimme der <rs type="place">englisch</rs>e Officier <rs type="person">Gerald</rs> herbeigelockt
-               <lb facs="#facs_1_region_1776574287562_49_tl_36" n="N036"/>werde und den Brahminen in die Hände falle. Die Situa¬
-               <lb facs="#facs_1_region_1776574287562_49_tl_37" n="N037"/>tion gestattet der Sängerin, in jene abenteuerlichen Colora¬
-               <lb facs="#facs_1_region_1776574287562_49_tl_38" n="N038"/>turen dramatisches Leben, wechselnden Ausdruck zu bringen;
-               <lb facs="#facs_1_region_1776574287562_49_tl_39" n="N039"/>
-               <rs type="person">Lakmé</rs> singt immer leidenschaftlicher, immer verzweifelter, je
-               <lb facs="#facs_1_region_1776574287562_49_tl_40" n="N040"/>mehr der heimlich Geliebte sich ihr nähert — ihr und dem
-               <lb facs="#facs_1_region_1776574287562_49_tl_41" n="N041"/>sichern Untergang! Fräulein <rs type="person">van Zandt</rs>, welche bekanntlich die
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1776574291987_52_tl_1" n="N001"/>Rolle der <rs type="person">Lakmé</rs> mit außerordentlichem Glück creirt hat, ist
-               <lb facs="#facs_1_region_1776574291987_52_tl_2" n="N002"/>in dieser gesanglich wie schauspielerisch gleich schwierigen Scene
-               <lb facs="#facs_1_region_1776574291987_52_tl_3" n="N003"/>am meisten bewundert worden. Man merkt es ihr auch im
-               <lb facs="#facs_1_region_1776574291987_52_tl_4" n="N004"/>Concertsaal an, daß ihre eigentliche Domäne das Theater
-               <lb facs="#facs_1_region_1776574291987_52_tl_5" n="N005"/>und daß ihr graziös bewegliches Spiel von ihrem Gesang
-               <lb facs="#facs_1_region_1776574291987_52_tl_6" n="N006"/>unzertrennlich sei. Wir kennen sie also nur halb. Ihre
-               <lb facs="#facs_1_region_1776574291987_52_tl_7" n="N007"/>Stimme, ein zarter Sopran, der mühelos das hohe d, es,
-               <lb facs="#facs_1_region_1776574291987_52_tl_8" n="N008"/>sogar e anschlägt und rein festhält, wirkt durch große Biegsam¬
-               <lb facs="#facs_1_region_1776574291987_52_tl_9" n="N009"/>keit und Geläufigkeit. In den hohen Kopftönen klingt die Stimme
-               <lb facs="#facs_1_region_1776574291987_52_tl_10" n="N010"/>reizend. In der Mittellage und für getragenen Gesang hat sie
-               <lb facs="#facs_1_region_1776574291987_52_tl_11" n="N011"/>zu wenig Fülle und Wohllaut, sogar einen leicht näselnden
-               <lb facs="#facs_1_region_1776574291987_52_tl_12" n="N012"/>Beiklang. Während die Sängerin in dem halsbrecherischen
-               <lb facs="#facs_1_region_1776574291987_52_tl_13" n="N013"/>Glöckchenlied der <rs type="person">Lakmé</rs> sich rauschenden Beifall erzwang, ließ
-               <lb facs="#facs_1_region_1776574291987_52_tl_14" n="N014"/>ihr Vortrag des <rs type="person">Mignon</rs>-Liedes von Ambroise <rs type="person">Thomas</rs> kalt.
-               <lb facs="#facs_1_region_1776574291987_52_tl_15" n="N015"/>Diese einfachen Strophen verlangen, wenn auch keine große,
-               <lb facs="#facs_1_region_1776574291987_52_tl_16" n="N016"/>doch eine warme, sympathische Stimme, die bei dem Aus¬
-               <lb facs="#facs_1_region_1776574291987_52_tl_17" n="N017"/>rufe: „Dahin, dahin!“ frei aus voller Brust ausströmt.
-               <lb facs="#facs_1_region_1776574291987_52_tl_18" n="N018"/>Mit dem Inhalt des Liedes vollkommen vertraut, verstand
-               <lb facs="#facs_1_region_1776574291987_52_tl_19" n="N019"/>man davon einzelne Worte; die übrigen Nummern ließen
-               <lb facs="#facs_1_region_1776574291987_52_tl_20" n="N020"/>kaum errathen, in welcher Sprache Fräulein <rs type="person">van Zandt</rs> über¬
-               <lb facs="#facs_1_region_1776574291987_52_tl_21" n="N021"/>haupt singe, so undeutlich ist ihre Aussprache. Was für diese
-               <lb facs="#facs_1_region_1776574291987_52_tl_22" n="N022"/>Sängerin sympathisch einnimmt, ist gar nicht ihre Stimme,
-               <lb facs="#facs_1_region_1776574291987_52_tl_23" n="N023"/>viel mehr schon ihre bedeutende, wenngleich nicht vollendete
-               <lb facs="#facs_1_region_1776574291987_52_tl_24" n="N024"/>Technik; am meisten aber der graziöse und geistreiche Zug,
-               <lb facs="#facs_1_region_1776574291987_52_tl_25" n="N025"/>der ihren Vortrag wie ein feiner Parfüm durchdringt. Ihre
-               <lb facs="#facs_1_region_1776574291987_52_tl_26" n="N026"/>Bewegungen, ihr Lächeln, ihr Grüßen — Alles ist von
-               <lb facs="#facs_1_region_1776574291987_52_tl_27" n="N027"/>liebenswürdiger Anmuth und Noblesse. So interessant und
-               <lb facs="#facs_1_region_1776574291987_52_tl_28" n="N028"/>gewinnend Fräulein <rs type="person">van Zandt</rs> im Concert auch wirkte, be¬
-               <lb facs="#facs_1_region_1776574291987_52_tl_29" n="N029"/>dauern müssen wir doch, daß sie uns nicht auf der Bühne,
-               <lb facs="#facs_1_region_1776574291987_52_tl_30" n="N030"/>in einer ihrer Glanzrollen, entgegengetreten ist.
-               <lb facs="#facs_1_region_1776574291987_52_tl_31" n="N031"/>Wie in der Marktscene von „<rs type="bibl">Lakmé</rs>“ die hellen Glöckchen
-               <lb facs="#facs_1_region_1776574291987_52_tl_32" n="N032"/>des Zauberers, so wirkt bei uns der Geigenklang <hi rendition="#em">
-                  <rs type="person" continued="true">Sara¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1776574291987_52_tl_33" n="N033"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">sate</rs>’s</hi>. Alles Volk strömt herzu und weicht nicht vom
-               <lb facs="#facs_1_region_1776574291987_52_tl_34" n="N034"/>Platze, bevor der letzte Ton verschollen. Zum Ruhme dieses
-               <lb facs="#facs_1_region_1776574291987_52_tl_35" n="N035"/>Zauberers läßt sich nicht mehr viel beitragen, auch von ihm
-               <lb facs="#facs_1_region_1776574291987_52_tl_36" n="N036"/>selbst nicht. <rs type="person">Sarasate</rs> hat in letzter Zeit wiederholt in <rs type="place">Wien</rs>
-               <lb facs="#facs_1_region_1776574291987_52_tl_37" n="N037"/>gespielt, immer bei gleichem Andrang, mit gleichem Erfolg
-               <lb facs="#facs_1_region_1776574291987_52_tl_38" n="N038"/>und auch — in derselben Weise. Die Klangschönheit seines
-               <lb facs="#facs_1_region_1776574291987_52_tl_39" n="N039"/>Tones läßt sich so wenig beschreiben, wie die erstaunlichen
-               <lb facs="#facs_1_region_1776574291987_52_tl_40" n="N040"/>Hexenkünste seiner Technik. Ohne Frage beruht die Eigen¬
-               <lb facs="#facs_1_region_1776574291987_52_tl_41" n="N041"/>thümlichkeit und der Erfolg <rs type="person">Sarasate</rs>’s hauptsächlich auf
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1776574291987_52_tl_1" n="N001"/>Rolle der <rs type="person">Lakmé</rs> mit außerordentlichem Glück creirt hat, ist
+         <lb facs="#facs_1_region_1776574291987_52_tl_2" n="N002"/>in dieser gesanglich wie schauspielerisch gleich schwierigen Scene
+         <lb facs="#facs_1_region_1776574291987_52_tl_3" n="N003"/>am meisten bewundert worden. Man merkt es ihr auch im
+         <lb facs="#facs_1_region_1776574291987_52_tl_4" n="N004"/>Concertsaal an, daß ihre eigentliche Domäne das Theater
+         <lb facs="#facs_1_region_1776574291987_52_tl_5" n="N005"/>und daß ihr graziös bewegliches Spiel von ihrem Gesang
+         <lb facs="#facs_1_region_1776574291987_52_tl_6" n="N006"/>unzertrennlich sei. Wir kennen sie also nur halb. Ihre
+         <lb facs="#facs_1_region_1776574291987_52_tl_7" n="N007"/>Stimme, ein zarter Sopran, der mühelos das hohe d, es,
+         <lb facs="#facs_1_region_1776574291987_52_tl_8" n="N008"/>sogar e anschlägt und rein festhält, wirkt durch große Biegsam
+         <lb facs="#facs_1_region_1776574291987_52_tl_9" n="N009" break="no"/>keit und Geläufigkeit. In den hohen Kopftönen klingt die Stimme
+         <lb facs="#facs_1_region_1776574291987_52_tl_10" n="N010"/>reizend. In der Mittellage und für getragenen Gesang hat sie
+         <lb facs="#facs_1_region_1776574291987_52_tl_11" n="N011"/>zu wenig Fülle und Wohllaut, sogar einen leicht näselnden
+         <lb facs="#facs_1_region_1776574291987_52_tl_12" n="N012"/>Beiklang. Während die Sängerin in dem halsbrecherischen
+         <lb facs="#facs_1_region_1776574291987_52_tl_13" n="N013"/>Glöckchenlied der <rs type="person">Lakmé</rs> sich rauschenden Beifall erzwang, ließ
+         <lb facs="#facs_1_region_1776574291987_52_tl_14" n="N014"/>ihr Vortrag des <rs type="person">Mignon</rs>-Liedes von Ambroise <rs type="person">Thomas</rs> kalt.
+         <lb facs="#facs_1_region_1776574291987_52_tl_15" n="N015"/>Diese einfachen Strophen verlangen, wenn auch keine große,
+         <lb facs="#facs_1_region_1776574291987_52_tl_16" n="N016"/>doch eine warme, sympathische Stimme, die bei dem Aus
+         <lb facs="#facs_1_region_1776574291987_52_tl_17" n="N017" break="no"/>rufe: „Dahin, dahin!“ frei aus voller Brust ausströmt.
+         <lb facs="#facs_1_region_1776574291987_52_tl_18" n="N018"/>Mit dem Inhalt des Liedes vollkommen vertraut, verstand
+         <lb facs="#facs_1_region_1776574291987_52_tl_19" n="N019"/>man davon einzelne Worte; die übrigen Nummern ließen
+         <lb facs="#facs_1_region_1776574291987_52_tl_20" n="N020"/>kaum errathen, in welcher Sprache Fräulein <rs type="person">van Zandt</rs> über
+         <lb facs="#facs_1_region_1776574291987_52_tl_21" n="N021" break="no"/>haupt singe, so undeutlich ist ihre Aussprache. Was für diese
+         <lb facs="#facs_1_region_1776574291987_52_tl_22" n="N022"/>Sängerin sympathisch einnimmt, ist gar nicht ihre Stimme,
+         <lb facs="#facs_1_region_1776574291987_52_tl_23" n="N023"/>viel mehr schon ihre bedeutende, wenngleich nicht vollendete
+         <lb facs="#facs_1_region_1776574291987_52_tl_24" n="N024"/>Technik; am meisten aber der graziöse und geistreiche Zug,
+         <lb facs="#facs_1_region_1776574291987_52_tl_25" n="N025"/>der ihren Vortrag wie ein feiner Parfüm durchdringt. Ihre
+         <lb facs="#facs_1_region_1776574291987_52_tl_26" n="N026"/>Bewegungen, ihr Lächeln, ihr Grüßen — Alles ist von
+         <lb facs="#facs_1_region_1776574291987_52_tl_27" n="N027"/>liebenswürdiger Anmuth und Noblesse. So interessant und
+         <lb facs="#facs_1_region_1776574291987_52_tl_28" n="N028"/>gewinnend Fräulein <rs type="person">van Zandt</rs> im Concert auch wirkte, be
+         <lb facs="#facs_1_region_1776574291987_52_tl_29" n="N029" break="no"/>dauern müssen wir doch, daß sie uns nicht auf der Bühne,
+         <lb facs="#facs_1_region_1776574291987_52_tl_30" n="N030"/>in einer ihrer Glanzrollen, entgegengetreten ist.
+            </p><p>
+         <lb facs="#facs_1_region_1776574291987_52_tl_31" n="N031"/>Wie in der Marktscene von „<rs type="bibl">Lakmé</rs>“ die hellen Glöckchen
+         <lb facs="#facs_1_region_1776574291987_52_tl_32" n="N032"/>des Zauberers, so wirkt bei uns der Geigenklang <hi rendition="#em"><rs type="person">Sara
+         <lb facs="#facs_1_region_1776574291987_52_tl_33" n="N033" break="no"/>sate</rs>’s</hi>. Alles Volk strömt herzu und weicht nicht vom
+         <lb facs="#facs_1_region_1776574291987_52_tl_34" n="N034"/>Platze, bevor der letzte Ton verschollen. Zum Ruhme dieses
+         <lb facs="#facs_1_region_1776574291987_52_tl_35" n="N035"/>Zauberers läßt sich nicht mehr viel beitragen, auch von ihm
+         <lb facs="#facs_1_region_1776574291987_52_tl_36" n="N036"/>selbst nicht. <rs type="person">Sarasate</rs> hat in letzter Zeit wiederholt in <rs type="place">Wien</rs><space quantity="1" unit="char"/> 
+         <lb facs="#facs_1_region_1776574291987_52_tl_37" n="N037"/>gespielt, immer bei gleichem Andrang, mit gleichem Erfolg
+         <lb facs="#facs_1_region_1776574291987_52_tl_38" n="N038"/>und auch — in derselben Weise. Die Klangschönheit seines
+         <lb facs="#facs_1_region_1776574291987_52_tl_39" n="N039"/>Tones läßt sich so wenig beschreiben, wie die erstaunlichen
+         <lb facs="#facs_1_region_1776574291987_52_tl_40" n="N040"/>Hexenkünste seiner Technik. Ohne Frage beruht die Eigen
+         <lb facs="#facs_1_region_1776574291987_52_tl_41" n="N041" break="no"/>thümlichkeit und der Erfolg <rs type="person">Sarasate</rs>’s hauptsächlich auf<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776574308042_58_tl_1" n="N001"/>diesen Virtuosenkünsten, und daraus erkläre ich mir auch,
+         <lb facs="#facs_2_region_1776574308042_58_tl_2" n="N002"/>warum er für mich an Reiz verliert, wenn ich ihn oft gehört
+         <lb facs="#facs_2_region_1776574308042_58_tl_3" n="N003"/>habe. An schöpferischer Phantasie, an geistiger Kraft und tiefer
+         <lb facs="#facs_2_region_1776574308042_58_tl_4" n="N004"/>Empfindung bleibt er uns doch Einiges schuldig. Das beweist unter
+         <lb facs="#facs_2_region_1776574308042_58_tl_5" n="N005"/>Anderm sein Vortrag des <hi rendition="#em"><rs type="person">Beethoven</rs></hi>’schen <rs type="bibl">Concert</rs>s, womit
+         <lb facs="#facs_2_region_1776574308042_58_tl_6" n="N006"/><rs type="person">Sarasate</rs> keineswegs die Wirkung erzielt, wie <rs type="person">Joachim</rs> oder
+         <lb facs="#facs_2_region_1776574308042_58_tl_7" n="N007"/><rs type="person">Ondriček</rs>. Sein ganz einzig süßer Geigenton streift von
+         <lb facs="#facs_2_region_1776574308042_58_tl_8" n="N008"/>diesem Werke das Große und Breite ab und zieht es ins
+         <lb facs="#facs_2_line_1784540030588_713" n="N009"/>Graziöse, Redliche. Viel näher verwandt fühlt er sich dem
+         <lb facs="#facs_2_region_1776574308042_58_tl_10" n="N010"/><hi rendition="#em"><rs type="person">Mendelssohn</rs></hi>’schen <rs type="bibl">Concert</rs>, das er überaus fein und
+         <lb facs="#facs_2_line_1784540082436_735" n="N011"/>lieblich ausführt. Zum Schluß spielte er ein neues Virtuosen
+         <lb facs="#facs_2_line_1784540085570_738" n="N012" break="no"/>stück, „<rs type="bibl">Muiñiera</rs>“ (die Müllerin), von <rs type="person">Sarasate</rs> nur für
+         <lb facs="#facs_2_region_1776574308042_58_tl_15" n="N013"/><rs type="person">Sarasate</rs> und seine Geige geschrieben. Es wird kaum einen
+         <lb facs="#facs_2_region_1776574308042_58_tl_16" n="N014"/>Violinspieler gelüsten, ihm dieses Stück nachzugeigen, so sehr
+         <lb facs="#facs_2_region_1776574308042_58_tl_17" n="N015"/>ist es nur dazu da, um seine Bravour zu zeigen. Das
+         <lb facs="#facs_2_region_1776574308042_58_tl_18" n="N016"/>Orchester — diesmal unter Hanns <hi rendition="#em"><rs type="person">Richter</rs></hi> — begleitete
+         <lb facs="#facs_2_region_1776574308042_58_tl_19" n="N017"/>die beiden <rs type="bibl">Concerte</rs> wundervoll.
+            </p><p>
+         <lb facs="#facs_2_region_1776574308042_58_tl_20" n="N018"/>In <rs type="person">Sarasate</rs>’s Concert hörten wir auch eine Pianistin
+         <lb facs="#facs_2_region_1776574308042_58_tl_21" n="N019"/>Madame Berthe <hi rendition="#em"><rs type="person">Marx</rs></hi> aus <rs type="place">Paris</rs>. <rs type="place">Französisch</rs>es scheint
+         <lb facs="#facs_2_region_1776574308042_58_tl_22" n="N020"/>wenig an ihr. Einfach und bescheiden in ihrem Auftreten,
+         <lb facs="#facs_2_region_1776574308042_58_tl_23" n="N021"/>spielt sie mit großer Ruhe und Sicherheit, überdies mit
+         <lb facs="#facs_2_region_1776574308042_58_tl_24" n="N022"/>einer tadellosen, nach jeder Richtung hin ausgefeilten Technik.
+         <lb facs="#facs_2_region_1776574308042_58_tl_25" n="N023"/>Ihr Spiel ist nicht bedeutend, nicht hinreißend, immerhin
+         <lb facs="#facs_2_region_1776574308042_58_tl_26" n="N024"/>aber höchst angenehm, weil maßvoll und sehr musikalisch.
+         <lb facs="#facs_2_region_1776574308042_58_tl_27" n="N025"/>Leider spielte Mad. <rs type="person">Marx</rs> außer der <hi rendition="#em"><rs type="person">Liszt</rs></hi>’schen <rs type="bibl">Rhapsodie 
+         <lb facs="#facs_2_region_1776574308042_58_tl_28" n="N026"/>über ungarische Volkslieder</rs> recht wässerige Sachen. Sie hat
+         <lb facs="#facs_2_region_1776574308042_58_tl_29" n="N027"/>lebhaften Beifall geerntet, was viel sagen will, wenn man
+         <lb facs="#facs_2_region_1776574308042_58_tl_30" n="N028"/>neben <rs type="person">Sarasate</rs> spielt.
+            </p><p>
+         <lb facs="#facs_2_region_1776574308042_58_tl_31" n="N029"/>Die <hi rendition="#em">Philharmoniker</hi> erfreuten uns in ihrem
+         <lb facs="#facs_2_region_1776574308042_58_tl_32" n="N030"/>dritten Concerte mit einer Novität: den „<rs type="bibl">Symphonischen
+         <lb facs="#facs_2_region_1776574308042_58_tl_33" n="N031"/>Variationen</rs>“ von Anton <hi rendition="#em"><rs type="person">Dvořak</rs></hi>. Das Werk, welches
+         <lb facs="#facs_2_region_1776574308042_58_tl_34" n="N032"/>bereits in <rs type="place">England</rs> die günstigste Aufnahme gefunden, ist
+         <lb facs="#facs_2_region_1776574308042_58_tl_35" n="N033"/>(vorläufig in vierhändigem <rs type="bibl">Arrangement</rs>) bei <rs type="person">Simrock</rs> als
+         <lb facs="#facs_2_region_1776574308042_58_tl_36" n="N034"/>Opus 78 erschienen. Thatsächlich ist es aber schon vor zehn
+         <lb facs="#facs_2_region_1776574308042_58_tl_37" n="N035"/>Jahren componirt. Hat es der Componist vielleicht so lange
+         <lb facs="#facs_2_line_1784540599832_793" n="N036"/>zurückbehalten, weil er an dessen unmittelbar packender Wir
+         <lb facs="#facs_2_region_1776574308042_58_tl_40" n="N037" break="no"/>kung zweifelte? In Wahrheit werden die <rs type="bibl">Symphonischen
+         <lb facs="#facs_2_region_1776574308042_58_tl_41" n="N038"/>Variationen</rs> zumeist den Musiker interessiren, welcher
+         <lb facs="#facs_2_region_1776574308042_58_tl_42" n="N039"/>das Thema aus all den vielgestaltigen siebenund
+         <lb facs="#facs_2_region_1776574308042_58_tl_43" n="N040" break="no"/>zwanzig Veränderungen heraushört und mit Spannung
+         <lb facs="#facs_2_region_1776574308042_58_tl_44" n="N041"/>dessen rhythmischen und harmonischen Wechselfällen folgt. Ein
+         <lb facs="#facs_2_region_1776574308042_58_tl_45" n="N042"/>großes Publicum dürfte sich wol nur an effectvolle Einzel</p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1776574308042_58_tl_1" n="N001"/>diesen Virtuosenkünsten, und daraus erkläre ich mir auch,
-               <lb facs="#facs_2_region_1776574308042_58_tl_2" n="N002"/>warum er für mich an Reiz verliert, wenn ich ihn oft gehört
-               <lb facs="#facs_2_region_1776574308042_58_tl_3" n="N003"/>habe. An schöpferischer Phantasie, an geistiger Kraft und tiefer
-               <lb facs="#facs_2_region_1776574308042_58_tl_4" n="N004"/>Empfindung bleibt er uns doch Einiges schuldig. Das beweist unter
-               <lb facs="#facs_2_region_1776574308042_58_tl_5" n="N005"/>Anderm sein Vortrag des <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>
-               </hi>’schen <rs type="bibl">Concert</rs>s, womit
-               <lb facs="#facs_2_region_1776574308042_58_tl_6" n="N006"/>
-               <rs type="person">Sarasate</rs> keineswegs die Wirkung erzielt, wie <rs type="person">Joachim</rs> oder
-               <lb facs="#facs_2_region_1776574308042_58_tl_7" n="N007"/>
-               <rs type="person">Ondriček</rs>. Sein ganz einzig süßer Geigenton streift von
-               <lb facs="#facs_2_region_1776574308042_58_tl_8" n="N008"/>diesem Werke das Große und Breite ab und zieht es ins
-               <lb facs="#facs_2_line_1784540030588_713" n="N009"/>Graziöse, Redliche. Viel näher verwandt fühlt er sich dem
-               <lb facs="#facs_2_region_1776574308042_58_tl_10" n="N010"/>
-               <hi rendition="#em">
-                  <rs type="person">Mendelssohn</rs>
-               </hi>’schen <rs type="bibl">Concert</rs>, das er überaus fein und
-               <lb facs="#facs_2_line_1784540082436_735" n="N011"/>lieblich ausführt. Zum Schluß spielte er ein neues Virtuosen¬
-               <lb facs="#facs_2_line_1784540085570_738" n="N012"/>stück, „<rs type="bibl">Muiñiera</rs>“ (die Müllerin), von <rs type="person">Sarasate</rs> nur für
-               <lb facs="#facs_2_region_1776574308042_58_tl_15" n="N013"/>
-               <rs type="person">Sarasate</rs> und seine Geige geschrieben. Es wird kaum einen
-               <lb facs="#facs_2_region_1776574308042_58_tl_16" n="N014"/>Violinspieler gelüsten, ihm dieses Stück nachzugeigen, so sehr
-               <lb facs="#facs_2_region_1776574308042_58_tl_17" n="N015"/>ist es nur dazu da, um seine Bravour zu zeigen. Das
-               <lb facs="#facs_2_region_1776574308042_58_tl_18" n="N016"/>Orchester — diesmal unter Hanns <hi rendition="#em">
-                  <rs type="person">Richter</rs>
-               </hi> — begleitete
-               <lb facs="#facs_2_region_1776574308042_58_tl_19" n="N017"/>die beiden <rs type="bibl">Concerte</rs> wundervoll.
-               <lb facs="#facs_2_region_1776574308042_58_tl_20" n="N018"/>In <rs type="person">Sarasate</rs>’s Concert hörten wir auch eine Pianistin
-               <lb facs="#facs_2_region_1776574308042_58_tl_21" n="N019"/>Madame Berthe <hi rendition="#em">
-                  <rs type="person">Marx</rs>
-               </hi> aus <rs type="place">Paris</rs>. <rs type="place">Französisch</rs>es scheint
-               <lb facs="#facs_2_region_1776574308042_58_tl_22" n="N020"/>wenig an ihr. Einfach und bescheiden in ihrem Auftreten,
-               <lb facs="#facs_2_region_1776574308042_58_tl_23" n="N021"/>spielt sie mit großer Ruhe und Sicherheit, überdies mit
-               <lb facs="#facs_2_region_1776574308042_58_tl_24" n="N022"/>einer tadellosen, nach jeder Richtung hin ausgefeilten Technik.
-               <lb facs="#facs_2_region_1776574308042_58_tl_25" n="N023"/>Ihr Spiel ist nicht bedeutend, nicht hinreißend, immerhin
-               <lb facs="#facs_2_region_1776574308042_58_tl_26" n="N024"/>aber höchst angenehm, weil maßvoll und sehr musikalisch.
-               <lb facs="#facs_2_region_1776574308042_58_tl_27" n="N025"/>Leider spielte Mad. <rs type="person">Marx</rs> außer der <hi rendition="#em">
-                  <rs type="person">Liszt</rs>
-               </hi>’schen <rs type="bibl">Rhapsodie</rs>
-               <lb facs="#facs_2_region_1776574308042_58_tl_28" n="N026"/>
-               <rs type="bibl">über ungarische Volkslieder</rs> recht wässerige Sachen. Sie hat
-               <lb facs="#facs_2_region_1776574308042_58_tl_29" n="N027"/>lebhaften Beifall geerntet, was viel sagen will, wenn man
-               <lb facs="#facs_2_region_1776574308042_58_tl_30" n="N028"/>neben <rs type="person">Sarasate</rs> spielt.
-               <lb facs="#facs_2_region_1776574308042_58_tl_31" n="N029"/>Die <hi rendition="#em">Philharmoniker</hi> erfreuten uns in ihrem
-               <lb facs="#facs_2_region_1776574308042_58_tl_32" n="N030"/>dritten Concerte mit einer Novität: den „<rs type="bibl">Symphonischen</rs>
-               <lb facs="#facs_2_region_1776574308042_58_tl_33" n="N031"/>
-               <rs type="bibl">Variationen</rs>“ von Anton <hi rendition="#em">
-                  <rs type="person">Dvořak</rs>
-               </hi>. Das Werk, welches
-               <lb facs="#facs_2_region_1776574308042_58_tl_34" n="N032"/>bereits in <rs type="place">England</rs> die günstigste Aufnahme gefunden, ist
-               <lb facs="#facs_2_region_1776574308042_58_tl_35" n="N033"/>(vorläufig in vierhändigem <rs type="bibl">Arrangement</rs>) bei <rs type="person">Simrock</rs> als
-               <lb facs="#facs_2_region_1776574308042_58_tl_36" n="N034"/>Opus 78 erschienen. Thatsächlich ist es aber schon vor zehn
-               <lb facs="#facs_2_region_1776574308042_58_tl_37" n="N035"/>Jahren componirt. Hat es der Componist vielleicht so lange
-               <lb facs="#facs_2_line_1784540599832_793" n="N036"/>zurückbehalten, weil er an dessen unmittelbar packender Wir¬
-               <lb facs="#facs_2_region_1776574308042_58_tl_40" n="N037"/>kung zweifelte? In Wahrheit werden die <rs type="bibl">Symphonischen</rs>
-               <lb facs="#facs_2_region_1776574308042_58_tl_41" n="N038"/>
-               <rs type="bibl">Variationen</rs> zumeist den Musiker interessiren, welcher
-               <lb facs="#facs_2_region_1776574308042_58_tl_42" n="N039"/>das Thema aus all den vielgestaltigen siebenund¬
-               <lb facs="#facs_2_region_1776574308042_58_tl_43" n="N040"/>zwanzig Veränderungen heraushört und mit Spannung
-               <lb facs="#facs_2_region_1776574308042_58_tl_44" n="N041"/>dessen rhythmischen und harmonischen Wechselfällen folgt. Ein
-               <lb facs="#facs_2_region_1776574308042_58_tl_45" n="N042"/>großes Publicum dürfte sich wol nur an effectvolle Einzel¬
-            </p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1776574313490_61_tl_1" n="N001"/>heiten halten und vor Allem an dem Thema kein besonderes
-               <lb facs="#facs_2_region_1776574313490_61_tl_2" n="N002"/>Gefallen finden. Dasselbe ist einem mir nicht näher bekann¬
-               <lb facs="#facs_2_region_1776574313490_61_tl_3" n="N003"/>ten <rs type="place">czechisch</rs>en Chor „<rs type="bibl">Já jsem guslar</rs>“ entnommen, eine
-               <lb facs="#facs_2_region_1776574313490_61_tl_4" n="N004"/>eigenthümlich gedrückte, schleichende, trockene Melodie in
-               <lb facs="#facs_2_region_1776574313490_61_tl_5" n="N005"/>C-dur, im Rhythmus von sieben Tacten. Ueberrascht uns
-               <lb facs="#facs_2_region_1776574313490_61_tl_6" n="N006"/>schon im zweiten Tact des Themas das scharf einschneidende
-               <lb facs="#facs_2_region_1776574313490_61_tl_7" n="N007"/>
-               <hi rendition="#em">fis</hi>, so schmuggelt die erste Variation noch außerdem ein
-               <lb facs="#facs_2_region_1776574313490_61_tl_8" n="N008"/>recht übelklingendes <hi rendition="#em">b</hi> und <hi rendition="#em">as</hi> in die C-dur-Harmonie.
-               <lb facs="#facs_2_region_1776574313490_61_tl_9" n="N009"/>Aehnliche harmonische Härten, Querstände und ungeschickte
-               <lb facs="#facs_2_region_1776574313490_61_tl_10" n="N010"/>Verdopplungen finden sich noch häufig im Verlaufe des
-               <lb facs="#facs_2_region_1776574313490_61_tl_11" n="N011"/>Werkes. Dennoch geht ein großer ernster Zug durch das
-               <lb facs="#facs_2_region_1776574313490_61_tl_12" n="N012"/>Ganze, eine reich und eigenartig schaffende Phantasie, wie
-               <lb facs="#facs_2_region_1776574313490_61_tl_13" n="N013"/>sie in der heutigen, theils aus Zukunfts-, theils aus
-               <lb facs="#facs_2_region_1776574313490_61_tl_14" n="N014"/>Capellmeister-Musik bestehenden Production äußerst selten
-               <lb facs="#facs_2_region_1776574313490_61_tl_15" n="N015"/>vorkommt. <rs type="person">Dvořak</rs> ist nicht blos ein glänzendes,
-               <lb facs="#facs_2_region_1776574313490_61_tl_16" n="N016"/>er ist ein echtes, ursprüngliches, naives Talent.
-               <lb facs="#facs_2_region_1776574313490_61_tl_17" n="N017"/>Originell und natürlich, wie Wenige neben ihm, hat er selbst
-               <lb facs="#facs_2_region_1776574313490_61_tl_18" n="N018"/>in seinen schwächeren Compositionen stets geniale Einfälle.
-               <lb facs="#facs_2_region_1776574313490_61_tl_19" n="N019"/>Nächst <hi rendition="#em">
-                  <rs type="person">Brahms</rs>
-               </hi> ist, meines Dafürhaltens, <rs type="person">Dvořak</rs> der be¬
-               <lb facs="#facs_2_region_1776574313490_61_tl_20" n="N020"/>gabteste Instrumental-Componist der Gegenwart. Seinen
-               <lb facs="#facs_2_region_1776574313490_61_tl_21" n="N021"/>Werken eignet nicht die künstlerische Vollendung, noch die zusam¬
-               <lb facs="#facs_2_region_1776574313490_61_tl_22" n="N022"/>menhaltende Kraft und zwingende Nothwendigkeit der <rs type="person">Brahms</rs>'¬
-               <lb facs="#facs_2_region_1776574313490_61_tl_23" n="N023"/>schen Musik; sie sind sinnlicher, naiver, weicher, wol auch zerfah¬
-               <lb facs="#facs_2_region_1776574313490_61_tl_24" n="N024"/>rener. An Jahren kein Jüngling mehr, ist es <rs type="person">Dvořak</rs> noch
-               <lb facs="#facs_2_region_1776574313490_61_tl_25" n="N025"/>immer in seiner Musik; <rs type="person">Brahms</rs> ist immer kräftig, gedrun¬
-               <lb facs="#facs_2_region_1776574313490_61_tl_26" n="N026"/>gen, mannhaft. Auf die „<rs type="bibl">Symphonischen Variationen</rs>“ zurück¬
-               <lb facs="#facs_2_region_1776574313490_61_tl_27" n="N027"/>zukommen, so wollen sie uns bei sehr vorgeschrittener contra¬
-               <lb facs="#facs_2_region_1776574313490_61_tl_28" n="N028"/>punktischer Gewandtheit doch weniger farbenfrisch und ur¬
-               <lb facs="#facs_2_region_1776574313490_61_tl_29" n="N029"/>sprünglich erscheinen, als viele von <rs type="person">Dvořak</rs>’s früheren Com¬
-               <lb facs="#facs_2_region_1776574313490_61_tl_30" n="N030"/>positionen. Genug jedoch, daß, wer sie aufmerksam hört, auf
-               <lb facs="#facs_2_region_1776574313490_61_tl_31" n="N031"/>keinen andern Componisten rathen würde, als eben auf <rs type="person">Dvořak</rs>.
-               <lb facs="#facs_2_region_1776574313490_61_tl_32" n="N032"/>Auch eine neue Sängerin verdanken wir Herrn Hanns
-               <lb facs="#facs_2_region_1776574313490_61_tl_33" n="N033"/>
-               <rs type="person">Richter</rs> und seinem dritten Philharmonischen Concert : Fräu¬
-               <lb facs="#facs_2_region_1776574313490_61_tl_34" n="N034"/>lein <hi rendition="#em">Therese <rs type="person">Zerbst</rs>
-               </hi>
-               <rs type="person"/> aus <rs type="place">Berlin</rs>. Nach dem einzigen
-               <lb facs="#facs_2_region_1776574313490_61_tl_35" n="N035"/>Stück, das sie vorgetragen hat — „<rs type="person">Ingeborg</rs>’s Klage“ aus
-               <lb facs="#facs_2_region_1776574313490_61_tl_36" n="N036"/>der <rs type="bibl">Frithyofs-Cantate</rs> von Max <hi rendition="#em">
-                  <rs type="person">Bruch</rs>
-               </hi> — können wir vor¬
-               <lb facs="#facs_2_region_1776574313490_61_tl_37" n="N037"/>läufig nur ihre volltönende, weiche Stimme und verständige
-               <lb facs="#facs_2_region_1776574313490_61_tl_38" n="N038"/>Vortragsweise rühmen. In ihrem „Liederabend“ hoffen wir
-               <lb facs="#facs_2_region_1776574313490_61_tl_39" n="N039"/>Fräulein <rs type="person">Zerbst</rs> vielseitiger kennen zu lernen und richtiger zu
-               <lb facs="#facs_2_region_1776574313490_61_tl_40" n="N040"/>würdigen. Daß sie für ihr erstes Auftreten in <rs type="place">Wien</rs> gerade
-               <lb facs="#facs_2_region_1776574313490_61_tl_41" n="N041"/>das larmoyante Stück von <rs type="person">Bruch</rs> sich ausersehen hat, macht
-               <lb facs="#facs_2_region_1776574313490_61_tl_42" n="N042"/>uns etwas zurückhaltend im Urtheil.
+            <p prev="true">
+         <lb facs="#facs_2_region_1776574313490_61_tl_1" n="N001" break="no"/>heiten halten und vor Allem an dem Thema kein besonderes
+         <lb facs="#facs_2_region_1776574313490_61_tl_2" n="N002"/>Gefallen finden. Dasselbe ist einem mir nicht näher bekann
+         <lb facs="#facs_2_region_1776574313490_61_tl_3" n="N003" break="no"/>ten <rs type="place">czechisch</rs>en Chor „<rs type="bibl">Já jsem guslar</rs>“ entnommen, eine
+         <lb facs="#facs_2_region_1776574313490_61_tl_4" n="N004"/>eigenthümlich gedrückte, schleichende, trockene Melodie in
+         <lb facs="#facs_2_region_1776574313490_61_tl_5" n="N005"/>C-dur, im Rhythmus von sieben Tacten. Ueberrascht uns
+         <lb facs="#facs_2_region_1776574313490_61_tl_6" n="N006"/>schon im zweiten Tact des Themas das scharf einschneidende
+         <lb facs="#facs_2_region_1776574313490_61_tl_7" n="N007"/><hi rendition="#em">fis</hi>, so schmuggelt die erste Variation noch außerdem ein
+         <lb facs="#facs_2_region_1776574313490_61_tl_8" n="N008"/>recht übelklingendes <hi rendition="#em">b</hi> und <hi rendition="#em">as</hi> in die C-dur-Harmonie.
+         <lb facs="#facs_2_region_1776574313490_61_tl_9" n="N009"/>Aehnliche harmonische Härten, Querstände und ungeschickte
+         <lb facs="#facs_2_region_1776574313490_61_tl_10" n="N010"/>Verdopplungen finden sich noch häufig im Verlaufe des
+         <lb facs="#facs_2_region_1776574313490_61_tl_11" n="N011"/>Werkes. Dennoch geht ein großer ernster Zug durch das
+         <lb facs="#facs_2_region_1776574313490_61_tl_12" n="N012"/>Ganze, eine reich und eigenartig schaffende Phantasie, wie
+         <lb facs="#facs_2_region_1776574313490_61_tl_13" n="N013"/>sie in der heutigen, theils aus Zukunfts-, theils aus
+         <lb facs="#facs_2_region_1776574313490_61_tl_14" n="N014"/>Capellmeister-Musik bestehenden Production äußerst selten
+         <lb facs="#facs_2_region_1776574313490_61_tl_15" n="N015"/>vorkommt. <rs type="person">Dvořak</rs> ist nicht blos ein glänzendes,
+         <lb facs="#facs_2_region_1776574313490_61_tl_16" n="N016"/>er ist ein echtes, ursprüngliches, naives Talent.
+         <lb facs="#facs_2_region_1776574313490_61_tl_17" n="N017"/>Originell und natürlich, wie Wenige neben ihm, hat er selbst
+         <lb facs="#facs_2_region_1776574313490_61_tl_18" n="N018"/>in seinen schwächeren Compositionen stets geniale Einfälle.
+         <lb facs="#facs_2_region_1776574313490_61_tl_19" n="N019"/>Nächst <hi rendition="#em"><rs type="person">Brahms</rs></hi> ist, meines Dafürhaltens, <rs type="person">Dvořak</rs> der be
+         <lb facs="#facs_2_region_1776574313490_61_tl_20" n="N020" break="no"/>gabteste Instrumental-Componist der Gegenwart. Seinen
+         <lb facs="#facs_2_region_1776574313490_61_tl_21" n="N021"/>Werken eignet nicht die künstlerische Vollendung, noch die zusam
+         <lb facs="#facs_2_region_1776574313490_61_tl_22" n="N022" break="no"/>menhaltende Kraft und zwingende Nothwendigkeit der <rs type="person">Brahms</rs>’
+         <lb facs="#facs_2_region_1776574313490_61_tl_23" n="N023" break="no"/>schen Musik; sie sind sinnlicher, naiver, weicher, wol auch zerfah
+         <lb facs="#facs_2_region_1776574313490_61_tl_24" n="N024" break="no"/>rener. An Jahren kein Jüngling mehr, ist es <rs type="person">Dvořak</rs> noch
+         <lb facs="#facs_2_region_1776574313490_61_tl_25" n="N025"/>immer in seiner Musik; <rs type="person">Brahms</rs> ist immer kräftig, gedrun
+         <lb facs="#facs_2_region_1776574313490_61_tl_26" n="N026" break="no"/>gen, mannhaft. Auf die „<rs type="bibl">Symphonischen Variationen</rs>“ zurück
+         <lb facs="#facs_2_region_1776574313490_61_tl_27" n="N027" break="no"/>zukommen, so wollen sie uns bei sehr vorgeschrittener contra
+         <lb facs="#facs_2_region_1776574313490_61_tl_28" n="N028" break="no"/>punktischer Gewandtheit doch weniger farbenfrisch und ur
+         <lb facs="#facs_2_region_1776574313490_61_tl_29" n="N029" break="no"/>sprünglich erscheinen, als viele von <rs type="person">Dvořak</rs>’s früheren Com
+         <lb facs="#facs_2_region_1776574313490_61_tl_30" n="N030" break="no"/>positionen. Genug jedoch, daß, wer sie aufmerksam hört, auf
+         <lb facs="#facs_2_region_1776574313490_61_tl_31" n="N031"/>keinen andern Componisten rathen würde, als eben auf <rs type="person">Dvořak</rs>.
+            </p><p>
+         <lb facs="#facs_2_region_1776574313490_61_tl_32" n="N032"/>Auch eine neue Sängerin verdanken wir Herrn Hanns
+         <lb facs="#facs_2_region_1776574313490_61_tl_33" n="N033"/><rs type="person">Richter</rs> und seinem dritten Philharmonischen Concert : Fräu
+         <lb facs="#facs_2_region_1776574313490_61_tl_34" n="N034" break="no"/>lein <hi rendition="#em">Therese <rs type="person">Zerbst</rs></hi> aus <rs type="place">Berlin</rs>. Nach dem einzigen
+         <lb facs="#facs_2_region_1776574313490_61_tl_35" n="N035"/>Stück, das sie vorgetragen hat — „<rs type="person">Ingeborg</rs>’s Klage“ aus
+         <lb facs="#facs_2_region_1776574313490_61_tl_36" n="N036"/>der <rs type="bibl">Frithyofs-Cantate</rs> von Max <hi rendition="#em"><rs type="person">Bruch</rs></hi> — können wir vor
+         <lb facs="#facs_2_region_1776574313490_61_tl_37" n="N037" break="no"/>läufig nur ihre volltönende, weiche Stimme und verständige
+         <lb facs="#facs_2_region_1776574313490_61_tl_38" n="N038"/>Vortragsweise rühmen. In ihrem „Liederabend“ hoffen wir
+         <lb facs="#facs_2_region_1776574313490_61_tl_39" n="N039"/>Fräulein <rs type="person">Zerbst</rs> vielseitiger kennen zu lernen und richtiger zu
+         <lb facs="#facs_2_region_1776574313490_61_tl_40" n="N040"/>würdigen. Daß sie für ihr erstes Auftreten in <rs type="place">Wien</rs> gerade
+         <lb facs="#facs_2_region_1776574313490_61_tl_41" n="N041"/>das larmoyante Stück von <rs type="person">Bruch</rs> sich ausersehen hat, macht
+         <lb facs="#facs_2_region_1776574313490_61_tl_42" n="N042"/>uns etwas zurückhaltend im Urtheil.
             </p>
          </div>
       </body>

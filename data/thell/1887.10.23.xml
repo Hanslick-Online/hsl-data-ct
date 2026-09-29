@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 8318. Wien, Sonntag, den 23. October 1887</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,14 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
+               <name ref="https://orcid.org/0009-0007-9767-072X">Thell, Annika</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +71,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 8318. Wien, Sonntag, den 23. October 1887</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1887-10-23">23.10.1887</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18871023"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +107,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="athell" when="2026-07-15">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-09-22">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="athell" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1086,401 +1087,328 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_2_region_1776575867102_845_tl_1" n="N001"/><head type="h1">Zum Jubiläum von <rs type="person">Mozart</rs>’s „<rs type="bibl">Don Juan</rs>“.</head>
             <p>
-               <lb facs="#facs_1_line_1783346114057_649" n="N001"/>Nr. 8318. Wien, Sonntag, den 23. October 1887
-            </p>
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <pb facs="#facs_1" n="1" xml:id="img_0002"/>
+         <lb facs="#facs_2_region_1776575867102_845_tl_2" n="N002"/><rs type="person">Ed. H.</rs> Jedes Volk übt die schöne Sitte, den hun
+         <lb facs="#facs_2_region_1776575867102_845_tl_3" n="N003" break="no"/>dertsten Geburtstag seiner großen Dichter und Tonsetzer
+         <lb facs="#facs_2_region_1776575867102_845_tl_4" n="N004"/>öffentlich zu feiern. Ohne Beispiel aber steht es da, daß der
+         <lb facs="#facs_2_region_1776575867102_845_tl_5" n="N005"/>hundertste Geburtstag einer einzelnen Oper festlich begangen
+         <lb facs="#facs_2_region_1776575867102_845_tl_6" n="N006"/>wird. Und nicht blos an dem Orte ihrer denkwürdigen
+         <lb facs="#facs_2_region_1776575867102_845_tl_7" n="N007"/>ersten Aufführung, nicht blos im Vaterlande des Meisters,
+         <lb facs="#facs_2_region_1776575867102_845_tl_8" n="N008"/>sondern einmüthig in allen Residenzen der musikalischen
+         <lb facs="#facs_2_region_1776575867102_845_tl_9" n="N009"/>Cultur. Dies ist jetzt der Fall mit <rs type="person">Mozart</rs>’s <hi rendition="#em"><rs type="bibl">Don Juan</rs></hi>.
+         <lb facs="#facs_2_region_1776575867102_845_tl_10" n="N010"/>Während in der Regel nur Fachgelehrte die Jahrzahlen
+         <lb facs="#facs_2_region_1776575867102_845_tl_11" n="N011"/>wichtiger erster Aufführungen innehaben, weiß jeder Musik
+         <lb facs="#facs_2_region_1776575867102_845_tl_12" n="N012" break="no"/>freund, daß <rs type="person">Mozart</rs>’s <rs type="bibl">Don Juan</rs> am 29. October <date>1787</date><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1776575867102_845_tl_13" n="N013"/>in <rs type="place">Prag</rs> seinen Siegeslauf angetreten hat. Außer den sämmt
+         <lb facs="#facs_2_region_1776575867102_845_tl_14" n="N014" break="no"/>lichen <rs type="place">deutsch</rs>en Operntheatern werden auch die großen lyri
+         <lb facs="#facs_2_region_1776575867102_845_tl_15" n="N015" break="no"/>schen Bühnen von <rs type="place">Paris</rs>, <rs type="place">London</rs>, <rs type="place">Brüssel</rs>, <rs type="place">Stockholm</rs>,
+         <lb facs="#facs_2_region_1776575867102_845_tl_16" n="N016"/><rs type="place">Petersburg</rs> am 29. October den <rs type="bibl">Don Juan</rs> so festlich
+         <lb facs="#facs_2_region_1776575867102_845_tl_17" n="N017"/>als möglich aufführen und die Weihe dieses Tages durch
+         <lb facs="#facs_2_region_1776575867102_845_tl_18" n="N018"/>Gelegenheits-Gedichte, Tableaux und sonstige Feierlichkeiten
+         <lb facs="#facs_2_region_1776575867102_845_tl_19" n="N019"/>erhöhen. Dieser erhebende Vorgang, der allein schon die
+         <lb facs="#facs_2_region_1776575867102_845_tl_20" n="N020"/>ganz einzige Bedeutung und Lebenskraft von <rs type="person">Mozart</rs>’s
+         <lb facs="#facs_2_region_1776575867102_845_tl_21" n="N021"/><rs type="bibl">Don Juan</rs> darthut, ist, wie gesagt, selber eine außer
+         <lb facs="#facs_2_region_1776575867102_845_tl_22" n="N022" break="no"/>ordentliche Thatsache. An die Centennalfeier einer <hi rendition="#em"><rs type="person">Gluck</rs></hi>’</p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_2_region_1776575867102_845_tl_1" n="N001"/>Zum Jubiläum von <rs type="person">Mozart</rs>’s „<rs type="bibl">Don Juan</rs>“
-               <lb facs="#facs_2_region_1776575867102_845_tl_2" n="N002"/>
-               <rs type="person">Ed. H.</rs> Jedes Volk übt die schöne Sitte, den hun¬
-               <lb facs="#facs_2_region_1776575867102_845_tl_3" n="N003"/>dertsten Geburtstag seiner großen Dichter und Tonsetzer
-               <lb facs="#facs_2_region_1776575867102_845_tl_4" n="N004"/>öffentlich zu feiern. Ohne Beispiel aber steht es da, daß der
-               <lb facs="#facs_2_region_1776575867102_845_tl_5" n="N005"/>hundertste Geburtstag einer einzelnen Oper festlich begangen
-               <lb facs="#facs_2_region_1776575867102_845_tl_6" n="N006"/>wird. Und nicht blos an dem Orte ihrer denkwürdigen
-               <lb facs="#facs_2_region_1776575867102_845_tl_7" n="N007"/>ersten Aufführung, nicht blos im Vaterlande des Meisters,
-               <lb facs="#facs_2_region_1776575867102_845_tl_8" n="N008"/>sondern einmüthig in allen Residenzen der musikalischen
-               <lb facs="#facs_2_region_1776575867102_845_tl_9" n="N009"/>Cultur. Dies ist jetzt der Fall mit <rs type="person">Mozart</rs>’s <hi rendition="#em">
-                  <rs type="bibl">Don Juan</rs>
-               </hi>.
-               <lb facs="#facs_2_region_1776575867102_845_tl_10" n="N010"/>Während in der Regel nur Fachgelehrte die Jahrzahlen
-               <lb facs="#facs_2_region_1776575867102_845_tl_11" n="N011"/>wichtiger erster Aufführungen innehaben, weiß jeder Musik¬
-               <lb facs="#facs_2_region_1776575867102_845_tl_12" n="N012"/>freund, daß <rs type="person">Mozart</rs>’s <rs type="bibl">Don Juan</rs> am 29. October <date>1787</date>
-               <lb facs="#facs_2_region_1776575867102_845_tl_13" n="N013"/>in <rs type="place">Prag</rs> seinen Siegeslauf angetreten hat. Außer den sämmt¬
-               <lb facs="#facs_2_region_1776575867102_845_tl_14" n="N014"/>lichen <rs type="place">deutsch</rs>en Operntheatern werden auch die großen lyri¬
-               <lb facs="#facs_2_region_1776575867102_845_tl_15" n="N015"/>schen Bühnen von <rs type="place">Paris</rs>, <rs type="place">London</rs>, <rs type="place">Brüssel</rs>, <rs type="place">Stockholm</rs>,
-               <lb facs="#facs_2_region_1776575867102_845_tl_16" n="N016"/>
-               <rs type="place">Petersburg</rs> am 29. October den <rs type="bibl">Don Juan</rs> so festlich
-               <lb facs="#facs_2_region_1776575867102_845_tl_17" n="N017"/>als möglich aufführen und die Weihe dieses Tages durch
-               <lb facs="#facs_2_region_1776575867102_845_tl_18" n="N018"/>Gelegenheits-Gedichte, Tableaux und sonstige Feierlichkeiten
-               <lb facs="#facs_2_region_1776575867102_845_tl_19" n="N019"/>erhöhen. Dieser erhebende Vorgang, der allein schon die
-               <lb facs="#facs_2_region_1776575867102_845_tl_20" n="N020"/>ganz einzige Bedeutung und Lebenskraft von <rs type="person">Mozart</rs>’s
-               <lb facs="#facs_2_region_1776575867102_845_tl_21" n="N021"/>
-               <rs type="bibl">Don Juan</rs> darthut, ist, wie gesagt, selber eine außer¬
-               <lb facs="#facs_2_region_1776575867102_845_tl_22" n="N022"/>ordentliche Thatsache. An die Centennalfeier einer <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi>'¬
-            </p>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_2_region_1776575870125_848_tl_1" n="N001"/>schen Oper ist nirgends gedacht worden; weder in <rs type="place">Paris</rs>,
-               <lb facs="#facs_2_region_1776575870125_848_tl_2" n="N002"/>der Geburtsstätte der beiden <rs type="bibl">Iphigenie</rs>n und <rs type="bibl">Armida</rs>s, noch
-               <lb facs="#facs_2_region_1776575870125_848_tl_3" n="N003"/>in <rs type="place">Wien</rs>, wo man das Jubiläum von <rs type="bibl">Orpheus</rs> (<date month="0" day="0" year="0">1862</date>) und
-               <lb facs="#facs_2_region_1776575870125_848_tl_4" n="N004"/>von <rs type="bibl">Alceste</rs> (<date month="0" day="0" year="0">1867</date>) nicht nur nicht bemerkte, sondern diese
-               <lb facs="#facs_2_region_1776575870125_848_tl_5" n="N005"/>Opern selbst völlig vergessen hatte. Selbst an die Première
-               <lb facs="#facs_2_region_1776575870125_848_tl_6" n="N006"/>von <rs type="person">Mozart</rs>’s epochemachender „<rs type="bibl">Entführung aus dem Serail</rs>“
-               <lb facs="#facs_2_region_1776575870125_848_tl_7" n="N007"/>(12. Juli <date>1782</date>) dachte kein Mensch, und das Andenken der
-               <lb facs="#facs_2_region_1776575870125_848_tl_8" n="N008"/>hundertjährigen „<rs type="bibl">Hochzeit des Figaro</rs>“ wurde hier im vorigen
-               <lb facs="#facs_2_region_1776575870125_848_tl_9" n="N009"/>Sommer nur durch eine Alltagsaufführung geweckt, wie sie für
-               <lb facs="#facs_2_region_1776575870125_848_tl_10" n="N010"/>die bescheidenste silberne Hochzeit nicht genügt hätte. Allein auch
-               <lb facs="#facs_2_region_1776575870125_848_tl_11" n="N011"/>die Dramen unserer großen Dichter werden an ihrem
-               <lb facs="#facs_2_region_1776575870125_848_tl_12" n="N012"/>hundertsten Geburtstag nicht gefeiert und gleichsam hoch
-               <lb facs="#facs_2_region_1776575870125_848_tl_13" n="N013"/>erhoben, allem Volke gezeigt. Die Centennalfeier von
-               <lb facs="#facs_2_region_1776575870125_848_tl_14" n="N014"/>
-               <rs type="person">Schiller</rs>’s <rs type="bibl">Räubern</rs> in <rs type="place">Mannheim</rs> (<date month="0" day="0" year="0">1882</date>) war eine rein
-               <lb facs="#facs_2_region_1776575870125_848_tl_15" n="N015"/>locale; weder <hi rendition="#em">
-                  <rs type="person">Lessing</rs>’s</hi>
-               <rs type="bibl">Nathan</rs>, noch <hi rendition="#em">
-                  <rs type="person">Schiller</rs>’s</hi>
-               <rs type="bibl">Kabale</rs>
-               <lb facs="#facs_2_region_1776575870125_848_tl_16" n="N016"/>
-               <rs type="bibl">und Liebe</rs>, noch <hi rendition="#em">
-                  <rs type="person">Goethe</rs>’s</hi>
-               <rs type="bibl">Egmont</rs>, <rs type="bibl">Götz</rs>, <rs type="bibl">Clavigo</rs> —
-               <lb facs="#facs_2_region_1776575870125_848_tl_17" n="N017"/>Stücke, deren hundertster Geburtstag in die letzten sieben
-               <lb facs="#facs_2_region_1776575870125_848_tl_18" n="N018"/>Jahre 1879—1884 fiel — haben in <rs type="place">Deutschland</rs> die Hul¬
-               <lb facs="#facs_2_region_1776575870125_848_tl_19" n="N019"/>digung erlebt, welche jetzt der Oper <rs type="bibl">Don Juan</rs> allerwärts
-               <lb facs="#facs_2_region_1776575870125_848_tl_20" n="N020"/>spontan zu Theil wird. So zeigt sich uns denn <rs type="person">Mozart</rs>’s
-               <lb facs="#facs_2_region_1776575870125_848_tl_21" n="N021"/>Meisterwerk als ganz einzig dastehend in der unwandelbaren
-               <lb facs="#facs_2_region_1776575870125_848_tl_22" n="N022"/>Liebe und Verehrung der Menschen. Wie die Theologie einen
-               <lb facs="#facs_2_region_1776575870125_848_tl_23" n="N023"/>ihrer Beweise für die Unsterblichkeit der Seele „ex con-
-               <lb facs="#facs_2_region_1776575870125_848_tl_24" n="N024"/>sensu populorum“ herleitet, so ließe sich heute die Unsterb¬
-               <lb facs="#facs_2_region_1776575870125_848_tl_25" n="N025"/>lichkeit von <rs type="person">Mozart</rs>’s <rs type="bibl">Don Juan</rs> beweisen aus der Ueberein¬
-               <lb facs="#facs_2_region_1776575870125_848_tl_26" n="N026"/>stimmung aller Völker.
-               <lb facs="#facs_2_region_1776575870125_848_tl_27" n="N027"/>Die hundert Jahre allein thun’s freilich nicht; das
-               <lb facs="#facs_2_region_1776575870125_848_tl_28" n="N028"/>haben wir bei <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi> gesehen, dessen „<rs type="bibl">Orfeo</rs>“ und „<rs type="bibl">Alceste</rs>“
-               <lb facs="#facs_2_region_1776575870125_848_tl_29" n="N029"/>zwar jetzt in <rs type="place">Wien</rs> wiedererweckt sind, aber wiedererweckt
-               <lb facs="#facs_2_region_1776575870125_848_tl_30" n="N030"/>aus halbhundertjährigem Schlaf, im Zustande völligen Ver¬
-               <lb facs="#facs_2_region_1776575870125_848_tl_31" n="N031"/>gessenseins. <rs type="person">Mozart</rs>’s <rs type="bibl">Don Juan</rs> mußte zwar an einzelnen
-               <lb facs="#facs_2_region_1776575870125_848_tl_32" n="N032"/>Orten auch zeitweise Unterbrechungen erleiden, im Großen
-               <lb facs="#facs_2_line_1783586948450_62" n="N033"/>und Ganzen jedoch hat er fast jede, namentlich jede <rs type="place">deutsch</rs>e
-               <lb facs="#facs_2_line_1783586952118_65" n="N034"/>Bühne standhaft behauptet, die er einmal betreten. Solche
-               <lb facs="#facs_2_region_1776575870125_848_tl_33" n="N035"/>Continuität und ununterbrochene, ja ungeschwächte Wirkung
-               <lb facs="#facs_2_region_1776575870125_848_tl_34" n="N036"/>ein volles Jahrhundert hindurch ist ohne Beispiel im Gebiet
-               <lb facs="#facs_2_region_1776575870125_848_tl_35" n="N037"/>der Oper, dieser zusammengesetztesten und darum vergäng¬
-               <lb facs="#facs_2_region_1776575870125_848_tl_36" n="N038"/>lichsten aller großen Kunstformen. Was sich außer <rs type="person">Mozart</rs>’s
-               <lb facs="#facs_2_region_1776575870125_848_tl_37" n="N039"/>Opern überhaupt erhalten hat aus dem vorigen Jahrhundert,
-               <lb facs="#facs_2_region_1776575870125_848_tl_38" n="N040"/>sind vier bis fünf Werke von <hi rendition="#em">
-                  <rs type="person">Gluck</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Cimarosa</rs>’s</hi>
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776575870125_848_tl_1" n="N001" break="no"/>schen Oper ist nirgends gedacht worden; weder in <rs type="place">Paris</rs>,
+         <lb facs="#facs_2_region_1776575870125_848_tl_2" n="N002"/>der Geburtsstätte der beiden <rs type="bibl">Iphigenie</rs>n und <rs type="bibl">Armida</rs>s, noch
+         <lb facs="#facs_2_region_1776575870125_848_tl_3" n="N003"/>in <rs type="place">Wien</rs>, wo man das Jubiläum von <rs type="bibl">Orpheus</rs> (<date>1862</date>) und
+         <lb facs="#facs_2_region_1776575870125_848_tl_4" n="N004"/>von <rs type="bibl">Alceste</rs> (<date>1867</date>) nicht nur nicht bemerkte, sondern diese
+         <lb facs="#facs_2_region_1776575870125_848_tl_5" n="N005"/>Opern selbst völlig vergessen hatte. Selbst an die Première
+         <lb facs="#facs_2_region_1776575870125_848_tl_6" n="N006"/>von <rs type="person">Mozart</rs>’s epochemachender „<rs type="bibl">Entführung aus dem Serail</rs>“
+         <lb facs="#facs_2_region_1776575870125_848_tl_7" n="N007"/>(12. Juli <date>1782</date>) dachte kein Mensch, und das Andenken der
+         <lb facs="#facs_2_region_1776575870125_848_tl_8" n="N008"/>hundertjährigen „<rs type="bibl">Hochzeit des Figaro</rs>“ wurde hier im vorigen
+         <lb facs="#facs_2_region_1776575870125_848_tl_9" n="N009"/>Sommer nur durch eine Alltagsaufführung geweckt, wie sie für
+         <lb facs="#facs_2_region_1776575870125_848_tl_10" n="N010"/>die bescheidenste silberne Hochzeit nicht genügt hätte. Allein auch
+         <lb facs="#facs_2_region_1776575870125_848_tl_11" n="N011"/>die Dramen unserer großen Dichter werden an ihrem
+         <lb facs="#facs_2_region_1776575870125_848_tl_12" n="N012"/>hundertsten Geburtstag nicht gefeiert und gleichsam hoch
+         <lb facs="#facs_2_region_1776575870125_848_tl_13" n="N013"/>erhoben, allem Volke gezeigt. Die Centennalfeier von
+         <lb facs="#facs_2_region_1776575870125_848_tl_14" n="N014"/><rs type="person">Schiller</rs>’s <rs type="bibl">Räubern</rs> in <rs type="place">Mannheim</rs> (<date>1882</date>) war eine rein
+         <lb facs="#facs_2_region_1776575870125_848_tl_15" n="N015"/>locale; weder <hi rendition="#em"><rs type="person">Lessing</rs>’s</hi><space quantity="1" unit="char"/><rs type="bibl">Nathan</rs>, noch <hi rendition="#em"><rs type="person">Schiller</rs>’s</hi><space quantity="1" unit="char"/><rs type="bibl">Kabale
+         <lb facs="#facs_2_region_1776575870125_848_tl_16" n="N016"/>und Liebe</rs>, noch <hi rendition="#em"><rs type="person">Goethe</rs>’s</hi><space quantity="1" unit="char"/><rs type="bibl">Egmont</rs>, <rs type="bibl">Götz</rs>, <rs type="bibl">Clavigo</rs> —
+         <lb facs="#facs_2_region_1776575870125_848_tl_17" n="N017"/>Stücke, deren hundertster Geburtstag in die letzten sieben
+         <lb facs="#facs_2_region_1776575870125_848_tl_18" n="N018"/>Jahre 1879—1884 fiel — haben in <rs type="place">Deutschland</rs> die Hul
+         <lb facs="#facs_2_region_1776575870125_848_tl_19" n="N019" break="no"/>digung erlebt, welche jetzt der Oper <rs type="bibl">Don Juan</rs> allerwärts
+         <lb facs="#facs_2_region_1776575870125_848_tl_20" n="N020"/>spontan zu Theil wird. So zeigt sich uns denn <rs type="person">Mozart</rs>’s
+         <lb facs="#facs_2_region_1776575870125_848_tl_21" n="N021"/>Meisterwerk als ganz einzig dastehend in der unwandelbaren
+         <lb facs="#facs_2_region_1776575870125_848_tl_22" n="N022"/>Liebe und Verehrung der Menschen. Wie die Theologie einen
+         <lb facs="#facs_2_region_1776575870125_848_tl_23" n="N023"/>ihrer Beweise für die Unsterblichkeit der Seele „ex con-
+         <lb facs="#facs_2_region_1776575870125_848_tl_24" n="N024"/>sensu populorum“ herleitet, so ließe sich heute die Unsterb
+         <lb facs="#facs_2_region_1776575870125_848_tl_25" n="N025" break="no"/>lichkeit von <rs type="person">Mozart</rs>’s <rs type="bibl">Don Juan</rs> beweisen aus der Ueberein
+         <lb facs="#facs_2_region_1776575870125_848_tl_26" n="N026" break="no"/>stimmung aller Völker.
+            </p><p>
+         <lb facs="#facs_2_region_1776575870125_848_tl_27" n="N027"/>Die hundert Jahre allein thun’s freilich nicht; das
+         <lb facs="#facs_2_region_1776575870125_848_tl_28" n="N028"/>haben wir bei <hi rendition="#em"><rs type="person">Gluck</rs></hi> gesehen, dessen „<rs type="bibl">Orfeo</rs>“ und „<rs type="bibl">Alceste</rs>“
+         <lb facs="#facs_2_region_1776575870125_848_tl_29" n="N029"/>zwar jetzt in <rs type="place">Wien</rs> wiedererweckt sind, aber wiedererweckt
+         <lb facs="#facs_2_region_1776575870125_848_tl_30" n="N030"/>aus halbhundertjährigem Schlaf, im Zustande völligen Ver
+         <lb facs="#facs_2_region_1776575870125_848_tl_31" n="N031" break="no"/>gessenseins. <rs type="person">Mozart</rs>’s <rs type="bibl">Don Juan</rs> mußte zwar an einzelnen
+         <lb facs="#facs_2_region_1776575870125_848_tl_32" n="N032"/>Orten auch zeitweise Unterbrechungen erleiden, im Großen
+         <lb facs="#facs_2_line_1783586948450_62" n="N033"/>und Ganzen jedoch hat er fast jede, namentlich jede <rs type="place">deutsch</rs>e
+         <lb facs="#facs_2_line_1783586952118_65" n="N034"/>Bühne standhaft behauptet, die er einmal betreten. Solche
+         <lb facs="#facs_2_region_1776575870125_848_tl_33" n="N035"/>Continuität und ununterbrochene, ja ungeschwächte Wirkung
+         <lb facs="#facs_2_region_1776575870125_848_tl_34" n="N036"/>ein volles Jahrhundert hindurch ist ohne Beispiel im Gebiet
+         <lb facs="#facs_2_region_1776575870125_848_tl_35" n="N037"/>der Oper, dieser zusammengesetztesten und darum vergäng
+         <lb facs="#facs_2_region_1776575870125_848_tl_36" n="N038" break="no"/>lichsten aller großen Kunstformen. Was sich außer <rs type="person">Mozart</rs>’s
+         <lb facs="#facs_2_region_1776575870125_848_tl_37" n="N039"/>Opern überhaupt erhalten hat aus dem vorigen Jahrhundert,
+         <lb facs="#facs_2_region_1776575870125_848_tl_38" n="N040"/>sind vier bis fünf Werke von <hi rendition="#em"><rs type="person">Gluck</rs></hi>, <hi rendition="#em"><rs type="person">Cimarosa</rs>’s</hi><space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <cb n="3"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1776575879973_854_tl_1" n="N001"/>„<rs type="bibl">Matrimonio segreto</rs>“ und speciell in <rs type="place">Paris</rs> noch zwei
+         <lb facs="#facs_3_region_1776575879973_854_tl_2" n="N002"/>oder drei Singspiele von <hi rendition="#em"><rs type="person">Grétry</rs></hi> und <hi rendition="#em"><rs type="person">Monsigny</rs></hi>.
+         <lb facs="#facs_3_region_1776575879973_854_tl_3" n="N003"/>Allein auch diese wenigen Stücke tauchen sehr selten,
+         <lb facs="#facs_3_region_1776575879973_854_tl_4" n="N004"/>in langen Zwischenräumen und auf einer verschwindend
+         <lb facs="#facs_3_region_1776575879973_854_tl_5" n="N005"/>kleinen Zahl von Bühnen auf. Nur eine bescheidene kleine
+         <lb facs="#facs_3_region_1776575879973_854_tl_6" n="N006"/>Oper wäre außerdem zu nennen, welche leider nicht in ihrer
+         <lb facs="#facs_3_region_1776575879973_854_tl_7" n="N007"/>Vaterstadt <rs type="place">Wien</rs>, aber doch manchmal in <rs type="place">Deutschland</rs> noch
+         <lb facs="#facs_3_region_1776575879973_854_tl_8" n="N008"/>ihre alten lustigen Glieder regt und gerade für unsern Zu
+         <lb facs="#facs_3_region_1776575879973_854_tl_9" n="N009" break="no"/>sammenhang von Interesse ist: <hi rendition="#em"><rs type="person">Dittersdorf</rs>’s</hi> „<rs type="bibl">Doctor
+         <lb facs="#facs_3_region_1776575879973_854_tl_10" n="N010"/>und Apotheker</rs>“. Blos ein Jahr älter als <rs type="bibl">Don Juan</rs>, ward
+         <lb facs="#facs_3_region_1776575879973_854_tl_11" n="N011"/>sie <date>1786</date> zum erstenmal in <rs type="place">Wien</rs> gegeben und von einem
+         <lb facs="#facs_3_region_1776575879973_854_tl_12" n="N012"/>Erfolg gekrönt, wie ihn so stark und einhellig nur wenige
+         <lb facs="#facs_3_region_1776575879973_854_tl_13" n="N013"/>Opern jener Zeit errungen haben. Dieses ergötzliche komische
+         <lb facs="#facs_3_region_1776575879973_854_tl_14" n="N014"/>Singspiel hätte aus musikalischem Gesichtspunkt wie aus
+         <lb facs="#facs_3_region_1776575879973_854_tl_15" n="N015"/>historischem eine Wiederaufführung in <rs type="place">Wien</rs> als locale Ju
+         <lb facs="#facs_3_region_1776575879973_854_tl_16" n="N016" break="no"/>biläumsfeier sicherlich verdient; selbst aus patriotischen Grün
+         <lb facs="#facs_3_region_1776575879973_854_tl_17" n="N017" break="no"/>den, denn von den berühmten Componisten, die sich einen
+         <lb facs="#facs_3_region_1776575879973_854_tl_18" n="N018"/>Platz in der Geschichte der Musik erobert, sind nur zwei
+         <lb facs="#facs_3_region_1776575879973_854_tl_19" n="N019"/>geborene Wiener: Franz <rs type="person">Schubert</rs> und <rs type="person">Dittersdorf</rs>.
+            </p><p>
+         <lb facs="#facs_3_region_1776575879973_854_tl_20" n="N020"/>Fragt man, welche Opern von nach<rs type="person">mozart</rs>ischen Ton
+         <lb facs="#facs_3_region_1776575879973_854_tl_21" n="N021" break="no"/>dichtern so allgemeine Verehrung und Popularität genießen,
+         <lb facs="#facs_3_region_1776575879973_854_tl_22" n="N022"/>daß sie — die ersten nach <rs type="bibl">Don Juan</rs> — an ihrem hundert
+         <lb facs="#facs_3_region_1776575879973_854_tl_23" n="N023" break="no"/>sten Geburtstag einer ähnlichen Feststimmung begegnen und
+         <lb facs="#facs_3_region_1776575879973_854_tl_24" n="N024"/>in erneuerter Jugend ergänzen werden, so ist zuerst <hi rendition="#em"><rs type="person">Beet
+         <lb facs="#facs_3_region_1776575879973_854_tl_25" n="N025" break="no"/>hoven</rs>’s <rs type="bibl">Fidelio</rs></hi>, sodann <hi rendition="#em"><rs type="person">Weber</rs>’s <rs type="bibl">Freischütz</rs></hi> zu
+         <lb facs="#facs_3_region_1776575879973_854_tl_26" n="N026"/>nennen. Das Jubiläum <rs type="bibl">Fidelio</rs>’s wird in 18 Jahren (<date>1905</date>),
+         <lb facs="#facs_3_region_1776575879973_854_tl_27" n="N027"/>jenes des <rs type="bibl">Freischütz</rs>en erst in 34 Jahren (<date>1921</date>) eintreten.
+         <lb facs="#facs_3_region_1776575879973_854_tl_28" n="N028"/>So spärlich wachsen auf dem Felde der Oper die Unsterb
+         <lb facs="#facs_3_region_1776575879973_854_tl_29" n="N029" break="no"/>lichkeiten; so dünn gesäet ist das Bischen „Ewigkeit“ von
+         <lb facs="#facs_3_region_1776575879973_854_tl_30" n="N030"/>hundert Jahren! Die Musikgattung, welche von allen die
+         <lb facs="#facs_3_region_1776575879973_854_tl_31" n="N031"/>rauschendsten und lohnendsten Triumphe feiert, bietet in der
+         <lb facs="#facs_3_region_1776575879973_854_tl_32" n="N032"/>Regel die allervergänglichsten.
+            </p><p>
+         <lb facs="#facs_3_region_1776575879973_854_tl_33" n="N033"/>Das erste Anrecht auf ein besonders festliches <rs type="bibl">Don
+         <lb facs="#facs_3_region_1776575879973_854_tl_34" n="N034"/>Juan</rs>-Jubiläum hat <rs type="place">Prag</rs>. Es ist ein gerechter Stolz
+         <lb facs="#facs_3_region_1776575879973_854_tl_35" n="N035"/>der Prager, daß <rs type="person">Mozart</rs> sein Meisterwerk eigens für sie
+         <lb facs="#facs_3_region_1776575879973_854_tl_36" n="N036"/>geschrieben und zuerst im <rs type="place">Prag</rs>er Theater selbst dirigirt hat.
+         <lb facs="#facs_3_region_1776575879973_854_tl_37" n="N037"/>Die Entstehungsgeschichte dieser Oper, welche neuestens
+         <lb facs="#facs_3_region_1776575879973_854_tl_38" n="N038"/>Oskar <hi rendition="#em"><rs type="person">Teuber</rs></hi> im zweiten Bande seiner vortrefflichen
+         <lb facs="#facs_3_region_1776575879973_854_tl_39" n="N039"/>„<rs type="bibl">Geschichte des Prager Theaters</rs>“ ausführlich behandelt hat,
+         <lb facs="#facs_3_region_1776575879973_854_tl_40" n="N040"/>ist sicherlich den meisten unserer Leser wohlbekannt. Allein<space quantity="1" unit="char"/></p>
             <cb n="4"/>
-            <p>
-               <lb facs="#facs_3_region_1776575879973_854_tl_1" n="N001"/>„<rs type="bibl">Matrimonio segreto</rs>“ und speciell in <rs type="place">Paris</rs> noch zwei
-               <lb facs="#facs_3_region_1776575879973_854_tl_2" n="N002"/>oder drei Singspiele von <hi rendition="#em">
-                  <rs type="person">Grétry</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Monsigny</rs>
-               </hi>.
-               <lb facs="#facs_3_region_1776575879973_854_tl_3" n="N003"/>Allein auch diese wenigen Stücke tauchen sehr selten,
-               <lb facs="#facs_3_region_1776575879973_854_tl_4" n="N004"/>in langen Zwischenräumen und auf einer verschwindend
-               <lb facs="#facs_3_region_1776575879973_854_tl_5" n="N005"/>kleinen Zahl von Bühnen auf. Nur eine bescheidene kleine
-               <lb facs="#facs_3_region_1776575879973_854_tl_6" n="N006"/>Oper wäre außerdem zu nennen, welche leider nicht in ihrer
-               <lb facs="#facs_3_region_1776575879973_854_tl_7" n="N007"/>Vaterstadt <rs type="place">Wien</rs>, aber doch manchmal in <rs type="place">Deutschland</rs> noch
-               <lb facs="#facs_3_region_1776575879973_854_tl_8" n="N008"/>ihre alten lustigen Glieder regt und gerade für unsern Zu¬
-               <lb facs="#facs_3_region_1776575879973_854_tl_9" n="N009"/>sammenhang von Interesse ist: <hi rendition="#em">
-                  <rs type="person">Dittersdorf</rs>’s</hi> „<rs type="bibl">Doctor</rs>
-               <lb facs="#facs_3_region_1776575879973_854_tl_10" n="N010"/>
-               <rs type="bibl">und Apotheker</rs>“. Blos ein Jahr älter als <rs type="bibl">Don Juan</rs>, ward
-               <lb facs="#facs_3_region_1776575879973_854_tl_11" n="N011"/>sie <date month="0" day="0" year="0">1786</date> zum erstenmal in <rs type="place">Wien</rs> gegeben und von einem
-               <lb facs="#facs_3_region_1776575879973_854_tl_12" n="N012"/>Erfolg gekrönt, wie ihn so stark und einhellig nur wenige
-               <lb facs="#facs_3_region_1776575879973_854_tl_13" n="N013"/>Opern jener Zeit errungen haben. Dieses ergötzliche komische
-               <lb facs="#facs_3_region_1776575879973_854_tl_14" n="N014"/>Singspiel hätte aus musikalischem Gesichtspunkt wie aus
-               <lb facs="#facs_3_region_1776575879973_854_tl_15" n="N015"/>historischem eine Wiederaufführung in <rs type="place">Wien</rs> als locale Ju¬
-               <lb facs="#facs_3_region_1776575879973_854_tl_16" n="N016"/>biläumsfeier sicherlich verdient; selbst aus patriotischen Grün¬
-               <lb facs="#facs_3_region_1776575879973_854_tl_17" n="N017"/>den, denn von den berühmten Componisten, die sich einen
-               <lb facs="#facs_3_region_1776575879973_854_tl_18" n="N018"/>Platz in der Geschichte der Musik erobert, sind nur zwei
-               <lb facs="#facs_3_region_1776575879973_854_tl_19" n="N019"/>geborene Wiener: Franz <rs type="person">Schubert</rs> und <rs type="person">Dittersdorf</rs>.
-               <lb facs="#facs_3_region_1776575879973_854_tl_20" n="N020"/>Fragt man, welche Opern von nach<rs type="person">mozart</rs>ischen Ton¬
-               <lb facs="#facs_3_region_1776575879973_854_tl_21" n="N021"/>dichtern so allgemeine Verehrung und Popularität genießen,
-               <lb facs="#facs_3_region_1776575879973_854_tl_22" n="N022"/>daß sie — die ersten nach <rs type="bibl">Don Juan</rs> — an ihrem hundert¬
-               <lb facs="#facs_3_region_1776575879973_854_tl_23" n="N023"/>sten Geburtstag einer ähnlichen Feststimmung begegnen und
-               <lb facs="#facs_3_region_1776575879973_854_tl_24" n="N024"/>in erneuerter Jugend ergänzen werden, so ist zuerst <hi rendition="#em">
-                  <rs type="person" continued="true">Beet¬</rs>
-               </hi>
-               <lb facs="#facs_3_region_1776575879973_854_tl_25" n="N025"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">hoven</rs>’s</hi>
-               <hi rendition="#em">
-                  <rs type="bibl">Fidelio</rs>
-               </hi>, sodann <hi rendition="#em">
-                  <rs type="person">Weber</rs>’s</hi>
-               <hi rendition="#em">
-                  <rs type="bibl">Freischütz</rs>
-               </hi> zu
-               <lb facs="#facs_3_region_1776575879973_854_tl_26" n="N026"/>nennen. Das Jubiläum <rs type="bibl">Fidelio</rs>’s wird in 18 Jahren (<date month="0" day="0" year="0">1905</date>),
-               <lb facs="#facs_3_region_1776575879973_854_tl_27" n="N027"/>jenes des <rs type="bibl">Freischütz</rs>en erst in 34 Jahren (<date month="0" day="0" year="0">1921</date>) eintreten.
-               <lb facs="#facs_3_region_1776575879973_854_tl_28" n="N028"/>So spärlich wachsen auf dem Felde der Oper die Unsterb¬
-               <lb facs="#facs_3_region_1776575879973_854_tl_29" n="N029"/>lichkeiten; so dünn gesäet ist das Bischen „Ewigkeit“ von
-               <lb facs="#facs_3_region_1776575879973_854_tl_30" n="N030"/>hundert Jahren! Die Musikgattung, welche von allen die
-               <lb facs="#facs_3_region_1776575879973_854_tl_31" n="N031"/>rauschendsten und lohnendsten Triumphe feiert, bietet in der
-               <lb facs="#facs_3_region_1776575879973_854_tl_32" n="N032"/>Regel die allervergänglichsten.
-               <lb facs="#facs_3_region_1776575879973_854_tl_33" n="N033"/>Das erste Anrecht auf ein besonders festliches <rs type="bibl">Don</rs>
-               <lb facs="#facs_3_region_1776575879973_854_tl_34" n="N034"/>
-               <rs type="bibl">Juan</rs>-Jubiläum hat <rs type="place">Prag</rs>. Es ist ein gerechter Stolz
-               <lb facs="#facs_3_region_1776575879973_854_tl_35" n="N035"/>der Prager, daß <rs type="person">Mozart</rs> sein Meisterwerk eigens für sie
-               <lb facs="#facs_3_region_1776575879973_854_tl_36" n="N036"/>geschrieben und zuerst im <rs type="place">Prag</rs>er Theater selbst dirigirt hat.
-               <lb facs="#facs_3_region_1776575879973_854_tl_37" n="N037"/>Die Entstehungsgeschichte dieser Oper, welche neuestens
-               <lb facs="#facs_3_region_1776575879973_854_tl_38" n="N038"/>Oskar <hi rendition="#em">
-                  <rs type="person">Teuber</rs>
-               </hi> im zweiten Bande seiner vortrefflichen
-               <lb facs="#facs_3_region_1776575879973_854_tl_39" n="N039"/>„<rs type="bibl">Geschichte des Prager Theaters</rs>“ ausführlich behandelt hat,
-               <lb facs="#facs_3_region_1776575879973_854_tl_40" n="N040"/>ist sicherlich den meisten unserer Leser wohlbekannt. Allein
-            </p>
+            <p prev="true">
+         <lb facs="#facs_3_region_1776575883524_857_tl_1" n="N001"/>gerade in der bewegten Stimmung einer Centennalfeier liebt
+         <lb facs="#facs_3_region_1776575883524_857_tl_2" n="N002"/>man es, sich deren Hergang wieder ins Gedächtniß zu
+         <lb facs="#facs_3_region_1776575883524_857_tl_3" n="N003"/>rufen, und so möge derselbe hier rasch recapitulirt sein.
+         <lb facs="#facs_3_region_1776575883524_857_tl_4" n="N004"/>Wie kam <rs type="person">Mozart</rs>, der in <rs type="place">Wien</rs> ansässig und ein Liebling
+         <lb facs="#facs_3_region_1776575883524_857_tl_5" n="N005"/>des <rs type="person">Kaiser</rs>s war, dazu, sein größtes Werk für das be
+         <lb facs="#facs_3_region_1776575883524_857_tl_6" n="N006" break="no"/>scheidene Theater einer Provinzhauptstadt zu schreiben? Seine
+         <lb facs="#facs_3_region_1776575883524_857_tl_7" n="N007"/>„<rs type="bibl">Hochzeit des Figaro</rs>“ hatte in <rs type="place">Wien</rs> einen sehr kurz
+         <lb facs="#facs_3_region_1776575883524_857_tl_8" n="N008" break="no"/>athmigen Erfolg gehabt, in <rs type="place">Prag</rs> hingegen so begeisternd
+         <lb facs="#facs_3_region_1776575883524_857_tl_9" n="N009"/>und anhaltend gewirkt, wie nie eine Oper zuvor. <rs type="person">Mozart</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776575883524_857_tl_10" n="N010"/>mußte dem Drängen seiner <rs type="place">Prag</rs>er Freunde und Verehrer
+         <lb facs="#facs_3_region_1776575883524_857_tl_11" n="N011"/>nachgeben und selbst nach der <rs type="place">Moldaustadt</rs> kommen. Im
+         <lb facs="#facs_3_region_1776575883524_857_tl_12" n="N012"/>Januar <date>1787</date> langt er dort an und verlebt als Gast des
+         <lb facs="#facs_3_region_1776575883524_857_tl_13" n="N013"/>Grafen Joseph <rs type="person">Thun</rs> in dessen Palais die angenehmsten
+         <lb facs="#facs_3_region_1776575883524_857_tl_14" n="N014"/>Tage. Man ist in <rs type="person">Mozart</rs>’s Akademie wie toll über sein
+         <lb facs="#facs_3_region_1776575883524_857_tl_15" n="N015"/>Clavierspiel und sein freies Phantasiren; man belagert das
+         <lb facs="#facs_3_region_1776575883524_857_tl_16" n="N016"/>Theater, um ihn <rs type="bibl">Figaro’s Hochzeit</rs> dirigiren zu sehen.
+         <lb facs="#facs_3_region_1776575883524_857_tl_17" n="N017"/>„Hier wird von nichts gesprochen, als <rs type="bibl">Figaro</rs>,“ schreibt
+         <lb facs="#facs_3_region_1776575883524_857_tl_18" n="N018"/><rs type="person">Mozart</rs> an seinen Freund Gottfried v. <rs type="person">Jacquin</rs> in <rs type="place">Wien</rs>,
+         <lb facs="#facs_3_region_1776575883524_857_tl_19" n="N019"/>„nichts gespielt, geblasen, gesungen und gepfiffen, als <rs type="bibl">Figaro</rs>;
+         <lb facs="#facs_3_region_1776575883524_857_tl_20" n="N020"/>keine Oper besucht, als <rs type="bibl">Figaro</rs> und ewig <rs type="bibl">Figaro</rs>“. Für ein
+         <lb facs="#facs_3_region_1776575883524_857_tl_21" n="N021"/>Publicum, das ihn so sehr versteht und ehrt, würde er gern
+         <lb facs="#facs_3_region_1776575883524_857_tl_22" n="N022"/>eigens eine Oper schreiben. Der <rs type="place">Prag</rs>er Theater-Director
+         <lb facs="#facs_3_region_1776575883524_857_tl_23" n="N023"/><rs type="person">Bondini</rs>, welcher <rs type="person">Mozart</rs>’s Opern die besten Einnahmen
+         <lb facs="#facs_3_region_1776575883524_857_tl_24" n="N024"/>verdankte, läßt sich das nicht zweimal sagen. Er schließt mit
+         <lb facs="#facs_3_region_1776575883524_857_tl_25" n="N025"/><rs type="person">Mozart</rs> einen Vertrag, wonach ihm dieser für den Anfang
+         <lb facs="#facs_3_region_1776575883524_857_tl_26" n="N026"/>der Herbstsaison gegen das Honorar von 100 Ducaten eine
+         <lb facs="#facs_3_region_1776575883524_857_tl_27" n="N027"/>neue Oper zu liefern habe. In <rs type="place">Wien</rs> proponirt ihm der
+         <lb facs="#facs_3_region_1776575883524_857_tl_28" n="N028"/><rs type="place">italienisch</rs>e Poet Lorenzo da <hi rendition="#em"><rs type="person">Ponte</rs></hi>, der auch das Libretto
+         <lb facs="#facs_3_region_1776575883524_857_tl_29" n="N029"/>zu <rs type="bibl">Figaro’s Hochzeit</rs> geschrieben, als Sujet die <rs type="bibl">Don Juan</rs>-
+         <lb facs="#facs_3_region_1776575883524_857_tl_30" n="N030"/>Sage und macht sich rasch an die Arbeit. Dichter und
+         <lb facs="#facs_3_region_1776575883524_857_tl_31" n="N031"/>Componist treffen im September <date>1787</date> zusammen in
+         <lb facs="#facs_3_region_1776575883524_857_tl_32" n="N032"/><rs type="place">Prag</rs> ein, aber keineswegs mit der ganz vollendeten Oper.
+         <lb facs="#facs_3_region_1776575883524_857_tl_33" n="N033"/><rs type="person">Mozart</rs> wollte erst hier, in sorgenlos heiterer Stimmung
+         <lb facs="#facs_3_region_1776575883524_857_tl_34" n="N034"/>im Kreise lieber Freunde die letzte Hand anlegen. Director
+         <lb facs="#facs_3_region_1776575883524_857_tl_36" n="N035"/><rs type="person">Bondini</rs>, bei dem <rs type="person">Mozart</rs> „in Accord“ war, quartierte ihn
+         <lb facs="#facs_3_region_1776575883524_857_tl_37" n="N036"/>bei den Drei Löwen am <rs type="place">Kohlmarkt</rs> ein, den Librettisten
+         <lb facs="#facs_3_region_1776575883524_857_tl_38" n="N037"/>da <rs type="person">Ponte</rs> hingegen in nächster Nähe, im Gasthaus zum
+         <lb facs="#facs_3_region_1776575883524_857_tl_39" n="N038"/>Platteis. Die meiste Zeit aber verbrachte <rs type="person">Mozart</rs> in der
+         <lb facs="#facs_3_region_1776575883524_857_tl_40" n="N039"/>Villa des ihm befreundeten Ehepaares <rs type="person">Duschek</rs>, auf dem
+         <lb facs="#facs_3_region_1776575883524_857_tl_41" n="N040"/>Weinberge <rs type="place">Bertramka</rs>, wo er zwischen Kegelspiel und heiterer<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_3_region_1776575883524_857_tl_1" n="N001"/>gerade in der bewegten Stimmung einer Centennalfeier liebt
-               <lb facs="#facs_3_region_1776575883524_857_tl_2" n="N002"/>man es, sich deren Hergang wieder ins Gedächtniß zu
-               <lb facs="#facs_3_region_1776575883524_857_tl_3" n="N003"/>rufen, und so möge derselbe hier rasch recapitulirt sein.
-               <lb facs="#facs_3_region_1776575883524_857_tl_4" n="N004"/>Wie kam <rs type="person">Mozart</rs>, der in <rs type="place">Wien</rs> ansässig und ein Liebling
-               <lb facs="#facs_3_region_1776575883524_857_tl_5" n="N005"/>des <rs type="person">Kaiser</rs>s war, dazu, sein größtes Werk für das be¬
-               <lb facs="#facs_3_region_1776575883524_857_tl_6" n="N006"/>scheidene Theater einer Provinzhauptstadt zu schreiben? Seine
-               <lb facs="#facs_3_region_1776575883524_857_tl_7" n="N007"/>„<rs type="bibl">Hochzeit des Figaro</rs>“ hatte in <rs type="place">Wien</rs> einen sehr kurz¬
-               <lb facs="#facs_3_region_1776575883524_857_tl_8" n="N008"/>athmigen Erfolg gehabt, in <rs type="place">Prag</rs> hingegen so begeisternd
-               <lb facs="#facs_3_region_1776575883524_857_tl_9" n="N009"/>und anhaltend gewirkt, wie nie eine Oper zuvor. <rs type="person">Mozart</rs>
-               <lb facs="#facs_3_region_1776575883524_857_tl_10" n="N010"/>mußte dem Drängen seiner <rs type="place">Prag</rs>er Freunde und Verehrer
-               <lb facs="#facs_3_region_1776575883524_857_tl_11" n="N011"/>nachgeben und selbst nach der <rs type="place">Moldaustadt</rs> kommen. Im
-               <lb facs="#facs_3_region_1776575883524_857_tl_12" n="N012"/>Januar <date>1787</date> langt er dort an und verlebt als Gast des
-               <lb facs="#facs_3_region_1776575883524_857_tl_13" n="N013"/>Grafen Joseph <rs type="person">Thun</rs> in dessen Palais die angenehmsten
-               <lb facs="#facs_3_region_1776575883524_857_tl_14" n="N014"/>Tage. Man ist in <rs type="person">Mozart</rs>’s Akademie wie toll über sein
-               <lb facs="#facs_3_region_1776575883524_857_tl_15" n="N015"/>Clavierspiel und sein freies Phantasiren; man belagert das
-               <lb facs="#facs_3_region_1776575883524_857_tl_16" n="N016"/>Theater, um ihn <rs type="bibl">Figaro’s Hochzeit</rs> dirigiren zu sehen.
-               <lb facs="#facs_3_region_1776575883524_857_tl_17" n="N017"/>„Hier wird von nichts gesprochen, als <rs type="bibl">Figaro</rs>,“ schreibt
-               <lb facs="#facs_3_region_1776575883524_857_tl_18" n="N018"/>
-               <rs type="person">Mozart</rs> an seinen Freund Gottfried v. <rs type="person">Jacquin</rs> in <rs type="place">Wien</rs>,
-               <lb facs="#facs_3_region_1776575883524_857_tl_19" n="N019"/>„nichts gespielt, geblasen, gesungen und gepfiffen, als <rs type="bibl">Figaro</rs>;
-               <lb facs="#facs_3_region_1776575883524_857_tl_20" n="N020"/>keine Oper besucht, als <rs type="bibl">Figaro</rs> und ewig <rs type="bibl">Figaro</rs>“. Für ein
-               <lb facs="#facs_3_region_1776575883524_857_tl_21" n="N021"/>Publicum, das ihn so sehr versteht und ehrt, würde er gern
-               <lb facs="#facs_3_region_1776575883524_857_tl_22" n="N022"/>eigens eine Oper schreiben. Der <rs type="place">Prag</rs>er Theater-Director
-               <lb facs="#facs_3_region_1776575883524_857_tl_23" n="N023"/>
-               <rs type="person">Bondini</rs>, welcher <rs type="person">Mozart</rs>’s Opern die besten Einnahmen
-               <lb facs="#facs_3_region_1776575883524_857_tl_24" n="N024"/>verdankte, läßt sich das nicht zweimal sagen. Er schließt mit
-               <lb facs="#facs_3_region_1776575883524_857_tl_25" n="N025"/>
-               <rs type="person">Mozart</rs> einen Vertrag, wonach ihm dieser für den Anfang
-               <lb facs="#facs_3_region_1776575883524_857_tl_26" n="N026"/>der Herbstsaison gegen das Honorar von 100 Ducaten eine
-               <lb facs="#facs_3_region_1776575883524_857_tl_27" n="N027"/>neue Oper zu liefern habe. In <rs type="place">Wien</rs> proponirt ihm der
-               <lb facs="#facs_3_region_1776575883524_857_tl_28" n="N028"/>
-               <rs type="place">italienisch</rs>e Poet Lorenzo da <hi rendition="#em">
-                  <rs type="person">Ponte</rs>
-               </hi>, der auch das Libretto
-               <lb facs="#facs_3_region_1776575883524_857_tl_29" n="N029"/>zu <rs type="bibl">Figaro’s Hochzeit</rs> geschrieben, als Sujet die <rs type="bibl">Don Juan</rs>-
-               <lb facs="#facs_3_region_1776575883524_857_tl_30" n="N030"/>Sage und macht sich rasch an die Arbeit. Dichter und
-               <lb facs="#facs_3_region_1776575883524_857_tl_31" n="N031"/>Componist treffen im September <date>1787</date> zusammen in
-               <lb facs="#facs_3_region_1776575883524_857_tl_32" n="N032"/>
-               <rs type="place">Prag</rs> ein, aber keineswegs mit der ganz vollendeten Oper.
-               <lb facs="#facs_3_region_1776575883524_857_tl_33" n="N033"/>
-               <rs type="person">Mozart</rs> wollte erst hier, in sorgenlos heiterer Stimmung
-               <lb facs="#facs_3_region_1776575883524_857_tl_34" n="N034"/>im Kreise lieber Freunde die letzte Hand anlegen. Director
-               <lb facs="#facs_3_region_1776575883524_857_tl_36" n="N035"/>
-               <rs type="person">Bondini</rs>, bei dem <rs type="person">Mozart</rs> „in Accord“ war, quartierte ihn
-               <lb facs="#facs_3_region_1776575883524_857_tl_37" n="N036"/>bei den Drei Löwen am <rs type="place">Kohlmarkt</rs> ein, den Librettisten
-               <lb facs="#facs_3_region_1776575883524_857_tl_38" n="N037"/>da <rs type="person">Ponte</rs> hingegen in nächster Nähe, im Gasthaus zum
-               <lb facs="#facs_3_region_1776575883524_857_tl_39" n="N038"/>Platteis. Die meiste Zeit aber verbrachte <rs type="person">Mozart</rs> in der
-               <lb facs="#facs_3_region_1776575883524_857_tl_40" n="N039"/>Villa des ihm befreundeten Ehepaares <rs type="person">Duschek</rs>, auf dem
-               <lb facs="#facs_3_region_1776575883524_857_tl_41" n="N040"/>Weinberge <rs type="place">Bertramka</rs>, wo er zwischen Kegelspiel und heiterer
-            </p>
-            <cb n="6"/>
-            <p>
-               <lb facs="#facs_3_region_1776575886669_860_tl_1" n="N001"/>Geselligkeit den <rs type="bibl">Don Juan</rs> vollendete. Ueber die unbegreiflich
-               <lb facs="#facs_3_region_1776575886669_860_tl_2" n="N002"/>schnelle Entstehung der Ouvertüre, welche <rs type="person">Mozart</rs> zur größ¬
-               <lb facs="#facs_3_region_1776575886669_860_tl_3" n="N003"/>ten Beängstigung seiner <rs type="person">Frau</rs> und seiner Freunde von Tag
-               <lb facs="#facs_3_region_1776575886669_860_tl_4" n="N004"/>zu Tag verschob, cursiren die verschiedensten Anekdoten. Stellt
-               <lb facs="#facs_3_region_1776575886669_860_tl_5" n="N005"/>man die Erzählungen der Zeitgenossen, Constanze <rs type="person">Mozart</rs>,
-               <lb facs="#facs_3_region_1776575886669_860_tl_6" n="N006"/>
-               <rs type="person">Stepanek</rs>, <rs type="person">Niemetschek</rs>, <rs type="person">Genast</rs>, Professor G. A. <rs type="person">Meißner</rs>,
-               <lb facs="#facs_3_region_1776575886669_860_tl_7" n="N007"/>in Reih’ und Glied neben einander, so gewahrt man, daß
-               <lb facs="#facs_3_region_1776575886669_860_tl_8" n="N008"/>keine mit der andern völlig übereinstimmt. Die Einen
-               <lb facs="#facs_3_region_1776575886669_860_tl_9" n="N009"/>berichten, <rs type="person">Mozart</rs> habe in der Nacht vor der ersten Auffüh¬
-               <lb facs="#facs_3_region_1776575886669_860_tl_10" n="N010"/>rung die ganze Ouvertüre bei einem Glase Punsch in seinem
-               <lb facs="#facs_3_region_1776575886669_860_tl_11" n="N011"/>Zimmer niedergeschrieben, während seine <rs type="person">Frau</rs> ihm alte
-               <lb facs="#facs_3_region_1776575886669_860_tl_12" n="N012"/>Märchen erzählen mußte. Nach Anderen sei <rs type="person">Mozart</rs> von
-               <lb facs="#facs_3_region_1776575886669_860_tl_13" n="N013"/>seinen Freunden in ein Gartenhaus der Bertramka ein¬
-               <lb facs="#facs_3_region_1776575886669_860_tl_14" n="N014"/>gesperrt und nicht früher befreit worden, als bis die Ouver¬
-               <lb facs="#facs_3_region_1776575886669_860_tl_15" n="N015"/>türe fertig war. Thatsache bleibt, daß <rs type="person">Mozart</rs> erst am Abend
-               <lb facs="#facs_3_region_1776575886669_860_tl_16" n="N016"/>vor der Vorstellung die Partitur zu Papier gebracht und sie
-               <lb facs="#facs_3_region_1776575886669_860_tl_17" n="N017"/>am nächsten Morgen zeitig Früh mehreren Copisten zum Aus¬
-               <lb facs="#facs_3_region_1776575886669_860_tl_18" n="N018"/>schreiben der Orchesterstimmen übergeben hat, welche dann
-               <lb facs="#facs_3_region_1776575886669_860_tl_19" n="N019"/>noch naß vor den Augen des ungeduldig harrenden Publi¬
-               <lb facs="#facs_3_region_1776575886669_860_tl_20" n="N020"/>cums auf die Pulte gelegt wurden. <rs type="person">Mozart</rs> hatte die Ouver¬
-               <lb facs="#facs_3_region_1776575886669_860_tl_21" n="N021"/>türe allerdings in jener Nacht nicht erst componirt, sondern
-               <lb facs="#facs_3_region_1776575886669_860_tl_22" n="N022"/>die in seinem Kopfe längst völlig ausgearbeitete in Einem
-               <lb facs="#facs_3_region_1776575886669_860_tl_23" n="N023"/>Zug niedergeschrieben, gleichsam wie ein Hellseher copirt.
-               <lb facs="#facs_3_region_1776575886669_860_tl_24" n="N024"/>Die That grenzt trotzdem ans Wunderbare. Das schwierige
-               <lb facs="#facs_3_region_1776575886669_860_tl_25" n="N025"/>Stück wurde ohne Probe a vista gespielt, was den <rs type="place">Prag</rs>er
-               <lb facs="#facs_3_region_1776575886669_860_tl_26" n="N026"/>Musikern zu nicht geringer Ehre gereicht. Aus Briefen <rs type="person" continued="true">Mo¬</rs>
-               <lb facs="#facs_3_region_1776575886669_860_tl_27" n="N027"/>
-               <rs type="person" continued="true">zart</rs>’s kennen wir die hohe Meinung, die er von diesem
-               <lb facs="#facs_3_region_1776575886669_860_tl_28" n="N028"/>Orchester hegte. Quantitativ war die Besetzung nach heu¬
-               <lb facs="#facs_3_region_1776575886669_860_tl_29" n="N029"/>tigen Begriffen eine äußerst schwache: drei Prim- und
-               <lb facs="#facs_3_region_1776575886669_860_tl_30" n="N030"/>drei Second-Violinen, zwei Bratschen, ein Violoncell,
-               <lb facs="#facs_3_region_1776575886669_860_tl_31" n="N031"/>zwei Contrabässe, je zwei Flöten, Oboën, Clarinetten,
-               <lb facs="#facs_3_region_1776575886669_860_tl_32" n="N032"/>Fagotte, Waldhörner, Trompeten und ein Paukenschläger.
-               <lb facs="#facs_3_region_1776575886669_860_tl_33" n="N033"/>Posaunen waren damals in <rs type="place">Prag</rs> nicht bleibend angestellt,
-               <lb facs="#facs_3_region_1776575886669_860_tl_34" n="N034"/>sondern nur nach Bedarf von Fall zu Fall requirirt. Der
-               <lb facs="#facs_3_region_1776575886669_860_tl_35" n="N035"/>Dirigent <rs type="person">Strobach</rs> spielte in der Regel gleichzeitig die erste
-               <lb facs="#facs_3_region_1776575886669_860_tl_36" n="N036"/>Geige. Der Erfolg war nicht blos bei den vier ersten, von
-               <lb facs="#facs_3_region_1776575886669_860_tl_37" n="N037"/>
-               <rs type="person">Mozart</rs> selbst dirigirten Vorstellungen überaus glänzend, er
-               <lb facs="#facs_3_region_1776575886669_860_tl_38" n="N038"/>erhielt sich auch so standhaft, daß das <rs type="place">Prag</rs>er Theater im
-               <lb facs="#facs_3_region_1776575886669_860_tl_39" n="N039"/>Verlaufe der letzten hundert Jahre weit mehr Aufführungen
-               <lb facs="#facs_3_region_1776575886669_860_tl_40" n="N040"/>des <rs type="bibl">Don Juan</rs> erreicht hat, als die <rs type="place">Berlin</rs>er und die <rs type="place">Wien</rs>er
-            </p>
+            <p prev="true">
+         <lb facs="#facs_3_region_1776575886669_860_tl_1" n="N001"/>Geselligkeit den <rs type="bibl">Don Juan</rs> vollendete. Ueber die unbegreiflich
+         <lb facs="#facs_3_region_1776575886669_860_tl_2" n="N002"/>schnelle Entstehung der Ouvertüre, welche <rs type="person">Mozart</rs> zur größ
+         <lb facs="#facs_3_region_1776575886669_860_tl_3" n="N003" break="no"/>ten Beängstigung seiner <rs type="person">Frau</rs> und seiner Freunde von Tag
+         <lb facs="#facs_3_region_1776575886669_860_tl_4" n="N004"/>zu Tag verschob, cursiren die verschiedensten Anekdoten. Stellt
+         <lb facs="#facs_3_region_1776575886669_860_tl_5" n="N005"/>man die Erzählungen der Zeitgenossen, Constanze <rs type="person">Mozart</rs>,
+         <lb facs="#facs_3_region_1776575886669_860_tl_6" n="N006"/><rs type="person">Stepanek</rs>, <rs type="person">Niemetschek</rs>, <rs type="person">Genast</rs>, Professor G. A. <rs type="person">Meißner</rs>,
+         <lb facs="#facs_3_region_1776575886669_860_tl_7" n="N007"/>in Reih’ und Glied neben einander, so gewahrt man, daß
+         <lb facs="#facs_3_region_1776575886669_860_tl_8" n="N008"/>keine mit der andern völlig übereinstimmt. Die Einen
+         <lb facs="#facs_3_region_1776575886669_860_tl_9" n="N009"/>berichten, <rs type="person">Mozart</rs> habe in der Nacht vor der ersten Auffüh
+         <lb facs="#facs_3_region_1776575886669_860_tl_10" n="N010" break="no"/>rung die ganze Ouvertüre bei einem Glase Punsch in seinem
+         <lb facs="#facs_3_region_1776575886669_860_tl_11" n="N011"/>Zimmer niedergeschrieben, während seine <rs type="person">Frau</rs> ihm alte
+         <lb facs="#facs_3_region_1776575886669_860_tl_12" n="N012"/>Märchen erzählen mußte. Nach Anderen sei <rs type="person">Mozart</rs> von
+         <lb facs="#facs_3_region_1776575886669_860_tl_13" n="N013"/>seinen Freunden in ein Gartenhaus der Bertramka ein
+         <lb facs="#facs_3_region_1776575886669_860_tl_14" n="N014" break="no"/>gesperrt und nicht früher befreit worden, als bis die Ouver
+         <lb facs="#facs_3_region_1776575886669_860_tl_15" n="N015" break="no"/>türe fertig war. Thatsache bleibt, daß <rs type="person">Mozart</rs> erst am Abend
+         <lb facs="#facs_3_region_1776575886669_860_tl_16" n="N016"/>vor der Vorstellung die Partitur zu Papier gebracht und sie
+         <lb facs="#facs_3_region_1776575886669_860_tl_17" n="N017"/>am nächsten Morgen zeitig Früh mehreren Copisten zum Aus
+         <lb facs="#facs_3_region_1776575886669_860_tl_18" n="N018" break="no"/>schreiben der Orchesterstimmen übergeben hat, welche dann
+         <lb facs="#facs_3_region_1776575886669_860_tl_19" n="N019"/>noch naß vor den Augen des ungeduldig harrenden Publi
+         <lb facs="#facs_3_region_1776575886669_860_tl_20" n="N020" break="no"/>cums auf die Pulte gelegt wurden. <rs type="person">Mozart</rs> hatte die Ouver
+         <lb facs="#facs_3_region_1776575886669_860_tl_21" n="N021" break="no"/>türe allerdings in jener Nacht nicht erst componirt, sondern
+         <lb facs="#facs_3_region_1776575886669_860_tl_22" n="N022"/>die in seinem Kopfe längst völlig ausgearbeitete in Einem
+         <lb facs="#facs_3_region_1776575886669_860_tl_23" n="N023"/>Zug niedergeschrieben, gleichsam wie ein Hellseher copirt.
+         <lb facs="#facs_3_region_1776575886669_860_tl_24" n="N024"/>Die That grenzt trotzdem ans Wunderbare. Das schwierige
+         <lb facs="#facs_3_region_1776575886669_860_tl_25" n="N025"/>Stück wurde ohne Probe a vista gespielt, was den <rs type="place">Prag</rs>er
+         <lb facs="#facs_3_region_1776575886669_860_tl_26" n="N026"/>Musikern zu nicht geringer Ehre gereicht. Aus Briefen <rs type="person">Mo
+         <lb facs="#facs_3_region_1776575886669_860_tl_27" n="N027" break="no"/>zart</rs>’s kennen wir die hohe Meinung, die er von diesem
+         <lb facs="#facs_3_region_1776575886669_860_tl_28" n="N028"/>Orchester hegte. Quantitativ war die Besetzung nach heu
+         <lb facs="#facs_3_region_1776575886669_860_tl_29" n="N029" break="no"/>tigen Begriffen eine äußerst schwache: drei Prim- und
+         <lb facs="#facs_3_region_1776575886669_860_tl_30" n="N030"/>drei Second-Violinen, zwei Bratschen, ein Violoncell,
+         <lb facs="#facs_3_region_1776575886669_860_tl_31" n="N031"/>zwei Contrabässe, je zwei Flöten, Oboën, Clarinetten,
+         <lb facs="#facs_3_region_1776575886669_860_tl_32" n="N032"/>Fagotte, Waldhörner, Trompeten und ein Paukenschläger.
+         <lb facs="#facs_3_region_1776575886669_860_tl_33" n="N033"/>Posaunen waren damals in <rs type="place">Prag</rs> nicht bleibend angestellt,
+         <lb facs="#facs_3_region_1776575886669_860_tl_34" n="N034"/>sondern nur nach Bedarf von Fall zu Fall requirirt. Der
+         <lb facs="#facs_3_region_1776575886669_860_tl_35" n="N035"/>Dirigent <rs type="person">Strobach</rs> spielte in der Regel gleichzeitig die erste
+         <lb facs="#facs_3_region_1776575886669_860_tl_36" n="N036"/>Geige. Der Erfolg war nicht blos bei den vier ersten, von
+         <lb facs="#facs_3_region_1776575886669_860_tl_37" n="N037"/><rs type="person">Mozart</rs> selbst dirigirten Vorstellungen überaus glänzend, er
+         <lb facs="#facs_3_region_1776575886669_860_tl_38" n="N038"/>erhielt sich auch so standhaft, daß das <rs type="place">Prag</rs>er Theater im
+         <lb facs="#facs_3_region_1776575886669_860_tl_39" n="N039"/>Verlaufe der letzten hundert Jahre weit mehr Aufführungen
+         <lb facs="#facs_3_region_1776575886669_860_tl_40" n="N040"/>des <rs type="bibl">Don Juan</rs> erreicht hat, als die <rs type="place">Berlin</rs>er und die <rs type="place">Wien</rs>er<space quantity="1" unit="char"/></p>
             <pb facs="#facs_4" n="4" xml:id="img_0004"/>
+            <cb n="6"/>
+            <p prev="true">
+         <lb facs="#facs_4_region_1776575895540_866_tl_1" n="N001"/>Hofoper, obgleich die beiden letzteren ausschließlich die Oper
+         <lb facs="#facs_4_region_1776575895540_866_tl_2" n="N002"/>pflegen, während das <rs type="place">Prag</rs>er Theater alle Fächer des gesun
+         <lb facs="#facs_4_region_1776575895540_866_tl_3" n="N003" break="no"/>genen und des recitirenden Dramas gleichmäßig vertreten muß.
+            </p><p>
+         <lb facs="#facs_4_region_1776575895540_866_tl_4" n="N004"/><hi rendition="#em">Eduard <rs type="person">Mörike</rs></hi> hat diese Episode aus dem Leben
+         <lb facs="#facs_4_region_1776575895540_866_tl_5" n="N005"/>unseres Meisters in einer Novelle: „<rs type="bibl">Mozart auf der Reise
+         <lb facs="#facs_4_region_1776575895540_866_tl_6" n="N006"/>nach Prag</rs>“, zu einem poetischen Bildchen gestaltet, welches
+         <lb facs="#facs_4_region_1776575895540_866_tl_7" n="N007"/>uns durch klare und tiefe Blicke in das Wesen <rs type="person">Mozart</rs>’s und
+         <lb facs="#facs_4_region_1776575895540_866_tl_8" n="N008"/>seiner Musik fesselt. Wie sehr dieser feinfühlende Dichter per
+         <lb facs="#facs_4_region_1776575895540_866_tl_9" n="N009" break="no"/>sönlich von der Musik zu <rs type="bibl">Don Juan</rs> ergriffen, ja überwäl
+         <lb facs="#facs_4_region_1776575895540_866_tl_10" n="N010" break="no"/>tigt war, entnehmen wir — deutlicher noch als in jener
+         <lb facs="#facs_4_region_1776575895540_866_tl_11" n="N011"/><rs type="bibl">Novelle</rs> — aus einem intimen Briefe desselben an seinen
+         <lb facs="#facs_4_region_1776575895540_866_tl_12" n="N012"/>Freund Wilhelm <rs type="person">Hartlaub</rs> vom 20. März <date>1845</date>. <rs type="person">Mörike</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_4_region_1776575895540_866_tl_13" n="N013"/>hatte einen Abend bei David <rs type="person">Strauß</rs> und dessen Frau, der
+         <lb facs="#facs_4_region_1776575895540_866_tl_14" n="N014"/>Sängerin Agnes <rs type="person">Schebest</rs>, in <rs type="place">Stuttgart</rs> verlebt und berichtet
+         <lb facs="#facs_4_region_1776575895540_866_tl_15" n="N015"/>davon: „<rs type="person">Kaufmann</rs> hatte sich in währendem Gespräch mit
+         <lb facs="#facs_4_region_1776575895540_866_tl_16" n="N016"/>uns mechanisch vor das offene Clavier gesetzt und war von
+         <lb facs="#facs_4_region_1776575895540_866_tl_17" n="N017"/>ungefähr ins erste Finale des „<hi rendition="#em"><rs type="bibl">Don Juan</rs></hi>“ gerathen.
+         <lb facs="#facs_4_region_1776575895540_866_tl_18" n="N018"/>Die <rs type="person">Strauß</rs> sang stellenweise ungebunden aus der Erinnerung
+         <lb facs="#facs_4_region_1776575895540_866_tl_19" n="N019"/>mit. Solche zufällige Concertstreifereien, wobei der Spieler
+         <lb facs="#facs_4_region_1776575895540_866_tl_20" n="N020"/>unversehens wärmer, der Vortrag bald ganz ernsthaft und
+         <lb facs="#facs_4_region_1776575895540_866_tl_21" n="N021"/>die Aufmerksamkeit der Gesellschaft ungetheilt wird, sind ganz
+         <lb facs="#facs_4_region_1776575895540_866_tl_22" n="N022"/>vorzüglich reizend. Ist gar der Gegenstand von so besonders
+         <lb facs="#facs_4_region_1776575895540_866_tl_23" n="N023"/>ergreifender Art, daß man sich vor einer angekündigten voll
+         <lb facs="#facs_4_region_1776575895540_866_tl_24" n="N024" break="no"/>ständigen Aufführung fürchtet, wie mir’s bei dieser Oper
+         <lb facs="#facs_4_region_1776575895540_866_tl_25" n="N025"/>immer geht, weil sie zu viel subjective Elemente für mich
+         <lb facs="#facs_4_region_1776575895540_866_tl_26" n="N026"/>hat und einen Ueberschwall von altem Dufte, Schmerz und
+         <lb facs="#facs_4_region_1776575895540_866_tl_27" n="N027"/>Schönheit über mich herwälzt, dermaßen, daß ich ohne den
+         <lb facs="#facs_4_region_1776575895540_866_tl_28" n="N028"/>Halt an einem sichtbaren gegenwärtigen Freund und Con
+         <lb facs="#facs_4_region_1776575895540_866_tl_29" n="N029" break="no"/>sorten mich nicht damit einlassen mag: so muß man einen
+         <lb facs="#facs_4_region_1776575895540_866_tl_30" n="N030"/>solchen Anlaß, der uns gelegentlich mit fortreißt und zu
+         <lb facs="#facs_4_region_1776575895540_866_tl_31" n="N031"/>rechter Zeit auch wieder losläßt, doppelt danken — wie oft
+         <lb facs="#facs_4_region_1776575895540_866_tl_32" n="N032"/>ist mir dies Glück geworden! — da man sonst aus lauter
+         <lb facs="#facs_4_region_1776575895540_866_tl_33" n="N033"/>Feigheit und Hypochondrie die gar zu nichts käme.“
+            </p><p>
+         <lb facs="#facs_4_region_1776575895540_866_tl_34" n="N034"/>In <rs type="place">Wien</rs> ist bekanntlich <rs type="bibl">Don Juan</rs> zum erstenmale
+         <lb facs="#facs_4_region_1776575895540_866_tl_35" n="N035"/>am 7. Mai <date>1788</date> in <rs type="place">italienisch</rs>er Sprache (im Burgtheater)
+         <lb facs="#facs_4_region_1776575895540_866_tl_36" n="N036"/>gegeben worden und hat die Zuhörer mehr befremdet als
+         <lb facs="#facs_4_region_1776575895540_866_tl_37" n="N037"/>entzückt. Werth und Bedeutung dieser von den bisherigen
+         <lb facs="#facs_4_region_1776575895540_866_tl_38" n="N038"/>Lieblingsopern der Wiener so grundverschiedenen Musik fan
+         <lb facs="#facs_4_region_1776575895540_866_tl_39" n="N039" break="no"/>den ein nur schwaches Verständniß. „<rs type="bibl">Don Giovanni</rs>“<space quantity="1" unit="char"/></p>
             <cb n="7"/>
-            <p>
-               <lb facs="#facs_4_region_1776575895540_866_tl_1" n="N001"/>Hofoper, obgleich die beiden letzteren ausschließlich die Oper
-               <lb facs="#facs_4_region_1776575895540_866_tl_2" n="N002"/>pflegen, während das <rs type="place">Prag</rs>er Theater alle Fächer des gesun¬
-               <lb facs="#facs_4_region_1776575895540_866_tl_3" n="N003"/>genen und des recitirenden Dramas gleichmäßig vertreten muß.
-               <lb facs="#facs_4_region_1776575895540_866_tl_4" n="N004"/>
-               <hi rendition="#em">Eduard <rs type="person">Mörike</rs>
-               </hi> hat diese Episode aus dem Leben
-               <lb facs="#facs_4_region_1776575895540_866_tl_5" n="N005"/>unseres Meisters in einer Novelle: „<rs type="bibl">Mozart auf der Reise</rs>
-               <lb facs="#facs_4_region_1776575895540_866_tl_6" n="N006"/>
-               <rs type="bibl">nach Prag</rs>“, zu einem poetischen Bildchen gestaltet, welches
-               <lb facs="#facs_4_region_1776575895540_866_tl_7" n="N007"/>uns durch klare und tiefe Blicke in das Wesen <rs type="person">Mozart</rs>’s und
-               <lb facs="#facs_4_region_1776575895540_866_tl_8" n="N008"/>seiner Musik fesselt. Wie sehr dieser feinfühlende Dichter per¬
-               <lb facs="#facs_4_region_1776575895540_866_tl_9" n="N009"/>sönlich von der Musik zu <rs type="bibl">Don Juan</rs> ergriffen, ja überwäl¬
-               <lb facs="#facs_4_region_1776575895540_866_tl_10" n="N010"/>tigt war, entnehmen wir — deutlicher noch als in jener
-               <lb facs="#facs_4_region_1776575895540_866_tl_11" n="N011"/>
-               <rs type="bibl">Novelle</rs> — aus einem intimen Briefe desselben an seinen
-               <lb facs="#facs_4_region_1776575895540_866_tl_12" n="N012"/>Freund Wilhelm <rs type="person">Hartlaub</rs> vom 20. März <date>1845</date>. <rs type="person">Mörike</rs>
-               <lb facs="#facs_4_region_1776575895540_866_tl_13" n="N013"/>hatte einen Abend bei David <rs type="person">Strauß</rs> und dessen Frau, der
-               <lb facs="#facs_4_region_1776575895540_866_tl_14" n="N014"/>Sängerin Agnes <rs type="person">Schebest</rs>, in <rs type="place">Stuttgart</rs> verlebt und berichtet
-               <lb facs="#facs_4_region_1776575895540_866_tl_15" n="N015"/>davon: „<rs type="person">Kaufmann</rs> hatte sich in währendem Gespräch mit
-               <lb facs="#facs_4_region_1776575895540_866_tl_16" n="N016"/>uns mechanisch vor das offene Clavier gesetzt und war von
-               <lb facs="#facs_4_region_1776575895540_866_tl_17" n="N017"/>ungefähr ins erste Finale des „<hi rendition="#em">
-                  <rs type="bibl">Don Juan</rs>
-               </hi>“ gerathen.
-               <lb facs="#facs_4_region_1776575895540_866_tl_18" n="N018"/>Die <rs type="person">Strauß</rs> sang stellenweise ungebunden aus der Erinnerung
-               <lb facs="#facs_4_region_1776575895540_866_tl_19" n="N019"/>mit. Solche zufällige Concertstreifereien, wobei der Spieler
-               <lb facs="#facs_4_region_1776575895540_866_tl_20" n="N020"/>unversehens wärmer, der Vortrag bald ganz ernsthaft und
-               <lb facs="#facs_4_region_1776575895540_866_tl_21" n="N021"/>die Aufmerksamkeit der Gesellschaft ungetheilt wird, sind ganz
-               <lb facs="#facs_4_region_1776575895540_866_tl_22" n="N022"/>vorzüglich reizend. Ist gar der Gegenstand von so besonders
-               <lb facs="#facs_4_region_1776575895540_866_tl_23" n="N023"/>ergreifender Art, daß man sich vor einer angekündigten voll¬
-               <lb facs="#facs_4_region_1776575895540_866_tl_24" n="N024"/>ständigen Aufführung fürchtet, wie mir’s bei dieser Oper
-               <lb facs="#facs_4_region_1776575895540_866_tl_25" n="N025"/>immer geht, weil sie zu viel subjective Elemente für mich
-               <lb facs="#facs_4_region_1776575895540_866_tl_26" n="N026"/>hat und einen Ueberschwall von altem Dufte, Schmerz und
-               <lb facs="#facs_4_region_1776575895540_866_tl_27" n="N027"/>Schönheit über mich herwälzt, dermaßen, daß ich ohne den
-               <lb facs="#facs_4_region_1776575895540_866_tl_28" n="N028"/>Halt an einem sichtbaren gegenwärtigen Freund und Con¬
-               <lb facs="#facs_4_region_1776575895540_866_tl_29" n="N029"/>sorten mich nicht damit einlassen mag: so muß man einen
-               <lb facs="#facs_4_region_1776575895540_866_tl_30" n="N030"/>solchen Anlaß, der uns gelegentlich mit fortreißt und zu
-               <lb facs="#facs_4_region_1776575895540_866_tl_31" n="N031"/>rechter Zeit auch wieder losläßt, doppelt danken — wie oft
-               <lb facs="#facs_4_region_1776575895540_866_tl_32" n="N032"/>ist mir dies Glück geworden! — da man sonst aus lauter
-               <lb facs="#facs_4_region_1776575895540_866_tl_33" n="N033"/>Feigheit und Hypochondrie die gar zu nichts käme.“
-               <lb facs="#facs_4_region_1776575895540_866_tl_34" n="N034"/>In <rs type="place">Wien</rs> ist bekanntlich <rs type="bibl">Don Juan</rs> zum erstenmale
-               <lb facs="#facs_4_region_1776575895540_866_tl_35" n="N035"/>am 7. Mai <date>1788</date> in <rs type="place">italienisch</rs>er Sprache (im Burgtheater)
-               <lb facs="#facs_4_region_1776575895540_866_tl_36" n="N036"/>gegeben worden und hat die Zuhörer mehr befremdet als
-               <lb facs="#facs_4_region_1776575895540_866_tl_37" n="N037"/>entzückt. Werth und Bedeutung dieser von den bisherigen
-               <lb facs="#facs_4_region_1776575895540_866_tl_38" n="N038"/>Lieblingsopern der Wiener so grundverschiedenen Musik fan¬
-               <lb facs="#facs_4_region_1776575895540_866_tl_39" n="N039"/>den ein nur schwaches Verständniß. „<rs type="bibl">Don Giovanni</rs>“
-            </p>
+            <p prev="true">
+         <lb facs="#facs_4_region_1776575898572_869_tl_1" n="N001"/>verschwand nach fünfzehn Vorstellungen vom Repertoire und
+         <lb facs="#facs_4_region_1776575898572_869_tl_2" n="N002"/>wurde die nächsten zehn Jahre hindurch gar nicht gegeben.
+         <lb facs="#facs_4_region_1776575898572_869_tl_3" n="N003"/>Erst im Jahre <date>1798</date> nahm man die Oper wieder auf, und
+         <lb facs="#facs_4_region_1776575898572_869_tl_4" n="N004"/>zwar im Kärntnerthor-Theater in <rs type="place">deutsch</rs>er Sprache. Von
+         <lb facs="#facs_4_region_1776575898572_869_tl_5" n="N005"/>diesem Zeitpunkt datirt in <rs type="place">Wien</rs> der regelmäßige, von
+         <lb facs="#facs_4_region_1776575898572_869_tl_6" n="N006"/>wachsender Einsicht und Liebe begleitete Cultus dieser Oper.
+         <lb facs="#facs_4_region_1776575898572_869_tl_7" n="N007"/>Eine durch die ganze <rs type="person">Mozart</rs>-Literatur bis in die jüngsten
+         <lb facs="#facs_4_region_1776575898572_869_tl_8" n="N008"/>Festschriften sich fortschleppende Anekdote lautet: Kaiser <rs type="person">Jo
+         <lb facs="#facs_4_region_1776575898572_869_tl_9" n="N009" break="no"/>seph</rs> habe nach der ersten Aufführung des <rs type="bibl">Don Juan</rs> ge
+         <lb facs="#facs_4_region_1776575898572_869_tl_10" n="N010" break="no"/>äußert, „diese Musik sei keine Speise für die Zähne der
+         <lb facs="#facs_4_region_1776575898572_869_tl_11" n="N011"/>Wiener“, worauf <rs type="person">Mozart</rs> geantwortet haben soll: „Lassen
+         <lb facs="#facs_4_region_1776575898572_869_tl_12" n="N012"/>wir ihnen Zeit zu kauen.“ Nun ist aber nachgewiesen, daß
+         <lb facs="#facs_4_region_1776575898572_869_tl_13" n="N013"/>Kaiser <rs type="person">Joseph</rs> zur Zeit der ersten vierzehn Aufführungen des
+         <lb facs="#facs_4_region_1776575898572_869_tl_14" n="N014"/><rs type="bibl">Don Juan</rs> gar nicht in <rs type="place">Wien</rs> war. Noch einmal nach seiner
+         <lb facs="#facs_4_region_1776575898572_869_tl_15" n="N015"/>Rückkehr (15. December) wurde <rs type="bibl">Don Giovanni</rs> aufgeführt.
+         <lb facs="#facs_4_region_1776575898572_869_tl_16" n="N016"/>Ob der <rs type="person">Kaiser</rs> — da er meist ans Bett gefesselt war —
+         <lb facs="#facs_4_region_1776575898572_869_tl_17" n="N017"/>diese Oper jemals gehört hat, ist sehr zweifelhaft. Es kann
+         <lb facs="#facs_4_region_1776575898572_869_tl_18" n="N018"/>seine Aeußerung also bestenfalls nur von einer seiner Nach
+         <lb facs="#facs_4_region_1776575898572_869_tl_19" n="N019" break="no"/>mittags-Musiken datiren, wo er sich Einzelnes aus der Par
+         <lb facs="#facs_4_region_1776575898572_869_tl_20" n="N020" break="no"/>titur zu Gehör brachte. Wie war es aber möglich, daß
+         <lb facs="#facs_4_region_1776575898572_869_tl_22" n="N021"/>man in <rs type="place">Wien</rs> ein Wunderwerk wie <rs type="bibl">Don Juan</rs> so
+         <lb facs="#facs_4_region_1776575898572_869_tl_23" n="N022"/>rasch beseitigte? Die <rs type="person">Mozart</rs>-Biographen gefallen sich
+         <lb facs="#facs_4_region_1776575898572_869_tl_25" n="N023"/>darin, die Schuld oder doch den größten Theil der
+         <lb facs="#facs_4_region_1776575898572_869_tl_26" n="N024"/>Schuld auf die Intriguen des Hofcapellmeisters <hi rendition="#em"><rs type="person">Salieri</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_4_region_1776575898572_869_tl_27" n="N025"/>zu wälzen, was bis heute mit gesteigerter Gehässigkeit
+         <lb facs="#facs_4_region_1776575898572_869_tl_28" n="N026"/>nachgesprochen wird. Ich glaube, daß die Intriguen von
+         <lb facs="#facs_4_region_1776575898572_869_tl_29" n="N027"/>hundert <rs type="person">Salieri</rs>s nicht im Stande gewesen wären, den <rs type="bibl">Don
+         <lb facs="#facs_4_region_1776575898572_869_tl_30" n="N028"/>Juan</rs> einem zehnjährigen Scheintod zu überliefern, wenn
+         <lb facs="#facs_4_region_1776575898572_869_tl_31" n="N029"/>die Oper das Publicum tief und wahrhaftig gepackt hätte.
+         <lb facs="#facs_4_region_1776575898572_869_tl_32" n="N030"/>Die Macht einer persönlichen Intrigue ist viel zu schwach
+         <lb facs="#facs_4_region_1776575898572_869_tl_33" n="N031"/>gegen die öffentliche Meinung, wenn diese nur in sich selbst
+         <lb facs="#facs_4_region_1776575898572_869_tl_34" n="N032"/>fest steht. Zu hoch überschätzt man, was <rs type="person">Salieri</rs> in dieser
+         <lb facs="#facs_4_region_1776575898572_869_tl_35" n="N033"/>Hinsicht vermocht, und zu vorschnell parteiisch beurtheilt
+         <lb facs="#facs_4_region_1776575898572_869_tl_36" n="N034"/>man, was er gewollt hat. Kein Zweifel, daß er mit
+         <lb facs="#facs_4_region_1776575898572_869_tl_37" n="N035"/>Neid auf die Erfolge seines jungen <rs type="place">deutsch</rs>en Neben
+         <lb facs="#facs_4_region_1776575898572_869_tl_38" n="N036" break="no"/>buhlers blickte, über dessen Genie er gewiß im Reinen
+         <lb facs="#facs_4_region_1776575898572_869_tl_39" n="N037"/>war. Aber von dieser unrühmlichen Empfindung bis zur
+         <lb facs="#facs_4_region_1776575898572_869_tl_40" n="N038"/>boshaft heimtückischen That ist doch ein weiter Weg.
+         <lb facs="#facs_4_region_1776575898572_869_tl_41" n="N039"/>A. W. <hi rendition="#em"><rs type="person">Thayer</rs></hi> hat schon vor mehr als zwanzig Jahren in<space quantity="1" unit="char"/></p>
             <cb n="8"/>
-            <p>
-               <lb facs="#facs_4_region_1776575898572_869_tl_1" n="N001"/>verschwand nach fünfzehn Vorstellungen vom Repertoire und
-               <lb facs="#facs_4_region_1776575898572_869_tl_2" n="N002"/>wurde die nächsten zehn Jahre hindurch gar nicht gegeben.
-               <lb facs="#facs_4_region_1776575898572_869_tl_3" n="N003"/>Erst im Jahre <date month="0" day="0" year="0">1798</date> nahm man die Oper wieder auf, und
-               <lb facs="#facs_4_region_1776575898572_869_tl_4" n="N004"/>zwar im Kärntnerthor-Theater in <rs type="place">deutsch</rs>er Sprache. Von
-               <lb facs="#facs_4_region_1776575898572_869_tl_5" n="N005"/>diesem Zeitpunkt datirt in <rs type="place">Wien</rs> der regelmäßige, von
-               <lb facs="#facs_4_region_1776575898572_869_tl_6" n="N006"/>wachsender Einsicht und Liebe begleitete Cultus dieser Oper.
-               <lb facs="#facs_4_region_1776575898572_869_tl_7" n="N007"/>Eine durch die ganze <rs type="person">Mozart</rs>-Literatur bis in die jüngsten
-               <lb facs="#facs_4_region_1776575898572_869_tl_8" n="N008"/>Festschriften sich fortschleppende Anekdote lautet: Kaiser <rs type="person" continued="true">Jo¬</rs>
-               <lb facs="#facs_4_region_1776575898572_869_tl_9" n="N009"/>
-               <rs type="person" continued="true">seph</rs> habe nach der ersten Aufführung des <rs type="bibl">Don Juan</rs> ge¬
-               <lb facs="#facs_4_region_1776575898572_869_tl_10" n="N010"/>äußert, „diese Musik sei keine Speise für die Zähne der
-               <lb facs="#facs_4_region_1776575898572_869_tl_11" n="N011"/>Wiener“, worauf <rs type="person">Mozart</rs> geantwortet haben soll: „Lassen
-               <lb facs="#facs_4_region_1776575898572_869_tl_12" n="N012"/>wir ihnen Zeit zu kauen.“ Nun ist aber nachgewiesen, daß
-               <lb facs="#facs_4_region_1776575898572_869_tl_13" n="N013"/>Kaiser <rs type="person">Joseph</rs> zur Zeit der ersten vierzehn Aufführungen des
-               <lb facs="#facs_4_region_1776575898572_869_tl_14" n="N014"/>
-               <rs type="bibl">Don Juan</rs> gar nicht in <rs type="place">Wien</rs> war. Noch einmal nach seiner
-               <lb facs="#facs_4_region_1776575898572_869_tl_15" n="N015"/>Rückkehr (15. December) wurde <rs type="bibl">Don Giovanni</rs> aufgeführt.
-               <lb facs="#facs_4_region_1776575898572_869_tl_16" n="N016"/>Ob der <rs type="person">Kaiser</rs> — da er meist ans Bett gefesselt war —
-               <lb facs="#facs_4_region_1776575898572_869_tl_17" n="N017"/>diese Oper jemals gehört hat, ist sehr zweifelhaft. Es kann
-               <lb facs="#facs_4_region_1776575898572_869_tl_18" n="N018"/>seine Aeußerung also bestenfalls nur von einer seiner Nach¬
-               <lb facs="#facs_4_region_1776575898572_869_tl_19" n="N019"/>mittags-Musiken datiren, wo er sich Einzelnes aus der Par¬
-               <lb facs="#facs_4_region_1776575898572_869_tl_20" n="N020"/>titur zu Gehör brachte. Wie war es aber möglich, daß
-               <lb facs="#facs_4_region_1776575898572_869_tl_22" n="N021"/>man in <rs type="place">Wien</rs> ein Wunderwerk wie <rs type="bibl">Don Juan</rs> so
-               <lb facs="#facs_4_region_1776575898572_869_tl_23" n="N022"/>rasch beseitigte? Die <rs type="person">Mozart</rs>-Biographen gefallen sich
-               <lb facs="#facs_4_region_1776575898572_869_tl_25" n="N023"/>darin, die Schuld oder doch den größten Theil der
-               <lb facs="#facs_4_region_1776575898572_869_tl_26" n="N024"/>Schuld auf die Intriguen des Hofcapellmeisters <hi rendition="#em">
-                  <rs type="person">Salieri</rs>
-               </hi>
-               <lb facs="#facs_4_region_1776575898572_869_tl_27" n="N025"/>zu wälzen, was bis heute mit gesteigerter Gehässigkeit
-               <lb facs="#facs_4_region_1776575898572_869_tl_28" n="N026"/>nachgesprochen wird. Ich glaube, daß die Intriguen von
-               <lb facs="#facs_4_region_1776575898572_869_tl_29" n="N027"/>hundert <rs type="person">Salieri</rs>s nicht im Stande gewesen wären, den <rs type="bibl">Don</rs>
-               <lb facs="#facs_4_region_1776575898572_869_tl_30" n="N028"/>
-               <rs type="bibl">Juan</rs> einem zehnjährigen Scheintod zu überliefern, wenn
-               <lb facs="#facs_4_region_1776575898572_869_tl_31" n="N029"/>die Oper das Publicum tief und wahrhaftig gepackt hätte.
-               <lb facs="#facs_4_region_1776575898572_869_tl_32" n="N030"/>Die Macht einer persönlichen Intrigue ist viel zu schwach
-               <lb facs="#facs_4_region_1776575898572_869_tl_33" n="N031"/>gegen die öffentliche Meinung, wenn diese nur in sich selbst
-               <lb facs="#facs_4_region_1776575898572_869_tl_34" n="N032"/>fest steht. Zu hoch überschätzt man, was <rs type="person">Salieri</rs> in dieser
-               <lb facs="#facs_4_region_1776575898572_869_tl_35" n="N033"/>Hinsicht vermocht, und zu vorschnell parteiisch beurtheilt
-               <lb facs="#facs_4_region_1776575898572_869_tl_36" n="N034"/>man, was er gewollt hat. Kein Zweifel, daß er mit
-               <lb facs="#facs_4_region_1776575898572_869_tl_37" n="N035"/>Neid auf die Erfolge seines jungen <rs type="place">deutsch</rs>en Neben¬
-               <lb facs="#facs_4_region_1776575898572_869_tl_38" n="N036"/>buhlers blickte, über dessen Genie er gewiß im Reinen
-               <lb facs="#facs_4_region_1776575898572_869_tl_39" n="N037"/>war. Aber von dieser unrühmlichen Empfindung bis zur
-               <lb facs="#facs_4_region_1776575898572_869_tl_40" n="N038"/>boshaft heimtückischen That ist doch ein weiter Weg.
-               <lb facs="#facs_4_region_1776575898572_869_tl_41" n="N039"/>A. W. <hi rendition="#em">
-                  <rs type="person">Thayer</rs>
-               </hi> hat schon vor mehr als zwanzig Jahren in
-            </p>
-            <cb n="9"/>
-            <p>
-               <lb facs="#facs_4_region_1776575902691_872_tl_1" n="N001"/>„<rs type="bibl">Dwight’s Journal of music</rs>“ die Vertheidigung <rs type="person">Salieri</rs>’s
-               <lb facs="#facs_4_region_1776575902691_872_tl_2" n="N002"/>unternommen und dargethan, daß die Anschuldigung, dieser
-               <lb facs="#facs_4_region_1776575902691_872_tl_3" n="N003"/>habe die erste Aufführung von <rs type="bibl">Figaro’s Hochzeit</rs> und von
-               <lb facs="#facs_4_region_1776575902691_872_tl_4" n="N004"/>
-               <rs type="bibl">Don Juan</rs> aus persönlicher Kabale hintertrieben und dann
-               <lb facs="#facs_4_region_1776575902691_872_tl_5" n="N005"/>deren Wiederholungen eigenmächtig abgeschnitten, durch
-               <lb facs="#facs_4_region_1776575902691_872_tl_6" n="N006"/>nichts bewiesen ist, ja durch feststehende Thatsachen bei¬
-               <lb facs="#facs_4_region_1776575902691_872_tl_7" n="N007"/>nahe widerlegt erscheint. <rs type="bibl">Figaro</rs> und <rs type="bibl">Don Juan</rs> er¬
-               <lb facs="#facs_4_region_1776575902691_872_tl_8" n="N008"/>zielten damals keine vollen Häuser und ein Blick auf das
-               <lb facs="#facs_4_region_1776575902691_872_tl_9" n="N009"/>Wiener Opern-Repertoire der Achtziger-Jahre zeigt, daß
-               <lb facs="#facs_4_region_1776575902691_872_tl_10" n="N010"/>neben einigen Werken <rs type="person">Salieri</rs>’s überwiegend die leichten komi¬
-               <lb facs="#facs_4_region_1776575902691_872_tl_11" n="N011"/>schen Opern von <rs type="person">Cimarosa</rs>, <rs type="person">Paisiello</rs>, <rs type="person">Guglielmi</rs>, <rs type="person" continued="true">Ditters¬</rs>
-               <lb facs="#facs_4_region_1776575902691_872_tl_12" n="N012"/>
-               <rs type="person" continued="true">dorf</rs> es waren, welche dem Geschmacke des Kaisers wie des
-               <lb facs="#facs_4_region_1776575902691_872_tl_13" n="N013"/>Publicums entsprachen und sich mit dem größten Erfolg be¬
-               <lb facs="#facs_4_region_1776575902691_872_tl_14" n="N014"/>haupteten. Der exemplarisch gewissenhafte <rs type="person">Thayer</rs> ließ sich
-               <lb facs="#facs_4_region_1776575902691_872_tl_15" n="N015"/>auch die Mühe nicht verdrießen, die Jahresberichte aller
-               <lb facs="#facs_4_region_1776575902691_872_tl_16" n="N016"/>Haupttheater <rs type="place">Deutschland</rs>s in jener Zeit zu prüfen, und ge¬
-               <lb facs="#facs_4_region_1776575902691_872_tl_17" n="N017"/>langte zu dem Resultate, daß die wichtigsten Werke <rs type="person">Salieri</rs>’s
-               <lb facs="#facs_4_region_1776575902691_872_tl_18" n="N018"/>damals in ganz <rs type="place">Deutschland</rs> populärer waren und häufiger
-               <lb facs="#facs_4_region_1776575902691_872_tl_19" n="N019"/>aufgeführt wurden, als die <rs type="person">Mozart</rs>ischen, mit einziger Aus¬
-               <lb facs="#facs_4_region_1776575902691_872_tl_20" n="N020"/>nahme der „<rs type="bibl">Entführung</rs>“. Was immer die wenigen
-               <lb facs="#facs_4_region_1776575902691_872_tl_21" n="N021"/>Kenner über <rs type="bibl">Figaro’s Hochzeit</rs> und <rs type="bibl">Don Juan</rs> gedacht haben
-               <lb facs="#facs_4_region_1776575902691_872_tl_22" n="N022"/>mögen, für das große Publicum war <rs type="person">Salieri</rs> sicherlich der
-               <lb facs="#facs_4_region_1776575902691_872_tl_23" n="N023"/>größte der damals lebenden Operncomponisten. Das scheint
-               <lb facs="#facs_4_region_1776575902691_872_tl_24" n="N024"/>uns heute kaum möglich, aber es ist so. <rs type="person">Salieri</rs> hatte damals
-               <lb facs="#facs_4_region_1776575902691_872_tl_25" n="N025"/>wenig Grund, seinen jüngeren Nebenbuhler durch unehren¬
-               <lb facs="#facs_4_region_1776575902691_872_tl_26" n="N026"/>hafte Kabalen zu verdrängen. Wir begreifen aber auch ande¬
-               <lb facs="#facs_4_region_1776575902691_872_tl_27" n="N027"/>rerseits die Bitterkeit seiner Bemerkungen über <rs type="person">Mozart</rs>’s
-               <lb facs="#facs_4_region_1776575902691_872_tl_28" n="N028"/>Musik, als diese dreißig Jahre später, noch zu Lebzeiten des
-               <lb facs="#facs_4_region_1776575902691_872_tl_29" n="N029"/>greisen Hof-Capellmeisters, an jeder Bühne florirte, wäh¬
-               <lb facs="#facs_4_region_1776575902691_872_tl_30" n="N030"/>rend seine eigenen Opern vergessen waren. Mit dem Beginn
-               <lb facs="#facs_4_region_1776575902691_872_tl_31" n="N031"/>unseres Jahrhunderts hat sich <rs type="person">Mozart</rs>’s <rs type="bibl">Don Juan</rs> immer
-               <lb facs="#facs_4_region_1776575902691_872_tl_32" n="N032"/>fester im Kopf und Herzen der Wiener festgesiedelt. Er ist
-               <lb facs="#facs_4_region_1776575902691_872_tl_33" n="N033"/>siegreich über alle Rivalen weggeschritten und hat trotz der
-               <lb facs="#facs_4_region_1776575902691_872_tl_34" n="N034"/>anfänglichen Stockungen es bis heute auf 470 Aufführungen
-               <lb facs="#facs_4_region_1776575902691_872_tl_35" n="N035"/>gebracht. Freilich, was will das sagen für den Zeitraum von
-               <lb facs="#facs_4_region_1776575902691_872_tl_36" n="N036"/>hundert Jahren! Was bedeutet es gegen die 500ste Vor¬
-               <lb facs="#facs_4_region_1776575902691_872_tl_37" n="N037"/>stellung von <rs type="person">Gounod</rs>’s <rs type="bibl">Faust</rs>, welche jetzt, 28 Jahre nach der
-               <lb facs="#facs_4_region_1776575902691_872_tl_38" n="N038"/>Première, in <rs type="place">Paris</rs> festlich vorbereitet wird!
-               <lb facs="#facs_4_region_1776575902691_872_tl_39" n="N039"/>(Ein Schlußartikel folgt.)
+            <p prev="true">
+         <lb facs="#facs_4_region_1776575902691_872_tl_1" n="N001"/>„<rs type="bibl">Dwight’s Journal of music</rs>“ die Vertheidigung <rs type="person">Salieri</rs>’s
+         <lb facs="#facs_4_region_1776575902691_872_tl_2" n="N002"/>unternommen und dargethan, daß die Anschuldigung, dieser
+         <lb facs="#facs_4_region_1776575902691_872_tl_3" n="N003"/>habe die erste Aufführung von <rs type="bibl">Figaro’s Hochzeit</rs> und von
+         <lb facs="#facs_4_region_1776575902691_872_tl_4" n="N004"/><rs type="bibl">Don Juan</rs> aus persönlicher Kabale hintertrieben und dann
+         <lb facs="#facs_4_region_1776575902691_872_tl_5" n="N005"/>deren Wiederholungen eigenmächtig abgeschnitten, durch
+         <lb facs="#facs_4_region_1776575902691_872_tl_6" n="N006"/>nichts bewiesen ist, ja durch feststehende Thatsachen bei
+         <lb facs="#facs_4_region_1776575902691_872_tl_7" n="N007" break="no"/>nahe widerlegt erscheint. <rs type="bibl">Figaro</rs> und <rs type="bibl">Don Juan</rs> er
+         <lb facs="#facs_4_region_1776575902691_872_tl_8" n="N008" break="no"/>zielten damals keine vollen Häuser und ein Blick auf das
+         <lb facs="#facs_4_region_1776575902691_872_tl_9" n="N009"/>Wiener Opern-Repertoire der Achtziger-Jahre zeigt, daß
+         <lb facs="#facs_4_region_1776575902691_872_tl_10" n="N010"/>neben einigen Werken <rs type="person">Salieri</rs>’s überwiegend die leichten komi
+         <lb facs="#facs_4_region_1776575902691_872_tl_11" n="N011" break="no"/>schen Opern von <rs type="person">Cimarosa</rs>, <rs type="person">Paisiello</rs>, <rs type="person">Guglielmi</rs>, <rs type="person">Ditters
+         <lb facs="#facs_4_region_1776575902691_872_tl_12" n="N012" break="no"/>dorf</rs> es waren, welche dem Geschmacke des Kaisers wie des
+         <lb facs="#facs_4_region_1776575902691_872_tl_13" n="N013"/>Publicums entsprachen und sich mit dem größten Erfolg be
+         <lb facs="#facs_4_region_1776575902691_872_tl_14" n="N014" break="no"/>haupteten. Der exemplarisch gewissenhafte <rs type="person">Thayer</rs> ließ sich
+         <lb facs="#facs_4_region_1776575902691_872_tl_15" n="N015"/>auch die Mühe nicht verdrießen, die Jahresberichte aller
+         <lb facs="#facs_4_region_1776575902691_872_tl_16" n="N016"/>Haupttheater <rs type="place">Deutschland</rs>s in jener Zeit zu prüfen, und ge
+         <lb facs="#facs_4_region_1776575902691_872_tl_17" n="N017" break="no"/>langte zu dem Resultate, daß die wichtigsten Werke <rs type="person">Salieri</rs>’s
+         <lb facs="#facs_4_region_1776575902691_872_tl_18" n="N018"/>damals in ganz <rs type="place">Deutschland</rs> populärer waren und häufiger
+         <lb facs="#facs_4_region_1776575902691_872_tl_19" n="N019"/>aufgeführt wurden, als die <rs type="person">Mozart</rs>ischen, mit einziger Aus
+         <lb facs="#facs_4_region_1776575902691_872_tl_20" n="N020" break="no"/>nahme der „<rs type="bibl">Entführung</rs>“. Was immer die wenigen
+         <lb facs="#facs_4_region_1776575902691_872_tl_21" n="N021"/>Kenner über <rs type="bibl">Figaro’s Hochzeit</rs> und <rs type="bibl">Don Juan</rs> gedacht haben
+         <lb facs="#facs_4_region_1776575902691_872_tl_22" n="N022"/>mögen, für das große Publicum war <rs type="person">Salieri</rs> sicherlich der
+         <lb facs="#facs_4_region_1776575902691_872_tl_23" n="N023"/>größte der damals lebenden Operncomponisten. Das scheint
+         <lb facs="#facs_4_region_1776575902691_872_tl_24" n="N024"/>uns heute kaum möglich, aber es ist so. <rs type="person">Salieri</rs> hatte damals
+         <lb facs="#facs_4_region_1776575902691_872_tl_25" n="N025"/>wenig Grund, seinen jüngeren Nebenbuhler durch unehren
+         <lb facs="#facs_4_region_1776575902691_872_tl_26" n="N026" break="no"/>hafte Kabalen zu verdrängen. Wir begreifen aber auch ande
+         <lb facs="#facs_4_region_1776575902691_872_tl_27" n="N027" break="no"/>rerseits die Bitterkeit seiner Bemerkungen über <rs type="person">Mozart</rs>’s
+         <lb facs="#facs_4_region_1776575902691_872_tl_28" n="N028"/>Musik, als diese dreißig Jahre später, noch zu Lebzeiten des
+         <lb facs="#facs_4_region_1776575902691_872_tl_29" n="N029"/>greisen Hof-Capellmeisters, an jeder Bühne florirte, wäh
+         <lb facs="#facs_4_region_1776575902691_872_tl_30" n="N030" break="no"/>rend seine eigenen Opern vergessen waren. Mit dem Beginn
+         <lb facs="#facs_4_region_1776575902691_872_tl_31" n="N031"/>unseres Jahrhunderts hat sich <rs type="person">Mozart</rs>’s <rs type="bibl">Don Juan</rs> immer
+         <lb facs="#facs_4_region_1776575902691_872_tl_32" n="N032"/>fester im Kopf und Herzen der Wiener festgesiedelt. Er ist
+         <lb facs="#facs_4_region_1776575902691_872_tl_33" n="N033"/>siegreich über alle Rivalen weggeschritten und hat trotz der
+         <lb facs="#facs_4_region_1776575902691_872_tl_34" n="N034"/>anfänglichen Stockungen es bis heute auf 470 Aufführungen
+         <lb facs="#facs_4_region_1776575902691_872_tl_35" n="N035"/>gebracht. Freilich, was will das sagen für den Zeitraum von
+         <lb facs="#facs_4_region_1776575902691_872_tl_36" n="N036"/>hundert Jahren! Was bedeutet es gegen die 500ste Vor
+         <lb facs="#facs_4_region_1776575902691_872_tl_37" n="N037" break="no"/>stellung von <rs type="person">Gounod</rs>’s <rs type="bibl">Faust</rs>, welche jetzt, 28 Jahre nach der
+         <lb facs="#facs_4_region_1776575902691_872_tl_38" n="N038"/>Première, in <rs type="place">Paris</rs> festlich vorbereitet wird!
+         <lb facs="#facs_4_region_1776575902691_872_tl_39" n="N039"/>(Ein Schlußartikel folgt.)
             </p>
          </div>
       </body>

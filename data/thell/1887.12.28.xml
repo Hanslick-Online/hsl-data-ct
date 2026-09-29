@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 8383 Wien, Mittwoch, den 28. December 1887</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,14 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
+               <name ref="https://orcid.org/0009-0007-9767-072X">Thell, Annika</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +71,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 8383 Wien, Mittwoch, den 28. December 1887</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1887-12-28">28.12.1887</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18871228"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +107,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="athell" when="2026-07-20">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-09-22">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="athell" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -899,318 +900,263 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1776574211810_12_tl_1" n="N001"/><head type="h1">Straußiana.</head>
+            <lb facs="#facs_1_region_1776574211810_12_tl_2" n="N002"/><head type="h2">(„<hi rendition="#em"><rs type="bibl">Simplicius</rs></hi>“, Operette von Johann <rs type="person">Strauß</rs>. — <rs type="bibl">Gesammt-Ausgabe</rs> der <hi rendition="#em"><rs type="person">Strauß</rs></hi>’
+            <lb facs="#facs_1_line_1783593555480_840" n="N003" break="no"/>schen <hi rendition="#em">Walzer</hi>.)</head>
             <p>
-               <lb facs="#facs_1_line_1783593481218_827" n="N001"/>Nr. 8383 Wien, Mittwoch, den 28. December 1887
-            </p>
+         <lb facs="#facs_1_region_1776574211810_12_tl_3" n="N004"/><rs type="person">Ed. H.</rs> In der kürzlich erschienenen <rs type="bibl">Briefsammlung</rs> von
+         <lb facs="#facs_1_region_1776574211810_12_tl_4" n="N005"/>Ferdinand <hi rendition="#em"><rs type="person">Freiligrath</rs></hi> findet der Leser, der sich durch
+         <lb facs="#facs_1_region_1776574211810_12_tl_5" n="N006"/>eine Ewigkeit von zwei colossalen Bänden durchgearbeitet,
+         <lb facs="#facs_1_region_1776574211810_12_tl_6" n="N007"/>auch ein Schreiben des Dichters an seinen Freund Ernst
+         <lb facs="#facs_1_region_1776574211810_12_tl_7" n="N008"/><rs type="person">Struve</rs>, worin es heißt: „Was meinst du dazu, wenn ich
+         <lb facs="#facs_1_region_1776574211810_12_tl_8" n="N009"/>eine ungemein komische Episode aus dem <hi rendition="#em"><rs type="bibl">Simplicissi
+         <lb facs="#facs_1_region_1776574211810_12_tl_9" n="N010" break="no"/>mus</rs></hi> in freiester Weise, nur mit der in der Sache liegenden
+         <lb facs="#facs_1_region_1776574211810_12_tl_10" n="N011"/>Berücksichtigung des alten Romans, als <hi rendition="#em">Comödie</hi> behan
+         <lb facs="#facs_1_region_1776574211810_12_tl_11" n="N012" break="no"/>delte? Mein Sujet spielt im <rs type="person">Tilly</rs>’schen Lager vor <rs type="place">Magde
+         <lb facs="#facs_1_region_1776574211810_12_tl_12" n="N013" break="no"/>burg</rs> und ist eine prächtige, in sich gerundete und abgeschlos
+         <lb facs="#facs_1_region_1776574211810_12_tl_13" n="N014" break="no"/>sene Geschichte, daß es mit dem <rs type="person">Teufel</rs> zugehen müßte, wenn
+         <lb facs="#facs_1_region_1776574211810_12_tl_14" n="N015"/>ich nicht etwas Ordentliches daraus machte.“ Es muß aber
+         <lb facs="#facs_1_region_1776574211810_12_tl_15" n="N016"/>dennoch mit dem <rs type="person">Teufel</rs> zugegangen sein, denn <rs type="person">Freiligrath</rs><space quantity="1" unit="char"/> 
+         <lb facs="#facs_1_region_1776574211810_12_tl_16" n="N017"/>hat seinen Plan nie ausgeführt. Sehr wahrscheinlich über
+         <lb facs="#facs_1_region_1776574211810_12_tl_17" n="N018" break="no"/>zeugte ihn nähere Prüfung, daß er hier nur den Knopf in
+         <lb facs="#facs_1_region_1776574211810_12_tl_18" n="N019"/>Händen halte, zu welchem er einen neuen Rock erst verfer
+         <lb facs="#facs_1_region_1776574211810_12_tl_19" n="N020" break="no"/>tigen müßte. Selbst die beste Scene aus „<rs type="bibl">Simplicissimus</rs>“
+         <lb facs="#facs_1_region_1776574211810_12_tl_20" n="N021"/>reicht nicht aus für eine Comödie, und der ganze Roman
+         <lb facs="#facs_1_region_1776574211810_12_tl_21" n="N022"/>des alten <rs type="person">Grimmelshausen</rs> ebensowenig. Besteht er doch ledig
+         <lb facs="#facs_1_region_1776574211810_12_tl_22" n="N023" break="no"/>lich aus einer langen Reihe einzelner Abenteuer, Schelmen
+         <lb facs="#facs_1_region_1776574211810_12_tl_23" n="N024" break="no"/>streiche, Mißgeschicke, welche nur durch die Person des erzäh
+         <lb facs="#facs_1_region_1776574211810_12_tl_24" n="N025" break="no"/>lenden <rs type="person">Simplicissimus</rs> zusammenhängen. Es fehlt an einer
+         <lb facs="#facs_1_region_1776574211810_12_tl_25" n="N026"/>stetigen Progression der Zustände, also an einer einheitlichen
+         <lb facs="#facs_1_region_1776574211810_12_tl_26" n="N027"/>Handlung, wie das Drama sie braucht. Der naiv derbe Ton,
+         <lb facs="#facs_1_region_1776574211810_12_tl_27" n="N028"/>in welchem der in weltfremder Einsamkeit aufgewachsene
+         <lb facs="#facs_1_region_1776574211810_12_tl_28" n="N029"/>Junge seine Abenteuer unter Soldaten, Hexen, Spielern und
+         <lb facs="#facs_1_region_1776574211810_12_tl_29" n="N030"/>Raufbolden erzählt, heimelt uns an und läßt uns manchen
+         <lb facs="#facs_1_region_1776574211810_12_tl_30" n="N031"/>unfläthigen Spaß, manche moralisirende Betrachtung, als
+         <lb facs="#facs_1_region_1776574211810_12_tl_31" n="N032"/>zum Charakter jener Literatur-Periode gehörig, willig mit
+         <lb facs="#facs_1_region_1776574211810_12_tl_32" n="N033" break="no"/>nehmen. Wenn man aber die culturhistorisch werthvollen und
+         <lb facs="#facs_1_region_1776574211810_12_tl_33" n="N034"/>anziehenden Schilderungen der verworrenen Detailzustände
+         <lb facs="#facs_1_region_1776574211810_12_tl_34" n="N035"/><rs type="place">Deutschland</rs>s während des dreißigjährigen Krieges beiseite<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1776574211810_12_tl_1" n="N001"/>Straußiana.
-               <lb facs="#facs_1_region_1776574211810_12_tl_2" n="N002"/>(„<hi rendition="#em">
-                  <rs type="bibl">Simplicius</rs>
-               </hi>“, Operette von Johann <rs type="person">Strauß</rs>. — <rs type="bibl">Gesammt-Ausgabe</rs> der <hi rendition="#em">
-                  <rs type="person">Strauß</rs>
-               </hi>'¬
-               <lb facs="#facs_1_line_1783593555480_840" n="N003"/>schen <hi rendition="#em">Walzer</hi>.)
-               <lb facs="#facs_1_region_1776574211810_12_tl_3" n="N004"/>
-               <rs type="person">Ed. H.</rs> In der kürzlich erschienenen <rs type="bibl">Briefsammlung</rs> von
-               <lb facs="#facs_1_region_1776574211810_12_tl_4" n="N005"/>Ferdinand <hi rendition="#em">
-                  <rs type="person">Freiligrath</rs>
-               </hi> findet der Leser, der sich durch
-               <lb facs="#facs_1_region_1776574211810_12_tl_5" n="N006"/>eine Ewigkeit von zwei colossalen Bänden durchgearbeitet,
-               <lb facs="#facs_1_region_1776574211810_12_tl_6" n="N007"/>auch ein Schreiben des Dichters an seinen Freund Ernst
-               <lb facs="#facs_1_region_1776574211810_12_tl_7" n="N008"/>
-               <rs type="person">Struve</rs>, worin es heißt: „Was meinst du dazu, wenn ich
-               <lb facs="#facs_1_region_1776574211810_12_tl_8" n="N009"/>eine ungemein komische Episode aus dem <hi rendition="#em">
-                  <rs type="bibl">Simplicissi¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1776574211810_12_tl_9" n="N010"/>
-               <hi rendition="#em">
-                  <rs type="bibl">mus</rs>
-               </hi> in freiester Weise, nur mit der in der Sache liegenden
-               <lb facs="#facs_1_region_1776574211810_12_tl_10" n="N011"/>Berücksichtigung des alten Romans, als <hi rendition="#em">Comödie</hi> behan¬
-               <lb facs="#facs_1_region_1776574211810_12_tl_11" n="N012"/>delte? Mein Sujet spielt im <rs type="person">Tilly</rs>’schen Lager vor <rs type="place" continued="true">Magde¬</rs>
-               <lb facs="#facs_1_region_1776574211810_12_tl_12" n="N013"/>
-               <rs type="place" continued="true">burg</rs> und ist eine prächtige, in sich gerundete und abgeschlos¬
-               <lb facs="#facs_1_region_1776574211810_12_tl_13" n="N014"/>sene Geschichte, daß es mit dem <rs type="person">Teufel</rs> zugehen müßte, wenn
-               <lb facs="#facs_1_region_1776574211810_12_tl_14" n="N015"/>ich nicht etwas Ordentliches daraus machte.“ Es muß aber
-               <lb facs="#facs_1_region_1776574211810_12_tl_15" n="N016"/>dennoch mit dem <rs type="person">Teufel</rs> zugegangen sein, denn <rs type="person">Freiligrath</rs>
-               <lb facs="#facs_1_region_1776574211810_12_tl_16" n="N017"/>hat seinen Plan nie ausgeführt. Sehr wahrscheinlich über¬
-               <lb facs="#facs_1_region_1776574211810_12_tl_17" n="N018"/>zeugte ihn nähere Prüfung, daß er hier nur den Knopf in
-               <lb facs="#facs_1_region_1776574211810_12_tl_18" n="N019"/>Händen halte, zu welchem er einen neuen Rock erst verfer¬
-               <lb facs="#facs_1_region_1776574211810_12_tl_19" n="N020"/>tigen müßte. Selbst die beste Scene aus „<rs type="bibl">Simplicissimus</rs>“
-               <lb facs="#facs_1_region_1776574211810_12_tl_20" n="N021"/>reicht nicht aus für eine Comödie, und der ganze Roman
-               <lb facs="#facs_1_region_1776574211810_12_tl_21" n="N022"/>des alten <rs type="person">Grimmelshausen</rs> ebensowenig. Besteht er doch ledig¬
-               <lb facs="#facs_1_region_1776574211810_12_tl_22" n="N023"/>lich aus einer langen Reihe einzelner Abenteuer, Schelmen¬
-               <lb facs="#facs_1_region_1776574211810_12_tl_23" n="N024"/>streiche, Mißgeschicke, welche nur durch die Person des erzäh¬
-               <lb facs="#facs_1_region_1776574211810_12_tl_24" n="N025"/>lenden <rs type="person">Simplicissimus</rs> zusammenhängen. Es fehlt an einer
-               <lb facs="#facs_1_region_1776574211810_12_tl_25" n="N026"/>stetigen Progression der Zustände, also an einer einheitlichen
-               <lb facs="#facs_1_region_1776574211810_12_tl_26" n="N027"/>Handlung, wie das Drama sie braucht. Der naiv derbe Ton,
-               <lb facs="#facs_1_region_1776574211810_12_tl_27" n="N028"/>in welchem der in weltfremder Einsamkeit aufgewachsene
-               <lb facs="#facs_1_region_1776574211810_12_tl_28" n="N029"/>Junge seine Abenteuer unter Soldaten, Hexen, Spielern und
-               <lb facs="#facs_1_region_1776574211810_12_tl_29" n="N030"/>Raufbolden erzählt, heimelt uns an und läßt uns manchen
-               <lb facs="#facs_1_region_1776574211810_12_tl_30" n="N031"/>unfläthigen Spaß, manche moralisirende Betrachtung, als
-               <lb facs="#facs_1_region_1776574211810_12_tl_31" n="N032"/>zum Charakter jener Literatur-Periode gehörig, willig mit¬
-               <lb facs="#facs_1_region_1776574211810_12_tl_32" n="N033"/>nehmen. Wenn man aber die culturhistorisch werthvollen und
-               <lb facs="#facs_1_region_1776574211810_12_tl_33" n="N034"/>anziehenden Schilderungen der verworrenen Detailzustände
-               <lb facs="#facs_1_region_1776574211810_12_tl_34" n="N035"/>
-               <rs type="place">Deutschland</rs>s während des dreißigjährigen Krieges beiseite
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1776574220051_15_tl_1" n="N001"/>läßt, so bleibt nur ein dürftiger und sofort zersplittern
+         <lb facs="#facs_1_region_1776574220051_15_tl_2" n="N002" break="no"/>der Kern, aus dem sich kein modernes Theaterstück bilden
+         <lb facs="#facs_1_region_1776574220051_15_tl_3" n="N003"/>läßt. Die Selbstbiographie des <rs type="person">Simplicissimus</rs> ähnelt darin
+         <lb facs="#facs_1_region_1776574220051_15_tl_4" n="N004"/>dem Volksbuche vom <rs type="person">Eulenspiegel</rs>, das sich gleichfalls aus
+         <lb facs="#facs_1_region_1776574220051_15_tl_5" n="N005"/>einer Reihe verschiedenartiger Schwänke und Abenteuer zu
+         <lb facs="#facs_1_region_1776574220051_15_tl_6" n="N006" break="no"/>sammensetzt. Wer den <rs type="person">Simplicissimus</rs> dramatisch verwerthen
+         <lb facs="#facs_1_region_1776574220051_15_tl_7" n="N007"/>will, müßte damit verfahren, wie <rs type="person">Nestroy</rs> mit seiner be
+         <lb facs="#facs_1_region_1776574220051_15_tl_8" n="N008" break="no"/>kannten Localposse, der sich die populäre <rs type="person">Eulenspiegel</rs>-Figur
+         <lb facs="#facs_1_region_1776574220051_15_tl_9" n="N009"/>herausnahm und alle übrigen Personen sammt einer stetig
+         <lb facs="#facs_1_region_1776574220051_15_tl_10" n="N010"/>entwickelten Handlung dazu erfand. Das hat denn auch Herr
+         <lb facs="#facs_1_region_1776574220051_15_tl_11" n="N011"/>Victor <hi rendition="#em"><rs type="person">Leon</rs></hi>, der Librettist der neuen <rs type="person">Strauß</rs>’schen <rs type="bibl">Operette</rs>,
+         <lb facs="#facs_1_region_1776574220051_15_tl_12" n="N012"/>versucht, aber kaum mit dem Glücke des <rs type="person">Nestroy</rs>’schen <rs type="bibl">Eulen
+         <lb facs="#facs_1_region_1776574220051_15_tl_13" n="N013" break="no"/>spiegel</rs>. Das Talent des jungen Bühnendichters, der bei
+         <lb facs="#facs_1_region_1776574220051_15_tl_14" n="N014"/>reiferer Erfahrung uns sicherlich noch Gutes bringen wird,
+         <lb facs="#facs_1_region_1776574220051_15_tl_15" n="N015"/>äußert sich nach zwei Richtungen: er spricht gewählt in sorg
+         <lb facs="#facs_1_region_1776574220051_15_tl_16" n="N016" break="no"/>fältig gefeilten Versen und verräth ein scharfes Auge für
+         <lb facs="#facs_1_region_1776574220051_15_tl_17" n="N017"/>scenisch wirksame, insbesondere contrastirende Situationen.
+         <lb facs="#facs_1_region_1776574220051_15_tl_18" n="N018"/>Das täuscht jedoch nur flüchtig über die Armuth und Zer
+         <lb facs="#facs_1_region_1776574220051_15_tl_19" n="N019" break="no"/>fahrenheit der Handlung. Sie rückt nicht vom Fleck, sondern
+         <lb facs="#facs_1_region_1776574220051_15_tl_20" n="N020"/>wird durch allerlei Lückenbüßer künstlich ausgedehnt oder ruck
+         <lb facs="#facs_1_region_1776574220051_15_tl_21" n="N021" break="no"/>weise weitergeschoben: durch militärische Evolutionen, Marke
+         <lb facs="#facs_1_region_1776574220051_15_tl_22" n="N022" break="no"/>tenderlieder, Soldatenspielen der Kinder, <rs type="place">schwedisch</rs>e Gaukle
+         <lb facs="#facs_1_region_1776574220051_15_tl_23" n="N023" break="no"/>rinnen und Aehnliches. Wie diese Handlung selbst, so haben
+         <lb facs="#facs_1_region_1776574220051_15_tl_24" n="N024"/>auch die von Herrn <rs type="person">Leon</rs> um die Hauptfigur angehäuften
+         <lb facs="#facs_1_region_1776574220051_15_tl_25" n="N025"/>Personen mit dem alten <rs type="person">Simplicius</rs> nichts oder doch wenig
+         <lb facs="#facs_1_region_1776574220051_15_tl_26" n="N026"/>Ergötzliches zu schaffen. Ihre sentimentalen Empfindungen
+         <lb facs="#facs_1_region_1776574220051_15_tl_27" n="N027"/>werden uns in breiten Humpen, Witz und Humor in
+         <lb facs="#facs_1_region_1776574220051_15_tl_28" n="N028"/>winzigen Liqueurgläschen credenzt. Die einzigen zwei komi
+         <lb facs="#facs_1_region_1776574220051_15_tl_29" n="N029" break="no"/>schen Figuren, der astrologische <rs type="person">Diplomat</rs> und die alte
+         <lb facs="#facs_1_region_1776574220051_15_tl_30" n="N030"/><rs type="person">Marketenderin</rs>, sind Caricaturen, welche aus dem Style des
+         <lb facs="#facs_1_region_1776574220051_15_tl_31" n="N031"/>Ganzen herausfallen, zum Grundten des Stückes nicht
+         <lb facs="#facs_1_region_1776574220051_15_tl_32" n="N032"/>stimmen. Der Grundton des Stückes? Ja, über diesen blei
+         <lb facs="#facs_1_region_1776574220051_15_tl_33" n="N033" break="no"/>ben wir fortwährend in Zweifel und Zwiespalt, und können,
+         <lb facs="#facs_1_region_1776574220051_15_tl_34" n="N034"/>zwischen Pathos und Spaß hin und her geworfen, zu keiner
+         <lb facs="#facs_1_region_1776574220051_15_tl_35" n="N035"/>einheitlichen, sicheren Stimmung gelangen. Das ganze Vor
+         <lb facs="#facs_1_region_1776574220051_15_tl_36" n="N036" break="no"/>spiel beherrscht ein ans Tragische streifender Ernst, der sich
+         <lb facs="#facs_1_region_1776574220051_15_tl_37" n="N037"/>in der Scene des ersten Actes, wo der zitternde <rs type="person">Simplicius</rs><space quantity="1" unit="char"/> 
+         <lb facs="#facs_1_region_1776574220051_15_tl_38" n="N038"/>ins Lager geschleppt wird wie ein Thier zur Schlachtbank,
+         <lb facs="#facs_1_region_1776574220051_15_tl_39" n="N039"/>noch peinlich verschärft. Wir empfinden mit dieser fast an
+         <lb facs="#facs_1_region_1776574220051_15_tl_40" n="N040"/>Caspar <rs type="person">Hauser</rs> erinnernden hilflosen Creatur ein Mitleid,
+         <lb facs="#facs_1_region_1776574220051_15_tl_41" n="N041"/>dem die tragische Resonanz fehlt. Erst mit dem Augenblick,<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1776574220051_15_tl_1" n="N001"/>läßt, so bleibt nur ein dürftiger und sofort zersplittern¬
-               <lb facs="#facs_1_region_1776574220051_15_tl_2" n="N002"/>der Kern, aus dem sich kein modernes Theaterstück bilden
-               <lb facs="#facs_1_region_1776574220051_15_tl_3" n="N003"/>läßt. Die Selbstbiographie des <rs type="person">Simplicissimus</rs> ähnelt darin
-               <lb facs="#facs_1_region_1776574220051_15_tl_4" n="N004"/>dem Volksbuche vom <rs type="person">Eulenspiegel</rs>, das sich gleichfalls aus
-               <lb facs="#facs_1_region_1776574220051_15_tl_5" n="N005"/>einer Reihe verschiedenartiger Schwänke und Abenteuer zu¬
-               <lb facs="#facs_1_region_1776574220051_15_tl_6" n="N006"/>sammensetzt. Wer den <rs type="person">Simplicissimus</rs> dramatisch verwerthen
-               <lb facs="#facs_1_region_1776574220051_15_tl_7" n="N007"/>will, müßte damit verfahren, wie <rs type="person">Nestroy</rs> mit seiner be¬
-               <lb facs="#facs_1_region_1776574220051_15_tl_8" n="N008"/>kannten Localposse, der sich die populäre <rs type="person">Eulenspiegel</rs>-Figur
-               <lb facs="#facs_1_region_1776574220051_15_tl_9" n="N009"/>herausnahm und alle übrigen Personen sammt einer stetig
-               <lb facs="#facs_1_region_1776574220051_15_tl_10" n="N010"/>entwickelten Handlung dazu erfand. Das hat denn auch Herr
-               <lb facs="#facs_1_region_1776574220051_15_tl_11" n="N011"/>Victor <hi rendition="#em">
-                  <rs type="person">Leon</rs>
-               </hi>, der Librettist der neuen <rs type="person">Strauß</rs>’schen <rs type="bibl">Operette</rs>,
-               <lb facs="#facs_1_region_1776574220051_15_tl_12" n="N012"/>versucht, aber kaum mit dem Glücke des <rs type="person">Nestroy</rs>’schen <rs type="bibl">Eulen¬</rs>
-               <lb facs="#facs_1_region_1776574220051_15_tl_13" n="N013"/>
-               <rs type="bibl">spiegel</rs>. Das Talent des jungen Bühnendichters, der bei
-               <lb facs="#facs_1_region_1776574220051_15_tl_14" n="N014"/>reiferer Erfahrung uns sicherlich noch Gutes bringen wird,
-               <lb facs="#facs_1_region_1776574220051_15_tl_15" n="N015"/>äußert sich nach zwei Richtungen: er spricht gewählt in sorg¬
-               <lb facs="#facs_1_region_1776574220051_15_tl_16" n="N016"/>fältig gefeilten Versen und verräth ein scharfes Auge für
-               <lb facs="#facs_1_region_1776574220051_15_tl_17" n="N017"/>scenisch wirksame, insbesondere contrastirende Situationen.
-               <lb facs="#facs_1_region_1776574220051_15_tl_18" n="N018"/>Das täuscht jedoch nur flüchtig über die Armuth und Zer¬
-               <lb facs="#facs_1_region_1776574220051_15_tl_19" n="N019"/>fahrenheit der Handlung. Sie rückt nicht vom Fleck, sondern
-               <lb facs="#facs_1_region_1776574220051_15_tl_20" n="N020"/>wird durch allerlei Lückenbüßer künstlich ausgedehnt oder ruck¬
-               <lb facs="#facs_1_region_1776574220051_15_tl_21" n="N021"/>weise weitergeschoben: durch militärische Evolutionen, Marke¬
-               <lb facs="#facs_1_region_1776574220051_15_tl_22" n="N022"/>tenderlieder, Soldatenspielen der Kinder, <rs type="place">schwedisch</rs>e Gaukle¬
-               <lb facs="#facs_1_region_1776574220051_15_tl_23" n="N023"/>rinnen und Aehnliches. Wie diese Handlung selbst, so haben
-               <lb facs="#facs_1_region_1776574220051_15_tl_24" n="N024"/>auch die von Herrn <rs type="person">Leon</rs> um die Hauptfigur angehäuften
-               <lb facs="#facs_1_region_1776574220051_15_tl_25" n="N025"/>Personen mit dem alten <rs type="person">Simplicius</rs> nichts oder doch wenig
-               <lb facs="#facs_1_region_1776574220051_15_tl_26" n="N026"/>Ergötzliches zu schaffen. Ihre sentimentalen Empfindungen
-               <lb facs="#facs_1_region_1776574220051_15_tl_27" n="N027"/>werden uns in breiten Humpen, Witz und Humor in
-               <lb facs="#facs_1_region_1776574220051_15_tl_28" n="N028"/>winzigen Liqueurgläschen credenzt. Die einzigen zwei komi¬
-               <lb facs="#facs_1_region_1776574220051_15_tl_29" n="N029"/>schen Figuren, der astrologische <rs type="person">Diplomat</rs> und die alte
-               <lb facs="#facs_1_region_1776574220051_15_tl_30" n="N030"/>
-               <rs type="person">Marketenderin</rs>, sind Caricaturen, welche aus dem Style des
-               <lb facs="#facs_1_region_1776574220051_15_tl_31" n="N031"/>Ganzen herausfallen, zum Grundten des Stückes nicht
-               <lb facs="#facs_1_region_1776574220051_15_tl_32" n="N032"/>stimmen. Der Grundton des Stückes? Ja, über diesen blei¬
-               <lb facs="#facs_1_region_1776574220051_15_tl_33" n="N033"/>ben wir fortwährend in Zweifel und Zwiespalt, und können,
-               <lb facs="#facs_1_region_1776574220051_15_tl_34" n="N034"/>zwischen Pathos und Spaß hin und her geworfen, zu keiner
-               <lb facs="#facs_1_region_1776574220051_15_tl_35" n="N035"/>einheitlichen, sicheren Stimmung gelangen. Das ganze Vor¬
-               <lb facs="#facs_1_region_1776574220051_15_tl_36" n="N036"/>spiel beherrscht ein ans Tragische streifender Ernst, der sich
-               <lb facs="#facs_1_region_1776574220051_15_tl_37" n="N037"/>in der Scene des ersten Actes, wo der zitternde <rs type="person">Simplicius</rs>
-               <lb facs="#facs_1_region_1776574220051_15_tl_38" n="N038"/>ins Lager geschleppt wird wie ein Thier zur Schlachtbank,
-               <lb facs="#facs_1_region_1776574220051_15_tl_39" n="N039"/>noch peinlich verschärft. Wir empfinden mit dieser fast an
-               <lb facs="#facs_1_region_1776574220051_15_tl_40" n="N040"/>Caspar <rs type="person">Hauser</rs> erinnernden hilflosen Creatur ein Mitleid,
-               <lb facs="#facs_1_region_1776574220051_15_tl_41" n="N041"/>dem die tragische Resonanz fehlt. Erst mit dem Augenblick,
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1776574224311_18_tl_1" n="N001"/>da der arme Unhold mit geschnittenem Haar, gewaschen und
-               <lb facs="#facs_1_region_1776574224311_18_tl_2" n="N002"/>gekleidet aus der Coulisse wieder hervortritt, wird er uns
-               <lb facs="#facs_1_region_1776574224311_18_tl_3" n="N003"/>geheuer und sympathisch. Er ist plötzlich ein aufgeweckter,
-               <lb facs="#facs_1_region_1776574224311_18_tl_4" n="N004"/>freundlicher Mensch geworden. Diese Metamorphose, welche
-               <lb facs="#facs_1_region_1776574224311_18_tl_5" n="N005"/>sich im Roman sehr allmälig im Verlaufe vieler Capitel
-               <lb facs="#facs_1_region_1776574224311_18_tl_6" n="N006"/>vollzieht, geschieht im Theater binnen fünf Minuten. Doch
-               <lb facs="#facs_1_region_1776574224311_18_tl_7" n="N007"/>stimmt <rs type="person">Simplicius</rs> wenigstens von da an zu dem Charakter
-               <lb facs="#facs_1_region_1776574224311_18_tl_8" n="N008"/>einer „Operette“ und zu den Erwartungen, die wir einer
-               <lb facs="#facs_1_region_1776574224311_18_tl_9" n="N009"/>solchen entgegenbringen.
-               <lb facs="#facs_1_region_1776574224311_18_tl_10" n="N010"/>Das Grundübel des Textbuches hat <hi rendition="#em">
-                  <rs type="person">Strauß</rs>
-               </hi> mit
-               <lb facs="#facs_1_region_1776574224311_18_tl_11" n="N011"/>seiner überwiegend leicht und anmuthig gehaltenen Musik
-               <lb facs="#facs_1_region_1776574224311_18_tl_12" n="N012"/>nach Möglichkeit vertuscht. Er stellt die kräftigen, beherzten
-               <lb facs="#facs_1_region_1776574224311_18_tl_13" n="N013"/>Stücke (wie das Reiterlied) und alle lustigen Momente glän¬
-               <lb facs="#facs_1_region_1776574224311_18_tl_14" n="N014"/>zend in den Vordergrund und mildert durch eine hellere
-               <lb facs="#facs_1_region_1776574224311_18_tl_15" n="N015"/>musikalische Färbung den Trübsinn der ernsten Situationen.
-               <lb facs="#facs_1_region_1776574224311_18_tl_16" n="N016"/>Letzteres erreicht <rs type="person">Strauß</rs> in der ersten Schreckenserzählung
-               <lb facs="#facs_1_region_1776574224311_18_tl_17" n="N017"/>des <rs type="person">Simplicius</rs>, in dem Liede des <rs type="person">Einsiedler</rs>s („Ich denke
-               <lb facs="#facs_1_region_1776574224311_18_tl_18" n="N018"/>zurück an entschwundenes Glück“) und ähnlichen Gesang¬
-               <lb facs="#facs_1_region_1776574224311_18_tl_19" n="N019"/>stücken durch Anwendung des verlängerten Walzer-Rhythmus,
-               <lb facs="#facs_1_region_1776574224311_18_tl_20" n="N020"/>den er so glücklich zu behandeln weiß. Der sentimentale Ge¬
-               <lb facs="#facs_1_region_1776574224311_18_tl_21" n="N021"/>sangswalzer ist seit dem „<rs type="bibl">Nur für Natur</rs>“ bereits eine
-               <lb facs="#facs_1_region_1776574224311_18_tl_22" n="N022"/>eben solche <rs type="person">Strauß</rs>-Specialität geworden, wie der rasch
-               <lb facs="#facs_1_region_1776574224311_18_tl_23" n="N023"/>dahinstürmende eigentliche Tanzwalzer. Die reizendste Nummer
-               <lb facs="#facs_1_region_1776574224311_18_tl_24" n="N024"/>dünkt uns das muntere Liebesduett mit dem Refrain „Dum¬
-               <lb facs="#facs_1_region_1776574224311_18_tl_25" n="N025"/>mer Bub“; hier waltet ungetrübte Heiterkeit und Anmuth,
-               <lb facs="#facs_1_region_1776574224311_18_tl_26" n="N026"/>das eigentliche Lebenselement <rs type="person">Strauß</rs>’scher Musik. Am
-               <lb facs="#facs_1_region_1776574224311_18_tl_27" n="N027"/>Schlusse des Stückes recapitulirt <rs type="person">Simplicius</rs> seinen Lebens¬
-               <lb facs="#facs_1_region_1776574224311_18_tl_28" n="N028"/>lauf in einem Melodram, welches das Orchester durch lauter
-               <lb facs="#facs_1_region_1776574224311_18_tl_29" n="N029"/>musikalische Citate, Erinnerungs-Motive aus der ganzen
-               <lb facs="#facs_1_region_1776574224311_18_tl_30" n="N030"/>Operette, illustrirt. Die Form, in welcher der vom Balle
-               <lb facs="#facs_1_region_1776574224311_18_tl_31" n="N031"/>heimtaumelnde Gefängniß-Director in der „<rs type="bibl">Fledermaus</rs>“ so
-               <lb facs="#facs_1_region_1776574224311_18_tl_32" n="N032"/>ergötzlich seine fünf Sinne sammelt, ist hier ins Pathetische
-               <lb facs="#facs_1_region_1776574224311_18_tl_33" n="N033"/>übertragen. Die geistreich instrumentirte Nachbildung verhält
-               <lb facs="#facs_1_region_1776574224311_18_tl_34" n="N034"/>sich zu jenem Original, wie — der ganze „<rs type="bibl">Simplicius</rs>“ zur
-               <lb facs="#facs_1_region_1776574224311_18_tl_37" n="N035"/>„<rs type="bibl">Fledermaus</rs>“. Die <rs type="bibl">Fledermaus</rs> bleibt doch immerdar das
-               <lb facs="#facs_1_region_1776574224311_18_tl_38" n="N036"/>auserlesene heraldische Thier im Wappen unseres Johann
-               <lb facs="#facs_1_region_1776574224311_18_tl_39" n="N037"/>
-               <rs type="person">Strauß</rs>. Diese ursprünglich <rs type="place">französisch</rs>e Comödie, aus der
-               <lb facs="#facs_1_region_1776574224311_18_tl_40" n="N038"/>man nur einige Gemeinheiten der <rs type="place">Wien</rs>er Bearbeitung weg¬
-               <lb facs="#facs_1_region_1776574224311_18_tl_41" n="N039"/>wünschen möchte, gilt uns recht eigentlich als der Boden, auf
-               <lb facs="#facs_1_region_1776574224311_18_tl_42" n="N040"/>welchem <rs type="person">Strauß</rs> am echtesten, ursprünglichsten und liebens¬
-               <lb facs="#facs_1_region_1776574224311_18_tl_43" n="N041"/>würdigsten sich bewegt. Dahin möchten wir ihn zurückkehren
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1776574224311_18_tl_1" n="N001"/>da der arme Unhold mit geschnittenem Haar, gewaschen und
+         <lb facs="#facs_1_region_1776574224311_18_tl_2" n="N002"/>gekleidet aus der Coulisse wieder hervortritt, wird er uns
+         <lb facs="#facs_1_region_1776574224311_18_tl_3" n="N003"/>geheuer und sympathisch. Er ist plötzlich ein aufgeweckter,
+         <lb facs="#facs_1_region_1776574224311_18_tl_4" n="N004"/>freundlicher Mensch geworden. Diese Metamorphose, welche
+         <lb facs="#facs_1_region_1776574224311_18_tl_5" n="N005"/>sich im Roman sehr allmälig im Verlaufe vieler Capitel
+         <lb facs="#facs_1_region_1776574224311_18_tl_6" n="N006"/>vollzieht, geschieht im Theater binnen fünf Minuten. Doch
+         <lb facs="#facs_1_region_1776574224311_18_tl_7" n="N007"/>stimmt <rs type="person">Simplicius</rs> wenigstens von da an zu dem Charakter
+         <lb facs="#facs_1_region_1776574224311_18_tl_8" n="N008"/>einer „Operette“ und zu den Erwartungen, die wir einer
+         <lb facs="#facs_1_region_1776574224311_18_tl_9" n="N009"/>solchen entgegenbringen.
+            </p><p>
+         <lb facs="#facs_1_region_1776574224311_18_tl_10" n="N010"/>Das Grundübel des Textbuches hat <hi rendition="#em"><rs type="person">Strauß</rs></hi> mit
+         <lb facs="#facs_1_region_1776574224311_18_tl_11" n="N011"/>seiner überwiegend leicht und anmuthig gehaltenen Musik
+         <lb facs="#facs_1_region_1776574224311_18_tl_12" n="N012"/>nach Möglichkeit vertuscht. Er stellt die kräftigen, beherzten
+         <lb facs="#facs_1_region_1776574224311_18_tl_13" n="N013"/>Stücke (wie das Reiterlied) und alle lustigen Momente glän
+         <lb facs="#facs_1_region_1776574224311_18_tl_14" n="N014" break="no"/>zend in den Vordergrund und mildert durch eine hellere
+         <lb facs="#facs_1_region_1776574224311_18_tl_15" n="N015"/>musikalische Färbung den Trübsinn der ernsten Situationen.
+         <lb facs="#facs_1_region_1776574224311_18_tl_16" n="N016"/>Letzteres erreicht <rs type="person">Strauß</rs> in der ersten Schreckenserzählung
+         <lb facs="#facs_1_region_1776574224311_18_tl_17" n="N017"/>des <rs type="person">Simplicius</rs>, in dem Liede des <rs type="person">Einsiedler</rs>s („Ich denke
+         <lb facs="#facs_1_region_1776574224311_18_tl_18" n="N018"/>zurück an entschwundenes Glück“) und ähnlichen Gesang
+         <lb facs="#facs_1_region_1776574224311_18_tl_19" n="N019" break="no"/>stücken durch Anwendung des verlängerten Walzer-Rhythmus,
+         <lb facs="#facs_1_region_1776574224311_18_tl_20" n="N020"/>den er so glücklich zu behandeln weiß. Der sentimentale Ge
+         <lb facs="#facs_1_region_1776574224311_18_tl_21" n="N021" break="no"/>sangswalzer ist seit dem „<rs type="bibl">Nur für Natur</rs>“ bereits eine
+         <lb facs="#facs_1_region_1776574224311_18_tl_22" n="N022"/>eben solche <rs type="person">Strauß</rs>-Specialität geworden, wie der rasch
+         <lb facs="#facs_1_region_1776574224311_18_tl_23" n="N023"/>dahinstürmende eigentliche Tanzwalzer. Die reizendste Nummer
+         <lb facs="#facs_1_region_1776574224311_18_tl_24" n="N024"/>dünkt uns das muntere Liebesduett mit dem Refrain „Dum
+         <lb facs="#facs_1_region_1776574224311_18_tl_25" n="N025" break="no"/>mer Bub“; hier waltet ungetrübte Heiterkeit und Anmuth,
+         <lb facs="#facs_1_region_1776574224311_18_tl_26" n="N026"/>das eigentliche Lebenselement <rs type="person">Strauß</rs>’scher Musik. Am
+         <lb facs="#facs_1_region_1776574224311_18_tl_27" n="N027"/>Schlusse des Stückes recapitulirt <rs type="person">Simplicius</rs> seinen Lebens
+         <lb facs="#facs_1_region_1776574224311_18_tl_28" n="N028" break="no"/>lauf in einem Melodram, welches das Orchester durch lauter
+         <lb facs="#facs_1_region_1776574224311_18_tl_29" n="N029"/>musikalische Citate, Erinnerungs-Motive aus der ganzen
+         <lb facs="#facs_1_region_1776574224311_18_tl_30" n="N030"/>Operette, illustrirt. Die Form, in welcher der vom Balle
+         <lb facs="#facs_1_region_1776574224311_18_tl_31" n="N031"/>heimtaumelnde Gefängniß-Director in der „<rs type="bibl">Fledermaus</rs>“ so
+         <lb facs="#facs_1_region_1776574224311_18_tl_32" n="N032"/>ergötzlich seine fünf Sinne sammelt, ist hier ins Pathetische
+         <lb facs="#facs_1_region_1776574224311_18_tl_33" n="N033"/>übertragen. Die geistreich instrumentirte Nachbildung verhält
+         <lb facs="#facs_1_region_1776574224311_18_tl_34" n="N034"/>sich zu jenem Original, wie — der ganze „<rs type="bibl">Simplicius</rs>“ zur
+         <lb facs="#facs_1_region_1776574224311_18_tl_37" n="N035"/>„<rs type="bibl">Fledermaus</rs>“. Die <rs type="bibl">Fledermaus</rs> bleibt doch immerdar das
+         <lb facs="#facs_1_region_1776574224311_18_tl_38" n="N036"/>auserlesene heraldische Thier im Wappen unseres Johann
+         <lb facs="#facs_1_region_1776574224311_18_tl_39" n="N037"/><rs type="person">Strauß</rs>. Diese ursprünglich <rs type="place">französisch</rs>e Comödie, aus der
+         <lb facs="#facs_1_region_1776574224311_18_tl_40" n="N038"/>man nur einige Gemeinheiten der <rs type="place">Wien</rs>er Bearbeitung weg
+         <lb facs="#facs_1_region_1776574224311_18_tl_41" n="N039" break="no"/>wünschen möchte, gilt uns recht eigentlich als der Boden, auf
+         <lb facs="#facs_1_region_1776574224311_18_tl_42" n="N040"/>welchem <rs type="person">Strauß</rs> am echtesten, ursprünglichsten und liebens
+         <lb facs="#facs_1_region_1776574224311_18_tl_43" n="N041" break="no"/>würdigsten sich bewegt. Dahin möchten wir ihn zurückkehren<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776574239602_24_tl_1" n="N001"/>sehen in seiner nächsten Operette, auf die sich mit uns halb
+         <lb facs="#facs_2_region_1776574239602_24_tl_2" n="N002"/><rs type="place">Europa</rs> freut. Nicht gerade das Komische im engeren
+         <lb facs="#facs_2_region_1776574239602_24_tl_3" n="N003"/>Sinne, ebensowenig wie das Parodistische und Bur
+         <lb facs="#facs_2_region_1776574239602_24_tl_5" n="N004" break="no"/>leske bildet die Specialität dieses im Leben so
+         <lb facs="#facs_2_region_1776574239602_24_tl_6" n="N005"/>merkwürdig ernsthaften Mannes. Aber den Grundzug
+         <lb facs="#facs_2_region_1776574239602_24_tl_7" n="N006"/>des Heiteren, Lebensfrohen sollte jedes Sujet tragen, das für
+         <lb facs="#facs_2_region_1776574239602_24_tl_8" n="N007"/>Johann <rs type="person">Strauß</rs> gedichtet wird. Dies ist die Sphäre, die er
+         <lb facs="#facs_2_region_1776574239602_24_tl_9" n="N008"/>in ihrer ganzen Ausdehnung von anmuthiger Laune bis zur
+         <lb facs="#facs_2_region_1776574239602_24_tl_10" n="N009"/>entfesselten Lustigkeit mit seinem Zauberstabe beherrscht, wie
+         <lb facs="#facs_2_region_1776574239602_24_tl_11" n="N010"/>kein Zweiter. Einen heutzutage gar seltenen Vorzug theilt
+         <lb facs="#facs_2_region_1776574239602_24_tl_12" n="N011"/>übrigens „<rs type="bibl">Simplicius</rs>“, mit allen früheren Werken von
+         <lb facs="#facs_2_region_1776574239602_24_tl_13" n="N012"/><rs type="person">Strauß</rs>: die Musik ist durchaus ungezwungen, unaffectirt, im
+         <lb facs="#facs_2_region_1776574239602_24_tl_14" n="N013"/>besten Sinne naiv. Sie interessirt, auch wo sie nicht ganz
+         <lb facs="#facs_2_region_1776574239602_24_tl_15" n="N014"/>neu klingt, durch die zierlichste, lebendigste Instrumentirung,
+         <lb facs="#facs_2_region_1776574239602_24_tl_16" n="N015"/>durch einen Orchesterklang, wie er nicht aus der Hand des
+         <lb facs="#facs_2_region_1776574239602_24_tl_17" n="N016"/>Effecthaschers, sondern des echten Musikers hervorgeht, der
+         <lb facs="#facs_2_region_1776574239602_24_tl_18" n="N017"/>mit einem Tropfen <rs type="person">Mozart</rs>’schen Oels gesalbt ist. Auch im
+         <lb facs="#facs_2_region_1776574239602_24_tl_19" n="N018"/>„<rs type="bibl">Simplicius</rs>“ ist jede Note <rs type="person">Strauß</rs>isch; manche erinnert —
+         <lb facs="#facs_2_region_1776574239602_24_tl_20" n="N019"/>wie dies nach vierzigjährigem ununterbrochenen Schaffen nicht
+         <lb facs="#facs_2_region_1776574239602_24_tl_21" n="N020"/>anders denkbar ist — an den früheren <rs type="person">Strauß</rs>, aber gewiß
+         <lb facs="#facs_2_region_1776574239602_24_tl_22" n="N021"/>an keinen Andern. Der <rs type="person">Simplicius</rs> des <rs type="bibl">Roman</rs>s bekennt
+         <lb facs="#facs_2_region_1776574239602_24_tl_23" n="N022"/>einmal treuherzig: „Wollte ich etwas Besseres fressen, so
+         <lb facs="#facs_2_region_1776574239602_24_tl_25" n="N023"/>mochte ich stehlen, aber mit ausdrücklicher Bescheidenheit, daß
+         <lb facs="#facs_2_region_1776574239602_24_tl_27" n="N024"/>man nichts davon inne würde.“ Von diesem Auskunftsmittel
+         <lb facs="#facs_2_region_1776574239602_24_tl_28" n="N025"/>hat der <rs type="person">Strauß</rs>’sche <rs type="bibl">Simplicius</rs> auch mit ausdrücklicher Be
+         <lb facs="#facs_2_region_1776574239602_24_tl_29" n="N026" break="no"/>scheidenheit nie und nirgends Gebrauch gemacht.
+            </p><p>
+         <lb facs="#facs_2_region_1776574239602_24_tl_30" n="N027"/>Von dem glänzenden Erfolg des „<rs type="bibl">Simplicius</rs>“, sowie
+         <lb facs="#facs_2_region_1776574239602_24_tl_31" n="N028"/>von der prächtigen Scenirung und überwiegend gelungenen
+         <lb facs="#facs_2_region_1776574239602_24_tl_32" n="N029"/>Aufführung der Novität sind unsere Leser bereits unterrichtet.
+         <lb facs="#facs_2_region_1776574239602_24_tl_33" n="N030"/>Wir haben aber heute noch immer von Johann <rs type="person">Strauß</rs><space quantity="1" unit="char"/> 
+         <lb facs="#facs_2_region_1776574239602_24_tl_34" n="N031"/>zu sprechen. Nicht von dem Componisten des <rs type="bibl">Simplicius</rs>,
+         <lb facs="#facs_2_region_1776574239602_24_tl_35" n="N032"/>sondern von dem Herausgeber der <hi rendition="#em"><rs type="bibl">Sämmtlichen Wal
+         <lb facs="#facs_2_region_1776574239602_24_tl_36" n="N033" break="no"/>zer</rs> seines <rs type="person">Vater</rs>s</hi>. Durch diese splendid ausgestattete
+         <lb facs="#facs_2_region_1776574239602_24_tl_37" n="N034"/><rs type="bibl">Gesammt-Ausgabe</rs>, welche in fünf Bänden bei Breitkopf und
+         <lb facs="#facs_2_region_1776574239602_24_tl_38" n="N035"/>Härtel erscheint, mit einem Vorwort von <rs type="person">Strauß</rs> Sohn,
+         <lb facs="#facs_2_region_1776574239602_24_tl_39" n="N036"/>erwerben sich der Herausgeber wie der Verleger ein unbe
+         <lb facs="#facs_2_region_1776574239602_24_tl_40" n="N037" break="no"/>streitbares Verdienst. Ob es nicht praktischer gewesen wäre,
+         <lb facs="#facs_2_region_1776574239602_24_tl_41" n="N038"/>eine sehr reiche Auswahl der <rs type="person">Strauß</rs>’schen Walzer etwa in
+         <lb facs="#facs_2_region_1776574239602_24_tl_42" n="N039"/>drei Bänden zu bringen, möge unerörtert bleiben. Wir haben
+         <lb facs="#facs_2_region_1776574239602_24_tl_43" n="N040"/>nun einmal die <rs type="bibl">Gesammt-Ausgabe</rs>, sind dankbar dafür und
+         <lb facs="#facs_2_region_1776574239602_24_tl_44" n="N041"/>erwarten, daß den beiden ebenbürtigen Fürsten im Walzerreich,
+         <lb facs="#facs_2_region_1776574239602_24_tl_45" n="N042"/><hi rendition="#em"><rs type="person">Lanner</rs></hi> und <hi rendition="#em"><rs type="person">Strauß</rs> Sohn</hi>, ein ähnliches Denkmal<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1776574239602_24_tl_1" n="N001"/>sehen in seiner nächsten Operette, auf die sich mit uns halb
-               <lb facs="#facs_2_region_1776574239602_24_tl_2" n="N002"/>
-               <rs type="place">Europa</rs> freut. Nicht gerade das Komische im engeren
-               <lb facs="#facs_2_region_1776574239602_24_tl_3" n="N003"/>Sinne, ebensowenig wie das Parodistische und Bur¬
-               <lb facs="#facs_2_region_1776574239602_24_tl_5" n="N004"/>leske bildet die Specialität dieses im Leben so
-               <lb facs="#facs_2_region_1776574239602_24_tl_6" n="N005"/>merkwürdig ernsthaften Mannes. Aber den Grundzug
-               <lb facs="#facs_2_region_1776574239602_24_tl_7" n="N006"/>des Heiteren, Lebensfrohen sollte jedes Sujet tragen, das für
-               <lb facs="#facs_2_region_1776574239602_24_tl_8" n="N007"/>Johann <rs type="person">Strauß</rs> gedichtet wird. Dies ist die Sphäre, die er
-               <lb facs="#facs_2_region_1776574239602_24_tl_9" n="N008"/>in ihrer ganzen Ausdehnung von anmuthiger Laune bis zur
-               <lb facs="#facs_2_region_1776574239602_24_tl_10" n="N009"/>entfesselten Lustigkeit mit seinem Zauberstabe beherrscht, wie
-               <lb facs="#facs_2_region_1776574239602_24_tl_11" n="N010"/>kein Zweiter. Einen heutzutage gar seltenen Vorzug theilt
-               <lb facs="#facs_2_region_1776574239602_24_tl_12" n="N011"/>übrigens „<rs type="bibl">Simplicius</rs>“, mit allen früheren Werken von
-               <lb facs="#facs_2_region_1776574239602_24_tl_13" n="N012"/>
-               <rs type="person">Strauß</rs>: die Musik ist durchaus ungezwungen, unaffectirt, im
-               <lb facs="#facs_2_region_1776574239602_24_tl_14" n="N013"/>besten Sinne naiv. Sie interessirt, auch wo sie nicht ganz
-               <lb facs="#facs_2_region_1776574239602_24_tl_15" n="N014"/>neu klingt, durch die zierlichste, lebendigste Instrumentirung,
-               <lb facs="#facs_2_region_1776574239602_24_tl_16" n="N015"/>durch einen Orchesterklang, wie er nicht aus der Hand des
-               <lb facs="#facs_2_region_1776574239602_24_tl_17" n="N016"/>Effecthaschers, sondern des echten Musikers hervorgeht, der
-               <lb facs="#facs_2_region_1776574239602_24_tl_18" n="N017"/>mit einem Tropfen <rs type="person">Mozart</rs>’schen Oels gesalbt ist. Auch im
-               <lb facs="#facs_2_region_1776574239602_24_tl_19" n="N018"/>„<rs type="bibl">Simplicius</rs>“ ist jede Note <rs type="person">Strauß</rs>isch; manche erinnert —
-               <lb facs="#facs_2_region_1776574239602_24_tl_20" n="N019"/>wie dies nach vierzigjährigem ununterbrochenen Schaffen nicht
-               <lb facs="#facs_2_region_1776574239602_24_tl_21" n="N020"/>anders denkbar ist — an den früheren <rs type="person">Strauß</rs>, aber gewiß
-               <lb facs="#facs_2_region_1776574239602_24_tl_22" n="N021"/>an keinen Andern. Der <rs type="person">Simplicius</rs> des <rs type="bibl">Roman</rs>s bekennt
-               <lb facs="#facs_2_region_1776574239602_24_tl_23" n="N022"/>einmal treuherzig: „Wollte ich etwas Besseres fressen, so
-               <lb facs="#facs_2_region_1776574239602_24_tl_25" n="N023"/>mochte ich stehlen, aber mit ausdrücklicher Bescheidenheit, daß
-               <lb facs="#facs_2_region_1776574239602_24_tl_27" n="N024"/>man nichts davon inne würde.“ Von diesem Auskunftsmittel
-               <lb facs="#facs_2_region_1776574239602_24_tl_28" n="N025"/>hat der <rs type="person">Strauß</rs>’sche <rs type="bibl">Simplicius</rs> auch mit ausdrücklicher Be¬
-               <lb facs="#facs_2_region_1776574239602_24_tl_29" n="N026"/>scheidenheit nie und nirgends Gebrauch gemacht.
-               <lb facs="#facs_2_region_1776574239602_24_tl_30" n="N027"/>Von dem glänzenden Erfolg des „<rs type="bibl">Simplicius</rs>“, sowie
-               <lb facs="#facs_2_region_1776574239602_24_tl_31" n="N028"/>von der prächtigen Scenirung und überwiegend gelungenen
-               <lb facs="#facs_2_region_1776574239602_24_tl_32" n="N029"/>Aufführung der Novität sind unsere Leser bereits unterrichtet.
-               <lb facs="#facs_2_region_1776574239602_24_tl_33" n="N030"/>Wir haben aber heute noch immer von Johann <rs type="person">Strauß</rs>
-               <lb facs="#facs_2_region_1776574239602_24_tl_34" n="N031"/>zu sprechen. Nicht von dem Componisten des <rs type="bibl">Simplicius</rs>,
-               <lb facs="#facs_2_region_1776574239602_24_tl_35" n="N032"/>sondern von dem Herausgeber der <hi rendition="#em">
-                  <rs type="bibl">Sämmtlichen Wal¬</rs>
-               </hi>
-               <lb facs="#facs_2_region_1776574239602_24_tl_36" n="N033"/>
-               <hi rendition="#em">
-                  <rs type="bibl">zer</rs> seines <rs type="person">Vater</rs>s</hi>. Durch diese splendid ausgestattete
-               <lb facs="#facs_2_region_1776574239602_24_tl_37" n="N034"/>
-               <rs type="bibl">Gesammt-Ausgabe</rs>, welche in fünf Bänden bei Breitkopf und
-               <lb facs="#facs_2_region_1776574239602_24_tl_38" n="N035"/>Härtel erscheint, mit einem Vorwort von <rs type="person">Strauß</rs> Sohn,
-               <lb facs="#facs_2_region_1776574239602_24_tl_39" n="N036"/>erwerben sich der Herausgeber wie der Verleger ein unbe¬
-               <lb facs="#facs_2_region_1776574239602_24_tl_40" n="N037"/>streitbares Verdienst. Ob es nicht praktischer gewesen wäre,
-               <lb facs="#facs_2_region_1776574239602_24_tl_41" n="N038"/>eine sehr reiche Auswahl der <rs type="person">Strauß</rs>’schen Walzer etwa in
-               <lb facs="#facs_2_region_1776574239602_24_tl_42" n="N039"/>drei Bänden zu bringen, möge unerörtert bleiben. Wir haben
-               <lb facs="#facs_2_region_1776574239602_24_tl_43" n="N040"/>nun einmal die <rs type="bibl">Gesammt-Ausgabe</rs>, sind dankbar dafür und
-               <lb facs="#facs_2_region_1776574239602_24_tl_44" n="N041"/>erwarten, daß den beiden ebenbürtigen Fürsten im Walzerreich,
-               <lb facs="#facs_2_region_1776574239602_24_tl_45" n="N042"/>
-               <hi rendition="#em">
-                  <rs type="person">Lanner</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Strauß</rs> Sohn</hi>, ein ähnliches Denkmal
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776574245203_27_tl_1" n="N001"/>nicht vorenthalten bleibe. Hoffen wir auch, daß die neue <rs type="bibl">Ge
+         <lb facs="#facs_2_region_1776574245203_27_tl_2" n="N002" break="no"/>sammt-Ausgabe</rs>, welche uns durch so reizende, längstverschollene
+         <lb facs="#facs_2_region_1776574245203_27_tl_3" n="N003"/>Tanzstücke überrascht, beitragen werde zu deren Wiederbelebung
+         <lb facs="#facs_2_region_1776574245203_27_tl_4" n="N004"/>— im Orchester meinen wir, nicht blos in dem schwachen
+         <lb facs="#facs_2_region_1776574245203_27_tl_5" n="N005"/>Schattenbilde des Clavier-Arrangements. <hi rendition="#em">Ihr</hi> gelingt es
+         <lb facs="#facs_2_region_1776574245203_27_tl_6" n="N006"/>vielleicht, die Realisirung eines von uns oft und nachdrück
+         <lb facs="#facs_2_region_1776574245203_27_tl_7" n="N007" break="no"/>lich ausgesprochenen Wunsches herbeizuführen: des Wunsches
+         <lb facs="#facs_2_region_1776574245203_27_tl_8" n="N008"/>nach öffentlicher Wiederaufnahme dieser älteren Tanz-Com
+         <lb facs="#facs_2_region_1776574245203_27_tl_9" n="N009" break="no"/>positionen. Man kann in jedem größeren Badeorte <rs type="place">Oester
+         <lb facs="#facs_2_region_1776574245203_27_tl_10" n="N010" break="no"/>reich</rs>s, ja <rs type="place">Deutschland</rs>s in Einem Sommer mehr <rs type="person">Strauß</rs><space quantity="1" unit="char"/> 
+         <lb facs="#facs_2_region_1776574245203_27_tl_11" n="N011"/>und <rs type="person">Lanner</rs> hören, als in <rs type="place">Wien</rs> binnen zwanzig Jahren.
+         <lb facs="#facs_2_region_1776574245203_27_tl_12" n="N012"/>Wer etwa nach <rs type="place">Wien</rs> kommt, um an der Quelle die Melo
+         <lb facs="#facs_2_region_1776574245203_27_tl_13" n="N013" break="no"/>dien jener Wundermänner zu schlürfen, der sieht sich grausam
+         <lb facs="#facs_2_region_1776574245203_27_tl_14" n="N014"/>enttäuscht. Er muß im Gegentheil von <rs type="place">Wien</rs> fortreisen, wo
+         <lb facs="#facs_2_region_1776574245203_27_tl_15" n="N015"/>immer hin. Einmal im Jahre veranstaltet oder veranstaltete
+         <lb facs="#facs_2_region_1776574245203_27_tl_16" n="N016"/>Herr Eduard <rs type="person">Strauß</rs> einen „<rs type="person">Strauß</rs>- und <rs type="person">Lanner</rs>-Abend“,
+         <lb facs="#facs_2_region_1776574245203_27_tl_17" n="N017"/>zu welchem ganz <rs type="place">Wien</rs> sich mit Lebensgefahr drängt. Aber
+         <lb facs="#facs_2_region_1776574245203_27_tl_18" n="N018"/>die laute Stimme der Bevölkerung wird nicht weiter be
+         <lb facs="#facs_2_region_1776574245203_27_tl_19" n="N019" break="no"/>achtet. Es bleibt bei dem Einen Abend, an welchem der
+         <lb facs="#facs_2_region_1776574245203_27_tl_20" n="N020"/>Unternehmer sich mit der unbequemen Pflicht der Pietät ab
+         <lb facs="#facs_2_region_1776574245203_27_tl_21" n="N021" break="no"/>findet, ungefähr wie es am Allerseelentage üblich ist. Sollten
+         <lb facs="#facs_2_region_1776574245203_27_tl_22" n="N022"/>nicht in <hi rendition="#em">jedem</hi> Programme eines <rs type="place">Wien</rs>er Promenade-Con
+         <lb facs="#facs_2_region_1776574245203_27_tl_23" n="N023" break="no"/>certs Vater <rs type="person">Strauß</rs> und <rs type="person">Lanner</rs> je eine Nummer erhalten?
+         <lb facs="#facs_2_region_1776574245203_27_tl_24" n="N024"/>Dasselbe gilt von <hi rendition="#em"><rs type="person">Strauß</rs> Sohn</hi>, dessen köstliche Walzer
+         <lb facs="#facs_2_region_1776574245203_27_tl_25" n="N025"/>aus seiner Jugendzeit seit dreißig Jahren bei uns so gründ
+         <lb facs="#facs_2_region_1776574245203_27_tl_26" n="N026" break="no"/>lich verschollen sind, als stammten sie aus der Epoche <rs type="person">Karl</rs>’s
+         <lb facs="#facs_2_region_1776574245203_27_tl_27" n="N027"/>des Großen, Warum sollen sie mit dem Jahre ihres Ent
+         <lb facs="#facs_2_region_1776574245203_27_tl_28" n="N028" break="no"/>stehens vergehen? Es gibt Ephemeres und gibt Classisches in
+         <lb facs="#facs_2_region_1776574245203_27_tl_29" n="N029"/>jeder Gattung. Die Walzer von <rs type="person">Lanner</rs> und den beiden
+         <lb facs="#facs_2_region_1776574245203_27_tl_30" n="N030"/>Johann <rs type="person">Strauß</rs> sind in ihrer Art classisch; sie haben An
+         <lb facs="#facs_2_region_1776574245203_27_tl_31" n="N031" break="no"/>spruch auf eine bleibende Stelle in unseren Garten-Orchestern,
+         <lb facs="#facs_2_region_1776574245203_27_tl_32" n="N032"/>gerade so wie die Symphonien von <rs type="person">Haydn</rs> und <rs type="person">Mozart</rs> in
+         <lb facs="#facs_2_region_1776574245203_27_tl_33" n="N033"/>den Philharmonie-Concerten. Die langen, kunterbunten Pro
+         <lb facs="#facs_2_region_1776574245203_27_tl_34" n="N034" break="no"/>gramme der Militärmusiken und der E. <rs type="person">Strauß</rs>’schen Capelle
+         <lb facs="#facs_2_region_1776574245203_27_tl_35" n="N035"/>im Cursaale, im Musikverein, in den Gärten legen das
+         <lb facs="#facs_2_region_1776574245203_27_tl_36" n="N036"/>größte Gewicht auf dasjenige, was vorgestern componirt
+         <lb facs="#facs_2_region_1776574245203_27_tl_37" n="N037"/>worden ist. Die neuesten Componisten können aber neben
+         <lb facs="#facs_2_region_1776574245203_27_tl_38" n="N038"/>jenen älteren nicht nur gedeihen, sie sind gerade durch ihre
+         <lb facs="#facs_2_region_1776574245203_27_tl_39" n="N039"/>Neuheit noch immer im natürlichen Vortheil.
+            </p><p>
+         <lb facs="#facs_2_region_1776574245203_27_tl_40" n="N040"/>Der Leser erinnert sich vielleicht eines merkwürdigen
+         <lb facs="#facs_2_region_1776574245203_27_tl_41" n="N041"/>Festconcerts, das während der <rs type="place">Wien</rs>er Weltausstellung von
+         <lb facs="#facs_2_region_1776574245203_27_tl_42" n="N042"/>der <rs type="place">chinesisch</rs>en Commission veranstaltet worden ist. Eigentlich<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1776574245203_27_tl_1" n="N001"/>nicht vorenthalten bleibe. Hoffen wir auch, daß die neue <rs type="bibl">Ge¬</rs>
-               <lb facs="#facs_2_region_1776574245203_27_tl_2" n="N002"/>
-               <rs type="bibl">sammt-Ausgabe</rs>, welche uns durch so reizende, längstverschollene
-               <lb facs="#facs_2_region_1776574245203_27_tl_3" n="N003"/>Tanzstücke überrascht, beitragen werde zu deren Wiederbelebung
-               <lb facs="#facs_2_region_1776574245203_27_tl_4" n="N004"/>— im Orchester meinen wir, nicht blos in dem schwachen
-               <lb facs="#facs_2_region_1776574245203_27_tl_5" n="N005"/>Schattenbilde des Clavier-Arrangements. <hi rendition="#em">Ihr</hi> gelingt es
-               <lb facs="#facs_2_region_1776574245203_27_tl_6" n="N006"/>vielleicht, die Realisirung eines von uns oft und nachdrück¬
-               <lb facs="#facs_2_region_1776574245203_27_tl_7" n="N007"/>lich ausgesprochenen Wunsches herbeizuführen: des Wunsches
-               <lb facs="#facs_2_region_1776574245203_27_tl_8" n="N008"/>nach öffentlicher Wiederaufnahme dieser älteren Tanz-Com¬
-               <lb facs="#facs_2_region_1776574245203_27_tl_9" n="N009"/>positionen. Man kann in jedem größeren Badeorte <rs type="place" continued="true">Oester¬</rs>
-               <lb facs="#facs_2_region_1776574245203_27_tl_10" n="N010"/>
-               <rs type="place" continued="true">reich</rs>s, ja <rs type="place">Deutschland</rs>s in Einem Sommer mehr <rs type="person">Strauß</rs>
-               <lb facs="#facs_2_region_1776574245203_27_tl_11" n="N011"/>und <rs type="person">Lanner</rs> hören, als in <rs type="place">Wien</rs> binnen zwanzig Jahren.
-               <lb facs="#facs_2_region_1776574245203_27_tl_12" n="N012"/>Wer etwa nach <rs type="place">Wien</rs> kommt, um an der Quelle die Melo¬
-               <lb facs="#facs_2_region_1776574245203_27_tl_13" n="N013"/>dien jener Wundermänner zu schlürfen, der sieht sich grausam
-               <lb facs="#facs_2_region_1776574245203_27_tl_14" n="N014"/>enttäuscht. Er muß im Gegentheil von <rs type="place">Wien</rs> fortreisen, wo
-               <lb facs="#facs_2_region_1776574245203_27_tl_15" n="N015"/>immer hin. Einmal im Jahre veranstaltet oder veranstaltete
-               <lb facs="#facs_2_region_1776574245203_27_tl_16" n="N016"/>Herr Eduard <rs type="person">Strauß</rs> einen „<rs type="person">Strauß</rs>- und <rs type="person">Lanner</rs>-Abend“,
-               <lb facs="#facs_2_region_1776574245203_27_tl_17" n="N017"/>zu welchem ganz <rs type="place">Wien</rs> sich mit Lebensgefahr drängt. Aber
-               <lb facs="#facs_2_region_1776574245203_27_tl_18" n="N018"/>die laute Stimme der Bevölkerung wird nicht weiter be¬
-               <lb facs="#facs_2_region_1776574245203_27_tl_19" n="N019"/>achtet. Es bleibt bei dem Einen Abend, an welchem der
-               <lb facs="#facs_2_region_1776574245203_27_tl_20" n="N020"/>Unternehmer sich mit der unbequemen Pflicht der Pietät ab¬
-               <lb facs="#facs_2_region_1776574245203_27_tl_21" n="N021"/>findet, ungefähr wie es am Allerseelentage üblich ist. Sollten
-               <lb facs="#facs_2_region_1776574245203_27_tl_22" n="N022"/>nicht in <hi rendition="#em">jedem</hi> Programme eines <rs type="place">Wien</rs>er Promenade-Con¬
-               <lb facs="#facs_2_region_1776574245203_27_tl_23" n="N023"/>certs Vater <rs type="person">Strauß</rs> und <rs type="person">Lanner</rs> je eine Nummer erhalten?
-               <lb facs="#facs_2_region_1776574245203_27_tl_24" n="N024"/>Dasselbe gilt von <hi rendition="#em">
-                  <rs type="person">Strauß</rs> Sohn</hi>, dessen köstliche Walzer
-               <lb facs="#facs_2_region_1776574245203_27_tl_25" n="N025"/>aus seiner Jugendzeit seit dreißig Jahren bei uns so gründ¬
-               <lb facs="#facs_2_region_1776574245203_27_tl_26" n="N026"/>lich verschollen sind, als stammten sie aus der Epoche <rs type="person">Karl</rs>’s
-               <lb facs="#facs_2_region_1776574245203_27_tl_27" n="N027"/>des Großen, Warum sollen sie mit dem Jahre ihres Ent¬
-               <lb facs="#facs_2_region_1776574245203_27_tl_28" n="N028"/>stehens vergehen? Es gibt Ephemeres und gibt Classisches in
-               <lb facs="#facs_2_region_1776574245203_27_tl_29" n="N029"/>jeder Gattung. Die Walzer von <rs type="person">Lanner</rs> und den beiden
-               <lb facs="#facs_2_region_1776574245203_27_tl_30" n="N030"/>Johann <rs type="person">Strauß</rs> sind in ihrer Art classisch; sie haben An¬
-               <lb facs="#facs_2_region_1776574245203_27_tl_31" n="N031"/>spruch auf eine bleibende Stelle in unseren Garten-Orchestern,
-               <lb facs="#facs_2_region_1776574245203_27_tl_32" n="N032"/>gerade so wie die Symphonien von <rs type="person">Haydn</rs> und <rs type="person">Mozart</rs> in
-               <lb facs="#facs_2_region_1776574245203_27_tl_33" n="N033"/>den Philharmonie-Concerten. Die langen, kunterbunten Pro¬
-               <lb facs="#facs_2_region_1776574245203_27_tl_34" n="N034"/>gramme der Militärmusiken und der E. <rs type="person">Strauß</rs>’schen Capelle
-               <lb facs="#facs_2_region_1776574245203_27_tl_35" n="N035"/>im Cursaale, im Musikverein, in den Gärten legen das
-               <lb facs="#facs_2_region_1776574245203_27_tl_36" n="N036"/>größte Gewicht auf dasjenige, was vorgestern componirt
-               <lb facs="#facs_2_region_1776574245203_27_tl_37" n="N037"/>worden ist. Die neuesten Componisten können aber neben
-               <lb facs="#facs_2_region_1776574245203_27_tl_38" n="N038"/>jenen älteren nicht nur gedeihen, sie sind gerade durch ihre
-               <lb facs="#facs_2_region_1776574245203_27_tl_39" n="N039"/>Neuheit noch immer im natürlichen Vortheil.
-               <lb facs="#facs_2_region_1776574245203_27_tl_40" n="N040"/>Der Leser erinnert sich vielleicht eines merkwürdigen
-               <lb facs="#facs_2_region_1776574245203_27_tl_41" n="N041"/>Festconcerts, das während der <rs type="place">Wien</rs>er Weltausstellung von
-               <lb facs="#facs_2_region_1776574245203_27_tl_42" n="N042"/>der <rs type="place">chinesisch</rs>en Commission veranstaltet worden ist. Eigentlich
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1776574249618_30_tl_1" n="N001"/>gaben die <rs type="place">chinesisch</rs>en Herren nur das Geld zu dem Con¬
-               <lb facs="#facs_2_region_1776574249618_30_tl_2" n="N002"/>certe; arrangirt hatte es in fabelhafter Schnelligkeit Johann
-               <lb facs="#facs_2_region_1776574249618_30_tl_3" n="N003"/>
-               <rs type="person">Herbeck</rs>. Es galt an diesem Abend aufzutischen, was gut und
-               <lb facs="#facs_2_region_1776574249618_30_tl_4" n="N004"/>theuer ist; außerdem mußte das Ganze einen eminent <rs type="place" continued="true">öster¬</rs>
-               <lb facs="#facs_2_region_1776574249618_30_tl_5" n="N005"/>
-               <rs type="place" continued="true">reichisch</rs>en Charakter tragen. Da glänzten neben <rs type="person">Haydn</rs>,
-               <lb facs="#facs_2_region_1776574249618_30_tl_6" n="N006"/>
-               <rs type="person">Mozart</rs>, <rs type="person">Beethoven</rs> und <rs type="person">Schubert</rs> auch die Namen —
-               <lb facs="#facs_2_region_1776574249618_30_tl_7" n="N007"/>
-               <hi rendition="#em">
-                  <rs type="person">Lanner</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Strauß</rs>
-               </hi>. Lange wollte die peinlich unge¬
-               <lb facs="#facs_2_region_1776574249618_30_tl_8" n="N008"/>wohnte Stunde (10 Uhr Abends) keine rechte Concertandacht
-               <lb facs="#facs_2_region_1776574249618_30_tl_9" n="N009"/>aufkommen lassen; erst bei den Klängen von <rs type="person">Lanner</rs> und den
-               <lb facs="#facs_2_region_1776574249618_30_tl_10" n="N010"/>beiden <rs type="person">Strauß</rs> bewegten sich die etwas schlaftrunken gesenkten
-               <lb facs="#facs_2_region_1776574249618_30_tl_11" n="N011"/>Häupter, und tausend Kehlen riefen jubelnden Beifall. That¬
-               <lb facs="#facs_2_region_1776574249618_30_tl_12" n="N012"/>sächlich haben die Chinesen ein Concert geben müssen, damit
-               <lb facs="#facs_2_region_1776574249618_30_tl_13" n="N013"/>wir in <rs type="place">Wien</rs> wieder einmal etwas von <rs type="person">Lanner</rs> und Alt-
-               <lb facs="#facs_2_region_1776574249618_30_tl_14" n="N014"/>
-               <rs type="person">Strauß</rs> zu hören bekamen. Es war das allererstemal, daß
-               <lb facs="#facs_2_region_1776574249618_30_tl_15" n="N015"/>dies in einem vornehmen Concert geschah, und zwar vom
-               <lb facs="#facs_2_region_1776574249618_30_tl_16" n="N016"/>Hofopern-Orchester. Wahrscheinlich wäre es zugleich das letzte¬
-               <lb facs="#facs_2_region_1776574249618_30_tl_17" n="N017"/>mal gewesen, hätte nicht zwölf Jahre später das Ballet
-               <lb facs="#facs_2_region_1776574249618_30_tl_18" n="N018"/>„<hi rendition="#em">
-                  <rs type="bibl">Wiener Walzer</rs>
-               </hi>“ seinen siegreichen Einzug ins Hof¬
-               <lb facs="#facs_2_region_1776574249618_30_tl_20" n="N019"/>operntheater gehalten. Woher der ungeheure Erfolg dieses
-               <lb facs="#facs_2_region_1776574249618_30_tl_21" n="N020"/>kleinen, anspruchslosen, jeder dramatischen Handlung ent¬
-               <lb facs="#facs_2_region_1776574249618_30_tl_22" n="N021"/>behrenden Genrebildes? Gewiß liegt dem Libretto ein sehr
-               <lb facs="#facs_2_region_1776574249618_30_tl_23" n="N022"/>glücklicher Einfall zu Grunde; aber man lasse es von einem
-               <lb facs="#facs_2_region_1776574249618_30_tl_24" n="N023"/>unserer neuesten officiellen Balletcomponisten in Musik setzen
-               <lb facs="#facs_2_region_1776574249618_30_tl_25" n="N024"/>und sehe dann zu, wie weit man damit kommt. Der unver¬
-               <lb facs="#facs_2_region_1776574249618_30_tl_26" n="N025"/>wüstliche Zauber dieses Ballets ruht in den unterlegten alten
-               <lb facs="#facs_2_region_1776574249618_30_tl_27" n="N026"/>Tanzmelodien. Nie zuvor sind anspruchslose <hi rendition="#em">Zwischenact¬</hi>
-               <lb facs="#facs_2_region_1776574249618_30_tl_28" n="N027"/>
-               <hi rendition="#em">musiken</hi> mit solcher Andacht gehört, mit solchem Entzücken
-               <lb facs="#facs_2_region_1776574249618_30_tl_29" n="N028"/>bejubelt worden, wie dies in den ersten Vorstellungen der
-               <lb facs="#facs_2_region_1776574249618_30_tl_30" n="N029"/>„<rs type="bibl">Wiener Walzer</rs>“ geschah und wol noch geschieht. Hier fand
-               <lb facs="#facs_2_region_1776574249618_30_tl_31" n="N030"/>das Publicum des Operntheaters eben die einzige Gelegen¬
-               <lb facs="#facs_2_region_1776574249618_30_tl_32" n="N031"/>heit, Walzer von <rs type="person">Lanner</rs> und Alt-<rs type="person">Strauß</rs> zu hören, ja sogar
-               <lb facs="#facs_2_region_1776574249618_30_tl_33" n="N032"/>manche der früheren, so hinreißenden Tänze von <rs type="person">Strauß</rs>
-               <lb facs="#facs_2_region_1776574249618_30_tl_34" n="N033"/>Sohn. Ohne an so wilkommener Gabe undankbar mäkeln
-               <lb facs="#facs_2_region_1776574249618_30_tl_35" n="N034"/>zu wollen, darf man doch aussprechen, daß dieser Stoff sich
-               <lb facs="#facs_2_region_1776574249618_30_tl_36" n="N035"/>noch weit ergiebiger hätte verwerthen lassen und die meist zu
-               <lb facs="#facs_2_region_1776574249618_30_tl_37" n="N036"/>rasch abgebrochenen Walzerthemen eine breitere Ausführlichkeit
-               <lb facs="#facs_2_region_1776574249618_30_tl_38" n="N037"/>und bedeutende Vermehrung wol vertragen würden. Der
-               <lb facs="#facs_2_region_1776574249618_30_tl_39" n="N038"/>Triumph der „<rs type="bibl">Wiener Walzer</rs>“ dünkt uns ein bedeutungs¬
-               <lb facs="#facs_2_region_1776574249618_30_tl_40" n="N039"/>voller Wink. Vielleicht läßt sich ein zweiter Theil dazu er¬
-               <lb facs="#facs_2_region_1776574249618_30_tl_41" n="N040"/>finden. Die Quellen des Erfolges — <rs type="person">Lanner</rs> und die beiden
-               <lb facs="#facs_2_region_1776574249618_30_tl_42" n="N041"/>
-               <rs type="person">Strauß</rs> — sind unerschöpflich.
+            <p prev="true">
+         <lb facs="#facs_2_region_1776574249618_30_tl_1" n="N001"/>gaben die <rs type="place">chinesisch</rs>en Herren nur das Geld zu dem Con
+         <lb facs="#facs_2_region_1776574249618_30_tl_2" n="N002" break="no"/>certe; arrangirt hatte es in fabelhafter Schnelligkeit Johann
+         <lb facs="#facs_2_region_1776574249618_30_tl_3" n="N003"/><rs type="person">Herbeck</rs>. Es galt an diesem Abend aufzutischen, was gut und
+         <lb facs="#facs_2_region_1776574249618_30_tl_4" n="N004"/>theuer ist; außerdem mußte das Ganze einen eminent <rs type="place">öster
+         <lb facs="#facs_2_region_1776574249618_30_tl_5" n="N005" break="no"/>reichisch</rs>en Charakter tragen. Da glänzten neben <rs type="person">Haydn</rs>,
+         <lb facs="#facs_2_region_1776574249618_30_tl_6" n="N006"/><rs type="person">Mozart</rs>, <rs type="person">Beethoven</rs> und <rs type="person">Schubert</rs> auch die Namen —
+         <lb facs="#facs_2_region_1776574249618_30_tl_7" n="N007"/><hi rendition="#em"><rs type="person">Lanner</rs></hi> und <hi rendition="#em"><rs type="person">Strauß</rs></hi>. Lange wollte die peinlich unge
+         <lb facs="#facs_2_region_1776574249618_30_tl_8" n="N008" break="no"/>wohnte Stunde (10 Uhr Abends) keine rechte Concertandacht
+         <lb facs="#facs_2_region_1776574249618_30_tl_9" n="N009"/>aufkommen lassen; erst bei den Klängen von <rs type="person">Lanner</rs> und den
+         <lb facs="#facs_2_region_1776574249618_30_tl_10" n="N010"/>beiden <rs type="person">Strauß</rs> bewegten sich die etwas schlaftrunken gesenkten
+         <lb facs="#facs_2_region_1776574249618_30_tl_11" n="N011"/>Häupter, und tausend Kehlen riefen jubelnden Beifall. That
+         <lb facs="#facs_2_region_1776574249618_30_tl_12" n="N012" break="no"/>sächlich haben die Chinesen ein Concert geben müssen, damit
+         <lb facs="#facs_2_region_1776574249618_30_tl_13" n="N013"/>wir in <rs type="place">Wien</rs> wieder einmal etwas von <rs type="person">Lanner</rs> und Alt-
+         <lb facs="#facs_2_region_1776574249618_30_tl_14" n="N014"/><rs type="person">Strauß</rs> zu hören bekamen. Es war das allererstemal, daß
+         <lb facs="#facs_2_region_1776574249618_30_tl_15" n="N015"/>dies in einem vornehmen Concert geschah, und zwar vom
+         <lb facs="#facs_2_region_1776574249618_30_tl_16" n="N016"/>Hofopern-Orchester. Wahrscheinlich wäre es zugleich das letzte
+         <lb facs="#facs_2_region_1776574249618_30_tl_17" n="N017" break="no"/>mal gewesen, hätte nicht zwölf Jahre später das Ballet
+         <lb facs="#facs_2_region_1776574249618_30_tl_18" n="N018"/>„<hi rendition="#em"><rs type="bibl">Wiener Walzer</rs></hi>“ seinen siegreichen Einzug ins Hof
+         <lb facs="#facs_2_region_1776574249618_30_tl_20" n="N019" break="no"/>operntheater gehalten. Woher der ungeheure Erfolg dieses
+         <lb facs="#facs_2_region_1776574249618_30_tl_21" n="N020"/>kleinen, anspruchslosen, jeder dramatischen Handlung ent
+         <lb facs="#facs_2_region_1776574249618_30_tl_22" n="N021" break="no"/>behrenden Genrebildes? Gewiß liegt dem Libretto ein sehr
+         <lb facs="#facs_2_region_1776574249618_30_tl_23" n="N022"/>glücklicher Einfall zu Grunde; aber man lasse es von einem
+         <lb facs="#facs_2_region_1776574249618_30_tl_24" n="N023"/>unserer neuesten officiellen Balletcomponisten in Musik setzen
+         <lb facs="#facs_2_region_1776574249618_30_tl_25" n="N024"/>und sehe dann zu, wie weit man damit kommt. Der unver
+         <lb facs="#facs_2_region_1776574249618_30_tl_26" n="N025" break="no"/>wüstliche Zauber dieses Ballets ruht in den unterlegten alten
+         <lb facs="#facs_2_region_1776574249618_30_tl_27" n="N026"/>Tanzmelodien. Nie zuvor sind anspruchslose <hi rendition="#em">Zwischenact
+         <lb facs="#facs_2_region_1776574249618_30_tl_28" n="N027" break="no"/>musiken</hi> mit solcher Andacht gehört, mit solchem Entzücken
+         <lb facs="#facs_2_region_1776574249618_30_tl_29" n="N028"/>bejubelt worden, wie dies in den ersten Vorstellungen der
+         <lb facs="#facs_2_region_1776574249618_30_tl_30" n="N029"/>„<rs type="bibl">Wiener Walzer</rs>“ geschah und wol noch geschieht. Hier fand
+         <lb facs="#facs_2_region_1776574249618_30_tl_31" n="N030"/>das Publicum des Operntheaters eben die einzige Gelegen
+         <lb facs="#facs_2_region_1776574249618_30_tl_32" n="N031" break="no"/>heit, Walzer von <rs type="person">Lanner</rs> und Alt-<rs type="person">Strauß</rs> zu hören, ja sogar
+         <lb facs="#facs_2_region_1776574249618_30_tl_33" n="N032"/>manche der früheren, so hinreißenden Tänze von <rs type="person">Strauß</rs><space quantity="1" unit="char"/> 
+         <lb facs="#facs_2_region_1776574249618_30_tl_34" n="N033"/>Sohn. Ohne an so wilkommener Gabe undankbar mäkeln
+         <lb facs="#facs_2_region_1776574249618_30_tl_35" n="N034"/>zu wollen, darf man doch aussprechen, daß dieser Stoff sich
+         <lb facs="#facs_2_region_1776574249618_30_tl_36" n="N035"/>noch weit ergiebiger hätte verwerthen lassen und die meist zu
+         <lb facs="#facs_2_region_1776574249618_30_tl_37" n="N036"/>rasch abgebrochenen Walzerthemen eine breitere Ausführlichkeit
+         <lb facs="#facs_2_region_1776574249618_30_tl_38" n="N037"/>und bedeutende Vermehrung wol vertragen würden. Der
+         <lb facs="#facs_2_region_1776574249618_30_tl_39" n="N038"/>Triumph der „<rs type="bibl">Wiener Walzer</rs>“ dünkt uns ein bedeutungs
+         <lb facs="#facs_2_region_1776574249618_30_tl_40" n="N039" break="no"/>voller Wink. Vielleicht läßt sich ein zweiter Theil dazu er
+         <lb facs="#facs_2_region_1776574249618_30_tl_41" n="N040" break="no"/>finden. Die Quellen des Erfolges — <rs type="person">Lanner</rs> und die beiden
+         <lb facs="#facs_2_region_1776574249618_30_tl_42" n="N041"/><rs type="person">Strauß</rs> — sind unerschöpflich.
             </p>
          </div>
       </body>

@@ -3,9 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title level="a">
-               Morgenblatt
-            </title>
+            <title level="a">Nr. 8237. Wien, Dienstag, den 2. August 1887</title>
             <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor>
                <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -33,12 +31,14 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
+               <name ref="https://orcid.org/0009-0007-9767-072X">Thell, Annika</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <publisher>Austrian Centre for Digital Humanities</publisher>
             <pubPlace>Wien</pubPlace>
-            <date when="2025">2025</date>
+            <date when="2026">2026</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">
                   <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium
@@ -71,28 +71,27 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title>
-               Morgenblatt
-            </title>
+                     <title>Nr. 8237. Wien, Dienstag, den 2. August 1887</title>
                      <author ref="#hsl_person_id_1">Hanslick, Eduard</author>
                   </analytic>
                   <monogr>
                      <title type="main">Neue Freie Presse</title>
-                     <title type="sub">
-               Neue Freie Presse
-            </title>
+                     <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1887-08-02">02.08.1887</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18870802"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -108,9 +107,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="athell" when="2026-07-09">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-09-22">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="athell" when="">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1374,519 +1375,430 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_1_region_1776575562671_694_tl_1" n="N001"/><head type="h1">Die <rs type="bibl">Memoiren</rs> von Ernest <rs type="person">Legouvé</rs>. II.</head>
             <p>
-               <lb facs="#facs_1_line_1783345401902_333" n="N001"/>Nr. 8237. Wien, Dienstag, den 2. August 1887
-            </p>
+         <lb facs="#facs_1_region_1776575562671_694_tl_2" n="N002"/><rs type="person">Ed. H.</rs><space quantity="1" unit="char"/><rs type="person">Legouvé</rs> ist vorzugsweise bekannt als Theater
+         <lb facs="#facs_1_region_1776575562671_694_tl_3" n="N003" break="no"/>dichter. Sein erstes Lustspiel „<rs type="bibl">Le soleil couchant</rs>“ fiel durch.
+         <lb facs="#facs_1_region_1776575562671_694_tl_4" n="N004"/>Gleichwol beruhte es auf einer glücklich ersonnenen Grund
+         <lb facs="#facs_1_region_1776575562671_694_tl_5" n="N005" break="no"/>idee: wie ein anvertrautes Geheimniß weiter und weiter,
+         <lb facs="#facs_1_region_1776575562671_694_tl_6" n="N006"/>jedesmal aus einem andern Beweggrund, verrathen wird;
+         <lb facs="#facs_1_region_1776575562671_694_tl_7" n="N007"/>einmal durch die Indiscretion der Jugend und Verliebtheit,
+         <lb facs="#facs_1_region_1776575562671_694_tl_8" n="N008"/>dann aus Eigennutz, endlich aus bloßer Geschwätzigkeit und
+         <lb facs="#facs_1_region_1776575562671_694_tl_9" n="N009"/>übler Laune. Also eine Art Physiologie der Indiscretion.
+         <lb facs="#facs_1_region_1776575562671_694_tl_10" n="N010"/><rs type="person">Legouvé</rs> hatte das Stück mit seinem Freunde Prosper <hi rendition="#em"><rs type="person">Gou
+         <lb facs="#facs_1_region_1776575562671_694_tl_11" n="N011" break="no"/>baux</rs></hi> verfaßt, auch seine späteren Theaterstücke größtentheils
+         <lb facs="#facs_1_region_1776575562671_694_tl_12" n="N012"/>mit einem Compagnon. Er nimmt diese, neuestens stark an
+         <lb facs="#facs_1_region_1776575562671_694_tl_13" n="N013" break="no"/>gefochtene Methode des Arbeitens lebhaft in Schutz. Ohne
+         <lb facs="#facs_1_region_1776575562671_694_tl_14" n="N014"/>Frage erweist sie sich vortheilhaft gerade für die Franzosen,
+         <lb facs="#facs_1_region_1776575562671_694_tl_15" n="N015"/>welche, Meister der Conversation, mitten in derselben auch
+         <lb facs="#facs_1_region_1776575562671_694_tl_16" n="N016"/>am productivsten werden. Man denke sich zwei gute Freunde,
+         <lb facs="#facs_1_region_1776575562671_694_tl_17" n="N017"/>aufgeweckte witzige Köpfe, über ein gegebenes Lustspielthema
+         <lb facs="#facs_1_region_1776575562671_694_tl_18" n="N018"/>debattiren. Wie gibt da eine lustige Idee die andere! Dem
+         <lb facs="#facs_1_region_1776575562671_694_tl_19" n="N019"/>Einen fällt eine neue Figur, dem Andern eine neue Situation
+         <lb facs="#facs_1_region_1776575562671_694_tl_20" n="N020"/>ein, welche dem ursprünglichen Plan noch mangelte; die
+         <lb facs="#facs_1_region_1776575562671_694_tl_21" n="N021"/>Funken sprühen nur so, wenn die Rappiere der beiden
+         <lb facs="#facs_1_region_1776575562671_694_tl_22" n="N022"/>Fechter auf einander treffen. Schließlich haben sie in ein paar
+         <lb facs="#facs_1_region_1776575562671_694_tl_23" n="N023"/>geistreich verplauderten Stunden etwas Besseres zusammen
+         <lb facs="#facs_1_region_1776575562671_694_tl_24" n="N024" break="no"/>gebracht, als Jeder von ihnen einsam und schweigend erdacht
+         <lb facs="#facs_1_region_1776575562671_694_tl_25" n="N025"/>haben würde. Dem so verschieden gearteten Temperament der
+         <lb facs="#facs_1_region_1776575562671_694_tl_26" n="N026"/>Deutschen wird die Compagnie-Arbeit selten zusagen; bei
+         <lb facs="#facs_1_region_1776575562671_694_tl_27" n="N027"/>uns entsteht die Flamme seltener aus der Reibung der Geister,
+         <lb facs="#facs_1_region_1776575562671_694_tl_28" n="N028"/>als aus dem ureigenen poetischen Feuerherd des Einzelnen.
+         <lb facs="#facs_1_region_1776575562671_694_tl_29" n="N029"/><rs type="person">Legouvé</rs> unterstützt sein Plaidoyer durch eine vielsagende
+         <lb facs="#facs_1_region_1776575562671_694_tl_30" n="N030"/>Thatsache! Man streiche im Geiste aus dem <rs type="place">französisch</rs>en
+         <lb facs="#facs_1_region_1776575562671_694_tl_31" n="N031"/>Repertoire der letzten sechzig Jahre die Mitarbeiterschaft, und
+         <lb facs="#facs_1_region_1776575562671_694_tl_32" n="N032"/>es verschwinden sofort die meisten Stücke von <hi rendition="#em"><rs type="person">Scribe</rs></hi>;
+         <lb facs="#facs_1_region_1776575562671_694_tl_33" n="N033"/>fast sämmtliche Comödien von <hi rendition="#em"><rs type="person">Bayard</rs></hi>, <hi rendition="#em"><rs type="person">Mellesville</rs></hi>, 
+         <lb facs="#facs_1_region_1776575562671_694_tl_34" n="N034"/><hi rendition="#em"><rs type="person">Dumanoir</rs></hi>, <hi rendition="#em"><rs type="person">Dennery</rs></hi>; das ganze Theater von <hi rendition="#em"><rs type="person">La
+         <lb facs="#facs_1_region_1776575562671_694_tl_35" n="N035" break="no"/>biche</rs></hi>, das ganze von <hi rendition="#em"><rs type="person">Gondinet</rs></hi>, das ganze von
+         <lb facs="#facs_1_region_1776575562671_694_tl_36" n="N036"/><hi rendition="#em"><rs type="person">Duvert</rs></hi> und <hi rendition="#em"><rs type="person">Lausanne</rs></hi>, das ganze von <hi rendition="#em"><rs type="person">Meilhac</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1776575562671_694_tl_37" n="N037"/>und <hi rendition="#em"><rs type="person">Halévy</rs></hi>. Es verschwinden drei Meisterwerke im <rs type="place">fran
+         <lb facs="#facs_1_region_1776575562671_694_tl_38" n="N038" break="no"/>zösisch</rs>en Lustspiel: <rs type="bibl">Mademoiselle de Seiglières</rs>, <rs type="bibl">Le gendre
+         <lb facs="#facs_1_region_1776575562671_694_tl_39" n="N039"/>de Mr. Poirier</rs>, <rs type="bibl">Mademoiselle de Belle-Isle</rs>, sowie die be
+         <lb facs="#facs_1_region_1776575562671_694_tl_40" n="N040" break="no"/>rühmten Sensationsstücke: <rs type="bibl">La tour de Nesle</rs> und <rs type="bibl">Richard
+         <lb facs="#facs_1_region_1776575562671_694_tl_41" n="N041"/>Darlington</rs>. Gewiß ist eine Kunstform nicht zu verachten,<space quantity="1" unit="char"/></p>
             <cb n="2"/>
-            <p>
-               <lb facs="#facs_1_region_1776575562671_694_tl_1" n="N001"/>Die <rs type="bibl">Memoiren</rs> von Ernest <rs type="person">Legouvé</rs>. II.
-               <lb facs="#facs_1_region_1776575562671_694_tl_2" n="N002"/>
-               <rs type="person">Ed. H.</rs>
-               <rs type="person">Legouvé</rs> ist vorzugsweise bekannt als Theater¬
-               <lb facs="#facs_1_region_1776575562671_694_tl_3" n="N003"/>dichter. Sein erstes Lustspiel „<rs type="bibl">Le soleil couchant</rs>“ fiel durch.
-               <lb facs="#facs_1_region_1776575562671_694_tl_4" n="N004"/>Gleichwol beruhte es auf einer glücklich ersonnenen Grund¬
-               <lb facs="#facs_1_region_1776575562671_694_tl_5" n="N005"/>idee: wie ein anvertrautes Geheimniß weiter und weiter,
-               <lb facs="#facs_1_region_1776575562671_694_tl_6" n="N006"/>jedesmal aus einem andern Beweggrund, verrathen wird;
-               <lb facs="#facs_1_region_1776575562671_694_tl_7" n="N007"/>einmal durch die Indiscretion der Jugend und Verliebtheit,
-               <lb facs="#facs_1_region_1776575562671_694_tl_8" n="N008"/>dann aus Eigennutz, endlich aus bloßer Geschwätzigkeit und
-               <lb facs="#facs_1_region_1776575562671_694_tl_9" n="N009"/>übler Laune. Also eine Art Physiologie der Indiscretion.
-               <lb facs="#facs_1_region_1776575562671_694_tl_10" n="N010"/>
-               <rs type="person">Legouvé</rs> hatte das Stück mit seinem Freunde Prosper <hi rendition="#em">
-                  <rs type="person" continued="true">Gou¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1776575562671_694_tl_11" n="N011"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">baux</rs>
-               </hi> verfaßt, auch seine späteren Theaterstücke größtentheils
-               <lb facs="#facs_1_region_1776575562671_694_tl_12" n="N012"/>mit einem Compagnon. Er nimmt diese, neuestens stark an¬
-               <lb facs="#facs_1_region_1776575562671_694_tl_13" n="N013"/>gefochtene Methode des Arbeitens lebhaft in Schutz. Ohne
-               <lb facs="#facs_1_region_1776575562671_694_tl_14" n="N014"/>Frage erweist sie sich vortheilhaft gerade für die Franzosen,
-               <lb facs="#facs_1_region_1776575562671_694_tl_15" n="N015"/>welche, Meister der Conversation, mitten in derselben auch
-               <lb facs="#facs_1_region_1776575562671_694_tl_16" n="N016"/>am productivsten werden. Man denke sich zwei gute Freunde,
-               <lb facs="#facs_1_region_1776575562671_694_tl_17" n="N017"/>aufgeweckte witzige Köpfe, über ein gegebenes Lustspielthema
-               <lb facs="#facs_1_region_1776575562671_694_tl_18" n="N018"/>debattiren. Wie gibt da eine lustige Idee die andere! Dem
-               <lb facs="#facs_1_region_1776575562671_694_tl_19" n="N019"/>Einen fällt eine neue Figur, dem Andern eine neue Situation
-               <lb facs="#facs_1_region_1776575562671_694_tl_20" n="N020"/>ein, welche dem ursprünglichen Plan noch mangelte; die
-               <lb facs="#facs_1_region_1776575562671_694_tl_21" n="N021"/>Funken sprühen nur so, wenn die Rappiere der beiden
-               <lb facs="#facs_1_region_1776575562671_694_tl_22" n="N022"/>Fechter auf einander treffen. Schließlich haben sie in ein paar
-               <lb facs="#facs_1_region_1776575562671_694_tl_23" n="N023"/>geistreich verplauderten Stunden etwas Besseres zusammen¬
-               <lb facs="#facs_1_region_1776575562671_694_tl_24" n="N024"/>gebracht, als Jeder von ihnen einsam und schweigend erdacht
-               <lb facs="#facs_1_region_1776575562671_694_tl_25" n="N025"/>haben würde. Dem so verschieden gearteten Temperament der
-               <lb facs="#facs_1_region_1776575562671_694_tl_26" n="N026"/>Deutschen wird die Compagnie-Arbeit selten zusagen; bei
-               <lb facs="#facs_1_region_1776575562671_694_tl_27" n="N027"/>uns entsteht die Flamme seltener aus der Reibung der Geister,
-               <lb facs="#facs_1_region_1776575562671_694_tl_28" n="N028"/>als aus dem ureigenen poetischen Feuerherd des Einzelnen.
-               <lb facs="#facs_1_region_1776575562671_694_tl_29" n="N029"/>
-               <rs type="person">Legouvé</rs> unterstützt sein Plaidoyer durch eine vielsagende
-               <lb facs="#facs_1_region_1776575562671_694_tl_30" n="N030"/>Thatsache! Man streiche im Geiste aus dem <rs type="place">französisch</rs>en
-               <lb facs="#facs_1_region_1776575562671_694_tl_31" n="N031"/>Repertoire der letzten sechzig Jahre die Mitarbeiterschaft, und
-               <lb facs="#facs_1_region_1776575562671_694_tl_32" n="N032"/>es verschwinden sofort die meisten Stücke von <hi rendition="#em">
-                  <rs type="person">Scribe</rs>
-               </hi>;
-               <lb facs="#facs_1_region_1776575562671_694_tl_33" n="N033"/>fast sämmtliche Comödien von <hi rendition="#em">
-                  <rs type="person">Bayard</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Mellesville</rs>
-               </hi>, 
-               <lb facs="#facs_1_region_1776575562671_694_tl_34" n="N034"/>
-               <hi rendition="#em">
-                  <rs type="person">Dumanoir</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Dennery</rs>
-               </hi>; das ganze Theater von <hi rendition="#em">
-                  <rs type="person" continued="true">La¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1776575562671_694_tl_35" n="N035"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">biche</rs>
-               </hi>, das ganze von <hi rendition="#em">
-                  <rs type="person">Gondinet</rs>
-               </hi>, das ganze von
-               <lb facs="#facs_1_region_1776575562671_694_tl_36" n="N036"/>
-               <hi rendition="#em">
-                  <rs type="person">Duvert</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Lausanne</rs>
-               </hi>, das ganze von <hi rendition="#em">
-                  <rs type="person">Meilhac</rs>
-               </hi>
-               <lb facs="#facs_1_region_1776575562671_694_tl_37" n="N037"/>und <hi rendition="#em">
-                  <rs type="person">Halévy</rs>
-               </hi>. Es verschwinden drei Meisterwerke im <rs type="place" continued="true">fran¬</rs>
-               <lb facs="#facs_1_region_1776575562671_694_tl_38" n="N038"/>
-               <rs type="place" continued="true">zösisch</rs>en Lustspiel: <rs type="bibl">Mademoiselle de Seiglières</rs>, <rs type="bibl">Le gendre</rs>
-               <lb facs="#facs_1_region_1776575562671_694_tl_39" n="N039"/>
-               <rs type="bibl">de Mr. Poirier</rs>, <rs type="bibl">Mademoiselle de Belle-Isle</rs>, sowie die be¬
-               <lb facs="#facs_1_region_1776575562671_694_tl_40" n="N040"/>rühmten Sensationsstücke: <rs type="bibl">La tour de Nesle</rs> und <rs type="bibl">Richard</rs>
-               <lb facs="#facs_1_region_1776575562671_694_tl_41" n="N041"/>
-               <rs type="bibl">Darlington</rs>. Gewiß ist eine Kunstform nicht zu verachten,
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1776575566598_697_tl_1" n="N001"/>der wir solche Werke verdanken und welche dem <rs type="place">französisch</rs>en
+         <lb facs="#facs_1_region_1776575566598_697_tl_2" n="N002"/>Theater ganz <rs type="place">Europa</rs> erobert hat, ganz abgesehen davon, daß
+         <lb facs="#facs_1_region_1776575566598_697_tl_3" n="N003"/>eine Menge glänzender, aber unvollkommener Talente, die
+         <lb facs="#facs_1_region_1776575566598_697_tl_4" n="N004"/>vereinzelt wahrscheinlich unfruchtbar geblieben wären, sich
+         <lb facs="#facs_1_region_1776575566598_697_tl_5" n="N005"/>durch die Association über sich selbst erhoben und die nagel
+         <lb facs="#facs_1_region_1776575566598_697_tl_6" n="N006" break="no"/>neue arithmetische Wahrheit entdeckt hat: Eins und Eins
+         <lb facs="#facs_1_region_1776575566598_697_tl_7" n="N007"/>macht Drei.
+            </p><p>
+         <lb facs="#facs_1_region_1776575566598_697_tl_8" n="N008"/>Der Mitarbeiterschaft hat <rs type="person">Legouvé</rs> drei seiner besten
+         <lb facs="#facs_1_region_1776575566598_697_tl_9" n="N009"/>Freunde zu verdanken: <hi rendition="#em"><rs type="person">Scribe</rs></hi>, <hi rendition="#em"><rs type="person">Labiche</rs></hi> und Prosper
+         <lb facs="#facs_1_region_1776575566598_697_tl_10" n="N010"/><hi rendition="#em"><rs type="person">Goubaux</rs></hi>. Von Letzterem entwirft er ein unendlich an
+         <lb facs="#facs_1_region_1776575566598_697_tl_11" n="N011" break="no"/>ziehendes Bild. <rs type="person">Goubaux</rs>, eine originelle, reiche und mächtige
+         <lb facs="#facs_1_region_1776575566598_697_tl_12" n="N012"/>Natur, war Theaterdichter und Erzieher. Als Theaterdichter
+         <lb facs="#facs_1_region_1776575566598_697_tl_13" n="N013"/>gehörte er zu der seltenen Race der Erfinder, der „créateurs“,
+         <lb facs="#facs_1_region_1776575566598_697_tl_14" n="N014"/>als Pädagog zu den Wohlthätern <rs type="place">Frankreich</rs>s, das ihm eine
+         <lb facs="#facs_1_region_1776575566598_697_tl_15" n="N015"/>neue Form der öffentlichen Erziehung dankt. Seine päda
+         <lb facs="#facs_1_region_1776575566598_697_tl_16" n="N016" break="no"/>gogische Schöpfung trägt nicht seinen Namen und sein
+         <lb facs="#facs_1_region_1776575566598_697_tl_17" n="N017"/>Theater ein Pseudonym (<rs type="person">Dinaux</rs>). So ist <rs type="person">Goubaux</rs> mit dem
+         <lb facs="#facs_1_region_1776575566598_697_tl_18" n="N018"/>vollen Anspruche auf zweifache Berühmtheit unbekannt ge
+         <lb facs="#facs_1_region_1776575566598_697_tl_19" n="N019" break="no"/>blieben. Einmal bei Tische behauptete ein Classiker, eine
+         <lb facs="#facs_1_region_1776575566598_697_tl_20" n="N020"/>Bühnenhandlung dürfe nicht mehr als 24 Stunden um
+         <lb facs="#facs_1_region_1776575566598_697_tl_21" n="N021" break="no"/>fassen; ein Stück, das den Zeitraum eines Jahres behandelt,
+         <lb facs="#facs_1_region_1776575566598_697_tl_22" n="N022"/>vermöchte kein Interesse zu erregen. Aus Widerspruch wettete
+         <lb facs="#facs_1_region_1776575566598_697_tl_23" n="N023"/><rs type="person">Goubaux</rs>, ein Drama zu schreiben, das dreißig Jahre um
+         <lb facs="#facs_1_region_1776575566598_697_tl_24" n="N024" break="no"/>spannen und nur desto interessanter sein sollte. „<rs type="bibl">Dreißig
+         <lb facs="#facs_1_region_1776575566598_697_tl_26" n="N025"/>Jahre aus dem Leben eines Spielers</rs>“ — das populärste
+         <lb facs="#facs_1_region_1776575566598_697_tl_28" n="N026"/>Stück jener Epoche! Er machte Alles nur gelegentlich; wenn
+         <lb facs="#facs_1_region_1776575566598_697_tl_29" n="N027"/>er ein Talent eben brauchte, hatte er’s. Das Neue in seinem
+         <lb facs="#facs_1_region_1776575566598_697_tl_30" n="N028"/>Erziehungsinstitut (der „Institution Saint-Victor“) bestand
+         <lb facs="#facs_1_region_1776575566598_697_tl_31" n="N029"/>darin, daß <hi rendition="#em"><rs type="place">französisch</rs>e</hi> Geschichte, Sprache und Literatur
+         <lb facs="#facs_1_region_1776575566598_697_tl_32" n="N030"/>gelehrt wurde anstatt <rs type="place">griechisch</rs>er und lateinischer. Die größten
+         <lb facs="#facs_1_region_1776575566598_697_tl_33" n="N031"/>Hindernisse wurden dieser Neuerung in den Weg geworfen:
+         <lb facs="#facs_1_region_1776575566598_697_tl_34" n="N032"/>„Ein <rs type="place">französisch</rs>es Collegium in <rs type="place">Frankreich</rs> — niemals!“
+         <lb facs="#facs_1_region_1776575566598_697_tl_35" n="N033"/>rief der Unterrichtsminister <rs type="person">Villemain</rs>. Nach <rs type="person">Goubaux</rs>’ Tod
+         <lb facs="#facs_1_region_1776575566598_697_tl_36" n="N034"/>drängte <rs type="person">Legouvé</rs> — ein Vorbild werkthätig dankbarer Freund
+         <lb facs="#facs_1_region_1776575566598_697_tl_37" n="N035" break="no"/>schaft — unablässig den <rs type="place">Paris</rs>er Magistrat und die Regie
+         <lb facs="#facs_1_region_1776575566598_697_tl_38" n="N036" break="no"/>rung, dem von <rs type="person">Goubaux</rs> gegründeten Institute auch dessen
+         <lb facs="#facs_1_region_1776575566598_697_tl_39" n="N037"/>Namen zu geben. Trotz der Zusage des Ministers <rs type="person">Thiers</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1776575566598_697_tl_40" n="N038"/>ist seine Bitte bis heute unerfüllt geblieben.
+            </p><p>
+         <lb facs="#facs_1_region_1776575566598_697_tl_41" n="N039"/>Um uns die Entstehung eines Compagnie-Dramas recht
+         <lb facs="#facs_1_region_1776575566598_697_tl_42" n="N040"/>augenscheinlich zu machen, führt uns <rs type="person">Legouvé</rs> mitten in die
+         <lb facs="#facs_1_region_1776575566598_697_tl_43" n="N041"/>Action. Seine <rs type="person">Frau</rs> erzählt einmal beim Frühstück von ihren
+         <lb facs="#facs_1_region_1776575566598_697_tl_44" n="N042"/>ehemaligen Pensionats-Freundinnen und erwähnt des merk
+         <lb facs="#facs_1_region_1776575566598_697_tl_45" n="N043" break="no"/>würdigen Charakters und Schicksals einer derselben, Namens
+         <lb facs="#facs_1_region_1776575566598_697_tl_46" n="N044"/><rs type="person">Clelia</rs>. Die Geschichte steigt <rs type="person">Legouvé</rs> dergestalt zu Kopf, daß
+         <lb facs="#facs_1_region_1776575566598_697_tl_47" n="N045"/>er gleich in sein Arbeitszimmer eilt und den Plan zu einem<space quantity="1" unit="char"/></p>
             <cb n="3"/>
-            <p>
-               <lb facs="#facs_1_region_1776575566598_697_tl_1" n="N001"/>der wir solche Werke verdanken und welche dem <rs type="place">französisch</rs>en
-               <lb facs="#facs_1_region_1776575566598_697_tl_2" n="N002"/>Theater ganz <rs type="place">Europa</rs> erobert hat, ganz abgesehen davon, daß
-               <lb facs="#facs_1_region_1776575566598_697_tl_3" n="N003"/>eine Menge glänzender, aber unvollkommener Talente, die
-               <lb facs="#facs_1_region_1776575566598_697_tl_4" n="N004"/>vereinzelt wahrscheinlich unfruchtbar geblieben wären, sich
-               <lb facs="#facs_1_region_1776575566598_697_tl_5" n="N005"/>durch die Association über sich selbst erhoben und die nagel¬
-               <lb facs="#facs_1_region_1776575566598_697_tl_6" n="N006"/>neue arithmetische Wahrheit entdeckt hat: Eins und Eins
-               <lb facs="#facs_1_region_1776575566598_697_tl_7" n="N007"/>macht Drei.
-               <lb facs="#facs_1_region_1776575566598_697_tl_8" n="N008"/>Der Mitarbeiterschaft hat <rs type="person">Legouvé</rs> drei seiner besten
-               <lb facs="#facs_1_region_1776575566598_697_tl_9" n="N009"/>Freunde zu verdanken: <hi rendition="#em">
-                  <rs type="person">Scribe</rs>
-               </hi>, <hi rendition="#em">
-                  <rs type="person">Labiche</rs>
-               </hi> und Prosper
-               <lb facs="#facs_1_region_1776575566598_697_tl_10" n="N010"/>
-               <hi rendition="#em">
-                  <rs type="person">Goubaux</rs>
-               </hi>. Von Letzterem entwirft er ein unendlich an¬
-               <lb facs="#facs_1_region_1776575566598_697_tl_11" n="N011"/>ziehendes Bild. <rs type="person">Goubaux</rs>, eine originelle, reiche und mächtige
-               <lb facs="#facs_1_region_1776575566598_697_tl_12" n="N012"/>Natur, war Theaterdichter und Erzieher. Als Theaterdichter
-               <lb facs="#facs_1_region_1776575566598_697_tl_13" n="N013"/>gehörte er zu der seltenen Race der Erfinder, der „créateurs“,
-               <lb facs="#facs_1_region_1776575566598_697_tl_14" n="N014"/>als Pädagog zu den Wohlthätern <rs type="place">Frankreich</rs>s, das ihm eine
-               <lb facs="#facs_1_region_1776575566598_697_tl_15" n="N015"/>neue Form der öffentlichen Erziehung dankt. Seine päda¬
-               <lb facs="#facs_1_region_1776575566598_697_tl_16" n="N016"/>gogische Schöpfung trägt nicht seinen Namen und sein
-               <lb facs="#facs_1_region_1776575566598_697_tl_17" n="N017"/>Theater ein Pseudonym (<rs type="person">Dinaux</rs>). So ist <rs type="person">Goubaux</rs> mit dem
-               <lb facs="#facs_1_region_1776575566598_697_tl_18" n="N018"/>vollen Anspruche auf zweifache Berühmtheit unbekannt ge¬
-               <lb facs="#facs_1_region_1776575566598_697_tl_19" n="N019"/>blieben. Einmal bei Tische behauptete ein Classiker, eine
-               <lb facs="#facs_1_region_1776575566598_697_tl_20" n="N020"/>Bühnenhandlung dürfe nicht mehr als 24 Stunden um¬
-               <lb facs="#facs_1_region_1776575566598_697_tl_21" n="N021"/>fassen; ein Stück, das den Zeitraum eines Jahres behandelt,
-               <lb facs="#facs_1_region_1776575566598_697_tl_22" n="N022"/>vermöchte kein Interesse zu erregen. Aus Widerspruch wettete
-               <lb facs="#facs_1_region_1776575566598_697_tl_23" n="N023"/>
-               <rs type="person">Goubaux</rs>, ein Drama zu schreiben, das dreißig Jahre um¬
-               <lb facs="#facs_1_region_1776575566598_697_tl_24" n="N024"/>spannen und nur desto interessanter sein sollte. „<rs type="bibl">Dreißig</rs>
-               <lb facs="#facs_1_region_1776575566598_697_tl_26" n="N025"/>
-               <rs type="bibl">Jahre aus dem Leben eines Spielers</rs>“ — das populärste
-               <lb facs="#facs_1_region_1776575566598_697_tl_28" n="N026"/>Stück jener Epoche! Er machte Alles nur gelegentlich; wenn
-               <lb facs="#facs_1_region_1776575566598_697_tl_29" n="N027"/>er ein Talent eben brauchte, hatte er’s. Das Neue in seinem
-               <lb facs="#facs_1_region_1776575566598_697_tl_30" n="N028"/>Erziehungsinstitut (der „Institution Saint-Victor“) bestand
-               <lb facs="#facs_1_region_1776575566598_697_tl_31" n="N029"/>darin, daß <hi rendition="#em">
-                  <rs type="place">französisch</rs>e</hi> Geschichte, Sprache und Literatur
-               <lb facs="#facs_1_region_1776575566598_697_tl_32" n="N030"/>gelehrt wurde anstatt <rs type="place">griechisch</rs>er und lateinischer. Die größten
-               <lb facs="#facs_1_region_1776575566598_697_tl_33" n="N031"/>Hindernisse wurden dieser Neuerung in den Weg geworfen:
-               <lb facs="#facs_1_region_1776575566598_697_tl_34" n="N032"/>„Ein <rs type="place">französisch</rs>es Collegium in <rs type="place">Frankreich</rs> — niemals!“
-               <lb facs="#facs_1_region_1776575566598_697_tl_35" n="N033"/>rief der Unterrichtsminister <rs type="person">Villemain</rs>. Nach <rs type="person">Goubaux</rs>’ Tod
-               <lb facs="#facs_1_region_1776575566598_697_tl_36" n="N034"/>drängte <rs type="person">Legouvé</rs> — ein Vorbild werkthätig dankbarer Freund¬
-               <lb facs="#facs_1_region_1776575566598_697_tl_37" n="N035"/>schaft — unablässig den <rs type="place">Paris</rs>er Magistrat und die Regie¬
-               <lb facs="#facs_1_region_1776575566598_697_tl_38" n="N036"/>rung, dem von <rs type="person">Goubaux</rs> gegründeten Institute auch dessen
-               <lb facs="#facs_1_region_1776575566598_697_tl_39" n="N037"/>Namen zu geben. Trotz der Zusage des Ministers <rs type="person">Thiers</rs>
-               <lb facs="#facs_1_region_1776575566598_697_tl_40" n="N038"/>ist seine Bitte bis heute unerfüllt geblieben.
-               <lb facs="#facs_1_region_1776575566598_697_tl_41" n="N039"/>Um uns die Entstehung eines Compagnie-Dramas recht
-               <lb facs="#facs_1_region_1776575566598_697_tl_42" n="N040"/>augenscheinlich zu machen, führt uns <rs type="person">Legouvé</rs> mitten in die
-               <lb facs="#facs_1_region_1776575566598_697_tl_43" n="N041"/>Action. Seine <rs type="person">Frau</rs> erzählt einmal beim Frühstück von ihren
-               <lb facs="#facs_1_region_1776575566598_697_tl_44" n="N042"/>ehemaligen Pensionats-Freundinnen und erwähnt des merk¬
-               <lb facs="#facs_1_region_1776575566598_697_tl_45" n="N043"/>würdigen Charakters und Schicksals einer derselben, Namens
-               <lb facs="#facs_1_region_1776575566598_697_tl_46" n="N044"/>
-               <rs type="person">Clelia</rs>. Die Geschichte steigt <rs type="person">Legouvé</rs> dergestalt zu Kopf, daß
-               <lb facs="#facs_1_region_1776575566598_697_tl_47" n="N045"/>er gleich in sein Arbeitszimmer eilt und den Plan zu einem
-            </p>
-            <cb n="4"/>
-            <p>
-               <lb facs="#facs_1_region_1776575570215_700_tl_1" n="N001"/>Drama entwirft, auch beinahe den ersten Act niederschreibt.
-               <lb facs="#facs_1_region_1776575570215_700_tl_2" n="N002"/>Abends kommt <rs type="person">Goubaux</rs> und läßt sich den Plan erzählen.
-               <lb facs="#facs_1_region_1776575570215_700_tl_3" n="N003"/>„Teufel! Darin steckt ja ein fünfactiges Drama!“ Nun ent¬
-               <lb facs="#facs_1_region_1776575570215_700_tl_4" n="N004"/>spinnt sich eine lebhafte Discussion über die Gliederung der
-               <lb facs="#facs_1_region_1776575570215_700_tl_5" n="N005"/>Handlung, ihre Steigerung und Katastrophe. <rs type="person">Goubaux</rs> nimmt
-               <lb facs="#facs_1_region_1776575570215_700_tl_6" n="N006"/>einen achttägigen Urlaub, gibt vor, zu verreisen, und quartiert
-               <lb facs="#facs_1_region_1776575570215_700_tl_7" n="N007"/>sich in <rs type="person">Legouvé</rs>’s Wohnung ein. Wie Schulbuben schreiben
-               <lb facs="#facs_1_region_1776575570215_700_tl_8" n="N008"/>die Beiden einander gegenüber an demselben großen Tisch.
-               <lb facs="#facs_1_region_1776575570215_700_tl_9" n="N009"/>Nur das Mittagmal und ein bischen Musik am Abend
-               <lb facs="#facs_1_region_1776575570215_700_tl_10" n="N010"/>unterbricht ihre Arbeit. Nach dem festgestellten Plan beginnen
-               <lb facs="#facs_1_region_1776575570215_700_tl_11" n="N011"/>sie, Jeder für sich, mit der ersten Scene; nach zehn Tagen
-               <lb facs="#facs_1_region_1776575570215_700_tl_12" n="N012"/>sind Beide mit den zwei ersten Acten fertig. Diese werden
-               <lb facs="#facs_1_region_1776575570215_700_tl_13" n="N013"/>zuerst blos Madame <rs type="person">Legouvé</rs> vorgelesen, welche eine bestimmte
-               <lb facs="#facs_1_region_1776575570215_700_tl_14" n="N014"/>Scene bald bei <rs type="person">Goubaux</rs>, bald bei ihrem Manne gelungener
-               <lb facs="#facs_1_region_1776575570215_700_tl_15" n="N015"/>findet. Man discutirt, bessert, einigt sich. Mit dem fertigen
-               <lb facs="#facs_1_region_1776575570215_700_tl_16" n="N016"/>Stück eilen die Freunde zu Eugène <hi rendition="#em">
-                  <rs type="person">Sue</rs>
-               </hi>. Er installirt sich
-               <lb facs="#facs_1_region_1776575570215_700_tl_17" n="N017"/>gleich vor seiner Staffelei, indem er versichert, niemals besser
-               <lb facs="#facs_1_region_1776575570215_700_tl_18" n="N018"/>zuzuhören, als wenn er zugleich malt. <rs type="person">Sue</rs> findet die drei
-               <lb facs="#facs_1_region_1776575570215_700_tl_19" n="N019"/>ersten Acte vortrefflich, die beiden letzten verfehlt. Jetzt geht
-               <lb facs="#facs_1_region_1776575570215_700_tl_20" n="N020"/>es neuerdings an ein Debattiren, Abändern, Suchen. Schließ¬
-               <lb facs="#facs_1_region_1776575570215_700_tl_21" n="N021"/>lich hift ein dritter Mitarbeiter unerwartet aus der Klemme:
-               <lb facs="#facs_1_region_1776575570215_700_tl_22" n="N022"/>der Zufall, der so oft eine große Rolle spielt in theatralischen
-               <lb facs="#facs_1_region_1776575570215_700_tl_23" n="N023"/>Entwürfen. Ein vergilbter alter Brief, den <rs type="person">Legouvé</rs> zufällig
-               <lb facs="#facs_1_region_1776575570215_700_tl_24" n="N024"/>unter seinen Papieren aufgewühlt, ruft ihm die merkwürdige
-               <lb facs="#facs_1_region_1776575570215_700_tl_25" n="N025"/>Katastrophe eines verstorbenen Freundes ins Gedächtniß und
-               <lb facs="#facs_1_region_1776575570215_700_tl_26" n="N026"/>liefert den lange vergeblich gesuchten Abschluß des Dramas.
-               <lb facs="#facs_1_region_1776575570215_700_tl_27" n="N027"/>Das Stück selbst führt den Titel „<rs type="bibl">Louise de Lignerolles</rs>“.
-               <lb facs="#facs_1_region_1776575570215_700_tl_28" n="N028"/>Es ist in <rs type="place">Deutschland</rs> kaum bekannt geworden und für unsere
-               <lb facs="#facs_1_region_1776575570215_700_tl_29" n="N029"/>Leser von keiner Wichtigkeit. Allein die Aufführung desselben
-               <lb facs="#facs_1_region_1776575570215_700_tl_30" n="N030"/>im Théâtre Français (<date>1838</date>) veranlaßt den Autor zu allerlei
-               <lb facs="#facs_1_region_1776575570215_700_tl_31" n="N031"/>treffenden Bemerkungen über das damalige Theaterwesen, die
-               <lb facs="#facs_1_region_1776575570215_700_tl_32" n="N032"/>uns von allgemeinem Interesse scheinen.
-               <lb facs="#facs_1_region_1776575570215_700_tl_33" n="N033"/>
-               <rs type="person">Legouvé</rs> findet, daß das <rs type="place">französisch</rs>e Theater sich seither
-               <lb facs="#facs_1_region_1776575570215_700_tl_34" n="N034"/>in vielen Stücken auffallend verändert habe, und nicht überall
-               <lb facs="#facs_1_region_1776575570215_700_tl_35" n="N035"/>zum Vortheil der Gegenwart. Heute scenirt man besser,
-               <lb facs="#facs_1_region_1776575570215_700_tl_36" n="N036"/>costümirt richtiger, man versteht Salonscenen lebendiger
-               <lb facs="#facs_1_region_1776575570215_700_tl_37" n="N037"/>darzustellen und trachtet nach größerer Wahrheit im Aus¬
-               <lb facs="#facs_1_region_1776575570215_700_tl_38" n="N038"/>druck. Aber — klagt <rs type="person">Legouvé</rs> — was ist aus der Diction
-               <lb facs="#facs_1_region_1776575570215_700_tl_39" n="N039"/>geworden, aus der Eleganz der Bewegungen, aus der Vor¬
-               <lb facs="#facs_1_region_1776575570215_700_tl_40" n="N040"/>nehmheit der Sprache, worin das Théâtre Français einst
-               <lb facs="#facs_1_region_1776575570215_700_tl_41" n="N041"/>als Muster der besten Gesellschaft gegolten? In „<rs type="bibl">Louise</rs>
-               <lb facs="#facs_1_region_1776575570215_700_tl_42" n="N042"/>
-               <rs type="bibl">de Lignerolles</rs>“ wurden die Hauptrollen, das Liebespaar,
-               <lb facs="#facs_1_region_1776575570215_700_tl_43" n="N043"/>von Mlle. <hi rendition="#em">
-                  <rs type="person">Mars</rs>
-               </hi> und Mr. <hi rendition="#em">
-                  <rs type="person">Firmin</rs>
-               </hi> gespielt; Beide zählen
-               <lb facs="#facs_1_region_1776575570215_700_tl_44" n="N044"/>zusammen nicht weniger als 125 Jahre. Und doch ver¬
-               <lb facs="#facs_1_region_1776575570215_700_tl_45" n="N045"/>sichert <rs type="person">Legouvé</rs>, er habe nie wieder so junge Darsteller ge¬
-            </p>
+            <p prev="true">
+         <lb facs="#facs_1_region_1776575570215_700_tl_1" n="N001"/>Drama entwirft, auch beinahe den ersten Act niederschreibt.
+         <lb facs="#facs_1_region_1776575570215_700_tl_2" n="N002"/>Abends kommt <rs type="person">Goubaux</rs> und läßt sich den Plan erzählen.
+         <lb facs="#facs_1_region_1776575570215_700_tl_3" n="N003"/>„Teufel! Darin steckt ja ein fünfactiges Drama!“ Nun ent
+         <lb facs="#facs_1_region_1776575570215_700_tl_4" n="N004" break="no"/>spinnt sich eine lebhafte Discussion über die Gliederung der
+         <lb facs="#facs_1_region_1776575570215_700_tl_5" n="N005"/>Handlung, ihre Steigerung und Katastrophe. <rs type="person">Goubaux</rs> nimmt
+         <lb facs="#facs_1_region_1776575570215_700_tl_6" n="N006"/>einen achttägigen Urlaub, gibt vor, zu verreisen, und quartiert
+         <lb facs="#facs_1_region_1776575570215_700_tl_7" n="N007"/>sich in <rs type="person">Legouvé</rs>’s Wohnung ein. Wie Schulbuben schreiben
+         <lb facs="#facs_1_region_1776575570215_700_tl_8" n="N008"/>die Beiden einander gegenüber an demselben großen Tisch.
+         <lb facs="#facs_1_region_1776575570215_700_tl_9" n="N009"/>Nur das Mittagmal und ein bischen Musik am Abend
+         <lb facs="#facs_1_region_1776575570215_700_tl_10" n="N010"/>unterbricht ihre Arbeit. Nach dem festgestellten Plan beginnen
+         <lb facs="#facs_1_region_1776575570215_700_tl_11" n="N011"/>sie, Jeder für sich, mit der ersten Scene; nach zehn Tagen
+         <lb facs="#facs_1_region_1776575570215_700_tl_12" n="N012"/>sind Beide mit den zwei ersten Acten fertig. Diese werden
+         <lb facs="#facs_1_region_1776575570215_700_tl_13" n="N013"/>zuerst blos Madame <rs type="person">Legouvé</rs> vorgelesen, welche eine bestimmte
+         <lb facs="#facs_1_region_1776575570215_700_tl_14" n="N014"/>Scene bald bei <rs type="person">Goubaux</rs>, bald bei ihrem Manne gelungener
+         <lb facs="#facs_1_region_1776575570215_700_tl_15" n="N015"/>findet. Man discutirt, bessert, einigt sich. Mit dem fertigen
+         <lb facs="#facs_1_region_1776575570215_700_tl_16" n="N016"/>Stück eilen die Freunde zu Eugène <hi rendition="#em"><rs type="person">Sue</rs></hi>. Er installirt sich
+         <lb facs="#facs_1_region_1776575570215_700_tl_17" n="N017"/>gleich vor seiner Staffelei, indem er versichert, niemals besser
+         <lb facs="#facs_1_region_1776575570215_700_tl_18" n="N018"/>zuzuhören, als wenn er zugleich malt. <rs type="person">Sue</rs> findet die drei
+         <lb facs="#facs_1_region_1776575570215_700_tl_19" n="N019"/>ersten Acte vortrefflich, die beiden letzten verfehlt. Jetzt geht
+         <lb facs="#facs_1_region_1776575570215_700_tl_20" n="N020"/>es neuerdings an ein Debattiren, Abändern, Suchen. Schließ
+         <lb facs="#facs_1_region_1776575570215_700_tl_21" n="N021" break="no"/>lich hift ein dritter Mitarbeiter unerwartet aus der Klemme:
+         <lb facs="#facs_1_region_1776575570215_700_tl_22" n="N022"/>der Zufall, der so oft eine große Rolle spielt in theatralischen
+         <lb facs="#facs_1_region_1776575570215_700_tl_23" n="N023"/>Entwürfen. Ein vergilbter alter Brief, den <rs type="person">Legouvé</rs> zufällig
+         <lb facs="#facs_1_region_1776575570215_700_tl_24" n="N024"/>unter seinen Papieren aufgewühlt, ruft ihm die merkwürdige
+         <lb facs="#facs_1_region_1776575570215_700_tl_25" n="N025"/>Katastrophe eines verstorbenen Freundes ins Gedächtniß und
+         <lb facs="#facs_1_region_1776575570215_700_tl_26" n="N026"/>liefert den lange vergeblich gesuchten Abschluß des Dramas.
+         <lb facs="#facs_1_region_1776575570215_700_tl_27" n="N027"/>Das Stück selbst führt den Titel „<rs type="bibl">Louise de Lignerolles</rs>“.
+         <lb facs="#facs_1_region_1776575570215_700_tl_28" n="N028"/>Es ist in <rs type="place">Deutschland</rs> kaum bekannt geworden und für unsere
+         <lb facs="#facs_1_region_1776575570215_700_tl_29" n="N029"/>Leser von keiner Wichtigkeit. Allein die Aufführung desselben
+         <lb facs="#facs_1_region_1776575570215_700_tl_30" n="N030"/>im Théâtre Français (<date>1838</date>) veranlaßt den Autor zu allerlei
+         <lb facs="#facs_1_region_1776575570215_700_tl_31" n="N031"/>treffenden Bemerkungen über das damalige Theaterwesen, die
+         <lb facs="#facs_1_region_1776575570215_700_tl_32" n="N032"/>uns von allgemeinem Interesse scheinen.
+            </p><p>
+         <lb facs="#facs_1_region_1776575570215_700_tl_33" n="N033"/><rs type="person">Legouvé</rs> findet, daß das <rs type="place">französisch</rs>e Theater sich seither
+         <lb facs="#facs_1_region_1776575570215_700_tl_34" n="N034"/>in vielen Stücken auffallend verändert habe, und nicht überall
+         <lb facs="#facs_1_region_1776575570215_700_tl_35" n="N035"/>zum Vortheil der Gegenwart. Heute scenirt man besser,
+         <lb facs="#facs_1_region_1776575570215_700_tl_36" n="N036"/>costümirt richtiger, man versteht Salonscenen lebendiger
+         <lb facs="#facs_1_region_1776575570215_700_tl_37" n="N037"/>darzustellen und trachtet nach größerer Wahrheit im Aus
+         <lb facs="#facs_1_region_1776575570215_700_tl_38" n="N038" break="no"/>druck. Aber — klagt <rs type="person">Legouvé</rs> — was ist aus der Diction
+         <lb facs="#facs_1_region_1776575570215_700_tl_39" n="N039"/>geworden, aus der Eleganz der Bewegungen, aus der Vor
+         <lb facs="#facs_1_region_1776575570215_700_tl_40" n="N040" break="no"/>nehmheit der Sprache, worin das Théâtre Français einst
+         <lb facs="#facs_1_region_1776575570215_700_tl_41" n="N041"/>als Muster der besten Gesellschaft gegolten? In „<rs type="bibl">Louise
+         <lb facs="#facs_1_region_1776575570215_700_tl_42" n="N042"/>de Lignerolles</rs>“ wurden die Hauptrollen, das Liebespaar,
+         <lb facs="#facs_1_region_1776575570215_700_tl_43" n="N043"/>von Mlle. <hi rendition="#em"><rs type="person">Mars</rs></hi> und Mr. <hi rendition="#em"><rs type="person">Firmin</rs></hi> gespielt; Beide zählen
+         <lb facs="#facs_1_region_1776575570215_700_tl_44" n="N044"/>zusammen nicht weniger als 125 Jahre. Und doch ver
+         <lb facs="#facs_1_region_1776575570215_700_tl_45" n="N045" break="no"/>sichert <rs type="person">Legouvé</rs>, er habe nie wieder so junge Darsteller ge</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776575584070_706_tl_1" n="N001" break="no"/>funden — wenn Jugend gleichbedeutend ist mit Feuer,
+         <lb facs="#facs_2_region_1776575584070_706_tl_2" n="N002"/>Ueberzeugung, Leidenschaft. Welch klangvolle, herzbewegende
+         <lb facs="#facs_2_region_1776575584070_706_tl_3" n="N003"/>Stimmen hatten sie Beide! Was für wunderbare Augen,
+         <lb facs="#facs_2_region_1776575584070_706_tl_4" n="N004"/>deren Licht in einer Secunde den ganzen Saal beherrschte
+         <lb facs="#facs_2_region_1776575584070_706_tl_5" n="N005"/>und erleuchtete! <rs type="person">Firmin</rs> war berühmt in den Liebeserklä
+         <lb facs="#facs_2_region_1776575584070_706_tl_6" n="N006" break="no"/>rungen. Kein zweiter Schauspieler warf sich mit solcher
+         <lb facs="#facs_2_region_1776575584070_706_tl_7" n="N007"/>Leidenschaft vor einer Frau auf die Knie. Heute kniet man
+         <lb facs="#facs_2_line_1783499476702_266" n="N008"/>nicht mehr. <rs type="person">Legouvé</rs> war vielleicht der letzte Autor, der sich
+         <lb facs="#facs_2_line_1783499479968_269" n="N009"/>erlaubt hat, den Fußfall (in einem Lustspiel „<rs type="bibl">Par droit
+         <lb facs="#facs_2_region_1776575584070_706_tl_8" n="N010"/>de conquête</rs>“) anzubringen. <hi rendition="#em"><rs type="person">Bressant</rs></hi> machte das voll
+         <lb facs="#facs_2_region_1776575584070_706_tl_9" n="N011"/>Grazie und Feuer in der Liebesscene mit Madeleine <rs type="person">Brohant</rs>.
+         <lb facs="#facs_2_region_1776575584070_706_tl_10" n="N012"/>Als einige Jahre später der Schauspieler <hi rendition="#em"><rs type="person">Fèbvre</rs></hi> die Rolle
+         <lb facs="#facs_2_region_1776575584070_706_tl_11" n="N013"/>übernahm, erklärte er, es sei ihm unmöglich, dem Beispiel
+         <lb facs="#facs_2_region_1776575584070_706_tl_12" n="N014"/><rs type="person">Bressant</rs>’s zu folgen; er könne das nicht machen; es komme
+         <lb facs="#facs_2_region_1776575584070_706_tl_13" n="N015"/>ihm lächerlich vor. Und er hatte Recht. Der Geschmack
+         <lb facs="#facs_2_region_1776575584070_706_tl_14" n="N016"/>wechselt. Sich vor einer Frau auf die Knie zu werfen,
+         <lb facs="#facs_2_region_1776575584070_706_tl_15" n="N017"/>ihr die Hand zu küssen, datirt aus einer früheren Epoche
+         <lb facs="#facs_2_region_1776575584070_706_tl_16" n="N018"/>respectvoller Galanterie. Man versuche es heute in einem
+         <lb facs="#facs_2_region_1776575584070_706_tl_17" n="N019"/>neuen Stück, eine solche Liebeserklärung auf die Bühne zu
+         <lb facs="#facs_2_region_1776575584070_706_tl_19" n="N020"/>bringen, und das Publicum wird lachen, ja die angebetete
+         <lb facs="#facs_2_region_1776575584070_706_tl_21" n="N021"/>junge Frau obendrein. Heute muß der Liebhaber, um zu
+         <lb facs="#facs_2_region_1776575584070_706_tl_22" n="N022"/>reussiren, allerhand Neckerei, Aufreizung, ja ein bischen
+         <lb facs="#facs_2_region_1776575584070_706_tl_23" n="N023"/>Brutalität anwenden. Würde man von <rs type="person">Firmin</rs> eine solche
+         <lb facs="#facs_2_region_1776575584070_706_tl_24" n="N024"/>Scene verlangt haben, er hätte wie <rs type="person">Fèbvre</rs> geantwortet:
+         <lb facs="#facs_2_region_1776575584070_706_tl_25" n="N025"/><hi rendition="#em">Das kann ich nicht machen</hi>.
+            </p><p>
+         <lb facs="#facs_2_region_1776575584070_706_tl_26" n="N026"/>Den Schauspieler <rs type="person">Joanny</rs>, der sich gleichfalls in dem
+         <lb facs="#facs_2_region_1776575584070_706_tl_27" n="N027"/>Drama von <rs type="person">Legouvé</rs> hervorthat, nennt Letzterer einen sonder
+         <lb facs="#facs_2_region_1776575584070_706_tl_28" n="N028" break="no"/>baren Künstler. Für’s Erste wußte er immer seine Rolle
+         <lb facs="#facs_2_region_1776575584070_706_tl_29" n="N029"/>vollkommen auswendig, wenn er zur ersten Probe erschien.
+         <lb facs="#facs_2_region_1776575584070_706_tl_30" n="N030"/>Heute behaupten gefeierte Schauspieler, man könne seine Rolle
+         <lb facs="#facs_2_region_1776575584070_706_tl_31" n="N031"/>nur auf der Bühne selbst lernen. Vielleicht haben Beide
+         <lb facs="#facs_2_region_1776575584070_706_tl_32" n="N032"/>Recht, je nach Verschiedenheit der Schule und der Epoche.
+         <lb facs="#facs_2_region_1776575584070_706_tl_33" n="N033"/>Einst, da die Diction den vornehmsten Rang einnahm, war
+         <lb facs="#facs_2_region_1776575584070_706_tl_34" n="N034"/><rs type="person">Joanny</rs>’s Methode besser. Heute, wo das Wort sich mit der
+         <lb facs="#facs_2_region_1776575584070_706_tl_35" n="N035"/>Geberde verquickt, modificirt der Platz, den man auf der
+         <lb facs="#facs_2_region_1776575584070_706_tl_36" n="N036"/>Bühne einnimmt, sehr wesentlich den Accent der Phrase. Eine
+         <lb facs="#facs_2_region_1776575584070_706_tl_37" n="N037"/>Rolle wird jetzt nicht blos gespielt, sie wird gegangen, ja
+         <lb facs="#facs_2_region_1776575584070_706_tl_38" n="N038"/>gelaufen. In dem (zur Weltausstellungs-Saison <date>1878</date> so
+         <lb facs="#facs_2_region_1776575584070_706_tl_39" n="N039"/>oft gegebenen) Lustspiel „<rs type="bibl">Les Bourgeois de Pontarcy</rs>“ von
+         <lb facs="#facs_2_region_1776575584070_706_tl_40" n="N040"/><rs type="person">Sardon</rs> sah man Mr. <rs type="person">Berton</rs> und Mlle. <rs type="person">Bartet</rs> die zärt
+         <lb facs="#facs_2_region_1776575584070_706_tl_41" n="N041" break="no"/>lichsten Reden wechseln, während sie die ganze Scene hin
+         <lb facs="#facs_2_region_1776575584070_706_tl_42" n="N042" break="no"/>durch sich um die Möbel herumbewegten. Dergleichen Rollen
+         <lb facs="#facs_2_region_1776575584070_706_tl_43" n="N043"/>lernt man allerdings am besten, indem man sie spielt. Eine
+         <lb facs="#facs_2_region_1776575584070_706_tl_44" n="N044"/>zweite Originalität dieses <rs type="person">Joanny</rs> bestand darin, stets zur<space quantity="1" unit="char"/></p>
             <cb n="5"/>
-            <p>
-               <lb facs="#facs_2_region_1776575584070_706_tl_1" n="N001"/>funden — wenn Jugend gleichbedeutend ist mit Feuer,
-               <lb facs="#facs_2_region_1776575584070_706_tl_2" n="N002"/>Ueberzeugung, Leidenschaft. Welch klangvolle, herzbewegende
-               <lb facs="#facs_2_region_1776575584070_706_tl_3" n="N003"/>Stimmen hatten sie Beide! Was für wunderbare Augen,
-               <lb facs="#facs_2_region_1776575584070_706_tl_4" n="N004"/>deren Licht in einer Secunde den ganzen Saal beherrschte
-               <lb facs="#facs_2_region_1776575584070_706_tl_5" n="N005"/>und erleuchtete! <rs type="person">Firmin</rs> war berühmt in den Liebeserklä¬
-               <lb facs="#facs_2_region_1776575584070_706_tl_6" n="N006"/>rungen. Kein zweiter Schauspieler warf sich mit solcher
-               <lb facs="#facs_2_region_1776575584070_706_tl_7" n="N007"/>Leidenschaft vor einer Frau auf die Knie. Heute kniet man
-               <lb facs="#facs_2_line_1783499476702_266" n="N008"/>nicht mehr. <rs type="person">Legouvé</rs> war vielleicht der letzte Autor, der sich
-               <lb facs="#facs_2_line_1783499479968_269" n="N009"/>erlaubt hat, den Fußfall (in einem Lustspiel „<rs type="bibl">Par droit</rs>
-               <lb facs="#facs_2_region_1776575584070_706_tl_8" n="N010"/>
-               <rs type="bibl">de conquête</rs>“) anzubringen. <hi rendition="#em">
-                  <rs type="person">Bressant</rs>
-               </hi> machte das voll
-               <lb facs="#facs_2_region_1776575584070_706_tl_9" n="N011"/>Grazie und Feuer in der Liebesscene mit Madeleine <rs type="person">Brohant</rs>.
-               <lb facs="#facs_2_region_1776575584070_706_tl_10" n="N012"/>Als einige Jahre später der Schauspieler <hi rendition="#em">
-                  <rs type="person">Fèbvre</rs>
-               </hi> die Rolle
-               <lb facs="#facs_2_region_1776575584070_706_tl_11" n="N013"/>übernahm, erklärte er, es sei ihm unmöglich, dem Beispiel
-               <lb facs="#facs_2_region_1776575584070_706_tl_12" n="N014"/>
-               <rs type="person">Bressant</rs>’s zu folgen; er könne das nicht machen; es komme
-               <lb facs="#facs_2_region_1776575584070_706_tl_13" n="N015"/>ihm lächerlich vor. Und er hatte Recht. Der Geschmack
-               <lb facs="#facs_2_region_1776575584070_706_tl_14" n="N016"/>wechselt. Sich vor einer Frau auf die Knie zu werfen,
-               <lb facs="#facs_2_region_1776575584070_706_tl_15" n="N017"/>ihr die Hand zu küssen, datirt aus einer früheren Epoche
-               <lb facs="#facs_2_region_1776575584070_706_tl_16" n="N018"/>respectvoller Galanterie. Man versuche es heute in einem
-               <lb facs="#facs_2_region_1776575584070_706_tl_17" n="N019"/>neuen Stück, eine solche Liebeserklärung auf die Bühne zu
-               <lb facs="#facs_2_region_1776575584070_706_tl_19" n="N020"/>bringen, und das Publicum wird lachen, ja die angebetete
-               <lb facs="#facs_2_region_1776575584070_706_tl_21" n="N021"/>junge Frau obendrein. Heute muß der Liebhaber, um zu
-               <lb facs="#facs_2_region_1776575584070_706_tl_22" n="N022"/>reussiren, allerhand Neckerei, Aufreizung, ja ein bischen
-               <lb facs="#facs_2_region_1776575584070_706_tl_23" n="N023"/>Brutalität anwenden. Würde man von <rs type="person">Firmin</rs> eine solche
-               <lb facs="#facs_2_region_1776575584070_706_tl_24" n="N024"/>Scene verlangt haben, er hätte wie <rs type="person">Fèbvre</rs> geantwortet:
-               <lb facs="#facs_2_region_1776575584070_706_tl_25" n="N025"/>
-               <hi rendition="#em">Das kann ich nicht machen</hi>.
-               <lb facs="#facs_2_region_1776575584070_706_tl_26" n="N026"/>Den Schauspieler <rs type="person">Joanny</rs>, der sich gleichfalls in dem
-               <lb facs="#facs_2_region_1776575584070_706_tl_27" n="N027"/>Drama von <rs type="person">Legouvé</rs> hervorthat, nennt Letzterer einen sonder¬
-               <lb facs="#facs_2_region_1776575584070_706_tl_28" n="N028"/>baren Künstler. Für’s Erste wußte er immer seine Rolle
-               <lb facs="#facs_2_region_1776575584070_706_tl_29" n="N029"/>vollkommen auswendig, wenn er zur ersten Probe erschien.
-               <lb facs="#facs_2_region_1776575584070_706_tl_30" n="N030"/>Heute behaupten gefeierte Schauspieler, man könne seine Rolle
-               <lb facs="#facs_2_region_1776575584070_706_tl_31" n="N031"/>nur auf der Bühne selbst lernen. Vielleicht haben Beide
-               <lb facs="#facs_2_region_1776575584070_706_tl_32" n="N032"/>Recht, je nach Verschiedenheit der Schule und der Epoche.
-               <lb facs="#facs_2_region_1776575584070_706_tl_33" n="N033"/>Einst, da die Diction den vornehmsten Rang einnahm, war
-               <lb facs="#facs_2_region_1776575584070_706_tl_34" n="N034"/>
-               <rs type="person">Joanny</rs>’s Methode besser. Heute, wo das Wort sich mit der
-               <lb facs="#facs_2_region_1776575584070_706_tl_35" n="N035"/>Geberde verquickt, modificirt der Platz, den man auf der
-               <lb facs="#facs_2_region_1776575584070_706_tl_36" n="N036"/>Bühne einnimmt, sehr wesentlich den Accent der Phrase. Eine
-               <lb facs="#facs_2_region_1776575584070_706_tl_37" n="N037"/>Rolle wird jetzt nicht blos gespielt, sie wird gegangen, ja
-               <lb facs="#facs_2_region_1776575584070_706_tl_38" n="N038"/>gelaufen. In dem (zur Weltausstellungs-Saison <date>1878</date> so
-               <lb facs="#facs_2_region_1776575584070_706_tl_39" n="N039"/>oft gegebenen) Lustspiel „<rs type="bibl">Les Bourgeois de Pontarcy</rs>“ von
-               <lb facs="#facs_2_region_1776575584070_706_tl_40" n="N040"/>
-               <rs type="person">Sardon</rs> sah man Mr. <rs type="person">Berton</rs> und Mlle. <rs type="person">Bartet</rs> die zärt¬
-               <lb facs="#facs_2_region_1776575584070_706_tl_41" n="N041"/>lichsten Reden wechseln, während sie die ganze Scene hin¬
-               <lb facs="#facs_2_region_1776575584070_706_tl_42" n="N042"/>durch sich um die Möbel herumbewegten. Dergleichen Rollen
-               <lb facs="#facs_2_region_1776575584070_706_tl_43" n="N043"/>lernt man allerdings am besten, indem man sie spielt. Eine
-               <lb facs="#facs_2_region_1776575584070_706_tl_44" n="N044"/>zweite Originalität dieses <rs type="person">Joanny</rs> bestand darin, stets zur
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776575588534_709_tl_1" n="N001"/>bestimmten Minute zur Probe einzutreffen. Was würde er
+         <lb facs="#facs_2_region_1776575588534_709_tl_2" n="N002"/>heute zu der Unpünktlichkeit sagen, welche im Théâtre Français
+         <lb facs="#facs_2_region_1776575588534_709_tl_3" n="N003"/>herrschend geworden? Besonders jüngere Schauspieler, die
+         <lb facs="#facs_2_region_1776575588534_709_tl_4" n="N004"/>Damen vor Allem, setzen einen Ehrenpunkt darein, auf sich
+         <lb facs="#facs_2_region_1776575588534_709_tl_5" n="N005"/>warten zu lassen. Abermals ein Zeichen der Zeit. Die Ideen
+         <lb facs="#facs_2_region_1776575588534_709_tl_6" n="N006"/>der Disciplin, der allgemeinen Regel sind nicht mehr Mode.
+         <lb facs="#facs_2_region_1776575588534_709_tl_7" n="N007"/>Es gibt keine Milchstraße mehr im Reiche der Kunst;
+         <lb facs="#facs_2_region_1776575588534_709_tl_8" n="N008"/>jeder Einzelne will ein Stern für sich sein, der seine eigene
+         <lb facs="#facs_2_region_1776575588534_709_tl_9" n="N009"/>Bahn beschreibt und um welchen womöglich die übrigen Sterne
+         <lb facs="#facs_2_region_1776575588534_709_tl_10" n="N010"/>kreisen.
+            </p><p>
+         <lb facs="#facs_2_region_1776575588534_709_tl_11" n="N011"/>Und die gefeierte <hi rendition="#em"><rs type="person">Mars</rs></hi>, war sie hübsch? Außer dem
+         <lb facs="#facs_2_region_1776575588534_709_tl_12" n="N012"/>Theater gewiß nicht. Auf der Scene aber war sie mehr als
+         <lb facs="#facs_2_region_1776575588534_709_tl_13" n="N013"/>hübsch, sie war bezaubernd. So bezaubernd, daß <rs type="person">Scribe</rs> der
+         <lb facs="#facs_2_region_1776575588534_709_tl_14" n="N014"/>damals 45jährigen Frau (als <rs type="person">Valerie</rs>) den Ausruf: „Bin
+         <lb facs="#facs_2_region_1776575588534_709_tl_15" n="N015"/>ich nicht hübsch?“ in den Mund legen konnte und das
+         <lb facs="#facs_2_region_1776575588534_709_tl_16" n="N016"/>Publicum ihr durch allgemeinen Applaus antwortete. Auch
+         <lb facs="#facs_2_region_1776575588534_709_tl_17" n="N017"/>diese Bravos gehören in eine frühere Epoche; man würde
+         <lb facs="#facs_2_region_1776575588534_709_tl_18" n="N018"/>heute diesen Effect nicht wagen, nicht einmal mit einer jungen
+         <lb facs="#facs_2_region_1776575588534_709_tl_19" n="N019"/>Schauspielerin. Dazu gehörte das galante Publicum von
+         <lb facs="#facs_2_region_1776575588534_709_tl_20" n="N020"/><date>1824</date>. Durch den optischen Zauber des Theaters ist die
+         <lb facs="#facs_2_region_1776575588534_709_tl_21" n="N021"/><rs type="person">Mars</rs> fünfzig Jahre lang auf der Bühne ein Muster von
+         <lb facs="#facs_2_region_1776575588534_709_tl_22" n="N022"/>Jugend geblieben. Heftig wehrte sie sich gegen jede
+         <lb facs="#facs_2_region_1776575588534_709_tl_23" n="N023"/>ältere Rolle; nicht aus Eitelkeit, wie sie sagte,
+         <lb facs="#facs_2_region_1776575588534_709_tl_24" n="N024"/>sondern weil sie nur dann sie selbst war, wenn
+         <lb facs="#facs_2_region_1776575588534_709_tl_25" n="N025"/>sie sich jung fühlte. <rs type="person">Scribe</rs> hatte ihr die höchst
+         <lb facs="#facs_2_region_1776575588534_709_tl_26" n="N026"/>dankbare Rolle einer liebenswürdigen Großmutter zugedacht,
+         <lb facs="#facs_2_region_1776575588534_709_tl_27" n="N027"/>die trotz ihrer weißen Haare das Herz eines jungen Mannes
+         <lb facs="#facs_2_region_1776575588534_709_tl_28" n="N028"/>erobert, um es — ihrer Enkelin zu cediren. „Sprechen Sie
+         <lb facs="#facs_2_region_1776575588534_709_tl_29" n="N029"/>mir nicht von Ihrer Sechzigerin,“ eiferte die <rs type="person">Mars</rs>. „Erstens,
+         <lb facs="#facs_2_region_1776575588534_709_tl_30" n="N030"/>wenn ich einen jungen Mann eroberte, würde ich ihn nicht
+         <lb facs="#facs_2_region_1776575588534_709_tl_31" n="N031"/>hergeben. Außerdem hätte ich als Großmutter das Aussehen
+         <lb facs="#facs_2_region_1776575588534_709_tl_32" n="N032"/>einer Ur-Ur-Großmutter.“ Sie hatte Recht; sie konnte eben
+         <lb facs="#facs_2_region_1776575588534_709_tl_33" n="N033" break="no"/>sowenig eine Großmutter-Rolle ausführen, wie ein Tenor
+         <lb facs="#facs_2_region_1776575588534_709_tl_34" n="N034"/>eine Baßpartie. Unglücklicherweise wollte die arme Frau die
+         <lb facs="#facs_2_region_1776575588534_709_tl_35" n="N035"/>jugendlichen Rollen nicht blos, auf der Bühne beibehalten.
+         <lb facs="#facs_2_region_1776575588534_709_tl_36" n="N036"/>Sie litt unter den heftigsten Zerwürfnissen mit einem der
+         <lb facs="#facs_2_region_1776575588534_709_tl_37" n="N037"/>elegantesten jungen Männer von <rs type="place">Paris</rs>, der ihre Liebe theilte
+         <lb facs="#facs_2_region_1776575588534_709_tl_38" n="N038"/>— aber zu sehr ungleichen Theilen. Ganz einzig in ihrem
+         <lb facs="#facs_2_region_1776575588534_709_tl_39" n="N039"/>Talent und ebensosehr in ihrer außerordentlichen Gewissen
+         <lb facs="#facs_2_region_1776575588534_709_tl_40" n="N040" break="no"/>haftigkeit als Künstlerin, konnte sie im Verkehr mitunter
+         <lb facs="#facs_2_region_1776575588534_709_tl_41" n="N041"/>recht stachlig sein. Eines Abends sprach sie mit <rs type="person">Legouvé</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1776575588534_709_tl_42" n="N042"/>hinter den Coulissen und erging sich in Klagen über den
+         <lb facs="#facs_2_region_1776575588534_709_tl_43" n="N043"/>Director. Sie war wüthend; Gesicht, Körper, Stimme —
+         <lb facs="#facs_2_region_1776575588534_709_tl_44" n="N044"/>Alles in Flammen! Plötzlich ändert sich ihre Miene; die<space quantity="1" unit="char"/></p>
             <cb n="6"/>
-            <p>
-               <lb facs="#facs_2_region_1776575588534_709_tl_1" n="N001"/>bestimmten Minute zur Probe einzutreffen. Was würde er
-               <lb facs="#facs_2_region_1776575588534_709_tl_2" n="N002"/>heute zu der Unpünktlichkeit sagen, welche im Théâtre Français
-               <lb facs="#facs_2_region_1776575588534_709_tl_3" n="N003"/>herrschend geworden? Besonders jüngere Schauspieler, die
-               <lb facs="#facs_2_region_1776575588534_709_tl_4" n="N004"/>Damen vor Allem, setzen einen Ehrenpunkt darein, auf sich
-               <lb facs="#facs_2_region_1776575588534_709_tl_5" n="N005"/>warten zu lassen. Abermals ein Zeichen der Zeit. Die Ideen
-               <lb facs="#facs_2_region_1776575588534_709_tl_6" n="N006"/>der Disciplin, der allgemeinen Regel sind nicht mehr Mode.
-               <lb facs="#facs_2_region_1776575588534_709_tl_7" n="N007"/>Es gibt keine Milchstraße mehr im Reiche der Kunst;
-               <lb facs="#facs_2_region_1776575588534_709_tl_8" n="N008"/>jeder Einzelne will ein Stern für sich sein, der seine eigene
-               <lb facs="#facs_2_region_1776575588534_709_tl_9" n="N009"/>Bahn beschreibt und um welchen womöglich die übrigen Sterne
-               <lb facs="#facs_2_region_1776575588534_709_tl_10" n="N010"/>kreisen.
-               <lb facs="#facs_2_region_1776575588534_709_tl_11" n="N011"/>Und die gefeierte <hi rendition="#em">
-                  <rs type="person">Mars</rs>
-               </hi>, war sie hübsch? Außer dem
-               <lb facs="#facs_2_region_1776575588534_709_tl_12" n="N012"/>Theater gewiß nicht. Auf der Scene aber war sie mehr als
-               <lb facs="#facs_2_region_1776575588534_709_tl_13" n="N013"/>hübsch, sie war bezaubernd. So bezaubernd, daß <rs type="person">Scribe</rs> der
-               <lb facs="#facs_2_region_1776575588534_709_tl_14" n="N014"/>damals 45jährigen Frau (als <rs type="person">Valerie</rs>) den Ausruf: „Bin
-               <lb facs="#facs_2_region_1776575588534_709_tl_15" n="N015"/>ich nicht hübsch?“ in den Mund legen konnte und das
-               <lb facs="#facs_2_region_1776575588534_709_tl_16" n="N016"/>Publicum ihr durch allgemeinen Applaus antwortete. Auch
-               <lb facs="#facs_2_region_1776575588534_709_tl_17" n="N017"/>diese Bravos gehören in eine frühere Epoche; man würde
-               <lb facs="#facs_2_region_1776575588534_709_tl_18" n="N018"/>heute diesen Effect nicht wagen, nicht einmal mit einer jungen
-               <lb facs="#facs_2_region_1776575588534_709_tl_19" n="N019"/>Schauspielerin. Dazu gehörte das galante Publicum von
-               <lb facs="#facs_2_region_1776575588534_709_tl_20" n="N020"/>
-               <date>1824</date>. Durch den optischen Zauber des Theaters ist die
-               <lb facs="#facs_2_region_1776575588534_709_tl_21" n="N021"/>
-               <rs type="person">Mars</rs> fünfzig Jahre lang auf der Bühne ein Muster von
-               <lb facs="#facs_2_region_1776575588534_709_tl_22" n="N022"/>Jugend geblieben. Heftig wehrte sie sich gegen jede
-               <lb facs="#facs_2_region_1776575588534_709_tl_23" n="N023"/>ältere Rolle; nicht aus Eitelkeit, wie sie sagte,
-               <lb facs="#facs_2_region_1776575588534_709_tl_24" n="N024"/>sondern weil sie nur dann sie selbst war, wenn
-               <lb facs="#facs_2_region_1776575588534_709_tl_25" n="N025"/>sie sich jung fühlte. <rs type="person">Scribe</rs> hatte ihr die höchst
-               <lb facs="#facs_2_region_1776575588534_709_tl_26" n="N026"/>dankbare Rolle einer liebenswürdigen Großmutter zugedacht,
-               <lb facs="#facs_2_region_1776575588534_709_tl_27" n="N027"/>die trotz ihrer weißen Haare das Herz eines jungen Mannes
-               <lb facs="#facs_2_region_1776575588534_709_tl_28" n="N028"/>erobert, um es — ihrer Enkelin zu cediren. „Sprechen Sie
-               <lb facs="#facs_2_region_1776575588534_709_tl_29" n="N029"/>mir nicht von Ihrer Sechzigerin,“ eiferte die <rs type="person">Mars</rs>. „Erstens,
-               <lb facs="#facs_2_region_1776575588534_709_tl_30" n="N030"/>wenn ich einen jungen Mann eroberte, würde ich ihn nicht
-               <lb facs="#facs_2_region_1776575588534_709_tl_31" n="N031"/>hergeben. Außerdem hätte ich als Großmutter das Aussehen
-               <lb facs="#facs_2_region_1776575588534_709_tl_32" n="N032"/>einer Ur-Ur-Großmutter.“ Sie hatte Recht; sie konnte eben¬
-               <lb facs="#facs_2_region_1776575588534_709_tl_33" n="N033"/>sowenig eine Großmutter-Rolle ausführen, wie ein Tenor
-               <lb facs="#facs_2_region_1776575588534_709_tl_34" n="N034"/>eine Baßpartie. Unglücklicherweise wollte die arme Frau die
-               <lb facs="#facs_2_region_1776575588534_709_tl_35" n="N035"/>jugendlichen Rollen nicht blos, auf der Bühne beibehalten.
-               <lb facs="#facs_2_region_1776575588534_709_tl_36" n="N036"/>Sie litt unter den heftigsten Zerwürfnissen mit einem der
-               <lb facs="#facs_2_region_1776575588534_709_tl_37" n="N037"/>elegantesten jungen Männer von <rs type="place">Paris</rs>, der ihre Liebe theilte
-               <lb facs="#facs_2_region_1776575588534_709_tl_38" n="N038"/>— aber zu sehr ungleichen Theilen. Ganz einzig in ihrem
-               <lb facs="#facs_2_region_1776575588534_709_tl_39" n="N039"/>Talent und ebensosehr in ihrer außerordentlichen Gewissen¬
-               <lb facs="#facs_2_region_1776575588534_709_tl_40" n="N040"/>haftigkeit als Künstlerin, konnte sie im Verkehr mitunter
-               <lb facs="#facs_2_region_1776575588534_709_tl_41" n="N041"/>recht stachlig sein. Eines Abends sprach sie mit <rs type="person">Legouvé</rs>
-               <lb facs="#facs_2_region_1776575588534_709_tl_42" n="N042"/>hinter den Coulissen und erging sich in Klagen über den
-               <lb facs="#facs_2_region_1776575588534_709_tl_43" n="N043"/>Director. Sie war wüthend; Gesicht, Körper, Stimme —
-               <lb facs="#facs_2_region_1776575588534_709_tl_44" n="N044"/>Alles in Flammen! Plötzlich ändert sich ihre Miene; die
-            </p>
-            <cb n="7"/>
-            <p>
-               <lb facs="#facs_2_region_1776575593262_712_tl_1" n="N001"/>zornigen Worte bleiben dieselben, aber der Blick, der Ton
-               <lb facs="#facs_2_region_1776575593262_712_tl_2" n="N002"/>sänftigen sich, das Lächeln erblüht auf diesem von Beleidi¬
-               <lb facs="#facs_2_region_1776575593262_712_tl_3" n="N003"/>gungen überquellenden Mund; bei der letzten Phrase hatte
-               <lb facs="#facs_2_region_1776575593262_712_tl_4" n="N004"/>sie die Sprache einer Furie und das Antlitz eines Engels.
-               <lb facs="#facs_2_region_1776575593262_712_tl_5" n="N005"/>Was war geschehen? Während des Sprechens hatte sie die
-               <lb facs="#facs_2_region_1776575593262_712_tl_6" n="N006"/>Reden der Mitspielenden gehört und wahrgenommen, daß
-               <lb facs="#facs_2_region_1776575593262_712_tl_7" n="N007"/>ihr Auftritt bevorstehe. Und da sie sanft und liebenswürdig
-               <lb facs="#facs_2_region_1776575593262_712_tl_8" n="N008"/>auftreten sollte, hatte sie, mitten im Zorn, sich dazu vor¬
-               <lb facs="#facs_2_region_1776575593262_712_tl_9" n="N009"/>bereitet und die Physiognomie gewechselt, wie man ein
-               <lb facs="#facs_2_region_1776575593262_712_tl_10" n="N010"/>Theatercostüm wechselt. Nach der fünfundzwanzigsten Auf¬
-               <lb facs="#facs_2_region_1776575593262_712_tl_11" n="N011"/>führung der „<rs type="bibl">Louise von Lignerolles</rs>“ nahm die <rs type="person">Mars</rs> einen
-               <lb facs="#facs_2_region_1776575593262_712_tl_12" n="N012"/>vierwöchentlichen Urlaub und sollte am 1. October wieder
-               <lb facs="#facs_2_region_1776575593262_712_tl_13" n="N013"/>auftreten. Allein sie blieb volle sechs Monate aus und war
-               <lb facs="#facs_2_region_1776575593262_712_tl_14" n="N014"/>erst achtzehn Monate später zu bewegen, jene Glanzrolle
-               <lb facs="#facs_2_region_1776575593262_712_tl_15" n="N015"/>noch zwei- oder dreimal zu spielen. Ein Wort löst dieses
-               <lb facs="#facs_2_region_1776575593262_712_tl_16" n="N016"/>Räthsel. Die <hi rendition="#em">
-                  <rs type="person">Rachel</rs>
-               </hi> hatte im Monat September debütirt.
-               <lb facs="#facs_2_region_1776575593262_712_tl_17" n="N017"/>Der Glanz dieses neuen Sterns ängstigte die <rs type="person">Mars</rs>; sie
-               <lb facs="#facs_2_region_1776575593262_712_tl_18" n="N018"/>zog sich ins Dunkel, um nicht verdunkelt zu werden. Nur in
-               <lb facs="#facs_2_region_1776575593262_712_tl_19" n="N019"/>einer ganz neuen Rolle wollte sie noch einmal erscheinen,
-               <lb facs="#facs_2_region_1776575593262_712_tl_20" n="N020"/>Triumph gegen Triumph auszuspielen. Diese Rolle war
-               <lb facs="#facs_2_region_1776575593262_712_tl_21" n="N021"/>Mademoiselle de <rs type="person">Belle-Isle</rs>. Was das Théâtre Français
-               <lb facs="#facs_2_region_1776575593262_712_tl_22" n="N022"/>seither an jungen und reizenden Künstlerinnen besaß, ist in
-               <lb facs="#facs_2_region_1776575593262_712_tl_23" n="N023"/>dieser jungen Mädchenrolle aufgetreten; keine einzige hat darin
-               <lb facs="#facs_2_region_1776575593262_712_tl_24" n="N024"/>die 64jährige <rs type="person">Mars</rs> erreicht.
-               <lb facs="#facs_2_region_1776575593262_712_tl_25" n="N025"/>„<rs type="bibl">Adrienne Lecouvreur</rs>“, das auch in <rs type="place">Deutschland</rs> noch
-               <lb facs="#facs_2_region_1776575593262_712_tl_26" n="N026"/>immer beliebte Schauspiel, war von <rs type="person">Legouvé</rs> gemeinschaftlich
-               <lb facs="#facs_2_region_1776575593262_712_tl_27" n="N027"/>mit <rs type="person">Scribe</rs> verfaßt. <rs type="person">Scribe</rs>, der eine Rolle für die <rs type="person">Rachel</rs>
-               <lb facs="#facs_2_region_1776575593262_712_tl_28" n="N028"/>schreiben sollte, war in größter Verlegenheit, einen passenden
-               <lb facs="#facs_2_region_1776575593262_712_tl_29" n="N029"/>Stoff für sie zu finden, und verzweifelte fast daran, seine
-               <lb facs="#facs_2_region_1776575593262_712_tl_30" n="N030"/>bescheidene Prosa dem nur an <rs type="person">Corneille</rs> und <rs type="person">Racine</rs> ge¬
-               <lb facs="#facs_2_region_1776575593262_712_tl_31" n="N031"/>wöhnten Mund der Tragödin anzupassen. <rs type="person">Legouvé</rs> schlug
-               <lb facs="#facs_2_region_1776575593262_712_tl_32" n="N032"/>ihm als Sujet die Adrienne <rs type="person">Lecouvreur</rs> vor. <rs type="person">Scribe</rs> springt
-               <lb facs="#facs_2_region_1776575593262_712_tl_33" n="N033"/>entzückt vom Stuhl auf und umarmt seinen jungen Freund
-               <lb facs="#facs_2_region_1776575593262_712_tl_34" n="N034"/>mit dem Ausruf: „Hundert Aufführungen, jede zu 6000
-               <lb facs="#facs_2_region_1776575593262_712_tl_36" n="N035"/>Francs!“ — „Glauben Sie?“ „Ich glaube es nicht, ich bin
-               <lb facs="#facs_2_region_1776575593262_712_tl_38" n="N036"/>dessen gewiß! Sie haben das einzige Mittel gefunden, die
-               <lb facs="#facs_2_region_1776575593262_712_tl_39" n="N037"/>
-               <rs type="person">Rachel</rs> Prosa sprechen zu machen.“ Die Beiden arbeiten
-               <lb facs="#facs_2_region_1776575593262_712_tl_40" n="N038"/>eifrig an dem Stück, sind damit zufrieden, und <rs type="person">Scribe</rs> liest
-               <lb facs="#facs_2_region_1776575593262_712_tl_41" n="N039"/>es am 6. October <date>1848</date> den Schauspielern des Théâtre
-               <lb facs="#facs_2_region_1776575593262_712_tl_42" n="N040"/>Français vor. Es wird einstimmig — abgelehnt. Die <rs type="person">Rachel</rs>
-               <lb facs="#facs_2_region_1776575593262_712_tl_43" n="N041"/>weigerte sich entschieden, die Rolle zu übernehmen. Niemals
-               <lb facs="#facs_2_region_1776575593262_712_tl_44" n="N042"/>könne sie, die Tochter <rs type="person">Corneille</rs>’s und <rs type="person">Racine</rs>’s, das Pathen¬
-               <lb facs="#facs_2_region_1776575593262_712_tl_45" n="N043"/>kind <rs type="person">Scribe</rs>’s werden, niemals werde <rs type="person">Phädra</rs> und <rs type="person" continued="true">Andro¬</rs>
-               <lb facs="#facs_2_region_1776575593262_712_tl_46" n="N044"/>
-               <rs type="person" continued="true">mache</rs> diese Canaille darstellen! Wie es kam, daß sechs
-            </p>
+            <p prev="true">
+         <lb facs="#facs_2_region_1776575593262_712_tl_1" n="N001"/>zornigen Worte bleiben dieselben, aber der Blick, der Ton
+         <lb facs="#facs_2_region_1776575593262_712_tl_2" n="N002"/>sänftigen sich, das Lächeln erblüht auf diesem von Beleidi
+         <lb facs="#facs_2_region_1776575593262_712_tl_3" n="N003" break="no"/>gungen überquellenden Mund; bei der letzten Phrase hatte
+         <lb facs="#facs_2_region_1776575593262_712_tl_4" n="N004"/>sie die Sprache einer Furie und das Antlitz eines Engels.
+         <lb facs="#facs_2_region_1776575593262_712_tl_5" n="N005"/>Was war geschehen? Während des Sprechens hatte sie die
+         <lb facs="#facs_2_region_1776575593262_712_tl_6" n="N006"/>Reden der Mitspielenden gehört und wahrgenommen, daß
+         <lb facs="#facs_2_region_1776575593262_712_tl_7" n="N007"/>ihr Auftritt bevorstehe. Und da sie sanft und liebenswürdig
+         <lb facs="#facs_2_region_1776575593262_712_tl_8" n="N008"/>auftreten sollte, hatte sie, mitten im Zorn, sich dazu vor
+         <lb facs="#facs_2_region_1776575593262_712_tl_9" n="N009" break="no"/>bereitet und die Physiognomie gewechselt, wie man ein
+         <lb facs="#facs_2_region_1776575593262_712_tl_10" n="N010"/>Theatercostüm wechselt. Nach der fünfundzwanzigsten Auf
+         <lb facs="#facs_2_region_1776575593262_712_tl_11" n="N011" break="no"/>führung der „<rs type="bibl">Louise von Lignerolles</rs>“ nahm die <rs type="person">Mars</rs> einen
+         <lb facs="#facs_2_region_1776575593262_712_tl_12" n="N012"/>vierwöchentlichen Urlaub und sollte am 1. October wieder
+         <lb facs="#facs_2_region_1776575593262_712_tl_13" n="N013"/>auftreten. Allein sie blieb volle sechs Monate aus und war
+         <lb facs="#facs_2_region_1776575593262_712_tl_14" n="N014"/>erst achtzehn Monate später zu bewegen, jene Glanzrolle
+         <lb facs="#facs_2_region_1776575593262_712_tl_15" n="N015"/>noch zwei- oder dreimal zu spielen. Ein Wort löst dieses
+         <lb facs="#facs_2_region_1776575593262_712_tl_16" n="N016"/>Räthsel. Die <hi rendition="#em"><rs type="person">Rachel</rs></hi> hatte im Monat September debütirt.
+         <lb facs="#facs_2_region_1776575593262_712_tl_17" n="N017"/>Der Glanz dieses neuen Sterns ängstigte die <rs type="person">Mars</rs>; sie
+         <lb facs="#facs_2_region_1776575593262_712_tl_18" n="N018"/>zog sich ins Dunkel, um nicht verdunkelt zu werden. Nur in
+         <lb facs="#facs_2_region_1776575593262_712_tl_19" n="N019"/>einer ganz neuen Rolle wollte sie noch einmal erscheinen,
+         <lb facs="#facs_2_region_1776575593262_712_tl_20" n="N020"/>Triumph gegen Triumph auszuspielen. Diese Rolle war
+         <lb facs="#facs_2_region_1776575593262_712_tl_21" n="N021"/>Mademoiselle de <rs type="person">Belle-Isle</rs>. Was das Théâtre Français
+         <lb facs="#facs_2_region_1776575593262_712_tl_22" n="N022"/>seither an jungen und reizenden Künstlerinnen besaß, ist in
+         <lb facs="#facs_2_region_1776575593262_712_tl_23" n="N023"/>dieser jungen Mädchenrolle aufgetreten; keine einzige hat darin
+         <lb facs="#facs_2_region_1776575593262_712_tl_24" n="N024"/>die 64jährige <rs type="person">Mars</rs> erreicht.
+            </p><p>
+         <lb facs="#facs_2_region_1776575593262_712_tl_25" n="N025"/>„<rs type="bibl">Adrienne Lecouvreur</rs>“, das auch in <rs type="place">Deutschland</rs> noch
+         <lb facs="#facs_2_region_1776575593262_712_tl_26" n="N026"/>immer beliebte Schauspiel, war von <rs type="person">Legouvé</rs> gemeinschaftlich
+         <lb facs="#facs_2_region_1776575593262_712_tl_27" n="N027"/>mit <rs type="person">Scribe</rs> verfaßt. <rs type="person">Scribe</rs>, der eine Rolle für die <rs type="person">Rachel</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1776575593262_712_tl_28" n="N028"/>schreiben sollte, war in größter Verlegenheit, einen passenden
+         <lb facs="#facs_2_region_1776575593262_712_tl_29" n="N029"/>Stoff für sie zu finden, und verzweifelte fast daran, seine
+         <lb facs="#facs_2_region_1776575593262_712_tl_30" n="N030"/>bescheidene Prosa dem nur an <rs type="person">Corneille</rs> und <rs type="person">Racine</rs> ge
+         <lb facs="#facs_2_region_1776575593262_712_tl_31" n="N031" break="no"/>wöhnten Mund der Tragödin anzupassen. <rs type="person">Legouvé</rs> schlug
+         <lb facs="#facs_2_region_1776575593262_712_tl_32" n="N032"/>ihm als Sujet die Adrienne <rs type="person">Lecouvreur</rs> vor. <rs type="person">Scribe</rs> springt
+         <lb facs="#facs_2_region_1776575593262_712_tl_33" n="N033"/>entzückt vom Stuhl auf und umarmt seinen jungen Freund
+         <lb facs="#facs_2_region_1776575593262_712_tl_34" n="N034"/>mit dem Ausruf: „Hundert Aufführungen, jede zu 6000
+         <lb facs="#facs_2_region_1776575593262_712_tl_36" n="N035"/>Francs!“ — „Glauben Sie?“ „Ich glaube es nicht, ich bin
+         <lb facs="#facs_2_region_1776575593262_712_tl_38" n="N036"/>dessen gewiß! Sie haben das einzige Mittel gefunden, die
+         <lb facs="#facs_2_region_1776575593262_712_tl_39" n="N037"/><rs type="person">Rachel</rs> Prosa sprechen zu machen.“ Die Beiden arbeiten
+         <lb facs="#facs_2_region_1776575593262_712_tl_40" n="N038"/>eifrig an dem Stück, sind damit zufrieden, und <rs type="person">Scribe</rs> liest
+         <lb facs="#facs_2_region_1776575593262_712_tl_41" n="N039"/>es am 6. October <date>1848</date> den Schauspielern des Théâtre
+         <lb facs="#facs_2_region_1776575593262_712_tl_42" n="N040"/>Français vor. Es wird einstimmig — abgelehnt. Die <rs type="person">Rachel</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1776575593262_712_tl_43" n="N041"/>weigerte sich entschieden, die Rolle zu übernehmen. Niemals
+         <lb facs="#facs_2_region_1776575593262_712_tl_44" n="N042"/>könne sie, die Tochter <rs type="person">Corneille</rs>’s und <rs type="person">Racine</rs>’s, das Pathen
+         <lb facs="#facs_2_region_1776575593262_712_tl_45" n="N043" break="no"/>kind <rs type="person">Scribe</rs>’s werden, niemals werde <rs type="person">Phädra</rs> und <rs type="person">Andro
+         <lb facs="#facs_2_region_1776575593262_712_tl_46" n="N044" break="no"/>mache</rs> diese Canaille darstellen! Wie es kam, daß sechs<space quantity="1" unit="char"/></p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1776575605021_718_tl_1" n="N001"/>Monate später „<rs type="bibl">Adrienne Lecouvreur</rs>“ dennoch im Théâtre
+         <lb facs="#facs_3_region_1776575605021_718_tl_2" n="N002"/>Français gespielt und eine Lieblingsrolle der <rs type="person">Rachel</rs> wurde?
+         <lb facs="#facs_3_region_1776575605021_718_tl_3" n="N003"/><rs type="person">Legouvé</rs> hat das Wunder vollbracht, indem er ihr die Rolle ganz
+         <lb facs="#facs_3_region_1776575605021_718_tl_4" n="N004"/>in <hi rendition="#em">ihrem</hi> Geiste vorlas, das Große, Heroische im Charakter
+         <lb facs="#facs_3_region_1776575605021_718_tl_5" n="N005"/>der <rs type="person">Adrienne</rs> hervorhebend. Sie war entzückt, ergriffen, be
+         <lb facs="#facs_3_region_1776575605021_718_tl_6" n="N006" break="no"/>zwungen. Der Vorleser hatte den Dichter gerettet. Täglich
+         <lb facs="#facs_3_region_1776575605021_718_tl_7" n="N007"/>studirte nun <rs type="person">Legouvé</rs> durch mehrere Stunden die Rolle mit
+         <lb facs="#facs_3_region_1776575605021_718_tl_8" n="N008"/>der <rs type="person">Rachel</rs>. Nicht genug kann er ihre Auffassungsgabe, ihr
+         <lb facs="#facs_3_region_1776575605021_718_tl_9" n="N009"/>Talent der Assimilirung, ihren unermüdlichen Fleiß rühmen.
+         <lb facs="#facs_3_region_1776575605021_718_tl_10" n="N010"/>Nicht die geringste Künstler-Eitelkeit, nicht die kleinste Laune
+         <lb facs="#facs_3_region_1776575605021_718_tl_11" n="N011"/>eines enfant gâté. Sie war vollständig in der Kunst und
+         <lb facs="#facs_3_region_1776575605021_718_tl_12" n="N012"/>nur für die Kunst. Später übernahm sie auch die Rolle der
+         <lb facs="#facs_3_region_1776575605021_718_tl_13" n="N013"/><rs type="person">Mars</rs> in „<rs type="bibl">Louise Lignerolles</rs>“, und da triumphirte nicht
+         <lb facs="#facs_3_region_1776575605021_718_tl_14" n="N014"/>blos ihr Talent, sondern auch ihre Toilette. Das Theater
+         <lb facs="#facs_3_region_1776575605021_718_tl_15" n="N015"/>hatte ihr — mit einem wahren Schmerzensgeheul — vier
+         <lb facs="#facs_3_region_1776575605021_718_tl_16" n="N016"/>Toiletten bezahlt, Alle zusammen mit 1500 Francs. Man
+         <lb facs="#facs_3_region_1776575605021_718_tl_17" n="N017"/>geberdete sich, als wäre das Theater ruinirt. Heute dürften
+         <lb facs="#facs_3_region_1776575605021_718_tl_18" n="N018"/>diese Toiletten 6000 Francs kosten; man würde sie zahlen,
+         <lb facs="#facs_3_region_1776575605021_718_tl_19" n="N019"/>ohne ein Wort zu verlieren, und man thäte recht daran.
+            </p><p>
+         <lb facs="#facs_3_region_1776575605021_718_tl_20" n="N020"/>Die <rs type="person">Rachel</rs> war ein gar wunderliches, widerspruchsvolles
+         <lb facs="#facs_3_region_1776575605021_718_tl_21" n="N021"/>Geschöpf. Die zärtlichste Schwester, die opferwilligste Mutter,
+         <lb facs="#facs_3_region_1776575605021_718_tl_22" n="N022"/>vergöttert von ihren Angehörigen und ihren Untergebenen,
+         <lb facs="#facs_3_region_1776575605021_718_tl_23" n="N023"/>bis zum letzten Theater-Arbeiter herab. Aber veränderlich bis
+         <lb facs="#facs_3_region_1776575605021_718_tl_24" n="N024"/>zur Unkenntlichkeit. Es ward ihr nur wohl in den grellsten
+         <lb facs="#facs_3_region_1776575605021_718_tl_25" n="N025"/>Gegensätzen. Eines Abends trat <rs type="person">Legouvé</rs> in ihre Theater-
+         <lb facs="#facs_3_region_1776575605021_718_tl_26" n="N026"/>Garderobe, als sie gerade im Costüm der <rs type="person">Virginia</rs> einen
+         <lb facs="#facs_3_region_1776575605021_718_tl_27" n="N027"/>ausgelassenen Cancan tanzte. „Aber, Mademoiselle <rs type="person">Rachel</rs>!“
+         <lb facs="#facs_3_region_1776575605021_718_tl_29" n="N028"/>ruft er entsetzt, „nicht in diesem Costüme! Das ist ja ab
+         <lb facs="#facs_3_line_1783502362056_467" n="N029" break="no"/>scheulich!“ — „Gerade weil es abscheulich ist, ist es reizend,
+         <lb facs="#facs_3_line_1783502365022_470" n="N030"/>Sie Einfaltspinsel!“ antwortete sie lachend. „Wissen Sie,
+         <lb facs="#facs_3_region_1776575605021_718_tl_33" n="N031"/>mein Freund, ich bin im Grunde doch eine kleine Seil
+         <lb facs="#facs_3_region_1776575605021_718_tl_34" n="N032" break="no"/>tänzerin.“ Das war richtig und auch wieder nicht. Sie war
+         <lb facs="#facs_3_region_1776575605021_718_tl_35" n="N033"/>eine Seiltänzerin, und sie war auch eine <rs type="person">Virginia</rs>. Tragödin
+         <lb facs="#facs_3_region_1776575605021_718_tl_36" n="N034"/>durch ihr Gesicht, ihre Stimme, ihren Gang, ihren Verstand,
+         <lb facs="#facs_3_region_1776575605021_718_tl_37" n="N035"/>war die <rs type="person">Rachel</rs> im Grund ihrer Seele Comödiantin. Einmal,
+         <lb facs="#facs_3_region_1776575605021_718_tl_38" n="N036"/>nach einer aristokratischen Soirée, wo sie sich ganz als große
+         <lb facs="#facs_3_region_1776575605021_718_tl_39" n="N037"/>Dame aufspielte, fühlte sie das Bedürfniß, sich zu „ent
+         <lb facs="#facs_3_region_1776575605021_718_tl_40" n="N038" break="no"/>herzogen“ und überließ sich vor einigen Freunden den
+         <lb facs="#facs_3_region_1776575605021_718_tl_41" n="N039"/>frivolsten Pantomimen. Es nistete ein kleiner, spöttischer,
+         <lb facs="#facs_3_region_1776575605021_718_tl_42" n="N040"/>frecher Kobold in ihr, welcher jeden Augenblick, auch in dem
+         <lb facs="#facs_3_region_1776575605021_718_tl_43" n="N041"/>ernsthaftesten, unversehens auftauchte. Sie konnte manchmal
+         <lb facs="#facs_3_region_1776575605021_718_tl_44" n="N042"/>ihren intimen Freunden die schmerzlichsten Bekenntnisse
+         <lb facs="#facs_3_region_1776575605021_718_tl_45" n="N043"/>machen, die bittersten Klagen über ihre Fehler und Ver
+         <lb facs="#facs_3_region_1776575605021_718_tl_46" n="N044" break="no"/>irrungen ausstoßen, mit zitternder Stimme und thränen</p>
             <cb n="8"/>
-            <p>
-               <lb facs="#facs_3_region_1776575605021_718_tl_1" n="N001"/>Monate später „<rs type="bibl">Adrienne Lecouvreur</rs>“ dennoch im Théâtre
-               <lb facs="#facs_3_region_1776575605021_718_tl_2" n="N002"/>Français gespielt und eine Lieblingsrolle der <rs type="person">Rachel</rs> wurde?
-               <lb facs="#facs_3_region_1776575605021_718_tl_3" n="N003"/>
-               <rs type="person">Legouvé</rs> hat das Wunder vollbracht, indem er ihr die Rolle ganz
-               <lb facs="#facs_3_region_1776575605021_718_tl_4" n="N004"/>in <hi rendition="#em">ihrem</hi> Geiste vorlas, das Große, Heroische im Charakter
-               <lb facs="#facs_3_region_1776575605021_718_tl_5" n="N005"/>der <rs type="person">Adrienne</rs> hervorhebend. Sie war entzückt, ergriffen, be¬
-               <lb facs="#facs_3_region_1776575605021_718_tl_6" n="N006"/>zwungen. Der Vorleser hatte den Dichter gerettet. Täglich
-               <lb facs="#facs_3_region_1776575605021_718_tl_7" n="N007"/>studirte nun <rs type="person">Legouvé</rs> durch mehrere Stunden die Rolle mit
-               <lb facs="#facs_3_region_1776575605021_718_tl_8" n="N008"/>der <rs type="person">Rachel</rs>. Nicht genug kann er ihre Auffassungsgabe, ihr
-               <lb facs="#facs_3_region_1776575605021_718_tl_9" n="N009"/>Talent der Assimilirung, ihren unermüdlichen Fleiß rühmen.
-               <lb facs="#facs_3_region_1776575605021_718_tl_10" n="N010"/>Nicht die geringste Künstler-Eitelkeit, nicht die kleinste Laune
-               <lb facs="#facs_3_region_1776575605021_718_tl_11" n="N011"/>eines enfant gâté. Sie war vollständig in der Kunst und
-               <lb facs="#facs_3_region_1776575605021_718_tl_12" n="N012"/>nur für die Kunst. Später übernahm sie auch die Rolle der
-               <lb facs="#facs_3_region_1776575605021_718_tl_13" n="N013"/>
-               <rs type="person">Mars</rs> in „<rs type="bibl">Louise Lignerolles</rs>“, und da triumphirte nicht
-               <lb facs="#facs_3_region_1776575605021_718_tl_14" n="N014"/>blos ihr Talent, sondern auch ihre Toilette. Das Theater
-               <lb facs="#facs_3_region_1776575605021_718_tl_15" n="N015"/>hatte ihr — mit einem wahren Schmerzensgeheul — vier
-               <lb facs="#facs_3_region_1776575605021_718_tl_16" n="N016"/>Toiletten bezahlt, Alle zusammen mit 1500 Francs. Man
-               <lb facs="#facs_3_region_1776575605021_718_tl_17" n="N017"/>geberdete sich, als wäre das Theater ruinirt. Heute dürften
-               <lb facs="#facs_3_region_1776575605021_718_tl_18" n="N018"/>diese Toiletten 6000 Francs kosten; man würde sie zahlen,
-               <lb facs="#facs_3_region_1776575605021_718_tl_19" n="N019"/>ohne ein Wort zu verlieren, und man thäte recht daran.
-               <lb facs="#facs_3_region_1776575605021_718_tl_20" n="N020"/>Die <rs type="person">Rachel</rs> war ein gar wunderliches, widerspruchsvolles
-               <lb facs="#facs_3_region_1776575605021_718_tl_21" n="N021"/>Geschöpf. Die zärtlichste Schwester, die opferwilligste Mutter,
-               <lb facs="#facs_3_region_1776575605021_718_tl_22" n="N022"/>vergöttert von ihren Angehörigen und ihren Untergebenen,
-               <lb facs="#facs_3_region_1776575605021_718_tl_23" n="N023"/>bis zum letzten Theater-Arbeiter herab. Aber veränderlich bis
-               <lb facs="#facs_3_region_1776575605021_718_tl_24" n="N024"/>zur Unkenntlichkeit. Es ward ihr nur wohl in den grellsten
-               <lb facs="#facs_3_region_1776575605021_718_tl_25" n="N025"/>Gegensätzen. Eines Abends trat <rs type="person">Legouvé</rs> in ihre Theater-
-               <lb facs="#facs_3_region_1776575605021_718_tl_26" n="N026"/>Garderobe, als sie gerade im Costüm der <rs type="person">Virginia</rs> einen
-               <lb facs="#facs_3_region_1776575605021_718_tl_27" n="N027"/>ausgelassenen Cancan tanzte. „Aber, Mademoiselle <rs type="person">Rachel</rs>!“
-               <lb facs="#facs_3_region_1776575605021_718_tl_29" n="N028"/>ruft er entsetzt, „nicht in diesem Costüme! Das ist ja ab¬
-               <lb facs="#facs_3_line_1783502362056_467" n="N029"/>scheulich!“ — „Gerade weil es abscheulich ist, ist es reizend,
-               <lb facs="#facs_3_line_1783502365022_470" n="N030"/>Sie Einfaltspinsel!“ antwortete sie lachend. „Wissen Sie,
-               <lb facs="#facs_3_region_1776575605021_718_tl_33" n="N031"/>mein Freund, ich bin im Grunde doch eine kleine Seil¬
-               <lb facs="#facs_3_region_1776575605021_718_tl_34" n="N032"/>tänzerin.“ Das war richtig und auch wieder nicht. Sie war
-               <lb facs="#facs_3_region_1776575605021_718_tl_35" n="N033"/>eine Seiltänzerin, und sie war auch eine <rs type="person">Virginia</rs>. Tragödin
-               <lb facs="#facs_3_region_1776575605021_718_tl_36" n="N034"/>durch ihr Gesicht, ihre Stimme, ihren Gang, ihren Verstand,
-               <lb facs="#facs_3_region_1776575605021_718_tl_37" n="N035"/>war die <rs type="person">Rachel</rs> im Grund ihrer Seele Comödiantin. Einmal,
-               <lb facs="#facs_3_region_1776575605021_718_tl_38" n="N036"/>nach einer aristokratischen Soirée, wo sie sich ganz als große
-               <lb facs="#facs_3_region_1776575605021_718_tl_39" n="N037"/>Dame aufspielte, fühlte sie das Bedürfniß, sich zu „ent¬
-               <lb facs="#facs_3_region_1776575605021_718_tl_40" n="N038"/>herzogen“ und überließ sich vor einigen Freunden den
-               <lb facs="#facs_3_region_1776575605021_718_tl_41" n="N039"/>frivolsten Pantomimen. Es nistete ein kleiner, spöttischer,
-               <lb facs="#facs_3_region_1776575605021_718_tl_42" n="N040"/>frecher Kobold in ihr, welcher jeden Augenblick, auch in dem
-               <lb facs="#facs_3_region_1776575605021_718_tl_43" n="N041"/>ernsthaftesten, unversehens auftauchte. Sie konnte manchmal
-               <lb facs="#facs_3_region_1776575605021_718_tl_44" n="N042"/>ihren intimen Freunden die schmerzlichsten Bekenntnisse
-               <lb facs="#facs_3_region_1776575605021_718_tl_45" n="N043"/>machen, die bittersten Klagen über ihre Fehler und Ver¬
-               <lb facs="#facs_3_region_1776575605021_718_tl_46" n="N044"/>irrungen ausstoßen, mit zitternder Stimme und thränen¬
-            </p>
+            <p prev="true">
+         <lb facs="#facs_3_region_1776575610213_721_tl_1" n="N001" break="no"/>schweren Augen — um dann plötzlich den tief Ergriffenen
+         <lb facs="#facs_3_region_1776575610213_721_tl_2" n="N002"/>lachend zuzurufen: „Nun, habe ich nicht gut gespielt?“
+            </p><p>
+         <lb facs="#facs_3_region_1776575610213_721_tl_3" n="N003"/>Ueber das Leben und die Thätigkeit Eugène <hi rendition="#em"><rs type="person">Scribe</rs>’s</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1776575610213_721_tl_4" n="N004"/>erhalten wir manche neue charakteristische Mittheilung. Die
+         <lb facs="#facs_3_region_1776575610213_721_tl_5" n="N005"/>Schärfe seines Theaterblickes, die Schnelligkeit seiner Auf
+         <lb facs="#facs_3_region_1776575610213_721_tl_6" n="N006" break="no"/>fassung und Ausführung schildert <rs type="person">Legouvé</rs> als erstaunlich.
+         <lb facs="#facs_3_region_1776575610213_721_tl_7" n="N007"/>Kaum hatte man <rs type="person">Scribe</rs> ein Sujet vorgeschlagen, so begann
+         <lb facs="#facs_3_region_1776575610213_721_tl_8" n="N008"/>er auch schon die genaue Aufeinanderfolge der Scenen zu
+         <lb facs="#facs_3_region_1776575610213_721_tl_9" n="N009"/>nummeriren. Die beiden wichtigsten Eigenschaften eines dra
+         <lb facs="#facs_3_region_1776575610213_721_tl_10" n="N010" break="no"/>matischen Dichters: die Erfindung und die Einbildungskraft
+         <lb facs="#facs_3_region_1776575610213_721_tl_11" n="N011"/>— Fähigkeiten, die einander unterstützen, aber keineswegs
+         <lb facs="#facs_3_region_1776575610213_721_tl_12" n="N012"/>immer vereint oder ebenbürtig vorkommen — <hi rendition="#em"><rs type="person">Scribe</rs></hi> be
+         <lb facs="#facs_3_region_1776575610213_721_tl_13" n="N013" break="no"/>saß sie in gleichmäßig hohem Grade. Die Erfindung schafft,
+         <lb facs="#facs_3_region_1776575610213_721_tl_14" n="N014"/>die Einbildungskraft führt aus. Ebenso bewunderungswürdig
+         <lb facs="#facs_3_region_1776575610213_721_tl_15" n="N015"/>war seine Fähigkeit, augenblicklich etwas umzugestalten, zu
+         <lb facs="#facs_3_region_1776575610213_721_tl_16" n="N016" break="no"/>rechtzurücken. Eines Tages consultirte ihn ein <rs type="person">College</rs> über
+         <lb facs="#facs_3_region_1776575610213_721_tl_17" n="N017"/>in fünfactiges Drama sehr düstern Inhalts. „Nun Ihre
+         <lb facs="#facs_3_region_1776575610213_721_tl_18" n="N018"/>Meinung?“ fragt der <rs type="person">Autor</rs> nach dem ersten Acte. „Lesen
+         <lb facs="#facs_3_region_1776575610213_721_tl_19" n="N019"/>Sie weiter!“ Es geschieht, und je weiter die Lectüre vor
+         <lb facs="#facs_3_region_1776575610213_721_tl_20" n="N020" break="no"/>schreitet, desto trauriger wird die Handlung und desto heiterer
+         <lb facs="#facs_3_region_1776575610213_721_tl_21" n="N021"/>das Gesicht <rs type="person">Scribe</rs>’s. Ein wenig betroffen über diesen uner
+         <lb facs="#facs_3_region_1776575610213_721_tl_22" n="N022" break="no"/>warteten Eindruck, stottert der <rs type="person">Dichter</rs> und verwirrt sich, bis
+         <lb facs="#facs_3_region_1776575610213_721_tl_23" n="N023"/>endlich <rs type="person">Scribe</rs> mit dem Ausrufe: „Das ist ja zum Todt
+         <lb facs="#facs_3_region_1776575610213_721_tl_24" n="N024" break="no"/>lachen!“ herausplatzt. „Genug, genug!“ ruft der gekränkte
+         <lb facs="#facs_3_region_1776575610213_721_tl_27" n="N025"/><rs type="person">Autor</rs>, „ich sehe ja, daß mein Stück schlecht ist!“ — „Wie,
+         <lb facs="#facs_3_region_1776575610213_721_tl_28" n="N026"/>schlecht? Sagen Sie doch ausgezeichnet, köstlich! Es hat
+         <lb facs="#facs_3_region_1776575610213_721_tl_29" n="N027"/>Effecte von unwiderstehlicher Komik. Wie amüsant denke ich
+         <lb facs="#facs_3_region_1776575610213_721_tl_30" n="N028"/>mir <hi rendition="#em"><rs type="person">Arnal</rs></hi> in der Hauptrolle!“ Bei dem Namen des Lust
+         <lb facs="#facs_3_region_1776575610213_721_tl_31" n="N029" break="no"/>spiel-Komikers <rs type="person">Arnal</rs> bäumt sich der <rs type="person">Tragödiendichter</rs> entrüstet;
+         <lb facs="#facs_3_region_1776575610213_721_tl_32" n="N030"/>er denkt, <rs type="person">Scribe</rs> habe gar nicht zugehört. Aber <rs type="person">Scribe</rs> hatte
+         <lb facs="#facs_3_region_1776575610213_721_tl_33" n="N031"/>das Stück nicht blos gehört, er hatte es während des
+         <lb facs="#facs_3_region_1776575610213_721_tl_34" n="N032"/>Hörens gleich umgearbeitet, und am Ende der Vorlesung
+         <lb facs="#facs_3_region_1776575610213_721_tl_35" n="N033"/>war aus dem schwerfälligen, finstern fünfactigen Drama ein
+         <lb facs="#facs_3_region_1776575610213_721_tl_36" n="N034"/>reizendes einactiges Lustspiel geworden: „<rs type="bibl">La Chanoinesse</rs>“.
+            </p><p>
+         <lb facs="#facs_3_region_1776575610213_721_tl_37" n="N035"/>Die namentlich im Lustspiel ganz moderne Kunst der
+         <lb facs="#facs_3_region_1776575610213_721_tl_38" n="N036"/>Mise-en-scène verdanken wir <rs type="person">Scribe</rs>. Ehedem schrieb der
+         <lb facs="#facs_3_region_1776575610213_721_tl_39" n="N037"/>Autor zwar auf sein Manuscript: „Die Scene spielt in
+         <lb facs="#facs_3_region_1776575610213_721_tl_40" n="N038"/>einem Salon“, aber nichts geschah da, wie in einem Salon.
+         <lb facs="#facs_3_region_1776575610213_721_tl_41" n="N039"/>Für’s Erste: man setzte sich nicht nieder. Die Künstler des
+         <lb facs="#facs_3_region_1776575610213_721_tl_42" n="N040"/>Théâtre Français recitirten ihre Reden stehend, einer neben
+         <lb facs="#facs_3_region_1776575610213_721_tl_43" n="N041"/>dem andern, vor dem Souffleurkasten. <rs type="person">Scribe</rs> hat zuerst die
+         <lb facs="#facs_3_region_1776575610213_721_tl_44" n="N042"/>ganze Lebendigkeit des wirklichen Verkehrs auf die Bühne
+         <lb facs="#facs_3_region_1776575610213_721_tl_45" n="N043"/>geworfen. Die Natur seines Talents zwang ihn dazu. Seine
+         <lb facs="#facs_3_region_1776575610213_721_tl_46" n="N044"/>leicht und rasch hinfließenden Lustspiele mit ihren vielen un</p>
             <cb n="9"/>
-            <p>
-               <lb facs="#facs_3_region_1776575610213_721_tl_1" n="N001"/>schweren Augen — um dann plötzlich den tief Ergriffenen
-               <lb facs="#facs_3_region_1776575610213_721_tl_2" n="N002"/>lachend zuzurufen: „Nun, habe ich nicht gut gespielt?“
-               <lb facs="#facs_3_region_1776575610213_721_tl_3" n="N003"/>Ueber das Leben und die Thätigkeit Eugène <hi rendition="#em">
-                  <rs type="person">Scribe</rs>’s</hi>
-               <lb facs="#facs_3_region_1776575610213_721_tl_4" n="N004"/>erhalten wir manche neue charakteristische Mittheilung. Die
-               <lb facs="#facs_3_region_1776575610213_721_tl_5" n="N005"/>Schärfe seines Theaterblickes, die Schnelligkeit seiner Auf¬
-               <lb facs="#facs_3_region_1776575610213_721_tl_6" n="N006"/>fassung und Ausführung schildert <rs type="person">Legouvé</rs> als erstaunlich.
-               <lb facs="#facs_3_region_1776575610213_721_tl_7" n="N007"/>Kaum hatte man <rs type="person">Scribe</rs> ein Sujet vorgeschlagen, so begann
-               <lb facs="#facs_3_region_1776575610213_721_tl_8" n="N008"/>er auch schon die genaue Aufeinanderfolge der Scenen zu
-               <lb facs="#facs_3_region_1776575610213_721_tl_9" n="N009"/>nummeriren. Die beiden wichtigsten Eigenschaften eines dra¬
-               <lb facs="#facs_3_region_1776575610213_721_tl_10" n="N010"/>matischen Dichters: die Erfindung und die Einbildungskraft
-               <lb facs="#facs_3_region_1776575610213_721_tl_11" n="N011"/>— Fähigkeiten, die einander unterstützen, aber keineswegs
-               <lb facs="#facs_3_region_1776575610213_721_tl_12" n="N012"/>immer vereint oder ebenbürtig vorkommen — <hi rendition="#em">
-                  <rs type="person">Scribe</rs>
-               </hi> be¬
-               <lb facs="#facs_3_region_1776575610213_721_tl_13" n="N013"/>saß sie in gleichmäßig hohem Grade. Die Erfindung schafft,
-               <lb facs="#facs_3_region_1776575610213_721_tl_14" n="N014"/>die Einbildungskraft führt aus. Ebenso bewunderungswürdig
-               <lb facs="#facs_3_region_1776575610213_721_tl_15" n="N015"/>war seine Fähigkeit, augenblicklich etwas umzugestalten, zu¬
-               <lb facs="#facs_3_region_1776575610213_721_tl_16" n="N016"/>rechtzurücken. Eines Tages consultirte ihn ein <rs type="person">College</rs> über
-               <lb facs="#facs_3_region_1776575610213_721_tl_17" n="N017"/>in fünfactiges Drama sehr düstern Inhalts. „Nun Ihre
-               <lb facs="#facs_3_region_1776575610213_721_tl_18" n="N018"/>Meinung?“ fragt der <rs type="person">Autor</rs> nach dem ersten Acte. „Lesen
-               <lb facs="#facs_3_region_1776575610213_721_tl_19" n="N019"/>Sie weiter!“ Es geschieht, und je weiter die Lectüre vor¬
-               <lb facs="#facs_3_region_1776575610213_721_tl_20" n="N020"/>schreitet, desto trauriger wird die Handlung und desto heiterer
-               <lb facs="#facs_3_region_1776575610213_721_tl_21" n="N021"/>das Gesicht <rs type="person">Scribe</rs>’s. Ein wenig betroffen über diesen uner¬
-               <lb facs="#facs_3_region_1776575610213_721_tl_22" n="N022"/>warteten Eindruck, stottert der <rs type="person">Dichter</rs> und verwirrt sich, bis
-               <lb facs="#facs_3_region_1776575610213_721_tl_23" n="N023"/>endlich <rs type="person">Scribe</rs> mit dem Ausrufe: „Das ist ja zum Todt¬
-               <lb facs="#facs_3_region_1776575610213_721_tl_24" n="N024"/>lachen!“ herausplatzt. „Genug, genug!“ ruft der gekränkte
-               <lb facs="#facs_3_region_1776575610213_721_tl_27" n="N025"/>
-               <rs type="person">Autor</rs>, „ich sehe ja, daß mein Stück schlecht ist!“ — „Wie,
-               <lb facs="#facs_3_region_1776575610213_721_tl_28" n="N026"/>schlecht? Sagen Sie doch ausgezeichnet, köstlich! Es hat
-               <lb facs="#facs_3_region_1776575610213_721_tl_29" n="N027"/>Effecte von unwiderstehlicher Komik. Wie amüsant denke ich
-               <lb facs="#facs_3_region_1776575610213_721_tl_30" n="N028"/>mir <hi rendition="#em">
-                  <rs type="person">Arnal</rs>
-               </hi> in der Hauptrolle!“ Bei dem Namen des Lust¬
-               <lb facs="#facs_3_region_1776575610213_721_tl_31" n="N029"/>spiel-Komikers <rs type="person">Arnal</rs> bäumt sich der <rs type="person">Tragödiendichter</rs> entrüstet;
-               <lb facs="#facs_3_region_1776575610213_721_tl_32" n="N030"/>er denkt, <rs type="person">Scribe</rs> habe gar nicht zugehört. Aber <rs type="person">Scribe</rs> hatte
-               <lb facs="#facs_3_region_1776575610213_721_tl_33" n="N031"/>das Stück nicht blos gehört, er hatte es während des
-               <lb facs="#facs_3_region_1776575610213_721_tl_34" n="N032"/>Hörens gleich umgearbeitet, und am Ende der Vorlesung
-               <lb facs="#facs_3_region_1776575610213_721_tl_35" n="N033"/>war aus dem schwerfälligen, finstern fünfactigen Drama ein
-               <lb facs="#facs_3_region_1776575610213_721_tl_36" n="N034"/>reizendes einactiges Lustspiel geworden: „<rs type="bibl">La Chanoinesse</rs>“.
-               <lb facs="#facs_3_region_1776575610213_721_tl_37" n="N035"/>Die namentlich im Lustspiel ganz moderne Kunst der
-               <lb facs="#facs_3_region_1776575610213_721_tl_38" n="N036"/>Mise-en-scène verdanken wir <rs type="person">Scribe</rs>. Ehedem schrieb der
-               <lb facs="#facs_3_region_1776575610213_721_tl_39" n="N037"/>Autor zwar auf sein Manuscript: „Die Scene spielt in
-               <lb facs="#facs_3_region_1776575610213_721_tl_40" n="N038"/>einem Salon“, aber nichts geschah da, wie in einem Salon.
-               <lb facs="#facs_3_region_1776575610213_721_tl_41" n="N039"/>Für’s Erste: man setzte sich nicht nieder. Die Künstler des
-               <lb facs="#facs_3_region_1776575610213_721_tl_42" n="N040"/>Théâtre Français recitirten ihre Reden stehend, einer neben
-               <lb facs="#facs_3_region_1776575610213_721_tl_43" n="N041"/>dem andern, vor dem Souffleurkasten. <rs type="person">Scribe</rs> hat zuerst die
-               <lb facs="#facs_3_region_1776575610213_721_tl_44" n="N042"/>ganze Lebendigkeit des wirklichen Verkehrs auf die Bühne
-               <lb facs="#facs_3_region_1776575610213_721_tl_45" n="N043"/>geworfen. Die Natur seines Talents zwang ihn dazu. Seine
-               <lb facs="#facs_3_region_1776575610213_721_tl_46" n="N044"/>leicht und rasch hinfließenden Lustspiele mit ihren vielen un¬
-            </p>
-            <cb n="10"/>
-            <p>
-               <lb facs="#facs_3_region_1776575614533_724_tl_1" n="N001"/>erwarteten Zwischenfällen vertrugen nicht die steife Gemessen¬
-               <lb facs="#facs_3_region_1776575614533_724_tl_2" n="N002"/>heit des früheren Theaters. Die Scenirung war, nach <rs type="person">Scribe</rs>’s
-               <lb facs="#facs_3_region_1776575614533_724_tl_3" n="N003"/>Ausspruch, eine zweite Schöpfung, gleichsam ein neues, dem
-               <lb facs="#facs_3_region_1776575614533_724_tl_4" n="N004"/>ersten hinzugefügtes Stück. Man mußte den Mann auf der
-               <lb facs="#facs_3_region_1776575614533_724_tl_5" n="N005"/>Bühne gesehen haben, wie er, stets die Brille auf die Stirne
-               <lb facs="#facs_3_region_1776575614533_724_tl_6" n="N006"/>zurückgeschoben, unermüdlich alle Rollen nacheinander vor¬
-               <lb facs="#facs_3_region_1776575614533_724_tl_7" n="N007"/>spielte, heute große Opernfinales wie zum Sturmlauf an¬
-               <lb facs="#facs_3_region_1776575614533_724_tl_8" n="N008"/>führte, morgen die graziöse Bewegung einer Lustspiel-Con¬
-               <lb facs="#facs_3_region_1776575614533_724_tl_9" n="N009"/>versation lenkte. Wenn <rs type="person">Scribe</rs> der Begründer der modernen
-               <lb facs="#facs_3_region_1776575614533_724_tl_10" n="N010"/>Scenirung heißen darf, so fehlten ihm doch gänzlich zwei
-               <lb facs="#facs_3_region_1776575614533_724_tl_11" n="N011"/>wichtige Elemente dieser Kunst. Er verstand sich weder auf
-               <lb facs="#facs_3_region_1776575614533_724_tl_12" n="N012"/>Costüme noch auf Decorationen. Wie seltsam! Seine Phan¬
-               <lb facs="#facs_3_region_1776575614533_724_tl_13" n="N013"/>tasie, zugleich vagabundirend und häuslich, spazierte in allen
-               <lb facs="#facs_3_region_1776575614533_724_tl_14" n="N014"/>Ländern der Welt umher und blieb doch immer in <rs type="place">Paris</rs>.
-               <lb facs="#facs_3_region_1776575614533_724_tl_15" n="N015"/>An die Spitze seiner Opern-Librettos setzte er: Die Handlung
-               <lb facs="#facs_3_region_1776575614533_724_tl_16" n="N016"/>spielt in <rs type="place">Madrid</rs>; die Handlung spielt in <rs type="place">Peking</rs>; in Wahr¬
-               <lb facs="#facs_3_region_1776575614533_724_tl_17" n="N017"/>heit spielte sie jederzeit in <rs type="place">Frankreich</rs>. Wenn er das Wort
-               <lb facs="#facs_3_region_1776575614533_724_tl_18" n="N018"/>„eine Küche“, „ein Wirthshaus“, „ein Palast“ niederschrieb,
-               <lb facs="#facs_3_region_1776575614533_724_tl_19" n="N019"/>sah er stets dieselbe Küche, dasselbe Wirthshaus, denselben
-               <lb facs="#facs_3_region_1776575614533_724_tl_20" n="N020"/>Palast. Die Personen behängte er in seinen Gedanken mit
-               <lb facs="#facs_3_region_1776575614533_724_tl_21" n="N021"/>Gott weiß welchen Kleidern und Lappen, welche nicht die
-               <lb facs="#facs_3_region_1776575614533_724_tl_22" n="N022"/>mindeste Beziehung zu dem Lande hatten. Er machte sie
-               <lb facs="#facs_3_region_1776575614533_724_tl_23" n="N023"/>sprechen, handeln, aber sie zu kleiden, zu logiren, das kümmerte
-               <lb facs="#facs_3_region_1776575614533_724_tl_24" n="N024"/>ihn nicht. Die malerische Seite der Dinge entging ihm,
-               <lb facs="#facs_3_region_1776575614533_724_tl_25" n="N025"/>sowie die charakteristische Seite der Personen. Dieser Mangel
-               <lb facs="#facs_3_region_1776575614533_724_tl_26" n="N026"/>ist kein blos äußerlicher: <rs type="person">Scribe</rs> fehlte die Empfindung für
-               <lb facs="#facs_3_region_1776575614533_724_tl_27" n="N027"/>Individualität. Zum Glücke hatte er in dem Director
-               <lb facs="#facs_3_region_1776575614533_724_tl_28" n="N028"/>
-               <hi rendition="#em">
-                  <rs type="person">Perrin</rs>
-               </hi> einen unschätzbaren Mitarbeiter gefunden, der ge¬
-               <lb facs="#facs_3_region_1776575614533_724_tl_29" n="N029"/>rade für Decorationen und Costüme den feinsten Instinct
-               <lb facs="#facs_3_line_1783503644898_563" n="N030"/>besaß.
-               <lb facs="#facs_3_region_1776575614533_724_tl_30" n="N031"/>Wir haben hier die umfangreichen <rs type="bibl">Memoiren</rs>
-               <rs type="person">Legouvé</rs>’s
-               <lb facs="#facs_3_region_1776575614533_724_tl_31" n="N032"/>nur zum kleinsten Theile und recht flüchtig gestreift. Bieten
-               <lb facs="#facs_3_region_1776575614533_724_tl_32" n="N033"/>sie doch zur <rs type="place">französisch</rs>en Theater-, Musik- und Literatur-
-               <lb facs="#facs_3_region_1776575614533_724_tl_33" n="N034"/>Geschichte der letzten sechzig Jahre eine Fülle werthvollster
-               <lb facs="#facs_3_region_1776575614533_724_tl_34" n="N035"/>Beiträge, die sich in eine große Galerie bedeutender Porträts
-               <lb facs="#facs_3_region_1776575614533_724_tl_35" n="N036"/>einfügen. <rs type="person">Legouvé</rs> selbst lernen wir darin als einen charakter¬
-               <lb facs="#facs_3_region_1776575614533_724_tl_36" n="N037"/>vollen, liebenswerthen Mann kennen, der mit echten Vorzügen
-               <lb facs="#facs_3_region_1776575614533_724_tl_37" n="N038"/>des Geistes und Herzens auch noch das schöne Talent eines
-               <lb facs="#facs_3_region_1776575614533_724_tl_38" n="N039"/>glücklichen Alters verbindet. Er gibt das Recept dazu am
-               <lb facs="#facs_3_region_1776575614533_724_tl_39" n="N040"/>Ende des Buches in einem Vers, den er „zu seinem eigenen
-               <lb facs="#facs_3_region_1776575614533_724_tl_40" n="N041"/>Gebrauch“ gemacht hat, der aber auch jedem andern Lebens¬
-               <lb facs="#facs_3_region_1776575614533_724_tl_41" n="N042"/>lauf zum Vortheil gedeihen wird:
-               <lb facs="#facs_3_region_1776575614533_724_tl_42" n="N043"/>Veux-tu savoir vieillir? Compte dans ta vieillesse,
-               <lb facs="#facs_3_region_1776575614533_724_tl_43" n="N044"/>Non ce qu’elle te prend, mais ce qu’elle te laisse.
+            <p prev="true">
+         <lb facs="#facs_3_region_1776575614533_724_tl_1" n="N001" break="no"/>erwarteten Zwischenfällen vertrugen nicht die steife Gemessen
+         <lb facs="#facs_3_region_1776575614533_724_tl_2" n="N002" break="no"/>heit des früheren Theaters. Die Scenirung war, nach <rs type="person">Scribe</rs>’s
+         <lb facs="#facs_3_region_1776575614533_724_tl_3" n="N003"/>Ausspruch, eine zweite Schöpfung, gleichsam ein neues, dem
+         <lb facs="#facs_3_region_1776575614533_724_tl_4" n="N004"/>ersten hinzugefügtes Stück. Man mußte den Mann auf der
+         <lb facs="#facs_3_region_1776575614533_724_tl_5" n="N005"/>Bühne gesehen haben, wie er, stets die Brille auf die Stirne
+         <lb facs="#facs_3_region_1776575614533_724_tl_6" n="N006"/>zurückgeschoben, unermüdlich alle Rollen nacheinander vor
+         <lb facs="#facs_3_region_1776575614533_724_tl_7" n="N007" break="no"/>spielte, heute große Opernfinales wie zum Sturmlauf an
+         <lb facs="#facs_3_region_1776575614533_724_tl_8" n="N008" break="no"/>führte, morgen die graziöse Bewegung einer Lustspiel-Con
+         <lb facs="#facs_3_region_1776575614533_724_tl_9" n="N009" break="no"/>versation lenkte. Wenn <rs type="person">Scribe</rs> der Begründer der modernen
+         <lb facs="#facs_3_region_1776575614533_724_tl_10" n="N010"/>Scenirung heißen darf, so fehlten ihm doch gänzlich zwei
+         <lb facs="#facs_3_region_1776575614533_724_tl_11" n="N011"/>wichtige Elemente dieser Kunst. Er verstand sich weder auf
+         <lb facs="#facs_3_region_1776575614533_724_tl_12" n="N012"/>Costüme noch auf Decorationen. Wie seltsam! Seine Phan
+         <lb facs="#facs_3_region_1776575614533_724_tl_13" n="N013" break="no"/>tasie, zugleich vagabundirend und häuslich, spazierte in allen
+         <lb facs="#facs_3_region_1776575614533_724_tl_14" n="N014"/>Ländern der Welt umher und blieb doch immer in <rs type="place">Paris</rs>.
+         <lb facs="#facs_3_region_1776575614533_724_tl_15" n="N015"/>An die Spitze seiner Opern-Librettos setzte er: Die Handlung
+         <lb facs="#facs_3_region_1776575614533_724_tl_16" n="N016"/>spielt in <rs type="place">Madrid</rs>; die Handlung spielt in <rs type="place">Peking</rs>; in Wahr
+         <lb facs="#facs_3_region_1776575614533_724_tl_17" n="N017" break="no"/>heit spielte sie jederzeit in <rs type="place">Frankreich</rs>. Wenn er das Wort
+         <lb facs="#facs_3_region_1776575614533_724_tl_18" n="N018"/>„eine Küche“, „ein Wirthshaus“, „ein Palast“ niederschrieb,
+         <lb facs="#facs_3_region_1776575614533_724_tl_19" n="N019"/>sah er stets dieselbe Küche, dasselbe Wirthshaus, denselben
+         <lb facs="#facs_3_region_1776575614533_724_tl_20" n="N020"/>Palast. Die Personen behängte er in seinen Gedanken mit
+         <lb facs="#facs_3_region_1776575614533_724_tl_21" n="N021"/>Gott weiß welchen Kleidern und Lappen, welche nicht die
+         <lb facs="#facs_3_region_1776575614533_724_tl_22" n="N022"/>mindeste Beziehung zu dem Lande hatten. Er machte sie
+         <lb facs="#facs_3_region_1776575614533_724_tl_23" n="N023"/>sprechen, handeln, aber sie zu kleiden, zu logiren, das kümmerte
+         <lb facs="#facs_3_region_1776575614533_724_tl_24" n="N024"/>ihn nicht. Die malerische Seite der Dinge entging ihm,
+         <lb facs="#facs_3_region_1776575614533_724_tl_25" n="N025"/>sowie die charakteristische Seite der Personen. Dieser Mangel
+         <lb facs="#facs_3_region_1776575614533_724_tl_26" n="N026"/>ist kein blos äußerlicher: <rs type="person">Scribe</rs> fehlte die Empfindung für
+         <lb facs="#facs_3_region_1776575614533_724_tl_27" n="N027"/>Individualität. Zum Glücke hatte er in dem Director
+         <lb facs="#facs_3_region_1776575614533_724_tl_28" n="N028"/><hi rendition="#em"><rs type="person">Perrin</rs></hi> einen unschätzbaren Mitarbeiter gefunden, der ge
+         <lb facs="#facs_3_region_1776575614533_724_tl_29" n="N029" break="no"/>rade für Decorationen und Costüme den feinsten Instinct
+         <lb facs="#facs_3_line_1783503644898_563" n="N030"/>besaß.
+            </p><p>
+         <lb facs="#facs_3_region_1776575614533_724_tl_30" n="N031"/>Wir haben hier die umfangreichen <rs type="bibl">Memoiren</rs><space quantity="1" unit="char"/><rs type="person">Legouvé</rs>’s
+         <lb facs="#facs_3_region_1776575614533_724_tl_31" n="N032"/>nur zum kleinsten Theile und recht flüchtig gestreift. Bieten
+         <lb facs="#facs_3_region_1776575614533_724_tl_32" n="N033"/>sie doch zur <rs type="place">französisch</rs>en Theater-, Musik- und Literatur-
+         <lb facs="#facs_3_region_1776575614533_724_tl_33" n="N034"/>Geschichte der letzten sechzig Jahre eine Fülle werthvollster
+         <lb facs="#facs_3_region_1776575614533_724_tl_34" n="N035"/>Beiträge, die sich in eine große Galerie bedeutender Porträts
+         <lb facs="#facs_3_region_1776575614533_724_tl_35" n="N036"/>einfügen. <rs type="person">Legouvé</rs> selbst lernen wir darin als einen charakter
+         <lb facs="#facs_3_region_1776575614533_724_tl_36" n="N037" break="no"/>vollen, liebenswerthen Mann kennen, der mit echten Vorzügen
+         <lb facs="#facs_3_region_1776575614533_724_tl_37" n="N038"/>des Geistes und Herzens auch noch das schöne Talent eines
+         <lb facs="#facs_3_region_1776575614533_724_tl_38" n="N039"/>glücklichen Alters verbindet. Er gibt das Recept dazu am
+         <lb facs="#facs_3_region_1776575614533_724_tl_39" n="N040"/>Ende des Buches in einem Vers, den er „zu seinem eigenen
+         <lb facs="#facs_3_region_1776575614533_724_tl_40" n="N041"/>Gebrauch“ gemacht hat, der aber auch jedem andern Lebens
+         <lb facs="#facs_3_region_1776575614533_724_tl_41" n="N042" break="no"/>lauf zum Vortheil gedeihen wird:
+         <lb facs="#facs_3_region_1776575614533_724_tl_42" n="N043"/><l>Veux-tu savoir vieillir? Compte dans ta vieillesse,</l>
+         <lb facs="#facs_3_region_1776575614533_724_tl_43" n="N044"/><l>Non ce qu’elle te prend, mais ce qu’elle te laisse.</l>
             </p>
          </div>
       </body>
