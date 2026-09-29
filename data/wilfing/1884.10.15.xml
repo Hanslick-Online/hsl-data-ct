@@ -31,6 +31,7 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -77,16 +78,19 @@
                      <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1884-10-15">15.10.1884</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18841015"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -102,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-09-18">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-09-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-09-27">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1021,331 +1027,307 @@
       <body>
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
-            <p facs="#facs_1_region_1787722361082_568">
-               <lb facs="#facs_1_l_2" n="N001"/>TNeue Freie Presse</p>
-            <p facs="#facs_1_region_1787722363034_571">
-               <lb facs="#facs_1_region_1787722363034_571_tl_1" n="N001"/>Morgenblatt</p>
-            <p facs="#facs_1_region_1787722365602_574">
-               <lb facs="#facs_1_l_1" n="N001"/>Nr. 7233. Wien, Mittwoch, den 15. October 1884</p>
-            <p facs="#facs_1_region_1787722371722_577">
-               <lb facs="#facs_1_region_1787722371722_577_tl_1" n="N001"/>Zum <rs type="person">Strauß</rs>-Jubiläum.
-               <lb facs="#facs_1_region_1787722371722_577_tl_2" n="N002"/>
-               <hi rendition="#em">
-                  <rs type="place">Wien</rs>
-               </hi>, 15. October.
-               <lb facs="#facs_1_region_1787722371722_577_tl_3" n="N003"/>Ed. H. An der schönen blauen <rs type="place">Donau</rs> feiert man heute
-               <lb facs="#facs_1_region_1787722371722_577_tl_4" n="N004"/>ein gar fröhliches Jubiläum. Ein vierzigjähriges, also echtes
-               <lb facs="#facs_1_region_1787722371722_577_tl_5" n="N005"/>und rechtes; keins von den bequemen fünfundzwanzigjährigen
-               <lb facs="#facs_1_region_1787722371722_577_tl_6" n="N006"/>Jubiläen, wie sie neuestens in Schwang gekommen und uns
-               <lb facs="#facs_1_region_1787722371722_577_tl_7" n="N007"/>schon recht gleichgiltig geworden sind. Heute runden sich die
-               <lb facs="#facs_1_region_1787722371722_577_tl_8" n="N008"/>vierzig Jahre seit dem ersten öffentlichen Auftreten unseres
-               <lb facs="#facs_1_region_1787722371722_577_tl_9" n="N009"/>
-               <hi rendition="#em">Johann <rs type="person">Strauß</rs>
-               </hi>. Ist es denn wirklich wahr und kein
-               <lb facs="#facs_1_region_1787722371722_577_tl_10" n="N010"/>Rechnungsfehler, daß der Liebling der heutigen Jugend, dieser
-               <lb facs="#facs_1_region_1787722371722_577_tl_11" n="N011"/>buschige Schwarzkopf mit den blitzenden Augen, der kerzen¬
-               <lb facs="#facs_1_region_1787722371722_577_tl_12" n="N012"/>graden Haltung und schlanken Beweglichkeit auch schon ein
-               <lb facs="#facs_1_region_1787722371722_577_tl_13" n="N013"/>Liebling des vormärzlichen <rs type="place">Wien</rs> gewesen? Er ist doch gar
-               <lb facs="#facs_1_region_1787722371722_577_tl_14" n="N014"/>nicht alt, höchstens zwanzig Jahre älter, als er aussieht! Ja,
-               <lb facs="#facs_1_region_1787722371722_577_tl_15" n="N015"/>was ein <rs type="person">Strauß</rs> werden will, geigt beizeiten. Am 15. Octo¬
-               <lb facs="#facs_1_region_1787722371722_577_tl_16" n="N016"/>ber <date>1844</date> producirte sich der neunzehnjährige Johann <rs type="person">Strauß</rs>
-               <lb facs="#facs_1_region_1787722371722_577_tl_17" n="N017"/>zum erstenmale als Dirigent und Walzer-Componist in
-               <lb facs="#facs_1_region_1787722371722_577_tl_18" n="N018"/>
-               <rs type="place">Hietzing</rs> „bei Dommayer“, einer der letzten noch aufrecht¬
-               <lb facs="#facs_1_region_1787722371722_577_tl_19" n="N019"/>stehenden Unterhaltungsstätten Alt<rs type="place">wien</rs>s. Wie er im Aussehen
-               <lb facs="#facs_1_region_1787722371722_577_tl_20" n="N020"/>dem <rs type="person">Vater</rs> glich, nur hübscher, feiner, moderner, so trugen
-               <lb facs="#facs_1_region_1787722371722_577_tl_21" n="N021"/>auch seine Walzer den unverkennbar Strauß'schen Familien¬
-               <lb facs="#facs_1_region_1787722371722_577_tl_22" n="N022"/>zug, nicht ohne einen Stich ins Originelle. Die Wiener, die
-               <lb facs="#facs_1_region_1787722371722_577_tl_23" n="N023"/>erfahrenste Jury in solchen Dingen, erkannten sofort das
-               <lb facs="#facs_1_region_1787722371722_577_tl_24" n="N024"/>aufblühende Talent des jungen <rs type="person">Strauß</rs>, der bald aus eigener
-               <lb facs="#facs_1_region_1787722371722_577_tl_25" n="N025"/>Kraft den großen <rs type="person">Alten</rs> einzuholen versprach.
-               <lb facs="#facs_1_region_1787722371722_577_tl_26" n="N026"/>Man würde sehr irren mit der Vermuthung, sein be¬
-               <lb facs="#facs_1_region_1787722371722_577_tl_27" n="N027"/>rühmter Name habe die Carrière des jüngeren <rs type="person">Strauß</rs> ge¬
-               <lb facs="#facs_1_region_1787722371722_577_tl_28" n="N028"/>schaffen oder auch nur geebnet. Dem väterlichen Namen ver¬
-               <lb facs="#facs_1_region_1787722371722_577_tl_29" n="N029"/>dankte er thatsächlich sehr wenig, dem väterlichen Blute un¬
-               <lb facs="#facs_1_region_1787722371722_577_tl_30" n="N030"/>erforschlich viel. Der prickelnde Champagnergeist, die An¬
-               <lb facs="#facs_1_region_1787722371722_577_tl_31" n="N031"/>muth, die Sinnlichkeit des <rs type="person">Vater</rs>s wallten in hüpfenden Blut¬
-               <lb facs="#facs_1_region_1787722371722_577_tl_32" n="N032"/>wellen in den <rs type="person">Sohn</rs> über. Daß musikalisches Genie in einer
-               <lb facs="#facs_1_region_1787722371722_577_tl_33" n="N033"/>bestimmten künstlerischen Specialität erblich sein kann, sehen
-               <lb facs="#facs_1_region_1787722371722_577_tl_34" n="N034"/>wie an dem jüngeren <rs type="person">Strauß</rs>, daß es äußerst selten sich
-               <lb facs="#facs_1_region_1787722371722_577_tl_35" n="N035"/>wirklich vererbt, lehrt die Geschichte. Auch <hi rendition="#em">
-                  <rs type="person">Lanner</rs>'s</hi> Sohn,
-               <lb facs="#facs_1_region_1787722371722_577_tl_36" n="N036"/>
-               <rs type="person">August</rs>, folgte der Laufbahn seines hochbegabten Vaters, ein gnä¬
-               <lb facs="#facs_1_region_1787722371722_577_tl_37" n="N037"/>dig früher Tod kürzte ihm die Mißerfolge, die den Träger eines</p>
-            <p facs="#facs_1_region_1787722374866_580">
-               <lb facs="#facs_1_region_1787722374866_580_tl_1" n="N001"/>berühmten Namens mit zweiseitiger Schneide treffen. Vater
-               <lb facs="#facs_1_region_1787722374866_580_tl_2" n="N002"/>
-               <rs type="person">Strauß</rs> war nicht nur kein Förderer, sondern geradezu ein
-               <lb facs="#facs_1_region_1787722374866_580_tl_3" n="N003"/>feindliches Hemmniß für die musikalische Entwicklung seines
-               <lb facs="#facs_1_region_1787722374866_580_tl_4" n="N004"/>
-               <rs type="person">Sohn</rs>es. Er blieb taub für das leise anpochende Talent des
-               <lb facs="#facs_1_region_1787722374866_580_tl_5" n="N005"/>Knaben, und als dieses stärker anklopfte, rief er nicht Herein!
-               <lb facs="#facs_1_region_1787722374866_580_tl_6" n="N006"/>sondern ein zorniges Hinaus! Sein <rs type="person">Johann</rs> sollte der Musik
-               <lb facs="#facs_1_region_1787722374866_580_tl_7" n="N007"/>fernbleiben, sollte Techniker werden. Für ganz <rs type="place">Wien</rs> ein
-               <lb facs="#facs_1_region_1787722374866_580_tl_8" n="N008"/>unermüdlicher Freudenbringer, war Vater <rs type="person">Strauß</rs> ein Tyrann
-               <lb facs="#facs_1_region_1787722374866_580_tl_9" n="N009"/>in seiner Familie. Die Söhne wuchsen unter den verbittern¬
-               <lb facs="#facs_1_region_1787722374866_580_tl_10" n="N010"/>den und verderblichen Eindrücken eines verstörten Familien¬
-               <lb facs="#facs_1_region_1787722374866_580_tl_11" n="N011"/>lebens auf. Endlich emancipirte sich <rs type="person">Johann</rs>, vertrauend auf
-               <lb facs="#facs_1_region_1787722374866_580_tl_12" n="N012"/>sein Talent, dessen er sicher war, und entpuppte sich an jenem
-               <lb facs="#facs_1_region_1787722374866_580_tl_13" n="N013"/>Dommayer-Abend plötzlich als musikalischer Rivale seines
-               <lb facs="#facs_1_region_1787722374866_580_tl_14" n="N014"/>
-               <rs type="person">Vater</rs>s. Die drei ersten Werke, mit denen er debütirte,
-               <lb facs="#facs_1_region_1787722374866_580_tl_15" n="N015"/>waren die Walzer „<rs type="bibl">Gunstwerber</rs>“, „<rs type="bibl">Sinngedichte</rs>“ und die
-               <lb facs="#facs_1_region_1787722374866_580_tl_16" n="N016"/>„<rs type="bibl">Herzenslust-Polka</rs>“. Man sollte nicht unterlassen, sie bei
-               <lb facs="#facs_1_region_1787722374866_580_tl_17" n="N017"/>der Jubiläumsfeier dem heutigen <rs type="place">Wien</rs> vorzuführen, und
-               <lb facs="#facs_1_region_1787722374866_580_tl_18" n="N018"/>einige der reizendsten seiner längst vergessenen Jugendwalzer
-               <lb facs="#facs_1_region_1787722374866_580_tl_19" n="N019"/>dazu: die „<rs type="bibl">Liebeslieder</rs>“, „<rs type="bibl">Johanneskäferl</rs>“ u. A. Die durch
-               <lb facs="#facs_1_region_1787722374866_580_tl_20" n="N020"/>eine vergrämte Jugend zurückgedrängte Lebenslust gerieth
-               <lb facs="#facs_1_region_1787722374866_580_tl_21" n="N021"/>nun ins Ueberschäumen; beglückt durch sein Talent, berauscht
-               <lb facs="#facs_1_region_1787722374866_580_tl_22" n="N022"/>von seinen frühen Erfolgen, verhätschelt von den Frauen,
-               <lb facs="#facs_1_region_1787722374866_580_tl_23" n="N023"/>durchstürmte Johann <rs type="person">Strauß</rs> eine genußfrohe Jünglingszeit,
-               <lb facs="#facs_1_region_1787722374866_580_tl_24" n="N024"/>immer productiv, jederzeit frisch und unternehmend, dabei
-               <lb facs="#facs_1_region_1787722374866_580_tl_25" n="N025"/>leichtsinnig bis zum Abenteuerlichen. Bald nach seinem
-               <lb facs="#facs_1_region_1787722374866_580_tl_26" n="N026"/>
-               <rs type="place">Wien</rs>er Debut wagte er schon wiederholte große Kunstreisen
-               <lb facs="#facs_1_region_1787722374866_580_tl_27" n="N027"/>mit seinem Orchester. In diesem ganz neuen Unternehmen
-               <lb facs="#facs_1_region_1787722374866_580_tl_28" n="N028"/>war ihm sein <rs type="person">Vater</rs> vorangegangen — meines Wissens der
-               <lb facs="#facs_1_region_1787722374866_580_tl_29" n="N029"/>Erste, der es gewagt, mit Tanzmusik auf Kunstreisen zu
-               <lb facs="#facs_1_region_1787722374866_580_tl_30" n="N030"/>gehen, seine Walzer nicht in einem Tanzlocale für Ballgäste,
-               <lb facs="#facs_1_region_1787722374866_580_tl_31" n="N031"/>sondern im Concertsaale vor einem zuhörenden Publicum zu
-               <lb facs="#facs_1_region_1787722374866_580_tl_32" n="N032"/>produciren. Um die Mitte der Vierziger-Jahre spielte <rs type="person">Strauß</rs>
-               <lb facs="#facs_1_region_1787722374866_580_tl_33" n="N033"/>mit seinem Orchester in meiner Vaterstadt <rs type="place">Prag</rs>, im stän¬
-               <lb facs="#facs_1_region_1787722374866_580_tl_34" n="N034"/>dischen Theater. Leidenschaftlicher junger Musikfreund, fühlte
-               <lb facs="#facs_1_region_1787722374866_580_tl_35" n="N035"/>ich doch dafür gar kein Interesse und besuchte eine
-               <lb facs="#facs_1_region_1787722374866_580_tl_36" n="N036"/>einzige <rs type="person">Strauß</rs>'sche Production wegen der Ouver¬
-               <lb facs="#facs_1_region_1787722374866_580_tl_37" n="N037"/>türen von <rs type="person">Beethoven</rs> und <rs type="person">Weber</rs>, die das Programm
-               <lb facs="#facs_1_region_1787722374866_580_tl_38" n="N038"/>zierten. Auf die Walzer achtete ich kaum; sie kamen mir
-               <lb facs="#facs_1_region_1787722374866_580_tl_39" n="N039"/>einer wie der andere vor. Ich glaube das erwähnen zu
-               <lb facs="#facs_1_region_1787722374866_580_tl_40" n="N040"/>sollen, weil gewiß viele Musikfreunde einst die gleiche Er¬</p>
-            <p facs="#facs_1_region_1787722378691_583">
-               <lb facs="#facs_1_region_1787722378691_583_tl_1" n="N001"/>fahrung an sich gemacht haben — ein Beweis, daß diese
-               <lb facs="#facs_1_region_1787722378691_583_tl_2" n="N002"/>seltsam scheinende Anomalie in einem tieferen psychologischen
-               <lb facs="#facs_1_region_1787722378691_583_tl_3" n="N003"/>Grunde wurzelt. Mit Unrecht hält man die Jugend, weil
-               <lb facs="#facs_1_region_1787722378691_583_tl_4" n="N004"/>sie unsere glücklichste Zeit ist, auch rundweg für die lustigste,
-               <lb facs="#facs_1_region_1787722378691_583_tl_5" n="N005"/>für die nach Lustigem begehrlichste. Sie pflegt im Gegentheil
-               <lb facs="#facs_1_region_1787722378691_583_tl_6" n="N006"/>so beherrscht zu sein von den Idealen des Großen und Er¬
-               <lb facs="#facs_1_region_1787722378691_583_tl_7" n="N007"/>habenen, in ihren poetischen Neigungen so vorwiegend
-               <lb facs="#facs_1_region_1787722378691_583_tl_8" n="N008"/>pathetisch-sentimental, daß sie den Werth eines anspruchslos
-               <lb facs="#facs_1_region_1787722378691_583_tl_9" n="N009"/>heitern, im engsten Rahmen zierlichen Kunstgebildes gar nicht
-               <lb facs="#facs_1_region_1787722378691_583_tl_10" n="N010"/>begreift, ja es kaum zur Kunst rechnet. Es ist derselbe pathe¬
-               <lb facs="#facs_1_region_1787722378691_583_tl_11" n="N011"/>tische Zug, der uns junge Leute damals nach allen Auf¬
-               <lb facs="#facs_1_region_1787722378691_583_tl_12" n="N012"/>führungen <rs type="person">Schiller</rs>'scher oder <rs type="person">Shakspeare</rs>'scher Tragödien
-               <lb facs="#facs_1_region_1787722378691_583_tl_13" n="N013"/>lechzen machte, während es uns nicht einfiel, zu einem Lust¬
-               <lb facs="#facs_1_region_1787722378691_583_tl_14" n="N014"/>spiel ins Theater zu gehen. In der Musik waren <rs type="person">Beethoven</rs>'s
-               <lb facs="#facs_1_region_1787722378691_583_tl_15" n="N015"/>Symphonien, <rs type="person">Mendelssohn</rs>'s Ouvertüren, waren „<rs type="bibl">Don</rs>
-               <lb facs="#facs_1_region_1787722378691_583_tl_16" n="N016"/>
-               <rs type="bibl">Juan</rs>“, „<rs type="bibl">Fidelio</rs>“, „<rs type="bibl">Der Freischütz</rs>“, „<rs type="bibl">Euryanthe</rs>“ Gegenstand
-               <lb facs="#facs_1_region_1787722378691_583_tl_17" n="N017"/>unseres Entzückens, unserer Sehnsucht. Was sollten uns komische
-               <lb facs="#facs_1_region_1787722378691_583_tl_18" n="N018"/>Opern wie der „<rs type="bibl">Liebestrank</rs>“, „<rs type="bibl">Domino</rs>“ oder „<rs type="bibl">Barbier</rs>“,
-               <lb facs="#facs_1_region_1787722378691_583_tl_19" n="N019"/>die nur Melodie und Temperament hatten? O, über dies
-               <lb facs="#facs_1_region_1787722378691_583_tl_20" n="N020"/>kindische „nur“! Was sollte uns vollends Tanzmusik, außer
-               <lb facs="#facs_1_region_1787722378691_583_tl_21" n="N021"/>um dazu zu tanzen? Es gehört eben auch für die Klein¬
-               <lb facs="#facs_1_region_1787722378691_583_tl_22" n="N022"/>kunst, für die Miniaturschönheit eine gewisse Heranbildung;
-               <lb facs="#facs_1_region_1787722378691_583_tl_23" n="N023"/>ich wenigstens lernte erst später Tanzmusik nicht mit dem
-               <lb facs="#facs_1_region_1787722378691_583_tl_24" n="N024"/>ungeduldigen Ohr des Tanzlustigen, sondern mit dem auf¬
-               <lb facs="#facs_1_region_1787722378691_583_tl_25" n="N025"/>merksamen des Musikers anhören. Je reifer unser Geschmack
-               <lb facs="#facs_1_region_1787722378691_583_tl_26" n="N026"/>wird, je weniger blos stoffartig von dem Inhalt befangen,
-               <lb facs="#facs_1_region_1787722378691_583_tl_27" n="N027"/>wie es die Jugend ist, desto toleranter zuerst, desto empfäng¬
-               <lb facs="#facs_1_region_1787722378691_583_tl_28" n="N028"/>licher hierauf stellt er sich zu der heitern Kunst. Er kommt
-               <lb facs="#facs_1_region_1787722378691_583_tl_29" n="N029"/>endlich dahinter, daß auch in der Tanzmusik Genialität
-               <lb facs="#facs_1_region_1787722378691_583_tl_30" n="N030"/>möglich und auf dem schmalen Rosenblatt eines Walzers
-               <lb facs="#facs_1_region_1787722378691_583_tl_31" n="N031"/>Raum ist für einen sinnigen und liebenswürdigen Gedanken.
-               <lb facs="#facs_1_region_1787722378691_583_tl_32" n="N032"/>Ueberdies mag es gerade auch der Ernst des Lebens sein, der
-               <lb facs="#facs_1_region_1787722378691_583_tl_33" n="N033"/>als theuer bezahlter Pädagog uns allgemach empfänglich und
-               <lb facs="#facs_1_region_1787722378691_583_tl_34" n="N034"/>dankbar drillt für fröhliche Musik. So ging denn auch mir
-               <lb facs="#facs_1_region_1787722378691_583_tl_35" n="N035"/>in <rs type="place">Wien</rs> das Licht auf, das mit so anspruchslosem Zauber
-               <lb facs="#facs_1_region_1787722378691_583_tl_36" n="N036"/>aus <rs type="person">Strauß</rs>' und <rs type="person">Lanner</rs>'s Weisen leuchtet — in <rs type="place">Wien</rs>, wo
-               <lb facs="#facs_1_l_3" n="N037"/>die ganze Atmosphäre diesem Sauerstoff zuzuführen und
-               <lb facs="#facs_1_l" n="N038"/>in seinem Glanz zu funkeln schien. Ich halte <rs type="person">Strauß</rs> und <rs type="person">Lanner</rs>
-               <lb facs="#facs_1_region_1787722378691_583_tl_41" n="N039"/>ohneweiters für die originellsten und hinreißendsten Talente
-               <lb facs="#facs_1_region_1787722378691_583_tl_42" n="N040"/>in jener trostlosesten, nach<rs type="person">schubert</rs>ischen Epoche des <rs type="place">Wien</rs>er</p>
+            <cb n="1"/>
+            <lb facs="#facs_1_region_1787722371722_577_tl_1" n="N001"/><head type="h1">Zum <rs type="person" ref="#hsl_person_id_299">Strauß</rs>-Jubiläum.</head>
+            <lb facs="#facs_1_region_1787722371722_577_tl_2" n="N002"/><head type="h2"><hi rendition="#em"><rs type="place" ref="#hsl_place_id_55">Wien</rs></hi>, 15. October.</head>
+            <p>
+         <lb facs="#facs_1_region_1787722371722_577_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_1">Ed. H.</rs> An der schönen blauen <rs type="place" ref="#hsl_place_id_243">Donau</rs> feiert man heute
+         <lb facs="#facs_1_region_1787722371722_577_tl_4" n="N004"/>ein gar fröhliches Jubiläum. Ein vierzigjähriges, also echtes
+         <lb facs="#facs_1_region_1787722371722_577_tl_5" n="N005"/>und rechtes; keins von den bequemen fünfundzwanzigjährigen
+         <lb facs="#facs_1_region_1787722371722_577_tl_6" n="N006"/>Jubiläen, wie sie neuestens in Schwang gekommen und uns
+         <lb facs="#facs_1_region_1787722371722_577_tl_7" n="N007"/>schon recht gleichgiltig geworden sind. Heute runden sich die
+         <lb facs="#facs_1_region_1787722371722_577_tl_8" n="N008"/>vierzig Jahre seit dem ersten öffentlichen Auftreten unseres
+         <lb facs="#facs_1_region_1787722371722_577_tl_9" n="N009"/><hi rendition="#em">Johann <rs type="person" ref="#hsl_person_id_299">Strauß</rs></hi>. Ist es denn wirklich wahr und kein
+         <lb facs="#facs_1_region_1787722371722_577_tl_10" n="N010"/>Rechnungsfehler, daß der Liebling der heutigen Jugend, dieser
+         <lb facs="#facs_1_region_1787722371722_577_tl_11" n="N011"/>buschige Schwarzkopf mit den blitzenden Augen, der kerzen
+         <lb facs="#facs_1_region_1787722371722_577_tl_12" n="N012" break="no"/>graden Haltung und schlanken Beweglichkeit auch schon ein
+         <lb facs="#facs_1_region_1787722371722_577_tl_13" n="N013"/>Liebling des vormärzlichen <rs type="place" ref="#hsl_place_id_55">Wien</rs> gewesen? Er ist doch gar
+         <lb facs="#facs_1_region_1787722371722_577_tl_14" n="N014"/>nicht alt, höchstens zwanzig Jahre älter, als er aussieht! Ja,
+         <lb facs="#facs_1_region_1787722371722_577_tl_15" n="N015"/>was ein Strauß werden will, geigt beizeiten. Am 15. Octo
+         <lb facs="#facs_1_region_1787722371722_577_tl_16" n="N016" break="no"/>ber <date>1844</date> producirte sich der neunzehnjährige Johann <rs type="person" ref="#hsl_person_id_299">Strauß</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1787722371722_577_tl_17" n="N017"/>zum erstenmale als Dirigent und Walzer-Componist in
+         <lb facs="#facs_1_region_1787722371722_577_tl_18" n="N018"/><rs type="place" ref="#hsl_place_id_127">Hietzing</rs> „bei Dommayer“, einer der letzten noch aufrecht
+         <lb facs="#facs_1_region_1787722371722_577_tl_19" n="N019" break="no"/>stehenden Unterhaltungsstätten Alt<rs type="place" ref="#hsl_place_id_55">wien</rs>s. Wie er im Aussehen
+         <lb facs="#facs_1_region_1787722371722_577_tl_20" n="N020"/>dem <rs type="person" ref="#hsl_person_id_1150">Vater</rs> glich, nur hübscher, feiner, moderner, so trugen
+         <lb facs="#facs_1_region_1787722371722_577_tl_21" n="N021"/>auch seine Walzer den unverkennbar Strauß’schen Familien
+         <lb facs="#facs_1_region_1787722371722_577_tl_22" n="N022" break="no"/>zug, nicht ohne einen Stich ins Originelle. Die Wiener, die
+         <lb facs="#facs_1_region_1787722371722_577_tl_23" n="N023"/>erfahrenste Jury in solchen Dingen, erkannten sofort das
+         <lb facs="#facs_1_region_1787722371722_577_tl_24" n="N024"/>aufblühende Talent des jungen <rs type="person" ref="#hsl_person_id_299">Strauß</rs>, der bald aus eigener
+         <lb facs="#facs_1_region_1787722371722_577_tl_25" n="N025"/>Kraft den großen <rs type="person" ref="#hsl_person_id_1150">Alten</rs> einzuholen versprach.
+            </p><p>
+         <lb facs="#facs_1_region_1787722371722_577_tl_26" n="N026"/>Man würde sehr irren mit der Vermuthung, sein be
+         <lb facs="#facs_1_region_1787722371722_577_tl_27" n="N027" break="no"/>rühmter Name habe die Carrière des jüngeren <rs type="person" ref="#hsl_person_id_299">Strauß</rs> ge
+         <lb facs="#facs_1_region_1787722371722_577_tl_28" n="N028" break="no"/>schaffen oder auch nur geebnet. Dem väterlichen Namen ver
+         <lb facs="#facs_1_region_1787722371722_577_tl_29" n="N029" break="no"/>dankte er thatsächlich sehr wenig, dem väterlichen Blute un
+         <lb facs="#facs_1_region_1787722371722_577_tl_30" n="N030" break="no"/>erforschlich viel. Der prickelnde Champagnergeist, die An
+         <lb facs="#facs_1_region_1787722371722_577_tl_31" n="N031" break="no"/>muth, die Sinnlichkeit des <rs type="person" ref="#hsl_person_id_1150">Vater</rs>s wallten in hüpfenden Blut
+         <lb facs="#facs_1_region_1787722371722_577_tl_32" n="N032" break="no"/>wellen in den <rs type="person" ref="#hsl_person_id_299">Sohn</rs> über. Daß musikalisches Genie in einer
+         <lb facs="#facs_1_region_1787722371722_577_tl_33" n="N033"/>bestimmten künstlerischen Specialität erblich sein kann, sehen
+         <lb facs="#facs_1_region_1787722371722_577_tl_34" n="N034"/>wie an dem jüngeren <rs type="person" ref="#hsl_person_id_299">Strauß</rs>, daß es äußerst selten sich
+         <lb facs="#facs_1_region_1787722371722_577_tl_35" n="N035"/>wirklich vererbt, lehrt die Geschichte. Auch <hi rendition="#em"><rs type="person" ref="#hsl_person_id_724">Lanner</rs>’s</hi> Sohn,
+         <lb facs="#facs_1_region_1787722371722_577_tl_36" n="N036"/><rs type="person" ref="#hsl_person_id_9469">August</rs>, folgte der Laufbahn seines hochbegabten Vaters, ein gnä
+         <lb facs="#facs_1_region_1787722371722_577_tl_37" n="N037" break="no"/>dig früher Tod kürzte ihm die Mißerfolge, die den Träger eines<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+         <lb facs="#facs_1_region_1787722374866_580_tl_1" n="N001"/>berühmten Namens mit zweiseitiger Schneide treffen. Vater
+         <lb facs="#facs_1_region_1787722374866_580_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_1150">Strauß</rs> war nicht nur kein Förderer, sondern geradezu ein
+         <lb facs="#facs_1_region_1787722374866_580_tl_3" n="N003"/>feindliches Hemmniß für die musikalische Entwicklung seines
+         <lb facs="#facs_1_region_1787722374866_580_tl_4" n="N004"/><rs type="person" ref="#hsl_person_id_299">Sohn</rs>es. Er blieb taub für das leise anpochende Talent des
+         <lb facs="#facs_1_region_1787722374866_580_tl_5" n="N005"/>Knaben, und als dieses stärker anklopfte, rief er nicht Herein!
+         <lb facs="#facs_1_region_1787722374866_580_tl_6" n="N006"/>sondern ein zorniges Hinaus! Sein <rs type="person" ref="#hsl_person_id_299">Johann</rs> sollte der Musik
+         <lb facs="#facs_1_region_1787722374866_580_tl_7" n="N007"/>fernbleiben, sollte Techniker werden. Für ganz <rs type="place" ref="#hsl_place_id_55">Wien</rs> ein
+         <lb facs="#facs_1_region_1787722374866_580_tl_8" n="N008"/>unermüdlicher Freudenbringer, war Vater <rs type="person" ref="#hsl_person_id_1150">Strauß</rs> ein Tyrann
+         <lb facs="#facs_1_region_1787722374866_580_tl_9" n="N009"/>in seiner Familie. Die Söhne wuchsen unter den verbittern
+         <lb facs="#facs_1_region_1787722374866_580_tl_10" n="N010" break="no"/>den und verderblichen Eindrücken eines verstörten Familien
+         <lb facs="#facs_1_region_1787722374866_580_tl_11" n="N011" break="no"/>lebens auf. Endlich emancipirte sich <rs type="person" ref="#hsl_person_id_299">Johann</rs>, vertrauend auf
+         <lb facs="#facs_1_region_1787722374866_580_tl_12" n="N012"/>sein Talent, dessen er sicher war, und entpuppte sich an jenem
+         <lb facs="#facs_1_region_1787722374866_580_tl_13" n="N013"/>Dommayer-Abend plötzlich als musikalischer Rivale seines
+         <lb facs="#facs_1_region_1787722374866_580_tl_14" n="N014"/><rs type="person" ref="#hsl_person_id_1150">Vater</rs>s. Die drei ersten Werke, mit denen er debütirte,
+         <lb facs="#facs_1_region_1787722374866_580_tl_15" n="N015"/>waren die Walzer „<rs type="bibl" ref="#hsl_work_id_7031">Gunstwerber</rs>“, „<rs type="bibl" ref="#hsl_work_id_7029">Sinngedichte</rs>“ und die
+         <lb facs="#facs_1_region_1787722374866_580_tl_16" n="N016"/>„<rs type="bibl" ref="#hsl_work_id_7030">Herzenslust-Polka</rs>“. Man sollte nicht unterlassen, sie bei
+         <lb facs="#facs_1_region_1787722374866_580_tl_17" n="N017"/>der Jubiläumsfeier dem heutigen <rs type="place" ref="#hsl_place_id_55">Wien</rs> vorzuführen, und
+         <lb facs="#facs_1_region_1787722374866_580_tl_18" n="N018"/>einige der reizendsten seiner längst vergessenen Jugendwalzer
+         <lb facs="#facs_1_region_1787722374866_580_tl_19" n="N019"/>dazu: die „<rs type="bibl" ref="#hsl_work_id_1025">Liebeslieder</rs>“, „<rs type="bibl" ref="#hsl_work_id_4377">Johanneskäferl</rs>“ u. A. Die durch
+         <lb facs="#facs_1_region_1787722374866_580_tl_20" n="N020"/>eine vergrämte Jugend zurückgedrängte Lebenslust gerieth
+         <lb facs="#facs_1_region_1787722374866_580_tl_21" n="N021"/>nun ins Ueberschäumen; beglückt durch sein Talent, berauscht
+         <lb facs="#facs_1_region_1787722374866_580_tl_22" n="N022"/>von seinen frühen Erfolgen, verhätschelt von den Frauen,
+         <lb facs="#facs_1_region_1787722374866_580_tl_23" n="N023"/>durchstürmte Johann <rs type="person" ref="#hsl_person_id_1150">Strauß</rs> eine genußfrohe Jünglingszeit,
+         <lb facs="#facs_1_region_1787722374866_580_tl_24" n="N024"/>immer productiv, jederzeit frisch und unternehmend, dabei
+         <lb facs="#facs_1_region_1787722374866_580_tl_25" n="N025"/>leichtsinnig bis zum Abenteuerlichen. Bald nach seinem
+         <lb facs="#facs_1_region_1787722374866_580_tl_26" n="N026"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Debut wagte er schon wiederholte große Kunstreisen
+         <lb facs="#facs_1_region_1787722374866_580_tl_27" n="N027"/>mit seinem Orchester. In diesem ganz neuen Unternehmen
+         <lb facs="#facs_1_region_1787722374866_580_tl_28" n="N028"/>war ihm sein <rs type="person" ref="#hsl_person_id_1150">Vater</rs> vorangegangen — meines Wissens der
+         <lb facs="#facs_1_region_1787722374866_580_tl_29" n="N029"/>Erste, der es gewagt, mit Tanzmusik auf Kunstreisen zu
+         <lb facs="#facs_1_region_1787722374866_580_tl_30" n="N030"/>gehen, seine Walzer nicht in einem Tanzlocale für Ballgäste,
+         <lb facs="#facs_1_region_1787722374866_580_tl_31" n="N031"/>sondern im Concertsaale vor einem zuhörenden Publicum zu
+         <lb facs="#facs_1_region_1787722374866_580_tl_32" n="N032"/>produciren. Um die Mitte der Vierziger-Jahre spielte <rs type="person" ref="#hsl_person_id_1150">Strauß</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1787722374866_580_tl_33" n="N033"/>mit seinem Orchester in meiner Vaterstadt <rs type="place" ref="#hsl_place_id_45">Prag</rs>, im stän
+         <lb facs="#facs_1_region_1787722374866_580_tl_34" n="N034" break="no"/>dischen Theater. Leidenschaftlicher junger Musikfreund, fühlte
+         <lb facs="#facs_1_region_1787722374866_580_tl_35" n="N035"/>ich doch dafür gar kein Interesse und besuchte eine
+         <lb facs="#facs_1_region_1787722374866_580_tl_36" n="N036"/>einzige <rs type="person" ref="#hsl_person_id_1150">Strauß</rs>’sche Production wegen der Ouver
+         <lb facs="#facs_1_region_1787722374866_580_tl_37" n="N037" break="no"/>türen von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> und <rs type="person" ref="#hsl_person_id_321">Weber</rs>, die das Programm
+         <lb facs="#facs_1_region_1787722374866_580_tl_38" n="N038"/>zierten. Auf die Walzer achtete ich kaum; sie kamen mir
+         <lb facs="#facs_1_region_1787722374866_580_tl_39" n="N039"/>einer wie der andere vor. Ich glaube das erwähnen zu
+         <lb facs="#facs_1_region_1787722374866_580_tl_40" n="N040"/>sollen, weil gewiß viele Musikfreunde einst die gleiche Er</p>
+            <cb n="3"/>
+            <p prev="true">
+         <lb facs="#facs_1_region_1787722378691_583_tl_1" n="N001" break="no"/>fahrung an sich gemacht haben — ein Beweis, daß diese
+         <lb facs="#facs_1_region_1787722378691_583_tl_2" n="N002"/>seltsam scheinende Anomalie in einem tieferen psychologischen
+         <lb facs="#facs_1_region_1787722378691_583_tl_3" n="N003"/>Grunde wurzelt. Mit Unrecht hält man die Jugend, weil
+         <lb facs="#facs_1_region_1787722378691_583_tl_4" n="N004"/>sie unsere glücklichste Zeit ist, auch rundweg für die lustigste,
+         <lb facs="#facs_1_region_1787722378691_583_tl_5" n="N005"/>für die nach Lustigem begehrlichste. Sie pflegt im Gegentheil
+         <lb facs="#facs_1_region_1787722378691_583_tl_6" n="N006"/>so beherrscht zu sein von den Idealen des Großen und Er
+         <lb facs="#facs_1_region_1787722378691_583_tl_7" n="N007" break="no"/>habenen, in ihren poetischen Neigungen so vorwiegend
+         <lb facs="#facs_1_region_1787722378691_583_tl_8" n="N008"/>pathetisch-sentimental, daß sie den Werth eines anspruchslos
+         <lb facs="#facs_1_region_1787722378691_583_tl_9" n="N009"/>heitern, im engsten Rahmen zierlichen Kunstgebildes gar nicht
+         <lb facs="#facs_1_region_1787722378691_583_tl_10" n="N010"/>begreift, ja es kaum zur Kunst rechnet. Es ist derselbe pathe
+         <lb facs="#facs_1_region_1787722378691_583_tl_11" n="N011" break="no"/>tische Zug, der uns junge Leute damals nach allen Auf
+         <lb facs="#facs_1_region_1787722378691_583_tl_12" n="N012" break="no"/>führungen <rs type="person" ref="#hsl_person_id_248">Schiller</rs>’scher oder <rs type="person" ref="#hsl_person_id_287">Shakspeare</rs>’scher Tragödien
+         <lb facs="#facs_1_region_1787722378691_583_tl_13" n="N013"/>lechzen machte, während es uns nicht einfiel, zu einem Lust
+         <lb facs="#facs_1_region_1787722378691_583_tl_14" n="N014" break="no"/>spiel ins Theater zu gehen. In der Musik waren <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s
+         <lb facs="#facs_1_region_1787722378691_583_tl_15" n="N015"/>Symphonien, <rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs>’s Ouvertüren, waren „<rs type="bibl" ref="#hsl_work_id_174">Don
+         <lb facs="#facs_1_region_1787722378691_583_tl_16" n="N016"/>Juan</rs>“, „<rs type="bibl" ref="#hsl_work_id_348">Fidelio</rs>“, „<rs type="bibl" ref="#hsl_work_id_236">Der Freischütz</rs>“, „<rs type="bibl" ref="#hsl_work_id_201">Euryanthe</rs>“ Gegenstand
+         <lb facs="#facs_1_region_1787722378691_583_tl_17" n="N017"/>unseres Entzückens, unserer Sehnsucht. Was sollten uns komische
+         <lb facs="#facs_1_region_1787722378691_583_tl_18" n="N018"/>Opern wie der „<rs type="bibl" ref="#hsl_work_id_451">Liebestrank</rs>“, „<rs type="bibl" ref="#hsl_work_id_118">Domino</rs>“ oder „<rs type="bibl" ref="#hsl_work_id_176">Barbier</rs>“,
+         <lb facs="#facs_1_region_1787722378691_583_tl_19" n="N019"/>die nur Melodie und Temperament hatten? O, über dies
+         <lb facs="#facs_1_region_1787722378691_583_tl_20" n="N020"/>kindische „nur“! Was sollte uns vollends Tanzmusik, außer
+         <lb facs="#facs_1_region_1787722378691_583_tl_21" n="N021"/>um dazu zu tanzen? Es gehört eben auch für die Klein
+         <lb facs="#facs_1_region_1787722378691_583_tl_22" n="N022" break="no"/>kunst, für die Miniaturschönheit eine gewisse Heranbildung;
+         <lb facs="#facs_1_region_1787722378691_583_tl_23" n="N023"/>ich wenigstens lernte erst später Tanzmusik nicht mit dem
+         <lb facs="#facs_1_region_1787722378691_583_tl_24" n="N024"/>ungeduldigen Ohr des Tanzlustigen, sondern mit dem auf
+         <lb facs="#facs_1_region_1787722378691_583_tl_25" n="N025" break="no"/>merksamen des Musikers anhören. Je reifer unser Geschmack
+         <lb facs="#facs_1_region_1787722378691_583_tl_26" n="N026"/>wird, je weniger blos stoffartig von dem Inhalt befangen,
+         <lb facs="#facs_1_region_1787722378691_583_tl_27" n="N027"/>wie es die Jugend ist, desto toleranter zuerst, desto empfäng
+         <lb facs="#facs_1_region_1787722378691_583_tl_28" n="N028" break="no"/>licher hierauf stellt er sich zu der heitern Kunst. Er kommt
+         <lb facs="#facs_1_region_1787722378691_583_tl_29" n="N029"/>endlich dahinter, daß auch in der Tanzmusik Genialität
+         <lb facs="#facs_1_region_1787722378691_583_tl_30" n="N030"/>möglich und auf dem schmalen Rosenblatt eines Walzers
+         <lb facs="#facs_1_region_1787722378691_583_tl_31" n="N031"/>Raum ist für einen sinnigen und liebenswürdigen Gedanken.
+         <lb facs="#facs_1_region_1787722378691_583_tl_32" n="N032"/>Ueberdies mag es gerade auch der Ernst des Lebens sein, der
+         <lb facs="#facs_1_region_1787722378691_583_tl_33" n="N033"/>als theuer bezahlter Pädagog uns allgemach empfänglich und
+         <lb facs="#facs_1_region_1787722378691_583_tl_34" n="N034"/>dankbar drillt für fröhliche Musik. So ging denn auch mir
+         <lb facs="#facs_1_region_1787722378691_583_tl_35" n="N035"/>in <rs type="place" ref="#hsl_place_id_55">Wien</rs> das Licht auf, das mit so anspruchslosem Zauber
+         <lb facs="#facs_1_region_1787722378691_583_tl_36" n="N036"/>aus <rs type="person" ref="#hsl_person_id_1150">Strauß</rs>’ und <rs type="person" ref="#hsl_person_id_724">Lanner</rs>’s Weisen leuchtet — in <rs type="place" ref="#hsl_place_id_55">Wien</rs>, wo
+         <lb facs="#facs_1_l_3" n="N037"/>die ganze Atmosphäre diesem Sauerstoff zuzuführen und
+         <lb facs="#facs_1_l" n="N038"/>in seinem Glanz zu funkeln schien. Ich halte <rs type="person" ref="#hsl_person_id_1150">Strauß</rs> und <rs type="person" ref="#hsl_person_id_724">Lanner</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1787722378691_583_tl_41" n="N039"/>ohneweiters für die originellsten und hinreißendsten Talente
+         <lb facs="#facs_1_region_1787722378691_583_tl_42" n="N040"/>in jener trostlosesten, nach<rs type="person" ref="#hsl_person_id_279">schubert</rs>ischen Epoche des <rs type="place" ref="#hsl_place_id_55">Wien</rs>er<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <p facs="#facs_2_region_1787722393170_589">
-               <lb facs="#facs_2_region_1787722393170_589_tl_1" n="N001"/>Musiklebens. Sie beglückten das Volk und interessirten den
-               <lb facs="#facs_2_region_1787722393170_589_tl_2" n="N002"/>Musiker. Ihr kleines Genre haben die Beiden, einander er¬
-               <lb facs="#facs_2_region_1787722393170_589_tl_3" n="N003"/>gänzend, mit einem ungeahnten musikalischen Reiz und
-               <lb facs="#facs_2_region_1787722393170_589_tl_4" n="N004"/>poetischem Leben erfüllt. Man muß sich heute die frühere
-               <lb facs="#facs_2_region_1787722393170_589_tl_5" n="N005"/>Tanzmusik ansehen, um zu ermessen, was <rs type="person">Strauß</rs> und <rs type="person">Lanner</rs>
-               <lb facs="#facs_2_region_1787722393170_589_tl_6" n="N006"/>daraus gemacht. Wie erstaunlich dürr und unbedeutend sind
-               <lb facs="#facs_2_region_1787722393170_589_tl_7" n="N007"/>selbst <hi rendition="#em">
-                  <rs type="person">Mozart</rs>'s</hi> „<rs type="bibl">Deutsche</rs>“, <hi rendition="#em">
-                  <rs type="person">Beethoven</rs>'s</hi> „<rs type="bibl">Ländlerische</rs>
-               <lb facs="#facs_2_region_1787722393170_589_tl_8" n="N008"/>
-               <rs type="bibl">Tänze!</rs>“ Nur die akademischen, feierlichen Tänze, Menuett
-               <lb facs="#facs_2_region_1787722393170_589_tl_9" n="N009"/>und Polonaise, die jetzt aus den Ballsälen verschwunden sind,
-               <lb facs="#facs_2_region_1787722393170_589_tl_10" n="N010"/>fanden in den früheren Perioden auch musikalisch eine liebe¬
-               <lb facs="#facs_2_region_1787722393170_589_tl_11" n="N011"/>vollere und vornehmere Behandlung. Unsern heutigen Walzer
-               <lb facs="#facs_2_region_1787722393170_589_tl_12" n="N012"/>aber, den <rs type="place">Wien</rs>er Walzer, haben <rs type="person">Strauß</rs> und <rs type="person">Lanner</rs> ge¬
-               <lb facs="#facs_2_region_1787722393170_589_tl_13" n="N013"/>schaffen und damit den alten Ruhm der <rs type="place">österreichisch</rs>en Musik
-               <lb facs="#facs_2_region_1787722393170_589_tl_14" n="N014"/>allüberall zu einer Zeit aufrechterhalten, da es keinen genialen
-               <lb facs="#facs_2_region_1787722393170_589_tl_15" n="N015"/>
-               <rs type="place">Wien</rs>er Componisten mehr gab. <rs type="person">Strauß</rs> insbesondere war
-               <lb facs="#facs_2_region_1787722393170_589_tl_16" n="N016"/>ein volksthümlicher Musiker von außerordentlicher Begabung,
-               <lb facs="#facs_2_region_1787722393170_589_tl_17" n="N017"/>deren er sich selbst kaum recht bewußt war. Halb singende
-               <lb facs="#facs_2_region_1787722393170_589_tl_18" n="N018"/>
-               <rs type="person">Loreley</rs>, halb geigender <rs type="person">Rattenfänger</rs>, repräsentirte er eine
-               <lb facs="#facs_2_region_1787722393170_589_tl_19" n="N019"/>Naturkraft, wie sie nur aus dem musikalischen Boden <rs type="place" continued="true">Oester¬</rs>
-               <lb facs="#facs_2_region_1787722393170_589_tl_20" n="N020"/>
-               <rs type="place" continued="true">reich</rs>s hervorgehen konnte.
-               <lb facs="#facs_2_region_1787722393170_589_tl_21" n="N021"/>Wir sind nur scheinbar von unserm Jubilar abgekom¬
-               <lb facs="#facs_2_region_1787722393170_589_tl_22" n="N022"/>men. Man feiert den <rs type="person">Sohn</rs>, indem man den <rs type="person">Vater</rs> rühmt.
-               <lb facs="#facs_2_region_1787722393170_589_tl_23" n="N023"/>War doch von diesem begonnen, was jener mit gleich glän¬
-               <lb facs="#facs_2_region_1787722393170_589_tl_24" n="N024"/>zendem Talente, nur mit bewußterer künstlerischer Bildung
-               <lb facs="#facs_2_region_1787722393170_589_tl_25" n="N025"/>fortgesetzt und gesteigert hat. Als Tanzcomponist darf sich
-               <lb facs="#facs_2_region_1787722393170_589_tl_26" n="N026"/>
-               <rs type="person">Strauß</rs> Sohn einer noch unumschränkteren Herrschaft rühmen,
-               <lb facs="#facs_2_region_1787722393170_589_tl_27" n="N027"/>denn sein <rs type="person">Vater</rs> hatte noch Rivalen neben sich: zuerst <rs type="person">Lanner</rs>,
-               <lb facs="#facs_2_region_1787722393170_589_tl_28" n="N028"/>dann den eigenen <rs type="person">Sohn</rs>; außerdem rühmten sich gleichzeitig
-               <lb facs="#facs_2_region_1787722393170_589_tl_29" n="N029"/>noch <rs type="person">Labitzky</rs>, <rs type="person">Fahrbach</rs>, <rs type="person">Morelli</rs> und Andere eines ansehn¬
-               <lb facs="#facs_2_region_1787722393170_589_tl_30" n="N030"/>lichen, dankbaren Publicums. Neben <hi rendition="#em">unserm</hi> Johann
-               <lb facs="#facs_2_region_1787722393170_589_tl_31" n="N031"/>
-               <rs type="person">Strauß</rs> erscheint seit dem Tode seines <rs type="person">Vater</rs>s (<date>1849</date>) kein
-               <lb facs="#facs_2_region_1787722393170_589_tl_32" n="N032"/>nennenswerther Rivale; höchstens daß sein Bruder <rs type="person">Joseph</rs>
-               <lb facs="#facs_2_region_1787722393170_589_tl_33" n="N033"/>— ein sinniges, wenngleich nicht glänzendes Talent —
-               <lb facs="#facs_2_region_1787722393170_589_tl_34" n="N034"/>kurze Zeit als bescheidene Nebensonne ihn begleitete. Den
-               <lb facs="#facs_2_region_1787722393170_589_tl_35" n="N035"/>dritten Bruder, <rs type="person">Eduard</rs>, können wir neben diesen Beiden nicht
-               <lb facs="#facs_2_region_1787722393170_589_tl_36" n="N036"/>nennen; er besitzt eine schätzbare, spät errungene Routine,
-               <lb facs="#facs_2_region_1787722393170_589_tl_37" n="N037"/>aber von Haus aus kein eigenes musikalisches Vermögen.
-               <lb facs="#facs_2_region_1787722393170_589_tl_38" n="N038"/>Er ist ein apanagirter Prinz der Strauß-Dynastie. Der
-               <lb facs="#facs_2_region_1787722393170_589_tl_39" n="N039"/>starke, nun durch volle vierzig Jahre fortwirkende Zauber
-               <lb facs="#facs_2_region_1787722393170_589_tl_40" n="N040"/>unseres <rs type="person">Strauß</rs> erscheint um so bemerkenswerther, als dieser</p>
-            <p facs="#facs_2_region_1787722396266_592">
-               <lb facs="#facs_2_region_1787722396266_592_tl_1" n="N001"/>längst nicht mehr so günstige Verhältnisse, so unbedingt
-               <lb facs="#facs_2_region_1787722396266_592_tl_2" n="N002"/>hingebende Hörer bei uns vorfindet, wie sein <rs type="person">Vater</rs>.
-               <lb facs="#facs_2_region_1787722396266_592_tl_3" n="N003"/>Die Zeit der kindlichen Lust und Gemüthlichkeit war mit
-               <lb facs="#facs_2_region_1787722396266_592_tl_4" n="N004"/>den Ereignissen des Jahres <date>1848</date> vorüber, die Zeit, da man
-               <lb facs="#facs_2_region_1787722396266_592_tl_5" n="N005"/>sich <rs type="person">Strauß</rs> und <rs type="person">Lanner</rs> als die eigentlichen Regenten des
-               <lb facs="#facs_2_region_1787722396266_592_tl_6" n="N006"/>
-               <rs type="person">Grillparzer</rs>'schen „<rs type="bibl">Capua</rs>“ vorstellte. Sie haben <rs type="place">Wien</rs> manch
-               <lb facs="#facs_2_region_1787722396266_592_tl_7" n="N007"/>harten Vorwurf zugezogen, aber auch der poetischen Ver¬
-               <lb facs="#facs_2_region_1787722396266_592_tl_8" n="N008"/>klärung nicht entbehrt. Gerne gedenken wir der schwungvollen
-               <lb facs="#facs_2_region_1787722396266_592_tl_9" n="N009"/>Apostrophe <hi rendition="#em">Karl <rs type="person">Beck</rs>'s</hi>:
-               <lb facs="#facs_2_l" n="N010"/>O <rs type="person">Strauß</rs> und <rs type="person">Lanner</rs>! Wandernde Propheten,
-               <lb facs="#facs_2_l_1" n="N011"/>Die sich der Gott des Tanzes auserkor!
-               <lb facs="#facs_2_l_2" n="N012"/>An eurer Geige sprudelnden Gebeten
-               <lb facs="#facs_2_l_3" n="N013"/>Hängt Jung und Alt mit träumerischem Ohr.
-               <lb facs="#facs_2_l_4" n="N014"/>Zum Tempel wird der Tanzsaal, kunterbunter,
-               <lb facs="#facs_2_l_5" n="N015"/>Des Herzens Glocke tönt zum schönen Reigen,
-               <lb facs="#facs_2_l_6" n="N016"/>Wie Mädchenchöre klingen hell die Geigen,
-               <lb facs="#facs_2_l_7" n="N017"/>Von Kanzeln spricht der ernste Baß herunter.
-               <lb facs="#facs_2_region_1787722396266_592_tl_20" n="N018"/>Vorbei, für alle Zeit vorbei! Auch die Walzerkunst in
-               <lb facs="#facs_2_region_1787722396266_592_tl_21" n="N019"/>
-               <rs type="place">Wien</rs> ist im Aussterben, täuschen wir uns nicht darüber.
-               <lb facs="#facs_2_region_1787722396266_592_tl_22" n="N020"/>Die steht jetzt auf zwei Augen. Man wird auch ferner neue
-               <lb facs="#facs_2_region_1787722396266_592_tl_23" n="N021"/>Walzer liefern, gewiß, wie man andere Artikel producirt,
-               <lb facs="#facs_2_region_1787722396266_592_tl_24" n="N022"/>nach welchen Nachfrage ist. Aber <hi rendition="#em">
-                  <rs type="person">Strauß</rs>
-               </hi>'sche Walzer
-               <lb facs="#facs_2_region_1787722396266_592_tl_25" n="N023"/>nicht mehr. Glücklicherweise hat <rs type="person">Strauß</rs>, als er vor etwa
-               <lb facs="#facs_2_region_1787722396266_592_tl_26" n="N024"/>vierzehn Jahren, der Tanzcompositionen müde, den
-               <lb facs="#facs_2_region_1787722396266_592_tl_27" n="N025"/>Dirigentenstab niederlegte, nicht gänzlich abgedankt als
-               <lb facs="#facs_2_region_1787722396266_592_tl_28" n="N026"/>„Walzerkönig“; er hat nur sein Reich erweitert und
-               <lb facs="#facs_2_region_1787722396266_592_tl_29" n="N027"/>den Dreivierteltact durch eine Constitution eingeschränkt.
-               <lb facs="#facs_2_region_1787722396266_592_tl_30" n="N028"/>In seinen <hi rendition="#em">Operetten</hi> ist der unwiderstehliche Tanz¬
-               <lb facs="#facs_2_region_1787722396266_592_tl_31" n="N029"/>componist uns erneuert und verjüngt wiedergegeben.
-               <lb facs="#facs_2_region_1787722396266_592_tl_32" n="N030"/>Das ist ein Punkt, wo wir <rs type="person">Strauß</rs> seinen <rs type="person">Vater</rs> weit über¬
-               <lb facs="#facs_2_region_1787722396266_592_tl_33" n="N031"/>holen sehen: in dem Aufsteigen zu einem höheren, viel an¬
-               <lb facs="#facs_2_region_1787722396266_592_tl_34" n="N032"/>spruchsvolleren Kunstgebiete. Unsern Johann <rs type="person">Strauß</rs> ver¬
-               <lb facs="#facs_2_region_1787722396266_592_tl_35" n="N033"/>zeichnet die Musikgeschichte als den einzigen Walzercompo¬
-               <lb facs="#facs_2_region_1787722396266_592_tl_36" n="N034"/>nisten von Fach, der nach vieljähriger ununterbrochener
-               <lb facs="#facs_2_region_1787722396266_592_tl_37" n="N035"/>Thätigkeit als Balldirigent sich der dramatischen Musik zu¬
-               <lb facs="#facs_2_region_1787722396266_592_tl_38" n="N036"/>gewendet hat. Und mit welchem Erfolg! <rs type="person">Alt-Strauß</rs> und
-               <lb facs="#facs_2_region_1787722396266_592_tl_39" n="N037"/>
-               <rs type="person">Lanner</rs> hätten für sich ein solches Avancement nie zu träumen
-               <lb facs="#facs_2_region_1787722396266_592_tl_40" n="N038"/>gewagt, so fest lag ihr Talent eingesponnen in der Tanz¬
-               <lb facs="#facs_2_region_1787722396266_592_tl_41" n="N039"/>form, dieser allmächtigen Gewohnheit ihres musikalischen
-               <lb facs="#facs_2_region_1787722396266_592_tl_42" n="N040"/>Denkens. Der Uebergang zur dramatischen Composition ist
-               <lb facs="#facs_2_region_1787722396266_592_tl_43" n="N041"/>auch dem jungen <rs type="person">Strauß</rs> nicht leicht geworden. Seine erste</p>
-            <p facs="#facs_2_region_1787722400162_595">
-               <lb facs="#facs_2_region_1787722400162_595_tl_1" n="N001"/>Operette „<rs type="bibl">Indigo</rs>“ (<date>1871</date>) überströmt von reizenden Melodien,
-               <lb facs="#facs_2_region_1787722400162_595_tl_2" n="N002"/>die aber weniger aus der dramatischen Situation als aus
-               <lb facs="#facs_2_region_1787722400162_595_tl_3" n="N003"/>fertigen Tanzmusiken hervorgegangen scheinen und gleichsam
-               <lb facs="#facs_2_region_1787722400162_595_tl_4" n="N004"/>die verrätherischen Eierschalen noch auf dem Kopfe tragen.
-               <lb facs="#facs_2_region_1787722400162_595_tl_5" n="N005"/>Aber welcher außerordentliche Fortschritt von da zur „<rs type="bibl">Fleder¬</rs>
-               <lb facs="#facs_2_region_1787722400162_595_tl_6" n="N006"/>
-               <rs type="bibl">maus</rs>“, deren zweites Finale zu den allerreizendsten Operetten¬
-               <lb facs="#facs_2_region_1787722400162_595_tl_7" n="N007"/>musiken zählt, die wir besitzen. Während die „<rs type="bibl">Fledermaus</rs>“, von
-               <lb facs="#facs_2_region_1787722400162_595_tl_8" n="N008"/>keinem nachdenklichen Hauche getrübt, in lauter Fröhlichkeit
-               <lb facs="#facs_2_region_1787722400162_595_tl_9" n="N009"/>schwimmt, führt der „<rs type="bibl">Lustige Krieg</rs>“ schon ernste und sentimen¬
-               <lb facs="#facs_2_region_1787722400162_595_tl_10" n="N010"/>tale Momente herbei, in deren feiner, ansprechender Behandlung
-               <lb facs="#facs_2_region_1787722400162_595_tl_11" n="N011"/>
-               <rs type="person">Strauß</rs> abermals einen neuen Fortschritt bekundet. Wenn er
-               <lb facs="#facs_2_region_1787722400162_595_tl_12" n="N012"/>— innerhalb des dramatischen Gesetzes — den Walzer-
-               <lb facs="#facs_2_region_1787722400162_595_tl_13" n="N013"/>Rhythmus gleichsam als Grundton in seinen Operetten durch¬
-               <lb facs="#facs_2_region_1787722400162_595_tl_14" n="N014"/>klingen läßt, so darf man für ihn vorbringen, daß er erstens
-               <lb facs="#facs_2_region_1787722400162_595_tl_15" n="N015"/>seiner Individualität, dann dem musikalischen Geist seiner
-               <lb facs="#facs_2_region_1787722400162_595_tl_16" n="N016"/>Vaterstadt sich eben dadurch treu erwies. Der <rs type="place">Wien</rs>er Walzer¬
-               <lb facs="#facs_2_region_1787722400162_595_tl_17" n="N017"/>ton bedeutet ohne Frage in der <rs type="place">österreichisch</rs>en Musik ein
-               <lb facs="#facs_2_region_1787722400162_595_tl_18" n="N018"/>nationales Element. Dadurch haben <rs type="person">Strauß</rs>' Operetten einen
-               <lb facs="#facs_2_region_1787722400162_595_tl_19" n="N019"/>frappant <rs type="place">wiener</rs>ischen Typus, sind als <rs type="place">österreichisch</rs> sofort
-               <lb facs="#facs_2_region_1787722400162_595_tl_20" n="N020"/>zu erkennen und von dem <rs type="place">französisch</rs>en Styl <rs type="person">Offenbach</rs>'s
-               <lb facs="#facs_2_region_1787722400162_595_tl_21" n="N021"/>grundverschieden. Diesen eminent <rs type="place">österreichisch</rs>en Charakter
-               <lb facs="#facs_2_region_1787722400162_595_tl_22" n="N022"/>der <rs type="person">Strauß</rs>'schen Operetten wird die Musikgeschichte aner¬
-               <lb facs="#facs_2_region_1787722400162_595_tl_23" n="N023"/>kennen müssen, ob sie nun auf die Vorzüge oder auf die
-               <lb facs="#facs_2_region_1787722400162_595_tl_24" n="N024"/>Schwächen desselben den größeren Nachdruck lege.
-               <lb facs="#facs_2_region_1787722400162_595_tl_25" n="N025"/>Bewunderungswürdig wie das Talent ist die enorme,
-               <lb facs="#facs_2_region_1787722400162_595_tl_26" n="N026"/>mühelose Productivität unseres <rs type="person">Strauß</rs>: mehr als 400 Werke
-               <lb facs="#facs_2_region_1787722400162_595_tl_27" n="N027"/>liegen von ihm vor. Die meisten sind Tänze. Im Walzer
-               <lb facs="#facs_2_region_1787722400162_595_tl_28" n="N028"/>kam <rs type="person">Strauß</rs>' ebenso feines als üppiges Talent anfangs der
-               <lb facs="#facs_2_region_1787722400162_595_tl_29" n="N029"/>Weise des <rs type="person">Vater</rs>s am nächsten. Im Leben wie in der Kunst
-               <lb facs="#facs_2_region_1787722400162_595_tl_30" n="N030"/>früh selbstständig geworden, schuf sich der <rs type="person">Sohn</rs> bald
-               <lb facs="#facs_2_region_1787722400162_595_tl_31" n="N031"/>sein eigenartiges Gepräge. Daß er die väterliche Ein¬
-               <lb facs="#facs_2_region_1787722400162_595_tl_32" n="N032"/>fachheit in der Musik verließ, die rhythmischen Pe¬
-               <lb facs="#facs_2_region_1787722400162_595_tl_33" n="N033"/>rioden, wie die einzelnen Walzertheile stark ausdehnte, in
-               <lb facs="#facs_2_region_1787722400162_595_tl_34" n="N034"/>Harmonisirung und Orchestration das Pikante und Com¬
-               <lb facs="#facs_2_region_1787722400162_595_tl_35" n="N035"/>plicirte immer mehr bevorzugte, das liegt im Laufe der Zeit
-               <lb facs="#facs_2_region_1787722400162_595_tl_36" n="N036"/>— die ja auch den Tanzschritt stark verändert hat; <rs type="person">Strauß</rs>
-               <lb facs="#facs_2_region_1787722400162_595_tl_37" n="N037"/>folgte diesem Zuge mit Geist und Geschmack. Die größte
-               <lb facs="#facs_2_region_1787722400162_595_tl_38" n="N038"/>Mehrzahl seiner Tanzcompositionen schrieb er unter dem An¬
-               <lb facs="#facs_2_region_1787722400162_595_tl_39" n="N039"/>sturme von Bestellungen, im Fasching, kaum im Stande, den
-               <lb facs="#facs_2_region_1787722400162_595_tl_40" n="N040"/>Anforderungen des Tages oder vielmehr der Nacht zu ge¬</p>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1787722393170_589_tl_1" n="N001"/>Musiklebens. Sie beglückten das Volk und interessirten den
+         <lb facs="#facs_2_region_1787722393170_589_tl_2" n="N002"/>Musiker. Ihr kleines Genre haben die Beiden, einander er
+         <lb facs="#facs_2_region_1787722393170_589_tl_3" n="N003" break="no"/>gänzend, mit einem ungeahnten musikalischen Reiz und
+         <lb facs="#facs_2_region_1787722393170_589_tl_4" n="N004"/>poetischem Leben erfüllt. Man muß sich heute die frühere
+         <lb facs="#facs_2_region_1787722393170_589_tl_5" n="N005"/>Tanzmusik ansehen, um zu ermessen, was <rs type="person" ref="#hsl_person_id_1150">Strauß</rs> und <rs type="person" ref="#hsl_person_id_724">Lanner</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1787722393170_589_tl_6" n="N006"/>daraus gemacht. Wie erstaunlich dürr und unbedeutend sind
+         <lb facs="#facs_2_region_1787722393170_589_tl_7" n="N007"/>selbst <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s</hi> „Deutsche“, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s</hi> „Ländlerische
+         <lb facs="#facs_2_region_1787722393170_589_tl_8" n="N008"/>Tänze!“ Nur die akademischen, feierlichen Tänze, Menuett
+         <lb facs="#facs_2_region_1787722393170_589_tl_9" n="N009"/>und Polonaise, die jetzt aus den Ballsälen verschwunden sind,
+         <lb facs="#facs_2_region_1787722393170_589_tl_10" n="N010"/>fanden in den früheren Perioden auch musikalisch eine liebe
+         <lb facs="#facs_2_region_1787722393170_589_tl_11" n="N011" break="no"/>vollere und vornehmere Behandlung. Unsern heutigen Walzer
+         <lb facs="#facs_2_region_1787722393170_589_tl_12" n="N012"/>aber, den <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Walzer, haben <rs type="person" ref="#hsl_person_id_1150">Strauß</rs> und <rs type="person" ref="#hsl_person_id_724">Lanner</rs> ge
+         <lb facs="#facs_2_region_1787722393170_589_tl_13" n="N013" break="no"/>schaffen und damit den alten Ruhm der <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en Musik
+         <lb facs="#facs_2_region_1787722393170_589_tl_14" n="N014"/>allüberall zu einer Zeit aufrechterhalten, da es keinen genialen
+         <lb facs="#facs_2_region_1787722393170_589_tl_15" n="N015"/><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Componisten mehr gab. <rs type="person" ref="#hsl_person_id_1150">Strauß</rs> insbesondere war
+         <lb facs="#facs_2_region_1787722393170_589_tl_16" n="N016"/>ein volksthümlicher Musiker von außerordentlicher Begabung,
+         <lb facs="#facs_2_region_1787722393170_589_tl_17" n="N017"/>deren er sich selbst kaum recht bewußt war. Halb singende
+         <lb facs="#facs_2_region_1787722393170_589_tl_18" n="N018"/><rs type="person" ref="#hsl_person_id_4619">Loreley</rs>, halb geigender <rs type="person" ref="#hsl_person_id_9456">Rattenfänger</rs>, repräsentirte er eine
+         <lb facs="#facs_2_region_1787722393170_589_tl_19" n="N019"/>Naturkraft, wie sie nur aus dem musikalischen Boden <rs type="place" ref="#hsl_place_id_43">Oester
+         <lb facs="#facs_2_region_1787722393170_589_tl_20" n="N020" break="no"/>reich</rs>s hervorgehen konnte.
+            </p><p>
+         <lb facs="#facs_2_region_1787722393170_589_tl_21" n="N021"/>Wir sind nur scheinbar von unserm Jubilar abgekom
+         <lb facs="#facs_2_region_1787722393170_589_tl_22" n="N022" break="no"/>men. Man feiert den <rs type="person" ref="#hsl_person_id_299">Sohn</rs>, indem man den <rs type="person" ref="#hsl_person_id_1150">Vater</rs> rühmt.
+         <lb facs="#facs_2_region_1787722393170_589_tl_23" n="N023"/>War doch von diesem begonnen, was jener mit gleich glän
+         <lb facs="#facs_2_region_1787722393170_589_tl_24" n="N024" break="no"/>zendem Talente, nur mit bewußterer künstlerischer Bildung
+         <lb facs="#facs_2_region_1787722393170_589_tl_25" n="N025"/>fortgesetzt und gesteigert hat. Als Tanzcomponist darf sich
+         <lb facs="#facs_2_region_1787722393170_589_tl_26" n="N026"/><rs type="person" ref="#hsl_person_id_299">Strauß</rs> Sohn einer noch unumschränkteren Herrschaft rühmen,
+         <lb facs="#facs_2_region_1787722393170_589_tl_27" n="N027"/>denn sein <rs type="person" ref="#hsl_person_id_1150">Vater</rs> hatte noch Rivalen neben sich: zuerst <rs type="person" ref="#hsl_person_id_724">Lanner</rs>,
+         <lb facs="#facs_2_region_1787722393170_589_tl_28" n="N028"/>dann den eigenen <rs type="person" ref="#hsl_person_id_299">Sohn</rs>; außerdem rühmten sich gleichzeitig
+         <lb facs="#facs_2_region_1787722393170_589_tl_29" n="N029"/>noch <rs type="person" ref="#hsl_person_id_1285">Labitzky</rs>, <rs type="person" ref="#hsl_person_id_725">Fahrbach</rs>, <rs type="person" ref="#hsl_person_id_9470">Morelli</rs> und Andere eines ansehn
+         <lb facs="#facs_2_region_1787722393170_589_tl_30" n="N030" break="no"/>lichen, dankbaren Publicums. Neben <hi rendition="#em">unserm</hi> Johann
+         <lb facs="#facs_2_region_1787722393170_589_tl_31" n="N031"/><rs type="person" ref="#hsl_person_id_299">Strauß</rs> erscheint seit dem Tode seines <rs type="person" ref="#hsl_person_id_1150">Vater</rs>s (<date>1849</date>) kein
+         <lb facs="#facs_2_region_1787722393170_589_tl_32" n="N032"/>nennenswerther Rivale; höchstens daß sein Bruder <rs type="person" ref="#hsl_person_id_1151">Joseph</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1787722393170_589_tl_33" n="N033"/>— ein sinniges, wenngleich nicht glänzendes Talent —
+         <lb facs="#facs_2_region_1787722393170_589_tl_34" n="N034"/>kurze Zeit als bescheidene Nebensonne ihn begleitete. Den
+         <lb facs="#facs_2_region_1787722393170_589_tl_35" n="N035"/>dritten Bruder, <rs type="person" ref="#hsl_person_id_1152">Eduard</rs>, können wir neben diesen Beiden nicht
+         <lb facs="#facs_2_region_1787722393170_589_tl_36" n="N036"/>nennen; er besitzt eine schätzbare, spät errungene Routine,
+         <lb facs="#facs_2_region_1787722393170_589_tl_37" n="N037"/>aber von Haus aus kein eigenes musikalisches Vermögen.
+         <lb facs="#facs_2_region_1787722393170_589_tl_38" n="N038"/>Er ist ein apanagirter Prinz der Strauß-Dynastie. Der
+         <lb facs="#facs_2_region_1787722393170_589_tl_39" n="N039"/>starke, nun durch volle vierzig Jahre fortwirkende Zauber
+         <lb facs="#facs_2_region_1787722393170_589_tl_40" n="N040"/>unseres <rs type="person" ref="#hsl_person_id_299">Strauß</rs> erscheint um so bemerkenswerther, als dieser<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1787722396266_592_tl_1" n="N001"/>längst nicht mehr so günstige Verhältnisse, so unbedingt
+         <lb facs="#facs_2_region_1787722396266_592_tl_2" n="N002"/>hingebende Hörer bei uns vorfindet, wie sein <rs type="person" ref="#hsl_person_id_1150">Vater</rs>.
+         <lb facs="#facs_2_region_1787722396266_592_tl_3" n="N003"/>Die Zeit der kindlichen Lust und Gemüthlichkeit war mit
+         <lb facs="#facs_2_region_1787722396266_592_tl_4" n="N004"/>den Ereignissen des Jahres <date>1848</date> vorüber, die Zeit, da man
+         <lb facs="#facs_2_region_1787722396266_592_tl_5" n="N005"/>sich <rs type="person" ref="#hsl_person_id_1150">Strauß</rs> und <rs type="person" ref="#hsl_person_id_724">Lanner</rs> als die eigentlichen Regenten des
+         <lb facs="#facs_2_region_1787722396266_592_tl_6" n="N006"/><rs type="person" ref="#hsl_person_id_721">Grillparzer</rs>’schen „<rs type="place" ref="#hsl_place_id_55">Capua</rs>“ vorstellte. Sie haben <rs type="place" ref="#hsl_place_id_55">Wien</rs> manch
+         <lb facs="#facs_2_region_1787722396266_592_tl_7" n="N007"/>harten Vorwurf zugezogen, aber auch der poetischen Ver
+         <lb facs="#facs_2_region_1787722396266_592_tl_8" n="N008" break="no"/>klärung nicht entbehrt. Gerne gedenken wir der schwungvollen
+         <lb facs="#facs_2_region_1787722396266_592_tl_9" n="N009"/>Apostrophe <hi rendition="#em">Karl <rs type="person" ref="#hsl_person_id_9471">Beck</rs>’s</hi>:
+            </p><p>
+         <lb facs="#facs_2_l" n="N010"/><l>O <rs type="person" ref="#hsl_person_id_1150">Strauß</rs> und <rs type="person" ref="#hsl_person_id_724">Lanner</rs>! Wandernde Propheten,</l>
+         <lb facs="#facs_2_l_1" n="N011"/><l>Die sich der Gott des Tanzes auserkor!</l>
+         <lb facs="#facs_2_l_2" n="N012"/><l>An eurer Geige sprudelnden Gebeten</l>
+         <lb facs="#facs_2_l_3" n="N013"/><l>Hängt Jung und Alt mit träumerischem Ohr.</l>
+         <lb facs="#facs_2_l_4" n="N014"/><l>Zum Tempel wird der Tanzsaal, kunterbunter,</l>
+         <lb facs="#facs_2_l_5" n="N015"/><l>Des Herzens Glocke tönt zum schönen Reigen,</l>
+         <lb facs="#facs_2_l_6" n="N016"/><l>Wie Mädchenchöre klingen hell die Geigen,</l>
+         <lb facs="#facs_2_l_7" n="N017"/><l>Von Kanzeln spricht der ernste Baß herunter.</l>
+            </p><p>
+         <lb facs="#facs_2_region_1787722396266_592_tl_20" n="N018"/>Vorbei, für alle Zeit vorbei! Auch die Walzerkunst in
+         <lb facs="#facs_2_region_1787722396266_592_tl_21" n="N019"/><rs type="place" ref="#hsl_place_id_55">Wien</rs> ist im Aussterben, täuschen wir uns nicht darüber.
+         <lb facs="#facs_2_region_1787722396266_592_tl_22" n="N020"/>Die steht jetzt auf zwei Augen. Man wird auch ferner neue
+         <lb facs="#facs_2_region_1787722396266_592_tl_23" n="N021"/>Walzer liefern, gewiß, wie man andere Artikel producirt,
+         <lb facs="#facs_2_region_1787722396266_592_tl_24" n="N022"/>nach welchen Nachfrage ist. Aber <hi rendition="#em"><rs type="person" ref="#hsl_person_id_299">Strauß</rs></hi>’sche Walzer
+         <lb facs="#facs_2_region_1787722396266_592_tl_25" n="N023"/>nicht mehr. Glücklicherweise hat <rs type="person" ref="#hsl_person_id_299">Strauß</rs>, als er vor etwa
+         <lb facs="#facs_2_region_1787722396266_592_tl_26" n="N024"/>vierzehn Jahren, der Tanzcompositionen müde, den
+         <lb facs="#facs_2_region_1787722396266_592_tl_27" n="N025"/>Dirigentenstab niederlegte, nicht gänzlich abgedankt als
+         <lb facs="#facs_2_region_1787722396266_592_tl_28" n="N026"/>„Walzerkönig“; er hat nur sein Reich erweitert und
+         <lb facs="#facs_2_region_1787722396266_592_tl_29" n="N027"/>den Dreivierteltact durch eine Constitution eingeschränkt.
+         <lb facs="#facs_2_region_1787722396266_592_tl_30" n="N028"/>In seinen <hi rendition="#em">Operetten</hi> ist der unwiderstehliche Tanz
+         <lb facs="#facs_2_region_1787722396266_592_tl_31" n="N029" break="no"/>componist uns erneuert und verjüngt wiedergegeben.
+         <lb facs="#facs_2_region_1787722396266_592_tl_32" n="N030"/>Das ist ein Punkt, wo wir <rs type="person" ref="#hsl_person_id_299">Strauß</rs> seinen <rs type="person" ref="#hsl_person_id_1150">Vater</rs> weit über
+         <lb facs="#facs_2_region_1787722396266_592_tl_33" n="N031" break="no"/>holen sehen: in dem Aufsteigen zu einem höheren, viel an
+         <lb facs="#facs_2_region_1787722396266_592_tl_34" n="N032" break="no"/>spruchsvolleren Kunstgebiete. Unsern Johann <rs type="person" ref="#hsl_person_id_299">Strauß</rs> ver
+         <lb facs="#facs_2_region_1787722396266_592_tl_35" n="N033" break="no"/>zeichnet die Musikgeschichte als den einzigen Walzercompo
+         <lb facs="#facs_2_region_1787722396266_592_tl_36" n="N034" break="no"/>nisten von Fach, der nach vieljähriger ununterbrochener
+         <lb facs="#facs_2_region_1787722396266_592_tl_37" n="N035"/>Thätigkeit als Balldirigent sich der dramatischen Musik zu
+         <lb facs="#facs_2_region_1787722396266_592_tl_38" n="N036" break="no"/>gewendet hat. Und mit welchem Erfolg! <rs type="person" ref="#hsl_person_id_1150">Alt-Strauß</rs> und
+         <lb facs="#facs_2_region_1787722396266_592_tl_39" n="N037"/><rs type="person" ref="#hsl_person_id_724">Lanner</rs> hätten für sich ein solches Avancement nie zu träumen
+         <lb facs="#facs_2_region_1787722396266_592_tl_40" n="N038"/>gewagt, so fest lag ihr Talent eingesponnen in der Tanz
+         <lb facs="#facs_2_region_1787722396266_592_tl_41" n="N039" break="no"/>form, dieser allmächtigen Gewohnheit ihres musikalischen
+         <lb facs="#facs_2_region_1787722396266_592_tl_42" n="N040"/>Denkens. Der Uebergang zur dramatischen Composition ist
+         <lb facs="#facs_2_region_1787722396266_592_tl_43" n="N041"/>auch dem jungen <rs type="person" ref="#hsl_person_id_299">Strauß</rs> nicht leicht geworden. Seine erste<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1787722400162_595_tl_1" n="N001"/>Operette „<rs type="bibl" ref="#hsl_work_id_1045">Indigo</rs>“ (<date>1871</date>) überströmt von reizenden Melodien,
+         <lb facs="#facs_2_region_1787722400162_595_tl_2" n="N002"/>die aber weniger aus der dramatischen Situation als aus
+         <lb facs="#facs_2_region_1787722400162_595_tl_3" n="N003"/>fertigen Tanzmusiken hervorgegangen scheinen und gleichsam
+         <lb facs="#facs_2_region_1787722400162_595_tl_4" n="N004"/>die verrätherischen Eierschalen noch auf dem Kopfe tragen.
+         <lb facs="#facs_2_region_1787722400162_595_tl_5" n="N005"/>Aber welcher außerordentliche Fortschritt von da zur „<rs type="bibl" ref="#hsl_work_id_1046">Fleder
+         <lb facs="#facs_2_region_1787722400162_595_tl_6" n="N006" break="no"/>maus</rs>“, deren zweites Finale zu den allerreizendsten Operetten
+         <lb facs="#facs_2_region_1787722400162_595_tl_7" n="N007" break="no"/>musiken zählt, die wir besitzen. Während die „<rs type="bibl" ref="#hsl_work_id_1046">Fledermaus</rs>“, von
+         <lb facs="#facs_2_region_1787722400162_595_tl_8" n="N008"/>keinem nachdenklichen Hauche getrübt, in lauter Fröhlichkeit
+         <lb facs="#facs_2_region_1787722400162_595_tl_9" n="N009"/>schwimmt, führt der „<rs type="bibl" ref="#hsl_work_id_1049">Lustige Krieg</rs>“ schon ernste und sentimen
+         <lb facs="#facs_2_region_1787722400162_595_tl_10" n="N010" break="no"/>tale Momente herbei, in deren feiner, ansprechender Behandlung
+         <lb facs="#facs_2_region_1787722400162_595_tl_11" n="N011"/><rs type="person" ref="#hsl_person_id_299">Strauß</rs> abermals einen neuen Fortschritt bekundet. Wenn er
+         <lb facs="#facs_2_region_1787722400162_595_tl_12" n="N012"/>— innerhalb des dramatischen Gesetzes — den Walzer-
+         <lb facs="#facs_2_region_1787722400162_595_tl_13" n="N013"/>Rhythmus gleichsam als Grundton in seinen Operetten durch
+         <lb facs="#facs_2_region_1787722400162_595_tl_14" n="N014" break="no"/>klingen läßt, so darf man für ihn vorbringen, daß er erstens
+         <lb facs="#facs_2_region_1787722400162_595_tl_15" n="N015"/>seiner Individualität, dann dem musikalischen Geist seiner
+         <lb facs="#facs_2_region_1787722400162_595_tl_16" n="N016"/>Vaterstadt sich eben dadurch treu erwies. Der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Walzer
+         <lb facs="#facs_2_region_1787722400162_595_tl_17" n="N017" break="no"/>ton bedeutet ohne Frage in der <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en Musik ein
+         <lb facs="#facs_2_region_1787722400162_595_tl_18" n="N018"/>nationales Element. Dadurch haben <rs type="person" ref="#hsl_person_id_299">Strauß</rs>’ Operetten einen
+         <lb facs="#facs_2_region_1787722400162_595_tl_19" n="N019"/>frappant <rs type="place" ref="#hsl_place_id_55">wiener</rs>ischen Typus, sind als <rs type="place" ref="#hsl_place_id_43">österreichisch</rs> sofort
+         <lb facs="#facs_2_region_1787722400162_595_tl_20" n="N020"/>zu erkennen und von dem <rs type="place" ref="#hsl_place_id_21">französisch</rs>en Styl <rs type="person" ref="#hsl_person_id_202">Offenbach</rs>’s
+         <lb facs="#facs_2_region_1787722400162_595_tl_21" n="N021"/>grundverschieden. Diesen eminent <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en Charakter
+         <lb facs="#facs_2_region_1787722400162_595_tl_22" n="N022"/>der <rs type="person" ref="#hsl_person_id_299">Strauß</rs>’schen Operetten wird die Musikgeschichte aner
+         <lb facs="#facs_2_region_1787722400162_595_tl_23" n="N023" break="no"/>kennen müssen, ob sie nun auf die Vorzüge oder auf die
+         <lb facs="#facs_2_region_1787722400162_595_tl_24" n="N024"/>Schwächen desselben den größeren Nachdruck lege.
+            </p><p>
+         <lb facs="#facs_2_region_1787722400162_595_tl_25" n="N025"/>Bewunderungswürdig wie das Talent ist die enorme,
+         <lb facs="#facs_2_region_1787722400162_595_tl_26" n="N026"/>mühelose Productivität unseres <rs type="person" ref="#hsl_person_id_299">Strauß</rs>: mehr als 400 Werke
+         <lb facs="#facs_2_region_1787722400162_595_tl_27" n="N027"/>liegen von ihm vor. Die meisten sind Tänze. Im Walzer
+         <lb facs="#facs_2_region_1787722400162_595_tl_28" n="N028"/>kam <rs type="person" ref="#hsl_person_id_299">Strauß</rs>’ ebenso feines als üppiges Talent anfangs der
+         <lb facs="#facs_2_region_1787722400162_595_tl_29" n="N029"/>Weise des <rs type="person" ref="#hsl_person_id_1150">Vater</rs>s am nächsten. Im Leben wie in der Kunst
+         <lb facs="#facs_2_region_1787722400162_595_tl_30" n="N030"/>früh selbstständig geworden, schuf sich der <rs type="person" ref="#hsl_person_id_299">Sohn</rs> bald
+         <lb facs="#facs_2_region_1787722400162_595_tl_31" n="N031"/>sein eigenartiges Gepräge. Daß er die väterliche Ein
+         <lb facs="#facs_2_region_1787722400162_595_tl_32" n="N032" break="no"/>fachheit in der Musik verließ, die rhythmischen Pe
+         <lb facs="#facs_2_region_1787722400162_595_tl_33" n="N033" break="no"/>rioden, wie die einzelnen Walzertheile stark ausdehnte, in
+         <lb facs="#facs_2_region_1787722400162_595_tl_34" n="N034"/>Harmonisirung und Orchestration das Pikante und Com
+         <lb facs="#facs_2_region_1787722400162_595_tl_35" n="N035" break="no"/>plicirte immer mehr bevorzugte, das liegt im Laufe der Zeit
+         <lb facs="#facs_2_region_1787722400162_595_tl_36" n="N036"/>— die ja auch den Tanzschritt stark verändert hat; <rs type="person" ref="#hsl_person_id_299">Strauß</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1787722400162_595_tl_37" n="N037"/>folgte diesem Zuge mit Geist und Geschmack. Die größte
+         <lb facs="#facs_2_region_1787722400162_595_tl_38" n="N038"/>Mehrzahl seiner Tanzcompositionen schrieb er unter dem An
+         <lb facs="#facs_2_region_1787722400162_595_tl_39" n="N039" break="no"/>sturme von Bestellungen, im Fasching, kaum im Stande, den
+         <lb facs="#facs_2_region_1787722400162_595_tl_40" n="N040"/>Anforderungen des Tages oder vielmehr der Nacht zu ge</p>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <p facs="#facs_3_region_1787722410106_601">
-               <lb facs="#facs_3_region_1787722410106_601_tl_1" n="N001"/>nügen. An jedem Abend genöthigt, drei bis vier Bälle mit
-               <lb facs="#facs_3_region_1787722410106_601_tl_2" n="N002"/>seiner Geige zu verherrlichen, hat er durch fünfundzwanzig
-               <lb facs="#facs_3_region_1787722410106_601_tl_3" n="N003"/>Winter vielleicht keine Nacht geschlafen. Diese Nöthigung,
-               <lb facs="#facs_3_region_1787722410106_601_tl_4" n="N004"/>immer Neues zu schaffen, ließ keine tiefere Sammlung, aber
-               <lb facs="#facs_3_region_1787722410106_601_tl_5" n="N005"/>auch kein grüblerisches, kleinliches Wesen in dem Componisten
-               <lb facs="#facs_3_region_1787722410106_601_tl_6" n="N006"/>aufkommen. Den Unermüdlichen lohnten bekanntlich Erfolge,
-               <lb facs="#facs_3_region_1787722410106_601_tl_7" n="N007"/>wie sie selten einem Componisten durch so langen Zeitver¬
-               <lb facs="#facs_3_region_1787722410106_601_tl_8" n="N008"/>lauf gleich andauernd zu Theil werden. Seine Popularität
-               <lb facs="#facs_3_region_1787722410106_601_tl_9" n="N009"/>ist geradezu unermeßlich: in allen Welttheilen erklingen
-               <lb facs="#facs_3_region_1787722410106_601_tl_10" n="N010"/>
-               <rs type="person">Strauß</rs>'sche Melodien und in unserm Welttheile fast aus
-               <lb facs="#facs_3_region_1787722410106_601_tl_11" n="N011"/>jedem Hause. Oesterreicher, die in weiter Ferne weilen, ver¬
-               <lb facs="#facs_3_region_1787722410106_601_tl_12" n="N012"/>danken <rs type="person">Strauß</rs> Augenblicke beglückenden Heimatgefühls; denn
-               <lb facs="#facs_3_region_1787722410106_601_tl_13" n="N013"/>so weit sie auch von <rs type="place">Wien</rs> verschlagen seien, eine <rs type="person">Strauß</rs>'sche
-               <lb facs="#facs_3_region_1787722410106_601_tl_14" n="N014"/>Melodie wird sie überall grüßen. Vor Allem die reizenden
-               <lb facs="#facs_3_region_1787722410106_601_tl_15" n="N015"/>„<rs type="bibl">Donau-Walzer</rs>“, von denen noch heute gilt und lange
-               <lb facs="#facs_3_region_1787722410106_601_tl_16" n="N016"/>gelten wird, was ich vor mehr als zehn Jahren in
-               <lb facs="#facs_3_region_1787722410106_601_tl_17" n="N017"/>diesem <rs type="bibl">Blatt</rs>e niedergeschrieben: sie haben nicht blos eine
-               <lb facs="#facs_3_region_1787722410106_601_tl_18" n="N018"/>beispiellose Popularität, sondern eine merkwürdige Bedeu¬
-               <lb facs="#facs_3_region_1787722410106_601_tl_19" n="N019"/>tung erlangt, die Bedeutung eines Citates, eines Schlag¬
-               <lb facs="#facs_3_region_1787722410106_601_tl_20" n="N020"/>wortes für Alles, was es Schönes, Liebes, Lustiges in <rs type="place">Wien</rs>
-               <lb facs="#facs_3_region_1787722410106_601_tl_21" n="N021"/>gibt. Sie sind dem Oesterreicher nicht blos schöne Walzer,
-               <lb facs="#facs_3_region_1787722410106_601_tl_22" n="N022"/>wie andere, sondern ein patriotisches Volkslied ohne Worte.
-               <lb facs="#facs_3_region_1787722410106_601_tl_23" n="N023"/>Neben der <rs type="bibl">Volkshymne</rs> von Vater <rs type="person">Haydn</rs>, welche den <rs type="person">Kaiser</rs>
-               <lb facs="#facs_3_region_1787722410106_601_tl_24" n="N024"/>und das Herrscherhaus feiert, haben wir in <rs type="person">Strauß</rs>'
-               <lb facs="#facs_3_region_1787722410106_601_tl_25" n="N025"/>„<rs type="bibl">Schöner blauer Donau</rs>“ eine andere Volkshymne, welche
-               <lb facs="#facs_3_region_1787722410106_601_tl_26" n="N026"/>unser Land und Volk besingt. Wo immer in weiter Ferne
-               <lb facs="#facs_3_region_1787722410106_601_tl_27" n="N027"/>Oesterreicher sich zusammenfinden, da ist diese wortlose
-               <lb facs="#facs_3_region_1787722410106_601_tl_28" n="N028"/>Friedens-<rs type="bibl">Marseillaise</rs> ihr Bundeslied und Erkennungszeichen.
-               <lb facs="#facs_3_region_1787722410106_601_tl_29" n="N029"/>Wo immer bei einem Festmale ein Toast auf <rs type="place">Wien</rs> aus¬
-               <lb facs="#facs_3_region_1787722410106_601_tl_30" n="N030"/>gebracht wird, fällt das Orchester sofort mit der „<rs type="bibl">Schönen</rs>
-               <lb facs="#facs_3_region_1787722410106_601_tl_31" n="N031"/>
-               <rs type="bibl">blauen Donau</rs>“ ein. Man kann sich das gar nicht mehr
-               <lb facs="#facs_3_region_1787722410106_601_tl_32" n="N032"/>anders denken, denn diese Melodie sagt eindringlicher und
-               <lb facs="#facs_3_region_1787722410106_601_tl_33" n="N033"/>wärmer als alle Worte, was über das Thema „<rs type="place">Wien</rs>“
-               <lb facs="#facs_3_region_1787722410106_601_tl_34" n="N034"/>Schmeichelhaftes gesagt werden kann.
-               <lb facs="#facs_3_region_1787722410106_601_tl_35" n="N035"/>
-               <rs type="person">Strauß</rs> soll vor einiger Zeit flüchtige Anfechtungen ge¬
-               <lb facs="#facs_3_region_1787722410106_601_tl_36" n="N036"/>habt haben, <rs type="place">Wien</rs> mit einem andern Wohnsitz zu vertauschen.
-               <lb facs="#facs_3_region_1787722410106_601_tl_37" n="N037"/>Er denkt wol nicht mehr daran. Sollte es ihn wirklich zu
-               <lb facs="#facs_3_region_1787722410106_601_tl_38" n="N038"/>fragen anwandeln, wo er am besten verstanden, am herz¬
-               <lb facs="#facs_3_region_1787722410106_601_tl_39" n="N039"/>lichsten geliebt sei — er braucht nur aufzuhorchen, um von
-               <lb facs="#facs_3_region_1787722410106_601_tl_40" n="N040"/>allen Seiten hundertstimmig die gewünschte Antwort erklingen
-               <lb facs="#facs_3_region_1787722410106_601_tl_41" n="N041"/>zu hören: „An der <rs type="place">Donau</rs> ! <rs type="bibl">An der schönen blauen Donau</rs>!“</p>
+            <cb n="7"/>
+            <p prev="true">
+         <lb facs="#facs_3_region_1787722410106_601_tl_1" n="N001" break="no"/>nügen. An jedem Abend genöthigt, drei bis vier Bälle mit
+         <lb facs="#facs_3_region_1787722410106_601_tl_2" n="N002"/>seiner Geige zu verherrlichen, hat er durch fünfundzwanzig
+         <lb facs="#facs_3_region_1787722410106_601_tl_3" n="N003"/>Winter vielleicht keine Nacht geschlafen. Diese Nöthigung,
+         <lb facs="#facs_3_region_1787722410106_601_tl_4" n="N004"/>immer Neues zu schaffen, ließ keine tiefere Sammlung, aber
+         <lb facs="#facs_3_region_1787722410106_601_tl_5" n="N005"/>auch kein grüblerisches, kleinliches Wesen in dem Componisten
+         <lb facs="#facs_3_region_1787722410106_601_tl_6" n="N006"/>aufkommen. Den Unermüdlichen lohnten bekanntlich Erfolge,
+         <lb facs="#facs_3_region_1787722410106_601_tl_7" n="N007"/>wie sie selten einem Componisten durch so langen Zeitver
+         <lb facs="#facs_3_region_1787722410106_601_tl_8" n="N008" break="no"/>lauf gleich andauernd zu Theil werden. Seine Popularität
+         <lb facs="#facs_3_region_1787722410106_601_tl_9" n="N009"/>ist geradezu unermeßlich: in allen Welttheilen erklingen
+         <lb facs="#facs_3_region_1787722410106_601_tl_10" n="N010"/><rs type="person" ref="#hsl_person_id_299">Strauß</rs>’sche Melodien und in unserm Welttheile fast aus
+         <lb facs="#facs_3_region_1787722410106_601_tl_11" n="N011"/>jedem Hause. Oesterreicher, die in weiter Ferne weilen, ver
+         <lb facs="#facs_3_region_1787722410106_601_tl_12" n="N012" break="no"/>danken <rs type="person" ref="#hsl_person_id_299">Strauß</rs> Augenblicke beglückenden Heimatgefühls; denn
+         <lb facs="#facs_3_region_1787722410106_601_tl_13" n="N013"/>so weit sie auch von <rs type="place" ref="#hsl_place_id_55">Wien</rs> verschlagen seien, eine <rs type="person" ref="#hsl_person_id_299">Strauß</rs>’sche
+         <lb facs="#facs_3_region_1787722410106_601_tl_14" n="N014"/>Melodie wird sie überall grüßen. Vor Allem die reizenden
+         <lb facs="#facs_3_region_1787722410106_601_tl_15" n="N015"/>„<rs type="bibl" ref="#hsl_work_id_1176">Donau-Walzer</rs>“, von denen noch heute gilt und lange
+         <lb facs="#facs_3_region_1787722410106_601_tl_16" n="N016"/>gelten wird, was ich vor mehr als zehn Jahren in
+         <lb facs="#facs_3_region_1787722410106_601_tl_17" n="N017"/>diesem <rs type="bibl" ref="#hsl_work_id_82">Blatt</rs>e niedergeschrieben: sie haben nicht blos eine
+         <lb facs="#facs_3_region_1787722410106_601_tl_18" n="N018"/>beispiellose Popularität, sondern eine merkwürdige Bedeu
+         <lb facs="#facs_3_region_1787722410106_601_tl_19" n="N019" break="no"/>tung erlangt, die Bedeutung eines Citates, eines Schlag
+         <lb facs="#facs_3_region_1787722410106_601_tl_20" n="N020" break="no"/>wortes für Alles, was es Schönes, Liebes, Lustiges in <rs type="place" ref="#hsl_place_id_55">Wien</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1787722410106_601_tl_21" n="N021"/>gibt. Sie sind dem Oesterreicher nicht blos schöne Walzer,
+         <lb facs="#facs_3_region_1787722410106_601_tl_22" n="N022"/>wie andere, sondern ein patriotisches Volkslied ohne Worte.
+         <lb facs="#facs_3_region_1787722410106_601_tl_23" n="N023"/>Neben der <rs type="bibl" ref="#hsl_work_id_1005">Volkshymne</rs> von Vater <rs type="person" ref="#hsl_person_id_114">Haydn</rs>, welche den <rs type="person" ref="#hsl_person_id_1130">Kaiser</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_3_region_1787722410106_601_tl_24" n="N024"/>und das Herrscherhaus feiert, haben wir in <rs type="person" ref="#hsl_person_id_299">Strauß</rs>’
+         <lb facs="#facs_3_region_1787722410106_601_tl_25" n="N025"/>„<rs type="bibl" ref="#hsl_work_id_1176">Schöner blauer Donau</rs>“ eine andere Volkshymne, welche
+         <lb facs="#facs_3_region_1787722410106_601_tl_26" n="N026"/>unser Land und Volk besingt. Wo immer in weiter Ferne
+         <lb facs="#facs_3_region_1787722410106_601_tl_27" n="N027"/>Oesterreicher sich zusammenfinden, da ist diese wortlose
+         <lb facs="#facs_3_region_1787722410106_601_tl_28" n="N028"/>Friedens-<rs type="bibl" ref="#hsl_work_id_1027">Marseillaise</rs> ihr Bundeslied und Erkennungszeichen.
+         <lb facs="#facs_3_region_1787722410106_601_tl_29" n="N029"/>Wo immer bei einem Festmale ein Toast auf <rs type="place" ref="#hsl_place_id_55">Wien</rs> aus
+         <lb facs="#facs_3_region_1787722410106_601_tl_30" n="N030" break="no"/>gebracht wird, fällt das Orchester sofort mit der „<rs type="bibl" ref="#hsl_work_id_1176">Schönen
+         <lb facs="#facs_3_region_1787722410106_601_tl_31" n="N031"/>blauen Donau</rs>“ ein. Man kann sich das gar nicht mehr
+         <lb facs="#facs_3_region_1787722410106_601_tl_32" n="N032"/>anders denken, denn diese Melodie sagt eindringlicher und
+         <lb facs="#facs_3_region_1787722410106_601_tl_33" n="N033"/>wärmer als alle Worte, was über das Thema „<rs type="place" ref="#hsl_place_id_55">Wien</rs>“
+         <lb facs="#facs_3_region_1787722410106_601_tl_34" n="N034"/>Schmeichelhaftes gesagt werden kann.
+            </p><p>
+         <lb facs="#facs_3_region_1787722410106_601_tl_35" n="N035"/><rs type="person" ref="#hsl_person_id_299">Strauß</rs> soll vor einiger Zeit flüchtige Anfechtungen ge
+         <lb facs="#facs_3_region_1787722410106_601_tl_36" n="N036" break="no"/>habt haben, <rs type="place" ref="#hsl_place_id_55">Wien</rs> mit einem andern Wohnsitz zu vertauschen.
+         <lb facs="#facs_3_region_1787722410106_601_tl_37" n="N037"/>Er denkt wol nicht mehr daran. Sollte es ihn wirklich zu
+         <lb facs="#facs_3_region_1787722410106_601_tl_38" n="N038"/>fragen anwandeln, wo er am besten verstanden, am herz
+         <lb facs="#facs_3_region_1787722410106_601_tl_39" n="N039" break="no"/>lichsten geliebt sei — er braucht nur aufzuhorchen, um von
+         <lb facs="#facs_3_region_1787722410106_601_tl_40" n="N040"/>allen Seiten hundertstimmig die gewünschte Antwort erklingen
+         <lb facs="#facs_3_region_1787722410106_601_tl_41" n="N041"/>zu hören: „An der <rs type="place" ref="#hsl_place_id_243">Donau</rs> ! <rs type="bibl" ref="#hsl_work_id_1176">An der schönen blauen Donau</rs>!“</p>
          </div>
       </body>
    </text>

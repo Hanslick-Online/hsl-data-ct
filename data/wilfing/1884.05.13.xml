@@ -31,6 +31,7 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -77,16 +78,19 @@
                      <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1884-05-13">13.05.1884</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18840513"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -102,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-09-18">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-09-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-09-27">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -877,292 +883,259 @@
       <body>
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
-            <p facs="#facs_1_region_1787722099970_417">
-               <lb facs="#facs_1_l_1" n="N001"/>Neue Freie Presse</p>
-            <p facs="#facs_1_region_1787722101867_420">
-               <lb facs="#facs_1_region_1787722101867_420_tl_1" n="N001"/>Morgenblatt</p>
-            <p facs="#facs_1_region_1787722104851_423">
-               <lb facs="#facs_1_l_2" n="N001"/>Nr. 7080. Wien, Dienstag, den 13. Mai 1884</p>
-            <p facs="#facs_1_region_1787722111411_426">
-               <lb facs="#facs_1_region_1787722111411_426_tl_1" n="N001"/>Zwei neu aufgefundene <rs type="bibl">Cantaten</rs> von <rs type="person">Beethoven</rs>.
-               <lb facs="#facs_1_region_1787722111411_426_tl_2" n="N002"/>Ed. H. <rs type="person">Beethoven</rs> hat bekanntlich in <rs type="place">Bonn</rs> als Jüng¬
-               <lb facs="#facs_1_region_1787722111411_426_tl_3" n="N003"/>ling eine <rs type="bibl">Cantate</rs> auf den Tod Kaiser <rs type="person">Joseph</rs>'s und eine
-               <lb facs="#facs_1_region_1787722111411_426_tl_4" n="N004"/>
-               <rs type="bibl">zweite</rs> auf die Thronbesteigung Kaiser <rs type="person">Leopold's II.</rs> ge¬
-               <lb facs="#facs_1_region_1787722111411_426_tl_5" n="N005"/>schrieben, Compositionen, die nie gedruckt worden sind und
-               <lb facs="#facs_1_region_1787722111411_426_tl_6" n="N006"/>als völlig verschollen galten. A. B. <hi rendition="#em">
-                  <rs type="person">Marx</rs>
-               </hi> führt in dem
-               <lb facs="#facs_1_region_1787722111411_426_tl_7" n="N007"/>seiner <rs type="bibl">Beethoven-Biographie</rs> angehängten Verzeichnisse an:
-               <lb facs="#facs_1_region_1787722111411_426_tl_8" n="N008"/>„<date>1790</date>. <rs type="bibl">Trauer-Cantate auf den Tod Joseph's II.</rs> Unge¬
-               <lb facs="#facs_1_region_1787722111411_426_tl_9" n="N009"/>druckt. Manuscript verschwunden. <date>1792</date>. <rs type="bibl">Cantate auf Leo¬</rs>
-               <lb facs="#facs_1_region_1787722111411_426_tl_10" n="N010"/>
-               <rs type="bibl">pold II.</rs> Ungedruckt. Manuscript verschwunden.“ Auch
-               <lb facs="#facs_1_region_1787722111411_426_tl_11" n="N011"/>A. W. <hi rendition="#em">
-                  <rs type="person">Thayer</rs>
-               </hi> (<rs type="bibl">I. S. 232</rs>) zählt diese zwei <rs type="bibl">Cantaten</rs> zu den
-               <lb facs="#facs_1_region_1787722111411_426_tl_12" n="N012"/>unzweifelhaften, beglaubigten Compositionen <rs type="person">Beethoven</rs>'s aus
-               <lb facs="#facs_1_region_1787722111411_426_tl_13" n="N013"/>seiner <rs type="place">Bonn</rs>er Zeit, über welche aber nichts bekannt ist,
-               <lb facs="#facs_1_region_1787722111411_426_tl_14" n="N014"/>„als daß beide in dem Versteigerungs-Katalog der <rs type="person">Dubain</rs>'¬
-               <lb facs="#facs_1_region_1787722111411_426_tl_15" n="N015"/>schen (soll heißen <hi rendition="#em">de <rs type="person">Beine</rs>
-               </hi>'schen) Büchersammlung in
-               <lb facs="#facs_1_region_1787722111411_426_tl_16" n="N016"/>
-               <rs type="place">Wien</rs>
-               <date>1813</date> angeführt sind“. Die Manuscripte beider Werke
-               <lb facs="#facs_1_region_1787722111411_426_tl_17" n="N017"/>sind spurlos verschwunden, merkwürdigerweise hat auch keiner
-               <lb facs="#facs_1_region_1787722111411_426_tl_18" n="N018"/>von allen <rs type="person">Beethoven</rs>-Forschern oder -Biographen je eine
-               <lb facs="#facs_1_region_1787722111411_426_tl_19" n="N019"/>Abschrift davon eruiren können.
-               <lb facs="#facs_1_region_1787722111411_426_tl_20" n="N020"/>Heute kann ich die erfreuliche Neuigkeit mittheilen, daß
-               <lb facs="#facs_1_region_1787722111411_426_tl_21" n="N021"/>beide <rs type="bibl">Cantaten</rs>
-               <rs type="person">Beethoven</rs>'s in vollständiger Abschrift aufge¬
-               <lb facs="#facs_1_region_1787722111411_426_tl_22" n="N022"/>funden sind und sich hier in <rs type="place">Wien</rs> befinden. Ein kunstlieben¬
-               <lb facs="#facs_1_region_1787722111411_426_tl_23" n="N023"/>der junger Kaufmann von ernster musikalischer Bildung, Herr
-               <lb facs="#facs_1_region_1787722111411_426_tl_24" n="N024"/>Armin <hi rendition="#em">
-                  <rs type="person">Friedmann</rs>
-               </hi> in <rs type="place">Wien</rs> (<rs type="place">Stephansplatz</rs> Nr. 9), hat
-               <lb facs="#facs_1_region_1787722111411_426_tl_25" n="N025"/>kürzlich beide <rs type="bibl">Cantaten</rs> in einem <rs type="place">Leipzig</rs>er Antiquar-Verzeich¬
-               <lb facs="#facs_1_region_1787722111411_426_tl_26" n="N026"/>niß angeführt gelesen und sie sofort gekauft. Ueber die Her¬
-               <lb facs="#facs_1_region_1787722111411_426_tl_27" n="N027"/>kunft der beiden Bände konnte er von dem Verkäufer nur
-               <lb facs="#facs_1_region_1787722111411_426_tl_28" n="N028"/>erfahren, daß dieselben aus dem Nachlasse Johann Nepomuk
-               <lb facs="#facs_1_region_1787722111411_426_tl_29" n="N029"/>
-               <hi rendition="#em">
-                  <rs type="person">Hummel</rs>'s</hi> stammen. Diese von Herrn A. <rs type="person">Friedmann</rs> mir
-               <lb facs="#facs_1_region_1787722111411_426_tl_30" n="N030"/>zur Einsicht mitgetheilten Partituren schließen nach ihren
-               <lb facs="#facs_1_region_1787722111411_426_tl_31" n="N031"/>äußeren und inneren Merkmalen jeden Zweifel aus gegen
-               <lb facs="#facs_1_region_1787722111411_426_tl_32" n="N032"/>ihre Echtheit und Vollständigkeit. Beide <rs type="bibl">Cantaten</rs> sind gleich¬
-               <lb facs="#facs_1_region_1787722111411_426_tl_33" n="N033"/>mäßig, in Querformat, in steifen gelben Pappendeckel gebun¬
-               <lb facs="#facs_1_region_1787722111411_426_tl_34" n="N034"/>den und von derselben schönen, deutlichen Copistenhand auf
-               <lb facs="#facs_1_region_1787722111411_426_tl_35" n="N035"/>unverwüstlich starkem Papier mit tiefschwarzer Tinte ge¬
-               <lb facs="#facs_1_region_1787722111411_426_tl_36" n="N036"/>schrieben. Auf dem Umschlag der <rs type="bibl">Trauer-Cantate</rs> findet sich</p>
-            <p facs="#facs_1_region_1787722117282_429">
-               <lb facs="#facs_1_region_1787722117282_429_tl_1" n="N001"/>in der oberen rechten Ecke die Zahl 241, auf jenem der
-               <lb facs="#facs_1_region_1787722117282_429_tl_2" n="N002"/>
-               <rs type="bibl">Leopolds-Cantate</rs> die Zahl 85 mit blässerer Tinte angemerkt.
-               <lb facs="#facs_1_region_1787722117282_429_tl_3" n="N003"/>Es sind dies die betreffenden Nummern in dem Baron <hi rendition="#em">de</hi>
-               <lb facs="#facs_1_region_1787722117282_429_tl_4" n="N004"/>
-               <hi rendition="#em">
-                  <rs type="person">Beine</rs>
-               </hi>'schen Verlassenschafts-Kataloge von <date>1813</date>, den ich
-               <lb facs="#facs_1_region_1787722117282_429_tl_5" n="N005"/>im Archiv der Gesellschaft der Musikfreunde sofort mit dem
-               <lb facs="#facs_1_region_1787722117282_429_tl_6" n="N006"/>unverhofften Funde verglichen habe. In dieser Versteigerung
-               <lb facs="#facs_1_region_1787722117282_429_tl_7" n="N007"/>hat <rs type="person">Hummel</rs> die beiden <rs type="person">Beethoven</rs>'schen Werke ohne Zweifel
-               <lb facs="#facs_1_region_1787722117282_429_tl_8" n="N008"/>erstanden. Seltsam bleibt jedenfalls, daß in <rs type="place">Leipzig</rs>, der Re¬
-               <lb facs="#facs_1_region_1787722117282_429_tl_9" n="N009"/>sidenz von Breitkopf und Härtel und dem Sammelplatz so
-               <lb facs="#facs_1_region_1787722117282_429_tl_10" n="N010"/>vieler ausgezeichneter Fachmusiker, Niemand von dem gedruck¬
-               <lb facs="#facs_1_region_1787722117282_429_tl_11" n="N011"/>ten Kataloge des dortigen Antiquars Notiz nahm und es
-               <lb facs="#facs_1_region_1787722117282_429_tl_12" n="N012"/>einem <rs type="place">Wien</rs>er Musikliebhaber vorbehalten blieb, dieses seit
-               <lb facs="#facs_1_region_1787722117282_429_tl_13" n="N013"/>nahezu hundert Jahren verschollene Unicum zu erwerben. Um
-               <lb facs="#facs_1_region_1787722117282_429_tl_14" n="N014"/>so besser! Wichtig für die ganze musikalische Welt, sind diese
-               <lb facs="#facs_1_region_1787722117282_429_tl_15" n="N015"/>
-               <rs type="person">Beethoven</rs>-Reliquien doppelt werthvoll für <rs type="place">Wien</rs> durch ihren
-               <lb facs="#facs_1_region_1787722117282_429_tl_16" n="N016"/>patriotisch-<rs type="place">österreichisch</rs>en Inhalt.
-               <lb facs="#facs_1_region_1787722117282_429_tl_17" n="N017"/>Das Titelblatt der ersten Cantate lautet: „<rs type="bibl">Trauer-</rs>
-               <lb facs="#facs_1_region_1787722117282_429_tl_18" n="N018"/>
-               <rs type="bibl">Cantate auf den Tod Joseph des Zweiten</rs>. In Musik ge¬
-               <lb facs="#facs_1_region_1787722117282_429_tl_19" n="N019"/>setzt von Ludwig van <rs type="person">Beethoven</rs>.“ Der Verfasser des Gedichtes
-               <lb facs="#facs_1_region_1787722117282_429_tl_20" n="N020"/>ist nicht genannt; dasselbe bewegt sich in dem zugleich bom¬
-               <lb facs="#facs_1_region_1787722117282_429_tl_21" n="N021"/>bastischen und flachen Odenstyl des vorigen Jahrhunderts,
-               <lb facs="#facs_1_region_1787722117282_429_tl_22" n="N022"/>welcher es liebte, für die einfachsten Empfindungen den gan¬
-               <lb facs="#facs_1_region_1787722117282_429_tl_23" n="N023"/>zen mythologischen und allegorischen Apparat in Bewegung
-               <lb facs="#facs_1_region_1787722117282_429_tl_24" n="N024"/>zu setzen. Durch den Wortschwall hindurch weht trotzdem
-               <lb facs="#facs_1_region_1787722117282_429_tl_25" n="N025"/>ein Zug von echter Rührung; der unbeholfene Poet hat mit
-               <lb facs="#facs_1_region_1787722117282_429_tl_26" n="N026"/>geringerer Kunst als <rs type="person">Beethoven</rs>, aber doch, wie es scheint,
-               <lb facs="#facs_1_region_1787722117282_429_tl_27" n="N027"/>mit gleicher Ergriffenheit um den großen <rs type="person">Kaiser</rs> getrauert.
-               <lb facs="#facs_1_region_1787722117282_429_tl_28" n="N028"/>Die <rs type="bibl">Cantate</rs> ist für Orchester, Chor und Solostimmen ge¬
-               <lb facs="#facs_1_region_1787722117282_429_tl_29" n="N029"/>schrieben und umfaßt fünf breit ausgeführte Nummern. Das
-               <lb facs="#facs_1_region_1787722117282_429_tl_30" n="N030"/>Orchester besteht aus dem Streichquartett und je zwei Flöten,
-               <lb facs="#facs_1_region_1787722117282_429_tl_31" n="N031"/>Oboën, Clarinetten, Fagotten und Hörnern. Den Anfang
-               <lb facs="#facs_1_region_1787722117282_429_tl_32" n="N032"/>macht ein Trauerchor in C-moll (Largo 3/4). „Todt! Todt!
-               <lb facs="#facs_1_region_1787722117282_429_tl_33" n="N033"/>stöhnt es durch die öde Nacht. Felsen, weinet es wieder!
-               <lb facs="#facs_1_region_1787722117282_429_tl_34" n="N034"/>Und ihr, Wogen des Meeres, heulet es durch eure Tiefen.
-               <lb facs="#facs_1_region_1787722117282_429_tl_35" n="N035"/>
-               <rs type="person">Joseph</rs> der Große ist todt.“ Die Composition zeugt von
-               <lb facs="#facs_1_region_1787722117282_429_tl_36" n="N036"/>großer technischer Gewandtheit, man möchte sagen von einer
-               <lb facs="#facs_1_region_1787722117282_429_tl_37" n="N037"/>höheren Meisterhand, die nur ihre volle Kraft noch nicht er¬
-               <lb facs="#facs_1_region_1787722117282_429_tl_38" n="N038"/>langt und bethätigt hat. Daß der Zeitgeschmack sich nicht
-               <lb facs="#facs_1_region_1787722117282_429_tl_39" n="N039"/>verleugnet, ist natürlich, so namentlich in der sehr häufigen</p>
-            <p facs="#facs_1_region_1787722121875_432">
-               <lb facs="#facs_1_region_1787722121875_432_tl_1" n="N001"/>Wiederholung einzelner Sätze und Worte, wie sie übrigens
-               <lb facs="#facs_1_region_1787722121875_432_tl_2" n="N002"/>auch der spätere <rs type="person">Beethoven</rs> (zum Beispiel im zweiten Finale
-               <lb facs="#facs_1_region_1787722121875_432_tl_3" n="N003"/>des „<rs type="bibl">Fidelio</rs>“) liebte. Bei starker, tief herausquellender Empfin¬
-               <lb facs="#facs_1_region_1787722121875_432_tl_4" n="N004"/>dung verfällt dieser Trauerchor in keinerlei Uebertreibung,
-               <lb facs="#facs_1_region_1787722121875_432_tl_5" n="N005"/>da ist nichts Rhapsodisches oder Lückenhaftes, überall erfüllte
-               <lb facs="#facs_1_region_1787722121875_432_tl_6" n="N006"/>Form und gleichmäßiger grandioser Fluß. Ja, das ist <hi rendition="#em">sein</hi>
-               <lb facs="#facs_1_region_1787722121875_432_tl_7" n="N007"/>schönes, edles Pathos, das Großartige in Empfindung und
-               <lb facs="#facs_1_region_1787722121875_432_tl_8" n="N008"/>Phantasie, das Gewaltige, auch wol Gewaltsame im Aus¬
-               <lb facs="#facs_1_region_1787722121875_432_tl_9" n="N009"/>druck, dabei alle Besonderheiten in Stimmführung und Decla¬
-               <lb facs="#facs_1_region_1787722121875_432_tl_10" n="N010"/>mation, die wir aus <rs type="person">Beethoven</rs>'s späteren Werken kennen. „Es
-               <lb facs="#facs_1_region_1787722121875_432_tl_11" n="N011"/>ist Alles und durchaus <rs type="person">Beethoven</rs>!“ rief <hi rendition="#em">
-                  <rs type="person">Brahms</rs>
-               </hi> aus, als
-               <lb facs="#facs_1_region_1787722121875_432_tl_12" n="N012"/>er tief ergriffen diese <rs type="bibl">Cantate</rs> durchspielte; „man könnte, wenn
-               <lb facs="#facs_1_region_1787722121875_432_tl_13" n="N013"/>auch kein Name auf dem Titelblatte stände, auf keinen andern
-               <lb facs="#facs_1_region_1787722121875_432_tl_14" n="N014"/>rathen.“ Auf den Eingangschor folgt ein heftig aufgeregtes
-               <lb facs="#facs_1_region_1787722121875_432_tl_15" n="N015"/>
-               <hi rendition="#em">Recitativ</hi> der Baßstimme über einem stürmischen
-               <lb facs="#facs_1_region_1787722121875_432_tl_16" n="N016"/>Basso continuo: „Ein Ungeheuer, sein Name Fana¬
-               <lb facs="#facs_1_region_1787722121875_432_tl_17" n="N017"/>tismus, stieg aus den Tiefen der Hölle, dehnt' sich
-               <lb facs="#facs_1_region_1787722121875_432_tl_18" n="N018"/>zwischen Erd' und Sonne, und es ward Nacht." Es
-               <lb facs="#facs_1_region_1787722121875_432_tl_19" n="N019"/>war eine Zeit, an die wir nicht ohne Rührung denken
-               <lb facs="#facs_1_region_1787722121875_432_tl_20" n="N020"/>können, jene Zeit, die, wie ja die heftigen Worte beweisen,
-               <lb facs="#facs_1_region_1787722121875_432_tl_21" n="N021"/>begriff und fühlte, was sie an <rs type="person">Joseph</rs> verloren. Der junge
-               <lb facs="#facs_1_region_1787722121875_432_tl_22" n="N022"/>
-               <rs type="person">Beethoven</rs> wußte es auch und wußte, was er selber Großes
-               <lb facs="#facs_1_region_1787722121875_432_tl_23" n="N023"/>zu sagen hatte: wie laut verkündet er es gleich in diesem
-               <lb facs="#facs_1_region_1787722121875_432_tl_24" n="N024"/>kraftvollen Vorspiele! Das „Ungeheuer Fanatismus“ wird
-               <lb facs="#facs_1_region_1787722121875_432_tl_25" n="N025"/>nun in der folgenden Baßarie (D-dur, 3/4 Allo mod.) von
-               <lb facs="#facs_1_region_1787722121875_432_tl_26" n="N026"/>
-               <rs type="person">Joseph</rs> zertreten. Die Arie, mittelst reichlicher Wortwieder¬
-               <lb facs="#facs_1_region_1787722121875_432_tl_27" n="N027"/>holungen weit ausgedehnt, hat etwas von dem förmlichen,
-               <lb facs="#facs_1_region_1787722121875_432_tl_28" n="N028"/>bürgerlichen Pathos <rs type="person">Haydn</rs>'s und <rs type="person">Salieri</rs>'s. Merkwürdig ist
-               <lb facs="#facs_1_region_1787722121875_432_tl_29" n="N029"/>das nächste Stück, eine Sopran-Arie (Andante con moto,
-               <lb facs="#facs_1_region_1787722121875_432_tl_30" n="N030"/>F-dur 3/4) mit Streichquartett, Clarinetten und drei Solo-
-               <lb facs="#facs_1_region_1787722121875_432_tl_31" n="N031"/>Instrumenten: Flöte, Oboë und Fagott. Die Oboë beginnt
-               <lb facs="#facs_1_region_1787722121875_432_tl_32" n="N032"/>mit einer zarten, rührenden Melodie, die uns sofort bekannt
-               <lb facs="#facs_1_region_1787722121875_432_tl_33" n="N033"/>anspricht; es ist dasselbe Thema, das in derselben Tonart
-               <lb facs="#facs_1_region_1787722121875_432_tl_34" n="N034"/>und gleichfalls der Oboë zugetheilt den langsamen Satz:
-               <lb facs="#facs_1_region_1787722121875_432_tl_35" n="N035"/>„O Gott, welch ein Augenblick!“ in dem zweiten Finale
-               <lb facs="#facs_1_region_1787722121875_432_tl_36" n="N036"/>des „<rs type="bibl">Fidelio</rs>“ anhebt. In der <rs type="bibl">Cantate</rs> singt es eine Sopran¬
-               <lb facs="#facs_1_region_1787722121875_432_tl_37" n="N037"/>stimme auf die Worte: „Da stiegen die Menschen ans
-               <lb facs="#facs_1_region_1787722121875_432_tl_38" n="N038"/>Licht, da drehte sich glücklicher die Erd' um die
-               <lb facs="#facs_1_region_1787722121875_432_tl_39" n="N039"/>Sonne, und die Sonne würmte mit Strahlen der</p>
+            <cb n="1"/>
+            <lb facs="#facs_1_region_1787722111411_426_tl_1" n="N001"/><head type="h1">Zwei neu aufgefundene <rs type="bibl" ref="#hsl_work_id_1466 #hsl_work_id_1467">Cantaten</rs> von <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>.</head>
+            <p>
+         <lb facs="#facs_1_region_1787722111411_426_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_1">Ed. H.</rs><space unit="char" quantity="1"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs> hat bekanntlich in <rs type="place" ref="#hsl_place_id_67">Bonn</rs> als Jüng
+         <lb facs="#facs_1_region_1787722111411_426_tl_3" n="N003" break="no"/>ling eine <rs type="bibl" ref="#hsl_work_id_1466">Cantate</rs> auf den Tod Kaiser <rs type="person" ref="#hsl_person_id_823">Joseph</rs>’s und eine
+         <lb facs="#facs_1_region_1787722111411_426_tl_4" n="N004"/><rs type="bibl" ref="#hsl_work_id_1467">zweite</rs> auf die Thronbesteigung Kaiser <rs type="person" ref="#hsl_person_id_961">Leopold’s II.</rs> ge
+         <lb facs="#facs_1_region_1787722111411_426_tl_5" n="N005" break="no"/>schrieben, Compositionen, die nie gedruckt worden sind und
+         <lb facs="#facs_1_region_1787722111411_426_tl_6" n="N006"/>als völlig verschollen galten. A. B. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_175">Marx</rs></hi> führt in dem
+         <lb facs="#facs_1_region_1787722111411_426_tl_7" n="N007"/>seiner <rs type="bibl" ref="#hsl_work_id_487">Beethoven-Biographie</rs> angehängten Verzeichnisse an:
+         <lb facs="#facs_1_region_1787722111411_426_tl_8" n="N008"/>„<date>1790</date>. <rs type="bibl" ref="#hsl_work_id_1466">Trauer-Cantate auf den Tod Joseph’s II.</rs> Unge
+         <lb facs="#facs_1_region_1787722111411_426_tl_9" n="N009" break="no"/>druckt. Manuscript verschwunden. <date>1792</date>. <rs type="bibl" ref="#hsl_work_id_1467">Cantate auf Leo
+         <lb facs="#facs_1_region_1787722111411_426_tl_10" n="N010" break="no"/>pold II.</rs> Ungedruckt. Manuscript verschwunden.“ Auch
+         <lb facs="#facs_1_region_1787722111411_426_tl_11" n="N011"/>A. W. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2857">Thayer</rs></hi> (<rs type="bibl" ref="#hsl_work_id_3976">I. S. 232</rs>) zählt diese zwei <rs type="bibl" ref="#hsl_work_id_1466 #hsl_work_id_1467">Cantaten</rs> zu den
+         <lb facs="#facs_1_region_1787722111411_426_tl_12" n="N012"/>unzweifelhaften, beglaubigten Compositionen <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s aus
+         <lb facs="#facs_1_region_1787722111411_426_tl_13" n="N013"/>seiner <rs type="place" ref="#hsl_place_id_67">Bonn</rs>er Zeit, über welche aber nichts bekannt ist,
+         <lb facs="#facs_1_region_1787722111411_426_tl_14" n="N014"/>„als daß beide in dem Versteigerungs-Katalog der <rs type="person" ref="#hsl_person_id_9476">Dubain</rs>’
+         <lb facs="#facs_1_region_1787722111411_426_tl_15" n="N015" break="no"/>schen (soll heißen <hi rendition="#em">de <rs type="person" ref="#hsl_person_id_9476">Beine</rs></hi>’schen) Büchersammlung in
+         <lb facs="#facs_1_region_1787722111411_426_tl_16" n="N016"/><rs type="place" ref="#hsl_place_id_55">Wien</rs><space unit="char" quantity="1"/><date>1813</date> angeführt sind“. Die Manuscripte beider Werke
+         <lb facs="#facs_1_region_1787722111411_426_tl_17" n="N017"/>sind spurlos verschwunden, merkwürdigerweise hat auch keiner
+         <lb facs="#facs_1_region_1787722111411_426_tl_18" n="N018"/>von allen <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Forschern oder -Biographen je eine
+         <lb facs="#facs_1_region_1787722111411_426_tl_19" n="N019"/>Abschrift davon eruiren können.
+            </p><p>
+         <lb facs="#facs_1_region_1787722111411_426_tl_20" n="N020"/>Heute kann ich die erfreuliche Neuigkeit mittheilen, daß
+         <lb facs="#facs_1_region_1787722111411_426_tl_21" n="N021"/>beide <rs type="bibl" ref="#hsl_work_id_1466 #hsl_work_id_1467">Cantaten</rs><space quantity="1" unit="char"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s in vollständiger Abschrift aufge
+         <lb facs="#facs_1_region_1787722111411_426_tl_22" n="N022" break="no"/>funden sind und sich hier in <rs type="place" ref="#hsl_place_id_55">Wien</rs> befinden. Ein kunstlieben
+         <lb facs="#facs_1_region_1787722111411_426_tl_23" n="N023" break="no"/>der junger Kaufmann von ernster musikalischer Bildung, Herr
+         <lb facs="#facs_1_region_1787722111411_426_tl_24" n="N024"/>Armin <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2485">Friedmann</rs></hi> in <rs type="place" ref="#hsl_place_id_55">Wien</rs> (<rs type="place" ref="#hsl_place_id_571">Stephansplatz</rs> Nr. 9), hat
+         <lb facs="#facs_1_region_1787722111411_426_tl_25" n="N025"/>kürzlich beide <rs type="bibl" ref="#hsl_work_id_1466 #hsl_work_id_1467">Cantaten</rs> in einem <rs type="place" ref="#hsl_place_id_32">Leipzig</rs>er Antiquar-Verzeich
+         <lb facs="#facs_1_region_1787722111411_426_tl_26" n="N026" break="no"/>niß angeführt gelesen und sie sofort gekauft. Ueber die Her
+         <lb facs="#facs_1_region_1787722111411_426_tl_27" n="N027" break="no"/>kunft der beiden Bände konnte er von dem Verkäufer nur
+         <lb facs="#facs_1_region_1787722111411_426_tl_28" n="N028"/>erfahren, daß dieselben aus dem Nachlasse Johann Nepomuk
+         <lb facs="#facs_1_region_1787722111411_426_tl_29" n="N029"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_382">Hummel</rs>’s</hi> stammen. Diese von Herrn A. <rs type="person" ref="#hsl_person_id_2485">Friedmann</rs> mir
+         <lb facs="#facs_1_region_1787722111411_426_tl_30" n="N030"/>zur Einsicht mitgetheilten Partituren schließen nach ihren
+         <lb facs="#facs_1_region_1787722111411_426_tl_31" n="N031"/>äußeren und inneren Merkmalen jeden Zweifel aus gegen
+         <lb facs="#facs_1_region_1787722111411_426_tl_32" n="N032"/>ihre Echtheit und Vollständigkeit. Beide <rs type="bibl" ref="#hsl_work_id_1466 #hsl_work_id_1467">Cantaten</rs> sind gleich
+         <lb facs="#facs_1_region_1787722111411_426_tl_33" n="N033" break="no"/>mäßig, in Querformat, in steifen gelben Pappendeckel gebun
+         <lb facs="#facs_1_region_1787722111411_426_tl_34" n="N034" break="no"/>den und von derselben schönen, deutlichen Copistenhand auf
+         <lb facs="#facs_1_region_1787722111411_426_tl_35" n="N035"/>unverwüstlich starkem Papier mit tiefschwarzer Tinte ge
+         <lb facs="#facs_1_region_1787722111411_426_tl_36" n="N036" break="no"/>schrieben. Auf dem Umschlag der <rs type="bibl" ref="#hsl_work_id_1466">Trauer-Cantate</rs> findet sich<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+         <lb facs="#facs_1_region_1787722117282_429_tl_1" n="N001"/>in der oberen rechten Ecke die Zahl 241, auf jenem der
+         <lb facs="#facs_1_region_1787722117282_429_tl_2" n="N002"/><rs type="bibl" ref="#hsl_work_id_1467">Leopolds-Cantate</rs> die Zahl 85 mit blässerer Tinte angemerkt.
+         <lb facs="#facs_1_region_1787722117282_429_tl_3" n="N003"/>Es sind dies die betreffenden Nummern in dem Baron <hi rendition="#em">de
+         <lb facs="#facs_1_region_1787722117282_429_tl_4" n="N004"/><rs type="person" ref="#hsl_person_id_9476">Beine</rs></hi>’schen Verlassenschafts-Kataloge von <date>1813</date>, den ich
+         <lb facs="#facs_1_region_1787722117282_429_tl_5" n="N005"/>im Archiv der Gesellschaft der Musikfreunde sofort mit dem
+         <lb facs="#facs_1_region_1787722117282_429_tl_6" n="N006"/>unverhofften Funde verglichen habe. In dieser Versteigerung
+         <lb facs="#facs_1_region_1787722117282_429_tl_7" n="N007"/>hat <rs type="person" ref="#hsl_person_id_382">Hummel</rs> die beiden <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’schen Werke ohne Zweifel
+         <lb facs="#facs_1_region_1787722117282_429_tl_8" n="N008"/>erstanden. Seltsam bleibt jedenfalls, daß in <rs type="place" ref="#hsl_place_id_32">Leipzig</rs>, der Re
+         <lb facs="#facs_1_region_1787722117282_429_tl_9" n="N009" break="no"/>sidenz von Breitkopf und Härtel und dem Sammelplatz so
+         <lb facs="#facs_1_region_1787722117282_429_tl_10" n="N010"/>vieler ausgezeichneter Fachmusiker, Niemand von dem gedruck
+         <lb facs="#facs_1_region_1787722117282_429_tl_11" n="N011" break="no"/>ten Kataloge des dortigen Antiquars Notiz nahm und es
+         <lb facs="#facs_1_region_1787722117282_429_tl_12" n="N012"/>einem <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Musikliebhaber vorbehalten blieb, dieses seit
+         <lb facs="#facs_1_region_1787722117282_429_tl_13" n="N013"/>nahezu hundert Jahren verschollene Unicum zu erwerben. Um
+         <lb facs="#facs_1_region_1787722117282_429_tl_14" n="N014"/>so besser! Wichtig für die ganze musikalische Welt, sind diese
+         <lb facs="#facs_1_region_1787722117282_429_tl_15" n="N015"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>-Reliquien doppelt werthvoll für <rs type="place" ref="#hsl_place_id_55">Wien</rs> durch ihren
+         <lb facs="#facs_1_region_1787722117282_429_tl_16" n="N016"/>patriotisch-<rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en Inhalt.
+            </p><p>
+         <lb facs="#facs_1_region_1787722117282_429_tl_17" n="N017"/>Das Titelblatt der ersten Cantate lautet: „<rs type="bibl" ref="#hsl_work_id_1466">Trauer-
+         <lb facs="#facs_1_region_1787722117282_429_tl_18" n="N018"/>Cantate auf den Tod Joseph des Zweiten</rs>. In Musik ge
+         <lb facs="#facs_1_region_1787722117282_429_tl_19" n="N019" break="no"/>setzt von Ludwig van <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>.“ Der Verfasser des Gedichtes
+         <lb facs="#facs_1_region_1787722117282_429_tl_20" n="N020"/>ist nicht genannt; dasselbe bewegt sich in dem zugleich bom
+         <lb facs="#facs_1_region_1787722117282_429_tl_21" n="N021" break="no"/>bastischen und flachen Odenstyl des vorigen Jahrhunderts,
+         <lb facs="#facs_1_region_1787722117282_429_tl_22" n="N022"/>welcher es liebte, für die einfachsten Empfindungen den gan
+         <lb facs="#facs_1_region_1787722117282_429_tl_23" n="N023" break="no"/>zen mythologischen und allegorischen Apparat in Bewegung
+         <lb facs="#facs_1_region_1787722117282_429_tl_24" n="N024"/>zu setzen. Durch den Wortschwall hindurch weht trotzdem
+         <lb facs="#facs_1_region_1787722117282_429_tl_25" n="N025"/>ein Zug von echter Rührung; der unbeholfene Poet hat mit
+         <lb facs="#facs_1_region_1787722117282_429_tl_26" n="N026"/>geringerer Kunst als <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, aber doch, wie es scheint,
+         <lb facs="#facs_1_region_1787722117282_429_tl_27" n="N027"/>mit gleicher Ergriffenheit um den großen <rs type="person" ref="#hsl_person_id_823">Kaiser</rs> getrauert.
+         <lb facs="#facs_1_region_1787722117282_429_tl_28" n="N028"/>Die <rs type="bibl" ref="#hsl_work_id_1466">Cantate</rs> ist für Orchester, Chor und Solostimmen ge
+         <lb facs="#facs_1_region_1787722117282_429_tl_29" n="N029" break="no"/>schrieben und umfaßt fünf breit ausgeführte Nummern. Das
+         <lb facs="#facs_1_region_1787722117282_429_tl_30" n="N030"/>Orchester besteht aus dem Streichquartett und je zwei Flöten,
+         <lb facs="#facs_1_region_1787722117282_429_tl_31" n="N031"/>Oboën, Clarinetten, Fagotten und Hörnern. Den Anfang
+         <lb facs="#facs_1_region_1787722117282_429_tl_32" n="N032"/>macht ein Trauerchor in C-moll (Largo 3/4). „Todt! Todt!
+         <lb facs="#facs_1_region_1787722117282_429_tl_33" n="N033"/>stöhnt es durch die öde Nacht. Felsen, weinet es wieder!
+         <lb facs="#facs_1_region_1787722117282_429_tl_34" n="N034"/>Und ihr, Wogen des Meeres, heulet es durch eure Tiefen.
+         <lb facs="#facs_1_region_1787722117282_429_tl_35" n="N035"/><rs type="person" ref="#hsl_person_id_823">Joseph</rs> der Große ist todt.“ Die Composition zeugt von
+         <lb facs="#facs_1_region_1787722117282_429_tl_36" n="N036"/>großer technischer Gewandtheit, man möchte sagen von einer
+         <lb facs="#facs_1_region_1787722117282_429_tl_37" n="N037"/>höheren Meisterhand, die nur ihre volle Kraft noch nicht er
+         <lb facs="#facs_1_region_1787722117282_429_tl_38" n="N038" break="no"/>langt und bethätigt hat. Daß der Zeitgeschmack sich nicht
+         <lb facs="#facs_1_region_1787722117282_429_tl_39" n="N039"/>verleugnet, ist natürlich, so namentlich in der sehr häufigen<space quantity="1" unit="char"/></p>
+            <cb n="3"/>
+            <p prev="true">
+         <lb facs="#facs_1_region_1787722121875_432_tl_1" n="N001"/>Wiederholung einzelner Sätze und Worte, wie sie übrigens
+         <lb facs="#facs_1_region_1787722121875_432_tl_2" n="N002"/>auch der spätere <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> (zum Beispiel im zweiten Finale
+         <lb facs="#facs_1_region_1787722121875_432_tl_3" n="N003"/>des „<rs type="bibl" ref="#hsl_work_id_348">Fidelio</rs>“) liebte. Bei starker, tief herausquellender Empfin
+         <lb facs="#facs_1_region_1787722121875_432_tl_4" n="N004" break="no"/>dung verfällt dieser Trauerchor in keinerlei Uebertreibung,
+         <lb facs="#facs_1_region_1787722121875_432_tl_5" n="N005"/>da ist nichts Rhapsodisches oder Lückenhaftes, überall erfüllte
+         <lb facs="#facs_1_region_1787722121875_432_tl_6" n="N006"/>Form und gleichmäßiger grandioser Fluß. Ja, das ist <hi rendition="#em">sein</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1787722121875_432_tl_7" n="N007"/>schönes, edles Pathos, das Großartige in Empfindung und
+         <lb facs="#facs_1_region_1787722121875_432_tl_8" n="N008"/>Phantasie, das Gewaltige, auch wol Gewaltsame im Aus
+         <lb facs="#facs_1_region_1787722121875_432_tl_9" n="N009" break="no"/>druck, dabei alle Besonderheiten in Stimmführung und Decla
+         <lb facs="#facs_1_region_1787722121875_432_tl_10" n="N010" break="no"/>mation, die wir aus <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s späteren Werken kennen. „Es
+         <lb facs="#facs_1_region_1787722121875_432_tl_11" n="N011"/>ist Alles und durchaus <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>!“ rief <hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi> aus, als
+         <lb facs="#facs_1_region_1787722121875_432_tl_12" n="N012"/>er tief ergriffen diese <rs type="bibl" ref="#hsl_work_id_1466">Cantate</rs> durchspielte; „man könnte, wenn
+         <lb facs="#facs_1_region_1787722121875_432_tl_13" n="N013"/>auch kein Name auf dem Titelblatte stände, auf keinen andern
+         <lb facs="#facs_1_region_1787722121875_432_tl_14" n="N014"/>rathen.“ Auf den Eingangschor folgt ein heftig aufgeregtes
+         <lb facs="#facs_1_region_1787722121875_432_tl_15" n="N015"/><hi rendition="#em">Recitativ</hi> der Baßstimme über einem stürmischen
+         <lb facs="#facs_1_region_1787722121875_432_tl_16" n="N016"/>Basso continuo: „Ein Ungeheuer, sein Name Fana
+         <lb facs="#facs_1_region_1787722121875_432_tl_17" n="N017" break="no"/>tismus, stieg aus den Tiefen der Hölle, dehnt’ sich
+         <lb facs="#facs_1_region_1787722121875_432_tl_18" n="N018"/>zwischen Erd’ und Sonne, und es ward Nacht." Es
+         <lb facs="#facs_1_region_1787722121875_432_tl_19" n="N019"/>war eine Zeit, an die wir nicht ohne Rührung denken
+         <lb facs="#facs_1_region_1787722121875_432_tl_20" n="N020"/>können, jene Zeit, die, wie ja die heftigen Worte beweisen,
+         <lb facs="#facs_1_region_1787722121875_432_tl_21" n="N021"/>begriff und fühlte, was sie an <rs type="person" ref="#hsl_person_id_823">Joseph</rs> verloren. Der junge
+         <lb facs="#facs_1_region_1787722121875_432_tl_22" n="N022"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs> wußte es auch und wußte, was er selber Großes
+         <lb facs="#facs_1_region_1787722121875_432_tl_23" n="N023"/>zu sagen hatte: wie laut verkündet er es gleich in diesem
+         <lb facs="#facs_1_region_1787722121875_432_tl_24" n="N024"/>kraftvollen Vorspiele! Das „Ungeheuer Fanatismus“ wird
+         <lb facs="#facs_1_region_1787722121875_432_tl_25" n="N025"/>nun in der folgenden Baßarie (D-dur, 3/4 Allo mod.) von
+         <lb facs="#facs_1_region_1787722121875_432_tl_26" n="N026"/><rs type="person" ref="#hsl_person_id_823">Joseph</rs> zertreten. Die Arie, mittelst reichlicher Wortwieder
+         <lb facs="#facs_1_region_1787722121875_432_tl_27" n="N027" break="no"/>holungen weit ausgedehnt, hat etwas von dem förmlichen,
+         <lb facs="#facs_1_region_1787722121875_432_tl_28" n="N028"/>bürgerlichen Pathos <rs type="person" ref="#hsl_person_id_114">Haydn</rs>’s und <rs type="person" ref="#hsl_person_id_754">Salieri</rs>’s. Merkwürdig ist
+         <lb facs="#facs_1_region_1787722121875_432_tl_29" n="N029"/>das nächste Stück, eine Sopran-Arie (Andante con moto,
+         <lb facs="#facs_1_region_1787722121875_432_tl_30" n="N030"/>F-dur 3/4) mit Streichquartett, Clarinetten und drei Solo-
+         <lb facs="#facs_1_region_1787722121875_432_tl_31" n="N031"/>Instrumenten: Flöte, Oboë und Fagott. Die Oboë beginnt
+         <lb facs="#facs_1_region_1787722121875_432_tl_32" n="N032"/>mit einer zarten, rührenden Melodie, die uns sofort bekannt
+         <lb facs="#facs_1_region_1787722121875_432_tl_33" n="N033"/>anspricht; es ist dasselbe Thema, das in derselben Tonart
+         <lb facs="#facs_1_region_1787722121875_432_tl_34" n="N034"/>und gleichfalls der Oboë zugetheilt den langsamen Satz:
+         <lb facs="#facs_1_region_1787722121875_432_tl_35" n="N035"/>„O Gott, welch ein Augenblick!“ in dem zweiten Finale
+         <lb facs="#facs_1_region_1787722121875_432_tl_36" n="N036"/>des „<rs type="bibl" ref="#hsl_work_id_348">Fidelio</rs>“ anhebt. In der <rs type="bibl" ref="#hsl_work_id_1466">Cantate</rs> singt es eine Sopran
+         <lb facs="#facs_1_region_1787722121875_432_tl_37" n="N037" break="no"/>stimme auf die Worte: „Da stiegen die Menschen ans
+         <lb facs="#facs_1_region_1787722121875_432_tl_38" n="N038"/>Licht, da drehte sich glücklicher die Erd’ um die
+         <lb facs="#facs_1_region_1787722121875_432_tl_39" n="N039"/>Sonne, und die Sonne würmte mit Strahlen der<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <p facs="#facs_2_region_1787722133106_438">
-               <lb facs="#facs_2_region_1787722133106_438_tl_1" n="N001"/>Gottheit.“ Von einer verstärkten Begleitung und vom ganzen
-               <lb facs="#facs_2_region_1787722133106_438_tl_2" n="N002"/>Chor gestützt, wird hierauf diese Cantilene wiederholt.
-               <lb facs="#facs_2_region_1787722133106_438_tl_3" n="N003"/>Wir haben viele Beispiele, wie unsere Meister, und namentlich
-               <lb facs="#facs_2_region_1787722133106_438_tl_4" n="N004"/>
-               <rs type="person">Beethoven</rs>, einen musikalischen Gedanken das zweitemal an
-               <lb facs="#facs_2_region_1787722133106_438_tl_5" n="N005"/>anderer Stelle benützten. Hier will es uns besonders bedeutsam
-               <lb facs="#facs_2_region_1787722133106_438_tl_6" n="N006"/>erscheinen. Wie tief muß <rs type="person">Beethoven</rs> in der <rs type="bibl">Trauercantate</rs>
-               <lb facs="#facs_2_region_1787722133106_438_tl_7" n="N007"/>diese Melodie und damit den Sinn der Worte empfunden
-               <lb facs="#facs_2_region_1787722133106_438_tl_8" n="N008"/>haben — so tief und schön, wie fünfzehn Jahre später, da
-               <lb facs="#facs_2_region_1787722133106_438_tl_9" n="N009"/>er das hohe Lied von der befreienden Liebe eines Weibes zu
-               <lb facs="#facs_2_region_1787722133106_438_tl_10" n="N010"/>Ende sang! Die drei Solopartien für Flöte, Oboë und
-               <lb facs="#facs_2_region_1787722133106_438_tl_11" n="N011"/>Fagott, obwol keineswegs virtuos bedacht, mochten trotzdem
-               <lb facs="#facs_2_region_1787722133106_438_tl_12" n="N012"/>zu jener Zeit in kleineren Orchestern keine genügende Ver¬
-               <lb facs="#facs_2_region_1787722133106_438_tl_13" n="N013"/>tretung vorgefunden haben. Und so dürfte sich der Bericht
-               <lb facs="#facs_2_region_1787722133106_438_tl_14" n="N014"/>
-               <hi rendition="#em">
-                  <rs type="person">Wegeler</rs>'s</hi> (Seite 16) erklären, es hätte „die Cantate“
-               <lb facs="#facs_2_region_1787722133106_438_tl_15" n="N015"/>(nur unsere <rs type="bibl">Trauercantate</rs> kann gemeint sein) in <rs type="place">Mergentheim</rs>
-               <lb facs="#facs_2_region_1787722133106_438_tl_16" n="N016"/>aufgeführt werden sollen, sei aber schließlich wegen mehrerer
-               <lb facs="#facs_2_region_1787722133106_438_tl_17" n="N017"/>sehr schwieriger Stellen der Blas-Instrumente beiseite gelegt
-               <lb facs="#facs_2_region_1787722133106_438_tl_18" n="N018"/>worden.
-               <lb facs="#facs_2_region_1787722133106_438_tl_19" n="N019"/>Als vierte Nummer folgt ein langsames, sehr düsteres
-               <lb facs="#facs_2_region_1787722133106_438_tl_20" n="N020"/>Recitativ für Sopran: „Er schläft, von den Sorgen seiner
-               <lb facs="#facs_2_region_1787722133106_438_tl_21" n="N021"/>Welten entladen,“ mit der Arie: „Hier schlummert seinen
-               <lb facs="#facs_2_region_1787722133106_438_tl_22" n="N022"/>stillen Frieden der große Dulder.“ (Es-dur, 3/4, Adagio
-               <lb facs="#facs_2_region_1787722133106_438_tl_23" n="N023"/>con affetto.) Daran schließt sich unmittelbar die Wieder¬
-               <lb facs="#facs_2_region_1787722133106_438_tl_24" n="N024"/>holung des ersten C-moll-Chors „Todt, todt!“ mit etwas
-               <lb facs="#facs_2_region_1787722133106_438_tl_25" n="N025"/>ausgeführterem Schlusse, immer langsamer und leiser werdend,
-               <lb facs="#facs_2_region_1787722133106_438_tl_26" n="N026"/>bis zu gänzlichem Verhallen.
-               <lb facs="#facs_2_region_1787722133106_438_tl_27" n="N027"/>Die <rs type="bibl">Trauercantate auf Joseph II.</rs> zeigt uns zwar noch
-               <lb facs="#facs_2_region_1787722133106_438_tl_28" n="N028"/>nicht den über seine Zeit sich hoch aufschwingenden <rs type="person">Beethoven</rs>
-               <lb facs="#facs_2_region_1787722133106_438_tl_29" n="N029"/>der <rs type="place">Wien</rs>er Periode, aber sie verräth schon einen so kräftig
-               <lb facs="#facs_2_region_1787722133106_438_tl_30" n="N030"/>sich bewußten Geist und seine so sicher gestaltende Hand, daß
-               <lb facs="#facs_2_region_1787722133106_438_tl_31" n="N031"/>man — wäre nicht das historische Datum Februar <date>1790</date> —
-               <lb facs="#facs_2_region_1787722133106_438_tl_32" n="N032"/>doch auf eine spätere Zeit rathen möchte. Freilich, weil wir
-               <lb facs="#facs_2_region_1787722133106_438_tl_33" n="N033"/>eben von jener ersten <rs type="place">Bonn</rs>er Zeit <rs type="person">Beethoven</rs>'s nichts
-               <lb facs="#facs_2_region_1787722133106_438_tl_34" n="N034"/>kannten! War er doch 25 Jahre alt, als sein erstes Werk,
-               <lb facs="#facs_2_region_1787722133106_438_tl_35" n="N035"/>die völlig reifen drei <rs type="bibl">Trios</rs>, in <rs type="place">Wien</rs> gedruckt erschien.
-               <lb facs="#facs_2_region_1787722133106_438_tl_36" n="N036"/>Eine Gelegenheits-Musik in der gewöhnlichen abschätzi¬
-               <lb facs="#facs_2_region_1787722133106_438_tl_37" n="N037"/>gen Bedeutung des Wortes kann man die „<rs type="bibl">Trauercantate</rs>“
-               <lb facs="#facs_2_region_1787722133106_438_tl_38" n="N038"/>nicht nennen, denn offenbar war <rs type="person">Beethoven</rs> ganz erfüllt und
-               <lb facs="#facs_2_region_1787722133106_438_tl_39" n="N039"/>bewegt von seinem Gegenstande, voll Begeisterung für den
-               <lb facs="#facs_2_region_1787722133106_438_tl_40" n="N040"/>großen Unvergeßlichen und Unersetzlichen. Weit minder</p>
-            <p facs="#facs_2_region_1787722137930_441">
-               <lb facs="#facs_2_region_1787722137930_441_tl_1" n="N001"/>als der Tod Kaiser <rs type="person">Joseph</rs>'s konnte die Thronbesteigung
-               <lb facs="#facs_2_region_1787722137930_441_tl_2" n="N002"/>
-               <rs type="person">Leopold</rs>'s des Zweiten <rs type="person">Beethoven</rs>'s Gemüth ergreifen; der
-               <lb facs="#facs_2_region_1787722137930_441_tl_3" n="N003"/>Schmerz dort mußte unvergleichlich tiefer und echter sein,
-               <lb facs="#facs_2_region_1787722137930_441_tl_4" n="N004"/>als hier die Freude. Mit jener <rs type="bibl">Trauercantate</rs> verglichen, ist
-               <lb facs="#facs_2_region_1787722137930_441_tl_5" n="N005"/>diese zweite, die <rs type="bibl">Jubelcantate</rs>, im engeren Sinne Gelegen¬
-               <lb facs="#facs_2_region_1787722137930_441_tl_6" n="N006"/>heits-Musik. Was konnte dem jungen <rs type="person">Beethoven</rs> der neue
-               <lb facs="#facs_2_region_1787722137930_441_tl_7" n="N007"/>Kaiser <rs type="person">Leopold</rs> sein? Auch der ungenannte Dichter — höchst
-               <lb facs="#facs_2_region_1787722137930_441_tl_8" n="N008"/>wahrscheinlich derselbe Odenfabrikant — zeigt sich hier weit
-               <lb facs="#facs_2_region_1787722137930_441_tl_9" n="N009"/>kälter und gespreizter. Die „<hi rendition="#em">
-                  <rs type="bibl">Cantate auf die Erhebung</rs>
-               </hi>
-               <lb facs="#facs_2_region_1787722137930_441_tl_10" n="N010"/>
-               <hi rendition="#em">
-                  <rs type="bibl">Leopold des Zweiten zur Kayserwürde</rs>
-               </hi>“, hat nur
-               <lb facs="#facs_2_region_1787722137930_441_tl_11" n="N011"/>drei Nummern, durch deren große Ausdehnung sie jedoch
-               <lb facs="#facs_2_region_1787722137930_441_tl_12" n="N012"/>den Umfang der <rs type="bibl">Trauercantate</rs> nahezu erreicht. Den
-               <lb facs="#facs_2_region_1787722137930_441_tl_13" n="N013"/>Anfang macht ein langes, von Instrumental-Passagen reich¬
-               <lb facs="#facs_2_region_1787722137930_441_tl_14" n="N014"/>lich durchflochtenes, fast dramatisch auftretendes <hi rendition="#em">Sopran-</hi>
-               <lb facs="#facs_2_region_1787722137930_441_tl_15" n="N015"/>
-               <hi rendition="#em">Recitativ</hi>. Es beginnt mit den Worten: „Er schlummert.
-               <lb facs="#facs_2_region_1787722137930_441_tl_16" n="N016"/>Laßt sanft den großen Fürsten ruhen! Als er starb, da rief
-               <lb facs="#facs_2_region_1787722137930_441_tl_17" n="N017"/>der Tod Weh über die Völker aus, da riefen die Söhne
-               <lb facs="#facs_2_region_1787722137930_441_tl_18" n="N018"/>Teut's gegen die Sterne: Weh, weh! . . . Da donnern
-               <lb facs="#facs_2_region_1787722137930_441_tl_19" n="N019"/>aus eisernen Schlünden Jubel und Heil, das da kam vom
-               <lb facs="#facs_2_region_1787722137930_441_tl_20" n="N020"/>Olympus herab. Heil, Heil! Sie sind gedonnert, die
-               <lb facs="#facs_2_region_1787722137930_441_tl_21" n="N021"/>Donner; sie sind geschleudert, die Blitze; getrocknet ist die
-               <lb facs="#facs_2_region_1787722137930_441_tl_22" n="N022"/>Zähre der Nationen. Da glänzt eine Wolke heran, sie theilt
-               <lb facs="#facs_2_region_1787722137930_441_tl_23" n="N023"/>sich — Ha, was sehe ich? Er ist's, er ist's: <hi rendition="#em">
-                  <rs type="person">Leopold</rs>
-               </hi>
-               <lb facs="#facs_2_region_1787722137930_441_tl_24" n="N024"/>unser Kayser!“ Die sich anschließende <hi rendition="#em">Arie</hi> (G-dur, C,
-               <lb facs="#facs_2_region_1787722137930_441_tl_25" n="N025"/>Allo mod.) wird von einem anmuthigen Thema der Geigen
-               <lb facs="#facs_2_region_1787722137930_441_tl_26" n="N026"/>eingeleitet, das eine Solo-Flöte, dann ein Solo-Violoncell
-               <lb facs="#facs_2_region_1787722137930_441_tl_27" n="N027"/>aufnehmen und lange fortführen. Nach diesem ausgedehnten
-               <lb facs="#facs_2_region_1787722137930_441_tl_28" n="N028"/>Instrumental-Vorspiele beginnt der Gesang: „Fließe, fließe,
-               <lb facs="#facs_2_region_1787722137930_441_tl_29" n="N029"/>Wonnezähre!“ in der etwas zopfigen, fast süßlichen Gemüth¬
-               <lb facs="#facs_2_region_1787722137930_441_tl_30" n="N030"/>lichkeit <rs type="person">Haydn</rs>-<rs type="person">Zumsteeg</rs>'scher Theatermusik. Es währt nicht
-               <lb facs="#facs_2_region_1787722137930_441_tl_31" n="N031"/>lange, daß der Sopran sich mit langen, wiederholt ins hohe
-               <lb facs="#facs_2_region_1787722137930_441_tl_32" n="N032"/>H reichenden Coloratur-Passagen producirt, die mit dem
-               <lb facs="#facs_2_region_1787722137930_441_tl_33" n="N033"/>unerläßlichen Schlußtriller auf dem „Quart-Quint-Accord“
-               <lb facs="#facs_2_region_1787722137930_441_tl_34" n="N034"/>enden. Der freudenvolle Inhalt des Gedichtes, dem doch in
-               <lb facs="#facs_2_region_1787722137930_441_tl_35" n="N035"/>
-               <rs type="person">Beethoven</rs> nur eine sehr mäßige Freude entsprechen konnte, drängte
-               <lb facs="#facs_2_region_1787722137930_441_tl_36" n="N036"/>ihn in hergebrachte Formeln und zu opernhaften Ausschmückun¬
-               <lb facs="#facs_2_region_1787722137930_441_tl_37" n="N037"/>gen, von denen die „<rs type="bibl">Trauercantate</rs>“ sich völlig rein erhielt. Diese
-               <lb facs="#facs_2_region_1787722137930_441_tl_38" n="N038"/>lange Sopran-Arie ist das Haupt- und Mittelstück des
-               <lb facs="#facs_2_region_1787722137930_441_tl_39" n="N039"/>ganzen Werkes. Ihr folgt ein <hi rendition="#em">Terzett</hi> für Sopran,
-               <lb facs="#facs_2_region_1787722137930_441_tl_40" n="N040"/>Tenor und Baß (A-dur. 2/4 Andante) dessen gravitätisch</p>
-            <p facs="#facs_2_region_1787722143082_444">
-               <lb facs="#facs_2_region_1787722143082_444_tl_1" n="N001"/>tröstendes Thema der Tenor intonirt: „Ihr, die <rs type="person">Joseph</rs>
-               <lb facs="#facs_2_region_1787722143082_444_tl_2" n="N002"/>ihren Vater nannten, weint nicht mehr!“ Der Schlußchor
-               <lb facs="#facs_2_region_1787722143082_444_tl_3" n="N003"/>(D-dur, Allo vivace), in welchem Trompeten und Pauken
-               <lb facs="#facs_2_region_1787722143082_444_tl_4" n="N004"/>zum erstenmale erklingen, beginnt mit den Worten: „Ihr
-               <lb facs="#facs_2_region_1787722143082_444_tl_5" n="N005"/>stürzt nieder, Millionen!“ Das in gleichen halben Noten
-               <lb facs="#facs_2_region_1787722143082_444_tl_6" n="N006"/>aufsteigende Thema, erst von allen Bassisten unisono an¬
-               <lb facs="#facs_2_region_1787722143082_444_tl_7" n="N007"/>geschlagen, dann von den höheren Stimmen aufgenommen,
-               <lb facs="#facs_2_region_1787722143082_444_tl_8" n="N008"/>ist zwar keineswegs identisch mit dem Thema des G-dur-
-               <lb facs="#facs_2_region_1787722143082_444_tl_9" n="N009"/>Andante im Freudenhymnus der <rs type="bibl">Neunten Symphonie</rs>, erin¬
-               <lb facs="#facs_2_region_1787722143082_444_tl_10" n="N010"/>nert aber doch unwillkürlich daran. Es ist, als habe eine
-               <lb facs="#facs_2_region_1787722143082_444_tl_11" n="N011"/>dunkle, durch den Geichlaut der Worte hervorgerufene Erin¬
-               <lb facs="#facs_2_region_1787722143082_444_tl_12" n="N012"/>nerung <rs type="person">Beethoven</rs> nach langen Jahren bei der Composition
-               <lb facs="#facs_2_region_1787722143082_444_tl_13" n="N013"/>der <rs type="person">Schiller</rs>'schen <rs type="bibl">Hymne</rs> leise berührt. Das Motiv wird zu
-               <lb facs="#facs_2_region_1787722143082_444_tl_14" n="N014"/>verschiedenenmalen von den einzelnen Stimmen canonisch ab¬
-               <lb facs="#facs_2_region_1787722143082_444_tl_15" n="N015"/>gelöst, ohne daß es zu einem eigentlichen fugirten Satz
-               <lb facs="#facs_2_region_1787722143082_444_tl_16" n="N016"/>kommt. Immer lebhafter bewegt umrauschen die figurirenden
-               <lb facs="#facs_2_region_1787722143082_444_tl_17" n="N017"/>Violinen und Bässe den Chorgesang, welcher mit dem oft
-               <lb facs="#facs_2_region_1787722143082_444_tl_18" n="N018"/>wiederholten Ausrufe: „Groß ist Er!“ abschließt.
-               <lb facs="#facs_2_region_1787722143082_444_tl_19" n="N019"/>Die <rs type="bibl">Leopolds-Cantate</rs>, mit deren Inhalt wir kaum
-               <lb facs="#facs_2_region_1787722143082_444_tl_20" n="N020"/>mehr eine Fühlung haben, ist uns lediglich musikalisch inter¬
-               <lb facs="#facs_2_region_1787722143082_444_tl_21" n="N021"/>essant als ein Beitrag zu unserer so lückenhaften Kenntniß
-               <lb facs="#facs_2_region_1787722143082_444_tl_22" n="N022"/>des jungen <rs type="person">Beethoven</rs>. Die <rs type="bibl">Trauercantate</rs> hingegen ragt als
-               <lb facs="#facs_2_region_1787722143082_444_tl_23" n="N023"/>ein bedeutsames historisches Monument in unsere Zeit, da sie
-               <lb facs="#facs_2_region_1787722143082_444_tl_24" n="N024"/>die Namen <rs type="person">Joseph II.</rs> und <rs type="person">Beethoven</rs> in Einem Kunstwerke
-               <lb facs="#facs_2_region_1787722143082_444_tl_25" n="N025"/>verknüpft. Sie ist auch künstlerisch gewichtiger und eigen¬
-               <lb facs="#facs_2_region_1787722143082_444_tl_26" n="N026"/>artiger als die <rs type="bibl">zweite</rs>. Bei der jetzt wiedererwachten Pietät
-               <lb facs="#facs_2_region_1787722143082_444_tl_27" n="N027"/>für Kaiser <rs type="person">Joseph</rs>, einer Bewegung, die hoffentlich noch
-               <lb facs="#facs_2_region_1787722143082_444_tl_28" n="N028"/>immer mehr in die Breite wie in die Tiefe gehen wird,
-               <lb facs="#facs_2_region_1787722143082_444_tl_29" n="N029"/>dürfte eine gelegentliche Aufführung der <rs type="bibl">Trauercantate</rs> dem
-               <lb facs="#facs_2_region_1787722143082_444_tl_30" n="N030"/>Danke aller Musikfreunde, der <rs type="place">österreichisch</rs>en zumal, be¬
-               <lb facs="#facs_2_region_1787722143082_444_tl_31" n="N031"/>gegnen. Auch die Veröffentlichung dieser Composition kann
-               <lb facs="#facs_2_region_1787722143082_444_tl_32" n="N032"/>wol nur eine Frage der Zeit sein. Indessen, aufgeführt oder
-               <lb facs="#facs_2_region_1787722143082_444_tl_33" n="N033"/>nicht, gedruckt oder nicht — die bloße Wiederauffindung der
-               <lb facs="#facs_2_region_1787722143082_444_tl_34" n="N034"/>beiden <rs type="person">Beethoven</rs>'schen <rs type="bibl">Cantaten</rs>, für die längst jede Hoff¬
-               <lb facs="#facs_2_region_1787722143082_444_tl_35" n="N035"/>nung verschwunden war, ist ein Ereigniß von ungewöhn¬
-               <lb facs="#facs_2_region_1787722143082_444_tl_36" n="N036"/>lichem Reiz und Gehalt für die gesammte Musikwelt. Wir
-               <lb facs="#facs_2_region_1787722143082_444_tl_37" n="N037"/>besitzen nun zum erstenmale zwei umfangreiche, gänzlich un¬
-               <lb facs="#facs_2_region_1787722143082_444_tl_38" n="N038"/>bekannt gebliebene Werke des großen Tondichters aus einer
-               <lb facs="#facs_2_region_1787722143082_444_tl_39" n="N039"/>Zeit, in welche wir bisher keine <rs type="person">Beethoven</rs>'sche Composition
-               <lb facs="#facs_2_region_1787722143082_444_tl_40" n="N040"/>von irgend welcher Bedeutung setzen konnten.</p>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1787722133106_438_tl_1" n="N001"/>Gottheit.“ Von einer verstärkten Begleitung und vom ganzen
+         <lb facs="#facs_2_region_1787722133106_438_tl_2" n="N002"/>Chor gestützt, wird hierauf diese Cantilene wiederholt.
+         <lb facs="#facs_2_region_1787722133106_438_tl_3" n="N003"/>Wir haben viele Beispiele, wie unsere Meister, und namentlich
+         <lb facs="#facs_2_region_1787722133106_438_tl_4" n="N004"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs>, einen musikalischen Gedanken das zweitemal an
+         <lb facs="#facs_2_region_1787722133106_438_tl_5" n="N005"/>anderer Stelle benützten. Hier will es uns besonders bedeutsam
+         <lb facs="#facs_2_region_1787722133106_438_tl_6" n="N006"/>erscheinen. Wie tief muß <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> in der <rs type="bibl" ref="#hsl_work_id_1466">Trauercantate</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1787722133106_438_tl_7" n="N007"/>diese Melodie und damit den Sinn der Worte empfunden
+         <lb facs="#facs_2_region_1787722133106_438_tl_8" n="N008"/>haben — so tief und schön, wie fünfzehn Jahre später, da
+         <lb facs="#facs_2_region_1787722133106_438_tl_9" n="N009"/>er das hohe Lied von der befreienden Liebe eines Weibes zu
+         <lb facs="#facs_2_region_1787722133106_438_tl_10" n="N010"/>Ende sang! Die drei Solopartien für Flöte, Oboë und
+         <lb facs="#facs_2_region_1787722133106_438_tl_11" n="N011"/>Fagott, obwol keineswegs virtuos bedacht, mochten trotzdem
+         <lb facs="#facs_2_region_1787722133106_438_tl_12" n="N012"/>zu jener Zeit in kleineren Orchestern keine genügende Ver
+         <lb facs="#facs_2_region_1787722133106_438_tl_13" n="N013" break="no"/>tretung vorgefunden haben. Und so dürfte sich der Bericht
+         <lb facs="#facs_2_region_1787722133106_438_tl_14" n="N014"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_5820">Wegeler</rs>’s</hi> (Seite 16) erklären, es hätte „die Cantate“
+         <lb facs="#facs_2_region_1787722133106_438_tl_15" n="N015"/>(nur unsere <rs type="bibl" ref="#hsl_work_id_1466">Trauercantate</rs> kann gemeint sein) in <rs type="place" ref="#hsl_place_id_1539">Mergentheim</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1787722133106_438_tl_16" n="N016"/>aufgeführt werden sollen, sei aber schließlich wegen mehrerer
+         <lb facs="#facs_2_region_1787722133106_438_tl_17" n="N017"/>sehr schwieriger Stellen der Blas-Instrumente beiseite gelegt
+         <lb facs="#facs_2_region_1787722133106_438_tl_18" n="N018"/>worden.
+            </p><p>
+         <lb facs="#facs_2_region_1787722133106_438_tl_19" n="N019"/>Als vierte Nummer folgt ein langsames, sehr düsteres
+         <lb facs="#facs_2_region_1787722133106_438_tl_20" n="N020"/>Recitativ für Sopran: „Er schläft, von den Sorgen seiner
+         <lb facs="#facs_2_region_1787722133106_438_tl_21" n="N021"/>Welten entladen,“ mit der Arie: „Hier schlummert seinen
+         <lb facs="#facs_2_region_1787722133106_438_tl_22" n="N022"/>stillen Frieden der große Dulder.“ (Es-dur, 3/4, Adagio
+         <lb facs="#facs_2_region_1787722133106_438_tl_23" n="N023"/>con affetto.) Daran schließt sich unmittelbar die Wieder
+         <lb facs="#facs_2_region_1787722133106_438_tl_24" n="N024" break="no"/>holung des ersten C-moll-Chors „Todt, todt!“ mit etwas
+         <lb facs="#facs_2_region_1787722133106_438_tl_25" n="N025"/>ausgeführterem Schlusse, immer langsamer und leiser werdend,
+         <lb facs="#facs_2_region_1787722133106_438_tl_26" n="N026"/>bis zu gänzlichem Verhallen.
+            </p><p>
+         <lb facs="#facs_2_region_1787722133106_438_tl_27" n="N027"/>Die <rs type="bibl" ref="#hsl_work_id_1466">Trauercantate auf Joseph II.</rs> zeigt uns zwar noch
+         <lb facs="#facs_2_region_1787722133106_438_tl_28" n="N028"/>nicht den über seine Zeit sich hoch aufschwingenden <rs type="person" ref="#hsl_person_id_25">Beethoven</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1787722133106_438_tl_29" n="N029"/>der <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Periode, aber sie verräth schon einen so kräftig
+         <lb facs="#facs_2_region_1787722133106_438_tl_30" n="N030"/>sich bewußten Geist und seine so sicher gestaltende Hand, daß
+         <lb facs="#facs_2_region_1787722133106_438_tl_31" n="N031"/>man — wäre nicht das historische Datum Februar <date>1790</date> —
+         <lb facs="#facs_2_region_1787722133106_438_tl_32" n="N032"/>doch auf eine spätere Zeit rathen möchte. Freilich, weil wir
+         <lb facs="#facs_2_region_1787722133106_438_tl_33" n="N033"/>eben von jener ersten <rs type="place" ref="#hsl_place_id_67">Bonn</rs>er Zeit <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s nichts
+         <lb facs="#facs_2_region_1787722133106_438_tl_34" n="N034"/>kannten! War er doch 25 Jahre alt, als sein erstes Werk,
+         <lb facs="#facs_2_region_1787722133106_438_tl_35" n="N035"/>die völlig reifen drei <rs type="bibl" ref="#hsl_work_id_3141 #hsl_work_id_3408 #hsl_work_id_3409">Trios</rs>, in <rs type="place" ref="#hsl_place_id_55">Wien</rs> gedruckt erschien.
+            </p><p>
+         <lb facs="#facs_2_region_1787722133106_438_tl_36" n="N036"/>Eine Gelegenheits-Musik in der gewöhnlichen abschätzi
+         <lb facs="#facs_2_region_1787722133106_438_tl_37" n="N037" break="no"/>gen Bedeutung des Wortes kann man die „<rs type="bibl" ref="#hsl_work_id_1466">Trauercantate</rs>“
+         <lb facs="#facs_2_region_1787722133106_438_tl_38" n="N038"/>nicht nennen, denn offenbar war <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> ganz erfüllt und
+         <lb facs="#facs_2_region_1787722133106_438_tl_39" n="N039"/>bewegt von seinem Gegenstande, voll Begeisterung für den
+         <lb facs="#facs_2_region_1787722133106_438_tl_40" n="N040"/>großen Unvergeßlichen und Unersetzlichen. Weit minder<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1787722137930_441_tl_1" n="N001"/>als der Tod Kaiser <rs type="person" ref="#hsl_person_id_823">Joseph</rs>’s konnte die Thronbesteigung
+         <lb facs="#facs_2_region_1787722137930_441_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_961">Leopold</rs>’s des Zweiten <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’s Gemüth ergreifen; der
+         <lb facs="#facs_2_region_1787722137930_441_tl_3" n="N003"/>Schmerz dort mußte unvergleichlich tiefer und echter sein,
+         <lb facs="#facs_2_region_1787722137930_441_tl_4" n="N004"/>als hier die Freude. Mit jener <rs type="bibl" ref="#hsl_work_id_1466">Trauercantate</rs> verglichen, ist
+         <lb facs="#facs_2_region_1787722137930_441_tl_5" n="N005"/>diese zweite, die <rs type="bibl" ref="#hsl_work_id_1467">Jubelcantate</rs>, im engeren Sinne Gelegen
+         <lb facs="#facs_2_region_1787722137930_441_tl_6" n="N006" break="no"/>heits-Musik. Was konnte dem jungen <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> der neue
+         <lb facs="#facs_2_region_1787722137930_441_tl_7" n="N007"/>Kaiser <rs type="person" ref="#hsl_person_id_961">Leopold</rs> sein? Auch der ungenannte Dichter — höchst
+         <lb facs="#facs_2_region_1787722137930_441_tl_8" n="N008"/>wahrscheinlich derselbe Odenfabrikant — zeigt sich hier weit
+         <lb facs="#facs_2_region_1787722137930_441_tl_9" n="N009"/>kälter und gespreizter. Die „<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_1467">Cantate auf die Erhebung
+         <lb facs="#facs_2_region_1787722137930_441_tl_10" n="N010"/>Leopold des Zweiten zur Kayserwürde</rs></hi>“, hat nur
+         <lb facs="#facs_2_region_1787722137930_441_tl_11" n="N011"/>drei Nummern, durch deren große Ausdehnung sie jedoch
+         <lb facs="#facs_2_region_1787722137930_441_tl_12" n="N012"/>den Umfang der <rs type="bibl" ref="#hsl_work_id_1466">Trauercantate</rs> nahezu erreicht. Den
+         <lb facs="#facs_2_region_1787722137930_441_tl_13" n="N013"/>Anfang macht ein langes, von Instrumental-Passagen reich
+         <lb facs="#facs_2_region_1787722137930_441_tl_14" n="N014" break="no"/>lich durchflochtenes, fast dramatisch auftretendes <hi rendition="#em">Sopran-
+         <lb facs="#facs_2_region_1787722137930_441_tl_15" n="N015"/>Recitativ</hi>. Es beginnt mit den Worten: „Er schlummert.
+         <lb facs="#facs_2_region_1787722137930_441_tl_16" n="N016"/>Laßt sanft den großen Fürsten ruhen! Als er starb, da rief
+         <lb facs="#facs_2_region_1787722137930_441_tl_17" n="N017"/>der Tod Weh über die Völker aus, da riefen die Söhne
+         <lb facs="#facs_2_region_1787722137930_441_tl_18" n="N018"/>Teut’s gegen die Sterne: Weh, weh! . . . Da donnern
+         <lb facs="#facs_2_region_1787722137930_441_tl_19" n="N019"/>aus eisernen Schlünden Jubel und Heil, das da kam vom
+         <lb facs="#facs_2_region_1787722137930_441_tl_20" n="N020"/>Olympus herab. Heil, Heil! Sie sind gedonnert, die
+         <lb facs="#facs_2_region_1787722137930_441_tl_21" n="N021"/>Donner; sie sind geschleudert, die Blitze; getrocknet ist die
+         <lb facs="#facs_2_region_1787722137930_441_tl_22" n="N022"/>Zähre der Nationen. Da glänzt eine Wolke heran, sie theilt
+         <lb facs="#facs_2_region_1787722137930_441_tl_23" n="N023"/>sich — Ha, was sehe ich? Er ist’s, er ist’s: <hi rendition="#em"><rs type="person" ref="#hsl_person_id_961">Leopold</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1787722137930_441_tl_24" n="N024"/>unser Kayser!“ Die sich anschließende <hi rendition="#em">Arie</hi> (G-dur, C,
+         <lb facs="#facs_2_region_1787722137930_441_tl_25" n="N025"/>Allo mod.) wird von einem anmuthigen Thema der Geigen
+         <lb facs="#facs_2_region_1787722137930_441_tl_26" n="N026"/>eingeleitet, das eine Solo-Flöte, dann ein Solo-Violoncell
+         <lb facs="#facs_2_region_1787722137930_441_tl_27" n="N027"/>aufnehmen und lange fortführen. Nach diesem ausgedehnten
+         <lb facs="#facs_2_region_1787722137930_441_tl_28" n="N028"/>Instrumental-Vorspiele beginnt der Gesang: „Fließe, fließe,
+         <lb facs="#facs_2_region_1787722137930_441_tl_29" n="N029"/>Wonnezähre!“ in der etwas zopfigen, fast süßlichen Gemüth
+         <lb facs="#facs_2_region_1787722137930_441_tl_30" n="N030" break="no"/>lichkeit <rs type="person" ref="#hsl_person_id_114">Haydn</rs>-<rs type="person" ref="#hsl_person_id_2385">Zumsteeg</rs>’scher Theatermusik. Es währt nicht
+         <lb facs="#facs_2_region_1787722137930_441_tl_31" n="N031"/>lange, daß der Sopran sich mit langen, wiederholt ins hohe
+         <lb facs="#facs_2_region_1787722137930_441_tl_32" n="N032"/>H reichenden Coloratur-Passagen producirt, die mit dem
+         <lb facs="#facs_2_region_1787722137930_441_tl_33" n="N033"/>unerläßlichen Schlußtriller auf dem „Quart-Quint-Accord“
+         <lb facs="#facs_2_region_1787722137930_441_tl_34" n="N034"/>enden. Der freudenvolle Inhalt des Gedichtes, dem doch in
+         <lb facs="#facs_2_region_1787722137930_441_tl_35" n="N035"/><rs type="person" ref="#hsl_person_id_25">Beethoven</rs> nur eine sehr mäßige Freude entsprechen konnte, drängte
+         <lb facs="#facs_2_region_1787722137930_441_tl_36" n="N036"/>ihn in hergebrachte Formeln und zu opernhaften Ausschmückun
+         <lb facs="#facs_2_region_1787722137930_441_tl_37" n="N037" break="no"/>gen, von denen die „<rs type="bibl" ref="#hsl_work_id_1466">Trauercantate</rs>“ sich völlig rein erhielt. Diese
+         <lb facs="#facs_2_region_1787722137930_441_tl_38" n="N038"/>lange Sopran-Arie ist das Haupt- und Mittelstück des
+         <lb facs="#facs_2_region_1787722137930_441_tl_39" n="N039"/>ganzen Werkes. Ihr folgt ein <hi rendition="#em">Terzett</hi> für Sopran,
+         <lb facs="#facs_2_region_1787722137930_441_tl_40" n="N040"/>Tenor und Baß (A-dur. 2/4 Andante) dessen gravitätisch<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1787722143082_444_tl_1" n="N001"/>tröstendes Thema der Tenor intonirt: „Ihr, die <rs type="person" ref="#hsl_person_id_823">Joseph</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1787722143082_444_tl_2" n="N002"/>ihren Vater nannten, weint nicht mehr!“ Der Schlußchor
+         <lb facs="#facs_2_region_1787722143082_444_tl_3" n="N003"/>(D-dur, Allo vivace), in welchem Trompeten und Pauken
+         <lb facs="#facs_2_region_1787722143082_444_tl_4" n="N004"/>zum erstenmale erklingen, beginnt mit den Worten: „Ihr
+         <lb facs="#facs_2_region_1787722143082_444_tl_5" n="N005"/>stürzt nieder, Millionen!“ Das in gleichen halben Noten
+         <lb facs="#facs_2_region_1787722143082_444_tl_6" n="N006"/>aufsteigende Thema, erst von allen Bassisten unisono an
+         <lb facs="#facs_2_region_1787722143082_444_tl_7" n="N007" break="no"/>geschlagen, dann von den höheren Stimmen aufgenommen,
+         <lb facs="#facs_2_region_1787722143082_444_tl_8" n="N008"/>ist zwar keineswegs identisch mit dem Thema des G-dur-
+         <lb facs="#facs_2_region_1787722143082_444_tl_9" n="N009"/>Andante im Freudenhymnus der <rs type="bibl" ref="#hsl_work_id_272">Neunten Symphonie</rs>, erin
+         <lb facs="#facs_2_region_1787722143082_444_tl_10" n="N010" break="no"/>nert aber doch unwillkürlich daran. Es ist, als habe eine
+         <lb facs="#facs_2_region_1787722143082_444_tl_11" n="N011"/>dunkle, durch den Geichlaut der Worte hervorgerufene Erin
+         <lb facs="#facs_2_region_1787722143082_444_tl_12" n="N012" break="no"/>nerung <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> nach langen Jahren bei der Composition
+         <lb facs="#facs_2_region_1787722143082_444_tl_13" n="N013"/>der <rs type="person" ref="#hsl_person_id_248">Schiller</rs>’schen <rs type="bibl" ref="#hsl_work_id_4006">Hymne</rs> leise berührt. Das Motiv wird zu
+         <lb facs="#facs_2_region_1787722143082_444_tl_14" n="N014"/>verschiedenenmalen von den einzelnen Stimmen canonisch ab
+         <lb facs="#facs_2_region_1787722143082_444_tl_15" n="N015" break="no"/>gelöst, ohne daß es zu einem eigentlichen fugirten Satz
+         <lb facs="#facs_2_region_1787722143082_444_tl_16" n="N016"/>kommt. Immer lebhafter bewegt umrauschen die figurirenden
+         <lb facs="#facs_2_region_1787722143082_444_tl_17" n="N017"/>Violinen und Bässe den Chorgesang, welcher mit dem oft
+         <lb facs="#facs_2_region_1787722143082_444_tl_18" n="N018"/>wiederholten Ausrufe: „Groß ist Er!“ abschließt.
+            </p><p>
+         <lb facs="#facs_2_region_1787722143082_444_tl_19" n="N019"/>Die <rs type="bibl" ref="#hsl_work_id_1467">Leopolds-Cantate</rs>, mit deren Inhalt wir kaum
+         <lb facs="#facs_2_region_1787722143082_444_tl_20" n="N020"/>mehr eine Fühlung haben, ist uns lediglich musikalisch inter
+         <lb facs="#facs_2_region_1787722143082_444_tl_21" n="N021" break="no"/>essant als ein Beitrag zu unserer so lückenhaften Kenntniß
+         <lb facs="#facs_2_region_1787722143082_444_tl_22" n="N022"/>des jungen <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>. Die <rs type="bibl" ref="#hsl_work_id_1466">Trauercantate</rs> hingegen ragt als
+         <lb facs="#facs_2_region_1787722143082_444_tl_23" n="N023"/>ein bedeutsames historisches Monument in unsere Zeit, da sie
+         <lb facs="#facs_2_region_1787722143082_444_tl_24" n="N024"/>die Namen <rs type="person" ref="#hsl_person_id_823">Joseph II.</rs> und <rs type="person" ref="#hsl_person_id_25">Beethoven</rs> in Einem Kunstwerke
+         <lb facs="#facs_2_region_1787722143082_444_tl_25" n="N025"/>verknüpft. Sie ist auch künstlerisch gewichtiger und eigen
+         <lb facs="#facs_2_region_1787722143082_444_tl_26" n="N026" break="no"/>artiger als die <rs type="bibl" ref="#hsl_work_id_1467">zweite</rs>. Bei der jetzt wiedererwachten Pietät
+         <lb facs="#facs_2_region_1787722143082_444_tl_27" n="N027"/>für Kaiser <rs type="person" ref="#hsl_person_id_823">Joseph</rs>, einer Bewegung, die hoffentlich noch
+         <lb facs="#facs_2_region_1787722143082_444_tl_28" n="N028"/>immer mehr in die Breite wie in die Tiefe gehen wird,
+         <lb facs="#facs_2_region_1787722143082_444_tl_29" n="N029"/>dürfte eine gelegentliche Aufführung der <rs type="bibl" ref="#hsl_work_id_1466">Trauercantate</rs> dem
+         <lb facs="#facs_2_region_1787722143082_444_tl_30" n="N030"/>Danke aller Musikfreunde, der <rs type="place" ref="#hsl_place_id_43">österreichisch</rs>en zumal, be
+         <lb facs="#facs_2_region_1787722143082_444_tl_31" n="N031" break="no"/>gegnen. Auch die Veröffentlichung dieser Composition kann
+         <lb facs="#facs_2_region_1787722143082_444_tl_32" n="N032"/>wol nur eine Frage der Zeit sein. Indessen, aufgeführt oder
+         <lb facs="#facs_2_region_1787722143082_444_tl_33" n="N033"/>nicht, gedruckt oder nicht — die bloße Wiederauffindung der
+         <lb facs="#facs_2_region_1787722143082_444_tl_34" n="N034"/>beiden <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’schen <rs type="bibl" ref="#hsl_work_id_1466 #hsl_work_id_1467">Cantaten</rs>, für die längst jede Hoff
+         <lb facs="#facs_2_region_1787722143082_444_tl_35" n="N035" break="no"/>nung verschwunden war, ist ein Ereigniß von ungewöhn
+         <lb facs="#facs_2_region_1787722143082_444_tl_36" n="N036" break="no"/>lichem Reiz und Gehalt für die gesammte Musikwelt. Wir
+         <lb facs="#facs_2_region_1787722143082_444_tl_37" n="N037"/>besitzen nun zum erstenmale zwei umfangreiche, gänzlich un
+         <lb facs="#facs_2_region_1787722143082_444_tl_38" n="N038" break="no"/>bekannt gebliebene Werke des großen Tondichters aus einer
+         <lb facs="#facs_2_region_1787722143082_444_tl_39" n="N039"/>Zeit, in welche wir bisher keine <rs type="person" ref="#hsl_person_id_25">Beethoven</rs>’sche Composition
+         <lb facs="#facs_2_region_1787722143082_444_tl_40" n="N040"/>von irgend welcher Bedeutung setzen konnten.</p>
          </div>
       </body>
    </text>
