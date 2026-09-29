@@ -195,6 +195,11 @@
     
     <xsl:template match="tei:body/tei:div">
         <div xmlns="http://www.tei-c.org/ns/1.0">
+            <head xmlns="http://www.tei-c.org/ns/1.0" type="masthead">
+                <xsl:value-of select="normalize-space(string-join($headLine1//text(), ' '))"/><lb xmlns="http://www.tei-c.org/ns/1.0"/>
+                <xsl:value-of select="normalize-space(string-join($headLine2//text(), ' '))"/><lb xmlns="http://www.tei-c.org/ns/1.0"/>
+                <xsl:value-of select="normalize-space(string-join($headLine3//text(), ' '))"/>
+            </head>
             <xsl:for-each-group select="." group-starting-with="tei:pb">
                 <xsl:apply-templates/>
             </xsl:for-each-group>
