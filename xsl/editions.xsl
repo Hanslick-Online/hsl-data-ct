@@ -7,9 +7,20 @@
     
     <xsl:output encoding="UTF-8" media-type="text/xml" method="xml" indent="yes" omit-xml-declaration="yes"/>
     
-    <!-- masthead ab elements must precede all body p's; a stray trailing ab must not be mistaken for one -->
-    <xsl:variable name="headAb1" select="//tei:body/tei:div/tei:ab[1][not(preceding-sibling::tei:p)]"/>
-    <xsl:variable name="headAb2" select="//tei:body/tei:div/tei:ab[2][not(preceding-sibling::tei:p)]"/>
+    <!-- masthead is always the first 3 non-pb children (paper name, edition, issue/date), whether tagged ab or already-lektored p -->
+    <xsl:variable name="mastheadLines" select="(//tei:body/tei:div/*[not(self::tei:pb)])[position() &lt;= 3]"/>
+    <xsl:variable name="headLine1" select="$mastheadLines[1]"/>
+    <xsl:variable name="headLine2" select="$mastheadLines[2]"/>
+    <xsl:variable name="headLine3" select="$mastheadLines[3]"/>
+    
+    <!-- pre-process teiHeader title is already "YYYY.MM.DD" (same value used for the output filename) -->
+    <xsl:variable name="fileDateParts" select="tokenize(//tei:titleStmt/tei:title[1]/text(), '\.')"/>
+    <xsl:variable name="dateWhen" select="if (count($fileDateParts) = 3)
+        then string-join($fileDateParts, '-')
+        else ''"/>
+    <xsl:variable name="dateDisplay" select="if (count($fileDateParts) = 3)
+        then concat($fileDateParts[3], '.', $fileDateParts[2], '.', $fileDateParts[1])
+        else ''"/>
     
     <xsl:template match="/">
         <xsl:variable name="file" select="//tei:titleStmt/tei:title[1]/text()"/>
@@ -108,20 +119,20 @@
             <listBibl xmlns="http://www.tei-c.org/ns/1.0">
                 <biblStruct xmlns="http://www.tei-c.org/ns/1.0">
                     <analytic xmlns="http://www.tei-c.org/ns/1.0">
-                        <title xmlns="http://www.tei-c.org/ns/1.0"><xsl:value-of select="$headAb2//text()"/></title>
+                        <title xmlns="http://www.tei-c.org/ns/1.0"><xsl:value-of select="normalize-space(string-join($headLine3//text(), ' '))"/></title>
                         <author xmlns="http://www.tei-c.org/ns/1.0" ref="#hsl_person_id_1">Hanslick, Eduard</author>
                     </analytic>
                     <monogr xmlns="http://www.tei-c.org/ns/1.0">
                         <title type="main">Neue Freie Presse</title>
-                        <title type="sub"><xsl:value-of select="$headAb1//text()"/></title>
+                        <title type="sub"><xsl:value-of select="normalize-space(string-join($headLine2//text(), ' '))"/></title>
                         <respStmt>
                             <resp>Herausgegeben von</resp>
                             <name type="person">Etienne, Michael</name>
                             <name type="person">Friedländer, Max</name>
                         </respStmt>
                         <imprint>
-                            <pubPlace><xsl:value-of select="$headAb2/tei:rs[@type='place']"/></pubPlace>
-                            <date when="{$headAb2/tei:date}"><xsl:value-of select="$headAb2/tei:date"/></date>
+                            <pubPlace>Wien</pubPlace>
+                            <date when="{$dateWhen}"><xsl:value-of select="$dateDisplay"/></date>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -132,7 +143,7 @@
     <xsl:template match="tei:titleStmt">
         <xsl:copy>
             <title xmlns="http://www.tei-c.org/ns/1.0" level="s">Hanslick Edition: Hanslick in Neue Freie Presse</title>
-            <title xmlns="http://www.tei-c.org/ns/1.0" level="a"><xsl:value-of select="$headAb2//text()"/></title>
+            <title xmlns="http://www.tei-c.org/ns/1.0" level="a"><xsl:value-of select="normalize-space(string-join($headLine3//text(), ' '))"/></title>
             <author xmlns="http://www.tei-c.org/ns/1.0" ref="#hsl_person_id_1">Hanslick, Eduard</author>
             <editor xmlns="http://www.tei-c.org/ns/1.0">
                 <name ref="https://orcid.org/0000-0002-0117-3574">Wilfing, Alexander</name>
@@ -178,8 +189,9 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="tei:body/tei:div/tei:ab[1][not(preceding-sibling::tei:p)]"/>
-    <xsl:template match="tei:body/tei:div/tei:ab[2][not(preceding-sibling::tei:p)]"/>
+    <xsl:template match="tei:body/tei:div/*[generate-id() = generate-id($headLine1)]"/>
+    <xsl:template match="tei:body/tei:div/*[generate-id() = generate-id($headLine2)]"/>
+    <xsl:template match="tei:body/tei:div/*[generate-id() = generate-id($headLine3)]"/>
     
     <xsl:template match="tei:body/tei:div">
         <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -189,9 +201,11 @@
         </div>
     </xsl:template>
     <xsl:variable name="ab" select="//tei:ab"/>
+    <!-- offset by however many masthead lines were actually tagged ab (vs. already-lektored p), not a hardcoded 2 -->
+    <xsl:variable name="headAbCount" select="count(($headLine1 | $headLine2 | $headLine3)[self::tei:ab])"/>
     <xsl:template match="tei:ab">
         <xsl:variable name="pos" select="index-of($ab/@facs, @facs)"/>
-        <cb xmlns="http://www.tei-c.org/ns/1.0" n="{$pos - 2}"/>
+        <cb xmlns="http://www.tei-c.org/ns/1.0" n="{$pos - $headAbCount}"/>
         <p xmlns="http://www.tei-c.org/ns/1.0"><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="tei:lb">
