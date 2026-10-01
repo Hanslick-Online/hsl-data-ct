@@ -31,6 +31,7 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -77,16 +78,19 @@
                      <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1884-03-18">18.03.1884</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18840318"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -102,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-09-16">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-09-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-10-01">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -973,365 +979,289 @@
       <body>
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
-            <p facs="#facs_1_region_1787721853244_287">
-               <lb facs="#facs_1_l_2" n="N001"/>Neue Freie Presse</p>
-            <p facs="#facs_1_region_1787721855276_290">
-               <lb facs="#facs_1_region_1787721855276_290_tl_1" n="N001"/>Morgenblatt</p>
-            <p facs="#facs_1_region_1787721858219_293">
-               <lb facs="#facs_1_l_1" n="N001"/>Nr. 7025. Wien, Dienstag, den 18. März 1884</p>
-            <p facs="#facs_1_region_1787721866075_296">
-               <lb facs="#facs_1_region_1787721866075_296_tl_1" n="N001"/>Hofoperntheater.
-               <lb facs="#facs_1_region_1787721866075_296_tl_2" n="N002"/>(„<hi rendition="#em">
-                  <rs type="bibl">Die heimliche Ehe</rs>
-               </hi>“. Komische Oper von <hi rendition="#em">
-                  <rs type="person">Cimarosa</rs>
-               </hi>).
-               <lb facs="#facs_1_region_1787721866075_296_tl_3" n="N003"/>Ed. H. <rs type="person">Cimarosa</rs>'s „<rs type="bibl">Heimliche Ehe</rs>“, als <rs type="place">deutsch</rs>e Vor¬
-               <lb facs="#facs_1_region_1787721866075_296_tl_4" n="N004"/>stellung eine Novität, ist hier vorgestern unter lebhaftem
-               <lb facs="#facs_1_region_1787721866075_296_tl_5" n="N005"/>Beifalle aufgeführt worden. Aber nur Einmal an diesem
-               <lb facs="#facs_1_region_1787721866075_296_tl_6" n="N006"/>Abende. Das in der Musikgeschichte einzig dastehende Ereigniß,
-               <lb facs="#facs_1_region_1787721866075_296_tl_7" n="N007"/>daß eine Oper am selben Abend zweimal hinter einander ge¬
-               <lb facs="#facs_1_region_1787721866075_296_tl_8" n="N008"/>spielt wird, dürfte sich wol nie mehr wiederholen. Diese
-               <lb facs="#facs_1_region_1787721866075_296_tl_9" n="N009"/>Ehre widerfuhr bekanntlich <rs type="person">Cimarosa</rs>'s „<rs type="bibl">Matrimonio segreto</rs>“
-               <lb facs="#facs_1_region_1787721866075_296_tl_10" n="N010"/>bei ihrer ersten Aufführung im Burgtheater <date>1792</date>. Das
-               <lb facs="#facs_1_region_1787721866075_296_tl_11" n="N011"/>Werk war auf persönliche Anregung Kaiser <rs type="person">Leopold</rs>'s des
-               <lb facs="#facs_1_region_1787721866075_296_tl_12" n="N012"/>Zweiten entstanden — gerade wie früher die „<rs type="bibl">Hochzeit des</rs>
-               <lb facs="#facs_1_region_1787721866075_296_tl_13" n="N013"/>
-               <rs type="bibl">Figaro</rs>“ auf den Wunsch Kaiser<rs type="person"> Joseph</rs>'s — und entzückte
-               <lb facs="#facs_1_region_1787721866075_296_tl_14" n="N014"/>den Monarchen so ungemein, daß er es gleich noch einmal
-               <lb facs="#facs_1_region_1787721866075_296_tl_15" n="N015"/>zu hören verlangte. Nur ein im anstoßenden Saale servirtes
-               <lb facs="#facs_1_region_1787721866075_296_tl_16" n="N016"/>Souper für <rs type="person">Cimarosa</rs> und die Sänger trennte die beiden
-               <lb facs="#facs_1_region_1787721866075_296_tl_17" n="N017"/>Aufführungen dieser denkwürdigen Doppel-Première. Man
-               <lb facs="#facs_1_region_1787721866075_296_tl_18" n="N018"/>muß weit ins <rs type="place">römisch</rs>e Alterthum zurückgreifen, um auf
-               <lb facs="#facs_1_region_1787721866075_296_tl_19" n="N019"/>ein zweites Beispiel dieser Art zu stoßen; die <hi rendition="#em">
-                  <rs type="person">Terenz</rs>
-               </hi>'sche
-               <lb facs="#facs_1_region_1787721866075_296_tl_20" n="N020"/>Comödie „<rs type="bibl">Der Eunuch</rs>“ wurde in Folge des allgemeinen
-               <lb facs="#facs_1_region_1787721866075_296_tl_21" n="N021"/>Enthusiasmus gleichfalls zweimal am selben Tage (Vor- und
-               <lb facs="#facs_1_region_1787721866075_296_tl_22" n="N022"/>Nachmittags) gespielt. Ein Gegenstück, aber nur Eines, zu
-               <lb facs="#facs_1_region_1787721866075_296_tl_23" n="N023"/>der Doppelaufführung der „<rs type="bibl">Heimlichen Ehe</rs>“ findet sich
-               <lb facs="#facs_1_region_1787721866075_296_tl_24" n="N024"/>übrigens auch in der <rs type="place">italienisch</rs>en Theatergeschichte: eine
-               <lb facs="#facs_1_region_1787721866075_296_tl_25" n="N025"/>neue Oper, die so unbändig gefiel, daß sie gar nicht
-               <lb facs="#facs_1_region_1787721866075_296_tl_26" n="N026"/>ausgespielt werden konnte. Das war die längst verschollene
-               <lb facs="#facs_1_region_1787721866075_296_tl_27" n="N027"/>„<rs type="bibl">Laodicea</rs>“ von Ferd. <hi rendition="#em">
-                  <rs type="person">Paër</rs>
-               </hi>, bei deren erster Aufführung
-               <lb facs="#facs_1_region_1787721866075_296_tl_28" n="N028"/>in <rs type="place">Padua</rs>
-               <date>1798</date> das entzückte Publicum jede Nummer ein-,
-               <lb facs="#facs_1_region_1787721866075_296_tl_29" n="N029"/>auch mehrmal da capo verlangte; die Vorstellung verzögerte
-               <lb facs="#facs_1_region_1787721866075_296_tl_30" n="N030"/>sich dadurch unmäßig und mußte vor dem Ende abgebrochen
-               <lb facs="#facs_1_region_1787721866075_296_tl_31" n="N031"/>werden. Die entzückten Paduaner erfuhren also erst am
-               <lb facs="#facs_1_region_1787721866075_296_tl_32" n="N032"/>nächsten Abend, wie das herrliche Stück eigentlich ausgehe.
-               <lb facs="#facs_1_region_1787721866075_296_tl_33" n="N033"/>Außer <rs type="person">Mozart</rs> ist <rs type="person">Cimarosa</rs> der einzige Componist, von
-               <lb facs="#facs_1_region_1787721866075_296_tl_34" n="N034"/>dem sich eine <rs type="place">italienisch</rs>e komische Oper aus dem vorigen
-               <lb facs="#facs_1_region_1787721866075_296_tl_35" n="N035"/>Jahrhundert bis heute erhalten hat. Schon das Textbuch
-               <lb facs="#facs_1_region_1787721866075_296_tl_36" n="N036"/>zum „<rs type="bibl">Matrimonio segreto</rs>“ gehört zu den besten der älteren
-               <lb facs="#facs_1_region_1787721866075_296_tl_37" n="N037"/>
-               <rs type="place">italienisch</rs>en Periode. Von Haus aus war es ein <rs type="place">englisch</rs>es
-               <lb facs="#facs_1_region_1787721866075_296_tl_38" n="N038"/>
-               <rs type="bibl">Lustspiel</rs> von <rs type="person">Garrick</rs> und <rs type="person">Colman</rs>, das in <rs type="place">London</rs> viel
-               <lb facs="#facs_1_region_1787721866075_296_tl_39" n="N039"/>Erfolg hatte. Aus diesem entstand dann eine <rs type="bibl">französisch</rs>e Oper,
-               <lb facs="#facs_1_region_1787721866075_296_tl_40" n="N040"/>„<rs type="person">Sophie ou le mariage caché</rs>“, welche ein Böhme, Namens
-               <lb facs="#facs_1_region_1787721866075_296_tl_41" n="N041"/>
-               <hi rendition="#em">
-                  <rs type="person">Kohaut</rs>
-               </hi>, componirt und <date>1768</date> in <rs type="place">Paris</rs> zur Aufführung
-               <lb facs="#facs_1_region_1787721866075_296_tl_42" n="N042"/>gebracht hat. In diese Musterkarte von Nationalitäten gerieth</p>
-            <p facs="#facs_1_region_1787721869979_299">
-               <lb facs="#facs_1_region_1787721869979_299_tl_1" n="N001"/>schließlich noch ein Italiener, <hi rendition="#em">
-                  <rs type="person">Bertatti</rs>
-               </hi>, mit der heilsamen
-               <lb facs="#facs_1_region_1787721869979_299_tl_2" n="N002"/>Idee, aus <rs type="person">Kohaut</rs>'s mittelmäßiger Oper ein Libretto für
-               <lb facs="#facs_1_region_1787721869979_299_tl_3" n="N003"/>
-               <rs type="person">Cimarosa</rs> zu machen. Es ist ein gut gebautes bürgerliches
-               <lb facs="#facs_1_region_1787721869979_299_tl_4" n="N004"/>Familienstück, durch dessen komische Verwicklungen und Miß¬
-               <lb facs="#facs_1_region_1787721869979_299_tl_5" n="N005"/>verständnisse sich ein zarter Liebesfaden spinnt. Gegen das
-               <lb facs="#facs_1_region_1787721869979_299_tl_6" n="N006"/>Ende läßt uns die Flucht der heimlich <rs type="person">Vermälte</rs>n und der
-               <lb facs="#facs_1_region_1787721869979_299_tl_7" n="N007"/>Zorn des <rs type="person">Vater</rs>s, der seine Tochter <rs type="person">Caroline</rs> verstoßen will,
-               <lb facs="#facs_1_region_1787721869979_299_tl_8" n="N008"/>fast eine tragische Wendung befürchten, aber die Versöhnung
-               <lb facs="#facs_1_region_1787721869979_299_tl_9" n="N009"/>erfolgt rasch und das Stück endet nach flüchtiger Umwölkung
-               <lb facs="#facs_1_region_1787721869979_299_tl_10" n="N010"/>wieder in vollem Sonnenschein.
-               <lb facs="#facs_1_region_1787721869979_299_tl_11" n="N011"/>Voller Sonnenschein — das ist auch das rechte Wort
-               <lb facs="#facs_1_region_1787721869979_299_tl_12" n="N012"/>für die Musik <rs type="person">Cimarosa</rs>'s. Sie besitzt jene echte leichte Gold¬
-               <lb facs="#facs_1_region_1787721869979_299_tl_13" n="N013"/>farbe, welche einzig für das musikalische Lustspiel paßt und
-               <lb facs="#facs_1_region_1787721869979_299_tl_14" n="N014"/>auch in den sentimentalen Scenen sich nicht in Schwarz oder
-               <lb facs="#facs_1_region_1787721869979_299_tl_15" n="N015"/>Dunkelroth verwandeln darf. Es quillt und perlt in dieser
-               <lb facs="#facs_1_region_1787721869979_299_tl_16" n="N016"/>Musik Alles so leicht und frohgemuth hin, daß der Hörer
-               <lb facs="#facs_1_region_1787721869979_299_tl_17" n="N017"/>sich nur hinzusetzen und zu genießen braucht. Sein Ver¬
-               <lb facs="#facs_1_region_1787721869979_299_tl_18" n="N018"/>gnügen wird ihm keinen Augenblick erschwert, noch verbittert.
-               <lb facs="#facs_1_region_1787721869979_299_tl_19" n="N019"/>Die „<rs type="bibl">Heimliche Ehe</rs>“ verräth in jedem Tacte eine fabelhaft
-               <lb facs="#facs_1_region_1787721869979_299_tl_20" n="N020"/>leichte, aber meisterlich geschulte und von gutem Geschmacke
-               <lb facs="#facs_1_region_1787721869979_299_tl_21" n="N021"/>geleitete Hand. Die Charaktere und Situationen sind flüchtig,
-               <lb facs="#facs_1_region_1787721869979_299_tl_22" n="N022"/>aber treffend gezeichnet, die Singstimme überall herrschend,
-               <lb facs="#facs_1_region_1787721869979_299_tl_23" n="N023"/>höchst stimmgemäß und dankbar behandelt, das Orchester nur
-               <lb facs="#facs_1_region_1787721869979_299_tl_24" n="N024"/>fein begleitend, grelle Dissonanzen und kühne Modulationen
-               <lb facs="#facs_1_region_1787721869979_299_tl_25" n="N025"/>durchwegs vermieden. <rs type="person">Mozart</rs> übertrifft, ganz abgesehen von
-               <lb facs="#facs_1_region_1787721869979_299_tl_26" n="N026"/>seinen reicheren und tieferen Ideen, den <rs type="person">Cimarosa</rs> speciell in
-               <lb facs="#facs_1_region_1787721869979_299_tl_27" n="N027"/>den letztgenannten Punkten: in seiner genialen Verwerthung
-               <lb facs="#facs_1_region_1787721869979_299_tl_28" n="N028"/>der Dissonanz, der Modulation und der Instrumentirung.
-               <lb facs="#facs_1_region_1787721869979_299_tl_29" n="N029"/>Das waren aber gerade die Punkte, die ihm seinerzeit den
-               <lb facs="#facs_1_region_1787721869979_299_tl_30" n="N030"/>Vorwurf der Ueberladung und Schwerfaßlichkeit zuzogen.
-               <lb facs="#facs_1_region_1787721869979_299_tl_31" n="N031"/>
-               <rs type="person">Cimarosa</rs> ist der süße Schaum auf dem Champagner,
-               <lb facs="#facs_1_region_1787721869979_299_tl_32" n="N032"/>
-               <rs type="person">Mozart</rs> der Wein selbst. Was in <rs type="person">Cimarosa</rs>'s Musik
-               <lb facs="#facs_1_region_1787721869979_299_tl_33" n="N033"/>uns heute manchmal ungeduldig macht, ist die allzu
-               <lb facs="#facs_1_region_1787721869979_299_tl_34" n="N034"/>große, fast mathematische Regelmäßigkeit seines Perioden¬
-               <lb facs="#facs_1_region_1787721869979_299_tl_35" n="N035"/>baues und die nie ausbleibenden Wiederholungen jeder
-               <lb facs="#facs_1_region_1787721869979_299_tl_36" n="N036"/>Phrase, jeder Figur, Wenn man die erste Hälfte einer
-               <lb facs="#facs_1_region_1787721869979_299_tl_37" n="N037"/>Periode oder eines Themas gehört, so weiß man bei <rs type="person" continued="true">Cima¬</rs>
-               <lb facs="#facs_1_region_1787721869979_299_tl_38" n="N038"/>
-               <rs type="person" continued="true">rosa</rs> die zweite mit unfehlbarer Sicherheit voraus. Lange
-               <lb facs="#facs_1_region_1787721869979_299_tl_39" n="N039"/>Musikstücke hindurch werden wir in derselben Tonart, auf
-               <lb facs="#facs_1_region_1787721869979_299_tl_40" n="N040"/>zwei, höchstens drei Accorden in gleichem Rhythmus fest¬
-               <lb facs="#facs_1_region_1787721869979_299_tl_41" n="N041"/>gehalten und endlich mit stets denselben Schlußcadenzen um¬
-               <lb facs="#facs_1_region_1787721869979_299_tl_42" n="N042"/>ständlich hinauscomplimentirt. Diesen Mangel an allem Un¬
-               <lb facs="#facs_1_region_1787721869979_299_tl_43" n="N043"/>vorhergesehenen, Ueberraschenden, sowie an allem Packenden
-               <lb facs="#facs_1_region_1787721869979_299_tl_44" n="N044"/>und Scharfgewürzten muß ein nervöses modernes Publicum
-               <lb facs="#facs_1_region_1787721869979_299_tl_45" n="N045"/>allerdings als eine zu weit getriebene Tugend empfinden. Anderer¬</p>
-            <p facs="#facs_1_region_1787721873860_302">
-               <lb facs="#facs_1_region_1787721873860_302_tl_1" n="N001"/>seits braucht man nur an <rs type="person">Meyerbeer</rs> und <rs type="person">Wagner</rs> zu denken,
-               <lb facs="#facs_1_region_1787721873860_302_tl_2" n="N002"/>um an <rs type="person">Cimarosa</rs>'s heiterer Klarheit und Natürlichkeit ein
-               <lb facs="#facs_1_region_1787721873860_302_tl_3" n="N003"/>ganz apartes Vergnügen zu finden, ein Vergnügen, das
-               <lb facs="#facs_1_region_1787721873860_302_tl_4" n="N004"/>wieder unseren Voreltern vorenthalten war. Obwol in der
-               <lb facs="#facs_1_region_1787721873860_302_tl_5" n="N005"/>ganzen „<rs type="bibl">Heimlichen Ehe</rs>“ nichts aus der musterhaft einheit¬
-               <lb facs="#facs_1_region_1787721873860_302_tl_6" n="N006"/>lichen Färbung des Ganzen herausfällt, möchten wir doch den
-               <lb facs="#facs_1_region_1787721873860_302_tl_7" n="N007"/>komischen Scenen den Preis zuerkennen. Zuerst die lebhaft
-               <lb facs="#facs_1_region_1787721873860_302_tl_8" n="N008"/>bewegten Trios, Quartette und Quintette, deren Einführung
-               <lb facs="#facs_1_region_1787721873860_302_tl_9" n="N009"/>ein reformatorisches Verdienst <rs type="person">Cimarosa</rs>'s (schon <date>1777</date>) ge¬
-               <lb facs="#facs_1_region_1787721873860_302_tl_10" n="N010"/>wesen. Sodann die berühmte Entrée-Arie des alten <rs type="person" continued="true">Gero¬</rs>
-               <lb facs="#facs_1_region_1787721873860_302_tl_11" n="N011"/>
-               <rs type="person" continued="true">nimo</rs>: „Udite!“, und sein Duett mit dem <rs type="person">Graf</rs>en im
-               <lb facs="#facs_1_region_1787721873860_302_tl_12" n="N012"/>zweiten Acte — Cabinetsstücke komischen Styls. Von den
-               <lb facs="#facs_1_region_1787721873860_302_tl_13" n="N013"/>ernsten Nummern wirken besonders zwei durch echt <rs type="place">italienisch</rs>e
-               <lb facs="#facs_1_region_1787721873860_302_tl_14" n="N014"/>Süßigkeit der Melodie: die zärtliche Arie <rs type="person">Paolino</rs>'s:
-               <lb facs="#facs_1_region_1787721873860_302_tl_15" n="N015"/>„Pria che spunti“ und das Duett des zur Flucht
-               <lb facs="#facs_1_region_1787721873860_302_tl_16" n="N016"/>bereiten <rs type="person">Liebespaar</rs>es. P. <hi rendition="#em">
-                  <rs type="person">Scudo</rs>
-               </hi>, ehedem das Haupt
-               <lb facs="#facs_1_region_1787721873860_302_tl_17" n="N017"/>der <rs type="place">Paris</rs>er Musik-Kritik, erklärt in einem seiner Bücher feier¬
-               <lb facs="#facs_1_region_1787721873860_302_tl_18" n="N018"/>lich, daß er auf der ganzen Welt nichts Schöneres kenne, als
-               <lb facs="#facs_1_region_1787721873860_302_tl_19" n="N019"/>die genannte Tenor-Arie, und daß er gern seinen Theil am
-               <lb facs="#facs_1_region_1787721873860_302_tl_20" n="N020"/>Paradiese dafür hingeben würde, das Duett des Liebespaares
-               <lb facs="#facs_1_region_1787721873860_302_tl_21" n="N021"/>componirt zu haben. Man muß, um diesen Enthusiasmus zu
-               <lb facs="#facs_1_region_1787721873860_302_tl_22" n="N022"/>begreifen, nicht vergessen, daß <rs type="place">Paris</rs> in den Dreißiger-Jahren
-               <lb facs="#facs_1_region_1787721873860_302_tl_23" n="N023"/>die vollendetsten Aufführungen des „<rs type="bibl">Matrimonio segreto</rs>“
-               <lb facs="#facs_1_region_1787721873860_302_tl_24" n="N024"/>besaß, die es jemals gegeben. Allen voran glänzte <hi rendition="#em">
-                  <rs type="person">Lablache</rs>
-               </hi>
-               <lb facs="#facs_1_region_1787721873860_302_tl_25" n="N025"/>in der Rolle des alten, schwerhörigen <rs type="person">Geronimo</rs>, die geradezu
-               <lb facs="#facs_1_region_1787721873860_302_tl_26" n="N026"/>als die vollendetste dieses großen Sängers und Schauspielers
-               <lb facs="#facs_1_region_1787721873860_302_tl_27" n="N027"/>gepriesen wurde. Während seine Komik in den drolligen
-               <lb facs="#facs_1_region_1787721873860_302_tl_28" n="N028"/>Scenen eines <rs type="person">Molière</rs> würdig war, fand er schließlich bei
-               <lb facs="#facs_1_region_1787721873860_302_tl_29" n="N029"/>dem Verrath seiner geliebten <rs type="person">Tochter</rs> Accente des tiefsten, zu
-               <lb facs="#facs_1_region_1787721873860_302_tl_30" n="N030"/>Thränen rührenden Seelenschmerzes. <hi rendition="#em">
-                  <rs type="person">Rubini</rs>
-               </hi>, der durch
-               <lb facs="#facs_1_region_1787721873860_302_tl_31" n="N031"/>den bloßen Klang seiner Stimme Alles bezauberte, sang den
-               <lb facs="#facs_1_region_1787721873860_302_tl_32" n="N032"/>
-               <rs type="person">Paolino</rs>, der herrliche Bariton <hi rendition="#em">
-                  <rs type="person">Tamburini</rs>
-               </hi> den <rs type="person">Graf</rs>en;
-               <lb facs="#facs_1_region_1787721873860_302_tl_33" n="N033"/>in den Rollen der beiden <rs type="person">Schwestern</rs> wechselten die <hi rendition="#em">
-                  <rs type="person" continued="true">Mali¬</rs>
-               </hi>
-               <lb facs="#facs_1_region_1787721873860_302_tl_34" n="N034"/>
-               <hi rendition="#em">
-                  <rs type="person" continued="true">bran</rs>
-               </hi>, die <hi rendition="#em">
-                  <rs type="person">Sontag</rs>
-               </hi>, die <hi rendition="#em">
-                  <rs type="person">Albertazzi</rs>
-               </hi>. Das war
-               <lb facs="#facs_1_region_1787721873860_302_tl_35" n="N035"/>freilich ein Ensemble, welches die „<rs type="bibl">Heimliche Ehe</rs>“ zu einem
-               <lb facs="#facs_1_region_1787721873860_302_tl_36" n="N036"/>der vollendetsten Kunstgenüsse erheben mußte.
-               <lb facs="#facs_1_region_1787721873860_302_tl_37" n="N037"/>Die <rs type="place">Paris</rs>er Triumphe des „<rs type="bibl">Matrimonio segreto</rs>“ müssen
-               <lb facs="#facs_1_region_1787721873860_302_tl_38" n="N038"/>wir uns aber ja nicht als eine unmittelbare Fortsetzung des
-               <lb facs="#facs_1_region_1787721873860_302_tl_39" n="N039"/>Enthusiasmus von <date>1792</date> denken; sie waren vielmehr eine
-               <lb facs="#facs_1_region_1787721873860_302_tl_40" n="N040"/>vereinzelte glänzende Wiederbelebung, ein letztes sporadisches
-               <lb facs="#facs_1_region_1787721873860_302_tl_41" n="N041"/>Aufleuchten <rs type="person">Cimarosa</rs>'s. Der Ruhm dieses Componisten be¬
-               <lb facs="#facs_1_region_1787721873860_302_tl_42" n="N042"/>gann mit dem Zeitpunkte zu erblassen, da man <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi>
-               <lb facs="#facs_1_region_1787721873860_302_tl_43" n="N043"/>schätzen und <hi rendition="#em">
-                  <rs type="person">Rossini</rs>
-               </hi> kennen gelernt. Durch die Werke
-               <lb facs="#facs_1_region_1787721873860_302_tl_44" n="N044"/>dieser beiden genialen Schöpfer, welche, jeder in seiner Weise,
-               <lb facs="#facs_1_region_1787721873860_302_tl_45" n="N045"/>den Styl <rs type="person">Cimarosa</rs>'s belebt und bereichert haben, ging dieser</p>
+            <cb n="1"/>
+            <lb facs="#facs_1_region_1787721866075_296_tl_1" n="N001"/><head type="h1">Hofoperntheater.</head>
+            <lb facs="#facs_1_region_1787721866075_296_tl_2" n="N002"/><head type="h2">(„<hi rendition="#em"><rs type="bibl" ref="#hsl_work_id_546">Die heimliche Ehe</rs></hi>“. Komische Oper von <hi rendition="#em"><rs type="person" ref="#hsl_person_id_928">Cimarosa</rs></hi>).</head>
+            <p>
+         <lb facs="#facs_1_region_1787721866075_296_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_1">Ed. H.</rs><space unit="char" quantity="1"/><rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>’s „<rs type="bibl" ref="#hsl_work_id_546">Heimliche Ehe</rs>“, als <rs type="place" ref="#hsl_place_id_14">deutsch</rs>e Vor
+         <lb facs="#facs_1_region_1787721866075_296_tl_4" n="N004" break="no"/>stellung eine Novität, ist hier vorgestern unter lebhaftem
+         <lb facs="#facs_1_region_1787721866075_296_tl_5" n="N005"/>Beifalle aufgeführt worden. Aber nur Einmal an diesem
+         <lb facs="#facs_1_region_1787721866075_296_tl_6" n="N006"/>Abende. Das in der Musikgeschichte einzig dastehende Ereigniß,
+         <lb facs="#facs_1_region_1787721866075_296_tl_7" n="N007"/>daß eine Oper am selben Abend zweimal hinter einander ge
+         <lb facs="#facs_1_region_1787721866075_296_tl_8" n="N008" break="no"/>spielt wird, dürfte sich wol nie mehr wiederholen. Diese
+         <lb facs="#facs_1_region_1787721866075_296_tl_9" n="N009"/>Ehre widerfuhr bekanntlich <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>’s „<rs type="bibl" ref="#hsl_work_id_546">Matrimonio segreto</rs>“
+         <lb facs="#facs_1_region_1787721866075_296_tl_10" n="N010"/>bei ihrer ersten Aufführung im Burgtheater <date>1792</date>. Das
+         <lb facs="#facs_1_region_1787721866075_296_tl_11" n="N011"/>Werk war auf persönliche Anregung Kaiser <rs type="person" ref="#hsl_person_id_961">Leopold</rs>’s des
+         <lb facs="#facs_1_region_1787721866075_296_tl_12" n="N012"/>Zweiten entstanden — gerade wie früher die „<rs type="bibl" ref="#hsl_work_id_4">Hochzeit des
+         <lb facs="#facs_1_region_1787721866075_296_tl_13" n="N013"/>Figaro</rs>“ auf den Wunsch Kaiser <rs type="person" ref="#hsl_person_id_823">Joseph</rs>’s — und entzückte
+         <lb facs="#facs_1_region_1787721866075_296_tl_14" n="N014"/>den Monarchen so ungemein, daß er es gleich noch einmal
+         <lb facs="#facs_1_region_1787721866075_296_tl_15" n="N015"/>zu hören verlangte. Nur ein im anstoßenden Saale servirtes
+         <lb facs="#facs_1_region_1787721866075_296_tl_16" n="N016"/>Souper für <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs> und die Sänger trennte die beiden
+         <lb facs="#facs_1_region_1787721866075_296_tl_17" n="N017"/>Aufführungen dieser denkwürdigen Doppel-Première. Man
+         <lb facs="#facs_1_region_1787721866075_296_tl_18" n="N018"/>muß weit ins <rs type="place" ref="#hsl_place_id_47">römisch</rs>e Alterthum zurückgreifen, um auf
+         <lb facs="#facs_1_region_1787721866075_296_tl_19" n="N019"/>ein zweites Beispiel dieser Art zu stoßen; die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9510">Terenz</rs></hi>’sche
+         <lb facs="#facs_1_region_1787721866075_296_tl_20" n="N020"/>Comödie „<rs type="bibl" ref="#hsl_work_id_7097">Der Eunuch</rs>“ wurde in Folge des allgemeinen
+         <lb facs="#facs_1_region_1787721866075_296_tl_21" n="N021"/>Enthusiasmus gleichfalls zweimal am selben Tage (Vor- und
+         <lb facs="#facs_1_region_1787721866075_296_tl_22" n="N022"/>Nachmittags) gespielt. Ein Gegenstück, aber nur Eines, zu
+         <lb facs="#facs_1_region_1787721866075_296_tl_23" n="N023"/>der Doppelaufführung der „<rs type="bibl" ref="#hsl_work_id_546">Heimlichen Ehe</rs>“ findet sich
+         <lb facs="#facs_1_region_1787721866075_296_tl_24" n="N024"/>übrigens auch in der <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Theatergeschichte: eine
+         <lb facs="#facs_1_region_1787721866075_296_tl_25" n="N025"/>neue Oper, die so unbändig gefiel, daß sie gar nicht
+         <lb facs="#facs_1_region_1787721866075_296_tl_26" n="N026"/>ausgespielt werden konnte. Das war die längst verschollene
+         <lb facs="#facs_1_region_1787721866075_296_tl_27" n="N027"/>„<rs type="bibl" ref="#hsl_work_id_7098">Laodicea</rs>“ von Ferd. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1166">Paër</rs></hi>, bei deren erster Aufführung
+         <lb facs="#facs_1_region_1787721866075_296_tl_28" n="N028"/>in <rs type="place" ref="#hsl_place_id_1535">Padua</rs><space unit="char" quantity="1"/><date>1798</date> das entzückte Publicum jede Nummer ein-,
+         <lb facs="#facs_1_region_1787721866075_296_tl_29" n="N029"/>auch mehrmal da capo verlangte; die Vorstellung verzögerte
+         <lb facs="#facs_1_region_1787721866075_296_tl_30" n="N030"/>sich dadurch unmäßig und mußte vor dem Ende abgebrochen
+         <lb facs="#facs_1_region_1787721866075_296_tl_31" n="N031"/>werden. Die entzückten Paduaner erfuhren also erst am
+         <lb facs="#facs_1_region_1787721866075_296_tl_32" n="N032"/>nächsten Abend, wie das herrliche Stück eigentlich ausgehe.
+            </p><p>
+         <lb facs="#facs_1_region_1787721866075_296_tl_33" n="N033"/>Außer <rs type="person" ref="#hsl_person_id_189">Mozart</rs> ist <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs> der einzige Componist, von
+         <lb facs="#facs_1_region_1787721866075_296_tl_34" n="N034"/>dem sich eine <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e komische Oper aus dem vorigen
+         <lb facs="#facs_1_region_1787721866075_296_tl_35" n="N035"/>Jahrhundert bis heute erhalten hat. Schon das Textbuch
+         <lb facs="#facs_1_region_1787721866075_296_tl_36" n="N036"/>zum „<rs type="bibl" ref="#hsl_work_id_546">Matrimonio segreto</rs>“ gehört zu den besten der älteren
+         <lb facs="#facs_1_region_1787721866075_296_tl_37" n="N037"/><rs type="place" ref="#hsl_place_id_28">italienisch</rs>en Periode. Von Haus aus war es ein <rs type="place" ref="#hsl_place_id_17">englisch</rs>es
+         <lb facs="#facs_1_region_1787721866075_296_tl_38" n="N038"/><rs type="bibl" ref="#hsl_work_id_7100">Lustspiel</rs> von <rs type="person" ref="#hsl_person_id_4332">Garrick</rs> und <rs type="person" ref="#hsl_person_id_9513">Colman</rs>, das in <rs type="place" ref="#hsl_place_id_34">London</rs> viel
+         <lb facs="#facs_1_region_1787721866075_296_tl_39" n="N039"/>Erfolg hatte. Aus diesem entstand dann eine <rs type="place" ref="#hsl_place_id_21">französisch</rs>e Oper,
+         <lb facs="#facs_1_region_1787721866075_296_tl_40" n="N040"/>„<rs type="person" ref="#hsl_work_id_7101">Sophie ou le mariage caché</rs>“, welche ein Böhme, Namens
+         <lb facs="#facs_1_region_1787721866075_296_tl_41" n="N041"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_9512">Kohaut</rs></hi>, componirt und <date>1768</date> in <rs type="place" ref="#hsl_place_id_44">Paris</rs> zur Aufführung
+         <lb facs="#facs_1_region_1787721866075_296_tl_42" n="N042"/>gebracht hat. In diese Musterkarte von Nationalitäten gerieth<space quantity="1" unit="char"/></p>
+            <cb n="2"/>
+            <p prev="true">
+         <lb facs="#facs_1_region_1787721869979_299_tl_1" n="N001"/>schließlich noch ein Italiener, <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2109">Bertatti</rs></hi>, mit der heilsamen
+         <lb facs="#facs_1_region_1787721869979_299_tl_2" n="N002"/>Idee, aus <rs type="person" ref="#hsl_person_id_9512">Kohaut</rs>’s mittelmäßiger Oper ein Libretto für
+         <lb facs="#facs_1_region_1787721869979_299_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_928">Cimarosa</rs> zu machen. Es ist ein gut gebautes bürgerliches
+         <lb facs="#facs_1_region_1787721869979_299_tl_4" n="N004"/>Familienstück, durch dessen komische Verwicklungen und Miß
+         <lb facs="#facs_1_region_1787721869979_299_tl_5" n="N005" break="no"/>verständnisse sich ein zarter Liebesfaden spinnt. Gegen das
+         <lb facs="#facs_1_region_1787721869979_299_tl_6" n="N006"/>Ende läßt uns die Flucht der heimlich <rs type="person" ref="#hsl_person_id_9515 #hsl_person_id_1557">Vermälten</rs> und der
+         <lb facs="#facs_1_region_1787721869979_299_tl_7" n="N007"/>Zorn des <rs type="person" ref="#hsl_person_id_1556">Vater</rs>s, der seine Tochter <rs type="person" ref="#hsl_person_id_9515">Caroline</rs> verstoßen will,
+         <lb facs="#facs_1_region_1787721869979_299_tl_8" n="N008"/>fast eine tragische Wendung befürchten, aber die Versöhnung
+         <lb facs="#facs_1_region_1787721869979_299_tl_9" n="N009"/>erfolgt rasch und das Stück endet nach flüchtiger Umwölkung
+         <lb facs="#facs_1_region_1787721869979_299_tl_10" n="N010"/>wieder in vollem Sonnenschein.
+            </p><p>
+         <lb facs="#facs_1_region_1787721869979_299_tl_11" n="N011"/>Voller Sonnenschein — das ist auch das rechte Wort
+         <lb facs="#facs_1_region_1787721869979_299_tl_12" n="N012"/>für die Musik <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>’s. Sie besitzt jene echte leichte Gold
+         <lb facs="#facs_1_region_1787721869979_299_tl_13" n="N013" break="no"/>farbe, welche einzig für das musikalische Lustspiel paßt und
+         <lb facs="#facs_1_region_1787721869979_299_tl_14" n="N014"/>auch in den sentimentalen Scenen sich nicht in Schwarz oder
+         <lb facs="#facs_1_region_1787721869979_299_tl_15" n="N015"/>Dunkelroth verwandeln darf. Es quillt und perlt in dieser
+         <lb facs="#facs_1_region_1787721869979_299_tl_16" n="N016"/>Musik Alles so leicht und frohgemuth hin, daß der Hörer
+         <lb facs="#facs_1_region_1787721869979_299_tl_17" n="N017"/>sich nur hinzusetzen und zu genießen braucht. Sein Ver
+         <lb facs="#facs_1_region_1787721869979_299_tl_18" n="N018" break="no"/>gnügen wird ihm keinen Augenblick erschwert, noch verbittert.
+         <lb facs="#facs_1_region_1787721869979_299_tl_19" n="N019"/>Die „<rs type="bibl" ref="#hsl_work_id_546">Heimliche Ehe</rs>“ verräth in jedem Tacte eine fabelhaft
+         <lb facs="#facs_1_region_1787721869979_299_tl_20" n="N020"/>leichte, aber meisterlich geschulte und von gutem Geschmacke
+         <lb facs="#facs_1_region_1787721869979_299_tl_21" n="N021"/>geleitete Hand. Die Charaktere und Situationen sind flüchtig,
+         <lb facs="#facs_1_region_1787721869979_299_tl_22" n="N022"/>aber treffend gezeichnet, die Singstimme überall herrschend,
+         <lb facs="#facs_1_region_1787721869979_299_tl_23" n="N023"/>höchst stimmgemäß und dankbar behandelt, das Orchester nur
+         <lb facs="#facs_1_region_1787721869979_299_tl_24" n="N024"/>fein begleitend, grelle Dissonanzen und kühne Modulationen
+         <lb facs="#facs_1_region_1787721869979_299_tl_25" n="N025"/>durchwegs vermieden. <rs type="person" ref="#hsl_person_id_189">Mozart</rs> übertrifft, ganz abgesehen von
+         <lb facs="#facs_1_region_1787721869979_299_tl_26" n="N026"/>seinen reicheren und tieferen Ideen, den <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs> speciell in
+         <lb facs="#facs_1_region_1787721869979_299_tl_27" n="N027"/>den letztgenannten Punkten: in seiner genialen Verwerthung
+         <lb facs="#facs_1_region_1787721869979_299_tl_28" n="N028"/>der Dissonanz, der Modulation und der Instrumentirung.
+         <lb facs="#facs_1_region_1787721869979_299_tl_29" n="N029"/>Das waren aber gerade die Punkte, die ihm seinerzeit den
+         <lb facs="#facs_1_region_1787721869979_299_tl_30" n="N030"/>Vorwurf der Ueberladung und Schwerfaßlichkeit zuzogen.
+         <lb facs="#facs_1_region_1787721869979_299_tl_31" n="N031"/><rs type="person" ref="#hsl_person_id_928">Cimarosa</rs> ist der süße Schaum auf dem Champagner,
+         <lb facs="#facs_1_region_1787721869979_299_tl_32" n="N032"/><rs type="person" ref="#hsl_person_id_189">Mozart</rs> der Wein selbst. Was in <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>’s Musik
+         <lb facs="#facs_1_region_1787721869979_299_tl_33" n="N033"/>uns heute manchmal ungeduldig macht, ist die allzu
+         <lb facs="#facs_1_region_1787721869979_299_tl_34" n="N034"/>große, fast mathematische Regelmäßigkeit seines Perioden
+         <lb facs="#facs_1_region_1787721869979_299_tl_35" n="N035" break="no"/>baues und die nie ausbleibenden Wiederholungen jeder
+         <lb facs="#facs_1_region_1787721869979_299_tl_36" n="N036"/>Phrase, jeder Figur, Wenn man die erste Hälfte einer
+         <lb facs="#facs_1_region_1787721869979_299_tl_37" n="N037"/>Periode oder eines Themas gehört, so weiß man bei <rs type="person" ref="#hsl_person_id_928">Cima
+         <lb facs="#facs_1_region_1787721869979_299_tl_38" n="N038" break="no"/>rosa</rs> die zweite mit unfehlbarer Sicherheit voraus. Lange
+         <lb facs="#facs_1_region_1787721869979_299_tl_39" n="N039"/>Musikstücke hindurch werden wir in derselben Tonart, auf
+         <lb facs="#facs_1_region_1787721869979_299_tl_40" n="N040"/>zwei, höchstens drei Accorden in gleichem Rhythmus fest
+         <lb facs="#facs_1_region_1787721869979_299_tl_41" n="N041" break="no"/>gehalten und endlich mit stets denselben Schlußcadenzen um
+         <lb facs="#facs_1_region_1787721869979_299_tl_42" n="N042" break="no"/>ständlich hinauscomplimentirt. Diesen Mangel an allem Un
+         <lb facs="#facs_1_region_1787721869979_299_tl_43" n="N043" break="no"/>vorhergesehenen, Ueberraschenden, sowie an allem Packenden
+         <lb facs="#facs_1_region_1787721869979_299_tl_44" n="N044"/>und Scharfgewürzten muß ein nervöses modernes Publicum
+         <lb facs="#facs_1_region_1787721869979_299_tl_45" n="N045"/>allerdings als eine zu weit getriebene Tugend empfinden. Anderer</p>
+            <cb n="3"/>
+            <p prev="true">
+         <lb facs="#facs_1_region_1787721873860_302_tl_1" n="N001" break="no"/>seits braucht man nur an <rs type="person" ref="#hsl_person_id_182">Meyerbeer</rs> und <rs type="person" ref="#hsl_person_id_319">Wagner</rs> zu denken,
+         <lb facs="#facs_1_region_1787721873860_302_tl_2" n="N002"/>um an <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>’s heiterer Klarheit und Natürlichkeit ein
+         <lb facs="#facs_1_region_1787721873860_302_tl_3" n="N003"/>ganz apartes Vergnügen zu finden, ein Vergnügen, das
+         <lb facs="#facs_1_region_1787721873860_302_tl_4" n="N004"/>wieder unseren Voreltern vorenthalten war. Obwol in der
+         <lb facs="#facs_1_region_1787721873860_302_tl_5" n="N005"/>ganzen „<rs type="bibl" ref="#hsl_work_id_546">Heimlichen Ehe</rs>“ nichts aus der musterhaft einheit
+         <lb facs="#facs_1_region_1787721873860_302_tl_6" n="N006" break="no"/>lichen Färbung des Ganzen herausfällt, möchten wir doch den
+         <lb facs="#facs_1_region_1787721873860_302_tl_7" n="N007"/>komischen Scenen den Preis zuerkennen. Zuerst die lebhaft
+         <lb facs="#facs_1_region_1787721873860_302_tl_8" n="N008"/>bewegten Trios, Quartette und Quintette, deren Einführung
+         <lb facs="#facs_1_region_1787721873860_302_tl_9" n="N009"/>ein reformatorisches Verdienst <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>’s (schon <date>1777</date>) ge
+         <lb facs="#facs_1_region_1787721873860_302_tl_10" n="N010" break="no"/>wesen. Sodann die berühmte Entrée-Arie des alten <rs type="person" ref="#hsl_person_id_1556">Gero
+         <lb facs="#facs_1_region_1787721873860_302_tl_11" n="N011" break="no"/>nimo</rs>: „Udite!“, und sein Duett mit dem <rs type="person" ref="#hsl_person_id_1565">Graf</rs>en im
+         <lb facs="#facs_1_region_1787721873860_302_tl_12" n="N012"/>zweiten Acte — Cabinetsstücke komischen Styls. Von den
+         <lb facs="#facs_1_region_1787721873860_302_tl_13" n="N013"/>ernsten Nummern wirken besonders zwei durch echt <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e
+         <lb facs="#facs_1_region_1787721873860_302_tl_14" n="N014"/>Süßigkeit der Melodie: die zärtliche Arie <rs type="person" ref="#hsl_person_id_1557">Paolino</rs>’s:
+         <lb facs="#facs_1_region_1787721873860_302_tl_15" n="N015"/>„Pria che spunti“ und das Duett des zur Flucht
+         <lb facs="#facs_1_region_1787721873860_302_tl_16" n="N016"/>bereiten <rs type="person" ref="#hsl_person_id_9515 #hsl_person_id_1557">Liebespaar</rs>es. P. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_807">Scudo</rs></hi>, ehedem das Haupt
+         <lb facs="#facs_1_region_1787721873860_302_tl_17" n="N017"/>der <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Musik-Kritik, erklärt in einem seiner Bücher feier
+         <lb facs="#facs_1_region_1787721873860_302_tl_18" n="N018" break="no"/>lich, daß er auf der ganzen Welt nichts Schöneres kenne, als
+         <lb facs="#facs_1_region_1787721873860_302_tl_19" n="N019"/>die genannte Tenor-Arie, und daß er gern seinen Theil am
+         <lb facs="#facs_1_region_1787721873860_302_tl_20" n="N020"/>Paradiese dafür hingeben würde, das Duett des Liebespaares
+         <lb facs="#facs_1_region_1787721873860_302_tl_21" n="N021"/>componirt zu haben. Man muß, um diesen Enthusiasmus zu
+         <lb facs="#facs_1_region_1787721873860_302_tl_22" n="N022"/>begreifen, nicht vergessen, daß <rs type="place" ref="#hsl_place_id_44">Paris</rs> in den Dreißiger-Jahren
+         <lb facs="#facs_1_region_1787721873860_302_tl_23" n="N023"/>die vollendetsten Aufführungen des „<rs type="bibl" ref="#hsl_work_id_546">Matrimonio segreto</rs>“
+         <lb facs="#facs_1_region_1787721873860_302_tl_24" n="N024"/>besaß, die es jemals gegeben. Allen voran glänzte <hi rendition="#em"><rs type="person" ref="#hsl_person_id_482">Lablache</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1787721873860_302_tl_25" n="N025"/>in der Rolle des alten, schwerhörigen <rs type="person" ref="#hsl_person_id_1556">Geronimo</rs>, die geradezu
+         <lb facs="#facs_1_region_1787721873860_302_tl_26" n="N026"/>als die vollendetste dieses großen Sängers und Schauspielers
+         <lb facs="#facs_1_region_1787721873860_302_tl_27" n="N027"/>gepriesen wurde. Während seine Komik in den drolligen
+         <lb facs="#facs_1_region_1787721873860_302_tl_28" n="N028"/>Scenen eines <rs type="person" ref="#hsl_person_id_864">Molière</rs> würdig war, fand er schließlich bei
+         <lb facs="#facs_1_region_1787721873860_302_tl_29" n="N029"/>dem Verrath seiner geliebten <rs type="person" ref="#hsl_person_id_9515">Tochter</rs> Accente des tiefsten, zu
+         <lb facs="#facs_1_region_1787721873860_302_tl_30" n="N030"/>Thränen rührenden Seelenschmerzes. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2290">Rubini</rs></hi>, der durch
+         <lb facs="#facs_1_region_1787721873860_302_tl_31" n="N031"/>den bloßen Klang seiner Stimme Alles bezauberte, sang den
+         <lb facs="#facs_1_region_1787721873860_302_tl_32" n="N032"/><rs type="person" ref="#hsl_person_id_1557">Paolino</rs>, der herrliche Bariton <hi rendition="#em"><rs type="person" ref="#hsl_person_id_2562">Tamburini</rs></hi> den <rs type="person" ref="#hsl_person_id_1565">Graf</rs>en;
+         <lb facs="#facs_1_region_1787721873860_302_tl_33" n="N033"/>in den Rollen der beiden <rs type="person" ref="#hsl_person_id_9515 #hsl_person_id_9517">Schwestern</rs> wechselten die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_819">Mali
+         <lb facs="#facs_1_region_1787721873860_302_tl_34" n="N034" break="no"/>bran</rs></hi>, die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_263">Sontag</rs></hi>, die <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9516">Albertazzi</rs></hi>. Das war
+         <lb facs="#facs_1_region_1787721873860_302_tl_35" n="N035"/>freilich ein Ensemble, welches die „<rs type="bibl" ref="#hsl_work_id_546">Heimliche Ehe</rs>“ zu einem
+         <lb facs="#facs_1_region_1787721873860_302_tl_36" n="N036"/>der vollendetsten Kunstgenüsse erheben mußte.
+            </p><p>
+         <lb facs="#facs_1_region_1787721873860_302_tl_37" n="N037"/>Die <rs type="place" ref="#hsl_place_id_44">Paris</rs>er Triumphe des „<rs type="bibl" ref="#hsl_work_id_546">Matrimonio segreto</rs>“ müssen
+         <lb facs="#facs_1_region_1787721873860_302_tl_38" n="N038"/>wir uns aber ja nicht als eine unmittelbare Fortsetzung des
+         <lb facs="#facs_1_region_1787721873860_302_tl_39" n="N039"/>Enthusiasmus von <date>1792</date> denken; sie waren vielmehr eine
+         <lb facs="#facs_1_region_1787721873860_302_tl_40" n="N040"/>vereinzelte glänzende Wiederbelebung, ein letztes sporadisches
+         <lb facs="#facs_1_region_1787721873860_302_tl_41" n="N041"/>Aufleuchten <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>’s. Der Ruhm dieses Componisten be
+         <lb facs="#facs_1_region_1787721873860_302_tl_42" n="N042" break="no"/>gann mit dem Zeitpunkte zu erblassen, da man <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_1_region_1787721873860_302_tl_43" n="N043"/>schätzen und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_241">Rossini</rs></hi> kennen gelernt. Durch die Werke
+         <lb facs="#facs_1_region_1787721873860_302_tl_44" n="N044"/>dieser beiden genialen Schöpfer, welche, jeder in seiner Weise,
+         <lb facs="#facs_1_region_1787721873860_302_tl_45" n="N045"/>den Styl <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>’s belebt und bereichert haben, ging dieser<space quantity="1" unit="char"/></p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <p facs="#facs_2_region_1787721885723_308">
-               <lb facs="#facs_2_region_1787721885723_308_tl_1" n="N001"/>seiner früheren Macht allmälig verlustig. Die Zeit streicht
-               <lb facs="#facs_2_region_1787721885723_308_tl_2" n="N002"/>keinen Namen aus, ohne einen andern darüberzuschreiben.
-               <lb facs="#facs_2_region_1787721885723_308_tl_3" n="N003"/>Damit eine leichte melodiöse Musik uns entzücke, muß sie
-               <lb facs="#facs_2_region_1787721885723_308_tl_4" n="N004"/>Neues bringen. Das that seinerzeit <rs type="person">Cimarosa</rs>, dessen
-               <lb facs="#facs_2_region_1787721885723_308_tl_5" n="N005"/>Melodien im vorigen Jahrhundert neben der sanfteren
-               <lb facs="#facs_2_region_1787721885723_308_tl_6" n="N006"/>Grazie <rs type="person">Piccini</rs>'s und <rs type="person">
-                  <rs type="person">Paesiello</rs>'</rs>s feurig, hinreißend und
-               <lb facs="#facs_2_region_1787721885723_308_tl_7" n="N007"/>originell klangen. Dieser Zauber mußte sich mit der Zeit ab¬
-               <lb facs="#facs_2_region_1787721885723_308_tl_8" n="N008"/>schwächen durch die fortwährende Selbstwiederholung des
-               <lb facs="#facs_2_region_1787721885723_308_tl_9" n="N009"/>Componisten und die Unersättlichkeit der Genießenden. Der
-               <lb facs="#facs_2_region_1787721885723_308_tl_10" n="N010"/>berühmte Sänger <hi rendition="#em">
-                  <rs type="person">Pachiarotti</rs>
-               </hi> erzählte als Greis dem
-               <lb facs="#facs_2_region_1787721885723_308_tl_11" n="N011"/>Franzosen <rs type="person">Stendhal</rs>, er habe seinerzeit in <rs type="place">Mailand</rs> allabend¬
-               <lb facs="#facs_2_region_1787721885723_308_tl_12" n="N012"/>lich eine gewisse Arie von <rs type="person">Cimarosa</rs> vier-, auch fünfmal
-               <lb facs="#facs_2_region_1787721885723_308_tl_13" n="N013"/>wiederholen müssen — was <rs type="person">Stendhal</rs> zu dem Ausrufe ver¬
-               <lb facs="#facs_2_region_1787721885723_308_tl_14" n="N014"/>anlaßt, „es sei ganz unmöglich, daß das menschliche Herz
-               <lb facs="#facs_2_region_1787721885723_308_tl_15" n="N015"/>eine Musik, die es mit solcher Raserei liebt, <hi rendition="#em">immer</hi> lieben
-               <lb facs="#facs_2_region_1787721885723_308_tl_16" n="N016"/>könne“. Ohne Frage erregt von allen Künsten Musik die
-               <lb facs="#facs_2_region_1787721885723_308_tl_17" n="N017"/>lebhaftesten Empfindungen, die überschwenglichsten Genüsse,
-               <lb facs="#facs_2_region_1787721885723_308_tl_18" n="N018"/>aber die am wenigsten dauerhaften. Als <rs type="person">Cimarosa</rs> und sein
-               <lb facs="#facs_2_region_1787721885723_308_tl_19" n="N019"/>gefeierter Rivale <rs type="person">Paesiello</rs> mit Anfang unseres Jahrhunderts
-               <lb facs="#facs_2_region_1787721885723_308_tl_20" n="N020"/>zu schreiben aufhörten, hatten sie seit dreißig Jahren ganz <rs type="place">Italien</rs>
-               <lb facs="#facs_2_region_1787721885723_308_tl_21" n="N021"/>verschwenderisch mit Opern versehen. Man begann nunmehr
-               <lb facs="#facs_2_region_1787721885723_308_tl_22" n="N022"/>gegen dieselben gleichgiltiger zu werden, denn sie boten nicht
-               <lb facs="#facs_2_region_1787721885723_308_tl_23" n="N023"/>mehr Ueberraschendes, Unvorhergesehenes. Man sehnte sich
-               <lb facs="#facs_2_region_1787721885723_308_tl_24" n="N024"/>nach einem neuen musikalischen Genie, und um so ungedul¬
-               <lb facs="#facs_2_region_1787721885723_308_tl_25" n="N025"/>diger, als es nicht so bald erschien. Erst <rs type="person">Rossini</rs> war
-               <lb facs="#facs_2_region_1787721885723_308_tl_26" n="N026"/>dieser neue große Erfinder, neben dessen zündenden Melodien
-               <lb facs="#facs_2_region_1787721885723_308_tl_27" n="N027"/>die oft gehörten, längst auswendig gewußten des <rs type="person">Cimarosa</rs>
-               <lb facs="#facs_2_region_1787721885723_308_tl_28" n="N028"/>veraltet erschienen. Der unerhörte Glanz, die hinreißende
-               <lb facs="#facs_2_region_1787721885723_308_tl_29" n="N029"/>Lebendigkeit der <rs type="person">Rossini</rs>'schen Musik bewirkte, daß man bald
-               <lb facs="#facs_2_region_1787721885723_308_tl_30" n="N030"/>in ganz Europa die „<rs type="bibl">Heimliche Ehe</rs>“, bei aller Hochachtung
-               <lb facs="#facs_2_region_1787721885723_308_tl_31" n="N031"/>vor dem Meister, nicht mehr glänzend und hinreißend fand.
-               <lb facs="#facs_2_region_1787721885723_308_tl_32" n="N032"/>Am auffälligsten zeigt sich die Wendung in dem Urtheile
-               <lb facs="#facs_2_region_1787721885723_308_tl_33" n="N033"/>Robert <hi rendition="#em">
-                  <rs type="person">Schumann</rs>'s</hi>, der — ein warmer Verehrer von
-               <lb facs="#facs_2_region_1787721885723_308_tl_34" n="N034"/>
-               <rs type="person">Rossini</rs>'s „<rs type="bibl">Barbier</rs>“ — folgende Worte über <rs type="person">Cimarosa</rs>'s
-               <lb facs="#facs_2_region_1787721885723_308_tl_35" n="N035"/>„<rs type="bibl">Heimliche Ehe</rs>“ niederschrieb: „Im Technischen durchaus
-               <lb facs="#facs_2_region_1787721885723_308_tl_36" n="N036"/>meisterlich, sonst ziemlich interesselos, zuletzt wahrhaft lang¬
-               <lb facs="#facs_2_region_1787721885723_308_tl_37" n="N037"/>weilig und aller Gedanken bar.“ Das Urtheil ist, nach mei¬
-               <lb facs="#facs_2_region_1787721885723_308_tl_38" n="N038"/>ner Empfindung, viel zu hart und übersieht neben der tech¬
-               <lb facs="#facs_2_region_1787721885723_308_tl_39" n="N039"/>nischen Meisterschaft, die sich erwerben läßt, gänzlich ein
-               <lb facs="#facs_2_region_1787721885723_308_tl_40" n="N040"/>Höheres, Entscheidenderes, das sich nicht erwerben läßt und
-               <lb facs="#facs_2_region_1787721885723_308_tl_41" n="N041"/>das <rs type="person">Cimarosa</rs> ebenso reichlich innewohnte, wie dem Deutschen
-               <lb facs="#facs_2_region_1787721885723_308_tl_42" n="N042"/>jederzeit spärlich: das Temperament, das echte, sprudelnde
-               <lb facs="#facs_2_region_1787721885723_308_tl_43" n="N043"/>Buffotalent. Aber die Worte <rs type="person">Schumann</rs>'s lassen uns wenig¬
-               <lb facs="#facs_2_region_1787721885723_308_tl_44" n="N044"/>stens begreifen, wie eine Oper, die vor 90 Jahren als die
-               <lb facs="#facs_2_region_1787721885723_308_tl_45" n="N045"/>denkbar amüsanteste bejubelt wurde, heute einem modernen</p>
-            <p facs="#facs_2_region_1787721891475_311">
-               <lb facs="#facs_2_region_1787721891475_311_tl_1" n="N001"/>großen Musiker „interesselos und langweilig“ vorkom¬
-               <lb facs="#facs_2_region_1787721891475_311_tl_2" n="N002"/>men kann.
-               <lb facs="#facs_2_region_1787721891475_311_tl_3" n="N003"/>Die Musik zur „<rs type="bibl">Heimlichen Ehe</rs>“ erinnert uns sehr
-               <lb facs="#facs_2_region_1787721891475_311_tl_4" n="N004"/>häufig an <hi rendition="#em">
-                  <rs type="person">Rossini</rs>
-               </hi> und fast ununterbrochen an <hi rendition="#em">
-                  <rs type="person">Mozart</rs>
-               </hi>.
-               <lb facs="#facs_2_region_1787721891475_311_tl_5" n="N005"/>Nicht nur einzelne melodische Wendungen, Uebergänge, Caden¬
-               <lb facs="#facs_2_region_1787721891475_311_tl_6" n="N006"/>zen, selbst ganze Musikstücke, von der Ouvertüre angefangen,
-               <lb facs="#facs_2_region_1787721891475_311_tl_7" n="N007"/>klingen wie ein Echo aus „<rs type="bibl">Figaro's Hochzeit</rs>“. Diese ist
-               <lb facs="#facs_2_region_1787721891475_311_tl_8" n="N008"/>sieben Jahre <hi rendition="#em">vor</hi> der „<rs type="bibl">Heimlichen Ehe</rs>“ componirt, was
-               <lb facs="#facs_2_region_1787721891475_311_tl_9" n="N009"/>Manchen zu der irrigen Annahme verleitet, die <rs type="person">Mozart</rs>'sche
-               <lb facs="#facs_2_region_1787721891475_311_tl_10" n="N010"/>Oper habe als Vorbild, vielleicht gar als Fundgrube für
-               <lb facs="#facs_2_region_1787721891475_311_tl_11" n="N011"/>
-               <rs type="person">Cimarosa</rs> gedient. In Wirklichkeit hat <rs type="person">Cimarosa</rs> kaum eine
-               <lb facs="#facs_2_region_1787721891475_311_tl_12" n="N012"/>von <rs type="person">Mozart</rs>'s Opern gekannt. <rs type="place">Italien</rs> lernte dieselben sehr
-               <lb facs="#facs_2_region_1787721891475_311_tl_13" n="N013"/>spät kennen, lange nach <rs type="person">Cimarosa</rs>'s im Jahre <date>1801</date> erfolgtem
-               <lb facs="#facs_2_region_1787721891475_311_tl_14" n="N014"/>Tode. In <rs type="place">Mailand</rs> wurde „<rs type="bibl">Don Giovanni</rs>“ zum erstenmale
-               <lb facs="#facs_2_region_1787721891475_311_tl_15" n="N015"/>im Jahre <date>1814</date> gegeben, „<rs type="bibl">Nozze di Figaro</rs>“ <date>1815</date>, die
-               <lb facs="#facs_2_region_1787721891475_311_tl_16" n="N016"/>„<rs type="bibl">Zauberflöte</rs>“ <date>1816</date>; nach <rs type="place">Neapel</rs>, dem Wohnsitze <rs type="person">Cimarosa</rs>'s,
-               <lb facs="#facs_2_region_1787721891475_311_tl_17" n="N017"/>kamen <rs type="person">Mozart</rs>'sche Opern noch viel später und gleichsam
-               <lb facs="#facs_2_region_1787721891475_311_tl_18" n="N018"/>aus Versehen. Als aber <rs type="person">Cimarosa</rs>, von <rs type="place">Petersburg</rs> nach
-               <lb facs="#facs_2_region_1787721891475_311_tl_19" n="N019"/>
-               <rs type="place">Neapel</rs> zurückreisend, sich in <rs type="place">Wien</rs> eine kurze Zeit aufhielt,
-               <lb facs="#facs_2_region_1787721891475_311_tl_20" n="N020"/>um hier seine „<rs type="bibl">Heimliche Ehe</rs>“ aufzuführen, war er ein
-               <lb facs="#facs_2_region_1787721891475_311_tl_21" n="N021"/>Mann von 38 Jahren und hatte bereits an siebzig Opern
-               <lb facs="#facs_2_region_1787721891475_311_tl_22" n="N022"/>componirt. Sein Styl war längst ausgebildet und einer
-               <lb facs="#facs_2_region_1787721891475_311_tl_23" n="N023"/>Umwandlung durch <rs type="person">Mozart</rs> nicht mehr fähig, noch be¬
-               <lb facs="#facs_2_region_1787721891475_311_tl_24" n="N024"/>dürftig. <rs type="person">Cimarosa</rs> spricht im „<rs type="bibl">Matrimonio segreto</rs>“
-               <lb facs="#facs_2_region_1787721891475_311_tl_25" n="N025"/>seine Muttersprache und nur diese. Woher trotzdem
-               <lb facs="#facs_2_region_1787721891475_311_tl_26" n="N026"/>die auffallende Aehnlichkeit mit <rs type="person">Mozart</rs>? Weil die musi¬
-               <lb facs="#facs_2_region_1787721891475_311_tl_27" n="N027"/>kalische Heimat Beider dieselbe ist: <rs type="place">Italien</rs>. <rs type="person">Mozart</rs>
-               <lb facs="#facs_2_region_1787721891475_311_tl_28" n="N028"/>hatte bekanntlich als zwölfjähriger Knabe seine Opern-Carrière
-               <lb facs="#facs_2_region_1787721891475_311_tl_29" n="N029"/>in <rs type="place">Italien</rs>, ganz in <rs type="place">italienisch</rs>em Style, begonnen und auch
-               <lb facs="#facs_2_region_1787721891475_311_tl_30" n="N030"/>in <rs type="place">Wien</rs> die weitaus größere Zahl seiner Opern <rs type="place">italienisch</rs>,
-               <lb facs="#facs_2_region_1787721891475_311_tl_31" n="N031"/>für <rs type="place">italienisch</rs>e Sänger geschrieben. Die <rs type="place">italienisch</rs>e Oper war
-               <lb facs="#facs_2_region_1787721891475_311_tl_32" n="N032"/>in <rs type="place">Wien</rs> zu <rs type="person">Mozart</rs>'s Zeiten die herrschende, fast allein an¬
-               <lb facs="#facs_2_region_1787721891475_311_tl_33" n="N033"/>gesehene neben dem erst aufblühenden <rs type="place">deutsch</rs>en Singspiel,
-               <lb facs="#facs_2_region_1787721891475_311_tl_34" n="N034"/>das <rs type="person">Mozart</rs> durch seine „<rs type="bibl">Entführung</rs>“ und „<rs type="bibl">Zauberflöte</rs>“
-               <lb facs="#facs_2_region_1787721891475_311_tl_35" n="N035"/>schaffen geholfen. Diese beiden Monumente können uns nicht
-               <lb facs="#facs_2_region_1787721891475_311_tl_36" n="N036"/>daran hindern, in <rs type="person">Mozart</rs>, dem Opern-Componisten, den
-               <lb facs="#facs_2_region_1787721891475_311_tl_37" n="N037"/>letzten großen Italiener zu sehen. <rs type="person">Cimarosa</rs> verdankt der
-               <lb facs="#facs_2_region_1787721891475_311_tl_38" n="N038"/>
-               <rs type="place">deutsch</rs>en Musik nichts, <rs type="person">Mozart</rs> hingegen der <rs type="place">italienisch</rs>en
-               <lb facs="#facs_2_region_1787721891475_311_tl_39" n="N039"/>sehr viel; er ist in der Opera buffa dem <rs type="place">neapolitanisch</rs>en
-               <lb facs="#facs_2_region_1787721891475_311_tl_40" n="N040"/>Triumvirat jener Zeit: <rs type="person">Piccini</rs>, <rs type="person">Paesiello</rs> und <rs type="person">Cimarosa</rs>,
-               <lb facs="#facs_2_region_1787721891475_311_tl_41" n="N041"/>blutsverwandt. Daß speciell <rs type="person">Cimarosa</rs>'s Musik Einfluß auf
-               <lb facs="#facs_2_region_1787721891475_311_tl_42" n="N042"/>
-               <rs type="person">Mozart</rs> geübt, ist nicht nachweisbar, aber wol möglich; that¬
-               <lb facs="#facs_2_region_1787721891475_311_tl_43" n="N043"/>sächlich steht fest, daß während der ganzen <rs type="place">Wien</rs>er Periode
-               <lb facs="#facs_2_region_1787721891475_311_tl_44" n="N044"/>
-               <rs type="person">Mozart</rs>'s (<date>1781</date> bis <date>1792</date>) kein Jahr ohne die Aufführung
-               <lb facs="#facs_2_region_1787721891475_311_tl_45" n="N045"/>einer neuen <rs type="person">Cimarosa</rs>'schen Oper verging und dessen</p>
-            <p facs="#facs_2_region_1787721899235_314">
-               <lb facs="#facs_2_region_1787721899235_314_tl_1" n="N001"/>Werke an der <rs type="place">Italienisch</rs>en Oper in <rs type="place">Wien</rs> mit am häufigsten
-               <lb facs="#facs_2_region_1787721899235_314_tl_2" n="N002"/>wiederholt wurden. Wer etwas von diesen früheren Opern
-               <lb facs="#facs_2_region_1787721899235_314_tl_3" n="N003"/>
-               <rs type="person">Cimarosa</rs>'s kennt, der hat gewiß darin den Styl des spä¬
-               <lb facs="#facs_2_region_1787721899235_314_tl_4" n="N004"/>teren „<rs type="bibl">Matrimonio segreto</rs>“ schon ausgeprägt gefunden. <rs type="person" continued="true">Ci¬</rs>
-               <lb facs="#facs_2_region_1787721899235_314_tl_5" n="N005"/>
-               <rs type="person" continued="true">marosa</rs>'s erste Oper: „<rs type="bibl">Le stravaganze del conte</rs>“, ist zehn
-               <lb facs="#facs_2_region_1787721899235_314_tl_6" n="N006"/>Jahre vor <rs type="person">Mozart</rs>'s „<rs type="bibl">Idomeneo</rs>“, neun Jahre vor dessen
-               <lb facs="#facs_2_region_1787721899235_314_tl_7" n="N007"/>„<rs type="bibl">Entführung aus dem Serail</rs>“ erschienen. So wenig <rs type="person" continued="true">Mo¬</rs>
-               <lb facs="#facs_2_region_1787721899235_314_tl_8" n="N008"/>
-               <rs type="person" continued="true">zart</rs>'s „<rs type="bibl">Figaro</rs>“ und <rs type="person">Cimarosa</rs>'s „<rs type="bibl">Heimliche Ehe</rs>“ von ein¬
-               <lb facs="#facs_2_region_1787721899235_314_tl_9" n="N009"/>ander abstammen, so besteht doch zwischen ihnen selbst eine
-               <lb facs="#facs_2_region_1787721899235_314_tl_10" n="N010"/>Art heimlicher Ehe. Und der Sprößling dieser Ehe ist <rs type="person" continued="true">Ros¬</rs>
-               <lb facs="#facs_2_region_1787721899235_314_tl_11" n="N011"/>
-               <rs type="person" continued="true">sini</rs>'s „<rs type="bibl">Barbier von Sevilla</rs>“. Insbesondere die Züge <rs type="person" continued="true">Cima¬</rs>
-               <lb facs="#facs_2_region_1787721899235_314_tl_12" n="N012"/>
-               <rs type="person" continued="true">rosa</rs>'s blicken verjüngt aus <rs type="person">Rossini</rs>'s Physiognomie uns ent¬
-               <lb facs="#facs_2_region_1787721899235_314_tl_13" n="N013"/>gegen. Viele komische Effecte <rs type="person">Rossini</rs>'s, die raschen Parlandos
-               <lb facs="#facs_2_region_1787721899235_314_tl_14" n="N014"/>und dergleichen finden sich schon fertig bei <rs type="person">Cimarosa</rs>, und wo
-               <lb facs="#facs_2_region_1787721899235_314_tl_15" n="N015"/>die Analogie der Scenen dazutritt, wird die musikalische Ver¬
-               <lb facs="#facs_2_region_1787721899235_314_tl_16" n="N016"/>wandtschaft vollends unverkennbar. So hat zum Beispiel die
-               <lb facs="#facs_2_region_1787721899235_314_tl_17" n="N017"/>drollige Scene im „<rs type="bibl">Barbier</rs>“, wo nach einander alle Personen
-               <lb facs="#facs_2_region_1787721899235_314_tl_18" n="N018"/>athemlos in den <rs type="person">Hauptmann</rs> der Wache hineinreden, ihr be¬
-               <lb facs="#facs_2_region_1787721899235_314_tl_19" n="N019"/>scheidenes Vorbild im ersten Finale der „<rs type="bibl">Heimlichen Ehe</rs>“.
-               <lb facs="#facs_2_region_1787721899235_314_tl_20" n="N020"/>Wer das Hofoperntheater vorgestern nicht mit unbilligen
-               <lb facs="#facs_2_region_1787721899235_314_tl_21" n="N021"/>Ansprüchen betrat, allenfalls einen <rs type="person">Lablache</rs> und <rs type="person">Rubini</rs>, eine
-               <lb facs="#facs_2_region_1787721899235_314_tl_22" n="N022"/>
-               <rs type="person">Malibran</rs> und <rs type="person">Sontag</rs> erwartend, der mußte sich von der
-               <lb facs="#facs_2_region_1787721899235_314_tl_23" n="N023"/>Aufführung der „<rs type="bibl">Heimlichen Ehe</rs>“ befriedigt und den Sän¬
-               <lb facs="#facs_2_region_1787721899235_314_tl_24" n="N024"/>gern zu Dank verpflichtet fühlen. <rs type="person">Geronimo</rs> ist namentlich
-               <lb facs="#facs_2_region_1787721899235_314_tl_25" n="N025"/>in schauspielerischer Hinsicht eine der besten Leistungen Herrn
-               <lb facs="#facs_2_region_1787721899235_314_tl_26" n="N026"/>
-               <hi rendition="#em">
-                  <rs type="person">Mayerhofer</rs>'s</hi>. Der in Spiel und Gesang gleich ge¬
-               <lb facs="#facs_2_region_1787721899235_314_tl_27" n="N027"/>wandte Herr <hi rendition="#em">
-                  <rs type="person">Horowitz</rs>
-               </hi> steht ihm als Graf <rs type="person">Robinson</rs>
-               <lb facs="#facs_2_region_1787721899235_314_tl_28" n="N028"/>zunächst. <rs type="person">Lisette</rs> und die <rs type="person">Tante</rs> fanden in den jugend¬
-               <lb facs="#facs_2_region_1787721899235_314_tl_29" n="N029"/>frischen Stimmen und dem recht lebhaften Spiel der
-               <lb facs="#facs_2_region_1787721899235_314_tl_30" n="N030"/>Fräulein <hi rendition="#em">
-                  <rs type="person">Braga</rs>
-               </hi> und <hi rendition="#em">
-                  <rs type="person">Meißlinger</rs>
-               </hi> gute Verbündete.
-               <lb facs="#facs_2_region_1787721899235_314_tl_31" n="N031"/>Von rechtswegen sollten <rs type="person">Carolina</rs> und <rs type="person">Paolino</rs>, als die
-               <lb facs="#facs_2_region_1787721899235_314_tl_32" n="N032"/>sympathischesten Charaktere auch die süßesten, weichsten Stim¬
-               <lb facs="#facs_2_region_1787721899235_314_tl_33" n="N033"/>men haben. Im Hofoperntheater war dies nicht der Fall;
-               <lb facs="#facs_2_region_1787721899235_314_tl_34" n="N034"/>Fräulein <hi rendition="#em">
-                  <rs type="person">Lehmann</rs>
-               </hi> (beiläufig gesagt, eine Sängerin, die
-               <lb facs="#facs_2_region_1787721899235_314_tl_35" n="N035"/>Alles kann, nur nicht liebenswürdig sein) und Herr <hi rendition="#em">
-                  <rs type="person">Walter</rs>
-               </hi>,
-               <lb facs="#facs_2_region_1787721899235_314_tl_36" n="N036"/>der stets liebenswürdig, aber nicht immer bei Stimme ist —
-               <lb facs="#facs_2_region_1787721899235_314_tl_37" n="N037"/>sie waren Beide an dem Abend auffallend müde und
-               <lb facs="#facs_2_region_1787721899235_314_tl_38" n="N038"/>indisponirt. Ein besonderes Lob gebührt Herrn Capellmeister
-               <lb facs="#facs_2_region_1787721899235_314_tl_39" n="N039"/>
-               <hi rendition="#em">
-                  <rs type="person">Fuchs</rs>
-               </hi>, der — eine bewährte Specialität im Retouchiren
-               <lb facs="#facs_2_region_1787721899235_314_tl_40" n="N040"/>veralteter Classiker — auch den würdigen <rs type="person">Cimarosa</rs> durch
-               <lb facs="#facs_2_region_1787721899235_314_tl_41" n="N041"/>zweckmäßige Kürzungen, durch Verwandlung der Secco-
-               <lb facs="#facs_2_region_1787721899235_314_tl_42" n="N042"/>Recitative in begleitete, endlich durch Verbesserung des <rs type="place" continued="true">deut¬</rs>
-               <lb facs="#facs_2_region_1787721899235_314_tl_43" n="N043"/>
-               <rs type="place" continued="true">sch</rs>en Textes mit entschiedenem Glück verjüngt und zu neuen
-               <lb facs="#facs_2_region_1787721899235_314_tl_44" n="N044"/>Eroberungen stattlich herausgeputzt hat.</p>
+            <cb n="4"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1787721885723_308_tl_1" n="N001"/>seiner früheren Macht allmälig verlustig. Die Zeit streicht
+         <lb facs="#facs_2_region_1787721885723_308_tl_2" n="N002"/>keinen Namen aus, ohne einen andern darüberzuschreiben.
+         <lb facs="#facs_2_region_1787721885723_308_tl_3" n="N003"/>Damit eine leichte melodiöse Musik uns entzücke, muß sie
+         <lb facs="#facs_2_region_1787721885723_308_tl_4" n="N004"/>Neues bringen. Das that seinerzeit <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>, dessen
+         <lb facs="#facs_2_region_1787721885723_308_tl_5" n="N005"/>Melodien im vorigen Jahrhundert neben der sanfteren
+         <lb facs="#facs_2_region_1787721885723_308_tl_6" n="N006"/>Grazie <rs type="person" ref="#hsl_person_id_215">Piccini</rs>’s und <rs type="person" ref="#hsl_person_id_929">Paesiello</rs>’s feurig, hinreißend und
+         <lb facs="#facs_2_region_1787721885723_308_tl_7" n="N007"/>originell klangen. Dieser Zauber mußte sich mit der Zeit ab
+         <lb facs="#facs_2_region_1787721885723_308_tl_8" n="N008" break="no"/>schwächen durch die fortwährende Selbstwiederholung des
+         <lb facs="#facs_2_region_1787721885723_308_tl_9" n="N009"/>Componisten und die Unersättlichkeit der Genießenden. Der
+         <lb facs="#facs_2_region_1787721885723_308_tl_10" n="N010"/>berühmte Sänger <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9518">Pachiarotti</rs></hi> erzählte als Greis dem
+         <lb facs="#facs_2_region_1787721885723_308_tl_11" n="N011"/>Franzosen <rs type="person" ref="#hsl_person_id_931">Stendhal</rs>, er habe seinerzeit in <rs type="place" ref="#hsl_place_id_73">Mailand</rs> allabend
+         <lb facs="#facs_2_region_1787721885723_308_tl_12" n="N012" break="no"/>lich eine gewisse Arie von <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs> vier-, auch fünfmal
+         <lb facs="#facs_2_region_1787721885723_308_tl_13" n="N013"/>wiederholen müssen — was <rs type="person" ref="#hsl_person_id_931">Stendhal</rs> zu dem Ausrufe ver
+         <lb facs="#facs_2_region_1787721885723_308_tl_14" n="N014" break="no"/>anlaßt, „es sei ganz unmöglich, daß das menschliche Herz
+         <lb facs="#facs_2_region_1787721885723_308_tl_15" n="N015"/>eine Musik, die es mit solcher Raserei liebt, <hi rendition="#em">immer</hi> lieben
+         <lb facs="#facs_2_region_1787721885723_308_tl_16" n="N016"/>könne“. Ohne Frage erregt von allen Künsten Musik die
+         <lb facs="#facs_2_region_1787721885723_308_tl_17" n="N017"/>lebhaftesten Empfindungen, die überschwenglichsten Genüsse,
+         <lb facs="#facs_2_region_1787721885723_308_tl_18" n="N018"/>aber die am wenigsten dauerhaften. Als <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs> und sein
+         <lb facs="#facs_2_region_1787721885723_308_tl_19" n="N019"/>gefeierter Rivale <rs type="person" ref="#hsl_person_id_929">Paesiello</rs> mit Anfang unseres Jahrhunderts
+         <lb facs="#facs_2_region_1787721885723_308_tl_20" n="N020"/>zu schreiben aufhörten, hatten sie seit dreißig Jahren ganz <rs type="place" ref="#hsl_place_id_28">Italien</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1787721885723_308_tl_21" n="N021"/>verschwenderisch mit Opern versehen. Man begann nunmehr
+         <lb facs="#facs_2_region_1787721885723_308_tl_22" n="N022"/>gegen dieselben gleichgiltiger zu werden, denn sie boten nicht
+         <lb facs="#facs_2_region_1787721885723_308_tl_23" n="N023"/>mehr Ueberraschendes, Unvorhergesehenes. Man sehnte sich
+         <lb facs="#facs_2_region_1787721885723_308_tl_24" n="N024"/>nach einem neuen musikalischen Genie, und um so ungedul
+         <lb facs="#facs_2_region_1787721885723_308_tl_25" n="N025" break="no"/>diger, als es nicht so bald erschien. Erst <rs type="person" ref="#hsl_person_id_241">Rossini</rs> war
+         <lb facs="#facs_2_region_1787721885723_308_tl_26" n="N026"/>dieser neue große Erfinder, neben dessen zündenden Melodien
+         <lb facs="#facs_2_region_1787721885723_308_tl_27" n="N027"/>die oft gehörten, längst auswendig gewußten des <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1787721885723_308_tl_28" n="N028"/>veraltet erschienen. Der unerhörte Glanz, die hinreißende
+         <lb facs="#facs_2_region_1787721885723_308_tl_29" n="N029"/>Lebendigkeit der <rs type="person" ref="#hsl_person_id_241">Rossini</rs>’schen Musik bewirkte, daß man bald
+         <lb facs="#facs_2_region_1787721885723_308_tl_30" n="N030"/>in ganz Europa die „<rs type="bibl" ref="#hsl_work_id_546">Heimliche Ehe</rs>“, bei aller Hochachtung
+         <lb facs="#facs_2_region_1787721885723_308_tl_31" n="N031"/>vor dem Meister, nicht mehr glänzend und hinreißend fand.
+         <lb facs="#facs_2_region_1787721885723_308_tl_32" n="N032"/>Am auffälligsten zeigt sich die Wendung in dem Urtheile
+         <lb facs="#facs_2_region_1787721885723_308_tl_33" n="N033"/>Robert <hi rendition="#em"><rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s</hi>, der — ein warmer Verehrer von
+         <lb facs="#facs_2_region_1787721885723_308_tl_34" n="N034"/><rs type="person" ref="#hsl_person_id_241">Rossini</rs>’s „<rs type="bibl" ref="#hsl_work_id_176">Barbier</rs>“ — folgende Worte über <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>’s
+         <lb facs="#facs_2_region_1787721885723_308_tl_35" n="N035"/>„<rs type="bibl" ref="#hsl_work_id_546">Heimliche Ehe</rs>“ niederschrieb: „Im Technischen durchaus
+         <lb facs="#facs_2_region_1787721885723_308_tl_36" n="N036"/>meisterlich, sonst ziemlich interesselos, zuletzt wahrhaft lang
+         <lb facs="#facs_2_region_1787721885723_308_tl_37" n="N037" break="no"/>weilig und aller Gedanken bar.“ Das Urtheil ist, nach mei
+         <lb facs="#facs_2_region_1787721885723_308_tl_38" n="N038" break="no"/>ner Empfindung, viel zu hart und übersieht neben der tech
+         <lb facs="#facs_2_region_1787721885723_308_tl_39" n="N039" break="no"/>nischen Meisterschaft, die sich erwerben läßt, gänzlich ein
+         <lb facs="#facs_2_region_1787721885723_308_tl_40" n="N040"/>Höheres, Entscheidenderes, das sich nicht erwerben läßt und
+         <lb facs="#facs_2_region_1787721885723_308_tl_41" n="N041"/>das <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs> ebenso reichlich innewohnte, wie dem Deutschen
+         <lb facs="#facs_2_region_1787721885723_308_tl_42" n="N042"/>jederzeit spärlich: das Temperament, das echte, sprudelnde
+         <lb facs="#facs_2_region_1787721885723_308_tl_43" n="N043"/>Buffotalent. Aber die Worte <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s lassen uns wenig
+         <lb facs="#facs_2_region_1787721885723_308_tl_44" n="N044" break="no"/>stens begreifen, wie eine Oper, die vor 90 Jahren als die
+         <lb facs="#facs_2_region_1787721885723_308_tl_45" n="N045"/>denkbar amüsanteste bejubelt wurde, heute einem modernen<space quantity="1" unit="char"/></p>
+            <cb n="5"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1787721891475_311_tl_1" n="N001"/>großen Musiker „interesselos und langweilig“ vorkom
+         <lb facs="#facs_2_region_1787721891475_311_tl_2" n="N002" break="no"/>men kann.
+            </p><p>
+         <lb facs="#facs_2_region_1787721891475_311_tl_3" n="N003"/>Die Musik zur „<rs type="bibl" ref="#hsl_work_id_546">Heimlichen Ehe</rs>“ erinnert uns sehr
+         <lb facs="#facs_2_region_1787721891475_311_tl_4" n="N004"/>häufig an <hi rendition="#em"><rs type="person" ref="#hsl_person_id_241">Rossini</rs></hi> und fast ununterbrochen an <hi rendition="#em"><rs type="person" ref="#hsl_person_id_189">Mozart</rs></hi>.
+         <lb facs="#facs_2_region_1787721891475_311_tl_5" n="N005"/>Nicht nur einzelne melodische Wendungen, Uebergänge, Caden
+         <lb facs="#facs_2_region_1787721891475_311_tl_6" n="N006" break="no"/>zen, selbst ganze Musikstücke, von der Ouvertüre angefangen,
+         <lb facs="#facs_2_region_1787721891475_311_tl_7" n="N007"/>klingen wie ein Echo aus „<rs type="bibl" ref="#hsl_work_id_4">Figaro’s Hochzeit</rs>“. Diese ist
+         <lb facs="#facs_2_region_1787721891475_311_tl_8" n="N008"/>sieben Jahre <hi rendition="#em">vor</hi> der „<rs type="bibl" ref="#hsl_work_id_546">Heimlichen Ehe</rs>“ componirt, was
+         <lb facs="#facs_2_region_1787721891475_311_tl_9" n="N009"/>Manchen zu der irrigen Annahme verleitet, die <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’sche
+         <lb facs="#facs_2_region_1787721891475_311_tl_10" n="N010"/>Oper habe als Vorbild, vielleicht gar als Fundgrube für
+         <lb facs="#facs_2_region_1787721891475_311_tl_11" n="N011"/><rs type="person" ref="#hsl_person_id_928">Cimarosa</rs> gedient. In Wirklichkeit hat <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs> kaum eine
+         <lb facs="#facs_2_region_1787721891475_311_tl_12" n="N012"/>von <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s Opern gekannt. <rs type="place" ref="#hsl_place_id_28">Italien</rs> lernte dieselben sehr
+         <lb facs="#facs_2_region_1787721891475_311_tl_13" n="N013"/>spät kennen, lange nach <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>’s im Jahre <date>1801</date> erfolgtem
+         <lb facs="#facs_2_region_1787721891475_311_tl_14" n="N014"/>Tode. In <rs type="place" ref="#hsl_place_id_73">Mailand</rs> wurde „<rs type="bibl" ref="#hsl_work_id_174">Don Giovanni</rs>“ zum erstenmale
+         <lb facs="#facs_2_region_1787721891475_311_tl_15" n="N015"/>im Jahre <date>1814</date> gegeben, „<rs type="bibl" ref="#hsl_work_id_4">Nozze di Figaro</rs>“ <date>1815</date>, die
+         <lb facs="#facs_2_region_1787721891475_311_tl_16" n="N016"/>„<rs type="bibl" ref="#hsl_work_id_350">Zauberflöte</rs>“ <date>1816</date>; nach <rs type="place" ref="#hsl_place_id_40">Neapel</rs>, dem Wohnsitze <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>’s,
+         <lb facs="#facs_2_region_1787721891475_311_tl_17" n="N017"/>kamen <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’sche Opern noch viel später und gleichsam
+         <lb facs="#facs_2_region_1787721891475_311_tl_18" n="N018"/>aus Versehen. Als aber <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>, von <rs type="place" ref="#hsl_place_id_50">Petersburg</rs> nach
+         <lb facs="#facs_2_region_1787721891475_311_tl_19" n="N019"/><rs type="place" ref="#hsl_place_id_40">Neapel</rs> zurückreisend, sich in <rs type="place" ref="#hsl_place_id_55">Wien</rs> eine kurze Zeit aufhielt,
+         <lb facs="#facs_2_region_1787721891475_311_tl_20" n="N020"/>um hier seine „<rs type="bibl" ref="#hsl_work_id_546">Heimliche Ehe</rs>“ aufzuführen, war er ein
+         <lb facs="#facs_2_region_1787721891475_311_tl_21" n="N021"/>Mann von 38 Jahren und hatte bereits an siebzig Opern
+         <lb facs="#facs_2_region_1787721891475_311_tl_22" n="N022"/>componirt. Sein Styl war längst ausgebildet und einer
+         <lb facs="#facs_2_region_1787721891475_311_tl_23" n="N023"/>Umwandlung durch <rs type="person" ref="#hsl_person_id_189">Mozart</rs> nicht mehr fähig, noch be
+         <lb facs="#facs_2_region_1787721891475_311_tl_24" n="N024" break="no"/>dürftig. <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs> spricht im „<rs type="bibl" ref="#hsl_work_id_546">Matrimonio segreto</rs>“
+         <lb facs="#facs_2_region_1787721891475_311_tl_25" n="N025"/>seine Muttersprache und nur diese. Woher trotzdem
+         <lb facs="#facs_2_region_1787721891475_311_tl_26" n="N026"/>die auffallende Aehnlichkeit mit <rs type="person" ref="#hsl_person_id_189">Mozart</rs>? Weil die musi
+         <lb facs="#facs_2_region_1787721891475_311_tl_27" n="N027" break="no"/>kalische Heimat Beider dieselbe ist: <rs type="place" ref="#hsl_place_id_28">Italien</rs>. <rs type="person" ref="#hsl_person_id_189">Mozart</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1787721891475_311_tl_28" n="N028"/>hatte bekanntlich als zwölfjähriger Knabe seine Opern-Carrière
+         <lb facs="#facs_2_region_1787721891475_311_tl_29" n="N029"/>in <rs type="place" ref="#hsl_place_id_28">Italien</rs>, ganz in <rs type="place" ref="#hsl_place_id_28">italienisch</rs>em Style, begonnen und auch
+         <lb facs="#facs_2_region_1787721891475_311_tl_30" n="N030"/>in <rs type="place" ref="#hsl_place_id_55">Wien</rs> die weitaus größere Zahl seiner Opern <rs type="place" ref="#hsl_place_id_28">italienisch</rs>,
+         <lb facs="#facs_2_region_1787721891475_311_tl_31" n="N031"/>für <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Sänger geschrieben. Die <rs type="place" ref="#hsl_place_id_28">italienisch</rs>e Oper war
+         <lb facs="#facs_2_region_1787721891475_311_tl_32" n="N032"/>in <rs type="place" ref="#hsl_place_id_55">Wien</rs> zu <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s Zeiten die herrschende, fast allein an
+         <lb facs="#facs_2_region_1787721891475_311_tl_33" n="N033" break="no"/>gesehene neben dem erst aufblühenden <rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Singspiel,
+         <lb facs="#facs_2_region_1787721891475_311_tl_34" n="N034"/>das <rs type="person" ref="#hsl_person_id_189">Mozart</rs> durch seine „<rs type="bibl" ref="#hsl_work_id_1292">Entführung</rs>“ und „<rs type="bibl" ref="#hsl_work_id_350">Zauberflöte</rs>“
+         <lb facs="#facs_2_region_1787721891475_311_tl_35" n="N035"/>schaffen geholfen. Diese beiden Monumente können uns nicht
+         <lb facs="#facs_2_region_1787721891475_311_tl_36" n="N036"/>daran hindern, in <rs type="person" ref="#hsl_person_id_189">Mozart</rs>, dem Opern-Componisten, den
+         <lb facs="#facs_2_region_1787721891475_311_tl_37" n="N037"/>letzten großen Italiener zu sehen. <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs> verdankt der
+         <lb facs="#facs_2_region_1787721891475_311_tl_38" n="N038"/><rs type="place" ref="#hsl_place_id_14">deutsch</rs>en Musik nichts, <rs type="person" ref="#hsl_person_id_189">Mozart</rs> hingegen der <rs type="place" ref="#hsl_place_id_28">italienisch</rs>en
+         <lb facs="#facs_2_region_1787721891475_311_tl_39" n="N039"/>sehr viel; er ist in der Opera buffa dem <rs type="place" ref="#hsl_place_id_40">neapolitanisch</rs>en
+         <lb facs="#facs_2_region_1787721891475_311_tl_40" n="N040"/>Triumvirat jener Zeit: <rs type="person" ref="#hsl_person_id_215">Piccini</rs>, <rs type="person" ref="#hsl_person_id_929">Paesiello</rs> und <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>,
+         <lb facs="#facs_2_region_1787721891475_311_tl_41" n="N041"/>blutsverwandt. Daß speciell <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>’s Musik Einfluß auf
+         <lb facs="#facs_2_region_1787721891475_311_tl_42" n="N042"/><rs type="person" ref="#hsl_person_id_189">Mozart</rs> geübt, ist nicht nachweisbar, aber wol möglich; that
+         <lb facs="#facs_2_region_1787721891475_311_tl_43" n="N043" break="no"/>sächlich steht fest, daß während der ganzen <rs type="place" ref="#hsl_place_id_55">Wien</rs>er Periode
+         <lb facs="#facs_2_region_1787721891475_311_tl_44" n="N044"/><rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s (<date>1781</date> bis <date>1792</date>) kein Jahr ohne die Aufführung
+         <lb facs="#facs_2_region_1787721891475_311_tl_45" n="N045"/>einer neuen <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>’schen Oper verging und dessen<space quantity="1" unit="char"/></p>
+            <cb n="6"/>
+            <p prev="true">
+         <lb facs="#facs_2_region_1787721899235_314_tl_1" n="N001"/>Werke an der <rs type="place" ref="#hsl_place_id_28">Italienisch</rs>en Oper in <rs type="place" ref="#hsl_place_id_55">Wien</rs> mit am häufigsten
+         <lb facs="#facs_2_region_1787721899235_314_tl_2" n="N002"/>wiederholt wurden. Wer etwas von diesen früheren Opern
+         <lb facs="#facs_2_region_1787721899235_314_tl_3" n="N003"/><rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>’s kennt, der hat gewiß darin den Styl des spä
+         <lb facs="#facs_2_region_1787721899235_314_tl_4" n="N004" break="no"/>teren „<rs type="bibl" ref="#hsl_work_id_546">Matrimonio segreto</rs>“ schon ausgeprägt gefunden. <rs type="person" ref="#hsl_person_id_928">Ci
+         <lb facs="#facs_2_region_1787721899235_314_tl_5" n="N005" break="no"/>marosa</rs>’s erste Oper: „<rs type="bibl" ref="#hsl_work_id_7102">Le stravaganze del conte</rs>“, ist zehn
+         <lb facs="#facs_2_region_1787721899235_314_tl_6" n="N006"/>Jahre vor <rs type="person" ref="#hsl_person_id_189">Mozart</rs>’s „<rs type="bibl" ref="#hsl_work_id_868">Idomeneo</rs>“, neun Jahre vor dessen
+         <lb facs="#facs_2_region_1787721899235_314_tl_7" n="N007"/>„<rs type="bibl" ref="#hsl_work_id_1292">Entführung aus dem Serail</rs>“ erschienen. So wenig <rs type="person" ref="#hsl_person_id_189">Mo
+         <lb facs="#facs_2_region_1787721899235_314_tl_8" n="N008" break="no"/>zart</rs>’s „<rs type="bibl" ref="#hsl_work_id_4">Figaro</rs>“ und <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>’s „<rs type="bibl" ref="#hsl_work_id_546">Heimliche Ehe</rs>“ von ein
+         <lb facs="#facs_2_region_1787721899235_314_tl_9" n="N009" break="no"/>ander abstammen, so besteht doch zwischen ihnen selbst eine
+         <lb facs="#facs_2_region_1787721899235_314_tl_10" n="N010"/>Art heimlicher Ehe. Und der Sprößling dieser Ehe ist <rs type="person" ref="#hsl_person_id_241">Ros
+         <lb facs="#facs_2_region_1787721899235_314_tl_11" n="N011" break="no"/>sini</rs>’s „<rs type="bibl" ref="#hsl_work_id_176">Barbier von Sevilla</rs>“. Insbesondere die Züge <rs type="person" ref="#hsl_person_id_928">Cima
+         <lb facs="#facs_2_region_1787721899235_314_tl_12" n="N012" break="no"/>rosa</rs>’s blicken verjüngt aus <rs type="person" ref="#hsl_person_id_241">Rossini</rs>’s Physiognomie uns ent
+         <lb facs="#facs_2_region_1787721899235_314_tl_13" n="N013" break="no"/>gegen. Viele komische Effecte <rs type="person" ref="#hsl_person_id_241">Rossini</rs>’s, die raschen Parlandos
+         <lb facs="#facs_2_region_1787721899235_314_tl_14" n="N014"/>und dergleichen finden sich schon fertig bei <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs>, und wo
+         <lb facs="#facs_2_region_1787721899235_314_tl_15" n="N015"/>die Analogie der Scenen dazutritt, wird die musikalische Ver
+         <lb facs="#facs_2_region_1787721899235_314_tl_16" n="N016" break="no"/>wandtschaft vollends unverkennbar. So hat zum Beispiel die
+         <lb facs="#facs_2_region_1787721899235_314_tl_17" n="N017"/>drollige Scene im „<rs type="bibl" ref="#hsl_work_id_176">Barbier</rs>“, wo nach einander alle Personen
+         <lb facs="#facs_2_region_1787721899235_314_tl_18" n="N018"/>athemlos in den Hauptmann der Wache hineinreden, ihr be
+         <lb facs="#facs_2_region_1787721899235_314_tl_19" n="N019" break="no"/>scheidenes Vorbild im ersten Finale der „<rs type="bibl" ref="#hsl_work_id_546">Heimlichen Ehe</rs>“.
+         <lb facs="#facs_2_region_1787721899235_314_tl_20" n="N020"/>Wer das Hofoperntheater vorgestern nicht mit unbilligen
+         <lb facs="#facs_2_region_1787721899235_314_tl_21" n="N021"/>Ansprüchen betrat, allenfalls einen <rs type="person" ref="#hsl_person_id_482">Lablache</rs> und <rs type="person" ref="#hsl_person_id_2290">Rubini</rs>, eine
+         <lb facs="#facs_2_region_1787721899235_314_tl_22" n="N022"/><rs type="person" ref="#hsl_person_id_819">Malibran</rs> und <rs type="person" ref="#hsl_person_id_263">Sontag</rs> erwartend, der mußte sich von der
+         <lb facs="#facs_2_region_1787721899235_314_tl_23" n="N023"/>Aufführung der „<rs type="bibl" ref="#hsl_work_id_546">Heimlichen Ehe</rs>“ befriedigt und den Sän
+         <lb facs="#facs_2_region_1787721899235_314_tl_24" n="N024" break="no"/>gern zu Dank verpflichtet fühlen. <rs type="person" ref="#hsl_person_id_1556">Geronimo</rs> ist namentlich
+         <lb facs="#facs_2_region_1787721899235_314_tl_25" n="N025"/>in schauspielerischer Hinsicht eine der besten Leistungen Herrn
+         <lb facs="#facs_2_region_1787721899235_314_tl_26" n="N026"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_183">Mayerhofer</rs>’s</hi>. Der in Spiel und Gesang gleich ge
+         <lb facs="#facs_2_region_1787721899235_314_tl_27" n="N027" break="no"/>wandte Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3065">Horowitz</rs></hi> steht ihm als Graf <rs type="person" ref="#hsl_person_id_1565">Robinson</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1787721899235_314_tl_28" n="N028"/>zunächst. <rs type="person" ref="#hsl_person_id_9517">Lisette</rs> und die <rs type="person" ref="#hsl_person_id_1558">Tante</rs> fanden in den jugend
+         <lb facs="#facs_2_region_1787721899235_314_tl_29" n="N029" break="no"/>frischen Stimmen und dem recht lebhaften Spiel der
+         <lb facs="#facs_2_region_1787721899235_314_tl_30" n="N030"/>Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_7790">Braga</rs></hi> und <hi rendition="#em"><rs type="person" ref="#hsl_person_id_8102">Meißlinger</rs></hi> gute Verbündete.
+         <lb facs="#facs_2_region_1787721899235_314_tl_31" n="N031"/>Von rechtswegen sollten <rs type="person" ref="#hsl_person_id_9515">Carolina</rs> und <rs type="person" ref="#hsl_person_id_1557">Paolino</rs>, als die
+         <lb facs="#facs_2_region_1787721899235_314_tl_32" n="N032"/>sympathischesten Charaktere auch die süßesten, weichsten Stim
+         <lb facs="#facs_2_region_1787721899235_314_tl_33" n="N033" break="no"/>men haben. Im Hofoperntheater war dies nicht der Fall;
+         <lb facs="#facs_2_region_1787721899235_314_tl_34" n="N034"/>Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3746">Lehmann</rs></hi> (beiläufig gesagt, eine Sängerin, die
+         <lb facs="#facs_2_region_1787721899235_314_tl_35" n="N035"/>Alles kann, nur nicht liebenswürdig sein) und Herr <hi rendition="#em"><rs type="person" ref="#hsl_person_id_320">Walter</rs></hi>,
+         <lb facs="#facs_2_region_1787721899235_314_tl_36" n="N036"/>der stets liebenswürdig, aber nicht immer bei Stimme ist —
+         <lb facs="#facs_2_region_1787721899235_314_tl_37" n="N037"/>sie waren Beide an dem Abend auffallend müde und
+         <lb facs="#facs_2_region_1787721899235_314_tl_38" n="N038"/>indisponirt. Ein besonderes Lob gebührt Herrn Capellmeister
+         <lb facs="#facs_2_region_1787721899235_314_tl_39" n="N039"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_1017">Fuchs</rs></hi>, der — eine bewährte Specialität im Retouchiren
+         <lb facs="#facs_2_region_1787721899235_314_tl_40" n="N040"/>veralteter Classiker — auch den würdigen <rs type="person" ref="#hsl_person_id_928">Cimarosa</rs> durch
+         <lb facs="#facs_2_region_1787721899235_314_tl_41" n="N041"/>zweckmäßige Kürzungen, durch Verwandlung der Secco-
+         <lb facs="#facs_2_region_1787721899235_314_tl_42" n="N042"/>Recitative in begleitete, endlich durch Verbesserung des <rs type="place" ref="#hsl_place_id_14">deut
+         <lb facs="#facs_2_region_1787721899235_314_tl_43" n="N043" break="no"/>sch</rs>en Textes mit entschiedenem Glück verjüngt und zu neuen
+         <lb facs="#facs_2_region_1787721899235_314_tl_44" n="N044"/>Eroberungen stattlich herausgeputzt hat.</p>
          </div>
       </body>
    </text>
