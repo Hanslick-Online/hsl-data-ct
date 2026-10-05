@@ -31,6 +31,7 @@
                <name ref="https://orcid.org/0009-0006-9062-5902">Bamer, Katharina</name>
                <name ref="https://orcid.org/0000-0002-7722-4091">Pfiel, Anna-Maria</name>
                <name ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
+               <name ref="https://orcid.org/0000-0002-8815-6741">Sanz-Lázaro, Fernando</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -77,16 +78,19 @@
                      <title type="sub">Morgenblatt</title>
                      <respStmt>
                         <resp>Herausgegeben von</resp>
-                        <name type="person">Etienne, Michael</name>
-                        <name type="person">Friedländer, Max</name>
+                        <name type="person">Bacher,Eduard</name>
+                        <name type="person">Benedikt, Moriz</name>
                      </respStmt>
                      <imprint>
-                        <pubPlace/>
-                        <date when=""/>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1884-04-03">03.04.1884</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
+            <bibl type="facsimiles-source">
+            <relatedItem type="facsimile" subtype="ONB-ANNO" target="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18840403"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -102,9 +106,11 @@
             <language ident="de">Deutsch</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="draft">
-         <change who="kbamer ampfiel" when="2023-02-20">Transkribus OCR und Lektorat.</change>
-         <change who="delsner" when="2023-02-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+      <revisionDesc status="final">
+         <change who="awilfing" when="2026-09-17">Transkribus OCR und Lektorat.</change>
+         <change who="fsanzlazaro" when="2026-09-20">Transformierung der Daten des Transkribus TEI-Export mit "editions.xsl".</change>
+         <change who="awilfing" when="2026-10-03">Formatierung und Referenzen eingefügt.</change>
+         <change who="awilfing" when="">Letztkorrektur für Zwischenrelease.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -626,226 +632,170 @@
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <cb n="1"/>
+            <lb facs="#facs_2_region_1706947650857_498_tl_1" n="N001"/><head type="h1"><hi rendition="#em">Concerte</hi>.</head>
             <p>
-               <lb facs="#facs_1_l_1" n="N001"/>Nr. 7041. Wien, Donnerstag, den 3. April 1884
-            </p>
+         <lb facs="#facs_2_region_1706947650857_498_tl_2" n="N002"/><rs type="person" ref="#hsl_person_id_1">Ed. H.</rs> Hector <rs type="person" ref="#hsl_person_id_28">Berlioz</rs> erzählt einmal, wie ihm eines Mor
+         <lb facs="#facs_2_l" n="N003" break="no"/>gens ein Violin-Virtuose dessen Concert er krankheitshalber nicht 
+         <lb facs="#facs_2_region_1706947650857_498_tl_5" n="N004"/>besuchen konnte, mit der Geige aufs Zimmer gerückt kam, um
+         <lb facs="#facs_2_region_1706947650857_498_tl_6" n="N005"/>dem wehrlosen Musik-Kritiker sein ganzes Programm nachträglich
+         <lb facs="#facs_2_region_1706947650857_498_tl_7" n="N006"/>vorzuspielen. So gewaltsam ist in <rs type="place" ref="#hsl_place_id_55">Wien</rs> noch kein Concertgeber
+         <lb facs="#facs_2_l_1" n="N007"/>gegen uns vorgegangen. Hingegen waren wir mitunter recht froh,
+         <lb facs="#facs_2_l_2" n="N008"/>einen renommirten Künstler, dessen öffentliches Auftreten wir
+         <lb facs="#facs_2_region_1706947650857_498_tl_12" n="N009"/><hi rendition="#em">ungern</hi> versäumt hatten — es gibt wirklich auch solche —
+         <lb facs="#facs_2_region_1706947650857_498_tl_13" n="N010"/>privatim hören zu können. So z. B. Fräulein Marie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1382">Soldat</rs></hi>,
+         <lb facs="#facs_2_region_1706947650857_498_tl_14" n="N011"/>eine aus <rs type="place" ref="#hsl_place_id_60">Graz</rs> gebürtige junge Violinspielerin, die durch mehrere
+         <lb facs="#facs_2_region_1706947650857_498_tl_15" n="N012"/>Jahre den Unterricht <hi rendition="#em"><rs type="person" ref="#hsl_person_id_140">Joachim</rs>’s</hi> genoß und von ihm wie von
+         <lb facs="#facs_2_region_1706947650857_498_tl_16" n="N013"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi> warm empfohlen ist. Fräulein <rs type="person" ref="#hsl_person_id_1382">Soldat</rs> hat uns, von
+         <lb facs="#facs_2_region_1706947650857_498_tl_17" n="N014"/>der trefflichen Pianistin Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_1597">Baumeyer</rs></hi> begleitet, die
+         <lb facs="#facs_2_region_1706947650857_498_tl_18" n="N015"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_41">Brahms</rs></hi>’sche <rs type="bibl" ref="#hsl_work_id_866">Violin-Sonate</rs> vorgespielt, wie wir das Stück
+         <lb facs="#facs_2_l_18" n="N016"/>niemals besser gehört, und genau so, wie es gespielt sein will:
+         <lb facs="#facs_2_l_19" n="N017"/>schlicht und doch ausdrucksvoll, mit feinem Stylgefühl und jener
+         <lb facs="#facs_2_region_1706947650857_498_tl_19" n="N018"/>classischen Abrundung, die an <rs type="person" ref="#hsl_person_id_140">Joachim</rs> erinnert. Fräulein <rs type="person" ref="#hsl_person_id_1382">Soldat</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1706947650857_498_tl_20" n="N019"/>spielt mit musterhafter Reinheit, mit gesangvollem, für ein junges
+         <lb facs="#facs_2_region_1706947650857_498_tl_21" n="N020"/>Mädchen auch starkem Ton, vor Allem mit eindringendem Ver
+         <lb facs="#facs_2_l_14" n="N021" break="no"/>ständnisse und echt musikalischer Empfindung. Temperament und
+         <lb facs="#facs_2_l_15" n="N022"/>graziöse Laune zeigte sie in dem Vortrage der „<rs type="bibl" ref="#hsl_work_id_1480">Ungarischen Tänze</rs>“
+         <lb facs="#facs_2_region_1706947650857_498_tl_22" n="N023"/>von <rs type="person" ref="#hsl_person_id_41">Brahms</rs> und <rs type="person" ref="#hsl_person_id_140">Joachim</rs>, modernste Virtuosenkünste und Kunst
+         <lb facs="#facs_2_region_1706947650857_498_tl_23" n="N024" break="no"/>stücke in der „<rs type="bibl" ref="#hsl_work_id_7105">Habanera</rs>“ von <rs type="person" ref="#hsl_person_id_3505">Sarasate</rs>. Es war gleichsam die
+         <lb facs="#facs_2_region_1706947650857_498_tl_24" n="N025"/>Generalprobe ihres Concerts, der wir beiwohnten — eine Probe,
+         <lb facs="#facs_2_region_1706947650857_498_tl_25" n="N026"/>welche den großen, der Künstlerin bevorstehenden Erfolg wol
+         <lb facs="#facs_2_region_1706947650857_498_tl_26" n="N027"/>voraussehen ließ. Dieser Erfolg ist auch nicht ausgeblieben und
+         <lb facs="#facs_2_region_1706947650857_498_tl_27" n="N028"/>soll nach dem Vortrage des <hi rendition="#em"><rs type="person" ref="#hsl_person_id_21">Mendelssohn</rs></hi>’schen <rs type="bibl" ref="#hsl_work_id_531">Concert</rs>es
+         <lb facs="#facs_2_region_1706947650857_498_tl_28" n="N029"/>eine ungewöhnliche Höhe erreicht haben.
+            </p><p>
+         <lb facs="#facs_2_region_1706947650857_498_tl_29" n="N030"/>Mit gewohntem Erfolge gab der <hi rendition="#em"><rs type="place" ref="#hsl_place_id_55">Wien</rs>er Männer
+         <lb facs="#facs_2_region_1706947650857_498_tl_30" n="N031" break="no"/>gesang-Verein</hi> sein zweites Concert, das sich zum Unter
+         <lb facs="#facs_2_region_1706947650857_498_tl_31" n="N032" break="no"/>schiede vom ersten regelmäßig auf kleinere Compositionen mit
+         <lb facs="#facs_2_region_1706947650857_498_tl_32" n="N033"/>Clavierbegleitung beschränkt. Herr E. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_150">Kremser</rs></hi>, in diesem
+         <lb facs="#facs_2_region_1706947650857_498_tl_33" n="N034"/>Jahre wieder alleiniger Chormeister des Vereins, hat neuerdings
+         <lb facs="#facs_2_region_1706947650857_498_tl_34" n="N035"/>den Beweis geliefert, daß er keines zweiten, wie immer mit
+         <lb facs="#facs_2_region_1706947650857_498_tl_35" n="N036"/>„Wein“ anfangenden Collegen bedürfe, um die Productionen auf
+         <lb facs="#facs_2_region_1706947650857_498_tl_36" n="N037"/>ihrer künstlerischen Höhe zu erhalten. Beide Concerte haben sein
+         <lb facs="#facs_2_region_1706947650857_498_tl_37" n="N038"/>bedeutendes Dirigenten-Talent wiederum in helles Licht gesetzt.
+            </p><p>
+         <lb facs="#facs_2_region_1706947650857_498_tl_38" n="N039"/>Dem Männergesang-Vereine folgte rasch der „<hi rendition="#em">Schubert
+         <lb facs="#facs_2_l_3" n="N040" break="no"/>bund</hi>“ mit seinem alljährlichen großen Concerte. Lebhaftesten
+         <lb facs="#facs_2_region_1706947650857_498_tl_41" n="N041"/>Beifall fanden die Solonummern: Gesangsvorträge der Frau
+         <lb facs="#facs_2_region_1706947650857_498_tl_42" n="N042"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_2486">Neuda-Bernstein</rs></hi> und des Violin-Virtuosen Marcello
+         <lb facs="#facs_2_region_1706947650857_498_tl_43" n="N043"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_3993">Rossi</rs></hi>. Was die Herren vom „Schubertbund“ betrifft, so haben
+         <lb facs="#facs_2_l_4" n="N044"/>sie, wie immer, sehr gut gesungen, aber nicht lauter Gutes. Man
+         <lb facs="#facs_2_l_5" n="N045"/>ist gegen Novitäten für Männerchor mit Rücksicht auf ihre
+         <lb facs="#facs_2_region_1706947650857_498_tl_48" n="N046"/>knappe Begrenzung und die zur Stunde fast erschöpfte Producti
+         <lb facs="#facs_2_region_1706947650857_498_tl_49" n="N047" break="no"/>vität recht nachsichtig geworden und nimmt einen klangvoll gesetz
+         <lb facs="#facs_2_region_1706947650857_498_tl_50" n="N048" break="no"/>ten und natürlich fließenden Männerchor anspruchslos entgegen,
+         <lb facs="#facs_2_region_1706947650857_498_tl_51" n="N049"/>wenn er nur selber anspruchslos auftritt. Aber mit so geschmack
+         <lb facs="#facs_2_region_1706947650857_498_tl_52" n="N050" break="no"/>losen, dabei prätentiös ausgedehnten Novitäten, wie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_9526">Möhring</rs>’s</hi><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1706947650857_498_tl_53" n="N051"/>„<rs type="bibl" ref="#hsl_work_id_7107">Aus hohen Bergen</rs>“ und Franz <hi rendition="#em"><rs type="person" ref="#hsl_person_id_4243">Mair</rs>’s</hi> „<rs type="bibl" ref="#hsl_work_id_7109">Einsame Mühle</rs>“,
+         <lb facs="#facs_2_region_1706947650857_498_tl_54" n="N052"/>gibt der „Schubertbund“ kein gutes Beispiel und seinem Namen
+         <lb facs="#facs_2_region_1706947650857_498_tl_55" n="N053"/>keine Ehre. In beiden Chören stellt schon die Wahl des Gedichtes
+         <lb facs="#facs_2_region_1706947650857_498_tl_56" n="N054"/>den gesunden musikalischen Sinn des Componisten in Zweifel.
+         <lb facs="#facs_2_region_1706947650857_498_tl_57" n="N055"/>Das erstgenannte <rs type="bibl" ref="#hsl_work_id_7107">Gedicht</rs> beklagt in fünf langen Strophen den
+         <lb facs="#facs_2_region_1706947650857_498_tl_58" n="N056"/>Tod eines Gemsenjägers, der in den Abgrund stürzte und nun
+         <lb facs="#facs_2_region_1706947650857_498_tl_59" n="N057"/>zerschmettert unten liegt, „die tückische Wurzel in starrer Hand“.
+         <lb facs="#facs_2_region_1706947650857_498_tl_60" n="N058"/>Diese Zeile wird unzähligemal in schauerlichen Rhythmen wieder
+         <lb facs="#facs_2_region_1706947650857_498_tl_61" n="N059" break="no"/>holt, während sie doch eine möglichst rasche Ueberleitung zu dem
+         <lb facs="#facs_2_region_1706947650857_498_tl_62" n="N060"/>Folgenden bilden sollte. In der „<rs type="bibl" ref="#hsl_work_id_7109">Einsamen Mühle</rs>“ bekommen
+         <lb facs="#facs_2_l_6" n="N061"/>wir einzelne Worte wie „Schuß“ oder „Klappern“ schon in den
+         <lb facs="#facs_2_region_1706947650857_498_tl_65" n="N062"/>Singstimmen realistisch ausgemalt, den „brausenden Mühlbach“
+         <lb facs="#facs_2_l_16" n="N063"/>natürlich noch großartiger in wilden Clavierpassagen. Mit dem
+         <lb facs="#facs_2_l_17" n="N064"/>Vers: „Schön Liese schafft und ordnet“ schlägt der Ton sofort
+         <lb facs="#facs_2_region_1706947650857_498_tl_66" n="N065"/>in süßliche Sentimentalität um, und werden die zwei Worte „Schön
+         <lb facs="#facs_2_l_7" n="N066"/>Liese, Schön Liese“ volle zehnmal hinter einander kosend wieder
+         <lb facs="#facs_2_region_1706947650857_498_tl_69" n="N067" break="no"/>holt. Gegen Ende des Chors muß sogar eine höchst unerwartete
+         <lb facs="#facs_2_region_1706947650857_498_tl_70" n="N068"/>Physharmonika den Eindruck des Geheimnisvollen auskochen
+         <lb facs="#facs_2_region_1706947650857_498_tl_71" n="N069"/>helfen. Das Alles erwähnen wir nur als abschreckende Beispiele
+         <lb facs="#facs_2_region_1706947650857_498_tl_72" n="N070"/>von jener falschen Compositionsweise, die, ohne Gefühl für die
+         <lb facs="#facs_2_region_1706947650857_498_tl_73" n="N071"/>Gesammtstimmung des Gedichtes, den melodischen Fluß fort
+         <lb facs="#facs_2_region_1706947650857_498_tl_74" n="N072" break="no"/>während unterbricht, um sich an kleinste Details zu klammern
+         <lb facs="#facs_2_region_1706947650857_498_tl_75" n="N073"/>und einzelne Worte, vorübergehende Vergleiche möglichst dramatisch
+         <lb facs="#facs_2_region_1706947650857_498_tl_76" n="N074"/>auszumalen. Für dieses schiefe, immer mehr überhandnehmende
+         <lb facs="#facs_2_region_1706947650857_498_tl_77" n="N075"/>Verfahren hatte der geistreiche M. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_687">Hauptmann</rs></hi> einen guten
+         <lb facs="#facs_2_region_1706947650857_498_tl_78" n="N076"/>Vergleich. Er sagt, daß es zwei Arten gibt, Text in Musik zu
+         <lb facs="#facs_2_region_1706947650857_498_tl_79" n="N077"/>setzen: die eine, wie der Uhrmacher eine Uhr „in Oel setzt“, wo
+         <lb facs="#facs_2_region_1706947650857_498_tl_80" n="N078"/>jedes Zäpfchen, jede Spindel des Werkes mit einem Tröpfchen
+         <lb facs="#facs_2_region_1706947650857_498_tl_81" n="N079"/>Oel betupft wird — so die declamatorische Musik; die andere,
+         <lb facs="#facs_2_region_1706947650857_498_tl_82" n="N080"/>wie man den Fisch ins Wasser setzt — so die musikalische Musik.
+         <lb facs="#facs_2_region_1706947650857_498_tl_83" n="N081"/>Die „Mühle“ wurde übrigens wiederholt; offenbar steckte in
+         <lb facs="#facs_2_region_1706947650857_498_tl_84" n="N082"/>dem Publicum des „Schubertbund“ noch die <rs type="person" ref="#hsl_person_id_4243">Mair</rs>’sche Jubiläums
+         <lb facs="#facs_2_region_1706947650857_498_tl_85" n="N083" break="no"/>stimmung.
+            </p><p>
+         <lb facs="#facs_2_region_1706947650857_498_tl_86" n="N084"/>Da haben die Chor- und Lieder-Compositionen von <hi rendition="#em">Richard
+         <lb facs="#facs_2_region_1706947650857_498_tl_87" n="N085"/><rs type="person" ref="#hsl_person_id_1327">Heuberger</rs></hi> ein ganz anderes Ansehen. Das Meiste von dem,
+         <lb facs="#facs_2_region_1706947650857_498_tl_88" n="N086"/>was er uns in seinem Concerte am 29. April vorgeführt, hat
+         <lb facs="#facs_2_region_1706947650857_498_tl_89" n="N087"/>uns geradezu überrascht durch Frische der Phantasie und seine
+         <lb facs="#facs_2_region_1706947650857_498_tl_90" n="N088"/>musikalische Gestaltung. Nur die <rs type="bibl" ref="#hsl_work_id_7110">Ouvertüre</rs> zu <rs type="person" ref="#hsl_person_id_1635">Byron</rs>’s „<rs type="bibl" ref="#hsl_work_id_1065">Kain</rs>“
+         <lb facs="#facs_2_region_1706947650857_498_tl_91" n="N089"/>machte uns wenig Vergnügen. Von <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’s <rs type="bibl" ref="#hsl_work_id_92">„Manfred“-
+         <lb facs="#facs_2_region_1706947650857_498_tl_92" n="N090"/>Ouvertüre</rs> angeregt, arbeitet sie nicht mit originellem Material
+         <lb facs="#facs_2_l_8" n="N091"/>und erreicht ihre übermäßige Ausdehnung weniger durch Ent
+         <lb facs="#facs_2_l_9" n="N092" break="no"/>wicklung und Steigerung, als durch ermüdendes Wiederholen und
+         <lb facs="#facs_2_region_1706947650857_498_tl_97" n="N093"/>Anstückeln. Obendrein ist die Stimmung eine so niederdrückend
+         <lb facs="#facs_2_region_1706947650857_498_tl_98" n="N094"/>verzweifelte, daß der Hörer schließlich auf Selbstmordgedanken
+         <lb facs="#facs_2_region_1706947650857_498_tl_99" n="N095"/>geräth. Herr <rs type="person" ref="#hsl_person_id_1327">Heuberger</rs> wird uns hierauf natürlich antworten,
+         <lb facs="#facs_2_region_1706947650857_498_tl_100" n="N096"/>daß das in einer <rs type="bibl" ref="#hsl_work_id_7110">Ouvertüre</rs> zu „<rs type="bibl" ref="#hsl_work_id_1065">Kain</rs>“ so sein müsse. Aber muß
+         <lb facs="#facs_2_region_1706947650857_498_tl_101" n="N097"/>denn gerade eine <rs type="bibl" ref="#hsl_work_id_7110">Ouvertüre</rs> zu <rs type="bibl" ref="#hsl_work_id_1065">Kain</rs> componirt werden? Zwei
+         <lb facs="#facs_2_region_1706947650857_498_tl_102" n="N098"/>Sopranlieder von <rs type="person" ref="#hsl_person_id_1327">Heuberger</rs>: „<rs type="bibl" ref="#hsl_work_id_7112">Bitt’ ihn, o Mutter!</rs>“ und „<rs type="bibl" ref="#hsl_work_id_7113">Sagt,
+         <lb facs="#facs_2_region_1706947650857_498_tl_103" n="N099"/>seid Ihr es, feiner Herr?</rs>“ (nach dem <rs type="place" ref="#hsl_place_id_2">Spanisch</rs>en von Paul
+         <lb facs="#facs_2_region_1706947650857_498_tl_104" n="N100"/><rs type="person" ref="#hsl_person_id_1278">Heyse</rs>) zählen wir nach ihrer reizenden Musik und geistreichen
+         <lb facs="#facs_2_region_1706947650857_498_tl_105" n="N101"/>Declamation zu dem Besten, was in dieser Art nach <rs type="person" ref="#hsl_person_id_282">Schumann</rs><space quantity="1" unit="char"/>
+         <lb facs="#facs_2_region_1706947650857_498_tl_106" n="N102"/>und <rs type="person" ref="#hsl_person_id_41">Brahms</rs> geleistet ist. Diese beiden Tondichter scheint <rs type="person" ref="#hsl_person_id_1327">Heu
+         <lb facs="#facs_2_region_1706947650857_498_tl_107" n="N103" break="no"/>berger</rs> zumeist zu lieben, verliert aber keinem gegenüber seine
+         <lb facs="#facs_2_region_1706947650857_498_tl_108" n="N104"/>volle Selbstständigkeit. Zum wirkungsvollen Vortrage von
+         <lb facs="#facs_2_region_1706947650857_498_tl_109" n="N105"/><rs type="person" ref="#hsl_person_id_1327">Heuberger</rs>’s Liedern gehört nicht blos bedeutende Technik, son
+         <lb facs="#facs_2_l_11" n="N106" break="no"/>dern Geist; sie wollen nicht rein liedmäßig „gesungen“
+         <lb facs="#facs_2_l_10" n="N107"/>sein, sondern gleichzeitig ein bischen gesprochen gespielt.
+         <lb facs="#facs_2_region_1706947650857_498_tl_114" n="N108"/>Fräulein Marie <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3746">Lehmann</rs></hi> löste diese schwierige Aufgabe mit
+         <lb facs="#facs_2_l_12" n="N109"/>vollendeter Meisterschaft. Aus „<rs type="bibl" ref="#hsl_work_id_1869">Des Knaben Wunderhorn</rs>“ hat
+         <lb facs="#facs_2_l_13" n="N110"/><rs type="person" ref="#hsl_person_id_1327">Heuberger</rs> eine Art lyrischer Scene für Tenor, Sopran und
+         <lb facs="#facs_2_region_1706947650857_498_tl_115" n="N111"/>Männerchor zusammengestellt unter dem Titel: „<rs type="bibl" ref="#hsl_work_id_7114">Geht dir’s wohl,
+         <lb facs="#facs_2_region_1706947650857_498_tl_116" n="N112"/>so denk’ an mich</rs>“. Ein warmer, schlichter Gemüthston durchdringt
+         <lb facs="#facs_2_region_1706947650857_498_tl_117" n="N113"/>diese Composition, deren erste Hälfte stark und unmittelbar an
+         <lb facs="#facs_2_region_1706947650857_498_tl_118" n="N114" break="no"/>spricht. Von dem Augenblicke aber, wo beide Liebenden zusammen</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <cb n="2"/>
             <p>
-               <lb facs="#facs_2_region_1706947650857_498_tl_1" n="N001"/>
-               <hi rendition="#em">Concerte</hi>.
-               <lb facs="#facs_2_region_1706947650857_498_tl_2" n="N002"/>Ed. H. Hector <rs type="person">Berlioz</rs> erzählt einmal, wie ihm eines Mor¬
-               <lb facs="#facs_2_l" n="N003"/>gens ein Violin-Virtuose dessen Concert er krankheitshalber nicht 
-               <lb facs="#facs_2_region_1706947650857_498_tl_5" n="N004"/>besuchen konnte, mit der Geige aufs Zimmer gerückt kam, um
-               <lb facs="#facs_2_region_1706947650857_498_tl_6" n="N005"/>dem wehrlosen Musik-Kritiker sein ganzes Programm nachträglich
-               <lb facs="#facs_2_region_1706947650857_498_tl_7" n="N006"/>vorzuspielen. So gewaltsam ist in <rs type="place">Wien</rs> noch kein Concertgeber
-               <lb facs="#facs_2_l_1" n="N007"/>gegen uns vorgegangen. Hingegen waren wir mitunter recht froh,
-               <lb facs="#facs_2_l_2" n="N008"/>einen renommirten Künstler, dessen öffentliches Auftreten wir
-               <lb facs="#facs_2_region_1706947650857_498_tl_12" n="N009"/>
-               <hi rendition="#em">ungern</hi> versäumt hatten — es gibt wirklich auch solche —
-               <lb facs="#facs_2_region_1706947650857_498_tl_13" n="N010"/>privatim hören zu können. So z. B. Fräulein Marie <hi rendition="#em">
-                  <rs type="person">Soldat</rs>
-               </hi>,
-               <lb facs="#facs_2_region_1706947650857_498_tl_14" n="N011"/>eine aus <rs type="place">Graz</rs> gebürtige junge Violinspielerin, die durch mehrere
-               <lb facs="#facs_2_region_1706947650857_498_tl_15" n="N012"/>Jahre den Unterricht <hi rendition="#em">
-                  <rs type="person">Joachim</rs>'s</hi> genoß und von ihm wie von
-               <lb facs="#facs_2_region_1706947650857_498_tl_16" n="N013"/>
-               <hi rendition="#em">
-                  <rs type="person">Brahms</rs>
-               </hi> warm empfohlen ist. Fräulein <rs type="person">Soldat</rs> hat uns, von
-               <lb facs="#facs_2_region_1706947650857_498_tl_17" n="N014"/>der trefflichen Pianistin Fräulein <hi rendition="#em">
-                  <rs type="person">Baumeyer</rs>
-               </hi> begleitet, die
-               <lb facs="#facs_2_region_1706947650857_498_tl_18" n="N015"/>
-               <hi rendition="#em">
-                  <rs type="person">Brahms</rs>
-               </hi>'sche <rs type="bibl">Violin-Sonate</rs> vorgespielt, wie wir das Stück
-               <lb facs="#facs_2_l_18" n="N016"/>niemals besser gehört, und genau so, wie es gespielt sein will:
-               <lb facs="#facs_2_l_19" n="N017"/>schlicht und doch ausdrucksvoll, mit feinem Stylgefühl und jener
-               <lb facs="#facs_2_region_1706947650857_498_tl_19" n="N018"/>classischen Abrundung, die an <rs type="person">Joachim</rs> erinnert. Fräulein <rs type="person">Soldat</rs>
-               <lb facs="#facs_2_region_1706947650857_498_tl_20" n="N019"/>spielt mit musterhafter Reinheit, mit gesangvollem, für ein junges
-               <lb facs="#facs_2_region_1706947650857_498_tl_21" n="N020"/>Mädchen auch starkem Ton, vor Allem mit eindringendem Ver¬
-               <lb facs="#facs_2_l_14" n="N021"/>ständnisse und echt musikalischer Empfindung. Temperament und
-               <lb facs="#facs_2_l_15" n="N022"/>graziöse Laune zeigte sie in dem Vortrage der „<rs type="bibl">Ungarischen Tänze</rs>“
-               <lb facs="#facs_2_region_1706947650857_498_tl_22" n="N023"/>von <rs type="person">Brahms</rs> und <rs type="person">Joachim</rs>, modernste Virtuosenkünste und Kunst¬
-               <lb facs="#facs_2_region_1706947650857_498_tl_23" n="N024"/>stücke in der „<rs type="bibl">Habanera</rs>“ von <rs type="person">Sarasate</rs>. Es war gleichsam die
-               <lb facs="#facs_2_region_1706947650857_498_tl_24" n="N025"/>Generalprobe ihres Concerts, der wir beiwohnten — eine Probe,
-               <lb facs="#facs_2_region_1706947650857_498_tl_25" n="N026"/>welche den großen, der Künstlerin bevorstehenden Erfolg wol
-               <lb facs="#facs_2_region_1706947650857_498_tl_26" n="N027"/>voraussehen ließ. Dieser Erfolg ist auch nicht ausgeblieben und
-               <lb facs="#facs_2_region_1706947650857_498_tl_27" n="N028"/>soll nach dem Vortrage des <hi rendition="#em">
-                  <rs type="person">Mendelssohn</rs>
-               </hi>'schen <rs type="bibl">Concert</rs>es
-               <lb facs="#facs_2_region_1706947650857_498_tl_28" n="N029"/>eine ungewöhnliche Höhe erreicht haben.
-               <lb facs="#facs_2_region_1706947650857_498_tl_29" n="N030"/>Mit gewohntem Erfolge gab der <hi rendition="#em">
-                  <rs type="place">Wien</rs>er Männer¬</hi>
-               <lb facs="#facs_2_region_1706947650857_498_tl_30" n="N031"/>
-               <hi rendition="#em">gesang-Verein</hi> sein zweites Concert, das sich zum Unter¬
-               <lb facs="#facs_2_region_1706947650857_498_tl_31" n="N032"/>schiede vom ersten regelmäßig auf kleinere Compositionen mit
-               <lb facs="#facs_2_region_1706947650857_498_tl_32" n="N033"/>Clavierbegleitung beschränkt. Herr E. <hi rendition="#em">
-                  <rs type="person">Kremser</rs>
-               </hi>, in diesem
-               <lb facs="#facs_2_region_1706947650857_498_tl_33" n="N034"/>Jahre wieder alleiniger Chormeister des Vereins, hat neuerdings
-               <lb facs="#facs_2_region_1706947650857_498_tl_34" n="N035"/>den Beweis geliefert, daß er keines zweiten, wie immer mit
-               <lb facs="#facs_2_region_1706947650857_498_tl_35" n="N036"/>„Wein“ anfangenden Collegen bedürfe, um die Productionen auf
-               <lb facs="#facs_2_region_1706947650857_498_tl_36" n="N037"/>ihrer künstlerischen Höhe zu erhalten. Beide Concerte haben sein
-               <lb facs="#facs_2_region_1706947650857_498_tl_37" n="N038"/>bedeutendes Dirigenten-Talent wiederum in helles Licht gesetzt.
-               <lb facs="#facs_2_region_1706947650857_498_tl_38" n="N039"/>Dem Männergesang-Vereine folgte rasch der „<hi rendition="#em">Schubert¬</hi>
-               <lb facs="#facs_2_l_3" n="N040"/>
-               <hi rendition="#em">bund</hi>“ mit seinem alljährlichen großen Concerte. Lebhaftesten
-               <lb facs="#facs_2_region_1706947650857_498_tl_41" n="N041"/>Beifall fanden die Solonummern: Gesangsvorträge der Frau
-               <lb facs="#facs_2_region_1706947650857_498_tl_42" n="N042"/>
-               <hi rendition="#em">
-                  <rs type="person">Neuda-Bernstein</rs>
-               </hi> und des Violin-Virtuosen Marcello
-               <lb facs="#facs_2_region_1706947650857_498_tl_43" n="N043"/>
-               <hi rendition="#em">
-                  <rs type="person">Rossi</rs>
-               </hi>. Was die Herren vom „Schubertbund“ betrifft, so haben
-               <lb facs="#facs_2_l_4" n="N044"/>sie, wie immer, sehr gut gesungen, aber nicht lauter Gutes. Man
-               <lb facs="#facs_2_l_5" n="N045"/>ist gegen Novitäten für Männerchor mit Rücksicht auf ihre
-               <lb facs="#facs_2_region_1706947650857_498_tl_48" n="N046"/>knappe Begrenzung und die zur Stunde fast erschöpfte Producti¬
-               <lb facs="#facs_2_region_1706947650857_498_tl_49" n="N047"/>vität recht nachsichtig geworden und nimmt einen klangvoll gesetz¬
-               <lb facs="#facs_2_region_1706947650857_498_tl_50" n="N048"/>ten und natürlich fließenden Männerchor anspruchslos entgegen,
-               <lb facs="#facs_2_region_1706947650857_498_tl_51" n="N049"/>wenn er nur selber anspruchslos auftritt. Aber mit so geschmack¬
-               <lb facs="#facs_2_region_1706947650857_498_tl_52" n="N050"/>losen, dabei prätentiös ausgedehnten Novitäten, wie <hi rendition="#em">
-                  <rs type="person">Möhring</rs>'s</hi>
-               <lb facs="#facs_2_region_1706947650857_498_tl_53" n="N051"/>„<rs type="bibl">Aus hohen Bergen</rs>“ und Franz <hi rendition="#em">
-                  <rs type="person">Mair</rs>'s</hi> „<rs type="bibl">Einsame Mühle</rs>“,
-               <lb facs="#facs_2_region_1706947650857_498_tl_54" n="N052"/>gibt der „Schubertbund“ kein gutes Beispiel und seinem Namen
-               <lb facs="#facs_2_region_1706947650857_498_tl_55" n="N053"/>keine Ehre. In beiden Chören stellt schon die Wahl des Gedichtes
-               <lb facs="#facs_2_region_1706947650857_498_tl_56" n="N054"/>den gesunden musikalischen Sinn des Componisten in Zweifel.
-               <lb facs="#facs_2_region_1706947650857_498_tl_57" n="N055"/>Das erstgenannte <rs type="bibl">Gedicht</rs> beklagt in fünf langen Strophen den
-               <lb facs="#facs_2_region_1706947650857_498_tl_58" n="N056"/>Tod eines Gemsenjägers, der in den Abgrund stürzte und nun
-               <lb facs="#facs_2_region_1706947650857_498_tl_59" n="N057"/>zerschmettert unten liegt, „die tückische Wurzel in starrer Hand“.
-               <lb facs="#facs_2_region_1706947650857_498_tl_60" n="N058"/>Diese Zeile wird unzähligemal in schauerlichen Rhythmen wieder¬
-               <lb facs="#facs_2_region_1706947650857_498_tl_61" n="N059"/>holt, während sie doch eine möglichst rasche Ueberleitung zu dem
-               <lb facs="#facs_2_region_1706947650857_498_tl_62" n="N060"/>Folgenden bilden sollte. In der „<rs type="bibl">Einsamen Mühle</rs>“ bekommen
-               <lb facs="#facs_2_l_6" n="N061"/>wir einzelne Worte wie „Schuß“ oder „Klappern“ schon in den
-               <lb facs="#facs_2_region_1706947650857_498_tl_65" n="N062"/>Singstimmen realistisch ausgemalt, den „brausenden Mühlbach“
-               <lb facs="#facs_2_l_16" n="N063"/>natürlich noch großartiger in wilden Clavierpassagen. Mit dem
-               <lb facs="#facs_2_l_17" n="N064"/>Vers: „Schön Liese schafft und ordnet“ schlägt der Ton sofort
-               <lb facs="#facs_2_region_1706947650857_498_tl_66" n="N065"/>in süßliche Sentimentalität um, und werden die zwei Worte „Schön
-               <lb facs="#facs_2_l_7" n="N066"/>Liese, Schön Liese“ volle zehnmal hinter einander kosend wieder¬
-               <lb facs="#facs_2_region_1706947650857_498_tl_69" n="N067"/>holt. Gegen Ende des Chors muß sogar eine höchst unerwartete
-               <lb facs="#facs_2_region_1706947650857_498_tl_70" n="N068"/>Physharmonika den Eindruck des Geheimnisvollen auskochen
-               <lb facs="#facs_2_region_1706947650857_498_tl_71" n="N069"/>helfen. Das Alles erwähnen wir nur als abschreckende Beispiele
-               <lb facs="#facs_2_region_1706947650857_498_tl_72" n="N070"/>von jener falschen Compositionsweise, die, ohne Gefühl für die
-               <lb facs="#facs_2_region_1706947650857_498_tl_73" n="N071"/>Gesammtstimmung des Gedichtes, den melodischen Fluß fort¬
-               <lb facs="#facs_2_region_1706947650857_498_tl_74" n="N072"/>während unterbricht, um sich an kleinste Details zu klammern
-               <lb facs="#facs_2_region_1706947650857_498_tl_75" n="N073"/>und einzelne Worte, vorübergehende Vergleiche möglichst dramatisch
-               <lb facs="#facs_2_region_1706947650857_498_tl_76" n="N074"/>auszumalen. Für dieses schiefe, immer mehr überhandnehmende
-               <lb facs="#facs_2_region_1706947650857_498_tl_77" n="N075"/>Verfahren hatte der geistreiche M. <hi rendition="#em">
-                  <rs type="person">Hauptmann</rs>
-               </hi> einen guten
-               <lb facs="#facs_2_region_1706947650857_498_tl_78" n="N076"/>Vergleich. Er sagt, daß es zwei Arten gibt, Text in Musik zu
-               <lb facs="#facs_2_region_1706947650857_498_tl_79" n="N077"/>setzen: die eine, wie der Uhrmacher eine Uhr „in Oel setzt“, wo
-               <lb facs="#facs_2_region_1706947650857_498_tl_80" n="N078"/>jedes Zäpfchen, jede Spindel des Werkes mit einem Tröpfchen
-               <lb facs="#facs_2_region_1706947650857_498_tl_81" n="N079"/>Oel betupft wird — so die declamatorische Musik; die andere,
-               <lb facs="#facs_2_region_1706947650857_498_tl_82" n="N080"/>wie man den Fisch ins Wasser setzt — so die musikalische Musik.
-               <lb facs="#facs_2_region_1706947650857_498_tl_83" n="N081"/>Die „Mühle“ wurde übrigens wiederholt; offenbar steckte in
-               <lb facs="#facs_2_region_1706947650857_498_tl_84" n="N082"/>dem Publicum des „Schubertbund“ noch die <rs type="person">Mair</rs>'sche Jubiläums¬
-               <lb facs="#facs_2_region_1706947650857_498_tl_85" n="N083"/>stimmung.
-               <lb facs="#facs_2_region_1706947650857_498_tl_86" n="N084"/>Da haben die Chor- und Lieder-Compositionen von <hi rendition="#em">Richard</hi>
-               <lb facs="#facs_2_region_1706947650857_498_tl_87" n="N085"/>
-               <hi rendition="#em">
-                  <rs type="person">Heuberger</rs>
-               </hi> ein ganz anderes Ansehen. Das Meiste von dem,
-               <lb facs="#facs_2_region_1706947650857_498_tl_88" n="N086"/>was er uns in seinem Concerte am 29. April vorgeführt, hat
-               <lb facs="#facs_2_region_1706947650857_498_tl_89" n="N087"/>uns geradezu überrascht durch Frische der Phantasie und seine
-               <lb facs="#facs_2_region_1706947650857_498_tl_90" n="N088"/>musikalische Gestaltung. Nur die <rs type="bibl">Ouvertüre</rs> zu <rs type="person">Byron</rs>'s „<rs type="bibl">Kain</rs>“
-               <lb facs="#facs_2_region_1706947650857_498_tl_91" n="N089"/>machte uns wenig Vergnügen. Von <rs type="person">Schumann</rs>'s <rs type="bibl">„Manfred“-</rs>
-               <lb facs="#facs_2_region_1706947650857_498_tl_92" n="N090"/>
-               <rs type="bibl">Ouvertüre</rs> angeregt, arbeitet sie nicht mit originellem Material
-               <lb facs="#facs_2_l_8" n="N091"/>und erreicht ihre übermäßige Ausdehnung weniger durch Ent¬
-               <lb facs="#facs_2_l_9" n="N092"/>wicklung und Steigerung, als durch ermüdendes Wiederholen und
-               <lb facs="#facs_2_region_1706947650857_498_tl_97" n="N093"/>Anstückeln. Obendrein ist die Stimmung eine so niederdrückend
-               <lb facs="#facs_2_region_1706947650857_498_tl_98" n="N094"/>verzweifelte, daß der Hörer schließlich auf Selbstmordgedanken
-               <lb facs="#facs_2_region_1706947650857_498_tl_99" n="N095"/>geräth. Herr <rs type="person">Heuberger</rs> wird uns hierauf natürlich antworten,
-               <lb facs="#facs_2_region_1706947650857_498_tl_100" n="N096"/>daß das in einer Ouvertüre zu „<rs type="bibl">Kain</rs>“ so sein müsse. Aber muß
-               <lb facs="#facs_2_region_1706947650857_498_tl_101" n="N097"/>denn gerade eine Ouvertüre zu <rs type="bibl">Kain</rs> componirt werden? Zwei
-               <lb facs="#facs_2_region_1706947650857_498_tl_102" n="N098"/>Sopranlieder von <rs type="person">Heuberger</rs>: „<rs type="bibl">Bitt' ihn, o Mutter!</rs>“ und „<rs type="bibl">Sagt,</rs>
-               <lb facs="#facs_2_region_1706947650857_498_tl_103" n="N099"/>
-               <rs type="bibl">seid Ihr es, seiner Herr?</rs>“ (nach dem <rs type="place">Spanisch</rs>en von Paul
-               <lb facs="#facs_2_region_1706947650857_498_tl_104" n="N100"/>
-               <rs type="person">Heyse</rs>) zählen wir nach ihrer reizenden Musik und geistreichen
-               <lb facs="#facs_2_region_1706947650857_498_tl_105" n="N101"/>Declamation zu dem Besten, was in dieser Art nach <rs type="person">Schumann</rs>
-               <lb facs="#facs_2_region_1706947650857_498_tl_106" n="N102"/>und <rs type="person">Brahms</rs> geleistet ist. Diese beiden Tondichter scheint <rs type="person" continued="true">Heu¬</rs>
-               <lb facs="#facs_2_region_1706947650857_498_tl_107" n="N103"/>
-               <rs type="person" continued="true">berger</rs> zumeist zu lieben, verliert aber keinem gegenüber seine
-               <lb facs="#facs_2_region_1706947650857_498_tl_108" n="N104"/>volle Selbstständigkeit. Zum wirkungsvollen Vortrage von
-               <lb facs="#facs_2_region_1706947650857_498_tl_109" n="N105"/>
-               <rs type="person">Heuberger</rs>'s Liedern gehört nicht blos bedeutende Technik, son¬
-               <lb facs="#facs_2_l_11" n="N106"/>dern Geist; sie wollen nicht rein liedmäßig „gesungen“
-               <lb facs="#facs_2_l_10" n="N107"/>sein, sondern gleichzeitig ein bischen gesprochen gespielt.
-               <lb facs="#facs_2_region_1706947650857_498_tl_114" n="N108"/>Fräulein Marie <hi rendition="#em">
-                  <rs type="person">Lehmann</rs>
-               </hi> löste diese schwierige Aufgabe mit
-               <lb facs="#facs_2_l_12" n="N109"/>vollendeter Meisterschaft. Aus „<rs type="bibl">Des Knaben Wunderhorn</rs>“ hat
-               <lb facs="#facs_2_l_13" n="N110"/>
-               <rs type="person">Heuberger</rs> eine Art lyrischer Scene für Tenor, Sopran und
-               <lb facs="#facs_2_region_1706947650857_498_tl_115" n="N111"/>Männerchor zusammengestellt unter dem Titel: „<rs type="bibl">Geht dir's wohl,</rs>
-               <lb facs="#facs_2_region_1706947650857_498_tl_116" n="N112"/>
-               <rs type="bibl">so denk' an mich</rs>“. Ein warmer, schlichter Gemüthston durchdringt
-               <lb facs="#facs_2_region_1706947650857_498_tl_117" n="N113"/>diese Composition, deren erste Hälfte stark und unmittelbar an¬
-               <lb facs="#facs_2_region_1706947650857_498_tl_118" n="N114"/>spricht. Von dem Augenblicke aber, wo beide Liebenden zusammen¬
-            </p>
-            <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <cb n="3"/>
-            <p>
-               <lb facs="#facs_3_region_1706947667317_504_tl_1" n="N001"/>singen, kann der Componist kein Ende finden und bauscht das
-               <lb facs="#facs_3_region_1706947667317_504_tl_2" n="N002"/>Stück zu einem Volumen auf, dem der einfache Stoff nicht recht
-               <lb facs="#facs_3_region_1706947667317_504_tl_3" n="N003"/>entspricht. Eine geschickte Kürzung würde den Eindruck ohne
-               <lb facs="#facs_3_region_1706947667317_504_tl_4" n="N004"/>Zweifel verstärken. Noch bedeutender wirkte ein „<rs type="bibl">Liederreigen</rs>“ für
-               <lb facs="#facs_3_l" n="N005"/>Soli, gemischten Chor und Clavier, welchen <rs type="person">Heuberger</rs> nach Art
-               <lb facs="#facs_3_l_1" n="N006"/>des <rs type="person">Schumann</rs>'schen „<rs type="bibl">Liederspiels</rs>“ aus einzelnen, durch ihre
-               <lb facs="#facs_3_region_1706947667317_504_tl_9" n="N007"/>Stimmung lose verbundenen Gedichten zusammengefügt hat. Unter
-               <lb facs="#facs_3_region_1706947667317_504_tl_10" n="N008"/>den elf Stücken dieses Cyklus ist kein einziges, dem nicht
-               <lb facs="#facs_3_region_1706947667317_504_tl_11" n="N009"/>poetische Auffassung, vornehme Haltung und feinste Charakteristik
-               <lb facs="#facs_3_region_1706947667317_504_tl_12" n="N010"/>nachzurühmen wäre. Das Sopran-Solo: „Wirst du wol, o meine
-               <lb facs="#facs_3_region_1706947667317_504_tl_13" n="N011"/>Wonne“, das Duett: „Ei du Mädchen meiner Seele“ (von
-               <lb facs="#facs_3_region_1706947667317_504_tl_14" n="N012"/>Fräulein <hi rendition="#em">
-                  <rs type="person">Lehmann</rs>
-               </hi> und Herrn <hi rendition="#em">
-                  <rs type="person">Walter</rs>
-               </hi> unvergleichlich vor¬
-               <lb facs="#facs_3_region_1706947667317_504_tl_15" n="N013"/>getragen), das Tenor-Solo mit Chor: „Woher schmückt dieser
-               <lb facs="#facs_3_region_1706947667317_504_tl_16" n="N014"/>Glanz“ sind wahre Perlen. Auch die von Fräulein Julie
-               <lb facs="#facs_3_region_1706947667317_504_tl_17" n="N015"/>
-               <hi rendition="#em">
-                  <rs type="person">Salter</rs>
-               </hi> mit warmem, etwas befangenem Ausdruck gesungenen
-               <lb facs="#facs_3_region_1706947667317_504_tl_18" n="N016"/>Alt-Soli fassen den poetischen Gedanken in ein anschmiegendes,
-               <lb facs="#facs_3_region_1706947667317_504_tl_19" n="N017"/>durchsichtiges Gewand. Wir können nur die Bemerkung nicht
-               <lb facs="#facs_3_region_1706947667317_504_tl_20" n="N018"/>unterdrücken, daß das Ganze vielleicht etwas zu spät, jedenfalls aber
-               <lb facs="#facs_3_region_1706947667317_504_tl_21" n="N019"/>zu tragisch abschließt. Der tieftraurige Inhalt der drei letzten Gesänge
-               <lb facs="#facs_3_region_1706947667317_504_tl_22" n="N020"/>drückt die Stimmung des Hörers allzu tief herab. Es lag keinerlei
-               <lb facs="#facs_3_region_1706947667317_504_tl_23" n="N021"/>Nothwendigkeit vor, ein frei zusammengestelltes <rs type="bibl">Liederspiel</rs>, das
-               <lb facs="#facs_3_region_1706947667317_504_tl_24" n="N022"/>mit einem Preisliede auf „Jugend, Rausch und Liebe“ anhebt, mit
-               <lb facs="#facs_3_region_1706947667317_504_tl_25" n="N023"/>dem Klagechor zu enden: „Womit soll ich mein krankes Herz
-               <lb facs="#facs_3_l_2" n="N024"/>beschwichten? Es gibt nur Einen Weg, ich muß ihn gehen, bis
-               <lb facs="#facs_3_l_3" n="N025"/>sterbend alle meine Pulse stehen.“ Wäre es im Interesse des
-               <lb facs="#facs_3_region_1706947667317_504_tl_30" n="N026"/>Totaleindruckes nicht wünschenswerth, lieber mit der schönen
-               <lb facs="#facs_3_region_1706947667317_504_tl_31" n="N027"/>achten Nummer abzuschließen, allenfalls mit einer Wiederholung
-               <lb facs="#facs_3_region_1706947667317_504_tl_32" n="N028"/>des kurzen Eingangschors? Für uns bleibt die Hauptsache, daß
-               <lb facs="#facs_3_region_1706947667317_504_tl_33" n="N029"/>wir in <rs type="person">Heuberger</rs> ein echtes, bedeutendes und fein ausgebildetes
-               <lb facs="#facs_3_region_1706947667317_504_tl_34" n="N030"/>Talent kennen gelernt haben, das allgemeine Beachtung verdient
-               <lb facs="#facs_3_region_1706947667317_504_tl_35" n="N031"/>und sich sie auch bald erzwingen wird. Beiläufig bemerkt, leuchtet
-               <lb facs="#facs_3_region_1706947667317_504_tl_36" n="N032"/>durch die besten seiner Compositionen eine entschiedene dramatische
-               <lb facs="#facs_3_region_1706947667317_504_tl_37" n="N033"/>Begabung. Dem Vernehmen nach hat <rs type="person">Heuberger</rs> eine Oper fertig,
-               <lb facs="#facs_3_region_1706947667317_504_tl_38" n="N034"/>mit der er bereits bei den verschiedensten Opern-Directionen ver¬
-               <lb facs="#facs_3_region_1706947667317_504_tl_39" n="N035"/>geblich angeklopft hat. Vielleicht haben letztere die zurückgeschickte
-               <lb facs="#facs_3_region_1706947667317_504_tl_40" n="N036"/>Partitur gar nicht angesehen. Das ist eine alte Leidensgeschichte,
-               <lb facs="#facs_3_region_1706947667317_504_tl_41" n="N037"/>die noch lange neu bleiben dürfte. Der früh verstorbene Componist
-               <lb facs="#facs_3_region_1706947667317_504_tl_42" n="N038"/>Franz v. <hi rendition="#em">
-                  <rs type="person">Holstein</rs>
-               </hi>, dessen Opern „<rs type="bibl">Der Haideschacht</rs>“ und
-               <lb facs="#facs_3_l_4" n="N039"/>„<rs type="bibl">Erbe von Morley</rs>“ erfolgreich über viele Bühnen gegangen,
-               <lb facs="#facs_3_region_1706947667317_504_tl_45" n="N040"/>schrieb mir einmal in kläglichem Tone: „Ist es wahr, was mir
-               <lb facs="#facs_3_region_1706947667317_504_tl_46" n="N041"/>Ihr Landsmann Joseph <hi rendition="#em">
-                  <rs type="person">Dessauer</rs>
-               </hi> sagt: daß es mir leichter
-               <lb facs="#facs_3_region_1706947667317_504_tl_47" n="N042"/>würde, Herzog zu werden, als eine Oper beim Kärntnerthor-
-               <lb facs="#facs_3_region_1706947667317_504_tl_48" n="N043"/>Theater anzubringen?“ Ich antwortete ihm: „Ja.“
+         <lb facs="#facs_3_region_1706947667317_504_tl_1" n="N001" break="no"/>singen, kann der Componist kein Ende finden und bauscht das
+         <lb facs="#facs_3_region_1706947667317_504_tl_2" n="N002"/>Stück zu einem Volumen auf, dem der einfache Stoff nicht recht
+         <lb facs="#facs_3_region_1706947667317_504_tl_3" n="N003"/>entspricht. Eine geschickte Kürzung würde den Eindruck ohne
+         <lb facs="#facs_3_region_1706947667317_504_tl_4" n="N004"/>Zweifel verstärken. Noch bedeutender wirkte ein „<rs type="bibl" ref="#hsl_work_id_2100">Liederreigen</rs>“ für
+         <lb facs="#facs_3_l" n="N005"/>Soli, gemischten Chor und Clavier, welchen <rs type="person" ref="#hsl_person_id_1327">Heuberger</rs> nach Art
+         <lb facs="#facs_3_l_1" n="N006"/>des <rs type="person" ref="#hsl_person_id_282">Schumann</rs>’schen „<rs type="bibl" ref="#hsl_work_id_2025">Liederspiels</rs>“ aus einzelnen, durch ihre
+         <lb facs="#facs_3_region_1706947667317_504_tl_9" n="N007"/>Stimmung lose verbundenen Gedichten zusammengefügt hat. Unter
+         <lb facs="#facs_3_region_1706947667317_504_tl_10" n="N008"/>den elf Stücken dieses Cyklus ist kein einziges, dem nicht
+         <lb facs="#facs_3_region_1706947667317_504_tl_11" n="N009"/>poetische Auffassung, vornehme Haltung und feinste Charakteristik
+         <lb facs="#facs_3_region_1706947667317_504_tl_12" n="N010"/>nachzurühmen wäre. Das Sopran-Solo: „Wirst du wol, o meine
+         <lb facs="#facs_3_region_1706947667317_504_tl_13" n="N011"/>Wonne“, das Duett: „Ei du Mädchen meiner Seele“ (von
+         <lb facs="#facs_3_region_1706947667317_504_tl_14" n="N012"/>Fräulein <hi rendition="#em"><rs type="person" ref="#hsl_person_id_3746">Lehmann</rs></hi> und Herrn <hi rendition="#em"><rs type="person" ref="#hsl_person_id_320">Walter</rs></hi> unvergleichlich vor
+         <lb facs="#facs_3_region_1706947667317_504_tl_15" n="N013" break="no"/>getragen), das Tenor-Solo mit Chor: „Woher schmückt dieser
+         <lb facs="#facs_3_region_1706947667317_504_tl_16" n="N014"/>Glanz“ sind wahre Perlen. Auch die von Fräulein Julie
+         <lb facs="#facs_3_region_1706947667317_504_tl_17" n="N015"/><hi rendition="#em"><rs type="person" ref="#hsl_person_id_4563">Salter</rs></hi> mit warmem, etwas befangenem Ausdruck gesungenen
+         <lb facs="#facs_3_region_1706947667317_504_tl_18" n="N016"/>Alt-Soli fassen den poetischen Gedanken in ein anschmiegendes,
+         <lb facs="#facs_3_region_1706947667317_504_tl_19" n="N017"/>durchsichtiges Gewand. Wir können nur die Bemerkung nicht
+         <lb facs="#facs_3_region_1706947667317_504_tl_20" n="N018"/>unterdrücken, daß das Ganze vielleicht etwas zu spät, jedenfalls aber
+         <lb facs="#facs_3_region_1706947667317_504_tl_21" n="N019"/>zu tragisch abschließt. Der tieftraurige Inhalt der drei letzten Gesänge
+         <lb facs="#facs_3_region_1706947667317_504_tl_22" n="N020"/>drückt die Stimmung des Hörers allzu tief herab. Es lag keinerlei
+         <lb facs="#facs_3_region_1706947667317_504_tl_23" n="N021"/>Nothwendigkeit vor, ein frei zusammengestelltes <rs type="bibl" ref="#hsl_work_id_2025">Liederspiel</rs>, das
+         <lb facs="#facs_3_region_1706947667317_504_tl_24" n="N022"/>mit einem Preisliede auf „Jugend, Rausch und Liebe“ anhebt, mit
+         <lb facs="#facs_3_region_1706947667317_504_tl_25" n="N023"/>dem Klagechor zu enden: „Womit soll ich mein krankes Herz
+         <lb facs="#facs_3_l_2" n="N024"/>beschwichten? Es gibt nur Einen Weg, ich muß ihn gehen, bis
+         <lb facs="#facs_3_l_3" n="N025"/>sterbend alle meine Pulse stehen.“ Wäre es im Interesse des
+         <lb facs="#facs_3_region_1706947667317_504_tl_30" n="N026"/>Totaleindruckes nicht wünschenswerth, lieber mit der schönen
+         <lb facs="#facs_3_region_1706947667317_504_tl_31" n="N027"/>achten Nummer abzuschließen, allenfalls mit einer Wiederholung
+         <lb facs="#facs_3_region_1706947667317_504_tl_32" n="N028"/>des kurzen Eingangschors? Für uns bleibt die Hauptsache, daß
+         <lb facs="#facs_3_region_1706947667317_504_tl_33" n="N029"/>wir in <rs type="person" ref="#hsl_person_id_1327">Heuberger</rs> ein echtes, bedeutendes und fein ausgebildetes
+         <lb facs="#facs_3_region_1706947667317_504_tl_34" n="N030"/>Talent kennen gelernt haben, das allgemeine Beachtung verdient
+         <lb facs="#facs_3_region_1706947667317_504_tl_35" n="N031"/>und sich sie auch bald erzwingen wird. Beiläufig bemerkt, leuchtet
+         <lb facs="#facs_3_region_1706947667317_504_tl_36" n="N032"/>durch die besten seiner Compositionen eine entschiedene dramatische
+         <lb facs="#facs_3_region_1706947667317_504_tl_37" n="N033"/>Begabung. Dem Vernehmen nach hat <rs type="person" ref="#hsl_person_id_1327">Heuberger</rs> eine Oper fertig,
+         <lb facs="#facs_3_region_1706947667317_504_tl_38" n="N034"/>mit der er bereits bei den verschiedensten Opern-Directionen ver
+         <lb facs="#facs_3_region_1706947667317_504_tl_39" n="N035" break="no"/>geblich angeklopft hat. Vielleicht haben letztere die zurückgeschickte
+         <lb facs="#facs_3_region_1706947667317_504_tl_40" n="N036"/>Partitur gar nicht angesehen. Das ist eine alte Leidensgeschichte,
+         <lb facs="#facs_3_region_1706947667317_504_tl_41" n="N037"/>die noch lange neu bleiben dürfte. Der früh verstorbene Componist
+         <lb facs="#facs_3_region_1706947667317_504_tl_42" n="N038"/>Franz v. <hi rendition="#em"><rs type="person" ref="#hsl_person_id_5803">Holstein</rs></hi>, dessen Opern „<rs type="bibl" ref="#hsl_work_id_3974">Der Haideschacht</rs>“ und
+         <lb facs="#facs_3_l_4" n="N039"/>„<rs type="bibl" ref="#hsl_work_id_7115">Erbe von Morley</rs>“ erfolgreich über viele Bühnen gegangen,
+         <lb facs="#facs_3_region_1706947667317_504_tl_45" n="N040"/>schrieb mir einmal in kläglichem Tone: „Ist es wahr, was mir
+         <lb facs="#facs_3_region_1706947667317_504_tl_46" n="N041"/>Ihr Landsmann Joseph <hi rendition="#em"><rs type="person" ref="#hsl_person_id_751">Dessauer</rs></hi> sagt: daß es mir leichter
+         <lb facs="#facs_3_region_1706947667317_504_tl_47" n="N042"/>würde, Herzog zu werden, als eine Oper beim Kärntnerthor-
+         <lb facs="#facs_3_region_1706947667317_504_tl_48" n="N043"/>Theater anzubringen?“ Ich antwortete ihm: „Ja.“
             </p>
          </div>
       </body>
